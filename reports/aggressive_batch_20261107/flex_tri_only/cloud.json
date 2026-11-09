@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-flex-tri-only-1107",
+  "version": 1,
+  "branch_sha256": "0f001077f011d748375d1dfe74330efcbb815215b50d9c85477d1c692054d993",
+  "notebook_sha256": "dbe98b957c515c24cab8fd298914d7399ca785579f0331d2fc8b0c1d15fc901a",
+  "metadata_sha256": "09ba6d39053f0d162e16922136a4fb5ec3f9b7ba16e3fd09a141803917909a41",
+  "requested_at_utc": "2026-11-06T16:38:15.291258+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-06T16:38:19.231347+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

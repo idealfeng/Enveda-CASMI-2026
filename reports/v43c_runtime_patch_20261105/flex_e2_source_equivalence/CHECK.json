@@ -1,0 +1,18 @@
+{
+  "status": "passed_no_model_execution",
+  "reference_candidate_hook_ast_equal": true,
+  "flex_e2_cell_identical_with_same_config": true,
+  "flex_e2_generated_runner_identical_with_same_config": true,
+  "v43_resource_hook_absent_from_flex_runner": true,
+  "scientific_ENG_FILES_payloads_identical": {
+    "pv.py": "ac2e7c527f327cfe2acdef6c1a6128a0a360f1f91d5e3e0c8ade338a4a9078f6",
+    "pv_fp.py": "86a760b10a75f3b527a75fca8533e030783c3fd542daaca4711e051734914bcd",
+    "casmi_engine.py": "e461349b37f5097fa2c2e52cedc0716e6fa26567513bab0bb3841cc37e1d5b4f"
+  },
+  "new_shared_file_sha256": {
+    "validation/pipeline_adapter.py": "909cf75e67b82ef5edf6cfbdfb15af1d934904e610c3e2f54a5559533e8ab0f7",
+    "scripts/run_validation_pipeline.py": "6552c8b4c22e42762deeb0617e8064c8570ba49fad72c560fcfaf8fc79ac66e4",
+    "validation/recovery.py": "3b1f6b55f30e422636bc7b46c0aa2ac03b9216506a18da44d25b5a065710cc95"
+  },
+  "models_gpu_or_full_scan_started": false
+}

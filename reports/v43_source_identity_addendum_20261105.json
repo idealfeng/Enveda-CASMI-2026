@@ -1,0 +1,51 @@
+{
+  "status": "verified_original_v43_contains_legacy_ancestor_labels",
+  "checked_utc": "2026-11-05T06:39:47.420337+00:00",
+  "actual_source": {
+    "ref": "prvsiyan/analog-propagation-casmi-2026-baseline",
+    "version": 43,
+    "original_notebook": "third_party/prvsiyan_analog/prvsiyan_v43.ipynb",
+    "notebook_sha256": "a1da86c791cdbcb553254a12cef8bca8b527b991f40953d9dcb2a9c819d3c852",
+    "wrapper_SOURCE_SHA256_matches": true,
+    "outer_validation_receipt_matches": true,
+    "metadata_sha256": "d99ef38d175b9e4fde512909ba4d317e21a435a78bd768da08c8d9cbb83a1ceb"
+  },
+  "legacy_observer_labels": {
+    "source_version_id": 356740494,
+    "source_version": 80,
+    "source_code_sha256": "eee496a371fce179b4aeda1c5082a58212c724eaf1ca4ba0c943bbe8d7196ef2"
+  },
+  "hardcoded_labels_present_in_original_notebook": true,
+  "original_cells_with_legacy_labels": [
+    {
+      "cell_index_zero_based": 30,
+      "cell_type": "code",
+      "lines": [
+        {
+          "line": 53,
+          "text": "    report = dict(experiment='E004', source_version_id=356740494, source_version=80,"
+        },
+        {
+          "line": 54,
+          "text": "                  source_code_sha256='eee496a371fce179b4aeda1c5082a58212c724eaf1ca4ba0c943bbe8d7196ef2',"
+        }
+      ]
+    },
+    {
+      "cell_index_zero_based": 33,
+      "cell_type": "code",
+      "lines": [
+        {
+          "line": 206,
+          "text": "    return run_overlay(scope, **{'experiment': 'E006', 'window': 40, 'ice_fallback': True, 'provenance': {'base_notebook_sha256': '1f0f9b3026a93ddb5ad6fa6993c8ac0a4bfaddc54594eb1dd6dda7a20d8ef0d6', 'base_source_code_sha256': 'eee496a371fce179b4aeda1c5082a58212c724eaf1ca4ba0c943bbe8d7196ef2', 'helper_source_sha256': 'a027a69ddda2c2e14639e3ec5196d5f1eb2ab57cba10ef929723148f31fc8f34', 'source_script_version_id': 356740494, 'ice_policy_source_script_version_id': 356785434, 'ice_policy_source': 'samanyu1808/casmi26-iceberg-where-glacier-is-blind-lb-0-438/1'}})"
+        }
+      ]
+    }
+  ],
+  "e004_report_retained_unchanged_sha256": "36043ea2910c5653582571e4903003a560062b2d9ba8cece50cba5341f4f8ed6",
+  "validation_run_receipt_sha256": "1ce7255016289374139803586fa5a322ce8821648dacc06dfd857b30afe30080",
+  "interpretation": "E004/E006 source identifiers are embedded ancestor/protocol labels already present in the downloaded V43. They do not identify the actual executed notebook as V80. The original file hash, V43 metadata and outer validation receipt establish the actual source.",
+  "hidden_score_or_v80_execution_claimed": false,
+  "original_notebook_or_original_reports_modified": false,
+  "gpu_models_or_full_scan_started": false
+}

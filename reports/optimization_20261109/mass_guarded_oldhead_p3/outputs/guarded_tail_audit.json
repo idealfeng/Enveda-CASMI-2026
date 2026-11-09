@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "branch": "mass_guarded_oldhead_p3",
+  "mode": "fast_static",
+  "recipe_sha256": "4e92f5baaea084e7159c726cfec2bbd63a9c8d1b255ec846fc889e7bbf61082b",
+  "checks": {
+    "original_base_audit": true,
+    "late_module_pin": true,
+    "scorer_payload_pins": true,
+    "original_scorer_pin": true,
+    "configuration_binding": true,
+    "audited_control_bound": true,
+    "final_csv_bound": true,
+    "exact_ids_order": true,
+    "exact_protected_prefix": true,
+    "exact_candidate_multisets": true,
+    "fast_no_model": true
+  },
+  "scorer_executed": false,
+  "score_mode": "learned_heads",
+  "protected_prefix": 3,
+  "changed_queries": 0,
+  "baseline_control_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0"
+}

@@ -1,0 +1,11 @@
+{
+  "inherited_builder": "scripts\\build_learned_head_variants_20261108.py",
+  "inherited_builder_sha256": "3c66645009e99214e96c9246fe0b8849f6ad5b39277c83edee8001b3260eaf68",
+  "adapted_function_sha256": "540dcfd2f56044f81ee13e00636967073f11f0c1284d49fc1daadc2dd4a7b53f",
+  "changes": [
+    "combined=False: always use the original 0.481 MASS stage",
+    "selected=SEEDS: equal prediction mean of both frozen 2500-step heads"
+  ],
+  "no_na_component": true,
+  "no_cloud_writes": true
+}

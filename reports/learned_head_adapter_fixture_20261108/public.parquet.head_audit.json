@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "encoder_sha256": "6a2d23e420f970cce7fdac2f3877ed967f140b3e29db26ca9b4b881e050b5f55",
+  "role": "public_passthrough",
+  "head_applied": false,
+  "training_performed": false
+}

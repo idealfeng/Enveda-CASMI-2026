@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-mass-guarded-oldhead-p3-1109",
+  "version": 1,
+  "branch_sha256": "e124d2efbec898db0afd1f15f37890f94e11f50ee007a759e5cbbffee6ab427f",
+  "notebook_sha256": "1c8eacbd07c1282a2114d558a39a4ad4cf404b5833e8412ae0c51d7fe1ad027f",
+  "metadata_sha256": "d14cde2c3f72f8fcb14cf73aab3fab4239c407b68e6bd38056c78018a316aafa",
+  "requested_at_utc": "2026-11-09T07:19:06.443079+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-09T07:19:10.098249+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

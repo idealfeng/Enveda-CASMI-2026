@@ -1,0 +1,77 @@
+{
+  "branch": "public_alex_extlib",
+  "target": "stormseye/casmi26-public-alex-extlib-1109",
+  "method": "Alex V12 exact external-library match function with output-validity guard",
+  "kind": "public_alex",
+  "base_source_sha256": "5ca30854be8f92e84a1510996ba71504537b849d3e7e2e77fd7c50ae2c1bf69c",
+  "upstream": "alexchilton/casmi26-lb-0-484-peaks-to-structures-extlib",
+  "upstream_version": 12,
+  "upstream_source_sha256": "5ca30854be8f92e84a1510996ba71504537b849d3e7e2e77fd7c50ae2c1bf69c",
+  "upstream_self_reported_public_score": 0.484,
+  "own_public_score": null,
+  "base_own_public_score": null,
+  "original_function_sha256": "9ceaa95ddda0fb304758c9acd7dd1f256c528fcb4a8304c0152f8b6d8e3e3e76",
+  "helper_sha256": "a31c55a2958139cbeea948ea4d11fa32eb40e3d3d7b0bac157f6d0fdc51025db",
+  "files": [
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_meta.parquet",
+      "bytes": 7120766,
+      "sha256": "9b0c2d675612580a4aedbdd3c8891d046fdf864b0805aaef852acc6653f7d37f"
+    },
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_mass.parquet",
+      "bytes": 7979821,
+      "sha256": "e82a878f3e9f4d19067199d1376231b1663a83d08c512ba8e03d6ae88b7af12e"
+    },
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_mz.npy",
+      "bytes": 102770816,
+      "sha256": "a14f750d46bfca4176110d1a83cc3562944a3ca1e3f1344c94141f6d8d85fad5"
+    },
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_in.npy",
+      "bytes": 102770816,
+      "sha256": "e47b359f27d0aacda22f7ef47f8f60f7912136027d70d2bc915890a8d51be841"
+    },
+    {
+      "ref": "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+      "version": 1,
+      "file": "spectra.parquet",
+      "bytes": 43941912,
+      "sha256": "6ebb46b32ddd344d988c3bdb90e7160d4ce46e6d0b900a1217607aa2234c9477"
+    }
+  ],
+  "ranking_constants": {
+    "TAU": 0.8,
+    "K_PEAKS": 4,
+    "LIB_TAU": 0.9,
+    "precursor_ppm": 10,
+    "precursor_da": 0.002,
+    "fragment_da": 0.015
+  },
+  "adaptations": [
+    "Skip external spectral matching on fast visible dummy path, but hash every required library.",
+    "Insert two observed reference-append counters and one observed actual best-match record into original function AST; matching mathematics unchanged.",
+    "Preserve a query control if a proposal has invalid or duplicate official metric identities; record each such proposal.",
+    "Fail closed on global library/source/control binding failure; preserve original control artifact.",
+    "Append source/output/score-consumption observer; clear original saved outputs; lossless source-cell compression where used."
+  ],
+  "encoder_selection": "Original public/public fallback; no new encoder added",
+  "new_training": false,
+  "locked_final_used": false,
+  "validation_mode": "fast_static",
+  "license_sources": [
+    750330,
+    748363,
+    745615,
+    749217
+  ]
+}

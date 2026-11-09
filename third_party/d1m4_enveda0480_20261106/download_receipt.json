@@ -1,0 +1,11 @@
+{
+  "url": "https://www.kaggle.com/api/v1/kernels/pull?userName=d1m4official&kernelSlug=enveda-0480-ensemble-hardened",
+  "downloaded_at_utc": "2026-11-06T02:03:41.321808+00:00",
+  "version": 1,
+  "ref": "d1m4official/enveda-0480-ensemble-hardened",
+  "source_sha256": "7780631f63b07663792b7e47c06585c7d3799e1e2ad9755698657aa4b2959d7f",
+  "api_sha256": "db5b0511d7555771e5dddacf63bca47258675a1918641929e0cf7d3f684c6931",
+  "api_bytes": 1443081,
+  "executed": false,
+  "assets_downloaded": false
+}

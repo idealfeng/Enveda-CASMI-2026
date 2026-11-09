@@ -1,0 +1,169 @@
+{
+  "topics": [
+    {
+      "id": 751300,
+      "title": "Has anyone managed to improve their Class 3 score?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/751300",
+      "commentCount": 6,
+      "votes": 8,
+      "postDate": "2026-10-21T09:42:41.013Z",
+      "lastCommentPostDate": "2026-10-23T14:05:37.543Z"
+    },
+    {
+      "id": 750703,
+      "title": "Looking for a Team to Learn and Collaborate",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/750703",
+      "postDate": "2026-10-19T15:20:45.665Z",
+      "lastCommentPostDate": "2026-10-19T15:20:45.666Z"
+    },
+    {
+      "id": 750684,
+      "title": "Database versions and snapshot dates used in CASMI 2026",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/750684",
+      "commentCount": 1,
+      "postDate": "2026-10-19T13:59:18.322Z",
+      "lastCommentPostDate": "2026-10-27T21:48:34.376Z"
+    },
+    {
+      "id": 750614,
+      "title": "Question about training code for models trained on train.parquet. ",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/750614",
+      "commentCount": 1,
+      "postDate": "2026-10-19T07:11:01.805Z",
+      "lastCommentPostDate": "2026-10-19T10:08:14.953Z"
+    },
+    {
+      "id": 750612,
+      "title": "Clarification on pretrained weights and training code",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/750612",
+      "commentCount": 1,
+      "postDate": "2026-10-19T07:08:09.733Z",
+      "lastCommentPostDate": "2026-10-19T16:26:44.700Z"
+    },
+    {
+      "id": 750572,
+      "title": "Team up — open to merging (ranks ~6-60, different pipelines)",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/750572",
+      "votes": -3,
+      "postDate": "2026-10-18T23:44:29.863Z",
+      "lastCommentPostDate": "2026-10-18T23:44:29.863Z"
+    },
+    {
+      "id": 750491,
+      "title": "El Espejismo del Leaderboard: Cómo pasar de 0.133 a 0.094 (y por qué es una gran noticia)",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/750491",
+      "votes": 1,
+      "postDate": "2026-10-18T14:17:53.646Z",
+      "lastCommentPostDate": "2026-10-18T14:17:53.646Z"
+    },
+    {
+      "id": 750461,
+      "title": "per-compound counts derived from PubChem’s",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/750461",
+      "commentCount": 1,
+      "postDate": "2026-10-18T11:57:39.591Z",
+      "lastCommentPostDate": "2026-10-19T16:22:57.436Z"
+    },
+    {
+      "id": 750444,
+      "title": "DiffMS Pretrained Checkpoints — Reproducibility and Competition Eligibility",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/750444",
+      "votes": 1,
+      "postDate": "2026-10-18T11:08:35.743Z",
+      "lastCommentPostDate": "2026-10-18T11:08:35.743Z"
+    },
+    {
+      "id": 750401,
+      "title": "Questions About Pretrained Molecular Generators",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/750401",
+      "commentCount": 1,
+      "postDate": "2026-10-18T06:13:09.451Z",
+      "lastCommentPostDate": "2026-10-19T10:09:33.840Z"
+    },
+    {
+      "id": 750252,
+      "title": "Pretrained models whose training data includes CC BY-NC sources (e.g., HMDB)",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/750252",
+      "commentCount": 3,
+      "votes": 1,
+      "postDate": "2026-10-17T13:22:00.676Z",
+      "lastCommentPostDate": "2026-10-21T16:04:11.300Z"
+    },
+    {
+      "id": 750241,
+      "title": "new molecules (not in any database)'s prediction:how can we improve that?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/750241",
+      "commentCount": 2,
+      "votes": 4,
+      "postDate": "2026-10-17T12:32:27.762Z",
+      "lastCommentPostDate": "2026-10-17T16:36:57.690Z"
+    },
+    {
+      "id": 749908,
+      "title": "Your notebook of a 0.44+ notebook scores lower? got (0.451+)  ",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/749908",
+      "commentCount": 9,
+      "votes": 2,
+      "postDate": "2026-10-16T10:35:23.252Z",
+      "lastCommentPostDate": "2026-10-16T16:48:19.490Z"
+    },
+    {
+      "id": 749799,
+      "title": "Can I use a private Kaggle Dataset for preprocessed data?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/749799",
+      "commentCount": 2,
+      "postDate": "2026-10-16T01:42:22.406Z",
+      "lastCommentPostDate": "2026-10-17T00:53:16.630Z"
+    },
+    {
+      "id": 749778,
+      "title": "How to begin competition in unknown field",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/749778",
+      "votes": 1,
+      "postDate": "2026-10-16T00:26:09.995Z",
+      "lastCommentPostDate": "2026-10-16T00:26:09.996Z"
+    },
+    {
+      "id": 749430,
+      "title": "Rerun / Rescore Complete",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/749430",
+      "votes": 1,
+      "postDate": "2026-10-14T21:30:06.828Z",
+      "lastCommentPostDate": "2026-10-14T21:30:06.830Z"
+    },
+    {
+      "id": 749412,
+      "title": "A safe +0.002 on E006-based notebooks: insert engine 2’s top-1 at rank 2 (0.440 → 0.442, 0.441 → 0.443)",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/749412",
+      "votes": -2,
+      "postDate": "2026-10-14T20:55:43.217Z",
+      "lastCommentPostDate": "2026-10-14T20:55:43.216Z"
+    },
+    {
+      "id": 749397,
+      "title": "Clarification on Section 2.5.a.3: pretrained checkpoints loaded at inference",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/749397",
+      "commentCount": 1,
+      "postDate": "2026-10-14T20:24:17.757Z",
+      "lastCommentPostDate": "2026-10-26T19:30:04.323Z"
+    },
+    {
+      "id": 749251,
+      "title": "Stuck in 0.440 and teammate hiring",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/749251",
+      "commentCount": 16,
+      "votes": 2,
+      "postDate": "2026-10-14T14:09:05.070Z",
+      "lastCommentPostDate": "2026-10-17T00:02:21.803Z"
+    },
+    {
+      "id": 749217,
+      "title": "Compliance: is the approved-dataset list exhaustive, and does \"trained on NIST\" reach models whose training corpus CONTAINS NIST-derived data?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/749217",
+      "commentCount": 9,
+      "postDate": "2026-10-14T10:57:36.311Z",
+      "lastCommentPostDate": "2026-10-19T17:29:23.960Z"
+    }
+  ],
+  "totalCount": 151
+}

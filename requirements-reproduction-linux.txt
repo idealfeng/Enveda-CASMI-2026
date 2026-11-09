@@ -1,0 +1,17 @@
+# Match the public pipeline's Python 3.12 / NumPy / scikit-learn generation.
+# Install the CUDA PyTorch wheel separately from the official cu126 index.
+numpy==2.2.6
+pandas==2.2.3
+pyarrow==19.0.1
+scipy==1.15.3
+scikit-learn==1.6.1
+numba==0.61.2
+rdkit==2026.3.3
+lightgbm==4.6.0
+matplotlib==3.10.3
+seaborn==0.13.2
+ipython==9.2.0
+psutil==7.0.0
+tqdm==4.67.1
+requests==2.32.3
+PyYAML==6.0.2

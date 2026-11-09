@@ -1,0 +1,246 @@
+{
+  "target": "stormseye/casmi26-flex-v56-baseline",
+  "version": 2,
+  "status": "passed",
+  "checked_at_utc": "2026-11-05T11:31:17.451906+00:00",
+  "submission_sha256": "d2027d8918d15b27fa271ba4961faa63c28fa7f4efbea0dd8069ecbfe6a5060b",
+  "checks": {
+    "version_bound_complete_download": true,
+    "private_offline_v2_original_source": true,
+    "downloaded_small_files_sha_bound": true,
+    "visible_csv_400_ids_order_and_shape": true,
+    "official_rdkit_csv_audit_same_bytes": true,
+    "actual_smoke12_padding388": true,
+    "both_retrieval_engines_and_base_clean": true,
+    "frozen_execution_source_not_stale_version_label": true,
+    "ice_actual_model_meta_complete": true,
+    "gl_actual_model_meta_complete": true,
+    "n1_actual_model_meta_complete": true,
+    "neural_and_outsider_errors_empty": true,
+    "neural_all12_active": true,
+    "saner_mandatory_pins_guard_and_completed_score": true,
+    "physical_no_budget_or_restore": true,
+    "merge_and_final_applied": true,
+    "physical_merge_final_sha_chain": true,
+    "no_whole_stage_error_or_neural_fallback_markers": true,
+    "five_dataset_inventory_content_alignment": true
+  },
+  "downloaded_files": [
+    {
+      "name": "submission.csv",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\submission.csv",
+      "bytes": 17303,
+      "sha256": "d2027d8918d15b27fa271ba4961faa63c28fa7f4efbea0dd8069ecbfe6a5060b"
+    },
+    {
+      "name": "e004_verification.json",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\e004_verification.json",
+      "bytes": 9850,
+      "sha256": "ae5a29624c41e6d01004c1607759b0be99f962ec59544d3ff4b14473107e28a8"
+    },
+    {
+      "name": "v43_execution_receipt.json",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\v43_execution_receipt.json",
+      "bytes": 7336,
+      "sha256": "19793f420217d249fb4d5152af3789c546020fa68785ff3ca227688744d2544f"
+    },
+    {
+      "name": "execution_receipt.json",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\execution_receipt.json",
+      "bytes": 229,
+      "sha256": "aae1684fab915f12799aa8e85689f5ada7cf27625a5f916f01e0a947d7c0b41f"
+    },
+    {
+      "name": "frozen_run_info.json",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\frozen_run_info.json",
+      "bytes": 211,
+      "sha256": "881a9d7fe9948f02b345c4c698529b0e2342d144986e3714f0130ccb75a6c64a"
+    },
+    {
+      "name": "run_manifest.json",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\run_manifest.json",
+      "bytes": 345,
+      "sha256": "f2aa3b8a290ccdba40142c5adf60280f9016480ba11f3a912455c2e2d981275e"
+    },
+    {
+      "name": "ice_work/ice_out.json.meta.json",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\ice_work\\ice_out.json.meta.json",
+      "bytes": 641,
+      "sha256": "c6697b368abec2eeb0fd8a75e7e94ee81865b1e6be350cb3892b26b7ee6dc355"
+    },
+    {
+      "name": "gl_work/gl_out.json.meta.json",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\gl_work\\gl_out.json.meta.json",
+      "bytes": 754,
+      "sha256": "93238798075dc8bf38ff56a39b94e43cf5d14c64c868db0fec5122e1e0645aa4"
+    },
+    {
+      "name": "n1_work/n1_out.json.meta.json",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\n1_work\\n1_out.json.meta.json",
+      "bytes": 696,
+      "sha256": "422dc74e7e77951d4a89d06710f54f5653b8bceac32a061beb7ff6d2b8510091"
+    },
+    {
+      "name": "neural_submission_report.json",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\neural_submission_report.json",
+      "bytes": 530,
+      "sha256": "1df77b314c3afe5b414d5fcc70dfe0d26d89140e17595486e7d32736a6f0e5fe"
+    },
+    {
+      "name": "neural_candidate_features.parquet.errors.json",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\neural_candidate_features.parquet.errors.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "name": "outsider_neural_features.parquet.errors.json",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\outsider_neural_features.parquet.errors.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "name": "variants/consensus_report.json",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\variants\\consensus_report.json",
+      "bytes": 2036,
+      "sha256": "adfcc96897e427c44a2a49750078f5cfa895acd648a810e6c1b1e04be7e9c32b"
+    },
+    {
+      "name": "spectral_parallax_report.json",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\spectral_parallax_report.json",
+      "bytes": 423,
+      "sha256": "c3ee0e05d04902dd66894b9845d51031886d1e4e16c9fed1100b615d0b605158"
+    },
+    {
+      "name": "merge_report.json",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\merge_report.json",
+      "bytes": 829,
+      "sha256": "9fd24484b91eff0cc0e2da45be3208f5421287baca500f88bf6ce3352126b08b"
+    },
+    {
+      "name": "final_layer_report.json",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\final_layer_report.json",
+      "bytes": 443,
+      "sha256": "75c1ed2ed31e1554fcd4a761d6d82d102f833a234a5e8e9c6bc0b6961daf6a38"
+    },
+    {
+      "name": "v43_mounted_input_hashes.json",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\v43_mounted_input_hashes.json",
+      "bytes": 152037,
+      "sha256": "b07ab9e3b6ee3fc4deba37ce94c974450d38ee16ad332aafc7d02669af093347"
+    },
+    {
+      "name": "rank2_overlay.json",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\rank2_overlay.json",
+      "bytes": 231,
+      "sha256": "b2cb9cefbbc190919a704208d247438959a09340ff299870389daa881a0161b5"
+    },
+    {
+      "name": "experiment_verification.json",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\experiment_verification.json",
+      "bytes": 1640,
+      "sha256": "13cd1f5ef823ab48fe222b032dff8a5fa0e4b597e885cccf4078786a3bf00c07"
+    },
+    {
+      "name": "experiment_audit.json",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\experiment_audit.json",
+      "bytes": 298,
+      "sha256": "5e44e0e5469f41b9c1a0400d3e22cbfa062f4ab188a7738819a8cde55a951f9c"
+    },
+    {
+      "name": "submission_pipeline.log",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\submission_pipeline.log",
+      "bytes": 75319,
+      "sha256": "54feb9f199fc2255fa625766ee3215e5b4edab16b558af68e2469e4005356b18"
+    },
+    {
+      "name": "submission_neural.log",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\submission_neural.log",
+      "bytes": 1286,
+      "sha256": "66f964a97f95292b574e4edd8fd05bc1bcd0499efdd879ed49f8dc50f6a86506"
+    },
+    {
+      "name": "outsiders_neural.log",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\outsiders_neural.log",
+      "bytes": 623,
+      "sha256": "eb42b76671b631078b80f8c585c38a3cf11782caf0526270f9215b1a39ac3074"
+    },
+    {
+      "name": "bootstrap.log",
+      "path": "runs\\kaggle_baseline_v2_outputs_20261105b\\bootstrap.log",
+      "bytes": 33,
+      "sha256": "1f4d393226a96d4d8ae402ff1ae0045f8756bbf226f62d42f963767c9ed84c28"
+    }
+  ],
+  "details": {
+    "visible_input_rows": 400,
+    "actually_inferred_molecules": 12,
+    "padded_cco_rows": 388,
+    "hidden_inference_proven": false,
+    "hidden_score_claimed": false,
+    "stage_health": {
+      "ice": {
+        "status": "ok",
+        "n_mols": 12,
+        "n_mols_done": null,
+        "n_mols_covered": 11,
+        "n_mols_scored": 11,
+        "n_scored": 793,
+        "errors": [],
+        "n_pred_fail": 0,
+        "fake": null
+      },
+      "gl": {
+        "status": "ok",
+        "n_mols": 11,
+        "n_mols_done": null,
+        "n_mols_covered": 11,
+        "n_mols_scored": 11,
+        "n_scored": 793,
+        "errors": [],
+        "n_pred_fail": 0,
+        "fake": null
+      },
+      "n1": {
+        "status": "ok",
+        "n_mols": 11,
+        "n_mols_done": 11,
+        "n_mols_covered": null,
+        "n_mols_scored": null,
+        "n_scored": null,
+        "errors": [],
+        "n_pred_fail": 0,
+        "fake": false
+      }
+    },
+    "stale_manifest_health_strings": {
+      "ice_health": "ICE NOT RUN",
+      "gl_health": "GL NOT RUN"
+    },
+    "manifest_health_interpretation": "Use actual complete CUDA model metadata; original health strings are stale, not evidence that the models were skipped.",
+    "source_labels_interpretation": "V80/V49 internal labels are ancestor labels; actual notebook identity is typedGetKernel V2 plus original code-cell semantics.",
+    "saner_required_model_pins": {
+      "features.py": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+      "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+      "config.json": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+      "final_model.pt": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642"
+    },
+    "saner_proof": "Unchanged source mandatory full-SHA find_bundle guard plus completed all12 neural scoring; not an independent cloud model-file download.",
+    "asset_scope": {
+      "full_sha_match": 400,
+      "size_head_tail_match": 42,
+      "outside_five_dataset_inventory": 5
+    },
+    "saner_readme_independent_runtime_hash_verified": false
+  },
+  "errors": [],
+  "input_dir": "D:\\Paper\\casmi\\runs\\kaggle_baseline_v2_outputs_20261105b",
+  "scope": "Visible-cloud source/runtime smoke audit: 12 actual molecules +388 CCO padding, not 400 hidden inferences or a competition score.",
+  "competition_submission_performed": false,
+  "network_called_by_verifier": false,
+  "limitations": [
+    "Content alignment is distinct from independently exposed numeric dataset-version IDs.",
+    "42 large files use size+head/tail comparison, not a complete-file cloud hash proof.",
+    "Saner model pins are proved through mandatory unchanged guard and successful scoring; its README is outside the five-dataset inventory.",
+    "Successful visible smoke does not prove the complete hidden-input path or hidden-run time budget."
+  ]
+}

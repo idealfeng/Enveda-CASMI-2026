@@ -1,0 +1,78 @@
+{
+  "status": "finished",
+  "pid": 24376,
+  "started_at_utc": "2026-11-07T06:57:22.915888+00:00",
+  "manifest_sha256": "7629b3868d313fdc8ec37f23632091b6ee48e504c99b581b9fcbad138b8fd5a0",
+  "max_seconds": 43200.0,
+  "poll_interval_seconds": 45,
+  "read_only": true,
+  "new_run_or_submission_performed": false,
+  "checked_at_utc": "2026-11-07T11:56:48.890631+00:00",
+  "baseline_public_score": 0.481,
+  "branches": [
+    {
+      "branch": "v35_baseline",
+      "target": "stormseye/casmi26-v35-baseline-1107pm",
+      "actual_target": "stormseye/casmi26-v35-baseline-1107pm",
+      "submission_ref": 58082815,
+      "status": "COMPLETE",
+      "public_score": 0.469,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-07T11:56:48.886623+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "v35_weak_prior",
+      "target": "stormseye/casmi26-v35-weak-prior-1107pm",
+      "actual_target": "stormseye/casmi26-v35-weak-prior-1107pm",
+      "submission_ref": 58082822,
+      "status": "COMPLETE",
+      "public_score": 0.476,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-07T11:34:45.141635+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "v35_v2_emphasis",
+      "target": "stormseye/casmi26-v35-v2-emphasis-1107pm",
+      "actual_target": "stormseye/casmi26-v35-v2-emphasis-1107pm",
+      "submission_ref": 58082871,
+      "status": "COMPLETE",
+      "public_score": 0.458,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-07T11:29:45.007990+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "v35_robust_mass",
+      "target": "stormseye/casmi26-v35-robust-mass-1107pm",
+      "actual_target": "stormseye/casmi26-v35-robust-mass-1107pm",
+      "submission_ref": 58082895,
+      "status": "COMPLETE",
+      "public_score": 0.469,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-07T11:48:19.645128+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "v35_no_interleave",
+      "target": "stormseye/casmi26-v35-no-interleave-1107pm",
+      "actual_target": "stormseye/casmi26-v35-no-interleave-1107pm",
+      "submission_ref": 58082938,
+      "status": "COMPLETE",
+      "public_score": 0.469,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-07T11:34:48.003816+00:00",
+      "error_description_present": false
+    }
+  ],
+  "best_this_batch": {
+    "branch": "v35_weak_prior",
+    "actual_target": "stormseye/casmi26-v35-weak-prior-1107pm",
+    "submission_ref": 58082822,
+    "public_score": 0.476
+  },
+  "best_overall_public_score": 0.481,
+  "all_branches_terminal": true,
+  "finished_at_utc": "2026-11-07T11:56:48.890631+00:00"
+}

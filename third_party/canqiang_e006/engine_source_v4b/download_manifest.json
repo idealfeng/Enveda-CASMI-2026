@@ -1,0 +1,188 @@
+[
+  {
+    "file": "engine_source_v4b/LICENSE-NOTICE.txt",
+    "bytes": 1363,
+    "sha256": "b9c26d77338c03cb4387ae61bf4f6524eb77ee59c8530bc9f8d33a742a913a3b",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/LICENSE-NOTICE.txt?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/MANIFEST.json",
+    "bytes": 9209,
+    "sha256": "e64b960037769971e146a35932e29ed3f042de1716e4dbe281ebd84a7cfc3b6a",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/MANIFEST.json?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/casmi/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Fcasmi%2F__init__.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/casmi/build.py",
+    "bytes": 4979,
+    "sha256": "86776c14e237dc64dbf965d9bc200cc670dc7226bf946938380729d7e80c56f8",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Fcasmi%2Fbuild.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/casmi/chem.py",
+    "bytes": 12328,
+    "sha256": "99474f23d8a67040b0c0f8c70e73592a6f7f656f50103e350ca473451e2169f1",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Fcasmi%2Fchem.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/casmi/derive.py",
+    "bytes": 6929,
+    "sha256": "7c1e8c3afb4c17a3ae58fbc6c36fd4cfc552da97b9129c9b46cca3cdc6ee4892",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Fcasmi%2Fderive.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/casmi/dreams_model.py",
+    "bytes": 32798,
+    "sha256": "5c09c3d22e8d2c09678b796cb1d57a449442437847e094f49f6ed2619a73a83c",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Fcasmi%2Fdreams_model.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/casmi/engine.py",
+    "bytes": 26449,
+    "sha256": "d914bf9d5eb56cfff434b5d53a4d55881b97697aa834a627d9932a4f8c650d27",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Fcasmi%2Fengine.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/casmi/fpnet.py",
+    "bytes": 9551,
+    "sha256": "0ea6e372d1f045a877d350234c2ccf5d93fdd98cb23bd4c22376bf7e99547608",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Fcasmi%2Ffpnet.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/casmi/fpnet6.py",
+    "bytes": 14661,
+    "sha256": "32542bb0039b2d24d9911030559f13221e630cef7df0d10c7d65f54424da2633",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Fcasmi%2Ffpnet6.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/casmi/frag.py",
+    "bytes": 11172,
+    "sha256": "809f5582494cee4cf6dcace4b04699b8427e81022b78d42162cc0239a57773de",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Fcasmi%2Ffrag.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/casmi/graphs.py",
+    "bytes": 2850,
+    "sha256": "8dcbe16bbf3b34b7a08866234eb9abf2de713d21c93c653e7156e94e9debcd55",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Fcasmi%2Fgraphs.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/casmi/library.py",
+    "bytes": 7577,
+    "sha256": "21ee24dee9f39123da518fb17802a394e6dc46b147d5dbdf276210b60185f831",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Fcasmi%2Flibrary.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/casmi/pool.py",
+    "bytes": 2370,
+    "sha256": "279444f6c03834adbbfc0fad321e24187585d7cd5afdc363eff083dc263a0286",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Fcasmi%2Fpool.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/casmi/ranker.py",
+    "bytes": 4189,
+    "sha256": "a7ee491b5a3d3decb3887afe3931adb10c11964468fb204e8c27b42757424fe4",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Fcasmi%2Franker.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/casmi/spectra.py",
+    "bytes": 10057,
+    "sha256": "e2481761cdfb2515e8a945751f85f6b9e885680a8e974d7ac35c78bbf279ae74",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Fcasmi%2Fspectra.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/casmi/structs.py",
+    "bytes": 2791,
+    "sha256": "2c70df89e8f96b3e716651fe8815d0a05af3ad26e2b448e552ea53c26ede334a",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Fcasmi%2Fstructs.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/casmi/traindata.py",
+    "bytes": 9425,
+    "sha256": "cecb329d96362f11d16b40a26f1888f092610ff6202812408c13e2c293c6a2bc",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Fcasmi%2Ftraindata.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/casmi/xenc.py",
+    "bytes": 6938,
+    "sha256": "89fbb470e6fc085f7363bf79e4517c06d43eed3c1df197b7f374b65dacdb7310",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Fcasmi%2Fxenc.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/fe_v4/chemfeat.py",
+    "bytes": 6158,
+    "sha256": "8fedf317042f989b1569ca65c0d6d87a0387f9fc9934504420a95d8d973f8746",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Ffe_v4%2Fchemfeat.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/fe_v4/ctxlib.py",
+    "bytes": 20737,
+    "sha256": "c050e4b0ac937a7d65fa14ac55c6904e2232cb077830a20b653ac6df22922943",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Ffe_v4%2Fctxlib.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/fe_v4/derive6.py",
+    "bytes": 8635,
+    "sha256": "0e4b436d6b978b2e2e1af8767d6b3c32a6b1fc0e4b64960d5eeeaa8885ddf68a",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Ffe_v4%2Fderive6.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/fe_v4/fams/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Ffe_v4%2Ffams%2F__init__.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/fe_v4/fams/analog_struct.py",
+    "bytes": 30583,
+    "sha256": "2311219220c65bc83c2cd447a8cdb07db27a984124f6c88d687494556e7337b6",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Ffe_v4%2Ffams%2Fanalog_struct.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/fe_v4/fams/derivation.py",
+    "bytes": 29276,
+    "sha256": "eb9aa474bef8e1d067cadccec0101042878ebb5aedf50d1168dc9dfd884dceae",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Ffe_v4%2Ffams%2Fderivation.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/fe_v4/fams/frag2.py",
+    "bytes": 29368,
+    "sha256": "bf17577ef673f8ab0121caa1c9335dc1e827e2f1eb44b3bbde0b0c0cbe858e6c",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Ffe_v4%2Ffams%2Ffrag2.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/fe_v4/fams/fragnet.py",
+    "bytes": 46806,
+    "sha256": "d0952d34d227013b8486eff36c30a4233f491d2e32c3f816b9d000c493b7234e",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Ffe_v4%2Ffams%2Ffragnet.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/fe_v4/fams/model_views.py",
+    "bytes": 3492,
+    "sha256": "aa964b12265bb70144d2d653b600a7f1a4972829032274bab76ea9e39afd7e79",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Ffe_v4%2Ffams%2Fmodel_views.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/fe_v4/fragcaps.py",
+    "bytes": 6766,
+    "sha256": "ba6280f9a46ca28cd72b8a7a0324724a73fd0c67a13acdd82a8193ac30d17a83",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Ffe_v4%2Ffragcaps.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/fe_v4/hooks_v1.py",
+    "bytes": 4338,
+    "sha256": "d0cb1e37566a54bbb3082ccd29579ac47fc2526c5d64ef073dc0e628ee5657e8",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Ffe_v4%2Fhooks_v1.py?datasetVersionNumber=4"
+  },
+  {
+    "file": "engine_source_v4b/code/fe_v4/v1engine.py",
+    "bytes": 8391,
+    "sha256": "9074546910ba850a98bb95afe531669c62a26c15ab8b6bf9d6b6020c77ea0e8a",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v4b-models/code%2Ffe_v4%2Fv1engine.py?datasetVersionNumber=4"
+  }
+]

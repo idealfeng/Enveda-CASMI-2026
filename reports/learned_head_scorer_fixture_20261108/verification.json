@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "checks": {
+    "same_candidate_keys": true,
+    "same_coverage": true,
+    "finite_scores": true,
+    "zero_head_reproduces_original_mean": true,
+    "other_diagnostics_equal": true,
+    "no_input_errors": true
+  },
+  "max_abs_differences": {
+    "neural_score": 1.430511474609375e-06,
+    "neural_cos": 0.0,
+    "neural_fp": 0.0,
+    "neural_std": 0.0,
+    "n_spectra": 0.0,
+    "n_adducts": 0.0
+  },
+  "queries": 3,
+  "spectra": 36,
+  "candidates": 75,
+  "adapter_sha256": "3dfc27e5cf89906023438b7f042f19341a60430bdb15d7a15c05b2d50166c9e1",
+  "head_model_sha256": "6dc38d9d9dd59bff0ed791045573638c5566b2e1f84c0336c1b1bff383f886f0",
+  "known_exposure_diagnostic": true,
+  "training_performed": false,
+  "locked_final_read": false
+}

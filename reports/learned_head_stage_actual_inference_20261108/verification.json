@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": {
+    "mass_head_seed0": true,
+    "mass_head_seed1": true,
+    "mass_heads_na": true,
+    "real_trained_ensemble_finite": true,
+    "exact_keys": true,
+    "same_coverage": true,
+    "actual_trained_delta": true
+  },
+  "queries": 3,
+  "candidates": 75,
+  "max_score_delta": 3.5544748306274414,
+  "training_performed": false,
+  "known_pretrained_exposure": true
+}

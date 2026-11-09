@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-mass-guarded-extlib-1109",
+  "version": 1,
+  "branch_sha256": "3b6ebd44cc52158dba5d784aae87ee9bd24fcb0b188a9d546ea7bcd99f197ddc",
+  "notebook_sha256": "2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7",
+  "metadata_sha256": "80a7601a2104931baaa27e34223cd083963b24d173b8ebebd53755ab91f3c0d4",
+  "requested_at_utc": "2026-11-09T07:46:42.829484+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-09T07:46:46.586824+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

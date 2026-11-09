@@ -1,0 +1,62 @@
+--- a/validation/pipeline_adapter.py
++++ b/validation/pipeline_adapter.py
+@@ -258,12 +258,17 @@
+         raise ValueError("Unexpected generated E2 output write count")
+     adapted = adapted.replace(before_write,
+         "    for _vr in recs:\n        res.setdefault(str(_vr['mid']), dict(smiles=[], keys=[]))\n" + before_write, 1)
++    config = load_config(config_path)
++    v43_resources = None
++    if config.get("pipeline") == "v43":
++        from validation.v43_runtime_patch import patch_runner_resources
++        adapted, v43_resources = patch_runner_resources(adapted, config_path, config)
+     ast.parse(adapted)
+     path.write_text(adapted, encoding="utf-8")
+-    config = load_config(config_path)
+     _record(config, "validation_e2_runner_patch.json", dict(
+         before_sha256=hashlib.sha256(code.encode()).hexdigest(), after_sha256=sha(path),
+-        change="Install local reference mask and candidate recorder; original E2 pool and rankers retained."))
++        change="Install local reference mask and candidate recorder; original E2 pool and rankers retained.",
++        v43_resource_policy=v43_resources))
+ 
+ 
+ def record_e1_candidates(mid, candidates, scores, config_path):
+@@ -390,6 +395,10 @@
+         text += (f"\nassert set(map(str, {variable})) == set({config['active_ids']!r}), "
+                  f"'{stage} failed or skipped validation query IDs; inspect saved stdout/stderr/returncode'\n")
+         changes.append("stage_process_diagnostics_and_fail_fast")
++    if config.get("pipeline") == "v43" and "ENG_FILES = " in text:
++        from validation.v43_runtime_patch import patch_e2_cell
++        text, extra = patch_e2_cell(text, config_path, config)
++        changes.extend(extra)
+     ast.parse(text)
+     return text, changes
+ 
+--- a/scripts/run_validation_pipeline.py
++++ b/scripts/run_validation_pipeline.py
+@@ -101,6 +101,11 @@
+         if args.pipeline != "flex": raise ValueError("Recovery currently supports Flex only")
+         config["resume_from"] = str(args.resume_from.resolve())
+         config["recovery_implementation_sha256"] = adapter.sha(ROOT / "validation/recovery.py")
++    if args.pipeline == "v43":
++        config["e2_worker_limit"] = args.e2_workers
++        config["v43_runtime_helpers_sha256"] = {
++            name: adapter.sha(ROOT / name) for name in
++            ("validation/e2_resources.py", "validation/stage_process.py", "validation/v43_runtime_patch.py")}
+     config_path = work / "validation_config.json"
+     adapter.write_json(config_path, config)
+     return config_path, config
+@@ -235,12 +240,13 @@
+     parser.add_argument("--ice-budget", type=int)
+     parser.add_argument("--gl-budget", type=int, default=4000)
+     parser.add_argument("--n1-budget", type=int)
++    parser.add_argument("--e2-workers", type=int, default=4, help="V43 Engine2 process-pool resource limit; does not change rankers/candidates")
+     parser.add_argument("--prepare-only", action="store_true")
+     parser.add_argument("--resume-from", type=Path, help="Failed Flex run to bind and conservatively reuse E2/PC/forward outputs")
+     args = parser.parse_args()
+     if sys.platform != "linux" or sys.version_info[:2] != (3, 12):
+         parser.error("Use WSL Linux Python3.12 with source scripts/linux_env.sh")
+-    if any(value is not None and value <= 0 for value in (args.ice_budget, args.gl_budget, args.n1_budget)):
++    if any(value is not None and value <= 0 for value in (args.ice_budget, args.gl_budget, args.n1_budget, args.e2_workers)):
+         parser.error("Budgets must be positive seconds")
+     if args.resume_from:
+         prior, destination = args.resume_from.resolve(), args.work_root.resolve()

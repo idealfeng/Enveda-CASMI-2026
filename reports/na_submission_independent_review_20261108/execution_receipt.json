@@ -1,0 +1,6 @@
+{
+  "processed_molecules": 3,
+  "source_adaptations": [
+    "Preserve H-only GL inputs/order; independently score real Na and merge by actual finite per-candidate spectrum counts"
+  ]
+}

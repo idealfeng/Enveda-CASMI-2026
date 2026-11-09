@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-09T07:46:16.798746+00:00",
+  "target": "stormseye/casmi26-mass-guarded-iso-p7b-1109",
+  "version": 1,
+  "actual_target": "stormseye/casmi26-mass-guarded-iso-p7b-1109",
+  "branch_sha256": "f00eca8ccecdfbfa3cc4db3622e65008a9ad394cb8b357aaab56e266e57cb8f6",
+  "notebook_sha256": "5877f98e0248908e6eab28e7aaac8bb45d52ec6129945e52cd3f582a426dcaf2",
+  "server_source_sha256": "486b7b1992193e4778daae9f09974340d89bd231794bf33867ea1b5895c0b110",
+  "checks": {
+    "target": true,
+    "version": true,
+    "private": true,
+    "offline": true,
+    "gpu": true,
+    "source_contents": true,
+    "dataset_sources": true,
+    "kernel_sources": true,
+    "competition_sources": true,
+    "no_model_source_dependencies": true
+  },
+  "session_status": "COMPLETE",
+  "failure_message_present": false,
+  "read_only": true,
+  "source_raw_bytes_equal": false,
+  "source_binding_method": "Join cell.source lists; every other Notebook JSON field must remain equal.",
+  "requested_dataset_sources": [
+    "sanpier/casmi-spectrum-model-v1/1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet/5",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table/10",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark/10",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior/13",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/9",
+    "bgunshui/casmi26-scorer-v2-model/1",
+    "qwertykeypadapple/casmi26-lotus-candidates/2"
+  ],
+  "observed_dataset_sources": [
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "bgunshui/casmi26-scorer-v2-model",
+    "qwertykeypadapple/casmi26-lotus-candidates"
+  ],
+  "requested_kernel_sources": [],
+  "observed_kernel_sources": [],
+  "numeric_source_versions_read_back": false
+}

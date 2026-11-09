@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-mass-no-np-bonus-1108",
+  "version": 1,
+  "notebook_sha256": "ad43e44f60b933b3ec5fa85cb349346da198e96c94c4113b0023594bee076bc7",
+  "checks": {
+    "upstream_mass_pin": true,
+    "changed_original_cells_exactly_4_20": true,
+    "all_original_cells_otherwise_identical": true,
+    "np_weight_only_configuration_change": true,
+    "observer_configuration_matches_ablation": true,
+    "observer_actual_np_contribution_required": true,
+    "observer_dynamic_hidden_sample_size": true,
+    "all_code_compiles": true,
+    "private_offline_gpu": true,
+    "metadata_inherits_confirmed_baseline_assets": true,
+    "no_training_or_labels_used": true
+  }
+}

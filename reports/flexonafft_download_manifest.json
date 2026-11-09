@@ -1,0 +1,1817 @@
+{
+  "dependencies": [
+    {
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version_number_observed": 9,
+      "files": [
+        {
+          "name": "ATTRIBUTION.md",
+          "bytes": 5124
+        },
+        {
+          "name": "MANIFEST.json",
+          "bytes": 45195
+        },
+        {
+          "name": "README.md",
+          "bytes": 9323
+        },
+        {
+          "name": "SOURCE-LICENSES.md",
+          "bytes": 1962
+        },
+        {
+          "name": "casmi-chebi-lmsd-structures/ATTRIBUTION.md",
+          "bytes": 2428
+        },
+        {
+          "name": "casmi-chebi-lmsd-structures/bio_fp.npy",
+          "bytes": 85341539
+        },
+        {
+          "name": "casmi-chebi-lmsd-structures/bio_mass.npy",
+          "bytes": 787592
+        },
+        {
+          "name": "casmi-chebi-lmsd-structures/bio_meta.pkl",
+          "bytes": 14266637
+        },
+        {
+          "name": "casmi-chebi-lmsd-structures/bio_structures.parquet",
+          "bytes": 5407545
+        },
+        {
+          "name": "casmi-chebi-lmsd-structures/stats.json",
+          "bytes": 608
+        },
+        {
+          "name": "casmi26-fp-models-v2/fp_merged_m1.pt",
+          "bytes": 144110255
+        },
+        {
+          "name": "casmi26-fp-models-v2/fp_single_s2.pt",
+          "bytes": 144110255
+        },
+        {
+          "name": "casmi26-fpnet-full1/fpnet_full1.pt",
+          "bytes": 198791233
+        },
+        {
+          "name": "casmi26-glacier/LICENSE-NOTICE.txt",
+          "bytes": 1489
+        },
+        {
+          "name": "casmi26-glacier/MANIFEST.json",
+          "bytes": 6286
+        },
+        {
+          "name": "casmi26-glacier/README.md",
+          "bytes": 2423
+        },
+        {
+          "name": "casmi26-glacier/ckpt/glacier.pt",
+          "bytes": 60531887
+        },
+        {
+          "name": "casmi26-glacier/gl_fuse.py",
+          "bytes": 7533
+        },
+        {
+          "name": "casmi26-glacier/gl_runner.py",
+          "bytes": 39880
+        },
+        {
+          "name": "casmi26-glacier/shim/LinSATNet/__init__.py",
+          "bytes": 3656
+        },
+        {
+          "name": "casmi26-glacier/shim/dgl/__init__.py",
+          "bytes": 10029
+        },
+        {
+          "name": "casmi26-glacier/shim/dgl/backend/__init__.py",
+          "bytes": 36
+        },
+        {
+          "name": "casmi26-glacier/shim/dgl/backend/pytorch.py",
+          "bytes": 964
+        },
+        {
+          "name": "casmi26-glacier/shim/dgl/function.py",
+          "bytes": 1803
+        },
+        {
+          "name": "casmi26-glacier/shim/dgl/nn/__init__.py",
+          "bytes": 1958
+        },
+        {
+          "name": "casmi26-glacier/shim/torch_scatter/__init__.py",
+          "bytes": 3120
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/LICENSE",
+          "bytes": 1092
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/__init__.py",
+          "bytes": 266
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/common/__init__.py",
+          "bytes": 381
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/common/chem_utils.py",
+          "bytes": 26034
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/common/denoising_utils.py",
+          "bytes": 3478
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/common/fingerprint.py",
+          "bytes": 1649
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/common/misc_utils.py",
+          "bytes": 96988
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/common/parallel_utils.py",
+          "bytes": 13635
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/common/splitter.py",
+          "bytes": 2676
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/glacier/dataset.py",
+          "bytes": 46377
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/glacier/joint_model.py",
+          "bytes": 76110
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/graphormer/__init__.py",
+          "bytes": 351
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/graphormer/graphormer_graph_encoder.py",
+          "bytes": 6925
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/graphormer/graphormer_graph_encoder_layer.py",
+          "bytes": 3593
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/graphormer/graphormer_layers.py",
+          "bytes": 5937
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/graphormer/multihead_attention.py",
+          "bytes": 2404
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/iceberg/dag_data.py",
+          "bytes": 36155
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/iceberg/graph_mutate.py",
+          "bytes": 9359
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/magma/fragmentation.py",
+          "bytes": 28327
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/nn_utils/__init__.py",
+          "bytes": 378
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/nn_utils/dgl_graph_ops.py",
+          "bytes": 18955
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/nn_utils/dgl_modules.py",
+          "bytes": 23408
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/nn_utils/form_embedder.py",
+          "bytes": 10681
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/nn_utils/mol_graph.py",
+          "bytes": 10573
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/nn_utils/nn_utils.py",
+          "bytes": 41337
+        },
+        {
+          "name": "casmi26-glacier/src/ms_pred/nn_utils/transformer_layer.py",
+          "bytes": 30192
+        },
+        {
+          "name": "casmi26-iceberg/LICENSE-NOTICE.txt",
+          "bytes": 1003
+        },
+        {
+          "name": "casmi26-iceberg/MANIFEST.json",
+          "bytes": 6163
+        },
+        {
+          "name": "casmi26-iceberg/README.md",
+          "bytes": 3879
+        },
+        {
+          "name": "casmi26-iceberg/ckpt/gen.pt",
+          "bytes": 14561244
+        },
+        {
+          "name": "casmi26-iceberg/ckpt/inten.pt",
+          "bytes": 13793037
+        },
+        {
+          "name": "casmi26-iceberg/fuse.py",
+          "bytes": 8349
+        },
+        {
+          "name": "casmi26-iceberg/ice_runner.py",
+          "bytes": 31551
+        },
+        {
+          "name": "casmi26-iceberg/shim/dgl/__init__.py",
+          "bytes": 10029
+        },
+        {
+          "name": "casmi26-iceberg/shim/dgl/backend/__init__.py",
+          "bytes": 36
+        },
+        {
+          "name": "casmi26-iceberg/shim/dgl/backend/pytorch.py",
+          "bytes": 964
+        },
+        {
+          "name": "casmi26-iceberg/shim/dgl/function.py",
+          "bytes": 1803
+        },
+        {
+          "name": "casmi26-iceberg/shim/dgl/nn/__init__.py",
+          "bytes": 1958
+        },
+        {
+          "name": "casmi26-iceberg/shim/torch_scatter/__init__.py",
+          "bytes": 3120
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/LICENSE",
+          "bytes": 1092
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/__init__.py",
+          "bytes": 266
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/common/__init__.py",
+          "bytes": 381
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/common/chem_utils.py",
+          "bytes": 26034
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/common/denoising_utils.py",
+          "bytes": 3478
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/common/fingerprint.py",
+          "bytes": 1649
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/common/misc_utils.py",
+          "bytes": 96988
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/common/parallel_utils.py",
+          "bytes": 13635
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/common/splitter.py",
+          "bytes": 2676
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/iceberg/dag_data.py",
+          "bytes": 36155
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/iceberg/gen_model.py",
+          "bytes": 34864
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/iceberg/inten_model.py",
+          "bytes": 34601
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/iceberg/joint_model.py",
+          "bytes": 7968
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/magma/fragmentation.py",
+          "bytes": 28327
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/magma/run_magma.py",
+          "bytes": 23083
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/nn_utils/__init__.py",
+          "bytes": 378
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/nn_utils/dgl_graph_ops.py",
+          "bytes": 18955
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/nn_utils/dgl_modules.py",
+          "bytes": 23408
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/nn_utils/form_embedder.py",
+          "bytes": 10681
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/nn_utils/mol_graph.py",
+          "bytes": 10573
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/nn_utils/nn_utils.py",
+          "bytes": 41337
+        },
+        {
+          "name": "casmi26-iceberg/src/ms_pred/nn_utils/transformer_layer.py",
+          "bytes": 30192
+        },
+        {
+          "name": "casmi26-iceberg/wheels/einops-0.8.2-py3-none-any.whl.ice",
+          "bytes": 65638
+        },
+        {
+          "name": "casmi26-iceberg/wheels/lightning_utilities-0.15.3-py3-none-any.whl.ice",
+          "bytes": 31906
+        },
+        {
+          "name": "casmi26-iceberg/wheels/pytorch_lightning-2.6.6-py3-none-any.whl.ice",
+          "bytes": 853045
+        },
+        {
+          "name": "casmi26-iceberg/wheels/rdkit-2025.3.6-cp312-cp312-manylinux_2_28_x86_64.whl.ice",
+          "bytes": 36119142
+        },
+        {
+          "name": "casmi26-iceberg/wheels/torchmetrics-1.9.0-py3-none-any.whl.ice",
+          "bytes": 983384
+        },
+        {
+          "name": "casmi26-pubchemlite-cc0-candidate-fingerprints/MANIFEST.json",
+          "bytes": 920
+        },
+        {
+          "name": "casmi26-pubchemlite-cc0-candidate-fingerprints/pubchemlite_fp.npy",
+          "bytes": 334454048
+        },
+        {
+          "name": "casmi26-pubchemlite-cc0-candidate-fingerprints/pubchemlite_mass.npy",
+          "bytes": 3086208
+        },
+        {
+          "name": "casmi26-pubchemlite-cc0-candidate-fingerprints/pubchemlite_meta.pkl",
+          "bytes": 23642096
+        },
+        {
+          "name": "casmi26-ranker-features/rank_train.npz",
+          "bytes": 9553020
+        },
+        {
+          "name": "casmi26-simulated-ranker-rows/README.md",
+          "bytes": 1879
+        },
+        {
+          "name": "casmi26-simulated-ranker-rows/sim_rank_rows_nofp.npz",
+          "bytes": 26872207
+        },
+        {
+          "name": "casmi26-spec2mol-r/TRAINING.md",
+          "bytes": 2255
+        },
+        {
+          "name": "casmi26-spec2mol-r/history_val.json",
+          "bytes": 430
+        },
+        {
+          "name": "casmi26-spec2mol-r/prep_morgan.py",
+          "bytes": 1360
+        },
+        {
+          "name": "casmi26-spec2mol-r/spec2mol_r.pt",
+          "bytes": 11893127
+        },
+        {
+          "name": "casmi26-spec2mol-r/spec2mol_r_features.py",
+          "bytes": 870
+        },
+        {
+          "name": "casmi26-spec2mol-r/spec2mol_r_model.py",
+          "bytes": 2707
+        },
+        {
+          "name": "casmi26-spec2mol-r/spec2mol_r_spectrum.py",
+          "bytes": 1512
+        },
+        {
+          "name": "casmi26-spec2mol-r/train_r.py",
+          "bytes": 6961
+        },
+        {
+          "name": "casmi26-spec2mol/TRAINING.md",
+          "bytes": 3536
+        },
+        {
+          "name": "casmi26-spec2mol/held_out_molecules.csv",
+          "bytes": 18738
+        },
+        {
+          "name": "casmi26-spec2mol/held_out_sids.npy",
+          "bytes": 2248
+        },
+        {
+          "name": "casmi26-spec2mol/history.json",
+          "bytes": 3269
+        },
+        {
+          "name": "casmi26-spec2mol/prep.py",
+          "bytes": 5583
+        },
+        {
+          "name": "casmi26-spec2mol/spec2mol.pt",
+          "bytes": 66731290
+        },
+        {
+          "name": "casmi26-spec2mol/spec2mol_features.py",
+          "bytes": 1512
+        },
+        {
+          "name": "casmi26-spec2mol/spec2mol_model.py",
+          "bytes": 2528
+        },
+        {
+          "name": "casmi26-spec2mol/train.py",
+          "bytes": 6724
+        },
+        {
+          "name": "casmi26-v2-pool/fp_bits.npy",
+          "bytes": 41032
+        },
+        {
+          "name": "casmi26-v2-pool/pool_fp.npy",
+          "bytes": 908986707
+        },
+        {
+          "name": "casmi26-v2-pool/pool_frag_mass.npy",
+          "bytes": 357116708
+        },
+        {
+          "name": "casmi26-v2-pool/pool_frag_off.npy",
+          "bytes": 5685744
+        },
+        {
+          "name": "casmi26-v2-pool/pool_meta.parquet",
+          "bytes": 36692358
+        },
+        {
+          "name": "casmi26-v2-pool/train_fp_sel.npy",
+          "bytes": 352761118
+        },
+        {
+          "name": "casmi26-v2-pool/train_structs.parquet",
+          "bytes": 23306834
+        },
+        {
+          "name": "casmi26-v3-models/code/casmi/__init__.py",
+          "bytes": 0
+        },
+        {
+          "name": "casmi26-v3-models/code/casmi/build.py",
+          "bytes": 4979
+        },
+        {
+          "name": "casmi26-v3-models/code/casmi/chem.py",
+          "bytes": 12328
+        },
+        {
+          "name": "casmi26-v3-models/code/casmi/derive.py",
+          "bytes": 6929
+        },
+        {
+          "name": "casmi26-v3-models/code/casmi/engine.py",
+          "bytes": 26449
+        },
+        {
+          "name": "casmi26-v3-models/code/casmi/fpnet.py",
+          "bytes": 9551
+        },
+        {
+          "name": "casmi26-v3-models/code/casmi/frag.py",
+          "bytes": 11172
+        },
+        {
+          "name": "casmi26-v3-models/code/casmi/graphs.py",
+          "bytes": 2850
+        },
+        {
+          "name": "casmi26-v3-models/code/casmi/library.py",
+          "bytes": 7577
+        },
+        {
+          "name": "casmi26-v3-models/code/casmi/pool.py",
+          "bytes": 2370
+        },
+        {
+          "name": "casmi26-v3-models/code/casmi/ranker.py",
+          "bytes": 4189
+        },
+        {
+          "name": "casmi26-v3-models/code/casmi/spectra.py",
+          "bytes": 10057
+        },
+        {
+          "name": "casmi26-v3-models/code/casmi/structs.py",
+          "bytes": 2791
+        },
+        {
+          "name": "casmi26-v3-models/code/casmi/traindata.py",
+          "bytes": 9425
+        },
+        {
+          "name": "casmi26-v3-models/code/casmi/xenc.py",
+          "bytes": 6938
+        },
+        {
+          "name": "casmi26-v3-models/fpnet_0.pt",
+          "bytes": 198790165
+        },
+        {
+          "name": "casmi26-v3-models/fpnet_1.pt",
+          "bytes": 198790165
+        },
+        {
+          "name": "casmi26-v3-models/ranker_0.pkl",
+          "bytes": 14162986
+        },
+        {
+          "name": "casmi26-v4b-models/LICENSE-NOTICE.txt",
+          "bytes": 1363
+        },
+        {
+          "name": "casmi26-v4b-models/MANIFEST.json",
+          "bytes": 9209
+        },
+        {
+          "name": "casmi26-v4b-models/code/casmi/__init__.py",
+          "bytes": 0
+        },
+        {
+          "name": "casmi26-v4b-models/code/casmi/build.py",
+          "bytes": 4979
+        },
+        {
+          "name": "casmi26-v4b-models/code/casmi/chem.py",
+          "bytes": 12328
+        },
+        {
+          "name": "casmi26-v4b-models/code/casmi/derive.py",
+          "bytes": 6929
+        },
+        {
+          "name": "casmi26-v4b-models/code/casmi/dreams_model.py",
+          "bytes": 32798
+        },
+        {
+          "name": "casmi26-v4b-models/code/casmi/engine.py",
+          "bytes": 26449
+        },
+        {
+          "name": "casmi26-v4b-models/code/casmi/fpnet.py",
+          "bytes": 9551
+        },
+        {
+          "name": "casmi26-v4b-models/code/casmi/fpnet6.py",
+          "bytes": 14661
+        },
+        {
+          "name": "casmi26-v4b-models/code/casmi/frag.py",
+          "bytes": 11172
+        },
+        {
+          "name": "casmi26-v4b-models/code/casmi/graphs.py",
+          "bytes": 2850
+        },
+        {
+          "name": "casmi26-v4b-models/code/casmi/library.py",
+          "bytes": 7577
+        },
+        {
+          "name": "casmi26-v4b-models/code/casmi/pool.py",
+          "bytes": 2370
+        },
+        {
+          "name": "casmi26-v4b-models/code/casmi/ranker.py",
+          "bytes": 4189
+        },
+        {
+          "name": "casmi26-v4b-models/code/casmi/spectra.py",
+          "bytes": 10057
+        },
+        {
+          "name": "casmi26-v4b-models/code/casmi/structs.py",
+          "bytes": 2791
+        },
+        {
+          "name": "casmi26-v4b-models/code/casmi/traindata.py",
+          "bytes": 9425
+        },
+        {
+          "name": "casmi26-v4b-models/code/casmi/xenc.py",
+          "bytes": 6938
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/chemfeat.py",
+          "bytes": 6158
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/ctxlib.py",
+          "bytes": 20737
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/derive6.py",
+          "bytes": 8635
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/fams/__init__.py",
+          "bytes": 0
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/fams/analog_struct.py",
+          "bytes": 30583
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/fams/derivation.py",
+          "bytes": 29276
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/fams/frag2.py",
+          "bytes": 29368
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/fams/fragnet.py",
+          "bytes": 46806
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/fams/model_views.py",
+          "bytes": 3492
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/fragcaps.py",
+          "bytes": 6766
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/hooks_v1.py",
+          "bytes": 4338
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_coresmi_buf.npy",
+          "bytes": 19703633
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_coresmi_off.npy",
+          "bytes": 5685744
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_elsmi_buf.npy",
+          "bytes": 35033614
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_elsmi_off.npy",
+          "bytes": 5685744
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_fvec.npy",
+          "bytes": 14214148
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_hash.npy",
+          "bytes": 45484992
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_num.npy",
+          "bytes": 11371344
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_coresmi_buf.npy",
+          "bytes": 6940196
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_coresmi_off.npy",
+          "bytes": 2206616
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_elsmi_buf.npy",
+          "bytes": 10880676
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_elsmi_off.npy",
+          "bytes": 2206616
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_fvec.npy",
+          "bytes": 5516328
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_hash.npy",
+          "bytes": 17651968
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_num.npy",
+          "bytes": 4413088
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/derivation/parity_fixture.pkl",
+          "bytes": 98158
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/derivation/prior_tables.pkl",
+          "bytes": 20738118
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/frag2/caps.txt",
+          "bytes": 149
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/frag2/pool_cap.npy",
+          "bytes": 15635550
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/frag2/pool_f1_mass.npy",
+          "bytes": 62531984
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/frag2/pool_f1_off.npy",
+          "bytes": 5685744
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/fragnet/countsA.npz",
+          "bytes": 1568346
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/fragnet/featB.npz",
+          "bytes": 131473600
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/fragnet/rec_aoff.npy",
+          "bytes": 5685744
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/fragnet/rec_atom.npy",
+          "bytes": 66704036
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/fragnet/rec_boff.npy",
+          "bytes": 5685744
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/fragnet/rec_bond.npy",
+          "bytes": 71602625
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/fragnet/rec_ok.npy",
+          "bytes": 710829
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/fragnet/sets.pkl",
+          "bytes": 9343635
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/fragnet/stageA.npz",
+          "bytes": 268385
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/res/fragnet/stageB.txt",
+          "bytes": 544829
+        },
+        {
+          "name": "casmi26-v4b-models/code/fe_v4/v1engine.py",
+          "bytes": 8391
+        },
+        {
+          "name": "casmi26-v4b-models/fe_A.pt",
+          "bytes": 198790165
+        },
+        {
+          "name": "casmi26-v4b-models/fe_B.pt",
+          "bytes": 198790165
+        },
+        {
+          "name": "casmi26-v4b-models/fe_D.pt",
+          "bytes": 486278727
+        },
+        {
+          "name": "casmi26-v4b-models/fpnet_0.pt",
+          "bytes": 198790165
+        },
+        {
+          "name": "casmi26-v4b-models/ranker_v4b.pkl",
+          "bytes": 14301548
+        },
+        {
+          "name": "chebi-lipidmaps-casmi26/bio_fp.npy",
+          "bytes": 54399176
+        },
+        {
+          "name": "chebi-lipidmaps-casmi26/bio_mass.npy",
+          "bytes": 502080
+        },
+        {
+          "name": "chebi-lipidmaps-casmi26/bio_meta.pkl",
+          "bytes": 5545993
+        },
+        {
+          "name": "coconut-casmi26-candidates/coco_fp.npy",
+          "bytes": 378349391
+        },
+        {
+          "name": "coconut-casmi26-candidates/coco_mass.npy",
+          "bytes": 3491240
+        },
+        {
+          "name": "coconut-casmi26-candidates/coco_meta.pkl",
+          "bytes": 41450156
+        },
+        {
+          "name": "coconut-casmi26-candidates/fp_bits.npy",
+          "bytes": 55568
+        },
+        {
+          "name": "rdkit-2026-3-3-wheel/rdkit-2026.3.3-cp312-cp312-manylinux_2_28_x86_64.whl",
+          "bytes": 37188323
+        }
+      ]
+    },
+    {
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "version_number_observed": 5,
+      "files": [
+        {
+          "name": "MODEL_INPUTS.json",
+          "bytes": 910
+        },
+        {
+          "name": "README.md",
+          "bytes": 6597
+        },
+        {
+          "name": "fp_bits.npy",
+          "bytes": 41032
+        },
+        {
+          "name": "fpnet_fold0.pt",
+          "bytes": 198789484
+        }
+      ]
+    },
+    {
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version_number_observed": 10,
+      "files": [
+        {
+          "name": "CHANGED_FILES.json",
+          "bytes": 3803
+        },
+        {
+          "name": "DESCRIPTOR_METHOD.json",
+          "bytes": 3694
+        },
+        {
+          "name": "FILE_DESCRIPTIONS.json",
+          "bytes": 1499
+        },
+        {
+          "name": "JOIN_NOTES.json",
+          "bytes": 1397
+        },
+        {
+          "name": "LOTUS_REFRESH.json",
+          "bytes": 14743
+        },
+        {
+          "name": "MANIFEST_20261019.json",
+          "bytes": 3204
+        },
+        {
+          "name": "MANIFEST_20261019_2.json",
+          "bytes": 1103
+        },
+        {
+          "name": "MANIFEST_20261020.json",
+          "bytes": 1953
+        },
+        {
+          "name": "README.md",
+          "bytes": 10938
+        },
+        {
+          "name": "SOURCE_CHECK_20261019.md",
+          "bytes": 1351
+        },
+        {
+          "name": "SUMMARY.json",
+          "bytes": 486
+        },
+        {
+          "name": "TECHNICAL_NOTES.md",
+          "bytes": 36249
+        },
+        {
+          "name": "VALIDATION_20261019.json",
+          "bytes": 2174
+        },
+        {
+          "name": "build_np.py",
+          "bytes": 8965
+        },
+        {
+          "name": "candidate_joins.parquet",
+          "bytes": 4468200
+        },
+        {
+          "name": "descriptors.parquet",
+          "bytes": 5679231
+        },
+        {
+          "name": "external_reference_spectra/DOWNLOADS.csv",
+          "bytes": 12279
+        },
+        {
+          "name": "external_reference_spectra/INTEGRATION.json",
+          "bytes": 4032
+        },
+        {
+          "name": "external_reference_spectra/LICENCES.md",
+          "bytes": 4467
+        },
+        {
+          "name": "external_reference_spectra/SOURCE_MANIFESTS.json",
+          "bytes": 27651
+        },
+        {
+          "name": "external_reference_spectra/external_candidate_additions.parquet",
+          "bytes": 13047
+        },
+        {
+          "name": "external_reference_spectra/external_delta.parquet",
+          "bytes": 4607296
+        },
+        {
+          "name": "external_reference_spectra/external_record_quality.parquet",
+          "bytes": 94211
+        },
+        {
+          "name": "external_reference_spectra/external_scorer_sid_links.parquet",
+          "bytes": 36920
+        },
+        {
+          "name": "external_reference_spectra/external_structure_coverage.parquet",
+          "bytes": 43715
+        },
+        {
+          "name": "lotus_structure_genus.csv",
+          "bytes": 15679755
+        },
+        {
+          "name": "lotus_structure_genus.parquet",
+          "bytes": 2513093
+        },
+        {
+          "name": "natural_products.csv",
+          "bytes": 41057714
+        },
+        {
+          "name": "natural_products.parquet",
+          "bytes": 9575768
+        },
+        {
+          "name": "spectra_chemistry/ANNOTATION_METHOD.json",
+          "bytes": 522
+        },
+        {
+          "name": "spectra_chemistry/FILE_DESCRIPTIONS.json",
+          "bytes": 31479
+        },
+        {
+          "name": "spectra_chemistry/FRAGMENT_METHOD.json",
+          "bytes": 1574
+        },
+        {
+          "name": "spectra_chemistry/GRAPH_METHOD.json",
+          "bytes": 947
+        },
+        {
+          "name": "spectra_chemistry/MEASUREMENT_SUMMARY.json",
+          "bytes": 1616
+        },
+        {
+          "name": "spectra_chemistry/METHOD_CREDITS.json",
+          "bytes": 1562
+        },
+        {
+          "name": "spectra_chemistry/PARITY_SENSITIVITY_METHOD.json",
+          "bytes": 820
+        },
+        {
+          "name": "spectra_chemistry/PROVENANCE.json",
+          "bytes": 2137
+        },
+        {
+          "name": "spectra_chemistry/STRUCTURE_ENUMERATION.json",
+          "bytes": 965
+        },
+        {
+          "name": "spectra_chemistry/additional_measurements_v25.json",
+          "bytes": 1523
+        },
+        {
+          "name": "spectra_chemistry/adduct_census.csv",
+          "bytes": 5256
+        },
+        {
+          "name": "spectra_chemistry/annotation_by_energy.csv",
+          "bytes": 2370
+        },
+        {
+          "name": "spectra_chemistry/annotation_summary.csv",
+          "bytes": 1132
+        },
+        {
+          "name": "spectra_chemistry/bonds.csv",
+          "bytes": 17201
+        },
+        {
+          "name": "spectra_chemistry/collections.csv",
+          "bytes": 299
+        },
+        {
+          "name": "spectra_chemistry/electron_parity_by_energy.csv",
+          "bytes": 2866
+        },
+        {
+          "name": "spectra_chemistry/electron_parity_sensitivity.csv",
+          "bytes": 13901
+        },
+        {
+          "name": "spectra_chemistry/element_comparison_v25.csv",
+          "bytes": 1593
+        },
+        {
+          "name": "spectra_chemistry/element_count_distribution.csv",
+          "bytes": 28774
+        },
+        {
+          "name": "spectra_chemistry/element_groups.csv",
+          "bytes": 2433
+        },
+        {
+          "name": "spectra_chemistry/element_table_v25.md",
+          "bytes": 1047
+        },
+        {
+          "name": "spectra_chemistry/elements.csv",
+          "bytes": 8120
+        },
+        {
+          "name": "spectra_chemistry/example_spectra_v25.json",
+          "bytes": 12608
+        },
+        {
+          "name": "spectra_chemistry/figures/elements.png",
+          "bytes": 64734
+        },
+        {
+          "name": "spectra_chemistry/figures/example_stick_spectra_v25.png",
+          "bytes": 283745
+        },
+        {
+          "name": "spectra_chemistry/figures/fragment_catalogue_coverage.png",
+          "bytes": 120851
+        },
+        {
+          "name": "spectra_chemistry/figures/fragmentation_graph.png",
+          "bytes": 168115
+        },
+        {
+          "name": "spectra_chemistry/figures/fragmentation_tree_v25.png",
+          "bytes": 333597
+        },
+        {
+          "name": "spectra_chemistry/figures/neutral_losses.png",
+          "bytes": 99357
+        },
+        {
+          "name": "spectra_chemistry/formula_coverage.csv",
+          "bytes": 2993
+        },
+        {
+          "name": "spectra_chemistry/fragment_elements.csv",
+          "bytes": 1546
+        },
+        {
+          "name": "spectra_chemistry/fragment_formula_catalogue.csv",
+          "bytes": 726009
+        },
+        {
+          "name": "spectra_chemistry/fragment_ions_by_energy.csv",
+          "bytes": 1741333
+        },
+        {
+          "name": "spectra_chemistry/fragment_isotope_checks.csv",
+          "bytes": 94488
+        },
+        {
+          "name": "spectra_chemistry/fragment_isotope_summary.csv",
+          "bytes": 287
+        },
+        {
+          "name": "spectra_chemistry/fragmentation_graph.json",
+          "bytes": 163448
+        },
+        {
+          "name": "spectra_chemistry/frequent_fragment_ions.csv",
+          "bytes": 2067769
+        },
+        {
+          "name": "spectra_chemistry/frequent_precursor_losses.csv",
+          "bytes": 2609
+        },
+        {
+          "name": "spectra_chemistry/graph_candidates.json",
+          "bytes": 1927
+        },
+        {
+          "name": "spectra_chemistry/graph_energy_behavior.csv",
+          "bytes": 704
+        },
+        {
+          "name": "spectra_chemistry/graph_energy_sampling.json",
+          "bytes": 267
+        },
+        {
+          "name": "spectra_chemistry/loss_events.csv",
+          "bytes": 276332
+        },
+        {
+          "name": "spectra_chemistry/mass_defect.csv",
+          "bytes": 734
+        },
+        {
+          "name": "spectra_chemistry/neutral_loss_table_v25.csv",
+          "bytes": 1552
+        },
+        {
+          "name": "spectra_chemistry/neutral_loss_table_v25.md",
+          "bytes": 1664
+        },
+        {
+          "name": "spectra_chemistry/neutral_losses.csv",
+          "bytes": 7979
+        },
+        {
+          "name": "spectra_chemistry/neutral_losses_by_energy.csv",
+          "bytes": 37894
+        },
+        {
+          "name": "spectra_chemistry/parent_tier_coverage.json",
+          "bytes": 222
+        },
+        {
+          "name": "spectra_chemistry/physical_rules.csv",
+          "bytes": 8482
+        },
+        {
+          "name": "spectra_chemistry/physical_rules.json",
+          "bytes": 11565
+        },
+        {
+          "name": "spectra_chemistry/rule_method.json",
+          "bytes": 1017
+        },
+        {
+          "name": "spectra_chemistry/rule_retention.csv",
+          "bytes": 1106
+        },
+        {
+          "name": "spectra_chemistry/rule_true_decoy_retention.csv",
+          "bytes": 1635
+        },
+        {
+          "name": "spectra_chemistry/sampling.json",
+          "bytes": 3605
+        },
+        {
+          "name": "spectra_chemistry/spectrum_summary.csv",
+          "bytes": 695856
+        },
+        {
+          "name": "spectra_chemistry/structural_fragment_matches.csv",
+          "bytes": 724588
+        },
+        {
+          "name": "spectra_chemistry/structural_parent_summary.csv",
+          "bytes": 36152
+        },
+        {
+          "name": "spectra_chemistry/structure_coverage.csv",
+          "bytes": 1513
+        },
+        {
+          "name": "spectra_chemistry/structure_properties.csv",
+          "bytes": 3339
+        },
+        {
+          "name": "spectra_chemistry/tier_census.json",
+          "bytes": 428
+        },
+        {
+          "name": "spectra_chemistry/tier_element_count_distribution.csv",
+          "bytes": 15789
+        },
+        {
+          "name": "spectra_chemistry/tier_element_groups.csv",
+          "bytes": 499
+        },
+        {
+          "name": "spectra_chemistry/tier_elements.csv",
+          "bytes": 1624
+        },
+        {
+          "name": "spectra_chemistry/tier_structure_properties.csv",
+          "bytes": 213
+        },
+        {
+          "name": "spectra_chemistry/true_decoy_rows.csv",
+          "bytes": 277969
+        },
+        {
+          "name": "spectra_chemistry/true_decoy_summary.csv",
+          "bytes": 842
+        },
+        {
+          "name": "spectra_chemistry/unusual_training_structures.csv",
+          "bytes": 14953
+        },
+        {
+          "name": "sugar_and_acyl_units/MANIFEST.json",
+          "bytes": 1281
+        },
+        {
+          "name": "sugar_and_acyl_units/README.md",
+          "bytes": 3906
+        },
+        {
+          "name": "sugar_and_acyl_units/knowledge_units.parquet",
+          "bytes": 2309306
+        },
+        {
+          "name": "sugar_and_acyl_units/pool_units.parquet",
+          "bytes": 9219758
+        },
+        {
+          "name": "sugar_and_acyl_units/selected_rules.json",
+          "bytes": 11846
+        },
+        {
+          "name": "sugar_and_acyl_units/spectrum_validation.json",
+          "bytes": 1347
+        },
+        {
+          "name": "sugar_and_acyl_units/structure_validation.json",
+          "bytes": 18217
+        },
+        {
+          "name": "sugar_and_acyl_units/sugarloss_units.py",
+          "bytes": 5270
+        },
+        {
+          "name": "sugar_and_acyl_units/training_observed_losses.parquet",
+          "bytes": 32381810
+        },
+        {
+          "name": "sugar_and_acyl_units/unit_definitions.json",
+          "bytes": 1871
+        }
+      ]
+    },
+    {
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version_number_observed": 10,
+      "files": [
+        {
+          "name": "ATTRIBUTION.md",
+          "bytes": 1150
+        },
+        {
+          "name": "CHANGED_FILES.json",
+          "bytes": 4528
+        },
+        {
+          "name": "DIFFICULTY_METHOD.json",
+          "bytes": 1848
+        },
+        {
+          "name": "FILE_DESCRIPTIONS.json",
+          "bytes": 5532
+        },
+        {
+          "name": "LOTUS_REFRESH.json",
+          "bytes": 16926
+        },
+        {
+          "name": "MANIFEST_20261019.json",
+          "bytes": 11268
+        },
+        {
+          "name": "MANIFEST_20261019_2.json",
+          "bytes": 2355
+        },
+        {
+          "name": "PANEL_REPLAY_PUBLIC.json",
+          "bytes": 13121
+        },
+        {
+          "name": "README.md",
+          "bytes": 8808
+        },
+        {
+          "name": "SOURCE_CHECK_20261019.md",
+          "bytes": 1779
+        },
+        {
+          "name": "SUMMARY.json",
+          "bytes": 188
+        },
+        {
+          "name": "TECHNICAL_NOTES.md",
+          "bytes": 51233
+        },
+        {
+          "name": "VALIDATION_20261019.json",
+          "bytes": 2791
+        },
+        {
+          "name": "VALIDATION_20261020.json",
+          "bytes": 11387
+        },
+        {
+          "name": "aligned_public_priors.py",
+          "bytes": 1178
+        },
+        {
+          "name": "casmi26-identity-disjoint-validation-folds/MANIFEST_20261019_2.json",
+          "bytes": 1262
+        },
+        {
+          "name": "casmi26-identity-disjoint-validation-folds/README.md",
+          "bytes": 5396
+        },
+        {
+          "name": "casmi26-identity-disjoint-validation-folds/SPLIT_METHOD.json",
+          "bytes": 1415
+        },
+        {
+          "name": "casmi26-identity-disjoint-validation-folds/SUMMARY.json",
+          "bytes": 1299
+        },
+        {
+          "name": "casmi26-identity-disjoint-validation-folds/TECHNICAL_NOTES.md",
+          "bytes": 16681
+        },
+        {
+          "name": "casmi26-identity-disjoint-validation-folds/analogue_domain_summary.parquet",
+          "bytes": 7732
+        },
+        {
+          "name": "casmi26-identity-disjoint-validation-folds/build_folds.py",
+          "bytes": 8031
+        },
+        {
+          "name": "casmi26-identity-disjoint-validation-folds/spectra_folds.parquet",
+          "bytes": 23678772
+        },
+        {
+          "name": "casmi26-identity-disjoint-validation-folds/spectra_splits.parquet",
+          "bytes": 9272714
+        },
+        {
+          "name": "casmi26-identity-disjoint-validation-folds/split_categories.csv",
+          "bytes": 4223
+        },
+        {
+          "name": "casmi26-identity-disjoint-validation-folds/split_summary.parquet",
+          "bytes": 10206
+        },
+        {
+          "name": "casmi26-identity-disjoint-validation-folds/structure_splits.parquet",
+          "bytes": 6302907
+        },
+        {
+          "name": "casmi26-identity-disjoint-validation-folds/structures.parquet",
+          "bytes": 23795229
+        },
+        {
+          "name": "fpnet_window_eval.py",
+          "bytes": 3791
+        },
+        {
+          "name": "gate_diagnostics.csv",
+          "bytes": 364864
+        },
+        {
+          "name": "gate_eval.py",
+          "bytes": 4731
+        },
+        {
+          "name": "identity_audit.json",
+          "bytes": 41499
+        },
+        {
+          "name": "lotus_replay_identity_additions.parquet",
+          "bytes": 4204
+        },
+        {
+          "name": "main_candidates.parquet",
+          "bytes": 1639248
+        },
+        {
+          "name": "main_eval.py",
+          "bytes": 8183
+        },
+        {
+          "name": "main_tables.py",
+          "bytes": 6758
+        },
+        {
+          "name": "merge_eval.py",
+          "bytes": 6323
+        },
+        {
+          "name": "np_eval.py",
+          "bytes": 8643
+        },
+        {
+          "name": "np_poolfz.py",
+          "bytes": 3554
+        },
+        {
+          "name": "np_tables.py",
+          "bytes": 8155
+        },
+        {
+          "name": "panel.parquet",
+          "bytes": 23269
+        },
+        {
+          "name": "panel_difficulty.parquet",
+          "bytes": 75661
+        },
+        {
+          "name": "panel_fpnet_per_molecule.csv",
+          "bytes": 269574
+        },
+        {
+          "name": "panel_fpnet_scores.parquet",
+          "bytes": 51937874
+        },
+        {
+          "name": "panel_logits.npz",
+          "bytes": 20466740
+        },
+        {
+          "name": "panel_metric_identities.parquet",
+          "bytes": 926118
+        },
+        {
+          "name": "panel_same_formula.parquet",
+          "bytes": 8342392
+        },
+        {
+          "name": "panel_tier_formulas.parquet",
+          "bytes": 8209234
+        },
+        {
+          "name": "panel_truth_formula.parquet",
+          "bytes": 7962
+        },
+        {
+          "name": "prior_replay.json",
+          "bytes": 1685
+        },
+        {
+          "name": "prior_rule_per_query.parquet",
+          "bytes": 9192
+        },
+        {
+          "name": "prior_rule_summary.csv",
+          "bytes": 385
+        },
+        {
+          "name": "pubchem_candidates.parquet",
+          "bytes": 51122745
+        },
+        {
+          "name": "pubchem_signals.parquet",
+          "bytes": 12726869
+        },
+        {
+          "name": "pubchemlite_annotations.parquet",
+          "bytes": 13570437
+        },
+        {
+          "name": "replay_public_priors.py",
+          "bytes": 4283
+        },
+        {
+          "name": "results_fingerprint_seen_unseen.json",
+          "bytes": 1989
+        },
+        {
+          "name": "results_main_channel.json",
+          "bytes": 10781
+        },
+        {
+          "name": "results_merge_rules.json",
+          "bytes": 3494
+        },
+        {
+          "name": "results_pubchem_channel.json",
+          "bytes": 6358
+        },
+        {
+          "name": "summarize_panel_fpnet.py",
+          "bytes": 2015
+        }
+      ]
+    },
+    {
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version_number_observed": 13,
+      "files": [
+        {
+          "name": "ATTRIBUTION.md",
+          "bytes": 1077
+        },
+        {
+          "name": "FILE_DESCRIPTIONS.json",
+          "bytes": 25770
+        },
+        {
+          "name": "GROWTH_INPUTS.json",
+          "bytes": 8258
+        },
+        {
+          "name": "GROWTH_MANIFEST.json",
+          "bytes": 6352
+        },
+        {
+          "name": "MANIFEST.json",
+          "bytes": 894
+        },
+        {
+          "name": "README.md",
+          "bytes": 14312
+        },
+        {
+          "name": "aligned_public_priors.py",
+          "bytes": 1178
+        },
+        {
+          "name": "delta_pc_cid.npy",
+          "bytes": 145340
+        },
+        {
+          "name": "delta_pc_ik14.npy",
+          "bytes": 508370
+        },
+        {
+          "name": "delta_pc_lotus_refs.npy",
+          "bytes": 145340
+        },
+        {
+          "name": "delta_pc_lpmid.npy",
+          "bytes": 72734
+        },
+        {
+          "name": "delta_pc_lsid.npy",
+          "bytes": 72734
+        },
+        {
+          "name": "delta_pc_lsynonyms.npy",
+          "bytes": 72734
+        },
+        {
+          "name": "delta_pc_mass.npy",
+          "bytes": 290552
+        },
+        {
+          "name": "delta_pc_np.npy",
+          "bytes": 36431
+        },
+        {
+          "name": "delta_pc_off.npy",
+          "bytes": 290560
+        },
+        {
+          "name": "delta_pc_smiles.npy",
+          "bytes": 2320603
+        },
+        {
+          "name": "delta_pc_src_mask.npy",
+          "bytes": 72734
+        },
+        {
+          "name": "delta_pc_src_observed.npy",
+          "bytes": 36431
+        },
+        {
+          "name": "growth_pc_cid.npy",
+          "bytes": 44836
+        },
+        {
+          "name": "growth_pc_ik14.npy",
+          "bytes": 156606
+        },
+        {
+          "name": "growth_pc_lotus_refs.npy",
+          "bytes": 44836
+        },
+        {
+          "name": "growth_pc_lpmid.npy",
+          "bytes": 22482
+        },
+        {
+          "name": "growth_pc_lsid.npy",
+          "bytes": 22482
+        },
+        {
+          "name": "growth_pc_lsynonyms.npy",
+          "bytes": 22482
+        },
+        {
+          "name": "growth_pc_mass.npy",
+          "bytes": 89544
+        },
+        {
+          "name": "growth_pc_np.npy",
+          "bytes": 11305
+        },
+        {
+          "name": "growth_pc_off.npy",
+          "bytes": 89552
+        },
+        {
+          "name": "growth_pc_smiles.npy",
+          "bytes": 559296
+        },
+        {
+          "name": "growth_pc_src_mask.npy",
+          "bytes": 22482
+        },
+        {
+          "name": "growth_pc_src_observed.npy",
+          "bytes": 11305
+        },
+        {
+          "name": "pc_lotus_refs.npy",
+          "bytes": 211751106
+        },
+        {
+          "name": "pc_lpmid.npy",
+          "bytes": 211751106
+        },
+        {
+          "name": "pc_lsid.npy",
+          "bytes": 211751106
+        },
+        {
+          "name": "pc_lsynonyms.npy",
+          "bytes": 211751106
+        },
+        {
+          "name": "pc_np.npy",
+          "bytes": 105875617
+        },
+        {
+          "name": "pc_src_mask.npy",
+          "bytes": 211751106
+        },
+        {
+          "name": "pool_cid.npy",
+          "bytes": 2842932
+        },
+        {
+          "name": "pool_formula_isomers.npy",
+          "bytes": 1421530
+        },
+        {
+          "name": "pool_has_different_parent.npy",
+          "bytes": 710829
+        },
+        {
+          "name": "pool_lmesh.npy",
+          "bytes": 1421530
+        },
+        {
+          "name": "pool_lotus_refs.npy",
+          "bytes": 1421530
+        },
+        {
+          "name": "pool_lpatent.npy",
+          "bytes": 1421530
+        },
+        {
+          "name": "pool_lpmid.npy",
+          "bytes": 1421530
+        },
+        {
+          "name": "pool_lsid.npy",
+          "bytes": 1421530
+        },
+        {
+          "name": "pool_lsynonyms.npy",
+          "bytes": 1421530
+        },
+        {
+          "name": "pool_n_depositors.npy",
+          "bytes": 1421530
+        },
+        {
+          "name": "pool_n_vendors.npy",
+          "bytes": 1421530
+        },
+        {
+          "name": "pool_np.npy",
+          "bytes": 710829
+        },
+        {
+          "name": "pool_parent_cid.npy",
+          "bytes": 2842932
+        },
+        {
+          "name": "pool_popularity.csv",
+          "bytes": 180875134
+        },
+        {
+          "name": "pool_src_mask.npy",
+          "bytes": 1421530
+        },
+        {
+          "name": "pubchemlite_annotations.parquet",
+          "bytes": 13570437
+        }
+      ]
+    },
+    {
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version_number_observed": 1,
+      "files": [
+        {
+          "name": "casmi_spectrum_model_v1/README.txt",
+          "bytes": 902
+        },
+        {
+          "name": "casmi_spectrum_model_v1/config.json",
+          "bytes": 804
+        },
+        {
+          "name": "casmi_spectrum_model_v1/features.py",
+          "bytes": 2356
+        },
+        {
+          "name": "casmi_spectrum_model_v1/final_model.pt",
+          "bytes": 11872818
+        },
+        {
+          "name": "casmi_spectrum_model_v1/model.py",
+          "bytes": 1577
+        }
+      ]
+    }
+  ],
+  "note": "Versions pinned to available current snapshots; pull metadata lacks historical mounted versions. Source file hashes remain mandatory."
+}

@@ -1,0 +1,64 @@
+{
+  "status": "version_bound_output_downloaded",
+  "ref": "flexonafft/casmi26-closing-the-evidence-gap",
+  "source_url": "https://www.kaggle.com/api/v1/kernels/output/download/flexonafft/casmi26-closing-the-evidence-gap/submission.csv?versionNumber=56",
+  "download_date": "2026-11-04",
+  "auth_used": false,
+  "version_binding": {
+    "requested_kernel_version": 56,
+    "invalid_version_rejected": true,
+    "storage_script_version_id": 364170882,
+    "source_notebook_sha256": "0ebc86ad851fe7051e592fb268756e686ee21b9ddbe90012335096a349bd2769",
+    "v61_control_storage_script_version_id": 364604504,
+    "v61_control_sha256": "8eee78e5393a31490958b04257429bfff942fa4d8b3da81a847e50718d7c8b7b",
+    "v56_and_v61_outputs_distinct": true
+  },
+  "original_output": {
+    "file": "flexonafft_v56_submission.csv",
+    "bytes": 17303,
+    "sha256": "d2027d8918d15b27fa271ba4961faa63c28fa7f4efbea0dd8069ecbfe6a5060b",
+    "rows": 400,
+    "headers": {
+      "Content-Type": "text/plain; charset=utf-8",
+      "Content-Length": "17303",
+      "Last-Modified": "Sat, 31 Oct 2026 09:21:22 GMT"
+    }
+  },
+  "active_output": {
+    "file": "flexonafft_v56_active12.csv",
+    "bytes": 12259,
+    "sha256": "1c20da6d1448135bbe0f560e32971bbdfc5b6e6bab2cdc078236edb18769e56b",
+    "rows": 12,
+    "ids": [
+      "m_005e53",
+      "m_006153",
+      "m_00b5aa",
+      "m_01e922",
+      "m_0259d4",
+      "m_02d188",
+      "m_0318b5",
+      "m_043e86",
+      "m_050bf1",
+      "m_05b52e",
+      "m_068354",
+      "m_06e13d"
+    ],
+    "candidate_counts": {
+      "m_005e53": 25,
+      "m_006153": 25,
+      "m_00b5aa": 25,
+      "m_01e922": 25,
+      "m_0259d4": 25,
+      "m_02d188": 25,
+      "m_0318b5": 25,
+      "m_043e86": 25,
+      "m_050bf1": 25,
+      "m_05b52e": 25,
+      "m_068354": 25,
+      "m_06e13d": 25
+    }
+  },
+  "visible_test_signature": "654e030e4173780e945252b4a5adf70b",
+  "placeholder_rows": 388,
+  "scope": "Upstream visible-placeholder smoke output; reference for ordered candidate comparison, not ground truth or hidden validation"
+}

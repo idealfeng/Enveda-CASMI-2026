@@ -1,0 +1,70 @@
+{
+  "status": "finished_all_claimed_or_failed",
+  "pid": 35228,
+  "manifest_sha256": "e0779b1bb105dfe76c65beafde67345d1c8157b549d22368d2c0c81ca6891517",
+  "started_at_utc": "2026-11-09T07:31:44.362498+00:00",
+  "maximum_seconds": 21600.0,
+  "interval_seconds": 45,
+  "max_pending_cloud_runs": 2,
+  "submissions_at_most": 5,
+  "automatic_write_retries_allowed": false,
+  "branches": {
+    "mass_guarded_oldhead_p3": {
+      "branch": "mass_guarded_oldhead_p3",
+      "target": "stormseye/casmi26-mass-guarded-oldhead-p3-1109",
+      "status": "submission_accepted",
+      "terminal": true,
+      "reserved_cloud_slot": false,
+      "consecutive_read_errors": 0,
+      "submission_ref": 58155921,
+      "claim_status": "accepted"
+    },
+    "mass_guarded_v2mean_p7": {
+      "branch": "mass_guarded_v2mean_p7",
+      "target": "stormseye/casmi26-mass-guarded-v2mean-p7-1109",
+      "status": "submission_accepted",
+      "terminal": true,
+      "reserved_cloud_slot": false,
+      "consecutive_read_errors": 0,
+      "submission_ref": 58155938,
+      "claim_status": "accepted"
+    },
+    "mass_guarded_iso_p7b": {
+      "branch": "mass_guarded_iso_p7b",
+      "target": "stormseye/casmi26-mass-guarded-iso-p7b-1109",
+      "status": "submission_accepted",
+      "terminal": true,
+      "reserved_cloud_slot": false,
+      "consecutive_read_errors": 0,
+      "claim_status": "accepted",
+      "cloud_status": "COMPLETE",
+      "submission_ref": 58156404
+    },
+    "public_alex_extlib": {
+      "branch": "public_alex_extlib",
+      "target": "stormseye/casmi26-public-alex-extlib-1109",
+      "status": "submission_accepted",
+      "terminal": true,
+      "reserved_cloud_slot": false,
+      "consecutive_read_errors": 0,
+      "claim_status": "accepted",
+      "cloud_status": "COMPLETE",
+      "submission_ref": 58156414
+    },
+    "mass_guarded_extlib": {
+      "branch": "mass_guarded_extlib",
+      "target": "stormseye/casmi26-mass-guarded-extlib-1109",
+      "status": "submission_accepted",
+      "terminal": true,
+      "reserved_cloud_slot": false,
+      "consecutive_read_errors": 0,
+      "claim_status": "accepted",
+      "cloud_status": "COMPLETE",
+      "submission_ref": 58156482
+    }
+  },
+  "reserved_pending_cloud_runs": 0,
+  "checked_at_utc": "2026-11-09T07:48:45.697137+00:00",
+  "num_allowed_now": 1,
+  "finished_at_utc": "2026-11-09T07:48:45.697137+00:00"
+}

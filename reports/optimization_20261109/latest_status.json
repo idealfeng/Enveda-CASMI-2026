@@ -1,0 +1,82 @@
+{
+  "status": "finished",
+  "pid": 40236,
+  "manifest_sha256": "e0779b1bb105dfe76c65beafde67345d1c8157b549d22368d2c0c81ca6891517",
+  "started_at_utc": "2026-11-09T07:35:12.695334+00:00",
+  "read_only_network": true,
+  "new_submission_performed": false,
+  "checked_at_utc": "2026-11-09T12:42:12.358275+00:00",
+  "baseline_public_score": 0.482,
+  "branches": [
+    {
+      "branch": "mass_guarded_oldhead_p3",
+      "target": "stormseye/casmi26-mass-guarded-oldhead-p3-1109",
+      "actual_target": "stormseye/casmi26-mass-guarded-oldhead-p3-1109",
+      "submission_ref": 58155921,
+      "status": "COMPLETE",
+      "public_score": 0.482,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-09T12:19:12.697108+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "mass_guarded_v2mean_p7",
+      "target": "stormseye/casmi26-mass-guarded-v2mean-p7-1109",
+      "actual_target": "stormseye/casmi26-mass-guarded-v2mean-p7-1109",
+      "submission_ref": 58155938,
+      "status": "COMPLETE",
+      "public_score": 0.482,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-09T12:14:12.353379+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "mass_guarded_iso_p7b",
+      "target": "stormseye/casmi26-mass-guarded-iso-p7b-1109",
+      "actual_target": "stormseye/casmi26-mass-guarded-iso-p7b-1109",
+      "submission_ref": 58156404,
+      "status": "COMPLETE",
+      "public_score": 0.482,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-09T12:38:18.574079+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "public_alex_extlib",
+      "target": "stormseye/casmi26-public-alex-extlib-1109",
+      "actual_target": "stormseye/casmi26-public-alex-extlib-1109",
+      "submission_ref": 58156414,
+      "status": "COMPLETE",
+      "public_score": 0.484,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-09T12:23:16.823796+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "mass_guarded_extlib",
+      "target": "stormseye/casmi26-mass-guarded-extlib-1109",
+      "actual_target": "stormseye/casmi26-mass-guarded-extlib-1109",
+      "submission_ref": 58156482,
+      "status": "COMPLETE",
+      "public_score": 0.488,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-09T12:42:12.357240+00:00",
+      "error_description_present": false
+    }
+  ],
+  "best_this_batch": {
+    "branch": "mass_guarded_extlib",
+    "actual_target": "stormseye/casmi26-mass-guarded-extlib-1109",
+    "submission_ref": 58156482,
+    "public_score": 0.488
+  },
+  "best_overall_public_score": 0.488,
+  "all_branches_terminal": true,
+  "read_only": true,
+  "new_run_or_submission_performed": false,
+  "ledger_added_refs": [
+    58156482
+  ],
+  "ledger_current_best": 0.488,
+  "finished_at_utc": "2026-11-09T12:42:12.389507+00:00"
+}

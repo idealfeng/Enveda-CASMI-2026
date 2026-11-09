@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-09T07:36:26.187819+00:00",
+  "manifest_sha256": "e0779b1bb105dfe76c65beafde67345d1c8157b549d22368d2c0c81ca6891517",
+  "branches": [
+    {
+      "branch": "mass_guarded_oldhead_p3",
+      "notebook_sha256": "1c8eacbd07c1282a2114d558a39a4ad4cf404b5833e8412ae0c51d7fe1ad027f",
+      "metadata_sha256": "d14cde2c3f72f8fcb14cf73aab3fab4239c407b68e6bd38056c78018a316aafa",
+      "recipe_sha256": "4e92f5baaea084e7159c726cfec2bbd63a9c8d1b255ec846fc889e7bbf61082b",
+      "branch_sha256": "e124d2efbec898db0afd1f15f37890f94e11f50ee007a759e5cbbffee6ab427f"
+    },
+    {
+      "branch": "mass_guarded_v2mean_p7",
+      "notebook_sha256": "aa29969bacf47b437a51bab68b1f146ae17bf62058931129d435f1e1fe27311b",
+      "metadata_sha256": "b8c7443e7083968995baa5dab1a4b6115dbbd8c4cf33188d0a8ce3a93282aac4",
+      "recipe_sha256": "8ab9e20bc3025870c15948767c7ac038f999c2f97cb4b19dd4ca43a7920de733",
+      "branch_sha256": "dd7a1eef5a5d57f21a0fa5c0e914f7a8bcc6cf9730d3e28ef8c7781348580565"
+    },
+    {
+      "branch": "mass_guarded_iso_p7b",
+      "notebook_sha256": "5877f98e0248908e6eab28e7aaac8bb45d52ec6129945e52cd3f582a426dcaf2",
+      "metadata_sha256": "843bb90d75539ce688c6fdc536de5d398ca13d2233bec21adafc599565481106",
+      "recipe_sha256": "deb20120318cc32fe8114f82d7b982b605b19de2d4b629c601a6fd019f1c1927",
+      "branch_sha256": "f00eca8ccecdfbfa3cc4db3622e65008a9ad394cb8b357aaab56e266e57cb8f6"
+    },
+    {
+      "branch": "public_alex_extlib",
+      "notebook_sha256": "1838e7c7c07177b7e6976c9b4c1e9c566769b2c88c2a699ce002bffa174dbbee",
+      "metadata_sha256": "f45fb0e45dbbba76f6675f140179999ee39899b13c3e95c2ba0fdaac9ea0de88",
+      "recipe_sha256": "d1d5492bfe78e367948d8c9c39c1a0b60cff07fac1a4176a5a94c374c5de4741",
+      "branch_sha256": "652c44f6ed2965b3f303cb4391f5156e4ac961860e6ef75a6073e09ac62d4565"
+    },
+    {
+      "branch": "mass_guarded_extlib",
+      "notebook_sha256": "2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7",
+      "metadata_sha256": "80a7601a2104931baaa27e34223cd083963b24d173b8ebebd53755ab91f3c0d4",
+      "recipe_sha256": "5fc1c8cb1e27bd9e555090fcf437d0c9bfe02a0f8371811da286d2f3a4d4efd1",
+      "branch_sha256": "3b6ebd44cc52158dba5d784aae87ee9bd24fcb0b188a9d546ea7bcd99f197ddc"
+    }
+  ],
+  "all_source_metadata_recipe_pins": true,
+  "script_pins": {
+    "kaggle_batch.py": "c0636b9a22a72efce63b83c9ca6320bd73b4fed8038158685700e5d7b548547c",
+    "dispatch_fixed_batch_20261109.py": "7cca8042cfb5ca9671e38ab3f5dd7a7ed688a5a8d1250a1c6c37eff4a7316f17",
+    "watch_batch_with_ledger_20261109.py": "48ec4605b6e39cdcecfc0db2837840c71e7735fca6b53f81e87bc061668aa942"
+  },
+  "evidence": [
+    "reports/guarded_batch_independent_actual_review_20261109.json",
+    "reports/isomer_redeployment_20261109/verification.json",
+    "reports/external_overlay_independent_review_20261109.json",
+    "reports/fixed_batch_dispatch_review_20261109/verification.json",
+    "reports/gain_ledger_review_20261109/verification.json"
+  ],
+  "visible_save_runs": "fast_static: no model execution; formal hidden reruns run models",
+  "all_requested_downloads_on_d": true
+}

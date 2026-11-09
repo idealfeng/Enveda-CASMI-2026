@@ -1,0 +1,376 @@
+{
+  "status": "passed_execution_audit",
+  "checked_utc": "2026-11-05T06:43:55.777044+00:00",
+  "run_root": "runs/validation_v43_c2_20261105c",
+  "checks": [
+    {
+      "name": "actual_source_v43",
+      "status": "passed",
+      "evidence": {
+        "metadata_ref": "prvsiyan/analog-propagation-casmi-2026-baseline",
+        "metadata_version": 43,
+        "notebook_sha256": "a1da86c791cdbcb553254a12cef8bca8b527b991f40953d9dcb2a9c819d3c852"
+      }
+    },
+    {
+      "name": "runner_and_adapter_binding",
+      "status": "passed",
+      "evidence": {
+        "runner_sha256": "6552c8b4c22e42762deeb0617e8064c8570ba49fad72c560fcfaf8fc79ac66e4",
+        "adapter_sha256": "909cf75e67b82ef5edf6cfbdfb15af1d934904e610c3e2f54a5559533e8ab0f7",
+        "configuration_sha256": "7a21fed33f3158cad9b9925c21c84d76fdcb60aa0c675e443f20fe05d23a12cd"
+      }
+    },
+    {
+      "name": "runtime_helpers_frozen",
+      "status": "passed",
+      "evidence": {
+        "validation/e2_resources.py": true,
+        "validation/stage_process.py": true,
+        "validation/v43_runtime_patch.py": true
+      }
+    },
+    {
+      "name": "frozen_query_binding",
+      "status": "passed",
+      "evidence": {
+        "manifest_sha256": "8e1ab36f2d8b7f800aa88baf845c0ffdc3790d36bdcabbb6d465ace05a571b09",
+        "query_test_sha256": "60124173c6a5ec7f7084ec97d91718c76c3c7e404da61e470071bec4d45f6c8d",
+        "active_ids": 48,
+        "inference_truth_columns_exposed_declared": false
+      }
+    },
+    {
+      "name": "complete_exact_48_without_padding",
+      "status": "passed",
+      "evidence": {
+        "input_ids": 48,
+        "output_rows": 48,
+        "processed_molecules": 48,
+        "placeholder_fill_rows": 0,
+        "whole_CCO_placeholder_rows": 0,
+        "source_is_full_run_flag": false,
+        "flag_note": "Source strict-mode flag false does not imply only a subset: actual48/48 and0 padding are independently checked."
+      }
+    },
+    {
+      "name": "submission_shape",
+      "status": "passed",
+      "evidence": {
+        "max_nonempty_guesses": 25,
+        "chemical_validity_scope": "Not chemically parsed here; official evaluator performs metric identity/SMILES checks."
+      }
+    },
+    {
+      "name": "class2_reference_isolation_5725",
+      "status": "passed",
+      "evidence": {
+        "e1_libraries": [
+          {
+            "workdir": "/mnt/d/Paper/casmi/runs/validation_v43_c2_20261105c/work",
+            "rows": 2539608,
+            "excluded_rows": 5725,
+            "allowed_rows": 2533883,
+            "excluded_base_rows": 5725,
+            "excluded_extra_rows": 0,
+            "excluded_extra_query_clean_duplicates": 0,
+            "blocked_sids": 51,
+            "csr_offsets_preserved": true,
+            "reference_mask_sha256": "1c19f4740982dbe2e28a617579ce08447a941affe735ebee26fcbb5ac7dbf642"
+          }
+        ],
+        "e2_mask_sha256": "1c19f4740982dbe2e28a617579ce08447a941affe735ebee26fcbb5ac7dbf642",
+        "e2_excluded_rows": 5725,
+        "blocked_raw_keys_still_in_pool": 51,
+        "cohort_policy": "global leave-cohort-identity-out; all current pilot query identities removed from every reference path"
+      }
+    },
+    {
+      "name": "e2_complete_cap4_full_pool_capture0",
+      "status": "passed",
+      "evidence": {
+        "worker_policy": {
+          "status": "complete",
+          "requested_workers": 32,
+          "used_workers": 4,
+          "scope": "All original main workers: pool fingerprints, fragments and canonicalization",
+          "ranking_parameters_changed": false,
+          "numeric_map_order_retained": true
+        },
+        "pool_structures": 1137233,
+        "stage_elapsed_seconds": 529.825,
+        "capture_returncode": 0,
+        "pool_process_peak_RSS_KiB": "6870040 kB",
+        "pool_process_swap_after_release": "893460 kB",
+        "capture_stream_hashes_verified": true,
+        "candidate_rows": 1597
+      }
+    },
+    {
+      "name": "e2_observed_ordered_equivalence_48",
+      "status": "passed",
+      "evidence": {
+        "reference_runs": [
+          "validation_flex_c2_20261105b",
+          "validation_flex_c2_20261105d"
+        ],
+        "differing_queries": {
+          "validation_flex_c2_20261105b": 0,
+          "validation_flex_c2_20261105d": 0
+        },
+        "scope": "Exact ordered emitted E2 SMILES/keys comparison on the current 48-query cohort; no metric or full pipeline equivalence claim. No raw spectra or model weights were read."
+      }
+    },
+    {
+      "name": "ice_complete_finite_covered_scores",
+      "status": "passed",
+      "evidence": {
+        "status": "ok",
+        "input_groups": 48,
+        "covered": 46,
+        "fully_finite_groups": 46,
+        "uncovered_all_None_groups": 2,
+        "candidate_slots": 3941,
+        "finite_candidate_scores": 3788,
+        "seconds": 853.18,
+        "errors": [],
+        "n_pred_fail": 0,
+        "n_feat_fail": 0,
+        "n_bad_smiles": 0,
+        "input_sha256": "65dc08b51063a1641d06fe7a4d4123fa50ed292f84e70fa89e0c27191da23b93",
+        "output_sha256": "acfebd2a9d4411aea22e64fc6598b54c5ec8af973ae59db758d33eb0e40d5688"
+      }
+    },
+    {
+      "name": "gl_complete_finite_covered_scores",
+      "status": "passed",
+      "evidence": {
+        "status": "ok",
+        "input_groups": 45,
+        "covered": 45,
+        "fully_finite_groups": 45,
+        "uncovered_all_None_groups": 0,
+        "candidate_slots": 3692,
+        "finite_candidate_scores": 3692,
+        "seconds": 178.98,
+        "errors": [],
+        "n_pred_fail": 0,
+        "n_feat_fail": 0,
+        "n_bad_smiles": 0,
+        "input_sha256": "a38a7b8ce63bbf5d586865cbaa9ff642d61af999130aec55188630d31d2247fa",
+        "output_sha256": "8fbcc88f1f1b744d2053001dd7cb66bab59379074f25afa58b2ac68b0881346d"
+      }
+    },
+    {
+      "name": "n1_complete_finite_aligned_scores",
+      "status": "passed",
+      "evidence": {
+        "status": "ok",
+        "fake": false,
+        "model_groups": 46,
+        "done": 46,
+        "real_N1_groups": 1,
+        "synthetic_strict_mode_exercise_groups": 45,
+        "spectra_with_finite_aligned_scores": 191,
+        "finite_mean_and_merged_score_values": 31824,
+        "seconds": 181.15,
+        "errors": [],
+        "n_pred_fail": 0,
+        "n_feat_fail": 0,
+        "input_sha256": "d5dbb4036a4e1cda58f6f5c6ee882c5ba600b5e5eece30ede377f38d98f8f407",
+        "output_sha256": "81d142f1805838d22d724f6287ab6eed6e11c5c1ed980a63779cdaf817fa1630"
+      }
+    },
+    {
+      "name": "final_hash_and_successful_exit",
+      "status": "passed",
+      "evidence": {
+        "final_sha256": "21859f9a45a482a97b25bfc34c88d88cc3ee99bd0ae4bc52472eae5344e33cbe",
+        "exit_code": 0,
+        "finished_utc": "2026-11-05T06:34:37Z",
+        "elapsed_seconds": 2337.22
+      }
+    },
+    {
+      "name": "legacy_E004_labels_explicit",
+      "status": "passed",
+      "evidence": {
+        "actual_version": 43,
+        "original_legacy_cells": [
+          30,
+          33
+        ],
+        "retained_labels": {
+          "source_version_id": 356740494,
+          "source_version": 80,
+          "source_code_sha256": "eee496a371fce179b4aeda1c5082a58212c724eaf1ca4ba0c943bbe8d7196ef2"
+        },
+        "interpretation": "E004/E006 source identifiers are embedded ancestor/protocol labels already present in the downloaded V43. They do not identify the actual executed notebook as V80. The original file hash, V43 metadata and outer validation receipt establish the actual source."
+      }
+    }
+  ],
+  "failed_checks": [],
+  "inputs": {
+    "runs/validation_v43_c2_20261105c/validation_run_receipt.json": {
+      "bytes": 23270,
+      "sha256": "1ce7255016289374139803586fa5a322ce8821648dacc06dfd857b30afe30080"
+    },
+    "runs/validation_v43_c2_20261105c/validation_config.json": {
+      "bytes": 4737,
+      "sha256": "7a21fed33f3158cad9b9925c21c84d76fdcb60aa0c675e443f20fe05d23a12cd"
+    },
+    "runs/validation_v43_c2_20261105c/validation_runtime_audit.json": {
+      "bytes": 1983,
+      "sha256": "b8c600bc9a3ec02642dd61a059eb482ef109fa51ec0f5c0d4d5d380f99ec4321"
+    },
+    "runs/validation_v43_c2_20261105c/e004_verification.json": {
+      "bytes": 6552,
+      "sha256": "36043ea2910c5653582571e4903003a560062b2d9ba8cece50cba5341f4f8ed6"
+    },
+    "runs/validation_pilot_v2_20261104/manifest.json": {
+      "bytes": 7636,
+      "sha256": "8e1ab36f2d8b7f800aa88baf845c0ffdc3790d36bdcabbb6d465ace05a571b09"
+    },
+    "third_party/prvsiyan_analog/metadata_v43.json": {
+      "bytes": 2170,
+      "sha256": "d99ef38d175b9e4fde512909ba4d317e21a435a78bd768da08c8d9cbb83a1ceb"
+    },
+    "reports/v43_source_identity_addendum_20261105.json": {
+      "bytes": 2709,
+      "sha256": "899f32e58e78e76144a6aa997eaf1e50c67ca3bcc2de2256070a2555ae7dfb93"
+    },
+    "runs/validation_v43_c2_20261105c/validation_e1_reference_audit.json": {
+      "bytes": 886,
+      "sha256": "9c4493ac5ce95c838b91d34aa43e0b8336f92fd89a668595ca23030c527e0a8c"
+    },
+    "runs/validation_v43_c2_20261105c/validation_e2_reference_audit.json": {
+      "bytes": 557,
+      "sha256": "100167a28aaa8ea6c86122d190ce1af98ca5a627fe085791b43f92510d44e2aa"
+    },
+    "runs/validation_v43_c2_20261105c/validation_e2_worker_limit.json": {
+      "bytes": 243,
+      "sha256": "5d71a2cacb919f5a6ebed349b8ebe89fdb095f90ec74b87de7e2e56c3fb1a31c"
+    },
+    "runs/validation_v43_c2_20261105c/validation_e2_resource_policy.json": {
+      "bytes": 1198,
+      "sha256": "31bad45d35bc7156e9e1068053233ce5dbe79674c2ee4d891c01e7d7679686b7"
+    },
+    "runs/validation_v43_c2_20261105c/engine2_capture.json": {
+      "bytes": 1106,
+      "sha256": "ecdb8e7a068e322433aa41de9270551bc9c16a3dfbc416eeab5268de73be2b8f"
+    },
+    "runs/validation_v43_c2_20261105c/engine2_capture_success.json": {
+      "bytes": 309,
+      "sha256": "a925ab352a657c57c49b99e343486b46d382591f367cddee5cb1f94b655c863d"
+    },
+    "runs/validation_v43_c2_20261105c/eng_lists.json": {
+      "bytes": 119257,
+      "sha256": "a53d80ee8d0a5f4d4ac5d63b8e42aefb60c96b5c1a4e2da2dac6cbd9a679dede"
+    },
+    "reports/v43_e2_resource_equivalence_20261105.json": {
+      "bytes": 5617,
+      "sha256": "1e1284a217a7dffb24f7d4469c51d5af14144bd7ead5d5b6b1abcb4b071797b0"
+    },
+    "runs/validation_v43_c2_20261105c/ice_work/ice_out.json.meta.json": {
+      "bytes": 1022,
+      "sha256": "12fa09ac22067d48734de9e8384c0849dee13aec94335b06ca3d74c79dc97eef"
+    },
+    "runs/validation_v43_c2_20261105c/ice_work/ice_out.json": {
+      "bytes": 288656,
+      "sha256": "acfebd2a9d4411aea22e64fc6598b54c5ec8af973ae59db758d33eb0e40d5688"
+    },
+    "runs/validation_v43_c2_20261105c/gl_work/gl_out.json.meta.json": {
+      "bytes": 1061,
+      "sha256": "c4d5ac4ad1d6c5defaf78d28d9a27019095d1ba3c78e0e6c1780cf5fd915170d"
+    },
+    "runs/validation_v43_c2_20261105c/gl_work/gl_out.json": {
+      "bytes": 272728,
+      "sha256": "8fbcc88f1f1b744d2053001dd7cb66bab59379074f25afa58b2ac68b0881346d"
+    },
+    "runs/validation_v43_c2_20261105c/n1_work/n1_out.json.meta.json": {
+      "bytes": 1743,
+      "sha256": "10fc52219575032243b8ecf5a96aa1f921bbf0e237853fa1f489de68b54369db"
+    },
+    "runs/validation_v43_c2_20261105c/n1_work/n1_out.json": {
+      "bytes": 846600,
+      "sha256": "81d142f1805838d22d724f6287ab6eed6e11c5c1ed980a63779cdaf817fa1630"
+    }
+  },
+  "final_sha256": "21859f9a45a482a97b25bfc34c88d88cc3ee99bd0ae4bc52472eae5344e33cbe",
+  "source_version": 43,
+  "forward_models": {
+    "ice": {
+      "status": "ok",
+      "input_groups": 48,
+      "covered": 46,
+      "fully_finite_groups": 46,
+      "uncovered_all_None_groups": 2,
+      "candidate_slots": 3941,
+      "finite_candidate_scores": 3788,
+      "seconds": 853.18,
+      "errors": [],
+      "n_pred_fail": 0,
+      "n_feat_fail": 0,
+      "n_bad_smiles": 0,
+      "input_sha256": "65dc08b51063a1641d06fe7a4d4123fa50ed292f84e70fa89e0c27191da23b93",
+      "output_sha256": "acfebd2a9d4411aea22e64fc6598b54c5ec8af973ae59db758d33eb0e40d5688"
+    },
+    "gl": {
+      "status": "ok",
+      "input_groups": 45,
+      "covered": 45,
+      "fully_finite_groups": 45,
+      "uncovered_all_None_groups": 0,
+      "candidate_slots": 3692,
+      "finite_candidate_scores": 3692,
+      "seconds": 178.98,
+      "errors": [],
+      "n_pred_fail": 0,
+      "n_feat_fail": 0,
+      "n_bad_smiles": 0,
+      "input_sha256": "a38a7b8ce63bbf5d586865cbaa9ff642d61af999130aec55188630d31d2247fa",
+      "output_sha256": "8fbcc88f1f1b744d2053001dd7cb66bab59379074f25afa58b2ac68b0881346d"
+    },
+    "n1": {
+      "status": "ok",
+      "fake": false,
+      "model_groups": 46,
+      "done": 46,
+      "real_N1_groups": 1,
+      "synthetic_strict_mode_exercise_groups": 45,
+      "spectra_with_finite_aligned_scores": 191,
+      "finite_mean_and_merged_score_values": 31824,
+      "seconds": 181.15,
+      "errors": [],
+      "n_pred_fail": 0,
+      "n_feat_fail": 0,
+      "input_sha256": "d5dbb4036a4e1cda58f6f5c6ee882c5ba600b5e5eece30ede377f38d98f8f407",
+      "output_sha256": "81d142f1805838d22d724f6287ab6eed6e11c5c1ed980a63779cdaf817fa1630"
+    }
+  },
+  "scope": "Independent low-memory execution/provenance/output-finiteness audit. JSON artifacts loaded individually only when <=1MiB; larger local inputs were SHA-streamed in 64KiB buffers. No model weights or raw full-library spectra read; no metric evaluation performed.",
+  "evaluation_label": "reference-isolated diagnostic with known pretrained exposure",
+  "pretrained_component_applicability": {
+    "FPNet_full1": "loaded; declared seen all training identities, including NP",
+    "other_loaded_public_models_rankers": "exact membership insufficiently audited",
+    "Saner_final_model": "not loaded by V43; shared manifest declaration does not imply applicability",
+    "fold0_FPNet": "not loaded by V43"
+  },
+  "hidden_400_or_official_leaderboard_score_claimed": false,
+  "locked_final_cohort_evaluated_by_this_audit": false,
+  "execution_policy": {
+    "ice_budget_seconds": 2400,
+    "gl_budget_seconds": 4000,
+    "n1_budget_seconds": 2400,
+    "all_covered_scoring_required": true,
+    "strict_mode_synthetic_N1_exercise": true,
+    "resumed_stage_output_reuse": false
+  },
+  "limitations": [
+    "This is a 48-query training-derived development diagnostic with known FPNet-full1 exposure, not clean generalization CV or a hidden400 rerun.",
+    "Validation budgets require all covered forward scoring; original competition rerun budgets/partial policies differ. Do not extrapolate this elapsed time or coverage directly to hidden400.",
+    "Preexisting spectrum/asset/producer caches are reused; no resumed stage output was used, but this is not a fully cold-filesystem timing proof.",
+    "Reference removal does not erase pretrained exposure. Licensing and complete asset content rehash are outside this small-artifact audit.",
+    "E004/E006 ancestor identifiers are retained exactly as present in originalV43; they do not mean V80 was executed."
+  ]
+}

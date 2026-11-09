@@ -1,0 +1,962 @@
+{
+  "local_work_date": "2026-11-09",
+  "collected_at_utc": "2026-11-09T07:43:37.428443+00:00",
+  "runs": [
+    {
+      "pipeline": "flex",
+      "work_root": "runs\\validation_flex_c2_20261105d",
+      "status": "complete",
+      "processed_molecules": 48,
+      "elapsed_seconds": 1282.673,
+      "latest_cell": [
+        {
+          "cell": 19,
+          "status": "complete",
+          "elapsed_seconds": 0.001
+        }
+      ],
+      "reference_policy": "global leave-cohort-identity-out; all current pilot query identities removed from every reference path",
+      "evaluation_label": "reference-isolated diagnostic with known pretrained exposure",
+      "run_receipt": "runs\\validation_flex_c2_20261105d\\validation_run_receipt.json",
+      "e2_mask_audit": "passed",
+      "runtime_audit": "passed",
+      "background_task": {
+        "linux_pid": "370",
+        "exit_code": 0,
+        "liveness": "Not checked by this file collector; verify the current process identity separately."
+      }
+    },
+    {
+      "pipeline": "v43",
+      "work_root": "runs\\validation_v43_c2_20261105c",
+      "status": "complete",
+      "processed_molecules": 48,
+      "elapsed_seconds": 2337.22,
+      "latest_cell": [
+        {
+          "cell": 34,
+          "status": "complete",
+          "elapsed_seconds": 0.028
+        }
+      ],
+      "reference_policy": "global leave-cohort-identity-out; all current pilot query identities removed from every reference path",
+      "evaluation_label": "reference-isolated diagnostic with known pretrained exposure",
+      "run_receipt": "runs\\validation_v43_c2_20261105c\\validation_run_receipt.json",
+      "e2_mask_audit": "passed",
+      "runtime_audit": "passed",
+      "background_task": {
+        "linux_pid": "392",
+        "exit_code": 0,
+        "liveness": "Not checked by this file collector; verify the current process identity separately."
+      }
+    }
+  ],
+  "component_pilot": {
+    "work_root": "runs\\component_neural_pilot_20261105",
+    "planned_molecules": 32,
+    "status": "complete",
+    "elapsed_seconds": 101.07764109700001,
+    "baseline_metrics": {
+      "molecules": 32,
+      "mrr_at_25": 0.7822916666666667,
+      "top1": 0.6875,
+      "top5": 0.90625,
+      "top25": 0.9375
+    },
+    "treatment_metrics": {
+      "molecules": 32,
+      "mrr_at_25": 0.7997767857142857,
+      "top1": 0.71875,
+      "top5": 0.90625,
+      "top25": 0.9375
+    },
+    "fixed_candidate_audit": {
+      "equal": true,
+      "scope": "Valid metric-identity sets in submitted lists of at most 25 guesses; scoring order and duplicate/invalid slots are not changed.",
+      "molecules_checked": 32,
+      "different_molecules": 0,
+      "differences": []
+    },
+    "scope": "Query-spectrum/positive-identity-excluded component diagnostic with Saner known checkpoint-selection candidates excluded. Fold0 negative-structure and development exposure are not ruled out. Not complete Flex CV or an independent final evaluation.",
+    "limitations": [
+      "Only three public natural-product development identities; their scores are unchanged.",
+      "The bootstrap interval includes zero; the observed mean improvement is uncertain.",
+      "Checkpoint/split declarations and identity exclusions are audited; historical producer code/minibatches are not fully reconstructed.",
+      "Nine of 32 identities belong to the fold0 monitoring cohort reconstructed from public source. The script saves last/final rather than metric-selected best; this does not prove no development contact.",
+      "Fold0 training negatives come from the full pool without heldout-identity exclusion. Actual historical sampling of these structures is unknown; positive-identity exclusion does not establish structure-unseen training.",
+      "The frozen final cohort of 250 identities was not evaluated.",
+      "Whole-stack pretrained exposure remains a separate issue."
+    ],
+    "persisted_json_files": [
+      "evaluation.json",
+      "plan.json",
+      "prepared.json",
+      "run_receipt.json"
+    ]
+  },
+  "dataset_integrity": "passed",
+  "cloud": {
+    "target": "stormseye/casmi26-flex-v56-baseline",
+    "version": 2,
+    "persisted_session_status": "COMPLETE",
+    "status_checked_at_utc": "2026-11-05T11:09:00.115034+00:00",
+    "output_audit": "passed",
+    "submission_ref": 58021256,
+    "submission_state": "COMPLETE",
+    "submission_checked_at_utc": "2026-11-06T02:33:01.680652+00:00",
+    "public_score": "0.479",
+    "note": "Persisted cloud receipts only; this collector performs no live status check or external action."
+  },
+  "public_neural_comparison": {
+    "status": "complete",
+    "scoring_layer": "CUSTOM consensus before physical/merge/final prior; not complete V56/V30 output",
+    "metrics": {
+      "public": {
+        "molecules": 48,
+        "mrr_at_25": 0.84510582010582,
+        "top1": 0.7916666666666666,
+        "top5": 0.9166666666666666,
+        "top25": 0.9583333333333334
+      },
+      "dual": {
+        "molecules": 48,
+        "mrr_at_25": 0.849074074074074,
+        "top1": 0.7916666666666666,
+        "top5": 0.9375,
+        "top25": 0.9583333333333334
+      },
+      "tri": {
+        "molecules": 48,
+        "mrr_at_25": 0.8509548611111111,
+        "top1": 0.7916666666666666,
+        "top5": 0.9375,
+        "top25": 0.9583333333333334
+      }
+    },
+    "elapsed_seconds": 127.70535261200001,
+    "public_control_byte_identical": true,
+    "limitations": [
+      "All three neural models have official-train full refits; these development identities may be seen.",
+      "This isolates neural consensus. Physical reranking, priors, candidate expansion and full public-notebook recipes are not evaluated.",
+      "Positive paired differences on this panel do not prove hidden-test or leaderboard improvement."
+    ]
+  },
+  "public_tri_cloud": {
+    "target": "stormseye/casmi26-public-tri-v30",
+    "version": 1,
+    "persisted_session_status": "COMPLETE",
+    "status_checked_at_utc": "2026-11-06T08:17:06.293935+00:00",
+    "output_audit": "passed",
+    "processed_molecules": 12,
+    "is_full_run": false,
+    "submission_ref": 58051406,
+    "submission_state": "COMPLETE",
+    "public_score": "0.475",
+    "submission_checked_at_utc": "2026-11-06T16:26:22.892917+00:00",
+    "note": "New V30 whole-recipe branch. Save&Run smoke success is not a hidden score; EXP004 is a separate fixed-candidate diagnostic."
+  },
+  "aggressive_batch": {
+    "status": "finished_refreshed_from_live_reads",
+    "pid": 37680,
+    "started_at_utc": "2026-11-06T16:47:49.453650+00:00",
+    "manifest_sha256": "11b1077776fb860a97906b1e60d9336bd1b73ea9e13138395c06e3b2445d5dee",
+    "max_seconds": 43200.0,
+    "poll_interval_seconds": 45,
+    "read_only": true,
+    "new_run_or_submission_performed": false,
+    "checked_at_utc": "2026-11-07T06:40:32.804779+00:00",
+    "baseline_public_score": 0.479,
+    "branches": [
+      {
+        "branch": "flex_dual_only",
+        "target": "stormseye/casmi26-flex-dual-only-1107",
+        "actual_target": "stormseye/casmi26-flex-dual-neural-only",
+        "submission_ref": 58063780,
+        "status": "COMPLETE",
+        "public_score": 0.48,
+        "public_score_available": true,
+        "checked_at_utc": "2026-11-07T06:39:32.742012+00:00"
+      },
+      {
+        "branch": "flex_tri_only",
+        "target": "stormseye/casmi26-flex-tri-only-1107",
+        "actual_target": "stormseye/casmi26-flex-tri-only-1107",
+        "submission_ref": 58063822,
+        "status": "COMPLETE",
+        "public_score": 0.475,
+        "public_score_available": true,
+        "checked_at_utc": "2026-11-07T06:39:33.606619+00:00"
+      },
+      {
+        "branch": "public_mass_repro",
+        "target": "stormseye/casmi26-public-mass-repro-1107",
+        "actual_target": "stormseye/casmi26-public-mass-repro-1107",
+        "submission_ref": 58063883,
+        "status": "COMPLETE",
+        "public_score": 0.481,
+        "public_score_available": true,
+        "checked_at_utc": "2026-11-07T06:39:34.334485+00:00"
+      },
+      {
+        "branch": "flex_rr_aggressive",
+        "target": "stormseye/casmi26-flex-rr-aggressive-1107",
+        "actual_target": "stormseye/casmi26-flex-rr-aggressive-1107",
+        "submission_ref": 58063870,
+        "status": "COMPLETE",
+        "public_score": 0.436,
+        "public_score_available": true,
+        "checked_at_utc": "2026-11-07T06:39:35.476682+00:00"
+      }
+    ],
+    "best_this_batch": {
+      "branch": "public_mass_repro",
+      "actual_target": "stormseye/casmi26-public-mass-repro-1107",
+      "submission_ref": 58063883,
+      "public_score": 0.481
+    },
+    "best_overall_public_score": 0.481,
+    "all_branches_terminal": true,
+    "process_liveness": "Historical watcher PID is not a current liveness claim."
+  },
+  "aggressive_batch_pm": {
+    "status": "finished",
+    "pid": 24376,
+    "started_at_utc": "2026-11-07T06:57:22.915888+00:00",
+    "manifest_sha256": "7629b3868d313fdc8ec37f23632091b6ee48e504c99b581b9fcbad138b8fd5a0",
+    "max_seconds": 43200.0,
+    "poll_interval_seconds": 45,
+    "read_only": true,
+    "new_run_or_submission_performed": false,
+    "checked_at_utc": "2026-11-07T11:56:48.890631+00:00",
+    "baseline_public_score": 0.481,
+    "branches": [
+      {
+        "branch": "v35_baseline",
+        "target": "stormseye/casmi26-v35-baseline-1107pm",
+        "actual_target": "stormseye/casmi26-v35-baseline-1107pm",
+        "submission_ref": 58082815,
+        "status": "COMPLETE",
+        "public_score": 0.469,
+        "public_score_available": true,
+        "checked_at_utc": "2026-11-07T11:56:48.886623+00:00",
+        "error_description_present": false
+      },
+      {
+        "branch": "v35_weak_prior",
+        "target": "stormseye/casmi26-v35-weak-prior-1107pm",
+        "actual_target": "stormseye/casmi26-v35-weak-prior-1107pm",
+        "submission_ref": 58082822,
+        "status": "COMPLETE",
+        "public_score": 0.476,
+        "public_score_available": true,
+        "checked_at_utc": "2026-11-07T11:34:45.141635+00:00",
+        "error_description_present": false
+      },
+      {
+        "branch": "v35_v2_emphasis",
+        "target": "stormseye/casmi26-v35-v2-emphasis-1107pm",
+        "actual_target": "stormseye/casmi26-v35-v2-emphasis-1107pm",
+        "submission_ref": 58082871,
+        "status": "COMPLETE",
+        "public_score": 0.458,
+        "public_score_available": true,
+        "checked_at_utc": "2026-11-07T11:29:45.007990+00:00",
+        "error_description_present": false
+      },
+      {
+        "branch": "v35_robust_mass",
+        "target": "stormseye/casmi26-v35-robust-mass-1107pm",
+        "actual_target": "stormseye/casmi26-v35-robust-mass-1107pm",
+        "submission_ref": 58082895,
+        "status": "COMPLETE",
+        "public_score": 0.469,
+        "public_score_available": true,
+        "checked_at_utc": "2026-11-07T11:48:19.645128+00:00",
+        "error_description_present": false
+      },
+      {
+        "branch": "v35_no_interleave",
+        "target": "stormseye/casmi26-v35-no-interleave-1107pm",
+        "actual_target": "stormseye/casmi26-v35-no-interleave-1107pm",
+        "submission_ref": 58082938,
+        "status": "COMPLETE",
+        "public_score": 0.469,
+        "public_score_available": true,
+        "checked_at_utc": "2026-11-07T11:34:48.003816+00:00",
+        "error_description_present": false
+      }
+    ],
+    "best_this_batch": {
+      "branch": "v35_weak_prior",
+      "actual_target": "stormseye/casmi26-v35-weak-prior-1107pm",
+      "submission_ref": 58082822,
+      "public_score": 0.476
+    },
+    "best_overall_public_score": 0.481,
+    "all_branches_terminal": true,
+    "finished_at_utc": "2026-11-07T11:56:48.890631+00:00"
+  },
+  "optimization_batch": {
+    "status": "refreshed_read_only",
+    "checked_at_utc": "2026-11-09T07:08:11.402560+00:00",
+    "baseline_public_score": 0.481,
+    "branches": [
+      {
+        "branch": "mass_no_np_bonus",
+        "target": "stormseye/casmi26-mass-no-np-bonus-1108",
+        "actual_target": "stormseye/casmi26-mass-no-np-bonus-1108",
+        "submission_ref": 58119805,
+        "status": "COMPLETE",
+        "public_score": 0.481,
+        "public_score_available": true,
+        "checked_at_utc": "2026-11-09T07:08:07.402817+00:00",
+        "error_description_present": false
+      },
+      {
+        "branch": "mass_gl_na",
+        "target": "stormseye/casmi26-mass-gl-na-1108",
+        "actual_target": "stormseye/casmi26-mass-gl-na-1108",
+        "submission_ref": 58120288,
+        "status": "COMPLETE",
+        "public_score": null,
+        "public_score_available": false,
+        "checked_at_utc": "2026-11-09T07:08:08.233152+00:00",
+        "error_description_present": true
+      },
+      {
+        "branch": "mass_head_seed0",
+        "target": "stormseye/casmi26-mass-head-seed0-1108",
+        "actual_target": "stormseye/casmi26-mass-head-seed0-1108",
+        "submission_ref": 58120385,
+        "status": "COMPLETE",
+        "public_score": 0.465,
+        "public_score_available": true,
+        "checked_at_utc": "2026-11-09T07:08:09.036941+00:00",
+        "error_description_present": false
+      },
+      {
+        "branch": "mass_head_seed1",
+        "target": "stormseye/casmi26-mass-head-seed1-1108",
+        "actual_target": "stormseye/casmi26-mass-head-seed1-1108",
+        "submission_ref": 58120395,
+        "status": "COMPLETE",
+        "public_score": 0.47,
+        "public_score_available": true,
+        "checked_at_utc": "2026-11-09T07:08:09.972634+00:00",
+        "error_description_present": false
+      },
+      {
+        "branch": "mass_guarded_head_tail_1108",
+        "target": "stormseye/casmi26-mass-guarded-head-tail-1108",
+        "actual_target": "stormseye/casmi26-mass-guarded-head-tail-1108",
+        "submission_ref": 58129661,
+        "status": "COMPLETE",
+        "public_score": 0.482,
+        "public_score_available": true,
+        "checked_at_utc": "2026-11-09T07:08:11.400554+00:00",
+        "error_description_present": false
+      }
+    ],
+    "best_this_batch": {
+      "branch": "mass_guarded_head_tail_1108",
+      "actual_target": "stormseye/casmi26-mass-guarded-head-tail-1108",
+      "submission_ref": 58129661,
+      "public_score": 0.482
+    },
+    "best_overall_public_score": 0.482,
+    "all_branches_terminal": true,
+    "read_only": true,
+    "new_run_or_submission_performed": false,
+    "allowance": {
+      "num_today": 0,
+      "num_total": 16,
+      "num_allowed_now": 5
+    }
+  },
+  "optimization_batch_latest": {
+    "status": "monitoring",
+    "pid": 40236,
+    "manifest_sha256": "e0779b1bb105dfe76c65beafde67345d1c8157b549d22368d2c0c81ca6891517",
+    "started_at_utc": "2026-11-09T07:35:12.695334+00:00",
+    "read_only_network": true,
+    "new_submission_performed": false,
+    "checked_at_utc": "2026-11-09T07:43:08.016336+00:00",
+    "baseline_public_score": 0.482,
+    "branches": [
+      {
+        "branch": "mass_guarded_oldhead_p3",
+        "target": "stormseye/casmi26-mass-guarded-oldhead-p3-1109",
+        "actual_target": "stormseye/casmi26-mass-guarded-oldhead-p3-1109",
+        "submission_ref": 58155921,
+        "status": "PENDING",
+        "public_score": null,
+        "public_score_available": false,
+        "checked_at_utc": "2026-11-09T07:43:07.074098+00:00",
+        "error_description_present": false
+      },
+      {
+        "branch": "mass_guarded_v2mean_p7",
+        "target": "stormseye/casmi26-mass-guarded-v2mean-p7-1109",
+        "actual_target": "stormseye/casmi26-mass-guarded-v2mean-p7-1109",
+        "submission_ref": 58155938,
+        "status": "PENDING",
+        "public_score": null,
+        "public_score_available": false,
+        "checked_at_utc": "2026-11-09T07:43:08.013280+00:00",
+        "error_description_present": false
+      },
+      {
+        "branch": "mass_guarded_iso_p7b",
+        "target": "stormseye/casmi26-mass-guarded-iso-p7b-1109",
+        "actual_target": "stormseye/casmi26-mass-guarded-iso-p7b-1109",
+        "submission_ref": null,
+        "status": "not_submitted",
+        "public_score": null,
+        "public_score_available": false
+      },
+      {
+        "branch": "public_alex_extlib",
+        "target": "stormseye/casmi26-public-alex-extlib-1109",
+        "actual_target": "stormseye/casmi26-public-alex-extlib-1109",
+        "submission_ref": null,
+        "status": "not_submitted",
+        "public_score": null,
+        "public_score_available": false
+      },
+      {
+        "branch": "mass_guarded_extlib",
+        "target": "stormseye/casmi26-mass-guarded-extlib-1109",
+        "actual_target": "stormseye/casmi26-mass-guarded-extlib-1109",
+        "submission_ref": null,
+        "status": "not_submitted",
+        "public_score": null,
+        "public_score_available": false
+      }
+    ],
+    "best_this_batch": null,
+    "best_overall_public_score": 0.482,
+    "all_branches_terminal": false,
+    "read_only": true,
+    "new_run_or_submission_performed": false,
+    "ledger_added_refs": [],
+    "ledger_current_best": 0.482
+  },
+  "optimization_dispatcher_latest": {
+    "status": "waiting_next_cycle",
+    "pid": 35228,
+    "manifest_sha256": "e0779b1bb105dfe76c65beafde67345d1c8157b549d22368d2c0c81ca6891517",
+    "started_at_utc": "2026-11-09T07:31:44.362498+00:00",
+    "maximum_seconds": 21600.0,
+    "interval_seconds": 45,
+    "max_pending_cloud_runs": 2,
+    "submissions_at_most": 5,
+    "automatic_write_retries_allowed": false,
+    "branches": {
+      "mass_guarded_oldhead_p3": {
+        "branch": "mass_guarded_oldhead_p3",
+        "target": "stormseye/casmi26-mass-guarded-oldhead-p3-1109",
+        "status": "submission_accepted",
+        "terminal": true,
+        "reserved_cloud_slot": false,
+        "consecutive_read_errors": 0,
+        "submission_ref": 58155921,
+        "claim_status": "accepted"
+      },
+      "mass_guarded_v2mean_p7": {
+        "branch": "mass_guarded_v2mean_p7",
+        "target": "stormseye/casmi26-mass-guarded-v2mean-p7-1109",
+        "status": "submission_accepted",
+        "terminal": true,
+        "reserved_cloud_slot": false,
+        "consecutive_read_errors": 0,
+        "submission_ref": 58155938,
+        "claim_status": "accepted"
+      },
+      "mass_guarded_iso_p7b": {
+        "branch": "mass_guarded_iso_p7b",
+        "target": "stormseye/casmi26-mass-guarded-iso-p7b-1109",
+        "status": "waiting_cloud",
+        "terminal": false,
+        "reserved_cloud_slot": true,
+        "consecutive_read_errors": 0,
+        "claim_status": "run_requested",
+        "cloud_status": "QUEUED"
+      },
+      "public_alex_extlib": {
+        "branch": "public_alex_extlib",
+        "target": "stormseye/casmi26-public-alex-extlib-1109",
+        "status": "waiting_cloud",
+        "terminal": false,
+        "reserved_cloud_slot": true,
+        "consecutive_read_errors": 0,
+        "claim_status": "run_requested",
+        "cloud_status": "QUEUED"
+      },
+      "mass_guarded_extlib": {
+        "branch": "mass_guarded_extlib",
+        "target": "stormseye/casmi26-mass-guarded-extlib-1109",
+        "status": "waiting_launch_slot",
+        "terminal": false,
+        "reserved_cloud_slot": false,
+        "consecutive_read_errors": 0
+      }
+    },
+    "reserved_pending_cloud_runs": 2,
+    "checked_at_utc": "2026-11-09T07:43:27.203638+00:00",
+    "num_allowed_now": 3
+  },
+  "improvement_ledger": {
+    "schema_version": 1,
+    "updated_at_beijing": "2026-11-09 15:08",
+    "metric": "Kaggle displayed public MRR@25",
+    "current_best": 0.482,
+    "records": [
+      {
+        "date_beijing": "2026-11-05",
+        "before": null,
+        "after": 0.479,
+        "ref": 58021256,
+        "target": "stormseye/casmi26-flex-v56-baseline",
+        "version": 2,
+        "source": "unchanged public Flex V56 reproduction",
+        "attribution": "initial reproduced anchor; no custom gain claim"
+      },
+      {
+        "date_beijing": "2026-11-07",
+        "before": 0.479,
+        "after": 0.48,
+        "ref": 58063780,
+        "target": "stormseye/casmi26-flex-dual-neural-only",
+        "version": 1,
+        "source": "fixed public/v2 neural ensemble on Flex",
+        "attribution": "ensemble change as a whole; not one checkpoint in isolation"
+      },
+      {
+        "date_beijing": "2026-11-07",
+        "before": 0.48,
+        "after": 0.481,
+        "ref": 58063883,
+        "target": "stormseye/casmi26-public-mass-repro-1107",
+        "version": 1,
+        "source": "complete public MASS recipe reproduction",
+        "attribution": "multiple simultaneous prior/mass/LOTUS/outside changes; not individually causal"
+      },
+      {
+        "verified_date_beijing": "2026-11-09",
+        "before": 0.481,
+        "after": 0.482,
+        "ref": 58129661,
+        "target": "stormseye/casmi26-mass-guarded-head-tail-1108",
+        "version": 1,
+        "notebook_sha256": "6de37bec32c8aa8bfb46b2c5e94e374b53fe36137dff1cd7d1c4a295359f56fe",
+        "parent_ref": 58063883,
+        "parent_notebook_sha256": "2bf3c51c8703956f80892d478b0de77747f90a8228bf275399d793666e5a1ea6",
+        "source": "post-MASS trained two-head v2 ranking within rank8-25 same-formula original slots",
+        "preserved": [
+          "entire original MASS pipeline",
+          "final ranks1-7",
+          "candidate multiset",
+          "formula per tail slot",
+          "molecule order"
+        ],
+        "head_sha256": [
+          "99e63aedb420217c817aeaaebd3d09ffa9620824a8d8833dcf55fd90ae903a53",
+          "f29077ca350e48705cec93ed7a9716b2b718e965ba56cec859bb829bf4b7ba75"
+        ],
+        "negative_controls": {
+          "full_pipeline_head_seed0": 0.465,
+          "full_pipeline_head_seed1": 0.47
+        },
+        "attribution_limit": "trained-head contribution vs late original-v2 sorting not separated; different early vs late integration confounds full-head negatives; single public gain only",
+        "next_tests": [
+          "late original-v2 mean prefix7",
+          "old heads prefix3",
+          "old heads prefix1",
+          "same-formula-only residual training with mean anchoring"
+        ],
+        "known_pretrained_exposure": true,
+        "private_gain_verified": false,
+        "evidence": "reports/optimization_20261109/initial_live_status.json"
+      }
+    ]
+  },
+  "candidate_multispectrum_head": {
+    "status": "completed_fixed_budget_two_seed_training",
+    "known_pretrained_exposure": true,
+    "full_stack_clean_cv": false,
+    "steps_per_seed": 2500,
+    "model_parameters": 25986,
+    "heads": {
+      "20261108": {
+        "checkpoint": "runs\\candidate_head_20261108\\head_seed20261108_step2500.pt",
+        "sha256": "99e63aedb420217c817aeaaebd3d09ffa9620824a8d8833dcf55fd90ae903a53",
+        "bytes": 107291,
+        "benchmark500": {
+          "status": "passed",
+          "steps": 500,
+          "optimization_seconds": 3.4337183560000994,
+          "mean_step_seconds": 0.006867436712000199,
+          "median_step_seconds": 0.0032460455000205,
+          "initial100_loss": 1.2955504792928696,
+          "final100_loss": 0.9908122405409813,
+          "gradient_norm_min": 0.08800771087408066,
+          "gradient_norm_max": 1.0807199478149414,
+          "nonfinite_steps": 0,
+          "zero_residual_max_error": 0.0,
+          "parameters": 25986,
+          "peak_gpu_gb": 0.02388763427734375,
+          "training_identities": 1024,
+          "monitor_identities": 128,
+          "known_pretrained_exposure": true
+        },
+        "optimization_seconds": 12.298012905999485,
+        "monitor": {
+          "n": 128,
+          "recall": 0.9921875,
+          "base_rr": 0.7860993043414919,
+          "head_rr": 0.7652808779761904,
+          "base_top1": 0.6640625,
+          "head_top1": 0.6328125,
+          "gains": 10,
+          "losses": 15
+        },
+        "monitor_delta_95pct_query_bootstrap": [
+          -0.04538716491841492,
+          0.0021110920329670342
+        ],
+        "full_catalog_eval": {
+          "n": 128,
+          "recall": 0.984375,
+          "base_rr": 0.8297442336309522,
+          "head_rr": 0.844921875,
+          "base_top1": 0.734375,
+          "head_top1": 0.7578125,
+          "gains": 8,
+          "losses": 6
+        },
+        "eval_delta_95pct_query_bootstrap": [
+          -0.006376488095238095,
+          0.038828125000000005
+        ]
+      },
+      "20261109": {
+        "checkpoint": "runs\\candidate_head_20261108\\head_seed20261109_step2500.pt",
+        "sha256": "f29077ca350e48705cec93ed7a9716b2b718e965ba56cec859bb829bf4b7ba75",
+        "bytes": 107291,
+        "benchmark500": {
+          "status": "passed",
+          "steps": 500,
+          "optimization_seconds": 3.5552814180007317,
+          "mean_step_seconds": 0.007110562836001463,
+          "median_step_seconds": 0.0045936884999946415,
+          "initial100_loss": 1.2792331296205521,
+          "final100_loss": 1.0183304738998413,
+          "gradient_norm_min": 0.09315858781337738,
+          "gradient_norm_max": 1.243994116783142,
+          "nonfinite_steps": 0,
+          "zero_residual_max_error": 0.0,
+          "parameters": 25986,
+          "peak_gpu_gb": 0.02388763427734375,
+          "training_identities": 1024,
+          "monitor_identities": 128,
+          "known_pretrained_exposure": true
+        },
+        "optimization_seconds": 12.721574828998996,
+        "monitor": {
+          "n": 128,
+          "recall": 0.9921875,
+          "base_rr": 0.7860993043414919,
+          "head_rr": 0.7579222210081585,
+          "base_top1": 0.6640625,
+          "head_top1": 0.625,
+          "gains": 5,
+          "losses": 14
+        },
+        "monitor_delta_95pct_query_bootstrap": [
+          -0.0494436553030303,
+          -0.010113636363636363
+        ],
+        "full_catalog_eval": {
+          "n": 128,
+          "recall": 0.984375,
+          "base_rr": 0.8297442336309522,
+          "head_rr": 0.8310221354166667,
+          "base_top1": 0.734375,
+          "head_top1": 0.734375,
+          "gains": 6,
+          "losses": 9
+        },
+        "eval_delta_95pct_query_bootstrap": [
+          -0.019049479166666668,
+          0.021223958333333334
+        ]
+      }
+    },
+    "interpretation": "Both seeds lose MRR on Monitor and gain on Eval; evaluation retains known full-refit encoder exposure and engineering selection. No stable generalization or leaderboard gain has been established. Budgets/weights were not selected using these metrics."
+  },
+  "isomer_residual_head": {
+    "status": "completed_fixed_recipe_two_seed_training",
+    "recipe": {
+      "steps": 2500,
+      "seeds": [
+        20261109,
+        20261110
+      ],
+      "batch_size": 16,
+      "learning_rate": 0.0002,
+      "weight_decay": 0.01,
+      "gradient_clip": 5.0,
+      "residual_bound": 0.5,
+      "primary": "cross entropy restricted to target molecular formula only",
+      "primary_weight": 1.0,
+      "margin_anchor_weight": 0.5,
+      "margin_anchor": "mean squared change of candidate-minus-positive pretrained mean score margins over full retrieved list",
+      "residual_center_weight": 0.1,
+      "residual_center": "squared query-mean residual, prevents uninformative global offsets",
+      "selection": "fixed recipe, seeds, checkpoint budget, and equal-seed ensemble declared before training; no outcome-driven selection"
+    },
+    "heads": {
+      "20261109": {
+        "status": "trained",
+        "steps": 2500,
+        "seed": 20261109,
+        "optimization_seconds": 24.690184843000345,
+        "total_training_seconds": 27.419829232999994,
+        "milestones": [
+          {
+            "step": 500,
+            "checkpoint": "head_seed20261109_step500.pt",
+            "checkpoint_sha256": "ee1a030f8425ba26903a25083ea7505baffab78c3109edce030be2e0e0ffda41",
+            "monitor": {
+              "n": 128,
+              "recall": 0.9921875,
+              "base_rr": 0.7860993043414919,
+              "head_rr": 0.787661804341492,
+              "base_top1": 0.6640625,
+              "head_top1": 0.6640625,
+              "gains": 2,
+              "losses": 0,
+              "base_same_formula_mrr25": 0.8162308140229336,
+              "head_same_formula_mrr25": 0.817532897356267,
+              "base_neural_guard_control_mrr25": 0.7860993043414919,
+              "guarded_neural_tail_mrr25": 0.7860993043414919,
+              "guarded_changed_queries": 18,
+              "max_abs_residual": 0.18535995483398438,
+              "residual_mean": -0.08621636916148703,
+              "guarded_scope": "same-formula rank8..25 of neural baseline, NOT the full MASS output",
+              "head_mrr_delta_bootstrap95": [
+                0.0,
+                0.004427083333333334
+              ]
+            }
+          },
+          {
+            "step": 2500,
+            "checkpoint": "head_seed20261109_step2500.pt",
+            "checkpoint_sha256": "47fdbb171bf54f6a25fc7d720fc28e14e5c915eccbc585dde66b7c7b68db42eb",
+            "monitor": {
+              "n": 128,
+              "recall": 0.9921875,
+              "base_rr": 0.7860993043414919,
+              "head_rr": 0.7786099062848384,
+              "base_top1": 0.6640625,
+              "head_top1": 0.640625,
+              "gains": 6,
+              "losses": 3,
+              "base_same_formula_mrr25": 0.8162308140229336,
+              "head_same_formula_mrr25": 0.8084729141472563,
+              "base_neural_guard_control_mrr25": 0.7860993043414919,
+              "guarded_neural_tail_mrr25": 0.7861478365384617,
+              "guarded_changed_queries": 90,
+              "max_abs_residual": 0.40440940856933594,
+              "residual_mean": 0.08870129867296608,
+              "guarded_scope": "same-formula rank8..25 of neural baseline, NOT the full MASS output",
+              "head_mrr_delta_bootstrap95": [
+                -0.023177083333333334,
+                0.004463065608530955
+              ]
+            }
+          }
+        ],
+        "eval": {
+          "n": 128,
+          "recall": 0.984375,
+          "base_rr": 0.8297442336309522,
+          "head_rr": 0.8373560429606625,
+          "base_top1": 0.734375,
+          "head_top1": 0.7421875,
+          "gains": 7,
+          "losses": 3,
+          "base_same_formula_mrr25": 0.8553059895833333,
+          "head_same_formula_mrr25": 0.8618489583333333,
+          "base_neural_guard_control_mrr25": 0.8297442336309522,
+          "guarded_neural_tail_mrr25": 0.8297767857142855,
+          "guarded_changed_queries": 92,
+          "max_abs_residual": 0.41434192657470703,
+          "residual_mean": 0.09137797834294546,
+          "guarded_scope": "same-formula rank8..25 of neural baseline, NOT the full MASS output",
+          "head_mrr_delta_bootstrap95": [
+            -0.01058480525362319,
+            0.0274093990602355
+          ]
+        },
+        "all_loss_and_gradient_finite": true,
+        "recipe_sha256": "56cc26d21183c5c50f6e5a20e14d972407761cec679e574c1a68720a3acf7bf8",
+        "model_source_sha256": "894e000d85bd26d4845a7404782f38a8952955c77c4e0ee055b07542a0f7a18d",
+        "train_source_sha256": "e0b51e68dee93f87d86dc0d0089539babd86cf03272974d5f64c5516bea44bcc",
+        "known_pretrained_exposure": true,
+        "locked_queries_or_truth_read": false
+      },
+      "20261110": {
+        "status": "trained",
+        "steps": 2500,
+        "seed": 20261110,
+        "optimization_seconds": 17.73532860499968,
+        "total_training_seconds": 20.061290967999994,
+        "milestones": [
+          {
+            "step": 500,
+            "checkpoint": "head_seed20261110_step500.pt",
+            "checkpoint_sha256": "d272e1e43af8e03edbee459b08b19a8a509cbec96154c3778d0fad932884fdf8",
+            "monitor": {
+              "n": 128,
+              "recall": 0.9921875,
+              "base_rr": 0.7860993043414919,
+              "head_rr": 0.787661804341492,
+              "base_top1": 0.6640625,
+              "head_top1": 0.6640625,
+              "gains": 2,
+              "losses": 0,
+              "base_same_formula_mrr25": 0.8162308140229336,
+              "head_same_formula_mrr25": 0.817532897356267,
+              "base_neural_guard_control_mrr25": 0.7860993043414919,
+              "guarded_neural_tail_mrr25": 0.7860993043414919,
+              "guarded_changed_queries": 22,
+              "max_abs_residual": 0.16935253143310547,
+              "residual_mean": -0.08447263214138508,
+              "guarded_scope": "same-formula rank8..25 of neural baseline, NOT the full MASS output",
+              "head_mrr_delta_bootstrap95": [
+                0.0,
+                0.004427083333333334
+              ]
+            }
+          },
+          {
+            "step": 2500,
+            "checkpoint": "head_seed20261110_step2500.pt",
+            "checkpoint_sha256": "4c020ea62400188c273fb2bf29fc5187d6553a54e784dd26882291bd2f0aa4ca",
+            "monitor": {
+              "n": 128,
+              "recall": 0.9921875,
+              "base_rr": 0.7860993043414919,
+              "head_rr": 0.7812140729515051,
+              "base_top1": 0.6640625,
+              "head_top1": 0.6484375,
+              "gains": 7,
+              "losses": 4,
+              "base_same_formula_mrr25": 0.8162308140229336,
+              "head_same_formula_mrr25": 0.811077080813923,
+              "base_neural_guard_control_mrr25": 0.7860993043414919,
+              "guarded_neural_tail_mrr25": 0.7861478365384617,
+              "guarded_changed_queries": 93,
+              "max_abs_residual": 0.41023921966552734,
+              "residual_mean": 0.0715056073948136,
+              "guarded_scope": "same-formula rank8..25 of neural baseline, NOT the full MASS output",
+              "head_mrr_delta_bootstrap95": [
+                -0.0219996011404809,
+                0.010443840579710146
+              ]
+            }
+          }
+        ],
+        "eval": {
+          "n": 128,
+          "recall": 0.984375,
+          "base_rr": 0.8297442336309522,
+          "head_rr": 0.8382675012939957,
+          "base_top1": 0.734375,
+          "head_top1": 0.75,
+          "gains": 7,
+          "losses": 4,
+          "base_same_formula_mrr25": 0.8553059895833333,
+          "head_same_formula_mrr25": 0.8640625,
+          "base_neural_guard_control_mrr25": 0.8297442336309522,
+          "guarded_neural_tail_mrr25": 0.8297767857142855,
+          "guarded_changed_queries": 90,
+          "max_abs_residual": 0.4168386459350586,
+          "residual_mean": 0.07096896692944922,
+          "guarded_scope": "same-formula rank8..25 of neural baseline, NOT the full MASS output",
+          "head_mrr_delta_bootstrap95": [
+            -0.012369926120923915,
+            0.031011513530344204
+          ]
+        },
+        "all_loss_and_gradient_finite": true,
+        "recipe_sha256": "56cc26d21183c5c50f6e5a20e14d972407761cec679e574c1a68720a3acf7bf8",
+        "model_source_sha256": "894e000d85bd26d4845a7404782f38a8952955c77c4e0ee055b07542a0f7a18d",
+        "train_source_sha256": "e0b51e68dee93f87d86dc0d0089539babd86cf03272974d5f64c5516bea44bcc",
+        "known_pretrained_exposure": true,
+        "locked_queries_or_truth_read": false
+      }
+    },
+    "ensemble_monitor": {
+      "n": 128,
+      "recall": 0.9921875,
+      "base_rr": 0.7860993043414919,
+      "head_rr": 0.7825161562848384,
+      "base_top1": 0.6640625,
+      "head_top1": 0.6484375,
+      "gains": 7,
+      "losses": 3,
+      "base_same_formula_mrr25": 0.8162308140229336,
+      "head_same_formula_mrr25": 0.8123791641472563,
+      "base_neural_guard_control_mrr25": 0.7860993043414919,
+      "guarded_neural_tail_mrr25": 0.7861478365384617,
+      "guarded_changed_queries": 91,
+      "max_abs_residual": 0.4018726348876953,
+      "residual_mean": 0.08010345250093111,
+      "guarded_scope": "same-formula rank8..25 of neural baseline, NOT the full MASS output",
+      "head_mrr_delta_bootstrap95": [
+        -0.020519039752140974,
+        0.011225299015974964
+      ]
+    },
+    "ensemble_eval": {
+      "n": 128,
+      "recall": 0.984375,
+      "base_rr": 0.8297442336309522,
+      "head_rr": 0.8360539596273291,
+      "base_top1": 0.734375,
+      "head_top1": 0.7421875,
+      "gains": 7,
+      "losses": 3,
+      "base_same_formula_mrr25": 0.8553059895833333,
+      "head_same_formula_mrr25": 0.8605468749999999,
+      "base_neural_guard_control_mrr25": 0.8297442336309522,
+      "guarded_neural_tail_mrr25": 0.8297767857142855,
+      "guarded_changed_queries": 88,
+      "max_abs_residual": 0.4155902862548828,
+      "residual_mean": 0.08117347229903953,
+      "guarded_scope": "same-formula rank8..25 of neural baseline, NOT the full MASS output",
+      "head_mrr_delta_bootstrap95": [
+        -0.013227447067481886,
+        0.02717574586730073
+      ]
+    },
+    "known_pretrained_exposure": true,
+    "full_stack_clean_cv": false,
+    "selection": "Equal two-seed ensemble was prespecified; no leaderboard or diagnostic-based seed selection",
+    "inherited_candidate_restriction": true,
+    "old_weights_unchanged": true,
+    "model_code_sha256": "894e000d85bd26d4845a7404782f38a8952955c77c4e0ee055b07542a0f7a18d",
+    "train_code_sha256": "e0b51e68dee93f87d86dc0d0089539babd86cf03272974d5f64c5516bea44bcc"
+  },
+  "official_metric_rdkit": "2026.03.3",
+  "hidden_score_reproduced": true,
+  "kaggle_submission_performed": true,
+  "limitations": [
+    "Persisted cell progress is not a completed inference result.",
+    "The 48-query whole-stack pilot has known pretrained exposure.",
+    "The locked final cohort is not evaluated by this collector."
+  ]
+}

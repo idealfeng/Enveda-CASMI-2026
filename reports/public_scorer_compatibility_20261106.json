@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-06T02:27:06.278301+00:00",
+  "scope": "Strict CPU load and finite forward on two usable existing spectra/candidates; not performance validation",
+  "truth_read": false,
+  "locked_final_evaluated": false,
+  "new_training_or_submission": false,
+  "models": [
+    {
+      "slug": "casmi26-scorer-v2-model",
+      "version": 1,
+      "width": 192,
+      "heads": 6,
+      "embedding": 192,
+      "parameters": 2963840,
+      "strict_state_dict_load": true,
+      "weights_only_loader": true,
+      "real_usable_spectra": 2,
+      "raw_spectra_skipped_by_original_filter": 1,
+      "candidates": 2,
+      "forward_shape": [
+        2,
+        2
+      ],
+      "all_finite": true,
+      "checkpoint_sha256": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46",
+      "seconds": 4.342375779000001
+    },
+    {
+      "slug": "casmi26-scorer-v4-model",
+      "version": 1,
+      "width": 256,
+      "heads": 8,
+      "embedding": 256,
+      "parameters": 4224000,
+      "strict_state_dict_load": true,
+      "weights_only_loader": true,
+      "real_usable_spectra": 2,
+      "raw_spectra_skipped_by_original_filter": 1,
+      "candidates": 2,
+      "forward_shape": [
+        2,
+        2
+      ],
+      "all_finite": true,
+      "checkpoint_sha256": "10565a0d8c2c1cc903882ff7ba2a9b7b994ae169228bf0c9b6c4ae055ff4ec51",
+      "seconds": 0.27261242699999855
+    }
+  ],
+  "distinct_model_checkpoints": true
+}

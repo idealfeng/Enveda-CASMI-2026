@@ -1,0 +1,3 @@
+molecule_id,smiles
+fixture_a,C;CC
+fixture_b,CCC;CCCC

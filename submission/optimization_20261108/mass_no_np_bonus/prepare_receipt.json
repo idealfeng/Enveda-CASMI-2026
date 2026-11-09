@@ -1,0 +1,11 @@
+{
+  "status": "prepared",
+  "branch": "mass_no_np_bonus",
+  "target": "stormseye/casmi26-mass-no-np-bonus-1108",
+  "version": 1,
+  "notebook_sha256": "ad43e44f60b933b3ec5fa85cb349346da198e96c94c4113b0023594bee076bc7",
+  "metadata_sha256": "0dad0542655fb5819f32f1901de13fe1c3fb78bb5e3b63ceb70357bb910c2678",
+  "recipe_sha256": "468baef7f9a560ece89319710793f8611bb8a7affacff8a8936b7df46cad4571",
+  "static_review_path": "submission/optimization_20261108/mass_no_np_bonus/static_review.json",
+  "validation_mode": "fast_static"
+}

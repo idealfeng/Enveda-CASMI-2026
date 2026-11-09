@@ -1,0 +1,306 @@
+{
+  "ref": "sanpier/catalogue-experiment-saner",
+  "checked_at_utc": "2026-11-09T07:13:44.836903+00:00",
+  "read_only": true,
+  "metadata": {
+    "ref": "sanpier/catalogue-experiment-saner",
+    "title": "catalogue_experiment_saner",
+    "id": 12823240,
+    "owner_name": "Saner Turhaner",
+    "owner_ref": "sanpier",
+    "current_version_number": 1,
+    "version_number": null,
+    "last_updated": "2026-10-24 13:17:40.933000",
+    "total_bytes": 25575791,
+    "license_name": "Unknown",
+    "licenses": null,
+    "description": "",
+    "subtitle": "",
+    "usability_rating": 0.1764706
+  },
+  "files": [
+    {
+      "name": "catalogue_experiment/calibration_grid.csv",
+      "total_bytes": 440,
+      "creation_date": "2026-10-24 13:17:42.205000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_experiment/catalogue_audit.json",
+      "total_bytes": 592,
+      "creation_date": "2026-10-24 13:17:42.205000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_experiment/combiner_all.pkl",
+      "total_bytes": 121163,
+      "creation_date": "2026-10-24 13:17:42.292000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_experiment/combiner_no_neural.pkl",
+      "total_bytes": 109017,
+      "creation_date": "2026-10-24 13:17:42.260000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_experiment/engine2_coverage_audit.csv",
+      "total_bytes": 88,
+      "creation_date": "2026-10-24 13:17:42.266000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_experiment/feature_schema.json",
+      "total_bytes": 987,
+      "creation_date": "2026-10-24 13:17:42.194000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_experiment/labelled_candidate_scores.parquet",
+      "total_bytes": 347698,
+      "creation_date": "2026-10-24 13:17:42.307000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_experiment/learned.py",
+      "total_bytes": 6037,
+      "creation_date": "2026-10-24 13:17:42.292000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_experiment/paired_comparisons.csv",
+      "total_bytes": 915,
+      "creation_date": "2026-10-24 13:17:42.242000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_experiment/panel_audit.json",
+      "total_bytes": 701,
+      "creation_date": "2026-10-24 13:17:42.276000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_experiment/per_query_results.csv",
+      "total_bytes": 28354,
+      "creation_date": "2026-10-24 13:17:42.276000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_experiment/ranking.py",
+      "total_bytes": 4133,
+      "creation_date": "2026-10-24 13:17:42.271000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_experiment/ranking_summary.csv",
+      "total_bytes": 1119,
+      "creation_date": "2026-10-24 13:17:42.211000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_experiment/replay_contract.json",
+      "total_bytes": 1994,
+      "creation_date": "2026-10-24 13:17:42.242000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_experiment/report.json",
+      "total_bytes": 870,
+      "creation_date": "2026-10-24 13:17:42.242000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_experiment/source_coverage.csv",
+      "total_bytes": 1449,
+      "creation_date": "2026-10-24 13:17:42.211000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/all_features.parquet",
+      "total_bytes": 255450,
+      "creation_date": "2026-10-24 13:17:42.394000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/DONE.json",
+      "total_bytes": 2829,
+      "creation_date": "2026-10-24 13:17:42.376000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/REPLAY.json",
+      "total_bytes": 2546,
+      "creation_date": "2026-10-24 13:17:42.381000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/catalogue_audit.json",
+      "total_bytes": 273,
+      "creation_date": "2026-10-24 13:17:42.376000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/effective_query_spectra.parquet",
+      "total_bytes": 1337151,
+      "creation_date": "2026-10-24 13:17:42.406000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/engine2_coverage.json",
+      "total_bytes": 102,
+      "creation_date": "2026-10-24 13:17:42.399000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/engine2_coverage_audit.csv",
+      "total_bytes": 88,
+      "creation_date": "2026-10-24 13:17:42.429000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/execution_receipt.json",
+      "total_bytes": 543,
+      "creation_date": "2026-10-24 13:17:42.381000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/features.parquet",
+      "total_bytes": 131437,
+      "creation_date": "2026-10-24 13:17:42.394000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/features.parquet.errors.json",
+      "total_bytes": 2,
+      "creation_date": "2026-10-24 13:17:42.441000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/frozen_candidate_evidence.parquet",
+      "total_bytes": 95944,
+      "creation_date": "2026-10-24 13:17:42.400000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/pubchem_promotion_audit.csv",
+      "total_bytes": 10380,
+      "creation_date": "2026-10-24 13:17:42.406000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/DONE.json",
+      "total_bytes": 2829,
+      "creation_date": "2026-10-24 13:17:42.400000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/REPLAY.json",
+      "total_bytes": 2546,
+      "creation_date": "2026-10-24 13:17:42.394000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/catalogue_audit.json",
+      "total_bytes": 273,
+      "creation_date": "2026-10-24 13:17:42.411000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/effective_query_spectra.parquet",
+      "total_bytes": 1406407,
+      "creation_date": "2026-10-24 13:17:42.472000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/engine2_coverage.json",
+      "total_bytes": 102,
+      "creation_date": "2026-10-24 13:17:42.406000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/engine2_coverage_audit.csv",
+      "total_bytes": 88,
+      "creation_date": "2026-10-24 13:17:42.447000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/execution_receipt.json",
+      "total_bytes": 543,
+      "creation_date": "2026-10-24 13:17:42.394000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/features.parquet",
+      "total_bytes": 134658,
+      "creation_date": "2026-10-24 13:17:42.429000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/features.parquet.errors.json",
+      "total_bytes": 2,
+      "creation_date": "2026-10-24 13:17:42.441000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/frozen_candidate_evidence.parquet",
+      "total_bytes": 98657,
+      "creation_date": "2026-10-24 13:17:42.472000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/pubchem_promotion_audit.csv",
+      "total_bytes": 10705,
+      "creation_date": "2026-10-24 13:17:42.459000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/contract.json",
+      "total_bytes": 1994,
+      "creation_date": "2026-10-24 13:17:42.435000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/panel/READY.json",
+      "total_bytes": 479,
+      "creation_date": "2026-10-24 13:17:42.479000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/panel/identity_map.json",
+      "total_bytes": 18702350,
+      "creation_date": "2026-10-24 13:17:43.331000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/panel/labels.parquet",
+      "total_bytes": 6508,
+      "creation_date": "2026-10-24 13:17:42.585000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/panel/panel_audit.json",
+      "total_bytes": 701,
+      "creation_date": "2026-10-24 13:17:42.531000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/panel/sample_submission.csv",
+      "total_bytes": 3259,
+      "creation_date": "2026-10-24 13:17:42.536000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/panel/test.parquet",
+      "total_bytes": 2741202,
+      "creation_date": "2026-10-24 13:17:42.873000",
+      "file_type": ""
+    },
+    {
+      "name": "catalogue_replay_checkpoint/run_status.json",
+      "total_bytes": 186,
+      "creation_date": "2026-10-24 13:17:42.611000",
+      "file_type": ""
+    }
+  ],
+  "next_page_token_present": false
+}

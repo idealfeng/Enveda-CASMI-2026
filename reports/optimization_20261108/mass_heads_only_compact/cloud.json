@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-mass-heads-only-compact-1108",
+  "version": 1,
+  "branch_sha256": "e04d2b7fa3322c270ea84a7919765d56c912eb2b299b0b141fa1d9f471babdff",
+  "notebook_sha256": "980e8eb7f29ee18cb0d0b06aa383399bd1094980b42019926788fdb3ba2c1aa5",
+  "metadata_sha256": "0a99e4c8952059fd4f1e30e334169a616605a048afc1231dc7c7b425d65d7ce8",
+  "requested_at_utc": "2026-11-08T12:56:29.972806+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-08T12:56:33.890786+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

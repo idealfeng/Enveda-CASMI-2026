@@ -1,0 +1,425 @@
+{
+  "status": "complete",
+  "source_sha256": "ee55b55c7f5bdb08f1a8154396b18fdb0203fb7178b3a52429e0999e69ad7e53",
+  "actual_sha256": "3e2191eabad2dc1cd804dc640be3f983f6ff46f7b4b7d3d0ce08a9a3f548870b",
+  "elapsed_seconds_recovery": 532.866,
+  "prior_engine2_elapsed_seconds": 418.919,
+  "engine2_reuse": {
+    "status": "copied",
+    "prior_lists": "/mnt/d/Paper/casmi/runs/canqiang_smoke_20261104a/eng_lists.json",
+    "prior_lists_sha256": "9d078b390148d586eab35a6bd61a739dbf5455d020d157243064daa0a69409da",
+    "prior_receipt_sha256": "41bf6604de48cfa1652016f97de70b26781a57f89bb8f7d3074996c07ed3027c",
+    "active_query_sha256": "46f83234764281559a5c6df56643796304d7939b7501506746d68df8bce16ccf",
+    "molecules": 12,
+    "input_files": 204,
+    "input_metadata_sha256": "b3acc9686aeef593c35f0bed97340e517fcec91f206ac58b335d2302a00812f4",
+    "binding_sha256": "9607c457c949f0aa6f8ed166882cac2245d3295a25d27171557b34b80d6ca32d",
+    "not_cold_start": true,
+    "helper_sha256": "ee4f0c44fbdc7fa58aa6933d56e0b5008e4e7b8ad64001595ae3e8960f5fd1de"
+  },
+  "tail_cells": {
+    "27": {
+      "cell": 27,
+      "status": "complete",
+      "elapsed_seconds": 5.524
+    },
+    "28": {
+      "cell": 28,
+      "status": "complete",
+      "elapsed_seconds": 9.366
+    },
+    "29": {
+      "cell": 29,
+      "status": "complete",
+      "elapsed_seconds": 0.033
+    },
+    "31": {
+      "cell": 31,
+      "status": "complete",
+      "elapsed_seconds": 8.81
+    }
+  },
+  "stages": {
+    "ice": {
+      "status": "ok",
+      "n_mols": 12,
+      "n_mols_scored": 11,
+      "n_mols_covered": 11,
+      "n_cands": 771,
+      "n_scored": 753,
+      "errors": [],
+      "rdkit": "2025.03.6",
+      "torch": "2.9.1+cu126",
+      "device": "cuda",
+      "t_load": 59.51,
+      "n_pred": 1522,
+      "n_pred_fail": 0,
+      "t_pred": 45.6,
+      "n_bad_smiles": 0,
+      "pred_per_s": 33.38,
+      "max_mem_gb": 3.75,
+      "seconds": 110.25,
+      "log_tail": [
+        "[ice     0.1s] stubbed (absent) modules: ['pygmtools', 'h5py', 'multiprocess', 'platformdirs']",
+        "[ice    58.6s] ms_pred tautomer mode v2 cache /mnt/d/Paper/casmi/.cache/tmp-linux/ice_ms_pred_cache",
+        "[ice    59.5s] model loaded on cuda (rdkit 2025.03.6, torch 2.9.1+cu126, numba True)",
+        "[ice   110.2s] chunk: 11 mols 1522 jobs 45.9s (11/11 covered mols scored)"
+      ]
+    },
+    "glacier": {
+      "model": "glacier",
+      "status": "ok",
+      "n_mols": 11,
+      "n_mols_scored": 11,
+      "n_mols_covered": 11,
+      "n_cands": 753,
+      "n_scored": 753,
+      "errors": [],
+      "rdkit": "2025.03.6",
+      "torch": "2.9.1+cu126",
+      "device": "cuda",
+      "t_load": 65.88,
+      "n_pred": 1522,
+      "n_pred_fail": 0,
+      "n_feat_fail": 0,
+      "t_pred": 16.35,
+      "n_bad_smiles": 0,
+      "pred_per_s": 93.07,
+      "bs_final": 32,
+      "max_mem_gb": 0.33,
+      "seconds": 87.54,
+      "log_tail": [
+        "[gl     0.0s] site ready (marker matches): /mnt/d/Paper/casmi/runs/canqiang_smoke_20261104b/ice_site",
+        "[gl     0.1s] stubbed (absent) modules: ['pygmtools', 'h5py', 'multiprocess', 'platformdirs']",
+        "[gl    65.9s] GLACIER loaded: 15,108,154 params ",
+        "[gl    65.9s] model loaded on cuda (rdkit 2025.03.6, torch 2.9.1+cu126, numba True, threads 4)",
+        "[gl    87.5s] chunk: 11 mols 1522 jobs 17.3s (11/11 covered mols scored)"
+      ]
+    }
+  },
+  "comparison": {
+    "scope": "Active visible-placeholder rows only; this does not reproduce hidden leaderboard score.",
+    "reference": "third_party/canqiang_e006/upstream_output/canqiang_e006_v1_active12.csv",
+    "actual": "runs/canqiang_smoke_20261104b/submission.csv",
+    "active_molecules": 12,
+    "reference_sha256": "ad2a6e98e51fdd5eba4d9734a31afb58f662c303d03b0547fa23b759b1a26cf2",
+    "actual_sha256": "3e2191eabad2dc1cd804dc640be3f983f6ff46f7b4b7d3d0ce08a9a3f548870b",
+    "actual_output_rows": 400,
+    "metric_rdkit": "2026.03.3",
+    "matching_molecules": {
+      "top1_exact": 12,
+      "candidate_set_exact": 12,
+      "ranking_exact": 2,
+      "top1_identity": 12,
+      "candidate_set_identity": 12,
+      "ranking_identity": 2
+    }
+  },
+  "ranking_differences": [
+    {
+      "molecule_id": "m_005e53",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "first_different_rank": 11,
+      "moved_candidates": 2,
+      "max_rank_displacement": 1,
+      "rank_movements": [
+        {
+          "reference_rank": 12,
+          "actual_rank": 11
+        },
+        {
+          "reference_rank": 11,
+          "actual_rank": 12
+        }
+      ]
+    },
+    {
+      "molecule_id": "m_006153",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "first_different_rank": 9,
+      "moved_candidates": 2,
+      "max_rank_displacement": 1,
+      "rank_movements": [
+        {
+          "reference_rank": 10,
+          "actual_rank": 9
+        },
+        {
+          "reference_rank": 9,
+          "actual_rank": 10
+        }
+      ]
+    },
+    {
+      "molecule_id": "m_00b5aa",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "first_different_rank": 7,
+      "moved_candidates": 2,
+      "max_rank_displacement": 1,
+      "rank_movements": [
+        {
+          "reference_rank": 8,
+          "actual_rank": 7
+        },
+        {
+          "reference_rank": 7,
+          "actual_rank": 8
+        }
+      ]
+    },
+    {
+      "molecule_id": "m_01e922",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "first_different_rank": 7,
+      "moved_candidates": 9,
+      "max_rank_displacement": 2,
+      "rank_movements": [
+        {
+          "reference_rank": 8,
+          "actual_rank": 7
+        },
+        {
+          "reference_rank": 7,
+          "actual_rank": 8
+        },
+        {
+          "reference_rank": 11,
+          "actual_rank": 9
+        },
+        {
+          "reference_rank": 9,
+          "actual_rank": 10
+        },
+        {
+          "reference_rank": 10,
+          "actual_rank": 11
+        },
+        {
+          "reference_rank": 16,
+          "actual_rank": 15
+        },
+        {
+          "reference_rank": 15,
+          "actual_rank": 16
+        },
+        {
+          "reference_rank": 19,
+          "actual_rank": 18
+        },
+        {
+          "reference_rank": 18,
+          "actual_rank": 19
+        }
+      ]
+    },
+    {
+      "molecule_id": "m_0259d4",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "first_different_rank": 15,
+      "moved_candidates": 3,
+      "max_rank_displacement": 2,
+      "rank_movements": [
+        {
+          "reference_rank": 17,
+          "actual_rank": 15
+        },
+        {
+          "reference_rank": 15,
+          "actual_rank": 16
+        },
+        {
+          "reference_rank": 16,
+          "actual_rank": 17
+        }
+      ]
+    },
+    {
+      "molecule_id": "m_02d188",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "first_different_rank": 15,
+      "moved_candidates": 2,
+      "max_rank_displacement": 1,
+      "rank_movements": [
+        {
+          "reference_rank": 16,
+          "actual_rank": 15
+        },
+        {
+          "reference_rank": 15,
+          "actual_rank": 16
+        }
+      ]
+    },
+    {
+      "molecule_id": "m_0318b5",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "first_different_rank": 17,
+      "moved_candidates": 2,
+      "max_rank_displacement": 1,
+      "rank_movements": [
+        {
+          "reference_rank": 18,
+          "actual_rank": 17
+        },
+        {
+          "reference_rank": 17,
+          "actual_rank": 18
+        }
+      ]
+    },
+    {
+      "molecule_id": "m_043e86",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "first_different_rank": null,
+      "moved_candidates": 0,
+      "max_rank_displacement": 0,
+      "rank_movements": []
+    },
+    {
+      "molecule_id": "m_050bf1",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "first_different_rank": 5,
+      "moved_candidates": 2,
+      "max_rank_displacement": 1,
+      "rank_movements": [
+        {
+          "reference_rank": 6,
+          "actual_rank": 5
+        },
+        {
+          "reference_rank": 5,
+          "actual_rank": 6
+        }
+      ]
+    },
+    {
+      "molecule_id": "m_05b52e",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "first_different_rank": 11,
+      "moved_candidates": 2,
+      "max_rank_displacement": 1,
+      "rank_movements": [
+        {
+          "reference_rank": 12,
+          "actual_rank": 11
+        },
+        {
+          "reference_rank": 11,
+          "actual_rank": 12
+        }
+      ]
+    },
+    {
+      "molecule_id": "m_068354",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "first_different_rank": 11,
+      "moved_candidates": 8,
+      "max_rank_displacement": 2,
+      "rank_movements": [
+        {
+          "reference_rank": 12,
+          "actual_rank": 11
+        },
+        {
+          "reference_rank": 13,
+          "actual_rank": 12
+        },
+        {
+          "reference_rank": 11,
+          "actual_rank": 13
+        },
+        {
+          "reference_rank": 20,
+          "actual_rank": 18
+        },
+        {
+          "reference_rank": 18,
+          "actual_rank": 19
+        },
+        {
+          "reference_rank": 19,
+          "actual_rank": 20
+        },
+        {
+          "reference_rank": 25,
+          "actual_rank": 24
+        },
+        {
+          "reference_rank": 24,
+          "actual_rank": 25
+        }
+      ]
+    },
+    {
+      "molecule_id": "m_06e13d",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "first_different_rank": null,
+      "moved_candidates": 0,
+      "max_rank_displacement": 0,
+      "rank_movements": []
+    }
+  ],
+  "factorial": {
+    "experiment": "E006",
+    "window": 40,
+    "ice_fallback": true,
+    "source_experiment": "E004",
+    "base_report_file": "e004_verification.json",
+    "control_file": "submission_e004_control.csv",
+    "control_sha256": "3e2191eabad2dc1cd804dc640be3f983f6ff46f7b4b7d3d0ce08a9a3f548870b",
+    "submission_sha256": "3e2191eabad2dc1cd804dc640be3f983f6ff46f7b4b7d3d0ce08a9a3f548870b",
+    "processed_ids": [
+      "m_005e53",
+      "m_006153",
+      "m_00b5aa",
+      "m_01e922",
+      "m_0259d4",
+      "m_02d188",
+      "m_0318b5",
+      "m_043e86",
+      "m_050bf1",
+      "m_05b52e",
+      "m_068354",
+      "m_06e13d"
+    ],
+    "output_rows": 400,
+    "changed_rows": 0,
+    "changed_top1": 0,
+    "fallback_rows": 1,
+    "fallback_finite_rows": 0,
+    "fallback_changed_rows": 0,
+    "fallback_changed_top1": 0,
+    "same_run_control_reconstructed": true,
+    "provenance": {
+      "base_notebook_sha256": "1f0f9b3026a93ddb5ad6fa6993c8ac0a4bfaddc54594eb1dd6dda7a20d8ef0d6",
+      "base_source_code_sha256": "eee496a371fce179b4aeda1c5082a58212c724eaf1ca4ba0c943bbe8d7196ef2",
+      "helper_source_sha256": "a027a69ddda2c2e14639e3ec5196d5f1eb2ab57cba10ef929723148f31fc8f34",
+      "source_script_version_id": 356740494,
+      "ice_policy_source_script_version_id": 356785434,
+      "ice_policy_source": "samanyu1808/casmi26-iceberg-where-glacier-is-blind-lb-0-438/1"
+    },
+    "limitations": [
+      "Visible smoke is not independent validation.",
+      "An inactive fallback in visible smoke says nothing about hidden benefit."
+    ]
+  },
+  "interpretation": [
+    "The final CSV was compared after all 30 code cells completed.",
+    "All 12 top-1 candidates and candidate sets match the historical public output as strings and under official RDKit metric identity. Only 2 complete candidate rankings match; 10 rows retain ordering differences.",
+    "The final E006 overlay executed, with fallback_rows=1 but fallback_finite_rows=0 and no changed rows. These examples do not exercise successful finite-score ICE fallback.",
+    "The 400-row CSV contains only 12 actually processed visible-placeholder molecules and 388 filler rows. This is not independent validation or hidden leaderboard-score reproduction.",
+    "No cause of historical ranking differences has been isolated. CUDA/PyTorch/platform differences are possibilities, not proven explanations."
+  ]
+}

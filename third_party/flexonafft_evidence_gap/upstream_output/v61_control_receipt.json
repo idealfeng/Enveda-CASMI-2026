@@ -1,0 +1,19 @@
+{
+  "source_url": "https://www.kaggle.com/api/v1/kernels/output/download/flexonafft/casmi26-closing-the-evidence-gap/submission.csv?versionNumber=61",
+  "requested_version": 61,
+  "storage_script_version_id": 364604504,
+  "sha256": "8eee78e5393a31490958b04257429bfff942fa4d8b3da81a847e50718d7c8b7b",
+  "bytes": 17303,
+  "rows": 400,
+  "headers": {
+    "Content-Type": "text/plain; charset=utf-8",
+    "Content-Length": "17303",
+    "Last-Modified": "Sun, 01 Nov 2026 16:45:17 GMT"
+  },
+  "v56_storage_script_version_id": 364170882,
+  "v56_sha256": "d2027d8918d15b27fa271ba4961faa63c28fa7f4efbea0dd8069ecbfe6a5060b",
+  "v56_and_v61_storage_differ": true,
+  "v56_and_v61_payload_differ": true,
+  "auth_used": false,
+  "purpose": "Control request to establish that versionNumber resolves distinct notebook outputs"
+}

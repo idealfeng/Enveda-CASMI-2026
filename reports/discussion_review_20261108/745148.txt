@@ -1,0 +1,14 @@
+Enveda-180 Zenodo release (21346580) — 816 structures absent from train.parquet: hidden test, or filtered out?
+
+https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745148
+
+Author: Zihao Ou
+
+Posted: 2026-10-02T14:12:33.093Z
+
+Following thread 743569 (the Zenodo release may be used), we compared record 21346580 with train.parquet. 816 InChIKey14 with standard-adduct spectra (3,193 spectra; 408 with [M+H]+) are absent from train under the competition's stereo-stripped tautomer canonicalisation; about 2,900 further structures appear only with in-source-fragment adducts ([M−H2O+H]+ etc.). Before using the release as external data we would like to know: are any of these 816 structures part of the hidden test set, or were they excluded from the competition data for another reason (QC, adduct filter, snapshot date)? We ask so as not to profit from an unintended overlap.
+
+
+Comment: Marie Killian
+
+They likely were filtered out in the train.parquet preparation. Data in the Zenodo release of Enveda-180 are fine to use.

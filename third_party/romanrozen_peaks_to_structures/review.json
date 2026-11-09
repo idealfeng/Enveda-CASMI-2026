@@ -1,0 +1,148 @@
+{
+  "url": "https://www.kaggle.com/code/romanrozen/0-468-casmi-from-peaks-to-structures",
+  "fetched_client_date": "2026-11-04",
+  "source_version": 8,
+  "source_sha256": "98008df2e1fbabf66acbdab8a5beff9550ccc4f1ed1447352672a9710628362b",
+  "source_bytes": 695770,
+  "kernel_id": 140764933,
+  "page_oembed_script_version_id": 365039563,
+  "pinned_v8_matches_latest": true,
+  "title": "[0.468] CASMI: From Peaks to Structures",
+  "score_evidence": {
+    "title_number": 0.468,
+    "source_authors_claim_neural_ensemble_board_score": 0.48,
+    "current_v8_tax_score": "not independently verified; source outputs cleared, no scored API field",
+    "current_v8_smoke_or_model_run_performed_locally": false
+  },
+  "comparison_with_flex_v56": {
+    "frozen_sha256_equal": true,
+    "all_eight_module_hashes_equal": true,
+    "saner_four_model_pins_equal": true,
+    "new_signals": [
+      "Per-molecule 0.5*z(public neural)+0.5*z(second trained model)",
+      "PRESET='TAX' adds leave-one-out LOTUS genus bonus only on ranks 2-25; NE480 disables TAX"
+    ],
+    "postprocessing": "Different combined merge/final code; not proven output-equivalent to Flex final layer"
+  },
+  "dependencies": [
+    {
+      "slug": "sanpier/casmi-spectrum-model-v1",
+      "license_from_existing_snapshot": "Apache 2.0",
+      "existing_metadata": "third_party\\flexonafft_evidence_gap\\dataset_metadata\\sanpier__casmi-spectrum-model-v1.json",
+      "existing_snapshot_version": 1,
+      "historical_mount_version_mapping": "not independently resolved"
+    },
+    {
+      "slug": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "license_from_existing_snapshot": "Other (specified in description)",
+      "existing_metadata": "third_party\\flexonafft_evidence_gap\\dataset_metadata\\dmitriigluzdov__casmi26-fold-safe-fpnet.json",
+      "existing_snapshot_version": 5,
+      "historical_mount_version_mapping": "not independently resolved"
+    },
+    {
+      "slug": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "license_from_existing_snapshot": "Other (specified in description)",
+      "existing_metadata": "third_party\\flexonafft_evidence_gap\\dataset_metadata\\dmitriigluzdov__casmi26-natural-product-knowledge-table.json",
+      "existing_snapshot_version": 10,
+      "historical_mount_version_mapping": "not independently resolved"
+    },
+    {
+      "slug": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "license_from_existing_snapshot": "Other (specified in description)",
+      "existing_metadata": "third_party\\flexonafft_evidence_gap\\dataset_metadata\\dmitriigluzdov__casmi26-natural-product-panel-benchmark.json",
+      "existing_snapshot_version": 10,
+      "historical_mount_version_mapping": "not independently resolved"
+    },
+    {
+      "slug": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "license_from_existing_snapshot": "unknown",
+      "existing_metadata": null,
+      "existing_snapshot_version": null,
+      "historical_mount_version_mapping": "not independently resolved"
+    },
+    {
+      "slug": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "license_from_existing_snapshot": "CC BY-NC-SA 4.0",
+      "existing_metadata": "third_party\\flexonafft_evidence_gap\\dataset_metadata\\dmitriigluzdov__casmi26-attributed-v4g-reproduction-assets.json",
+      "existing_snapshot_version": 9,
+      "historical_mount_version_mapping": "not independently resolved"
+    },
+    {
+      "slug": "sanpier/catalogue-experiment-saner",
+      "license_from_existing_snapshot": "Unknown",
+      "existing_metadata": "third_party\\flexonafft_evidence_gap\\dataset_metadata\\sanpier__catalogue-experiment-saner.json",
+      "existing_snapshot_version": 1,
+      "historical_mount_version_mapping": "not independently resolved"
+    },
+    {
+      "slug": "metric/rdkit-2026-3-3-wheel",
+      "license_from_existing_snapshot": "unknown",
+      "existing_metadata": null,
+      "existing_snapshot_version": null,
+      "historical_mount_version_mapping": "not independently resolved"
+    }
+  ],
+  "kernel_dependencies": [
+    "deleted/142141665"
+  ],
+  "notebook_metadata_source_ids": [
+    {
+      "sourceType": "competition",
+      "sourceId": 143318
+    },
+    {
+      "sourceType": "datasetVersion",
+      "sourceId": 21146315
+    },
+    {
+      "sourceType": "datasetVersion",
+      "sourceId": 21057797
+    },
+    {
+      "sourceType": "datasetVersion",
+      "sourceId": 21147023
+    },
+    {
+      "sourceType": "datasetVersion",
+      "sourceId": 21021253
+    },
+    {
+      "sourceType": "datasetVersion",
+      "sourceId": 21320784
+    },
+    {
+      "sourceType": "datasetVersion",
+      "sourceId": 21343139
+    },
+    {
+      "sourceType": "datasetVersion",
+      "sourceId": 21177404
+    },
+    {
+      "sourceType": "datasetVersion",
+      "sourceId": 19518628
+    },
+    {
+      "sourceType": "kernelVersion",
+      "sourceId": 364605128
+    }
+  ],
+  "second_model": {
+    "reference": "https://www.kaggle.com/code/bgunshui/casmi26-scorer-train-public",
+    "request_result": "HTTP403 on anonymous pull",
+    "attached_reference": [
+      "deleted/142141665"
+    ],
+    "selection": "final_model.pt + config_used.json or recognised ours directory; first matching input",
+    "second_checkpoint_sha": "not pinned in source",
+    "missing_behavior": "prints OURS: private model not found, keeping public bundle; ensemble can silently duplicate public model",
+    "reproducible_now": "not proven; second-model payload not acquired"
+  },
+  "taxonomy_inputs": {
+    "lotus_structure_genus_parquet_already_local": true,
+    "natural_products_parquet_already_local": true
+  },
+  "notebook_license": "unavailable from acquired API/page shell; component notices differ",
+  "recommendation": "Keep small source and notes. Reuse verified Flex frozen-evidence outputs for future second-model/TAX A/B experiments after obtaining the checkpoint and meaningful identity-disjoint validation; no new full pipeline or large download now.",
+  "execution": "Only AST literal parsing/base64 decoding and hash comparison; downloaded code never executed"
+}

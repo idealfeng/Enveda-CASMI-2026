@@ -1,0 +1,59 @@
+{
+  "dataset": "prvsiyan/casmi26-self-trained-scorer-seeds",
+  "seeds": {
+    "seed_20261103": [
+      {
+        "path": "seed_20261103/final_model.pt",
+        "sha256": "0862a4157a682bbbb0ccbc78bf462510cf25162ea5af9eef296580ba7e29778b",
+        "bytes": 11872818
+      },
+      {
+        "path": "seed_20261103/model.py",
+        "sha256": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+        "bytes": 1577
+      },
+      {
+        "path": "seed_20261103/features.py",
+        "sha256": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+        "bytes": 2356
+      },
+      {
+        "path": "seed_20261103/config_used.json",
+        "sha256": "7a70b112bc9c21de7775b618769ed4b19893a996938d1454cb429d302ab26a9a",
+        "bytes": 820
+      },
+      {
+        "path": "seed_20261103/training_result.json",
+        "sha256": "f184a1e447ca4f15fab74d5bc1713bbeb56c5514dbf37da49061f288140fe1be",
+        "bytes": 389
+      }
+    ],
+    "seed_20261104": [
+      {
+        "path": "seed_20261104/final_model.pt",
+        "sha256": "f8e208818387de2ff6e9b9ffe575f1d2b678c55b64876a17ea5fea7f83d82b9d",
+        "bytes": 11872818
+      },
+      {
+        "path": "seed_20261104/model.py",
+        "sha256": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+        "bytes": 1577
+      },
+      {
+        "path": "seed_20261104/features.py",
+        "sha256": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+        "bytes": 2356
+      },
+      {
+        "path": "seed_20261104/config_used.json",
+        "sha256": "da45a9413f4ccfda13a913d068022b813647ab345e3fec519787e6e580028df9",
+        "bytes": 807
+      },
+      {
+        "path": "seed_20261104/training_result.json",
+        "sha256": "c32d06f7481fa87a2c90dfbffdb083e896df6e1bfc135f522fb84685e4ae14f8",
+        "bytes": 389
+      }
+    ]
+  }
+}

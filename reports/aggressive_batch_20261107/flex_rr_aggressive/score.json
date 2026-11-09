@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-flex-rr-aggressive-1107",
+  "version": 1,
+  "branch_sha256": "d848d6d887d690d7130e492861b23ec4dec0c5081caa88bb13163a3ed82e2328",
+  "submission_ref": 58063870,
+  "actual_target": "stormseye/casmi26-flex-rr-aggressive-1107",
+  "status": "COMPLETE",
+  "public_score": "0.436",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-07T06:39:35.476682+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

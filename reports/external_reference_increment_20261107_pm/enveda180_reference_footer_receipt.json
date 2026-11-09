@@ -1,0 +1,9 @@
+{
+  "status": "footer_only_downloaded",
+  "full_parquet_bytes": 218514313,
+  "parquet_metadata_bytes": 55538,
+  "range_bytes_downloaded": 55546,
+  "footer_only_sha256": "5851972bb864258b36e63ef7cafcecf60d19936f1a19a61108035da7ab1d2873",
+  "full_file_hash_verified": false,
+  "pyarrow_available": false
+}

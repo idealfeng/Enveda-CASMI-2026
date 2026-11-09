@@ -1,0 +1,42 @@
+{
+  "id": 744343,
+  "read_only": true,
+  "checked_at_utc": "2026-11-07T16:01:50.143386+00:00",
+  "topic": {
+    "id": 744343,
+    "title": "trick: train a smiles to MS/MS predictor too!",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/744343",
+    "postDate": "2026-09-29T13:10:52.401Z",
+    "authorName": "hengck23",
+    "authorUrl": "https://www.kaggle.com/hengck23",
+    "votes": 19,
+    "commentCount": 3,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>Old experienced kaggler will know what this is for! Maybe ChatGPT and Claude know too.  </p>\n<p>required for competition:<br>\nbackward : generator(MS/MS, adduct) = smiles (de novo)</p>\n<p>useful:<br>\nforward:  predictor(smiles, adduct)= MS/MS<br>\n(especially open-source predictor)   </p>"
+  },
+  "comments": [
+    {
+      "id": 3530207,
+      "authorName": "Barno Barno",
+      "postDate": "2026-09-29T18:58:49.657Z",
+      "content": "<p>i remember a comment from a past competition that their winners generated 1TB or more training data</p>",
+      "votes": 2
+    },
+    {
+      "id": 3531458,
+      "authorName": "hengck23",
+      "postDate": "2026-10-01T21:56:57.970Z",
+      "content": "<p>Enveda’s GrAFF-MS model\nEfficiently predicting high resolution mass spectra with graph neural networks\n<a href=\"https://proceedings.mlr.press/v202/murphy23a/murphy23a.pdf\" target=\"_blank\">https://proceedings.mlr.press/v202/murphy23a/murphy23a.pdf</a></p>\n<p>note: \"We train our model on the NIST-20 tandem MS library\"\n<a href=\"https://github.com/murphy17/graff-ms\" target=\"_blank\">https://github.com/murphy17/graff-ms</a></p>",
+      "replies": [
+        {
+          "id": 3531463,
+          "authorName": "hengck23",
+          "postDate": "2026-10-01T22:04:29.430Z",
+          "content": "<p>my orginal idea is some RSI harness  + forward/backward spectrum to molecule modelling.\nBut it seems this idea has been partially explored<br>\n<a href=\"https://github.com/ChrisTho23/dMSdMol\" target=\"_blank\">https://github.com/ChrisTho23/dMSdMol</a>   </p>\n<p>QOUTE: \"Since models for both the forward (e.g., CFM-ID and GrAFF-MS) and backward problem (e.g., MS2Mol) have already been developed, we found this two-way approach to be very promising. We pursued a cycle contrastive GAN architecture, which allows us to create mappings between mass spectra and molecular structures, learning directly from the data in both directions.\"</p>"
+        }
+      ]
+    }
+  ],
+  "comments_truncated": false
+}

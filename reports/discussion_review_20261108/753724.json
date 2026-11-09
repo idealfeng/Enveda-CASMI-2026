@@ -1,0 +1,19 @@
+{
+  "id": 753724,
+  "read_only": true,
+  "checked_at_utc": "2026-11-07T16:01:42.563530+00:00",
+  "topic": {
+    "id": 753724,
+    "title": "🔥 Massive Pre-training Dataset for CASMI26",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/753724",
+    "postDate": "2026-10-29T04:47:22.290Z",
+    "authorName": "Rishav Yadav",
+    "authorUrl": "https://www.kaggle.com/rishavae",
+    "votes": 20,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>Hey folks,</p>\n<p>Since mass spectra identification in <strong>CASMI 2026</strong> needs a solid candidate database for unknown spectra, I spent time cleaning, desalting, and organizing a reference database of <strong>~1.8 Crore (18M+) chemical structures</strong> so you don't have to spend hours processing raw files from scratch:</p>\n<ul>\n<li><p>📦 <strong>Dataset:</strong> <a href=\"https://www.kaggle.com/datasets/rishavae/casmi-2026-candidate-database\" target=\"_blank\">CASMI 2026 Candidate Database</a></p>\n<ul>\n<li><strong>coconut/</strong>: 460k natural products from COCONUT 2.0.</li>\n<li><strong>pubchem/</strong>: Bio-active small molecules (100–1200 Da, 8–75 heavy atoms).</li>\n<li><strong>100% deduplicated</strong> on 14-character InChIKey scaffolds.</li></ul></li>\n<li><p>🚀 <strong>Starter Notebook:</strong> <a href=\"https://www.kaggle.com/code/rishavae/casmi-2026-20m-candidate-retrieval-baseline\" target=\"_blank\">20M+ Candidate Retrieval Baseline</a></p>\n<ul>\n<li>Streams all shards in <strong>&lt; 250MB RAM</strong> using Polars.</li>\n<li>Inverts <strong>all 10 competition adduct mass offsets</strong>.</li>\n<li>Runs binary search to fetch matching structures in <strong>&lt; 2 milliseconds</strong>.</li>\n<li>Draws <strong>2D molecular structures with RDKit</strong>.</li></ul></li>\n</ul>\n<p>Hope this saves you time and GPU memory for your training and inference pipelines. </p>\n<p>If this helps your workflow, an <strong>upvote on the dataset and notebook</strong> would mean a lot! 🧪</p>"
+  },
+  "comments": [],
+  "comments_truncated": false
+}

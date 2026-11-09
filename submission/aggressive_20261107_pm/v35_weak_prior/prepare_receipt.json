@@ -1,0 +1,11 @@
+{
+  "status": "prepared",
+  "branch": "v35_weak_prior",
+  "target": "stormseye/casmi26-v35-weak-prior-1107pm",
+  "version": 1,
+  "notebook_sha256": "4b318cbf898b7e03bab3ebc467d75a940b2d359cab796ebe75e4ed3abb2dc34e",
+  "metadata_sha256": "04253039372339b9756965a544fc9dd91cfcf4733583759c738eebba66e42a98",
+  "recipe_sha256": "e17ea15ab80eacbd16d4e5cbb3e9d183e8342da3114d903e147e9ac432aeab75",
+  "static_review_path": "submission\\aggressive_20261107_pm\\v35_weak_prior\\static_review.json",
+  "validation_mode": "fast_static"
+}

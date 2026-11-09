@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "batch_id": "20261107_pm",
+  "competition": "enveda-CASMI26-molecule-id-mass-spectra",
+  "max_submissions": 5,
+  "baseline_public_score": 0.481,
+  "state_root": "reports/aggressive_batch_20261107_pm",
+  "branches": [
+    {
+      "name": "v35_baseline",
+      "target": "stormseye/casmi26-v35-baseline-1107pm",
+      "version": 1,
+      "stage_dir": "submission\\aggressive_20261107_pm\\v35_baseline",
+      "notebook_sha256": "79266187fc05ca98376eafa3c2e46d097f746ecbb0cd94039b2c1609abfcf223",
+      "metadata_sha256": "92eb087a2894fca0e7ee4f75aa2428d91cc296df7dd3467ac9c157d0a808c831",
+      "static_review_path": "submission\\aggressive_20261107_pm\\v35_baseline\\static_review.json",
+      "description": "CASMI26 20261107 PM v35_baseline audited V1",
+      "validation_mode": "fast_static",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "v35_baseline",
+            "recipe_sha256": "0c6e024620c809e14170fb2fdd780e01c2515621ed91ff079492272cc850f578"
+          },
+          "required_true_checks": [
+            "configuration",
+            "official_rdkit",
+            "public_model_pins",
+            "v2_model_pins",
+            "distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "v35_weak_prior",
+      "target": "stormseye/casmi26-v35-weak-prior-1107pm",
+      "version": 1,
+      "stage_dir": "submission\\aggressive_20261107_pm\\v35_weak_prior",
+      "notebook_sha256": "4b318cbf898b7e03bab3ebc467d75a940b2d359cab796ebe75e4ed3abb2dc34e",
+      "metadata_sha256": "04253039372339b9756965a544fc9dd91cfcf4733583759c738eebba66e42a98",
+      "static_review_path": "submission\\aggressive_20261107_pm\\v35_weak_prior\\static_review.json",
+      "description": "CASMI26 20261107 PM v35_weak_prior audited V1",
+      "validation_mode": "fast_static",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "v35_weak_prior",
+            "recipe_sha256": "e17ea15ab80eacbd16d4e5cbb3e9d183e8342da3114d903e147e9ac432aeab75"
+          },
+          "required_true_checks": [
+            "configuration",
+            "official_rdkit",
+            "public_model_pins",
+            "v2_model_pins",
+            "distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "v35_v2_emphasis",
+      "target": "stormseye/casmi26-v35-v2-emphasis-1107pm",
+      "version": 1,
+      "stage_dir": "submission\\aggressive_20261107_pm\\v35_v2_emphasis",
+      "notebook_sha256": "f9e786e3d256a19b2d3531283facbd81de98afcfee35bf6296ed9bf61149ecf2",
+      "metadata_sha256": "2aba3f7878c33acf7e349aee02e10f36677f8fde11bb837fd2d8d5d027004dd2",
+      "static_review_path": "submission\\aggressive_20261107_pm\\v35_v2_emphasis\\static_review.json",
+      "description": "CASMI26 20261107 PM v35_v2_emphasis audited V1",
+      "validation_mode": "fast_static",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "v35_v2_emphasis",
+            "recipe_sha256": "007a6090c14e6e62f94f3aa5a12a3039064eb6cbf06ff5da432ca81550b27aea"
+          },
+          "required_true_checks": [
+            "configuration",
+            "official_rdkit",
+            "public_model_pins",
+            "v2_model_pins",
+            "distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "v35_robust_mass",
+      "target": "stormseye/casmi26-v35-robust-mass-1107pm",
+      "version": 1,
+      "stage_dir": "submission\\aggressive_20261107_pm\\v35_robust_mass",
+      "notebook_sha256": "5599c52d9e82210b78f804fa283793908a07fc3bff5b482d3545f5c4dd55cc75",
+      "metadata_sha256": "ff50cbef25fbb6d1cb0f6588f5c1ea5c26c80ec9f132d4865a25782fc5b25462",
+      "static_review_path": "submission\\aggressive_20261107_pm\\v35_robust_mass\\static_review.json",
+      "description": "CASMI26 20261107 PM v35_robust_mass audited V1",
+      "validation_mode": "fast_static",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "v35_robust_mass",
+            "recipe_sha256": "3f45e56a31475fb5b7615e0d4be2fbc6158ab89649f474a5529a1f77d30c1f83"
+          },
+          "required_true_checks": [
+            "configuration",
+            "official_rdkit",
+            "public_model_pins",
+            "v2_model_pins",
+            "distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "v35_no_interleave",
+      "target": "stormseye/casmi26-v35-no-interleave-1107pm",
+      "version": 1,
+      "stage_dir": "submission\\aggressive_20261107_pm\\v35_no_interleave",
+      "notebook_sha256": "5eea610eb49d3eb6562861eb0149e7054abb76610a600a7c9b939a2053053465",
+      "metadata_sha256": "3343e4d5785982401464ee7f704ff5f1aef7dbcaf004a923eade8e2f73f39d7b",
+      "static_review_path": "submission\\aggressive_20261107_pm\\v35_no_interleave\\static_review.json",
+      "description": "CASMI26 20261107 PM v35_no_interleave audited V1",
+      "validation_mode": "fast_static",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "v35_no_interleave",
+            "recipe_sha256": "e9fa7568aa0a5d83e0a37cb0934862c45e443602e7e616e1f58d687b6147dc7b"
+          },
+          "required_true_checks": [
+            "configuration",
+            "official_rdkit",
+            "public_model_pins",
+            "v2_model_pins",
+            "distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        }
+      ]
+    }
+  ]
+}

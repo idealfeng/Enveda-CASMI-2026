@@ -1,0 +1,25 @@
+[
+  {
+    "mid": "q",
+    "cands": [
+      "CCO",
+      "invalid"
+    ],
+    "spectra": [
+      {
+        "adduct": "[M+Na]+",
+        "mode": "positive",
+        "ce_ev": [
+          20.0
+        ],
+        "prec": 69.0,
+        "mz": [
+          22.0
+        ],
+        "it": [
+          1.0
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "best_epoch": 52,
+  "best_diagnostic_mrr25": 0.6602795453044211,
+  "completed_epochs": 56,
+  "time_budget_exhausted": false,
+  "refit": {
+    "best_epoch": 0,
+    "best_diagnostic_mrr25": null,
+    "completed_epochs": 52,
+    "time_budget_exhausted": false
+  },
+  "final_model_training": "full data, including former validation identities; DO NOT evaluate this model on that holdout"
+}

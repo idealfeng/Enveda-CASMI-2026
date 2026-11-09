@@ -1,0 +1,63 @@
+{
+  "branch": "mass_guarded_isomer_p7",
+  "target": "stormseye/casmi26-mass-guarded-isomer-p7-1109",
+  "baseline_own_public_score": 0.482,
+  "base_source_sha256": "6de37bec32c8aa8bfb46b2c5e94e374b53fe36137dff1cd7d1c4a295359f56fe",
+  "method": "post-MASS guarded same-formula ranking",
+  "configuration": {
+    "protected_prefix": 7,
+    "score_mode": "learned_heads",
+    "scorer_file": "learned_head_score.py",
+    "scorer_sha256": "14ba386cef89194c87cead728b23a670f83d425b2316a007d3f07901e5cf1a74",
+    "payload_pins": {
+      "candidate_multispectrum_head.py": "894e000d85bd26d4845a7404782f38a8952955c77c4e0ee055b07542a0f7a18d",
+      "learned_head_score.py": "14ba386cef89194c87cead728b23a670f83d425b2316a007d3f07901e5cf1a74",
+      "learned_head_runtime.json": "583e8896457f63646cb7ad6000bd07cae1bc1cf78d3c8297725c6ba0dd0b3074",
+      "head_seed20261109_step2500.pt": "47fdbb171bf54f6a25fc7d720fc28e14e5c915eccbc585dde66b7c7b68db42eb",
+      "head_seed20261110_step2500.pt": "4c020ea62400188c273fb2bf29fc5187d6553a54e784dd26882291bd2f0aa4ca"
+    },
+    "head_receipts": [
+      {
+        "sha256": "47fdbb171bf54f6a25fc7d720fc28e14e5c915eccbc585dde66b7c7b68db42eb",
+        "step": 2500,
+        "seed": 20261109
+      },
+      {
+        "sha256": "4c020ea62400188c273fb2bf29fc5187d6553a54e784dd26882291bd2f0aa4ca",
+        "step": 2500,
+        "seed": 20261110
+      }
+    ],
+    "baseline_scorer_sha256": "cb9e4d6732992e3310e951533fd0c644d3b515134ad03768c35e5a86551267d2"
+  },
+  "configuration_sha256": "e52d74b591c29fe05cf60e2113602bc618e23045ab8316fced260dfcc3ae99c3",
+  "tail_module_sha256": "783b767e6b5425879ea3bcc8dadbedc40ea349def0e943c65dbf9c5052af3a64",
+  "all_original_scoring_unchanged": true,
+  "compare_to": "58129661 prefix7 old two-head .482",
+  "new_head_spec": {
+    "model_path": "scripts/isomer_residual_head_20261109.py",
+    "model_sha256": "894e000d85bd26d4845a7404782f38a8952955c77c4e0ee055b07542a0f7a18d",
+    "head_config": {
+      "embedding": 192,
+      "hidden": 64,
+      "residual_bound": 0.5
+    },
+    "method": "fixed pretrained mean aggregation plus bounded isomer-only trained residual; equal two seeds",
+    "heads": [
+      {
+        "path": "runs/isomer_head_20261109/head_seed20261109_step2500.pt",
+        "sha256": "47fdbb171bf54f6a25fc7d720fc28e14e5c915eccbc585dde66b7c7b68db42eb",
+        "seed": 20261109
+      },
+      {
+        "path": "runs/isomer_head_20261109/head_seed20261110_step2500.pt",
+        "sha256": "4c020ea62400188c273fb2bf29fc5187d6553a54e784dd26882291bd2f0aa4ca",
+        "seed": 20261110
+      }
+    ]
+  },
+  "no_na_component": true,
+  "known_pretrained_exposure": true,
+  "locked_final_used": false,
+  "validation_mode": "fast_static"
+}

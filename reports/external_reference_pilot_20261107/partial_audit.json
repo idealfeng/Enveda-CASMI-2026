@@ -1,0 +1,56 @@
+{
+  "status": "partial_metadata_and_alias_identity_audit",
+  "created_at_utc": "2026-11-07T16:09:53.650111+00:00",
+  "source": {
+    "kaggle_dataset": "egehseyinca/enveda180-casmi26-reference-ccby4/1",
+    "zenodo_record": 21346580,
+    "license": "CC BY 4.0",
+    "fresh_file_checks": {
+      "enveda180_hplus_hminus_references.parquet": {
+        "bytes": 218514313,
+        "sha256": "37b8f37c5f5f536ed804d4d0456e20f183fa32388f30ae1c1712928471146069"
+      },
+      "enveda180_only_candidate_aliases.parquet": {
+        "bytes": 116885,
+        "sha256": "3ed2d8f086e51931798a34e241027de66cad76b929c0dba1d866f31f2b21e150"
+      }
+    }
+  },
+  "metric_rdkit": "2026.03.3",
+  "train": {
+    "rows": 2539608,
+    "unique_raw_smiles_pairs": 277566,
+    "unique_pair_catalog_exactly_matches_current_train": true,
+    "catalog_sha256": "1096251414522818109f2427320640bafceeae497dcab5ce5ab7e08170efaffd"
+  },
+  "reference": {
+    "rows": 730252,
+    "publisher_keys": 166777,
+    "unique_smiles": 167490,
+    "rows_by_adduct": {
+      "[M-H]-": 175602,
+      "[M+H]+": 554650
+    }
+  },
+  "aliases": {
+    "rows": 3720,
+    "official_identities": 3717,
+    "publisher_key_mismatch_rows": 0,
+    "related_reference_spectra": 1600,
+    "related_reference_identities": 431,
+    "related_spectra_by_adduct": {
+      "[M+H]+": 1377,
+      "[M-H]-": 223
+    },
+    "related_reference_key_mismatch_rows": 0
+  },
+  "unresolved": [
+    "Independent official-train membership of publisher source-only aliases.",
+    "Official identity of reference SMILES outside the alias-related subset.",
+    "PubChem/COCONUT candidate membership; exact/near spectrum overlap; matching accuracy."
+  ],
+  "all_spectra_and_alias_counts_are_not_hidden_test_coverage": true,
+  "no_peak_columns_loaded": true,
+  "no_query_or_locked_truth_loaded": true,
+  "elapsed_seconds": 20.31
+}

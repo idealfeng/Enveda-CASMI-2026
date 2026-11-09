@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-mass-no-np-bonus-1108",
+  "version": 1,
+  "branch_sha256": "d7e41887b4d0659153f27fb356c345bdb7066758ae2899b5c75902c71ef756fa",
+  "submission_ref": 58119805,
+  "actual_target": "stormseye/casmi26-mass-no-np-bonus-1108",
+  "status": "COMPLETE",
+  "public_score": "0.481",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-09T07:08:07.402817+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

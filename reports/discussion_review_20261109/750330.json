@@ -1,0 +1,19 @@
+{
+  "id": 750330,
+  "read_only": true,
+  "checked_at_utc": "2026-11-09T07:15:03.118350+00:00",
+  "topic": {
+    "id": 750330,
+    "title": "Clarification regarding permitted external data sources",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/750330",
+    "postDate": "2026-10-17T19:42:56.995Z",
+    "authorName": "David Healey",
+    "authorUrl": "https://www.kaggle.com/davidhealeyenveda",
+    "votes": 27,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>Hi all,</p>\n<p>We’ve received many inquiries regarding use of external data, and have decided to remove the restriction on noncommercial license open source data (for example, CC-BY-NC). We have  been approving them each individually anyway, but from here on, solutions can use external data that is open sourced with noncommercial provisions.  I will edit the welcome message accordingly.</p>\n<p>External data that is not open source, is not freely available to all, or is proprietary remains against the rules. We have in particular received questions regarding NIST.  NIST is not permitted, as it is not open or freely available and the data including derivatives such as model weights cannot be redistributed.</p>\n<p>As a reminder, we reserve the right to check all solutions for compliance and remove from the competition participants found in violation. </p>\n<p>Thanks all, and happy modeling!</p>\n<p>David</p>"
+  },
+  "comments": [],
+  "comments_truncated": false
+}

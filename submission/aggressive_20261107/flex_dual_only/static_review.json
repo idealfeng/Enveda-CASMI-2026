@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-flex-dual-only-1107",
+  "version": 1,
+  "branch": "flex_dual_only",
+  "notebook_sha256": "56afead5063b63f24b76c66431a733638c2913e95fe9ab3a11ed569dc3237598",
+  "recipe_sha256": "87654a637d19477226a6cc425779954fce76a8191ad57f3d1962e1b4b31861f5",
+  "checks": {
+    "original_v56_sha": true,
+    "all_code_compile": true,
+    "all_hidden_post_scheduler_asts_unchanged": true,
+    "config_only_commit_mode_changed": true,
+    "all_other_pre_scheduler_sources_unchanged": true,
+    "original_low_priors": true,
+    "native_model_pins_verified": true,
+    "no_lotus": true,
+    "private_offline": true,
+    "version_pinned_datasets": true,
+    "no_kernel_dependencies": true,
+    "no_stored_outputs": true
+  },
+  "original_source_sha256": "0ebc86ad851fe7051e592fb268756e686ee21b9ddbe90012335096a349bd2769",
+  "guarded_original_code_cells": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    19
+  ],
+  "actual_hidden_runtime_proven": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": 745468,
+  "read_only": true,
+  "checked_at_utc": "2026-11-07T16:01:49.517475+00:00",
+  "topic": {
+    "id": 745468,
+    "title": "Problem is in Isomer identification + Off-the-shelf LLM's are really bad at this task",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745468",
+    "postDate": "2026-10-03T06:06:18.368Z",
+    "authorName": "Adarsh",
+    "authorUrl": "https://www.kaggle.com/madarshbb",
+    "votes": 8,
+    "commentCount": 1,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>In more than 95% of my validation examples, my model is able to predict the correct molecular formula, but fails to differentiate between the isomers.\n<img src=\"https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F14670471%2F70aea5d06df7310b11d1e5cca5a1f7d4%2FScreenshot%202026-10-03%20110326.png?generation=1791005641482359&amp;alt=media\" alt=\"\"></p>\n<p>When I asked Claude Opus 5.5 High, these were its guesses:-</p>\n<p><img src=\"https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F14670471%2Ffc7346aae7049860b4f00c2dea8283fd%2FScreenshot%202026-10-03%20110550.png?generation=1791005776569661&amp;alt=media\" alt=\"\"></p>\n<p>Funnily, the correct answer was ranked last among the di-hydroxy anthraquinones :)</p>\n<p>Goes to show off-shelf LLM's aren't very good at this</p>\n<p>But once you can determine the molecular formulas for majority of the cases, you can try measuring the molecular formulas of the fragments itself and judge the plausibility of producing those fragments given the original formula of the whole molecule, collision energy, population prior of the fragments over libraries, etc…</p>\n<p>Trying this next.</p>"
+  },
+  "comments": [
+    {
+      "id": 3532441,
+      "authorName": "Pratham",
+      "postDate": "2026-10-03T14:54:02.537Z",
+      "content": "<p>Thank you!</p>"
+    }
+  ],
+  "comments_truncated": false
+}

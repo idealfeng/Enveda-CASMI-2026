@@ -1,0 +1,623 @@
+{
+  "status": "passed",
+  "checks": {
+    "all_scenarios_pass": true,
+    "reviewed_source_unchanged": true,
+    "default_plan_only_no_api": true,
+    "concurrent_dispatch_claim_rejected": true,
+    "source_calls_engine_audit_and_submit": true
+  },
+  "reviewed_source_sha256": "63a685431ddd8b74bb662d001b45f50770014aa15ee25963b84c61253118d41f",
+  "scenarios": [
+    {
+      "scenario": "queued_running_complete",
+      "status": "passed",
+      "checks": {
+        "at_most_one_write": true,
+        "at_most_one_submit_call": true,
+        "dispatch_lock_released": true,
+        "durable_status_written": true,
+        "expected_acceptance": true,
+        "audit_precedes_single_write": true
+      },
+      "counters": {
+        "status_reads": 3,
+        "audits": 1,
+        "submit_calls": 1,
+        "simulated_writes": 1
+      },
+      "result": {
+        "status": "accepted",
+        "pid": 9064,
+        "target": "stormseye/casmi26-mass-head-seed0-1108",
+        "branch": "mass_head_seed0",
+        "manifest_sha256": "19635a9e2ff25df0a65dd43453e78fc25e819ade7f496315696386a85fdbabcf",
+        "branch_sha256": "93ec7de696aec20194b55f38eaa5530297f0e67aa443f4e2f61681d71fbb41d0",
+        "started_at_utc": "2026-11-08T13:10:26.519064+00:00",
+        "maximum_seconds": 300,
+        "interval_seconds": 45,
+        "submission_retries_allowed": false,
+        "notebook_push_performed": false,
+        "cloud_status": "COMPLETE",
+        "checked_at_utc": "2026-11-08T13:10:26.662491+00:00",
+        "cloud_failure_message_present": false,
+        "submission_ref": 990001,
+        "finished_at_utc": "2026-11-08T13:10:26.662491+00:00"
+      },
+      "restart": null,
+      "fake_api_only": true,
+      "no_external_calls": true
+    },
+    {
+      "scenario": "existing_accepted",
+      "status": "passed",
+      "checks": {
+        "at_most_one_write": true,
+        "at_most_one_submit_call": true,
+        "dispatch_lock_released": true,
+        "durable_status_written": true,
+        "existing_claim_no_audit_or_submit": true
+      },
+      "counters": {
+        "status_reads": 0,
+        "audits": 0,
+        "submit_calls": 0,
+        "simulated_writes": 0
+      },
+      "result": {
+        "status": "already_claimed_no_retry",
+        "pid": 9064,
+        "target": "stormseye/casmi26-mass-head-seed0-1108",
+        "branch": "mass_head_seed0",
+        "manifest_sha256": "19b05357c9c4a98da78325be961b9153ee5d15ec250b32e7f856d55b28516336",
+        "branch_sha256": "93ec7de696aec20194b55f38eaa5530297f0e67aa443f4e2f61681d71fbb41d0",
+        "started_at_utc": "2026-11-08T13:10:26.696945+00:00",
+        "maximum_seconds": 300,
+        "interval_seconds": 45,
+        "submission_retries_allowed": false,
+        "notebook_push_performed": false,
+        "claim_status": "accepted",
+        "submission_ref": 990001,
+        "checked_at_utc": "2026-11-08T13:10:26.726473+00:00"
+      },
+      "restart": null,
+      "fake_api_only": true,
+      "no_external_calls": true
+    },
+    {
+      "scenario": "existing_unknown",
+      "status": "passed",
+      "checks": {
+        "at_most_one_write": true,
+        "at_most_one_submit_call": true,
+        "dispatch_lock_released": true,
+        "durable_status_written": true,
+        "existing_claim_no_audit_or_submit": true
+      },
+      "counters": {
+        "status_reads": 0,
+        "audits": 0,
+        "submit_calls": 0,
+        "simulated_writes": 0
+      },
+      "result": {
+        "status": "already_claimed_no_retry",
+        "pid": 9064,
+        "target": "stormseye/casmi26-mass-head-seed0-1108",
+        "branch": "mass_head_seed0",
+        "manifest_sha256": "f09ab087b6eacf2c9ddb97c8cf365fe0bbc7d736c3974babc083fd15cde60f37",
+        "branch_sha256": "93ec7de696aec20194b55f38eaa5530297f0e67aa443f4e2f61681d71fbb41d0",
+        "started_at_utc": "2026-11-08T13:10:26.761651+00:00",
+        "maximum_seconds": 300,
+        "interval_seconds": 45,
+        "submission_retries_allowed": false,
+        "notebook_push_performed": false,
+        "claim_status": "request_outcome_unknown_no_retry",
+        "submission_ref": null,
+        "checked_at_utc": "2026-11-08T13:10:26.789572+00:00"
+      },
+      "restart": null,
+      "fake_api_only": true,
+      "no_external_calls": true
+    },
+    {
+      "scenario": "manifest_changed",
+      "status": "passed",
+      "checks": {
+        "at_most_one_write": true,
+        "at_most_one_submit_call": true,
+        "dispatch_lock_released": true,
+        "durable_status_written": true,
+        "failure_stops_without_write": true,
+        "changed_artifact_detected_before_next_remote_read": true
+      },
+      "counters": {
+        "status_reads": 1,
+        "audits": 0,
+        "submit_calls": 0,
+        "simulated_writes": 0
+      },
+      "result": {
+        "status": "stopped_no_automatic_retry",
+        "pid": 9064,
+        "target": "stormseye/casmi26-mass-head-seed0-1108",
+        "branch": "mass_head_seed0",
+        "manifest_sha256": "a4747398bb793152da4c2ca11cba166bb3e27d5e3bcc3ceac086d0c5a3275437",
+        "branch_sha256": "93ec7de696aec20194b55f38eaa5530297f0e67aa443f4e2f61681d71fbb41d0",
+        "started_at_utc": "2026-11-08T13:10:26.822537+00:00",
+        "maximum_seconds": 300,
+        "interval_seconds": 45,
+        "submission_retries_allowed": false,
+        "notebook_push_performed": false,
+        "cloud_status": "QUEUED",
+        "checked_at_utc": "2026-11-08T13:10:26.852643+00:00",
+        "cloud_failure_message_present": false,
+        "finished_at_utc": "2026-11-08T13:10:26.853645+00:00",
+        "error_type": "ValueError",
+        "http_status": null
+      },
+      "restart": null,
+      "fake_api_only": true,
+      "no_external_calls": true
+    },
+    {
+      "scenario": "source_changed",
+      "status": "passed",
+      "checks": {
+        "at_most_one_write": true,
+        "at_most_one_submit_call": true,
+        "dispatch_lock_released": true,
+        "durable_status_written": true,
+        "failure_stops_without_write": true,
+        "changed_artifact_detected_before_next_remote_read": true
+      },
+      "counters": {
+        "status_reads": 1,
+        "audits": 0,
+        "submit_calls": 0,
+        "simulated_writes": 0
+      },
+      "result": {
+        "status": "stopped_no_automatic_retry",
+        "pid": 9064,
+        "target": "stormseye/casmi26-mass-head-seed0-1108",
+        "branch": "mass_head_seed0",
+        "manifest_sha256": "5bf60fcca8037c4e5ded6e1a2d0f05a925bff9d080e9bb3375cb631bc79a0cde",
+        "branch_sha256": "9338d66a781f59fe4cfb3483a01f40b7022a15009e2b954cdd342c5cd366775b",
+        "started_at_utc": "2026-11-08T13:10:26.889161+00:00",
+        "maximum_seconds": 300,
+        "interval_seconds": 45,
+        "submission_retries_allowed": false,
+        "notebook_push_performed": false,
+        "cloud_status": "QUEUED",
+        "checked_at_utc": "2026-11-08T13:10:26.919755+00:00",
+        "cloud_failure_message_present": false,
+        "finished_at_utc": "2026-11-08T13:10:26.921785+00:00",
+        "error_type": "ValueError",
+        "http_status": null
+      },
+      "restart": null,
+      "fake_api_only": true,
+      "no_external_calls": true
+    },
+    {
+      "scenario": "cloud_error",
+      "status": "passed",
+      "checks": {
+        "at_most_one_write": true,
+        "at_most_one_submit_call": true,
+        "dispatch_lock_released": true,
+        "durable_status_written": true,
+        "cloud_failed_without_audit_or_submission": true
+      },
+      "counters": {
+        "status_reads": 1,
+        "audits": 0,
+        "submit_calls": 0,
+        "simulated_writes": 0
+      },
+      "result": {
+        "status": "cloud_failed_no_submission",
+        "pid": 9064,
+        "target": "stormseye/casmi26-mass-head-seed0-1108",
+        "branch": "mass_head_seed0",
+        "manifest_sha256": "dfd16bccd89860cbdca9a0ec87049b2d53af9bad0c6fcdd23f31d58f1e716ff7",
+        "branch_sha256": "93ec7de696aec20194b55f38eaa5530297f0e67aa443f4e2f61681d71fbb41d0",
+        "started_at_utc": "2026-11-08T13:10:26.954789+00:00",
+        "maximum_seconds": 300,
+        "interval_seconds": 45,
+        "submission_retries_allowed": false,
+        "notebook_push_performed": false,
+        "cloud_status": "ERROR",
+        "checked_at_utc": "2026-11-08T13:10:26.983151+00:00",
+        "cloud_failure_message_present": false,
+        "finished_at_utc": "2026-11-08T13:10:26.983151+00:00"
+      },
+      "restart": null,
+      "fake_api_only": true,
+      "no_external_calls": true
+    },
+    {
+      "scenario": "cloud_complete_with_failure",
+      "status": "passed",
+      "checks": {
+        "at_most_one_write": true,
+        "at_most_one_submit_call": true,
+        "dispatch_lock_released": true,
+        "durable_status_written": true,
+        "cloud_failed_without_audit_or_submission": true
+      },
+      "counters": {
+        "status_reads": 1,
+        "audits": 0,
+        "submit_calls": 0,
+        "simulated_writes": 0
+      },
+      "result": {
+        "status": "cloud_failed_no_submission",
+        "pid": 9064,
+        "target": "stormseye/casmi26-mass-head-seed0-1108",
+        "branch": "mass_head_seed0",
+        "manifest_sha256": "8756aef1189678ffc9ac5962ad7229444802dc09972aab912826a6e033ceb5ed",
+        "branch_sha256": "93ec7de696aec20194b55f38eaa5530297f0e67aa443f4e2f61681d71fbb41d0",
+        "started_at_utc": "2026-11-08T13:10:27.015046+00:00",
+        "maximum_seconds": 300,
+        "interval_seconds": 45,
+        "submission_retries_allowed": false,
+        "notebook_push_performed": false,
+        "cloud_status": "COMPLETE",
+        "checked_at_utc": "2026-11-08T13:10:27.044050+00:00",
+        "cloud_failure_message_present": true,
+        "finished_at_utc": "2026-11-08T13:10:27.044050+00:00"
+      },
+      "restart": null,
+      "fake_api_only": true,
+      "no_external_calls": true
+    },
+    {
+      "scenario": "audit_error",
+      "status": "passed",
+      "checks": {
+        "at_most_one_write": true,
+        "at_most_one_submit_call": true,
+        "dispatch_lock_released": true,
+        "durable_status_written": true,
+        "failure_stops_without_write": true
+      },
+      "counters": {
+        "status_reads": 1,
+        "audits": 1,
+        "submit_calls": 0,
+        "simulated_writes": 0
+      },
+      "result": {
+        "status": "stopped_no_automatic_retry",
+        "pid": 9064,
+        "target": "stormseye/casmi26-mass-head-seed0-1108",
+        "branch": "mass_head_seed0",
+        "manifest_sha256": "da2d761e349be7931149f183181ecbcdec8a8fcb1b84df4e539e994ec0f91ff7",
+        "branch_sha256": "93ec7de696aec20194b55f38eaa5530297f0e67aa443f4e2f61681d71fbb41d0",
+        "started_at_utc": "2026-11-08T13:10:27.077842+00:00",
+        "maximum_seconds": 300,
+        "interval_seconds": 45,
+        "submission_retries_allowed": false,
+        "notebook_push_performed": false,
+        "cloud_status": "COMPLETE",
+        "checked_at_utc": "2026-11-08T13:10:27.107556+00:00",
+        "cloud_failure_message_present": false,
+        "finished_at_utc": "2026-11-08T13:10:27.135715+00:00",
+        "error_type": "RuntimeError",
+        "http_status": null
+      },
+      "restart": null,
+      "fake_api_only": true,
+      "no_external_calls": true
+    },
+    {
+      "scenario": "cloud_source_drift_at_audit",
+      "status": "passed",
+      "checks": {
+        "at_most_one_write": true,
+        "at_most_one_submit_call": true,
+        "dispatch_lock_released": true,
+        "durable_status_written": true,
+        "failure_stops_without_write": true
+      },
+      "counters": {
+        "status_reads": 1,
+        "audits": 1,
+        "submit_calls": 0,
+        "simulated_writes": 0
+      },
+      "result": {
+        "status": "stopped_no_automatic_retry",
+        "pid": 9064,
+        "target": "stormseye/casmi26-mass-head-seed0-1108",
+        "branch": "mass_head_seed0",
+        "manifest_sha256": "d7e96c71bfa9029de1a8c37a81b2a7f1a66b0fdd9538896a4137933bafe4787f",
+        "branch_sha256": "93ec7de696aec20194b55f38eaa5530297f0e67aa443f4e2f61681d71fbb41d0",
+        "started_at_utc": "2026-11-08T13:10:27.169851+00:00",
+        "maximum_seconds": 300,
+        "interval_seconds": 45,
+        "submission_retries_allowed": false,
+        "notebook_push_performed": false,
+        "cloud_status": "COMPLETE",
+        "checked_at_utc": "2026-11-08T13:10:27.199722+00:00",
+        "cloud_failure_message_present": false,
+        "finished_at_utc": "2026-11-08T13:10:27.227529+00:00",
+        "error_type": "ValueError",
+        "http_status": null
+      },
+      "restart": null,
+      "fake_api_only": true,
+      "no_external_calls": true
+    },
+    {
+      "scenario": "submission_unknown_return",
+      "status": "passed",
+      "checks": {
+        "at_most_one_write": true,
+        "at_most_one_submit_call": true,
+        "dispatch_lock_released": true,
+        "durable_status_written": true,
+        "unknown_not_retried_on_restart": true
+      },
+      "counters": {
+        "status_reads": 1,
+        "audits": 1,
+        "submit_calls": 1,
+        "simulated_writes": 1
+      },
+      "result": {
+        "status": "request_outcome_unknown_no_retry",
+        "pid": 9064,
+        "target": "stormseye/casmi26-mass-head-seed0-1108",
+        "branch": "mass_head_seed0",
+        "manifest_sha256": "7abc33855f404f0c3a7fa62175fa52ef0cfcddb524b0ad08d83c98d6b6e7fe14",
+        "branch_sha256": "93ec7de696aec20194b55f38eaa5530297f0e67aa443f4e2f61681d71fbb41d0",
+        "started_at_utc": "2026-11-08T13:10:27.260667+00:00",
+        "maximum_seconds": 300,
+        "interval_seconds": 45,
+        "submission_retries_allowed": false,
+        "notebook_push_performed": false,
+        "cloud_status": "COMPLETE",
+        "checked_at_utc": "2026-11-08T13:10:27.345171+00:00",
+        "cloud_failure_message_present": false,
+        "submission_ref": null,
+        "finished_at_utc": "2026-11-08T13:10:27.345171+00:00"
+      },
+      "restart": {
+        "status": "already_claimed_no_retry",
+        "pid": 9064,
+        "target": "stormseye/casmi26-mass-head-seed0-1108",
+        "branch": "mass_head_seed0",
+        "manifest_sha256": "7abc33855f404f0c3a7fa62175fa52ef0cfcddb524b0ad08d83c98d6b6e7fe14",
+        "branch_sha256": "93ec7de696aec20194b55f38eaa5530297f0e67aa443f4e2f61681d71fbb41d0",
+        "started_at_utc": "2026-11-08T13:10:27.375843+00:00",
+        "maximum_seconds": 300,
+        "interval_seconds": 45,
+        "submission_retries_allowed": false,
+        "notebook_push_performed": false,
+        "claim_status": "request_outcome_unknown_no_retry",
+        "submission_ref": null,
+        "checked_at_utc": "2026-11-08T13:10:27.403180+00:00"
+      },
+      "fake_api_only": true,
+      "no_external_calls": true
+    },
+    {
+      "scenario": "submission_unknown_exception",
+      "status": "passed",
+      "checks": {
+        "at_most_one_write": true,
+        "at_most_one_submit_call": true,
+        "dispatch_lock_released": true,
+        "durable_status_written": true,
+        "unknown_not_retried_on_restart": true
+      },
+      "counters": {
+        "status_reads": 1,
+        "audits": 1,
+        "submit_calls": 1,
+        "simulated_writes": 1
+      },
+      "result": {
+        "status": "stopped_no_automatic_retry",
+        "pid": 9064,
+        "target": "stormseye/casmi26-mass-head-seed0-1108",
+        "branch": "mass_head_seed0",
+        "manifest_sha256": "bd010069787d7c64cdfdfcf44943b5f2adf9146be2949688756bc9d9a6cc7054",
+        "branch_sha256": "93ec7de696aec20194b55f38eaa5530297f0e67aa443f4e2f61681d71fbb41d0",
+        "started_at_utc": "2026-11-08T13:10:27.437471+00:00",
+        "maximum_seconds": 300,
+        "interval_seconds": 45,
+        "submission_retries_allowed": false,
+        "notebook_push_performed": false,
+        "cloud_status": "COMPLETE",
+        "checked_at_utc": "2026-11-08T13:10:27.467868+00:00",
+        "cloud_failure_message_present": false,
+        "finished_at_utc": "2026-11-08T13:10:27.532191+00:00",
+        "error_type": "RuntimeError",
+        "http_status": null
+      },
+      "restart": {
+        "status": "already_claimed_no_retry",
+        "pid": 9064,
+        "target": "stormseye/casmi26-mass-head-seed0-1108",
+        "branch": "mass_head_seed0",
+        "manifest_sha256": "bd010069787d7c64cdfdfcf44943b5f2adf9146be2949688756bc9d9a6cc7054",
+        "branch_sha256": "93ec7de696aec20194b55f38eaa5530297f0e67aa443f4e2f61681d71fbb41d0",
+        "started_at_utc": "2026-11-08T13:10:27.565386+00:00",
+        "maximum_seconds": 300,
+        "interval_seconds": 45,
+        "submission_retries_allowed": false,
+        "notebook_push_performed": false,
+        "claim_status": "request_outcome_unknown_no_retry",
+        "submission_ref": null,
+        "checked_at_utc": "2026-11-08T13:10:27.594675+00:00"
+      },
+      "fake_api_only": true,
+      "no_external_calls": true
+    },
+    {
+      "scenario": "submission_preclaim_exception",
+      "status": "passed",
+      "checks": {
+        "at_most_one_write": true,
+        "at_most_one_submit_call": true,
+        "dispatch_lock_released": true,
+        "durable_status_written": true,
+        "failure_stops_without_write": true
+      },
+      "counters": {
+        "status_reads": 1,
+        "audits": 1,
+        "submit_calls": 1,
+        "simulated_writes": 0
+      },
+      "result": {
+        "status": "stopped_no_automatic_retry",
+        "pid": 9064,
+        "target": "stormseye/casmi26-mass-head-seed0-1108",
+        "branch": "mass_head_seed0",
+        "manifest_sha256": "6838fef5ff1f9359b4635569914cb962be26df7e87c46917ba043c974c86ddc9",
+        "branch_sha256": "93ec7de696aec20194b55f38eaa5530297f0e67aa443f4e2f61681d71fbb41d0",
+        "started_at_utc": "2026-11-08T13:10:27.628274+00:00",
+        "maximum_seconds": 300,
+        "interval_seconds": 45,
+        "submission_retries_allowed": false,
+        "notebook_push_performed": false,
+        "cloud_status": "COMPLETE",
+        "checked_at_utc": "2026-11-08T13:10:27.657591+00:00",
+        "cloud_failure_message_present": false,
+        "finished_at_utc": "2026-11-08T13:10:27.687369+00:00",
+        "error_type": "RuntimeError",
+        "http_status": null
+      },
+      "restart": null,
+      "fake_api_only": true,
+      "no_external_calls": true
+    },
+    {
+      "scenario": "transient_read_errors",
+      "status": "passed",
+      "checks": {
+        "at_most_one_write": true,
+        "at_most_one_submit_call": true,
+        "dispatch_lock_released": true,
+        "durable_status_written": true,
+        "expected_acceptance": true,
+        "audit_precedes_single_write": true
+      },
+      "counters": {
+        "status_reads": 3,
+        "audits": 1,
+        "submit_calls": 1,
+        "simulated_writes": 1
+      },
+      "result": {
+        "status": "accepted",
+        "pid": 9064,
+        "target": "stormseye/casmi26-mass-head-seed0-1108",
+        "branch": "mass_head_seed0",
+        "manifest_sha256": "65ee38649ed21d3f182541aec831ac837d3a9090b689e0171558278111306e27",
+        "branch_sha256": "93ec7de696aec20194b55f38eaa5530297f0e67aa443f4e2f61681d71fbb41d0",
+        "started_at_utc": "2026-11-08T13:10:27.723585+00:00",
+        "maximum_seconds": 300,
+        "interval_seconds": 45,
+        "submission_retries_allowed": false,
+        "notebook_push_performed": false,
+        "consecutive_read_errors": 2,
+        "checked_at_utc": "2026-11-08T13:10:27.874362+00:00",
+        "error_type": "RuntimeError",
+        "http_status": null,
+        "cloud_status": "COMPLETE",
+        "cloud_failure_message_present": false,
+        "submission_ref": 990001,
+        "finished_at_utc": "2026-11-08T13:10:27.874362+00:00"
+      },
+      "restart": null,
+      "fake_api_only": true,
+      "no_external_calls": true
+    },
+    {
+      "scenario": "ten_read_errors",
+      "status": "passed",
+      "checks": {
+        "at_most_one_write": true,
+        "at_most_one_submit_call": true,
+        "dispatch_lock_released": true,
+        "durable_status_written": true,
+        "failure_stops_without_write": true
+      },
+      "counters": {
+        "status_reads": 10,
+        "audits": 0,
+        "submit_calls": 0,
+        "simulated_writes": 0
+      },
+      "result": {
+        "status": "stopped_no_automatic_retry",
+        "pid": 9064,
+        "target": "stormseye/casmi26-mass-head-seed0-1108",
+        "branch": "mass_head_seed0",
+        "manifest_sha256": "1f15aebb71a70001a36abe282b7ed6e39d95e04030ac910bf3643cb2211adb89",
+        "branch_sha256": "93ec7de696aec20194b55f38eaa5530297f0e67aa443f4e2f61681d71fbb41d0",
+        "started_at_utc": "2026-11-08T13:10:27.911587+00:00",
+        "maximum_seconds": 900,
+        "interval_seconds": 45,
+        "submission_retries_allowed": false,
+        "notebook_push_performed": false,
+        "consecutive_read_errors": 10,
+        "checked_at_utc": "2026-11-08T13:10:28.203585+00:00",
+        "error_type": "RuntimeError",
+        "http_status": null,
+        "finished_at_utc": "2026-11-08T13:10:28.204845+00:00"
+      },
+      "restart": null,
+      "fake_api_only": true,
+      "no_external_calls": true
+    },
+    {
+      "scenario": "timeout",
+      "status": "passed",
+      "checks": {
+        "at_most_one_write": true,
+        "at_most_one_submit_call": true,
+        "dispatch_lock_released": true,
+        "durable_status_written": true,
+        "expected_timeout": true
+      },
+      "counters": {
+        "status_reads": 2,
+        "audits": 0,
+        "submit_calls": 0,
+        "simulated_writes": 0
+      },
+      "result": {
+        "status": "timeout_no_submission",
+        "pid": 9064,
+        "target": "stormseye/casmi26-mass-head-seed0-1108",
+        "branch": "mass_head_seed0",
+        "manifest_sha256": "9da3e6c73f5e883d183cfd2218db7e7972ba899645016f9d9cbf20b3d40a0a78",
+        "branch_sha256": "93ec7de696aec20194b55f38eaa5530297f0e67aa443f4e2f61681d71fbb41d0",
+        "started_at_utc": "2026-11-08T13:10:28.238783+00:00",
+        "maximum_seconds": 90,
+        "interval_seconds": 45,
+        "submission_retries_allowed": false,
+        "notebook_push_performed": false,
+        "cloud_status": "QUEUED",
+        "checked_at_utc": "2026-11-08T13:10:28.295035+00:00",
+        "cloud_failure_message_present": false,
+        "finished_at_utc": "2026-11-08T13:10:28.297534+00:00"
+      },
+      "restart": null,
+      "fake_api_only": true,
+      "no_external_calls": true
+    }
+  ],
+  "no_network_calls": true,
+  "no_real_manifest_or_receipt_changed": true,
+  "no_competition_submission": true,
+  "scope": "Dispatcher state machine; mock audit/submit. Existing batch engine independently retains live source, dependency, output, quota and claim checks."
+}

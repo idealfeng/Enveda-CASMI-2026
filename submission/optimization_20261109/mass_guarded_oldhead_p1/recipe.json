@@ -1,0 +1,42 @@
+{
+  "branch": "mass_guarded_oldhead_p1",
+  "target": "stormseye/casmi26-mass-guarded-oldhead-p1-1109",
+  "baseline_own_public_score": 0.482,
+  "base_source_sha256": "6de37bec32c8aa8bfb46b2c5e94e374b53fe36137dff1cd7d1c4a295359f56fe",
+  "method": "post-MASS guarded same-formula ranking",
+  "configuration": {
+    "protected_prefix": 1,
+    "score_mode": "learned_heads",
+    "scorer_file": "learned_head_score.py",
+    "scorer_sha256": "14ba386cef89194c87cead728b23a670f83d425b2316a007d3f07901e5cf1a74",
+    "payload_pins": {
+      "candidate_multispectrum_head.py": "6dc38d9d9dd59bff0ed791045573638c5566b2e1f84c0336c1b1bff383f886f0",
+      "learned_head_score.py": "14ba386cef89194c87cead728b23a670f83d425b2316a007d3f07901e5cf1a74",
+      "learned_head_runtime.json": "b3e605208a660c00a48409226c8088a5aa63a8228dc69c8bafbd6ded80289de5",
+      "head_seed20261108_step2500.pt": "99e63aedb420217c817aeaaebd3d09ffa9620824a8d8833dcf55fd90ae903a53",
+      "head_seed20261109_step2500.pt": "f29077ca350e48705cec93ed7a9716b2b718e965ba56cec859bb829bf4b7ba75"
+    },
+    "head_receipts": [
+      {
+        "sha256": "99e63aedb420217c817aeaaebd3d09ffa9620824a8d8833dcf55fd90ae903a53",
+        "step": 2500,
+        "seed": 20261108
+      },
+      {
+        "sha256": "f29077ca350e48705cec93ed7a9716b2b718e965ba56cec859bb829bf4b7ba75",
+        "step": 2500,
+        "seed": 20261109
+      }
+    ],
+    "baseline_scorer_sha256": "cb9e4d6732992e3310e951533fd0c644d3b515134ad03768c35e5a86551267d2"
+  },
+  "configuration_sha256": "2f511d3b6de23aafa368998e628544dd994c2ca106fe3886a16475dfd6defa70",
+  "tail_module_sha256": "783b767e6b5425879ea3bcc8dadbedc40ea349def0e943c65dbf9c5052af3a64",
+  "all_original_scoring_unchanged": true,
+  "compare_to": "58129661 prefix7 old two-head .482",
+  "new_head_spec": null,
+  "no_na_component": true,
+  "known_pretrained_exposure": true,
+  "locked_final_used": false,
+  "validation_mode": "fast_static"
+}

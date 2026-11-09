@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checks": {
+    "lossless_original_sources": true,
+    "head_installer_unchanged": true,
+    "all_other_preexisting_cells_unchanged": true,
+    "source_under_1MiB": true
+  },
+  "source_bytes": 836167
+}

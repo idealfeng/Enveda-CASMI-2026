@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "reports": [
+    {
+      "branch": "mass_head_seed0",
+      "notebook_sha256": "35475aa4e40eb2da03c5f5dcff92fc2d89913b9f4477f15a26273a804b4c6ffc",
+      "checks_passed": 21,
+      "checks_total": 21
+    },
+    {
+      "branch": "mass_head_seed1",
+      "notebook_sha256": "54d0acc8eb0569b98226a0b38471b39cfda268d72e21f98a0d1329d56fb3e3df",
+      "checks_passed": 21,
+      "checks_total": 21
+    },
+    {
+      "branch": "mass_heads_na",
+      "notebook_sha256": "9417600e4a0118c671dff6e571ac0260bac951eb7531ee985096c60d7beb8e8e",
+      "checks_passed": 21,
+      "checks_total": 21
+    }
+  ],
+  "no_stage_bytes_changed": true,
+  "fixture_scope": "Actual final head observers; source/weight payload pins and runtime evidence checks, not model-quality validation"
+}

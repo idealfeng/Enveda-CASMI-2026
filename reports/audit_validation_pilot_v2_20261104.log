@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "scope": "Dataset integrity and reference-mask contracts only; no model metric or final-holdout evaluation.",
+  "metric_rdkit": "2026.03.3",
+  "manifest_sha256": "f20ea449862dc8aaf2da5e258b6314cc1b6a6cf2ba6917fbc15d6beab7e24619",
+  "molecules": 48,
+  "query_spectra": 240,
+  "class2_masked_rows": 5725,
+  "class1_query_duplicate_masked_rows": 240,
+  "all_raw_family_rows_masked": true,
+  "reference_mask_adduct_counts": {
+    "[M+K]+": 106,
+    "[M+H]+": 3154,
+    "[M+Na]+": 1131,
+    "[2M+H]+": 13,
+    "[2M+Na-2H]-": 19,
+    "[2M+Na]+": 9,
+    "[2M-H]-": 30,
+    "[M+2Na-H]+": 1,
+    "[M+NH4]+": 82,
+    "[M-2H2O+H]+": 15,
+    "[M-H2O+H]+": 49,
+    "[M-H]-": 946,
+    "[M+CH2O2-H]-": 102,
+    "[M+2H]2+": 7,
+    "[M+Cl]-": 50,
+    "[M-C9H9O5]+": 3,
+    "[M+C2H4O2-H]-": 4,
+    "[3M+Na]+": 2,
+    "[4M+Ca]2+": 2
+  },
+  "query_adduct_counts": {
+    "[M+Cl]-": 4,
+    "[M+H]+": 146,
+    "[M-H]-": 44,
+    "[M+Na]+": 17,
+    "[M+CH2O2-H]-": 15,
+    "[M+K]+": 5,
+    "[M+NH4]+": 7,
+    "[M-H2O+H]+": 2
+  },
+  "multi_spectrum_molecules": 36,
+  "multi_adduct_molecules": 24,
+  "dual_polarity_molecules": 17,
+  "multi_energy_molecules": 24,
+  "selection_cap_dropped_spectra": 70,
+  "selection_dropped_polarity_molecules": 1,
+  "final_locked_identities": 250,
+  "final_locked_active_intersection": 0,
+  "final_locked_prediction_or_metric_read": false,
+  "validation_status": "reference-isolated diagnostic with known pretrained exposure",
+  "training_exposure": {
+    "FPNet_full1": {
+      "status": "declared_seen_all_train",
+      "evidence": "third_party/prvsiyan_analog/dataset_metadata/ahmedberatozer__casmi26-fpnet-full1__view.json"
+    },
+    "fold0_FPNet": {
+      "status": "declared_np_panel_excluded_only",
+      "does_not_establish_full_stack_cleanliness": true
+    },
+    "other_public_models_rankers": {
+      "status": "unknown_membership"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-public-alex-extlib-1109",
+  "version": 1,
+  "actual_target": "stormseye/casmi26-public-alex-extlib-1109",
+  "branch_sha256": "652c44f6ed2965b3f303cb4391f5156e4ac961860e6ef75a6073e09ac62d4565",
+  "notebook_sha256": "1838e7c7c07177b7e6976c9b4c1e9c566769b2c88c2a699ce002bffa174dbbee",
+  "checked_at_utc": "2026-11-09T07:46:31.573888+00:00",
+  "checks": {
+    "csv_schema_and_official_identities": true,
+    "version_source_private_offline": true,
+    "observer:base_external_audit.json": true,
+    "observer:external_overlay_audit.json": true
+  },
+  "files": [
+    {
+      "name": "submission.csv",
+      "bytes": 153619,
+      "sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0"
+    },
+    {
+      "name": "base_external_audit.json",
+      "bytes": 427,
+      "sha256": "7a39236e542d9b8a6c67b74532517451d937eb7ea5dbeb824ad6da74a1bebede"
+    },
+    {
+      "name": "external_overlay_audit.json",
+      "bytes": 862,
+      "sha256": "6dc7747b2cddcbb139a520a655bff10552e5e189d49d7bcc58ef054e9235bcb2"
+    }
+  ],
+  "csv": {
+    "rows": 400,
+    "rdkit": "2026.03.3",
+    "duplicate_identity_rows": []
+  },
+  "submission_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "total_bytes": 154908,
+  "validation_mode": "fast_static",
+  "scope": "fast_static_no_visible_model_execution",
+  "signed_urls_persisted": false,
+  "read_only": true,
+  "competition_submission_performed": false
+}

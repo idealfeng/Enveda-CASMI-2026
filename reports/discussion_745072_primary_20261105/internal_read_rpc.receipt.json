@@ -1,0 +1,14 @@
+{
+  "url": "https://www.kaggle.com/api/i/discussions.DiscussionsService/GetForumTopicById",
+  "method": "POST",
+  "read_only_operation": true,
+  "utc": "2026-11-04T17:45:02.975192+00:00",
+  "request_body": {
+    "forumTopicId": 745072,
+    "includeComments": true
+  },
+  "status": 404,
+  "bytes": 0,
+  "content_type": null,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

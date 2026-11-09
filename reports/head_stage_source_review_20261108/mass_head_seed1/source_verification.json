@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "name": "mass_head_seed1",
+  "notebook_sha256": "54d0acc8eb0569b98226a0b38471b39cfda268d72e21f98a0d1329d56fb3e3df",
+  "checks": {
+    "source_stage_pin": true,
+    "only_planned_existing_cells_change": true,
+    "one_new_observer_cell": true,
+    "all_code_compiles": true,
+    "actual_installer_payload_shas": true,
+    "original_scorer_copy_pinned": true,
+    "wrapper_dispatches_shared_adapter": true,
+    "runtime_source_bindings": true,
+    "actual_checkpoint_headers_match_recipe": true,
+    "trained_files_match_embedded_payload": true,
+    "metadata_changes_only_new_identity": true,
+    "title_matches_requested_slug": true,
+    "inherits_confirmed_baseline_audit_contract": true,
+    "frozen_notebook_sha_matches_branch": true
+  },
+  "actual_ast_installer_executed": true,
+  "weights_loaded_cpu_only": true,
+  "model_inference": false,
+  "training": false,
+  "cloud_write": false
+}

@@ -1,0 +1,23 @@
+{
+  "branch": "mass_gl_na",
+  "target": "stormseye/casmi26-mass-gl-na-1108",
+  "baseline_public_score": 0.481,
+  "baseline_notebook_sha256": "2bf3c51c8703956f80892d478b0de77747f90a8228bf275399d793666e5a1ea6",
+  "change": "GLACIER real H+/Na+ spectrum coverage; original candidate lists and actual per-spectrum mean",
+  "new_training": false,
+  "candidate_policy": "original ICE union lists unchanged",
+  "aggregation": "full real H+/Na+ GL run; original runner actual per-spectrum mean",
+  "gl_budget_seconds": 4000,
+  "na_accuracy_established": false,
+  "n1_policy": "real Na GL coverage wins proxy overlap, as original hidden clash removal; visible checks allow only Na clashes",
+  "adaptations": [
+    "Explicit source-pinned runtime cell41 adapter; frozen notebook bytes unchanged",
+    "Dynamic hidden query count audit instead of assuming exactly 400",
+    "Retain original MASS final leader rule, physical code and all priors"
+  ],
+  "runner_sha256": "c7bf35cc9f6a6a082e6b7615f824a3f61de3e0197a5e93986cb910b4dce038a6",
+  "hook_sha256": "99bb9ba2fa432261ce8599809d102ab3e0601c46f8e2d7148bfe559511df3322",
+  "frozen_sha256": "d1e757c2b71b46e6e8a5777f14302a4737d0fdbcd56d8365093c039b93c5fd88",
+  "adapted_cell41_sha256": "8854a08b213d82f8177911ce4fe9bc6e8e3497cefa4df4e5905d211fc7bfa3cd",
+  "locked_final_used": false
+}

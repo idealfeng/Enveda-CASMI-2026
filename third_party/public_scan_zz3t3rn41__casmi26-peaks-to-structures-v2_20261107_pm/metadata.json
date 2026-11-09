@@ -1,0 +1,33 @@
+{
+  "id": 141340016,
+  "ref": "zz3t3rn41/casmi26-peaks-to-structures-v2",
+  "title": "casmi26-peaks-to-structures-v2",
+  "current_version_number": 35,
+  "last_run_time": "2026-11-04 06:39:41.771000",
+  "total_votes": 97,
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_data_sources": [
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "bgunshui/casmi26-scorer-v2-model",
+    "sanpier/catalogue-experiment-saner",
+    "qwertykeypadapple/casmi26-lotus-candidates",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [],
+  "competition_data_sources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "model_data_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:9a6bcfda6d03b2cd9aa347ee8c1bae62043328ed0f4afe9bda014e4f8bbf9435",
+  "machine_shape": "NvidiaTeslaT4",
+  "source_sha256": "759067bc1449427089e95b811ee49f866580590905484577fe09a143740a2842",
+  "source_bytes": 687404,
+  "source_path": "third_party\\public_scan_zz3t3rn41__casmi26-peaks-to-structures-v2_20261107_pm\\source.ipynb"
+}

@@ -1,0 +1,7 @@
+﻿{
+    "branch":  "mass_guarded_head_tail_1108",
+    "script":  "scripts/submit_ready_branch.py",
+    "launcher_pid":  40740,
+    "maximum_hours":  6,
+    "single_submit_only":  true
+}

@@ -1,0 +1,61 @@
+Class 3 graph generation: MC isomers are different from Natural Product not because they are unstable (GFN2-xTB)
+
+https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/755089
+
+Author: Toshiko Miyake
+
+Posted: 2026-11-02T19:14:34.256Z
+
+Hi all. Here is a small experiment on graph generation targeting Class 3.
+
+I first tried DiffMS, then switched to generating molecular graphs directly with Monte Carlo. The overall strategy: map the MS/MS spectrum to a molecular fingerprint (I use a modified FPNet-like model, as in other public notebooks), generate many candidate graphs, and pick those closest to the predicted fingerprint.
+
+The MC starts from known structures with the same formula and jumps between isomers by rewiring bonds. No chemical knowledge or biosynthetic pathways are used. Obviously broken graphs are removed, especially strained ones and those containing ring systems not found in any database.
+
+Mixing these generated candidates with DB candidates (with a score discount) gave only +0.006 to +0.011 on my local validation, and no visible change on the LB.
+
+Hypothesis. Among all isomers that graph enumeration can produce, real molecules occupy a very limited region. To appear in this competition, a molecule must
+
+(1) be stable,
+(2) be reachable by a biosynthetic pathway,
+(3) be measurable by MS/MS (ionizes and fragments).
+
+I assumed (3) differs little among isomers of a fixed formula, since ionization efficiency is largely explained by formula-level features such as the numbers of H and N. So I tested (1): are the generated isomers simply unstable?
+
+Setup
+
+250 natural products held out from the training data
+1,300 generated structures that reached the top 25, the 250 correct structures, and 10 random registered isomers per formula (2,139)
+RDKit ETKDG (5 conformers) → lowest MMFF → xtb --gfn 2 --opt, gas phase
+ΔE = E − median E of registered isomers of the same formula (kcal/mol)
+
+Results
+
+Median ΔE: generated +1.7, registered 0.0, correct −2.7 (SD 19–24)
+Generated structures ranked above the correct answer were less stable than it in only 55–56% of cases
+Connectivity changed during optimization for only 0.3% of generated structures
+
+
+
+
+ΔE threshold (kcal/mol)
+Generated removed
+Registered removed
+
+
+
+
+> 20
+17.0%
+15.1%
+
+
+> 50
+5.3%
+3.9%
+
+
+
+Takeaway. The generated isomers are not particularly unstable, and the correct structure is not the most stable isomer either (around the lower 40% of registered isomers). So (1) does not explain the failure. My guess, not yet tested, is that (2) biosynthetic reachability is what matters.
+
+Cost: about 5.5 h on a Kaggle CPU for 3,689 structures. Caveats: single conformer, gas phase, one validation split.

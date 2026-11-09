@@ -1,0 +1,199 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-06T02:57:02.763951+00:00",
+  "checks": {
+    "completed_bound_reports": true,
+    "source_binding": true,
+    "manifest_binding": true,
+    "original_inputs_unchanged": true,
+    "all_prediction_shas": true,
+    "public_control_exact": true,
+    "all_model_shas": true,
+    "distinct_weights": true,
+    "all_model_configs": true,
+    "scorer_error_lists_empty": true,
+    "v2_score_hash": true,
+    "v2_full_coverage": true,
+    "v2_same_used_spectra": true,
+    "v4_score_hash": true,
+    "v4_full_coverage": true,
+    "v4_same_used_spectra": true,
+    "dual_score_mix_exact": true,
+    "tri_score_mix_exact": true,
+    "locked_cohort_excluded": true,
+    "truth_csv_sha": true,
+    "public_valid_predictions": true,
+    "public_metrics_recomputed": true,
+    "public_fixed_candidates": true,
+    "public_query_order": true,
+    "dual_valid_predictions": true,
+    "dual_metrics_recomputed": true,
+    "dual_fixed_candidates": true,
+    "dual_query_order": true,
+    "tri_valid_predictions": true,
+    "tri_metrics_recomputed": true,
+    "tri_fixed_candidates": true,
+    "tri_query_order": true,
+    "dual_minus_public_bootstrap_recomputed": true,
+    "dual_minus_public_changed_ranks_recomputed": true,
+    "dual_minus_public_panel_deltas_recomputed": true,
+    "tri_minus_public_bootstrap_recomputed": true,
+    "tri_minus_public_changed_ranks_recomputed": true,
+    "tri_minus_public_panel_deltas_recomputed": true,
+    "tri_minus_dual_bootstrap_recomputed": true,
+    "tri_minus_dual_changed_ranks_recomputed": true,
+    "tri_minus_dual_panel_deltas_recomputed": true
+  },
+  "checks_passed": 41,
+  "checks_total": 41,
+  "no_model_loading_or_network": true,
+  "rdkit": "2026.03.3",
+  "metrics": {
+    "public": {
+      "mrr_at_25": 0.84510582010582,
+      "top1": 38,
+      "top5": 44,
+      "top25": 46
+    },
+    "dual": {
+      "mrr_at_25": 0.849074074074074,
+      "top1": 38,
+      "top5": 45,
+      "top25": 46
+    },
+    "tri": {
+      "mrr_at_25": 0.8509548611111111,
+      "top1": 38,
+      "top5": 45,
+      "top25": 46
+    }
+  },
+  "comparisons": {
+    "dual_minus_public": {
+      "delta_mrr": 0.003968253968253969,
+      "ci_low": -0.0034722222222222216,
+      "ci_high": 0.013640873015873018,
+      "improved": 2,
+      "worsened": 1,
+      "unchanged": 45,
+      "top1_identity_changes": 0,
+      "panel_delta_mrr": {
+        "np": 0.006944444444444445,
+        "cross": 0.000992063492063493
+      },
+      "np_share_of_net_gain": 0.8749999999999999,
+      "two_largest_positive_changes_share_of_net_gain": 1.4374999999999998,
+      "changed": [
+        {
+          "molecule_id": "cross_DWVXZQVYILJCJH",
+          "panel": "cross",
+          "before": 7,
+          "after": 4,
+          "rr_delta": 0.10714285714285715
+        },
+        {
+          "molecule_id": "cross_VXVNYCRICCVPTD",
+          "panel": "cross",
+          "before": 3,
+          "after": 4,
+          "rr_delta": -0.08333333333333331
+        },
+        {
+          "molecule_id": "np_RFDAIACWWDREDC",
+          "panel": "np",
+          "before": 3,
+          "after": 2,
+          "rr_delta": 0.16666666666666669
+        }
+      ]
+    },
+    "tri_minus_public": {
+      "delta_mrr": 0.005849041005291006,
+      "ci_low": 0.0,
+      "ci_high": 0.015025628306878308,
+      "improved": 3,
+      "worsened": 0,
+      "unchanged": 45,
+      "top1_identity_changes": 0,
+      "panel_delta_mrr": {
+        "np": 0.006944444444444445,
+        "cross": 0.004753637566137566
+      },
+      "np_share_of_net_gain": 0.5936395759717316,
+      "two_largest_positive_changes_share_of_net_gain": 0.9752650176678446,
+      "changed": [
+        {
+          "molecule_id": "cross_DWVXZQVYILJCJH",
+          "panel": "cross",
+          "before": 7,
+          "after": 4,
+          "rr_delta": 0.10714285714285715
+        },
+        {
+          "molecule_id": "cross_NOFOAYPPHIUXJR",
+          "panel": "cross",
+          "before": 18,
+          "after": 16,
+          "rr_delta": 0.0069444444444444475
+        },
+        {
+          "molecule_id": "np_RFDAIACWWDREDC",
+          "panel": "np",
+          "before": 3,
+          "after": 2,
+          "rr_delta": 0.16666666666666669
+        }
+      ]
+    },
+    "tri_minus_dual": {
+      "delta_mrr": 0.0018807870370370367,
+      "ci_low": 0.0,
+      "ci_high": 0.0054976851851851844,
+      "improved": 2,
+      "worsened": 0,
+      "unchanged": 46,
+      "top1_identity_changes": 0,
+      "panel_delta_mrr": {
+        "np": 0.0,
+        "cross": 0.0037615740740740734
+      },
+      "np_share_of_net_gain": 0.0,
+      "two_largest_positive_changes_share_of_net_gain": 1.0,
+      "changed": [
+        {
+          "molecule_id": "cross_NOFOAYPPHIUXJR",
+          "panel": "cross",
+          "before": 18,
+          "after": 16,
+          "rr_delta": 0.0069444444444444475
+        },
+        {
+          "molecule_id": "cross_VXVNYCRICCVPTD",
+          "panel": "cross",
+          "before": 4,
+          "after": 3,
+          "rr_delta": 0.08333333333333331
+        }
+      ]
+    }
+  },
+  "input_report_sha256": "2f599007f56abe7ed94393f18d96b5664447894c4e7c53e2f449e248affc76fd",
+  "input_receipt_sha256": "4ba7beb4b9db2b6c4e99ae8fe1f7ff9e52bcafc38b2d437aa63718f4c90fd7e6",
+  "scoring_layer": "CUSTOM consensus before physical/merge/final prior; not complete V56/V30 output",
+  "scope": "Fixed-candidate reference-isolated diagnostic with known full-refit pretrained exposure; not clean CV.",
+  "interpretation": [
+    "Tri has3 improved truth ranks and0 worsened; gains are concentrated in3 of48 molecules.",
+    "A bootstrap lower endpoint exactly zero is not a strictly positive effect; sparse changes produce zero-gain resamples.",
+    "NP gain is one molecule and cross gain two, not broad replication.",
+    "This is the CUSTOM neural consensus layer with known full-refit exposure, not full V56/V30 or a leaderboard gain.",
+    "Paired evaluation does not cancel different degrees of memorization from full-refit pretrained models.",
+    "Tri versus dual replaces half of the v2 mixture weight with v4; it is a recipe change, not an isolated v4 causal effect."
+  ],
+  "full_new_baseline_reproduced": false,
+  "public_leaderboard_delta_estimated": false,
+  "model_checkpoint_sha256": {
+    "public": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642",
+    "v2": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46",
+    "v4": "10565a0d8c2c1cc903882ff7ba2a9b7b994ae169228bf0c9b6c4ae055ff4ec51"
+  }
+}

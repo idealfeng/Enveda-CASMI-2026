@@ -1,0 +1,218 @@
+[
+  {
+    "ref": "sanpier/catalogue-experiment-saner",
+    "files": [
+      {
+        "name": "catalogue_experiment/calibration_grid.csv",
+        "total_bytes": 440
+      },
+      {
+        "name": "catalogue_experiment/catalogue_audit.json",
+        "total_bytes": 592
+      },
+      {
+        "name": "catalogue_experiment/combiner_all.pkl",
+        "total_bytes": 121163
+      },
+      {
+        "name": "catalogue_experiment/combiner_no_neural.pkl",
+        "total_bytes": 109017
+      },
+      {
+        "name": "catalogue_experiment/engine2_coverage_audit.csv",
+        "total_bytes": 88
+      },
+      {
+        "name": "catalogue_experiment/feature_schema.json",
+        "total_bytes": 987
+      },
+      {
+        "name": "catalogue_experiment/labelled_candidate_scores.parquet",
+        "total_bytes": 347698
+      },
+      {
+        "name": "catalogue_experiment/learned.py",
+        "total_bytes": 6037
+      },
+      {
+        "name": "catalogue_experiment/paired_comparisons.csv",
+        "total_bytes": 915
+      },
+      {
+        "name": "catalogue_experiment/panel_audit.json",
+        "total_bytes": 701
+      },
+      {
+        "name": "catalogue_experiment/per_query_results.csv",
+        "total_bytes": 28354
+      },
+      {
+        "name": "catalogue_experiment/ranking.py",
+        "total_bytes": 4133
+      },
+      {
+        "name": "catalogue_experiment/ranking_summary.csv",
+        "total_bytes": 1119
+      },
+      {
+        "name": "catalogue_experiment/replay_contract.json",
+        "total_bytes": 1994
+      },
+      {
+        "name": "catalogue_experiment/report.json",
+        "total_bytes": 870
+      },
+      {
+        "name": "catalogue_experiment/source_coverage.csv",
+        "total_bytes": 1449
+      },
+      {
+        "name": "catalogue_replay_checkpoint/all_features.parquet",
+        "total_bytes": 255450
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_000/DONE.json",
+        "total_bytes": 2829
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_000/REPLAY.json",
+        "total_bytes": 2546
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_000/catalogue_audit.json",
+        "total_bytes": 273
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_000/effective_query_spectra.parquet",
+        "total_bytes": 1337151
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_000/engine2_coverage.json",
+        "total_bytes": 102
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_000/engine2_coverage_audit.csv",
+        "total_bytes": 88
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_000/execution_receipt.json",
+        "total_bytes": 543
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_000/features.parquet",
+        "total_bytes": 131437
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_000/features.parquet.errors.json",
+        "total_bytes": 2
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_000/frozen_candidate_evidence.parquet",
+        "total_bytes": 95944
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_000/pubchem_promotion_audit.csv",
+        "total_bytes": 10380
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_001/DONE.json",
+        "total_bytes": 2829
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_001/REPLAY.json",
+        "total_bytes": 2546
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_001/catalogue_audit.json",
+        "total_bytes": 273
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_001/effective_query_spectra.parquet",
+        "total_bytes": 1406407
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_001/engine2_coverage.json",
+        "total_bytes": 102
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_001/engine2_coverage_audit.csv",
+        "total_bytes": 88
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_001/execution_receipt.json",
+        "total_bytes": 543
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_001/features.parquet",
+        "total_bytes": 134658
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_001/features.parquet.errors.json",
+        "total_bytes": 2
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_001/frozen_candidate_evidence.parquet",
+        "total_bytes": 98657
+      },
+      {
+        "name": "catalogue_replay_checkpoint/batch_001/pubchem_promotion_audit.csv",
+        "total_bytes": 10705
+      },
+      {
+        "name": "catalogue_replay_checkpoint/contract.json",
+        "total_bytes": 1994
+      },
+      {
+        "name": "catalogue_replay_checkpoint/panel/READY.json",
+        "total_bytes": 479
+      },
+      {
+        "name": "catalogue_replay_checkpoint/panel/identity_map.json",
+        "total_bytes": 18702350
+      },
+      {
+        "name": "catalogue_replay_checkpoint/panel/labels.parquet",
+        "total_bytes": 6508
+      },
+      {
+        "name": "catalogue_replay_checkpoint/panel/panel_audit.json",
+        "total_bytes": 701
+      },
+      {
+        "name": "catalogue_replay_checkpoint/panel/sample_submission.csv",
+        "total_bytes": 3259
+      },
+      {
+        "name": "catalogue_replay_checkpoint/panel/test.parquet",
+        "total_bytes": 2741202
+      },
+      {
+        "name": "catalogue_replay_checkpoint/run_status.json",
+        "total_bytes": 186
+      }
+    ],
+    "next_page_token_present": false
+  },
+  {
+    "ref": "metric/rdkit-2026-3-3-wheel",
+    "files": [
+      {
+        "name": "rdkit-2026.3.3-cp310-cp310-manylinux_2_28_x86_64.whl",
+        "total_bytes": 37258660
+      },
+      {
+        "name": "rdkit-2026.3.3-cp311-cp311-manylinux_2_28_x86_64.whl",
+        "total_bytes": 37257559
+      },
+      {
+        "name": "rdkit-2026.3.3-cp312-cp312-manylinux_2_28_x86_64.whl",
+        "total_bytes": 37188323
+      },
+      {
+        "name": "rdkit-2026.3.3-cp313-cp313-manylinux_2_28_x86_64.whl",
+        "total_bytes": 37187145
+      }
+    ],
+    "next_page_token_present": false
+  }
+]

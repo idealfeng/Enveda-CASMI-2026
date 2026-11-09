@@ -1,0 +1,10 @@
+{
+  "model_path": "scripts/isomer_residual_head_20261109.py",
+  "model_sha256": "894e000d85bd26d4845a7404782f38a8952955c77c4e0ee055b07542a0f7a18d",
+  "head_config": {"embedding": 192, "hidden": 64, "residual_bound": 0.5},
+  "method": "fixed pretrained mean aggregation plus bounded isomer-only trained residual; equal two seeds",
+  "heads": [
+    {"path": "runs/isomer_head_20261109/head_seed20261109_step2500.pt", "sha256": "47fdbb171bf54f6a25fc7d720fc28e14e5c915eccbc585dde66b7c7b68db42eb", "seed": 20261109},
+    {"path": "runs/isomer_head_20261109/head_seed20261110_step2500.pt", "sha256": "4c020ea62400188c273fb2bf29fc5187d6553a54e784dd26882291bd2f0aa4ca", "seed": 20261110}
+  ]
+}

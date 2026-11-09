@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "branch": "mass_gl_na",
+  "mode": "fast_static",
+  "recipe_sha256": "0e328c2d4df45ac3253fdcb47d1987a6da58dc99b981f5b9d58a1bb2aa140776",
+  "checks": {
+    "original_mass_observer": true,
+    "explicit_runtime_adapter": true,
+    "original_frozen_source_pin": true,
+    "original_physical_source_pin": true,
+    "fast_static_explicit": true
+  },
+  "component": {
+    "status": "deferred_hidden_full",
+    "visible_model_executed": false
+  }
+}

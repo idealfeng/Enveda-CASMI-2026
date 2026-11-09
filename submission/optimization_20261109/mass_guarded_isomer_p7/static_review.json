@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-mass-guarded-isomer-p7-1109",
+  "version": 1,
+  "notebook_sha256": "0ab4a66896ad364e99fe8db2c234e13dc0622085606313a10fccf5c685b88b23",
+  "checks": {
+    "exact_original_cells": true,
+    "tail_after_original_audit": true,
+    "explicit_protected_prefix": true,
+    "same_formula_original_slots": true,
+    "original_scorer_and_v2_pin": true,
+    "payloads_pinned": true,
+    "scored_output_reconstruction_observed": true,
+    "no_na_component": true,
+    "global_failure_removes_final_csv": true,
+    "dynamic_hidden_size": true,
+    "all_code_compiles": true,
+    "private_offline": true
+  }
+}

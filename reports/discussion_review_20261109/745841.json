@@ -1,0 +1,66 @@
+{
+  "id": 745841,
+  "read_only": true,
+  "checked_at_utc": "2026-11-09T07:15:00.355732+00:00",
+  "topic": {
+    "id": 745841,
+    "title": "Are non-commercial public datasets/weights allowed in a prize-eligible solution?",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745841",
+    "postDate": "2026-10-04T19:35:39.164Z",
+    "authorName": "Farah Mohamed Ahmed",
+    "authorUrl": "https://www.kaggle.com/farahmohamedahmed",
+    "commentCount": 7,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>For prize eligibility, are public Kaggle datasets and model weights under non-commercial licenses (for example GLACIER weights, ICEBERG weights, and ChEBI/LIPID MAPS candidates under CC BY-NC-SA) allowed in a prize-eligible solution? Do such inputs only affect prize eligibility, or also leaderboard rank and medals? Thank you.</p>"
+  },
+  "comments": [
+    {
+      "id": 3533320,
+      "authorName": "Marco Pereira",
+      "postDate": "2026-10-05T21:22:19.930Z",
+      "content": "<p>Question on prize eligibility for redistributed artifacts trained on the Competition Data</p>\n<p>Following up on the points raised in 745072 and 745615, which are still unanswered. We've now verified most of this ourselves and only one question remains.</p>\n<p>What we established (so the question can be answered narrowly):</p>\n<p>The spectral models we use are the MassSpecGym-trained ICEBERG / GLACIER checkpoints from ms-pred (sha256 5a47cecca707d3ab…), which you approved by name in topic 744338. No NIST or METLIN data is involved — we verified this at the artifact level, not from the licence label.</p>\n<p>Several public Kaggle Datasets we depend on are trained on train.parquet and redistributed under the licence label \"Other (non-commercial)\". You stated in topic 742193 that models trained on train.parquet are fine for solutions.</p>\n<p>The question we cannot resolve from the published rules:</p>\n<p>Does the non-commercial licence of train.parquet make such a redistributed artifact prize-ineligible — or does it only restrict commercial use, leaving the solution eligible for the leaderboard, medals and prizes?</p>\n<p>Related, if you can confirm: the DreaMS encoder (MIT / CC-BY-4.0, pre-trained on GeMS/GNPS, NIST used only for evaluation) sits in our inference path. That looks analogous to CFM-ID 4, which you approved in 743774 — but DreaMS itself remains unconfirmed (745604).</p>\n<p>We're asking now because Rule 6 (External Data and Tools) states that external data and models are acceptable unless specifically prohibited, and clause 6(a)(3) contemplates inputs with incompatible licences — so we want to confirm the intended reading before finalising rather than after.</p>\n<p>Thank you.</p>",
+      "replies": [
+        {
+          "id": 3533343,
+          "authorName": "David Healey",
+          "postDate": "2026-10-05T22:41:18.727Z",
+          "content": "<p>Thanks for asking for clarification. \nGLACIER/ICEBERG, DreaMS and ChEBI/LIPID MAPS are all fine.  </p>\n<p>Regarding leaderboard rank and medals, I will make a broader announcement but I believe the compliance check at the end can remove teams from the leaderboard entirely, not just disqualify from prizes. </p>\n<p>Regarding the training data: the train.parquet file can be treated effectively as open-source and any model trained on it is fine, redistributed artifacts are fine.  The noncommercial provision of the Kaggle data license is primarily to protect the test data; the training data is already a compilation of open source libraries. </p>",
+          "replies": [
+            {
+              "id": 3533910,
+              "authorName": "Shalini S",
+              "postDate": "2026-10-07T02:10:25.010Z",
+              "content": "<p>Hi David, thank you for the clarification that train.parquet \"can be treated effectively as open-source and any model trained on it is fine, redistributed artifacts are fine.\"</p>\n<p>I'd like to confirm how that applies to the public datasets asked about here: ahmedberatozer/casmi26-v4b-models, -v3-models, -v2-pool and -fpnet-full1. As far as we can tell, they contain models and candidate tables derived only from train.parquet and COCONUT (CC BY 4.0). Their Kaggle licence field is \"Other\", and the training scripts for some of the weights are not published.</p>\n<p>Could a prize-eligible solution use these artifacts as published, treating them like other public pretrained models (as with ICEBERG/GLACIER)? We would deliver our own code, cite the datasets, and identify the components we did not retrain ourselves. Or does the winner obligation to deliver training code mean the submitting team must retrain those weights from train.parquet?</p>\n<p>Thank you!</p>"
+            },
+            {
+              "id": 3538174,
+              "authorName": "Marie Killian",
+              "postDate": "2026-10-13T19:40:36.623Z",
+              "content": "<p><a href=\"/shals14\" target=\"_blank\">@shals14</a> Thank you for asking for clarification!</p>\n<p>A winning team must provide the training code actually used to produce the weights in the solution, using permitted training data (such as train.parquet). The team does not need to retrain the weights itself.</p>\n<p>A winning solution can include third party weights, including those shared by other competitors, provided the team supplies the training code and access to the permitted data needed to reproduce them.</p>\n<p>If the training code needed to reproduce those weights is unavailable, the weights would not meet the reproducibility requirement for a prize-eligible solution. </p>"
+            },
+            {
+              "id": 3538937,
+              "authorName": "XZXZZX",
+              "postDate": "2026-10-15T02:34:02.737Z",
+              "content": "<p>Hi hosts, thank you for clarifying that compliance checks may cover all submissions.</p>\n<p>Could you clarify how this applies to earlier submissions that a team has since abandoned?</p>\n<p>Suppose those submissions used publicly shared third-party weights, but neither final selected submission uses those weights, their predictions, or models derived from them. If the original training code for the abandoned weights is unavailable:</p>\n<ol>\n<li><p>Could those earlier submissions alone affect the team's final leaderboard position, medals, or prize eligibility, even when both final selected solutions are fully reproducible and compliant?</p></li>\n<li><p>If so, what corrective action can the team take before the deadline?</p></li>\n</ol>\n<p>Thank you!</p>"
+            },
+            {
+              "id": 3540007,
+              "authorName": "Marie Killian",
+              "postDate": "2026-10-16T22:22:39.297Z",
+              "content": "<p>At this point in the competition, prior submissions that are not fully reproducible will not be eligible to win but will not disqualify your future submissions, provided those submissions are fully reproducible and eligible.</p>"
+            },
+            {
+              "id": 3540114,
+              "authorName": "XZXZZX",
+              "postDate": "2026-10-17T04:22:24.210Z",
+              "content": "<p>Thank you for the clarification! That answers my question and clears up my concerns. I really appreciate your help!</p>"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "comments_truncated": false
+}

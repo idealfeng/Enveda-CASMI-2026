@@ -1,0 +1,20 @@
+A meta-level reading of the private test set
+
+https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/755039
+
+Author: k256.dev
+
+Posted: 2026-11-02T17:21:15.410Z
+
+Since Enveda is a company that discovers new natural products in plant extracts and develops them into drugs, it may well be that class 3 molecules are concentrated in the private test set. This is only a guess, and I have no data that confirms it, but it seems like the natural way to read the setup. The fact that the public/private split is 31:69 rather than a round number is one more thing that makes me suspect this.
+
+(The organizers have said both sets contain members of all three classes, so my guess is only about the proportions, not about any class being absent from either set.)
+
+The organizers are 99% unlikely to answer this, either during the competition or after it ends, so please don't ask them about it. Just take it as idle speculation. But if this is actually the case, the leaderboard is going to get seriously shaken up.
+
+If anyone knows of past competitions where the public and private distributions seem to have been made different on purpose, I'd love to hear about them.
+
+
+Comment: nouvya
+
+That is an interesting point of view!

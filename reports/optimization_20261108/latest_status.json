@@ -1,0 +1,77 @@
+{
+  "status": "refreshed_read_only",
+  "checked_at_utc": "2026-11-09T07:08:11.402560+00:00",
+  "baseline_public_score": 0.481,
+  "branches": [
+    {
+      "branch": "mass_no_np_bonus",
+      "target": "stormseye/casmi26-mass-no-np-bonus-1108",
+      "actual_target": "stormseye/casmi26-mass-no-np-bonus-1108",
+      "submission_ref": 58119805,
+      "status": "COMPLETE",
+      "public_score": 0.481,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-09T07:08:07.402817+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "mass_gl_na",
+      "target": "stormseye/casmi26-mass-gl-na-1108",
+      "actual_target": "stormseye/casmi26-mass-gl-na-1108",
+      "submission_ref": 58120288,
+      "status": "COMPLETE",
+      "public_score": null,
+      "public_score_available": false,
+      "checked_at_utc": "2026-11-09T07:08:08.233152+00:00",
+      "error_description_present": true
+    },
+    {
+      "branch": "mass_head_seed0",
+      "target": "stormseye/casmi26-mass-head-seed0-1108",
+      "actual_target": "stormseye/casmi26-mass-head-seed0-1108",
+      "submission_ref": 58120385,
+      "status": "COMPLETE",
+      "public_score": 0.465,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-09T07:08:09.036941+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "mass_head_seed1",
+      "target": "stormseye/casmi26-mass-head-seed1-1108",
+      "actual_target": "stormseye/casmi26-mass-head-seed1-1108",
+      "submission_ref": 58120395,
+      "status": "COMPLETE",
+      "public_score": 0.47,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-09T07:08:09.972634+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "mass_guarded_head_tail_1108",
+      "target": "stormseye/casmi26-mass-guarded-head-tail-1108",
+      "actual_target": "stormseye/casmi26-mass-guarded-head-tail-1108",
+      "submission_ref": 58129661,
+      "status": "COMPLETE",
+      "public_score": 0.482,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-09T07:08:11.400554+00:00",
+      "error_description_present": false
+    }
+  ],
+  "best_this_batch": {
+    "branch": "mass_guarded_head_tail_1108",
+    "actual_target": "stormseye/casmi26-mass-guarded-head-tail-1108",
+    "submission_ref": 58129661,
+    "public_score": 0.482
+  },
+  "best_overall_public_score": 0.482,
+  "all_branches_terminal": true,
+  "read_only": true,
+  "new_run_or_submission_performed": false,
+  "allowance": {
+    "num_today": 0,
+    "num_total": 16,
+    "num_allowed_now": 5
+  }
+}

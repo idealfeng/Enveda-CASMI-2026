@@ -1,0 +1,177 @@
+{
+  "topics": [
+    {
+      "id": 745841,
+      "title": "Are non-commercial public datasets/weights allowed in a prize-eligible solution?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745841",
+      "commentCount": 7,
+      "postDate": "2026-10-04T19:35:39.164Z",
+      "lastCommentPostDate": "2026-10-17T04:22:24.210Z"
+    },
+    {
+      "id": 745832,
+      "title": "Eligibility question about external pretrained models",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745832",
+      "commentCount": 6,
+      "postDate": "2026-10-04T18:00:36.989Z",
+      "lastCommentPostDate": "2026-10-14T18:47:20.160Z"
+    },
+    {
+      "id": 745758,
+      "title": "A question about the test set's composition rather than the metric: the assumption every class-3 estimate is linear in",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745758",
+      "commentCount": 1,
+      "votes": 1,
+      "postDate": "2026-10-04T07:32:28.471Z",
+      "lastCommentPostDate": "2026-10-05T21:59:42.670Z"
+    },
+    {
+      "id": 745715,
+      "title": "Visible test.parquet molecule_ids appear to leak class-1 answers",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745715",
+      "commentCount": 11,
+      "votes": 22,
+      "postDate": "2026-10-03T23:07:17.643Z",
+      "lastCommentPostDate": "2026-10-09T05:33:51.066Z"
+    },
+    {
+      "id": 745645,
+      "title": "Getting started",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745645",
+      "commentCount": 1,
+      "postDate": "2026-10-03T13:31:51.369Z",
+      "lastCommentPostDate": "2026-10-03T13:59:20.463Z"
+    },
+    {
+      "id": 745615,
+      "title": "Non-commercial inputs: prize-ineligible only, or also excluded from the final leaderboard and medals?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745615",
+      "commentCount": 1,
+      "votes": 1,
+      "postDate": "2026-10-03T12:07:45.464Z",
+      "lastCommentPostDate": "2026-10-13T20:13:59.406Z"
+    },
+    {
+      "id": 745604,
+      "title": "Question on open-weight models: DreaMS",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745604",
+      "commentCount": 2,
+      "postDate": "2026-10-03T11:18:16.629Z",
+      "lastCommentPostDate": "2026-10-05T22:41:54.620Z"
+    },
+    {
+      "id": 745468,
+      "title": "Problem is in Isomer identification + Off-the-shelf LLM's are really bad at this task",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745468",
+      "commentCount": 1,
+      "votes": 8,
+      "postDate": "2026-10-03T06:06:18.368Z",
+      "lastCommentPostDate": "2026-10-03T14:54:02.536Z"
+    },
+    {
+      "id": 745228,
+      "title": "Newer public releases of GNPS / MassBank / MoNA: allowed as external data if we keep only CC0 / CC BY records?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745228",
+      "commentCount": 1,
+      "votes": 2,
+      "postDate": "2026-10-02T19:06:33.737Z",
+      "lastCommentPostDate": "2026-10-05T19:27:53.213Z"
+    },
+    {
+      "id": 745148,
+      "title": "Enveda-180 Zenodo release (21346580) — 816 structures absent from train.parquet: hidden test, or filtered out?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745148",
+      "commentCount": 1,
+      "votes": 3,
+      "postDate": "2026-10-02T14:12:33.093Z",
+      "lastCommentPostDate": "2026-10-05T19:27:10.090Z"
+    },
+    {
+      "id": 745134,
+      "title": "ICEBERG PubChem atlas (predicted spectra from a NIST'23-trained model) — usable as a spectral library?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745134",
+      "commentCount": 7,
+      "postDate": "2026-10-02T12:38:40.045Z",
+      "lastCommentPostDate": "2026-11-01T11:03:48.450Z"
+    },
+    {
+      "id": 745103,
+      "title": "Question on leaderboard hidden data",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745103",
+      "postDate": "2026-10-02T09:08:43.813Z",
+      "lastCommentPostDate": "2026-10-02T09:08:43.813Z"
+    },
+    {
+      "id": 745072,
+      "title": "Prize eligibility: code and weights shared in public Kaggle datasets with an \"Other (non-commercial)\" licence",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745072",
+      "commentCount": 24,
+      "votes": 8,
+      "postDate": "2026-10-02T03:27:01.940Z",
+      "lastCommentPostDate": "2026-10-27T21:23:50.623Z"
+    },
+    {
+      "id": 745070,
+      "title": "Claude COT gives you a clue on how to get the solution",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745070",
+      "commentCount": 7,
+      "votes": 15,
+      "postDate": "2026-10-02T02:56:25.452Z",
+      "lastCommentPostDate": "2026-10-04T16:32:12.683Z"
+    },
+    {
+      "id": 745056,
+      "title": "Gemini learning ",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745056",
+      "commentCount": 4,
+      "postDate": "2026-10-02T00:11:29.789Z",
+      "lastCommentPostDate": "2026-10-02T14:43:09.713Z"
+    },
+    {
+      "id": 745029,
+      "title": "Understanding the actual task ",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745029",
+      "commentCount": 3,
+      "votes": 25,
+      "postDate": "2026-10-01T20:43:51.492Z",
+      "lastCommentPostDate": "2026-10-02T02:56:01.063Z"
+    },
+    {
+      "id": 744893,
+      "title": "DreaMS : structure from spectrum retrival demo",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/744893",
+      "commentCount": 3,
+      "votes": 14,
+      "postDate": "2026-10-01T09:41:35.290Z",
+      "lastCommentPostDate": "2026-10-05T15:06:17.993Z"
+    },
+    {
+      "id": 744612,
+      "title": "Team making ",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/744612",
+      "commentCount": 3,
+      "votes": -4,
+      "postDate": "2026-09-30T14:30:58.988Z",
+      "lastCommentPostDate": "2026-10-01T13:45:34.760Z"
+    },
+    {
+      "id": 744556,
+      "title": "Are solution SMILES stereo-stripped like train normalized_smiles?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/744556",
+      "commentCount": 1,
+      "votes": 1,
+      "postDate": "2026-09-30T09:13:42.017Z",
+      "lastCommentPostDate": "2026-09-30T14:59:32.040Z"
+    },
+    {
+      "id": 744470,
+      "title": "Chasing medals with price ineligible sources",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/744470",
+      "commentCount": 16,
+      "votes": 18,
+      "postDate": "2026-09-29T22:59:36.707Z",
+      "lastCommentPostDate": "2026-10-16T07:10:40.266Z"
+    }
+  ],
+  "totalCount": 151
+}

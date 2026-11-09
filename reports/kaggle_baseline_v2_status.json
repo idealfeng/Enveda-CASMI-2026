@@ -1,0 +1,43 @@
+{
+  "checked_at_utc": "2026-11-05T11:09:00.115034+00:00",
+  "target": "stormseye/casmi26-flex-v56-baseline",
+  "version": 2,
+  "requested_kernel_ref": "stormseye/casmi26-flex-v56-baseline/2",
+  "read_only": true,
+  "save_run_submit_or_restart_performed": false,
+  "accepted_save_request_utc": "2026-11-05T07:11:15.901258+00:00",
+  "execution_kind": "Private Save&Run against public visible inputs; no competition hidden rerun requested.",
+  "last_run_time_used_as_execution_evidence": false,
+  "credential_values_headers_and_signed_urls_persisted": false,
+  "session_status": "COMPLETE",
+  "failure_message": "",
+  "status_read_success": true,
+  "log_read_success": true,
+  "log_bytes": 11058,
+  "log_sha256": "9723a92091983a262be3cbb59d43ef7261e723bee8d831e75633bd8cdda0480f",
+  "new_log_content": true,
+  "new_log_snapshot": "reports\\kaggle_baseline_v2_logs\\20261105T110900115034Z.log",
+  "full_log_saved": true,
+  "latest_log_path": "reports\\kaggle_baseline_v2_logs\\latest.log",
+  "log_markers": {
+    "device_mentions": [],
+    "manifest_mentions": [],
+    "execution_mode_mentions": [],
+    "stage_mentions": [
+      ",{\"stream_name\":\"stdout\",\"time\":19.255234773,\"data\":\"\u25b6 Public 0.465 pipeline\\n\"}",
+      ",{\"stream_name\":\"stdout\",\"time\":681.891282616,\"data\":\"  \u2713   11.0 min   Engine 2 \u00b7 two rankers                        614 s\\n\"}",
+      ",{\"stream_name\":\"stdout\",\"time\":785.48751876,\"data\":\"  \u2713   12.8 min   PubChem channel                               104 s\\n\"}",
+      ",{\"stream_name\":\"stdout\",\"time\":873.907278194,\"data\":\"  \u2713   14.2 min   Engine 1 \u00b7 library, pool, spectrum cache       88 s\\n\"}",
+      ",{\"stream_name\":\"stdout\",\"time\":911.929702723,\"data\":\"  \u2713   14.9 min   Engine 1 \u00b7 models and rankers                  38 s\\n\"}",
+      ",{\"stream_name\":\"stdout\",\"time\":963.244261911,\"data\":\"  \u2713   15.7 min   Engine 1 \u00b7 candidate lists                     51 s\\n\"}",
+      ",{\"stream_name\":\"stdout\",\"time\":1249.908703112,\"data\":\"SUBMISSION READY: /kaggle/working/submission.csv rows 400 control CUSTOM\\n\"}",
+      ",{\"stream_name\":\"stdout\",\"time\":1249.982625497,\"data\":\"SUBMISSION READY: /kaggle/working/submission.csv molecules 400 provenance {'status': 'disabled in this experiment'}\\n\"}",
+      ",{\"stream_name\":\"stdout\",\"time\":1250.069722812,\"data\":\"SUBMISSION READY: /kaggle/working/submission.csv molecules 400 MERGE {\\\"status\\\": \\\"applied\\\", \\\"rows\\\": 400, \\\"merged\\\": 400, \\\"leader_moves\\\": 0, \\\"skipped\\\": {}, \\\"skipped_leader_moves\\\": 0, \\\"output_equals_custom\\\": true, \\\"output_sha256\\\": \\\"39309f6c46d25e9c934dad8871d211ad8afebda07f4441c596714cbe7b6fd9b2\\\"}\\n\"}",
+      ",{\"stream_name\":\"stdout\",\"time\":1255.668313283,\"data\":\"SUBMISSION READY /kaggle/working/submission.csv FINAL LAYER {\\\"status\\\": \\\"applied\\\", \\\"input_sha256\\\": \\\"39309f6c46d25e9c934dad8871d211ad8afebda07f4441c596714cbe7b6fd9b2\\\", \\\"prior_file\\\": \\\"/kaggle/input/datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pool_popularity.csv\\\", \\\"rows\\\": 400, \\\"reordered\\\": 12, \\\"pinned\\\": 0, \\\"dup_removed\\\": 0, \\\"outsider_fills\\\": 0, \\\"top1_changed\\\": 0, \\\"changed_rows\\\": 12, \\\"output_sha256\\\": \\\"d20"
+    ],
+    "error_mentions": []
+  },
+  "state_changed": true,
+  "runtime_hardware_offline_and_mount_versions_verified": false,
+  "verification_note": "Status is queried explicitly for V2. Log mentions are observations, not proof of hardware/offline/mounted asset versions until the actual runtime report is audited. Visible-mode twelve predictions plus 388 CCO rows, if observed, are not hidden400 inference."
+}

@@ -1,0 +1,97 @@
+{
+  "checked_at_utc": "2026-11-06T02:14:49.103364+00:00",
+  "status": "static_review_complete_payloads_unavailable",
+  "notebooks": {
+    "casmi26-0-482": {
+      "version": 2,
+      "title": "casmi26-0.482",
+      "lastRunTime": "2026-11-03T02:09:35.3795743Z",
+      "lastRunTime_is_not_publication_date": true,
+      "source_sha256": "1d51ef0cbcafc00893a4d7f51142c0e712f1c14a0113366626f96b87bd2a10c6",
+      "blank_dataset_refs": 2,
+      "public_dataset_refs": [
+        "sanpier/casmi-spectrum-model-v1",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "sanpier/catalogue-experiment-saner"
+      ],
+      "cells": 27,
+      "constants": {
+        "MODEL_PINS": {
+          "features.py": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+          "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+          "config.json": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+          "final_model.pt": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642"
+        },
+        "FROZEN_SHA256": "aa1a43cd050f5428cad36a82143555422bd897d1ae48ebfc733f90ce67b88743"
+      },
+      "official_numeric_score_independently_verified": false
+    },
+    "happy-to-make-the-dataset-public-if-it-helps": {
+      "version": 5,
+      "title": "Happy to make the dataset public if it helps!\u2b50\u2b50\u2b50",
+      "lastRunTime": "2026-11-03T02:09:37.5840164Z",
+      "lastRunTime_is_not_publication_date": true,
+      "source_sha256": "b911c004501083dc83bf4ac06ba04c5e706aff95c22903c6e1a3c72fd8251576",
+      "blank_dataset_refs": 1,
+      "public_dataset_refs": [
+        "sanpier/casmi-spectrum-model-v1",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "sanpier/catalogue-experiment-saner"
+      ],
+      "cells": 26,
+      "constants": {
+        "MODEL_PINS": {
+          "features.py": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+          "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+          "config.json": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+          "final_model.pt": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642"
+        },
+        "FROZEN_SHA256": "aa1a43cd050f5428cad36a82143555422bd897d1ae48ebfc733f90ce67b88743"
+      },
+      "official_numeric_score_independently_verified": false
+    }
+  },
+  "models_or_dataset_payloads_downloaded": false,
+  "source_executed": false,
+  "public_author_dataset_inventory": {
+    "method": "anonymous GET /api/v1/datasets/list?user=heliosli&pageSize=100",
+    "returned_count": 9,
+    "complete_first_page": true,
+    "casmi_refs_found": []
+  },
+  "explicit_extlib_metadata": {
+    "ref": "heliosli/casmi26-extlib-v1",
+    "http_status": 403
+  },
+  "main_additions": {
+    "rr3": {
+      "required": "rr3_config.json + rr_deploy.py + rr_v3.py + encoder + checkpoint + selftest",
+      "missing_config_behavior": "Skip overlay; leave submission unchanged",
+      "selftest": "Three examples with offline-score correlation >=0.999",
+      "mechanism": "Source describes 1?2 cut fragment graph/transformer reranker; FREEZE mode leaves training-structure candidates in their slots and protects strong library hits.",
+      "architecture_and_checkpoint_training_independently_audited": false
+    },
+    "extlib": {
+      "required": "extlib_config.json + hash-pinned reference parquet + selftest",
+      "source_claimed_sources": [
+        "MSnLib 2026-07",
+        "GNPS 2026-10",
+        "MassBank 2026.03"
+      ],
+      "source_claimed_scope": "Structures not in train.parquet",
+      "mechanism": "Same-mode precursor window, sqrt-intensity greedy cosine, matched-peak threshold, high-confidence hit moved/inserted at rank1 unless existing library match is strong.",
+      "missing_config_behavior": "Skip overlay; leave submission unchanged",
+      "host_permission_claim": "Source refers to discussion750684, but original host text could not be retrieved in this review.",
+      "raw_SMILES_only_duplicate_handling": true
+    }
+  },
+  "conclusion": "The public source contains meaningful new model/reference overlays, but current anonymous evidence does not establish complete reusable public payloads or the numeric0.482 score. Do not call a bare rerun an exact0.482 reproduction."
+}

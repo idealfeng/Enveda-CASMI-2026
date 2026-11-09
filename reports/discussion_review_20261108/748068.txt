@@ -1,0 +1,86 @@
+The public notebooks' 0.43+ LB has never been validated by CV
+
+https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/748068
+
+Author: Bull
+
+Posted: 2026-10-10T13:23:11.653Z
+
+The public notebooks' 0.43+ LB has never been validated by CV
+
+The public notebooks have climbed from 0.373 to 0.436 on the LB. But none of that gain has been confirmed by cross-validation (CV).
+
+Ahmed Berat Özer's early versions do describe out-of-fold validation. The components added after them show no CV record: two-engine fusion, the popularity prior, PubChem candidate promotion, dropping ICEBERG, tail backfilling and more. Each of them was accepted or rejected on the public LB score alone. We read about ten of the main notebooks and found no exception.
+
+The public LB alone cannot tell improvement from chance
+
+Without CV, the public LB is the only yardstick. Yet it scores only a part of the test set: about 130 molecules, by participants' estimates.
+
+With only 130 molecules, one molecule moving from "outside the top 25" to "rank 1" raises the score by about 0.008. That is the typical size of a single step in the public notebooks. On the LB alone, "+0.008" cannot be told apart from "one more molecule happened to hit."
+
+The training data, by contrast, supports far more validation data. In our CV, we hold out 425 structures from the training data for cross-validation, plus a separate set of 170 structures kept back for a final check. We draw spectra three times per structure, giving about 2,900 queries. These are simulated queries, under different conditions from the real test. Still, we have more than 3x the public LB's molecules by structure count, and more than 20x by query count.
+
+
+
+
+
+Public LB
+Our CV
+
+
+
+
+Molecules (structures)
+~130 (estimated)
+425 + 170 for a final check
+
+
+Queries
+~130
+~2,900
+
+
+Score change from one structure hit/miss
+~0.008
+~0.002
+
+
+Which molecules changed rank
+Unknown (only a total score)
+Known (with confidence intervals)
+
+
+
+So the public lineage has picked its improvements by looking only at a 130-molecule LB, when this much data was available.
+
+On top of that, many people submit slightly different versions, and whichever scores highest becomes the next starting point. Repeat this, and gains that came from luck pile up unchecked. Those gains will vanish on the private LB, which scores the remaining molecules.
+
+What is already happening
+
+
+The same component has been judged both ways. ICEBERG (a component that re-ranks candidates using predicted spectra) was adopted in an earlier version as "+0.013." A later version dropped it after a single comparison: "with ICEBERG 0.402, without 0.417." Nobody has checked which result is right.
+
+Thresholds have no stated basis. The only justification given for the rel > 250 condition, which promotes a PubChem candidate to rank 1, is the comment # Skomuro LB 0.403 Rule.
+
+The pipeline cannot be validated as built. The fingerprint model fpnet_full1 was trained on all of the training data. As a result, this pipeline as it stands cannot be validated on held-out training data.
+
+
+Conclusion
+
+The public notebooks' 0.43+ is a number built up without CV support, relying only on a 130-molecule public LB. It may contain lucky upward swings.
+
+Choosing this lineage as-is for a final submission risks a large drop in rank on the private LB.
+
+
+Comment: Aryan Awasthi
+
+Agree, and here’s a concrete case. On my CV a PubChem popularity prior lifted class-2/3 MRR from 0.11 to 0.61 (+0.50); on the public LB the same prior, same model and candidates, is worth +0.075 (0.146 → 0.221). Real, but far smaller.
+
+The cause is the validation molecules themselves. By popularity alone, the answer is #1 in its 10 ppm PubChem window for 67% of enveda-np-examples molecules, but for ~0% of enveda-180 molecules that have no public spectra (top 25: 99% vs 0.7%). Class-2 molecules have no public spectra by definition, so any CV built from library molecules will overrate priors like this.
+
+Notebooks:
+
+
+Validation set: https://www.kaggle.com/code/aryanawasthiteykik/casmi26-validation-that-behaves-like-the-test
+
+Popularity trap: https://www.kaggle.com/code/aryanawasthiteykik/casmi26-the-popularity-prior-trap

@@ -1,0 +1,15 @@
+{
+  "files": [
+    {
+      "name": "casmi_spectrum_model_v1/validation_candidates.npz",
+      "bytes": 1012367,
+      "sha256": "7a29d889e0022f142dab1a441a9c6540637a53a4f36bec57fd6b1f1931af8848",
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\validation_candidates.npz",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/sanpier/casmi-spectrum-model-v1/casmi_spectrum_model_v1%2Fvalidation_candidates.npz?datasetVersionNumber=1",
+      "state": "downloaded",
+      "seconds": 2.84
+    }
+  ]
+}

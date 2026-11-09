@@ -1,0 +1,152 @@
+{
+  "status": "passed",
+  "checks": {
+    "upstream_source_pin": true,
+    "only_three_observation_nodes_added": true,
+    "massbank_casmi_subset_filtered": true,
+    "download_ext_meta.parquet": true,
+    "parquet_magic_ext_meta.parquet": true,
+    "download_ext_mass.parquet": true,
+    "parquet_magic_ext_mass.parquet": true,
+    "download_ext_mz.npy": true,
+    "header_ext_mz.npy": true,
+    "download_ext_in.npy": true,
+    "header_ext_in.npy": true,
+    "download_spectra.parquet": true,
+    "parquet_magic_spectra.parquet": true,
+    "npy_shapes_match": true,
+    "public_alex_extlib_notebook_pin": true,
+    "public_alex_extlib_metadata_pin": true,
+    "public_alex_extlib_recipe_pin": true,
+    "public_alex_extlib_helper_pin": true,
+    "public_alex_extlib_function_pin": true,
+    "public_alex_extlib_exact_constants": true,
+    "public_alex_extlib_datasets_versioned": true,
+    "public_alex_extlib_libraries_attached": true,
+    "public_alex_extlib_private_offline_gpu": true,
+    "public_alex_extlib_all_code_compiles": true,
+    "public_alex_extlib_untouched_upstream_cells": true,
+    "public_alex_extlib_lossless_upstream_installer": true,
+    "public_alex_extlib_public_public_fallback_attachments": true,
+    "public_alex_extlib_public_fallback_failclosed_observer": true,
+    "public_alex_extlib_exact_helper_payload": true,
+    "public_alex_extlib_exact_original_function_payload": true,
+    "public_alex_extlib_outer_global_failclosed": true,
+    "mass_guarded_extlib_notebook_pin": true,
+    "mass_guarded_extlib_metadata_pin": true,
+    "mass_guarded_extlib_recipe_pin": true,
+    "mass_guarded_extlib_helper_pin": true,
+    "mass_guarded_extlib_function_pin": true,
+    "mass_guarded_extlib_exact_constants": true,
+    "mass_guarded_extlib_datasets_versioned": true,
+    "mass_guarded_extlib_libraries_attached": true,
+    "mass_guarded_extlib_private_offline_gpu": true,
+    "mass_guarded_extlib_all_code_compiles": true,
+    "mass_guarded_extlib_exact_all_32_old_cells_retained": true,
+    "mass_guarded_extlib_exact_one_late_cell_appended": true,
+    "mass_guarded_extlib_base_guarded_observer_bound": true,
+    "mass_guarded_extlib_exact_helper_payload": true,
+    "mass_guarded_extlib_exact_original_function_payload": true,
+    "mass_guarded_extlib_outer_global_failclosed": true,
+    "actual_five_file_canary_passed": true,
+    "actual_scores_consumed_independent_reconstruction": true,
+    "actual_final_official_identity_valid": true,
+    "actual_original_control_consumed": true,
+    "actual_final_sha_bound": true,
+    "both_real_reference_sources_loaded": true,
+    "actual_guarded_and_missing_queries_preserved": true
+  },
+  "branches": {
+    "public_alex_extlib": {
+      "checks": {
+        "notebook_pin": true,
+        "metadata_pin": true,
+        "recipe_pin": true,
+        "helper_pin": true,
+        "function_pin": true,
+        "exact_constants": true,
+        "datasets_versioned": true,
+        "libraries_attached": true,
+        "private_offline_gpu": true,
+        "all_code_compiles": true,
+        "untouched_upstream_cells": true,
+        "lossless_upstream_installer": true,
+        "public_public_fallback_attachments": true,
+        "public_fallback_failclosed_observer": true,
+        "exact_helper_payload": true,
+        "exact_original_function_payload": true,
+        "outer_global_failclosed": true
+      },
+      "notebook_sha256": "1838e7c7c07177b7e6976c9b4c1e9c566769b2c88c2a699ce002bffa174dbbee",
+      "helper_sha256": "a31c55a2958139cbeea948ea4d11fa32eb40e3d3d7b0bac157f6d0fdc51025db",
+      "function_sha256": "9ceaa95ddda0fb304758c9acd7dd1f256c528fcb4a8304c0152f8b6d8e3e3e76"
+    },
+    "mass_guarded_extlib": {
+      "checks": {
+        "notebook_pin": true,
+        "metadata_pin": true,
+        "recipe_pin": true,
+        "helper_pin": true,
+        "function_pin": true,
+        "exact_constants": true,
+        "datasets_versioned": true,
+        "libraries_attached": true,
+        "private_offline_gpu": true,
+        "all_code_compiles": true,
+        "exact_all_32_old_cells_retained": true,
+        "exact_one_late_cell_appended": true,
+        "base_guarded_observer_bound": true,
+        "exact_helper_payload": true,
+        "exact_original_function_payload": true,
+        "outer_global_failclosed": true
+      },
+      "notebook_sha256": "2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7",
+      "helper_sha256": "a31c55a2958139cbeea948ea4d11fa32eb40e3d3d7b0bac157f6d0fdc51025db",
+      "function_sha256": "9ceaa95ddda0fb304758c9acd7dd1f256c528fcb4a8304c0152f8b6d8e3e3e76"
+    }
+  },
+  "npy_headers": {
+    "ext_mz.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        200724,
+        128
+      ]
+    },
+    "ext_in.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        200724,
+        128
+      ]
+    }
+  },
+  "real_reference_counts": {
+    "A": 200724,
+    "B": 124160
+  },
+  "real_hits": 3,
+  "accepted_changed_top1": 2,
+  "invalid_proposals_preserved": 1,
+  "observation_math_unchanged": true,
+  "own_public_scores": null,
+  "canary_is_interface_not_efficacy": true,
+  "explicit_adaptations": [
+    "fast-visible skip with required source hashes checked",
+    "three observation calls",
+    "per-query invalid/duplicate official identity proposal guard",
+    "global failure removes final CSV"
+  ],
+  "runtime_edges": [
+    "Missing query spectra keep that control, with no false observed-match record.",
+    "Protected original library>=.90 queries keep control.",
+    "No usable references from either required library is a global failure.",
+    "Missing/hash-mismatched/ambiguous source selection fails closed.",
+    "NaN/nonfinite cosine cannot create a positive match.",
+    "An empty overall control is not a meaningful hidden submission; upstream rejects it rather than silently scoring.",
+    "Public Alex fallback is public/public; no claimed newly trained second encoder.",
+    "Self-match canary validates wiring, not hidden coverage or leaderboard gain."
+  ]
+}

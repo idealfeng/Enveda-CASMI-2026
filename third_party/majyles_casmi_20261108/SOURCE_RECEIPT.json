@@ -1,0 +1,178 @@
+{
+  "source": "https://github.com/Majyles/kaggle-casmi-2026",
+  "commit_sha": "26aa5c6097922fd3fade397ea9d011f909dcb4cc",
+  "tree_sha": "b3b57ce17cbcc29731d0c14252e95e7889d2c21a",
+  "checked_at_utc": "2026-11-07T16:05:43.838367+00:00",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1064,
+      "sha256": "f15b3ed3766a513d11f47e2284cf495e19b3984f2168ee5e98a113397591df59",
+      "git_blob_verified": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 11671,
+      "sha256": "0064ff5ffb6b33bd2f47fad8ccb4e0bb88ff503e4c62c01a85cd4bbf2108fe05",
+      "git_blob_verified": true
+    },
+    {
+      "path": "casmi/__init__.py",
+      "bytes": 2049,
+      "sha256": "8e85627055a8285b298fddf651805b2890c588d1d63c79cb4bed5313ddfecb9d",
+      "git_blob_verified": true
+    },
+    {
+      "path": "casmi/candidates.py",
+      "bytes": 5659,
+      "sha256": "8c386a492f085d24ebbe116910c981ad242d17d8510454abf2c95622fa1000e1",
+      "git_blob_verified": true
+    },
+    {
+      "path": "casmi/chem.py",
+      "bytes": 10259,
+      "sha256": "23e078e0f421970b0630aec1e6eb621abdc0728047a1e6cf8430cbc267fba6fc",
+      "git_blob_verified": true
+    },
+    {
+      "path": "casmi/data.py",
+      "bytes": 6105,
+      "sha256": "df80884a4afc38489d9ec914dff4b3196953d4102e1ee9ea70b06983f03620b3",
+      "git_blob_verified": true
+    },
+    {
+      "path": "casmi/metric.py",
+      "bytes": 2558,
+      "sha256": "f8fef70289cba73547f6e6ddcb6a60214713645edb1238e44c4339d4c913f83d",
+      "git_blob_verified": true
+    },
+    {
+      "path": "casmi/paths.py",
+      "bytes": 1153,
+      "sha256": "740607f702e1ed2d7d3079b67615e4533ada0f89755c20c50f3708dffec6842e",
+      "git_blob_verified": true
+    },
+    {
+      "path": "casmi/pipeline.py",
+      "bytes": 4553,
+      "sha256": "09087be91e68294d85dd4bdeb19dc44aa1098c0e0881d29419ed9ecdbfa539b3",
+      "git_blob_verified": true
+    },
+    {
+      "path": "casmi/ranking.py",
+      "bytes": 10420,
+      "sha256": "8ab0f73a25a1d134d8e2fdd10ea17412e16cc52884679b0d4a42c5c6cf89d29c",
+      "git_blob_verified": true
+    },
+    {
+      "path": "casmi/spectra.py",
+      "bytes": 9126,
+      "sha256": "7034b3f047828438c7fe25d4038242f1bda1aa807d9c88607308a26e4056dea8",
+      "git_blob_verified": true
+    },
+    {
+      "path": "casmi/validation.py",
+      "bytes": 3610,
+      "sha256": "ac5b450d239c1a1ff29d7d3814bd3ffd4b13805b0d8e00c7b4ec92d96577ec9c",
+      "git_blob_verified": true
+    },
+    {
+      "path": "docs/experiment_log.md",
+      "bytes": 3799,
+      "sha256": "ddac1e5bd7b68edda3fa978187873b66e17c59283f1db7dc95db191ad285fb30",
+      "git_blob_verified": true
+    },
+    {
+      "path": "kaggle/build_assets.py",
+      "bytes": 1878,
+      "sha256": "9be1ba13197b69836ab987ee1c180b452b438d20abd1703c9ad73494d8a84deb",
+      "git_blob_verified": true
+    },
+    {
+      "path": "kaggle/inference.py",
+      "bytes": 4504,
+      "sha256": "94569ef091ea361a9455807b4c2116d403a6ca58c0958bd501832c0d8703cef8",
+      "git_blob_verified": true
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 877,
+      "sha256": "1bf011ff937902610e2805c9d65f5078e016019cbb3ee767972ec6e268efea1c",
+      "git_blob_verified": true
+    },
+    {
+      "path": "scripts/build_feature_tables.py",
+      "bytes": 2343,
+      "sha256": "561777a79bbf0d5dd8adf48b6fbeb2e048c7cc01d22281d4ba010270030450fe",
+      "git_blob_verified": true
+    },
+    {
+      "path": "scripts/build_ranker_set.py",
+      "bytes": 4795,
+      "sha256": "499f28465fcf54c35dec3a601bef0c3207089efa924d05273fea869f2a2dea1d",
+      "git_blob_verified": true
+    },
+    {
+      "path": "scripts/build_structures.py",
+      "bytes": 1714,
+      "sha256": "93d13c8cda7990b15c23097b48dd195bced9d478c8376685523e4d8ee68926b2",
+      "git_blob_verified": true
+    },
+    {
+      "path": "scripts/cache_validation_hits.py",
+      "bytes": 1282,
+      "sha256": "c2a903fa0e16841eede6c691d2c343e24bdf43e0bf449bf9670027d19fe11326",
+      "git_blob_verified": true
+    },
+    {
+      "path": "scripts/score_visible_test.py",
+      "bytes": 1895,
+      "sha256": "8b6fd22572cf4620bd76db55cf0c8b2fca891c4ab8eae3c205e20816ed70c7e1",
+      "git_blob_verified": true
+    },
+    {
+      "path": "scripts/train_ranker.py",
+      "bytes": 7830,
+      "sha256": "a101e964367cc5aa4a64f6ee5df7d2dc86fbc7a8abdafaf706bae64133e113b7",
+      "git_blob_verified": true
+    },
+    {
+      "path": "tests/test_chem.py",
+      "bytes": 1607,
+      "sha256": "2ff2010557b958bbd63ded7fad006d54b67fefb8703fe7bfb222804b65607806",
+      "git_blob_verified": true
+    },
+    {
+      "path": "tests/test_data.py",
+      "bytes": 1737,
+      "sha256": "7f176eeb7f7559628803c1d5d58edb46fe27a90b0ed32eaeeed397a4390a736b",
+      "git_blob_verified": true
+    },
+    {
+      "path": "tests/test_metric.py",
+      "bytes": 1805,
+      "sha256": "ac113c79b9cc93575a8ac0f3ff287b887b5afe67f8d6ae3b0bab552cba1dab48",
+      "git_blob_verified": true
+    },
+    {
+      "path": "tests/test_ranking.py",
+      "bytes": 3284,
+      "sha256": "0a58beb3a2a22eb7d664dbfc9db9d5aeb2f5739f262392f36edb6e3f6cf97f67",
+      "git_blob_verified": true
+    },
+    {
+      "path": "tests/test_spectra.py",
+      "bytes": 1601,
+      "sha256": "963bdaa7d3c31648e6249d9d21095ec0d072a55d4de0b289f307e06f6857719d",
+      "git_blob_verified": true
+    },
+    {
+      "path": "tests/test_validation.py",
+      "bytes": 1817,
+      "sha256": "279169ea22ca3717fcff5351727e86f444d47dc87ffe83a01c2eded47e91366f",
+      "git_blob_verified": true
+    }
+  ],
+  "source_only": true,
+  "executed": false
+}

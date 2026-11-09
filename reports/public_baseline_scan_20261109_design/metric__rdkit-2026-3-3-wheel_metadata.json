@@ -1,0 +1,48 @@
+{
+  "ref": "metric/rdkit-2026-3-3-wheel",
+  "checked_at_utc": "2026-11-09T07:22:07.967263+00:00",
+  "read_only": true,
+  "metadata": {
+    "ref": "metric/rdkit-2026-3-3-wheel",
+    "title": "rdkit 2026.3.3 wheel",
+    "id": 11951175,
+    "owner_name": "Kaggle Competition Metrics",
+    "owner_ref": "metric",
+    "current_version_number": 1,
+    "version_number": null,
+    "last_updated": "2026-09-08 22:23:23.197000",
+    "total_bytes": 148891687,
+    "license_name": "Unknown",
+    "licenses": null,
+    "description": "",
+    "subtitle": "",
+    "usability_rating": 0.1875
+  },
+  "files": [
+    {
+      "name": "rdkit-2026.3.3-cp310-cp310-manylinux_2_28_x86_64.whl",
+      "total_bytes": 37258660,
+      "creation_date": "2026-09-08 22:23:25.421000",
+      "file_type": ""
+    },
+    {
+      "name": "rdkit-2026.3.3-cp311-cp311-manylinux_2_28_x86_64.whl",
+      "total_bytes": 37257559,
+      "creation_date": "2026-09-08 22:23:25.238000",
+      "file_type": ""
+    },
+    {
+      "name": "rdkit-2026.3.3-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "total_bytes": 37188323,
+      "creation_date": "2026-09-08 22:23:25.144000",
+      "file_type": ""
+    },
+    {
+      "name": "rdkit-2026.3.3-cp313-cp313-manylinux_2_28_x86_64.whl",
+      "total_bytes": 37187145,
+      "creation_date": "2026-09-08 22:23:25.240000",
+      "file_type": ""
+    }
+  ],
+  "next_page_token_present": false
+}

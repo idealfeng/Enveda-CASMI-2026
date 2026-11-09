@@ -1,0 +1,42 @@
+{
+  "source_file": "canqiang_e006_v1_submission.csv",
+  "source_sha256": "a5f021a6d43963eb681a478d2e356478e19c068b02e68d060084d5bd453f1eab",
+  "source_kernel_version": 1,
+  "active_selection": "Original source SMOKE_N=12 and sorted visible test molecule IDs",
+  "visible_test_signature": "654e030e4173780e945252b4a5adf70b",
+  "matches_source_smoke_signature": true,
+  "active_ids": [
+    "m_005e53",
+    "m_006153",
+    "m_00b5aa",
+    "m_01e922",
+    "m_0259d4",
+    "m_02d188",
+    "m_0318b5",
+    "m_043e86",
+    "m_050bf1",
+    "m_05b52e",
+    "m_068354",
+    "m_06e13d"
+  ],
+  "real_rows": 12,
+  "other_source_rows": 388,
+  "candidate_counts": {
+    "m_005e53": 25,
+    "m_006153": 25,
+    "m_00b5aa": 25,
+    "m_01e922": 25,
+    "m_0259d4": 25,
+    "m_02d188": 25,
+    "m_0318b5": 25,
+    "m_043e86": 25,
+    "m_050bf1": 25,
+    "m_05b52e": 25,
+    "m_068354": 25,
+    "m_06e13d": 25
+  },
+  "active_file": "canqiang_e006_v1_active12.csv",
+  "active_bytes": 12180,
+  "active_sha256": "ad2a6e98e51fdd5eba4d9734a31afb58f662c303d03b0547fa23b759b1a26cf2",
+  "scope": "Reference for exact ordered SMILES/top1 comparison only; no labels or hidden-test validation"
+}

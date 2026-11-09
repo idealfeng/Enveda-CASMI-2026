@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "checks": {
+    "actual_public_dispatch_passthrough": true,
+    "public_passthrough_values_equal": true,
+    "v2_dispatch_applies_actual_head_class": true,
+    "zero_head_original_mean_equal": true,
+    "candidate_keys_and_order_preserved": true,
+    "original_diagnostics_equal": true,
+    "processed_coverage_equal": true,
+    "rejects_wrong_head_sha": true,
+    "rejects_wrong_training_step": true,
+    "rejects_unknown_encoder": true,
+    "rejects_wrong_head_source": true,
+    "invalid_query_fallback_explicit_and_scoped": true,
+    "reviewed_adapter_source_unchanged": true
+  },
+  "adapter_source_sha256": "14ba386cef89194c87cead728b23a670f83d425b2316a007d3f07901e5cf1a74",
+  "head_source_sha256": "6dc38d9d9dd59bff0ed791045573638c5566b2e1f84c0336c1b1bff383f886f0",
+  "zero_head_max_error": 0.0,
+  "synthetic_encoder_fixture": true,
+  "production_encoder_pins_overridden_in_memory": true,
+  "real_model_inference": false,
+  "training_performed": false,
+  "cloud_write_performed": false,
+  "caveat": "Mechanics only; real encoder zero-head parity and hidden full coverage remain separate checks."
+}

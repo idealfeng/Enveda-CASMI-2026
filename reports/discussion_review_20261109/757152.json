@@ -1,0 +1,18 @@
+{
+  "id": 757152,
+  "read_only": true,
+  "checked_at_utc": "2026-11-09T07:11:38.167065+00:00",
+  "topic": {
+    "id": 757152,
+    "title": "NIST-trained ICEBERG/GLACIER checkpoints and the ICEBERG atlas",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/757152",
+    "postDate": "2026-11-09T04:32:09.648Z",
+    "authorName": "Ahmad N.",
+    "authorUrl": "https://www.kaggle.com/ezra33",
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>Hi, two answers seem to point different ways, and I’d like to be sure before relying on either. In 749217 (Q3), only checkpoints whose training data excludes NIST-derived spectra are allowed. In 745134, the ICEBERG atlas spectra “are model outputs publicly offered by the authors and can be used”, but the atlas’s Zenodo record (13772810) says its model was trained on MoNA, GNPS and NIST2020.</p>\n<ol>\n<li>Are released ICEBERG/GLACIER checkpoints trained on NIST20 or NIST23 allowed?</li>\n<li>Are the atlas spectra allowed as data, even though the model that made them was NIST-trained?</li>\n</ol>"
+  },
+  "comments": [],
+  "comments_truncated": false
+}

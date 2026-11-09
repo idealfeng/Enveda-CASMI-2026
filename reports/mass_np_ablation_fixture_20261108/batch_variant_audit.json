@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "branch": "mass_no_np_bonus",
+  "mode": "hidden_full",
+  "recipe_sha256": "468baef7f9a560ece89319710793f8611bb8a7affacff8a8936b7df46cad4571",
+  "checks": {
+    "mass_recipe": true,
+    "np_ablation_configuration": true,
+    "other_merge_switches_preserved": true,
+    "official_rdkit": true,
+    "public_model_pins": true,
+    "ours_model_pins": true,
+    "two_distinct_models": true,
+    "lotus_pin": true,
+    "csv_schema_ids": true,
+    "csv_counts": true,
+    "pipeline_complete": true,
+    "hidden_full_scope": true,
+    "mass_layer_executed": true,
+    "rr_disabled": true,
+    "merge_layer_executed": true,
+    "np_score_path_executed": true,
+    "np_bonus_exactly_zero": true,
+    "ensemble_candidate_keys": true,
+    "exact_dual_scores": true,
+    "model_coverage_equal": true,
+    "usable_scores_finite": true
+  },
+  "visible_model_executed": true,
+  "pins": {
+    "public": {
+      "features.py": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+      "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+      "config.json": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+      "final_model.pt": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642"
+    },
+    "ours": {
+      "features.py": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+      "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+      "config.json": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+      "final_model.pt": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46"
+    }
+  },
+  "mass_report": {
+    "status": "on"
+  },
+  "mass_lead_report": {
+    "status": "ran"
+  },
+  "np_contribution_audit": {
+    "status": "applied",
+    "np_scored_candidates": 4,
+    "np_member_scored_candidates": 1,
+    "np_bonus_sum": 0.0,
+    "np_bonus_absmax": 0.0
+  },
+  "ablation_scope": "final pxm_merge membership bonus only; outsider and LOTUS fill unchanged",
+  "csv_sha256": "ed27952d17bb3037b9250e4c62a5c9e9e6934ad1966838ec4ce45782743ce272"
+}

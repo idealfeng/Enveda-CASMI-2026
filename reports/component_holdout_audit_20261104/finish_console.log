@@ -1,0 +1,51 @@
+{
+  "counts": {
+    "saner_molecules": 273833,
+    "saner_train": 246450,
+    "saner_validation": 27383,
+    "saner_spectra": 2430327,
+    "saner_spectra_split": {
+      "train": 2182893,
+      "validation": 247434
+    },
+    "fold0_excluded_rows": 55367,
+    "fold0_exclusion_reasons": {
+      "hold": 55102,
+      "np": 265
+    },
+    "declared_key_intersection_count": 5449,
+    "saner_checkpoint_selection_identities": 1000,
+    "declared_intersection_selection_used": 210,
+    "declared_intersection_selection_not_used": 5239,
+    "selected_intersection_queries": 78,
+    "official_identity_audited_targets": 125,
+    "verified_eligible_selected_queries": 32,
+    "verified_training_unseen_before_candidate_selection_exclusion": 78,
+    "verified_training_unseen_touched_as_selection_candidate": 46
+  },
+  "pilot": {
+    "saner_final": {
+      "declared_seen": 48
+    },
+    "saner_best_validation": {
+      "training_identity_unseen_selection_not_used_declared": 1,
+      "declared_seen": 45,
+      "training_identity_unseen_checkpoint_selection_candidate_seen": 2
+    },
+    "fold0": {
+      "training_identity_unseen_declared": 27,
+      "declared_seen": 21
+    }
+  },
+  "extra_variants_checked": 83,
+  "eligible_queries": 32,
+  "saner_hash_mismatches": [],
+  "fold_manifest_mismatches": {
+    "MANIFEST_20261019.json": [
+      "README.md",
+      "SOURCE_CHECK_20261019.md",
+      "SPLIT_AUDIT.json"
+    ],
+    "MANIFEST_FIVEFOLD.json": []
+  }
+}

@@ -1,0 +1,58 @@
+Test is 100% timsTOF, train is 46%: a train/test shift checklist before you build a reference library
+
+https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/744011
+
+Author: Md Kishor Morol
+
+Posted: 2026-09-28T08:58:03.068Z
+
+I compared the metadata of the current train.parquet with the visible test.parquet. The spectra arrays aren't needed for any of this. A few differences matter for anyone building a retrieval library or training on train:
+
+
+
+
+
+train (2.54M spectra, 276k molecules)
+visible test (1,213 spectra, 400 molecules)
+
+
+
+
+Instrument
+46% timsTOF, 30% Orbitrap, the rest QTOF / ion trap / QqQ
+100% timsTOF
+
+
+Adducts
+52% [M+H]+, 18% [M-H]-, 13% dimers ([2M+Na]+, [2M+H]+, [2M-H]-)
+79% [M+H]+, 16% [M-H]-, no dimers
+
+
+Precursor m/z
+median 350, but min 2 and max ~2.4 million
+245–460, median 329
+
+
+Collision energy
+same energies written as 60, 60.0 and [60.0]
+clean 20 / 40 / 60 and stepped 20,40,60 (plus negatives)
+
+
+
+What I'd do with it:
+
+
+Weight or filter by instrument. Fragmentation differs between Orbitrap (HCD) and timsTOF (CID), so a timsTOF-only (or timsTOF-weighted) reference set is probably a better match for test. Instrument names come in ~15 spellings (QTOF, qTof, qtof, LC-ESI-QTOF, …), so normalise them first.
+
+Drop dimer adducts from the library, or at least from the candidate ranking. None of them appear in test.
+
+Drop impossible precursors. Anything outside roughly 50–2,000 m/z is a unit or parsing error.
+
+Parse collision energy into numbers before using it as a feature. Otherwise 60, 60.0 and [60.0] look like three different settings.
+
+Build CV from the same slice: positive and negative mode in about the test's 80/20 ratio, [M+H]+ / [M-H]- dominant, with precursors 240–470. And split by inchikey14, never by spectrum, or the same molecule ends up on both sides.
+
+
+One caveat: this is the visible test file. The hidden test used at scoring may be larger, but a code competition's visible test is usually drawn the same way.
+
+Numbers come from a metadata-only script (no spectra loaded). Happy to share it if useful, and if you've seen the timsTOF-only subset help or hurt your CV, I'd like to hear it.

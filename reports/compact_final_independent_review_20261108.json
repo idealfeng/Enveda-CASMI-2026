@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-08T12:49:52.995480+00:00",
+  "notebook_sha256": "4b985a2a0e2cb501be2fb045993cf1fc182886cfc6bf818c102c54f4d5bbb4a6",
+  "source_bytes": 836167,
+  "checks": {
+    "frozen_notebook_pin": true,
+    "decoded_sha_assertion_matches": true,
+    "decoded_source_exact": true,
+    "decoded_source_compiles": true,
+    "head_installer_identical": true,
+    "all_other_preexisting_cells_identical": true,
+    "observer_only_branch_recipe_expectations_change": true,
+    "all_embedded_payload_sha256": true,
+    "payload_pins_equal_reviewed_combination": true,
+    "runtime_weights_bound": true,
+    "checkpoints_equal_frozen_training": true,
+    "runtime_budget_2500": true,
+    "new_target_title_exact": true,
+    "private_offline_gpu": true,
+    "metadata_otherwise_identical": true,
+    "metadata_pin": true,
+    "all_cells_compile": true,
+    "active_manifest_contract_exact": true,
+    "local_preflight": true,
+    "source_under_1MiB": true
+  },
+  "source_only": true,
+  "no_cloud_calls": true,
+  "no_model_inference": true,
+  "no_stage_mutation": true
+}

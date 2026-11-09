@@ -1,0 +1,21 @@
+{
+  "original_flex_frozen_cells": 59,
+  "helios_frozen_cells": 59,
+  "differing_code_cells": [
+    {
+      "index": 28,
+      "kind": "code",
+      "ours_head": [
+        "\"\"\"Read-only E004 observer, before the source smoke switch.\"\"\"",
+        ""
+      ],
+      "helios_head": [
+        "\"\"\"Read-only E004 observer, before the source smoke switch.\"\"\"",
+        ""
+      ],
+      "ours_chars": 1371,
+      "helios_chars": 1348
+    }
+  ],
+  "counts_equal": true
+}

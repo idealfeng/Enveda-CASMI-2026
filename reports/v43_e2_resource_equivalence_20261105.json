@@ -1,0 +1,142 @@
+{
+  "status": "passed_observed_equivalence",
+  "checked_utc": "2026-11-05T06:06:48.653569+00:00",
+  "scope": "Exact ordered emitted E2 SMILES/keys comparison on the current 48-query cohort; no metric or full pipeline equivalence claim. No raw spectra or model weights were read.",
+  "current_file": "runs/validation_v43_c2_20261105c/eng_lists.json",
+  "current_sha256": "a53d80ee8d0a5f4d4ac5d63b8e42aefb60c96b5c1a4e2da2dac6cbd9a679dede",
+  "molecules": 48,
+  "candidate_rows": 1597,
+  "engine2_capture": {
+    "status": "returned",
+    "stage": "engine2",
+    "command": [
+      "/mnt/d/Paper/casmi/.venv-linux/bin/python",
+      "/mnt/d/Paper/casmi/runs/validation_v43_c2_20261105c/eng/eng_runner.py",
+      "/mnt/d/Paper/casmi/runs/validation_v43_c2_20261105c/smoke_comp/test.parquet",
+      "/mnt/d/Paper/casmi/runs/validation_v43_c2_20261105c/smoke_comp/train.parquet",
+      "/mnt/d/Paper/casmi/runs/validation_v43_c2_20261105c/smoke_comp/sample_submission.csv",
+      "/mnt/d/Paper/casmi/runs/validation_v43_c2_20261105c/eng_lists.json"
+    ],
+    "cwd": "/mnt/d/Paper/casmi/runs/validation_v43_c2_20261105c/eng",
+    "timeout_seconds": 14400,
+    "returncode": 0,
+    "started_time_ns": 1793858191991023050,
+    "config_sha256": "7a21fed33f3158cad9b9925c21c84d76fdcb60aa0c675e443f20fe05d23a12cd",
+    "helper_sha256": "3906b7a06e73e4f4cddd16731afaa071f98d51fee3ffc5cf32a1393d6177312e",
+    "stdout_sha256": "c3d18e447a067f3041698b50ebc7ef6dea70b6d0e63114f383995b5f2172e596",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_bytes": 929,
+    "stderr_bytes": 0,
+    "elapsed_seconds": 529.825
+  },
+  "capture_success": {
+    "status": "passed",
+    "stage": "engine2",
+    "returncode": 0,
+    "output_sha256": "a53d80ee8d0a5f4d4ac5d63b8e42aefb60c96b5c1a4e2da2dac6cbd9a679dede",
+    "molecules": 48,
+    "empty_candidate_lists_allowed": true,
+    "capture_receipt_sha256": "ecdb8e7a068e322433aa41de9270551bc9c16a3dfbc416eeab5268de73be2b8f"
+  },
+  "worker_limit": {
+    "status": "complete",
+    "requested_workers": 32,
+    "used_workers": 4,
+    "scope": "All original main workers: pool fingerprints, fragments and canonicalization",
+    "ranking_parameters_changed": false,
+    "numeric_map_order_retained": true
+  },
+  "resource_policy": {
+    "status": "complete",
+    "requested_workers": 4,
+    "used_workers": 4,
+    "original_fingerprint_and_pool_algorithm_retained": true,
+    "map_order_retained": true,
+    "raw_spectrum_representation_changed": false,
+    "source_helper_sha256": "e8558ec18985ef102b0f3ba12018de38f91162bec9586acbeb765d1f6e4e4169",
+    "memory_before_release": {
+      "VmHWM": "5136736 kB",
+      "VmRSS": "4652892 kB",
+      "VmSwap": "0 kB",
+      "Threads": "10"
+    },
+    "pre_pool_allocator_release": {
+      "gc_collected": 17,
+      "arrow_allocated_before": 0,
+      "arrow_allocated_after": 0,
+      "malloc_trim_result": 1
+    },
+    "memory_before_pool": {
+      "VmHWM": "5136736 kB",
+      "VmRSS": "4546712 kB",
+      "VmSwap": "0 kB",
+      "Threads": "10"
+    },
+    "pool_structures": 1137233,
+    "elapsed_seconds": 104.151,
+    "memory_after_pool": {
+      "VmHWM": "6870040 kB",
+      "VmRSS": "4878960 kB",
+      "VmSwap": "998112 kB",
+      "Threads": "7"
+    },
+    "post_pool_allocator_release": {
+      "gc_collected": 0,
+      "arrow_allocated_before": 0,
+      "arrow_allocated_after": 0,
+      "malloc_trim_result": 1
+    },
+    "memory_after_release": {
+      "VmHWM": "6870040 kB",
+      "VmRSS": "4623236 kB",
+      "VmSwap": "893460 kB",
+      "Threads": "7"
+    }
+  },
+  "reference_isolation": {
+    "status": "passed",
+    "rows": 2539608,
+    "excluded_rows": 5725,
+    "direct_index_rows": 2533883,
+    "representatives": {
+      "all": 275759,
+      "pos": 258710,
+      "neg": 113129
+    },
+    "no_excluded_direct_or_representative_rows": true,
+    "candidate_pool_filtered": false,
+    "pool_structures": 1137233,
+    "blocked_raw_keys_still_in_pool": 51,
+    "reference_mask_sha256": "1c19f4740982dbe2e28a617579ce08447a941affe735ebee26fcbb5ac7dbf642",
+    "cohort": "global leave-cohort-identity-out; all current pilot query identities removed from every reference path"
+  },
+  "references": {
+    "validation_flex_c2_20261105b": {
+      "path": "runs/validation_flex_c2_20261105b/eng_lists.json",
+      "sha256": "a53d80ee8d0a5f4d4ac5d63b8e42aefb60c96b5c1a4e2da2dac6cbd9a679dede",
+      "same_active_ids": true,
+      "same_manifest_sha256": true,
+      "same_reference_mode": true,
+      "ordered_candidate_lists_and_keys_equal": true,
+      "full_payload_equal": true,
+      "differing_queries": 0,
+      "differences": []
+    },
+    "validation_flex_c2_20261105d": {
+      "path": "runs/validation_flex_c2_20261105d/eng_lists.json",
+      "sha256": "a53d80ee8d0a5f4d4ac5d63b8e42aefb60c96b5c1a4e2da2dac6cbd9a679dede",
+      "same_active_ids": true,
+      "same_manifest_sha256": true,
+      "same_reference_mode": true,
+      "ordered_candidate_lists_and_keys_equal": true,
+      "full_payload_equal": true,
+      "differing_queries": 0,
+      "differences": []
+    }
+  },
+  "limitations": [
+    "Evidence is scoped to the emitted lists of this cohort, not every latent score or another cohort.",
+    "Process-limit contracts retain original algorithms and map order; resource fit is verified here only for this completed E2 stage.",
+    "Comparison does not establish cold-run timing or clean generalization of the complete pipelines."
+  ]
+}

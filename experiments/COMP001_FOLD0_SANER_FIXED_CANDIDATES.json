@@ -1,0 +1,35 @@
+{
+  "experiment_id": "COMP001_FOLD0_SANER_FIXED_CANDIDATES",
+  "local_date": "2026-11-05",
+  "status": "complete",
+  "run_root": "runs/component_neural_pilot_20261105",
+  "plan_sha256": "c6f3c3938057dd97d12062514fa4a0f896c5ea1716c94c89dddf5a42c66bb6af",
+  "evaluation_sha256": "f7a273877685a42ce8d7e7e1f4c9df2bb430949f988fdf511201a262fb30eb36",
+  "scope": "Query-spectrum/positive-identity-excluded component diagnostic with Saner known checkpoint-selection candidates excluded. Fold0 negative-structure and development exposure are not ruled out. Not complete Flex CV or an independent final evaluation.",
+  "cohort": {"cross_component": 29, "np_public_development": 3, "spectra": 139},
+  "control": "FPNet fold0, mean spectrum logits, measured neutral-mass window 10ppm in pinned public v2 pool",
+  "single_change": "Rerank the identical baseline top25 with Saner best_validation_model, fixed RRF offset=3 and alpha=0.25",
+  "truth_candidate_injection": false,
+  "fixed_candidate_identity_audit": "32/32 equal",
+  "overall": {
+    "baseline_mrr_at_25": 0.7822916666666667,
+    "treatment_mrr_at_25": 0.7997767857142857,
+    "delta_mrr_at_25": 0.017485119047619048,
+    "paired_bootstrap_95pct": [0.0, 0.04873511904761905],
+    "baseline_top1_hits": 22,
+    "treatment_top1_hits": 23,
+    "baseline_and_treatment_top25_hits": 30
+  },
+  "runtime_seconds": {"total_including_verification_and_loading": 101.07764109700001, "saner_scoring": 11.012576037000002},
+  "adoption": "Retain as an experimental branch; do not change the main pipeline or extrapolate leaderboard gain from this small cohort.",
+  "limitations": [
+    "Only three public natural-product development identities; their scores are unchanged.",
+    "The bootstrap interval includes zero; the observed mean improvement is uncertain.",
+    "Checkpoint/split declarations and identity exclusions are audited; historical producer code/minibatches are not fully reconstructed.",
+    "Nine of 32 identities belong to the fold0 monitoring cohort reconstructed from public source. The script saves last/final rather than metric-selected best; this does not prove no development contact.",
+    "Fold0 training negatives come from the full pool without heldout-identity exclusion. Actual historical sampling of these structures is unknown; positive-identity exclusion does not establish structure-unseen training.",
+    "The frozen final cohort of 250 identities was not evaluated.",
+    "Whole-stack pretrained exposure remains a separate issue."
+  ],
+  "kaggle_submission_performed": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": 745615,
+  "read_only": true,
+  "checked_at_utc": "2026-11-09T07:15:00.356275+00:00",
+  "topic": {
+    "id": 745615,
+    "title": "Non-commercial inputs: prize-ineligible only, or also excluded from the final leaderboard and medals?",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745615",
+    "postDate": "2026-10-03T12:07:45.464Z",
+    "authorName": "Amin",
+    "authorUrl": "https://www.kaggle.com/aminvafaei",
+    "votes": 1,
+    "commentCount": 1,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>Hi David and the Enveda team,\nThank you for the licensing note in the welcome post (741359) and for the NIST ruling (744470). One point is still unclear,\nand it affects what teams build for their final selections.\nSeveral public notebooks near the top of the public leaderboard attach datasets whose Kaggle licence is \"Other\n(non-commercial)\" or CC BY-NC-SA, for example mirrors of ChEBI / LIPID MAPS and some pretrained-model and candidate-pool\ndatasets. The notebook authors point this out themselves.\nThe Competition-Specific Rules (5.a.3) say a winner \"does not need to grant an open source license\" for input data or\npretrained models with an incompatible licence. The welcome post says solutions built on data or tools that cannot be\ncommercially licensed \"will not be eligible to win\", and that you \"reserve the right to disqualify any submission that\ndoes not comply\".\nCould you clarify:</p>\n<ol>\n<li>Is a solution that uses non-commercial-licensed inputs (and no NIST) only ineligible for prizes, or will it also be\nremoved from the final private leaderboard and medal ranking?</li>\n<li>If a top-ranked team is prize-ineligible for this reason, does the prize pass to the next prize-eligible team, as in\nthe Foundational Rules (\"Determining Winners\", 7.b: \"In the event a potential winner is disqualified for any reason,\nthe Submission that received the next highest score rank will be chosen as the potential winner\")?</li>\n<li>How will compliance be checked for teams that do not claim a prize, i.e. medal positions?</li>\n<li>For prize-seeking teams, does the welcome-post guidance take precedence over section 5.a.3? In other words, should\nevery non-commercial input (data, pretrained weights, candidate databases) be treated as not allowed?\nA clear answer now would help everyone plan their final submissions.\nThank you!</li>\n</ol>"
+  },
+  "comments": [
+    {
+      "id": 3538192,
+      "authorName": "Marie Killian",
+      "postDate": "2026-10-13T20:13:59.407Z",
+      "content": "<p>Open-source datasets with noncommercial licensing provisions are permitted, provided they otherwise comply with the competition rules. A noncommercial license does not automatically make a solution ineligible for prizes or medals.</p>\n<p>All submissions must comply with the competition rules, regardless of whether a team is pursuing prizes or medals. Submissions found to be noncompliant may be disqualified and removed from the leaderboard. </p>\n<p>If a potential winner is disqualified, prize eligibility will be determined according to the competition’s Foundational Rules.</p>"
+    }
+  ],
+  "comments_truncated": false
+}

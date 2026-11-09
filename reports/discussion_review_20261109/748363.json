@@ -1,0 +1,27 @@
+{
+  "id": 748363,
+  "read_only": true,
+  "checked_at_utc": "2026-11-09T07:15:00.355732+00:00",
+  "topic": {
+    "id": 748363,
+    "title": "Licence clarification for CC-BY-NC-SA external datasets",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/748363",
+    "postDate": "2026-10-11T17:48:38.639Z",
+    "authorName": "Zaid Wali",
+    "authorUrl": "https://www.kaggle.com/zaid216",
+    "votes": 2,
+    "commentCount": 1,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>Several widely used public datasets for this competition are licensed CC-BY-NC-SA-4.0 (non-commercial, share-alike), and others list \"other\" or no licence. Rule 6a requires external data to be \"publicly available and equally accessible to use by all Participants of the Competition for purposes of the competition at no cost,\" and rule 5a.3 exempts incompatible-licence data from the winner's open-source grant. Could the host confirm whether CC-BY-NC-SA-4.0 datasets, and datasets with \"other\" or unspecified licences that are freely downloadable on Kaggle, count as compliant external data for prize-eligible submissions?</p>"
+  },
+  "comments": [
+    {
+      "id": 3537873,
+      "authorName": "David Healey",
+      "postDate": "2026-10-13T07:46:35.620Z",
+      "content": "<p>Those should be fine but feel free to ask about specific instances.  For external data we're mostly worried about datasets with very restrictive redistribution licenses, like NIST</p>"
+    }
+  ],
+  "comments_truncated": false
+}

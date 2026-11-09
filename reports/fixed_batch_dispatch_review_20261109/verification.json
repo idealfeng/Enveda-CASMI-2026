@@ -1,0 +1,565 @@
+{
+  "status": "passed",
+  "checks": {
+    "plan_no_network_or_writes": true,
+    "fresh_batch_launches_only_two": true,
+    "two_preexisting_pending_prevent_third_push": true,
+    "completed_existing_runs_audit_then_single_submit": true,
+    "audit_exception_prevents_formal_submit": true,
+    "failed_audit_return_prevents_formal_submit": true,
+    "unknown_cloud_claim_not_retried": true,
+    "unknown_submission_claim_not_retried": true,
+    "accepted_submission_not_repeated": true,
+    "zero_quota_prevents_all_writes": true,
+    "five_claims_cap_no_actions": true,
+    "failed_cloud_no_audit_submit": true,
+    "ten_consecutive_read_errors_stop_and_reserve_slot": true,
+    "manifest_mutation_after_first_push_prevents_further_writes": true,
+    "source_mutation_after_first_push_prevents_further_writes": true,
+    "unknown_launch_response_never_pushed_twice": true,
+    "five_successful_branches_each_submitted_once": true,
+    "exclusive_lock_prevents_second_dispatcher": true
+  },
+  "cases": {
+    "plan_no_network_or_writes": {
+      "passed": true
+    },
+    "fresh_batch_launches_only_two": {
+      "passed": true,
+      "status": "timeout_no_more_writes",
+      "events": [
+        [
+          "launch",
+          "b0"
+        ],
+        [
+          "launch",
+          "b1"
+        ],
+        [
+          "read",
+          "b0"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b0"
+        ],
+        [
+          "read",
+          "b1"
+        ]
+      ]
+    },
+    "two_preexisting_pending_prevent_third_push": {
+      "passed": true,
+      "status": "timeout_no_more_writes",
+      "events": [
+        [
+          "read",
+          "b0"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b0"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b0"
+        ],
+        [
+          "read",
+          "b1"
+        ]
+      ]
+    },
+    "completed_existing_runs_audit_then_single_submit": {
+      "passed": true,
+      "status": "timeout_no_more_writes",
+      "events": [
+        [
+          "read",
+          "b0"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "audit",
+          "b0"
+        ],
+        [
+          "submit",
+          "b0"
+        ],
+        [
+          "audit",
+          "b1"
+        ],
+        [
+          "submit",
+          "b1"
+        ],
+        [
+          "launch",
+          "b2"
+        ],
+        [
+          "launch",
+          "b3"
+        ],
+        [
+          "read",
+          "b2"
+        ],
+        [
+          "read",
+          "b3"
+        ],
+        [
+          "read",
+          "b2"
+        ],
+        [
+          "read",
+          "b3"
+        ]
+      ]
+    },
+    "audit_exception_prevents_formal_submit": {
+      "passed": true,
+      "status": "timeout_no_more_writes",
+      "events": [
+        [
+          "read",
+          "b0"
+        ],
+        [
+          "audit",
+          "b0"
+        ],
+        [
+          "launch",
+          "b1"
+        ],
+        [
+          "launch",
+          "b2"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b2"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b2"
+        ]
+      ]
+    },
+    "failed_audit_return_prevents_formal_submit": {
+      "passed": true,
+      "status": "timeout_no_more_writes",
+      "events": [
+        [
+          "read",
+          "b0"
+        ],
+        [
+          "audit",
+          "b0"
+        ],
+        [
+          "launch",
+          "b1"
+        ],
+        [
+          "launch",
+          "b2"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b2"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b2"
+        ]
+      ]
+    },
+    "unknown_cloud_claim_not_retried": {
+      "passed": true,
+      "status": "timeout_no_more_writes",
+      "events": [
+        [
+          "launch",
+          "b1"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b1"
+        ]
+      ]
+    },
+    "unknown_submission_claim_not_retried": {
+      "passed": true,
+      "status": "timeout_no_more_writes",
+      "events": [
+        [
+          "launch",
+          "b1"
+        ],
+        [
+          "launch",
+          "b2"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b2"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b2"
+        ]
+      ]
+    },
+    "accepted_submission_not_repeated": {
+      "passed": true,
+      "status": "timeout_no_more_writes",
+      "events": [
+        [
+          "launch",
+          "b1"
+        ],
+        [
+          "launch",
+          "b2"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b2"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b2"
+        ]
+      ]
+    },
+    "zero_quota_prevents_all_writes": {
+      "passed": true,
+      "status": "quota_exhausted_no_more_writes",
+      "events": []
+    },
+    "five_claims_cap_no_actions": {
+      "passed": true,
+      "status": "finished_all_claimed_or_failed",
+      "events": []
+    },
+    "failed_cloud_no_audit_submit": {
+      "passed": true,
+      "status": "timeout_no_more_writes",
+      "events": [
+        [
+          "read",
+          "b0"
+        ],
+        [
+          "launch",
+          "b1"
+        ],
+        [
+          "launch",
+          "b2"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b2"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b2"
+        ]
+      ]
+    },
+    "ten_consecutive_read_errors_stop_and_reserve_slot": {
+      "passed": true,
+      "status": "timeout_no_more_writes",
+      "events": [
+        [
+          "read",
+          "b0"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b0"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b0"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b0"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b0"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b0"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b0"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b0"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b0"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b0"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b1"
+        ]
+      ]
+    },
+    "manifest_mutation_after_first_push_prevents_further_writes": {
+      "passed": true,
+      "status": "stopped_no_automatic_retry",
+      "events": [
+        [
+          "launch",
+          "b0"
+        ]
+      ]
+    },
+    "source_mutation_after_first_push_prevents_further_writes": {
+      "passed": true,
+      "status": "stopped_no_automatic_retry",
+      "events": [
+        [
+          "launch",
+          "b0"
+        ]
+      ]
+    },
+    "unknown_launch_response_never_pushed_twice": {
+      "passed": true,
+      "status": "timeout_no_more_writes",
+      "events": [
+        [
+          "launch",
+          "b0"
+        ],
+        [
+          "launch",
+          "b1"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "read",
+          "b1"
+        ]
+      ]
+    },
+    "five_successful_branches_each_submitted_once": {
+      "passed": true,
+      "status": "finished_all_claimed_or_failed",
+      "events": [
+        [
+          "launch",
+          "b0"
+        ],
+        [
+          "launch",
+          "b1"
+        ],
+        [
+          "read",
+          "b0"
+        ],
+        [
+          "read",
+          "b1"
+        ],
+        [
+          "audit",
+          "b0"
+        ],
+        [
+          "submit",
+          "b0"
+        ],
+        [
+          "audit",
+          "b1"
+        ],
+        [
+          "submit",
+          "b1"
+        ],
+        [
+          "launch",
+          "b2"
+        ],
+        [
+          "launch",
+          "b3"
+        ],
+        [
+          "read",
+          "b2"
+        ],
+        [
+          "read",
+          "b3"
+        ],
+        [
+          "audit",
+          "b2"
+        ],
+        [
+          "submit",
+          "b2"
+        ],
+        [
+          "audit",
+          "b3"
+        ],
+        [
+          "submit",
+          "b3"
+        ],
+        [
+          "launch",
+          "b4"
+        ],
+        [
+          "read",
+          "b4"
+        ],
+        [
+          "audit",
+          "b4"
+        ],
+        [
+          "submit",
+          "b4"
+        ]
+      ]
+    },
+    "exclusive_lock_prevents_second_dispatcher": {
+      "passed": true
+    }
+  },
+  "checks_passed": 18,
+  "checks_total": 18,
+  "no_network_or_cloud_calls": true,
+  "dispatcher_sha256": "7cca8042cfb5ca9671e38ab3f5dd7a7ed688a5a8d1250a1c6c37eff4a7316f17"
+}

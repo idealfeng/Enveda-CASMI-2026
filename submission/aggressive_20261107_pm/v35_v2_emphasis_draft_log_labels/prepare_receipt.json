@@ -1,0 +1,11 @@
+{
+  "status": "prepared",
+  "branch": "v35_v2_emphasis",
+  "target": "stormseye/casmi26-v35-v2-emphasis-1107pm",
+  "version": 1,
+  "notebook_sha256": "b47db86209c6a7f0d76592f65d95dedaab42408daad38b89327465a1e0e95056",
+  "metadata_sha256": "2aba3f7878c33acf7e349aee02e10f36677f8fde11bb837fd2d8d5d027004dd2",
+  "recipe_sha256": "007a6090c14e6e62f94f3aa5a12a3039064eb6cbf06ff5da432ca81550b27aea",
+  "static_review_path": "submission\\aggressive_20261107_pm\\v35_v2_emphasis\\static_review.json",
+  "validation_mode": "fast_static"
+}

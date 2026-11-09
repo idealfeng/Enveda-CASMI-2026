@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "role": "learned_v2",
+  "head_applied": true,
+  "encoder_sha256": "1276ea7dec3df51f317a91c3407e35d2ae0afdf350af3dc60a7d6b03bd499e59",
+  "heads": [
+    {
+      "sha256": "fd57928e37f361539ebbf4b5999491ee1fae18b41cb17cab3afafe61e2bb113b",
+      "step": 500,
+      "seed": 7
+    }
+  ],
+  "preprocessing": "unchanged original Saner features.peaks/metadata/structure",
+  "evidence_sha256": "4102fe0997db2d83fe134706aa4e1c3c4be1e7949e8a248abe422961b29d0aef",
+  "queries_sha256": "8997ab5f459957fc457769f15895bfb8b59ffabb06d2c50805a4256ad39e39db",
+  "output_sha256": "78aa8599a583bce56ffff498f3c1cbfb6d63bea0c9f394ded02e5c94ecf554f5",
+  "input_rows": 8,
+  "output_rows": 8,
+  "scored_queries": 2,
+  "scored_candidate_rows": 6,
+  "per_query": [
+    {
+      "molecule_id": "a",
+      "candidates": 3,
+      "spectra": 2,
+      "max_abs_delta_from_mean": 0.0
+    },
+    {
+      "molecule_id": "b",
+      "candidates": 3,
+      "spectra": 1,
+      "max_abs_delta_from_mean": 0.0
+    }
+  ],
+  "errors": [],
+  "training_performed": false,
+  "checkpoint_evaluation_label": "known-pretrained-exposure engineering diagnostic"
+}

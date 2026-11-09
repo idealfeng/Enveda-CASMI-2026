@@ -1,0 +1,31 @@
+{
+  "fetched_utc": "2026-11-04T13:30:24.737504+00:00",
+  "requests": [
+    {
+      "name": "pull_v8.json",
+      "url": "https://www.kaggle.com/api/v1/kernels/pull?userName=romanrozen&kernelSlug=0-468-casmi-from-peaks-to-structures&versionLabel=v8",
+      "status": 200,
+      "bytes": 1483647,
+      "content_type": "application/json",
+      "sha256": "b12ae5af47f148c44edb4b73a8710dd996c8d151d9b310c324f1cda011c2f4a7"
+    },
+    {
+      "name": "kernel_list.json",
+      "url": "https://www.kaggle.com/api/v1/kernels/list?user=romanrozen&search=0-468-casmi-from-peaks-to-structures&pageSize=20",
+      "error": "<HTTPError 401: 'Unauthorized'>"
+    },
+    {
+      "name": "page.html",
+      "url": "https://www.kaggle.com/code/romanrozen/0-468-casmi-from-peaks-to-structures",
+      "status": 200,
+      "bytes": 8732,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "3031522c4962cce2c9123fb1cc1236423f9a71756bfa6d7894db7f88cfffe6b1"
+    },
+    {
+      "name": "trainer_pull.json",
+      "url": "https://www.kaggle.com/api/v1/kernels/pull?userName=bgunshui&kernelSlug=casmi26-scorer-train-public",
+      "error": "<HTTPError 403: 'Forbidden'>"
+    }
+  ]
+}

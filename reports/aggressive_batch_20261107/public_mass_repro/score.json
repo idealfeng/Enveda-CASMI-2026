@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-public-mass-repro-1107",
+  "version": 1,
+  "branch_sha256": "8c12a6ab9f0e1b26e1dd8ade6cc16a81a5f6358bb407892a83c9f7be9c36d43c",
+  "submission_ref": 58063883,
+  "actual_target": "stormseye/casmi26-public-mass-repro-1107",
+  "status": "COMPLETE",
+  "public_score": "0.481",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-07T06:39:34.334485+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

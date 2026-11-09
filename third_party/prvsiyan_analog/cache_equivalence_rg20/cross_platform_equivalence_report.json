@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "linux_numpy": "2.2.6",
+  "linux_numba": "0.61.2",
+  "linux_rdkit": "2026.03.3",
+  "checks": {
+    "spec_off.npy": {
+      "dtype": "int64",
+      "shape": [
+        1185
+      ],
+      "bitwise_array_equal": true
+    },
+    "spec_mz.npy": {
+      "dtype": "float32",
+      "shape": [
+        152902
+      ],
+      "bitwise_array_equal": true
+    },
+    "spec_it.npy": {
+      "dtype": "float32",
+      "shape": [
+        152902
+      ],
+      "bitwise_array_equal": true
+    },
+    "spec_meta.parquet": {
+      "pandas_frame_exact_equal": true
+    },
+    "shared_cache_linking": {
+      "windows_to_linux_provenance_verified": true,
+      "four_files_linked": true,
+      "global_numpy_load_unchanged": true
+    }
+  },
+  "scope": "Linux unchanged original builder versus Windows streamed fixture, row group 20"
+}

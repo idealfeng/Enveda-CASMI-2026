@@ -1,0 +1,433 @@
+{
+  "status": "complete_no_model_inference",
+  "created_at_utc": "2026-11-07T16:12:27.568562+00:00",
+  "audit_script_sha256": "36e8cfab6b664179f6d06ab69d27ef8943d44270c4a173a908f111b22d9dbb4d",
+  "official_identity_rdkit": "2026.03.3",
+  "queries": 48,
+  "evaluation_label": "existing reference-isolated development diagnostic with known pretrained exposure; not clean generalization",
+  "dev_truth_read": true,
+  "locked250_truth_or_queries_read": false,
+  "model_inference_performed": false,
+  "training_performed": false,
+  "artifact_inputs": [
+    {
+      "path": "runs/validation_flex_c2_20261105d/validation_candidate_stages.parquet",
+      "sha256": "d692024927b93668dc2752d82f5e61fe59178e62ddf5bd5fb4c2fd78abf3cd16"
+    },
+    {
+      "path": "runs/validation_flex_c2_20261105d/frozen_candidate_evidence.parquet",
+      "sha256": "8f9a77331fb2bbd2b14890ce7d2618f81032d3f4336adc717777053cfc7a86bc"
+    },
+    {
+      "path": "runs/validation_flex_c2_20261105d/neural_candidate_features.parquet",
+      "sha256": "8673ea2df5a61ae8d1e5cedfeb970e5a98a96fe3c089cfe55c49c2986733c457"
+    },
+    {
+      "path": "runs/validation_flex_c2_20261105d/outsider_evidence.parquet",
+      "sha256": "a5cb09de59aabd160c12c970862f340c7efd048232ced4ffff0caf797b9da045"
+    },
+    {
+      "path": "runs/validation_flex_c2_20261105d/effective_query_spectra.parquet",
+      "sha256": "e62d754b5e127ba303e91a0edaaa92ff38de0553c6c91a0b1c2a5182796266e0"
+    },
+    {
+      "path": "runs/validation_flex_c2_20261105d/validation_e1_candidates.jsonl",
+      "sha256": "e582ea0b842bc51756bf82a2cd7a35cd6fcbff182e2852d17b0c70bde39a6af8"
+    },
+    {
+      "path": "runs/validation_flex_c2_20261105d/validation_e2_candidates.jsonl",
+      "sha256": "cf1694f9dad10af7bc2640f9c648403aae35ecf5223f84ba7f9810fb6623c6ba"
+    },
+    {
+      "path": "runs/validation_flex_c2_20261105d/submission.csv",
+      "sha256": "87b00838b3c3e4df2928d2d4a74b8c6bfbafa7c93958509c406dc825dbe118f5"
+    },
+    {
+      "path": "runs/validation_flex_c2_20261105d/gl_work/gl_in.json",
+      "sha256": "a5a4d57be73820dcb841c8b5bd180f6f204ef0b4713a8b6a2fa8d6c141c0cd0a"
+    },
+    {
+      "path": "runs/validation_flex_c2_20261105d/gl_work/gl_out.json",
+      "sha256": "424ffecab17f571a858da452c27a6f1ce2dda64d01549b0854d1ce1c0b0c62d9"
+    },
+    {
+      "path": "runs/validation_flex_c2_20261105d/gl_work/gl_out.json.meta.json",
+      "sha256": "524e32864a4a39b7ba977063c3de45f83c59d47d02ab43e0ea7c327f7a7cd1f4"
+    },
+    {
+      "path": "runs/validation_flex_c2_20261105d/ice_work/ice_in.json",
+      "sha256": "df465140117263a9269fc4a92328e534d3d09b5b81cb7b6b8255eb294aa27b41"
+    },
+    {
+      "path": "runs/validation_flex_c2_20261105d/ice_work/ice_out.json",
+      "sha256": "12c4d8abd98f5a0aad2b2e5783c791dc14d22daee050c95db05c8b1971ea9ff7"
+    },
+    {
+      "path": "runs/validation_flex_c2_20261105d/ice_work/ice_out.json.meta.json",
+      "sha256": "111915daf85fb5b32d2a02ca1151dbd5167dfa630fd2777459de7dcf84523430"
+    },
+    {
+      "path": "runs/exp003_gl_trace_full_20261106/input.json",
+      "sha256": "a5a4d57be73820dcb841c8b5bd180f6f204ef0b4713a8b6a2fa8d6c141c0cd0a"
+    },
+    {
+      "path": "runs/validation_pilot_v2_20261104/truth.parquet",
+      "sha256": "6220f1c7bfb26f08027f771786a0e4e7e7c0fa44751b2eb95ec6af3a6a4e7a24"
+    }
+  ],
+  "engine_runtime_metadata": {
+    "gl": {
+      "model": "glacier",
+      "status": "ok",
+      "n_mols": 45,
+      "n_mols_scored": 45,
+      "n_mols_covered": 45,
+      "n_cands": 3679,
+      "n_scored": 3679,
+      "errors": [],
+      "rdkit": "2025.03.6",
+      "torch": "2.9.1+cu126",
+      "device": "cuda",
+      "t_load": 59.86,
+      "n_pred": 12452,
+      "n_pred_fail": 0,
+      "n_feat_fail": 0,
+      "t_pred": 102.43,
+      "n_bad_smiles": 0,
+      "pred_per_s": 121.57,
+      "bs_final": 32,
+      "max_mem_gb": 0.45,
+      "seconds": 168.77,
+      "log_tail": [
+        "[gl     0.1s] site ready (marker matches): /mnt/d/Paper/casmi/runs/validation_flex_c2_20261105b/ice_site",
+        "[gl     0.1s] stubbed (absent) modules: ['pygmtools', 'h5py', 'multiprocess', 'platformdirs']",
+        "[gl    59.9s] GLACIER loaded: 15,108,154 params ",
+        "[gl    59.9s] model loaded on cuda (rdkit 2025.03.6, torch 2.9.1+cu126, numba True, threads 4)",
+        "[gl    95.7s] chunk: 17 mols 3093 jobs 31.5s (17/45 covered mols scored)",
+        "[gl   119.0s] chunk: 11 mols 3105 jobs 22.9s (28/45 covered mols scored)",
+        "[gl   145.9s] chunk: 6 mols 3274 jobs 26.3s (34/45 covered mols scored)",
+        "[gl   168.8s] chunk: 11 mols 3107 jobs 22.4s (45/45 covered mols scored)"
+      ]
+    },
+    "ice": {
+      "status": "ok",
+      "n_mols": 48,
+      "n_mols_scored": 46,
+      "n_mols_covered": 46,
+      "n_cands": 3925,
+      "n_scored": 3774,
+      "errors": [],
+      "rdkit": "2025.03.6",
+      "torch": "2.9.1+cu126",
+      "device": "cuda",
+      "t_load": 74.9,
+      "n_pred": 4829,
+      "n_pred_fail": 0,
+      "t_pred": 227.1,
+      "n_bad_smiles": 0,
+      "pred_per_s": 21.26,
+      "max_mem_gb": 3.71,
+      "seconds": 946.29,
+      "log_tail": [
+        "[ice     0.1s] stubbed (absent) modules: ['pygmtools', 'h5py', 'multiprocess', 'platformdirs']",
+        "[ice    73.0s] ms_pred tautomer mode v2 cache /mnt/d/Paper/casmi/.cache/tmp-linux/ice_ms_pred_cache",
+        "[ice    74.9s] model loaded on cuda (rdkit 2025.03.6, torch 2.9.1+cu126, numba True)",
+        "[ice   214.9s] chunk: 9 mols 3225 jobs 134.4s (9/14 covered mols scored)",
+        "[ice   310.0s] chunk: 5 mols 1604 jobs 93.5s (14/14 covered mols scored)"
+      ],
+      "recovery": {
+        "prior_status": "budget",
+        "old_complete_molecules": 32,
+        "reused_molecules": 32,
+        "rebuilt_or_pending_molecules": 16,
+        "newly_scored_molecules": 14,
+        "prior_seconds": 636.12,
+        "current_seconds": 325.88,
+        "declared_budget": 2400,
+        "prior_output_sha256": "3b0c840561bd597a23416dcf7d1f4c07838ffec0de1f128d0e08fa84a231f9b7",
+        "prior_budget_seconds": 636,
+        "new_pending_budget_seconds": 2400,
+        "cumulative_seconds": 946.29,
+        "cumulative_exceeds_new_pending_budget": false,
+        "cold_start_budget_feasibility": "not established",
+        "not_a_cold_run": true,
+        "source_chunk_atomicity_checked": true
+      }
+    }
+  },
+  "main25_reason_counts": {
+    "gl": {
+      "scored_exact_smiles": 1039,
+      "scored_official_alias": 61,
+      "candidate_not_sent": 25,
+      "unsupported_observed_adduct": 50,
+      "query_not_sent_despite_supported_observed_adduct": 25
+    },
+    "ice": {
+      "scored_exact_smiles": 1064,
+      "scored_official_alias": 61,
+      "candidate_not_sent": 25,
+      "unsupported_observed_adduct": 50
+    }
+  },
+  "main25_missing_queries": {
+    "gl": 12,
+    "ice": 11
+  },
+  "retrieved_union_total_identities": 7045,
+  "retrieved_not_sent_total_identities": {
+    "gl": 4346,
+    "ice": 4166
+  },
+  "gl_missing_na": {
+    "queries": 12,
+    "spectra": 17,
+    "candidate_rows": 1030,
+    "candidate_spectrum_pairs": 1511,
+    "new_gl_queries": 1,
+    "query_sidecar": [
+      {
+        "molecule_id": "cross_JIZXTXDQGNQBTA",
+        "spectra": 1,
+        "candidates": 93,
+        "original_ice_candidate_sha256": "a37183c62a1f859ec685110d8aba06148c62a045ed52782f2e53636f272fde16",
+        "candidate_source": "unchanged original ICE input candidate list",
+        "prior_gl_query_present": true,
+        "truth_in_main25": true,
+        "truth_in_retrieved_union": true,
+        "final_top1_correct": true,
+        "final_truth_rank": 1
+      },
+      {
+        "molecule_id": "cross_NOFOAYPPHIUXJR",
+        "spectra": 1,
+        "candidates": 108,
+        "original_ice_candidate_sha256": "c4ba524624dd0533cf9dc63bbbb835c3aa9848927791c57d2d01560ec505d08e",
+        "candidate_source": "unchanged original ICE input candidate list",
+        "prior_gl_query_present": true,
+        "truth_in_main25": true,
+        "truth_in_retrieved_union": true,
+        "final_top1_correct": false,
+        "final_truth_rank": 8
+      },
+      {
+        "molecule_id": "cross_XSOKPIZATJBJPO",
+        "spectra": 1,
+        "candidates": 32,
+        "original_ice_candidate_sha256": "b2032920cd31b033a5216a0e9cd18189f61cabea8c4a02ace1bf59a388e12b65",
+        "candidate_source": "unchanged original ICE input candidate list",
+        "prior_gl_query_present": true,
+        "truth_in_main25": true,
+        "truth_in_retrieved_union": true,
+        "final_top1_correct": true,
+        "final_truth_rank": 1
+      },
+      {
+        "molecule_id": "np_CTRLABGOLIVAIY",
+        "spectra": 1,
+        "candidates": 97,
+        "original_ice_candidate_sha256": "30e5907b06a894a48e8aa6117ea40c12f08e2f8a6f7f8642262c197c54e78286",
+        "candidate_source": "unchanged original ICE input candidate list",
+        "prior_gl_query_present": true,
+        "truth_in_main25": true,
+        "truth_in_retrieved_union": true,
+        "final_top1_correct": true,
+        "final_truth_rank": 1
+      },
+      {
+        "molecule_id": "np_DBEPLOCGEIEOCV",
+        "spectra": 1,
+        "candidates": 48,
+        "original_ice_candidate_sha256": "7f9bcdd53f3a77a7cb60bc979e0a46ec4bea76e000b901d1509f30f673187849",
+        "candidate_source": "unchanged original ICE input candidate list",
+        "prior_gl_query_present": true,
+        "truth_in_main25": true,
+        "truth_in_retrieved_union": true,
+        "final_top1_correct": true,
+        "final_truth_rank": 1
+      },
+      {
+        "molecule_id": "np_DOUMFZQKYFQNTF",
+        "spectra": 4,
+        "candidates": 95,
+        "original_ice_candidate_sha256": "35e49547524aecd34c3589b6abf570cff1dbecf228586eeb1d7b8270eb068006",
+        "candidate_source": "unchanged original ICE input candidate list",
+        "prior_gl_query_present": false,
+        "truth_in_main25": true,
+        "truth_in_retrieved_union": true,
+        "final_top1_correct": true,
+        "final_truth_rank": 1
+      },
+      {
+        "molecule_id": "np_DUXQKCCELUKXOE",
+        "spectra": 2,
+        "candidates": 99,
+        "original_ice_candidate_sha256": "740b82911fde0d53731f1fe0122faa099689619fc112b3663001c8cc46226005",
+        "candidate_source": "unchanged original ICE input candidate list",
+        "prior_gl_query_present": true,
+        "truth_in_main25": true,
+        "truth_in_retrieved_union": true,
+        "final_top1_correct": true,
+        "final_truth_rank": 1
+      },
+      {
+        "molecule_id": "np_HSMPDPBYAYSOBC",
+        "spectra": 1,
+        "candidates": 92,
+        "original_ice_candidate_sha256": "bbded0db379739acd6b51e3a31b91a3d3c22608fd7fcf32acb47775d8fe137e3",
+        "candidate_source": "unchanged original ICE input candidate list",
+        "prior_gl_query_present": true,
+        "truth_in_main25": true,
+        "truth_in_retrieved_union": true,
+        "final_top1_correct": true,
+        "final_truth_rank": 1
+      },
+      {
+        "molecule_id": "np_JYGXADMDTFJGBT",
+        "spectra": 1,
+        "candidates": 111,
+        "original_ice_candidate_sha256": "af27c2b2cecf9b2c3e39bf28d6ba435f9da704e2f5c61e5cb3d6f0dee41fa89f",
+        "candidate_source": "unchanged original ICE input candidate list",
+        "prior_gl_query_present": true,
+        "truth_in_main25": true,
+        "truth_in_retrieved_union": true,
+        "final_top1_correct": true,
+        "final_truth_rank": 1
+      },
+      {
+        "molecule_id": "np_MBRLOUHOWLUMFF",
+        "spectra": 2,
+        "candidates": 97,
+        "original_ice_candidate_sha256": "2bc20a360f4dfc777a2b7105f6b3a78cba9bea6dc8589b1234cc0d155703c5c6",
+        "candidate_source": "unchanged original ICE input candidate list",
+        "prior_gl_query_present": true,
+        "truth_in_main25": true,
+        "truth_in_retrieved_union": true,
+        "final_top1_correct": true,
+        "final_truth_rank": 1
+      },
+      {
+        "molecule_id": "np_RZGFUGXQKMEMOO",
+        "spectra": 1,
+        "candidates": 94,
+        "original_ice_candidate_sha256": "cd32f8d16c59fb28e5679941648281930edbbaae027d1e614e3af8cdcf69d256",
+        "candidate_source": "unchanged original ICE input candidate list",
+        "prior_gl_query_present": true,
+        "truth_in_main25": true,
+        "truth_in_retrieved_union": true,
+        "final_top1_correct": true,
+        "final_truth_rank": 1
+      },
+      {
+        "molecule_id": "np_XKLMZUWKNUAPSZ",
+        "spectra": 1,
+        "candidates": 64,
+        "original_ice_candidate_sha256": "0c49e9b89eee59c6fcc698bf67d2731dc340d09a63b55bb54bedb55a6cdae55d",
+        "candidate_source": "unchanged original ICE input candidate list",
+        "prior_gl_query_present": true,
+        "truth_in_main25": true,
+        "truth_in_retrieved_union": true,
+        "final_top1_correct": true,
+        "final_truth_rank": 1
+      }
+    ]
+  },
+  "checkpoint": {
+    "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-glacier/ckpt/glacier.pt",
+    "sha256": "9192e4c2eeafe83317d5a2c2641e1fc4d68934488757a4faafeb66f2ab397a12",
+    "inspected_tensors": true,
+    "hyper_parameters": {
+      "frag_decoder_layers": 4,
+      "frag_encoder_layers": 0,
+      "frag_dropout": 0.1,
+      "node_feats": 88,
+      "edge_feats": 28,
+      "multi_hop_max_dist": 10,
+      "num_edge_dis": 10,
+      "max_breakpoints": 200,
+      "embed_adduct": true,
+      "embed_collision": true,
+      "embed_elem_group": true,
+      "embed_instrument": true,
+      "encode_forms": true,
+      "linsat_tau": 15.0,
+      "max_broken_bonds": 6,
+      "pe_embed_k": 14,
+      "enable_aux_loss": true,
+      "enable_decoder_norm": false,
+      "inten_decoder_layers": 4,
+      "inten_encoder_layers": 3,
+      "inten_dropout": 0.1,
+      "inten_loss_fn": "cosine",
+      "sk_tau": 0.05,
+      "ppm_tol": 20,
+      "contr_weight": 1.0,
+      "contr_threshold": 0.5,
+      "contr_loss_fn": "entropy",
+      "inten_weight": 1.0,
+      "frag_weight": 0.1,
+      "graphormer_dropout": 0.1,
+      "graphormer_layers": 5,
+      "hidden_size": 256,
+      "magma_warmup_steps": 2500,
+      "magma_decay_rate": 0.9,
+      "magma_decay_steps": 2500,
+      "lr": 0.0004,
+      "lr_decay_rate": 0.9,
+      "weight_decay": 0.0,
+      "warmup": 2000,
+      "num_bins": 150000,
+      "upper_limit": 1500
+    },
+    "adduct_embedder_shape": [
+      14,
+      22
+    ],
+    "na_index": 1,
+    "na_row_finite": true,
+    "na_row_values": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "model_instantiated": false,
+    "inference_performed": false
+  },
+  "support_evidence": {
+    "runner": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-glacier/gl_runner.py",
+    "runner_sha256": "5c4f74313ac54263d05d987c39d012d81ec57c5f35e1095ecd49a5bcb6440fca",
+    "runner_supported_adducts": [
+      "[M+H]+",
+      "[M+Na]+"
+    ],
+    "na_mapping_source": "src/ms_pred/common/chem_utils.py ion2onehot_pos maps [M+Na]+ to 1",
+    "actual_model_lookup": "src/ms_pred/glacier/joint_model.py indexes adduct_embedder[adducts.long()]",
+    "caveat": "Representable and accepted by code/checkpoint; accuracy on Na is not established until new inference/evaluation"
+  },
+  "unknowns": [
+    "Retrieval logs are downstream logged candidate stages; these are not a complete enumeration of every original database row.",
+    "Finite forward score coverage does not prove that later ranking consumes it or that more coverage improves ranks.",
+    "Runtime/model missing is inferred only when a submitted candidate has eligible input spectrum and no finite score; no individual failure cause is invented.",
+    "This audit is on the old Flex48 diagnostic run, not a full reproduction of the 0.481 hidden MASS execution.",
+    "Checkpoint representability is not evidence about the number or quality of Na examples used in its pretraining."
+  ]
+}

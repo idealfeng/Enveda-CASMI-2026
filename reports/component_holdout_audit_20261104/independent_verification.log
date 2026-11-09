@@ -1,0 +1,161 @@
+{
+  "status": "verified",
+  "official_metric_source_sha256": "bf8535f01bf73268a52819b38e7f6b205e37ec127c268e48081b780a10b609dd",
+  "official_scores": {
+    "baseline": 0.7822916666666667,
+    "treatment": 0.7997767857142857
+  },
+  "all_output_hashes_match_run_receipt": true,
+  "fixed_top25_identity_sets_equal": true,
+  "candidate_recall": 0.96875,
+  "missing_from_retrieval": [
+    {
+      "molecule_id": "component_HIQKXJJFHLCCFB",
+      "identity": "HIQKXJJFHLCCFB",
+      "panel": "cross_component",
+      "source": "gnps;massbank",
+      "baseline_rank": null,
+      "treatment_rank": null,
+      "delta_rr": 0,
+      "retrieved": false,
+      "retrieved_candidates": 1,
+      "fixed_candidates": 1,
+      "truth_formula": "C57H106O6",
+      "baseline_top1_formula": "C56H102O7",
+      "treatment_top1_formula": "C56H102O7",
+      "ranking_changed": false,
+      "top1_changed": false
+    }
+  ],
+  "retrieved_but_truncated_out_of_fixed25": [
+    {
+      "molecule_id": "component_YYWZKGZIIKPPJZ",
+      "identity": "YYWZKGZIIKPPJZ",
+      "panel": "cross_component",
+      "source": "massbank",
+      "baseline_rank": null,
+      "treatment_rank": null,
+      "delta_rr": 0,
+      "retrieved": true,
+      "retrieved_candidates": 142,
+      "fixed_candidates": 25,
+      "truth_formula": "C10H18O",
+      "baseline_top1_formula": "C10H18O",
+      "treatment_top1_formula": "C10H18O",
+      "ranking_changed": true,
+      "top1_changed": false
+    }
+  ],
+  "ranking_changed_molecules": 29,
+  "top1_changed_molecules": 1,
+  "paired_contributions": {
+    "overall": {
+      "n": 32,
+      "improved": 2,
+      "worsened": 0,
+      "unchanged_truth_rank": 30,
+      "delta": 0.017485119047619048,
+      "ci": [
+        0.0,
+        0.04873511904761905
+      ]
+    },
+    "cross_component": {
+      "n": 29,
+      "improved": 2,
+      "worsened": 0,
+      "unchanged_truth_rank": 27,
+      "delta": 0.01929392446633826,
+      "ci": [
+        0.0,
+        0.05582922824302135
+      ]
+    },
+    "np_public_development": {
+      "n": 3,
+      "improved": 0,
+      "worsened": 0,
+      "unchanged_truth_rank": 3,
+      "delta": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "spectrum_source_counts": {
+    "enveda-180": 67,
+    "pluskal_ms2": 29,
+    "gnps": 17,
+    "massbank": 12,
+    "enveda-np-examples": 8,
+    "riken": 3,
+    "drug_plus": 2,
+    "msdial": 1
+  },
+  "model_input_contract_matches_frozen_plan": true,
+  "recall_miss_mass_diagnostics": [
+    {
+      "molecule_id": "component_HIQKXJJFHLCCFB",
+      "truth_exact_mass": 886.798941112,
+      "observed_neutral_mass_median": 886.76617444682,
+      "median_mass_error_ppm": -36.9493733708481,
+      "query_observed_precursors": [
+        {
+          "adduct": "[M+NH4]+",
+          "precursor_mz": 904.8,
+          "ingest_lib": "gnps"
+        },
+        {
+          "adduct": "[M+NH4]+",
+          "precursor_mz": 904.8,
+          "ingest_lib": "massbank"
+        }
+      ],
+      "exact_declared_identity_pool_rows": [
+        {
+          "key": "HIQKXJJFHLCCFB",
+          "mass": 886.798941112,
+          "smiles": "CCCCCCCCCCCCCC=CCCC(=O)OCC(COC(=O)CCCCCCCCCCCCCCCCC)OC(=O)CCC=CCCCCCCCCCCCCC"
+        }
+      ],
+      "scope": "Pool key check is declared-key lookup, not exhaustive equivalence search over the entire pool."
+    }
+  ]
+}
+CHANGED [
+  {
+    "molecule_id": "component_ZBQJHZDILQUELR",
+    "identity": "ZBQJHZDILQUELR",
+    "panel": "cross_component",
+    "source": "pluskal_ms2",
+    "baseline_rank": 2,
+    "treatment_rank": 1,
+    "delta_rr": 0.5,
+    "retrieved": true,
+    "retrieved_candidates": 71,
+    "fixed_candidates": 25,
+    "truth_formula": "C15H19NO4S",
+    "baseline_top1_formula": "C15H19NO4S",
+    "treatment_top1_formula": "C15H19NO4S",
+    "ranking_changed": true,
+    "top1_changed": true
+  },
+  {
+    "molecule_id": "component_OAZGQWMFODAEEV",
+    "identity": "OAZGQWMFODAEEV",
+    "panel": "cross_component",
+    "source": "gnps;pluskal_ms2",
+    "baseline_rank": 12,
+    "treatment_rank": 7,
+    "delta_rr": 0.05952380952380952,
+    "retrieved": true,
+    "retrieved_candidates": 35,
+    "fixed_candidates": 25,
+    "truth_formula": "C8H6N2O2",
+    "baseline_top1_formula": "C8H6N2O2",
+    "treatment_top1_formula": "C8H6N2O2",
+    "ranking_changed": true,
+    "top1_changed": false
+  }
+]

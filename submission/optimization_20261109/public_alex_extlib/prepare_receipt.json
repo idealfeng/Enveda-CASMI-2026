@@ -1,0 +1,11 @@
+{
+  "status": "prepared",
+  "branch": "public_alex_extlib",
+  "target": "stormseye/casmi26-public-alex-extlib-1109",
+  "version": 1,
+  "notebook_sha256": "1838e7c7c07177b7e6976c9b4c1e9c566769b2c88c2a699ce002bffa174dbbee",
+  "metadata_sha256": "f45fb0e45dbbba76f6675f140179999ee39899b13c3e95c2ba0fdaac9ea0de88",
+  "recipe_sha256": "d1d5492bfe78e367948d8c9c39c1a0b60cff07fac1a4176a5a94c374c5de4741",
+  "static_review_path": "submission/optimization_20261109/public_alex_extlib/static_review.json",
+  "validation_mode": "fast_static"
+}

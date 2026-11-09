@@ -1,0 +1,33 @@
+{
+  "id": 142449131,
+  "ref": "d1m4official/enveda-0480-ensemble-hardened",
+  "title": "enveda-0480-ensemble-hardened",
+  "current_version_number": 1,
+  "last_run_time": "2026-11-03 16:27:54.567000",
+  "total_votes": 17,
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_data_sources": [
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "sanpier/catalogue-experiment-saner",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [
+    "deleted/142141665"
+  ],
+  "competition_data_sources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "model_data_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+  "machine_shape": "NvidiaTeslaT4",
+  "source_sha256": "7780631f63b07663792b7e47c06585c7d3799e1e2ad9755698657aa4b2959d7f",
+  "source_bytes": 678870,
+  "source_path": "third_party\\public_scan_d1m4official__enveda-0480-ensemble-hardened_20261107\\source.ipynb"
+}

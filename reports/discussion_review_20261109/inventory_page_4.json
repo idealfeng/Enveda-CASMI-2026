@@ -1,0 +1,174 @@
+{
+  "topics": [
+    {
+      "id": 749397,
+      "title": "Clarification on Section 2.5.a.3: pretrained checkpoints loaded at inference",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/749397",
+      "commentCount": 1,
+      "postDate": "2026-10-14T20:24:17.757Z",
+      "lastCommentPostDate": "2026-10-26T19:30:04.323Z"
+    },
+    {
+      "id": 749251,
+      "title": "Stuck in 0.440 and teammate hiring",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/749251",
+      "commentCount": 16,
+      "votes": 2,
+      "postDate": "2026-10-14T14:09:05.070Z",
+      "lastCommentPostDate": "2026-10-17T00:02:21.803Z"
+    },
+    {
+      "id": 749217,
+      "title": "Compliance: is the approved-dataset list exhaustive, and does \"trained on NIST\" reach models whose training corpus CONTAINS NIST-derived data?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/749217",
+      "commentCount": 9,
+      "postDate": "2026-10-14T10:57:36.311Z",
+      "lastCommentPostDate": "2026-10-19T17:29:23.960Z"
+    },
+    {
+      "id": 749209,
+      "title": "Is using PubChem (structures and metadata) allowed as external data?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/749209",
+      "commentCount": 2,
+      "postDate": "2026-10-14T10:01:32.621Z",
+      "lastCommentPostDate": "2026-10-14T18:38:54.863Z"
+    },
+    {
+      "id": 748882,
+      "title": "Consolidated open questions before final selection: reproducibility of official checkpoints, TabPFN / FRIGID, PubChem counts, scorer behaviour (yes/no is enough)",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/748882",
+      "commentCount": 20,
+      "votes": 4,
+      "postDate": "2026-10-13T13:02:08.662Z",
+      "lastCommentPostDate": "2026-11-05T10:33:58.676Z"
+    },
+    {
+      "id": 748799,
+      "title": "Is a model pretrained only on public MassIVE/GNPS data allowed if its authors monitored a NIST20 probe during pretraining?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/748799",
+      "commentCount": 2,
+      "postDate": "2026-10-13T05:00:59.945Z",
+      "lastCommentPostDate": "2026-10-13T07:57:17.610Z"
+    },
+    {
+      "id": 748552,
+      "title": "Are the four approved sources meant to extend coverage beyond PubChem?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/748552",
+      "commentCount": 2,
+      "votes": -2,
+      "postDate": "2026-10-12T13:56:47.790Z",
+      "lastCommentPostDate": "2026-10-14T11:45:42.216Z"
+    },
+    {
+      "id": 748540,
+      "title": "COCONUT natural products with Morgan + MACCS fingerprints (no pickle)",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/748540",
+      "postDate": "2026-10-12T12:59:56.974Z",
+      "lastCommentPostDate": "2026-10-12T12:59:56.973Z"
+    },
+    {
+      "id": 748524,
+      "title": "Validation stragegy",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/748524",
+      "commentCount": 2,
+      "votes": 13,
+      "postDate": "2026-10-12T12:07:10.022Z",
+      "lastCommentPostDate": "2026-10-15T08:34:41.353Z"
+    },
+    {
+      "id": 748363,
+      "title": "Licence clarification for CC-BY-NC-SA external datasets",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/748363",
+      "commentCount": 1,
+      "votes": 2,
+      "postDate": "2026-10-11T17:48:38.639Z",
+      "lastCommentPostDate": "2026-10-13T07:46:35.620Z"
+    },
+    {
+      "id": 748357,
+      "title": "Rule 2.4.b: does a model trained on MassSpecGym (MIT) count as redistribution of competition data?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/748357",
+      "commentCount": 1,
+      "votes": 1,
+      "postDate": "2026-10-11T17:28:59.442Z",
+      "lastCommentPostDate": "2026-10-13T07:47:53.746Z"
+    },
+    {
+      "id": 748270,
+      "title": "Table: which datasets, data and models can be used (host answers)",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/748270",
+      "votes": 17,
+      "postDate": "2026-10-11T10:16:54.276Z",
+      "lastCommentPostDate": "2026-10-11T10:16:54.276Z"
+    },
+    {
+      "id": 748068,
+      "title": "The public notebooks' 0.43+ LB has never been validated by CV",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/748068",
+      "commentCount": 1,
+      "votes": 13,
+      "postDate": "2026-10-10T13:23:11.653Z",
+      "lastCommentPostDate": "2026-10-11T19:36:08.180Z"
+    },
+    {
+      "id": 748065,
+      "title": "Prize eligibility: shared model datasets without published training code (yes/no needed)",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/748065",
+      "commentCount": 3,
+      "votes": 5,
+      "postDate": "2026-10-10T13:08:47.113Z",
+      "lastCommentPostDate": "2026-11-04T22:18:43.680Z"
+    },
+    {
+      "id": 748029,
+      "title": "Adding valid guesses at ranks 2–25 lowers the public score?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/748029",
+      "commentCount": 5,
+      "votes": 4,
+      "postDate": "2026-10-10T10:13:26.495Z",
+      "lastCommentPostDate": "2026-10-14T20:03:29.183Z"
+    },
+    {
+      "id": 746954,
+      "title": "FYI: Rerun test dataset has been updated",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/746954",
+      "votes": 8,
+      "postDate": "2026-10-07T23:49:12.219Z",
+      "lastCommentPostDate": "2026-10-07T23:49:12.220Z"
+    },
+    {
+      "id": 746878,
+      "title": "Metric Update (RemoveStereochemistry)",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/746878",
+      "votes": 5,
+      "postDate": "2026-10-07T21:32:12.193Z",
+      "lastCommentPostDate": "2026-10-07T21:32:12.193Z"
+    },
+    {
+      "id": 746478,
+      "title": "Telling agents about the competition seems to harm their effort/performance/focus.",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/746478",
+      "postDate": "2026-10-07T08:00:37.104Z",
+      "lastCommentPostDate": "2026-10-07T08:00:37.103Z"
+    },
+    {
+      "id": 746430,
+      "title": "FRIGID checkpoints are CC BY-NC: OK to use, or do we need to retrain?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/746430",
+      "commentCount": 8,
+      "votes": 3,
+      "postDate": "2026-10-07T04:45:50.587Z",
+      "lastCommentPostDate": "2026-10-16T16:55:38.443Z"
+    },
+    {
+      "id": 746302,
+      "title": "What Do You Think the Maximum Achievable Score Will Be?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/746302",
+      "commentCount": 6,
+      "votes": 2,
+      "postDate": "2026-10-06T19:14:44.739Z",
+      "lastCommentPostDate": "2026-11-09T02:48:05.936Z"
+    }
+  ],
+  "totalCount": 154
+}

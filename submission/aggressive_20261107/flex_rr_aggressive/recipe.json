@@ -1,0 +1,24 @@
+{
+  "branch": "flex_rr_aggressive",
+  "target": "stormseye/casmi26-flex-rr-aggressive-1107",
+  "base": "original Flex V56",
+  "base_sha256": "0ebc86ad851fe7051e592fb268756e686ee21b9ddbe90012335096a349bd2769",
+  "component": "Roman V17 embedded 102-feature isomer LightGBM",
+  "component_source_sha256": "5bdea66bc23d299d9349122c9403a238e952bc91d356dffbe95d562e00553726",
+  "changes": {
+    "RR8": true,
+    "RR8_ALPHA": 1.5,
+    "RR8_LIB_TAU": 0.95,
+    "RR8_BUDGET_SECONDS": 2700,
+    "MASS_ON": false,
+    "top1_changes": "Allowed for movable non-training structures below the library threshold"
+  },
+  "neural": "original public Saner only",
+  "prior": "original V56 0.10/0.05/0.02, gate 0.87",
+  "validation_mode": "fast_static",
+  "new_training": false,
+  "locked_final_used": false,
+  "features_sha": "aec9012e72324095308af81c1408aa36f6a44cb00f6d4389e87529a68329d176",
+  "overlay_sha": "e83b7986c46d0ef02bc6cfde17e891c9e7ee66a0eed8c716f5e3474e5663ccf7",
+  "model_sha": "3b80e1c9adf90721c99bb4e817a05379dd8b26e0988a001bd112330a66d9122b"
+}

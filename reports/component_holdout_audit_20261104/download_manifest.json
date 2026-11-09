@@ -1,0 +1,109 @@
+{
+  "purpose": "Small component training-scope audit; no raw spectra/cache downloads or training",
+  "dependencies": [
+    {
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "files": [
+        {
+          "name": "casmi_spectrum_model_v1/best_validation_model.pt",
+          "bytes": 11873492
+        },
+        {
+          "name": "casmi_spectrum_model_v1/data_audit.json",
+          "bytes": 1256
+        },
+        {
+          "name": "casmi_spectrum_model_v1/environment.json",
+          "bytes": 212
+        },
+        {
+          "name": "casmi_spectrum_model_v1/inference.py",
+          "bytes": 2694
+        },
+        {
+          "name": "casmi_spectrum_model_v1/molecules.parquet",
+          "bytes": 12176141
+        },
+        {
+          "name": "casmi_spectrum_model_v1/prepare.py",
+          "bytes": 5797
+        },
+        {
+          "name": "casmi_spectrum_model_v1/refit_history.json",
+          "bytes": 2187
+        },
+        {
+          "name": "casmi_spectrum_model_v1/sha256.json",
+          "bytes": 1818
+        },
+        {
+          "name": "casmi_spectrum_model_v1/spectrum_split_manifest.parquet",
+          "bytes": 7034971
+        },
+        {
+          "name": "casmi_spectrum_model_v1/train.py",
+          "bytes": 11003
+        },
+        {
+          "name": "casmi_spectrum_model_v1/training_history.json",
+          "bytes": 3193
+        },
+        {
+          "name": "casmi_spectrum_model_v1/training_result.json",
+          "bytes": 390
+        }
+      ]
+    },
+    {
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "version": 5,
+      "files": [
+        {
+          "name": "MANIFEST_20261019.json",
+          "bytes": 5578
+        },
+        {
+          "name": "MANIFEST_FIVEFOLD.json",
+          "bytes": 9013
+        },
+        {
+          "name": "README.md",
+          "bytes": 6597
+        },
+        {
+          "name": "SHA256SUMS_FIVEFOLD.txt",
+          "bytes": 4890
+        },
+        {
+          "name": "SOURCE_CHECK_20261019.md",
+          "bytes": 1351
+        },
+        {
+          "name": "SPLIT_AUDIT.json",
+          "bytes": 1337
+        },
+        {
+          "name": "check_inputs_fold0.json",
+          "bytes": 116402
+        },
+        {
+          "name": "identity_audit.json",
+          "bytes": 41499
+        },
+        {
+          "name": "make_split.py",
+          "bytes": 1438
+        },
+        {
+          "name": "split.parquet",
+          "bytes": 2204455
+        },
+        {
+          "name": "train_fpnet.py",
+          "bytes": 9744
+        }
+      ]
+    }
+  ]
+}

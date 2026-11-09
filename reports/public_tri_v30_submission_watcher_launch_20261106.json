@@ -1,0 +1,10 @@
+﻿{
+    "launcher_pid":  21868,
+    "launched_at_utc":  "2026-11-06T08:22:03.5838194Z",
+    "target":  "stormseye/casmi26-public-tri-v30",
+    "version":  1,
+    "submission_ref":  58051406,
+    "read_only":  true,
+    "max_hours":  12,
+    "actual_child_pid":  "Inspect watcher state pid after startup"
+}

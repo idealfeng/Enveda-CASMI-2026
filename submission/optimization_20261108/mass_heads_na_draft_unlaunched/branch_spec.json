@@ -1,0 +1,68 @@
+{
+  "name": "mass_heads_na",
+  "target": "stormseye/casmi26-mass-heads-na-1108",
+  "version": 1,
+  "stage_dir": "submission/optimization_20261108/mass_heads_na",
+  "notebook_sha256": "7f79886c4c973b016e7b46324f0a640e8d0fb1c9e3d256ead94aeb34ceaa8af5",
+  "metadata_sha256": "b2e709187d56f9f93052b6253e683f0fcf67491b6427b76df59e031a8fe553b1",
+  "description": "CASMI26 20261108 heads_na trained multispectrum head audited V1",
+  "validation_mode": "fast_static",
+  "static_review_path": "submission/optimization_20261108/mass_heads_na/static_review.json",
+  "required_runtime_audits": [
+    {
+      "name": "batch_variant_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "mass_gl_na",
+        "mode": "fast_static",
+        "recipe_sha256": "0e328c2d4df45ac3253fdcb47d1987a6da58dc99b981f5b9d58a1bb2aa140776"
+      },
+      "required_true_checks": [
+        "mass_recipe",
+        "original_public_priors",
+        "official_rdkit",
+        "public_model_pins",
+        "ours_model_pins",
+        "lotus_pin",
+        "csv_schema_ids",
+        "csv_counts",
+        "fast_no_model"
+      ]
+    },
+    {
+      "name": "na_variant_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "mass_gl_na",
+        "mode": "fast_static",
+        "recipe_sha256": "0e328c2d4df45ac3253fdcb47d1987a6da58dc99b981f5b9d58a1bb2aa140776"
+      },
+      "required_true_checks": [
+        "original_mass_observer",
+        "explicit_runtime_adapter",
+        "original_frozen_source_pin",
+        "original_physical_source_pin",
+        "fast_static_explicit"
+      ]
+    },
+    {
+      "name": "learned_head_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "mass_heads_na",
+        "mode": "fast_static",
+        "recipe_sha256": "c7826abeed0abb2f1daa7eae741a62d9ad8caa7fe50cf11fb720ba87c369f9f0"
+      },
+      "required_true_checks": [
+        "base_mass_audit",
+        "head_scorer_source_pin",
+        "head_model_source_pin",
+        "original_scorer_source_pin",
+        "runtime_manifest_pin",
+        "trained_checkpoint_pins",
+        "base_mass_configuration",
+        "fast_no_model_claim"
+      ]
+    }
+  ]
+}

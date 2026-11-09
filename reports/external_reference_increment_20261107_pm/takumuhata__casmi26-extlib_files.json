@@ -1,0 +1,26 @@
+[
+  {
+    "name": "coconut_index.parquet",
+    "total_bytes": 41851716
+  },
+  {
+    "name": "ext_fp_keys.parquet",
+    "total_bytes": 2201107
+  },
+  {
+    "name": "ext_in.npy",
+    "total_bytes": 102770816
+  },
+  {
+    "name": "ext_mass.parquet",
+    "total_bytes": 7979821
+  },
+  {
+    "name": "ext_meta.parquet",
+    "total_bytes": 7120766
+  },
+  {
+    "name": "ext_mz.npy",
+    "total_bytes": 102770816
+  }
+]

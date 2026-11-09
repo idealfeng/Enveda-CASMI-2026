@@ -1,0 +1,11 @@
+{
+  "status": "prepared",
+  "branch": "public_mass_repro",
+  "target": "stormseye/casmi26-public-mass-repro-1107",
+  "version": 1,
+  "notebook_sha256": "2bf3c51c8703956f80892d478b0de77747f90a8228bf275399d793666e5a1ea6",
+  "metadata_sha256": "fe7539e77b6bb559426a7bec9f084cd3e21729faff0dd1fe572a77d7dfbe0e0a",
+  "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149",
+  "static_review_path": "submission\\aggressive_20261107\\public_mass_repro\\static_review.json",
+  "validation_mode": "fast_static"
+}

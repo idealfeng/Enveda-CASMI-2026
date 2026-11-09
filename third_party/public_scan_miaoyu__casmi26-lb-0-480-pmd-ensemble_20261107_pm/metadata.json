@@ -1,0 +1,32 @@
+{
+  "id": 142431394,
+  "ref": "miaoyu/casmi26-lb-0-480-pmd-ensemble",
+  "title": "CASMI26 LB 0.480 PMD Ensemble",
+  "current_version_number": 6,
+  "last_run_time": "2026-11-04 06:39:50.553000",
+  "total_votes": 2,
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_data_sources": [
+    "",
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "sanpier/catalogue-experiment-saner",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [],
+  "competition_data_sources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "model_data_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:de153e6d303881930c51286216393d56f56b26458d0661350305a1e8144eea01",
+  "machine_shape": "NvidiaTeslaT4",
+  "source_sha256": "9eaf6dc85a4cab8d79071f6145d45def06a06159f2e8f48fe39d5ee52385dba9",
+  "source_bytes": 798862,
+  "source_path": "third_party\\public_scan_miaoyu__casmi26-lb-0-480-pmd-ensemble_20261107_pm\\source.ipynb"
+}

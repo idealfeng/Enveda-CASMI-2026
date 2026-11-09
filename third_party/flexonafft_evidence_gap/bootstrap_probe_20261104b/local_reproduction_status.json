@@ -1,0 +1,80 @@
+{
+  "upstream": "flexonafft/casmi26-closing-the-evidence-gap",
+  "version": "v56",
+  "original_notebook_sha256": "0ebc86ad851fe7051e592fb268756e686ee21b9ddbe90012335096a349bd2769",
+  "original_frozen_sha256": "d1e757c2b71b46e6e8a5777f14302a4737d0fdbcd56d8365093c039b93c5fd88",
+  "adapted_frozen_sha256": "7e07d7d4efb5ed6b4cb82d8c775b38ebaed25ed67210b6f0daf7ba8afd14f5cf",
+  "original_module_sha256": {
+    "runner.py": "86b74f3b4cd5767a2cbe1d291735c292b66b4fbf286a705c6cb777a1865883db",
+    "export_evidence.py": "d4ec36a9f6216d2607fff4f481bc465dbc8fbc616ec4b24f12932e4c5e546e19",
+    "neural_scores.py": "cb9e4d6732992e3310e951533fd0c644d3b515134ad03768c35e5a86551267d2",
+    "submission.py": "d0027a893b1bfefe8066ede4f625c584fe0d4fa16bfe4bee32265ef34a7f007c",
+    "ranking.py": "6f909cd7e41e88387c23109b93dd590885d2283509804279a58c624a758987d7",
+    "bundle.py": "8595ef16ead9c9e6ac34a3398bff4b748f5668cdc517c396be18100a5b745cea",
+    "consensus.py": "9e67ab49a852404587e62ca84e0fc551d70ce68ec8f7a47739aada6ca08d3989",
+    "outsiders.py": "4dcf6c2b9c9b7be3ac8f7a616683495430fcb4e0c25b449684d132daaa8e7b5c"
+  },
+  "adapted_module_sha256": {
+    "runner.py": "86b74f3b4cd5767a2cbe1d291735c292b66b4fbf286a705c6cb777a1865883db",
+    "export_evidence.py": "d4ec36a9f6216d2607fff4f481bc465dbc8fbc616ec4b24f12932e4c5e546e19",
+    "neural_scores.py": "cb9e4d6732992e3310e951533fd0c644d3b515134ad03768c35e5a86551267d2",
+    "submission.py": "d0027a893b1bfefe8066ede4f625c584fe0d4fa16bfe4bee32265ef34a7f007c",
+    "ranking.py": "6f909cd7e41e88387c23109b93dd590885d2283509804279a58c624a758987d7",
+    "bundle.py": "8595ef16ead9c9e6ac34a3398bff4b748f5668cdc517c396be18100a5b745cea",
+    "consensus.py": "9e67ab49a852404587e62ca84e0fc551d70ce68ec8f7a47739aada6ca08d3989",
+    "outsiders.py": "4dcf6c2b9c9b7be3ac8f7a616683495430fcb4e0c25b449684d132daaa8e7b5c"
+  },
+  "model_pins_unchanged": {
+    "features.py": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+    "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+    "config.json": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+    "final_model.pt": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642"
+  },
+  "changes": {
+    "path_replacements": [
+      [
+        "/kaggle/working",
+        "/mnt/d/Paper/casmi/third_party/flexonafft_evidence_gap/bootstrap_probe_20261104b"
+      ],
+      [
+        "/kaggle/input",
+        "/mnt/d/Paper/casmi/third_party/flexonafft_evidence_gap/bootstrap_probe_20261104b/input_view"
+      ]
+    ],
+    "smoke_molecules": 12,
+    "preflight_allowed_locations_compared_by_realpath": true,
+    "model_bundle_view": "Regular Saner parent directories with leaf-file links, compatible with upstream Path.rglob().",
+    "io_adaptation": {
+      "shared_spec_cache": "/mnt/d/Paper/casmi/runs/shared_spec_cache",
+      "shared_cache_receipt_sha256_at_prepare": "d1f8c552a306a45a24dc5b03efbc60c4de346cf1ff8ad8f5f3a5d1a152f3c833",
+      "helper": "/mnt/d/Paper/casmi/scripts/reproduction_io.py",
+      "helper_sha256": "0b15a3008f47daed45d19b5fb2055f451e1ae2b853837c04588fb79706623f18",
+      "changes": [
+        "Reuse four verified clean-CSR files instead of rebuilding them.",
+        "Library CSR and Pool numeric arrays use module-local mmap_mode='c'.",
+        "The main train_fp_sel.npy load uses mmap_mode='c'."
+      ],
+      "algorithm_changes": false
+    },
+    "outputs_cleared": true,
+    "ranking_or_model_parameters_changed": false
+  },
+  "limitation": "Path adaptation is not yet a parity proof. Visible smoke scores are not generalization or leaderboard scores.",
+  "adapted_notebook_sha256": "1e22923e05e39f7904e10b0581e425006f099c9f14a247da048389a2f1b8937a",
+  "execution_mode": "stage-0 materialisation only; no inference",
+  "source_mode_effects": {
+    "upstream_rerun_flag_emulated": false,
+    "local_data_remains_visible_placeholder": true,
+    "active_query_count": 12,
+    "original_ice_budget_seconds": 300,
+    "original_glacier_budget_seconds": 4000,
+    "figures": "upstream smoke presentation remains enabled"
+  },
+  "python": "3.12.3",
+  "platform": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "status": "materialised",
+  "last_completed_cell": 10,
+  "elapsed_seconds": 12.626,
+  "bundle_path": "/mnt/d/Paper/casmi/third_party/flexonafft_evidence_gap/bootstrap_probe_20261104b/input_view/datasets/sanpier/casmi-spectrum-model-v1/casmi_spectrum_model_v1",
+  "last_completed_stage": "Sources, exact model pins and official RDKit bootstrap"
+}

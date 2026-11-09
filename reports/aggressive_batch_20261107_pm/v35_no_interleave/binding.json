@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-07T06:56:41.199745+00:00",
+  "target": "stormseye/casmi26-v35-no-interleave-1107pm",
+  "version": 1,
+  "actual_target": "stormseye/casmi26-v35-no-interleave-1107pm",
+  "branch_sha256": "b6af08fb488164f613f58c3ef1e381057d02f31d5ba058ce016b8486ed63f6a3",
+  "notebook_sha256": "5eea610eb49d3eb6562861eb0149e7054abb76610a600a7c9b939a2053053465",
+  "server_source_sha256": "5781da0d804da3fe69ac944e70c5bb85864a05547c36fcd19dd0b8c8f2e3fca3",
+  "checks": {
+    "target": true,
+    "version": true,
+    "private": true,
+    "offline": true,
+    "gpu": true,
+    "source_contents": true,
+    "dataset_sources": true,
+    "kernel_sources": true,
+    "competition_sources": true,
+    "no_model_source_dependencies": true
+  },
+  "session_status": "COMPLETE",
+  "failure_message_present": false,
+  "read_only": true,
+  "source_raw_bytes_equal": false,
+  "source_binding_method": "Join cell.source lists; every other Notebook JSON field must remain equal.",
+  "requested_dataset_sources": [
+    "sanpier/casmi-spectrum-model-v1/1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet/5",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table/10",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark/10",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior/13",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/9",
+    "bgunshui/casmi26-scorer-v2-model/1",
+    "qwertykeypadapple/casmi26-lotus-candidates/2"
+  ],
+  "observed_dataset_sources": [
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "bgunshui/casmi26-scorer-v2-model",
+    "qwertykeypadapple/casmi26-lotus-candidates"
+  ],
+  "requested_kernel_sources": [],
+  "observed_kernel_sources": [],
+  "numeric_source_versions_read_back": false
+}

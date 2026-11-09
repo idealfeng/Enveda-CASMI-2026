@@ -1,0 +1,19 @@
+{
+  "id": 753400,
+  "read_only": true,
+  "checked_at_utc": "2026-11-07T16:01:43.590834+00:00",
+  "topic": {
+    "id": 753400,
+    "title": "Negative result: rule-based biotransformation of spectral analogs recovers few Class 3 molecules",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/753400",
+    "postDate": "2026-10-28T02:28:37.662Z",
+    "authorName": "blaise yonga",
+    "authorUrl": "https://www.kaggle.com/blaiseyonga",
+    "votes": 2,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>I tested whether a simple generator can reach Class 3 molecules (structure in no database) and wanted to share the numbers, since the answer is mostly negative.</p>\n<p><strong>Method.</strong> For each molecule, I take the 15 nearest library molecules by spectral similarity (cosine on a spectrum vector, excluding the molecule itself and any tautomer of it). I apply 65 hand-written biotransformation rules (hydroxylation, methylation, glycosylation, hydrogenation and so on, up to 2 steps) and keep products within 10 ppm of the precursor-derived mass. Candidates are scored with the same fingerprint model as the other candidates, with a penalty so they rank below database hits.</p>\n<p><strong>Benchmark.</strong> 248 natural products from the public NP panel, with the true structure removed from the candidate pool, so it can only be found by generation. Sanity check: with the answer absent from all channels the score is exactly 0.</p>\n<p><strong>Results</strong></p>\n<table>\n<thead>\n<tr>\n<th>Analogs allowed (max Tanimoto to truth)</th>\n<th>Truth generated</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>no limit</td>\n<td>46%</td>\n</tr>\n<tr>\n<td>&lt;= 0.70</td>\n<td>32%</td>\n</tr>\n<tr>\n<td>&lt;= 0.55</td>\n<td>16.5%</td>\n</tr>\n</tbody>\n</table>\n<p>Even when the truth is generated, it ranks poorly. At a penalty of 20 the Class 3 MRR is 0.080 / 0.056 / 0.030 for the three rows above. The same penalty costs 0.004 to 0.011 MRR on molecules that are in the pool. Gating (generate only when the pool is not confident) cuts that cost but also cuts the gain.</p>\n<p><strong>Net effect.</strong> If 20% of test molecules were Class 3 (a pure guess), the expected gain is between +0.004 and +0.010 MRR. That is below the noise of the public leaderboard, so I am not using it.</p>\n<p><strong>Caveats.</strong> The panel molecules are known natural products with close analogs in train, so these numbers are optimistic for truly novel structures. I do not know the real Class 3 share in the test set.</p>\n<p>Has anyone made a generator (FRIGID, DiffMS or other) work on Class 3 with a measurable gain? I would be glad to compare notes on the validation setup.</p>"
+  },
+  "comments": [],
+  "comments_truncated": false
+}

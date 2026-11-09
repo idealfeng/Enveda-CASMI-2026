@@ -1,0 +1,16 @@
+{
+  "status": "prepared",
+  "target": "stormseye/casmi26-flex-tri-only-1107",
+  "version": 1,
+  "branch": "flex_tri_only",
+  "notebook_sha256": "dbe98b957c515c24cab8fd298914d7399ca785579f0331d2fc8b0c1d15fc901a",
+  "metadata_sha256": "09ba6d39053f0d162e16922136a4fb5ec3f9b7ba16e3fd09a141803917909a41",
+  "recipe_sha256": "92a6ad3d6133b13cb0789557bebefcac6dcb67bdf3824901e37d2b5878419423",
+  "static_review_path": "submission\\aggressive_20261107\\flex_tri_only\\static_review.json",
+  "static_review_sha256": "b6dcd435df78e97f53b01f5c600822f2eeafdb2899c3debac139ceddeaaa51b3",
+  "expected_runtime_artifact": "batch_variant_audit.json",
+  "fast_expected_mode": "fast_static",
+  "cloud_run_or_submission_performed": false,
+  "model_execution_performed": false,
+  "title_binding_note": "Creation slugs are derived from title; title now matches requested id."
+}

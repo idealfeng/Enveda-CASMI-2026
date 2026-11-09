@@ -1,0 +1,174 @@
+{
+  "topics": [
+    {
+      "id": 750330,
+      "title": "Clarification regarding permitted external data sources",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/750330",
+      "votes": 27,
+      "postDate": "2026-10-17T19:42:56.995Z",
+      "lastCommentPostDate": "2026-10-17T19:42:56.996Z",
+      "isSticky": true
+    },
+    {
+      "id": 741359,
+      "title": "Welcome to CASMI 2026!",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/741359",
+      "commentCount": 11,
+      "votes": 28,
+      "postDate": "2026-09-14T19:17:02.470Z",
+      "lastCommentPostDate": "2026-10-17T11:30:08.996Z",
+      "isSticky": true
+    },
+    {
+      "id": 740671,
+      "title": "How to get started + Competition's Official Discord",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/740671",
+      "commentCount": 18,
+      "votes": 7,
+      "postDate": "2026-09-10T18:30:44.192Z",
+      "lastCommentPostDate": "2026-10-09T08:29:32.153Z",
+      "isSticky": true
+    },
+    {
+      "id": 757152,
+      "title": "NIST-trained ICEBERG/GLACIER checkpoints and the ICEBERG atlas",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/757152",
+      "postDate": "2026-11-09T04:32:09.648Z",
+      "lastCommentPostDate": "2026-11-09T04:32:09.650Z"
+    },
+    {
+      "id": 756912,
+      "title": "Repeated \"Notebook Threw Exception\" on Hidden Reruns Despite Successful Public Execution",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/756912",
+      "commentCount": 2,
+      "postDate": "2026-11-08T04:58:35.607Z",
+      "lastCommentPostDate": "2026-11-08T18:26:34.763Z"
+    },
+    {
+      "id": 756893,
+      "title": "Are shipped ranker tables without a public generator reproducible?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/756893",
+      "votes": -1,
+      "postDate": "2026-11-08T03:14:21.978Z",
+      "lastCommentPostDate": "2026-11-08T03:14:21.980Z"
+    },
+    {
+      "id": 756741,
+      "title": "Spectrum-Structure data volume vs quantum mechanical/chemical inductive bias injection",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/756741",
+      "votes": 2,
+      "postDate": "2026-11-07T11:30:54.973Z",
+      "lastCommentPostDate": "2026-11-07T11:30:54.973Z"
+    },
+    {
+      "id": 756715,
+      "title": "An interactive viewer for spectrum → structure results (513 molecules, 3D models)",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/756715",
+      "votes": 3,
+      "postDate": "2026-11-07T09:53:47.737Z",
+      "lastCommentPostDate": "2026-11-07T09:53:47.736Z"
+    },
+    {
+      "id": 756504,
+      "title": "Open-source pipeline: identity search + analog propagation + LightGBM ranker (with notes on validation)",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/756504",
+      "commentCount": 2,
+      "votes": 7,
+      "postDate": "2026-11-06T15:25:57.784Z",
+      "lastCommentPostDate": "2026-11-07T17:11:30.143Z"
+    },
+    {
+      "id": 756064,
+      "title": "Clarification on external data licences and the visible test file",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/756064",
+      "postDate": "2026-11-05T08:50:16.528Z",
+      "lastCommentPostDate": "2026-11-05T08:50:16.530Z"
+    },
+    {
+      "id": 755965,
+      "title": "Five open mass-spec libraries as public S3 mirrors, plus a notebook that joins them",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/755965",
+      "votes": 3,
+      "postDate": "2026-11-05T01:33:27.734Z",
+      "lastCommentPostDate": "2026-11-05T01:33:27.733Z"
+    },
+    {
+      "id": 755373,
+      "title": "Some concerns about low GM participation and enforcement of the NIST restriction",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/755373",
+      "commentCount": 5,
+      "votes": 3,
+      "postDate": "2026-11-03T11:57:31.499Z",
+      "lastCommentPostDate": "2026-11-06T16:36:48.200Z"
+    },
+    {
+      "id": 755319,
+      "title": "So tired of fork..",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/755319",
+      "commentCount": 6,
+      "votes": 19,
+      "postDate": "2026-11-03T08:08:26.209Z",
+      "lastCommentPostDate": "2026-11-08T19:30:15.403Z"
+    },
+    {
+      "id": 755089,
+      "title": "Class 3 graph generation: MC isomers are different from Natural Product not because they are unstable (GFN2-xTB)",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/755089",
+      "votes": 1,
+      "postDate": "2026-11-02T19:14:34.256Z",
+      "lastCommentPostDate": "2026-11-02T19:14:34.256Z"
+    },
+    {
+      "id": 755039,
+      "title": "A meta-level reading of the private test set",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/755039",
+      "commentCount": 1,
+      "votes": 9,
+      "postDate": "2026-11-02T17:21:15.410Z",
+      "lastCommentPostDate": "2026-11-04T07:14:22.233Z"
+    },
+    {
+      "id": 754732,
+      "title": "Is EnvedaDark allowed as external data?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/754732",
+      "commentCount": 2,
+      "votes": -1,
+      "postDate": "2026-11-01T12:46:50.009Z",
+      "lastCommentPostDate": "2026-11-04T23:58:26.520Z"
+    },
+    {
+      "id": 754610,
+      "title": "Clarification on permitted external resources for final submissions",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/754610",
+      "commentCount": 2,
+      "votes": -1,
+      "postDate": "2026-10-31T18:59:44.601Z",
+      "lastCommentPostDate": "2026-11-08T07:39:33.346Z"
+    },
+    {
+      "id": 754574,
+      "title": "External data declaration — Zenodo 20042904, COCONUT, PubChem popularity prior",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/754574",
+      "votes": -3,
+      "postDate": "2026-10-31T15:46:50.473Z",
+      "lastCommentPostDate": "2026-10-31T15:46:50.473Z"
+    },
+    {
+      "id": 754292,
+      "title": "Clarification: pre-built ranker datasets without generation code (prvsiyan/ranker-features, megayak/simulated-ranker-rows)",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/754292",
+      "commentCount": 1,
+      "postDate": "2026-10-30T22:18:55.940Z",
+      "lastCommentPostDate": "2026-11-05T00:32:05.243Z"
+    },
+    {
+      "id": 754140,
+      "title": "A picture book of the training data: browse molecules in 2D/3D and compare real spectra",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/754140",
+      "votes": 9,
+      "postDate": "2026-10-30T14:01:37.679Z",
+      "lastCommentPostDate": "2026-10-30T14:01:37.680Z"
+    }
+  ],
+  "totalCount": 154
+}

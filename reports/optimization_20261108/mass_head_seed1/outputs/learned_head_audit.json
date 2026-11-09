@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "branch": "mass_head_seed1",
+  "mode": "fast_static",
+  "recipe_sha256": "e6be635827a8c1f7fbbcef958c2ec2de593d4f66378c9af5bcc9ff2a3bad82fc",
+  "checks": {
+    "base_mass_audit": true,
+    "head_scorer_source_pin": true,
+    "head_model_source_pin": true,
+    "original_scorer_source_pin": true,
+    "runtime_manifest_pin": true,
+    "trained_checkpoint_pins": true,
+    "base_mass_configuration": true,
+    "fast_no_model_claim": true
+  },
+  "head_execution": {},
+  "known_pretrained_exposure": true,
+  "new_training_in_notebook": false,
+  "actual_head_inference": false,
+  "csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0"
+}

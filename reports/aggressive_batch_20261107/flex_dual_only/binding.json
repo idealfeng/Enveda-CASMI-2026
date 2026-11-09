@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-06T16:41:44.045932+00:00",
+  "target": "stormseye/casmi26-flex-dual-only-1107",
+  "version": 1,
+  "actual_target": "stormseye/casmi26-flex-dual-neural-only",
+  "branch_sha256": "2f5ae80d6cfa66838fd8c137de8b43dea535c7cf5967914045efad85f6e3f087",
+  "notebook_sha256": "56afead5063b63f24b76c66431a733638c2913e95fe9ab3a11ed569dc3237598",
+  "server_source_sha256": "0b0be2b0d3ffddb908fb4cbc44eb28fee31637fdd4cdefcb3677a9f0b28ce607",
+  "checks": {
+    "target": true,
+    "version": true,
+    "private": true,
+    "offline": true,
+    "gpu": true,
+    "source_contents": true,
+    "dataset_sources": true,
+    "kernel_sources": true,
+    "competition_sources": true,
+    "no_model_source_dependencies": true
+  },
+  "session_status": "COMPLETE",
+  "failure_message_present": false,
+  "read_only": true,
+  "source_raw_bytes_equal": false,
+  "source_binding_method": "Join cell.source lists; every other Notebook JSON field must remain equal.",
+  "requested_dataset_sources": [
+    "sanpier/casmi-spectrum-model-v1/1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet/5",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table/10",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark/10",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior/13",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/9",
+    "bgunshui/casmi26-scorer-v2-model/1"
+  ],
+  "observed_dataset_sources": [
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "bgunshui/casmi26-scorer-v2-model"
+  ],
+  "requested_kernel_sources": [],
+  "observed_kernel_sources": [],
+  "numeric_source_versions_read_back": false
+}

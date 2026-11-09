@@ -1,0 +1,11 @@
+{
+  "url": "https://www.kaggle.com/api/v1/kernels/pull?userName=evgendvorkin&kernelSlug=enveda-casmi-2026",
+  "downloaded_at_utc": "2026-11-04T14:40:43.618485+00:00",
+  "version": 27,
+  "ref": "evgendvorkin/enveda-casmi-2026",
+  "source_sha256": "10c2c7e3e6bb33c34bafbe3ffd9d85cb4b1aa56f323ebba48b3674b3d69f9bca",
+  "api_sha256": "dd32d4e533aafb863b8e19d867ffb50f07a8779da08dfa90c11b88b11a0a957d",
+  "api_bytes": 776137,
+  "executed": false,
+  "assets_downloaded": false
+}

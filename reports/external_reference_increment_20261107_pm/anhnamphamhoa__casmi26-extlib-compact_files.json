@@ -1,0 +1,18 @@
+[
+  {
+    "name": "MANIFEST.json",
+    "total_bytes": 348
+  },
+  {
+    "name": "README.md",
+    "total_bytes": 444
+  },
+  {
+    "name": "datasets-metadata.json",
+    "total_bytes": 256
+  },
+  {
+    "name": "extlib_compact.parquet",
+    "total_bytes": 4678612
+  }
+]

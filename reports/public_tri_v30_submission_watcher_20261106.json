@@ -1,0 +1,18 @@
+{
+  "status": "finished",
+  "pid": 17756,
+  "started_at_utc": "2026-11-06T08:22:03.658581+00:00",
+  "read_only": true,
+  "target": "stormseye/casmi26-public-tri-v30",
+  "version": 1,
+  "submission_ref": 58051406,
+  "poll_interval_seconds": 45,
+  "max_seconds": 43200.0,
+  "new_run_or_submission_performed": false,
+  "checked_at_utc": "2026-11-06T13:22:51.124915+00:00",
+  "last_result_status": "COMPLETE",
+  "public_score": "0.475",
+  "public_score_available": true,
+  "last_error": null,
+  "finished_at_utc": "2026-11-06T13:22:51.124915+00:00"
+}

@@ -1,0 +1,143 @@
+{
+  "status": "read_only_static_review_completed",
+  "checked_utc": "2026-11-05T11:17:59.790296+00:00",
+  "network_calls_run_push_submit_or_keys_read": false,
+  "source": {
+    "original_notebook_sha256": "0ebc86ad851fe7051e592fb268756e686ee21b9ddbe90012335096a349bd2769",
+    "frozen_pipeline_sha256": "d1e757c2b71b46e6e8a5777f14302a4737d0fdbcd56d8365093c039b93c5fd88",
+    "original_notebook_unchanged": true
+  },
+  "hidden_route": {
+    "outer_cell": 2,
+    "inner_smoke_cell": 30,
+    "predicate": "nonempty KAGGLE_IS_COMPETITION_RERUN OR test spectrum_id signature differs from placeholder 654e030e4173780e945252b4a5adf70b",
+    "truth_table": [
+      {
+        "environment_flag_nonempty": false,
+        "signature_matches_placeholder": false,
+        "full_route": true
+      },
+      {
+        "environment_flag_nonempty": false,
+        "signature_matches_placeholder": true,
+        "full_route": false
+      },
+      {
+        "environment_flag_nonempty": true,
+        "signature_matches_placeholder": false,
+        "full_route": true
+      },
+      {
+        "environment_flag_nonempty": true,
+        "signature_matches_placeholder": true,
+        "full_route": true
+      }
+    ],
+    "only_SMOKE_N_query_slice_is_under_not_IS_RERUN": true,
+    "base_loop_uses_all_runtime_molecule_groups": true,
+    "full_postflight_asserts_processed_equals_input_ids": true,
+    "runtime_sample_ids_must_match_runtime_test_ids": true,
+    "export_and_neural_processing_follow_actual_processed_set": true,
+    "permanent_molecule_count_12_or_400_limit_found": false,
+    "static_not_full_hidden_execution_proof": true
+  },
+  "budgets": {
+    "kaggle_requested_session_seconds": 32400,
+    "visible_ice_seconds": 300,
+    "hidden_ice_seconds": 5400,
+    "gl_seconds": 4000,
+    "visible_n1_seconds": 600,
+    "hidden_n1_seconds": 1200,
+    "optional_outsider_guard_hours": 7.5,
+    "physical_post_cap_seconds": 1500,
+    "physical_deadline_hours_since_notebook_start": 8.55,
+    "physical_skip_when_remaining_seconds_below": 180,
+    "full_mode_model_coverage_note": "Frozen full-run policy permits budget-limited/partial forward scores; all molecule IDs are processed by the baseline, not every physical scorer is guaranteed complete."
+  },
+  "observed_v2_visible_run": {
+    "version": 2,
+    "session_status": "COMPLETE",
+    "log_sha256": "9723a92091983a262be3cbb59d43ef7261e723bee8d831e75633bd8cdda0480f",
+    "log_records": 71,
+    "stream_counts": {
+      "stderr": 18,
+      "stdout": 53
+    },
+    "last_log_elapsed_seconds": 1263.549031088,
+    "compact_log_explicit_error_or_restore_markers": [],
+    "visible_smoke_note_present": true,
+    "outer_neural_failure_zero_lines": [
+      "      NEURAL input failures kept at baseline: 0",
+      "      NEURAL input failures kept at baseline: 0"
+    ],
+    "provenance_disabled_is_source_configuration": true,
+    "merge_output_equal_custom_is_not_error": true,
+    "selected_completion_markers": [
+      "      NEURAL input failures kept at baseline: 0",
+      "      NEURAL input failures kept at baseline: 0",
+      "SUBMISSION READY: /kaggle/working/submission.csv molecules 400 MERGE {\"status\": \"applied\", \"rows\": 400, \"merged\": 400, \"leader_moves\": 0, \"skipped\": {}, \"skipped_leader_moves\": 0, \"output_equals_custom\": true, \"output_sha256\": \"39309f6c46d25e9c934dad8871d211ad8afebda07f4441c596714cbe7b6fd9b2\"}",
+      "SUBMISSION READY /kaggle/working/submission.csv FINAL LAYER {\"status\": \"applied\", \"input_sha256\": \"39309f6c46d25e9c934dad8871d211ad8afebda07f4441c596714cbe7b6fd9b2\", \"prior_file\": \"/kaggle/input/datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pool_popularity.csv\", \"rows\": 400, \"reordered\": 12, \"pinned\": 0, \"dup_removed\": 0, \"outsider_fills\": 0, \"top1_changed\": 0, \"changed_rows\": 12, \"output_sha256\": \"d2027d8918d15b27fa271ba4961faa63c28fa7f4efbea0dd8069ecbfe6a5060b\"}",
+      "Commit run: the counts cover the 12 visible smoke molecules; the hidden scoring rerun is not shown to anyone."
+    ],
+    "placeholder_388_note": "12 processed plus388 filler follows original visible policy; actual final CSV/counts must be verified by the separate downloaded-output audit, not inferred from400 rows alone."
+  },
+  "model_pins_expected": {
+    "features.py": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+    "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+    "config.json": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+    "final_model.pt": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642"
+  },
+  "required_artifact_evidence": {
+    "run_manifest.json": "Actual torch.cuda.get_device_name(0), forward coverage counts and merge health, not metadata accelerator echo.",
+    "e004_verification.json": "Actual nvidia-smi GPU names in preflight plus12/388 visible coverage and ICE/GL metadata; ancestor source80 labels are not executed-version identity.",
+    "submission_pipeline.log": "Inner64-files MANIFEST success and detailed engine/model outcomes hidden by compact logs.",
+    "execution_receipt.json": "Pinned inner source hash and is_full_run/processed_molecules.",
+    "v43_execution_receipt.json": "Final frozen stage receipt including counts, mounted-input inventory binding, and stage metadata.",
+    "v43_mounted_input_hashes.json": "Content fingerprints for five baseline mounts; large files use head/tail plus size, not full-file SHA.",
+    "p2s_code/bundle.py": "Mandatory stage0 checks all four MODEL_PINS hashes and exactly one matching Saner bundle; no direct dedicated pins receipt emitted.",
+    "submission_neural.log": "Actual final-list Saner scoring outcomes.",
+    "merge_report.json and final_layer_report.json": "Statuses applied and final output hash chain; source intentionally disables provenance."
+  },
+  "submission_sdk": {
+    "installed_kaggle_version": "2.2.5",
+    "method": "competition_submit_code",
+    "parameters": {
+      "file_name": "submission.csv",
+      "message": "descriptive unique claim",
+      "competition": "enveda-CASMI26-molecule-id-mass-spectra",
+      "kernel": "stormseye/casmi26-flex-v56-baseline",
+      "kernel_version": 2,
+      "quiet": true
+    },
+    "response_fields": [
+      "message:str",
+      "ref:int"
+    ],
+    "accepted_response_requires_positive_ref": true,
+    "submission_poll": "GetSubmission by returned ref, or uniquely reconcile via ListSubmissions after ambiguous POST; do not repeat POST.",
+    "submission_fields": [
+      "ref",
+      "date",
+      "description",
+      "error_description",
+      "file_name",
+      "public_score",
+      "private_score",
+      "status"
+    ],
+    "submission_status_enum": [
+      "PENDING",
+      "COMPLETE",
+      "ERROR"
+    ],
+    "public_score_available_requires": "COMPLETE and finite numeric public_score",
+    "kernel_status_is_separate_from_competition_submission_status": true,
+    "create_code_submission_has_no_idempotency_token_field": true
+  },
+  "limitations": [
+    "No hidden400 rerun has been observed by this review. Source conditional correctness is not hidden runtime completion proof.",
+    "Compact log does not expose every inner fallback/model outcome; separate small-output audit is required before accepting those claims.",
+    "Offline=false/true in server metadata is a setting; actual packet isolation is not independently probed here.",
+    "Dataset attachment version strings are not fully echoed by metadata. Mandatory content pins and mounted input fingerprints support content checks, not an invented mount-version proof."
+  ]
+}

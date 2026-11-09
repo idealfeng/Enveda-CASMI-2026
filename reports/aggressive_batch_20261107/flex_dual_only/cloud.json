@@ -1,0 +1,18 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-flex-dual-only-1107",
+  "version": 1,
+  "branch_sha256": "2f5ae80d6cfa66838fd8c137de8b43dea535c7cf5967914045efad85f6e3f087",
+  "notebook_sha256": "56afead5063b63f24b76c66431a733638c2913e95fe9ab3a11ed569dc3237598",
+  "metadata_sha256": "782d1b6ff2b249d2b2e63846f9f10130ca2a74c8147911ea84c11297cf6d47a6",
+  "requested_at_utc": "2026-11-06T16:35:39.081775+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-06T16:35:43.469676+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false,
+  "actual_target": "stormseye/casmi26-flex-dual-neural-only",
+  "reconciled_by_read_at": "2026-11-06T16:39:02.035857+00:00",
+  "reconciliation_server_source_sha256": "0b0be2b0d3ffddb908fb4cbc44eb28fee31637fdd4cdefcb3677a9f0b28ce607"
+}

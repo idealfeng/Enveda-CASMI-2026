@@ -1,0 +1,13 @@
+{
+  "related_rows_1600": true,
+  "related_ids_431": true,
+  "official_keys_match": true,
+  "unique_row_indices": true,
+  "valid_row_indices": true,
+  "hplus_1377": true,
+  "hminus_223": true,
+  "partial_explicit": true,
+  "no_peak_columns": true,
+  "no_truth": true,
+  "train_pair_catalog_exact": true
+}

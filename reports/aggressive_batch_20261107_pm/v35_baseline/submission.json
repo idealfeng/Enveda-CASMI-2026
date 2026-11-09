@@ -1,0 +1,31 @@
+{
+  "status": "accepted",
+  "target": "stormseye/casmi26-v35-baseline-1107pm",
+  "version": 1,
+  "branch_sha256": "9bc8f115b35f5f44b21479a5cf2d46809e5a62e951364766656a4bef65a8b2f8",
+  "actual_target": "stormseye/casmi26-v35-baseline-1107pm",
+  "description": "CASMI26 20261107 PM v35_baseline audited V1",
+  "competition": "enveda-CASMI26-molecule-id-mass-spectra",
+  "output_file": "submission.csv",
+  "requested_at_utc": "2026-11-07T06:52:16.176650+00:00",
+  "notebook_sha256": "79266187fc05ca98376eafa3c2e46d097f746ecbb0cd94039b2c1609abfcf223",
+  "visible_output_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "output_audit_sha256": "03065a256e3f8563f49f5d43292d8711a59805b00d160be3cf5abe967dff6636",
+  "observed_existing_refs": [
+    58021256,
+    58051406,
+    58063780,
+    58063822,
+    58063870,
+    58063883
+  ],
+  "num_allowed_before": 5,
+  "num_today_before": 0,
+  "num_total_before": 6,
+  "validation_mode": "fast_static",
+  "automatic_retry_allowed": false,
+  "submits_cloud_code_version": true,
+  "local_diagnostic_csv_uploaded": false,
+  "submission_ref": 58082815,
+  "responded_at_utc": "2026-11-07T06:52:18.725135+00:00"
+}

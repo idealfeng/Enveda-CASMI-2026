@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "role": "learned_v2",
+  "head_applied": true,
+  "encoder_sha256": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46",
+  "heads": [
+    {
+      "sha256": "47fdbb171bf54f6a25fc7d720fc28e14e5c915eccbc585dde66b7c7b68db42eb",
+      "step": 2500,
+      "seed": 20261109
+    },
+    {
+      "sha256": "4c020ea62400188c273fb2bf29fc5187d6553a54e784dd26882291bd2f0aa4ca",
+      "step": 2500,
+      "seed": 20261110
+    }
+  ],
+  "preprocessing": "unchanged original Saner features.peaks/metadata/structure",
+  "evidence_sha256": "54cca0a8cedc5e824b50d89016e691decb70ad96d9c54fdbd7534679124d3a47",
+  "queries_sha256": "e72d470fca63f27953b8ef3b03def926ee80ddc8666b198a136331a1a5a78596",
+  "output_sha256": "33f75ca48c772f9ea3fd439f299c3cbb4af16d6958e761656cf03312172a5111",
+  "input_rows": 75,
+  "output_rows": 75,
+  "scored_queries": 3,
+  "scored_candidate_rows": 75,
+  "per_query": [
+    {
+      "molecule_id": "cross_CBIAKDAYHRWZCU",
+      "candidates": 25,
+      "spectra": 11,
+      "max_abs_delta_from_mean": 0.3595161437988281
+    },
+    {
+      "molecule_id": "cross_DKZBBWMURDFHNE",
+      "candidates": 25,
+      "spectra": 11,
+      "max_abs_delta_from_mean": 0.3984241485595703
+    },
+    {
+      "molecule_id": "cross_QNUNSPMEODRLBZ",
+      "candidates": 25,
+      "spectra": 12,
+      "max_abs_delta_from_mean": 0.20351457595825195
+    }
+  ],
+  "errors": [],
+  "training_performed": false,
+  "checkpoint_evaluation_label": "known-pretrained-exposure engineering diagnostic"
+}

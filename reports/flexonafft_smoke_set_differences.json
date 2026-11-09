@@ -1,0 +1,38 @@
+[
+  {
+    "molecule_id": "m_0259d4",
+    "first_rank_difference": 16,
+    "removed": [
+      {
+        "rank": 25,
+        "smiles": "Cn1nccc1C1OCCC1NC(=O)CCn1cnc2ccccc21"
+      }
+    ],
+    "added": [
+      {
+        "rank": 24,
+        "baseline_rank": 25,
+        "smiles": "N#CCCn1cc(CN2CCOC(C(N)=O)C2)c(-c2ccccc2)n1"
+      }
+    ],
+    "local_final_same_set_as_baseline": true
+  },
+  {
+    "molecule_id": "m_043e86",
+    "first_rank_difference": 21,
+    "removed": [
+      {
+        "rank": 21,
+        "smiles": "O=C(O)C1CCN(C(=O)CS(=O)(=O)C2CCCC2)C1"
+      }
+    ],
+    "added": [
+      {
+        "rank": 21,
+        "baseline_rank": 16,
+        "smiles": "CC(C(=O)NC1C2CCC(C2)C1C(=O)O)S(C)(=O)=O"
+      }
+    ],
+    "local_final_same_set_as_baseline": true
+  }
+]

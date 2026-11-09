@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-v35-weak-prior-1107pm",
+  "version": 1,
+  "branch_sha256": "be247ab4e13bb3862e86464e0b66e17f176a989d6a1aac826a00486ab746a678",
+  "notebook_sha256": "4b318cbf898b7e03bab3ebc467d75a940b2d359cab796ebe75e4ed3abb2dc34e",
+  "metadata_sha256": "04253039372339b9756965a544fc9dd91cfcf4733583759c738eebba66e42a98",
+  "requested_at_utc": "2026-11-07T06:49:06.784732+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-07T06:49:10.818259+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": 143068753,
+  "ref": "stardjyeah/casmi26-probe",
+  "title": "casmi26 probe",
+  "current_version_number": 7,
+  "last_run_time": "2026-11-03 16:28:07.798000",
+  "total_votes": 0,
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_data_sources": [
+    "ahmedberatozer/casmi26-v3-models"
+  ],
+  "kernel_data_sources": [],
+  "competition_data_sources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "model_data_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:de153e6d303881930c51286216393d56f56b26458d0661350305a1e8144eea01",
+  "machine_shape": "NvidiaTeslaT4",
+  "source_sha256": "fca7303803f434329c6e5e136a7ef6fefae76e7a27ebf830eb472b2c2dd9cee5",
+  "source_bytes": 1612,
+  "source_path": "third_party\\public_scan_stardjyeah__casmi26-probe_20261107\\source.ipynb"
+}

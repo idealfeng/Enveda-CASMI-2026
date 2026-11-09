@@ -1,0 +1,36 @@
+{
+  "branch": "v35_robust_mass",
+  "target": "stormseye/casmi26-v35-robust-mass-1107pm",
+  "upstream": "zz3t3rn41/casmi26-peaks-to-structures-v2",
+  "upstream_version": 35,
+  "upstream_sha256": "759067bc1449427089e95b811ee49f866580590905484577fe09a143740a2842",
+  "description": "Only use median neutral mass across all observed supported adducts, with per-query fallback.",
+  "patches": [
+    "all_supported_raw_adduct_median_instead_of_first_effective_mass"
+  ],
+  "public_weight": 0.5,
+  "v2_weight": 0.5,
+  "config": {
+    "VARIANT": "CUSTOM",
+    "CUSTOM": {
+      "w_top": 0.25,
+      "w_mid": 0.75,
+      "rescue": 0
+    },
+    "COMMIT_MODE": "fast",
+    "OUTSIDER_FILL": true,
+    "POP_W": 0.1,
+    "SPEC_W": 0.1,
+    "NP_W": 0.12,
+    "LIB_HIT_GATE": 0.78,
+    "MASS_ON": true,
+    "MASS_CENTER": -1.5,
+    "MASS_FREE": 3.0,
+    "MASS_FULL": 8.0,
+    "MASS_W": 0.15
+  },
+  "validation_mode": "fast_static",
+  "known_best_anchor": 0.481,
+  "training_performed": false,
+  "locked_final_used": false
+}

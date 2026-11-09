@@ -1,0 +1,37 @@
+{
+  "branch": "mass_guarded_head_tail_1108",
+  "target": "stormseye/casmi26-mass-guarded-head-tail-1108",
+  "baseline_own_public_score": 0.481,
+  "base_source_sha256": "2bf3c51c8703956f80892d478b0de77747f90a8228bf275399d793666e5a1ea6",
+  "method": "post-MASS guarded same-formula tail ranking",
+  "protected_prefix": 7,
+  "mutable_ranks": "8..25, original same-formula slots only",
+  "all_original_scoring_unchanged": true,
+  "seed0_formal_negative_score": 0.465,
+  "reason": "Mechanism diagnostic after negative full-list head result; not stable gain",
+  "tail_module_sha256": "ab01de6ba2ace14e736a69a93e7e2d86616871e45e424e2f26054791e3de7031",
+  "head_receipts": [
+    {
+      "sha256": "99e63aedb420217c817aeaaebd3d09ffa9620824a8d8833dcf55fd90ae903a53",
+      "step": 2500,
+      "seed": 20261108
+    },
+    {
+      "sha256": "f29077ca350e48705cec93ed7a9716b2b718e965ba56cec859bb829bf4b7ba75",
+      "step": 2500,
+      "seed": 20261109
+    }
+  ],
+  "payload_pins": {
+    "candidate_multispectrum_head.py": "6dc38d9d9dd59bff0ed791045573638c5566b2e1f84c0336c1b1bff383f886f0",
+    "learned_head_score.py": "14ba386cef89194c87cead728b23a670f83d425b2316a007d3f07901e5cf1a74",
+    "learned_head_runtime.json": "b3e605208a660c00a48409226c8088a5aa63a8228dc69c8bafbd6ded80289de5",
+    "head_seed20261108_step2500.pt": "99e63aedb420217c817aeaaebd3d09ffa9620824a8d8833dcf55fd90ae903a53",
+    "head_seed20261109_step2500.pt": "f29077ca350e48705cec93ed7a9716b2b718e965ba56cec859bb829bf4b7ba75"
+  },
+  "head_integration": "after all original stages and original BATCH audit",
+  "no_na_component": true,
+  "known_pretrained_exposure": true,
+  "locked_final_used": false,
+  "validation_mode": "fast_static"
+}

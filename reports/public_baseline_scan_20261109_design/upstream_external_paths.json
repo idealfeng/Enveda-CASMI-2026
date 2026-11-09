@@ -1,0 +1,12 @@
+[
+  {
+    "source": "frozen_cell_54",
+    "line": 74,
+    "text": "        version=49, method='canqiang_E006_window40_ice_fallback_plus_v7c_fragment_gap_plus_e2_rank2_rel150_e2_bags_chebi_lmsd_pubchem_spectral_bonus_np_bonus_pubchemlite_lotus_refs_depth6_poplam015_fold0_n1a_syn050_pcdelta_extlib_n1challenger_jointicegl',"
+  },
+  {
+    "source": "export_evidence.py",
+    "line": 40,
+    "text": "    scope['te'].to_parquet(root/'effective_query_spectra.parquet',index=False)"
+  }
+]

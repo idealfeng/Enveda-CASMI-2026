@@ -1,0 +1,41 @@
+{
+  "status": "run_requested",
+  "started_at_utc": "2026-11-06T07:53:38.373582+00:00",
+  "target": "stormseye/casmi26-public-tri-v30",
+  "expected_version": 1,
+  "notebook_sha256": "1d5e50cdd139353074f022f1d3a280fbfb688ca27da92610eee72dcdd7d19b33",
+  "metadata_sha256": "b4f7b756b09a26dc5f45bf7d7d53459409863b3672633b516fc45cc24d3b6d73",
+  "prepare_receipt_sha256": "6d114b6c1170f7b3f381fb63eccaa9d478f73d50d0694b6a0665d0ef17853901",
+  "dataset_sources": [
+    "bgunshui/casmi26-scorer-v2-model/1",
+    "bgunshui/casmi26-scorer-v4-model/1",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/9",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet/5",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table/10",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark/10",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior/13",
+    "qwertykeypadapple/casmi26-lotus-candidates/2",
+    "sanpier/casmi-spectrum-model-v1/1"
+  ],
+  "private": true,
+  "internet": false,
+  "no_run": false,
+  "timeout_seconds": 32400,
+  "own_inventory_complete": true,
+  "own_inventory_count": 31,
+  "target_previously_absent": true,
+  "competition_submission_performed": false,
+  "automatic_retry_allowed": false,
+  "response_ref": "/code/stormseye/casmi26-public-tri-v30",
+  "response_url": "https://www.kaggle.com/code/stormseye/casmi26-public-tri-v30",
+  "version_number": 1,
+  "response_error": "",
+  "invalid_sources": {
+    "invalid_tags": [],
+    "invalid_dataset_sources": [],
+    "invalid_competition_sources": [],
+    "invalid_kernel_sources": [],
+    "invalid_model_sources": []
+  },
+  "responded_at_utc": "2026-11-06T07:53:41.882437+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 142914344,
+  "ref": "popwenman/casmi26-scorer-train-v80",
+  "title": "CASMI26 scorer train v80",
+  "current_version_number": 1,
+  "last_run_time": "2026-11-03 16:32:16.401000",
+  "total_votes": 0,
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_data_sources": [
+    "sanpier/casmi-spectrum-model-v1",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [],
+  "competition_data_sources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "model_data_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:de153e6d303881930c51286216393d56f56b26458d0661350305a1e8144eea01",
+  "machine_shape": "NvidiaTeslaT4",
+  "source_sha256": "580e9955f47799f3307704303993db4d3c17270610a0a1e8bc4d4274c259979a",
+  "source_bytes": 3169,
+  "source_path": "third_party\\public_scan_popwenman__casmi26-scorer-train-v80_20261107\\source.py"
+}

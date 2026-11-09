@@ -1,0 +1,42 @@
+{
+  "ref": "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+  "checked_at_utc": "2026-11-09T07:13:41.883924+00:00",
+  "read_only": true,
+  "metadata": {
+    "ref": "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+    "title": "CASMI 2026 Spectral Library (MassBank,harmonized)",
+    "id": 12067949,
+    "owner_name": "Samar Talwar",
+    "owner_ref": "samartalwar",
+    "current_version_number": 1,
+    "version_number": null,
+    "last_updated": "2026-09-17 21:16:16.477000",
+    "total_bytes": 47886892,
+    "license_name": "CC BY-NC-SA 4.0",
+    "licenses": null,
+    "description": "# CASMI 2026 Reference Spectral Library (MassBank, harmonized)\n\n**Built for:** [Enveda CASMI 2026 — Molecule ID From Mass Spectra](https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra)\n\nA cleaned, standardized, ML-ready version of the public **MassBank** MS/MS spectral\nlibrary — the reference library most structure-elucidation baselines (spectral\nmatching, retrieval, candidate reranking) need and nobody had packaged for this\ncompetition yet.\n\n## What's inside\n\n| File | Contents |\n|---|---|\n| `spectra.parquet` | 139,744 MS/MS spectra: precursor m/z, adduct, ion mode, collision energy, retention time (where available), full peak lists (`mzs`, `intensities`), and full source attribution per record |\n| `structures_with_fingerprints.parquet` | 20,204 unique structures (by InChIKey): canonical SMILES, molecular formula, exact mass, **precomputed Morgan (1024-bit ECFP4) and MACCS fingerprints** (hex-packed bit vectors) for fast candidate retrieval/similarity search |\n| `spectra_preview.csv` | First 2,000 spectra (metadata only, no peak arrays) for quick browsing |\n\n## Why this matters for CASMI 2026\n\nThe competition task is: given an MS/MS spectrum, predict the 2D structure\n(SMILES). Every retrieval-based or reranking approach needs:\n1. A reference library of **known spectrum → structure pairs** to match against.\n2. **Precomputed molecular fingerprints** for fast candidate similarity scoring.\n\nThis dataset gives you both, already harmonized into one schema, so you don't\nhave to write a MassBank parser yourself.\n\nBonus: **648 spectra are from the actual CASMI 2012 and CASMI 2016 challenge\nsubsets** within MassBank — directly relevant historical structure-elucidation\nbenchmark data, flagged via `is_casmi_subset=True`.\n\n## Coverage\n\n- 139,744 spectra across 61 contributing institutions (Eawag, RIKEN, BAFG, University of Tokyo, and more)\n- 20,204 unique structures\n- Positive (98k) and negative (41k) ion mode\n- Precursor m/z range: 46 – 2465\n- ~104k spectra include retention time\n\n## Provenance & licensing — read before using\n\nThis is a derivative compilation of public **MassBank** records\n(https://github.com/MassBank/MassBank-data), which aggregates contributions\nfrom many labs under **mixed Creative Commons licenses** (CC0, CC BY, CC BY-SA,\nCC BY-NC, CC BY-NC-SA). The **license for every individual spectrum is preserved**\nin the `license` column, along with `authors`, `publication`, and `copyright`\nwhere the original record provided them — **check the per-record license\nbefore using a given spectrum outside a research/competition context**, since\nmany are non-commercial only.\n\nRecords originally licensed **CC-*-ND (No Derivatives)** were excluded\nentirely (149 records) since a reformatted derivative dataset cannot legally\nbe redistributed under that license.\n\nThis dataset itself is shared for **research and competition use**, matching\nthe most common upstream license terms (CC BY-NC-SA). If you use it, please\nalso credit the original MassBank contributing institutions listed in the\n`source_institution` / `authors` columns of the record(s) you rely on.\n\n## Build pipeline (reproducible)\n\n1. Clone `MassBank/MassBank-data` (public GitHub repo, ~141k records).\n2. Parse each MassBank flat-file record into structured fields (compound,\n   spectrum metadata, peak list).\n3. Canonicalize SMILES and derive InChIKey with RDKit; drop unparseable\n   structures.\n4. Drop ND-licensed records.\n5. Deduplicate structures by InChIKey; compute Morgan(2,1024) and MACCS\n   fingerprints per unique structure.\n6. Export to Parquet.\n\n## Suggested uses\n\n- Baseline: cosine/modified-cosine spectral similarity search against this\n  library to retrieve candidate structures for a query spectrum.\n- Fingerprint-based candidate reranking once you have a shortlist from mass/formula filtering.\n- Training data / pretraining signal for spectrum embedding models.\n- Benchmarking against the embedded CASMI 2012/2016 subset.",
+    "subtitle": "139K harmonized MS/MS spectra + fingerprints for CASMI 2026 structure retrieval",
+    "usability_rating": 1
+  },
+  "files": [
+    {
+      "name": "spectra.parquet",
+      "total_bytes": 43941912,
+      "creation_date": "2026-09-17 21:16:22.489000",
+      "file_type": ""
+    },
+    {
+      "name": "spectra_preview.csv",
+      "total_bytes": 901926,
+      "creation_date": "2026-09-17 21:16:21.871000",
+      "file_type": ""
+    },
+    {
+      "name": "structures_with_fingerprints.parquet",
+      "total_bytes": 3043054,
+      "creation_date": "2026-09-17 21:16:21.830000",
+      "file_type": ""
+    }
+  ],
+  "next_page_token_present": false
+}

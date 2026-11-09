@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-09T07:30:24.579567+00:00",
+  "target": "stormseye/casmi26-mass-guarded-v2mean-p7-1109",
+  "version": 1,
+  "actual_target": "stormseye/casmi26-mass-guarded-v2mean-p7-1109",
+  "branch_sha256": "dd7a1eef5a5d57f21a0fa5c0e914f7a8bcc6cf9730d3e28ef8c7781348580565",
+  "notebook_sha256": "aa29969bacf47b437a51bab68b1f146ae17bf62058931129d435f1e1fe27311b",
+  "server_source_sha256": "d2c98e18b09eb2b0a17f6d05045016fa53605460e6861af6c327dc27b27b5ae1",
+  "checks": {
+    "target": true,
+    "version": true,
+    "private": true,
+    "offline": true,
+    "gpu": true,
+    "source_contents": true,
+    "dataset_sources": true,
+    "kernel_sources": true,
+    "competition_sources": true,
+    "no_model_source_dependencies": true
+  },
+  "session_status": "COMPLETE",
+  "failure_message_present": false,
+  "read_only": true,
+  "source_raw_bytes_equal": false,
+  "source_binding_method": "Join cell.source lists; every other Notebook JSON field must remain equal.",
+  "requested_dataset_sources": [
+    "sanpier/casmi-spectrum-model-v1/1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet/5",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table/10",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark/10",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior/13",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/9",
+    "bgunshui/casmi26-scorer-v2-model/1",
+    "qwertykeypadapple/casmi26-lotus-candidates/2"
+  ],
+  "observed_dataset_sources": [
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "bgunshui/casmi26-scorer-v2-model",
+    "qwertykeypadapple/casmi26-lotus-candidates"
+  ],
+  "requested_kernel_sources": [],
+  "observed_kernel_sources": [],
+  "numeric_source_versions_read_back": false
+}

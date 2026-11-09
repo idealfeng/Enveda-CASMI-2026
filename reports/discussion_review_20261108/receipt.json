@@ -1,0 +1,218 @@
+{
+  "inventory_count": 151,
+  "results": [
+    {
+      "id": 756741,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:40.029458+00:00",
+      "status": "saved",
+      "title": "Spectrum-Structure data volume vs quantum mechanical/chemical inductive bias injection",
+      "comments": 0,
+      "comments_truncated": false,
+      "text_sha256": "5c2ea5f92e0fed76a32dcc86d8abf2c667e9b40a43babb209881fc6b0a8f5a26"
+    },
+    {
+      "id": 756504,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:40.029458+00:00",
+      "status": "saved",
+      "title": "Open-source pipeline: identity search + analog propagation + LightGBM ranker (with notes on validation)",
+      "comments": 1,
+      "comments_truncated": false,
+      "text_sha256": "b95f78daaedec19b5dda6dcde11c488cda923d9a816c1d78a4574b2c5d481cfe"
+    },
+    {
+      "id": 755965,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:40.030456+00:00",
+      "status": "saved",
+      "title": "Five open mass-spec libraries as public S3 mirrors, plus a notebook that joins them",
+      "comments": 0,
+      "comments_truncated": false,
+      "text_sha256": "9a26bfe0e165389ed5aa1af9ea73225616bc0eb86e193913d4a1d9a46b7957f5"
+    },
+    {
+      "id": 755039,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:41.953020+00:00",
+      "status": "saved",
+      "title": "A meta-level reading of the private test set",
+      "comments": 1,
+      "comments_truncated": false,
+      "text_sha256": "c7b6094ea50f7f23e0a2bb8bda1b383a2fd7a341b0c054247a227c470ee0c63c"
+    },
+    {
+      "id": 755089,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:42.536273+00:00",
+      "status": "saved",
+      "title": "Class 3 graph generation: MC isomers are different from Natural Product not because they are unstable (GFN2-xTB)",
+      "comments": 0,
+      "comments_truncated": false,
+      "text_sha256": "5dda9d6eb40776b3a525357c59d522485314faa36d5b051c8aa1b29c6b024cb1"
+    },
+    {
+      "id": 753724,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:42.563530+00:00",
+      "status": "saved",
+      "title": "🔥 Massive Pre-training Dataset for CASMI26",
+      "comments": 0,
+      "comments_truncated": false,
+      "text_sha256": "d759be81f1f394ed03d8d28d87f9e897254f1fb810d93677e802ac596d4c9b34"
+    },
+    {
+      "id": 753400,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:43.590834+00:00",
+      "status": "saved",
+      "title": "Negative result: rule-based biotransformation of spectral analogs recovers few Class 3 molecules",
+      "comments": 0,
+      "comments_truncated": false,
+      "text_sha256": "b3087c31bcca2a2682993713d68087013994ab2301b6e762d8661d29f2b45cfc"
+    },
+    {
+      "id": 753363,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:44.308816+00:00",
+      "status": "saved",
+      "title": "Class 3 scores CV LB reflection ",
+      "comments": 0,
+      "comments_truncated": false,
+      "text_sha256": "b13998c2401c4ca42e547c9fb7d6ffc30dc9bcdf00e56e8f263ca114aad251eb"
+    },
+    {
+      "id": 752356,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:44.934623+00:00",
+      "status": "saved",
+      "title": "Three changes on top of the 0.464 base: one lost 0.008, one pair reached 0.465, and what we think is left",
+      "comments": 0,
+      "comments_truncated": false,
+      "text_sha256": "2e12fdda03b3377c0f02d33918bba1ae38c17e56521e44b92b56d19573153642"
+    },
+    {
+      "id": 751300,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:44.935629+00:00",
+      "status": "saved",
+      "title": "Has anyone managed to improve their Class 3 score?",
+      "comments": 3,
+      "comments_truncated": false,
+      "text_sha256": "5b96044862c38f5e93ce04d4e2c699e88aa3af23f76b6e50f8cdf47e50d7dbfe"
+    },
+    {
+      "id": 750241,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:45.844453+00:00",
+      "status": "saved",
+      "title": "new molecules (not in any database)'s prediction:how can we improve that?",
+      "comments": 1,
+      "comments_truncated": false,
+      "text_sha256": "0b4560f52a87c48418adef155c82f0add2de7126d69f19459ec6f62ae0cc274f"
+    },
+    {
+      "id": 749412,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:47.262161+00:00",
+      "status": "saved",
+      "title": "A safe +0.002 on E006-based notebooks: insert engine 2’s top-1 at rank 2 (0.440 → 0.442, 0.441 → 0.443)",
+      "comments": 0,
+      "comments_truncated": false,
+      "text_sha256": "b2d23f814e5d790d9b59e7614f2e54adc790232ecd247ee54daf83e53a44b1a1"
+    },
+    {
+      "id": 748524,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:47.334107+00:00",
+      "status": "saved",
+      "title": "Validation stragegy",
+      "comments": 2,
+      "comments_truncated": false,
+      "text_sha256": "d764a0fecfbb2e5606cf6135e1f011e02c0f710ca48fbded6ac3267017eb7058"
+    },
+    {
+      "id": 748068,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:47.905914+00:00",
+      "status": "saved",
+      "title": "The public notebooks' 0.43+ LB has never been validated by CV",
+      "comments": 1,
+      "comments_truncated": false,
+      "text_sha256": "5ffccd476f5ee32de8d6e5fbcaa1286b3d930d1832f48cf57d2661f9bc416d32"
+    },
+    {
+      "id": 745468,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:49.517475+00:00",
+      "status": "saved",
+      "title": "Problem is in Isomer identification + Off-the-shelf LLM's are really bad at this task",
+      "comments": 1,
+      "comments_truncated": false,
+      "text_sha256": "a55be4ebc60d8a960d4234865483fd9f093bffcd9e9d3f185d0c133b3ada5118"
+    },
+    {
+      "id": 745148,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:49.671804+00:00",
+      "status": "saved",
+      "title": "Enveda-180 Zenodo release (21346580) — 816 structures absent from train.parquet: hidden test, or filtered out?",
+      "comments": 1,
+      "comments_truncated": false,
+      "text_sha256": "cb8d8901082a0a6b0c38968a3e5e0c633c359923efb5309de1dfaacb5cede2cd"
+    },
+    {
+      "id": 744343,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:50.143386+00:00",
+      "status": "saved",
+      "title": "trick: train a smiles to MS/MS predictor too!",
+      "comments": 2,
+      "comments_truncated": false,
+      "text_sha256": "748e8bdf1e8cb1111ec39ebdea1a6dbb922f18c2d767bbd254bf0630cde1377d"
+    },
+    {
+      "id": 744011,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:51.894493+00:00",
+      "status": "saved",
+      "title": "Test is 100% timsTOF, train is 46%: a train/test shift checklist before you build a reference library",
+      "comments": 0,
+      "comments_truncated": false,
+      "text_sha256": "9009f94ddf8c48a9d866912a66c890c8e5d49cc403356a172b57aa7c8a0dc19b"
+    },
+    {
+      "id": 743974,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:51.943287+00:00",
+      "status": "saved",
+      "title": "All you need is a good ranker",
+      "comments": 2,
+      "comments_truncated": false,
+      "text_sha256": "70c3f26ca99ccb7935ffb0ff45cd025d8d942ed19dfa7b3fb5e626b151090545"
+    },
+    {
+      "id": 743254,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:52.532519+00:00",
+      "status": "saved",
+      "title": " Lessons from ~30 submissions: where the MRR actually goes",
+      "comments": 1,
+      "comments_truncated": false,
+      "text_sha256": "f01fc3e7282d7de155c084519ba7ea4abd2c5d12e8b6f69027fe0766c0eb3844"
+    },
+    {
+      "id": 741597,
+      "read_only": true,
+      "checked_at_utc": "2026-11-07T16:01:54.501753+00:00",
+      "status": "saved",
+      "title": "Using 250 enveda-np-examples structures as CV doesn't seem very helpful (CV-LB thread)",
+      "comments": 1,
+      "comments_truncated": false,
+      "text_sha256": "6dc9a709053bf84e2b7dec32cfbafbd9dab333e9e0f34212c843f91fde6c724e"
+    }
+  ],
+  "read_only": true,
+  "external_messages_sent": false,
+  "cloud_runs_started": false
+}

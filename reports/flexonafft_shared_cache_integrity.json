@@ -1,0 +1,122 @@
+{
+  "check": "sizes, npy header/last offset, and symlink targets; no full hash recomputation",
+  "cache_marker_rows": 2539608,
+  "cache_marker_peaks": 133228108,
+  "files": [
+    {
+      "path": "runs/shared_spec_cache/spec_off.npy",
+      "bytes": 20320968,
+      "symlink": false,
+      "resolved": "/mnt/d/Paper/casmi/runs/shared_spec_cache/spec_off.npy",
+      "shape": [
+        2539609
+      ],
+      "dtype": "int64",
+      "last_offset": 133228108,
+      "marker_bytes_match": true
+    },
+    {
+      "path": "runs/shared_spec_cache/spec_mz.npy",
+      "bytes": 532916528,
+      "symlink": false,
+      "resolved": "/mnt/d/Paper/casmi/runs/shared_spec_cache/spec_mz.npy",
+      "shape": [
+        133228108
+      ],
+      "dtype": "float32",
+      "marker_bytes_match": true
+    },
+    {
+      "path": "runs/shared_spec_cache/spec_it.npy",
+      "bytes": 532916528,
+      "symlink": false,
+      "resolved": "/mnt/d/Paper/casmi/runs/shared_spec_cache/spec_it.npy",
+      "shape": [
+        133228108
+      ],
+      "dtype": "float32",
+      "marker_bytes_match": true
+    },
+    {
+      "path": "runs/shared_spec_cache/spec_meta.parquet",
+      "bytes": 63234225,
+      "symlink": false,
+      "resolved": "/mnt/d/Paper/casmi/runs/shared_spec_cache/spec_meta.parquet",
+      "marker_bytes_match": true
+    },
+    {
+      "path": "runs/flexonafft_smoke_20261104b/work/spec_off.npy",
+      "bytes": 20320968,
+      "symlink": true,
+      "resolved": "/mnt/d/Paper/casmi/runs/shared_spec_cache/spec_off.npy",
+      "shape": [
+        2539609
+      ],
+      "dtype": "int64",
+      "last_offset": 133228108
+    },
+    {
+      "path": "runs/flexonafft_smoke_20261104b/work/spec_mz.npy",
+      "bytes": 532916528,
+      "symlink": true,
+      "resolved": "/mnt/d/Paper/casmi/runs/shared_spec_cache/spec_mz.npy",
+      "shape": [
+        133228108
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "runs/flexonafft_smoke_20261104b/work/spec_it.npy",
+      "bytes": 532916528,
+      "symlink": true,
+      "resolved": "/mnt/d/Paper/casmi/runs/shared_spec_cache/spec_it.npy",
+      "shape": [
+        133228108
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "runs/flexonafft_smoke_20261104b/work/spec_meta.parquet",
+      "bytes": 63234225,
+      "symlink": true,
+      "resolved": "/mnt/d/Paper/casmi/runs/shared_spec_cache/spec_meta.parquet"
+    },
+    {
+      "path": "runs/flexonafft_smoke_20261104b/external_reference_odju0hto/spec_off.npy",
+      "bytes": 20323008,
+      "symlink": false,
+      "resolved": "/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104b/external_reference_odju0hto/spec_off.npy",
+      "shape": [
+        2540360
+      ],
+      "dtype": "int64",
+      "last_offset": 133282446
+    },
+    {
+      "path": "runs/flexonafft_smoke_20261104b/external_reference_odju0hto/spec_mz.npy",
+      "bytes": 533129912,
+      "symlink": false,
+      "resolved": "/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104b/external_reference_odju0hto/spec_mz.npy",
+      "shape": [
+        133282446
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "runs/flexonafft_smoke_20261104b/external_reference_odju0hto/spec_it.npy",
+      "bytes": 533129912,
+      "symlink": false,
+      "resolved": "/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104b/external_reference_odju0hto/spec_it.npy",
+      "shape": [
+        133282446
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "runs/flexonafft_smoke_20261104b/external_reference_odju0hto/spec_meta.parquet",
+      "bytes": 59341335,
+      "symlink": false,
+      "resolved": "/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104b/external_reference_odju0hto/spec_meta.parquet"
+    }
+  ]
+}

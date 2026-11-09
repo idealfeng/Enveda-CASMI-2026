@@ -1,0 +1,18 @@
+{
+  "status": "accepted",
+  "pid": 44920,
+  "target": "stormseye/casmi26-mass-guarded-head-tail-1108",
+  "branch": "mass_guarded_head_tail_1108",
+  "manifest_sha256": "b82695156d8d01b5a5cb6bb7addfe47b977a58bea926a3eda4e948288edda0e9",
+  "branch_sha256": "5aefe4d9233d8023441f12508afc37a548fa168c27ed3a7b1afc7a2f3669c98f",
+  "started_at_utc": "2026-11-08T13:16:58.942289+00:00",
+  "maximum_seconds": 21600.0,
+  "interval_seconds": 45,
+  "submission_retries_allowed": false,
+  "notebook_push_performed": false,
+  "cloud_status": "COMPLETE",
+  "checked_at_utc": "2026-11-08T13:39:09.045097+00:00",
+  "cloud_failure_message_present": false,
+  "submission_ref": 58129661,
+  "finished_at_utc": "2026-11-08T13:39:09.045097+00:00"
+}

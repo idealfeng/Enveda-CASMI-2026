@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-v35-no-interleave-1107pm",
+  "version": 1,
+  "branch_sha256": "b6af08fb488164f613f58c3ef1e381057d02f31d5ba058ce016b8486ed63f6a3",
+  "notebook_sha256": "5eea610eb49d3eb6562861eb0149e7054abb76610a600a7c9b939a2053053465",
+  "metadata_sha256": "3343e4d5785982401464ee7f704ff5f1aef7dbcaf004a923eade8e2f73f39d7b",
+  "requested_at_utc": "2026-11-07T06:53:22.107281+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-07T06:53:26.544056+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

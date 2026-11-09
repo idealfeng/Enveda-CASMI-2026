@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "original_row_group": 20,
+  "rows": 1184,
+  "peaks": 152902,
+  "checks": {
+    "spec_off.npy": {
+      "dtype": "int64",
+      "shape": [
+        1185
+      ],
+      "bitwise_array_equal": true
+    },
+    "spec_mz.npy": {
+      "dtype": "float32",
+      "shape": [
+        152902
+      ],
+      "bitwise_array_equal": true
+    },
+    "spec_it.npy": {
+      "dtype": "float32",
+      "shape": [
+        152902
+      ],
+      "bitwise_array_equal": true
+    },
+    "spec_meta.parquet": {
+      "pandas_frame_exact_equal": true
+    }
+  },
+  "stream_report": {
+    "status": "complete",
+    "algorithm": "Original clean_block(0.001, 512, 2.0) and original metadata mapping",
+    "rows": 1184,
+    "peaks": 152902,
+    "batch_size": 127,
+    "scope": "full",
+    "row_groups": [
+      0
+    ],
+    "elapsed_seconds": 1.36,
+    "python": "3.12.2",
+    "numpy": "2.2.6",
+    "train": {
+      "path": "D:\\Paper\\casmi\\third_party\\prvsiyan_analog\\cache_equivalence_rg20\\fixture.parquet",
+      "bytes": 4955244,
+      "rows_in_original": 1184
+    },
+    "train_structs": {
+      "path": "D:\\Paper\\casmi\\assets\\kaggle\\ahmedberatozer\\casmi26-v2-pool\\v1\\train_structs.parquet",
+      "sha256": "f20aa1cac23af42e430a6633707fda34e48dea97114bdc3e443897f692df3656"
+    },
+    "original_build_py": {
+      "path": "D:\\Paper\\casmi\\assets\\kaggle\\ahmedberatozer\\casmi26-v4b-models\\v4\\code\\casmi\\build.py",
+      "sha256": "86776c14e237dc64dbf965d9bc200cc670dc7226bf946938380729d7e80c56f8"
+    },
+    "original_spectra_py_sha256": "e2481761cdfb2515e8a945751f85f6b9e885680a8e974d7ac35c78bbf279ae74",
+    "original_chem_py_sha256": "99474f23d8a67040b0c0f8c70e73592a6f7f656f50103e350ca473451e2169f1",
+    "metadata_counters": {
+      "sid_negative": 0,
+      "neutral_mass_nan": 0
+    },
+    "outputs": [
+      {
+        "name": "spec_meta.parquet",
+        "bytes": 93205,
+        "sha256": "3f2f135e51c8e07209d713758fb27606312fb2f6882046fa87580eed27929bcb"
+      },
+      {
+        "name": "spec_off.npy",
+        "bytes": 13576,
+        "sha256": "af2d3d9d0ad052caec4192a69013850bc19bfbd6428944f7db27e416fe726130"
+      },
+      {
+        "name": "spec_mz.npy",
+        "bytes": 615704,
+        "sha256": "789b58e83586448a7c808b88974af65e22a91a45a0a1e1becb222e15d94fff64"
+      },
+      {
+        "name": "spec_it.npy",
+        "bytes": 615704,
+        "sha256": "6c8276c6d5f19a0a75af27cd63881daca672d2296b02194fcdfbea9c3015321c"
+      }
+    ],
+    "limitations": [
+      "NPY header and Parquet row-group layout differ; array values, dtypes and metadata are preserved.",
+      "Source train digest is not computed here; size, row count and exact cleaning/structure sources are bound."
+    ]
+  }
+}

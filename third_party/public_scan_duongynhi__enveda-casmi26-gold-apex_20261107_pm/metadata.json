@@ -1,0 +1,34 @@
+{
+  "id": 143140551,
+  "ref": "duongynhi/enveda-casmi26-gold-apex",
+  "title": "Enveda CASMI26 Gold Apex",
+  "current_version_number": 1,
+  "last_run_time": "2026-11-04 06:39:46.974000",
+  "total_votes": 3,
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_data_sources": [
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "sanpier/catalogue-experiment-saner",
+    "qwertykeypadapple/casmi26-lotus-candidates",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [
+    "popwenman/casmi26-scorer-train-v80"
+  ],
+  "competition_data_sources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "model_data_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:de153e6d303881930c51286216393d56f56b26458d0661350305a1e8144eea01",
+  "machine_shape": "NvidiaTeslaT4",
+  "source_sha256": "0801078993341311216d6c0d780fafebf5b948afee4e7ca14677e5f01953e954",
+  "source_bytes": 800019,
+  "source_path": "third_party\\public_scan_duongynhi__enveda-casmi26-gold-apex_20261107_pm\\source.ipynb"
+}

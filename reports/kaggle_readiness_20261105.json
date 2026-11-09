@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-11-05T06:54:39.282521+00:00",
+  "expected_username": "stormseye",
+  "read_only": true,
+  "external_write_performed": false,
+  "submission_performed": false,
+  "local_username_matches": true,
+  "local_authentication_loaded": true,
+  "competition_submissions": {
+    "status": "read_success",
+    "returned_count": 0,
+    "note": "Only the first page count is recorded; submission contents are not persisted."
+  },
+  "own_kernel_inventory": {
+    "status": "read_success",
+    "returned_count": 30,
+    "complete": true,
+    "target_exists": false
+  },
+  "target_kernel": {
+    "status": "read_failed",
+    "exists": "not_established",
+    "error_type": "ValueError",
+    "missing_module": null,
+    "http_status": null
+  }
+}

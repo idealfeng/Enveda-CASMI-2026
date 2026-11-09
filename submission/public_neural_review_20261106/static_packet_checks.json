@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": {
+    "hardened_v1_source_sha": true,
+    "hardened_v1_smoke_sha": true,
+    "hardened_v1_only_smoke_config_change": true,
+    "hardened_v1_private_offline_new_target": true,
+    "hardened_v1_no_missing_required": true,
+    "tri_v30_source_sha": true,
+    "tri_v30_smoke_sha": true,
+    "tri_v30_only_smoke_config_change": true,
+    "tri_v30_private_offline_new_target": true,
+    "tri_v30_no_missing_required": true
+  },
+  "models_executed": false,
+  "cloud_write_performed": false
+}

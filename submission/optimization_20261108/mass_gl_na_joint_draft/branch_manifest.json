@@ -1,0 +1,49 @@
+{
+  "name": "mass_gl_na",
+  "target": "stormseye/casmi26-mass-gl-na-1108",
+  "version": 1,
+  "stage_dir": "submission/optimization_20261108/mass_gl_na",
+  "notebook_sha256": "eaf3cdc5c9822f6bfc666dc4d4c359cbadaf756e21b42372b43a498806d96362",
+  "metadata_sha256": "fa1265a10b3c6d0dca9ec6260ca337bdc607a6957f7cd3134c8f965fafc82003",
+  "description": "CASMI26 20261108 MASS real Na GL coverage audited V1",
+  "validation_mode": "fast_static",
+  "static_review_path": "submission/optimization_20261108/mass_gl_na/static_review.json",
+  "required_runtime_audits": [
+    {
+      "name": "batch_variant_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "mass_gl_na",
+        "mode": "fast_static",
+        "recipe_sha256": "6373a35e54ee3ea2406cfb38a57c61ad34bd73eb835cdb081fea175dec4a586c"
+      },
+      "required_true_checks": [
+        "mass_recipe",
+        "original_public_priors",
+        "official_rdkit",
+        "public_model_pins",
+        "ours_model_pins",
+        "lotus_pin",
+        "csv_schema_ids",
+        "csv_counts",
+        "fast_no_model"
+      ]
+    },
+    {
+      "name": "na_variant_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "mass_gl_na",
+        "mode": "fast_static",
+        "recipe_sha256": "6373a35e54ee3ea2406cfb38a57c61ad34bd73eb835cdb081fea175dec4a586c"
+      },
+      "required_true_checks": [
+        "original_mass_observer",
+        "explicit_runtime_adapter",
+        "original_frozen_source_pin",
+        "original_physical_source_pin",
+        "fast_static_explicit"
+      ]
+    }
+  ]
+}

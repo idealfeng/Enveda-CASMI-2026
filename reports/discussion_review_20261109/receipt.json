@@ -1,0 +1,18 @@
+{
+  "inventory_count": 154,
+  "results": [
+    {
+      "id": 756741,
+      "read_only": true,
+      "checked_at_utc": "2026-11-09T07:09:31.217299+00:00",
+      "status": "saved",
+      "title": "Spectrum-Structure data volume vs quantum mechanical/chemical inductive bias injection",
+      "comments": 0,
+      "comments_truncated": false,
+      "text_sha256": "5c2ea5f92e0fed76a32dcc86d8abf2c667e9b40a43babb209881fc6b0a8f5a26"
+    }
+  ],
+  "read_only": true,
+  "external_messages_sent": false,
+  "cloud_runs_started": false
+}

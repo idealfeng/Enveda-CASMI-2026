@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-08T08:09:15.519170+00:00",
+  "target": "stormseye/casmi26-mass-head-seed1-1108",
+  "version": 1,
+  "actual_target": "stormseye/casmi26-mass-head-seed1-1108",
+  "branch_sha256": "1aeb892d4ba242c9293a7b1e1ec0d02125838884c258a0abe3f239d829c79a4d",
+  "notebook_sha256": "54d0acc8eb0569b98226a0b38471b39cfda268d72e21f98a0d1329d56fb3e3df",
+  "server_source_sha256": "6593f4e11ddc7aee2915cf42a1ad24f53eb7da2571d8655d170fc8a679f352fb",
+  "checks": {
+    "target": true,
+    "version": true,
+    "private": true,
+    "offline": true,
+    "gpu": true,
+    "source_contents": true,
+    "dataset_sources": true,
+    "kernel_sources": true,
+    "competition_sources": true,
+    "no_model_source_dependencies": true
+  },
+  "session_status": "COMPLETE",
+  "failure_message_present": false,
+  "read_only": true,
+  "source_raw_bytes_equal": false,
+  "source_binding_method": "Join cell.source lists; every other Notebook JSON field must remain equal.",
+  "requested_dataset_sources": [
+    "sanpier/casmi-spectrum-model-v1/1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet/5",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table/10",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark/10",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior/13",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/9",
+    "bgunshui/casmi26-scorer-v2-model/1",
+    "qwertykeypadapple/casmi26-lotus-candidates/2"
+  ],
+  "observed_dataset_sources": [
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "bgunshui/casmi26-scorer-v2-model",
+    "qwertykeypadapple/casmi26-lotus-candidates"
+  ],
+  "requested_kernel_sources": [],
+  "observed_kernel_sources": [],
+  "numeric_source_versions_read_back": false
+}

@@ -1,0 +1,10 @@
+{
+  "status": "monitoring",
+  "pid": 42336,
+  "started_at_utc": "2026-11-08T13:16:58.893660+00:00",
+  "manifest_sha256": "b82695156d8d01b5a5cb6bb7addfe47b977a58bea926a3eda4e948288edda0e9",
+  "max_seconds": 43200.0,
+  "poll_interval_seconds": 45,
+  "read_only": true,
+  "new_run_or_submission_performed": false
+}

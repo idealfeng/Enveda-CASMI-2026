@@ -1,0 +1,11 @@
+{
+  "status": "prepared",
+  "branch": "mass_guarded_extlib",
+  "target": "stormseye/casmi26-mass-guarded-extlib-1109",
+  "version": 1,
+  "notebook_sha256": "2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7",
+  "metadata_sha256": "80a7601a2104931baaa27e34223cd083963b24d173b8ebebd53755ab91f3c0d4",
+  "recipe_sha256": "5fc1c8cb1e27bd9e555090fcf437d0c9bfe02a0f8371811da286d2f3a4d4efd1",
+  "static_review_path": "submission/optimization_20261109/mass_guarded_extlib/static_review.json",
+  "validation_mode": "fast_static"
+}

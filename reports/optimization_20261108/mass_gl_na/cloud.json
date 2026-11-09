@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-mass-gl-na-1108",
+  "version": 1,
+  "branch_sha256": "74f2525fd66cb9c6ece1d77f3de62feba0dccfb422f2bd9e07916d5786f4c251",
+  "notebook_sha256": "6e86ab7b93fdfa537c2cd0624e664691ccf6096b7696c4f84e2f8c2703f49605",
+  "metadata_sha256": "fa1265a10b3c6d0dca9ec6260ca337bdc607a6957f7cd3134c8f965fafc82003",
+  "requested_at_utc": "2026-11-08T08:02:13.038069+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-08T08:02:16.367472+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

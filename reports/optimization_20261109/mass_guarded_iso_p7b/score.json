@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-mass-guarded-iso-p7b-1109",
+  "version": 1,
+  "branch_sha256": "f00eca8ccecdfbfa3cc4db3622e65008a9ad394cb8b357aaab56e266e57cb8f6",
+  "submission_ref": 58156404,
+  "actual_target": "stormseye/casmi26-mass-guarded-iso-p7b-1109",
+  "status": "COMPLETE",
+  "public_score": "0.482",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-09T12:38:18.574079+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

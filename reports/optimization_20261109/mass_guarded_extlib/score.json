@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-mass-guarded-extlib-1109",
+  "version": 1,
+  "branch_sha256": "3b6ebd44cc52158dba5d784aae87ee9bd24fcb0b188a9d546ea7bcd99f197ddc",
+  "submission_ref": 58156482,
+  "actual_target": "stormseye/casmi26-mass-guarded-extlib-1109",
+  "status": "COMPLETE",
+  "public_score": "0.488",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-09T12:42:12.357240+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

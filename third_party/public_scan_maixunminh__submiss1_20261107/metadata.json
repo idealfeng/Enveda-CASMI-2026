@@ -1,0 +1,24 @@
+{
+  "id": 143069459,
+  "ref": "maixunminh/submiss1",
+  "title": "submiss1",
+  "current_version_number": 2,
+  "last_run_time": "2026-11-03 16:28:02.323000",
+  "total_votes": 0,
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_data_sources": [],
+  "kernel_data_sources": [
+    "maixunminh/notebookb16898788b"
+  ],
+  "competition_data_sources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "model_data_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:0717e81990be591f8c5f98f033d29ab23e9ffde057e5b3a6bd4371f93969e962",
+  "machine_shape": "None",
+  "source_sha256": "2a643debc1d94664d743afa4af4436182084b0a6ee214ba666a0cf1a2fb9f416",
+  "source_bytes": 59937,
+  "source_path": "third_party\\public_scan_maixunminh__submiss1_20261107\\source.ipynb"
+}

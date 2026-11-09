@@ -1,0 +1,19 @@
+{
+  "id": 756893,
+  "read_only": true,
+  "checked_at_utc": "2026-11-09T07:11:38.167065+00:00",
+  "topic": {
+    "id": 756893,
+    "title": "Are shipped ranker tables without a public generator reproducible?",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/756893",
+    "postDate": "2026-11-08T03:14:21.978Z",
+    "authorName": "Shishir Adhikari",
+    "authorUrl": "https://www.kaggle.com/shishiradhikari11",
+    "votes": -1,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>Hi David, Marie, a concrete reproducibility question about two public Kaggle datasets that several public notebooks use as ranker inputs: prvsiyan/casmi26-ranker-features (rank_train.npz) and megayak/casmi26-simulated-ranker-rows (sim_rank_rows_nofp.npz). Thanks for the earlier clarification that intermediates must be reproducible and that you may remove non-compliant solutions.</p>\n<p>We checked both. The authors' notebooks only load these tables; no public notebook or code generates them. The author README for the second dataset describes its design (query set sizes, mask definitions) but not the query list or random seed. We rebuilt both tables from public code and data following the published designs, and the rebuilds are statistically close but not identical to the originals.</p>\n<p>The question: is a solution that loads one of these tables as shipped, with its generator not public, considered \"reproducible\" under the rules? And is a solution that instead uses a table we rebuilt from public code and data, following the author's published design, acceptable even though it will not be byte-identical?</p>\n<p>We ask now so that teams can choose their final submissions before the deadline with the rule in mind. Thanks!</p>"
+  },
+  "comments": [],
+  "comments_truncated": false
+}

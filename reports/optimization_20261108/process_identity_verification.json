@@ -1,0 +1,18 @@
+﻿{
+    "checked_at_utc":  "2026-11-08T13:19:21.7321590Z",
+    "processes":  [
+                      {
+                          "script_identity_matches":  true,
+                          "pid":  44920,
+                          "exists":  true,
+                          "role":  "dispatcher"
+                      },
+                      {
+                          "script_identity_matches":  true,
+                          "pid":  42336,
+                          "exists":  true,
+                          "role":  "watcher"
+                      }
+                  ],
+    "manifest_sha256":  "b82695156d8d01b5a5cb6bb7addfe47b977a58bea926a3eda4e948288edda0e9"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "minimum_actual_canary_passed_hidden_failure_not_reproduced",
+  "checks": {
+    "actual_staged_worker_completed": true,
+    "eight_actual_candidates_scored": true,
+    "finite_counts_match_single_spectrum": true,
+    "actual_worker_had_no_errors": true
+  },
+  "canary_seconds": 89.02,
+  "model_candidates": 8,
+  "pretrained_na_accuracy_tested": false,
+  "root_cause_established": false,
+  "confirmed_compatibility_risks": [
+    "New helper treats any meta.errors entry as fatal; original gl_fuse permits usable partial outputs and nonfatal rejected-decoy diagnostics.",
+    "New input JSON writer rejects IEEE NaN unknown CE whereas original gl_fuse permits it; parsed nested NaN also breaks direct Python equality checks."
+  ],
+  "candidate_repair_path": "scripts\\mass_gl_na_counted_hook_repair.py",
+  "candidate_repair_sha256": "3da6380b1a2296030e340a76ac4b35200a4e5129577ff8294e8f6d104d695872",
+  "old_submitted_stage_modified": false,
+  "new_cloud_submission": false,
+  "actual_canary_path": "runs/gl_na_counted_replay_20261108"
+}

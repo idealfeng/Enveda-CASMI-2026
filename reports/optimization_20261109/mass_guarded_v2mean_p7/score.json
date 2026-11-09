@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-mass-guarded-v2mean-p7-1109",
+  "version": 1,
+  "branch_sha256": "dd7a1eef5a5d57f21a0fa5c0e914f7a8bcc6cf9730d3e28ef8c7781348580565",
+  "submission_ref": 58155938,
+  "actual_target": "stormseye/casmi26-mass-guarded-v2mean-p7-1109",
+  "status": "COMPLETE",
+  "public_score": "0.482",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-09T12:14:12.353379+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

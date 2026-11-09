@@ -1,0 +1,26 @@
+{
+  "status": "draft_not_applied",
+  "shared_files": {
+    "validation/pipeline_adapter.py": {
+      "before_sha256": "a06af8f92680ccf1ad4bcca5f6aced43c12a66842f13b0a0fdcdee1f437de24d",
+      "after_sha256": "909cf75e67b82ef5edf6cfbdfb15af1d934904e610c3e2f54a5559533e8ab0f7"
+    },
+    "scripts/run_validation_pipeline.py": {
+      "before_sha256": "0bb9ca26907b630f8c3c3733aabf6541894b54f02f328ad03b7ed6c92b843bc0",
+      "after_sha256": "6552c8b4c22e42762deeb0617e8064c8570ba49fad72c560fcfaf8fc79ac66e4"
+    },
+    "validation/recovery.py": {
+      "before_sha256": "3b1f6b55f30e422636bc7b46c0aa2ac03b9216506a18da44d25b5a065710cc95"
+    }
+  },
+  "helper_sha256": {
+    "validation/e2_resources.py": "e8558ec18985ef102b0f3ba12018de38f91162bec9586acbeb765d1f6e4e4169",
+    "validation/stage_process.py": "3906b7a06e73e4f4cddd16731afaa071f98d51fee3ffc5cf32a1393d6177312e",
+    "validation/v43_runtime_patch.py": "2a9ca983de0d4eca7ba7aaf845198b50fd0bbe676ed9c9763a3d56aab2bd8b4c"
+  },
+  "worker_limit_default": 4,
+  "changes_scientific_model_data": false,
+  "original_ipynb_or_assets_edited": false,
+  "gpu_or_full_scan_started": false,
+  "apply_policy": "Apply only after root confirms active Flex run has ended; verify all before/helper hashes first. recovery.py remains unchanged."
+}

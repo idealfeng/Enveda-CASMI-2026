@@ -1,0 +1,24 @@
+{
+  "platform": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "3.12.3",
+  "executable": "/mnt/d/Paper/casmi/.venv-linux/bin/python",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "pyarrow": "19.0.1",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.6.1",
+    "numba": "0.61.2",
+    "rdkit": "2026.3.3",
+    "torch": "2.9.1+cu126",
+    "lightgbm": "4.6.0"
+  },
+  "cuda_runtime": "12.6",
+  "cuda_available": true,
+  "memory_total_bytes": 7910268928,
+  "memory_available_bytes": 6790524928,
+  "disk_free_bytes": 55101333504,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_memory_bytes": 8585216000,
+  "cuda_kernel_check": true
+}

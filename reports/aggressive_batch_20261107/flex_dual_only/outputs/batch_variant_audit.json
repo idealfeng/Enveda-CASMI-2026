@@ -1,0 +1,89 @@
+{
+  "status": "passed",
+  "mode": "fast_static",
+  "branch": "flex_dual_only",
+  "target": "stormseye/casmi26-flex-dual-only-1107",
+  "version": 1,
+  "recipe_sha256": "87654a637d19477226a6cc425779954fce76a8191ad57f3d1962e1b4b31861f5",
+  "checks": {
+    "recipe_sha256": true,
+    "configuration_exact": true,
+    "public_input_pins": true,
+    "all_native_models_staged": true,
+    "distinct_model_checkpoints": true,
+    "no_lotus_dependency": true,
+    "v56_original_priors": true,
+    "csv_columns": true,
+    "csv_ids": true,
+    "csv_nonempty_counts": true,
+    "fast_mode_explicit": true,
+    "no_runtime_claim": true
+  },
+  "config": {
+    "VARIANT": "CUSTOM",
+    "CUSTOM": {
+      "w_top": 0.25,
+      "w_mid": 0.75,
+      "rescue": 0
+    },
+    "RRF_OFFSET": 3.0,
+    "COMMIT_MODE": "fast",
+    "OUTSIDERS_PER_MOLECULE": 20,
+    "TIME_GUARD_HOURS": 7.5,
+    "QUIET_LOGS": true,
+    "ENABLE_TAIL_SLOT": true,
+    "PHYSICAL_POST_SECONDS": 1500,
+    "PHYSICAL": true,
+    "PROVENANCE": false,
+    "FRAG_ON_V2": true,
+    "FINAL_LAYER": true,
+    "POP_W": 0.1,
+    "SPEC_W": 0.05,
+    "NP_W": 0.02,
+    "LIB_HIT_GATE": 0.87,
+    "OUTSIDER_FILL": true,
+    "DISAGREEMENT_RESCUE": false
+  },
+  "expected_dataset_sources": [
+    "sanpier/casmi-spectrum-model-v1/1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet/5",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table/10",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark/10",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior/13",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/9",
+    "bgunshui/casmi26-scorer-v2-model/1"
+  ],
+  "model_bundles": {
+    "public": {
+      "path": "/kaggle/input/datasets/sanpier/casmi-spectrum-model-v1/casmi_spectrum_model_v1",
+      "pins": {
+        "features.py": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+        "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+        "config.json": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+        "final_model.pt": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642"
+      }
+    },
+    "v2": {
+      "path": "/kaggle/working/batch_bundle_v2",
+      "pins": {
+        "features.py": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+        "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+        "config.json": "5ed9578966792110846b3bf7c11a34d8247fa8e57d168b37124d208924fd9524",
+        "final_model.pt": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46"
+      },
+      "native_checkpoint_sha256": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46",
+      "native_config_sha256": "5ed9578966792110846b3bf7c11a34d8247fa8e57d168b37124d208924fd9524"
+    }
+  },
+  "main_ensemble": null,
+  "outsider_ensemble": null,
+  "processed_molecules": 0,
+  "submission_rows": 400,
+  "submission_sha256": "210bb8deb556e8ac7b6ca1636775a01bc94d59c87c94fad5a3bdca164e70bb83",
+  "fast_static_only": true,
+  "hidden_score_proven": false,
+  "scoring_changes": [
+    "Replace only Saner neural scalar/ancillary ensemble scores on existing final and outside candidates.",
+    "Keep the original V56 consensus, physical layer, m1 merge, low NP/spectral priors, official identity dedup and tail fill."
+  ]
+}

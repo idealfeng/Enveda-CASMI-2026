@@ -1,0 +1,18 @@
+[
+  {
+    "name": "README.md",
+    "total_bytes": 1413
+  },
+  {
+    "name": "content_manifest.json",
+    "total_bytes": 1381
+  },
+  {
+    "name": "enveda180_hplus_hminus_references.parquet",
+    "total_bytes": 218514313
+  },
+  {
+    "name": "enveda180_only_candidate_aliases.parquet",
+    "total_bytes": 116885
+  }
+]

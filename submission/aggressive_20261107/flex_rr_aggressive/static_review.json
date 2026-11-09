@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-flex-rr-aggressive-1107",
+  "version": 1,
+  "notebook_sha256": "e2e4613baf7020d03eccbcad0d765d3940c127d9af4303109ba3824be10d88ce",
+  "checks": {
+    "source_pins": true,
+    "hidden_schedule_preserved": true,
+    "all_original_scoring_cells_preserved": true,
+    "original_neural_and_priors_preserved": true,
+    "embedded_rr_pins": true,
+    "all_cells_compile": true,
+    "private_offline": true,
+    "no_new_data_or_training": true,
+    "fast_placeholder_not_hidden_predictions": true
+  }
+}

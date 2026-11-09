@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-flex-dual-only-1107",
+  "version": 1,
+  "branch_sha256": "2f5ae80d6cfa66838fd8c137de8b43dea535c7cf5967914045efad85f6e3f087",
+  "submission_ref": 58063780,
+  "actual_target": "stormseye/casmi26-flex-dual-neural-only",
+  "status": "COMPLETE",
+  "public_score": "0.480",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-07T06:39:32.742012+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

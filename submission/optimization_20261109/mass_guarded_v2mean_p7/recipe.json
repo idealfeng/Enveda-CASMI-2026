@@ -1,0 +1,27 @@
+{
+  "branch": "mass_guarded_v2mean_p7",
+  "target": "stormseye/casmi26-mass-guarded-v2mean-p7-1109",
+  "baseline_own_public_score": 0.482,
+  "base_source_sha256": "6de37bec32c8aa8bfb46b2c5e94e374b53fe36137dff1cd7d1c4a295359f56fe",
+  "method": "post-MASS guarded same-formula ranking",
+  "configuration": {
+    "protected_prefix": 7,
+    "score_mode": "frozen_v2_mean",
+    "scorer_file": "guarded_v2_mean_score_20261109.py",
+    "scorer_sha256": "aac7fab01dbac124ff7debde08ed370fcf9cecc158064ffe83a575ee4f466fab",
+    "payload_pins": {
+      "guarded_v2_mean_score_20261109.py": "aac7fab01dbac124ff7debde08ed370fcf9cecc158064ffe83a575ee4f466fab"
+    },
+    "head_receipts": [],
+    "baseline_scorer_sha256": "cb9e4d6732992e3310e951533fd0c644d3b515134ad03768c35e5a86551267d2"
+  },
+  "configuration_sha256": "84d003989c4b874c7dacbcc6d5da41f78f7657914d0432eb93f1201cfa7c7671",
+  "tail_module_sha256": "783b767e6b5425879ea3bcc8dadbedc40ea349def0e943c65dbf9c5052af3a64",
+  "all_original_scoring_unchanged": true,
+  "compare_to": "58129661 prefix7 old two-head .482",
+  "new_head_spec": null,
+  "no_na_component": true,
+  "known_pretrained_exposure": true,
+  "locked_final_used": false,
+  "validation_mode": "fast_static"
+}

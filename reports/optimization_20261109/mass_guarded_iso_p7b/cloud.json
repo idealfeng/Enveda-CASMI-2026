@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-mass-guarded-iso-p7b-1109",
+  "version": 1,
+  "branch_sha256": "f00eca8ccecdfbfa3cc4db3622e65008a9ad394cb8b357aaab56e266e57cb8f6",
+  "notebook_sha256": "5877f98e0248908e6eab28e7aaac8bb45d52ec6129945e52cd3f582a426dcaf2",
+  "metadata_sha256": "843bb90d75539ce688c6fdc536de5d398ca13d2233bec21adafc599565481106",
+  "requested_at_utc": "2026-11-09T07:31:49.015820+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-09T07:31:52.635106+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

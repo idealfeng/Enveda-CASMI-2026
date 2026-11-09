@@ -1,0 +1,403 @@
+{
+  "repository": "https://github.com/shiferaxa/casmi26",
+  "commit": "41f0c5dde78e551fb5aedbb3421156a38b3f427d",
+  "commit_resolution": "git ls-remote refs/heads/main (http.sslBackend=openssl command-local)",
+  "acquired_utc": "2026-11-04T13:28:28.326424+00:00",
+  "method": "commit-pinned GitHub source ZIP; no git history",
+  "url": "https://codeload.github.com/shiferaxa/casmi26/zip/41f0c5dde78e551fb5aedbb3421156a38b3f427d",
+  "download_bytes": 392024,
+  "expanded_bytes": 1111582,
+  "files": 77,
+  "archive_sha256": "66d887d71079cb96f8ab6f02d81d4ae29a3658c9cd4415e99cfcecf2bbc4d84a",
+  "target": "D:\\Paper\\casmi\\third_party\\shiferaxa_casmi26",
+  "model_data_downloaded": false,
+  "external_code_executed": false,
+  "lfs_pointers": 0,
+  "per_file": [
+    {
+      "path": ".github/workflows/kaggle-checkpoint.yml",
+      "bytes": 3638,
+      "sha256": "cc64fcb3fddfd31246782d10858f6bc9b5e13720ccf8c264875dbb58ff023ada"
+    },
+    {
+      "path": ".github/workflows/kaggle-train.yml",
+      "bytes": 1463,
+      "sha256": "4b3e2d9d7fbcb1ae92f56862420b3d7a4d9a13c36098ccdb8dcd6ded26ecbe28"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 283,
+      "sha256": "2ae6c9eaf60ba9573d1259480544f9d68384c9b1110694f8a337877add9568af"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 11059,
+      "sha256": "3205ffd26ec5861b798fcc02ef32835efdf060db80e40ff2aac75f8e2c028210"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11560,
+      "sha256": "47b2b7375318c574ef44d0def1e28d296e8bac5940d24d2694f5d99e7053b780"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 605,
+      "sha256": "95c0b559a1da78e6523a4c84c030c12bad3d4b82a002665109bd1f1fe9442f61"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3633,
+      "sha256": "183d36ffbc545833b89acccfdccfd801499ac17fdc59df7f2a452365fc03e6c6"
+    },
+    {
+      "path": "docs/plan.md",
+      "bytes": 57009,
+      "sha256": "a8646602a9295a15a3760fae62349fb0e7dbd26a199bee710dc0588b2629c51a"
+    },
+    {
+      "path": "docs/schedule.md",
+      "bytes": 6535,
+      "sha256": "dfc91f091d5970359b5d653ae372524879fa963a84ce44a9e55868019bb233a4"
+    },
+    {
+      "path": "kaggle/casmi26-fork-v21pop/kernel-metadata.json",
+      "bytes": 693,
+      "sha256": "47c979c1fdab3d9925cb9f81050f18ed250623dd0b2206e0e5d6f3e8d1ecea1f"
+    },
+    {
+      "path": "kaggle/casmi26-fork-v21pop/notebook.ipynb",
+      "bytes": 34273,
+      "sha256": "e0b38c74c71bd1065f9ba36d2af044217d6a3544792dd3ecdcb8457e41cb62f5"
+    },
+    {
+      "path": "kaggle/casmi26-fork-v4l/kernel-metadata.json",
+      "bytes": 687,
+      "sha256": "dfdefdd8d43950ebd5cddbef08829e8840ec4367f774cd31dd25d0c656898795"
+    },
+    {
+      "path": "kaggle/casmi26-fork-v4l/notebook.ipynb",
+      "bytes": 28311,
+      "sha256": "3ace0c88874cf2c56b180c73e5d352fd874c4a4ddeaf612046201bc10db0e3d6"
+    },
+    {
+      "path": "kaggle/casmi26-fork-v4m/kernel-metadata.json",
+      "bytes": 730,
+      "sha256": "373b8b4962873e49502108f386aecb772778b5fc7189d2682e49a3e23fb455c0"
+    },
+    {
+      "path": "kaggle/casmi26-fork-v4m/notebook.ipynb",
+      "bytes": 28534,
+      "sha256": "3712de16ba185cce4afc0ada964f40e2828d7d1a9d7eeeac18d9482b72640d64"
+    },
+    {
+      "path": "kaggle/casmi26-fork-v4n-own3/kernel-metadata.json",
+      "bytes": 1292,
+      "sha256": "7855a47e7b2d5ccbb1334311f6eb5c317df2001d218392ea8c530ef0ac6e80a8"
+    },
+    {
+      "path": "kaggle/casmi26-fork-v4n-own3/notebook.ipynb",
+      "bytes": 183290,
+      "sha256": "f422ee33d1485fca9ae009c66f21ed31f9a5d094fcd7d4491f369a9ff980fc35"
+    },
+    {
+      "path": "kaggle/casmi26-fork-v4n/kernel-metadata.json",
+      "bytes": 1251,
+      "sha256": "891bbd4387bfc6972bb121c669816a55c22b71ab07702df08a6666bd09611473"
+    },
+    {
+      "path": "kaggle/casmi26-fork-v4n/notebook.ipynb",
+      "bytes": 182523,
+      "sha256": "1e569bd86d0258b41f1d8a4230dc50a8b4e24403d12305746ba1c53f44ecc557"
+    },
+    {
+      "path": "kaggle/dataset/dataset-metadata.json",
+      "bytes": 102,
+      "sha256": "a19df9e3bb0f43306ee4e97e20ff589d79230ff3e3befd9a92d5b055e1f600bd"
+    },
+    {
+      "path": "kaggle/fork_2r/kernel-metadata.json",
+      "bytes": 704,
+      "sha256": "4ecc96ec041206d9f3a5aebc830dffa5dde37440b7c7b9d7c834afc79dfbbc07"
+    },
+    {
+      "path": "kaggle/fork_2r/notebook.ipynb",
+      "bytes": 60456,
+      "sha256": "ad7522a7e3d0970c317566448eaea4f6667942c73dd0d6317760d510bbb668f2"
+    },
+    {
+      "path": "kaggle/fork_base/kernel-metadata.json",
+      "bytes": 626,
+      "sha256": "fb379b23148e14f5dd28c74f96e4df323f9f96559374f86ed5c8257b775f2b70"
+    },
+    {
+      "path": "kaggle/fork_base/notebook.py",
+      "bytes": 40169,
+      "sha256": "65aeab2a4cb3e2ceee3f993915495c2910439913de62e1b26700dcc79f2c351f"
+    },
+    {
+      "path": "kaggle/fork_v2/kernel-metadata.json",
+      "bytes": 644,
+      "sha256": "9dccb288856df590218d922290cab665e85663bf8561499f60b2845cc42e4256"
+    },
+    {
+      "path": "kaggle/fork_v2/notebook.py",
+      "bytes": 42452,
+      "sha256": "4a8ab41ebc1c9f5b41b2225acf71e1fb6aff80c2edc52860863ac11a8e3b775c"
+    },
+    {
+      "path": "kaggle/fork_v3/kernel-metadata.json",
+      "bytes": 642,
+      "sha256": "7640d87af0aaedef056eb36ec97aa35c4f26af659e166bbe3198ca4330cfcf65"
+    },
+    {
+      "path": "kaggle/fork_v3/notebook.py",
+      "bytes": 42389,
+      "sha256": "db3975189e2853fedb3a7941100d8bc39d835a75c25196f0570da46ef8cec026"
+    },
+    {
+      "path": "kaggle/fork_v4/kernel-metadata.json",
+      "bytes": 622,
+      "sha256": "d225878d0f315e6a56a5d39bf7c937054a4ea638139a272881df8b072a907870"
+    },
+    {
+      "path": "kaggle/fork_v4/notebook.py",
+      "bytes": 41406,
+      "sha256": "4dee6040d0a3511adc38f638c64fffabca17d4853f853e86bb78a883a207013f"
+    },
+    {
+      "path": "kaggle/fork_v4_cpu/kernel-metadata.json",
+      "bytes": 631,
+      "sha256": "2ab5bf9f211652e12a83edfcabfb82ec2b7a53887190e241a4025b436188c3f4"
+    },
+    {
+      "path": "kaggle/fork_v4_cpu/notebook.py",
+      "bytes": 41406,
+      "sha256": "4dee6040d0a3511adc38f638c64fffabca17d4853f853e86bb78a883a207013f"
+    },
+    {
+      "path": "kaggle/fork_v5/kernel-metadata.json",
+      "bytes": 624,
+      "sha256": "08d5b9a0c43eb593f3ef9ed883f55d03fde12d50111cbd59bba6bf5f98e48f84"
+    },
+    {
+      "path": "kaggle/fork_v5/notebook.py",
+      "bytes": 41469,
+      "sha256": "5acc8bca0d27174f5ca3e26e1b6d0d92706e85bbae35ef615bad564c3753bfb3"
+    },
+    {
+      "path": "kaggle/fork_v6/kernel-metadata.json",
+      "bytes": 625,
+      "sha256": "75b0e11e237ba1e4edf7bfe2eb1593efdefc44def88e3582381d368e8dde32c7"
+    },
+    {
+      "path": "kaggle/fork_v6/notebook.py",
+      "bytes": 41433,
+      "sha256": "8465f9fb6e6c7ae642c551bfe6dbdd460ece4643da92c7091a94ea2b4e63f7b0"
+    },
+    {
+      "path": "kaggle/fork_v7/kernel-metadata.json",
+      "bytes": 623,
+      "sha256": "310f58e85277846d192cd509dfae904f4a45b3bbc84863cf6266ca15ba10a1bd"
+    },
+    {
+      "path": "kaggle/fork_v7/notebook.py",
+      "bytes": 41510,
+      "sha256": "dac404a34cdcc9754313312932a85995f35a58f39772164e582970f305bc8b82"
+    },
+    {
+      "path": "kaggle/fp_own3_dataset/dataset-metadata.json",
+      "bytes": 110,
+      "sha256": "299c25ebf5e6cb04670b56793df3b67e5a1cd6f9fb0d3276f6030a2b2257e263"
+    },
+    {
+      "path": "kaggle/kernel/kernel-metadata.json",
+      "bytes": 426,
+      "sha256": "32f371fa5522e8f5f1b16420ca0d8097202a3c41b90bd357c6f5a4505a784020"
+    },
+    {
+      "path": "kaggle/kernel/notebook.py",
+      "bytes": 2901,
+      "sha256": "d225f764aa86e86f6075cdee451df0ad68c36e139a61b85af7113c31e0d8966e"
+    },
+    {
+      "path": "kaggle/prep/kernel-metadata.json",
+      "bytes": 377,
+      "sha256": "f384f0e377898cd0fbda3e5356dde7b6f6065f2ccc3287e8e6700e00fc529f59"
+    },
+    {
+      "path": "kaggle/prep/notebook.py",
+      "bytes": 7143,
+      "sha256": "23259a4c4d0ad5d19958624a81cd9544c17ad9ab7751e3ce84ecc87b09df4244"
+    },
+    {
+      "path": "kaggle/ranker_mixed/dataset-metadata.json",
+      "bytes": 120,
+      "sha256": "df5f4f64f0020213baaa51c05e17aee1643c9148c73acd1a6e4bb31c597f0c1f"
+    },
+    {
+      "path": "kaggle/ranker_ours/dataset-metadata.json",
+      "bytes": 118,
+      "sha256": "6cbfff7f823854007f87c7b122bd54202dd0a8de1f828ec6cf958e6eb1e0c935"
+    },
+    {
+      "path": "kaggle/ranker_v4/dataset-metadata.json",
+      "bytes": 114,
+      "sha256": "f07c177fb1d23997b92f3576e06ec004913d6a30312a134b91f7b43bfff972c1"
+    },
+    {
+      "path": "kaggle/rdkit_wheel/dataset-metadata.json",
+      "bytes": 119,
+      "sha256": "904028c585e0de848377ff8d5da9f72365fa63fa563cc59a1aeaaf8797a18033"
+    },
+    {
+      "path": "kaggle/train_fp/dataset-metadata.json",
+      "bytes": 112,
+      "sha256": "39ce509797c4b8d7403530e601b76b1a190f9de75fe9f20463f3af9023ce0532"
+    },
+    {
+      "path": "kaggle/train_fp/kernel-metadata.json",
+      "bytes": 345,
+      "sha256": "b84d5d0f15402aca27d8373307fcaaa723c7968204eeed3bbbee2bba1e20be99"
+    },
+    {
+      "path": "kaggle/train_fp/notebook.py",
+      "bytes": 10372,
+      "sha256": "1a0547609170ca7551c7fdda4b157a5898f8e768fa60b1436787cabc7ec92f8d"
+    },
+    {
+      "path": "kaggle/train_fp_v2/kernel-metadata.json",
+      "bytes": 415,
+      "sha256": "f7027e8d9ea48baeccb4b3049a166b6b3c16fcbf7e88c82cce9a0391ba0d6113"
+    },
+    {
+      "path": "kaggle/train_fp_v2/notebook.py",
+      "bytes": 15160,
+      "sha256": "4be4834570889730a42190745aabdbaf538c4ddaaf69b4cf88356dcd3cbba991"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 179,
+      "sha256": "de43427a7e7577d57265cd2db333f78551062eef6f085e7a784d405c3cf5f621"
+    },
+    {
+      "path": "scripts/diag_fork_val.py",
+      "bytes": 4589,
+      "sha256": "7ac300ecdfc1e4ed27712be43ecd7cf1b763f9c7d18789208d036735b02fe1d0"
+    },
+    {
+      "path": "scripts/dump_rank_features.py",
+      "bytes": 7272,
+      "sha256": "633fef67461146df19b66a91bbd4719dc784d5673bb4b867ea3f3d239ae62f9f"
+    },
+    {
+      "path": "scripts/eval_channel4.py",
+      "bytes": 5115,
+      "sha256": "dada70970d7babc07051f9ea9233ce50e1d5f6dae0bf8594103388d6ae73b764"
+    },
+    {
+      "path": "scripts/fork_public.sh",
+      "bytes": 2307,
+      "sha256": "57485fa6dc29ba3fd44ee316d8495969b449771d9fd56dfed67c967bd8ed4856"
+    },
+    {
+      "path": "scripts/inspect_data.py",
+      "bytes": 1496,
+      "sha256": "3d55e766ce953e8bc41e78fce8b212df7f67f6f1c1e37d3ff2525cc7d038043c"
+    },
+    {
+      "path": "scripts/pool_canon_keys.py",
+      "bytes": 2075,
+      "sha256": "43f8bfc28fd7a40e4c5d600256c209390828250dd3ec8617956783f3f58a5176"
+    },
+    {
+      "path": "scripts/run_baseline.py",
+      "bytes": 4244,
+      "sha256": "e35b13285b54a137c4afdb582020a8b5156e0ab551005ff8f0cbe6c189065464"
+    },
+    {
+      "path": "scripts/run_fork_val.py",
+      "bytes": 7113,
+      "sha256": "9d16d264436da15e31e6adcb07cbdcef860cc907b49041b69e989f9a47432c53"
+    },
+    {
+      "path": "scripts/runpod_setup.sh",
+      "bytes": 1086,
+      "sha256": "623a300036fdafa7927829126717f5e853f1a2b5e0daa7464511c1bef4912854"
+    },
+    {
+      "path": "scripts/runpod_train.sh",
+      "bytes": 755,
+      "sha256": "664c8c2c955f138ca1d2c133873f0f40f46a896850ac54b9f8b8708a07e5d8eb"
+    },
+    {
+      "path": "scripts/train_ranker.py",
+      "bytes": 4727,
+      "sha256": "e159c6a487d0c6c8eff39f255c0a61d3199c695ec3caaf45846835cc37942219"
+    },
+    {
+      "path": "src/casmi/__init__.py",
+      "bytes": 67,
+      "sha256": "cdec8be2326f1138bdaa0c080375fa3c7f197f8117a6ca0460894e936c92a790"
+    },
+    {
+      "path": "src/casmi/fork/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/casmi/fork/core.py",
+      "bytes": 38205,
+      "sha256": "7e1def3e067ac63b441bc15ca307c59c4d2d3e0c8423c30960ee4f7eacd8bea5"
+    },
+    {
+      "path": "src/casmi/fork/harness.py",
+      "bytes": 12088,
+      "sha256": "c66efe098f3fac24243f6e6c2f2ec2f8697fea7ad6fbed8500cd6a825c396f53"
+    },
+    {
+      "path": "src/casmi/library_search.py",
+      "bytes": 8380,
+      "sha256": "e09bd6db96fcf6fa2b83264d1d65279264dd94855c38392836a789a9c8bc4f37"
+    },
+    {
+      "path": "src/casmi/metric.py",
+      "bytes": 2239,
+      "sha256": "9ff1ba486e5054afdd8fda948d1071ded3ee4b6390dd6174fb777b6856402159"
+    },
+    {
+      "path": "src/casmi/schema.py",
+      "bytes": 2122,
+      "sha256": "4a10072bb3aa1dd10bab52069ada1a2e8ce8414d13d17ecddcb13ea62cd35dd6"
+    },
+    {
+      "path": "src/casmi/spectra.py",
+      "bytes": 3260,
+      "sha256": "c970600b1c4deb79a3a5cd713d364ae9c51b2922a10f492dd04d9f69d7ba7486"
+    },
+    {
+      "path": "src/casmi/submission.py",
+      "bytes": 1379,
+      "sha256": "ddf03afcce2abe75cc7074ee0b2df522d5d95a645790aa1d69b9d5841a792eb6"
+    },
+    {
+      "path": "src/casmi/validation.py",
+      "bytes": 4963,
+      "sha256": "f24a3253f2baf4941081b3e03f976756a8f30d811839277dc744bec24b18c219"
+    },
+    {
+      "path": "tests/test_binned_matrix.py",
+      "bytes": 1322,
+      "sha256": "1ad7517c7fa35998f4b632d9bd7af2415a1c8b2fdc076f9906f44bb558c9af43"
+    },
+    {
+      "path": "tests/test_library_search.py",
+      "bytes": 1590,
+      "sha256": "94545dfcdb715ba460790c49c2c97cd531149856831cba5c6efd4698b3408c5b"
+    },
+    {
+      "path": "tests/test_metric.py",
+      "bytes": 1275,
+      "sha256": "275503425fd05bb4f9c4af42113d32cfe219a288af24215a11ef9064ac9f1935"
+    }
+  ]
+}

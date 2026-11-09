@@ -1,0 +1,27 @@
+{
+  "status": "accepted",
+  "target": "stormseye/casmi26-flex-dual-only-1107",
+  "version": 1,
+  "branch_sha256": "2f5ae80d6cfa66838fd8c137de8b43dea535c7cf5967914045efad85f6e3f087",
+  "actual_target": "stormseye/casmi26-flex-dual-neural-only",
+  "description": "CASMI26 20261107 flex_dual_only audited V1",
+  "competition": "enveda-CASMI26-molecule-id-mass-spectra",
+  "output_file": "submission.csv",
+  "requested_at_utc": "2026-11-06T16:41:46.541222+00:00",
+  "notebook_sha256": "56afead5063b63f24b76c66431a733638c2913e95fe9ab3a11ed569dc3237598",
+  "visible_output_sha256": "210bb8deb556e8ac7b6ca1636775a01bc94d59c87c94fad5a3bdca164e70bb83",
+  "output_audit_sha256": "aee15c5e765a9196c650bcf8937c5a84a8549445a9802fe63efc5176b419f6fe",
+  "observed_existing_refs": [
+    58021256,
+    58051406
+  ],
+  "num_allowed_before": 4,
+  "num_today_before": 1,
+  "num_total_before": 2,
+  "validation_mode": "fast_static",
+  "automatic_retry_allowed": false,
+  "submits_cloud_code_version": true,
+  "local_diagnostic_csv_uploaded": false,
+  "submission_ref": 58063780,
+  "responded_at_utc": "2026-11-06T16:41:49.829359+00:00"
+}

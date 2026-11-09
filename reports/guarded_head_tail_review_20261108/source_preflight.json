@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checks": {
+    "original_neural_stage_exact": true,
+    "compact_original_sources_exact": true,
+    "all_other_original_scoring_cells_exact": true,
+    "base_observer_only_dynamic_size": true,
+    "late_stage_follows_complete_base": true,
+    "compact_under_1MiB": true,
+    "batch_preflight": true
+  },
+  "notebook_sha256": "6de37bec32c8aa8bfb46b2c5e94e374b53fe36137dff1cd7d1c4a295359f56fe",
+  "no_cloud_calls": true
+}

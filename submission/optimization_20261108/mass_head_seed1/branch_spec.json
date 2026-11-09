@@ -1,0 +1,53 @@
+{
+  "name": "mass_head_seed1",
+  "target": "stormseye/casmi26-mass-head-seed1-1108",
+  "version": 1,
+  "stage_dir": "submission/optimization_20261108/mass_head_seed1",
+  "notebook_sha256": "54d0acc8eb0569b98226a0b38471b39cfda268d72e21f98a0d1329d56fb3e3df",
+  "metadata_sha256": "2cace3982a1921e43b042a107c9340b31d929698b3283f56733ebc05274e32da",
+  "description": "CASMI26 20261108 head_seed1 trained multispectrum head audited V1",
+  "validation_mode": "fast_static",
+  "static_review_path": "submission/optimization_20261108/mass_head_seed1/static_review.json",
+  "required_runtime_audits": [
+    {
+      "name": "batch_variant_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "mode": "fast_static",
+        "branch": "public_mass_repro",
+        "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+      },
+      "required_true_checks": [
+        "mass_recipe",
+        "original_public_priors",
+        "official_rdkit",
+        "public_model_pins",
+        "ours_model_pins",
+        "two_distinct_models",
+        "lotus_pin",
+        "csv_schema_ids",
+        "csv_counts",
+        "fast_no_model"
+      ]
+    },
+    {
+      "name": "learned_head_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "mass_head_seed1",
+        "mode": "fast_static",
+        "recipe_sha256": "e6be635827a8c1f7fbbcef958c2ec2de593d4f66378c9af5bcc9ff2a3bad82fc"
+      },
+      "required_true_checks": [
+        "base_mass_audit",
+        "head_scorer_source_pin",
+        "head_model_source_pin",
+        "original_scorer_source_pin",
+        "runtime_manifest_pin",
+        "trained_checkpoint_pins",
+        "base_mass_configuration",
+        "fast_no_model_claim"
+      ]
+    }
+  ]
+}

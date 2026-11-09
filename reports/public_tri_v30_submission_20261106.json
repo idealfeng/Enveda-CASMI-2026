@@ -1,0 +1,46 @@
+{
+  "status": "accepted",
+  "requested_at_utc": "2026-11-06T08:20:59.756628+00:00",
+  "target": "stormseye/casmi26-public-tri-v30",
+  "version": 1,
+  "competition": "enveda-CASMI26-molecule-id-mass-spectra",
+  "output_file": "submission.csv",
+  "description": "CASMI26 public tri V30 audited reproduction 20261106 V1",
+  "notebook_sha256": "1d5e50cdd139353074f022f1d3a280fbfb688ca27da92610eee72dcdd7d19b33",
+  "output_audit_sha256": "9b0e416b2242fd4242dbfba13a89afcaf79534e678bf86ecd66b9cec336bf3e5",
+  "binding_sha256": "9066bd1107ba3501884b003e706f664a5d418a26c2d665d4011d7ddc3256c168",
+  "visible_output_sha256": "5803d3bdf65908d656672f0796305fd9d72cd56f9d1d90f7beff7d5f59847c0d",
+  "automatic_retry_allowed": false,
+  "submits_cloud_code_version": true,
+  "local_diagnostic_csv_uploaded": false,
+  "local_scope": {
+    "processed_molecules": 12,
+    "input_molecules": 400,
+    "placeholder_rows": 388,
+    "is_full_run": false
+  },
+  "server_source_sha256": "60b45e331d6f04e34ce779f35421cd09915256f56a85d2ef1a6da9e3757d5748",
+  "dataset_sources": [
+    "bgunshui/casmi26-scorer-v2-model",
+    "bgunshui/casmi26-scorer-v4-model",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "qwertykeypadapple/casmi26-lotus-candidates",
+    "sanpier/casmi-spectrum-model-v1"
+  ],
+  "observed_existing_submission_refs": [
+    58021256
+  ],
+  "allowance_before_request": {
+    "num_today": 0,
+    "num_total": 1,
+    "num_allowed_now": 5
+  },
+  "submission_ref": 58051406,
+  "response_ref_positive": true,
+  "response_message_present": false,
+  "responded_at_utc": "2026-11-06T08:21:02.590558+00:00"
+}

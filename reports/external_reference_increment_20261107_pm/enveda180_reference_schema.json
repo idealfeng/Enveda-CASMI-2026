@@ -1,0 +1,44 @@
+{
+  "rows": 730252,
+  "row_groups": 48,
+  "fields": [
+    {
+      "name": "reference_key",
+      "type": "large_string",
+      "nullable": true
+    },
+    {
+      "name": "smiles",
+      "type": "large_string",
+      "nullable": true
+    },
+    {
+      "name": "neutral_mass",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "adduct",
+      "type": "large_string",
+      "nullable": true
+    },
+    {
+      "name": "ms2_mzs",
+      "type": "list<element: double>",
+      "nullable": true
+    },
+    {
+      "name": "ms2_normalized_intensities",
+      "type": "list<element: double>",
+      "nullable": true
+    },
+    {
+      "name": "spectrum_signature",
+      "type": "large_string",
+      "nullable": true
+    }
+  ],
+  "full_file_read": false,
+  "peaks_read": false,
+  "full_file_hash_verified": false
+}

@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "id": 757152,
+      "read_only": true,
+      "checked_at_utc": "2026-11-09T07:11:38.167065+00:00",
+      "status": "saved",
+      "title": "NIST-trained ICEBERG/GLACIER checkpoints and the ICEBERG atlas",
+      "comments": 0,
+      "comments_truncated": false,
+      "text_sha256": "d2d44f815e516e9391206ec5edc17c6c485b08a52a7bee4e71c9a1c4163dbaa7"
+    },
+    {
+      "id": 756912,
+      "read_only": true,
+      "checked_at_utc": "2026-11-09T07:11:38.167065+00:00",
+      "status": "saved",
+      "title": "Repeated \"Notebook Threw Exception\" on Hidden Reruns Despite Successful Public Execution",
+      "comments": 2,
+      "comments_truncated": false,
+      "text_sha256": "a31872ce8928d38cc8cd2fa947b403fb5d6e88d5a75895a494cc983a2ced725c"
+    },
+    {
+      "id": 756893,
+      "read_only": true,
+      "checked_at_utc": "2026-11-09T07:11:38.167065+00:00",
+      "status": "saved",
+      "title": "Are shipped ranker tables without a public generator reproducible?",
+      "comments": 0,
+      "comments_truncated": false,
+      "text_sha256": "a2367c48c118a101d68a23f596b5c730eb3fa6b7d6c402a7d980847c8abb68f0"
+    }
+  ],
+  "read_only": true,
+  "external_writes": false
+}

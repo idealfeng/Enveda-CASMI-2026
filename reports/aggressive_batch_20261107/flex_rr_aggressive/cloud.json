@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-flex-rr-aggressive-1107",
+  "version": 1,
+  "branch_sha256": "d848d6d887d690d7130e492861b23ec4dec0c5081caa88bb13163a3ed82e2328",
+  "notebook_sha256": "e2e4613baf7020d03eccbcad0d765d3940c127d9af4303109ba3824be10d88ce",
+  "metadata_sha256": "815dbb79facc91a15c4708a5341019382e73396b47ae6ec093657f8b86126a17",
+  "requested_at_utc": "2026-11-06T16:42:46.248530+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-06T16:42:50.315286+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

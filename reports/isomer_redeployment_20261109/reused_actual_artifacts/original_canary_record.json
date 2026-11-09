@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "stage_sha256": "0ab4a66896ad364e99fe8db2c234e13dc0622085606313a10fccf5c685b88b23",
+  "checks": {
+    "actual_model_invoked": true,
+    "actual_applied": true,
+    "runtime_checks": true,
+    "observer_checks": true,
+    "all_three_queries": true,
+    "exact_protected_prefix": true,
+    "actual_scored_order": true
+  },
+  "queries": 3,
+  "spectra": 36,
+  "changed_queries": 3,
+  "score_mode": "learned_heads",
+  "known_pretrained_exposure": true,
+  "training_performed": false
+}

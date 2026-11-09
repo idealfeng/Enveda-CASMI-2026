@@ -1,0 +1,4 @@
+{"stage": "inputs_checked", "train_rows": 2539608, "train_pairs": 277566, "train_unique_smiles": 277566, "reference_unique_smiles": 167490, "combined_unique_smiles": 445722, "metadata_only": true}
+{"stage": "canonicalizing", "pending": 445722, "workers": 4}
+{"stage": "canonicalizing", "done": 4096, "total": 445722, "elapsed_seconds": 37.35}
+{"stage": "canonicalizing", "done": 8192, "total": 445722, "elapsed_seconds": 69.2}

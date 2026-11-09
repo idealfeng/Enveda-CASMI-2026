@@ -1,0 +1,14 @@
+{
+  "target_in_owned_inventory": false,
+  "owned_count": 46,
+  "notebook_bytes": {
+    "mass_gl_na": 840458,
+    "mass_heads_na": 1148616,
+    "mass_head_seed0": 970774,
+    "mass_head_seed1": 970774,
+    "mass_no_np_bonus": 807487
+  },
+  "get_found": false,
+  "error_type": "HTTPError",
+  "status": 403
+}

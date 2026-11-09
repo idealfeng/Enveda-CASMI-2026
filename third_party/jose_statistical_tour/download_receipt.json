@@ -1,0 +1,11 @@
+{
+  "url": "https://www.kaggle.com/api/v1/kernels/pull?userName=josefreitasalvesneto&kernelSlug=casmi-2026-a-complete-statistical-tour",
+  "downloaded_at_utc": "2026-11-04T13:28:25.983360+00:00",
+  "version": 3,
+  "ref": "josefreitasalvesneto/casmi-2026-a-complete-statistical-tour",
+  "source_sha256": "ec4dc4f169d483cec5c8ca808f6e464f09ab0633abd0c4cf044a8434783a1a6c",
+  "api_sha256": "ea45a37e8f14387ed7e9abaa8975e9fff8e45c196afc0ab0e1613843f3da3662",
+  "api_bytes": 173676,
+  "executed": false,
+  "assets_downloaded": false
+}

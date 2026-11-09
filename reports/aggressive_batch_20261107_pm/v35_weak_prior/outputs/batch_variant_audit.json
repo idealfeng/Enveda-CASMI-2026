@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "mode": "fast_static",
+  "branch": "v35_weak_prior",
+  "recipe_sha256": "e17ea15ab80eacbd16d4e5cbb3e9d183e8342da3114d903e147e9ac432aeab75",
+  "checks": {
+    "configuration": true,
+    "official_rdkit": true,
+    "public_model_pins": true,
+    "v2_model_pins": true,
+    "distinct_models": true,
+    "lotus_pin": true,
+    "csv_schema_ids": true,
+    "csv_counts": true,
+    "fast_no_model": true
+  },
+  "pins": {
+    "public": {
+      "features.py": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+      "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+      "config.json": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+      "final_model.pt": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642"
+    },
+    "ours": {
+      "features.py": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+      "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+      "config.json": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+      "final_model.pt": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46"
+    }
+  },
+  "actual_model_inference": false,
+  "blend": {},
+  "mass_map_audit": null,
+  "csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0"
+}

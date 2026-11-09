@@ -1,0 +1,32 @@
+{
+  "id": 142179825,
+  "ref": "heliosli/casmi26-0-482",
+  "title": "casmi26-0.482",
+  "current_version_number": 2,
+  "last_run_time": "2026-11-03 16:27:54.545000",
+  "total_votes": 79,
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_data_sources": [
+    "",
+    "",
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "sanpier/catalogue-experiment-saner"
+  ],
+  "kernel_data_sources": [],
+  "competition_data_sources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "model_data_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+  "machine_shape": "NvidiaTeslaT4",
+  "source_sha256": "1d51ef0cbcafc00893a4d7f51142c0e712f1c14a0113366626f96b87bd2a10c6",
+  "source_bytes": 616473,
+  "source_path": "third_party\\public_scan_heliosli__casmi26-0-482_20261107\\source.ipynb"
+}

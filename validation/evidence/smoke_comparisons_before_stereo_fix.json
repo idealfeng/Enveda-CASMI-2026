@@ -1,0 +1,41 @@
+{
+  "canqiang_smoke_comparison.json": {
+    "actual": "runs/canqiang_smoke_20261104b/submission.csv",
+    "reference": "third_party/canqiang_e006/upstream_output/canqiang_e006_v1_active12.csv",
+    "matching_molecules": {
+      "top1_exact": 12,
+      "candidate_set_exact": 12,
+      "ranking_exact": 2,
+      "top1_identity": 12,
+      "candidate_set_identity": 12,
+      "ranking_identity": 2
+    },
+    "actual_sha256": "3e2191eabad2dc1cd804dc640be3f983f6ff46f7b4b7d3d0ce08a9a3f548870b"
+  },
+  "flexonafft_smoke_comparison.json": {
+    "actual": "runs/flexonafft_smoke_20261104b/submission.csv",
+    "reference": "third_party/flexonafft_evidence_gap/upstream_output/flexonafft_v56_active12.csv",
+    "matching_molecules": {
+      "top1_exact": 12,
+      "candidate_set_exact": 10,
+      "ranking_exact": 4,
+      "top1_identity": 12,
+      "candidate_set_identity": 10,
+      "ranking_identity": 4
+    },
+    "actual_sha256": "50f38416a9e52fcd94812156216807c2cab1dc780c67bdb053069e780dca2e7b"
+  },
+  "prvsiyan_smoke_comparison.json": {
+    "actual": "runs/prvsiyan_smoke_20261104b/submission.csv",
+    "reference": "third_party/prvsiyan_analog/upstream_output/prvsiyan_v43_active12.csv",
+    "matching_molecules": {
+      "top1_exact": 12,
+      "candidate_set_exact": 9,
+      "ranking_exact": 3,
+      "top1_identity": 12,
+      "candidate_set_identity": 9,
+      "ranking_identity": 3
+    },
+    "actual_sha256": "59de48188d2c624b9cf27384b06837d3f27d02c6fe24ce0875661dbf82d31f49"
+  }
+}

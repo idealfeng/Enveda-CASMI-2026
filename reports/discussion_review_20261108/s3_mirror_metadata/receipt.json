@@ -1,0 +1,45 @@
+{
+  "checked_at_utc": "2026-11-07T16:06:36.854455+00:00",
+  "records": [
+    {
+      "bucket": "scigantic-zenodo-20436851",
+      "public_url": "https://scigantic-zenodo-20436851.s3.amazonaws.com/MIRROR.md",
+      "read_only": true,
+      "status": 200,
+      "bytes": 1312,
+      "sha256": "f45101955afaeeb13dbc091d826c8947309b1263e6e48f81d171dba0faafbb53"
+    },
+    {
+      "bucket": "scigantic-coconut",
+      "public_url": "https://scigantic-coconut.s3.amazonaws.com/MIRROR.md",
+      "read_only": true,
+      "status": 200,
+      "bytes": 1096,
+      "sha256": "4079a995ef8ebb998dccc7ca3409f9bc737c6d6f25d9b316d6124a9e79bff751"
+    },
+    {
+      "bucket": "scigantic-zenodo-19360665",
+      "public_url": "https://scigantic-zenodo-19360665.s3.amazonaws.com/MIRROR.md",
+      "read_only": true,
+      "status": 200,
+      "bytes": 845,
+      "sha256": "a0ce0a414ce7e6023f4603f0a41e93a20af19e6098ee9dccd94871449b8c89da"
+    },
+    {
+      "bucket": "scigantic-massbank",
+      "public_url": "https://scigantic-massbank.s3.amazonaws.com/MIRROR.md",
+      "read_only": true,
+      "status": 200,
+      "bytes": 1422,
+      "sha256": "eb37307c008d9c34df90929880285e1b18920698f4326d49aae628cd50d9c8f5"
+    },
+    {
+      "bucket": "scigantic-gnps-libraries",
+      "public_url": "https://scigantic-gnps-libraries.s3.amazonaws.com/MIRROR.md",
+      "read_only": true,
+      "status": 200,
+      "bytes": 7946,
+      "sha256": "6763c6c0a7b2e40cdc143683a9c9c646ffc3157a0e3e6ff74d150d52a748eb68"
+    }
+  ]
+}

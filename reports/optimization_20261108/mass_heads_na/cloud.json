@@ -1,0 +1,14 @@
+{
+  "status": "request_outcome_unknown_no_retry",
+  "target": "stormseye/casmi26-mass-heads-na-1108",
+  "version": 1,
+  "branch_sha256": "f6a201feae6a6d8db306054a06cd4eea09569a93d3619c2ee5b66f68940e98f2",
+  "notebook_sha256": "9417600e4a0118c671dff6e571ac0260bac951eb7531ee985096c60d7beb8e8e",
+  "metadata_sha256": "b2e709187d56f9f93052b6253e683f0fcf67491b6427b76df59e031a8fe553b1",
+  "requested_at_utc": "2026-11-08T08:04:41.426545+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "checked_at_utc": "2026-11-08T08:04:43.904564+00:00",
+  "error_type": "HTTPError",
+  "http_status": 400
+}

@@ -1,0 +1,252 @@
+{
+  "scope": "End-to-end local V43 visible-placeholder smoke; 12 calculated rows and 388 padding rows. No hidden leaderboard score reproduced.",
+  "status": "complete",
+  "source_sha256": "a1da86c791cdbcb553254a12cef8bca8b527b991f40953d9dcb2a9c819d3c852",
+  "actual_sha256": "59de48188d2c624b9cf27384b06837d3f27d02c6fe24ce0875661dbf82d31f49",
+  "timing": {
+    "recovery_total_seconds": 575.604,
+    "engine2_reuse_seconds": 11.212,
+    "prior_actual_engine2_seconds": 525.789,
+    "cold_total_seconds_measured": null,
+    "reason": "Recovery reused verified Engine2 output from the first run; the two timings must not be presented as a single measured cold run."
+  },
+  "stage_health": {
+    "base_errors": 0,
+    "base_nonempty": 12,
+    "engine2_nonempty": 12,
+    "pubchem_nonempty": 12,
+    "models": {
+      "ice": {
+        "status": "ok",
+        "n_mols": 12,
+        "n_mols_scored": 11,
+        "n_mols_covered": 11,
+        "n_cands": 814,
+        "n_scored": 793,
+        "errors": [],
+        "rdkit": "2025.03.6",
+        "torch": "2.9.1+cu126",
+        "device": "cuda",
+        "t_load": 55.87,
+        "n_pred": 1599,
+        "n_pred_fail": 0,
+        "t_pred": 45.03,
+        "n_bad_smiles": 0,
+        "pred_per_s": 35.51,
+        "max_mem_gb": 3.81,
+        "seconds": 105.84,
+        "log_tail": [
+          "[ice     0.1s] stubbed (absent) modules: ['pygmtools', 'h5py', 'multiprocess', 'platformdirs']",
+          "[ice    55.0s] ms_pred tautomer mode v2 cache /mnt/d/Paper/casmi/.cache/tmp-linux/ice_ms_pred_cache",
+          "[ice    55.9s] model loaded on cuda (rdkit 2025.03.6, torch 2.9.1+cu126, numba True)",
+          "[ice   105.8s] chunk: 11 mols 1599 jobs 45.3s (11/11 covered mols scored)"
+        ]
+      },
+      "gl": {
+        "model": "glacier",
+        "status": "ok",
+        "n_mols": 11,
+        "n_mols_scored": 11,
+        "n_mols_covered": 11,
+        "n_cands": 793,
+        "n_scored": 793,
+        "errors": [],
+        "rdkit": "2025.03.6",
+        "torch": "2.9.1+cu126",
+        "device": "cuda",
+        "t_load": 70.63,
+        "n_pred": 1599,
+        "n_pred_fail": 0,
+        "n_feat_fail": 0,
+        "t_pred": 16.9,
+        "n_bad_smiles": 0,
+        "pred_per_s": 94.6,
+        "bs_final": 32,
+        "max_mem_gb": 0.33,
+        "seconds": 92.16,
+        "log_tail": [
+          "[gl     0.0s] site ready (marker matches): /mnt/d/Paper/casmi/runs/prvsiyan_smoke_20261104b/ice_site",
+          "[gl     0.1s] stubbed (absent) modules: ['pygmtools', 'h5py', 'multiprocess', 'platformdirs']",
+          "[gl    70.6s] GLACIER loaded: 15,108,154 params ",
+          "[gl    70.6s] model loaded on cuda (rdkit 2025.03.6, torch 2.9.1+cu126, numba True, threads 4)",
+          "[gl    92.2s] chunk: 11 mols 1599 jobs 17.4s (11/11 covered mols scored)"
+        ]
+      }
+    },
+    "n1_log": [
+      "[N1] glb_core selftest ok (proxy NH4/WL/Hcut, variants, random tie-break RR, aggregation, paired, gates, blind)",
+      "[N1] glb_driver selftest ok (merged-CE buckets, jobs, merge == SUM_CE path, single-CE identity, coverage)",
+      "[N1] code: glb_core f7a3b8cd8802 glb_driver e919a154b57b (= kdev_glbench_n1) | gl_runner.py 5c4f74313ac5 matches the B1/bench MANIFEST: True | arm N1A_D (tags, mode) (('NH4p', 'WLp'), 'merged') | budget 600s",
+      "[N1] molecules: GL/ICE input 12 | with real [M+H]+ 11 (H1 run, unchanged) | blind 1 (with NH4/WL spectra 0) | N1 molecules 0 | proxies built 0 (NH4p 0, WLp 0; empty after the cut 0)",
+      "[N1] driver: status ok | molecules sent 11 (real 0, synthetic 11) done 11 | spectra covered 39 (merged-CE 8, expected 8) | predictions 1938 (fail 0) | 77.12s | errors []",
+      "[N1] complement (k2 variant A): N1 molecules with GL scores 0 | dropped (finite ICE score, E006 ICE fallback kept) 0 | kept 0",
+      "[N1] GL-scored N1 molecules: 0 of 0 | health: N1 OK: 0 of 0 N1 molecules GL-scored (0 candidates), driver ok, clashes dropped 0 | 554s",
+      "[N1] PubChem-list GL re-rank: N1 molecules with GL scores 0 | with a gated PubChem list (lib_max < LIB_TAU) and an ICE dict = re-ranked with their N1 GL scores 0"
+    ]
+  },
+  "parity": {
+    "top1_exact": 12,
+    "candidate_set_exact": 9,
+    "ranking_exact": 3,
+    "top1_identity": 12,
+    "candidate_set_identity": 9,
+    "ranking_identity": 3
+  },
+  "difference_analysis": {
+    "top6_exact_molecules": 12,
+    "earliest_difference_rank": 7,
+    "rows": [
+      {
+        "molecule_id": "m_005e53",
+        "first_changed_rank": 11,
+        "changed_positions": [
+          11,
+          12,
+          21,
+          23
+        ],
+        "reference_only": [],
+        "local_only": [],
+        "top6_exact": true
+      },
+      {
+        "molecule_id": "m_006153",
+        "first_changed_rank": 9,
+        "changed_positions": [
+          9,
+          10
+        ],
+        "reference_only": [],
+        "local_only": [],
+        "top6_exact": true
+      },
+      {
+        "molecule_id": "m_00b5aa",
+        "first_changed_rank": 7,
+        "changed_positions": [
+          7,
+          8,
+          24,
+          25
+        ],
+        "reference_only": [],
+        "local_only": [],
+        "top6_exact": true
+      },
+      {
+        "molecule_id": "m_01e922",
+        "first_changed_rank": 10,
+        "changed_positions": [
+          10,
+          11,
+          20,
+          21
+        ],
+        "reference_only": [],
+        "local_only": [],
+        "top6_exact": true
+      },
+      {
+        "molecule_id": "m_0259d4",
+        "first_changed_rank": 15,
+        "changed_positions": [
+          15,
+          16,
+          25
+        ],
+        "reference_only": [
+          "Cn1nccc1C1OCCC1NC(=O)CCn1cnc2ccccc21"
+        ],
+        "local_only": [
+          "N#CCCn1cc(CN2CCOC(C(N)=O)C2)c(-c2ccccc2)n1"
+        ],
+        "top6_exact": true
+      },
+      {
+        "molecule_id": "m_02d188",
+        "first_changed_rank": 15,
+        "changed_positions": [
+          15,
+          16
+        ],
+        "reference_only": [],
+        "local_only": [],
+        "top6_exact": true
+      },
+      {
+        "molecule_id": "m_0318b5",
+        "first_changed_rank": null,
+        "changed_positions": [],
+        "reference_only": [],
+        "local_only": [],
+        "top6_exact": true
+      },
+      {
+        "molecule_id": "m_043e86",
+        "first_changed_rank": 16,
+        "changed_positions": [
+          16
+        ],
+        "reference_only": [
+          "O=C(O)C1CCN(C(=O)CS(=O)(=O)C2CCCC2)C1"
+        ],
+        "local_only": [
+          "CC(C(=O)NC1C2CCC(C2)C1C(=O)O)S(C)(=O)=O"
+        ],
+        "top6_exact": true
+      },
+      {
+        "molecule_id": "m_050bf1",
+        "first_changed_rank": 7,
+        "changed_positions": [
+          7,
+          8
+        ],
+        "reference_only": [],
+        "local_only": [],
+        "top6_exact": true
+      },
+      {
+        "molecule_id": "m_05b52e",
+        "first_changed_rank": null,
+        "changed_positions": [],
+        "reference_only": [],
+        "local_only": [],
+        "top6_exact": true
+      },
+      {
+        "molecule_id": "m_068354",
+        "first_changed_rank": 12,
+        "changed_positions": [
+          12,
+          13,
+          18,
+          19,
+          20,
+          25
+        ],
+        "reference_only": [
+          "Cc1ccc(C(C)C)cc1NC(=O)C1Cc2nccn2CC1O"
+        ],
+        "local_only": [
+          "Cc1ccc(C(C)C)cc1NC(=O)C1CCn2ccnc2C1O"
+        ],
+        "top6_exact": true
+      },
+      {
+        "molecule_id": "m_06e13d",
+        "first_changed_rank": null,
+        "changed_positions": [],
+        "reference_only": [],
+        "local_only": [],
+        "top6_exact": true
+      }
+    ],
+    "cause_status": "Not isolated. Source and model assets are bound by receipts, but original Kaggle intermediate candidate scores and full exact runtime are unavailable; rank differences cannot be attributed conclusively to numerical backend, hardware, or input differences. No algorithm patch or upstream-output copying was used to force parity."
+  },
+  "limitations": [
+    "The N1 driver self-tests and predictions passed, but this 12-row smoke has zero blind NH4/WL proxy molecules, so it does not validate that target behavior on representative data.",
+    "The public 0.456 is the author historical result, not a locally reproduced score.",
+    "Complete output parity is not achieved: top1 12/12; candidate sets 9/12; full rankings 3/12."
+  ]
+}

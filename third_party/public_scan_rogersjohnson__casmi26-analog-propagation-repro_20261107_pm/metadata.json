@@ -1,0 +1,32 @@
+{
+  "id": 143153958,
+  "ref": "rogersjohnson/casmi26-analog-propagation-repro",
+  "title": "casmi26 analog propagation repro",
+  "current_version_number": 1,
+  "last_run_time": "2026-11-04 06:39:49.420000",
+  "total_votes": 1,
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_data_sources": [
+    "sanpier/casmi-spectrum-model-v1",
+    "prvsiyan/casmi26-ranker-features",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "prvsiyan/casmi26-self-trained-scorer-seeds",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [],
+  "competition_data_sources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "model_data_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:de153e6d303881930c51286216393d56f56b26458d0661350305a1e8144eea01",
+  "machine_shape": "NvidiaTeslaT4",
+  "source_sha256": "b9704e24c81d0b97edd57f54245bbd89bb0ed0dcdd2e84fe254e4899071b52e7",
+  "source_bytes": 702541,
+  "source_path": "third_party\\public_scan_rogersjohnson__casmi26-analog-propagation-repro_20261107_pm\\source.ipynb"
+}

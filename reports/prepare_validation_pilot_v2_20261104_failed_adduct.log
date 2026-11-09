@@ -1,0 +1,26 @@
+METADATA rows=16384 raw_structures=4673
+METADATA rows=540672 raw_structures=87730
+METADATA rows=1064960 raw_structures=170982
+METADATA rows=1589248 raw_structures=235273
+METADATA rows=2113536 raw_structures=263431
+IDENTITY raw_structures=0 canonical_checked=0 blocked_keys=0
+IDENTITY raw_structures=25000 canonical_checked=485 blocked_keys=17
+IDENTITY raw_structures=50000 canonical_checked=867 blocked_keys=18
+IDENTITY raw_structures=75000 canonical_checked=1288 blocked_keys=18
+IDENTITY raw_structures=100000 canonical_checked=1696 blocked_keys=18
+IDENTITY raw_structures=125000 canonical_checked=2089 blocked_keys=18
+IDENTITY raw_structures=150000 canonical_checked=2500 blocked_keys=18
+IDENTITY raw_structures=175000 canonical_checked=2889 blocked_keys=18
+IDENTITY raw_structures=200000 canonical_checked=3649 blocked_keys=27
+IDENTITY raw_structures=225000 canonical_checked=4579 blocked_keys=34
+IDENTITY raw_structures=250000 canonical_checked=5385 blocked_keys=43
+IDENTITY raw_structures=275000 canonical_checked=6026 blocked_keys=51
+IDENTITY_FAMILIES_READY 51
+Traceback (most recent call last):
+  File "/mnt/d/Paper/casmi/scripts/prepare_validation.py", line 37, in <module>
+    main()
+  File "/mnt/d/Paper/casmi/scripts/prepare_validation.py", line 31, in main
+    prepare_validation(args.train, output, np_count=args.np_count, cross_count=args.cross_count,
+  File "/mnt/d/Paper/casmi/validation/datasets.py", line 287, in prepare_validation
+    raise ValueError('Missing query spectra for ' + official)
+ValueError: Missing query spectra for DJNFXUFERDZHCD

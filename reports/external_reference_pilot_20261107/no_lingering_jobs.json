@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-11-07T16:13:32.864036+00:00",
+  "boot_id": "bf832ac6-ebca-411d-9706-540f0a155d5c",
+  "checked_script": "scripts/audit_external_reference_increment.py",
+  "known_parent_and_worker_pids": {
+    "481": {
+      "present": false,
+      "same_task": false
+    },
+    "501": {
+      "present": false,
+      "same_task": false
+    },
+    "502": {
+      "present": false,
+      "same_task": false
+    },
+    "503": {
+      "present": false,
+      "same_task": false
+    },
+    "504": {
+      "present": false,
+      "same_task": false
+    }
+  },
+  "all_matching_script_processes": [],
+  "no_lingering_jobs": true,
+  "action": "read_only_full_proc_command_line_scan; no processes killed"
+}

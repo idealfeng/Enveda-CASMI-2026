@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-11-06T02:33:01.680652+00:00",
+  "read_only": true,
+  "target": "stormseye/casmi26-flex-v56-baseline",
+  "version": 2,
+  "competition": "enveda-CASMI26-molecule-id-mass-spectra",
+  "submission_ref": 58021256,
+  "status": "COMPLETE",
+  "public_score": "0.479",
+  "error_description": "",
+  "description": "CASMI26 first anchor: original Flex V56; stormseye notebook V2; 20261105",
+  "file_name": "submission.csv",
+  "submitted_at_utc": "2026-11-05T11:30:12.190000",
+  "competition_submission_performed": true,
+  "new_submission_performed_by_poll": false,
+  "hidden_score_available": true
+}

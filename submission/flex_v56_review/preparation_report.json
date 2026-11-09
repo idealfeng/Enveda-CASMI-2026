@@ -1,0 +1,27 @@
+{
+  "status": "prepared_for_review",
+  "external_write_performed": false,
+  "submission_performed": false,
+  "notebook_sha256": "0ebc86ad851fe7051e592fb268756e686ee21b9ddbe90012335096a349bd2769",
+  "original_notebook_unchanged": true,
+  "source_ref": "flexonafft/casmi26-closing-the-evidence-gap",
+  "source_version": 56,
+  "dataset_files": 447,
+  "local_files_present": 447,
+  "files_with_recorded_sha256": 447,
+  "same_file_alias_hashes": 3,
+  "files_with_expected_size": 447,
+  "fresh_large_asset_rehash_performed": false,
+  "metadata_file_role": "Account metadata prepared locally; no upload or service call.",
+  "account_kernel_id": "stormseye/casmi26-flex-v56-baseline",
+  "account_metadata_file": "kernel-metadata.json",
+  "docker_image_pinning_verification": "Image digest preserved from original metadata; pinning type is unspecified and server acceptance is not verified.",
+  "local_diagnostic_report": "reports/VALIDATION_FLEX_48_2026-11-05.md",
+  "input_version_limitation": "Kaggle attachment slugs do not by themselves freeze the local historical dataset versions.",
+  "unresolved": [
+    "Review completed local diagnostic and known pretrained exposure; it is not clean CV or a hidden score.",
+    "Review source-specific licences and the competition-host training-data clarification.",
+    "Verify cloud attachment versions/model pins, requested accelerator and Docker availability.",
+    "Exercise the unmodified official full-input path and cold-run budget; the original smoke processed 12 and the generated diagnostic processed 48."
+  ]
+}

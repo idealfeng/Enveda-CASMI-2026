@@ -1,0 +1,18 @@
+{
+  "scope": "Artifact schema sanity only; no truth or model performance was evaluated.",
+  "files": [
+    {
+      "path": "D:\\Paper\\casmi\\runs\\prvsiyan_smoke_20261104b\\submission.csv",
+      "rows": 400,
+      "columns": [
+        "molecule_id",
+        "smiles"
+      ]
+    }
+  ],
+  "missing_stage_files": [
+    "validation_e1_candidates.jsonl",
+    "validation_e2_candidates.jsonl",
+    "validation_candidate_stages.parquet"
+  ]
+}

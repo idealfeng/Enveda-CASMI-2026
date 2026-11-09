@@ -1,0 +1,38 @@
+{
+  "id": 143138332,
+  "ref": "ozertuu/0-485-sota-casmi26-from-peaks-to-structures",
+  "title": "🏆 [0.485+ SOTA] CASMI26: From Peaks to Structures",
+  "current_version_number": 22,
+  "last_run_time": "2026-11-06 07:11:12.243000",
+  "total_votes": 26,
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_data_sources": [
+    "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "takumuhata/casmi26-extlib",
+    "sanpier/catalogue-experiment-saner",
+    "qwertykeypadapple/casmi26-lotus-candidates",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [],
+  "competition_data_sources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "model_data_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:9a6bcfda6d03b2cd9aa347ee8c1bae62043328ed0f4afe9bda014e4f8bbf9435",
+  "machine_shape": "NvidiaTeslaT4",
+  "public_score": null,
+  "best_score": null,
+  "source_sha256": "fda454e8fc5cda10316aebd4aa7a57f1c04036ccd2b4cfb94e6840cd3fe6a8e2",
+  "source_bytes": 806894,
+  "source_path": "third_party\\public_scan_ozertuu__0-485-sota-casmi26-from-peaks-to-structures_20261109\\source.ipynb",
+  "checked_at_utc": "2026-11-09T07:11:15.489015+00:00",
+  "read_only": true
+}

@@ -1,0 +1,27 @@
+{
+  "id": 756504,
+  "read_only": true,
+  "checked_at_utc": "2026-11-07T16:01:40.029458+00:00",
+  "topic": {
+    "id": 756504,
+    "title": "Open-source pipeline: identity search + analog propagation + LightGBM ranker (with notes on validation)",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/756504",
+    "postDate": "2026-11-06T15:25:57.784Z",
+    "authorName": "Yohann Roux",
+    "authorUrl": "https://www.kaggle.com/yohannroux",
+    "votes": 5,
+    "commentCount": 1,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>Hi all,</p>\n<p>I've published my full pipeline for this competition: <strong><a href=\"https://github.com/Majyles/kaggle-casmi-2026\" target=\"_blank\">github.com/Majyles/kaggle-casmi-2026</a></strong></p>\n<p>It's far from the top of the leaderboard (0.313 public), but it may be useful as a clean, reproducible baseline, and for a few lessons on validation:</p>\n<ul>\n<li><strong>Validation that mimics the hidden test.</strong> Classes 1 and 2 are simulated by hiding reference spectra (by scorer key, across all libraries). The subset closest to the test is <code>enveda-np-examples</code> (timsTOF natural products).</li>\n<li><strong>Class 1 is cross-instrument.</strong> No public library contains timsTOF spectra of natural products, so a real class-1 match always compares timsTOF against other instruments, with a median entropy similarity of ~0.90 vs ~0.99 between public libraries. A ranker trained on naively simulated class 1 learns to distrust these matches. Simulating class 1 by hiding the whole instrument family, and dropping groups where the answer has no visible spectrum left, fixes most of it.</li>\n<li><strong>Learned ranker vs formula.</strong> A LightGBM <code>lambdarank</code> ranker beats the hand-tuned formula overall, mainly on class 2. Class weights act as a prior between \"identical\" and \"analog\" situations.</li>\n</ul>\n<p>Everything is in a small Python package (<code>casmi</code>) with tests, pipeline scripts and research notebooks (<a href=\"https://github.com/Majyles/kaggle-casmi-2026/blob/main/notebooks/05_ranker.ipynb\" target=\"_blank\">notebook 05</a> walks through the ranker step by step).</p>\n<p>Feedback welcome, and good luck to everyone for the final stretch!</p>"
+  },
+  "comments": [
+    {
+      "id": 3551541,
+      "authorName": "Jake",
+      "postDate": "2026-11-07T15:48:29.657Z",
+      "content": "<p>Nicely done clean pipeline.  And reaching 31.3% leaderboard score w/ only 3 submissions is great work.  </p>"
+    }
+  ],
+  "comments_truncated": false
+}

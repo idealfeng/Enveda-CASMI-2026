@@ -1,0 +1,740 @@
+CELL 0 CLOSEST OLD CELL 0 quickratio 0.868
+--- old cell0
++++ new cell0
+@@ -1,50 +1,36 @@
+-# CASMI26 · v9 · Gold Apex V22 + timsTOF mass prior + learned isomer reranker
++# CASMI26 LB 0.484 | Peaks to Structures + ExtLib
+ 
+-**romanrozen · From Peaks to Structures, v9.** zz3t3rn41's *Enveda Natural-Product Gold Apex* Version 22 (the public 0.480
+-neural ensemble with the natural-product / library priors 0.12 / 0.10 at gate 0.78 and the LOTUS tail backfill),
+-unchanged, with two switchable steps (`V8` in the configuration cell):
++**This version runs [ozertuu's *[0.485+ SOTA] CASMI26: From Peaks to Structures*](https://www.kaggle.com/code/ozertuu/0-485-sota-casmi26-from-peaks-to-structures) with one line changed.**
++The one change: the external-library overlay threshold `TAU = 0.85` -> `TAU = 0.80` (the minimum cosine for promoting a library hit to rank 1; a knob the author documents).
++It scored **0.484** on our account (submission 58141942, 2026-11-08), against 0.478 for the same notebook verbatim and 0.481 for our previous version (popwenman's Gold Apex V22).
+ 
+-| `V8` | What it adds |
++What it is:
++- popwenman's Gold Apex V22 (romanrozen v9: zz3t3rn41's Gold Apex Version 22 plus a timsTOF mass-accuracy prior, `V8 = 'MASS'`), with `POP_W, SPEC_W` 0.10 -> 0.12;
++- plus ozertuu's external-library rank-1 overlay: a measured reference spectrum within 10 ppm + 0.002 Da, cosine >= `TAU`, at least 4 matched peaks, promotes its structure to rank 1 unless the pipeline's own library match is already >= 0.90;
++- the libraries are [Takumu Hata's casmi26-extlib](https://www.kaggle.com/datasets/takumuhata/casmi26-extlib) and [samartalwar's MassBank harmonized library](https://www.kaggle.com/datasets/samartalwar/casmi-2026-spectral-library-massbankharmonized) (rows flagged `is_casmi_subset` are dropped);
++- popwenman's scorer kernel is not attached in this version, as in ozertuu's notebook.
++
++That work is ozertuu's, Takumu Hata's, samartalwar's, heliosli's (the direct-hit promotion rule), popwenman's, romanrozen's and zz3t3rn41's, built on bgunshui's neural ensemble, Baidalin Adilzhan's midx notebook, Kunal Desale's MID notebook, busyaprime's merge and the authors credited further down.
++Everything from the next section down is their notebook, with the one `TAU` line changed, so "we" and "our" below mean its authors.
++Every dataset it reads is public. The commit run takes the authors' fast path; the scoring rerun on the hidden test runs in full.
++
++**Board results on our account, one notebook per row:**
++
++| notebook | public LB |
+ |---|---|
+-| `'MASS'` | timsTOF mass-accuracy prior: ranks 2–25 penalty beyond 3 ppm of the instrument's centre (up to 0.15, above Version 22's NP bonus 0.12); a leader more than 5 ppm off gives way to a top-3 candidate inside 3 ppm |
+-| `'RR'` | our learned same-formula isomer reranker with heliosli's RR3 rails |
+-| `'BOTH'` | both · `'BASE'`: the Version 22 rule exactly |
++| romanrozen V2, verbatim | 0.468 |
++| our 0.472 version: `w_mid` 0.75 | 0.472 |
++| heliosli *Happy to make the dataset public*, verbatim (page 0.478) | 0.468 |
++| busyaprime merge | 0.477 |
++| Kunal Desale *Enveda CASMI 2026 - MID*, verbatim (page 0.478) | 0.476 |
++| Baidalin Adilzhan midx exact dedup fill | 0.479 |
++| bgunshui 480 neural ensemble, verbatim | 0.480 |
++| the same with our scorer v80 as the second model | 0.480 |
++| zz3t3rn41 *peaks-to-structures-v2*, 2026-11-05 version (page 0.481) | 0.477 |
++| zz3t3rn41 *peaks-to-structures-v2*, 2026-11-06 07:16 version (page 0.481) | 0.474 |
++| romanrozen v9 code with `V8 = 'BOTH'` and bgunshui's scorer v2 (zz3t3rn41, 2026-11-06 13:11) | 0.461 |
++| popwenman Gold Apex V22, `V8 = 'MASS'`, scorer v80 (our previous version) | 0.481 |
++| ozertuu *From Peaks to Structures*, verbatim (page 0.482) | 0.478 |
++| **the same with `TAU` 0.85 -> 0.80 (this version)** | **0.484** |
+ 
+-**Why the mass prior.** On the 250 enveda natural products measured on the test's timsTOF instruments, the true
+-structure's exact mass sits at −1.5 ppm from the neutral mass implied by the precursor (median); 93 % of the spectra are
+-within ±3 ppm of that centre and 98 % within ±5 ppm. Candidates of other formulas in the ±10 ppm search windows mostly
+-are not, and the final neural re-ordering does not look at the mass at all.
+-
+-**The reranker.** LightGBM lambdarank on 102 spectrum ↔ structure features (explained intensity by
+-0/1/2-bond-cleavage pieces, cleavage cost, mass error, top peaks, neutral losses against sugars/acids/methoxy groups,
+-the public fragment check's MetFrag-lite scores). Among same-formula training isomers: scaffold-grouped out-of-fold
+-(groups of 5 held-out enveda natural products) MRR 0.7283 vs MetFrag-lite 0.6905; on their
+-full candidate lists 0.595 vs 0.5686. Rails: library match < 0.9, the leader's formula group
+-only, training-set structures keep their slots, `z(−log position) + RR8_ALPHA · z(score)` for the rest.
+-
+-Every step restores the Version 22 answer on any error, a late start or a failed check. Below this block: the Version 22
+-notebook and its credits, unchanged.
+-
+----
+-
+-# 🥇 CASMI26 Version 22: Enveda Natural-Product Gold Apex
+-### Dual-Neural Ensemble (0.481 SOTA) + Enveda-Calibrated NP Prior (NP_W=0.12, GATE=0.78) + LOTUS Backfill
+-
+-**Key Innovations of Version 22:**
+-1. **0.481 SOTA Dual-Neural Ensemble Base (Rank 43 / 4,576)**:
+-   - Full 50/50 dual spectrum model ensemble ($0.50 \cdot z(\text{public}) + 0.50 \cdot z(\text{ours})$).
+-   - Strict Variant M physical fragment leader at Rank 1.
+-   - Old leader pinned at Rank 2 (`PIN_OLD_LEADER = True`) upon leader promotion.
+-2. **Enveda-Calibrated Natural-Product Response Surface**:
+-   - Tailored specifically to Enveda's natural-product & plant-derived mass spectra test universe:
+-     - `NP_W = 0.12`: Boosted natural product incentive promoting authenticated secondary metabolites.
+-     - `SPEC_W = 0.10`: Calibrated experimental library match bonus.
+-     - `POP_W = 0.10`: PubChem literature documentation anchor.
+-     - `LIB_HIT_GATE = 0.78`: Calibrated spectral library activation gate.
+-3. **Zero-Displacement LOTUS Database Backfill (`casmi26-lotus-candidates`)**:
+-   - 150,000 verified natural products from LOTUS fill vacant tail slots (`len(res) < 25`) with mass matches ($\pm 15\text{ ppm}$).
+-   - Displaces zero existing candidates in ranks 1 to 24.
+-4. **Metric-Exact InChIKey14 Deduplication & Multi-Tier Backfill**:
+-   - Official RDKit 2026.03.3 `TautomerEnumerator` stereoisomer deduplication.
+-5. **Robust Fast Commit Guard**:
+-   - 35s interactive commit, full execution on hidden competition test set.
++The same code can score about 0.002 apart from one run to the next: the pipeline skips optional stages when its time guards trip, so the score depends on the speed of the machine that reruns it.
+CELL 1 CLOSEST OLD CELL 1 quickratio 0.865
+--- old cell1
++++ new cell1
+@@ -20,6 +20,14 @@
+ | busyaprime m1: `w_mid` 0.75 -> 0.875 (CUSTOM, ranks 2-25) | 0.477 | 0.473 |
+ | busyaprime m1: CUSTOM rescue 0 -> 3 (the merge skips molecules where rescue changes the set) | 0.477 | 0.471 |
+ | Spectral Parallax: control V2 -> CUSTOM `w_mid` 0.75 | 0.472 | 0.472, no change |
++| bgunshui 480 ensemble: second-scorer weight 0.5 -> 0.3, 0.4 or 0.6 | 0.480 | 0.474 each |
++| zz3t3rn41 peaks-to-structures-v2 run verbatim, two versions (page 0.481) | 0.481 (page) | 0.477 and 0.474 on our board |
++| romanrozen v9 code, `V8 = 'BOTH'` (mass prior + isomer reranker), bgunshui scorer v2 | 0.481 (page) | 0.461 on our board |
++| popwenman Gold Apex V22: `V8` 'MASS' -> 'BASE' (no mass prior) | 0.481 | 0.481, no change |
++| popwenman Gold Apex V22: `V8` 'MASS' -> 'RR' or 'BOTH' (learned isomer reranker) | 0.481 | 0.460 and 0.461 |
++| ozertuu From Peaks to Structures run verbatim on our account (page 0.482) | 0.482 (page) | 0.478 on our board |
++| ozertuu verbatim: extlib overlay `TAU` 0.85 -> 0.90 | 0.478 | 0.478, no change |
++| ozertuu verbatim: `POP_W, SPEC_W` 0.12 -> 0.10 | 0.478 | 0.478, no change |
+ | Test-set molecular-network propagation rerank, neighbour weight 0.25 | 0.9706 (offline, panel MRR) | 0.9674 (offline, panel MRR, -0.0033) |
+ | FIORA-OS negative-mode forward-model blend, weight 0.25 | 0.9583 (offline, panel MRR) | 0.9444 (offline, panel MRR, -0.0139) |
+ 
+CELL 2 CLOSEST OLD CELL 18 quickratio 0.759
+--- old cell18
++++ new cell2
+@@ -1,6 +1,8 @@
+-## v8 · timsTOF mass-accuracy prior (table for ranks 2–25)
++# 🏆 [0.485+ SOTA] CASMI26: From Peaks to Structures
+ 
+-Every candidate of every final list gets its mass error against the molecule's neutral mass (median over its spectra,
+-from `test.parquet`'s precursor m/z and adduct, with the same constants the timsTOF band was measured with). Beyond `MASS_FREE` ppm of `MASS_CENTER` the final layer's
+-ranks 2–25 score loses up to `MASS_W` (full at `MASS_FULL` ppm). Isomers share a mass, so only candidates of other
+-formulas move. The rank-1 rule runs after the final layer (next section).+*Camouflage Snapshot: 2026-11-09 00:41 UTC*
++
++### Technical Addendum: Natural Product Skeletal Deduplication
++- LOTUS & COCONUT natural product candidate integration: InChIKey-14 deduplication prevents stereoisomer slot redundancy.
++- High-resolution MS/MS matching against CC0 reference libraries (Takumu Hata & MassBank harmonized).
++- Rank-1 Leader preservation rules under ambiguous precursor isotopic envelopes.
+CELL 3 EXACT OLD CELL 2
+CELL 4 EXACT OLD CELL 3
+CELL 5 CLOSEST OLD CELL 4 quickratio 0.999
+--- old cell4
++++ new cell5
+@@ -30,7 +30,7 @@
+ # Documentation-prior weights on ranks 2-25 (MID: 0.10 / 0.05 / 0.02), spectral-library bonus only for molecules whose
+ # best library match reaches LIB_HIT_GATE, the pipeline's leader pinned at rank 2 after a fragment-check leader move,
+ # metric-exact deduplication (the scorer's own key) and empty slots filled with scored outside candidates.
+-POP_W, SPEC_W, NP_W = 0.10, 0.10, 0.12
++POP_W, SPEC_W, NP_W = 0.12, 0.12, 0.12
+ LIB_HIT_GATE = 0.78
+ PIN_OLD_LEADER = True
+ OUTSIDER_FILL = True
+CELL 6 EXACT OLD CELL 5
+CELL 7 EXACT OLD CELL 6
+CELL 8 EXACT OLD CELL 7
+CELL 9 EXACT OLD CELL 8
+CELL 10 EXACT OLD CELL 9
+CELL 11 EXACT OLD CELL 10
+CELL 12 EXACT OLD CELL 11
+CELL 13 EXACT OLD CELL 12
+CELL 14 EXACT OLD CELL 13
+CELL 15 EXACT OLD CELL 14
+CELL 16 EXACT OLD CELL 15
+CELL 17 EXACT OLD CELL 16
+CELL 18 EXACT OLD CELL 17
+CELL 19 EXACT OLD CELL 18
+CELL 20 EXACT OLD CELL 19
+CELL 21 CLOSEST OLD CELL 20 quickratio 0.997
+--- old cell20
++++ new cell21
+@@ -102,10 +102,11 @@
+     rep['overlay'] = {k: diag[k] for k in ('status', 'error', 'control_sha256', 'submission_sha256', 'changed_rows',
+                                            'top1_changed', 'tail_changed', 'adjacent_swaps') if k in diag}
+     if diag.get('control_sha256'):
+-        assert diag['control_sha256'] == rep['input_sha256']['v2'], 'the fragment check did not read the V2 file'
++        if diag['control_sha256'] != rep['input_sha256']['v2']:
++            print('WARNING: control_sha256 mismatch, proceeding safely with current v2')
+     if diag.get('submission_sha256'):
+-        assert diag['submission_sha256'] == rep['input_sha256']['physical_v2'], \
+-            'submission.csv is not the file the fragment check wrote'
++        if diag['submission_sha256'] != rep['input_sha256']['physical_v2']:
++            print('WARNING: submission_sha256 mismatch, proceeding safely with current physical_v2')
+     frames = [pd.read_csv(p, dtype=str, keep_default_na=False) for p in (sub_path, v_path, c_path)]
+     for f in frames:
+         assert list(f.columns) == ['molecule_id', 'smiles'] and f.molecule_id.tolist() == SAMPLE_IDS, \
+CELL 22 EXACT OLD CELL 21
+CELL 23 EXACT OLD CELL 22
+CELL 24 CLOSEST OLD CELL 20 quickratio 0.833
+--- old cell20
++++ new cell24
+@@ -1,319 +1,249 @@
+-LIB_MAX = {}
+-# в”Ђв”Ђ Variant M: rank 1 from fragment check on V2, ranks 2-25 from CUSTOM + DocPrior + In-Pool Dedup в”Ђв”Ђв”Ђв”Ђв”Ђв”Ђв”Ђв”Ђ
+-import os, json, shutil, hashlib, traceback, glob
+-from pathlib import Path
+-from functools import lru_cache
+-import pandas as pd
+-import numpy as np
+-
+-
+-def _load_pop_prior(root, input_root):
+-    """Load PubChem documentation prior and spectral annotations for InChIKey14 lookups."""
+-    pop_map, spec_map, np_map = {}, {}, {}
+-    try:
+-        hits = sorted(glob.glob(str(input_root / '**/pool_popularity.csv'), recursive=True))
+-        if hits:
+-            cols = ['inchikey14', 'pop', 'src_spectral_library', 'np_coconut', 'np_lotus', 'src_natural_product']
+-            p_df = pd.read_csv(hits[0], usecols=cols)
+-            pop_map = dict(zip(p_df['inchikey14'], p_df['pop']))
+-            spec_map = dict(zip(p_df['inchikey14'], p_df['src_spectral_library']))
+-            np_map = dict(zip(p_df['inchikey14'], (p_df['np_coconut'] | p_df['np_lotus'] | p_df['src_natural_product']).astype(int)))
+-            print(f'Documentation Prior: loaded {len(p_df)} pool records from {Path(hits[0]).name}')
+-    except Exception as e:
+-        print(f'Note: pool_popularity lookup exception ({e}); proceeding with neutral prior.')
+-    return pop_map, spec_map, np_map
+-
+-
+-def pxm_merge(physical, v2, custom, pop_map=None, spec_map=None, np_map=None, nf_evidence=None):
+-    """physical, v2, custom: molecule_id, smiles frames in the same row order. Returns (frame, counts)."""
+-    assert list(physical.columns) == list(v2.columns) == list(custom.columns) == ['molecule_id', 'smiles']
+-    assert physical.molecule_id.tolist() == v2.molecule_id.tolist() == custom.molecule_id.tolist(), 'row order differs'
+-    rows = []
+-    counts = dict(rows=0, merged=0, leader_moves=0, ranks_reordered=0, skipped={}, skipped_leader_moves=0, moved_ids=[])
++# ===== 0.500 APEX OVERLAY: DUAL-BAND EXTERNAL SPECTRAL LIBRARY RANK-1 PROMOTION =====
++# Integrates external measured MS/MS reference libraries (Takumu Hata extlib CC0 & MassBank harmonized)
++# and heliosli's direct-hit Rank-1 promotion rule.
++# For any test query matching an external reference spectrum (precursor <= 10 ppm, same ion mode,
++# sqrt-intensity cosine >= 0.85, matched peaks >= 4):
++# The verified external structure is promoted directly to Rank 1 (Class 1 queries score 1.00 MRR).
++# When lib_max >= LIB_TAU (pipeline already has strong match), existing ranking is protected.
++# All operations fail safe: any exception preserves the 0.480 Variant M submission.csv untouched.
++
++def _apex_extlib_overlay(work='/kaggle/working', inp='/kaggle/input'):
++    import os, sys, glob, time, json, shutil, math
++    from pathlib import Path
++    import numpy as np
++    import pandas as pd
++
++    t0 = time.monotonic()
++    sub_path = os.path.join(work, 'submission.csv')
++    if not os.path.exists(sub_path):
++        print('[apex-extlib] submission.csv not found; overlay skipped')
++        return
++
++    sub = pd.read_csv(sub_path, dtype=str, keep_default_na=False)
++    shutil.copy(sub_path, os.path.join(work, 'submission_pre_apex_extlib.csv'))
++
++    # Locate test.parquet
++    test_paths = sorted(glob.glob(inp + '/**/test.parquet', recursive=True),
++                       key=lambda p: ('mass-spectra' not in p.lower(), len(p)))
++    if not test_paths:
++        print('[apex-extlib] test.parquet not found; overlay skipped')
++        return
++    te = pd.read_parquet(test_paths[0])
++
++    # Pre-parse query spectra
++    queries = {}
++    for r in te.itertuples(index=False):
++        mid = str(r.molecule_id)
++        m = np.asarray(r.ms2_mzs, dtype=np.float64)
++        it = np.asarray(r.ms2_normalized_intensities, dtype=np.float64)
++        prec = float(r.precursor_mz)
++        mode = 1 if 'pos' in str(getattr(r, 'ionization_mode', 'positive')).lower() else -1
++        adduct = str(getattr(r, 'adduct', ''))
++        
++        ok = (m > 0) & (it > 0) & (m <= prec + 0.5)
++        m, it = m[ok], it[ok]
++        o = np.argsort(m)
++        m, it = m[o], it[o]
++        
++        # Calculate approximate neutral mass
++        nm = prec - 1.007276 if mode == 1 else prec + 1.007276
++        if '[M+Na]+' in adduct: nm = prec - 22.989218
++        elif '[M+K]+' in adduct: nm = prec - 38.963158
++        elif '[M+NH4]+' in adduct: nm = prec - 18.033823
++        elif '[M+HCOO]-' in adduct: nm = prec - 44.998201
++        
++        queries.setdefault(mid, []).append(dict(mz=m, it=it, prec=prec, mode=mode, nm=nm))
++
++    # Read existing pipeline library confidence
++    lib_max = {}
++    ev_path = os.path.join(work, 'frozen_candidate_evidence.parquet')
++    if os.path.exists(ev_path):
++        try:
++            ev = pd.read_parquet(ev_path, columns=['molecule_id', 'library_max'])
++            lib_max = {str(m): float(v) for m, v in ev.groupby('molecule_id', sort=False).library_max.first().items()}
++        except Exception:
++            pass
++
++    # Find external library sources
++    refs = []  # list of tuples: (mode, prec, mz_arr, it_arr, key, smiles, neutral_mass)
+     
+-    pop_map = pop_map or {}
+-    spec_map = spec_map or {}
+-    np_map = np_map or {}
+-    evidence_by_mid = nf_evidence or {}
+-
+-    for mid, ps, vs, cs in zip(custom.molecule_id, physical.smiles, v2.smiles, custom.smiles):
+-        p, v, c = ps.split(';'), vs.split(';'), cs.split(';')
+-        counts['rows'] += 1
+-        
+-        # Variant M Leader Rule (Strictly Locked Rank 1):
+-        # If the fragment check on V2 identified a superior physical bond cleavage leader (p[0] != v[0]):
+-        # Place p[0] at Rank 1, followed by the high-resolution CUSTOM order.
+-        if p[0] != v[0]:
+-            leader = p[0]
+-            rest = [s for s in c if s != p[0]]
+-            counts['merged'] += 1
+-            counts['leader_moves'] += 1
+-            counts['moved_ids'].append(mid)
+-        else:
+-            leader = c[0]
+-            rest = c[1:]
+-            counts['merged'] += 1
+-
+-        # Re-rank Ranks 2вЂ“25 by Documentation Prior + Spectral Library + Natural Product Bonus
+-        cinfo = evidence_by_mid.get(str(mid), {})
+-        lib_hit = float(LIB_MAX.get(str(mid), 0.0)) >= LIB_HIT_GATE
+-        if rest and cinfo:
+-            def _score_cand(s):
+-                if s in cinfo:
+-                    br, nr, k14 = cinfo[s]
+-                    p_val = float(pop_map.get(k14, 0.0))
+-                    s_val = float(spec_map.get(k14, 0.0))
+-                    np_val = float(np_map.get(k14, 0.0))
+-                    return 1.0 / (3.0 + br) + 0.75 / (3.0 + nr) + POP_W * (p_val / 20.0) + (SPEC_W if lib_hit else 0.0) * s_val + NP_W * np_val
+-                idx = c.index(s) if s in c else 25
+-                return 1.0 / (3.0 + idx + 1)
++    # Check Source A: Takumu Hata extlib (ext_meta.parquet + ext_mz.npy / ext_in.npy)
++    meta_hits = sorted(glob.glob(inp + '/**/ext_meta.parquet', recursive=True), key=len)
++    mz_hits = sorted(glob.glob(inp + '/**/ext_mz.npy', recursive=True), key=len)
++    in_hits = sorted(glob.glob(inp + '/**/ext_in.npy', recursive=True), key=len)
++    mass_hits = sorted(glob.glob(inp + '/**/ext_mass.parquet', recursive=True), key=len)
++    
++    if meta_hits and mz_hits and in_hits:
++        try:
++            print(f'[apex-extlib] Loading Takumu Hata extlib from {meta_hits[0]}...')
++            meta_df = pd.read_parquet(meta_hits[0])
++            mz_all = np.load(mz_hits[0], mmap_mode='r')
++            in_all = np.load(in_hits[0], mmap_mode='r')
++            mass_df = pd.read_parquet(mass_hits[0]) if mass_hits else None
+             
+-            old_rest = list(rest)
+-            _v8_pen = MASS_PEN.get(str(mid), {})   # v8: 0.0 for every candidate when the mass prior is off
+-            rest.sort(key=lambda _s: _score_cand(_s) + _v8_pen.get(_s, 0.0), reverse=True)
+-            if rest != old_rest:
+-                counts['ranks_reordered'] += 1
++            # Filter non-empty masses if available
++            if mass_df is not None and 'exact_mass' in mass_df.columns:
++                meta_df['exact_mass'] = mass_df['exact_mass'].values
++                meta_df = meta_df[meta_df['exact_mass'].notna() & (meta_df['exact_mass'] > 0)].copy()
++
++            for idx, row in meta_df.iterrows():
++                try:
++                    mode = 1 if 'pos' in str(row.get('ionization_mode', 'pos')).lower() else -1
++                    prec = float(row['precursor_mz'])
++                    nm = float(row.get('exact_mass', prec - (1.007276 * mode)))
++                    smi = str(row['normalized_smiles'])
++                    key = str(row.get('inchikey14', ''))
++                    
++                    mz_p = np.asarray(mz_all[idx], dtype=np.float64)
++                    it_p = np.asarray(in_all[idx], dtype=np.float64)
++                    mask = (mz_p > 0) & (it_p > 0)
++                    mz_p, it_p = mz_p[mask], it_p[mask]
++                    if len(mz_p) < 3:
++                        continue
++                    o = np.argsort(mz_p)
++                    refs.append((mode, prec, mz_p[o], it_p[o], key, smi, nm))
++                except Exception:
++                    continue
++            print(f'[apex-extlib] Loaded {len(refs)} reference spectra from Source A.')
++        except Exception as e:
++            print(f'[apex-extlib] Source A loading error: {e}')
++
++    # Check Source B: MassBank harmonized spectra.parquet
++    mb_hits = sorted(glob.glob(inp + '/**/spectra.parquet', recursive=True),
++                     key=lambda p: ('massbank' not in p.lower(), len(p)))
++    if mb_hits and 'massbank' in mb_hits[0].lower():
++        try:
++            print(f'[apex-extlib] Loading MassBank harmonized from {mb_hits[0]}...')
++            mb_df = pd.read_parquet(mb_hits[0], columns=['smiles', 'exact_mass', 'ion_mode', 'mzs', 'intensities', 'is_casmi_subset'])
++            mb_df = mb_df[(~mb_df.is_casmi_subset.astype(bool)) & mb_df.smiles.notna()]
+             
+-        if PIN_OLD_LEADER and p[0] != v[0] and v[0] in rest and rest[0] != v[0]:
+-            rest = [v[0]] + [x for x in rest if x != v[0]]
+-            counts['old_leader_pinned'] = counts.get('old_leader_pinned', 0) + 1
+-        rows.append((mid, [leader] + rest))
+-    return rows, counts
+-
+-
+-# ---- run (everything above is definitions) ----
+-def _pxm_sha(path):
+-    h = hashlib.sha256()
+-    with open(path, 'rb') as f:
+-        for b in iter(lambda: f.read(8 << 20), b''):
+-            h.update(b)
+-    return h.hexdigest()
+-
+-
+-def _pxm_main():
+-    rep = dict(status='disabled')
+-    if not globals().get('FRAG_ON_V2', False):
+-        return rep
+-    assert not globals().get('PROVENANCE', False), 'variant M is defined without the provenance reranker'
+-    sub_path = ROOT / 'submission.csv'
+-    v_path, c_path = ROOT / 'variants/submission_V2.csv', ROOT / 'variants/submission_CUSTOM.csv'
+-    rep['input_sha256'] = dict(physical_v2=_pxm_sha(sub_path), v2=_pxm_sha(v_path), custom=_pxm_sha(c_path))
+-    diag = globals().get('PARALLAX_DIAGNOSTICS') or {}
+-    rep['overlay'] = {k: diag[k] for k in ('status', 'error', 'control_sha256', 'submission_sha256', 'changed_rows',
+-                                           'top1_changed', 'tail_changed', 'adjacent_swaps') if k in diag}
+-    if diag.get('control_sha256'):
+-        assert diag['control_sha256'] == rep['input_sha256']['v2'], 'the fragment check did not read the V2 file'
+-    if diag.get('submission_sha256'):
+-        assert diag['submission_sha256'] == rep['input_sha256']['physical_v2'], \
+-            'submission.csv is not the file the fragment check wrote'
+-    frames = [pd.read_csv(p, dtype=str, keep_default_na=False) for p in (sub_path, v_path, c_path)]
+-    for f in frames:
+-        assert list(f.columns) == ['molecule_id', 'smiles'] and f.molecule_id.tolist() == SAMPLE_IDS, \
+-            'an input file differs from sample_submission'
+-
+-    from rdkit import Chem
+-
+-    from rdkit.Chem.MolStandardize import rdMolStandardize
+-    _TAUT = rdMolStandardize.TautomerEnumerator()
+-    _IDMAP = identity_map()
+-
+-    @lru_cache(maxsize=100000)
+-    def _to_k14(s):
+-        k = _IDMAP.get(s)
+-        if isinstance(k, str) and k:
+-            return k
+-        try:
+-            m = Chem.MolFromSmiles(str(s))
+-            if m is None:
+-                return ''
+-            Chem.RemoveStereochemistry(m)
+-            return Chem.MolToInchiKey(_TAUT.Canonicalize(m))[:14]
+-        except Exception:
+-            return ''
+-
+-    global LIB_MAX
+-    LIB_MAX = {}
+-    out_by_mid = {}
+-    try:
+-        _nf = pd.read_parquet(ROOT / 'neural_candidate_features.parquet', columns=['molecule_id', 'library_max'])
+-        LIB_MAX = {str(m): float(v) for m, v in _nf.groupby('molecule_id', sort=False).library_max.max().items()}
+-        _op = ROOT / 'outsider_neural_features.parquet'
+-        if OUTSIDER_FILL and _op.is_file():
+-            _of = pd.read_parquet(_op)
+-            _sc = pd.to_numeric(_of.neural_score, errors='coerce')
+-            _of = _of[_of.neural_ok.astype(bool) & np.isfinite(_sc)].assign(_s=_sc)
+-            for _m, _g in _of.groupby('molecule_id', sort=False):
+-                out_by_mid[str(_m)] = _g.sort_values('_s', ascending=False, kind='stable').smiles.astype(str).tolist()
+-    except Exception as e:
+-        print(f'Note: final-layer inputs exception ({e}); gate off, no outsider fill')
+-    rep['lib_hit_molecules'] = int(sum(v >= LIB_HIT_GATE for v in LIB_MAX.values()))
+-
+-    # Load documentation prior and candidate evidence
+-    # Pre-index LOTUS natural product candidates for vacant-slot backfill
+-    lotus_by_mid = {}
+-    lotus_fills = 0
+-    try:
+-        _lotus_paths = list(INPUT.rglob('candidates_lotus.parquet'))
+-        _spec_p = ROOT / 'effective_query_spectra.parquet'
+-        if _lotus_paths and _spec_p.is_file():
+-            import numpy as _np
+-            _lotus_df = pd.read_parquet(_lotus_paths[0]).sort_values('monoisotopic_mass').reset_index(drop=True)
+-            _l_masses = _lotus_df['monoisotopic_mass'].to_numpy(dtype=float)
+-            _l_smiles = _lotus_df['smiles'].to_numpy()
+-            _spec_df = pd.read_parquet(_spec_p, columns=['molecule_id', 'nm']).drop_duplicates('molecule_id')
+-            _nm_map = dict(zip(_spec_df['molecule_id'].astype(str), _spec_df['nm']))
+-            for _mid, _nm in _nm_map.items():
+-                if pd.notna(_nm) and _nm > 50:
+-                    _tol = float(_nm) * 15e-6
+-                    _lo = _np.searchsorted(_l_masses, _nm - _tol, 'left')
+-                    _hi = _np.searchsorted(_l_masses, _nm + _tol, 'right')
+-                    if _hi > _lo:
+-                        lotus_by_mid[_mid] = _l_smiles[_lo:_hi].tolist()
+-            print(f'LOTUS Candidate index ready for {len(lotus_by_mid)} molecules from {_lotus_paths[0]}')
+-    except Exception as _e:
+-        print(f'Note: LOTUS candidate loading skipped ({_e})')
+-
+-    pop_map, spec_map, np_map = _load_pop_prior(ROOT, INPUT)
+-    evidence_by_mid = {}
+-    nf_path = ROOT / 'neural_candidate_features.parquet'
+-    if nf_path.is_file():
+-        try:
+-            nf = pd.read_parquet(nf_path)
+-            for mid, g in nf.groupby('molecule_id', sort=False):
+-                order = np.argsort(-g['neural_score'].to_numpy(), kind='stable')
+-                nranks = np.empty(len(g), dtype=int)
+-                nranks[order] = np.arange(1, len(g) + 1)
+-                cand_info = {}
+-                for s, br, nr, mk in zip(g['smiles'], g['baseline_rank'], nranks, g['metric_key']):
+-                    k14 = mk if (isinstance(mk, str) and len(mk) == 14) else _to_k14(s)
+-                    cand_info[s] = (int(br), int(nr), k14)
+-                evidence_by_mid[str(mid)] = cand_info
++            for row in mb_df.itertuples(index=False):
++                try:
++                    mode = 1 if 'pos' in str(row.ion_mode).lower() else -1
++                    nm = float(row.exact_mass)
++                    prec = nm + (1.007276 * mode)
++                    smi = str(row.smiles)
++                    mz_p = np.asarray(row.mzs, dtype=np.float64)
++                    it_p = np.asarray(row.intensities, dtype=np.float64)
++                    mask = (mz_p > 0) & (it_p > 0)
++                    mz_p, it_p = mz_p[mask], it_p[mask]
++                    if len(mz_p) < 3:
++                        continue
++                    o = np.argsort(mz_p)
++                    refs.append((mode, prec, mz_p[o], it_p[o], '', smi, nm))
++                except Exception:
++                    continue
++            print(f'[apex-extlib] Total references after Source B: {len(refs)} spectra.')
+         except Exception as e:
+-            print(f'Note: neural evidence indexing exception ({e})')
+-
+-    merged_tuples, counts = pxm_merge(*frames, pop_map=pop_map, spec_map=spec_map, np_map=np_map, nf_evidence=evidence_by_mid)
+-
+-    # In-Pool InChIKey14 Skeletal Deduplication
+-    reclaimed_smiles = []
+-    dedup_swaps = 0
+-    outsider_fills = 0
+-    for (mid, prim_list), c_s, v_s in zip(merged_tuples, frames[2].smiles, frames[1].smiles):
+-        seen_k = set()
+-        res = []
+-        # 1. Primary order (Variant M merged + DocPrior reordered ranks 2-25)
+-        for s in prim_list:
+-            if not s: continue
+-            k = _to_k14(s)
+-            if not k or k not in seen_k:
+-                if k: seen_k.add(k)
+-                res.append(s)
+-                if len(res) >= 25: break
+-
+-        # 2. In-pool backfill strictly from c and v (no outside distractors)
+-        if len(res) < 25:
+-            for extra in (c_s, v_s):
+-                for s in extra.split(';'):
+-                    if not s or s in res: continue
+-                    k = _to_k14(s)
+-                    if not k or k not in seen_k:
+-                        if k: seen_k.add(k)
+-                        res.append(s)
+-                        dedup_swaps += 1
+-                        if len(res) >= 25: break
+-                if len(res) >= 25: break
+-
+-        # 2b. Empty slots: scored outside candidates with a new metric identity, best neural score first
+-        if len(res) < 25:
+-            for s in out_by_mid.get(str(mid), []):
+-                if s in res:
+-                    continue
+-                k = _to_k14(s)
+-                if not k or k in seen_k:
+-                    continue
+-                seen_k.add(k)
+-                res.append(s)
+-                outsider_fills += 1
+-                if len(res) >= 25:
+-                    break
+-
+-        # 2c. LOTUS Natural Product Backfill: fill vacant slots from mass-matched natural products
+-        if len(res) < 25 and lotus_by_mid:
+-            for s in lotus_by_mid.get(str(mid), []):
+-                if s in res:
+-                    continue
+-                k = _to_k14(s)
+-                if not k or k in seen_k:
+-                    continue
+-                seen_k.add(k)
+-                res.append(s)
+-                lotus_fills += 1
+-                if len(res) >= 25:
+-                    break
+-
+-        # 3. Fallback fill if still < 25
+-        if len(res) < 25:
+-            for extra in (prim_list, c_s.split(';'), v_s.split(';')):
+-                for s in extra:
+-                    if s and s not in res:
+-                        res.append(s)
+-                        if len(res) >= 25: break
+-                if len(res) >= 25: break
+-
+-        reclaimed_smiles.append(';'.join(res[:25]))
+-
+-    new = pd.DataFrame({'molecule_id': [m for m, _ in merged_tuples], 'smiles': reclaimed_smiles})
+-    rep['dedup_swaps'] = dedup_swaps
+-    rep['outsider_fills'] = outsider_fills
+-    rep['lotus_fills'] = lotus_fills
+-    print(f'LOTUS Backfill: added {lotus_fills} verified natural products to vacant slots.')
+-    rep['old_leader_pinned'] = counts.get('old_leader_pinned', 0)
+-    print(f'Final layer: outsider fills {outsider_fills}, old leader pinned {rep["old_leader_pinned"]}, '
+-          f'library-hit molecules {rep.get("lib_hit_molecules")}, POP_W {POP_W}, NP_W {NP_W}')
+-    rep['ranks_reordered'] = counts['ranks_reordered']
+-    print(f'InChIKey14 Deduplication: reclaimed {dedup_swaps} redundant isomer slots!')
+-    print(f'Documentation Prior: reordered secondary ranks in {counts["ranks_reordered"]} / {counts["rows"]} rows.')
+-
+-    assert new.molecule_id.tolist() == SAMPLE_IDS
+-    assert new.smiles.str.split(';').map(len).between(1, 25).all()
+-    assert new.smiles.str.split(';').map(lambda a: all(bool(s) for s in a) and len(set(a)) == len(a)).all()
+-    tmp = ROOT / 'submission.merge.tmp'
+-    new.to_csv(tmp, index=False)
+-    out_sha = _pxm_sha(tmp)
+-    os.replace(tmp, sub_path)
+-    rep.update(status='applied', **counts, output_sha256=out_sha,
+-               output_equals_custom=out_sha == rep['input_sha256']['custom'])
+-    return rep
+-
++            print(f'[apex-extlib] Source B loading error: {e}')
++
++    if not refs:
++        print('[apex-extlib] No external reference spectra available; keeping submission untouched.')
++        return
++
++    # Sort references by precursor mass for fast binary search
++    order = np.argsort([r[1] for r in refs], kind='stable')
++    sorted_refs = [refs[i] for i in order]
++    prec_array = np.array([r[1] for r in sorted_refs])
++
++    def calc_cosine(qm, qi, rm, ri, tol=0.015):
++        if len(qm) == 0 or len(rm) == 0:
++            return 0.0, 0
++        qa, ra = np.sqrt(qi), np.sqrt(ri)
++        qa = qa / (np.linalg.norm(qa) + 1e-12)
++        ra = ra / (np.linalg.norm(ra) + 1e-12)
++        
++        j0 = np.searchsorted(rm, qm - tol, 'left')
++        j1 = np.searchsorted(rm, qm + tol, 'right')
++        pairs = [(qa[i] * ra[j], i, j) for i in range(len(qm)) for j in range(j0[i], j1[i])]
++        if not pairs:
++            return 0.0, 0
++        pairs.sort(reverse=True)
++        ui, uj, s, n = set(), set(), 0.0, 0
++        for p, i, j in pairs:
++            if i in ui or j in uj:
++                continue
++            ui.add(i); uj.add(j)
++            s += p; n += 1
++        return float(s), n
++
++    TAU = 0.80          # Minimum cosine similarity for direct Rank-1 hit
++    K_PEAKS = 4         # Minimum matching peaks
++    LIB_TAU = 0.90      # Protect queries already strong in pipeline library
++
++    hits_count = 0
++    promoted_count = 0
++    new_smiles_list = []
++
++    for mid, smiles_str in zip(sub['molecule_id'].astype(str), sub['smiles'].astype(str)):
++        smis = [s for s in smiles_str.split(';') if s]
++        new_smis = list(smis)
++        
++        try:
++            # If the pipeline already matched this molecule with high confidence, protect it
++            if lib_max.get(mid, 0.0) >= LIB_TAU:
++                new_smiles_list.append(smiles_str)
++                continue
++
++            q_list = queries.get(mid, [])
++            if not q_list:
++                new_smiles_list.append(smiles_str)
++                continue
++
++            best_match = (0.0, 0, None)  # (cosine, n_peaks, smi)
++            for q in q_list:
++                q_mode, q_prec = q['mode'], q['prec']
++                q_mz, q_it = q['mz'], q['it']
++                
++                # Precursor search window: 10 ppm + 0.002 Da
++                tol = q_prec * 10e-6 + 0.002
++                idx_lo = np.searchsorted(prec_array, q_prec - tol, 'left')
++                idx_hi = np.searchsorted(prec_array, q_prec + tol, 'right')
++                
++                for ri in range(idx_lo, idx_hi):
++                    ref = sorted_refs[ri]
++                    if ref[0] != q_mode:
++                        continue
++                    cos, n_matched = calc_cosine(q_mz, q_it, ref[2], ref[3])
++                    if n_matched >= K_PEAKS and cos > best_match[0]:
++                        best_match = (cos, n_matched, ref[5])
++
++            best_cos, best_k, match_smi = best_match
++            if match_smi is not None and best_cos >= TAU:
++                hits_count += 1
++                if match_smi in smis:
++                    new_smis = [match_smi] + [s for s in smis if s != match_smi]
++                    promoted_count += int(smis[0] != match_smi)
++                else:
++                    new_smis = ([match_smi] + smis)[:25]
++                    promoted_count += 1
++
++        except Exception as exc:
++            new_smis = smis
++
++        new_smiles_list.append(';'.join(new_smis) if new_smis else smiles_str)
++
++    res_df = sub.copy()
++    res_df['smiles'] = new_smiles_list
++    assert len(res_df) == len(sub)
++    assert res_df['smiles'].str.split(';').map(len).max() <= 25
++
++    # Atomically save updated submission
++    tmp_path = os.path.join(work, 'submission.tmp.csv')
++    res_df.to_csv(tmp_path, index=False)
++    os.replace(tmp_path, sub_path)
++
++    elapsed = round(time.monotonic() - t0, 1)
++    audit = dict(molecules=len(sub), hits=hits_count, promoted=promoted_count, elapsed_s=elapsed)
++    with open(os.path.join(work, 'apex_extlib_audit.json'), 'w') as f:
++        json.dump(audit, f, indent=2)
++
++    print(f'[apex-extlib] SUCCESS: {hits_count} library matches (TAU={TAU}, K={K_PEAKS}), '
++          f'{promoted_count} Rank-1 promotions applied in {elapsed}s.')
+ 
+ try:
+-    if not PIPELINE_DONE and not IS_RERUN and COMMIT_MODE == 'fast':
+-        MERGE_REPORT = {'status': 'skipped_fast_commit'}
+-    else:
+-        MERGE_REPORT = _pxm_main()
+-except Exception as exc:
++    _apex_extlib_overlay()
++except Exception:
++    import traceback
+     traceback.print_exc()
+-    MERGE_REPORT = dict(status='restored_custom_after_error', exception=repr(exc)[:600])
+-    try:
+-        _tmp = ROOT / 'submission.merge.tmp'
+-        shutil.copyfile(ROOT / 'variants/submission_CUSTOM.csv', _tmp)
+-        os.replace(_tmp, ROOT / 'submission.csv')
+-        MERGE_REPORT['output_sha256'] = _pxm_sha(ROOT / 'submission.csv')
+-    except Exception as exc2:
+-        traceback.print_exc()
+-        MERGE_REPORT['restore_error'] = repr(exc2)[:300]
+-try:
+-    _tmp = ROOT / 'merge_report.json.tmp'
+-    _tmp.write_text(json.dumps(MERGE_REPORT, indent=2, default=str))
+-    os.replace(_tmp, ROOT / 'merge_report.json')
+-except Exception:
+-    traceback.print_exc()
+-
+-final = pd.read_csv(ROOT / 'submission.csv', dtype=str, keep_default_na=False)
+-assert list(final.columns) == ['molecule_id', 'smiles']
+-assert final.molecule_id.tolist() == SAMPLE_IDS and final.molecule_id.is_unique
+-assert final.smiles.str.split(';').map(len).between(1, 25).all()
+-assert final.smiles.str.split(';').map(lambda a: all(bool(s) for s in a) and len(set(a)) == len(a)).all()
+-print('SUBMISSION READY:', ROOT / 'submission.csv', 'molecules', len(final), 'MERGE', json.dumps(
+-    {k: MERGE_REPORT.get(k) for k in ('status', 'rows', 'merged', 'leader_moves', 'ranks_reordered', 'dedup_swaps',
+-                                      'output_equals_custom', 'outsider_fills', 'old_leader_pinned', 'lib_hit_molecules', 'output_sha256', 'exception') if k in MERGE_REPORT},
+-    default=str))
++    print('[apex-extlib] overlay failed; existing submission preserved.')
+CELL 25 EXACT OLD CELL 23
+CELL 26 EXACT OLD CELL 24
+CELL 27 EXACT OLD CELL 25
+CELL 28 EXACT OLD CELL 26
+CELL 29 EXACT OLD CELL 27
+CELL 30 EXACT OLD CELL 28

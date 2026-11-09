@@ -1,0 +1,19 @@
+{
+  "id": 755965,
+  "read_only": true,
+  "checked_at_utc": "2026-11-07T16:01:40.030456+00:00",
+  "topic": {
+    "id": 755965,
+    "title": "Five open mass-spec libraries as public S3 mirrors, plus a notebook that joins them",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/755965",
+    "postDate": "2026-11-05T01:33:27.734Z",
+    "authorName": "Aaron Kanzer",
+    "authorUrl": "https://www.kaggle.com/scigantic",
+    "votes": 3,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>External data disclosure, per the host's pinned post. These are all open-licence, free to everyone, and mirrored byte for byte with md5 manifests.</p>\n<p>Public S3, no account needed:</p>\n<p>Enveda-180 (Zenodo 20436851, CC BY 4.0): 1,158,293 timsTOF MS/MS spectra for 184,330 Enamine compounds, with CCS and RT. s3://scigantic-zenodo-20436851/</p>\n<p>COCONUT 2.0, October 2026 (CC0): 738,794 natural-product structures with organisms and NPClassifier classes, as Parquet. s3://scigantic-coconut/coconut-10-2026.parquet</p>\n<p>LOTUS (CC BY 4.0): 674,454 structure, organism, reference triples. s3://scigantic-zenodo-19360665/</p>\n<p>MassBank 2026.03, open-licence records only (NC records excluded): 96,949 reference spectra of 10,304 compounds, as MSP and Parquet. s3://scigantic-massbank/massbank_open_spectra.parquet</p>\n<p>GNPS community libraries (CC0): 581,722 spectra from 65 directly contributed libraries, as MGF and Parquet. s3://scigantic-gnps-libraries/gnps_community_spectra.parquet</p>\n<p>Every bucket has a MIRROR.md at its root with the source, licence and per-file md5. Cite the upstream resource, not the mirror.</p>\n<p>A notebook that follows one natural product (quercetin) through all five, then measures how little of Enveda-180 overlaps natural-product chemical space, runs in the browser with the files already mounted (free account): <a href=\"https://scigantic.com/archive/55cedfbf-558a-5d74-9e95-440df1dc72d6/sample\" target=\"_blank\">https://scigantic.com/archive/55cedfbf-558a-5d74-9e95-440df1dc72d6/sample</a></p>\n<p>Two things we measured that matter for the hidden test: Enveda-180 is Enamine screening compounds, so a plant isolate almost never has a library match there, only chemical neighbours; and 2,077 Enveda-180 compounds also have a positive-mode [M+H]+ spectrum in GNPS, which is a usable cross-instrument check.</p>\n<p>We mirrored these for our own entry (team scigantic). Disclosed here so they are equally available to everyone.</p>"
+  },
+  "comments": [],
+  "comments_truncated": false
+}

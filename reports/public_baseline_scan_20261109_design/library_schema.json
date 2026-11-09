@@ -1,0 +1,159 @@
+{
+  "ext_meta.parquet": {
+    "rows": 200724,
+    "columns": [
+      "inchikey14",
+      "normalized_smiles",
+      "adduct",
+      "ionization_mode",
+      "instrument_type",
+      "precursor_mz",
+      "formula"
+    ],
+    "dtypes": {
+      "inchikey14": "object",
+      "normalized_smiles": "object",
+      "adduct": "object",
+      "ionization_mode": "object",
+      "instrument_type": "object",
+      "precursor_mz": "float64",
+      "formula": "object"
+    },
+    "sample": [
+      {
+        "inchikey14": "PUMXWMGECQIOGB",
+        "normalized_smiles": "CC1=C[C@H]2O[C@@H]3[C@H](O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)C[C@](C)([C@@]2(CO)[C@H](O)C1=O)[C@]31CO1",
+        "adduct": "[M+HCOO]-",
+        "ionization_mode": "negative",
+        "instrument_type": "LC-APCI-ITFT",
+        "precursor_mz": 503.177,
+        "formula": "C21H30O11"
+      },
+      {
+        "inchikey14": "JIWUESGGKYLPPG",
+        "normalized_smiles": "C[N+]1(C)CCOC(O)(c2ccc(-c3ccc(C4(O)C[N+](C)(C)CCO4)cc3)cc2)C1",
+        "adduct": "[M]2+",
+        "ionization_mode": "positive",
+        "instrument_type": "LC-ESI-QFT",
+        "precursor_mz": 207.1248,
+        "formula": "[C24H34N2O4]2+"
+      }
+    ]
+  },
+  "ext_mass.parquet": {
+    "rows": 144924,
+    "columns": [
+      "inchikey14",
+      "normalized_smiles",
+      "mono_mass",
+      "formula"
+    ],
+    "dtypes": {
+      "inchikey14": "object",
+      "normalized_smiles": "object",
+      "mono_mass": "float64",
+      "formula": "object"
+    },
+    "sample": [
+      {
+        "inchikey14": "ABFZMYIIUREPLL",
+        "normalized_smiles": "CC(CCC(=O)NCC(=O)O)C1CCC2C3C(O)CC4CC(OC5OC(C(=O)O)C(O)C(O)C5O)CCC4(C)C3CCC12C",
+        "mono_mass": 625.3462114519999,
+        "formula": "C32H51NO11"
+      },
+      {
+        "inchikey14": "ACFCYNJDAMJVRV",
+        "normalized_smiles": "C/C=C1/NC(=O)[C@H](CO)NC(=O)[C@@H]([C@@H](C)CC)NC(=O)[C@@H]2CCCN2C(=O)[C@@H]2CCCN2C(=O)CNC(=O)[C@H](CCC(N)=O)NC(=O)C(O)C(CC(O)CC(O)C(O)CC(C)C)NC(=O)[C@@H]2CCCN2C(=O)C(CCc2ccc(OC)cc2)NC(=O)[C@H]([C@@H](C)O)NC1=O",
+        "mono_mass": 1312.6914688519998,
+        "formula": "C62H96N12O19"
+      }
+    ]
+  },
+  "ext_mz.npy": {
+    "shape": [
+      200724,
+      128
+    ],
+    "dtype": "float32",
+    "first_row_shape": [
+      128
+    ]
+  },
+  "ext_in.npy": {
+    "shape": [
+      200724,
+      128
+    ],
+    "dtype": "float32",
+    "first_row_shape": [
+      128
+    ]
+  },
+  "MassBank": {
+    "rows": 139744,
+    "columns": [
+      "spectrum_id",
+      "source",
+      "source_institution",
+      "name",
+      "smiles",
+      "inchikey",
+      "formula",
+      "exact_mass",
+      "precursor_mz",
+      "adduct",
+      "ion_mode",
+      "ms_type",
+      "instrument_type",
+      "collision_energy",
+      "resolution",
+      "retention_time_min",
+      "num_peaks",
+      "mzs",
+      "intensities",
+      "license",
+      "authors",
+      "publication",
+      "copyright",
+      "is_casmi_subset"
+    ],
+    "ion_mode": {
+      "POSITIVE": 98180,
+      "NEGATIVE": 41564
+    },
+    "licenses": {
+      "CC BY": 49317,
+      "CC BY-NC-SA": 32754,
+      "CC BY-SA": 21630,
+      "dl-de/by-2-0": 20658,
+      "CC BY-NC": 8434,
+      "CC0": 6951
+    },
+    "sample": [
+      {
+        "spectrum_id": "MSBNK-Eawag_Additional_Specs-ET160004",
+        "source": "MassBank",
+        "source_institution": "Eawag_Additional_Specs",
+        "name": "PRI_260.1759_12.9",
+        "smiles": "COc1cc(NC(C)CCCN)c2ncccc2c1",
+        "inchikey": "INDBQLZJXZLFIT-UHFFFAOYSA-N",
+        "formula": "C15H21N3O",
+        "exact_mass": 259.1685,
+        "precursor_mz": 260.1757,
+        "adduct": "[M+H]+",
+        "ion_mode": "POSITIVE",
+        "ms_type": "MS2",
+        "instrument_type": "LC-ESI-QFT",
+        "collision_energy": "15, 30, 45, 60, 70 or 90 (nominal)",
+        "resolution": "17500",
+        "retention_time_min": 13.2,
+        "num_peaks": 16,
+        "license": "CC BY",
+        "authors": "R. Gulde, E. Schymanski, K. Fenner, Department of Environmental Chemistry, Eawag",
+        "publication": "Gulde, R.; Meier, U.; Schymanski, E. L.; Kohler, H.-P. E.; Helbling, D. E.; Derrer, S.; Rentsch, D.; Fenner, K. Systematic Exploration of Biotransformation Reactions of Amine-Containing Micropollutants in Activated Sludge. Environmental Science & Technology 2016, 50 (6), 2908\u201320. DOI:10.1021/acs.est.5b05186",
+        "copyright": "Copyright (C) 2016 Eawag, Duebendorf, Switzerland",
+        "is_casmi_subset": false
+      }
+    ]
+  }
+}

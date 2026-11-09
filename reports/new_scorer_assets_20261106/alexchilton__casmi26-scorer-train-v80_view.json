@@ -1,0 +1,8 @@
+{
+  "ref": "alexchilton/casmi26-scorer-train-v80",
+  "checked_at_utc": "2026-11-06T02:15:30.751942+00:00",
+  "anonymous_public_read": true,
+  "status": "read_failed",
+  "error_type": "HTTPError",
+  "http_status": 403
+}

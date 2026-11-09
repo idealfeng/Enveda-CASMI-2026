@@ -1,0 +1,27 @@
+{
+  "id": 143058744,
+  "ref": "dcvxzyk/enveda-r45-unpruned-mp",
+  "title": "enveda-r45-unpruned-mp",
+  "current_version_number": 2,
+  "last_run_time": "2026-11-03 16:28:05.985000",
+  "total_votes": 0,
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_data_sources": [
+    "ahmedberatozer/casmi26-glacier",
+    "ahmedberatozer/casmi26-iceberg",
+    "ahmedberatozer/casmi26-v2-pool",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [],
+  "competition_data_sources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "model_data_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+  "machine_shape": "None",
+  "source_sha256": "8bd94f134870e67d7cc73f964b5961694570fe716a5fb256cc6c5dbea9d643e9",
+  "source_bytes": 77688,
+  "source_path": "third_party\\public_scan_dcvxzyk__enveda-r45-unpruned-mp_20261107\\source.ipynb"
+}

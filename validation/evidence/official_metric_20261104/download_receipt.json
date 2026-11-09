@@ -1,0 +1,11 @@
+{
+  "url": "https://www.kaggle.com/api/v1/kernels/pull?userName=metric&kernelSlug=casmi-mean-reciprocal-rank",
+  "downloaded_at_utc": "2026-11-04T13:48:22.983536+00:00",
+  "version": 14,
+  "ref": "metric/casmi-mean-reciprocal-rank",
+  "source_sha256": "bf8535f01bf73268a52819b38e7f6b205e37ec127c268e48081b780a10b609dd",
+  "api_sha256": "3c14046810830071e70c3b7b62a0acb9576f305219ef0336955d4ff32ea14cae",
+  "api_bytes": 41002,
+  "executed": false,
+  "assets_downloaded": false
+}

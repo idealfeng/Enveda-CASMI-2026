@@ -1,0 +1,158 @@
+{
+  "scope": "Active visible-placeholder rows only; this does not reproduce hidden leaderboard score.",
+  "reference": "third_party/canqiang_e006/upstream_output/canqiang_e006_v1_active12.csv",
+  "actual": "runs/canqiang_smoke_20261104b/submission.csv",
+  "active_molecules": 12,
+  "reference_sha256": "ad2a6e98e51fdd5eba4d9734a31afb58f662c303d03b0547fa23b759b1a26cf2",
+  "actual_sha256": "3e2191eabad2dc1cd804dc640be3f983f6ff46f7b4b7d3d0ce08a9a3f548870b",
+  "actual_output_rows": 400,
+  "metric_rdkit": "2026.03.3",
+  "metric_source": {
+    "url": "https://www.kaggle.com/code/metric/casmi-mean-reciprocal-rank",
+    "version": 14,
+    "sha256": "bf8535f01bf73268a52819b38e7f6b205e37ec127c268e48081b780a10b609dd",
+    "stereochemistry_removed_before_tautomer_canonicalization": true
+  },
+  "matching_molecules": {
+    "top1_exact": 12,
+    "candidate_set_exact": 12,
+    "ranking_exact": 2,
+    "top1_identity": 12,
+    "candidate_set_identity": 12,
+    "ranking_identity": 2
+  },
+  "rows": [
+    {
+      "molecule_id": "m_005e53",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "top1_exact": true,
+      "candidate_set_exact": true,
+      "ranking_exact": false,
+      "top1_identity": true,
+      "candidate_set_identity": true,
+      "ranking_identity": false
+    },
+    {
+      "molecule_id": "m_006153",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "top1_exact": true,
+      "candidate_set_exact": true,
+      "ranking_exact": false,
+      "top1_identity": true,
+      "candidate_set_identity": true,
+      "ranking_identity": false
+    },
+    {
+      "molecule_id": "m_00b5aa",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "top1_exact": true,
+      "candidate_set_exact": true,
+      "ranking_exact": false,
+      "top1_identity": true,
+      "candidate_set_identity": true,
+      "ranking_identity": false
+    },
+    {
+      "molecule_id": "m_01e922",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "top1_exact": true,
+      "candidate_set_exact": true,
+      "ranking_exact": false,
+      "top1_identity": true,
+      "candidate_set_identity": true,
+      "ranking_identity": false
+    },
+    {
+      "molecule_id": "m_0259d4",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "top1_exact": true,
+      "candidate_set_exact": true,
+      "ranking_exact": false,
+      "top1_identity": true,
+      "candidate_set_identity": true,
+      "ranking_identity": false
+    },
+    {
+      "molecule_id": "m_02d188",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "top1_exact": true,
+      "candidate_set_exact": true,
+      "ranking_exact": false,
+      "top1_identity": true,
+      "candidate_set_identity": true,
+      "ranking_identity": false
+    },
+    {
+      "molecule_id": "m_0318b5",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "top1_exact": true,
+      "candidate_set_exact": true,
+      "ranking_exact": false,
+      "top1_identity": true,
+      "candidate_set_identity": true,
+      "ranking_identity": false
+    },
+    {
+      "molecule_id": "m_043e86",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "top1_exact": true,
+      "candidate_set_exact": true,
+      "ranking_exact": true,
+      "top1_identity": true,
+      "candidate_set_identity": true,
+      "ranking_identity": true
+    },
+    {
+      "molecule_id": "m_050bf1",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "top1_exact": true,
+      "candidate_set_exact": true,
+      "ranking_exact": false,
+      "top1_identity": true,
+      "candidate_set_identity": true,
+      "ranking_identity": false
+    },
+    {
+      "molecule_id": "m_05b52e",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "top1_exact": true,
+      "candidate_set_exact": true,
+      "ranking_exact": false,
+      "top1_identity": true,
+      "candidate_set_identity": true,
+      "ranking_identity": false
+    },
+    {
+      "molecule_id": "m_068354",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "top1_exact": true,
+      "candidate_set_exact": true,
+      "ranking_exact": false,
+      "top1_identity": true,
+      "candidate_set_identity": true,
+      "ranking_identity": false
+    },
+    {
+      "molecule_id": "m_06e13d",
+      "reference_guesses": 25,
+      "actual_guesses": 25,
+      "top1_exact": true,
+      "candidate_set_exact": true,
+      "ranking_exact": true,
+      "top1_identity": true,
+      "candidate_set_identity": true,
+      "ranking_identity": true
+    }
+  ]
+}

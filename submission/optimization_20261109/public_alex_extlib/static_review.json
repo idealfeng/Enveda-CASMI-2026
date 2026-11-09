@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-public-alex-extlib-1109",
+  "version": 1,
+  "notebook_sha256": "1838e7c7c07177b7e6976c9b4c1e9c566769b2c88c2a699ce002bffa174dbbee",
+  "checks": {
+    "all_original_unadapted_cells_exact": true,
+    "original_overlay_function_pinned": true,
+    "only_observation_ast_additions": true,
+    "explicit_official_identity_output_guard": true,
+    "exact_ranking_constants": true,
+    "all_required_library_hashes_local": true,
+    "dynamic_hidden_ids": true,
+    "fast_visible_no_models_or_matching": true,
+    "private_offline_gpu": true,
+    "versioned_dataset_sources": true,
+    "source_compiles": true,
+    "never_executes_external_pickle": true,
+    "global_errors_fail_closed": true
+  }
+}

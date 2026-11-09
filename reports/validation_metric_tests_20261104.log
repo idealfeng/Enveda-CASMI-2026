@@ -1,0 +1,44 @@
+test_candidate_recall_unknown_partial_and_empty (test_validation_metric.EvaluationBoundaries.test_candidate_recall_unknown_partial_and_empty) ... ok
+test_cli_report_and_failed_ablation_exit (test_validation_metric.EvaluationBoundaries.test_cli_report_and_failed_ablation_exit) ... {
+  "metrics": {
+    "molecules": 2,
+    "mrr_at_25": 1.0,
+    "top1": 1.0,
+    "top5": 1.0,
+    "top25": 1.0
+  },
+  "candidate_recall_decomposition": {
+    "status": "unknown",
+    "reason": "No pre-ranking candidate audit supplied; top25 hit rate is not pre-ranking recall."
+  },
+  "fixed_candidate_requirement_satisfied": true
+}
+{
+  "metrics": {
+    "molecules": 2,
+    "mrr_at_25": 1.0,
+    "top1": 1.0,
+    "top5": 1.0,
+    "top25": 1.0
+  },
+  "candidate_recall_decomposition": {
+    "status": "unknown",
+    "reason": "No pre-ranking candidate audit supplied; top25 hit rate is not pre-ranking recall."
+  },
+  "fixed_candidate_requirement_satisfied": false
+}
+Fixed-candidate ablation rejected: submitted metric-identity sets differ.
+ok
+test_datasets_truth_aliases_and_conflicts (test_validation_metric.EvaluationBoundaries.test_datasets_truth_aliases_and_conflicts) ... ok
+test_fixed_candidate_and_paired_alignment (test_validation_metric.EvaluationBoundaries.test_fixed_candidate_and_paired_alignment) ... ok
+test_strict_truth_and_id_checks (test_validation_metric.EvaluationBoundaries.test_strict_truth_and_id_checks) ... ok
+test_charge_formula_is_not_metric_gate (test_validation_metric.MetricBoundaries.test_charge_formula_is_not_metric_gate) ... ok
+test_invalid_duplicate_and_empty_slots (test_validation_metric.MetricBoundaries.test_invalid_duplicate_and_empty_slots) ... ok
+test_official_source_parity (test_validation_metric.MetricBoundaries.test_official_source_parity) ... ok
+test_official_stereo_tautomer_regression (test_validation_metric.MetricBoundaries.test_official_stereo_tautomer_regression) ... ok
+test_version_guard (test_validation_metric.MetricBoundaries.test_version_guard) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.559s
+
+OK

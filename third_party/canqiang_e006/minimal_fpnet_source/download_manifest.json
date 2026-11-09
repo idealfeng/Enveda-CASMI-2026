@@ -1,0 +1,30 @@
+[
+  {
+    "file": "minimal_fpnet_source\\casmi\\__init__.py",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v3-models/code%2Fcasmi%2F__init__.py?datasetVersionNumber=4",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "content_type": "application/octet-stream"
+  },
+  {
+    "file": "minimal_fpnet_source\\casmi\\fpnet.py",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v3-models/code%2Fcasmi%2Ffpnet.py?datasetVersionNumber=4",
+    "bytes": 9551,
+    "sha256": "0ea6e372d1f045a877d350234c2ccf5d93fdd98cb23bd4c22376bf7e99547608",
+    "content_type": "application/octet-stream"
+  },
+  {
+    "file": "minimal_fpnet_source\\casmi\\chem.py",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v3-models/code%2Fcasmi%2Fchem.py?datasetVersionNumber=4",
+    "bytes": 12328,
+    "sha256": "99474f23d8a67040b0c0f8c70e73592a6f7f656f50103e350ca473451e2169f1",
+    "content_type": "application/octet-stream"
+  },
+  {
+    "file": "minimal_fpnet_source\\casmi\\spectra.py",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ahmedberatozer/casmi26-v3-models/code%2Fcasmi%2Fspectra.py?datasetVersionNumber=4",
+    "bytes": 10057,
+    "sha256": "e2481761cdfb2515e8a945751f85f6b9e885680a8e974d7ac35c78bbf279ae74",
+    "content_type": "application/octet-stream"
+  }
+]

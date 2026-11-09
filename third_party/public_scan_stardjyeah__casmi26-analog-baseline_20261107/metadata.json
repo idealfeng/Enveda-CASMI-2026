@@ -1,0 +1,25 @@
+{
+  "id": 142916889,
+  "ref": "stardjyeah/casmi26-analog-baseline",
+  "title": "casmi26 analog baseline",
+  "current_version_number": 8,
+  "last_run_time": "2026-11-03 16:28:01.929000",
+  "total_votes": 5,
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_data_sources": [
+    "stardjyeah/casmi26-structures",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [],
+  "competition_data_sources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "model_data_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+  "machine_shape": "NvidiaTeslaT4",
+  "source_sha256": "a92ffab281924e802f87105755cbadf1b259e70bb08a2be104cbf5fa9554a2b7",
+  "source_bytes": 11747,
+  "source_path": "third_party\\public_scan_stardjyeah__casmi26-analog-baseline_20261107\\source.ipynb"
+}

@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "branch": "mass_no_np_bonus",
+  "mode": "fast_static",
+  "recipe_sha256": "468baef7f9a560ece89319710793f8611bb8a7affacff8a8936b7df46cad4571",
+  "checks": {
+    "mass_recipe": true,
+    "np_ablation_configuration": true,
+    "other_merge_switches_preserved": true,
+    "official_rdkit": true,
+    "public_model_pins": true,
+    "ours_model_pins": true,
+    "two_distinct_models": true,
+    "lotus_pin": true,
+    "csv_schema_ids": true,
+    "csv_counts": true,
+    "fast_no_model": true,
+    "merge_fast_skip_explicit": true
+  },
+  "visible_model_executed": false,
+  "pins": {
+    "public": {
+      "features.py": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+      "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+      "config.json": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+      "final_model.pt": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642"
+    },
+    "ours": {
+      "features.py": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+      "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+      "config.json": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+      "final_model.pt": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46"
+    }
+  },
+  "mass_report": {
+    "status": "off: no pipeline answer in this run"
+  },
+  "mass_lead_report": {
+    "status": "off: no mass table"
+  },
+  "np_contribution_audit": {
+    "status": "skipped_fast_commit",
+    "np_scored_candidates": null,
+    "np_member_scored_candidates": null,
+    "np_bonus_sum": null,
+    "np_bonus_absmax": null
+  },
+  "ablation_scope": "final pxm_merge membership bonus only; outsider and LOTUS fill unchanged",
+  "csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0"
+}

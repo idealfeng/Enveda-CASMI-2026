@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "model_executed": false,
+  "only_cell12_subprocess_call_replaced": true,
+  "ENG_FILES_generation_unchanged": true,
+  "other_cells_unchanged": true,
+  "mismatched_queries_rejected": [
+    "target_id",
+    "precursor_metadata"
+  ],
+  "molecules": 12,
+  "query_rows": 41,
+  "input_payload_files_bound": 253,
+  "input_competition_files_bound": 3,
+  "active_query_sha256": "46f83234764281559a5c6df56643796304d7939b7501506746d68df8bce16ccf",
+  "binding_sha256": "eb3e667fe92d6124d68ee4f74e9dc60a099ecf4f172d63ff2ee97510549f3a3e",
+  "receipt_state": "prepared"
+}

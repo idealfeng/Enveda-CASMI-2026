@@ -1,0 +1,93 @@
+Repeated "Notebook Threw Exception" on Hidden Reruns Despite Successful Public Execution
+
+https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/756912
+
+Author: Sergii Iuriev
+
+Posted: 2026-11-08T04:58:35.607Z
+
+Hello fellow kagglers,
+
+I'm experiencing a persistent issue with notebook submissions to the Enveda CASMI 2026 competition and would appreciate some guidance.
+
+Three competition submissions have failed with "Notebook Threw Exception" during the hidden-data rerun. However, the corresponding saved notebooks execute successfully on Kaggle with CPU acceleration disabled and Internet access turned off.
+
+The public notebook execution:
+
+
+Processes all 400 demonstration-test molecules and 1,213 spectra.
+
+Generates a submission.csv with the required molecular predictions.
+
+Passes independent validation of molecular identities, chemical validity, coverage, ranking, and submission format.
+
+Produces a CSV that matches the independently validated local output byte-for-byte (SHA-256 verified).
+
+
+Troubleshooting already performed:
+
+
+Verified that the notebook code downloaded from Kaggle matches the locally prepared source.
+
+Confirmed that molecule counts, IDs, and ordering are derived dynamically from the runtime test.parquet, rather than hardcoded from the public demonstration data.
+
+Confirmed that public-data-specific checksum requirements are skipped when the runtime TEST data differs.
+
+Tested alternative input sizes, supported adducts, missing optional values, and large observation groups.
+
+Verified that the notebook does not depend on sample_submission.csv for prediction generation or ordering.
+
+Investigated candidate-generation limitations and other possible inference failures, but have not established the cause of the hidden-run exceptions.
+
+
+The notebook uses frozen trained models, local inference assets, and an offline RDKit dependency. It performs inference only, with no external network access or training during execution.
+
+Could the organizers clarify the following?
+
+
+Is the hidden test.parquet guaranteed to follow the same schema and supported ion/adduct definitions as the demonstration dataset?
+
+Are the molecule IDs in hidden test.parquet guaranteed to correspond to the IDs required by the hidden sample_submission.csv?
+
+What is the expected submission behavior when a model cannot generate a chemically valid candidate for a particular molecule?
+
+Are there known hidden-rerun environment constraints or debugging approaches that might help distinguish input compatibility issues from notebook execution problems?
+
+
+I understand that hidden-data tracebacks and private test information may not be available. I'm not asking for either—only clarification of the documented inference requirements and any recommended troubleshooting steps.
+
+Thank you for your help.
+
+
+Comment: Shehab Alshehabi
+
+Hi. I believe that "Notebook Threw Exception" means that a notebook cell produced an error and that the issue was not with the grader - I think that would show up as "Submission Scoring Error". I'm not an organiser so I might be wrong about this.
+
+I would first make sure you are not running out of memory. I would try to process:
+
+
+A very large molecule (1159 Da is the largest molecule on the real test whereas 157 Da is the largest on the placeholder)
+
+A molecule many spectra (16 is the largest in the test set and 9 is the most in the placeholder)
+
+A molecule with all 10 adducts (7 is the maximum in train)
+
+All the above at the same time
+
+
+In order to run these tests, you can find molecules from the training data or just mash spectra together since we are trying to catch a crash rather than a logic issue.
+
+To look for python errors, I would try to process:
+
+
+A molecule with a very large mass that isn't in any database.
+
+A molecule with a negative mass. When there isn't a chemically valid candidate, your notebook shouldn't produce an error so this case is worth running even though I strongly doubt it's in the test set. 
+
+
+If the cause of the error isn't memory and it is a normal python error, you can proceed by wrapping your code for each prediction in a try/except block and making a default prediction in the except block. Alternatively, you can wrap smaller bits of code in the wrapper to try to try to narrow which block is throwing the error.
+
+
+Comment: Ángel Jacinto Sánchez Ruiz
+
+Try to process train. Is a bigger debug option.

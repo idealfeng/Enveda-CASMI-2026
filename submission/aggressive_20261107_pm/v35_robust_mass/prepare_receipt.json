@@ -1,0 +1,11 @@
+{
+  "status": "prepared",
+  "branch": "v35_robust_mass",
+  "target": "stormseye/casmi26-v35-robust-mass-1107pm",
+  "version": 1,
+  "notebook_sha256": "5599c52d9e82210b78f804fa283793908a07fc3bff5b482d3545f5c4dd55cc75",
+  "metadata_sha256": "ff50cbef25fbb6d1cb0f6588f5c1ea5c26c80ec9f132d4865a25782fc5b25462",
+  "recipe_sha256": "3f45e56a31475fb5b7615e0d4be2fbc6158ab89649f474a5529a1f77d30c1f83",
+  "static_review_path": "submission\\aggressive_20261107_pm\\v35_robust_mass\\static_review.json",
+  "validation_mode": "fast_static"
+}

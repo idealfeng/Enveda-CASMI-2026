@@ -1,0 +1,26 @@
+{
+  "id": 143064358,
+  "ref": "maixunminh/notebookb16898788b",
+  "title": "notebookb16898788b",
+  "current_version_number": 1,
+  "last_run_time": "2026-11-03 16:28:04.002000",
+  "total_votes": 0,
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_data_sources": [
+    "caoban203/casmi26-full-training-inputs"
+  ],
+  "kernel_data_sources": [
+    "maixunminh/notebook1e0451564b"
+  ],
+  "competition_data_sources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "model_data_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:de153e6d303881930c51286216393d56f56b26458d0661350305a1e8144eea01",
+  "machine_shape": "None",
+  "source_sha256": "612978020a75f46c01065b23f230b9187ee7bea652e2dfa524d19e1e37190081",
+  "source_bytes": 123159,
+  "source_path": "third_party\\public_scan_maixunminh__notebookb16898788b_20261107\\source.ipynb"
+}

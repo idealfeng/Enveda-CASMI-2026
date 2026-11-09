@@ -1,0 +1,11 @@
+{
+  "rows": 149983,
+  "columns": [
+    "smiles",
+    "inchikey14",
+    "formula",
+    "monoisotopic_mass",
+    "source"
+  ],
+  "required_columns_present": true
+}

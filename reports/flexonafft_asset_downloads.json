@@ -1,0 +1,4012 @@
+{
+  "files": [
+    {
+      "name": "casmi26-v3-models/code/casmi/__init__.py",
+      "bytes": 0,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v3-models\\code\\casmi\\__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/casmi/__init__.py",
+      "bytes": 0,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\casmi\\__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/fams/__init__.py",
+      "bytes": 0,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\fams\\__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/shim/dgl/backend/__init__.py",
+      "bytes": 36,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\shim\\dgl\\backend\\__init__.py",
+      "sha256": "f85e782b33669b9567ba24c46931db87506637870d723c8696e66515ff0f9ee7",
+      "state": "present"
+    },
+    {
+      "name": "SUMMARY.json",
+      "bytes": 188,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\SUMMARY.json",
+      "sha256": "d6db82749b9e71a00066313e756d388ffbc1a61fafeeb766449cabc37715f63b",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/shim/dgl/backend/__init__.py",
+      "bytes": 36,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\shim\\dgl\\backend\\__init__.py",
+      "sha256": "f85e782b33669b9567ba24c46931db87506637870d723c8696e66515ff0f9ee7",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/frag2/caps.txt",
+      "bytes": 149,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\frag2\\caps.txt",
+      "sha256": "0ebe04b72563f828e4a6391bea393fdeb37777f87fc4c24aa408e41ea3d2ced2",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/tier_structure_properties.csv",
+      "bytes": 213,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\tier_structure_properties.csv",
+      "sha256": "c44bee463ae6b8ac0d25f62c920f2c0d5dd11e935eaeb21ff3ab9cc49c0ba7e5",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/parent_tier_coverage.json",
+      "bytes": 222,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\parent_tier_coverage.json",
+      "sha256": "b15d6b4b8653615490dc937e867dd3e7f2b4a6e9e5eecea72bee915f35159ea4",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/__init__.py",
+      "bytes": 266,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\__init__.py",
+      "sha256": "e4a927730a084dd169e994b1fa712c5e17709e0a869f00aadb4709df9855c487",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/__init__.py",
+      "bytes": 266,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\__init__.py",
+      "sha256": "e4a927730a084dd169e994b1fa712c5e17709e0a869f00aadb4709df9855c487",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/graph_energy_sampling.json",
+      "bytes": 267,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\graph_energy_sampling.json",
+      "sha256": "1882e65c3ae0bb4da8d645ab3ce0edad50be5b88a866051d80a172f9c2e7ed7b",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/fragment_isotope_summary.csv",
+      "bytes": 287,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\fragment_isotope_summary.csv",
+      "sha256": "e1886fa297820676613ee1ce17b66fd38c9131682faa4695ee179d73cfca5d66",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/collections.csv",
+      "bytes": 299,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\collections.csv",
+      "sha256": "92c8acbdcc6ab47f17785cb32654a12b6575c95b8594798ff615029b3551a018",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/graphormer/__init__.py",
+      "bytes": 351,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\graphormer\\__init__.py",
+      "sha256": "b31b131343597bb736ee984291cbe0688383b507cd6b22d4d9ca01159ac440f2",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/nn_utils/__init__.py",
+      "bytes": 378,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\nn_utils\\__init__.py",
+      "sha256": "2f7f5b3d2537b6bde6a28be84908826901cb2306756b680a57934c39831ade57",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/nn_utils/__init__.py",
+      "bytes": 378,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\nn_utils\\__init__.py",
+      "sha256": "2f7f5b3d2537b6bde6a28be84908826901cb2306756b680a57934c39831ade57",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/common/__init__.py",
+      "bytes": 381,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\common\\__init__.py",
+      "sha256": "521b8cd399abda6a52cd1cc3304d46557035c70f3332be50122c9e68032d1351",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/common/__init__.py",
+      "bytes": 381,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\common\\__init__.py",
+      "sha256": "521b8cd399abda6a52cd1cc3304d46557035c70f3332be50122c9e68032d1351",
+      "state": "present"
+    },
+    {
+      "name": "prior_rule_summary.csv",
+      "bytes": 385,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\prior_rule_summary.csv",
+      "sha256": "0cda766ef21a825bc85eacece06f6d01a0fc1d9e9f3fa4abe053d2090e31ac1f",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-spec2mol-r/history_val.json",
+      "bytes": 430,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-spec2mol-r\\history_val.json",
+      "sha256": "1f693695917f82597d84608aa6ae2dc9035e1dbab8f3f2833e91636b98347402",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/tier_census.json",
+      "bytes": 428,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\tier_census.json",
+      "sha256": "78edb44b1931e4980add31024ff5278287b01aa5a8c98221f853af1519a088dc",
+      "state": "present"
+    },
+    {
+      "name": "SUMMARY.json",
+      "bytes": 486,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\SUMMARY.json",
+      "sha256": "3d7f23504a56bc802e9249bb4c317e92167adf1cef4aa583af30d3adad2eeb87",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/tier_element_groups.csv",
+      "bytes": 499,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\tier_element_groups.csv",
+      "sha256": "d397e44a816abc4da25e0c4cc0e491a10eba08b007e85969c15a4d13724c7f82",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/ANNOTATION_METHOD.json",
+      "bytes": 522,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\ANNOTATION_METHOD.json",
+      "sha256": "e54d9287855639c261bc66487aeefae118b67fdc58de45067e9305be93191836",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/graph_energy_behavior.csv",
+      "bytes": 704,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\graph_energy_behavior.csv",
+      "sha256": "f43799e6fcb9932f6e847cba4a7294b470e7f20e4833c2bf6473f94c2692c6af",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/mass_defect.csv",
+      "bytes": 734,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\mass_defect.csv",
+      "sha256": "269f2cd0690a36599a12c54a91d77855fe96cafb0dd94b52909ccfe2276dd162",
+      "state": "present"
+    },
+    {
+      "name": "casmi-chebi-lmsd-structures/stats.json",
+      "bytes": 608,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi-chebi-lmsd-structures\\stats.json",
+      "sha256": "dd0d5686dd54824a40857b75338ed03dc922a2580031d246bf1995b43af57a5e",
+      "state": "present"
+    },
+    {
+      "name": "casmi_spectrum_model_v1/config.json",
+      "bytes": 804,
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\config.json",
+      "sha256": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/PARITY_SENSITIVITY_METHOD.json",
+      "bytes": 820,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\PARITY_SENSITIVITY_METHOD.json",
+      "sha256": "95294775e979bb751a68135f3c3ce971bfad3a3801b54f9d9fea69b92b5ff58b",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/true_decoy_summary.csv",
+      "bytes": 842,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\true_decoy_summary.csv",
+      "sha256": "df59815e81e3d811e2024116ec45049cb051a8af77d386281fc85457fff3743e",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-spec2mol-r/spec2mol_r_features.py",
+      "bytes": 870,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-spec2mol-r\\spec2mol_r_features.py",
+      "sha256": "c31cfc0730dd1208b1644c96070ee20731dcc4ef6e62fa9077f05dd304867dcd",
+      "state": "present"
+    },
+    {
+      "name": "MODEL_INPUTS.json",
+      "bytes": 910,
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "version": 5,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-fold-safe-fpnet\\v5\\MODEL_INPUTS.json",
+      "sha256": "672a9a9c9a00c191c84faba8a1c8e2555969644e09d70844851de04f7889b6ef",
+      "state": "present"
+    },
+    {
+      "name": "MANIFEST.json",
+      "bytes": 894,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\MANIFEST.json",
+      "sha256": "b4d3aa114e7ba04c618bb022d7943f0d43f0333ecd578dacbe15b8a666b3d67f",
+      "state": "present"
+    },
+    {
+      "name": "casmi_spectrum_model_v1/README.txt",
+      "bytes": 902,
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\README.txt",
+      "sha256": "77aeeb5d1a08d6269c8c8454053e665ff5eee5eb74fac4939838c0f2fdd7397f",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-pubchemlite-cc0-candidate-fingerprints/MANIFEST.json",
+      "bytes": 920,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-pubchemlite-cc0-candidate-fingerprints\\MANIFEST.json",
+      "sha256": "f333f6fa150f807f2981faa7dcb930b90c6f5022015f7314f428cb8bd84e42cb",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/shim/dgl/backend/pytorch.py",
+      "bytes": 964,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\shim\\dgl\\backend\\pytorch.py",
+      "sha256": "e7bf3d120f37ebc40fb8dec000f637ec516b75610b21717a4d7abe3cb40f37c7",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/shim/dgl/backend/pytorch.py",
+      "bytes": 964,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\shim\\dgl\\backend\\pytorch.py",
+      "sha256": "e7bf3d120f37ebc40fb8dec000f637ec516b75610b21717a4d7abe3cb40f37c7",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/GRAPH_METHOD.json",
+      "bytes": 947,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\GRAPH_METHOD.json",
+      "sha256": "57bf9eb7e0e3ff72f8adbef3d17329ef89eafa5e0977a47b816a95b466606693",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/STRUCTURE_ENUMERATION.json",
+      "bytes": 965,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\STRUCTURE_ENUMERATION.json",
+      "sha256": "0c30c129d911aa80755ba040b4899f3a6cadcf4919afb5cc38884549a20a917b",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/rule_method.json",
+      "bytes": 1017,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\rule_method.json",
+      "sha256": "20e9534a0ca7f13cc3510e1b2a324a00cf785312bd7f327c220691b5919ecf99",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/LICENSE-NOTICE.txt",
+      "bytes": 1003,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\LICENSE-NOTICE.txt",
+      "sha256": "2bdc24cdcfda1c536a17d8af6a85b6028b19369527d84db8cc81800228897bce",
+      "state": "present"
+    },
+    {
+      "name": "ATTRIBUTION.md",
+      "bytes": 1077,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\ATTRIBUTION.md",
+      "sha256": "c9393e830e6fd5e586b3e93522d12c25f1f02d44f110be9004a47536f6883cdb",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/element_table_v25.md",
+      "bytes": 1047,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\element_table_v25.md",
+      "sha256": "70a831df8acbccaa0580c647b81e18f3d190a86287a73eb7a5a048f170fc1101",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/LICENSE",
+      "bytes": 1092,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\LICENSE",
+      "sha256": "cb323bf6812b7ebc608d6ded23cf0245ab4633d68b1998010ece3ea3d2810fe3",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/LICENSE",
+      "bytes": 1092,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\LICENSE",
+      "sha256": "cb323bf6812b7ebc608d6ded23cf0245ab4633d68b1998010ece3ea3d2810fe3",
+      "state": "present"
+    },
+    {
+      "name": "MANIFEST_20261019_2.json",
+      "bytes": 1103,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\MANIFEST_20261019_2.json",
+      "sha256": "dedd5ba32d5eb80f7d9b06367fd965ea6054d522b510a6186cf2252e104905af",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/rule_retention.csv",
+      "bytes": 1106,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\rule_retention.csv",
+      "sha256": "9295300e9b59f0f9fcebbbae893ff42edd8e8e0c6c75a579f4e67c52b1b2559e",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/annotation_summary.csv",
+      "bytes": 1132,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\annotation_summary.csv",
+      "sha256": "b8d6a077e0bbe94dcb9bd5221d39afe3bfbe349e37958ed3618bdd2e2f2a7406",
+      "state": "present"
+    },
+    {
+      "name": "aligned_public_priors.py",
+      "bytes": 1178,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\aligned_public_priors.py",
+      "sha256": "89873c7312c16be2180d44bb9eb3c4e9ce19c821e74ab92bb41666ea0c0f9248",
+      "state": "present"
+    },
+    {
+      "name": "ATTRIBUTION.md",
+      "bytes": 1150,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\ATTRIBUTION.md",
+      "sha256": "3da83ddc2bd1ca652e9ad613ab9c900193e944e30d63aeab4db1af46ccbee91f",
+      "state": "present"
+    },
+    {
+      "name": "aligned_public_priors.py",
+      "bytes": 1178,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\aligned_public_priors.py",
+      "sha256": "89873c7312c16be2180d44bb9eb3c4e9ce19c821e74ab92bb41666ea0c0f9248",
+      "state": "present"
+    },
+    {
+      "name": "sugar_and_acyl_units/MANIFEST.json",
+      "bytes": 1281,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\sugar_and_acyl_units\\MANIFEST.json",
+      "sha256": "e084f80c63e6cf220ff13ef426dccc4908b66548cedfe352c6e9d39c1ce38d3d",
+      "state": "present"
+    },
+    {
+      "name": "sugar_and_acyl_units/spectrum_validation.json",
+      "bytes": 1347,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\sugar_and_acyl_units\\spectrum_validation.json",
+      "sha256": "6d6d1992948daf6e4fdccd694a50ec3d6ef131a85ed20da8fde35c0bda922b9f",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-identity-disjoint-validation-folds/SUMMARY.json",
+      "bytes": 1299,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\casmi26-identity-disjoint-validation-folds\\SUMMARY.json",
+      "sha256": "d01e89f166e9daef483262f9f05d74d3b94138f6842437ac72c3e08933e2b057",
+      "state": "present"
+    },
+    {
+      "name": "SOURCE_CHECK_20261019.md",
+      "bytes": 1351,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\SOURCE_CHECK_20261019.md",
+      "sha256": "aace993777bd139fb0faa5ba5f536b761ed59379c0e918e6602d462f2a44401e",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/LICENSE-NOTICE.txt",
+      "bytes": 1363,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\LICENSE-NOTICE.txt",
+      "sha256": "b9c26d77338c03cb4387ae61bf4f6524eb77ee59c8530bc9f8d33a742a913a3b",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-spec2mol-r/prep_morgan.py",
+      "bytes": 1360,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-spec2mol-r\\prep_morgan.py",
+      "sha256": "ebb201f064e10d13056d743b09025b4bbca65f7f2317bd48063d9e7eb0a19ecc",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-identity-disjoint-validation-folds/MANIFEST_20261019_2.json",
+      "bytes": 1262,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\casmi26-identity-disjoint-validation-folds\\MANIFEST_20261019_2.json",
+      "sha256": "12de2fa1e693326088edec3f3fad91fee2a7072167dc05707339bd7de0e4dc8a",
+      "state": "present"
+    },
+    {
+      "name": "JOIN_NOTES.json",
+      "bytes": 1397,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\JOIN_NOTES.json",
+      "sha256": "ed2d4901e4ab1b0b3925181cd0aa0a298b7639bf1171194624c053d1bb8b85b8",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-identity-disjoint-validation-folds/SPLIT_METHOD.json",
+      "bytes": 1415,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\casmi26-identity-disjoint-validation-folds\\SPLIT_METHOD.json",
+      "sha256": "058952c7968cde06ae3906bbd46778a2bbce53e2533456eca6c41a6455591f08",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/LICENSE-NOTICE.txt",
+      "bytes": 1489,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\LICENSE-NOTICE.txt",
+      "sha256": "563c9951ffb47543beeff63df8006b0ba5ab9785a23acfb5311a6b4ceaf44f55",
+      "state": "present"
+    },
+    {
+      "name": "FILE_DESCRIPTIONS.json",
+      "bytes": 1499,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\FILE_DESCRIPTIONS.json",
+      "sha256": "ed182aaf2f4c13a976e60adef555618285b4c7a8e035413e5e398454b7c8481e",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-spec2mol-r/spec2mol_r_spectrum.py",
+      "bytes": 1512,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-spec2mol-r\\spec2mol_r_spectrum.py",
+      "sha256": "0fd9286aff5564dc327511f17a4af23b3d52eb14515e92ea828024cab9ae80be",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-spec2mol/spec2mol_features.py",
+      "bytes": 1512,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-spec2mol\\spec2mol_features.py",
+      "sha256": "0fd9286aff5564dc327511f17a4af23b3d52eb14515e92ea828024cab9ae80be",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/structure_coverage.csv",
+      "bytes": 1513,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\structure_coverage.csv",
+      "sha256": "4605097212a45fff933ea3ae6a12c59adc0d3eff585affd5c1c3745e059aeb01",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/additional_measurements_v25.json",
+      "bytes": 1523,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\additional_measurements_v25.json",
+      "sha256": "89446ba37cb63d86ea9f0207a19b91a53889831b3127ea23795ad897326a9154",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/fragment_elements.csv",
+      "bytes": 1546,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\fragment_elements.csv",
+      "sha256": "61298f67ae8245a22edcd26c86c226fbaebb07adef6c7c0137adfc63e774edee",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/neutral_loss_table_v25.csv",
+      "bytes": 1552,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\neutral_loss_table_v25.csv",
+      "sha256": "4584169d14b734c746c8feffe4204ce2a42d28911509a19c810a6172ef4dc3fe",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/METHOD_CREDITS.json",
+      "bytes": 1562,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\METHOD_CREDITS.json",
+      "sha256": "ec4bbbe40038d02667de9a82d6d8aa687234152a7a1c0339810403b815146824",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/FRAGMENT_METHOD.json",
+      "bytes": 1574,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\FRAGMENT_METHOD.json",
+      "sha256": "36496fa99211603505235a7e611f375bd2a216de2fca40c0e9debdadfb8b5411",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/element_comparison_v25.csv",
+      "bytes": 1593,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\element_comparison_v25.csv",
+      "sha256": "7d2c2d7e6196bff5c970d2b7b13b484c36699862bed6c922d6c2e7641c3d3089",
+      "state": "present"
+    },
+    {
+      "name": "casmi_spectrum_model_v1/model.py",
+      "bytes": 1577,
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\model.py",
+      "sha256": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/MEASUREMENT_SUMMARY.json",
+      "bytes": 1616,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\MEASUREMENT_SUMMARY.json",
+      "sha256": "0e2f7a66710abc690cd8067c3517c7906b76c092a2c36521688c6511b1f0283a",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/tier_elements.csv",
+      "bytes": 1624,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\tier_elements.csv",
+      "sha256": "ca42830e481fd04bf1a693eca6473489de21148e9603fadb64d308b800bee717",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/rule_true_decoy_retention.csv",
+      "bytes": 1635,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\rule_true_decoy_retention.csv",
+      "sha256": "c1f62808af2620094aa40ae47d069ea5fdd8f0e42ceb58ea91d6cdc334b4a087",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/common/fingerprint.py",
+      "bytes": 1649,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\common\\fingerprint.py",
+      "sha256": "d3032ecff1a43472af33ce1ea307223941b014290b7507c44e9ee028f5d764d3",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/common/fingerprint.py",
+      "bytes": 1649,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\common\\fingerprint.py",
+      "sha256": "d3032ecff1a43472af33ce1ea307223941b014290b7507c44e9ee028f5d764d3",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/neutral_loss_table_v25.md",
+      "bytes": 1664,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\neutral_loss_table_v25.md",
+      "sha256": "a0625939ff0b0c9f7aa9dde799c18ed373f476a41585672a085b800cd5197bc7",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/shim/dgl/function.py",
+      "bytes": 1803,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\shim\\dgl\\function.py",
+      "sha256": "4dd78301a49129085e3234ff902999c7921979a5e09e5415a3aaf3a0aa9d27ff",
+      "state": "present"
+    },
+    {
+      "name": "SOURCE_CHECK_20261019.md",
+      "bytes": 1779,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\SOURCE_CHECK_20261019.md",
+      "sha256": "3ed13ceef9616c1cd9b0e6b57667de0345431cfc9717dcbd5db26277eb4fcc7f",
+      "state": "present"
+    },
+    {
+      "name": "prior_replay.json",
+      "bytes": 1685,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\prior_replay.json",
+      "sha256": "445324f6111fd50dffd3b4f17e632946a31b5936d4a55bb4cfbf27a22b0dda20",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/shim/dgl/function.py",
+      "bytes": 1803,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\shim\\dgl\\function.py",
+      "sha256": "4dd78301a49129085e3234ff902999c7921979a5e09e5415a3aaf3a0aa9d27ff",
+      "state": "present"
+    },
+    {
+      "name": "DIFFICULTY_METHOD.json",
+      "bytes": 1848,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\DIFFICULTY_METHOD.json",
+      "sha256": "25e531e821b9721366640146add4d020a5c5d6c8afab5081d21b5b491b3e4737",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-simulated-ranker-rows/README.md",
+      "bytes": 1879,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-simulated-ranker-rows\\README.md",
+      "sha256": "89757d07af932c35e4d73e505bfc4a0e81655d04a5722903e879b026563336b4",
+      "state": "present"
+    },
+    {
+      "name": "sugar_and_acyl_units/unit_definitions.json",
+      "bytes": 1871,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\sugar_and_acyl_units\\unit_definitions.json",
+      "sha256": "53b2940e73019e9d866ea15bc2282cc8453333ee826bded03034eae11166cc66",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/graph_candidates.json",
+      "bytes": 1927,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\graph_candidates.json",
+      "sha256": "367bbbf06c6f7413d35608564fc759a16f5aa7c3828b65648d1c8c52abc591fa",
+      "state": "present"
+    },
+    {
+      "name": "MANIFEST_20261020.json",
+      "bytes": 1953,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\MANIFEST_20261020.json",
+      "sha256": "97b89178b630d7ce6449a1836c342c3963034140a154655bf1d14716857fb00f",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/shim/dgl/nn/__init__.py",
+      "bytes": 1958,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\shim\\dgl\\nn\\__init__.py",
+      "sha256": "cd78a6aaee83a58cadb14a9a41f8c8e92a07c3c2bba52f6a83b4eb8ac4fd62a2",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/shim/dgl/nn/__init__.py",
+      "bytes": 1958,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\shim\\dgl\\nn\\__init__.py",
+      "sha256": "cd78a6aaee83a58cadb14a9a41f8c8e92a07c3c2bba52f6a83b4eb8ac4fd62a2",
+      "state": "present"
+    },
+    {
+      "name": "SOURCE-LICENSES.md",
+      "bytes": 1962,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\SOURCE-LICENSES.md",
+      "sha256": "0343e31e5a9e064b524491bfe02a5f0f127ad9643a049882cd7e74bdd7014b94",
+      "state": "present"
+    },
+    {
+      "name": "results_fingerprint_seen_unseen.json",
+      "bytes": 1989,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\results_fingerprint_seen_unseen.json",
+      "sha256": "47a8c1f664417606df7ed791a45e78dc99c715535201ff6fc540c02bdd24cfd3",
+      "state": "present"
+    },
+    {
+      "name": "summarize_panel_fpnet.py",
+      "bytes": 2015,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\summarize_panel_fpnet.py",
+      "sha256": "61e7a8ec23313ec0bc460ebbeb9d25adcf6261172609a5aeeff3ea42018007b1",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/PROVENANCE.json",
+      "bytes": 2137,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\PROVENANCE.json",
+      "sha256": "8cace7fe456b5a4d4dff55613ff0301744b1e74ebdcfe507e0df842f6b1eff92",
+      "state": "present"
+    },
+    {
+      "name": "VALIDATION_20261019.json",
+      "bytes": 2174,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\VALIDATION_20261019.json",
+      "sha256": "92f7ffe9f855ee601b13c82f93d568f9fa56f1fe188b1ac3f9edc87bc5e61b77",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-spec2mol/held_out_sids.npy",
+      "bytes": 2248,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-spec2mol\\held_out_sids.npy",
+      "sha256": "dc8dd384ebdfcc2c301d7ac02b3a8f2306d21a3eea96f02f75bfcd239d85dc30",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-spec2mol-r/TRAINING.md",
+      "bytes": 2255,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-spec2mol-r\\TRAINING.md",
+      "sha256": "c90b1b069c0b4d8eeec0c58a4a426e7f42bf375443cff365e2717c37fc59a79a",
+      "state": "present"
+    },
+    {
+      "name": "MANIFEST_20261019_2.json",
+      "bytes": 2355,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\MANIFEST_20261019_2.json",
+      "sha256": "6405d2ba96651feafdfae76ea03447e8f5f46d15f404c368e8360bbb01c2cf2e",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v3-models/code/casmi/pool.py",
+      "bytes": 2370,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v3-models\\code\\casmi\\pool.py",
+      "sha256": "279444f6c03834adbbfc0fad321e24187585d7cd5afdc363eff083dc263a0286",
+      "state": "present"
+    },
+    {
+      "name": "casmi_spectrum_model_v1/features.py",
+      "bytes": 2356,
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\features.py",
+      "sha256": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/casmi/pool.py",
+      "bytes": 2370,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\casmi\\pool.py",
+      "sha256": "279444f6c03834adbbfc0fad321e24187585d7cd5afdc363eff083dc263a0286",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/annotation_by_energy.csv",
+      "bytes": 2370,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\annotation_by_energy.csv",
+      "sha256": "ee25d3328ef2de328bd23370d95742b98e4221d89998c83d1e074d38749a88be",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/README.md",
+      "bytes": 2423,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\README.md",
+      "sha256": "430b17c774e84f76204aa83b2672d39d31de9f1479eff8a2a3663bcc8ce000ac",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/graphormer/multihead_attention.py",
+      "bytes": 2404,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\graphormer\\multihead_attention.py",
+      "sha256": "f11b79e3e4f8147cbbe97638e27b7046dfb8c2ed714b35409925f9bb4c5f0815",
+      "state": "present"
+    },
+    {
+      "name": "casmi-chebi-lmsd-structures/ATTRIBUTION.md",
+      "bytes": 2428,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi-chebi-lmsd-structures\\ATTRIBUTION.md",
+      "sha256": "fb49f6a959f562b7edb50a9103eccbbdf55a2c38327f09b989a369311fd280d7",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/element_groups.csv",
+      "bytes": 2433,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\element_groups.csv",
+      "sha256": "ad14011008ca3081e8f5dd7282458b5ded70509e4ef5fba706a1dcfff6f35516",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-spec2mol/spec2mol_model.py",
+      "bytes": 2528,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-spec2mol\\spec2mol_model.py",
+      "sha256": "c2bfc970392ec862f684d2fc2e0d2f77a80863cc87b40ef3f442d0218ff5e1e4",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/frequent_precursor_losses.csv",
+      "bytes": 2609,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\frequent_precursor_losses.csv",
+      "sha256": "21dcea8fc99930a10aa1f65029b9a8f3bd182940433400e56a07a0e7a5154c27",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/common/splitter.py",
+      "bytes": 2676,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\common\\splitter.py",
+      "sha256": "47ea4c05697ddaa8bafe777c58ebb7ff0d9de762a5ee8345b6ec38cf9496827c",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/common/splitter.py",
+      "bytes": 2676,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\common\\splitter.py",
+      "sha256": "47ea4c05697ddaa8bafe777c58ebb7ff0d9de762a5ee8345b6ec38cf9496827c",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/casmi/structs.py",
+      "bytes": 2791,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\casmi\\structs.py",
+      "sha256": "2c70df89e8f96b3e716651fe8815d0a05af3ad26e2b448e552ea53c26ede334a",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v3-models/code/casmi/structs.py",
+      "bytes": 2791,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v3-models\\code\\casmi\\structs.py",
+      "sha256": "2c70df89e8f96b3e716651fe8815d0a05af3ad26e2b448e552ea53c26ede334a",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-spec2mol-r/spec2mol_r_model.py",
+      "bytes": 2707,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-spec2mol-r\\spec2mol_r_model.py",
+      "sha256": "a688a23ce0533508cb08e103a29d932ff6597ae4fc20c46d9309e2a3f63ed372",
+      "state": "present"
+    },
+    {
+      "name": "VALIDATION_20261019.json",
+      "bytes": 2791,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\VALIDATION_20261019.json",
+      "sha256": "305dc2fb04d445af65e7f0ea6ba8c4f52de7bf6b9a17de28c117c22af05350bb",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/casmi/graphs.py",
+      "bytes": 2850,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\casmi\\graphs.py",
+      "sha256": "8dcbe16bbf3b34b7a08866234eb9abf2de713d21c93c653e7156e94e9debcd55",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v3-models/code/casmi/graphs.py",
+      "bytes": 2850,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v3-models\\code\\casmi\\graphs.py",
+      "sha256": "8dcbe16bbf3b34b7a08866234eb9abf2de713d21c93c653e7156e94e9debcd55",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/electron_parity_by_energy.csv",
+      "bytes": 2866,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\electron_parity_by_energy.csv",
+      "sha256": "63ab859a29cd4e59cc8e5416837c89fcc9b5672cb7133370c1834a27e90654ff",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/formula_coverage.csv",
+      "bytes": 2993,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\formula_coverage.csv",
+      "sha256": "0f8d09ded49cd49f59fbc8a15eb4ded78f8a216d5201e397acdddf38c2a13f66",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/shim/torch_scatter/__init__.py",
+      "bytes": 3120,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\shim\\torch_scatter\\__init__.py",
+      "sha256": "d8f0b42adc06bb499514f68378c826900cbcb2e9764a4ea403bc160497c842a6",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/shim/torch_scatter/__init__.py",
+      "bytes": 3120,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\shim\\torch_scatter\\__init__.py",
+      "sha256": "d8f0b42adc06bb499514f68378c826900cbcb2e9764a4ea403bc160497c842a6",
+      "state": "present"
+    },
+    {
+      "name": "MANIFEST_20261019.json",
+      "bytes": 3204,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\MANIFEST_20261019.json",
+      "sha256": "0af26ae26df15b2963b5b682c3cede7b3aeb030c3e20290deb0bd9f8f9c69f02",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-spec2mol/history.json",
+      "bytes": 3269,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-spec2mol\\history.json",
+      "sha256": "4dfb1931601ea8a81f87574395abcc8da102c73bb7e79b6a3a774d2758e38398",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/structure_properties.csv",
+      "bytes": 3339,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\structure_properties.csv",
+      "sha256": "9273676235b07884d783bf66439831a461fd27d602d683e7cd0d895d620da661",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/common/denoising_utils.py",
+      "bytes": 3478,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\common\\denoising_utils.py",
+      "sha256": "34f9658456896a4adcd4302c783d7253727fe527454bec2b7c91f224a4cc0051",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/common/denoising_utils.py",
+      "bytes": 3478,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\common\\denoising_utils.py",
+      "sha256": "34f9658456896a4adcd4302c783d7253727fe527454bec2b7c91f224a4cc0051",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/fams/model_views.py",
+      "bytes": 3492,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\fams\\model_views.py",
+      "sha256": "aa964b12265bb70144d2d653b600a7f1a4972829032274bab76ea9e39afd7e79",
+      "state": "present"
+    },
+    {
+      "name": "results_merge_rules.json",
+      "bytes": 3494,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\results_merge_rules.json",
+      "sha256": "49f7e2db24de942d43e5f19141539667e1ae00396c7420dab715db70ffea0af9",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-spec2mol/TRAINING.md",
+      "bytes": 3536,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-spec2mol\\TRAINING.md",
+      "sha256": "a3a6d86205670948e8ea2518bafa5b8af6e4b160a51dc3b68b5768ddffaae097",
+      "state": "present"
+    },
+    {
+      "name": "np_poolfz.py",
+      "bytes": 3554,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\np_poolfz.py",
+      "sha256": "8507129d86e2836921d25bf899991340d2441b331c75d39fb519ce7b0daad3fd",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/shim/LinSATNet/__init__.py",
+      "bytes": 3656,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\shim\\LinSATNet\\__init__.py",
+      "sha256": "a0ffdf64f610ad6a86ef560d3ff62f06a9c2b53ed13473d85eae87953f39e6af",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/sampling.json",
+      "bytes": 3605,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\sampling.json",
+      "sha256": "0fc132d4435f0418396834da5aadaf7a50923af5db1b18a47684991acd3f3689",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/graphormer/graphormer_graph_encoder_layer.py",
+      "bytes": 3593,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\graphormer\\graphormer_graph_encoder_layer.py",
+      "sha256": "d98ba908616e231187afe2409409c06269e5d2017bd12c0d85c6ef093e8272f7",
+      "state": "present"
+    },
+    {
+      "name": "DESCRIPTOR_METHOD.json",
+      "bytes": 3694,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\DESCRIPTOR_METHOD.json",
+      "sha256": "46456e341e87785ae96d3d13aa835a864bcb67a72611a4454cfbda63706b59b1",
+      "state": "present"
+    },
+    {
+      "name": "fpnet_window_eval.py",
+      "bytes": 3791,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\fpnet_window_eval.py",
+      "sha256": "3f4b99080516bd19688b6517ece4db4acc8052367eb4a628c81ef2569dc07005",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/README.md",
+      "bytes": 3879,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\README.md",
+      "sha256": "1a36864cb19161b84742f9cb8f323f795b5b3e8e1d739474b7b205acd2d8601f",
+      "state": "present"
+    },
+    {
+      "name": "CHANGED_FILES.json",
+      "bytes": 3803,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\CHANGED_FILES.json",
+      "sha256": "f5ac6afddeb1b45c4a6783bb840de093a4b251b0182876d1bf7fbeb7690eaa34",
+      "state": "present"
+    },
+    {
+      "name": "sugar_and_acyl_units/README.md",
+      "bytes": 3906,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\sugar_and_acyl_units\\README.md",
+      "sha256": "dc2884434699db41f91d04321e2208a080729208cf32ae3a4b3dca5deeac930d",
+      "state": "present"
+    },
+    {
+      "name": "external_reference_spectra/INTEGRATION.json",
+      "bytes": 4032,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\external_reference_spectra\\INTEGRATION.json",
+      "sha256": "8035b250d2bd1a3af576fb9e5abcbcd45a5a79f016f7d1cc9af1dfb026d05494",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/casmi/ranker.py",
+      "bytes": 4189,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\casmi\\ranker.py",
+      "sha256": "a7ee491b5a3d3decb3887afe3931adb10c11964468fb204e8c27b42757424fe4",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v3-models/code/casmi/ranker.py",
+      "bytes": 4189,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v3-models\\code\\casmi\\ranker.py",
+      "sha256": "a7ee491b5a3d3decb3887afe3931adb10c11964468fb204e8c27b42757424fe4",
+      "state": "present"
+    },
+    {
+      "name": "lotus_replay_identity_additions.parquet",
+      "bytes": 4204,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\lotus_replay_identity_additions.parquet",
+      "sha256": "0e07c9cf9d96ff865571b7083a2507eb785321c90c3672f86a530934a755d82f",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/hooks_v1.py",
+      "bytes": 4338,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\hooks_v1.py",
+      "sha256": "d0cb1e37566a54bbb3082ccd29579ac47fc2526c5d64ef073dc0e628ee5657e8",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-identity-disjoint-validation-folds/split_categories.csv",
+      "bytes": 4223,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\casmi26-identity-disjoint-validation-folds\\split_categories.csv",
+      "sha256": "16d801c4aa3ff7d3a217df37bfebfcb29334aee57310dfa14f471351f1bbbaf0",
+      "state": "present"
+    },
+    {
+      "name": "external_reference_spectra/LICENCES.md",
+      "bytes": 4467,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\external_reference_spectra\\LICENCES.md",
+      "sha256": "10fa8e1c4c11bbe823c05c9b2aefff9892fe99a1737e2bccf3d46cc3fb44fbfb",
+      "state": "present"
+    },
+    {
+      "name": "replay_public_priors.py",
+      "bytes": 4283,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\replay_public_priors.py",
+      "sha256": "a6d1667f55b3778a5b89d2e1cc5b381b34637d783be01a79f00e6fdaa527f30c",
+      "state": "present"
+    },
+    {
+      "name": "gate_eval.py",
+      "bytes": 4731,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\gate_eval.py",
+      "sha256": "6981fcc607f3a37f312c7444f318cde3d9c24fd0dc1d44ede4f2646d388bb44f",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v3-models/code/casmi/build.py",
+      "bytes": 4979,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v3-models\\code\\casmi\\build.py",
+      "sha256": "86776c14e237dc64dbf965d9bc200cc670dc7226bf946938380729d7e80c56f8",
+      "state": "present"
+    },
+    {
+      "name": "CHANGED_FILES.json",
+      "bytes": 4528,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\CHANGED_FILES.json",
+      "sha256": "daa1d1952acee83d76195bcf9d89aea98952576a69ef9e87d53fb06988a8dcc5",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/casmi/build.py",
+      "bytes": 4979,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\casmi\\build.py",
+      "sha256": "86776c14e237dc64dbf965d9bc200cc670dc7226bf946938380729d7e80c56f8",
+      "state": "present"
+    },
+    {
+      "name": "ATTRIBUTION.md",
+      "bytes": 5124,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\ATTRIBUTION.md",
+      "sha256": "6918a04bda1d78fee311ac2acf29b1a3736321e74b68c44d05bcb98f7062b728",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-identity-disjoint-validation-folds/README.md",
+      "bytes": 5396,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\casmi26-identity-disjoint-validation-folds\\README.md",
+      "sha256": "d551ed2066812b1c00188f06a44148dd5fdcbe46cd0420b3264a49044ad6dee3",
+      "state": "present"
+    },
+    {
+      "name": "sugar_and_acyl_units/sugarloss_units.py",
+      "bytes": 5270,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\sugar_and_acyl_units\\sugarloss_units.py",
+      "sha256": "c0d3b30949e7d3b9641043dcc654a0d3a3b9780aec28252d1dc69f574b235102",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/adduct_census.csv",
+      "bytes": 5256,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\adduct_census.csv",
+      "sha256": "b9ac29b3554ea7bb68fe7cd412fe832a1876ab32d85716ec10eb505cae5c8850",
+      "state": "present"
+    },
+    {
+      "name": "FILE_DESCRIPTIONS.json",
+      "bytes": 5532,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\FILE_DESCRIPTIONS.json",
+      "sha256": "a3e854d9af217f8dbe1e27be940adfd4765bd42240df5268ac055c9ff29f2141",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-spec2mol/prep.py",
+      "bytes": 5583,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-spec2mol\\prep.py",
+      "sha256": "e0734797a108817a9c3880f81750430fb8e891cbbaf0d6acb8214797659e216f",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/chemfeat.py",
+      "bytes": 6158,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\chemfeat.py",
+      "sha256": "8fedf317042f989b1569ca65c0d6d87a0387f9fc9934504420a95d8d973f8746",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/graphormer/graphormer_layers.py",
+      "bytes": 5937,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\graphormer\\graphormer_layers.py",
+      "sha256": "26c8d693bebc8904a975aeb11cf343b9c7a0fd9a120f828ed597bd8180bc606d",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/MANIFEST.json",
+      "bytes": 6163,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\MANIFEST.json",
+      "sha256": "78ab2dff112b1e9a043a8025bf8b57839be3f4b94f2e87fc61becbef4c804f8b",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/MANIFEST.json",
+      "bytes": 6286,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\MANIFEST.json",
+      "sha256": "53bf3f8724cb0d8ddbb104254deda88b0a90502e3ab031aa42cbbf010b38634d",
+      "state": "present"
+    },
+    {
+      "name": "merge_eval.py",
+      "bytes": 6323,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\merge_eval.py",
+      "sha256": "84987a423f675b8e5bfa6fc81dfc01cb17a3b76145f5f8c7581bf4f4851979c6",
+      "state": "present"
+    },
+    {
+      "name": "results_pubchem_channel.json",
+      "bytes": 6358,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\results_pubchem_channel.json",
+      "sha256": "f621c777c5f7547fddb923b7e8ea266283454241d46d165e06a4cd432dc89dc1",
+      "state": "present"
+    },
+    {
+      "name": "GROWTH_MANIFEST.json",
+      "bytes": 6352,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\GROWTH_MANIFEST.json",
+      "sha256": "cae173a5ab7e21c4d86a57579ce1bd106f96502a11fbbac8cdf1205a07e5e73c",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-spec2mol/train.py",
+      "bytes": 6724,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-spec2mol\\train.py",
+      "sha256": "83f0be770170d3f7ceaf5b32a9221461c34ba05ec5636d6640d420802bac5283",
+      "state": "present"
+    },
+    {
+      "name": "README.md",
+      "bytes": 6597,
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "version": 5,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-fold-safe-fpnet\\v5\\README.md",
+      "sha256": "8767f5c201c499cbac9b20630c12ccfbb877fb9a1665c3338cfb0b3358eb320c",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v3-models/code/casmi/derive.py",
+      "bytes": 6929,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v3-models\\code\\casmi\\derive.py",
+      "sha256": "7c1e8c3afb4c17a3ae58fbc6c36fd4cfc552da97b9129c9b46cca3cdc6ee4892",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/fragcaps.py",
+      "bytes": 6766,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\fragcaps.py",
+      "sha256": "ba6280f9a46ca28cd72b8a7a0324724a73fd0c67a13acdd82a8193ac30d17a83",
+      "state": "present"
+    },
+    {
+      "name": "main_tables.py",
+      "bytes": 6758,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\main_tables.py",
+      "sha256": "5fe5a58df457499b4a858e5a4b8e286af98b61e0ef7b3c4efe139bfeef6b0423",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/graphormer/graphormer_graph_encoder.py",
+      "bytes": 6925,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\graphormer\\graphormer_graph_encoder.py",
+      "sha256": "074a59296c0a2903fd5018c27705ea1da2393f09c84ba30fb32acbf3827729ea",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/casmi/derive.py",
+      "bytes": 6929,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\casmi\\derive.py",
+      "sha256": "7c1e8c3afb4c17a3ae58fbc6c36fd4cfc552da97b9129c9b46cca3cdc6ee4892",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-spec2mol-r/train_r.py",
+      "bytes": 6961,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-spec2mol-r\\train_r.py",
+      "sha256": "938a4352ec63a3a106a4fc98b30d2e865ef20e7731e46d0e1753714d1fe15db0",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v3-models/code/casmi/xenc.py",
+      "bytes": 6938,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v3-models\\code\\casmi\\xenc.py",
+      "sha256": "89fbb470e6fc085f7363bf79e4517c06d43eed3c1df197b7f374b65dacdb7310",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/casmi/xenc.py",
+      "bytes": 6938,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\casmi\\xenc.py",
+      "sha256": "89fbb470e6fc085f7363bf79e4517c06d43eed3c1df197b7f374b65dacdb7310",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/gl_fuse.py",
+      "bytes": 7533,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\gl_fuse.py",
+      "sha256": "ea390f5f29705c015f39c509cc2b86e6a360d0bb90db61c87c507068f38ae58e",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-identity-disjoint-validation-folds/analogue_domain_summary.parquet",
+      "bytes": 7732,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\casmi26-identity-disjoint-validation-folds\\analogue_domain_summary.parquet",
+      "sha256": "c02d3b84b030217ad14854465eaac60f887a28cb21998af4f4f62fc204915952",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v3-models/code/casmi/library.py",
+      "bytes": 7577,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v3-models\\code\\casmi\\library.py",
+      "sha256": "21ee24dee9f39123da518fb17802a394e6dc46b147d5dbdf276210b60185f831",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/casmi/library.py",
+      "bytes": 7577,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\casmi\\library.py",
+      "sha256": "21ee24dee9f39123da518fb17802a394e6dc46b147d5dbdf276210b60185f831",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/iceberg/joint_model.py",
+      "bytes": 7968,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\iceberg\\joint_model.py",
+      "sha256": "d1cd923d0729e6a0b141f97926e4ed8d4172b01ee4b0212781f3835f2f558f74",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/neutral_losses.csv",
+      "bytes": 7979,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\neutral_losses.csv",
+      "sha256": "c77ef06f3e54deb0e1d9797610c1a3b14fbfe4676ea729aebe03713d65078d21",
+      "state": "present"
+    },
+    {
+      "name": "panel_truth_formula.parquet",
+      "bytes": 7962,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\panel_truth_formula.parquet",
+      "sha256": "814f7acd3dd0b13ca52d0f9c88959c618091779ccd2296c075385903cd33ac7c",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-identity-disjoint-validation-folds/build_folds.py",
+      "bytes": 8031,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\casmi26-identity-disjoint-validation-folds\\build_folds.py",
+      "sha256": "b837474eccf3922c8517c00bce0166edd34e53115e43298696381b52e05e38e4",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/elements.csv",
+      "bytes": 8120,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\elements.csv",
+      "sha256": "65021292fea55c7cee77161e70812a5564947f3d3011be16fe2da2ac1fd2fcb4",
+      "state": "present"
+    },
+    {
+      "name": "main_eval.py",
+      "bytes": 8183,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\main_eval.py",
+      "sha256": "c964f41bd119714c42457e55c1413e0d047bb74f6d1886a6ac128d05eae5f833",
+      "state": "present"
+    },
+    {
+      "name": "np_tables.py",
+      "bytes": 8155,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\np_tables.py",
+      "sha256": "ef73cac738ebd5dce839b16144e663edd5e27967e810d9d84c63585e26a9e736",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/fuse.py",
+      "bytes": 8349,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\fuse.py",
+      "sha256": "6d1bdf0c63ff8844d6994bb83cdadf07951ee40ed87ea5a2d870577c6fc76bb1",
+      "state": "present"
+    },
+    {
+      "name": "GROWTH_INPUTS.json",
+      "bytes": 8258,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\GROWTH_INPUTS.json",
+      "sha256": "64c88e0c6923b2b6f4ef742aae8cfc7c4d4fd1b3f2d6504687877f71ef207fbe",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/physical_rules.csv",
+      "bytes": 8482,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\physical_rules.csv",
+      "sha256": "d37ad50bb60add9d0d7375b0605c12a23e991ea609a04364945d5e7434a57091",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/v1engine.py",
+      "bytes": 8391,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\v1engine.py",
+      "sha256": "9074546910ba850a98bb95afe531669c62a26c15ab8b6bf9d6b6020c77ea0e8a",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/derive6.py",
+      "bytes": 8635,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\derive6.py",
+      "sha256": "0e4b436d6b978b2e2e1af8767d6b3c32a6b1fc0e4b64960d5eeeaa8885ddf68a",
+      "state": "present"
+    },
+    {
+      "name": "np_eval.py",
+      "bytes": 8643,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\np_eval.py",
+      "sha256": "0e6ef7e99425371ad2d0dbed7fac2678070332d6082efd9eba413a3ccb6232a2",
+      "state": "present"
+    },
+    {
+      "name": "README.md",
+      "bytes": 8808,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\README.md",
+      "sha256": "079418d44abee11eb9b71391cc9541934f84cbd0cadd624baf12d0eb711259ce",
+      "state": "present"
+    },
+    {
+      "name": "build_np.py",
+      "bytes": 8965,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\build_np.py",
+      "sha256": "56d9d7da8566d596c2a503bad4ab70878f9ef02f1b46e7f30a3cf2b733271ef7",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/MANIFEST.json",
+      "bytes": 9209,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\MANIFEST.json",
+      "sha256": "e64b960037769971e146a35932e29ed3f042de1716e4dbe281ebd84a7cfc3b6a",
+      "state": "present"
+    },
+    {
+      "name": "prior_rule_per_query.parquet",
+      "bytes": 9192,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\prior_rule_per_query.parquet",
+      "sha256": "fbbb18496a2e7874a03faa28ecec33b8ef8ab3bf5767f787dbcba6cd784ad7e4",
+      "state": "present"
+    },
+    {
+      "name": "README.md",
+      "bytes": 9323,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\README.md",
+      "sha256": "db3790cee6e5ba1afe228f6fc30b4ccfeb48c993b09fac673877ab498f6c6d12",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/iceberg/graph_mutate.py",
+      "bytes": 9359,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\iceberg\\graph_mutate.py",
+      "sha256": "06c343312d44eedc1498c5513b33bcf5b1bc950f05dcb87e18827a0a7a81c55d",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v3-models/code/casmi/traindata.py",
+      "bytes": 9425,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v3-models\\code\\casmi\\traindata.py",
+      "sha256": "cecb329d96362f11d16b40a26f1888f092610ff6202812408c13e2c293c6a2bc",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/casmi/traindata.py",
+      "bytes": 9425,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\casmi\\traindata.py",
+      "sha256": "cecb329d96362f11d16b40a26f1888f092610ff6202812408c13e2c293c6a2bc",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v3-models/code/casmi/fpnet.py",
+      "bytes": 9551,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v3-models\\code\\casmi\\fpnet.py",
+      "sha256": "0ea6e372d1f045a877d350234c2ccf5d93fdd98cb23bd4c22376bf7e99547608",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/casmi/fpnet.py",
+      "bytes": 9551,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\casmi\\fpnet.py",
+      "sha256": "0ea6e372d1f045a877d350234c2ccf5d93fdd98cb23bd4c22376bf7e99547608",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/shim/dgl/__init__.py",
+      "bytes": 10029,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\shim\\dgl\\__init__.py",
+      "sha256": "35dd2028bbb1fb14442d7a4cbbd9cb260c1063ab05dd556ddaf1f77aa2f3d2e2",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/shim/dgl/__init__.py",
+      "bytes": 10029,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\shim\\dgl\\__init__.py",
+      "sha256": "35dd2028bbb1fb14442d7a4cbbd9cb260c1063ab05dd556ddaf1f77aa2f3d2e2",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v3-models/code/casmi/spectra.py",
+      "bytes": 10057,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v3-models\\code\\casmi\\spectra.py",
+      "sha256": "e2481761cdfb2515e8a945751f85f6b9e885680a8e974d7ac35c78bbf279ae74",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/casmi/spectra.py",
+      "bytes": 10057,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\casmi\\spectra.py",
+      "sha256": "e2481761cdfb2515e8a945751f85f6b9e885680a8e974d7ac35c78bbf279ae74",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-identity-disjoint-validation-folds/split_summary.parquet",
+      "bytes": 10206,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\casmi26-identity-disjoint-validation-folds\\split_summary.parquet",
+      "sha256": "f03e9aa6c8cd34e83273b568ebaa84b9b48dcbeab2a5c7a35ca20c927e164090",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/nn_utils/mol_graph.py",
+      "bytes": 10573,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\nn_utils\\mol_graph.py",
+      "sha256": "62d11349b0c9d06335384b6fabfcddffaf78ece4c1d6f5c18ac426746d1e7d89",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/nn_utils/mol_graph.py",
+      "bytes": 10573,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\nn_utils\\mol_graph.py",
+      "sha256": "62d11349b0c9d06335384b6fabfcddffaf78ece4c1d6f5c18ac426746d1e7d89",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/nn_utils/form_embedder.py",
+      "bytes": 10681,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\nn_utils\\form_embedder.py",
+      "sha256": "30bb3670c8b21e01ebb3fb2548dac7f8e0cac589fd4cfccc51589ddf55c1ea4b",
+      "state": "present"
+    },
+    {
+      "name": "results_main_channel.json",
+      "bytes": 10781,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\results_main_channel.json",
+      "sha256": "22900fd5fa4b9307f3de66dd7ccf921da76d5882a2ea332778e131013678a53c",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/nn_utils/form_embedder.py",
+      "bytes": 10681,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\nn_utils\\form_embedder.py",
+      "sha256": "30bb3670c8b21e01ebb3fb2548dac7f8e0cac589fd4cfccc51589ddf55c1ea4b",
+      "state": "present"
+    },
+    {
+      "name": "README.md",
+      "bytes": 10938,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\README.md",
+      "sha256": "d229d3c54fa029c92f9980f2a5f97da6b40b9e55603845d31c4c5d8256a6313a",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v3-models/code/casmi/frag.py",
+      "bytes": 11172,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v3-models\\code\\casmi\\frag.py",
+      "sha256": "809f5582494cee4cf6dcace4b04699b8427e81022b78d42162cc0239a57773de",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/casmi/frag.py",
+      "bytes": 11172,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\casmi\\frag.py",
+      "sha256": "809f5582494cee4cf6dcace4b04699b8427e81022b78d42162cc0239a57773de",
+      "state": "present"
+    },
+    {
+      "name": "MANIFEST_20261019.json",
+      "bytes": 11268,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\MANIFEST_20261019.json",
+      "sha256": "ea45f9708875330def650404be1da5b89cf85e41b19d4b82609e84635e365503",
+      "state": "present"
+    },
+    {
+      "name": "growth_pc_np.npy",
+      "bytes": 11305,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\growth_pc_np.npy",
+      "sha256": "0247d671abeee3d605859f4f95b6d9876fca22539136039ece9c7f73c0ba6464",
+      "state": "present"
+    },
+    {
+      "name": "growth_pc_src_observed.npy",
+      "bytes": 11305,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\growth_pc_src_observed.npy",
+      "sha256": "befe16f61edd8b2d9bb0947026c01b52f01763b6641b0ba402d13dd44a0ca3f5",
+      "state": "present"
+    },
+    {
+      "name": "VALIDATION_20261020.json",
+      "bytes": 11387,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\VALIDATION_20261020.json",
+      "sha256": "62310f65b7ce0cdd56dd90a3affd8a3aabc300fa626d35ce43b2e914538f9ff2",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/physical_rules.json",
+      "bytes": 11565,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\physical_rules.json",
+      "sha256": "6ccc62e3cb47ea7435f4dbccbd5c90f39aed4f587822480886f2a86baa692ea2",
+      "state": "present"
+    },
+    {
+      "name": "sugar_and_acyl_units/selected_rules.json",
+      "bytes": 11846,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\sugar_and_acyl_units\\selected_rules.json",
+      "sha256": "145046d119d53fd17ac9b0267ed3e024283f4ee18160a09fce0d62cb664091f0",
+      "state": "present"
+    },
+    {
+      "name": "external_reference_spectra/DOWNLOADS.csv",
+      "bytes": 12279,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\external_reference_spectra\\DOWNLOADS.csv",
+      "sha256": "972d0f677c7e33658951ae812348528a6672506e75d60f56a0dbbbdc6f483ac8",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v3-models/code/casmi/chem.py",
+      "bytes": 12328,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v3-models\\code\\casmi\\chem.py",
+      "sha256": "99474f23d8a67040b0c0f8c70e73592a6f7f656f50103e350ca473451e2169f1",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/casmi/chem.py",
+      "bytes": 12328,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\casmi\\chem.py",
+      "sha256": "99474f23d8a67040b0c0f8c70e73592a6f7f656f50103e350ca473451e2169f1",
+      "state": "present"
+    },
+    {
+      "name": "external_reference_spectra/external_candidate_additions.parquet",
+      "bytes": 13047,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\external_reference_spectra\\external_candidate_additions.parquet",
+      "sha256": "8e8a88866e11f94ecc5fe2df5f8a9cbb1bc144e6c45387438124b2946947e376",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/example_spectra_v25.json",
+      "bytes": 12608,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\example_spectra_v25.json",
+      "sha256": "3148366acdc317420cb9d54d6a88572d2099d2a28081c81dcbf2e2892cae79c5",
+      "state": "present"
+    },
+    {
+      "name": "PANEL_REPLAY_PUBLIC.json",
+      "bytes": 13121,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\PANEL_REPLAY_PUBLIC.json",
+      "sha256": "0f85f66547c22fa66d521e9b5d98ef330b818300c82248096b804ce6f0298525",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/common/parallel_utils.py",
+      "bytes": 13635,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\common\\parallel_utils.py",
+      "sha256": "60dbeac1f6d2b52009b40329790d6ca05fdd28efb70a1c23586616d6c984c691",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/common/parallel_utils.py",
+      "bytes": 13635,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\common\\parallel_utils.py",
+      "sha256": "60dbeac1f6d2b52009b40329790d6ca05fdd28efb70a1c23586616d6c984c691",
+      "state": "present"
+    },
+    {
+      "name": "README.md",
+      "bytes": 14312,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\README.md",
+      "sha256": "cca1041f3264296339dadf4b897094aa70f2e4ee2f77003e295c460b715dd6f9",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/electron_parity_sensitivity.csv",
+      "bytes": 13901,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\electron_parity_sensitivity.csv",
+      "sha256": "471d523efdfdd73716e7a4e01b4485d48ece3ff55ea0dbf047d12401db0c468d",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/casmi/fpnet6.py",
+      "bytes": 14661,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\casmi\\fpnet6.py",
+      "sha256": "32542bb0039b2d24d9911030559f13221e630cef7df0d10c7d65f54424da2633",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/unusual_training_structures.csv",
+      "bytes": 14953,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\unusual_training_structures.csv",
+      "sha256": "8c3d0320604cf512dcc2a9edc00224ff1d02436bd917c338b210b44f221bc2f3",
+      "state": "present"
+    },
+    {
+      "name": "LOTUS_REFRESH.json",
+      "bytes": 14743,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\LOTUS_REFRESH.json",
+      "sha256": "61cfde26dc65fcc96cf54a493c06840b05f5d3765c76bc87bf9731c18e321bce",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/tier_element_count_distribution.csv",
+      "bytes": 15789,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\tier_element_count_distribution.csv",
+      "sha256": "de05378ec050279aa9e2147ec23c4a2675f386e961125fabdcb95509edfd89d9",
+      "state": "present"
+    },
+    {
+      "name": "LOTUS_REFRESH.json",
+      "bytes": 16926,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\LOTUS_REFRESH.json",
+      "sha256": "e601a2a46d15a5a3be3059a34d740a31a7c9872cf21b7c2d8bc757da9faa4fbf",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-identity-disjoint-validation-folds/TECHNICAL_NOTES.md",
+      "bytes": 16681,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\casmi26-identity-disjoint-validation-folds\\TECHNICAL_NOTES.md",
+      "sha256": "2c7483a9cc2089113897d3ff25f41bd90783f5198be6cc890b6dea5065da93cc",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/bonds.csv",
+      "bytes": 17201,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\bonds.csv",
+      "sha256": "7f6184f83778e11f6c69d01d5301ac9b122f477050dbadedf8449fb7cb1a0e39",
+      "state": "present"
+    },
+    {
+      "name": "sugar_and_acyl_units/structure_validation.json",
+      "bytes": 18217,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\sugar_and_acyl_units\\structure_validation.json",
+      "sha256": "e00c8bdb7658c62f96af8817264a3997739a26f45d880648736ecdbdd5061fc8",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-spec2mol/held_out_molecules.csv",
+      "bytes": 18738,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-spec2mol\\held_out_molecules.csv",
+      "sha256": "c846c7e58ac65201dc57ef1ea4bd2945f1240bcf1a761ae9d807df255b8f5d61",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/nn_utils/dgl_graph_ops.py",
+      "bytes": 18955,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\nn_utils\\dgl_graph_ops.py",
+      "sha256": "d65b239032eae4ec8cb2d0b9850fd773542722ff953c96827ab59000d13eba9f",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/ctxlib.py",
+      "bytes": 20737,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\ctxlib.py",
+      "sha256": "c050e4b0ac937a7d65fa14ac55c6904e2232cb077830a20b653ac6df22922943",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/nn_utils/dgl_graph_ops.py",
+      "bytes": 18955,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\nn_utils\\dgl_graph_ops.py",
+      "sha256": "d65b239032eae4ec8cb2d0b9850fd773542722ff953c96827ab59000d13eba9f",
+      "state": "present"
+    },
+    {
+      "name": "growth_pc_lpmid.npy",
+      "bytes": 22482,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\growth_pc_lpmid.npy",
+      "sha256": "6087f448d23c830d71b507f0d37d2fa03e8a7edb439fc4f11cac2c6dc296272f",
+      "state": "present"
+    },
+    {
+      "name": "growth_pc_src_mask.npy",
+      "bytes": 22482,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\growth_pc_src_mask.npy",
+      "sha256": "9723906a530f498a678018ae5ea4c616690aaf6f435f2bbd9f588594b3676ea8",
+      "state": "present"
+    },
+    {
+      "name": "growth_pc_lsid.npy",
+      "bytes": 22482,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\growth_pc_lsid.npy",
+      "sha256": "b61869798298ec8bc909263a58f5025830f599ec8488d16ef4f94b5625a40e6b",
+      "state": "present"
+    },
+    {
+      "name": "growth_pc_lsynonyms.npy",
+      "bytes": 22482,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\growth_pc_lsynonyms.npy",
+      "sha256": "82104705a06d5296d8fb14a6daa786e47fe193359b0fc881d7f32d439f0105da",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/magma/run_magma.py",
+      "bytes": 23083,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\magma\\run_magma.py",
+      "sha256": "b55f7b3914835e53641ca3e0c337e7b1b5acc61d914268fd26d61263d0f56b6d",
+      "state": "present"
+    },
+    {
+      "name": "panel.parquet",
+      "bytes": 23269,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\panel.parquet",
+      "sha256": "93469d9bd7e51f9e0c2e891f59844a1ffc56c0921035110495b598c9b4e52eb3",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/nn_utils/dgl_modules.py",
+      "bytes": 23408,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\nn_utils\\dgl_modules.py",
+      "sha256": "b98dfc02dad06a67e2c9ee61670ebc0c96a8b2a62859335888f8189d5677e2e4",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/nn_utils/dgl_modules.py",
+      "bytes": 23408,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\nn_utils\\dgl_modules.py",
+      "sha256": "b98dfc02dad06a67e2c9ee61670ebc0c96a8b2a62859335888f8189d5677e2e4",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/common/chem_utils.py",
+      "bytes": 26034,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\common\\chem_utils.py",
+      "sha256": "c9842ef76eb831394c53fdd5050d87842edaebd46427a722d43983286495f96e",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/common/chem_utils.py",
+      "bytes": 26034,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\common\\chem_utils.py",
+      "sha256": "c9842ef76eb831394c53fdd5050d87842edaebd46427a722d43983286495f96e",
+      "state": "present"
+    },
+    {
+      "name": "FILE_DESCRIPTIONS.json",
+      "bytes": 25770,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\FILE_DESCRIPTIONS.json",
+      "sha256": "6a5f1a99556752ce9107ef6c3e4209a56555683c4cb5bed2bd9b4b66226dde29",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v3-models/code/casmi/engine.py",
+      "bytes": 26449,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v3-models\\code\\casmi\\engine.py",
+      "sha256": "d914bf9d5eb56cfff434b5d53a4d55881b97697aa834a627d9932a4f8c650d27",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/casmi/engine.py",
+      "bytes": 26449,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\casmi\\engine.py",
+      "sha256": "d914bf9d5eb56cfff434b5d53a4d55881b97697aa834a627d9932a4f8c650d27",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/magma/fragmentation.py",
+      "bytes": 28327,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\magma\\fragmentation.py",
+      "sha256": "5fc6ac347a09ea8486154ce827eea0ea810a0c7f6a277279ffd4c5abd1e93744",
+      "state": "present"
+    },
+    {
+      "name": "external_reference_spectra/SOURCE_MANIFESTS.json",
+      "bytes": 27651,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\external_reference_spectra\\SOURCE_MANIFESTS.json",
+      "sha256": "64005bddbe99a5219ffdb8b6c39079ef1352f719e02ddf754a10a928b78396b2",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/magma/fragmentation.py",
+      "bytes": 28327,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\magma\\fragmentation.py",
+      "sha256": "5fc6ac347a09ea8486154ce827eea0ea810a0c7f6a277279ffd4c5abd1e93744",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/fams/derivation.py",
+      "bytes": 29276,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\fams\\derivation.py",
+      "sha256": "eb9aa474bef8e1d067cadccec0101042878ebb5aedf50d1168dc9dfd884dceae",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/element_count_distribution.csv",
+      "bytes": 28774,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\element_count_distribution.csv",
+      "sha256": "ec33ee868c160ea18456d63c6383287dca49dcc739e69810982839fe43ad5561",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/fams/frag2.py",
+      "bytes": 29368,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\fams\\frag2.py",
+      "sha256": "bf17577ef673f8ab0121caa1c9335dc1e827e2f1eb44b3bbde0b0c0cbe858e6c",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/fams/analog_struct.py",
+      "bytes": 30583,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\fams\\analog_struct.py",
+      "sha256": "2311219220c65bc83c2cd447a8cdb07db27a984124f6c88d687494556e7337b6",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/nn_utils/transformer_layer.py",
+      "bytes": 30192,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\nn_utils\\transformer_layer.py",
+      "sha256": "8884d91afd479bef9b05d4a4527953ade8fd9353332ca3c6eddb8e1b048d2a92",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/nn_utils/transformer_layer.py",
+      "bytes": 30192,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\nn_utils\\transformer_layer.py",
+      "sha256": "8884d91afd479bef9b05d4a4527953ade8fd9353332ca3c6eddb8e1b048d2a92",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/FILE_DESCRIPTIONS.json",
+      "bytes": 31479,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\FILE_DESCRIPTIONS.json",
+      "sha256": "cf86424461c536fcd2fbe8e0654f6c0fd84b90aaec91a26ce2af6a4e514f854d",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/ice_runner.py",
+      "bytes": 31551,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\ice_runner.py",
+      "sha256": "dc0d5d1e14053e2e7d9088817c620d6615372abc3afdd02be2fc7ff9ee0b2802",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/iceberg/inten_model.py",
+      "bytes": 34601,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\iceberg\\inten_model.py",
+      "sha256": "821942bdcb0282dd229deb6cafcfd6f07ab29eeb9539446acaa88229d6341ff6",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/wheels/lightning_utilities-0.15.3-py3-none-any.whl.ice",
+      "bytes": 31906,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\wheels\\lightning_utilities-0.15.3-py3-none-any.whl.ice",
+      "sha256": "6c55f1bee70084a1cbeaa41ada96e4b3a0fea5909e844dd335bd80f5a73c5f91",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/casmi/dreams_model.py",
+      "bytes": 32798,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\casmi\\dreams_model.py",
+      "sha256": "5c09c3d22e8d2c09678b796cb1d57a449442437847e094f49f6ed2619a73a83c",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/iceberg/gen_model.py",
+      "bytes": 34864,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\iceberg\\gen_model.py",
+      "sha256": "467a117823c4e1885636cbad4d4925f69c68722aea460cf8fc91e08cfcb6c755",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/iceberg/dag_data.py",
+      "bytes": 36155,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\iceberg\\dag_data.py",
+      "sha256": "80a4f2abd57a59077bf988c9a3f975de36cf856c189aadf9f871382054494814",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/structural_parent_summary.csv",
+      "bytes": 36152,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\structural_parent_summary.csv",
+      "sha256": "fdac0453c9f7e477357506ab8bbe1e1adae4d5fa7bae5ccd659eebebe00715d7",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/iceberg/dag_data.py",
+      "bytes": 36155,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\iceberg\\dag_data.py",
+      "sha256": "80a4f2abd57a59077bf988c9a3f975de36cf856c189aadf9f871382054494814",
+      "state": "present"
+    },
+    {
+      "name": "TECHNICAL_NOTES.md",
+      "bytes": 36249,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\TECHNICAL_NOTES.md",
+      "sha256": "f34a3a37c8754118cd94f7c70f451786dfb58aaca5d53e2a2028bb14ce527e79",
+      "state": "present"
+    },
+    {
+      "name": "delta_pc_np.npy",
+      "bytes": 36431,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\delta_pc_np.npy",
+      "sha256": "30b3e56727e9e8f08ab5928066ae9974edefa724ccb6e4b6ceb2f63c4c23c31c",
+      "state": "present"
+    },
+    {
+      "name": "delta_pc_src_observed.npy",
+      "bytes": 36431,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\delta_pc_src_observed.npy",
+      "sha256": "e734af8c8cf8e20fb2d0c5460220109c69a23f45b3a2a7ff2bb8922623569455",
+      "state": "present"
+    },
+    {
+      "name": "external_reference_spectra/external_scorer_sid_links.parquet",
+      "bytes": 36920,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\external_reference_spectra\\external_scorer_sid_links.parquet",
+      "sha256": "8cd61b8f110bfd6686684d330609a1d0f0d7cc96eab32b9cdd3352939ef443ef",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/neutral_losses_by_energy.csv",
+      "bytes": 37894,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\neutral_losses_by_energy.csv",
+      "sha256": "b7b1f57595d0de6c13de97ec7e4caec96cb7d97fece11a0d33d7094b8197ae49",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/gl_runner.py",
+      "bytes": 39880,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\gl_runner.py",
+      "sha256": "5c4f74313ac54263d05d987c39d012d81ec57c5f35e1095ecd49a5bcb6440fca",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v2-pool/fp_bits.npy",
+      "bytes": 41032,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v2-pool\\fp_bits.npy",
+      "sha256": "c3869e86449d6fed6e79e9655f8a7d35bd55c3138ecddfc1dae5072627e78677",
+      "state": "present"
+    },
+    {
+      "name": "fp_bits.npy",
+      "bytes": 41032,
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "version": 5,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-fold-safe-fpnet\\v5\\fp_bits.npy",
+      "sha256": "c3869e86449d6fed6e79e9655f8a7d35bd55c3138ecddfc1dae5072627e78677",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/nn_utils/nn_utils.py",
+      "bytes": 41337,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\nn_utils\\nn_utils.py",
+      "sha256": "f07a9018515ed0204b305741c5b13db9285d400ee7ff3e5bfa12db756a87146f",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/nn_utils/nn_utils.py",
+      "bytes": 41337,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\nn_utils\\nn_utils.py",
+      "sha256": "f07a9018515ed0204b305741c5b13db9285d400ee7ff3e5bfa12db756a87146f",
+      "state": "present"
+    },
+    {
+      "name": "identity_audit.json",
+      "bytes": 41499,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\identity_audit.json",
+      "sha256": "99a0350ec9b0e967e4d60154f3598c46d07f6b4ff3aa2257eeda1a78210d5dda",
+      "state": "present"
+    },
+    {
+      "name": "growth_pc_cid.npy",
+      "bytes": 44836,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\growth_pc_cid.npy",
+      "sha256": "dd182e3b29c435b4a8b6f8db9af271a26bd895d04dbe2f63c60e9c7a403eb4cf",
+      "state": "present"
+    },
+    {
+      "name": "growth_pc_lotus_refs.npy",
+      "bytes": 44836,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\growth_pc_lotus_refs.npy",
+      "sha256": "c36054e30c5762a76287242dd6905fe673f8998be356c2c10b4dfd2525d65d07",
+      "state": "present"
+    },
+    {
+      "name": "external_reference_spectra/external_structure_coverage.parquet",
+      "bytes": 43715,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\external_reference_spectra\\external_structure_coverage.parquet",
+      "sha256": "0a284c243ea4b42151040e6f9e1c9612a6a8f42422cf8835582c5891db08c2e2",
+      "state": "present"
+    },
+    {
+      "name": "MANIFEST.json",
+      "bytes": 45195,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\MANIFEST.json",
+      "sha256": "2593c1e95b989309e9c5057d1c00216c22c75f50d87a960b363d24f99f1bad8f",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/glacier/dataset.py",
+      "bytes": 46377,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\glacier\\dataset.py",
+      "sha256": "547a09d8629a45c8fad43dcb60277a36906b1d382520c959950562d109014360",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/fams/fragnet.py",
+      "bytes": 46806,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\fams\\fragnet.py",
+      "sha256": "d0952d34d227013b8486eff36c30a4233f491d2e32c3f816b9d000c493b7234e",
+      "state": "present"
+    },
+    {
+      "name": "TECHNICAL_NOTES.md",
+      "bytes": 51233,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\TECHNICAL_NOTES.md",
+      "sha256": "3ac43aa88b6f11a7dbd8a2209c84fbce158d8ee8c63776b043c9f2de7dc50fcb",
+      "state": "present"
+    },
+    {
+      "name": "coconut-casmi26-candidates/fp_bits.npy",
+      "bytes": 55568,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\coconut-casmi26-candidates\\fp_bits.npy",
+      "sha256": "a61e372fc41091bf5c7467e08134081266262665077cb9e2c56d73e4887f3013",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/figures/elements.png",
+      "bytes": 64734,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\figures\\elements.png",
+      "sha256": "c4499f1be55941583fbeb9b2222dacf326e5f20fb93ca1203d9f8174e0a8ee12",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/wheels/einops-0.8.2-py3-none-any.whl.ice",
+      "bytes": 65638,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\wheels\\einops-0.8.2-py3-none-any.whl.ice",
+      "sha256": "54058201ac7087911181bfec4af6091bb59380360f069276601256a76af08193",
+      "state": "present"
+    },
+    {
+      "name": "delta_pc_lpmid.npy",
+      "bytes": 72734,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\delta_pc_lpmid.npy",
+      "sha256": "7089da71194227bd405004728db2462b26961be156e4838c580508cef2370c6b",
+      "state": "present"
+    },
+    {
+      "name": "delta_pc_lsynonyms.npy",
+      "bytes": 72734,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\delta_pc_lsynonyms.npy",
+      "sha256": "12d1ac3c4d320f57e6dd0e83aae8aeb598bc79c42186e8b07f55185b84824838",
+      "state": "present"
+    },
+    {
+      "name": "delta_pc_lsid.npy",
+      "bytes": 72734,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\delta_pc_lsid.npy",
+      "sha256": "673a198394971fc1b78fecf77b6f9a89000719ac0b76c1aa7ffdeb81486f2a29",
+      "state": "present"
+    },
+    {
+      "name": "delta_pc_src_mask.npy",
+      "bytes": 72734,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\delta_pc_src_mask.npy",
+      "sha256": "52ceaac2cfca47983d3b8328a30220e264ed5cfff3140fb04a7ecb55bdea551e",
+      "state": "present"
+    },
+    {
+      "name": "panel_difficulty.parquet",
+      "bytes": 75661,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\panel_difficulty.parquet",
+      "sha256": "2e29797046cddc22245fc6e46778c98fb1032137eb4009bf86df6a7371bec3ec",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/glacier/joint_model.py",
+      "bytes": 76110,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\glacier\\joint_model.py",
+      "sha256": "9481602423011e830c94b8fcd857ac2be3cb31b2c24d714a3ae0c1edd235c293",
+      "state": "present"
+    },
+    {
+      "name": "growth_pc_mass.npy",
+      "bytes": 89544,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\growth_pc_mass.npy",
+      "sha256": "ca46c1c72932c1cc6b58ab9bcb833a2125281f20c0b623af9fa30b182561ef1b",
+      "state": "present"
+    },
+    {
+      "name": "growth_pc_off.npy",
+      "bytes": 89552,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\growth_pc_off.npy",
+      "sha256": "07ba3dc94264691e8a74912aa85c9e64415a4511d41e58055de36fdda34cce5e",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/fragment_isotope_checks.csv",
+      "bytes": 94488,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\fragment_isotope_checks.csv",
+      "sha256": "959a909f5944a497c0bd6886e835bfe4d8da597685714d5b0c959147e1bebfd2",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/src/ms_pred/common/misc_utils.py",
+      "bytes": 96988,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\src\\ms_pred\\common\\misc_utils.py",
+      "sha256": "bbee369888121c45384a4c93c5c0811bd3b4d8ba9bd038aa119f04b1ca4d1122",
+      "state": "present"
+    },
+    {
+      "name": "external_reference_spectra/external_record_quality.parquet",
+      "bytes": 94211,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\external_reference_spectra\\external_record_quality.parquet",
+      "sha256": "4f5b227d1c874624182c76e8f8406ba3ee86521744831cb461d6198c898b6c9e",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/src/ms_pred/common/misc_utils.py",
+      "bytes": 96988,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\src\\ms_pred\\common\\misc_utils.py",
+      "sha256": "bbee369888121c45384a4c93c5c0811bd3b4d8ba9bd038aa119f04b1ca4d1122",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/figures/neutral_losses.png",
+      "bytes": 99357,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\figures\\neutral_losses.png",
+      "sha256": "96f208e0ebe89c8219d04ebea1314f0b01850119b2911a3b7efa9d3590c421a1",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/derivation/parity_fixture.pkl",
+      "bytes": 98158,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\derivation\\parity_fixture.pkl",
+      "sha256": "bc12af267cbcd05942da8903d9058d20cc23d96c91233967d4a20102fe785176",
+      "state": "present"
+    },
+    {
+      "name": "delta_pc_cid.npy",
+      "bytes": 145340,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\delta_pc_cid.npy",
+      "sha256": "6c60a856461bdb6ad2a28c66baf5b67c34b804146cf8ca8bed0eb55ffddeb398",
+      "state": "present"
+    },
+    {
+      "name": "delta_pc_lotus_refs.npy",
+      "bytes": 145340,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\delta_pc_lotus_refs.npy",
+      "sha256": "ab0ea32e7ece083440d0186af54175c539f7a20687ea593a6771084e2a0b7be5",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/figures/fragment_catalogue_coverage.png",
+      "bytes": 120851,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\figures\\fragment_catalogue_coverage.png",
+      "sha256": "35b946c2a8fcdb6785f530214b42d082416e97df87167de060fb648fd5da2baa",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/fragmentation_graph.json",
+      "bytes": 163448,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\fragmentation_graph.json",
+      "sha256": "52bb5641110ee9e35d539117491c823a1b806a76f9497c6e4ffcb9929f8bdfce",
+      "state": "present"
+    },
+    {
+      "name": "growth_pc_ik14.npy",
+      "bytes": 156606,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\growth_pc_ik14.npy",
+      "sha256": "4b5cc955bd472bf4b6f79111382f08da2b2e13d0955fd9f7ae7861df636f6867",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/figures/fragmentation_graph.png",
+      "bytes": 168115,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\figures\\fragmentation_graph.png",
+      "sha256": "ed414d719bc166758d754f73e622d61d9aba46aeaf946cea312429870098d4f4",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/fragnet/stageA.npz",
+      "bytes": 268385,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\fragnet\\stageA.npz",
+      "sha256": "3a501ecbfae647d86d7fda87605eda2d573475201b2482ca02a130aa2a3d7a68",
+      "state": "present"
+    },
+    {
+      "name": "panel_fpnet_per_molecule.csv",
+      "bytes": 269574,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\panel_fpnet_per_molecule.csv",
+      "sha256": "9686d66b4f26612f1eefe186d2959309ee1f3a6e43d865fe32fd2cfc8c9242fe",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/true_decoy_rows.csv",
+      "bytes": 277969,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\true_decoy_rows.csv",
+      "sha256": "0ff37c8799b40aa30a22e26ae9673432fc4e5b55af83bc3fdca02c1c4e18b7b9",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/loss_events.csv",
+      "bytes": 276332,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\loss_events.csv",
+      "sha256": "31d213eb4ceb5a3ba232f1f898392961131dd02a403f3a6cd706f207b49232ea",
+      "state": "present"
+    },
+    {
+      "name": "delta_pc_mass.npy",
+      "bytes": 290552,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\delta_pc_mass.npy",
+      "sha256": "ef82c84ce4ca3d9a00a2a5bbe265bda379b5e8525f8ec92bfd45cea408d7c011",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/figures/example_stick_spectra_v25.png",
+      "bytes": 283745,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\figures\\example_stick_spectra_v25.png",
+      "sha256": "c98b0c6883573b6dcaa305924a6fdfb3ed8a9a17c1346f4bc749ce5bf521db9d",
+      "state": "present"
+    },
+    {
+      "name": "delta_pc_off.npy",
+      "bytes": 290560,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\delta_pc_off.npy",
+      "sha256": "edb3c5565dab80f7c7cddb7d6070f8f79f8fbfb758f9becb0c98c27cea85f5fb",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/figures/fragmentation_tree_v25.png",
+      "bytes": 333597,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\figures\\fragmentation_tree_v25.png",
+      "sha256": "9acaa87d6707f95637f68eb928429327672c07b6a5bb18ce1f22ca10e8560fc6",
+      "state": "present"
+    },
+    {
+      "name": "gate_diagnostics.csv",
+      "bytes": 364864,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\gate_diagnostics.csv",
+      "sha256": "77fba33d3dcd91c657784d50d516ce959d6d2a848bf3ad45b6facdcf4f285f31",
+      "state": "present"
+    },
+    {
+      "name": "chebi-lipidmaps-casmi26/bio_mass.npy",
+      "bytes": 502080,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\chebi-lipidmaps-casmi26\\bio_mass.npy",
+      "sha256": "7b67b125f7bed307c2ac08bf41ad92044bfc2177519c5d4bb36c2c51789a2921",
+      "state": "present"
+    },
+    {
+      "name": "delta_pc_ik14.npy",
+      "bytes": 508370,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\delta_pc_ik14.npy",
+      "sha256": "4f74a9d10d3690c0f5dd18d5f8937fb74de2b6f1fede780ca17f2db6bb9ba87a",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/fragnet/stageB.txt",
+      "bytes": 544829,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\fragnet\\stageB.txt",
+      "sha256": "6916c25c6f32fdea4a20f5c0b4b5cf45a3f6bbbfa625552195a7909e8ae8685b",
+      "state": "present"
+    },
+    {
+      "name": "growth_pc_smiles.npy",
+      "bytes": 559296,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\growth_pc_smiles.npy",
+      "sha256": "578590187454a7b01d3af9f994ab7cd148041a8fcab913bffa44a99909167ab4",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/spectrum_summary.csv",
+      "bytes": 695856,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\spectrum_summary.csv",
+      "sha256": "ae61b574a39ef6b5fec824400a4865f7ab272f7b321f68ee1130f62459187c1b",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/fragnet/rec_ok.npy",
+      "bytes": 710829,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\fragnet\\rec_ok.npy",
+      "sha256": "efa48d27dbc1ee7b512b8b376076bd6a6c544c5b86013166e6a52c352b451c68",
+      "state": "present"
+    },
+    {
+      "name": "pool_has_different_parent.npy",
+      "bytes": 710829,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pool_has_different_parent.npy",
+      "sha256": "7b23111c70942bf6c7ee770d103b50a9d9b1c4b530051fa851e3b39d05ea68a8",
+      "state": "present"
+    },
+    {
+      "name": "pool_np.npy",
+      "bytes": 710829,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pool_np.npy",
+      "sha256": "87ad6f0afb6cf930b47ed035dd4acc20e1305d1b96ceeff1f8fdbddd6892e390",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/structural_fragment_matches.csv",
+      "bytes": 724588,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\structural_fragment_matches.csv",
+      "sha256": "de0c0947358897bd3135323722c0d1932babdde17167ac0595985f49093c13e1",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/fragment_formula_catalogue.csv",
+      "bytes": 726009,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\fragment_formula_catalogue.csv",
+      "sha256": "24c31fd8385965b42c6e888bd612547a968dc81860003caf36152fe2796c8cf0",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/wheels/pytorch_lightning-2.6.6-py3-none-any.whl.ice",
+      "bytes": 853045,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\wheels\\pytorch_lightning-2.6.6-py3-none-any.whl.ice",
+      "sha256": "71f95c7b22f25c4f91cc659e1734bcdc6c69c8b66543f2ed2d78dbe29ce2f167",
+      "state": "present"
+    },
+    {
+      "name": "casmi-chebi-lmsd-structures/bio_mass.npy",
+      "bytes": 787592,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi-chebi-lmsd-structures\\bio_mass.npy",
+      "sha256": "2407a2ee04bd6bc468db876e7c0569842e7652432386cf1101dc85ef5a5611df",
+      "state": "present"
+    },
+    {
+      "name": "panel_metric_identities.parquet",
+      "bytes": 926118,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\panel_metric_identities.parquet",
+      "sha256": "4b8f5d342dea2845bed6dbaa8c790fd84b59f446d1f5af6b0e94ef79e4c6aa68",
+      "state": "present"
+    },
+    {
+      "name": "pool_formula_isomers.npy",
+      "bytes": 1421530,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pool_formula_isomers.npy",
+      "sha256": "cce7974779e71c4cd8ff41a3291bf1d57caa48f9a0a1fe7b1ff58a2699eff01e",
+      "state": "present"
+    },
+    {
+      "name": "pool_lmesh.npy",
+      "bytes": 1421530,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pool_lmesh.npy",
+      "sha256": "c6309dfcfffaf601dad54de724d0b55956873314b626eac241decf68b6a862bc",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/wheels/torchmetrics-1.9.0-py3-none-any.whl.ice",
+      "bytes": 983384,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\wheels\\torchmetrics-1.9.0-py3-none-any.whl.ice",
+      "sha256": "bfdcbff3dd1d96b3374bb2496eb39f23c4b28b8a845b6a18c313688e0d2d9ca1",
+      "state": "present"
+    },
+    {
+      "name": "pool_lotus_refs.npy",
+      "bytes": 1421530,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pool_lotus_refs.npy",
+      "sha256": "b3a8e9a44f25c83cc8794a05e0800a1800caa36ebe7f857a10c6b823b51d4dc8",
+      "state": "present"
+    },
+    {
+      "name": "pool_lpmid.npy",
+      "bytes": 1421530,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pool_lpmid.npy",
+      "sha256": "4cbece84f0a8ae04895df2c7184ac1e121803b9cad1a6de16333848d4834bb5b",
+      "state": "present"
+    },
+    {
+      "name": "pool_lpatent.npy",
+      "bytes": 1421530,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pool_lpatent.npy",
+      "sha256": "ba80c57bc2e83538658a3c7e2ed27e11936d67adcaede98320ce8bd43bc48ce2",
+      "state": "present"
+    },
+    {
+      "name": "pool_lsid.npy",
+      "bytes": 1421530,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pool_lsid.npy",
+      "sha256": "461ebd8bb1035faf019075bd122f28445a65c52b4b09a209e5d49fad1f7d71e5",
+      "state": "present"
+    },
+    {
+      "name": "pool_lsynonyms.npy",
+      "bytes": 1421530,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pool_lsynonyms.npy",
+      "sha256": "29bb614126f060af9d9d9257d9a28aeff9288c60227505fae378f0049e36c1b3",
+      "state": "present"
+    },
+    {
+      "name": "pool_src_mask.npy",
+      "bytes": 1421530,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pool_src_mask.npy",
+      "sha256": "6e4b8831abebadf7aa418fc192d58486a86084954e6cdc3ee53543533507d695",
+      "state": "present"
+    },
+    {
+      "name": "pool_n_depositors.npy",
+      "bytes": 1421530,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pool_n_depositors.npy",
+      "sha256": "97a16d2ac5dc88198db85ea9c1e9ff1bb56763217d8ba3da8aa8f90d22f22ea2",
+      "state": "present"
+    },
+    {
+      "name": "pool_n_vendors.npy",
+      "bytes": 1421530,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pool_n_vendors.npy",
+      "sha256": "86a7c47053f0e7a3e1ffad8b934ffa070cf5b752b8c37a06c571fe7b097c40e4",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/fragnet/countsA.npz",
+      "bytes": 1568346,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\fragnet\\countsA.npz",
+      "sha256": "42f37e29b933552175b91e732d9bbbcb08c54bea849976dd55858bc115701f10",
+      "state": "present"
+    },
+    {
+      "name": "main_candidates.parquet",
+      "bytes": 1639248,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\main_candidates.parquet",
+      "sha256": "63854375ebd0f3242e31e31069363b497f1fd80a2bfcb3222ee69a848e74ae67",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/fragment_ions_by_energy.csv",
+      "bytes": 1741333,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\fragment_ions_by_energy.csv",
+      "sha256": "f800d13131c55a8db81226be9c7a8323e992130dc93d39659f3f80d20ac25bd4",
+      "state": "present"
+    },
+    {
+      "name": "spectra_chemistry/frequent_fragment_ions.csv",
+      "bytes": 2067769,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\spectra_chemistry\\frequent_fragment_ions.csv",
+      "sha256": "721cfdee3beda9dc873d8def8ab6ecd0d1743aef67a96183689befa8be3f0668",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_coresmi_off.npy",
+      "bytes": 2206616,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\analog_struct\\train_coresmi_off.npy",
+      "sha256": "7f72b42397cb1198521cf09caa72ac4c2788544ba2673e8447cc12fbd6d8aece",
+      "state": "present"
+    },
+    {
+      "name": "sugar_and_acyl_units/knowledge_units.parquet",
+      "bytes": 2309306,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\sugar_and_acyl_units\\knowledge_units.parquet",
+      "sha256": "60966bec41f36213f126cc8fbe85e3653fbf88d1abb24310c320603132f6ddec",
+      "state": "present"
+    },
+    {
+      "name": "delta_pc_smiles.npy",
+      "bytes": 2320603,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\delta_pc_smiles.npy",
+      "sha256": "604c68274fb313bd032fd16315b3c928cd619f29137bd4cb67bfc6c38fae4d75",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_elsmi_off.npy",
+      "bytes": 2206616,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\analog_struct\\train_elsmi_off.npy",
+      "sha256": "4d84e388a066c85d3496b16f670ed2b39e3a297c8490d2625dd80e0a0f547854",
+      "state": "present"
+    },
+    {
+      "name": "lotus_structure_genus.parquet",
+      "bytes": 2513093,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\lotus_structure_genus.parquet",
+      "sha256": "bbcb313b2001963e8be4485c8a3f2cb318f041b96124704bcb26d4a6004d1436",
+      "state": "present"
+    },
+    {
+      "name": "pool_parent_cid.npy",
+      "bytes": 2842932,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pool_parent_cid.npy",
+      "sha256": "1e5e783689c4859e103a719ca8cc51f366ca8c904a09e2d4e21ef5b20acf74e8",
+      "state": "present"
+    },
+    {
+      "name": "pool_cid.npy",
+      "bytes": 2842932,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pool_cid.npy",
+      "sha256": "5bd33739596de0d396c04fc50ec1268e95a427917016f06c00cc04e853155b25",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-pubchemlite-cc0-candidate-fingerprints/pubchemlite_mass.npy",
+      "bytes": 3086208,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-pubchemlite-cc0-candidate-fingerprints\\pubchemlite_mass.npy",
+      "sha256": "f107bdf361b75fb2f6115abb2a28eda053b476b6c3694f4b0a2bfdadb248730f",
+      "state": "present"
+    },
+    {
+      "name": "coconut-casmi26-candidates/coco_mass.npy",
+      "bytes": 3491240,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\coconut-casmi26-candidates\\coco_mass.npy",
+      "sha256": "2b2af92c3185fa8cd52a4a3e3e7fd7eda4d94e8b9402662a3a4c55ffb13c6e5c",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_num.npy",
+      "bytes": 4413088,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\analog_struct\\train_num.npy",
+      "sha256": "7267bb0bdc9e4d698328c4430f1cac2afd6e37a549ef597ee2eafb922f16997b",
+      "state": "present"
+    },
+    {
+      "name": "candidate_joins.parquet",
+      "bytes": 4468200,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\candidate_joins.parquet",
+      "sha256": "ba079638bfa47f0af076a1ae61510129402fce696209c4a1fd05fd7cb5854985",
+      "state": "present"
+    },
+    {
+      "name": "external_reference_spectra/external_delta.parquet",
+      "bytes": 4607296,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\external_reference_spectra\\external_delta.parquet",
+      "sha256": "e75558832935f28e85a5419022c4cfba4d0d4b49f1063544c317c8ae61c2ac41",
+      "state": "present"
+    },
+    {
+      "name": "casmi-chebi-lmsd-structures/bio_structures.parquet",
+      "bytes": 5407545,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi-chebi-lmsd-structures\\bio_structures.parquet",
+      "sha256": "6bef7106d640ed370046e79d67b86932ba26da3a3632e6901e3b040fad56aa88",
+      "state": "present"
+    },
+    {
+      "name": "chebi-lipidmaps-casmi26/bio_meta.pkl",
+      "bytes": 5545993,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\chebi-lipidmaps-casmi26\\bio_meta.pkl",
+      "sha256": "b94aaa0c68d6a0d7bb36db267d271f679e4286b0cd2de31f982f14f0f1bcc051",
+      "state": "present"
+    },
+    {
+      "name": "descriptors.parquet",
+      "bytes": 5679231,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\descriptors.parquet",
+      "sha256": "89ab934a63c0a5303ab1cfc1ec80459daac4b69a648835c92770aadb927375bd",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_fvec.npy",
+      "bytes": 5516328,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\analog_struct\\train_fvec.npy",
+      "sha256": "f30560e0d23e04a3d9e23828a49ef0b9f08977789e41fb00005835d3d970cca2",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v2-pool/pool_frag_off.npy",
+      "bytes": 5685744,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v2-pool\\pool_frag_off.npy",
+      "sha256": "354015a6eab8b6762f9124384e959d606e961c35b999d1b088153d69538765e7",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_elsmi_off.npy",
+      "bytes": 5685744,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\analog_struct\\pool_elsmi_off.npy",
+      "sha256": "4624def96688547f5edf7fa347cf9498ff0ac80a9fb669dd53d4bfc20212602e",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_coresmi_off.npy",
+      "bytes": 5685744,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\analog_struct\\pool_coresmi_off.npy",
+      "sha256": "570664567fb313291f46e30aecfd9e82e8526eadde651cb2dbb98ead8d2220d5",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/frag2/pool_f1_off.npy",
+      "bytes": 5685744,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\frag2\\pool_f1_off.npy",
+      "sha256": "de25d731fd3fb09319538949e07c34135a3671ac7bd48dd2dbf9eece08a3121d",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/fragnet/rec_aoff.npy",
+      "bytes": 5685744,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\fragnet\\rec_aoff.npy",
+      "sha256": "9aadeb10c9629498e20679aa24fc403b1e1e2b3b76dd9799ffc9c4c7d0c1187b",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/fragnet/rec_boff.npy",
+      "bytes": 5685744,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\fragnet\\rec_boff.npy",
+      "sha256": "0d15c8c4072a3bdd23637edeb24843f6adbf9d9dd270adc8fdf82c00436d91da",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-identity-disjoint-validation-folds/structure_splits.parquet",
+      "bytes": 6302907,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\casmi26-identity-disjoint-validation-folds\\structure_splits.parquet",
+      "sha256": "05498719c7564cedd673bfd954191452dbc211dd0b31a9825357fa191325e92f",
+      "state": "present"
+    },
+    {
+      "name": "panel_same_formula.parquet",
+      "bytes": 8342392,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\panel_same_formula.parquet",
+      "sha256": "b7442441146f227f2db7e4a5dee458cd173d8304641080b69c87dbc0a5c3d7c7",
+      "state": "present"
+    },
+    {
+      "name": "panel_tier_formulas.parquet",
+      "bytes": 8209234,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\panel_tier_formulas.parquet",
+      "sha256": "29069629e529a9aa44d07ccfcfcd745eb27d26526d8191dff2136cee9a2be703",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_coresmi_buf.npy",
+      "bytes": 6940196,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\analog_struct\\train_coresmi_buf.npy",
+      "sha256": "5352fdcbea2bc09be258cb4047644491919dd289d28422eb51d8f3fdea3a864e",
+      "state": "present"
+    },
+    {
+      "name": "sugar_and_acyl_units/pool_units.parquet",
+      "bytes": 9219758,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\sugar_and_acyl_units\\pool_units.parquet",
+      "sha256": "20726668d69ad5ca93d3159701210df4f097a1f84015e8044a67843f1c6c3567",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-identity-disjoint-validation-folds/spectra_splits.parquet",
+      "bytes": 9272714,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\casmi26-identity-disjoint-validation-folds\\spectra_splits.parquet",
+      "sha256": "518be062cfa33077cc2b145fe03a61c62be3ccbd0a2675edbd07d1ac78775235",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-ranker-features/rank_train.npz",
+      "bytes": 9553020,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-ranker-features\\rank_train.npz",
+      "sha256": "41ccec87fba5f8ab255aaf5a723567f25bd766064265c5cc2b83ba2cf15f57f8",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/fragnet/sets.pkl",
+      "bytes": 9343635,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\fragnet\\sets.pkl",
+      "sha256": "922fafcbb454509f1397de6da7bafb19d46edb43520f54405abdbc994c760551",
+      "state": "present"
+    },
+    {
+      "name": "natural_products.parquet",
+      "bytes": 9575768,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\natural_products.parquet",
+      "sha256": "6ccb833e47d88715fca1d614b05cae92fa333fa388ae1d64226f2695a62081aa",
+      "state": "present"
+    },
+    {
+      "name": "casmi_spectrum_model_v1/final_model.pt",
+      "bytes": 11872818,
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\final_model.pt",
+      "sha256": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_num.npy",
+      "bytes": 11371344,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\analog_struct\\pool_num.npy",
+      "sha256": "08f8831f7abada09392570fc27af1fd625a23dd2391ddca65bcb88b3cb2c7430",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_elsmi_buf.npy",
+      "bytes": 10880676,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\analog_struct\\train_elsmi_buf.npy",
+      "sha256": "9f2b3d602cb5ada97d86a10790f30bb7c070b6c990dfe7c099551cd60ee79d87",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-spec2mol-r/spec2mol_r.pt",
+      "bytes": 11893127,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-spec2mol-r\\spec2mol_r.pt",
+      "sha256": "b78ec5949fec91678dc5b8c8c4b4dca00b38adf9454c36b2cfe7d81500a53cdf",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/ckpt/inten.pt",
+      "bytes": 13793037,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\ckpt\\inten.pt",
+      "sha256": "c49e330e049d3a8b0095026ed694fcf70045c24305354853732aaa5f89d55068",
+      "state": "present"
+    },
+    {
+      "name": "pubchemlite_annotations.parquet",
+      "bytes": 13570437,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\pubchemlite_annotations.parquet",
+      "sha256": "7a054d9b5933f7bda90965f9671dac234c2bf2420435cd39c2e69177b6a0f15d",
+      "state": "present"
+    },
+    {
+      "name": "pubchem_signals.parquet",
+      "bytes": 12726869,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\pubchem_signals.parquet",
+      "sha256": "0cdc19e8daa55d22d89f97760f7ea3d5b1814d5d63be9f66844050d4f6d1627e",
+      "state": "present"
+    },
+    {
+      "name": "pubchemlite_annotations.parquet",
+      "bytes": 13570437,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pubchemlite_annotations.parquet",
+      "sha256": "7a054d9b5933f7bda90965f9671dac234c2bf2420435cd39c2e69177b6a0f15d",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v3-models/ranker_0.pkl",
+      "bytes": 14162986,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v3-models\\ranker_0.pkl",
+      "sha256": "b7d5e5bf7a70b35526a78a999def236c795ae1f114e4e360728f1cea068e8e68",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_fvec.npy",
+      "bytes": 14214148,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\analog_struct\\pool_fvec.npy",
+      "sha256": "8eebe4be5c87aa87a498fb998ce013cdc0d0f9aa251d6184ec22f7aad755e07b",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/ranker_v4b.pkl",
+      "bytes": 14301548,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\ranker_v4b.pkl",
+      "sha256": "6172e926fb2de244f0b9189ed54e1ed8a15e76d166592b724129a4d6a34931da",
+      "state": "present"
+    },
+    {
+      "name": "casmi-chebi-lmsd-structures/bio_meta.pkl",
+      "bytes": 14266637,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi-chebi-lmsd-structures\\bio_meta.pkl",
+      "sha256": "bfc92d81dafe8244a86f3a7b74b0da66b61605a9581b78c60acea619908404d4",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/ckpt/gen.pt",
+      "bytes": 14561244,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\ckpt\\gen.pt",
+      "sha256": "deef0451c1870d2125653bb212c9d95c5b5d9bf80156dfa9b22fedda7db49bea",
+      "state": "present"
+    },
+    {
+      "name": "lotus_structure_genus.csv",
+      "bytes": 15679755,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\lotus_structure_genus.csv",
+      "sha256": "22a5b0f0d4380781c1a6d67d605ce00b2a8c5d7dfa8214343191535de820da44",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_hash.npy",
+      "bytes": 17651968,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\analog_struct\\train_hash.npy",
+      "sha256": "cf5c28edcf09e0a7a76df1b44db6a4638a42ca826ddacd9b2f2f8429a6293dc7",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/frag2/pool_cap.npy",
+      "bytes": 15635550,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\frag2\\pool_cap.npy",
+      "sha256": "6be43a73f773e50decde505a10e23a3114f09bdc2005fe9c51cc87bf0d851dbe",
+      "state": "present"
+    },
+    {
+      "name": "panel_logits.npz",
+      "bytes": 20466740,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\panel_logits.npz",
+      "sha256": "383e4d9aaaecd8bda1277851064cce840887b733c48477ce5099b71b0152403d",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/derivation/prior_tables.pkl",
+      "bytes": 20738118,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\derivation\\prior_tables.pkl",
+      "sha256": "217905818dd187da47cb458a60aeae2a5f2b0139904b4e320f70e41a9bd74c90",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_coresmi_buf.npy",
+      "bytes": 19703633,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\analog_struct\\pool_coresmi_buf.npy",
+      "sha256": "c0b2ce3ff292cae239fbb1f1670f345462dbab31e920b17d2e52bef9f9e5fc53",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v2-pool/train_structs.parquet",
+      "bytes": 23306834,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v2-pool\\train_structs.parquet",
+      "sha256": "f20aa1cac23af42e430a6633707fda34e48dea97114bdc3e443897f692df3656",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-identity-disjoint-validation-folds/spectra_folds.parquet",
+      "bytes": 23678772,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\casmi26-identity-disjoint-validation-folds\\spectra_folds.parquet",
+      "sha256": "68446abc365cd0a175c8fcf8081828989e92a65d3493312848792d3465d91403",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-pubchemlite-cc0-candidate-fingerprints/pubchemlite_meta.pkl",
+      "bytes": 23642096,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-pubchemlite-cc0-candidate-fingerprints\\pubchemlite_meta.pkl",
+      "sha256": "3c9a18c7662022bce51759b1660292b712fe7544459020e38299d2f0747517ce",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-identity-disjoint-validation-folds/structures.parquet",
+      "bytes": 23795229,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\casmi26-identity-disjoint-validation-folds\\structures.parquet",
+      "sha256": "7c16c4968a15956e94eba58e3ff94d4a6c2f6899b10a2f2824047601a46bd6c8",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-simulated-ranker-rows/sim_rank_rows_nofp.npz",
+      "bytes": 26872207,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-simulated-ranker-rows\\sim_rank_rows_nofp.npz",
+      "sha256": "c19ae76f69c7a3f23e67d2e27441830213eee941aa5658b47b1798872a61a7e9",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_elsmi_buf.npy",
+      "bytes": 35033614,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\analog_struct\\pool_elsmi_buf.npy",
+      "sha256": "f54697041c9f384a617bbfaca0d5ad0ff68f48df7b472c38d62b44a44c15c6e9",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v2-pool/pool_meta.parquet",
+      "bytes": 36692358,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v2-pool\\pool_meta.parquet",
+      "sha256": "82b8c40315611289b9a4004b3af18d6d3402b3cd5baa4ee5723da07b7e2f6bb0",
+      "state": "present"
+    },
+    {
+      "name": "sugar_and_acyl_units/training_observed_losses.parquet",
+      "bytes": 32381810,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\sugar_and_acyl_units\\training_observed_losses.parquet",
+      "sha256": "0da9ed8478bfd4d44defbeea2c1708505f332b9a260ad7c65d4fcfcfe63d4205",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-iceberg/wheels/rdkit-2025.3.6-cp312-cp312-manylinux_2_28_x86_64.whl.ice",
+      "bytes": 36119142,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-iceberg\\wheels\\rdkit-2025.3.6-cp312-cp312-manylinux_2_28_x86_64.whl.ice",
+      "sha256": "ed5565d4d6423def7c52eb20a6263afcd979383757086dec92f57e77d7c7f856",
+      "state": "present"
+    },
+    {
+      "name": "rdkit-2026-3-3-wheel/rdkit-2026.3.3-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 37188323,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\rdkit-2026-3-3-wheel\\rdkit-2026.3.3-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "sha256": "c69a40ad52a2489cf592d55b41f5f6fa482f028341c038f3ed7d6b46834d1d3d",
+      "state": "present"
+    },
+    {
+      "name": "coconut-casmi26-candidates/coco_meta.pkl",
+      "bytes": 41450156,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\coconut-casmi26-candidates\\coco_meta.pkl",
+      "sha256": "29eab3083adcb329b52ac7909b4d3ce21f9f95a4008a93356bc526310ab44091",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_hash.npy",
+      "bytes": 45484992,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\analog_struct\\pool_hash.npy",
+      "sha256": "9835d50a54a5ac4b568d2fd5e1221455af86b12cd048df8eef27b6ae4848fa68",
+      "state": "present"
+    },
+    {
+      "name": "natural_products.csv",
+      "bytes": 41057714,
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10\\natural_products.csv",
+      "sha256": "71e1fd682443472f7c559361ee5fe183db04ca962bdd761862014b4f8aa7a7ed",
+      "state": "present"
+    },
+    {
+      "name": "pubchem_candidates.parquet",
+      "bytes": 51122745,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\pubchem_candidates.parquet",
+      "sha256": "ac4d057c6772b5d276237a7fd6f5148b5eda39b2eec1c5bb09a2606166a368f3",
+      "state": "present"
+    },
+    {
+      "name": "panel_fpnet_scores.parquet",
+      "bytes": 51937874,
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10\\panel_fpnet_scores.parquet",
+      "sha256": "e06f88459ae088932d45e93eefe7dceff68bd9f80e34f73601b2639946215226",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-glacier/ckpt/glacier.pt",
+      "bytes": 60531887,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-glacier\\ckpt\\glacier.pt",
+      "sha256": "9192e4c2eeafe83317d5a2c2641e1fc4d68934488757a4faafeb66f2ab397a12",
+      "state": "present"
+    },
+    {
+      "name": "chebi-lipidmaps-casmi26/bio_fp.npy",
+      "bytes": 54399176,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\chebi-lipidmaps-casmi26\\bio_fp.npy",
+      "sha256": "e1c0687abc73ca093920aa5b19c93db934c6064543289b7ef37dd8f6a7449f51",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/frag2/pool_f1_mass.npy",
+      "bytes": 62531984,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\frag2\\pool_f1_mass.npy",
+      "sha256": "0fab0a2076b997dd7ff579f2d7e2e54baededb9025b7a1b9fb0bbc3cda4d3272",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/fragnet/rec_atom.npy",
+      "bytes": 66704036,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\fragnet\\rec_atom.npy",
+      "sha256": "4b33b9c3457cdacd0af9913e4bfbc82e30d5f6cddf7041012a81dd448b2b5ce1",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/fragnet/rec_bond.npy",
+      "bytes": 71602625,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\fragnet\\rec_bond.npy",
+      "sha256": "ca1caa5d1c8a2dc3dfcca0031cba402b99e9546c5fb85aaee21a6f7ea1eb901b",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-spec2mol/spec2mol.pt",
+      "bytes": 66731290,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-spec2mol\\spec2mol.pt",
+      "sha256": "9d74116acee29e34c762fab928615b763cf7d2803a0736b257fb1d784ef4abbe",
+      "state": "present"
+    },
+    {
+      "name": "pc_np.npy",
+      "bytes": 105875617,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pc_np.npy",
+      "sha256": "04cb9a14f4077b8cd396d54e2635c36a813c930bdfee5309c75b906291638a5f",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/code/fe_v4/res/fragnet/featB.npz",
+      "bytes": 131473600,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\code\\fe_v4\\res\\fragnet\\featB.npz",
+      "sha256": "cbf40d3f16e2748dfaf71033bb87ae5bbb18957b7c76c16e8574caecc05bb33f",
+      "state": "present"
+    },
+    {
+      "name": "casmi-chebi-lmsd-structures/bio_fp.npy",
+      "bytes": 85341539,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi-chebi-lmsd-structures\\bio_fp.npy",
+      "sha256": "daa609d2b598f5b7e4a7692116f05b39b508d1a5565a9f19ef163cd0d4e98544",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-fp-models-v2/fp_merged_m1.pt",
+      "bytes": 144110255,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-fp-models-v2\\fp_merged_m1.pt",
+      "sha256": "261529c823825cbe2028684bbf7214a95a7e631ca9f656336d577c507cce8294",
+      "state": "present"
+    },
+    {
+      "name": "pool_popularity.csv",
+      "bytes": 180875134,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pool_popularity.csv",
+      "sha256": "33955e2fb32d3e8b6d030f5585f7823097194829f434df90f8214be44b7ba764",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-fp-models-v2/fp_single_s2.pt",
+      "bytes": 144110255,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-fp-models-v2\\fp_single_s2.pt",
+      "sha256": "c19aa29016ed4d7a67bac38105b8fa5076c696c29eb66a504558c9b2e52b614a",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v3-models/fpnet_1.pt",
+      "bytes": 198790165,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v3-models\\fpnet_1.pt",
+      "sha256": "6f60a22b3c3b21aa48d47328bb9523bdf07cc004bfb72966e0f9713507c24f2e",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/fe_A.pt",
+      "bytes": 198790165,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\fe_A.pt",
+      "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/fe_B.pt",
+      "bytes": 198790165,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\fe_B.pt",
+      "sha256": "6f60a22b3c3b21aa48d47328bb9523bdf07cc004bfb72966e0f9713507c24f2e",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v4b-models/fpnet_0.pt",
+      "bytes": 198790165,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\fpnet_0.pt",
+      "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+      "state": "present"
+    },
+    {
+      "name": "pc_lotus_refs.npy",
+      "bytes": 211751106,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pc_lotus_refs.npy",
+      "sha256": "8f3aa62dfc687441f361b6d7a69090ec97341bebba1ceeeb31db0527c0c53481",
+      "state": "present"
+    },
+    {
+      "name": "pc_lpmid.npy",
+      "bytes": 211751106,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pc_lpmid.npy",
+      "sha256": "ab8c8f7cb19cf23ebaa5ef8500c72ee8960987776db73d6d951489d394c7c4f2",
+      "state": "present"
+    },
+    {
+      "name": "pc_lsid.npy",
+      "bytes": 211751106,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pc_lsid.npy",
+      "sha256": "99f0de558e7a17e2a18a0f118228bcbfd50cdfefe31635488992585ff067de0c",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v3-models/fpnet_0.pt",
+      "bytes": 198790165,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v3-models\\fpnet_0.pt",
+      "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/casmi26-v3-models%2Ffpnet_0.pt?datasetVersionNumber=9",
+      "state": "downloaded",
+      "seconds": 76.23
+    },
+    {
+      "name": "casmi26-fpnet-full1/fpnet_full1.pt",
+      "bytes": 198791233,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-fpnet-full1\\fpnet_full1.pt",
+      "sha256": "d13a3611e499d7783c4a6fce5b04363eb297dcf70f2d7d00bb66f9ff1f547123",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/casmi26-fpnet-full1%2Ffpnet_full1.pt?datasetVersionNumber=9",
+      "state": "downloaded",
+      "seconds": 92.08
+    },
+    {
+      "name": "casmi26-pubchemlite-cc0-candidate-fingerprints/pubchemlite_fp.npy",
+      "bytes": 334454048,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-pubchemlite-cc0-candidate-fingerprints\\pubchemlite_fp.npy",
+      "sha256": "724926ecb4bfb2efc7e63014e7f6b8bed8aec34882a435f039c0ddab139e569c",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v2-pool/train_fp_sel.npy",
+      "bytes": 352761118,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v2-pool\\train_fp_sel.npy",
+      "sha256": "0e6ddfbfb188b6cffb9f1b0ad9c7ba268ef709ce60b2711d05f98096cd772a8d",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v2-pool/pool_frag_mass.npy",
+      "bytes": 357116708,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v2-pool\\pool_frag_mass.npy",
+      "sha256": "9afbdc02856b287e06e6c9f61a9f0032b2dd53b20557942c1d00542d9c490ffc",
+      "state": "present"
+    },
+    {
+      "name": "fpnet_fold0.pt",
+      "bytes": 198789484,
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "version": 5,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-fold-safe-fpnet\\v5\\fpnet_fold0.pt",
+      "sha256": "ddf6eaaa8e541a16e3f0357ed30f0346e529054f75d5619aedb6024dcb1bd7f0",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/dmitriigluzdov/casmi26-fold-safe-fpnet/fpnet_fold0.pt?datasetVersionNumber=5",
+      "state": "downloaded",
+      "seconds": 118.31
+    },
+    {
+      "name": "casmi26-v4b-models/fe_D.pt",
+      "bytes": 486278727,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v4b-models\\fe_D.pt",
+      "sha256": "8ae5bee2c978f4f01ea7cfe29b514cd3e9112006ab51aa8b13f20e26e9365362",
+      "state": "present"
+    },
+    {
+      "name": "casmi26-v2-pool/pool_fp.npy",
+      "bytes": 908986707,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\casmi26-v2-pool\\pool_fp.npy",
+      "sha256": "f02d91eeb4e2be5687ce678c199aa09a3acda1e821478372fc23fd1c7edf55e8",
+      "state": "present"
+    },
+    {
+      "name": "pc_lsynonyms.npy",
+      "bytes": 211751106,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pc_lsynonyms.npy",
+      "sha256": "7bf7c427d1746fb2c1eff7271c5bc81b47b740c74b99acbd2f1a95d838562504",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/dmitriigluzdov/casmi26-pubchem-popularity-prior/pc_lsynonyms.npy?datasetVersionNumber=13",
+      "state": "downloaded",
+      "seconds": 200.08
+    },
+    {
+      "name": "pc_src_mask.npy",
+      "bytes": 211751106,
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\pc_src_mask.npy",
+      "sha256": "1d72e2ceed72dc23f8ade42cffd052d21d1ffa59cca229c690bb55b0e9206589",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/dmitriigluzdov/casmi26-pubchem-popularity-prior/pc_src_mask.npy?datasetVersionNumber=13",
+      "state": "downloaded",
+      "seconds": 177.48
+    },
+    {
+      "name": "coconut-casmi26-candidates/coco_fp.npy",
+      "bytes": 378349391,
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9\\coconut-casmi26-candidates\\coco_fp.npy",
+      "sha256": "5d960d7355e0e10b22f1b2fa97c9fde37e86ddffbea8e562ec1873bdbb0e5f88",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/coconut-casmi26-candidates%2Fcoco_fp.npy?datasetVersionNumber=9",
+      "state": "downloaded",
+      "seconds": 186.89
+    }
+  ]
+}

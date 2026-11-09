@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "checks": {
+    "old_fatal_on_nonfatal_warning": true,
+    "repair_retains_usable_warning_output": true,
+    "old_fatal_on_budget_partial": true,
+    "repair_retains_budget_partial": true,
+    "old_rejects_original_legal_nan_input": true,
+    "repair_preserves_nan_semantics": true,
+    "repair_still_rejects_fatal_status": true
+  },
+  "cases": {
+    "old_warning": {
+      "accepted": false,
+      "error_type": "RuntimeError"
+    },
+    "new_warning": {
+      "accepted": true,
+      "usable_score": 0.7,
+      "input_nan_preserved": true
+    },
+    "old_budget": {
+      "accepted": false,
+      "error_type": "RuntimeError"
+    },
+    "new_budget": {
+      "accepted": true,
+      "usable_score": 0.7,
+      "input_nan_preserved": true
+    },
+    "old_nan": {
+      "accepted": false,
+      "error_type": "ValueError"
+    },
+    "new_nan": {
+      "accepted": true,
+      "usable_score": 0.7,
+      "input_nan_preserved": true
+    },
+    "new_fatal": {
+      "accepted": false,
+      "error_type": "RuntimeError"
+    }
+  },
+  "no_gpu_or_model_run": true,
+  "hidden_failure_root_cause_still_unknown": true
+}

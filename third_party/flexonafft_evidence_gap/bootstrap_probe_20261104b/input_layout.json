@@ -1,0 +1,58 @@
+{
+  "asset_store": "/mnt/d/Paper/casmi/assets/kaggle",
+  "view": "/mnt/d/Paper/casmi/third_party/flexonafft_evidence_gap/bootstrap_probe_20261104b/input_view",
+  "links": [
+    {
+      "link": "/mnt/d/Paper/casmi/third_party/flexonafft_evidence_gap/bootstrap_probe_20261104b/input_view/datasets/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "target": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9"
+    },
+    {
+      "link": "/mnt/d/Paper/casmi/third_party/flexonafft_evidence_gap/bootstrap_probe_20261104b/input_view/datasets/dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "target": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-fold-safe-fpnet/v5"
+    },
+    {
+      "link": "/mnt/d/Paper/casmi/third_party/flexonafft_evidence_gap/bootstrap_probe_20261104b/input_view/datasets/dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "target": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-natural-product-knowledge-table/v10"
+    },
+    {
+      "link": "/mnt/d/Paper/casmi/third_party/flexonafft_evidence_gap/bootstrap_probe_20261104b/input_view/datasets/dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "target": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-natural-product-panel-benchmark/v10"
+    },
+    {
+      "link": "/mnt/d/Paper/casmi/third_party/flexonafft_evidence_gap/bootstrap_probe_20261104b/input_view/datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "target": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13"
+    },
+    {
+      "link": "/mnt/d/Paper/casmi/third_party/flexonafft_evidence_gap/bootstrap_probe_20261104b/input_view/datasets/sanpier/casmi-spectrum-model-v1",
+      "target": "/mnt/d/Paper/casmi/assets/kaggle/sanpier/casmi-spectrum-model-v1/v1"
+    },
+    {
+      "link": "/mnt/d/Paper/casmi/third_party/flexonafft_evidence_gap/bootstrap_probe_20261104b/input_view/competitions/enveda-CASMI26-molecule-id-mass-spectra",
+      "target": "/mnt/d/Paper/casmi/enveda-CASMI26-molecule-id-mass-spectra"
+    }
+  ],
+  "model_bundle_leaf_file_links": [
+    {
+      "link": "/mnt/d/Paper/casmi/third_party/flexonafft_evidence_gap/bootstrap_probe_20261104b/input_view/datasets/sanpier/casmi-spectrum-model-v1/casmi_spectrum_model_v1/README.txt",
+      "target": "/mnt/d/Paper/casmi/assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/README.txt"
+    },
+    {
+      "link": "/mnt/d/Paper/casmi/third_party/flexonafft_evidence_gap/bootstrap_probe_20261104b/input_view/datasets/sanpier/casmi-spectrum-model-v1/casmi_spectrum_model_v1/config.json",
+      "target": "/mnt/d/Paper/casmi/assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/config.json"
+    },
+    {
+      "link": "/mnt/d/Paper/casmi/third_party/flexonafft_evidence_gap/bootstrap_probe_20261104b/input_view/datasets/sanpier/casmi-spectrum-model-v1/casmi_spectrum_model_v1/features.py",
+      "target": "/mnt/d/Paper/casmi/assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/features.py"
+    },
+    {
+      "link": "/mnt/d/Paper/casmi/third_party/flexonafft_evidence_gap/bootstrap_probe_20261104b/input_view/datasets/sanpier/casmi-spectrum-model-v1/casmi_spectrum_model_v1/final_model.pt",
+      "target": "/mnt/d/Paper/casmi/assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/final_model.pt"
+    },
+    {
+      "link": "/mnt/d/Paper/casmi/third_party/flexonafft_evidence_gap/bootstrap_probe_20261104b/input_view/datasets/sanpier/casmi-spectrum-model-v1/casmi_spectrum_model_v1/model.py",
+      "target": "/mnt/d/Paper/casmi/assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/model.py"
+    }
+  ],
+  "missing_directories": [],
+  "note": "Symlinks are materialized on Linux only. All targets stay in the configured workspace."
+}

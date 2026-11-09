@@ -1,0 +1,29 @@
+{
+  "branch": "mass_head_seed0",
+  "target": "stormseye/casmi26-mass-head-seed0-1108",
+  "baseline_own_public_score": 0.481,
+  "source_stage": "submission\\aggressive_20261107\\public_mass_repro",
+  "source_notebook_sha256": "2bf3c51c8703956f80892d478b0de77747f90a8228bf275399d793666e5a1ea6",
+  "method": "frozen v2 candidate-conditioned multispectrum listwise head",
+  "heads": [
+    {
+      "sha256": "99e63aedb420217c817aeaaebd3d09ffa9620824a8d8833dcf55fd90ae903a53",
+      "seed": 20261108,
+      "step": 2500
+    }
+  ],
+  "combined_real_na_gl": false,
+  "payload_sha256": {
+    "candidate_multispectrum_head.py": "6dc38d9d9dd59bff0ed791045573638c5566b2e1f84c0336c1b1bff383f886f0",
+    "learned_head_score.py": "14ba386cef89194c87cead728b23a670f83d425b2316a007d3f07901e5cf1a74",
+    "learned_head_runtime.json": "92f5f2448b17ed05c26ff90adeec8539a8c757f762a3d7628a4f8df4ba84bf87",
+    "head_seed20261108_step2500.pt": "99e63aedb420217c817aeaaebd3d09ffa9620824a8d8833dcf55fd90ae903a53"
+  },
+  "original_scorer_sha256": "cb9e4d6732992e3310e951533fd0c644d3b515134ad03768c35e5a86551267d2",
+  "unchanged": "Original MASS priors, public encoder, .5/.5 public/v2 ensemble, physical and mass leader chain; only v2 neural_score changes.",
+  "training_data": "1024 train identities, actual v2 mass-window hard negatives, fixed 2500 steps",
+  "evaluation_boundary": "known pretrained exposure component diagnostic; not clean full-stack CV",
+  "locked_final_used": false,
+  "validation_mode": "fast_static",
+  "training_in_notebook": false
+}

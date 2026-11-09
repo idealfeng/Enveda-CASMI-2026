@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-v35-robust-mass-1107pm",
+  "version": 1,
+  "branch_sha256": "804f4b156d859c39545c144fe063380dc48a6942d3ec43b57ae8595f41fd5740",
+  "notebook_sha256": "5599c52d9e82210b78f804fa283793908a07fc3bff5b482d3545f5c4dd55cc75",
+  "metadata_sha256": "ff50cbef25fbb6d1cb0f6588f5c1ea5c26c80ec9f132d4865a25782fc5b25462",
+  "requested_at_utc": "2026-11-07T06:51:00.063274+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-07T06:51:03.484738+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

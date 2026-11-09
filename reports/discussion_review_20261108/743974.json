@@ -1,0 +1,42 @@
+{
+  "id": 743974,
+  "read_only": true,
+  "checked_at_utc": "2026-11-07T16:01:51.943287+00:00",
+  "topic": {
+    "id": 743974,
+    "title": "All you need is a good ranker",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/743974",
+    "postDate": "2026-09-28T05:11:05.317Z",
+    "authorName": "Adarsh",
+    "authorUrl": "https://www.kaggle.com/madarshbb",
+    "votes": 26,
+    "commentCount": 3,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>When I started this competition, I thought the hardest issue would be finding the right molecule. Turns out, the bottleneck is the ranker. (of course, excluding Regime C)</p>\n<p>For instance, my CV scores MRR @ 25 : 0.584 in Regime B and 0.846 in Regime A</p>\n<p>Among them, number of molecules not in my top 25 are very low:- (below are CV MRR scores)</p>\n<p><img src=\"https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F14670471%2Fd5565a12f427366fe9ebf38df9f39830%2Fchem_1.png?generation=1790571377708222&amp;alt=media\" alt=\"\"></p>\n<p><img src=\"https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F14670471%2Fd376ba0c0eb05965f3dcf9fbe6fd45af%2Fchem_2.png?generation=1790571397404676&amp;alt=media\" alt=\"\"></p>\n<p>On an unrelated note, it's so sad to see instances where the true structure isnt part of my guesses, but the guesses my pipeline makes is so close</p>\n<p><img src=\"https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F14670471%2Fc8e2546e18cd91729f489a9e1faccda3%2Fchem_3.png?generation=1790571760546211&amp;alt=media\" alt=\"\"></p>\n<p>Also, feel free to use my ranker if it helps anyone : <a href=\"https://claude.ai/artifact/VAQDJb8q7hLFyhv66hWMNL\" target=\"_blank\">https://claude.ai/artifact/VAQDJb8q7hLFyhv66hWMNL</a>\n(It is still at Phase-0 and very unstable, so if anyone is using it, please share some feedback)</p>\n<p>It is very useful to visualize and see where you went wrong and its very fun to visualize these molecules</p>\n<p><img src=\"https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F14670471%2F8f6f3a79824a2247919cce1d4d12a998%2Fchem_4.png?generation=1790572004548905&amp;alt=media\" alt=\"\"></p>\n<p><img src=\"https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F14670471%2F0a676cf8615e687c89a55ef090a511f1%2Fchem_5.png?generation=1790572021148293&amp;alt=media\" alt=\"\"></p>"
+  },
+  "comments": [
+    {
+      "id": 3529578,
+      "authorName": "Zejun_",
+      "postDate": "2026-09-28T14:52:38.853Z",
+      "content": "<p>Your dashboard is amazing! Simple but informative, did you use AI to make it? Could you open source the UI or prompt?</p>",
+      "votes": 1,
+      "replies": [
+        {
+          "id": 3530699,
+          "authorName": "Adarsh",
+          "postDate": "2026-09-30T18:03:18.510Z",
+          "content": "<p>Thank you !</p>\n<p>Yes, the app was made by Claude code. I'm still building it, it's not very user-friendly right now ;-;</p>"
+        }
+      ]
+    },
+    {
+      "id": 3531397,
+      "authorName": "kenneth uchegbu",
+      "postDate": "2026-10-01T19:33:51.773Z",
+      "content": "<p>please what is the path to Concatenate key spectral metadata as tabular features: precursor_mz, ionization_mode, adduct (one-hot encoded), collision_energy_ev, and instrument_type.</p>"
+    }
+  ],
+  "comments_truncated": false
+}

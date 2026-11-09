@@ -1,0 +1,85 @@
+{
+  "scope": "Downloaded source cards only; no legal eligibility conclusion.",
+  "assets": [
+    {
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "used_v56": true,
+      "card_path": "third_party/flexonafft_evidence_gap/dataset_metadata/sanpier__casmi-spectrum-model-v1.json",
+      "card_sha256": "8c569dc9a2ee9dc9e91cc7da14c1c033c68101bc4b5e64d981022668827101c3",
+      "owner": "Saner Turhaner",
+      "license": "Apache 2.0",
+      "description_license_section": "\n\n**Apache License 2.0**\n\nThe original PyTorch checkpoints, author-created training scripts, configurations, and supporting artifacts distributed in this release are licensed under the Apache License, Version 2.0.\n\nThis permits use, modification, distribution, and inference, including use in CASMI 2026 submissions, provided applicable competition rules are followed.\n\nThird-party dependencies, datasets, and any externally sourced components remain subject to their respective licenses.\n\nFull license: https://www.apache.org/licenses/LICENSE-2.0\n\n## Limitations\n\n- Model outputs are predictions and should not be treated as definitive chemical structure identifications.\n- Performance may vary across molecular classes, experimental conditions, collision energies, and ionization modes.\n- Competition performance does not necessarily generalize to independent experimental datasets.\n- The release does not guarantee exact training reproducibility without the corresponding original producer revision and training-run records.\n\n## Attribution\n\nDeveloped and published by Saner Turhaner (kaggle.com/sanpier) for research and experimentation in the Enveda CASMI 2026 competition."
+    },
+    {
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "version": 5,
+      "used_v56": true,
+      "card_path": "third_party/flexonafft_evidence_gap/dataset_metadata/dmitriigluzdov__casmi26-fold-safe-fpnet.json",
+      "card_sha256": "1479c9fae893eca331056071cc4d096b819cdef6e90e9696643404bde516b07b",
+      "owner": "Dmitrii Gluzdov",
+      "license": "Other (specified in description)",
+      "description_license_section": "\n\nThe checkpoints and competition-derived files remain subject to the [competition data terms](https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/data): **non-commercial use with attribution**. The training loop and evaluation scripts are Apache-2.0; added audit/replay helpers are also Apache-2.0. Copied code and bit indices retain their original notices.\n\nThe architecture, data access and selected fingerprint bits are by [Ahmed Berat Özer](https://www.kaggle.com/code/ahmedberatozer/casmi26-v4g-inference); the bits were copied unchanged from his public candidate collection. The training kit, checkpoints and audit are by Dmitrii Gluzdov. Documentation-based comparisons use [PubChem Popularity Prior](https://www.kaggle.com/datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior) under its source-specific terms. Competition spectra were provided by Enveda. No new spectra or hidden-test labels were added, and panel results do not establish a competition-test gain."
+    },
+    {
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "version": 10,
+      "used_v56": true,
+      "card_path": "third_party/flexonafft_evidence_gap/dataset_metadata/dmitriigluzdov__casmi26-natural-product-knowledge-table.json",
+      "card_sha256": "4f6ceef5e93950ceb2c890fba5aff901796bfbb734fd7527b0ed5e31edecf8ed",
+      "owner": "Dmitrii Gluzdov",
+      "license": "Other (specified in description)",
+      "description_license_section": "\n\nThe LOTUS frozen export of 2026-04-13 on [Zenodo](https://doi.org/10.5281/zenodo.19360665) is CC BY 4.0; credit the [LOTUS initiative](https://lotus.naturalproducts.net/) and [Rutz et al., eLife 2022](https://doi.org/10.7554/eLife.70780). NPAtlas is [CC BY-NC 4.0](https://www.npatlas.org/download); cite [van Santen et al., Nucleic Acids Research 2022](https://doi.org/10.1093/nar/gkab941) wherever the `npatlas_*` columns are used. The compilation follows the most restrictive component terms: **non-commercial use with attribution**. Retain snapshot-specific source and competition-derived restrictions.\n\nChemical pathway, superclass and class labels come from [NPClassifier, Kim et al., 2021](https://doi.org/10.1021/acs.jnatprod.1c00399), distributed with LOTUS. Documentation comes from [PubChem](https://pubchem.ncbi.nlm.nih.gov/), U.S. National Library of Medicine; cite [Kim et al., PubChem 2025 update](https://doi.org/10.1093/nar/gkae1059) and retain source-specific rights. Pool membership refers to [Ahmed Berat Özer’s training/COCONUT collection](https://www.kaggle.com/datasets/ahmedberatozer/casmi26-v2-pool); training membership refers to Enveda’s competition data. No competition spectra or test data are included.\n\nDescriptor calculations use RDKit (BSD 3-Clause) and the [Ertl et al. natural-product likeness model](https://doi.org/10.1021/ci700286x).\n\nThe external reference spectra come from MassBank (MassBank-data release 2026.03; MassBank contributors), MoNA (Fiehn Lab, UC Davis, and original submitters) and GNPS (contributing laboratories and submitters); record-level licences (CC BY 4.0, CC0 1.0) and original attributions are kept with every spectrum and summarised in `external_reference_spectra/LICENCES.md`.\n"
+    },
+    {
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "version": 10,
+      "used_v56": true,
+      "card_path": "third_party/flexonafft_evidence_gap/dataset_metadata/dmitriigluzdov__casmi26-natural-product-panel-benchmark.json",
+      "card_sha256": "4c26a06d6a54aac014919cebd85f62ae770cbe73b6e13b7d574fc9145fe796ba",
+      "owner": "Dmitrii Gluzdov",
+      "license": "Other (specified in description)",
+      "description_license_section": "\n\nIdentifiers, masses, answer formulas, scores and validation assignments remain under the [competition data terms](https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/data). The added replay helper is Apache-2.0. No spectra or hidden-test data are distributed. PubChem and other annotations retain their source-specific terms.\n\nCredit Enveda for the panel data; [Ahmed Berat Özer](https://www.kaggle.com/ahmedberatozer) for the public pipeline, FPNet models, candidate collections and LightGBM rankers; and [Sorokina et al., COCONUT](https://doi.org/10.1186/s13321-020-00478-9) for the natural-product structures. PubChem documentation is credited to the U.S. National Library of Medicine and [Kim et al.](https://doi.org/10.1093/nar/gkae1059). The LOTUS frozen export is the 2026-04-13 release ([Zenodo 19360665](https://doi.org/10.5281/zenodo.19360665)), CC BY 4.0; credit [Rutz et al.](https://doi.org/10.7554/eLife.70780) and the LOTUS contributors; NPAtlas specifies CC BY-NC 4.0 ([van Santen et al.](https://doi.org/10.1093/nar/gkab941)), with snapshot-specific attribution retained. PubChemLite and its candidate files are credited to [Schymanski et al., 2021](https://doi.org/10.1186/s13321-021-00489-0), cosmicbe and franciscoangulo under CC0.\n"
+    },
+    {
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "version": 13,
+      "used_v56": true,
+      "card_path": "third_party/flexonafft_evidence_gap/dataset_metadata/datasets__view__dmitriigluzdov__casmi26-pubchem-popularity-prior.json",
+      "card_sha256": "4e40d3413b510e987695dfc16470ceba3f3e72a0f704ed621b662a700435e045",
+      "owner": "Dmitrii Gluzdov",
+      "license": "Other (specified in description)",
+      "description_license_section": "\n\n**Courtesy of the U.S. National Library of Medicine.** This dated PubChem snapshot is not the latest release, and NLM does not endorse the dataset. PubChem-generated information is public-domain U.S. government information; contributed material can carry source-specific rights. Reuse follows the [NCBI data-use policy](https://www.ncbi.nlm.nih.gov/home/about/policies/), [NLM FTP terms](https://www.nlm.nih.gov/databases/download/terms_and_conditions.html) and [PubChem source guidance](https://pubchem.ncbi.nlm.nih.gov/docs/downloads). Cite [Kim et al., PubChem 2025 update](https://doi.org/10.1093/nar/gkae1059).\n\nLOTUS counts and membership use the frozen release of 2026-04-13 ([Zenodo](https://doi.org/10.5281/zenodo.19360665)), CC BY 4.0; credit [Rutz et al.](https://doi.org/10.7554/eLife.70780). NPAtlas data are [CC BY-NC 4.0](https://www.npatlas.org/download): non-commercial use with attribution to [van Santen et al. and contributors](https://doi.org/10.1093/nar/gkab941). The mass-sorted PubChem tier is [Ahmed Berat Özer’s](https://www.kaggle.com/datasets/ahmedberatozer/casmi26-pubchem-tier); COCONUT membership and the fingerprint bit selection follow his [public pool](https://www.kaggle.com/datasets/ahmedberatozer/casmi26-v2-pool).\n\nThe popularity formulation appeared in [wangpenghua’s notebook](https://www.kaggle.com/code/wangpenghua/casmi26-v21-v4i-pop); these counts were independently rebuilt from primary PubChem files. Related methods are [MetFrag](https://doi.org/10.1186/s13321-016-0115-9) and [PubChemLite](https://doi.org/10.1186/s13321-021-00489-0). The dataset contains no competition spectra or answer tables.\n"
+    },
+    {
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "version": 9,
+      "used_v56": true,
+      "card_path": "third_party/flexonafft_evidence_gap/dataset_metadata/dmitriigluzdov__casmi26-attributed-v4g-reproduction-assets.json",
+      "card_sha256": "dd63983e11e529c1e426a6d72c8dd0f356df7fca618c00f4b8b152d48096c76c",
+      "owner": "Dmitrii Gluzdov",
+      "license": "CC BY-NC-SA 4.0",
+      "description_license_section": "\n\nThe collection follows **CC BY-NC-SA 4.0**, with component-specific terms retained. Non-commercial use, attribution and share-alike apply to the relevant files; competition-derived and COCONUT-derived assets also retain their source restrictions. Ahmed Berat Özer's upstream dataset fields are **Other**, with terms in their cards. His linked notebook code is Apache-2.0; this does not relicense all models and data as Apache-2.0 or CC0.\n\nCredit [Ahmed Berat Özer](https://www.kaggle.com/code/ahmedberatozer/casmi26-v4g-inference) for the original inference code, candidate collections, FPNet models, LightGBM rankers and model runners. [prvsiyan](https://www.kaggle.com/code/prvsiyan/analog-propagation-casmi-2026-baseline) supplied fingerprint models, ranker features and candidate banks under CC BY-NC-SA 4.0. [megayak](https://www.kaggle.com/code/megayak/casmi26-two-rankers-one-engine) supplied simulated ranking rows under CC0. sergiomalv supplied the later ChEBI/LIPID MAPS set under CC BY 4.0; franciscoangulo supplied PubChemLite candidates under CC0, derived from cosmicbe and [Schymanski et al., 2021](https://doi.org/10.1186/s13321-021-00489-0).\n\nICEBERG and GLACIER are by the Coley group ([ms-pred](https://github.com/coleygroup/ms-pred); [Goldman et al., 2024](https://doi.org/10.1021/acs.analchem.3c04654)). hengck23 supplied the MIT-labelled DreaMS resource; DreaMS is by [Bushuiev et al., 2025](https://www.nature.com/articles/s41587-025-02663-3). The RDKit developers supplied the chemistry toolkit; metric and eveliaveldrine supplied the wheels, whose recorded labels are unknown and Apache-2.0 respectively, with original notices retained. Primary data come from Enveda, [COCONUT](https://coconut.naturalproducts.net/), [ChEBI](https://www.ebi.ac.uk/chebi/), [LIPID MAPS](https://www.lipidmaps.org/) and [PubChem](https://pubchem.ncbi.nlm.nih.gov/). Copying and documenting these resources does not claim authorship of them.\n"
+    },
+    {
+      "ref": "ahmedberatozer/casmi26-spectrum-model-long",
+      "version": 1,
+      "used_v56": false,
+      "card_path": "third_party/flexonafft_evidence_gap/dataset_metadata/ahmedberatozer__casmi26-spectrum-model-long.json",
+      "card_sha256": "03fad5a2988afacc6876746220ebf004c161f9631b43b9165a2b9e903198c3a4",
+      "owner": "Ahmed Berat Özer",
+      "license": "Other (specified in description)",
+      "description_license_section": null
+    },
+    {
+      "ref": "sanpier/catalogue-experiment-saner",
+      "version": 1,
+      "used_v56": false,
+      "card_path": "third_party/flexonafft_evidence_gap/dataset_metadata/sanpier__catalogue-experiment-saner.json",
+      "card_sha256": "8e021edeee015cdf4ddb5020a27e0383c6742f07419310bc875c6a2395d40308",
+      "owner": "Saner Turhaner",
+      "license": "Unknown",
+      "description_license_section": null
+    }
+  ]
+}

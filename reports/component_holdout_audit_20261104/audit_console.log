@@ -1,0 +1,13 @@
+saner rows=0 heavy_cache=277566 canonical_checked=0
+saner rows=50000 heavy_cache=280107 canonical_checked=3637
+saner rows=100000 heavy_cache=282606 canonical_checked=7171
+saner rows=150000 heavy_cache=285179 canonical_checked=10622
+saner rows=200000 heavy_cache=287751 canonical_checked=14129
+saner rows=250000 heavy_cache=290268 canonical_checked=17558
+fold0 rows=0 heavy_cache=291476 canonical_checked=0
+fold0 rows=50000 heavy_cache=291476 canonical_checked=3796
+fold0 rows=100000 heavy_cache=291476 canonical_checked=7428
+fold0 rows=150000 heavy_cache=291476 canonical_checked=11098
+fold0 rows=200000 heavy_cache=291476 canonical_checked=14652
+fold0 rows=250000 heavy_cache=291476 canonical_checked=17857
+{"saner_molecules": 273833, "saner_train": 246450, "saner_validation": 27383, "saner_spectra": 2430327, "saner_spectra_split": {"train": 2182893, "validation": 247434}, "fold0_excluded_rows": 55367, "fold0_exclusion_reasons": {"hold": 55102, "np": 265}, "declared_key_intersection_count": 5449, "saner_checkpoint_selection_identities": 1000, "declared_intersection_selection_used": 210, "declared_intersection_selection_not_used": 5239, "selected_intersection_queries": 78, "official_identity_audited_targets": 125, "verified_eligible_selected_queries": 78}

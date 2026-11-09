@@ -1,0 +1,36 @@
+{
+  "asset_store": "D:\\Paper\\casmi\\assets\\kaggle",
+  "view": "D:\\Paper\\casmi\\third_party\\flexonafft_evidence_gap\\prepare_check_output\\input_view",
+  "links": [
+    {
+      "link": "D:\\Paper\\casmi\\third_party\\flexonafft_evidence_gap\\prepare_check_output\\input_view\\datasets\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets",
+      "target": "D:\\Paper\\casmi\\assets\\kaggle\\dmitriigluzdov\\casmi26-attributed-v4g-reproduction-assets\\v9"
+    },
+    {
+      "link": "D:\\Paper\\casmi\\third_party\\flexonafft_evidence_gap\\prepare_check_output\\input_view\\datasets\\dmitriigluzdov\\casmi26-fold-safe-fpnet",
+      "target": "D:\\Paper\\casmi\\assets\\kaggle\\dmitriigluzdov\\casmi26-fold-safe-fpnet\\v5"
+    },
+    {
+      "link": "D:\\Paper\\casmi\\third_party\\flexonafft_evidence_gap\\prepare_check_output\\input_view\\datasets\\dmitriigluzdov\\casmi26-natural-product-knowledge-table",
+      "target": "D:\\Paper\\casmi\\assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-knowledge-table\\v10"
+    },
+    {
+      "link": "D:\\Paper\\casmi\\third_party\\flexonafft_evidence_gap\\prepare_check_output\\input_view\\datasets\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark",
+      "target": "D:\\Paper\\casmi\\assets\\kaggle\\dmitriigluzdov\\casmi26-natural-product-panel-benchmark\\v10"
+    },
+    {
+      "link": "D:\\Paper\\casmi\\third_party\\flexonafft_evidence_gap\\prepare_check_output\\input_view\\datasets\\dmitriigluzdov\\casmi26-pubchem-popularity-prior",
+      "target": "D:\\Paper\\casmi\\assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13"
+    },
+    {
+      "link": "D:\\Paper\\casmi\\third_party\\flexonafft_evidence_gap\\prepare_check_output\\input_view\\datasets\\sanpier\\casmi-spectrum-model-v1",
+      "target": "D:\\Paper\\casmi\\assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1"
+    },
+    {
+      "link": "D:\\Paper\\casmi\\third_party\\flexonafft_evidence_gap\\prepare_check_output\\input_view\\competitions\\enveda-CASMI26-molecule-id-mass-spectra",
+      "target": "D:\\Paper\\casmi\\enveda-CASMI26-molecule-id-mass-spectra"
+    }
+  ],
+  "missing_directories": [],
+  "note": "Symlinks are materialized on Linux only. All targets stay in the configured workspace."
+}

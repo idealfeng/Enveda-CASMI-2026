@@ -1,0 +1,3903 @@
+{
+  "rdkit": "2026.03.3",
+  "status": "completed_component_exposure_audit",
+  "elapsed_seconds": 90.296165763,
+  "inputs": [
+    {
+      "path": "assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/molecules.parquet",
+      "bytes": 12176141,
+      "sha256": "f566b7344cae9299e187f1de4b7a783098e92bbf6b970f5cd5b2f5fe35e53276"
+    },
+    {
+      "path": "assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/spectrum_split_manifest.parquet",
+      "bytes": 7034971,
+      "sha256": "84c5e37e1a468fedd0c3e508516c93e81e39c38efc618101d081e77447bf7c70"
+    },
+    {
+      "path": "assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/train.py",
+      "bytes": 11003,
+      "sha256": "6204c62462be4f686fa2e1d46d7d42b994c0087ee8e51fc84208e299d72081d2"
+    },
+    {
+      "path": "assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/prepare.py",
+      "bytes": 5797,
+      "sha256": "3cd819e73715e657e9b1d280ffc1a8de3210b106431f52d1756ce813b86d223b"
+    },
+    {
+      "path": "assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/features.py",
+      "bytes": 2356,
+      "sha256": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455"
+    },
+    {
+      "path": "assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/training_result.json",
+      "bytes": 390,
+      "sha256": "b1ec8850960aa1d439f72a73f432b5daedfee5764509885db91b56e53496f92e"
+    },
+    {
+      "path": "assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/best_validation_model.pt",
+      "bytes": 11873492,
+      "sha256": "969d13443fcf168eae1e00e56a8e0ae87dcb16f337cb6dbac959e7cd218f089c"
+    },
+    {
+      "path": "assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/final_model.pt",
+      "bytes": 11872818,
+      "sha256": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642"
+    },
+    {
+      "path": "assets/kaggle/dmitriigluzdov/casmi26-fold-safe-fpnet/v5/split.parquet",
+      "bytes": 2204455,
+      "sha256": "dd62549f81b9540890e0da17a06d0dcd216a2781b2c31687bd333445fe57d45e"
+    },
+    {
+      "path": "assets/kaggle/dmitriigluzdov/casmi26-fold-safe-fpnet/v5/MODEL_INPUTS.json",
+      "bytes": 910,
+      "sha256": "672a9a9c9a00c191c84faba8a1c8e2555969644e09d70844851de04f7889b6ef"
+    },
+    {
+      "path": "assets/kaggle/dmitriigluzdov/casmi26-fold-safe-fpnet/v5/fpnet_fold0.pt",
+      "bytes": 198789484,
+      "sha256": "ddf6eaaa8e541a16e3f0357ed30f0346e529054f75d5619aedb6024dcb1bd7f0"
+    },
+    {
+      "path": "assets/kaggle/ahmedberatozer/casmi26-v2-pool/v1/train_structs.parquet",
+      "bytes": 23306834,
+      "sha256": "f20aa1cac23af42e430a6633707fda34e48dea97114bdc3e443897f692df3656"
+    }
+  ],
+  "source_assets": {
+    "saner": {
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "license_card": "Apache-2.0 for author artifacts; third-party and competition-data terms retained"
+    },
+    "fold0": {
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "version": 5,
+      "license_card": "Checkpoint and competition-derived data: non-commercial with attribution; training/audit scripts Apache-2.0"
+    }
+  },
+  "published_training_result": {
+    "best_epoch": 16,
+    "best_diagnostic_mrr25": 0.48440741342338733,
+    "completed_epochs": 16,
+    "time_budget_exhausted": false,
+    "refit": {
+      "best_epoch": 0,
+      "best_diagnostic_mrr25": null,
+      "completed_epochs": 16,
+      "time_budget_exhausted": false
+    },
+    "final_model_training": "full data, including former validation identities; DO NOT evaluate this model on that holdout"
+  },
+  "checkpoint_metadata": {
+    "final_model.pt": {
+      "epoch": 16,
+      "stage": "full_refit"
+    },
+    "best_validation_model.pt": {
+      "epoch": 16,
+      "stage": "holdout"
+    }
+  },
+  "split_counts": {
+    "saner_molecules": 273833,
+    "saner_train": 246450,
+    "saner_validation": 27383,
+    "saner_spectra": 2430327,
+    "saner_spectra_split": {
+      "train": 2182893,
+      "validation": 247434
+    },
+    "fold0_excluded_rows": 55367,
+    "fold0_exclusion_reasons": {
+      "hold": 55102,
+      "np": 265
+    },
+    "declared_key_intersection_count": 5449,
+    "saner_checkpoint_selection_identities": 1000,
+    "declared_intersection_selection_used": 210,
+    "declared_intersection_selection_not_used": 5239,
+    "selected_intersection_queries": 78,
+    "official_identity_audited_targets": 125,
+    "verified_eligible_selected_queries": 32,
+    "verified_training_unseen_before_candidate_selection_exclusion": 78,
+    "verified_training_unseen_touched_as_selection_candidate": 46
+  },
+  "saner_published_hash_checks": {
+    "runtime_test.py": {
+      "present": false,
+      "match": null
+    },
+    "environment.json": {
+      "present": true,
+      "match": true
+    },
+    "refit_history.json": {
+      "present": true,
+      "match": true
+    },
+    "best_validation_model.pt": {
+      "present": true,
+      "match": true
+    },
+    "model.py": {
+      "present": true,
+      "match": true
+    },
+    "training_result.json": {
+      "present": true,
+      "match": true
+    },
+    "data_audit.json": {
+      "present": true,
+      "match": true
+    },
+    "validation_predictions.csv": {
+      "present": false,
+      "match": null
+    },
+    "prepare.py": {
+      "present": true,
+      "match": true
+    },
+    "config.json": {
+      "present": true,
+      "match": true
+    },
+    "train.py": {
+      "present": true,
+      "match": true
+    },
+    "molecules.parquet": {
+      "present": true,
+      "match": true
+    },
+    "final_model.pt": {
+      "present": true,
+      "match": true
+    },
+    "last_validation_model.pt": {
+      "present": false,
+      "match": null
+    },
+    "spectrum_split_manifest.parquet": {
+      "present": true,
+      "match": true
+    },
+    "inference.py": {
+      "present": true,
+      "match": true
+    },
+    "validation_candidates.npz": {
+      "present": false,
+      "match": null
+    },
+    "training_history.json": {
+      "present": true,
+      "match": true
+    },
+    "README.txt": {
+      "present": true,
+      "match": true
+    },
+    "features.py": {
+      "present": true,
+      "match": true
+    }
+  },
+  "fold0_manifest_checks": {
+    "MANIFEST_20261019.json": {
+      "MODEL_INPUTS.json": {
+        "match": true
+      },
+      "README.md": {
+        "match": false
+      },
+      "SOURCE_CHECK_20261019.md": {
+        "match": false
+      },
+      "SPLIT_AUDIT.json": {
+        "match": false
+      },
+      "fp_bits.npy": {
+        "match": true
+      },
+      "fpnet_fold0.pt": {
+        "match": true
+      },
+      "identity_audit.json": {
+        "match": true
+      },
+      "make_split.py": {
+        "match": true
+      },
+      "split.parquet": {
+        "match": true
+      },
+      "train_fpnet.py": {
+        "match": true
+      }
+    },
+    "MANIFEST_FIVEFOLD.json": {
+      "MANIFEST_20261019.json": {
+        "match": true
+      },
+      "MODEL_INPUTS.json": {
+        "match": true
+      },
+      "SOURCE_CHECK_20261019.md": {
+        "match": true
+      },
+      "SPLIT_AUDIT.json": {
+        "match": true
+      },
+      "check_inputs_fold0.json": {
+        "match": true
+      },
+      "fp_bits.npy": {
+        "match": true
+      },
+      "fpnet_fold0.pt": {
+        "match": true
+      },
+      "identity_audit.json": {
+        "match": true
+      },
+      "make_split.py": {
+        "match": true
+      },
+      "split.parquet": {
+        "match": true
+      },
+      "train_fpnet.py": {
+        "match": true
+      }
+    }
+  },
+  "official_identity_search": {
+    "method": "All Saner molecule and all fold0 structure rows scanned; heavy composition recomputed/cached from actual SMILES, then all composition-compatible rows canonicalized with official stereo-before-tautomer identity. No full-formula gate.",
+    "composition_compatible_rows_canonicalized": {
+      "saner": 19242,
+      "fold0": 19421
+    },
+    "scope": "Only audited targets; declared intersection count alone is not equivalence-audited."
+  },
+  "records": [
+    {
+      "identity": "LBOWCJTVCNOYBD",
+      "normalized_smiles": "c1ccc(Cc2nnc(SCc3cccc4ccccc34)o2)cc1",
+      "declared_key": "LBOWCJTVCNOYBD",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "LBOWCJTVCNOYBD",
+          "smiles": "c1ccc(Cc2nnc(SCc3cccc4ccccc34)o2)cc1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "LBOWCJTVCNOYBD",
+          "smiles": "c1ccc(Cc2nnc(SCc3cccc4ccccc34)o2)cc1",
+          "sid": 78683,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "ZLWPLUJYEOHHTE",
+      "normalized_smiles": "CC(NC(=O)c1ccccc1Sc1ccccc1)C(=O)N(C)C",
+      "declared_key": "ZLWPLUJYEOHHTE",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "ZLWPLUJYEOHHTE",
+          "smiles": "CC(NC(=O)c1ccccc1Sc1ccccc1)C(=O)N(C)C",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "ZLWPLUJYEOHHTE",
+          "smiles": "CC(NC(=O)c1ccccc1Sc1ccccc1)C(=O)N(C)C",
+          "sid": 181414,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "NZQPNSJHDFVFDT",
+      "normalized_smiles": "CCN(CC)CC(O)COc1ccccc1C1CC2CCC1C2",
+      "declared_key": "NZQPNSJHDFVFDT",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "NZQPNSJHDFVFDT",
+          "smiles": "CCN(CC)CC(O)COc1ccccc1C1CC2CCC1C2",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "NZQPNSJHDFVFDT",
+          "smiles": "CCN(CC)CC(O)COc1ccccc1C1CC2CCC1C2",
+          "sid": 208327,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "UAODGACGPXPALK",
+      "normalized_smiles": "Cc1c(NC(=O)c2cc(C(=O)O)co2)cccc1C(=O)N1CCCC1",
+      "declared_key": "UAODGACGPXPALK",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "UAODGACGPXPALK",
+          "smiles": "Cc1c(NC(=O)c2cc(C(=O)O)co2)cccc1C(=O)N1CCCC1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "UAODGACGPXPALK",
+          "smiles": "Cc1c(NC(=O)c2cc(C(=O)O)co2)cccc1C(=O)N1CCCC1",
+          "sid": 140541,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "BNSLBDHDDFTTMY",
+      "normalized_smiles": "Cc1cc(NC(=O)CCC2CCCCC2)n(C2CCS(=O)(=O)C2)n1",
+      "declared_key": "BNSLBDHDDFTTMY",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "BNSLBDHDDFTTMY",
+          "smiles": "Cc1cc(NC(=O)CCC2CCCCC2)n(C2CCS(=O)(=O)C2)n1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "BNSLBDHDDFTTMY",
+          "smiles": "Cc1cc(NC(=O)CCC2CCCCC2)n(C2CCS(=O)(=O)C2)n1",
+          "sid": 14065,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "JDRSXUYFIJWSDN",
+      "normalized_smiles": "CCC=CCC=CCC=CCC=CCC(C=CC=CCCC(=O)O)OO",
+      "declared_key": "JDRSXUYFIJWSDN",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "JDRSXUYFIJWSDN",
+          "smiles": "CCC=CCC=CCC=CCC=CCC(C=CC=CCCC(=O)O)OO",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "JDRSXUYFIJWSDN",
+          "smiles": "CCC=CCC=CCC=CCC=CCC(C=CC=CCCC(=O)O)OO",
+          "sid": 199703,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "IZRWEMXHQWLELG",
+      "normalized_smiles": "CC(COc1cccc(F)c1)NC(=O)NC(c1nccs1)C1CC1",
+      "declared_key": "IZRWEMXHQWLELG",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "IZRWEMXHQWLELG",
+          "smiles": "CC(COc1cccc(F)c1)NC(=O)NC(c1nccs1)C1CC1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "IZRWEMXHQWLELG",
+          "smiles": "CC(COc1cccc(F)c1)NC(=O)NC(c1nccs1)C1CC1",
+          "sid": 63092,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "QRVYABWJVXXOTN",
+      "normalized_smiles": "CSc1ccc(C=O)cc1",
+      "declared_key": "QRVYABWJVXXOTN",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "QRVYABWJVXXOTN",
+          "smiles": "CSc1ccc(C=O)cc1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "QRVYABWJVXXOTN",
+          "smiles": "CSc1ccc(C=O)cc1",
+          "sid": 230579,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "SBIHOUOFMUCLIQ",
+      "normalized_smiles": "Cc1nc(C(=O)NC2(c3cccc(OC(F)(F)F)c3)CCOCC2)c2ccccn12",
+      "declared_key": "SBIHOUOFMUCLIQ",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "SBIHOUOFMUCLIQ",
+          "smiles": "Cc1nc(C(=O)NC2(c3cccc(OC(F)(F)F)c3)CCOCC2)c2ccccn12",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "SBIHOUOFMUCLIQ",
+          "smiles": "Cc1nc(C(=O)NC2(c3cccc(OC(F)(F)F)c3)CCOCC2)c2ccccn12",
+          "sid": 131432,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "QEAQLAFWHNTASE",
+      "normalized_smiles": "O=C(NC1CCCCNC1=O)c1ccnc(-n2cncn2)c1",
+      "declared_key": "QEAQLAFWHNTASE",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "QEAQLAFWHNTASE",
+          "smiles": "O=C(NC1CCCCNC1=O)c1ccnc(-n2cncn2)c1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "QEAQLAFWHNTASE",
+          "smiles": "O=C(NC1CCCCNC1=O)c1ccnc(-n2cncn2)c1",
+          "sid": 117239,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "XJBJWMXUWGIXLB",
+      "normalized_smiles": "CC(C)CC1NC(=O)C(Cc2ccoc2)N(C)C(=O)C(C(C)C)NC(=O)C2CCCN2C1=O",
+      "declared_key": "XJBJWMXUWGIXLB",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "XJBJWMXUWGIXLB",
+          "smiles": "CC(C)CC1NC(=O)C(Cc2ccoc2)N(C)C(=O)C(C(C)C)NC(=O)C2CCCN2C1=O",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "XJBJWMXUWGIXLB",
+          "smiles": "CC(C)CC1NC(=O)C(Cc2ccoc2)N(C)C(=O)C(C(C)C)NC(=O)C2CCCN2C1=O",
+          "sid": 223569,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "JPDTYDPXYQZPDR",
+      "normalized_smiles": "CC(NC(=O)C1CCCO1)c1ccc(Cl)c(Cl)c1",
+      "declared_key": "JPDTYDPXYQZPDR",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "JPDTYDPXYQZPDR",
+          "smiles": "CC(NC(=O)C1CCCO1)c1ccc(Cl)c(Cl)c1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "JPDTYDPXYQZPDR",
+          "smiles": "CC(NC(=O)C1CCCO1)c1ccc(Cl)c(Cl)c1",
+          "sid": 67532,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "SZQCLXFQTJNJDY",
+      "normalized_smiles": "CCCCCCCC=CC(O)C(COP(=O)([O-])OCC[N+](C)(C)C)NC(=O)CCCCCCCCCCCCCCCCCC=CCCCCCCCCCC",
+      "declared_key": "SZQCLXFQTJNJDY",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "SZQCLXFQTJNJDY",
+          "smiles": "CCCCCCCC=CC(O)C(COP(=O)([O-])OCC[N+](C)(C)C)NC(=O)CCCCCCCCCCCCCCCCCC=CCCCCCCCCCC",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "SZQCLXFQTJNJDY",
+          "smiles": "CCCCCCCC=CC(O)C(COP(=O)([O-])OCC[N+](C)(C)C)NC(=O)CCCCCCCCCCCCCCCCCC=CCCCCCCCCCC",
+          "sid": 273335,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "BOFYHGJZMGCGCV",
+      "normalized_smiles": "O=C(O)C(CNS(=O)(=O)c1ccc(F)c(F)c1)C1CCOCC1",
+      "declared_key": "BOFYHGJZMGCGCV",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "BOFYHGJZMGCGCV",
+          "smiles": "O=C(O)C(CNS(=O)(=O)c1ccc(F)c(F)c1)C1CCOCC1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "BOFYHGJZMGCGCV",
+          "smiles": "O=C(O)C(CNS(=O)(=O)c1ccc(F)c(F)c1)C1CCOCC1",
+          "sid": 14194,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "HLVNITAIGASJBA",
+      "normalized_smiles": "Cc1cc(C)cc(OCC(=O)Nc2nonc2NC(=O)COc2cc(C)cc(C)c2)c1",
+      "declared_key": "HLVNITAIGASJBA",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "HLVNITAIGASJBA",
+          "smiles": "Cc1cc(C)cc(OCC(=O)Nc2nonc2NC(=O)COc2cc(C)cc(C)c2)c1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "HLVNITAIGASJBA",
+          "smiles": "Cc1cc(C)cc(OCC(=O)Nc2nonc2NC(=O)COc2cc(C)cc(C)c2)c1",
+          "sid": 243604,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "ZBQJHZDILQUELR",
+      "normalized_smiles": "CCOC(=O)c1c(NC(=O)C2CCCO2)sc2c1CCC2",
+      "declared_key": "ZBQJHZDILQUELR",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "ZBQJHZDILQUELR",
+          "smiles": "CCOC(=O)c1c(NC(=O)C2CCCO2)sc2c1CCC2",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "ZBQJHZDILQUELR",
+          "smiles": "CCOC(=O)c1c(NC(=O)C2CCCO2)sc2c1CCC2",
+          "sid": 263822,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "ZGNUKVOCLXSERM",
+      "normalized_smiles": "CCNC(=O)N1CCC(NC(=O)c2cscc2Br)C1",
+      "declared_key": "ZGNUKVOCLXSERM",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "ZGNUKVOCLXSERM",
+          "smiles": "CCNC(=O)N1CCC(NC(=O)c2cscc2Br)C1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "ZGNUKVOCLXSERM",
+          "smiles": "CCNC(=O)N1CCC(NC(=O)c2cscc2Br)C1",
+          "sid": 179891,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "HIBAFEVHSBMPCG",
+      "normalized_smiles": "CC1(O)CCCCC1C1CCCN1Cc1ccc(C(N)=O)cc1",
+      "declared_key": "HIBAFEVHSBMPCG",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "HIBAFEVHSBMPCG",
+          "smiles": "CC1(O)CCCCC1C1CCCN1Cc1ccc(C(N)=O)cc1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "HIBAFEVHSBMPCG",
+          "smiles": "CC1(O)CCCCC1C1CCCN1Cc1ccc(C(N)=O)cc1",
+          "sid": 50379,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "JXXVHZCZHDCHTI",
+      "normalized_smiles": "COCC1(C(N)=O)CCCN1C(=O)c1cnn(CCC(F)(F)F)c1",
+      "declared_key": "JXXVHZCZHDCHTI",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "JXXVHZCZHDCHTI",
+          "smiles": "COCC1(C(N)=O)CCCN1C(=O)c1cnn(CCC(F)(F)F)c1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "JXXVHZCZHDCHTI",
+          "smiles": "COCC1(C(N)=O)CCCN1C(=O)c1cnn(CCC(F)(F)F)c1",
+          "sid": 70031,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "DRQRWIRTQLEHLQ",
+      "normalized_smiles": "C=C1CCC2C(C)(CO)CCCC2(C)C1COC(C(=O)OC)C(CC(=O)O)C(=O)OCC1(C)CCCC2(C)C(COC(C(=O)OC)C(CC(=O)O)C(=O)OCC3(C)CCCC4(C)C(COC(C(=O)OC)C(CC(=O)OC)C(=O)O)C(=C)CCC34)C(=C)CCC12",
+      "declared_key": "DRQRWIRTQLEHLQ",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "DRQRWIRTQLEHLQ",
+          "smiles": "C=C1CCC2C(C)(CO)CCCC2(C)C1COC(C(=O)OC)C(CC(=O)O)C(=O)OCC1(C)CCCC2(C)C(COC(C(=O)OC)C(CC(=O)O)C(=O)OCC3(C)CCCC4(C)C(COC(C(=O)OC)C(CC(=O)OC)C(=O)O)C(=C)CCC34)C(=C)CCC12",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "DRQRWIRTQLEHLQ",
+          "smiles": "C=C1CCC2C(C)(CO)CCCC2(C)C1COC(C(=O)OC)C(CC(=O)O)C(=O)OCC1(C)CCCC2(C)C(COC(C(=O)OC)C(CC(=O)O)C(=O)OCC3(C)CCCC4(C)C(COC(C(=O)OC)C(CC(=O)OC)C(=O)O)C(=C)CCC34)C(=C)CCC12",
+          "sid": 232206,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "KYHNBDBXHLKBMK",
+      "normalized_smiles": "Cc1cc(CNS(=O)(=O)c2cc(Cl)cc(C(=O)O)c2)no1",
+      "declared_key": "KYHNBDBXHLKBMK",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "KYHNBDBXHLKBMK",
+          "smiles": "Cc1cc(CNS(=O)(=O)c2cc(Cl)cc(C(=O)O)c2)no1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "KYHNBDBXHLKBMK",
+          "smiles": "Cc1cc(CNS(=O)(=O)c2cc(Cl)cc(C(=O)O)c2)no1",
+          "sid": 77784,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "FXQWNOQBKFDNLT",
+      "normalized_smiles": "CCn1c(CNC(=O)c2cc(S(=O)(=O)N3CCCC3)c(C)o2)nc2ccccc21",
+      "declared_key": "FXQWNOQBKFDNLT",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "FXQWNOQBKFDNLT",
+          "smiles": "CCn1c(CNC(=O)c2cc(S(=O)(=O)N3CCCC3)c(C)o2)nc2ccccc21",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "FXQWNOQBKFDNLT",
+          "smiles": "CCn1c(CNC(=O)c2cc(S(=O)(=O)N3CCCC3)c(C)o2)nc2ccccc21",
+          "sid": 39731,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "FRRMLZZVOVVGKH",
+      "normalized_smiles": "O=C(CNC(=O)c1ccc(F)cc1)NCc1cc2n(n1)CCCC2",
+      "declared_key": "FRRMLZZVOVVGKH",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "FRRMLZZVOVVGKH",
+          "smiles": "O=C(CNC(=O)c1ccc(F)cc1)NCc1cc2n(n1)CCCC2",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "FRRMLZZVOVVGKH",
+          "smiles": "O=C(CNC(=O)c1ccc(F)cc1)NCc1cc2n(n1)CCCC2",
+          "sid": 37955,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "JUZKJRCQOTVZDE",
+      "normalized_smiles": "Cc1ccc(N2CCCC2)c(C(=O)NCC2CC(F)CN2)c1",
+      "declared_key": "JUZKJRCQOTVZDE",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "JUZKJRCQOTVZDE",
+          "smiles": "Cc1ccc(N2CCCC2)c(C(=O)NCC2CC(F)CN2)c1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "JUZKJRCQOTVZDE",
+          "smiles": "Cc1ccc(N2CCCC2)c(C(=O)NCC2CC(F)CN2)c1",
+          "sid": 69181,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "GNIXUCYEDDUZAO",
+      "normalized_smiles": "Cc1ccc(OC(C)C(=O)N2CCC(C(=O)O)C2)cc1",
+      "declared_key": "GNIXUCYEDDUZAO",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "GNIXUCYEDDUZAO",
+          "smiles": "Cc1ccc(OC(C)C(=O)N2CCC(C(=O)O)C2)cc1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "GNIXUCYEDDUZAO",
+          "smiles": "Cc1ccc(OC(C)C(=O)N2CCC(C(=O)O)C2)cc1",
+          "sid": 44266,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "YYWZKGZIIKPPJZ",
+      "normalized_smiles": "CC1(O)CCC2CC1C2(C)C",
+      "declared_key": "YYWZKGZIIKPPJZ",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "YYWZKGZIIKPPJZ",
+          "smiles": "CC1(O)CCC2CC1C2(C)C",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "YYWZKGZIIKPPJZ",
+          "smiles": "CC1(O)CCC2CC1C2(C)C",
+          "sid": 231619,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "HIQKXJJFHLCCFB",
+      "normalized_smiles": "CCCCCCCCCCCCCC=CCCC(=O)OCC(COC(=O)CCCCCCCCCCCCCCCCC)OC(=O)CCC=CCCCCCCCCCCCCC",
+      "declared_key": "HIQKXJJFHLCCFB",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "HIQKXJJFHLCCFB",
+          "smiles": "CCCCCCCCCCCCCC=CCCC(=O)OCC(COC(=O)CCCCCCCCCCCCCCCCC)OC(=O)CCC=CCCCCCCCCCCCCC",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "HIQKXJJFHLCCFB",
+          "smiles": "CCCCCCCCCCCCCC=CCCC(=O)OCC(COC(=O)CCCCCCCCCCCCCCCCC)OC(=O)CCC=CCCCCCCCCCCCCC",
+          "sid": 196506,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "FLTJJTRXMHFDJX",
+      "normalized_smiles": "Cc1nn(-c2ccccc2)cc1NC(=O)Nc1ccn(CCC#N)n1",
+      "declared_key": "FLTJJTRXMHFDJX",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "FLTJJTRXMHFDJX",
+          "smiles": "Cc1nn(-c2ccccc2)cc1NC(=O)Nc1ccn(CCC#N)n1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "FLTJJTRXMHFDJX",
+          "smiles": "Cc1nn(-c2ccccc2)cc1NC(=O)Nc1ccn(CCC#N)n1",
+          "sid": 36202,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "XWXFQCCXWWECHP",
+      "normalized_smiles": "Cc1nnc(CNC2CCOc3c(Br)cccc32)o1",
+      "declared_key": "XWXFQCCXWWECHP",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "XWXFQCCXWWECHP",
+          "smiles": "Cc1nnc(CNC2CCOc3c(Br)cccc32)o1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "XWXFQCCXWWECHP",
+          "smiles": "Cc1nnc(CNC2CCOc3c(Br)cccc32)o1",
+          "sid": 169756,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "GUOKGYIYKNUXSE",
+      "normalized_smiles": "COc1cc(C(=O)N2CCNC(c3cccnc3)C2)on1",
+      "declared_key": "GUOKGYIYKNUXSE",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "GUOKGYIYKNUXSE",
+          "smiles": "COc1cc(C(=O)N2CCNC(c3cccnc3)C2)on1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "GUOKGYIYKNUXSE",
+          "smiles": "COc1cc(C(=O)N2CCNC(c3cccnc3)C2)on1",
+          "sid": 46393,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "MRJBZUUQDBQNOR",
+      "normalized_smiles": "O=C(c1ccncc1F)N1CCCC(c2nc(C(F)(F)F)c[nH]2)C1",
+      "declared_key": "MRJBZUUQDBQNOR",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "MRJBZUUQDBQNOR",
+          "smiles": "O=C(c1ccncc1F)N1CCCC(c2nc(C(F)(F)F)c[nH]2)C1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "MRJBZUUQDBQNOR",
+          "smiles": "O=C(c1ccncc1F)N1CCCC(c2ncc(C(F)(F)F)[nH]2)C1",
+          "sid": 90915,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "RKPCXKJOIHDVKC",
+      "normalized_smiles": "COc1cc(C)ccc1OCC(=O)N1CC2OCCN(C)C2C1",
+      "declared_key": "RKPCXKJOIHDVKC",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "RKPCXKJOIHDVKC",
+          "smiles": "COc1cc(C)ccc1OCC(=O)N1CC2OCCN(C)C2C1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "RKPCXKJOIHDVKC",
+          "smiles": "COc1cc(C)ccc1OCC(=O)N1CC2OCCN(C)C2C1",
+          "sid": 126616,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "UTSSXYRZEMUIAT",
+      "normalized_smiles": "Cc1nc2c([nH]1)CC(C(=O)O)CC2",
+      "declared_key": "UTSSXYRZEMUIAT",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "UTSSXYRZEMUIAT",
+          "smiles": "Cc1nc2c([nH]1)CC(C(=O)O)CC2",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "UTSSXYRZEMUIAT",
+          "smiles": "Cc1nc2c([nH]1)CC(C(=O)O)CC2",
+          "sid": 218943,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "OUTQMNFKGNRENF",
+      "normalized_smiles": "CC12CCC(O)CC1=CCC1C2CCC2(C)C(NCCCC(N)C(=O)O)CCC12",
+      "declared_key": "OUTQMNFKGNRENF",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "OUTQMNFKGNRENF",
+          "smiles": "CC12CCC(O)CC1=CCC1C2CCC2(C)C(NCCCC(N)C(=O)O)CCC12",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "OUTQMNFKGNRENF",
+          "smiles": "CC12CCC(O)CC1=CCC1C2CCC2(C)C(NCCCC(N)C(=O)O)CCC12",
+          "sid": 209809,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "BCQACCICJNPRFI",
+      "normalized_smiles": "CC(C)(O)CN1CCN(S(=O)(=O)c2ccccc2OC(F)(F)F)CC1",
+      "declared_key": "BCQACCICJNPRFI",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "BCQACCICJNPRFI",
+          "smiles": "CC(C)(O)CN1CCN(S(=O)(=O)c2ccccc2OC(F)(F)F)CC1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "BCQACCICJNPRFI",
+          "smiles": "CC(C)(O)CN1CCN(S(=O)(=O)c2ccccc2OC(F)(F)F)CC1",
+          "sid": 10916,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "DNGASECKDQHGLD",
+      "normalized_smiles": "CCN(C(=O)CNc1cccc(C(N)=O)c1C)c1ccccc1",
+      "declared_key": "DNGASECKDQHGLD",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "DNGASECKDQHGLD",
+          "smiles": "CCN(C(=O)CNc1cccc(C(N)=O)c1C)c1ccccc1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "DNGASECKDQHGLD",
+          "smiles": "CCN(C(=O)CNc1cccc(C(N)=O)c1C)c1ccccc1",
+          "sid": 29079,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "LYOQQCUIQNDXCT",
+      "normalized_smiles": "COCCC(NC(=O)c1ccnn1C)c1ccc(Cl)c(Cl)c1",
+      "declared_key": "LYOQQCUIQNDXCT",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "LYOQQCUIQNDXCT",
+          "smiles": "COCCC(NC(=O)c1ccnn1C)c1ccc(Cl)c(Cl)c1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "LYOQQCUIQNDXCT",
+          "smiles": "COCCC(NC(=O)c1ccnn1C)c1ccc(Cl)c(Cl)c1",
+          "sid": 85502,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "RMLDUGFLFJVZGE",
+      "normalized_smiles": "Cc1nc(-c2ccccc2)sc1C(=O)NC1(C)CCS(=O)(=O)C1",
+      "declared_key": "RMLDUGFLFJVZGE",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "RMLDUGFLFJVZGE",
+          "smiles": "Cc1nc(-c2ccccc2)sc1C(=O)NC1(C)CCS(=O)(=O)C1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "RMLDUGFLFJVZGE",
+          "smiles": "Cc1nc(-c2ccccc2)sc1C(=O)NC1(C)CCS(=O)(=O)C1",
+          "sid": 127178,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "VSQSVZVTIWDTSL",
+      "normalized_smiles": "CCC(C)NC(=O)C(C)NC(=O)NCCNC(=O)C1CC1",
+      "declared_key": "VSQSVZVTIWDTSL",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "VSQSVZVTIWDTSL",
+          "smiles": "CCC(C)NC(=O)C(C)NC(=O)NCCNC(=O)C1CC1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "VSQSVZVTIWDTSL",
+          "smiles": "CCC(C)NC(=O)C(C)NC(=O)NCCNC(=O)C1CC1",
+          "sid": 153629,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "BDJTXDFMGHJHMO",
+      "normalized_smiles": "Cc1ccc(Cl)c(S(=O)(=O)N2CCCCC2CC(=O)O)c1",
+      "declared_key": "BDJTXDFMGHJHMO",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "BDJTXDFMGHJHMO",
+          "smiles": "Cc1ccc(Cl)c(S(=O)(=O)N2CCCCC2CC(=O)O)c1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "BDJTXDFMGHJHMO",
+          "smiles": "Cc1ccc(Cl)c(S(=O)(=O)N2CCCCC2CC(=O)O)c1",
+          "sid": 11127,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "YMMFHMPSNGFQEL",
+      "normalized_smiles": "O=C(O)c1c[nH]nc1C1CCCCN1C(=O)c1ccncc1F",
+      "declared_key": "YMMFHMPSNGFQEL",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "YMMFHMPSNGFQEL",
+          "smiles": "O=C(O)c1c[nH]nc1C1CCCCN1C(=O)c1ccncc1F",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "YMMFHMPSNGFQEL",
+          "smiles": "O=C(O)c1cn[nH]c1C1CCCCN1C(=O)c1ccncc1F",
+          "sid": 174194,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "HKGUDMGRMGNOSZ",
+      "normalized_smiles": "CC(CC(=O)N1CCC(N(C)CC(=O)O)CC1)c1ccccc1C(F)(F)F",
+      "declared_key": "HKGUDMGRMGNOSZ",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "HKGUDMGRMGNOSZ",
+          "smiles": "CC(CC(=O)N1CCC(N(C)CC(=O)O)CC1)c1ccccc1C(F)(F)F",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "HKGUDMGRMGNOSZ",
+          "smiles": "CC(CC(=O)N1CCC(N(C)CC(=O)O)CC1)c1ccccc1C(F)(F)F",
+          "sid": 51004,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "OVMDCUFYEJWKKG",
+      "normalized_smiles": "O=C(CN1CCCCCC1=O)NCc1cccc(C(=O)O)c1",
+      "declared_key": "OVMDCUFYEJWKKG",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "OVMDCUFYEJWKKG",
+          "smiles": "O=C(CN1CCCCCC1=O)NCc1cccc(C(=O)O)c1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "OVMDCUFYEJWKKG",
+          "smiles": "O=C(CN1CCCCCC1=O)NCc1cccc(C(=O)O)c1",
+          "sid": 107189,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "OEEINNBYJUHEAF",
+      "normalized_smiles": "Cc1ccc(C(=O)N2CC(C(=O)O)c3ccccc32)n1C",
+      "declared_key": "OEEINNBYJUHEAF",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "OEEINNBYJUHEAF",
+          "smiles": "Cc1ccc(C(=O)N2CC(C(=O)O)c3ccccc32)n1C",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "OEEINNBYJUHEAF",
+          "smiles": "Cc1ccc(C(=O)N2CC(C(=O)O)c3ccccc32)n1C",
+          "sid": 102102,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "AWQODIVODGCVAX",
+      "normalized_smiles": "CC(C)c1ccc(-c2nnc(NC(=O)C3CC3)s2)cc1",
+      "declared_key": "AWQODIVODGCVAX",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "AWQODIVODGCVAX",
+          "smiles": "CC(C)c1ccc(-c2nnc(NC(=O)C3CC3)s2)cc1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "AWQODIVODGCVAX",
+          "smiles": "CC(C)c1ccc(-c2nnc(NC(=O)C3CC3)s2)cc1",
+          "sid": 9190,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "PHRUAAKOVITTDU",
+      "normalized_smiles": "CCn1cc(C#N)c(=O)n(CC(=O)Nc2ccc(F)cc2)c1=O",
+      "declared_key": "PHRUAAKOVITTDU",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "PHRUAAKOVITTDU",
+          "smiles": "CCn1cc(C#N)c(=O)n(CC(=O)Nc2ccc(F)cc2)c1=O",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "PHRUAAKOVITTDU",
+          "smiles": "CCn1cc(C#N)c(=O)n(CC(=O)Nc2ccc(F)cc2)c1=O",
+          "sid": 110776,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "FGLSWIGNKJQROW",
+      "normalized_smiles": "CCCCCCCCCCC=CCC=CCCC(=O)OC(COC(=O)CCCCCCCCCCCCCCCC)COP(=O)(O)OCCN",
+      "declared_key": "FGLSWIGNKJQROW",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "FGLSWIGNKJQROW",
+          "smiles": "CCCCCCCCCCC=CCC=CCCC(=O)OC(COC(=O)CCCCCCCCCCCCCCCC)COP(=O)(O)OCCN",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "FGLSWIGNKJQROW",
+          "smiles": "CCCCCCCCCCC=CCC=CCCC(=O)OC(COC(=O)CCCCCCCCCCCCCCCC)COP(=O)(O)OCCN",
+          "sid": 228878,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "HLIZINQVBLNSQY",
+      "normalized_smiles": "Cn1cc(N2CCC(NC(=O)C3(c4ccccc4)CCOCC3)C2=O)cn1",
+      "declared_key": "HLIZINQVBLNSQY",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "HLIZINQVBLNSQY",
+          "smiles": "Cn1cc(N2CCC(NC(=O)C3(c4ccccc4)CCOCC3)C2=O)cn1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "HLIZINQVBLNSQY",
+          "smiles": "Cn1cc(N2CCC(NC(=O)C3(c4ccccc4)CCOCC3)C2=O)cn1",
+          "sid": 51334,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "OAZGQWMFODAEEV",
+      "normalized_smiles": "O=C(O)c1cc2cccn2cn1",
+      "declared_key": "OAZGQWMFODAEEV",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "OAZGQWMFODAEEV",
+          "smiles": "O=C(O)c1cc2cccn2cn1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "OAZGQWMFODAEEV",
+          "smiles": "O=C(O)c1cc2cccn2cn1",
+          "sid": 208408,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "MRNFPNKSQYYGKV",
+      "normalized_smiles": "COC1CC(CNC(=O)c2coc3cc(F)ccc23)N(c2ccncn2)C1",
+      "declared_key": "MRNFPNKSQYYGKV",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "MRNFPNKSQYYGKV",
+          "smiles": "COC1CC(CNC(=O)c2coc3cc(F)ccc23)N(c2ccncn2)C1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "MRNFPNKSQYYGKV",
+          "smiles": "COC1CC(CNC(=O)c2coc3cc(F)ccc23)N(c2ccncn2)C1",
+          "sid": 90968,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "CYSZMFXMGADWER",
+      "normalized_smiles": "CNC(=O)C1CN(Cc2ccn(-c3ccccc3)n2)c2ccccc2O1",
+      "declared_key": "CYSZMFXMGADWER",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "CYSZMFXMGADWER",
+          "smiles": "CNC(=O)C1CN(Cc2ccn(-c3ccccc3)n2)c2ccccc2O1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "CYSZMFXMGADWER",
+          "smiles": "CNC(=O)C1CN(Cc2ccn(-c3ccccc3)n2)c2ccccc2O1",
+          "sid": 24740,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "UXCFPDATKSBZCE",
+      "normalized_smiles": "O=C(Nc1ccc2c(c1)CCC2)c1ncoc1C1CC1",
+      "declared_key": "UXCFPDATKSBZCE",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "UXCFPDATKSBZCE",
+          "smiles": "O=C(Nc1ccc2c(c1)CCC2)c1ncoc1C1CC1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "UXCFPDATKSBZCE",
+          "smiles": "O=C(Nc1ccc2c(c1)CCC2)c1ncoc1C1CC1",
+          "sid": 147291,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "SAIYRSPVXIMWBO",
+      "normalized_smiles": "c1cncc(-c2ccc(SCc3cn4ccccc4n3)nn2)c1",
+      "declared_key": "SAIYRSPVXIMWBO",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "SAIYRSPVXIMWBO",
+          "smiles": "c1cncc(-c2ccc(SCc3cn4ccccc4n3)nn2)c1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "SAIYRSPVXIMWBO",
+          "smiles": "c1cncc(-c2ccc(SCc3cn4ccccc4n3)nn2)c1",
+          "sid": 256352,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "DTEKTGDVSARYDS",
+      "normalized_smiles": "CC(C)CCN1c2nc(Nc3cc(F)c(O)c(F)c3)ncc2N(C)C(=O)C1C",
+      "declared_key": "DTEKTGDVSARYDS",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "DTEKTGDVSARYDS",
+          "smiles": "CC(C)CCN1c2nc(Nc3cc(F)c(O)c(F)c3)ncc2N(C)C(=O)C1C",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "DTEKTGDVSARYDS",
+          "smiles": "CC(C)CCN1c2nc(Nc3cc(F)c(O)c(F)c3)ncc2N(C)C(=O)C1C",
+          "sid": 240341,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "MBHLZYDYQMQBGH",
+      "normalized_smiles": "COC(=O)C1CCN(C(=O)Cn2nc(C)nc2-c2ccccc2)CC1",
+      "declared_key": "MBHLZYDYQMQBGH",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "MBHLZYDYQMQBGH",
+          "smiles": "COC(=O)C1CCN(C(=O)Cn2nc(C)nc2-c2ccccc2)CC1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "MBHLZYDYQMQBGH",
+          "smiles": "COC(=O)C1CCN(C(=O)Cn2nc(C)nc2-c2ccccc2)CC1",
+          "sid": 86294,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "QEMNCANMUTYZIZ",
+      "normalized_smiles": "Cc1ncn(CC(=O)N2CCCC(Oc3ncccn3)C2)c(=O)c1C",
+      "declared_key": "QEMNCANMUTYZIZ",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "QEMNCANMUTYZIZ",
+          "smiles": "Cc1ncn(CC(=O)N2CCCC(Oc3ncccn3)C2)c(=O)c1C",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "QEMNCANMUTYZIZ",
+          "smiles": "Cc1ncn(CC(=O)N2CCCC(Oc3ncccn3)C2)c(=O)c1C",
+          "sid": 254131,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "JAUNWUAOFPNAKK",
+      "normalized_smiles": "Cc1cc(C(=O)O)nn1-c1ccccc1",
+      "declared_key": "JAUNWUAOFPNAKK",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "JAUNWUAOFPNAKK",
+          "smiles": "Cc1cc(C(=O)O)nn1-c1ccccc1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "JAUNWUAOFPNAKK",
+          "smiles": "Cc1cc(C(=O)O)nn1-c1ccccc1",
+          "sid": 199512,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "VRHZYLDAIALSBA",
+      "normalized_smiles": "CCS(=O)(=O)c1ccc(N2CCC(c3ccccc3)C(CO)C2)cc1",
+      "declared_key": "VRHZYLDAIALSBA",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "VRHZYLDAIALSBA",
+          "smiles": "CCS(=O)(=O)c1ccc(N2CCC(c3ccccc3)C(CO)C2)cc1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "VRHZYLDAIALSBA",
+          "smiles": "CCS(=O)(=O)c1ccc(N2CCC(c3ccccc3)C(CO)C2)cc1",
+          "sid": 153250,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "VTNGUNPXMFGVHQ",
+      "normalized_smiles": "COC(=O)N1CCc2ccc(NC(=O)NC3CCOCC3)cc2C1",
+      "declared_key": "VTNGUNPXMFGVHQ",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "VTNGUNPXMFGVHQ",
+          "smiles": "COC(=O)N1CCc2ccc(NC(=O)NC3CCOCC3)cc2C1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "VTNGUNPXMFGVHQ",
+          "smiles": "COC(=O)N1CCc2ccc(NC(=O)NC3CCOCC3)cc2C1",
+          "sid": 220779,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "MTEWJHITNXRDBX",
+      "normalized_smiles": "Cc1c(CNC(=O)c2nc(=O)c3ccccc3[nH]2)oc2ccc(F)cc12",
+      "declared_key": "MTEWJHITNXRDBX",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "MTEWJHITNXRDBX",
+          "smiles": "Cc1c(CNC(=O)c2nc(=O)c3ccccc3[nH]2)oc2ccc(F)cc12",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "MTEWJHITNXRDBX",
+          "smiles": "Cc1c(CNC(=O)c2nc3ccccc3c(=O)[nH]2)oc2ccc(F)cc12",
+          "sid": 91467,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "FVRRNILPOBLYDP",
+      "normalized_smiles": "CCC(C)(C)NC(=O)Cn1cc(CCO)c(C(F)(F)F)n1",
+      "declared_key": "FVRRNILPOBLYDP",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "FVRRNILPOBLYDP",
+          "smiles": "CCC(C)(C)NC(=O)Cn1cc(CCO)c(C(F)(F)F)n1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "FVRRNILPOBLYDP",
+          "smiles": "CCC(C)(C)NC(=O)Cn1cc(CCO)c(C(F)(F)F)n1",
+          "sid": 39160,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "GUCQASBAISUJIK",
+      "normalized_smiles": "CC(C)(O)CN(C1CC1)S(=O)(=O)c1cccc(Cl)c1F",
+      "declared_key": "GUCQASBAISUJIK",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "GUCQASBAISUJIK",
+          "smiles": "CC(C)(O)CN(C1CC1)S(=O)(=O)c1cccc(Cl)c1F",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "GUCQASBAISUJIK",
+          "smiles": "CC(C)(O)CN(C1CC1)S(=O)(=O)c1cccc(Cl)c1F",
+          "sid": 46269,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "FCSYWHCMUVIBPJ",
+      "normalized_smiles": "O=C(O)CN(C(=O)Cc1ccn(-c2ccc(F)cc2)n1)C1CCOCC1",
+      "declared_key": "FCSYWHCMUVIBPJ",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "FCSYWHCMUVIBPJ",
+          "smiles": "O=C(O)CN(C(=O)Cc1ccn(-c2ccc(F)cc2)n1)C1CCOCC1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "FCSYWHCMUVIBPJ",
+          "smiles": "O=C(O)CN(C(=O)Cc1ccn(-c2ccc(F)cc2)n1)C1CCOCC1",
+          "sid": 33594,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "YLLYAYYVEYCYBD",
+      "normalized_smiles": "COc1ccc(C(=O)NC(C(=O)NCc2ccccc2Cl)C(C)C)cc1",
+      "declared_key": "YLLYAYYVEYCYBD",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "YLLYAYYVEYCYBD",
+          "smiles": "COc1ccc(C(=O)NC(C(=O)NCc2ccccc2Cl)C(C)C)cc1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "YLLYAYYVEYCYBD",
+          "smiles": "COc1ccc(C(=O)NC(C(=O)NCc2ccccc2Cl)C(C)C)cc1",
+          "sid": 173904,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "BBMULGJBVDDDNI",
+      "normalized_smiles": "CCC(C(=O)C(C)C(O)C(C)CCc1ccc(C)c(O)c1C(=O)O)C1OC(CC)(C2CCC(O)(CC)C(C)O2)CC1C",
+      "declared_key": "BBMULGJBVDDDNI",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "BBMULGJBVDDDNI",
+          "smiles": "CCC(C(=O)C(C)C(O)C(C)CCc1ccc(C)c(O)c1C(=O)O)C1OC(CC)(C2CCC(O)(CC)C(C)O2)CC1C",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "BBMULGJBVDDDNI",
+          "smiles": "CCC(C(=O)C(C)C(O)C(C)CCc1ccc(C)c(O)c1C(=O)O)C1OC(CC)(C2CCC(O)(CC)C(C)O2)CC1C",
+          "sid": 115,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "CGIGDMFJXJATDK",
+      "normalized_smiles": "COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1",
+      "declared_key": "CGIGDMFJXJATDK",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "CGIGDMFJXJATDK",
+          "smiles": "COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "CGIGDMFJXJATDK",
+          "smiles": "COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1",
+          "sid": 247,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "GMBQZIIUCVWOCD",
+      "normalized_smiles": "CC1CCC2(OC1)OC1CC3C4CCC5CC(O)CCC5(C)C4CCC3(C)C1C2C",
+      "declared_key": "GMBQZIIUCVWOCD",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "GMBQZIIUCVWOCD",
+          "smiles": "CC1CCC2(OC1)OC1CC3C4CCC5CC(O)CCC5(C)C4CCC3(C)C1C2C",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "GMBQZIIUCVWOCD",
+          "smiles": "CC1CCC2(OC1)OC1CC3C4CCC5CC(O)CCC5(C)C4CCC3(C)C1C2C",
+          "sid": 572,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "HELXLJCILKEWJH",
+      "normalized_smiles": "C=C1CC23CCC4C(C)(C(=O)OC5OC(CO)C(O)C(O)C5O)CCCC4(C)C2CCC1(OC1OC(CO)C(O)C(OC2OC(CO)C(O)C(O)C2O)C1OC1OC(CO)C(O)C(O)C1O)C3",
+      "declared_key": "HELXLJCILKEWJH",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "HELXLJCILKEWJH",
+          "smiles": "C=C1CC23CCC4C(C)(C(=O)OC5OC(CO)C(O)C(O)C5O)CCCC4(C)C2CCC1(OC1OC(CO)C(O)C(OC2OC(CO)C(O)C(O)C2O)C1OC1OC(CO)C(O)C(O)C1O)C3",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "HELXLJCILKEWJH",
+          "smiles": "C=C1CC23CCC4C(C)(C(=O)OC5OC(CO)C(O)C(O)C5O)CCCC4(C)C2CCC1(OC1OC(CO)C(O)C(OC2OC(CO)C(O)C(O)C2O)C1OC1OC(CO)C(O)C(O)C1O)C3",
+          "sid": 196237,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "IEDVJHCEMCRBQM",
+      "normalized_smiles": "COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC",
+      "declared_key": "IEDVJHCEMCRBQM",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_selection_not_used_declared",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": true,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "IEDVJHCEMCRBQM",
+          "smiles": "COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "IEDVJHCEMCRBQM",
+          "smiles": "COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC",
+          "sid": 769,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "JDUWHZOLEDOQSR",
+      "normalized_smiles": "C=C(C)C1OC2CCC3(C)C4(C)c5[nH]c6cc(Cl)c7c8c6c5C(OC(C)(C)C5CC(C(=C)C7)C85O)C4CCC3(O)C23OC3C1O",
+      "declared_key": "JDUWHZOLEDOQSR",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "JDUWHZOLEDOQSR",
+          "smiles": "C=C(C)C1OC2CCC3(C)C4(C)c5[nH]c6cc(Cl)c7c8c6c5C(OC(C)(C)C5CC(C(=C)C7)C85O)C4CCC3(O)C23OC3C1O",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "JDUWHZOLEDOQSR",
+          "smiles": "C=C(C)C1OC2CCC3(C)C4(C)c5[nH]c6cc(Cl)c7c8c6c5C(OC(C)(C)C5CC(C(=C)C7)C85O)C4CCC3(O)C23OC3C1O",
+          "sid": 199711,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "LPMXVESGRSUGHW",
+      "normalized_smiles": "CC1OC(OC2CC(O)C3(CO)C4C(O)CC5(C)C(C6=CC(=O)OC6)CCC5(O)C4CCC3(O)C2)C(O)C(O)C1O",
+      "declared_key": "LPMXVESGRSUGHW",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "LPMXVESGRSUGHW",
+          "smiles": "CC1OC(OC2CC(O)C3(CO)C4C(O)CC5(C)C(C6=CC(=O)OC6)CCC5(O)C4CCC3(O)C2)C(O)C(O)C1O",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "LPMXVESGRSUGHW",
+          "smiles": "CC1OC(OC2CC(O)C3(CO)C4C(O)CC5(C)C(C6=CC(=O)OC6)CCC5(O)C4CCC3(O)C2)C(O)C(O)C1O",
+          "sid": 1113,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "NYHBQMYGNKIUIF",
+      "normalized_smiles": "Nc1nc(=O)c2ncn(C3OC(CO)C(O)C3O)c2[nH]1",
+      "declared_key": "NYHBQMYGNKIUIF",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "NYHBQMYGNKIUIF",
+          "smiles": "Nc1nc(=O)c2ncn(C3OC(CO)C(O)C3O)c2[nH]1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "NYHBQMYGNKIUIF",
+          "smiles": "Nc1nc(=O)c2ncn(C3OC(CO)C(O)C3O)c2[nH]1",
+          "sid": 1347,
+          "fold": "excluded"
+        },
+        {
+          "source": "fold0_original_smiles_variant",
+          "declared_key": "NYHBQMYGNKIUIF",
+          "sid": 1347,
+          "smiles": "N=c1nc(O)c2ncn(C3OC(CO)C(O)C3O)c2[nH]1",
+          "fold": "excluded"
+        },
+        {
+          "source": "fold0_original_smiles_variant",
+          "declared_key": "NYHBQMYGNKIUIF",
+          "sid": 1347,
+          "smiles": "Nc1nc2c(ncn2C2OC(CO)C(O)C2O)c(=O)[nH]1",
+          "fold": "excluded"
+        },
+        {
+          "source": "fold0_original_smiles_variant",
+          "declared_key": "NYHBQMYGNKIUIF",
+          "sid": 1347,
+          "smiles": "N=c1nc(O)c2ncn(C3OC(CO)C(O)C3O)c2[nH]1",
+          "fold": "excluded"
+        },
+        {
+          "source": "fold0_original_smiles_variant",
+          "declared_key": "NYHBQMYGNKIUIF",
+          "sid": 1347,
+          "smiles": "Nc1nc2c(ncn2C2OC(CO)C(O)C2O)c(=O)[nH]1",
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "OGWKCGZFUXNPDA",
+      "normalized_smiles": "CCC1(O)CC2CN(CCc3c([nH]c4ccccc34)C(C(=O)OC)(c3cc4c(cc3OC)N(C=O)C3C(O)(C(=O)OC)C(OC(C)=O)C5(CC)C=CCN6CCC43C65)C2)C1",
+      "declared_key": "OGWKCGZFUXNPDA",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "OGWKCGZFUXNPDA",
+          "smiles": "CCC1(O)CC2CN(CCc3c([nH]c4ccccc34)C(C(=O)OC)(c3cc4c(cc3OC)N(C=O)C3C(O)(C(=O)OC)C(OC(C)=O)C5(CC)C=CCN6CCC43C65)C2)C1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "OGWKCGZFUXNPDA",
+          "smiles": "CCC1(O)CC2CN(CCc3c([nH]c4ccccc34)C(C(=O)OC)(c3cc4c(cc3OC)N(C=O)C3C(O)(C(=O)OC)C(OC(C)=O)C5(CC)C=CCN6CCC43C65)C2)C1",
+          "sid": 1389,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "QGXBDMJGAMFCBF",
+      "normalized_smiles": "CC12CCC3C(CCC4CC(O)CCC43C)C1CCC2=O",
+      "declared_key": "QGXBDMJGAMFCBF",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "QGXBDMJGAMFCBF",
+          "smiles": "CC12CCC3C(CCC4CC(O)CCC43C)C1CCC2=O",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "QGXBDMJGAMFCBF",
+          "smiles": "CC12CCC3C(CCC4CC(O)CCC43C)C1CCC2=O",
+          "sid": 1605,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "RHVWQVSLVMXMBR",
+      "normalized_smiles": "CCC=CCC1=C(CCCCCCCC(=O)O)CCC1=O",
+      "declared_key": "RHVWQVSLVMXMBR",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "RHVWQVSLVMXMBR",
+          "smiles": "CCC=CCC1=C(CCCCCCCC(=O)O)CCC1=O",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "RHVWQVSLVMXMBR",
+          "smiles": "CCC=CCC1C(=O)C=CC1CCCCCCCC(=O)O",
+          "sid": 1515,
+          "fold": "excluded"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "RHVWQVSLVMXMBR",
+          "smiles": "CCC=CCC1=C(CCCCCCCC(=O)O)CCC1=O",
+          "sid": 233810,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "XRWQBDJPMXRDOQ",
+      "normalized_smiles": "COC1CC(OC2CCC3(C)C4CCC5(C)C(C6=CC(=O)OC6)CCC5(O)C4CCC3(O)C2)OC(C)C1O",
+      "declared_key": "XRWQBDJPMXRDOQ",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "XRWQBDJPMXRDOQ",
+          "smiles": "COC1CC(OC2CCC3(C)C4CCC5(C)C(C6=CC(=O)OC6)CCC5(O)C4CCC3(O)C2)OC(C)C1O",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "XRWQBDJPMXRDOQ",
+          "smiles": "COC1CC(OC2CCC3(C)C4CCC5(C)C(C6=CC(=O)OC6)CCC5(O)C4CCC3(O)C2)OC(C)C1O",
+          "sid": 262181,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "YRRAGUMVDQQZIY",
+      "normalized_smiles": "O=c1c(O)c(-c2ccc(O)c(O)c2)oc2c(O)c(O)cc(O)c12",
+      "declared_key": "YRRAGUMVDQQZIY",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "YRRAGUMVDQQZIY",
+          "smiles": "O=c1c(O)c(-c2ccc(O)c(O)c2)oc2c(O)c(O)cc(O)c12",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "YRRAGUMVDQQZIY",
+          "smiles": "O=c1c(O)c(-c2ccc(O)c(O)c2)oc2c(O)c(O)cc(O)c12",
+          "sid": 225901,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "ZHSOTLOTTDYIIK",
+      "normalized_smiles": "NC(Cc1cc(I)c(Oc2ccc(O)cc2)c(I)c1)C(=O)O",
+      "declared_key": "ZHSOTLOTTDYIIK",
+      "selection": "frozen_hash64_plus_all_declared_np_intersection",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "ZHSOTLOTTDYIIK",
+          "smiles": "NC(Cc1cc(I)c(Oc2ccc(O)cc2)c(I)c1)C(=O)O",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "ZHSOTLOTTDYIIK",
+          "smiles": "NC(Cc1cc(I)c(Oc2ccc(O)cc2)c(I)c1)C(=O)O",
+          "sid": 226982,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "CBIAKDAYHRWZCU",
+      "normalized_smiles": "COc1cc2ncnc(Nc3ccc(O)c(Br)c3)c2cc1OC",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "CBIAKDAYHRWZCU",
+          "smiles": "COc1cc2ncnc(Nc3ccc(O)c(Br)c3)c2cc1OC",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "CBIAKDAYHRWZCU",
+          "smiles": "COc1cc2ncnc(Nc3ccc(O)c(Br)c3)c2cc1OC",
+          "sid": 226,
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "CDUVSQMTLOYKTR",
+      "normalized_smiles": "CCCCCC(=O)CCC1C(O)CC(=O)C1CCCCCCC(=O)O",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "CDUVSQMTLOYKTR",
+          "smiles": "CCCCCC(=O)CCC1C(O)CC(=O)C1CCCCCCC(=O)O",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "CDUVSQMTLOYKTR",
+          "smiles": "CCCCCC(=O)CCC1C(O)CC(=O)C1CCCCCCC(=O)O",
+          "sid": 228575,
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "DJNFXUFERDZHCD",
+      "normalized_smiles": "CCCCCCCCCCCCCCCCC1C(=O)OC(C)C1OC",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "DJNFXUFERDZHCD",
+          "smiles": "CCCCCCCCCCCCCCCCC1C(=O)OC(C)C1OC",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "DJNFXUFERDZHCD",
+          "smiles": "CCCCCCCCCCCCCCCCC1C(=O)OC(C)C1OC",
+          "sid": 191344,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "DKZBBWMURDFHNE",
+      "normalized_smiles": "COc1cc(C=CC=O)ccc1O",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "DKZBBWMURDFHNE",
+          "smiles": "COc1cc(C=CC=O)ccc1O",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "DKZBBWMURDFHNE",
+          "smiles": "COc1cc(C=CC=O)ccc1O",
+          "sid": 191447,
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "DWVXZQVYILJCJH",
+      "normalized_smiles": "CCC=CCC=CCC=CCCCCCCCC(=O)OC(COC(=O)CCCCCCCC=CCC=CCCCC)COC(OCC[N+](C)(C)C)C(=O)[O-]",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "DWVXZQVYILJCJH",
+          "smiles": "CCC=CCC=CCC=CCCCCCCCC(=O)OC(COC(=O)CCCCCCCC=CCC=CCCCC)COC(OCC[N+](C)(C)C)C(=O)[O-]",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "DWVXZQVYILJCJH",
+          "smiles": "CCC=CCC=CCC=CCCCCCCCC(=O)OC(COC(=O)CCCCCCCC=CCC=CCCCC)COC(OCC[N+](C)(C)C)C(=O)[O-]",
+          "sid": 267847,
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "FWXUWWAXYNCZAY",
+      "normalized_smiles": "CCN1CCN(C2CCN(c3cc(C)nc(N)n3)CC2)C1=O",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "FWXUWWAXYNCZAY",
+          "smiles": "CCN1CCN(C2CCN(c3cc(C)nc(N)n3)CC2)C1=O",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "FWXUWWAXYNCZAY",
+          "smiles": "CCN1CCN(C2CCN(c3cc(C)nc(N)n3)CC2)C1=O",
+          "sid": 39517,
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "GFZLFKCEWJJEFW",
+      "normalized_smiles": "COc1ccc2c(c1)CC1(C)C(C)CCC3C(C)(C)CCCC31O2",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "GFZLFKCEWJJEFW",
+          "smiles": "COc1ccc2c(c1)CC1(C)C(C)CCC3C(C)(C)CCCC31O2",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "GFZLFKCEWJJEFW",
+          "smiles": "COc1ccc2c(c1)CC1(C)C(C)CCC3C(C)(C)CCCC31O2",
+          "sid": 232394,
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "HPXGRJSGVYZSBD",
+      "normalized_smiles": "Cc1sc(NC(=O)CN2CCc3ccccc32)c(C#N)c1C",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "HPXGRJSGVYZSBD",
+          "smiles": "Cc1sc(NC(=O)CN2CCc3ccccc32)c(C#N)c1C",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "HPXGRJSGVYZSBD",
+          "smiles": "Cc1sc(NC(=O)CN2CCc3ccccc32)c(C#N)c1C",
+          "sid": 243792,
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "IYODIJVWGPRBGQ",
+      "normalized_smiles": "c1ccc2c(-c3nccs3)c[nH]c2c1",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "IYODIJVWGPRBGQ",
+          "smiles": "c1ccc2c(-c3nccs3)c[nH]c2c1",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "IYODIJVWGPRBGQ",
+          "smiles": "c1ccc2c(-c3nccs3)c[nH]c2c1",
+          "sid": 199367,
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "JIZXTXDQGNQBTA",
+      "normalized_smiles": "CC(CO)N1CCCC1C(=O)O",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "JIZXTXDQGNQBTA",
+          "smiles": "CC(CO)N1CCCC1C(=O)O",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "JIZXTXDQGNQBTA",
+          "smiles": "CC(CO)N1CCCC1C(=O)O",
+          "sid": 200082,
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "KAQOTUWFZPIKLZ",
+      "normalized_smiles": "CCC(=O)C1=C(O)C(CC=C(C)C)=C(O)C(O)(CC=C(C)C)C1=O",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "KAQOTUWFZPIKLZ",
+          "smiles": "CCC(=O)C1C(=O)C(CC=C(C)C)C(=O)C(O)(CC=C(C)C)C1=O",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "KAQOTUWFZPIKLZ",
+          "smiles": "CCC(=O)C1=C(O)C(CC=C(C)C)=C(O)C(O)(CC=C(C)C)C1=O",
+          "sid": 235139,
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "MZNCWPOVMBLUSG",
+      "normalized_smiles": "CC(=CC(=O)N(O)CCCC(N)C(=O)OCCC(C)=CC(=O)N(O)CCCC(N)C(=O)OCCC(C)=CC(=O)N(O)CCCC(N)C(=O)O)CCO",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "MZNCWPOVMBLUSG",
+          "smiles": "CC(=CC(=O)N(O)CCCC(N)C(=O)OCCC(C)=CC(=O)N(O)CCCC(N)C(=O)OCCC(C)=CC(=O)N(O)CCCC(N)C(=O)O)CCO",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "MZNCWPOVMBLUSG",
+          "smiles": "CC(=CC(=O)N(O)CCCC(N)C(=O)OCCC(C)=CC(=O)N(O)CCCC(N)C(=O)OCCC(C)=CC(=O)N(O)CCCC(N)C(=O)O)CCO",
+          "sid": 235355,
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "NOFOAYPPHIUXJR",
+      "normalized_smiles": "CC1(CO)C(O)CCC2(C)C1CCC1CC3CC12CCC3(O)CO",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "NOFOAYPPHIUXJR",
+          "smiles": "CC1(CO)C(O)CCC2(C)C1CCC1CC3CC12CCC3(O)CO",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "NOFOAYPPHIUXJR",
+          "smiles": "CC1(CO)C(O)CCC2(C)C1CCC1CC3CC12CCC3(O)CO",
+          "sid": 1307,
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "NQHGQOVKJGGLKE",
+      "normalized_smiles": "O=C(O)Cc1c[nH]c2ncccc12",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "NQHGQOVKJGGLKE",
+          "smiles": "O=C(O)Cc1c[nH]c2ncccc12",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "NQHGQOVKJGGLKE",
+          "smiles": "O=C(O)Cc1c[nH]c2ncccc12",
+          "sid": 251063,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "OTGQIQQTPXJQRG",
+      "normalized_smiles": "CCCCCCCCCCCCCCCCCC(=O)NCCO",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "OTGQIQQTPXJQRG",
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)NCCO",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "OTGQIQQTPXJQRG",
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)NCCO",
+          "sid": 230299,
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "QNUNSPMEODRLBZ",
+      "normalized_smiles": "COc1cc(=O)n2c(c1C(=O)Nc1ccc(C(C)=O)cc1)CCC2",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "QNUNSPMEODRLBZ",
+          "smiles": "COc1cc(=O)n2c(c1C(=O)Nc1ccc(C(C)=O)cc1)CCC2",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "QNUNSPMEODRLBZ",
+          "smiles": "COc1cc(=O)n2c(c1C(=O)Nc1ccc(C(C)=O)cc1)CCC2",
+          "sid": 254540,
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "SRNDKRJFBMZBCK",
+      "normalized_smiles": "CCC=CCC=CCC=CCCCCCCCCOCC(COP(=O)(O)OCCN)OC(=O)CCCCCCCCCCCC=CCC=CCCCCC",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "SRNDKRJFBMZBCK",
+          "smiles": "CCC=CCC=CCC=CCCCCCCCCOCC(COP(=O)(O)OCCN)OC(=O)CCCCCCCCCCCC=CCC=CCCCCC",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "SRNDKRJFBMZBCK",
+          "smiles": "CCC=CCC=CCC=CCCCCCCCCOCC(COP(=O)(O)OCCN)OC(=O)CCCCCCCCCCCC=CCC=CCCCCC",
+          "sid": 273192,
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "UBEKXLWMTSODOC",
+      "normalized_smiles": "O=C(O)c1cn(-c2ccccc2C(F)(F)F)nn1",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "UBEKXLWMTSODOC",
+          "smiles": "O=C(O)c1cn(-c2ccccc2C(F)(F)F)nn1",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "UBEKXLWMTSODOC",
+          "smiles": "O=C(O)c1cn(-c2ccccc2C(F)(F)F)nn1",
+          "sid": 257855,
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "VJLSQJBXDSKTLG",
+      "normalized_smiles": "CC(=CC=CC1(C)C(O)CCC2(C)C1CCC1Cc3c([nH]c4cc5c(cc34)C3=C(C5)C(C)(C)OC(C)(C)C3)C12C)C(=O)O",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "VJLSQJBXDSKTLG",
+          "smiles": "CC(=CC=CC1(C)C(O)CCC2(C)C1CCC1Cc3c([nH]c4cc5c(cc34)C3=C(C5)C(C)(C)OC(C)(C)C3)C12C)C(=O)O",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "VJLSQJBXDSKTLG",
+          "smiles": "CC(=CC=CC1(C)C(O)CCC2(C)C1CCC1Cc3c([nH]c4cc5c(cc34)C3=C(C5)C(C)(C)OC(C)(C)C3)C12C)C(=O)O",
+          "sid": 273984,
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "VXVNYCRICCVPTD",
+      "normalized_smiles": "CC1c2cccc(O)c2C(=O)C2C(=O)C3(O)C(=O)C(C(N)=O)C(=O)C(N(C)C)C3C(O)C21",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "VXVNYCRICCVPTD",
+          "smiles": "CC1c2cccc(O)c2C(=O)C2C(=O)C3(O)C(=O)C(C(N)=O)C(=O)C(N(C)C)C3C(O)C21",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "VXVNYCRICCVPTD",
+          "smiles": "CC1c2cccc(O)c2C(=O)C2=C(O)C3(O)C(=O)C(C(N)=O)=C(O)C(N(C)C)C3C(O)C21",
+          "sid": 858,
+          "fold": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "VXVNYCRICCVPTD",
+          "smiles": "CC1c2cccc(O)c2C(O)=C2C(=O)C3(O)C(O)=C(C(N)=O)C(=O)C(N(C)C)C3C(O)C21",
+          "sid": 215890,
+          "fold": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "VXVNYCRICCVPTD",
+          "smiles": "CC1c2cccc(O)c2C(=O)C2=C(O)C3(O)C(O)=C(C(N)=O)C(=O)C(N(C)C)C3C(O)C21",
+          "sid": 224967,
+          "fold": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "VXVNYCRICCVPTD",
+          "smiles": "CC1c2cccc(O)c2C(=O)C2C(=O)C3(O)C(=O)C(C(N)=O)C(=O)C(N(C)C)C3C(O)C21",
+          "sid": 234305,
+          "fold": "train"
+        },
+        {
+          "source": "fold0_original_smiles_variant",
+          "declared_key": "SGKRLCUYIXIAHR",
+          "sid": 215890,
+          "smiles": "CC1c2cccc(O)c2C(O)=C2C(=O)C3(O)C(O)=C(C(=N)O)C(=O)C(N(C)C)C3C(O)C21",
+          "fold": "train"
+        },
+        {
+          "source": "fold0_original_smiles_variant",
+          "declared_key": "SGKRLCUYIXIAHR",
+          "sid": 215890,
+          "smiles": "CC1c2cccc(O)c2C(O)=C2C(=O)C3(O)C(O)=C(C(=N)O)C(=O)C(N(C)C)C3C(O)C21",
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "WDRYRZXSPDWGEB",
+      "normalized_smiles": "O=C(O)c1nn(Cc2ccc(Cl)cc2Cl)c2ccccc12",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "WDRYRZXSPDWGEB",
+          "smiles": "O=C(O)c1nn(Cc2ccc(Cl)cc2Cl)c2ccccc12",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "WDRYRZXSPDWGEB",
+          "smiles": "O=C(O)c1nn(Cc2ccc(Cl)cc2Cl)c2ccccc12",
+          "sid": 2128,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "WGHBYQBNWQRUQU",
+      "normalized_smiles": "CN1CC(NC(=O)OC(C)(C)C)CC(c2ccccc2)C1",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "WGHBYQBNWQRUQU",
+          "smiles": "CN1CC(NC(=O)OC(C)(C)C)CC(c2ccccc2)C1",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "WGHBYQBNWQRUQU",
+          "smiles": "CN1CC(NC(=O)OC(C)(C)C)CC(c2ccccc2)C1",
+          "sid": 260441,
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "WIOKWEJDRXNVSH",
+      "normalized_smiles": "COc1cc(C)c(Oc2cc(C)cc(OC)c2O)c(O)c1",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "WIOKWEJDRXNVSH",
+          "smiles": "COc1cc(C)c(Oc2cc(C)cc(OC)c2O)c(O)c1",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "WIOKWEJDRXNVSH",
+          "smiles": "COc1cc(C)c(Oc2cc(C)cc(OC)c2O)c(O)c1",
+          "sid": 234349,
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "XSOKPIZATJBJPO",
+      "normalized_smiles": "CC(CCC(=O)NCCCC(N)=O)C1CCC2C3CCC4CC(O)CCC4(C)C3CC(O)C12C",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "declared_seen",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "XSOKPIZATJBJPO",
+          "smiles": "CC(CCC(=O)NCCCC(N)=O)C1CCC2C3CCC4CC(O)CCC4(C)C3CC(O)C12C",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "XSOKPIZATJBJPO",
+          "smiles": "CC(CCC(=O)NCCCC(N)=O)C1CCC2C3CCC4CC(O)CCC4(C)C3CC(O)C12C",
+          "sid": 274889,
+          "fold": "train"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "AAWZDTNXLSGCEK",
+      "normalized_smiles": "O=C(O)C1(O)CC(O)C(O)C(O)C1",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "training_identity_unseen_checkpoint_selection_candidate_seen",
+      "saner_checkpoint_selection_used": true,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "AAWZDTNXLSGCEK",
+          "smiles": "O=C(O)C1(O)CC(O)C(O)C(O)C1",
+          "split": "validation"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "AAWZDTNXLSGCEK",
+          "smiles": "O=C(O)C1(O)CC(O)C(O)C(O)C1",
+          "sid": 185538,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "ACNHBCIZLNNLRS",
+      "normalized_smiles": "CC(C)(O)C1OC2CCC3(C)C(O)(CCC4Cc5c([nH]c6ccccc56)C43C)C2=CC1=O",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "ACNHBCIZLNNLRS",
+          "smiles": "CC(C)(O)C1OC2CCC3(C)C(O)(CCC4Cc5c([nH]c6ccccc56)C43C)C2=CC1=O",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "ACNHBCIZLNNLRS",
+          "smiles": "CC(C)(O)C1OC2CCC3(C)C(O)(CCC4Cc5c([nH]c6ccccc56)C43C)C2=CC1=O",
+          "sid": 6,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "CEUORZQYGODEFX",
+      "normalized_smiles": "O=C1CCc2ccc(OCCCCN3CCN(c4cccc(Cl)c4Cl)CC3)cc2N1",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "CEUORZQYGODEFX",
+          "smiles": "O=C1CCc2ccc(OCCCCN3CCN(c4cccc(Cl)c4Cl)CC3)cc2N1",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "CEUORZQYGODEFX",
+          "smiles": "O=C1CCc2ccc(OCCCCN3CCN(c4cccc(Cl)c4Cl)CC3)cc2N1",
+          "sid": 244,
+          "fold": "excluded"
+        },
+        {
+          "source": "fold0_original_smiles_variant",
+          "declared_key": "CEUORZQYGODEFX",
+          "sid": 244,
+          "smiles": "OC1=Nc2cc(OCCCCN3CCN(c4cccc(Cl)c4Cl)CC3)ccc2CC1",
+          "fold": "excluded"
+        },
+        {
+          "source": "fold0_original_smiles_variant",
+          "declared_key": "CEUORZQYGODEFX",
+          "sid": 244,
+          "smiles": "OC1=Nc2cc(OCCCCN3CCN(c4cccc(Cl)c4Cl)CC3)ccc2CC1",
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "CTRLABGOLIVAIY",
+      "normalized_smiles": "NC(=O)N1c2ccccc2CC(=O)c2ccccc21",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "CTRLABGOLIVAIY",
+          "smiles": "NC(=O)N1c2ccccc2CC(=O)c2ccccc21",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "CTRLABGOLIVAIY",
+          "smiles": "NC(=O)N1c2ccccc2CC(=O)c2ccccc21",
+          "sid": 290,
+          "fold": "excluded"
+        },
+        {
+          "source": "fold0_original_smiles_variant",
+          "declared_key": "CTRLABGOLIVAIY",
+          "sid": 290,
+          "smiles": "N=C(O)N1c2ccccc2CC(=O)c2ccccc21",
+          "fold": "excluded"
+        },
+        {
+          "source": "fold0_original_smiles_variant",
+          "declared_key": "CTRLABGOLIVAIY",
+          "sid": 290,
+          "smiles": "N=C(O)N1c2ccccc2CC(=O)c2ccccc21",
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "DBEPLOCGEIEOCV",
+      "normalized_smiles": "CC(C)(C)NC(=O)C1CCC2C3CCC4NC(=O)C=CC4(C)C3CCC12C",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "DBEPLOCGEIEOCV",
+          "smiles": "CC(C)(C)NC(=O)C1CCC2C3CCC4NC(=O)C=CC4(C)C3CCC12C",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "DBEPLOCGEIEOCV",
+          "smiles": "CC(C)(C)NC(=O)C1CCC2C3CCC4NC(=O)C=CC4(C)C3CCC12C",
+          "sid": 318,
+          "fold": "excluded"
+        },
+        {
+          "source": "fold0_original_smiles_variant",
+          "declared_key": "DBEPLOCGEIEOCV",
+          "sid": 318,
+          "smiles": "CC(C)(C)N=C(O)C1CCC2C3CCC4N=C(O)C=CC4(C)C3CCC12C",
+          "fold": "excluded"
+        },
+        {
+          "source": "fold0_original_smiles_variant",
+          "declared_key": "DBEPLOCGEIEOCV",
+          "sid": 318,
+          "smiles": "CC(C)(C)N=C(O)C1CCC2C3CCC4N=C(O)C=CC4(C)C3CCC12C",
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "DOFJNFPSMUCECH",
+      "normalized_smiles": "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC)c(OC)c3o2)cc1OC",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "DOFJNFPSMUCECH",
+          "smiles": "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC)c(OC)c3o2)cc1OC",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "DOFJNFPSMUCECH",
+          "smiles": "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC)c(OC)c3o2)cc1OC",
+          "sid": 191661,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "DOUMFZQKYFQNTF",
+      "normalized_smiles": "O=C(C=Cc1ccc(O)c(O)c1)OC(Cc1ccc(O)c(O)c1)C(=O)O",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "DOUMFZQKYFQNTF",
+          "smiles": "O=C(C=Cc1ccc(O)c(O)c1)OC(Cc1ccc(O)c(O)c1)C(=O)O",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "DOUMFZQKYFQNTF",
+          "smiles": "O=C(C=Cc1ccc(O)c(O)c1)OC(Cc1ccc(O)c(O)c1)C(=O)O",
+          "sid": 191707,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "DUXQKCCELUKXOE",
+      "normalized_smiles": "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC4OC(COC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)cc3o2)cc1",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "DUXQKCCELUKXOE",
+          "smiles": "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC4OC(COC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)cc3o2)cc1",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "DUXQKCCELUKXOE",
+          "smiles": "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC4OC(COC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)cc3o2)cc1",
+          "sid": 192138,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "FELGMEQIXOGIFQ",
+      "normalized_smiles": "Cc1nccn1CC1CCc2c(c3ccccc3n2C)C1=O",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "FELGMEQIXOGIFQ",
+          "smiles": "Cc1nccn1CC1CCc2c(c3ccccc3n2C)C1=O",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "FELGMEQIXOGIFQ",
+          "smiles": "Cc1nccn1CC1CCc2c(c3ccccc3n2C)C1=O",
+          "sid": 452,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "FFGPTBGBLSHEPO",
+      "normalized_smiles": "NC(=O)N1c2ccccc2C=Cc2ccccc21",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "FFGPTBGBLSHEPO",
+          "smiles": "NC(=O)N1c2ccccc2C=Cc2ccccc21",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "FFGPTBGBLSHEPO",
+          "smiles": "NC(=O)N1c2ccccc2C=Cc2ccccc21",
+          "sid": 461,
+          "fold": "excluded"
+        },
+        {
+          "source": "fold0_original_smiles_variant",
+          "declared_key": "FFGPTBGBLSHEPO",
+          "sid": 461,
+          "smiles": "N=C(O)N1c2ccccc2C=Cc2ccccc21",
+          "fold": "excluded"
+        },
+        {
+          "source": "fold0_original_smiles_variant",
+          "declared_key": "FFGPTBGBLSHEPO",
+          "sid": 461,
+          "smiles": "N=C(O)N1c2ccccc2C=Cc2ccccc21",
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "GZSOSUNBTXMUFQ",
+      "normalized_smiles": "COc1ccc(-c2cc(=O)c3c(O)cc(OC4OC(COC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)cc3o2)cc1O",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "GZSOSUNBTXMUFQ",
+          "smiles": "COc1ccc(-c2cc(=O)c3c(O)cc(OC4OC(COC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)cc3o2)cc1O",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "GZSOSUNBTXMUFQ",
+          "smiles": "COc1ccc(-c2cc(=O)c3c(O)cc(OC4OC(COC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)cc3o2)cc1O",
+          "sid": 631,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "HSMPDPBYAYSOBC",
+      "normalized_smiles": "COc1c2occc2c(OC)c2c(=O)cc(C)oc12",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "HSMPDPBYAYSOBC",
+          "smiles": "COc1c2occc2c(OC)c2c(=O)cc(C)oc12",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "HSMPDPBYAYSOBC",
+          "smiles": "COc1c2occc2c(OC)c2c(=O)cc(C)oc12",
+          "sid": 197157,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "HUSISCNTLUEZCN",
+      "normalized_smiles": "CCC=CCC=CCC=CCCCCCCCC(=O)OCC(O)COC1OC(CO)C(O)C(O)C1O",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "HUSISCNTLUEZCN",
+          "smiles": "CCC=CCC=CCC=CCCCCCCCC(=O)OCC(O)COC1OC(CO)C(O)C(O)C1O",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "HUSISCNTLUEZCN",
+          "smiles": "CCC=CCC=CCC=CCCCCCCCC(=O)OCC(O)COC1OC(CO)C(O)C(O)C1O",
+          "sid": 229257,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "JYGXADMDTFJGBT",
+      "normalized_smiles": "CC12CCC(=O)C=C1CCC1C2C(O)CC2(C)C1CCC2(O)C(=O)CO",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "JYGXADMDTFJGBT",
+          "smiles": "CC12CCC(=O)C=C1CCC1C2C(O)CC2(C)C1CCC2(O)C(=O)CO",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "JYGXADMDTFJGBT",
+          "smiles": "CC12CCC(=O)C=C1CCC1C2C(O)CC2(C)C1CCC2(O)C(=O)CO",
+          "sid": 949,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "MBRLOUHOWLUMFF",
+      "normalized_smiles": "COc1ccc2ccc(=O)oc2c1CC=C(C)C",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "MBRLOUHOWLUMFF",
+          "smiles": "COc1ccc2ccc(=O)oc2c1CC=C(C)C",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "MBRLOUHOWLUMFF",
+          "smiles": "COc1ccc2ccc(=O)oc2c1CC=C(C)C",
+          "sid": 204949,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "QCHFTSOMWOSFHM",
+      "normalized_smiles": "CCC1C(=O)OCC1Cc1cncn1C",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "QCHFTSOMWOSFHM",
+          "smiles": "CCC1C(=O)OCC1Cc1cncn1C",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "QCHFTSOMWOSFHM",
+          "smiles": "CCC1C(=O)OCC1Cc1cncn1C",
+          "sid": 1586,
+          "fold": "excluded"
+        },
+        {
+          "source": "fold0_original_smiles_variant",
+          "declared_key": "QCHFTSOMWOSFHM",
+          "sid": 1586,
+          "smiles": "CCC1C(=O)OCC1Cc1c[nH]c[n+]1C",
+          "fold": "excluded"
+        },
+        {
+          "source": "fold0_original_smiles_variant",
+          "declared_key": "QCHFTSOMWOSFHM",
+          "sid": 1586,
+          "smiles": "CCC1C(=O)OCC1Cc1c[nH]c[n+]1C",
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "RFDAIACWWDREDC",
+      "normalized_smiles": "CC(CCC(=O)NCC(=O)O)C1CCC2C3C(O)CC4CC(O)CCC4(C)C3CC(O)C12C",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "RFDAIACWWDREDC",
+          "smiles": "CC(CCC(=O)NCC(=O)O)C1CCC2C3C(O)CC4CC(O)CCC4(C)C3CC(O)C12C",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "RFDAIACWWDREDC",
+          "smiles": "CC(CCC(=O)NCC(=O)O)C1CCC2C3C(O)CC4CC(O)CCC4(C)C3CC(O)C12C",
+          "sid": 1700,
+          "fold": "excluded"
+        },
+        {
+          "source": "fold0_original_smiles_variant",
+          "declared_key": "RFDAIACWWDREDC",
+          "sid": 1700,
+          "smiles": "CC(CCC(O)=NCC(=O)O)C1CCC2C3C(O)CC4CC(O)CCC4(C)C3CC(O)C12C",
+          "fold": "excluded"
+        },
+        {
+          "source": "fold0_original_smiles_variant",
+          "declared_key": "RFDAIACWWDREDC",
+          "sid": 1700,
+          "smiles": "CC(CCC(O)=NCC(=O)O)C1CCC2C3C(O)CC4CC(O)CCC4(C)C3CC(O)C12C",
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "RXPRRQLKFXBCSJ",
+      "normalized_smiles": "CCC12CCCN3CCc4c(n(c5ccccc45)C(O)(C(=O)OC)C1)C32",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "RXPRRQLKFXBCSJ",
+          "smiles": "CCC12CCCN3CCc4c(n(c5ccccc45)C(O)(C(=O)OC)C1)C32",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "RXPRRQLKFXBCSJ",
+          "smiles": "CCC12CCCN3CCc4c(n(c5ccccc45)C(O)(C(=O)OC)C1)C32",
+          "sid": 1772,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "RZGFUGXQKMEMOO",
+      "normalized_smiles": "O=C(O)CC1CCC(=O)C1CC=CCCO",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "RZGFUGXQKMEMOO",
+          "smiles": "O=C(O)CC1CCC(=O)C1CC=CCCO",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "RZGFUGXQKMEMOO",
+          "smiles": "O=C(O)CC1CCC(=O)C1CC=CCCO",
+          "sid": 215414,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "SGEWCQFRYRRZDC",
+      "normalized_smiles": "O=c1cc(-c2ccc(O)cc2)oc2c(C3OC(CO)C(O)C(O)C3O)c(O)cc(O)c12",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "SGEWCQFRYRRZDC",
+          "smiles": "O=c1cc(-c2ccc(O)cc2)oc2c(C3OC(CO)C(O)C(O)C3O)c(O)cc(O)c12",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "SGEWCQFRYRRZDC",
+          "smiles": "O=c1cc(-c2ccc(O)cc2)oc2c(C3OC(CO)C(O)C(O)C3O)c(O)cc(O)c12",
+          "sid": 215872,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "SHIBSTMRCDJXLN",
+      "normalized_smiles": "CC12CCC(O)CC1CCC1C2CC(O)C2(C)C(C3=CC(=O)OC3)CCC12O",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "SHIBSTMRCDJXLN",
+          "smiles": "CC12CCC(O)CC1CCC1C2CC(O)C2(C)C(C3=CC(=O)OC3)CCC12O",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "SHIBSTMRCDJXLN",
+          "smiles": "CC12CCC(O)CC1CCC1C2CC(O)C2(C)C(C3=CC(=O)OC3)CCC12O",
+          "sid": 1824,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    },
+    {
+      "identity": "URFCJEUYXNAHFI",
+      "normalized_smiles": "O=C1CC(c2ccccc2)Oc2cc(O)cc(O)c21",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "URFCJEUYXNAHFI",
+          "smiles": "O=C1CC(c2ccccc2)Oc2cc(O)cc(O)c21",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "URFCJEUYXNAHFI",
+          "smiles": "O=C1CC(c2ccccc2)Oc2cc(O)cc(O)c21",
+          "sid": 218775,
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": false
+    },
+    {
+      "identity": "XKLMZUWKNUAPSZ",
+      "normalized_smiles": "COc1ccccc1OCC(O)CN1CCN(CC(=O)Nc2c(C)cccc2C)CC1",
+      "selection": "existing_diagnostic_pilot",
+      "saner_final": "declared_seen",
+      "saner_best_validation": "declared_seen",
+      "saner_checkpoint_selection_used": false,
+      "fold0": "training_identity_unseen_declared",
+      "component_intersection_eligible": false,
+      "matched_rows": [
+        {
+          "source": "saner",
+          "declared_key": "XKLMZUWKNUAPSZ",
+          "smiles": "COc1ccccc1OCC(O)CN1CCN(CC(=O)Nc2c(C)cccc2C)CC1",
+          "split": "train"
+        },
+        {
+          "source": "fold0",
+          "declared_key": "XKLMZUWKNUAPSZ",
+          "smiles": "COc1ccccc1OCC(O)CN1CCN(CC(=O)Nc2c(C)cccc2C)CC1",
+          "sid": 2272,
+          "fold": "excluded"
+        },
+        {
+          "source": "fold0_original_smiles_variant",
+          "declared_key": "XKLMZUWKNUAPSZ",
+          "sid": 2272,
+          "smiles": "COc1ccccc1OCC(O)CN1CCN(CC(O)=Nc2c(C)cccc2C)CC1",
+          "fold": "excluded"
+        },
+        {
+          "source": "fold0_original_smiles_variant",
+          "declared_key": "XKLMZUWKNUAPSZ",
+          "sid": 2272,
+          "smiles": "COc1ccccc1OCC(O)CN1CCN(CC(O)=Nc2c(C)cccc2C)CC1",
+          "fold": "excluded"
+        }
+      ],
+      "saner_checkpoint_selection_candidate_used": true
+    }
+  ],
+  "limitations": [
+    "Published producer declarations and checkpoint metadata support training scope, but do not reconstruct historical minibatches.",
+    "Saner best checkpoint was selected using up to the first 1000 validation identities: training-unseen does not mean untouched model-selection holdout.",
+    "Published prepare.py lacks normalized_smiles alias despite data_audit naming that input; exact producer revision/provenance remains unresolved.",
+    "An eligible pair of neural components does not certify FPNet/ICE/GL/GBDT/whole Flex stack as unseen.",
+    "Full candidate set and split must be frozen before component scoring. Current pilot and previous public panels are diagnostic development evidence, not pristine final holdout."
+  ],
+  "nonrepresentative_fold0_variants": {
+    "catalog_rows": 277566,
+    "composition_compatible_variants_checked": 83,
+    "equivalent_rows": [
+      {
+        "identity": "CEUORZQYGODEFX",
+        "source": "fold0_original_smiles_variant",
+        "declared_key": "CEUORZQYGODEFX",
+        "sid": 244,
+        "smiles": "OC1=Nc2cc(OCCCCN3CCN(c4cccc(Cl)c4Cl)CC3)ccc2CC1",
+        "fold": "excluded"
+      },
+      {
+        "identity": "CTRLABGOLIVAIY",
+        "source": "fold0_original_smiles_variant",
+        "declared_key": "CTRLABGOLIVAIY",
+        "sid": 290,
+        "smiles": "N=C(O)N1c2ccccc2CC(=O)c2ccccc21",
+        "fold": "excluded"
+      },
+      {
+        "identity": "DBEPLOCGEIEOCV",
+        "source": "fold0_original_smiles_variant",
+        "declared_key": "DBEPLOCGEIEOCV",
+        "sid": 318,
+        "smiles": "CC(C)(C)N=C(O)C1CCC2C3CCC4N=C(O)C=CC4(C)C3CCC12C",
+        "fold": "excluded"
+      },
+      {
+        "identity": "FFGPTBGBLSHEPO",
+        "source": "fold0_original_smiles_variant",
+        "declared_key": "FFGPTBGBLSHEPO",
+        "sid": 461,
+        "smiles": "N=C(O)N1c2ccccc2C=Cc2ccccc21",
+        "fold": "excluded"
+      },
+      {
+        "identity": "NYHBQMYGNKIUIF",
+        "source": "fold0_original_smiles_variant",
+        "declared_key": "NYHBQMYGNKIUIF",
+        "sid": 1347,
+        "smiles": "N=c1nc(O)c2ncn(C3OC(CO)C(O)C3O)c2[nH]1",
+        "fold": "excluded"
+      },
+      {
+        "identity": "NYHBQMYGNKIUIF",
+        "source": "fold0_original_smiles_variant",
+        "declared_key": "NYHBQMYGNKIUIF",
+        "sid": 1347,
+        "smiles": "Nc1nc2c(ncn2C2OC(CO)C(O)C2O)c(=O)[nH]1",
+        "fold": "excluded"
+      },
+      {
+        "identity": "QCHFTSOMWOSFHM",
+        "source": "fold0_original_smiles_variant",
+        "declared_key": "QCHFTSOMWOSFHM",
+        "sid": 1586,
+        "smiles": "CCC1C(=O)OCC1Cc1c[nH]c[n+]1C",
+        "fold": "excluded"
+      },
+      {
+        "identity": "RFDAIACWWDREDC",
+        "source": "fold0_original_smiles_variant",
+        "declared_key": "RFDAIACWWDREDC",
+        "sid": 1700,
+        "smiles": "CC(CCC(O)=NCC(=O)O)C1CCC2C3C(O)CC4CC(O)CCC4(C)C3CC(O)C12C",
+        "fold": "excluded"
+      },
+      {
+        "identity": "XKLMZUWKNUAPSZ",
+        "source": "fold0_original_smiles_variant",
+        "declared_key": "XKLMZUWKNUAPSZ",
+        "sid": 2272,
+        "smiles": "COc1ccccc1OCC(O)CN1CCN(CC(O)=Nc2c(C)cccc2C)CC1",
+        "fold": "excluded"
+      },
+      {
+        "identity": "VXVNYCRICCVPTD",
+        "source": "fold0_original_smiles_variant",
+        "declared_key": "SGKRLCUYIXIAHR",
+        "sid": 215890,
+        "smiles": "CC1c2cccc(O)c2C(O)=C2C(=O)C3(O)C(O)=C(C(=N)O)C(=O)C(N(C)C)C3C(O)C21",
+        "fold": "train"
+      }
+    ],
+    "unresolved_rows": [],
+    "scope": "All original raw-key/SMILES pairs outside train_structs representatives, with fold assignments resolved by raw key/sid."
+  },
+  "audit_completed_local_date": "2026-11-05",
+  "candidate_query_manifest": "reports/component_holdout_audit_20261104/component_intersection_queries.csv",
+  "existing_pilot_exposure_summary": {
+    "saner_final": {
+      "declared_seen": 48
+    },
+    "saner_best_validation": {
+      "training_identity_unseen_selection_not_used_declared": 1,
+      "declared_seen": 45,
+      "training_identity_unseen_checkpoint_selection_candidate_seen": 2
+    },
+    "fold0": {
+      "training_identity_unseen_declared": 27,
+      "declared_seen": 21
+    }
+  },
+  "checkpoint_selection_candidates": {
+    "artifact": "assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/validation_candidates.npz",
+    "sha256": "7a29d889e0022f142dab1a441a9c6540637a53a4f36bec57fd6b1f1931af8848",
+    "matches_published_sha256": true,
+    "query_indices": 1000,
+    "unique_candidate_indices": 161747,
+    "query_indices_match_first_1000_validation_rows": true,
+    "scope": "All evaluated candidate identities including decoys, rather than query identities alone."
+  }
+}

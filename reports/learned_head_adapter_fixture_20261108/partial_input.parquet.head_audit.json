@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "role": "learned_v2",
+  "head_applied": true,
+  "encoder_sha256": "1276ea7dec3df51f317a91c3407e35d2ae0afdf350af3dc60a7d6b03bd499e59",
+  "heads": [
+    {
+      "sha256": "fd57928e37f361539ebbf4b5999491ee1fae18b41cb17cab3afafe61e2bb113b",
+      "step": 500,
+      "seed": 7
+    }
+  ],
+  "preprocessing": "unchanged original Saner features.peaks/metadata/structure",
+  "evidence_sha256": "4102fe0997db2d83fe134706aa4e1c3c4be1e7949e8a248abe422961b29d0aef",
+  "queries_sha256": "8958c566355e20b2a393fe2255745f9a81b798f2366c4c65357bd22260b38cb4",
+  "output_sha256": "989c6e15e7e90ffccfa1862ee3924429c3e94fbdf6d7ea7d4ed14db459649123",
+  "input_rows": 8,
+  "output_rows": 8,
+  "scored_queries": 1,
+  "scored_candidate_rows": 3,
+  "per_query": [
+    {
+      "molecule_id": "a",
+      "candidates": 3,
+      "spectra": 2,
+      "max_abs_delta_from_mean": 0.0
+    }
+  ],
+  "errors": [
+    {
+      "molecule_id": "b",
+      "error": "Missing observed query spectra"
+    }
+  ],
+  "training_performed": false,
+  "checkpoint_evaluation_label": "known-pretrained-exposure engineering diagnostic"
+}

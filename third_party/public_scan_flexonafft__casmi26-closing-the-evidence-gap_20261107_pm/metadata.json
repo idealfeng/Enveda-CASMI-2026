@@ -1,0 +1,31 @@
+{
+  "id": 138464665,
+  "ref": "flexonafft/casmi26-closing-the-evidence-gap",
+  "title": "CASMI26: Closing the Evidence Gap",
+  "current_version_number": 61,
+  "last_run_time": "2026-11-04 06:39:44.164000",
+  "total_votes": 136,
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_data_sources": [
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "ahmedberatozer/casmi26-spectrum-model-long",
+    "sanpier/catalogue-experiment-saner"
+  ],
+  "kernel_data_sources": [],
+  "competition_data_sources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "model_data_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:9a6bcfda6d03b2cd9aa347ee8c1bae62043328ed0f4afe9bda014e4f8bbf9435",
+  "machine_shape": "NvidiaTeslaT4",
+  "source_sha256": "ae4e0b21909396444d271fd4f1ae8a92c2682e349529b28cb59f79b973d63cf7",
+  "source_bytes": 672676,
+  "source_path": "third_party\\public_scan_flexonafft__casmi26-closing-the-evidence-gap_20261107_pm\\source.ipynb"
+}

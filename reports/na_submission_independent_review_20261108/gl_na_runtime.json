@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": {
+    "original_runner_pin": true,
+    "original_checkpoint_pin": true,
+    "original_h_output_unchanged": true,
+    "non_na_query_scores_exactly_unchanged": true,
+    "exact_na_query_set": true,
+    "exact_na_candidate_sets": true,
+    "actual_finite_candidate_counts": true,
+    "original_candidate_sets": true,
+    "original_h_input_selection": true,
+    "real_na_input_selection": true
+  },
+  "combined_queries": 3
+}

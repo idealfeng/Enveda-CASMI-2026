@@ -1,0 +1,68 @@
+{
+  "id": 745134,
+  "read_only": true,
+  "checked_at_utc": "2026-11-09T07:15:02.460047+00:00",
+  "topic": {
+    "id": 745134,
+    "title": "ICEBERG PubChem atlas (predicted spectra from a NIST'23-trained model) — usable as a spectral library?",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745134",
+    "postDate": "2026-10-02T12:38:40.045Z",
+    "authorName": "Zihao Ou",
+    "authorUrl": "https://www.kaggle.com/nicholasooo",
+    "commentCount": 7,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>The MIT Coley group's ICEBERG atlas (iceberg-ms.mit.edu) offers downloadable predicted MS/MS spectra for 91,424,208 PubChem structures. The page states \"All NIST'23 structures are excluded to avoid license conflict\", and the ms-pred README distributes the NIST'23-trained ICEBERG weights only on proof of a NIST licence, while the MassSpecGym-trained weights are open. The atlas page states no data licence. Two readings: (a) the atlas spectra are model outputs publicly offered by the authors, so a solution may use them as an in-silico library, as with CFM-ID/ISDB (thread 743774); (b) outputs of NIST-trained weights fall under \"any solution using or trained on NIST\" (thread 744470) and are ineligible. Which reading applies to atlas-predicted spectra used only as library entries?</p>"
+  },
+  "comments": [
+    {
+      "id": 3548087,
+      "authorName": "QuantQT",
+      "postDate": "2026-11-01T11:03:48.450Z",
+      "content": "<p>Thanks for confirming that the ICEBERG PubChem atlas is permitted. Does that still hold under the Oct 30 guidance in topic 753662, that solutions can be disqualified if the models generating pre-built intermediates used impermissible data? The question that opened this thread describes the atlas as generated with NIST’23-trained weights. Or is the atlas an explicit exception? An answer would help teams plan their final selections. Thank you  </p>"
+    },
+    {
+      "id": 3540129,
+      "authorName": "VUMANIAcom",
+      "postDate": "2026-10-17T05:37:29.887Z",
+      "content": "<p>Hi Marie / David, thank you for the 10-14 and 10-16 answers on the ICEBERG PubChem atlas. One last compliance point for a prize-eligible solution:</p>\n<p>The atlas spectra come from NIST'23-trained ICEBERG weights that are not public (the ms-pred README releases them only on proof of a NIST licence). The atlas page states no data licence and excludes NIST'23 structures.</p>\n<ol>\n<li>May a solution ship, as a private Kaggle dataset attached to the notebook, precomputed atlas predictions for the candidate structures it can reach (the pool/candidate universe), together with the script that queries iceberg-ms.mit.edu (WebDAV / query_smiles) to rebuild them? Is that \"generation code + access to permitted data\" for the reproducibility rule, even though the generating weights are NIST-trained and cannot be retrained by a reviewer?</li>\n<li>Would a much smaller artifact be acceptable: only the atlas MEMBERSHIP list (InChIKey-14 of the structures in the atlas, no spectra), used as a candidate feature?</li>\n<li>Or must atlas-like spectra be regenerated inside the notebook with the public MassSpecGym ICEBERG weights?\nA yes/no for each is enough. Thanks!</li>\n</ol>",
+      "replies": [
+        {
+          "id": 3545931,
+          "authorName": "Marie Killian",
+          "postDate": "2026-10-28T01:42:00.510Z",
+          "content": "<ol>\n<li>Yes, the atlas spectra are model outputs publicly offered by the authors and can be used. You may include these predictions in a private Kaggle Dataset, provided you include the code used to retrieve and process them.</li>\n<li>Yes, the membership list can be used.</li>\n<li>No, that is not necessary.</li>\n</ol>"
+        }
+      ]
+    },
+    {
+      "id": 3539003,
+      "authorName": "Young Uk Song",
+      "postDate": "2026-10-15T05:48:54.443Z",
+      "content": "<p>Thank you for the clear answer on this topic. One follow-up, so that a prize-eligible solution can comply when it is shipped: the atlas page states no data licence. If a solution uses atlas spectra as library entries, may it include only the subset it uses (the predicted spectra of its candidate structures) as a private Kaggle dataset attached to the submission notebook, as described in topic 749209 for PubChem data? Or should such spectra instead be regenerated within the solution with the public MassSpecGym-trained ICEBERG weights?</p>",
+      "replies": [
+        {
+          "id": 3539853,
+          "authorName": "Marie Killian",
+          "postDate": "2026-10-16T16:43:40.840Z",
+          "content": "<p>It should be fine to provide the notebook with only the predicted spectra as a dataset, but include the code used to generate those spectra. You don't need to regenerate them within the notebook, but we do require that you provide sufficient documentation for reproducibility (training code and access to permitted data) . </p>"
+        }
+      ]
+    },
+    {
+      "id": 3538761,
+      "authorName": "Marie Killian",
+      "postDate": "2026-10-14T19:04:38.070Z",
+      "content": "<p>The first reading applies. The atlas spectra are model outputs publicly offered by the authors and can be used. </p>",
+      "replies": [
+        {
+          "id": 3547212,
+          "authorName": "WEI ZIHE12",
+          "postDate": "2026-10-30T14:07:07.480Z",
+          "content": "<p>Follow-up to your answer in this thread (2026-10-28): may the ICEBERG PubChem atlas spectra also be used as training data or as a teacher for our own models (for example, to train or distill our own spectrum predictor or spectrum encoder), provided we include the code used to retrieve and process them? Or would a model trained on these predictions count as a NIST-derived model under the 2026-10-17 clarification?</p>"
+        }
+      ]
+    }
+  ],
+  "comments_truncated": false
+}

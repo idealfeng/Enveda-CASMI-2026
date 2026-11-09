@@ -1,0 +1,328 @@
+{
+  "status": "verified_metadata_and_source",
+  "requested_at_utc": "2026-11-05T07:04:46.996626+00:00",
+  "target": "stormseye/casmi26-flex-v56-baseline",
+  "requested_version": 1,
+  "read_only": true,
+  "run_requested": false,
+  "push_performed": false,
+  "submission_performed": false,
+  "auth_via_installed_sdk": true,
+  "credential_values_or_auth_headers_printed_or_persisted": false,
+  "original_notebook_sha256": "0ebc86ad851fe7051e592fb268756e686ee21b9ddbe90012335096a349bd2769",
+  "checked_at_utc": "2026-11-05T07:04:52.621749+00:00",
+  "method": "Installed SDK authenticated typed GetKernel, identical read endpoint used by kernels_pull; version_label=v1.",
+  "checks": {
+    "target_ref": true,
+    "private": true,
+    "internet_disabled": true,
+    "current_version_one": true,
+    "language_python": true,
+    "notebook_type": true,
+    "source_cell_semantics": true,
+    "six_required_source_refs_reported": true
+  },
+  "server_metadata": {
+    "id": 142840437,
+    "ref": "stormseye/casmi26-flex-v56-baseline",
+    "title": "CASMI26 Flex V56 baseline",
+    "author": "Storm's Eye",
+    "slug": "casmi26-flex-v56-baseline",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "dataset_data_sources": [
+      "sanpier/casmi-spectrum-model-v1",
+      "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets"
+    ],
+    "kernel_data_sources": [],
+    "competition_data_sources": [
+      "enveda-CASMI26-molecule-id-mass-spectra"
+    ],
+    "model_data_sources": [],
+    "current_version_number": 1,
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:9a6bcfda6d03b2cd9aa347ee8c1bae62043328ed0f4afe9bda014e4f8bbf9435",
+    "machine_shape": "NvidiaTeslaT4",
+    "last_run_time": "2026-11-02T07:04:51.133000",
+    "raw_optional_flags": {
+      "is_private": true,
+      "enable_gpu": true,
+      "enable_tpu": false,
+      "enable_internet": false,
+      "docker_image": "gcr.io/kaggle-private-byod/python@sha256:9a6bcfda6d03b2cd9aa347ee8c1bae62043328ed0f4afe9bda014e4f8bbf9435",
+      "machine_shape": "NvidiaTeslaT4"
+    }
+  },
+  "source_comparison": {
+    "original_cells": 24,
+    "server_cells": 24,
+    "original_code_cells": 15,
+    "original_markdown_cells": 9,
+    "all_normalized_sources_equal": true,
+    "all_code_asts_equal": true,
+    "all_code_and_markdown_semantics_equal": true,
+    "cells": [
+      {
+        "index": 0,
+        "cell_type": "markdown",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": null
+      },
+      {
+        "index": 1,
+        "cell_type": "code",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": true
+      },
+      {
+        "index": 2,
+        "cell_type": "code",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": true
+      },
+      {
+        "index": 3,
+        "cell_type": "markdown",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": null
+      },
+      {
+        "index": 4,
+        "cell_type": "code",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": true
+      },
+      {
+        "index": 5,
+        "cell_type": "code",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": true
+      },
+      {
+        "index": 6,
+        "cell_type": "markdown",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": null
+      },
+      {
+        "index": 7,
+        "cell_type": "markdown",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": null
+      },
+      {
+        "index": 8,
+        "cell_type": "code",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": true
+      },
+      {
+        "index": 9,
+        "cell_type": "code",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": true
+      },
+      {
+        "index": 10,
+        "cell_type": "code",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": true
+      },
+      {
+        "index": 11,
+        "cell_type": "code",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": true
+      },
+      {
+        "index": 12,
+        "cell_type": "code",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": true
+      },
+      {
+        "index": 13,
+        "cell_type": "code",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": true
+      },
+      {
+        "index": 14,
+        "cell_type": "code",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": true
+      },
+      {
+        "index": 15,
+        "cell_type": "code",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": true
+      },
+      {
+        "index": 16,
+        "cell_type": "code",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": true
+      },
+      {
+        "index": 17,
+        "cell_type": "code",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": true
+      },
+      {
+        "index": 18,
+        "cell_type": "markdown",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": null
+      },
+      {
+        "index": 19,
+        "cell_type": "code",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": true
+      },
+      {
+        "index": 20,
+        "cell_type": "markdown",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": null
+      },
+      {
+        "index": 21,
+        "cell_type": "markdown",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": null
+      },
+      {
+        "index": 22,
+        "cell_type": "markdown",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": null
+      },
+      {
+        "index": 23,
+        "cell_type": "markdown",
+        "same_type": true,
+        "normalized_source_equal": true,
+        "code_ast_equal": null
+      }
+    ],
+    "outputs_execution_counts_and_notebook_json_layout_not_used_as_semantic_identity": true
+  },
+  "observed_docker_image_matches_request": true,
+  "observed_machine_shape_matches_request": true,
+  "attachment_versions": [
+    {
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "requested_version": 9,
+      "server_strings": [
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets"
+      ],
+      "requested_version_visible": false,
+      "version_visibility": "slug_only"
+    },
+    {
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "requested_version": 5,
+      "server_strings": [
+        "dmitriigluzdov/casmi26-fold-safe-fpnet"
+      ],
+      "requested_version_visible": false,
+      "version_visibility": "slug_only"
+    },
+    {
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "requested_version": 10,
+      "server_strings": [
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table"
+      ],
+      "requested_version_visible": false,
+      "version_visibility": "slug_only"
+    },
+    {
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "requested_version": 10,
+      "server_strings": [
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark"
+      ],
+      "requested_version_visible": false,
+      "version_visibility": "slug_only"
+    },
+    {
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "requested_version": 13,
+      "server_strings": [
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior"
+      ],
+      "requested_version_visible": false,
+      "version_visibility": "slug_only"
+    },
+    {
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "requested_version": 1,
+      "server_strings": [
+        "sanpier/casmi-spectrum-model-v1"
+      ],
+      "requested_version_visible": false,
+      "version_visibility": "slug_only"
+    }
+  ],
+  "all_requested_attachment_versions_visible": false,
+  "runtime_execution_verified": false,
+  "actual_device_allocation_verified": false,
+  "docker_container_execution_verified": false,
+  "runtime_mounted_attachment_versions_verified": false,
+  "full_input_or_cold_budget_verified": false,
+  "artifacts": {
+    "reports\\kaggle_private_draft_pull_20261105\\source.ipynb": {
+      "bytes": 670002,
+      "sha256": "0ebc86ad851fe7051e592fb268756e686ee21b9ddbe90012335096a349bd2769"
+    },
+    "reports\\kaggle_private_draft_pull_20261105\\server_metadata.json": {
+      "sha256": "919b9a76fcf93644a339c946003fb1485532fd24c78a858307e6196ad0bcbf8b"
+    }
+  },
+  "limitations": [
+    "Quick-save metadata/source readback does not allocate a session or prove a model run.",
+    "Echoed Docker/machine strings are stored metadata, not proof of actual device/container availability.",
+    "Missing attachment version numbers in metadata remain unverified; versioned request strings alone are not readback proof.",
+    "No run, push, dataset write, or competition submission was requested by this verifier."
+  ],
+  "server_last_run_time_interpretation": {
+    "reported_value": "2026-11-02T07:04:51.133000",
+    "server_timezone_exposed": false,
+    "current_draft_execution_inferred": false,
+    "note": "Returned last_run_time is older than the local creation receipt. Its precise provenance/time basis was not established; it is not used to infer that this quick-save draft executed."
+  }
+}

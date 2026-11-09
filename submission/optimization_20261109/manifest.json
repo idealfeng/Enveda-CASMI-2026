@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "competition": "enveda-CASMI26-molecule-id-mass-spectra",
+  "batch_id": "optimization_20261109",
+  "max_submissions": 5,
+  "baseline_public_score": 0.482,
+  "state_root": "reports/optimization_20261109",
+  "branches": [
+    {
+      "name": "mass_guarded_oldhead_p3",
+      "target": "stormseye/casmi26-mass-guarded-oldhead-p3-1109",
+      "version": 1,
+      "stage_dir": "submission/optimization_20261109/mass_guarded_oldhead_p3",
+      "notebook_sha256": "1c8eacbd07c1282a2114d558a39a4ad4cf404b5833e8412ae0c51d7fe1ad027f",
+      "metadata_sha256": "d14cde2c3f72f8fcb14cf73aab3fab4239c407b68e6bd38056c78018a316aafa",
+      "description": "CASMI26 20261109 mass_guarded_oldhead_p3 prefix3 audited V1",
+      "validation_mode": "fast_static",
+      "static_review_path": "submission/optimization_20261109/mass_guarded_oldhead_p3/static_review.json",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "public_mass_repro",
+            "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+          },
+          "required_true_checks": [
+            "mass_recipe",
+            "original_public_priors",
+            "official_rdkit",
+            "public_model_pins",
+            "ours_model_pins",
+            "two_distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "guarded_tail_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_oldhead_p3",
+            "mode": "fast_static",
+            "recipe_sha256": "4e92f5baaea084e7159c726cfec2bbd63a9c8d1b255ec846fc889e7bbf61082b",
+            "protected_prefix": 3,
+            "score_mode": "learned_heads"
+          },
+          "required_true_checks": [
+            "original_base_audit",
+            "late_module_pin",
+            "scorer_payload_pins",
+            "original_scorer_pin",
+            "configuration_binding",
+            "audited_control_bound",
+            "final_csv_bound",
+            "exact_ids_order",
+            "exact_protected_prefix",
+            "exact_candidate_multisets",
+            "fast_no_model"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mass_guarded_v2mean_p7",
+      "target": "stormseye/casmi26-mass-guarded-v2mean-p7-1109",
+      "version": 1,
+      "stage_dir": "submission/optimization_20261109/mass_guarded_v2mean_p7",
+      "notebook_sha256": "aa29969bacf47b437a51bab68b1f146ae17bf62058931129d435f1e1fe27311b",
+      "metadata_sha256": "b8c7443e7083968995baa5dab1a4b6115dbbd8c4cf33188d0a8ce3a93282aac4",
+      "description": "CASMI26 20261109 mass_guarded_v2mean_p7 prefix7 audited V1",
+      "validation_mode": "fast_static",
+      "static_review_path": "submission/optimization_20261109/mass_guarded_v2mean_p7/static_review.json",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "public_mass_repro",
+            "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+          },
+          "required_true_checks": [
+            "mass_recipe",
+            "original_public_priors",
+            "official_rdkit",
+            "public_model_pins",
+            "ours_model_pins",
+            "two_distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "guarded_tail_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_v2mean_p7",
+            "mode": "fast_static",
+            "recipe_sha256": "8ab9e20bc3025870c15948767c7ac038f999c2f97cb4b19dd4ca43a7920de733",
+            "protected_prefix": 7,
+            "score_mode": "frozen_v2_mean"
+          },
+          "required_true_checks": [
+            "original_base_audit",
+            "late_module_pin",
+            "scorer_payload_pins",
+            "original_scorer_pin",
+            "configuration_binding",
+            "audited_control_bound",
+            "final_csv_bound",
+            "exact_ids_order",
+            "exact_protected_prefix",
+            "exact_candidate_multisets",
+            "fast_no_model"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mass_guarded_iso_p7b",
+      "target": "stormseye/casmi26-mass-guarded-iso-p7b-1109",
+      "version": 1,
+      "stage_dir": "submission/optimization_20261109/mass_guarded_iso_p7b",
+      "notebook_sha256": "5877f98e0248908e6eab28e7aaac8bb45d52ec6129945e52cd3f582a426dcaf2",
+      "metadata_sha256": "843bb90d75539ce688c6fdc536de5d398ca13d2233bec21adafc599565481106",
+      "description": "CASMI26 20261109 mass_guarded_iso_p7b prefix7 audited V1",
+      "validation_mode": "fast_static",
+      "static_review_path": "submission/optimization_20261109/mass_guarded_iso_p7b/static_review.json",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "public_mass_repro",
+            "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+          },
+          "required_true_checks": [
+            "mass_recipe",
+            "original_public_priors",
+            "official_rdkit",
+            "public_model_pins",
+            "ours_model_pins",
+            "two_distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "guarded_tail_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_iso_p7b",
+            "mode": "fast_static",
+            "recipe_sha256": "deb20120318cc32fe8114f82d7b982b605b19de2d4b629c601a6fd019f1c1927",
+            "protected_prefix": 7,
+            "score_mode": "learned_heads"
+          },
+          "required_true_checks": [
+            "original_base_audit",
+            "late_module_pin",
+            "scorer_payload_pins",
+            "original_scorer_pin",
+            "configuration_binding",
+            "audited_control_bound",
+            "final_csv_bound",
+            "exact_ids_order",
+            "exact_protected_prefix",
+            "exact_candidate_multisets",
+            "fast_no_model"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "public_alex_extlib",
+      "target": "stormseye/casmi26-public-alex-extlib-1109",
+      "version": 1,
+      "stage_dir": "submission/optimization_20261109/public_alex_extlib",
+      "notebook_sha256": "1838e7c7c07177b7e6976c9b4c1e9c566769b2c88c2a699ce002bffa174dbbee",
+      "metadata_sha256": "f45fb0e45dbbba76f6675f140179999ee39899b13c3e95c2ba0fdaac9ea0de88",
+      "description": "CASMI26 20261109 AlexV12 measured library reproduction audited V1",
+      "validation_mode": "fast_static",
+      "static_review_path": "submission/optimization_20261109/public_alex_extlib/static_review.json",
+      "required_runtime_audits": [
+        {
+          "name": "base_external_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static"
+          },
+          "required_true_checks": [
+            "public_model_pins",
+            "faithful_public_fallback",
+            "original_priors",
+            "mass_only",
+            "official_rdkit",
+            "ids_schema",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "external_overlay_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "public_alex_extlib",
+            "recipe_sha256": "d1d5492bfe78e367948d8c9c39c1a0b60cff07fac1a4176a5a94c374c5de4741",
+            "mode": "fast_static"
+          },
+          "required_true_checks": [
+            "base_audit_passed",
+            "control_bound",
+            "final_bound",
+            "source_function_pin",
+            "exact_ids_schema",
+            "official_identities_valid",
+            "library_file_pins",
+            "runtime_checks",
+            "fast_no_matching"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mass_guarded_extlib",
+      "target": "stormseye/casmi26-mass-guarded-extlib-1109",
+      "version": 1,
+      "stage_dir": "submission/optimization_20261109/mass_guarded_extlib",
+      "notebook_sha256": "2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7",
+      "metadata_sha256": "80a7601a2104931baaa27e34223cd083963b24d173b8ebebd53755ab91f3c0d4",
+      "description": "CASMI26 20261109 our .482 plus measured library only audited V1",
+      "validation_mode": "fast_static",
+      "static_review_path": "submission/optimization_20261109/mass_guarded_extlib/static_review.json",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "public_mass_repro",
+            "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+          },
+          "required_true_checks": [
+            "mass_recipe",
+            "original_public_priors",
+            "official_rdkit",
+            "public_model_pins",
+            "ours_model_pins",
+            "two_distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "guarded_tail_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_head_tail_1108",
+            "mode": "fast_static",
+            "recipe_sha256": "ba7ee5d3545fd6bc32159bbeed785e904dbf99beae0347984a8b7d5c8809e5d8"
+          },
+          "required_true_checks": [
+            "original_base_audit",
+            "late_module_pin",
+            "head_payload_pins",
+            "original_scorer_pin",
+            "audited_control_bound",
+            "final_csv_bound",
+            "exact_ids_order",
+            "exact_prefix7",
+            "exact_candidate_multisets",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "external_overlay_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_extlib",
+            "recipe_sha256": "5fc1c8cb1e27bd9e555090fcf437d0c9bfe02a0f8371811da286d2f3a4d4efd1",
+            "mode": "fast_static"
+          },
+          "required_true_checks": [
+            "base_audit_passed",
+            "control_bound",
+            "final_bound",
+            "source_function_pin",
+            "exact_ids_schema",
+            "official_identities_valid",
+            "library_file_pins",
+            "runtime_checks",
+            "fast_no_matching"
+          ]
+        }
+      ]
+    }
+  ]
+}

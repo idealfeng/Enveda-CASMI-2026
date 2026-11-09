@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-v35-robust-mass-1107pm",
+  "version": 1,
+  "branch_sha256": "804f4b156d859c39545c144fe063380dc48a6942d3ec43b57ae8595f41fd5740",
+  "submission_ref": 58082895,
+  "actual_target": "stormseye/casmi26-v35-robust-mass-1107pm",
+  "status": "COMPLETE",
+  "public_score": "0.469",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-07T15:57:26.477180+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

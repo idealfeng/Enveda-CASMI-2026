@@ -1,0 +1,86 @@
+{
+  "status": "applied",
+  "mode": "hidden_full",
+  "control_sha256": "ec6f9b8ad70878023f5694bbfa368f7d3912b229de8f9b408c0566c6a6ba5712",
+  "baseline_audit_csv_sha256": "ec6f9b8ad70878023f5694bbfa368f7d3912b229de8f9b408c0566c6a6ba5712",
+  "policy": "prefix ranks1-7 exact; ranks8-25 same-formula original slots only",
+  "model_invoked": true,
+  "protected_prefix": 7,
+  "score_mode": "learned_heads",
+  "configuration_sha256": "e52d74b591c29fe05cf60e2113602bc618e23045ab8316fced260dfcc3ae99c3",
+  "eligible_queries": 3,
+  "eligible_candidate_rows": 75,
+  "skipped_queries": {},
+  "score_bindings": {
+    "status": true,
+    "encoder": true,
+    "heads": true,
+    "input_hash": true,
+    "queries_hash": true,
+    "output_hash": true,
+    "exact_keys": true,
+    "exact_rows": true,
+    "actual_score_coverage": true,
+    "scoped_failures": true
+  },
+  "head_receipts": [
+    {
+      "sha256": "47fdbb171bf54f6a25fc7d720fc28e14e5c915eccbc585dde66b7c7b68db42eb",
+      "step": 2500,
+      "seed": 20261109
+    },
+    {
+      "sha256": "4c020ea62400188c273fb2bf29fc5187d6553a54e784dd26882291bd2f0aa4ca",
+      "step": 2500,
+      "seed": 20261110
+    }
+  ],
+  "evidence_sha256": "54cca0a8cedc5e824b50d89016e691decb70ad96d9c54fdbd7534679124d3a47",
+  "queries_sha256": "e72d470fca63f27953b8ef3b03def926ee80ddc8666b198a136331a1a5a78596",
+  "scores_sha256": "33f75ca48c772f9ea3fd439f299c3cbb4af16d6958e761656cf03312172a5111",
+  "head_audit_sha256": "928cc1f00766d7a9140973b9164621dba8285a23c5344a943150c0923b825c23",
+  "rows": 3,
+  "changed_queries": 3,
+  "output_sha256": "12be5a42334a0832e3babeed420750a930f7b57154db0c5f7230abae05df9f8a",
+  "details": [
+    {
+      "molecule_id": "cross_CBIAKDAYHRWZCU",
+      "reason": "scored_tail",
+      "changed": true,
+      "changed_formula_groups": 1,
+      "protected_prefix_exact": true,
+      "candidate_multiset_exact": true,
+      "official_identity_multiset_exact": true,
+      "formula_slots_exact": true
+    },
+    {
+      "molecule_id": "cross_DKZBBWMURDFHNE",
+      "reason": "scored_tail",
+      "changed": true,
+      "changed_formula_groups": 1,
+      "protected_prefix_exact": true,
+      "candidate_multiset_exact": true,
+      "official_identity_multiset_exact": true,
+      "formula_slots_exact": true
+    },
+    {
+      "molecule_id": "cross_QNUNSPMEODRLBZ",
+      "reason": "scored_tail",
+      "changed": true,
+      "changed_formula_groups": 1,
+      "protected_prefix_exact": true,
+      "candidate_multiset_exact": true,
+      "official_identity_multiset_exact": true,
+      "formula_slots_exact": true
+    }
+  ],
+  "checks": {
+    "control_matches_audited_base": true,
+    "exact_molecule_order": true,
+    "protected_prefix_exact": true,
+    "candidate_multiset_exact": true,
+    "official_identity_multiset_exact": true,
+    "formula_slots_exact": true,
+    "no_eligible_explicit": true
+  }
+}

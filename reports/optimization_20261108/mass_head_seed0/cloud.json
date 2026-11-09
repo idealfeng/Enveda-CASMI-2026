@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-mass-head-seed0-1108",
+  "version": 1,
+  "branch_sha256": "93ec7de696aec20194b55f38eaa5530297f0e67aa443f4e2f61681d71fbb41d0",
+  "notebook_sha256": "35475aa4e40eb2da03c5f5dcff92fc2d89913b9f4477f15a26273a804b4c6ffc",
+  "metadata_sha256": "1176315ba769ff3c7cfa299e088dbbf840aa5bf0639c71b88cb65cf3f81ed417",
+  "requested_at_utc": "2026-11-08T08:04:31.461447+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-08T08:04:34.909903+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

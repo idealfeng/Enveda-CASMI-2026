@@ -1,0 +1,29 @@
+{
+  "branch": "mass_no_np_bonus",
+  "target": "stormseye/casmi26-mass-no-np-bonus-1108",
+  "upstream": "popwenman/casmi26-0482-gold-apex-v22",
+  "upstream_version": 2,
+  "upstream_source_sha256": "351d0fadaffd5d9894d76f55b3fa30247b269255d6ca46fe1e93f3d31ef9d9d4",
+  "baseline_own_public_score": 0.481,
+  "recipe": "Disable only final membership bonus: NP_W 0.12 -> 0.0",
+  "validation_mode": "fast_static",
+  "mechanism_scope": "Only pxm_merge ranks 2-25 membership contribution; not all NP information in the trained base.",
+  "unchanged": [
+    "POP_W=.10",
+    "SPEC_W=.10",
+    "LIB_HIT_GATE=.78",
+    "public/v2=.5/.5",
+    "physical leader logic",
+    "final MASS leader correction",
+    "outsider neural-only vacant-slot fill",
+    "LOTUS candidate vacant-slot fill",
+    "all original candidate generators and models"
+  ],
+  "adaptations": [
+    "Retain confirmed 0.481 recipe assets and runtime image.",
+    "Instrument final NP contribution without changing candidate scores.",
+    "Observer full-scope check uses dynamic sample_submission size."
+  ],
+  "new_training": false,
+  "locked_final_used": false
+}

@@ -1,0 +1,23 @@
+{
+  "status": "accepted",
+  "requested_at_utc": "2026-11-05T11:30:10.967720+00:00",
+  "target": "stormseye/casmi26-flex-v56-baseline",
+  "version": 2,
+  "competition": "enveda-CASMI26-molecule-id-mass-spectra",
+  "output_file": "submission.csv",
+  "description": "CASMI26 first anchor: original Flex V56; stormseye notebook V2; 20261105",
+  "notebook_sha256": "0ebc86ad851fe7051e592fb268756e686ee21b9ddbe90012335096a349bd2769",
+  "output_audit_sha256": "8655eeb713c273a3d1632f9d962e79f87d3fddd931d73953d992b92ac94e5031",
+  "visible_output_sha256": "d2027d8918d15b27fa271ba4961faa63c28fa7f4efbea0dd8069ecbfe6a5060b",
+  "automatic_retry_allowed": false,
+  "submits_cloud_code_version": true,
+  "local_diagnostic_csv_uploaded": false,
+  "allowance_before_request": {
+    "num_today": 0,
+    "num_total": 0,
+    "num_allowed_now": 5
+  },
+  "submission_ref": 58021256,
+  "response_message": "",
+  "responded_at_utc": "2026-11-05T11:30:14.536282+00:00"
+}

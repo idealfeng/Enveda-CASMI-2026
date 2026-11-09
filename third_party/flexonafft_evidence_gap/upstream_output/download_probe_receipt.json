@@ -1,0 +1,31 @@
+{
+  "requested_version": 56,
+  "ref": "flexonafft/casmi26-closing-the-evidence-gap",
+  "source_notebook_sha256": "0ebc86ad851fe7051e592fb268756e686ee21b9ddbe90012335096a349bd2769",
+  "request_url": "https://www.kaggle.com/api/v1/kernels/output/download/flexonafft/casmi26-closing-the-evidence-gap/submission.csv?versionNumber=56",
+  "observation": {
+    "status": 200,
+    "bytes": 17303,
+    "sha256": "d2027d8918d15b27fa271ba4961faa63c28fa7f4efbea0dd8069ecbfe6a5060b",
+    "storage_host": "www.kaggleusercontent.com:443",
+    "headers": {
+      "Content-Type": "text/plain; charset=utf-8",
+      "Content-Length": "17303",
+      "Last-Modified": "Sat, 31 Oct 2026 09:21:22 GMT"
+    },
+    "storage_script_version_id": 364170882,
+    "storage_path_template": "/kf/364170882/<temporary-access-segment-redacted>/submission.csv"
+  },
+  "invalid_version_probe": {
+    "status": 404,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 404: Not Found",
+    "source_url": "https://www.kaggle.com/api/v1/kernels/output/download/flexonafft/casmi26-closing-the-evidence-gap/submission.csv?versionNumber=999999"
+  },
+  "auth_used": false,
+  "download_date": "2026-11-04",
+  "status": "version_bound_output_downloaded",
+  "file": "flexonafft_v56_submission.csv",
+  "rows": 400,
+  "version_probe_result": "invalid version rejected; requested-version endpoint appears supported"
+}

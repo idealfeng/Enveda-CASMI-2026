@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-05",
+  "experiment": "runs/component_neural_pilot_20261105",
+  "scope_label": "query-spectrum/positive-identity exclusion diagnostic",
+  "checkpoint": {
+    "dataset_ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "version": 5,
+    "sha256": "ddf6eaaa8e541a16e3f0357ed30f0346e529054f75d5619aedb6024dcb1bd7f0",
+    "inspection": "ZIP data.pkl opcode inspection only; no model instantiated or tensor storages read",
+    "step": 82855,
+    "args": {"hours": 5.0, "max_steps": 1000000000, "eval_every": 5000, "eval_groups": 3000, "seed": 0, "holdout": "hold,np"}
+  },
+  "published_checkpoint_policy": {
+    "source": "assets/kaggle/dmitriigluzdov/casmi26-fold-safe-fpnet/v5/train_fpnet.py",
+    "termination": "time/step budget, or nonfinite-loss exception",
+    "periodic_save": "last checkpoint after hold/np/train evaluation",
+    "final_save": "final checkpoint after terminal evaluation",
+    "metric_based_best_or_earlystop_branch_found": false,
+    "manual_recipe_or_version_selection": "unknown"
+  },
+  "monitoring_reconstruction": {
+    "historical_batch_reconstruction": false,
+    "method": "Published eval_groups algorithm over pinned full metadata, pool keys, structure sid and fold0 split, sorted sid/mode, default_rng(12345), hold then np then train, max 3000 groups per set",
+    "groups": {"hold": 3000, "np": 499, "train": 3000},
+    "component_identity_overlap": 9,
+    "cross_overlap": ["FXQWNOQBKFDNLT", "QEMNCANMUTYZIZ", "HIQKXJJFHLCCFB", "ZGNUKVOCLXSERM", "BNSLBDHDDFTTMY", "RMLDUGFLFJVZGE"],
+    "np_overlap": ["GMBQZIIUCVWOCD", "HELXLJCILKEWJH", "IEDVJHCEMCRBQM"]
+  },
+  "negative_pool": {
+    "source": "assets/kaggle/ahmedberatozer/casmi26-v3-models/v4/code/casmi/traindata.py:104",
+    "policy": "Mass-window/full-pool random candidate fingerprints; hold/np pool identities are not filtered",
+    "query_spectra_positive_labels_excluded": true,
+    "all_identity_structural_exposure_excluded": false,
+    "actual_historical_negative_use_for_the_32_queries": "unknown"
+  },
+  "saner_selection_boundary": "Known first1000 validation queries and all 161747 evaluated query/decoy candidate indices were excluded; this does not certify fold0 selection absence.",
+  "frozen_files_modified": false
+}

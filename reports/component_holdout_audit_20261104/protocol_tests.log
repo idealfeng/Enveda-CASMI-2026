@@ -1,0 +1,8 @@
+test_mass_window_does_not_force_truth (test_component_neural_pilot.ComponentProtocol.test_mass_window_does_not_force_truth) ... ok
+test_rrf_reorders_exact_same_candidate_indices (test_component_neural_pilot.ComponentProtocol.test_rrf_reorders_exact_same_candidate_indices) ... ok
+test_spectrum_round_robin_has_fixed_cap_and_both_modes (test_component_neural_pilot.ComponentProtocol.test_spectrum_round_robin_has_fixed_cap_and_both_modes) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.424s
+
+OK

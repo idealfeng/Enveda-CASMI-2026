@@ -1,0 +1,37 @@
+{
+  "competition_test_answers_or_labels_included": false,
+  "doi": "10.5281/zenodo.21346580",
+  "duplicate_same_adduct_signatures_removed": 285,
+  "external_only_candidate_alias_rows": 3720,
+  "external_only_candidate_identities": 3717,
+  "files": {
+    "README.md": {
+      "bytes": 1413,
+      "sha256": "8c11be644b23b5ec48a52dc47d97ccf1a3ca471f8ad6d19e35408e454406e6d1"
+    },
+    "dataset-metadata.json": {
+      "bytes": 185,
+      "sha256": "0b1ab5997f2e72537e97a000a764bb7895e924c737e39479fa127f72a65d9f85"
+    },
+    "enveda180_hplus_hminus_references.parquet": {
+      "bytes": 218514313,
+      "sha256": "37b8f37c5f5f536ed804d4d0456e20f183fa32388f30ae1c1712928471146069"
+    },
+    "enveda180_only_candidate_aliases.parquet": {
+      "bytes": 116885,
+      "sha256": "3ed2d8f086e51931798a34e241027de66cad76b929c0dba1d866f31f2b21e150"
+    }
+  },
+  "format": "enveda180_casmi26_public_source_package_v1",
+  "invalid_or_charged_candidate_aliases_excluded": 0,
+  "invalid_reference_rows": 0,
+  "official_host_external_data_confirmation": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745148",
+  "reference_rows": 730252,
+  "reference_rows_by_adduct": {
+    "[M+H]+": 554650,
+    "[M-H]-": 175602
+  },
+  "source_license": "CC BY 4.0",
+  "unmapped_reference_rows": 0,
+  "zenodo_record": 21346580
+}

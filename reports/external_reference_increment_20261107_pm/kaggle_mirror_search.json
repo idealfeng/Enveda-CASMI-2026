@@ -1,0 +1,114 @@
+[
+  {
+    "query": "enveda-180",
+    "ref": "xjoannax88/casmi-coconut-candidates",
+    "title": "CASMI 2026 COCONUT Candidate Structures",
+    "total_bytes": 29198212,
+    "last_updated": "2026-10-30 06:43:03.257000",
+    "license_name": "Attribution 4.0 International (CC BY 4.0)"
+  },
+  {
+    "query": "enveda-180",
+    "ref": "aryanawasthiteykik/casmi26-spectrum-to-fingerprint-mlp",
+    "title": "CASMI26 spectrum-to-fingerprint MLP",
+    "total_bytes": 173574959,
+    "last_updated": "2026-10-15 03:06:26.907000",
+    "license_name": "CC BY-NC-SA 4.0"
+  },
+  {
+    "query": "enveda-180",
+    "ref": "egehseyinca/enveda180-casmi26-reference-ccby4",
+    "title": "Enveda-180 H+ H- References for CASMI 2026",
+    "total_bytes": 218064168,
+    "last_updated": "2026-10-17 04:18:13.833000",
+    "license_name": "Attribution 4.0 International (CC BY 4.0)"
+  },
+  {
+    "query": "enveda-180",
+    "ref": "ahmedberatozer/casmi26-fm-isomer-panels",
+    "title": "casmi26-fm-isomer-panels",
+    "total_bytes": 12889250,
+    "last_updated": "2026-10-13 16:28:23.367000",
+    "license_name": "Other (specified in description)"
+  },
+  {
+    "query": "enveda-180",
+    "ref": "dauriel/casmi26-e159ck",
+    "title": "casmi26-e159ck",
+    "total_bytes": 100402316,
+    "last_updated": "2026-10-24 05:19:19.693000",
+    "license_name": "Other (specified in description)"
+  },
+  {
+    "query": "enveda-180",
+    "ref": "kitopl/casmi-2026-candidate-pool-fingerprints",
+    "title": "CASMI 2026: Candidate Pool & Fingerprints",
+    "total_bytes": 65858066,
+    "last_updated": "2026-09-20 08:47:32.940000",
+    "license_name": "CC0: Public Domain"
+  },
+  {
+    "query": "enveda 180",
+    "ref": "xjoannax88/casmi-coconut-candidates",
+    "title": "CASMI 2026 COCONUT Candidate Structures",
+    "total_bytes": 29198212,
+    "last_updated": "2026-10-30 06:43:03.257000",
+    "license_name": "Attribution 4.0 International (CC BY 4.0)"
+  },
+  {
+    "query": "enveda 180",
+    "ref": "aryanawasthiteykik/casmi26-spectrum-to-fingerprint-mlp",
+    "title": "CASMI26 spectrum-to-fingerprint MLP",
+    "total_bytes": 173574959,
+    "last_updated": "2026-10-15 03:06:26.907000",
+    "license_name": "CC BY-NC-SA 4.0"
+  },
+  {
+    "query": "enveda 180",
+    "ref": "egehseyinca/enveda180-casmi26-reference-ccby4",
+    "title": "Enveda-180 H+ H- References for CASMI 2026",
+    "total_bytes": 218064168,
+    "last_updated": "2026-10-17 04:18:13.833000",
+    "license_name": "Attribution 4.0 International (CC BY 4.0)"
+  },
+  {
+    "query": "enveda 180",
+    "ref": "ahmedberatozer/casmi26-fm-isomer-panels",
+    "title": "casmi26-fm-isomer-panels",
+    "total_bytes": 12889250,
+    "last_updated": "2026-10-13 16:28:23.367000",
+    "license_name": "Other (specified in description)"
+  },
+  {
+    "query": "enveda 180",
+    "ref": "dauriel/casmi26-e159ck",
+    "title": "casmi26-e159ck",
+    "total_bytes": 100402316,
+    "last_updated": "2026-10-24 05:19:19.693000",
+    "license_name": "Other (specified in description)"
+  },
+  {
+    "query": "enveda 180",
+    "ref": "kitopl/casmi-2026-candidate-pool-fingerprints",
+    "title": "CASMI 2026: Candidate Pool & Fingerprints",
+    "total_bytes": 65858066,
+    "last_updated": "2026-09-20 08:47:32.940000",
+    "license_name": "CC0: Public Domain"
+  },
+  {
+    "query": "casmi extlib",
+    "ref": "takumuhata/casmi26-extlib",
+    "title": "casmi26-extlib",
+    "total_bytes": 77566098,
+    "last_updated": "2026-10-03 16:02:58.440000",
+    "license_name": "CC0: Public Domain"
+  },
+  {
+    "query": "casmi extlib",
+    "ref": "anhnamphamhoa/casmi26-extlib-compact",
+    "title": "CASMI26 ExtLib Compact CC0",
+    "total_bytes": 4676591,
+    "last_updated": "2026-11-02 16:25:34.850000",
+    "license_name": "CC0: Public Domain"
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "observed_date": "2026-11-04",
+  "machine_ram_gib_approx": 15.2,
+  "wsl_memory_budget_gib_approx": 8,
+  "raw_peak_values_from_parquet_metadata": 401806233,
+  "raw_two_float32_peak_arrays_bytes": 3214449864,
+  "largest_row_group": {
+    "index": 7,
+    "spectra": 131072,
+    "raw_peak_values": 32603123,
+    "uncompressed_parquet_bytes": 528409874
+  },
+  "findings": [
+    "Original build_spec_cache retains clean_block slice views backed by buffers sized to original peak counts, then allocates concatenated arrays.",
+    "Library originally uses eager np.load for cleaned CSR arrays.",
+    "Pool originally uses eager np.load for 908986707-byte packed fingerprints and 357116708-byte fragment masses.",
+    "Engine2 uses raw float32 CSR and formula-prioritized masses, not the cleaned Engine1 cache. Substituting clean cache into Engine2 would change prediction behavior.",
+    "PubChem tier arrays are already memory mapped by the upstream CORE."
+  ],
+  "adapters": {
+    "builder": "scripts/build_shared_spec_cache.py",
+    "runtime_helper": "scripts/reproduction_io.py",
+    "runner": "third_party/prvsiyan_analog/run_local_linux.py",
+    "mmap_mode": "c",
+    "mmap_reason": "Preserve writeable-array semantics with copy-on-write pages; keep cached files unchanged.",
+    "target_arrays": [
+      "spec_off.npy",
+      "spec_mz.npy",
+      "spec_it.npy",
+      "pool_fp.npy",
+      "pool_frag_off.npy",
+      "pool_frag_mass.npy",
+      "train_fp_sel.npy"
+    ],
+    "global_numpy_patched": false
+  },
+  "equivalence_evidence": [
+    "cache_equivalence_rg20/equivalence_report.json",
+    "cache_equivalence_rg20/mmap_equivalence_report.json",
+    "cache_equivalence_rg20/cross_platform_equivalence_report.json"
+  ],
+  "limits": [
+    "Fixture equivalence checks are not competition accuracy or full-run memory measurements.",
+    "Raw Engine2 peak library remains an independent ~3.21 GB resident allocation plus metadata/pool; run schemes sequentially under this RAM budget.",
+    "Cache sharing requires identical train_structs identity/order and original cleaning source hashes."
+  ]
+}

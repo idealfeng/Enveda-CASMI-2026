@@ -1,0 +1,148 @@
+{
+  "purpose": "Minimum inference dependency audit; not training-stack installation or leaderboard reproduction.",
+  "required_extra_installed_by_root": [
+    "PyYAML==6.0.2"
+  ],
+  "main_environment": {
+    "pyyaml": "6.0.2",
+    "torch": "2.9.1+cu126",
+    "numpy": "2.2.6",
+    "pillow": "13.0.0",
+    "tqdm": "4.67.1",
+    "fsspec": "2026.9.0",
+    "packaging": "26.3",
+    "typing-extensions": "4.16.0",
+    "scipy": "1.15.3",
+    "requests": "2.32.3"
+  },
+  "provided_by_existing_ice_site": [
+    "einops==0.8.2",
+    "lightning-utilities==0.15.3",
+    "pytorch-lightning==2.6.6",
+    "torchmetrics==1.9.0",
+    "rdkit==2025.3.6"
+  ],
+  "optional_stubbed_by_original_runner": [
+    "pygmtools",
+    "h5py",
+    "multiprocess",
+    "platformdirs"
+  ],
+  "provided_by_original_package_shims": [
+    "dgl",
+    "torch_scatter",
+    "LinSATNet"
+  ],
+  "not_required_for_this_inference": [
+    "torchvision",
+    "torchaudio",
+    "tensorboard",
+    "ray",
+    "hydra-core",
+    "omegaconf",
+    "pathos",
+    "torch_sparse",
+    "aiohttp"
+  ],
+  "reasoning": {
+    "torch_sparse": "Original nn_utils uses native sparse operations for Torch >2.0; current Torch is2.9.1.",
+    "pathos": "Only imported inside simple_parallel(), not the single-process prediction path.",
+    "aiohttp": "Lightning cloud IO uses local fsspec filesystem for the local checkpoints; no HTTP filesystem is invoked. Actual ICE model load succeeded without aiohttp.",
+    "training_and_media_extras": "Not included in the base wheel requirements and not exercised by this inference path."
+  },
+  "probe_policy": {
+    "input_source": "runs/prvsiyan_smoke_20261104a/ice_work/ice_in.json",
+    "molecule_id": "m_005e53",
+    "candidates": 1,
+    "spectra": 1,
+    "device": "cuda",
+    "bs": 1,
+    "threads": 2,
+    "memfrac": 0.18,
+    "concurrency": 1,
+    "cache_environment": "source /mnt/d/Paper/casmi/scripts/linux_env.sh before each WSL command; all artifacts and caches on D."
+  },
+  "probes": {
+    "ice_cold": {
+      "status": "budget",
+      "n_mols": 1,
+      "n_mols_scored": 0,
+      "n_mols_covered": 1,
+      "n_cands": 1,
+      "n_scored": 0,
+      "errors": [],
+      "rdkit": "2025.03.6",
+      "torch": "2.9.1+cu126",
+      "device": "cuda",
+      "t_load": 91.87,
+      "n_pred": 0,
+      "n_pred_fail": 0,
+      "t_pred": 0.0,
+      "n_bad_smiles": 0,
+      "pred_per_s": 0.0,
+      "max_mem_gb": 0.03,
+      "seconds": 99.35,
+      "log_tail": [
+        "[ice     0.1s] stubbed (absent) modules: ['pygmtools', 'h5py', 'multiprocess', 'platformdirs']",
+        "[ice    90.9s] ms_pred tautomer mode v2 cache /mnt/d/Paper/casmi/.cache/tmp-linux/ice_ms_pred_cache",
+        "[ice    91.9s] model loaded on cuda (rdkit 2025.03.6, torch 2.9.1+cu126, numba True)"
+      ]
+    },
+    "ice_warm": {
+      "status": "ok",
+      "n_mols": 1,
+      "n_mols_scored": 1,
+      "n_mols_covered": 1,
+      "n_cands": 1,
+      "n_scored": 1,
+      "errors": [],
+      "rdkit": "2025.03.6",
+      "torch": "2.9.1+cu126",
+      "device": "cuda",
+      "t_load": 70.0,
+      "n_pred": 1,
+      "n_pred_fail": 0,
+      "t_pred": 5.08,
+      "n_bad_smiles": 0,
+      "pred_per_s": 0.2,
+      "max_mem_gb": 0.09,
+      "seconds": 79.41,
+      "log_tail": [
+        "[ice     0.1s] stubbed (absent) modules: ['pygmtools', 'h5py', 'multiprocess', 'platformdirs']",
+        "[ice    69.5s] ms_pred tautomer mode v2 cache /mnt/d/Paper/casmi/.cache/tmp-linux/ice_ms_pred_cache",
+        "[ice    70.0s] model loaded on cuda (rdkit 2025.03.6, torch 2.9.1+cu126, numba True)",
+        "[ice    79.4s] chunk: 1 mols 1 jobs 5.3s (1/1 covered mols scored)"
+      ]
+    },
+    "glacier": {
+      "model": "glacier",
+      "status": "ok",
+      "n_mols": 1,
+      "n_mols_scored": 1,
+      "n_mols_covered": 1,
+      "n_cands": 1,
+      "n_scored": 1,
+      "errors": [],
+      "rdkit": "2025.03.6",
+      "torch": "2.9.1+cu126",
+      "device": "cuda",
+      "t_load": 64.68,
+      "n_pred": 1,
+      "n_pred_fail": 0,
+      "n_feat_fail": 0,
+      "t_pred": 1.5,
+      "n_bad_smiles": 0,
+      "pred_per_s": 0.66,
+      "bs_final": 1,
+      "max_mem_gb": 0.09,
+      "seconds": 70.27,
+      "log_tail": [
+        "[gl     0.0s] site ready (marker matches): /mnt/d/Paper/casmi/runs/prvsiyan_smoke_20261104a/ice_site",
+        "[gl     0.1s] stubbed (absent) modules: ['pygmtools', 'h5py', 'multiprocess', 'platformdirs']",
+        "[gl    64.7s] GLACIER loaded: 15,108,154 params ",
+        "[gl    64.7s] model loaded on cuda (rdkit 2025.03.6, torch 2.9.1+cu126, numba True, threads 2)",
+        "[gl    70.3s] chunk: 1 mols 1 jobs 1.7s (1/1 covered mols scored)"
+      ]
+    }
+  }
+}

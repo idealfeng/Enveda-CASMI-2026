@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-mass-head-seed0-1108",
+  "version": 1,
+  "notebook_sha256": "35475aa4e40eb2da03c5f5dcff92fc2d89913b9f4477f15a26273a804b4c6ffc",
+  "checks": {
+    "base_mass_source_pin": true,
+    "fixed_budget_heads_bound": true,
+    "embedded_payloads_sha_bound": true,
+    "public_passthrough_v2_head_dispatch": true,
+    "main_and_outsider_same_scorer": true,
+    "original_priors_and_leader_chain_preserved": true,
+    "dynamic_hidden_scope": true,
+    "all_code_compiles": true,
+    "private_offline_gpu": true,
+    "known_exposure_explicit": true,
+    "no_notebook_training": true
+  }
+}

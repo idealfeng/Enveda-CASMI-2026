@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-v35-no-interleave-1107pm",
+  "version": 1,
+  "notebook_sha256": "5eea610eb49d3eb6562861eb0149e7054abb76610a600a7c9b939a2053053465",
+  "checks": {
+    "upstream_source_pin": true,
+    "all_code_compile": true,
+    "only_planned_cells_changed": true,
+    "rr_and_v4_absent": true,
+    "private_offline": true,
+    "model_sources_previously_verified": true,
+    "no_new_training_or_label_use": true,
+    "fast_static_scope_explicit": true
+  },
+  "changed_original_cells": [
+    18
+  ]
+}

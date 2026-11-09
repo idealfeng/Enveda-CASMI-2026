@@ -1,0 +1,11 @@
+{
+  "status": "prepared",
+  "branch": "mass_guarded_v2mean_p7",
+  "target": "stormseye/casmi26-mass-guarded-v2mean-p7-1109",
+  "version": 1,
+  "notebook_sha256": "aa29969bacf47b437a51bab68b1f146ae17bf62058931129d435f1e1fe27311b",
+  "metadata_sha256": "b8c7443e7083968995baa5dab1a4b6115dbbd8c4cf33188d0a8ce3a93282aac4",
+  "recipe_sha256": "8ab9e20bc3025870c15948767c7ac038f999c2f97cb4b19dd4ca43a7920de733",
+  "static_review_path": "submission/optimization_20261109/mass_guarded_v2mean_p7/static_review.json",
+  "validation_mode": "fast_static"
+}

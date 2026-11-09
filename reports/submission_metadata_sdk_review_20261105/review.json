@@ -1,0 +1,233 @@
+{
+  "status": "local_source_review_complete_no_service_call",
+  "reviewed_at_utc": "2026-11-05T06:24:03.376065+00:00",
+  "installed_packages": {
+    "kaggle": "2.2.5",
+    "kagglesdk": "0.1.38"
+  },
+  "method": "Read installed source and small metadata/receipts; did not import kaggle or call authentication/API methods.",
+  "source_sha256": {
+    ".venv\\Lib\\site-packages\\kaggle\\api\\kaggle_api_extended.py": "87fac121033a45f689803b62ae5bdfe879b094ae540a55902a46bb6cd5359b4d",
+    ".venv\\Lib\\site-packages\\kagglesdk\\kernels\\types\\kernels_api_service.py": "a7dd65206e7fc27950385e7b163cda48a40766eb8ff7f89d7a334b9bfb151b5c",
+    "scripts\\prepare_submission_review.py": "d16df5c88a15f6ba7a538a4de3cdc7c18350c57d65bc86fb4c9cfc6bbd6567cb",
+    "submission\\flex_v56_review\\kernel-metadata.template.json": "e998839624c13784e8c17b2e1d9749e7675a95b00056e06223fff57a920bd92c"
+  },
+  "fields": {
+    "machine_shape": {
+      "value": "NvidiaTeslaT4",
+      "client_forwarded": true,
+      "request_type": "str",
+      "listed_in_installed_sdk_doc": true,
+      "server_accelerator_availability_verified": false,
+      "client_note": "The CLI acc parameter overrides metadata machine_shape; enable_gpu is supported but deprecated in the request schema."
+    },
+    "docker_image": {
+      "value": "gcr.io/kaggle-private-byod/python@sha256:9a6bcfda6d03b2cd9aa347ee8c1bae62043328ed0f4afe9bda014e4f8bbf9435",
+      "client_forwarded": true,
+      "request_type": "str",
+      "matches_archived_source_metadata": true,
+      "server_known_image_and_access_verified": false
+    },
+    "docker_image_pinning_type": {
+      "present": false,
+      "required_by_local_client": false,
+      "client_allowed_values": [
+        "original",
+        "latest"
+      ],
+      "server_default_semantics_verified": false,
+      "auto_added": false
+    },
+    "is_private": {
+      "value": true,
+      "client_bool_supported": true
+    },
+    "enable_gpu": {
+      "value": true,
+      "client_bool_supported": true
+    },
+    "enable_internet": {
+      "value": false,
+      "client_bool_supported": true
+    },
+    "language": {
+      "value": "python",
+      "in_client_allowed_values": true
+    },
+    "kernel_type": {
+      "value": "notebook",
+      "in_client_allowed_values": true
+    },
+    "dataset_sources": {
+      "count": 8,
+      "all_unversioned": true,
+      "client_validation_accepts_optional_third_version_component": true,
+      "server_version_mounting_semantics_verified": false,
+      "changed": false
+    },
+    "competition_sources": {
+      "client_forwarded": true,
+      "server_access_and_rules_acceptance_verified": false,
+      "changed": false
+    }
+  },
+  "template_boundary": {
+    "required_cli_filename": "kernel-metadata.json",
+    "current_filename": "kernel-metadata.template.json",
+    "username_placeholder_present": true,
+    "current_title_slug_match": false,
+    "proposed_local_title": "CASMI26 Flex V56 baseline",
+    "proposal_changes_only_title": true,
+    "proposal_applied_to_actual_template": false
+  },
+  "asset_manifest_after_correction": {
+    "files": 447,
+    "present": 447,
+    "expected_size_matches": 447,
+    "recorded_sha256_count": 447,
+    "target_receipts": 444,
+    "same_file_aliases": [
+      {
+        "local_path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\casmi26-pubchem-tier\\pc_mass.npy",
+        "recorded_sha256": "e0d7b6d7f5640c1709ec52b235ee7e7ec4615efcb2e5cb80b7886d7d261f6d94",
+        "hash_evidence": "recorded source receipt plus verified same-file hardlink; no fresh content rehash",
+        "hash_evidence_source": {
+          "source": "assets\\kaggle\\ahmedberatozer\\casmi26-pubchem-tier\\v1\\pc_mass.npy",
+          "source_receipt": "assets\\kaggle\\ahmedberatozer\\casmi26-pubchem-tier\\v1\\pc_mass.npy.receipt.json",
+          "alias_manifest": "reports\\flexonafft_asset_aliases.json",
+          "link_receipt": "reports\\shared_asset_links.json",
+          "same_file_verified_now": true,
+          "fresh_content_rehash": false
+        }
+      },
+      {
+        "local_path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\casmi26-pubchem-tier\\pc_off.npy",
+        "recorded_sha256": "0aa81667eccdeeea3f521d621100a597104014504a6f19ad292401da03460392",
+        "hash_evidence": "recorded source receipt plus verified same-file hardlink; no fresh content rehash",
+        "hash_evidence_source": {
+          "source": "assets\\kaggle\\ahmedberatozer\\casmi26-pubchem-tier\\v1\\pc_off.npy",
+          "source_receipt": "assets\\kaggle\\ahmedberatozer\\casmi26-pubchem-tier\\v1\\pc_off.npy.receipt.json",
+          "alias_manifest": "reports\\flexonafft_asset_aliases.json",
+          "link_receipt": "reports\\shared_asset_links.json",
+          "same_file_verified_now": true,
+          "fresh_content_rehash": false
+        }
+      },
+      {
+        "local_path": "assets\\kaggle\\dmitriigluzdov\\casmi26-pubchem-popularity-prior\\v13\\casmi26-pubchem-tier\\pc_smiles.npy",
+        "recorded_sha256": "7a888630a74c1f84027dacf4dec804798d2bc18a40043eb901eca6f0b959f34e",
+        "hash_evidence": "recorded source receipt plus verified same-file hardlink; no fresh content rehash",
+        "hash_evidence_source": {
+          "source": "assets\\kaggle\\ahmedberatozer\\casmi26-pubchem-tier\\v1\\pc_smiles.npy",
+          "source_receipt": "assets\\kaggle\\ahmedberatozer\\casmi26-pubchem-tier\\v1\\pc_smiles.npy.receipt.json",
+          "alias_manifest": "reports\\flexonafft_asset_aliases.json",
+          "link_receipt": "reports\\shared_asset_links.json",
+          "same_file_verified_now": true,
+          "fresh_content_rehash": false
+        }
+      }
+    ],
+    "fresh_large_content_rehash": false,
+    "actual_required_datasets": 6,
+    "attachments_without_required_payload": [
+      "ahmedberatozer/casmi26-spectrum-model-long",
+      "sanpier/catalogue-experiment-saner"
+    ]
+  },
+  "offline_completed": [
+    "Original V56 notebook byte hash and code AST checks.",
+    "447 necessary file presence/size and recorded SHA provenance, including three verified hardlinks.",
+    "Installed SDK field mapping/types and explicit template boundaries.",
+    "Known local validation/exposure and source-specific licence reports are available."
+  ],
+  "still_unverified": [
+    "Actual account owner/username and competition access/rules acceptance.",
+    "Server acceptance of requested T4 shape and historical Docker digest/pinning policy.",
+    "Cloud attachment versions and alignment with model pins/manifests.",
+    "Unmodified notebook full hidden-input path and cold-run time limit; local generated 48-query recovery is not that proof.",
+    "Primary host clarification745072 and source-specific external asset eligibility remain separately documented."
+  ],
+  "safety_facts": {
+    "credential_files_read": false,
+    "service_calls": false,
+    "push_or_submit": false,
+    "model_inference": false,
+    "large_asset_content_reads": false,
+    "active_pipeline_source_modified": false,
+    "asset_payload_modified": false
+  },
+  "post_review_updates": [
+    {
+      "updated_at_utc": "2026-11-05T06:41:52.593084+00:00",
+      "change": "Root aligned the actual local template and preparation-script title with the fixed slug. Initial review fields and source hashes above are preserved as historical observations.",
+      "current_title": "CASMI26 Flex V56 baseline",
+      "current_id": "YOUR_KAGGLE_USERNAME/casmi26-flex-v56-baseline",
+      "current_title_slug_match": true,
+      "actual_template_matches_initial_title_only_proposal": true,
+      "username_placeholder_still_present": true,
+      "current_sha256": {
+        "submission/flex_v56_review/kernel-metadata.template.json": "c92dfc2f6654c96bd2dbc5cbecdefb4a93b7cde2ed3b4a9ad7949274d5cc3697",
+        "scripts/prepare_submission_review.py": "66f955606df1f661bd071fe6d39a580aeb07ad8213f00419d39268013e0f3968",
+        "submission/flex_v56_review/notebook.ipynb": "0ebc86ad851fe7051e592fb268756e686ee21b9ddbe90012335096a349bd2769"
+      },
+      "docker_pinning_type_still_unspecified": true,
+      "cloud_validation_performed": false,
+      "credential_access_performed": false,
+      "push_or_submit_performed": false
+    },
+    {
+      "updated_at_utc": "2026-11-05T06:45:00.001476+00:00",
+      "change": "User supplied Kaggle username stormseye; root generated the real account metadata locally with --username. Username is no longer missing. Initial audit fields remain historical.",
+      "current_title": "CASMI26 Flex V56 baseline",
+      "current_account_id": "stormseye/casmi26-flex-v56-baseline",
+      "account_username_provided_by_user": "stormseye",
+      "actual_account_metadata_file": "submission/flex_v56_review/kernel-metadata.json",
+      "account_metadata_matches_template_except_owner": true,
+      "generic_template_still_preserves_placeholder": true,
+      "current_sha256": {
+        "submission/flex_v56_review/kernel-metadata.json": "a37937e32eda0a0db37afcdb25fd235ee9a58db1ca67d7dba1e54d7520da32cb",
+        "submission/flex_v56_review/kernel-metadata.template.json": "c92dfc2f6654c96bd2dbc5cbecdefb4a93b7cde2ed3b4a9ad7949274d5cc3697",
+        "scripts/prepare_submission_review.py": "66f955606df1f661bd071fe6d39a580aeb07ad8213f00419d39268013e0f3968",
+        "submission/flex_v56_review/notebook.ipynb": "0ebc86ad851fe7051e592fb268756e686ee21b9ddbe90012335096a349bd2769"
+      },
+      "private_offline_gpu": true,
+      "docker_pinning_type_still_unspecified": true,
+      "still_unverified_current": [
+        "Account authentication/competition access/rules acceptance; no credentials were inspected.",
+        "Server accelerator allocation and historical Docker digest/pinning acceptance.",
+        "Cloud attachment versions and full-input cold-run path/budget.",
+        "Source-specific asset permissions and primary host clarification boundaries remain separately documented."
+      ],
+      "cloud_validation_performed": false,
+      "credential_access_performed": false,
+      "push_or_submit_performed": false
+    }
+  ],
+  "post_review_current_state": {
+    "updated_at_utc": "2026-11-05T06:45:00.001476+00:00",
+    "change": "User supplied Kaggle username stormseye; root generated the real account metadata locally with --username. Username is no longer missing. Initial audit fields remain historical.",
+    "current_title": "CASMI26 Flex V56 baseline",
+    "current_account_id": "stormseye/casmi26-flex-v56-baseline",
+    "account_username_provided_by_user": "stormseye",
+    "actual_account_metadata_file": "submission/flex_v56_review/kernel-metadata.json",
+    "account_metadata_matches_template_except_owner": true,
+    "generic_template_still_preserves_placeholder": true,
+    "current_sha256": {
+      "submission/flex_v56_review/kernel-metadata.json": "a37937e32eda0a0db37afcdb25fd235ee9a58db1ca67d7dba1e54d7520da32cb",
+      "submission/flex_v56_review/kernel-metadata.template.json": "c92dfc2f6654c96bd2dbc5cbecdefb4a93b7cde2ed3b4a9ad7949274d5cc3697",
+      "scripts/prepare_submission_review.py": "66f955606df1f661bd071fe6d39a580aeb07ad8213f00419d39268013e0f3968",
+      "submission/flex_v56_review/notebook.ipynb": "0ebc86ad851fe7051e592fb268756e686ee21b9ddbe90012335096a349bd2769"
+    },
+    "private_offline_gpu": true,
+    "docker_pinning_type_still_unspecified": true,
+    "still_unverified_current": [
+      "Account authentication/competition access/rules acceptance; no credentials were inspected.",
+      "Server accelerator allocation and historical Docker digest/pinning acceptance.",
+      "Cloud attachment versions and full-input cold-run path/budget.",
+      "Source-specific asset permissions and primary host clarification boundaries remain separately documented."
+    ],
+    "cloud_validation_performed": false,
+    "credential_access_performed": false,
+    "push_or_submit_performed": false
+  }
+}

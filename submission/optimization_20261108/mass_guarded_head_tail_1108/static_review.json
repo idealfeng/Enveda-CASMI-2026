@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-mass-guarded-head-tail-1108",
+  "version": 1,
+  "notebook_sha256": "6de37bec32c8aa8bfb46b2c5e94e374b53fe36137dff1cd7d1c4a295359f56fe",
+  "checks": {
+    "original_cell14_exact": true,
+    "late_install_after_original_audit": true,
+    "original_mass_priors_and_leader_chain": true,
+    "no_na_component": true,
+    "heads_and_runtime_pinned": true,
+    "guarded_tail_module_pinned": true,
+    "global_failure_removes_final_csv": true,
+    "dynamic_hidden_size": true,
+    "all_code_compiles": true,
+    "private_offline": true
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "status": "passed",
+  "branch": "mass_head_seed1",
+  "notebook_sha256": "54d0acc8eb0569b98226a0b38471b39cfda268d72e21f98a0d1329d56fb3e3df",
+  "checks": {
+    "frozen_source_sha": true,
+    "actual_fast_observer": true,
+    "actual_hidden_main_and_outside_observer": true,
+    "original_optional_outside_skip": true,
+    "no_stage_bytes_changed": true,
+    "bad_coverage_rejected": true,
+    "bad_query_coverage_rejected": true,
+    "bad_encoder_rejected": true,
+    "bad_head_receipt_rejected": true,
+    "bad_output_hash_rejected": true,
+    "bad_evidence_hash_rejected": true,
+    "bad_query_hash_rejected": true,
+    "bad_row_count_rejected": true,
+    "bad_error_scope_rejected": true,
+    "head_not_applied_rejected": true,
+    "bad_status_rejected": true,
+    "corrupt_adapter_rejected": true,
+    "corrupt_checkpoint_rejected": true,
+    "corrupt_original_rejected": true,
+    "corrupt_runtime_rejected": true,
+    "bad_outsider_coverage_rejected": true
+  },
+  "fast": {
+    "accepted": true,
+    "result": {
+      "status": "passed",
+      "branch": "mass_head_seed1",
+      "mode": "fast_static",
+      "recipe_sha256": "e6be635827a8c1f7fbbcef958c2ec2de593d4f66378c9af5bcc9ff2a3bad82fc",
+      "checks": {
+        "base_mass_audit": true,
+        "head_scorer_source_pin": true,
+        "head_model_source_pin": true,
+        "original_scorer_source_pin": true,
+        "runtime_manifest_pin": true,
+        "trained_checkpoint_pins": true,
+        "base_mass_configuration": true,
+        "fast_no_model_claim": true
+      },
+      "head_execution": {},
+      "known_pretrained_exposure": true,
+      "new_training_in_notebook": false,
+      "actual_head_inference": false,
+      "csv_sha256": "f66887dfd212e940a96373cd4729ee919ba31536c4f1c4e1d5d085998be7c9dc"
+    },
+    "model_inference": false
+  },
+  "hidden": {
+    "accepted": true,
+    "result": {
+      "status": "passed",
+      "branch": "mass_head_seed1",
+      "mode": "hidden_full",
+      "recipe_sha256": "e6be635827a8c1f7fbbcef958c2ec2de593d4f66378c9af5bcc9ff2a3bad82fc",
+      "checks": {
+        "base_mass_audit": true,
+        "head_scorer_source_pin": true,
+        "head_model_source_pin": true,
+        "original_scorer_source_pin": true,
+        "runtime_manifest_pin": true,
+        "trained_checkpoint_pins": true,
+        "base_mass_configuration": true,
+        "full_pipeline_executed": true,
+        "main_head_called": true,
+        "main_weights": true,
+        "main_output_consumed": true,
+        "main_input_bound": true,
+        "main_rows": true,
+        "main_coverage": true,
+        "main_failures_scoped": true,
+        "outsider_head_called": true,
+        "outsider_weights": true,
+        "outsider_output_consumed": true,
+        "outsider_input_bound": true,
+        "outsider_rows": true,
+        "outsider_coverage": true,
+        "outsider_failures_scoped": true
+      },
+      "head_execution": {
+        "main": {
+          "scored_queries": 2,
+          "scored_candidate_rows": 4,
+          "head_count": 1
+        },
+        "outsider": {
+          "scored_queries": 1,
+          "scored_candidate_rows": 2,
+          "head_count": 1
+        }
+      },
+      "known_pretrained_exposure": true,
+      "new_training_in_notebook": false,
+      "actual_head_inference": true,
+      "csv_sha256": "f66887dfd212e940a96373cd4729ee919ba31536c4f1c4e1d5d085998be7c9dc"
+    },
+    "model_inference": false
+  },
+  "optional_skipped": {
+    "accepted": true,
+    "result": {
+      "status": "passed",
+      "branch": "mass_head_seed1",
+      "mode": "hidden_full",
+      "recipe_sha256": "e6be635827a8c1f7fbbcef958c2ec2de593d4f66378c9af5bcc9ff2a3bad82fc",
+      "checks": {
+        "base_mass_audit": true,
+        "head_scorer_source_pin": true,
+        "head_model_source_pin": true,
+        "original_scorer_source_pin": true,
+        "runtime_manifest_pin": true,
+        "trained_checkpoint_pins": true,
+        "base_mass_configuration": true,
+        "full_pipeline_executed": true,
+        "main_head_called": true,
+        "main_weights": true,
+        "main_output_consumed": true,
+        "main_input_bound": true,
+        "main_rows": true,
+        "main_coverage": true,
+        "main_failures_scoped": true
+      },
+      "head_execution": {
+        "main": {
+          "scored_queries": 2,
+          "scored_candidate_rows": 4,
+          "head_count": 1
+        },
+        "outsider": {
+          "skipped_by_original_optional_time_policy": true
+        }
+      },
+      "known_pretrained_exposure": true,
+      "new_training_in_notebook": false,
+      "actual_head_inference": true,
+      "csv_sha256": "f66887dfd212e940a96373cd4729ee919ba31536c4f1c4e1d5d085998be7c9dc"
+    },
+    "model_inference": false
+  },
+  "rejected": {
+    "bad_coverage": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "main_coverage",
+      "model_inference": false
+    },
+    "bad_query_coverage": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "main_coverage",
+      "model_inference": false
+    },
+    "bad_encoder": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "main_weights",
+      "model_inference": false
+    },
+    "bad_head_receipt": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "main_weights",
+      "model_inference": false
+    },
+    "bad_output_hash": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "main_output_consumed",
+      "model_inference": false
+    },
+    "bad_evidence_hash": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "main_input_bound",
+      "model_inference": false
+    },
+    "bad_query_hash": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "main_input_bound",
+      "model_inference": false
+    },
+    "bad_row_count": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "main_rows",
+      "model_inference": false
+    },
+    "bad_error_scope": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "main_failures_scoped",
+      "model_inference": false
+    },
+    "head_not_applied": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "main_head_called",
+      "model_inference": false
+    },
+    "bad_status": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "main_head_called",
+      "model_inference": false
+    },
+    "corrupt_adapter": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "head_scorer_source_pin",
+      "model_inference": false
+    },
+    "corrupt_checkpoint": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "trained_checkpoint_pins",
+      "model_inference": false
+    },
+    "corrupt_original": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "original_scorer_source_pin",
+      "model_inference": false
+    },
+    "corrupt_runtime": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "runtime_manifest_pin",
+      "model_inference": false
+    },
+    "bad_outsider_coverage": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "outsider_coverage",
+      "model_inference": false
+    }
+  },
+  "fixtures_only": true,
+  "no_models_loaded": true,
+  "no_gpu_or_cloud_calls": true
+}

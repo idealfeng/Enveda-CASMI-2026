@@ -1,0 +1,15 @@
+{
+  "status": "complete_diagnostic",
+  "scope": "reference-isolated diagnostic with known pretrained exposure",
+  "metrics": {
+    "final": {
+      "molecules": 48,
+      "mrr_at_25": 0.8206699346405228,
+      "top1": 0.75,
+      "top5": 0.9375,
+      "top25": 0.9583333333333334
+    }
+  },
+  "stage_files": 4,
+  "ablations": []
+}

@@ -1,0 +1,9 @@
+{
+  "ref": 58120288,
+  "status": "SubmissionStatus.COMPLETE",
+  "public_score": "",
+  "error_description": "Your notebook hit an unhandled error while rerunning your code. Note that the hidden dataset can be larger/smaller/different than the public dataset",
+  "description": "CASMI26 20261108 MASS real Na GL coverage audited V1",
+  "kernel": null,
+  "kernel_version": null
+}

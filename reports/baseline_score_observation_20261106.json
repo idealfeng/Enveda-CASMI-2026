@@ -1,0 +1,22 @@
+{
+  "as_of_client_date": "2026-11-06",
+  "timezone": "Asia/Shanghai",
+  "target": "stormseye/casmi26-flex-v56-baseline",
+  "notebook_version": 2,
+  "upstream_recipe": "Flex V56 original",
+  "submission_ref": 58021256,
+  "source_sha256": "0ebc86ad851fe7051e592fb268756e686ee21b9ddbe90012335096a349bd2769",
+  "submission_source_binding_read_back": true,
+  "new_algorithm_in_first_submission": false,
+  "public_score_user_confirmed": 0.479,
+  "approximate_public_rank_user_reported": 800,
+  "approximate_silver_reference_score_user_reported": 0.481,
+  "approximate_silver_reference_rank_user_reported": 200,
+  "fresh_api_score_verification_succeeded": true,
+  "api_verified_at_utc": "2026-11-06T02:10:12.188575+00:00",
+  "api_submission_status": "COMPLETE",
+  "api_verified_public_score": "0.479",
+  "latest_api_read_error_type": null,
+  "previous_api_read_error": "SSLError resolved by using Windows system-trusted roots in a D-drive process-local CA bundle; TLS verification remains enabled.",
+  "note": "The public score is now independently verified through the official API. Approximate ranks and silver reference remain the user's observations, not refreshed leaderboard facts."
+}

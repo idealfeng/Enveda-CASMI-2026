@@ -1,0 +1,11 @@
+{
+  "url": "https://www.kaggle.com/api/v1/kernels/pull?userName=zz3t3rn41&kernelSlug=casmi26-peaks-to-structures-v2",
+  "downloaded_at_utc": "2026-11-06T02:12:04.333676+00:00",
+  "version": 30,
+  "ref": "zz3t3rn41/casmi26-peaks-to-structures-v2",
+  "source_sha256": "73c8bdc7799ffdad7ef756015c74c90365ee060122f2567f8a3c061ff42cc0df",
+  "api_sha256": "13fa35277f6ee40f3c55eccdc26cb154e248345e618f678826d10dfba568eb7a",
+  "api_bytes": 1459474,
+  "executed": false,
+  "assets_downloaded": false
+}

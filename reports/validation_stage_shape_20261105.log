@@ -1,0 +1,139 @@
+{
+  "scope": "Artifact schema sanity only; no truth or model performance was evaluated.",
+  "files": [
+    {
+      "path": "/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104b/submission.csv",
+      "rows": 400,
+      "columns": [
+        "molecule_id",
+        "smiles"
+      ]
+    },
+    {
+      "path": "/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104b/submission_baseline0465.csv",
+      "rows": 400,
+      "columns": [
+        "molecule_id",
+        "smiles"
+      ]
+    },
+    {
+      "path": "/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104b/frozen_candidate_evidence.parquet",
+      "rows": 688,
+      "columns": [
+        "molecule_id",
+        "smiles",
+        "metric_key",
+        "baseline_rank",
+        "processed",
+        "library_max",
+        "proxy_gl",
+        "ice",
+        "gl",
+        "main_rank",
+        "prefusion_rank",
+        "engine2_rank",
+        "pubchem_rank"
+      ]
+    },
+    {
+      "path": "/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104b/neural_candidate_features.parquet",
+      "rows": 688,
+      "columns": [
+        "molecule_id",
+        "smiles",
+        "metric_key",
+        "baseline_rank",
+        "processed",
+        "library_max",
+        "proxy_gl",
+        "ice",
+        "gl",
+        "main_rank",
+        "prefusion_rank",
+        "engine2_rank",
+        "pubchem_rank",
+        "neural_ok",
+        "neural_cos",
+        "neural_fp",
+        "neural_score",
+        "neural_std",
+        "n_spectra",
+        "n_adducts"
+      ]
+    },
+    {
+      "path": "/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104b/outsider_neural_features.parquet",
+      "rows": 240,
+      "columns": [
+        "molecule_id",
+        "smiles",
+        "metric_key",
+        "source",
+        "source_rank",
+        "baseline_rank",
+        "processed",
+        "neural_ok",
+        "neural_cos",
+        "neural_fp",
+        "neural_score",
+        "neural_std",
+        "n_spectra",
+        "n_adducts"
+      ]
+    },
+    {
+      "path": "/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104b/variants/submission_CUSTOM.csv",
+      "rows": 400,
+      "columns": [
+        "molecule_id",
+        "smiles"
+      ]
+    },
+    {
+      "path": "/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104b/variants/submission_V0.csv",
+      "rows": 400,
+      "columns": [
+        "molecule_id",
+        "smiles"
+      ]
+    },
+    {
+      "path": "/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104b/variants/submission_V1.csv",
+      "rows": 400,
+      "columns": [
+        "molecule_id",
+        "smiles"
+      ]
+    },
+    {
+      "path": "/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104b/variants/submission_V2.csv",
+      "rows": 400,
+      "columns": [
+        "molecule_id",
+        "smiles"
+      ]
+    },
+    {
+      "path": "/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104b/variants/submission_V3.csv",
+      "rows": 400,
+      "columns": [
+        "molecule_id",
+        "smiles"
+      ]
+    },
+    {
+      "path": "/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104b/variants/submission_V4.csv",
+      "rows": 400,
+      "columns": [
+        "molecule_id",
+        "smiles"
+      ]
+    }
+  ],
+  "missing_stage_files": [
+    "validation_e1_candidates.jsonl",
+    "validation_e2_candidates.jsonl",
+    "validation_candidate_stages.parquet"
+  ]
+}

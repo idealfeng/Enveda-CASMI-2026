@@ -1,0 +1,36 @@
+{
+  "status": "run_requested",
+  "started_utc": "2026-11-05T07:11:10.265758+00:00",
+  "target": "stormseye/casmi26-flex-v56-baseline",
+  "expected_version": 2,
+  "previous_version": 1,
+  "private": true,
+  "internet": false,
+  "session_timeout_seconds": 32400,
+  "notebook_sha256": "0ebc86ad851fe7051e592fb268756e686ee21b9ddbe90012335096a349bd2769",
+  "metadata_sha256": "99ab6d0d1a11fc40b2d392ee4e28b243b5e1742094d87eb527c7d8f741bfd00b",
+  "required_dataset_versions": {
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets": 9,
+    "dmitriigluzdov/casmi26-fold-safe-fpnet": 5,
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table": 10,
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark": 10,
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior": 13,
+    "sanpier/casmi-spectrum-model-v1": 1
+  },
+  "competition_submission_performed": false,
+  "automatic_retry_allowed": false,
+  "response_ref": "/code/stormseye/casmi26-flex-v56-baseline",
+  "response_url": "https://www.kaggle.com/code/stormseye/casmi26-flex-v56-baseline",
+  "version_number": 2,
+  "response_error": "",
+  "invalid_sources": {
+    "invalid_tags": [],
+    "invalid_dataset_sources": [],
+    "invalid_competition_sources": [],
+    "invalid_kernel_sources": [],
+    "invalid_model_sources": []
+  },
+  "finished_request_utc": "2026-11-05T07:11:15.901258+00:00",
+  "initial_session_status": "QUEUED",
+  "initial_failure_message": ""
+}

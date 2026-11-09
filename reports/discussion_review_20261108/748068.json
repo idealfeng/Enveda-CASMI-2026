@@ -1,0 +1,28 @@
+{
+  "id": 748068,
+  "read_only": true,
+  "checked_at_utc": "2026-11-07T16:01:47.905914+00:00",
+  "topic": {
+    "id": 748068,
+    "title": "The public notebooks' 0.43+ LB has never been validated by CV",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/748068",
+    "postDate": "2026-10-10T13:23:11.653Z",
+    "authorName": "Bull",
+    "authorUrl": "https://www.kaggle.com/welshonionman",
+    "votes": 13,
+    "commentCount": 1,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<h1>The public notebooks' 0.43+ LB has never been validated by CV</h1>\n<p>The public notebooks have climbed from 0.373 to 0.436 on the LB. But none of that gain has been confirmed by cross-validation (CV).</p>\n<p>Ahmed Berat Özer's early versions do describe out-of-fold validation. The components added after them show no CV record: two-engine fusion, the popularity prior, PubChem candidate promotion, dropping ICEBERG, tail backfilling and more. Each of them was accepted or rejected on the public LB score alone. We read about ten of the main notebooks and found no exception.</p>\n<h2>The public LB alone cannot tell improvement from chance</h2>\n<p>Without CV, the public LB is the only yardstick. Yet it scores only a part of the test set: about 130 molecules, by participants' estimates.</p>\n<p>With only 130 molecules, one molecule moving from \"outside the top 25\" to \"rank 1\" raises the score by about 0.008. That is the typical size of a single step in the public notebooks. On the LB alone, \"+0.008\" cannot be told apart from \"one more molecule happened to hit.\"</p>\n<p>The training data, by contrast, supports far more validation data. In our CV, we hold out 425 structures from the training data for cross-validation, plus a separate set of 170 structures kept back for a final check. We draw spectra three times per structure, giving about 2,900 queries. These are simulated queries, under different conditions from the real test. Still, we have more than 3x the public LB's molecules by structure count, and more than 20x by query count.</p>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>Public LB</th>\n<th>Our CV</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Molecules (structures)</td>\n<td>~130 (estimated)</td>\n<td>425 + 170 for a final check</td>\n</tr>\n<tr>\n<td>Queries</td>\n<td>~130</td>\n<td>~2,900</td>\n</tr>\n<tr>\n<td>Score change from one structure hit/miss</td>\n<td>~0.008</td>\n<td>~0.002</td>\n</tr>\n<tr>\n<td>Which molecules changed rank</td>\n<td>Unknown (only a total score)</td>\n<td>Known (with confidence intervals)</td>\n</tr>\n</tbody>\n</table>\n<p>So the public lineage has picked its improvements by looking only at a 130-molecule LB, when this much data was available.</p>\n<p>On top of that, many people submit slightly different versions, and whichever scores highest becomes the next starting point. Repeat this, and gains that came from luck pile up unchecked. Those gains will vanish on the private LB, which scores the remaining molecules.</p>\n<h2>What is already happening</h2>\n<ul>\n<li>The same component has been judged both ways. ICEBERG (a component that re-ranks candidates using predicted spectra) was adopted in an earlier version as \"+0.013.\" A later version dropped it after a single comparison: \"with ICEBERG 0.402, without 0.417.\" Nobody has checked which result is right.</li>\n<li>Thresholds have no stated basis. The only justification given for the <code>rel &gt; 250</code> condition, which promotes a PubChem candidate to rank 1, is the comment <code># Skomuro LB 0.403 Rule</code>.</li>\n<li>The pipeline cannot be validated as built. The fingerprint model <code>fpnet_full1</code> was trained on all of the training data. As a result, this pipeline as it stands cannot be validated on held-out training data.</li>\n</ul>\n<h2>Conclusion</h2>\n<p>The public notebooks' 0.43+ is a number built up without CV support, relying only on a 130-molecule public LB. It may contain lucky upward swings.</p>\n<p>Choosing this lineage as-is for a final submission risks a large drop in rank on the private LB.</p>"
+  },
+  "comments": [
+    {
+      "id": 3537067,
+      "authorName": "Aryan Awasthi",
+      "postDate": "2026-10-11T19:36:08.180Z",
+      "content": "<p>Agree, and here’s a concrete case. On my CV a PubChem popularity prior lifted class-2/3 MRR from 0.11 to 0.61 (+0.50); on the public LB the same prior, same model and candidates, is worth +0.075 (0.146 → 0.221). Real, but far smaller.</p>\n<p>The cause is the validation molecules themselves. By popularity alone, the answer is #1 in its 10 ppm PubChem window for 67% of enveda-np-examples molecules, but for ~0% of enveda-180 molecules that have no public spectra (top 25: 99% vs 0.7%). Class-2 molecules have no public spectra by definition, so any CV built from library molecules will overrate priors like this.</p>\n<p>Notebooks:</p>\n<ul>\n<li>Validation set: <a href=\"https://www.kaggle.com/code/aryanawasthiteykik/casmi26-validation-that-behaves-like-the-test\" target=\"_blank\">https://www.kaggle.com/code/aryanawasthiteykik/casmi26-validation-that-behaves-like-the-test</a></li>\n<li>Popularity trap: <a href=\"https://www.kaggle.com/code/aryanawasthiteykik/casmi26-the-popularity-prior-trap\" target=\"_blank\">https://www.kaggle.com/code/aryanawasthiteykik/casmi26-the-popularity-prior-trap</a></li>\n</ul>",
+      "votes": 1
+    }
+  ],
+  "comments_truncated": false
+}

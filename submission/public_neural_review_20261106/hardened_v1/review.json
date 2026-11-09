@@ -1,0 +1,213 @@
+{
+  "status": "prepared_for_review_not_run",
+  "source_ref": "d1m4official/enveda-0480-ensemble-hardened",
+  "source_version": 1,
+  "source_sha256": "7780631f63b07663792b7e47c06585c7d3799e1e2ad9755698657aa4b2959d7f",
+  "original_source_bytes_preserved": true,
+  "suggested_new_kernel_id": "stormseye/casmi26-n480-public-v2",
+  "original_commit_mode": "smoke",
+  "source_pins": {
+    "FROZEN_SHA256": "d1e757c2b71b46e6e8a5777f14302a4737d0fdbcd56d8365093c039b93c5fd88",
+    "MODEL_PINS": {
+      "features.py": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+      "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+      "config.json": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+      "final_model.pt": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642"
+    },
+    "MODULE_SHA256": {
+      "runner.py": "86b74f3b4cd5767a2cbe1d291735c292b66b4fbf286a705c6cb777a1865883db",
+      "export_evidence.py": "d4ec36a9f6216d2607fff4f481bc465dbc8fbc616ec4b24f12932e4c5e546e19",
+      "neural_scores.py": "cb9e4d6732992e3310e951533fd0c644d3b515134ad03768c35e5a86551267d2",
+      "submission.py": "d0027a893b1bfefe8066ede4f625c584fe0d4fa16bfe4bee32265ef34a7f007c",
+      "ranking.py": "6f909cd7e41e88387c23109b93dd590885d2283509804279a58c624a758987d7",
+      "bundle.py": "8595ef16ead9c9e6ac34a3398bff4b748f5668cdc517c396be18100a5b745cea",
+      "consensus.py": "9e67ab49a852404587e62ca84e0fc551d70ce68ec8f7a47739aada6ca08d3989",
+      "outsiders.py": "4dcf6c2b9c9b7be3ac8f7a616683495430fcb4e0c25b449684d132daaa8e7b5c"
+    }
+  },
+  "common_assets": {
+    "snapshot": "common_local_asset_manifest.json",
+    "sha256": "0ac8dadb5293aed70c7968c4031dd48d5e84e2301cc3a1aec975dce9a2ec67e2",
+    "files": 447,
+    "present_and_size_checked": 447,
+    "recorded_sha256_count": 447,
+    "large_assets_fresh_rehashed": false
+  },
+  "new_model_bundles": [
+    {
+      "ref": "bgunshui/casmi26-scorer-v2-model",
+      "version": 1,
+      "path": "assets\\kaggle\\bgunshui\\casmi26-scorer-v2-model\\v1",
+      "files": [
+        {
+          "ref": "bgunshui/casmi26-scorer-v2-model",
+          "version": 1,
+          "file": "README.md",
+          "destination_file": "README.md",
+          "bytes": 1199,
+          "sha256": "97dcc78f7e52e855416da0c57044de76be9dea322c6ad9537f806bb18afb3abb",
+          "source_kind": "public_dataset_file",
+          "acquired_at_utc": "2026-11-06T02:21:08.466463+00:00",
+          "signed_url_or_credentials_persisted": false
+        },
+        {
+          "ref": "bgunshui/casmi26-scorer-v2-model",
+          "version": 1,
+          "file": "config_used.json",
+          "destination_file": "config_used.json",
+          "bytes": 836,
+          "sha256": "5ed9578966792110846b3bf7c11a34d8247fa8e57d168b37124d208924fd9524",
+          "source_kind": "public_dataset_file",
+          "acquired_at_utc": "2026-11-06T02:21:08.468865+00:00",
+          "signed_url_or_credentials_persisted": false
+        },
+        {
+          "ref": "bgunshui/casmi26-scorer-v2-model",
+          "version": 1,
+          "file": "final_model.pt",
+          "destination_file": "final_model.pt",
+          "bytes": 11872818,
+          "sha256": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46",
+          "source_kind": "public_dataset_file",
+          "acquired_at_utc": "2026-11-06T02:21:25.665180+00:00",
+          "signed_url_or_credentials_persisted": false
+        },
+        {
+          "ref": "bgunshui/casmi26-scorer-v2-model",
+          "version": 1,
+          "file": "training_result.json",
+          "destination_file": "training_result.json",
+          "bytes": 389,
+          "sha256": "85470f47e1e18e1105efc99223d59a507bdb54f413f04e06dd93b236eaf12e87",
+          "source_kind": "public_dataset_file",
+          "acquired_at_utc": "2026-11-06T02:21:25.667959+00:00",
+          "signed_url_or_credentials_persisted": false
+        },
+        {
+          "ref": "sanpier/casmi-spectrum-model-v1",
+          "version": 1,
+          "file": "casmi_spectrum_model_v1/model.py",
+          "destination_file": "model.py",
+          "bytes": 1577,
+          "sha256": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+          "source_kind": "existing_public_kit_dependency_copy",
+          "source_local_path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\model.py",
+          "source_receipt": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\model.py.receipt.json",
+          "acquired_at_utc": "2026-11-06T02:21:25.668957+00:00"
+        },
+        {
+          "ref": "sanpier/casmi-spectrum-model-v1",
+          "version": 1,
+          "file": "casmi_spectrum_model_v1/features.py",
+          "destination_file": "features.py",
+          "bytes": 2356,
+          "sha256": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+          "source_kind": "existing_public_kit_dependency_copy",
+          "source_local_path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\features.py",
+          "source_receipt": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\features.py.receipt.json",
+          "acquired_at_utc": "2026-11-06T02:21:25.670649+00:00"
+        },
+        {
+          "ref": "sanpier/casmi-spectrum-model-v1",
+          "version": 1,
+          "file": "casmi_spectrum_model_v1/inference.py",
+          "destination_file": "inference.py",
+          "bytes": 2694,
+          "sha256": "c43086b2150ab912f812ec152676422d592fae2b2b835458aabcfe32591fa04a",
+          "source_kind": "existing_public_kit_dependency_copy",
+          "source_local_path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\inference.py",
+          "source_receipt": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\inference.py.receipt.json",
+          "acquired_at_utc": "2026-11-06T02:21:25.671785+00:00"
+        },
+        {
+          "ref": "bgunshui/casmi26-scorer-v2-model",
+          "version": 1,
+          "file": "config_used.json",
+          "destination_file": "config.json",
+          "bytes": 836,
+          "sha256": "5ed9578966792110846b3bf7c11a34d8247fa8e57d168b37124d208924fd9524",
+          "source_kind": "local_filename_alias_of_shipped_config",
+          "acquired_at_utc": "2026-11-06T02:21:25.673082+00:00"
+        }
+      ],
+      "native_dataset_file_count": 4,
+      "native_dataset_license": "Unknown",
+      "inference_code_dependency": "sanpier/casmi-spectrum-model-v1 V1; source notices retained in original asset directory",
+      "weight_matches_public_saner_checkpoint": false,
+      "config": {
+        "seed": 20261023,
+        "fp_bits": 2048,
+        "max_peaks": 96,
+        "min_peaks": 3,
+        "width": 192,
+        "heads": 6,
+        "layers": 3,
+        "embedding": 192,
+        "dropout": 0.1,
+        "temperature": 0.1,
+        "aux_weight": 0.5,
+        "fp_score_weight": 2.0,
+        "batch_size": 96,
+        "hard_negatives": 16,
+        "negative_pool": 128,
+        "epochs": 80,
+        "steps_per_epoch": 500,
+        "patience": 4,
+        "lr": 0.0002,
+        "weight_decay": 0.01,
+        "val_fraction": 0.1,
+        "val_candidates": 256,
+        "max_validation_molecules": 1000,
+        "holdout_hours": 5.0,
+        "refit_hours": 6.0,
+        "refit_full": true,
+        "require_gpu": true,
+        "output": "/kaggle/working/casmi_spectrum_model_v2",
+        "work": "/kaggle/working/casmi_training_cache_v1",
+        "train_path": "/kaggle/input/competitions/enveda-CASMI26-molecule-id-mass-spectra/train.parquet",
+        "external_paths": []
+      },
+      "training_result": {
+        "best_epoch": 52,
+        "best_diagnostic_mrr25": 0.6602795453044211,
+        "completed_epochs": 56,
+        "time_budget_exhausted": false,
+        "refit": {
+          "best_epoch": 0,
+          "best_diagnostic_mrr25": null,
+          "completed_epochs": 52,
+          "time_budget_exhausted": false
+        },
+        "final_model_training": "full data, including former validation identities; DO NOT evaluate this model on that holdout"
+      },
+      "status": "downloaded_not_loaded"
+    }
+  ],
+  "lotus_required": false,
+  "lotus_files": [],
+  "missing_required": [],
+  "metadata_replacements": {
+    "removed_kernel_sources": [
+      "deleted/142141665"
+    ],
+    "explicit_public_models": [
+      "bgunshui/casmi26-scorer-v2-model/1"
+    ],
+    "input_versions_requested_explicitly": true,
+    "historical_private_weight_identity_proven": false
+  },
+  "action_boundaries": {
+    "network_or_cloud_write": false,
+    "model_execution": false,
+    "smoke_completed": false,
+    "competition_submitted": false
+  },
+  "limitations": [
+    "Public dependency replacement is a reproduction candidate, not proof of identical historical private weights.",
+    "Upstream title/personal best is not this packet score; no score is reproduced by preparation.",
+    "Source allows model fallback; acceptance must verify unique checkpoint hashes and full model coverage.",
+    "V30 original fast commit is dummy-only; use the isolated smoke_review folder for a real12 query run.",
+    "Preserved Docker digest/device request is not proof of current cloud allocation.",
+    "New bgunshui weight licence remains Unknown; common component notices remain applicable."
+  ]
+}

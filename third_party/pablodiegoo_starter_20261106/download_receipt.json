@@ -1,0 +1,11 @@
+{
+  "url": "https://www.kaggle.com/api/v1/kernels/pull?userName=pablodiegoo&kernelSlug=enveda-casmi26-starter-notebook",
+  "downloaded_at_utc": "2026-11-06T02:12:04.540709+00:00",
+  "version": 4,
+  "ref": "pablodiegoo/enveda-casmi26-starter-notebook",
+  "source_sha256": "6b034783fe062131dd219797b4b15231cab7a4c8f9c59d916f8fffd17e65b7a7",
+  "api_sha256": "cd1ac0007b6a2835f6930d38af415c2a8430da97b3aa537de9bdb163fa07caf8",
+  "api_bytes": 1380426,
+  "executed": false,
+  "assets_downloaded": false
+}

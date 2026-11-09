@@ -1,0 +1,11 @@
+{
+  "status": "prepared",
+  "branch": "mass_guarded_oldhead_p3",
+  "target": "stormseye/casmi26-mass-guarded-oldhead-p3-1109",
+  "version": 1,
+  "notebook_sha256": "1c8eacbd07c1282a2114d558a39a4ad4cf404b5833e8412ae0c51d7fe1ad027f",
+  "metadata_sha256": "d14cde2c3f72f8fcb14cf73aab3fab4239c407b68e6bd38056c78018a316aafa",
+  "recipe_sha256": "4e92f5baaea084e7159c726cfec2bbd63a9c8d1b255ec846fc889e7bbf61082b",
+  "static_review_path": "submission/optimization_20261109/mass_guarded_oldhead_p3/static_review.json",
+  "validation_mode": "fast_static"
+}

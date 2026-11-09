@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "checks": {
+    "source_pin": true,
+    "original_29_cell_sources_unchanged": true,
+    "original_code_asts_unchanged": true,
+    "stored_outputs_cleared": true,
+    "private_offline_gpu": true,
+    "no_kernel_dependencies": true,
+    "version_pinned_eight_datasets": true,
+    "prepared_hashes_match": true,
+    "original_public_model_pins_match": true,
+    "fast_observer_fixture_passed": true,
+    "hidden_observer_fixture_passed": true
+  },
+  "fixture_results": {
+    "fast": {
+      "status": "passed",
+      "checks": {
+        "mass_recipe": true,
+        "original_public_priors": true,
+        "official_rdkit": true,
+        "public_model_pins": true,
+        "ours_model_pins": true,
+        "two_distinct_models": true,
+        "lotus_pin": true,
+        "csv_schema_ids": true,
+        "csv_counts": true,
+        "fast_no_model": true
+      },
+      "models_executed": false
+    },
+    "hidden": {
+      "status": "passed",
+      "checks": {
+        "mass_recipe": true,
+        "original_public_priors": true,
+        "official_rdkit": true,
+        "public_model_pins": true,
+        "ours_model_pins": true,
+        "two_distinct_models": true,
+        "lotus_pin": true,
+        "csv_schema_ids": true,
+        "csv_counts": true,
+        "pipeline_complete": true,
+        "hidden_full_scope": true,
+        "mass_layer_executed": true,
+        "rr_disabled": true,
+        "ensemble_candidate_keys": true,
+        "exact_dual_scores": true,
+        "model_coverage_equal": true,
+        "usable_scores_finite": true
+      },
+      "models_executed": false
+    }
+  },
+  "no_model_or_label_or_cloud_calls": true,
+  "notebook_sha256": "2bf3c51c8703956f80892d478b0de77747f90a8228bf275399d793666e5a1ea6",
+  "observations": [
+    "materialise_sources installs official RDKit and stages both bundles before the fast branch.",
+    "Original ours_bundle copies the public config.json; retained config_used differs only in output/work.",
+    "Outside candidate scoring writes outsider_neural_features.parquet; mass and merge layers only read primary neural features.",
+    "Source RR8 disabled status is off in this preset; active mass statuses on/ran match the observer.",
+    "Fixtures exercise observer logic and declared globals, not actual model inference or hidden score."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": {
+    "zero_residual_reproduces_original_mean": true,
+    "parameter_count_under_30000": true,
+    "masked_spectra_do_not_change_output": true,
+    "candidate_permutation_equivariant": true,
+    "adding_candidates_does_not_rescale_originals": true,
+    "finite_loss_and_gradients": true,
+    "nonzero_learning_gradient": true,
+    "score_is_candidate_conditional": true
+  },
+  "parameters": 25986,
+  "max_zero_error": 0.0
+}

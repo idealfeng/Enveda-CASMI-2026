@@ -1,0 +1,3147 @@
+{
+  "status": "passed_for_inventory_scope",
+  "target": "stormseye/casmi26-flex-v56-baseline",
+  "version": 2,
+  "read_only": true,
+  "mounted_inventory_entries": 593,
+  "local_required_files": 447,
+  "counts": {
+    "full_sha_match": 400,
+    "size_head_tail_match": 42,
+    "outside_five_dataset_inventory": 5
+  },
+  "mismatches": [],
+  "comparisons": [
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "ATTRIBUTION.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "MANIFEST.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "README.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "SOURCE-LICENSES.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi-chebi-lmsd-structures/ATTRIBUTION.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi-chebi-lmsd-structures/bio_fp.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi-chebi-lmsd-structures/bio_mass.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi-chebi-lmsd-structures/bio_meta.pkl",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi-chebi-lmsd-structures/bio_structures.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi-chebi-lmsd-structures/stats.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-fp-models-v2/fp_merged_m1.pt",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-fp-models-v2/fp_single_s2.pt",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-fpnet-full1/fpnet_full1.pt",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/LICENSE-NOTICE.txt",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/MANIFEST.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/README.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/ckpt/glacier.pt",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/gl_fuse.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/gl_runner.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/shim/LinSATNet/__init__.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/shim/dgl/__init__.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/shim/dgl/backend/__init__.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/shim/dgl/backend/pytorch.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/shim/dgl/function.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/shim/dgl/nn/__init__.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/shim/torch_scatter/__init__.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/LICENSE",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/__init__.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/common/__init__.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/common/chem_utils.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/common/denoising_utils.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/common/fingerprint.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/common/misc_utils.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/common/parallel_utils.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/common/splitter.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/glacier/dataset.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/glacier/joint_model.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/graphormer/__init__.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/graphormer/graphormer_graph_encoder.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/graphormer/graphormer_graph_encoder_layer.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/graphormer/graphormer_layers.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/graphormer/multihead_attention.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/iceberg/dag_data.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/iceberg/graph_mutate.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/magma/fragmentation.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/nn_utils/__init__.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/nn_utils/dgl_graph_ops.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/nn_utils/dgl_modules.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/nn_utils/form_embedder.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/nn_utils/mol_graph.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/nn_utils/nn_utils.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-glacier/src/ms_pred/nn_utils/transformer_layer.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/LICENSE-NOTICE.txt",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/MANIFEST.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/README.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/ckpt/gen.pt",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/ckpt/inten.pt",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/fuse.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/ice_runner.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/shim/dgl/__init__.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/shim/dgl/backend/__init__.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/shim/dgl/backend/pytorch.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/shim/dgl/function.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/shim/dgl/nn/__init__.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/shim/torch_scatter/__init__.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/LICENSE",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/__init__.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/common/__init__.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/common/chem_utils.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/common/denoising_utils.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/common/fingerprint.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/common/misc_utils.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/common/parallel_utils.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/common/splitter.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/iceberg/dag_data.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/iceberg/gen_model.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/iceberg/inten_model.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/iceberg/joint_model.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/magma/fragmentation.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/magma/run_magma.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/nn_utils/__init__.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/nn_utils/dgl_graph_ops.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/nn_utils/dgl_modules.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/nn_utils/form_embedder.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/nn_utils/mol_graph.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/nn_utils/nn_utils.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/src/ms_pred/nn_utils/transformer_layer.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/wheels/einops-0.8.2-py3-none-any.whl.ice",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/wheels/lightning_utilities-0.15.3-py3-none-any.whl.ice",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/wheels/pytorch_lightning-2.6.6-py3-none-any.whl.ice",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/wheels/rdkit-2025.3.6-cp312-cp312-manylinux_2_28_x86_64.whl.ice",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-iceberg/wheels/torchmetrics-1.9.0-py3-none-any.whl.ice",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-pubchemlite-cc0-candidate-fingerprints/MANIFEST.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-pubchemlite-cc0-candidate-fingerprints/pubchemlite_fp.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-pubchemlite-cc0-candidate-fingerprints/pubchemlite_mass.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-pubchemlite-cc0-candidate-fingerprints/pubchemlite_meta.pkl",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-ranker-features/rank_train.npz",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-simulated-ranker-rows/README.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-simulated-ranker-rows/sim_rank_rows_nofp.npz",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-spec2mol-r/TRAINING.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-spec2mol-r/history_val.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-spec2mol-r/prep_morgan.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-spec2mol-r/spec2mol_r.pt",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-spec2mol-r/spec2mol_r_features.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-spec2mol-r/spec2mol_r_model.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-spec2mol-r/spec2mol_r_spectrum.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-spec2mol-r/train_r.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-spec2mol/TRAINING.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-spec2mol/held_out_molecules.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-spec2mol/held_out_sids.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-spec2mol/history.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-spec2mol/prep.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-spec2mol/spec2mol.pt",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-spec2mol/spec2mol_features.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-spec2mol/spec2mol_model.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-spec2mol/train.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v2-pool/fp_bits.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v2-pool/pool_fp.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v2-pool/pool_frag_mass.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v2-pool/pool_frag_off.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v2-pool/pool_meta.parquet",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v2-pool/train_fp_sel.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v2-pool/train_structs.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v3-models/code/casmi/__init__.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v3-models/code/casmi/build.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v3-models/code/casmi/chem.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v3-models/code/casmi/derive.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v3-models/code/casmi/engine.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v3-models/code/casmi/fpnet.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v3-models/code/casmi/frag.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v3-models/code/casmi/graphs.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v3-models/code/casmi/library.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v3-models/code/casmi/pool.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v3-models/code/casmi/ranker.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v3-models/code/casmi/spectra.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v3-models/code/casmi/structs.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v3-models/code/casmi/traindata.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v3-models/code/casmi/xenc.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v3-models/fpnet_0.pt",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v3-models/fpnet_1.pt",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v3-models/ranker_0.pkl",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/LICENSE-NOTICE.txt",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/MANIFEST.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/casmi/__init__.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/casmi/build.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/casmi/chem.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/casmi/derive.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/casmi/dreams_model.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/casmi/engine.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/casmi/fpnet.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/casmi/fpnet6.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/casmi/frag.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/casmi/graphs.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/casmi/library.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/casmi/pool.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/casmi/ranker.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/casmi/spectra.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/casmi/structs.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/casmi/traindata.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/casmi/xenc.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/chemfeat.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/ctxlib.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/derive6.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/fams/__init__.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/fams/analog_struct.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/fams/derivation.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/fams/frag2.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/fams/fragnet.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/fams/model_views.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/fragcaps.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/hooks_v1.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_coresmi_buf.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_coresmi_off.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_elsmi_buf.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_elsmi_off.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_fvec.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_hash.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_num.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_coresmi_buf.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_coresmi_off.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_elsmi_buf.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_elsmi_off.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_fvec.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_hash.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_num.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/derivation/parity_fixture.pkl",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/derivation/prior_tables.pkl",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/frag2/caps.txt",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/frag2/pool_cap.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/frag2/pool_f1_mass.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/frag2/pool_f1_off.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/fragnet/countsA.npz",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/fragnet/featB.npz",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/fragnet/rec_aoff.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/fragnet/rec_atom.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/fragnet/rec_boff.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/fragnet/rec_bond.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/fragnet/rec_ok.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/fragnet/sets.pkl",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/fragnet/stageA.npz",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/res/fragnet/stageB.txt",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/code/fe_v4/v1engine.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/fe_A.pt",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/fe_B.pt",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/fe_D.pt",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/fpnet_0.pt",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "casmi26-v4b-models/ranker_v4b.pkl",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "chebi-lipidmaps-casmi26/bio_fp.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "chebi-lipidmaps-casmi26/bio_mass.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "chebi-lipidmaps-casmi26/bio_meta.pkl",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "coconut-casmi26-candidates/coco_fp.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "coconut-casmi26-candidates/coco_mass.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "coconut-casmi26-candidates/coco_meta.pkl",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "coconut-casmi26-candidates/fp_bits.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "pinned_local_version": 9,
+      "file": "rdkit-2026-3-3-wheel/rdkit-2026.3.3-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "pinned_local_version": 5,
+      "file": "MODEL_INPUTS.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "pinned_local_version": 5,
+      "file": "README.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "pinned_local_version": 5,
+      "file": "fp_bits.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "pinned_local_version": 5,
+      "file": "fpnet_fold0.pt",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "CHANGED_FILES.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "DESCRIPTOR_METHOD.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "FILE_DESCRIPTIONS.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "JOIN_NOTES.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "LOTUS_REFRESH.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "MANIFEST_20261019.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "MANIFEST_20261019_2.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "MANIFEST_20261020.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "README.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "SOURCE_CHECK_20261019.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "SUMMARY.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "TECHNICAL_NOTES.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "VALIDATION_20261019.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "build_np.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "candidate_joins.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "descriptors.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "external_reference_spectra/DOWNLOADS.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "external_reference_spectra/INTEGRATION.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "external_reference_spectra/LICENCES.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "external_reference_spectra/SOURCE_MANIFESTS.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "external_reference_spectra/external_candidate_additions.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "external_reference_spectra/external_delta.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "external_reference_spectra/external_record_quality.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "external_reference_spectra/external_scorer_sid_links.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "external_reference_spectra/external_structure_coverage.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "lotus_structure_genus.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "lotus_structure_genus.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "natural_products.csv",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "natural_products.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/ANNOTATION_METHOD.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/FILE_DESCRIPTIONS.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/FRAGMENT_METHOD.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/GRAPH_METHOD.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/MEASUREMENT_SUMMARY.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/METHOD_CREDITS.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/PARITY_SENSITIVITY_METHOD.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/PROVENANCE.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/STRUCTURE_ENUMERATION.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/additional_measurements_v25.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/adduct_census.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/annotation_by_energy.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/annotation_summary.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/bonds.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/collections.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/electron_parity_by_energy.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/electron_parity_sensitivity.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/element_comparison_v25.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/element_count_distribution.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/element_groups.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/element_table_v25.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/elements.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/example_spectra_v25.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/figures/elements.png",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/figures/example_stick_spectra_v25.png",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/figures/fragment_catalogue_coverage.png",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/figures/fragmentation_graph.png",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/figures/fragmentation_tree_v25.png",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/figures/neutral_losses.png",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/formula_coverage.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/fragment_elements.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/fragment_formula_catalogue.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/fragment_ions_by_energy.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/fragment_isotope_checks.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/fragment_isotope_summary.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/fragmentation_graph.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/frequent_fragment_ions.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/frequent_precursor_losses.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/graph_candidates.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/graph_energy_behavior.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/graph_energy_sampling.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/loss_events.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/mass_defect.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/neutral_loss_table_v25.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/neutral_loss_table_v25.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/neutral_losses.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/neutral_losses_by_energy.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/parent_tier_coverage.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/physical_rules.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/physical_rules.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/rule_method.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/rule_retention.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/rule_true_decoy_retention.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/sampling.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/spectrum_summary.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/structural_fragment_matches.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/structural_parent_summary.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/structure_coverage.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/structure_properties.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/tier_census.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/tier_element_count_distribution.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/tier_element_groups.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/tier_elements.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/tier_structure_properties.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/true_decoy_rows.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/true_decoy_summary.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "spectra_chemistry/unusual_training_structures.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "sugar_and_acyl_units/MANIFEST.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "sugar_and_acyl_units/README.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "sugar_and_acyl_units/knowledge_units.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "sugar_and_acyl_units/pool_units.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "sugar_and_acyl_units/selected_rules.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "sugar_and_acyl_units/spectrum_validation.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "sugar_and_acyl_units/structure_validation.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "sugar_and_acyl_units/sugarloss_units.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "sugar_and_acyl_units/training_observed_losses.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "pinned_local_version": 10,
+      "file": "sugar_and_acyl_units/unit_definitions.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "ATTRIBUTION.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "CHANGED_FILES.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "DIFFICULTY_METHOD.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "FILE_DESCRIPTIONS.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "LOTUS_REFRESH.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "MANIFEST_20261019.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "MANIFEST_20261019_2.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "PANEL_REPLAY_PUBLIC.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "README.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "SOURCE_CHECK_20261019.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "SUMMARY.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "TECHNICAL_NOTES.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "VALIDATION_20261019.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "VALIDATION_20261020.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "aligned_public_priors.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "casmi26-identity-disjoint-validation-folds/MANIFEST_20261019_2.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "casmi26-identity-disjoint-validation-folds/README.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "casmi26-identity-disjoint-validation-folds/SPLIT_METHOD.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "casmi26-identity-disjoint-validation-folds/SUMMARY.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "casmi26-identity-disjoint-validation-folds/TECHNICAL_NOTES.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "casmi26-identity-disjoint-validation-folds/analogue_domain_summary.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "casmi26-identity-disjoint-validation-folds/build_folds.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "casmi26-identity-disjoint-validation-folds/spectra_folds.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "casmi26-identity-disjoint-validation-folds/spectra_splits.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "casmi26-identity-disjoint-validation-folds/split_categories.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "casmi26-identity-disjoint-validation-folds/split_summary.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "casmi26-identity-disjoint-validation-folds/structure_splits.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "casmi26-identity-disjoint-validation-folds/structures.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "fpnet_window_eval.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "gate_diagnostics.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "gate_eval.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "identity_audit.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "lotus_replay_identity_additions.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "main_candidates.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "main_eval.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "main_tables.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "merge_eval.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "np_eval.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "np_poolfz.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "np_tables.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "panel.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "panel_difficulty.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "panel_fpnet_per_molecule.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "panel_fpnet_scores.parquet",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "panel_logits.npz",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "panel_metric_identities.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "panel_same_formula.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "panel_tier_formulas.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "panel_truth_formula.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "prior_replay.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "prior_rule_per_query.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "prior_rule_summary.csv",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "pubchem_candidates.parquet",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "pubchem_signals.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "pubchemlite_annotations.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "replay_public_priors.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "results_fingerprint_seen_unseen.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "results_main_channel.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "results_merge_rules.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "results_pubchem_channel.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "pinned_local_version": 10,
+      "file": "summarize_panel_fpnet.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "ATTRIBUTION.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "FILE_DESCRIPTIONS.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "GROWTH_INPUTS.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "GROWTH_MANIFEST.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "MANIFEST.json",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "README.md",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "aligned_public_priors.py",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "casmi26-pubchem-tier/pc_mass.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "casmi26-pubchem-tier/pc_off.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "casmi26-pubchem-tier/pc_smiles.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "delta_pc_cid.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "delta_pc_ik14.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "delta_pc_lotus_refs.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "delta_pc_lpmid.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "delta_pc_lsid.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "delta_pc_lsynonyms.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "delta_pc_mass.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "delta_pc_np.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "delta_pc_off.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "delta_pc_smiles.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "delta_pc_src_mask.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "delta_pc_src_observed.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "growth_pc_cid.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "growth_pc_ik14.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "growth_pc_lotus_refs.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "growth_pc_lpmid.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "growth_pc_lsid.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "growth_pc_lsynonyms.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "growth_pc_mass.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "growth_pc_np.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "growth_pc_off.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "growth_pc_smiles.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "growth_pc_src_mask.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "growth_pc_src_observed.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pc_lotus_refs.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pc_lpmid.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pc_lsid.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pc_lsynonyms.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pc_np.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pc_src_mask.npy",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pool_cid.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pool_formula_isomers.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pool_has_different_parent.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pool_lmesh.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pool_lotus_refs.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pool_lpatent.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pool_lpmid.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pool_lsid.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pool_lsynonyms.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pool_n_depositors.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pool_n_vendors.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pool_np.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pool_parent_cid.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pool_popularity.csv",
+      "result": "size_head_tail_match",
+      "local_proof": "Fresh local first/last4MiB SHA and file size; not a full-file digest"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pool_src_mask.npy",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "pinned_local_version": 13,
+      "file": "pubchemlite_annotations.parquet",
+      "result": "full_sha_match",
+      "local_proof": "Previously recorded content SHA; no fresh local full rehash"
+    },
+    {
+      "dataset": "sanpier/casmi-spectrum-model-v1",
+      "pinned_local_version": 1,
+      "file": "casmi_spectrum_model_v1/README.txt",
+      "result": "outside_five_dataset_inventory"
+    },
+    {
+      "dataset": "sanpier/casmi-spectrum-model-v1",
+      "pinned_local_version": 1,
+      "file": "casmi_spectrum_model_v1/config.json",
+      "result": "outside_five_dataset_inventory"
+    },
+    {
+      "dataset": "sanpier/casmi-spectrum-model-v1",
+      "pinned_local_version": 1,
+      "file": "casmi_spectrum_model_v1/features.py",
+      "result": "outside_five_dataset_inventory"
+    },
+    {
+      "dataset": "sanpier/casmi-spectrum-model-v1",
+      "pinned_local_version": 1,
+      "file": "casmi_spectrum_model_v1/final_model.pt",
+      "result": "outside_five_dataset_inventory"
+    },
+    {
+      "dataset": "sanpier/casmi-spectrum-model-v1",
+      "pinned_local_version": 1,
+      "file": "casmi_spectrum_model_v1/model.py",
+      "result": "outside_five_dataset_inventory"
+    }
+  ],
+  "numeric_dataset_versions_independently_read_back": false,
+  "limitations": [
+    "The receipt inventories five baseline datasets and competition files; Saner is checked separately by MODEL_PINS.",
+    "Matching content fingerprints support alignment with pinned local assets; they do not expose server numeric dataset versions.",
+    "Large files use size and first/last4MiB hashes. Unread middle bytes are not certified by those hashes.",
+    "Small files compare runtime full SHA against prior local download receipts, without a fresh local full rehash."
+  ]
+}

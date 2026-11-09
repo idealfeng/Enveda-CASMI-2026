@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-public-alex-extlib-1109",
+  "version": 1,
+  "branch_sha256": "652c44f6ed2965b3f303cb4391f5156e4ac961860e6ef75a6073e09ac62d4565",
+  "submission_ref": 58156414,
+  "actual_target": "stormseye/casmi26-public-alex-extlib-1109",
+  "status": "COMPLETE",
+  "public_score": "0.484",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-09T12:23:16.823796+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

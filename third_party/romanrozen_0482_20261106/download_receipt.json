@@ -1,0 +1,11 @@
+{
+  "url": "https://www.kaggle.com/api/v1/kernels/pull?userName=romanrozen&kernelSlug=0-482-casmi-from-peaks-to-structures",
+  "downloaded_at_utc": "2026-11-06T02:09:42.028050+00:00",
+  "version": 17,
+  "ref": "romanrozen/0-482-casmi-from-peaks-to-structures",
+  "source_sha256": "5bdea66bc23d299d9349122c9403a238e952bc91d356dffbe95d562e00553726",
+  "api_sha256": "8394755e4c19f26bb64a242dd84338e394536b3d59799149601d0e25f8442f6d",
+  "api_bytes": 1694577,
+  "executed": false,
+  "assets_downloaded": false
+}

@@ -1,0 +1,99 @@
+[{"stream_name":"stderr","time":7.837796629,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.837865936,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.837873858,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.837877925,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.448681713,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.448712682,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.448718563,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.448723044,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.512200173,"data":"974 public notebooks, 678 with a score, 279 of those below 0.4 not drawn\n"}
+,{"stream_name":"stdout","time":12.009219151,"data":"8 modules and the pinned pipeline source ready (0.37 MB)\n"}
+,{"stream_name":"stdout","time":12.107883175,"data":"Fragment source: eeacdcf0afb1\n"}
+,{"stream_name":"stdout","time":16.660153718,"data":"в–¶ Official RDKit wheel\n"}
+,{"stream_name":"stdout","time":19.443756634,"data":"Official-metric RDKit: 2026.03.3\n"}
+,{"stream_name":"stdout","time":19.459475865,"data":"  done in 3 s\n"}
+,{"stream_name":"stdout","time":22.167267073,"data":"MODEL BUNDLE [bundle_v2] READY: ['config.json', 'config_used.json', 'features.py', 'final_model.pt', 'model.py'] from /kaggle/input/datasets/bgunshui/casmi26-scorer-v2-model\n"}
+,{"stream_name":"stdout","time":22.167293681,"data":"MODEL BUNDLE [bundle_v4] READY: ['config.json', 'config_used.json', 'features.py', 'final_model.pt', 'model.py'] from /kaggle/input/datasets/bgunshui/casmi26-scorer-v4-model\n"}
+,{"stream_name":"stdout","time":22.167299549,"data":"в–¶ Public 0.465 pipeline\n"}
+,{"stream_name":"stdout","time":38.869093276,"data":"  вњ“    0.3 min   Documentation prior table                       3 s\n"}
+,{"stream_name":"stdout","time":66.043675587,"data":"  вњ“    0.7 min   Datasets, priors and wheels                    26 s\n"}
+,{"stream_name":"stdout","time":722.814912107,"data":"      engine lists 12 650s\n"}
+,{"stream_name":"stdout","time":722.815758938,"data":"      engine lists 12 657s\n"}
+,{"stream_name":"stdout","time":722.816486442,"data":"  вњ“   11.7 min   Engine 2 В· two rankers                       657 s\n"}
+,{"stream_name":"stdout","time":832.26971565,"data":"      pubchem lists 12 792s\n"}
+,{"stream_name":"stdout","time":832.270855172,"data":"  вњ“   13.5 min   PubChem channel                               109 s\n"}
+,{"stream_name":"stdout","time":924.474199846,"data":"  вњ“   15.0 min   Engine 1 В· library, pool, spectrum cache       92 s\n"}
+,{"stream_name":"stdout","time":948.50823609,"data":"  вњ“   15.4 min   Engine 1 В· models and rankers                 24 s\n"}
+,{"stream_name":"stdout","time":1000.824611197,"data":"      errors 0 | popularity re-ranked lists 12\n"}
+,{"stream_name":"stdout","time":1000.825994192,"data":"  вњ“   16.3 min   Engine 1 В· candidate lists                    52 s\n"}
+,{"stream_name":"stdout","time":1172.800267726,"data":"  вњ“   19.2 min   GLACIER + ICEBERG forward models              172 s\n"}
+,{"stream_name":"stdout","time":1172.801317935,"data":"      merge stats {'untouched': 12, 'gentle': 0, 'aggressive': 0, 'no_pc': 0, 'promoted': 0}\n"}
+,{"stream_name":"stdout","time":1178.915335239,"data":"  вњ“   19.3 min   Two-engine fusion                               6 s\n"}
+,{"stream_name":"stdout","time":1186.325945683,"data":"  вњ“   19.4 min   Metric audit and safe tail                      7 s\n"}
+,{"stream_name":"stdout","time":1200.167518933,"data":"  вњ“   19.6 min   Metric-identity fusion                         14 s\n"}
+,{"stream_name":"stdout","time":1201.896699179,"data":"  вњ“   19.7 min   Fragment score gap                              2 s\n"}
+,{"stream_name":"stdout","time":1217.947532545,"data":"  вњ“   19.9 min   Window-40 overlay                              16 s\n"}
+,{"stream_name":"stdout","time":1217.948587956,"data":"      RANK2_OVERLAY {\"control_sha256\": \"1a329efa23e758afcdd33be4a2801c70de0e9aedf450f01897dd465d75dcea3b\", \"rows\": 400, \"inserted\": 1, \"status\": \"ok\", \"submission_sha256\": \"1a329efa23e75\n"}
+,{"stream_name":"stdout","time":1255.181831408,"data":"  вњ“   20.5 min   Execution receipt                              37 s\n"}
+,{"stream_name":"stdout","time":1257.704465435,"data":"  вњ“   20.6 min   Example answer table                            3 s\n"}
+,{"stream_name":"stdout","time":1265.081165252,"data":"      EXPORTED FROZEN FINAL25 688 candidate rows\n"}
+,{"stream_name":"stdout","time":1267.552720284,"data":"  done in 20.8 min\n"}
+,{"stream_name":"stdout","time":1267.557335895,"data":"в–¶ Neural scorer В· final lists\n"}
+,{"stream_name":"stdout","time":1277.833022475,"data":"      NEURAL input failures kept at baseline: 0\n"}
+,{"stream_name":"stdout","time":1277.833880195,"data":"      NEURAL FEATURES (688, 20) final_model.pt\n"}
+,{"stream_name":"stdout","time":1278.629846546,"data":"  done in 11 s\n"}
+,{"stream_name":"stdout","time":1278.630796922,"data":"в–¶ Neural scorer В· final lists\n"}
+,{"stream_name":"stdout","time":1288.640263832,"data":"      NEURAL input failures kept at baseline: 0\n"}
+,{"stream_name":"stdout","time":1288.641477268,"data":"      NEURAL FEATURES (688, 20) final_model.pt\n"}
+,{"stream_name":"stdout","time":1289.38011021,"data":"  done in 11 s\n"}
+,{"stream_name":"stdout","time":1289.380952744,"data":"в–¶ Neural scorer В· final lists\n"}
+,{"stream_name":"stdout","time":1299.6671015,"data":"      NEURAL input failures kept at baseline: 0\n"}
+,{"stream_name":"stdout","time":1299.668046549,"data":"      NEURAL FEATURES (688, 20) final_model.pt\n"}
+,{"stream_name":"stdout","time":1300.390721139,"data":"  done in 11 s\n"}
+,{"stream_name":"stdout","time":1300.673483482,"data":"TRI-FORCE ENSEMBLE: 0.50*z(pub) + 0.25*z(v2_192w) + 0.25*z(v4_256w)\n"}
+,{"stream_name":"stdout","time":1300.673960621,"data":"в–¶ Outside candidates В· collect\n"}
+,{"stream_name":"stdout","time":1303.673215931,"data":"      OUTSIDERS 240 candidates for 12 molecules {\"pubchem\": 122, \"fusion_overflow\": 113, \"engine2\": 4, \"main_tail\": 1} 2s\n"}
+,{"stream_name":"stdout","time":1303.76022246,"data":"  done in 3 s\n"}
+,{"stream_name":"stdout","time":1303.76409385,"data":"в–¶ Neural scorer В· outside candidates\n"}
+,{"stream_name":"stdout","time":1309.836053269,"data":"      NEURAL input failures kept at baseline: 0\n"}
+,{"stream_name":"stdout","time":1309.837047134,"data":"      NEURAL FEATURES (240, 14) final_model.pt\n"}
+,{"stream_name":"stdout","time":1310.696701992,"data":"  done in 7 s\n"}
+,{"stream_name":"stdout","time":1310.698181353,"data":"в–¶ Neural scorer - outsiders (public)\n"}
+,{"stream_name":"stdout","time":1316.790931137,"data":"      NEURAL input failures kept at baseline: 0\n"}
+,{"stream_name":"stdout","time":1316.792015127,"data":"      NEURAL FEATURES (240, 14) final_model.pt\n"}
+,{"stream_name":"stdout","time":1317.614727865,"data":"  done in 7 s\n"}
+,{"stream_name":"stdout","time":1317.615511021,"data":"в–¶ Neural scorer - outsiders (v4)\n"}
+,{"stream_name":"stdout","time":1323.673389492,"data":"      NEURAL input failures kept at baseline: 0\n"}
+,{"stream_name":"stdout","time":1323.674470401,"data":"      NEURAL FEATURES (240, 14) final_model.pt\n"}
+,{"stream_name":"stdout","time":1324.389995058,"data":"  done in 7 s\n"}
+,{"stream_name":"stdout","time":1324.426270157,"data":"TRI-FORCE ENSEMBLE outsider: 0.50*z(pub) + 0.25*z(v2) + 0.25*z(v4)\n"}
+,{"stream_name":"stdout","time":1325.377389482,"data":"V1 rebuilt exactly: the new code reproduces the public 0.466 file row for row.\n"}
+,{"stream_name":"stdout","time":1325.377436285,"data":"Exact V2 control: 81232c60b15d2ea0\n"}
+,{"stream_name":"stdout","time":1328.428143348,"data":"PARALLAX REPORT {\"control_sha256\": \"b9c94e5f37e002e22633c04951957f57f41374580ca5802b108acf4a851be7d7\", \"submission_sha256\": \"ef716f5402e18b7d4780ffda2e9d0cad5419358c57baee1e22bcaa629a39c7ea\", \"rows\": 400, \"changed_rows\": 4, \"top1_changed\": 0, \"tail_changed\": 0, \"adjacent_swaps\": 4, \"time_budget_exceeded\": false, \"elapsed_seconds\": 2.51, \"outcome\": \"experimental_unvalidated\", \"baseline\": \"V2_0.468_user_reported\"}\n"}
+,{"stream_name":"stdout","time":1328.433066456,"data":"SUBMISSION READY: /kaggle/working/submission.csv rows 400 control CUSTOM\n"}
+,{"stream_name":"stdout","time":1328.43309068,"data":"EXPERIMENT: {\"control_sha256\": \"b9c94e5f37e002e22633c04951957f57f41374580ca5802b108acf4a851be7d7\", \"submission_sha256\": \"ef716f5402e18b7d4780ffda2e9d0cad5419358c57baee1e22bcaa629a39c7ea\", \"rows\": 400, \"changed_rows\": 4, \"top1_changed\": 0, \"tail_changed\": 0, \"adjacent_swaps\": 4, \"time_budget_exceeded\": false, \"elapsed_seconds\": 2.51, \"outcome\": \"experimental_unvalidated\", \"baseline\": \"V2_0.468_user_reported\"}\n"}
+,{"stream_name":"stdout","time":1328.471325643,"data":"Public provenance-aware reranker: /kaggle/working/parallax_public_provenance.py\n"}
+,{"stream_name":"stdout","time":1328.516947925,"data":"SUBMISSION READY: /kaggle/working/submission.csv molecules 400 provenance {'status': 'disabled in this experiment'}\n"}
+,{"stream_name":"stdout","time":1329.071872192,"data":"LOTUS Candidate index ready for 10 molecules from /kaggle/input/datasets/qwertykeypadapple/casmi26-lotus-candidates/candidates_lotus.parquet\n"}
+,{"stream_name":"stdout","time":1334.065963681,"data":"Documentation Prior: loaded 710701 pool records from pool_popularity.csv\n"}
+,{"stream_name":"stdout","time":1334.066005733,"data":"LOTUS Knowledge Base: augmented np_map with 149983 verified natural products from candidates_lotus.parquet\n"}
+,{"stream_name":"stdout","time":1334.138151259,"data":"LOTUS Backfill: added 0 verified natural products to vacant slots.\n"}
+,{"stream_name":"stdout","time":1334.138184884,"data":"Final layer: outsider fills 0, old leader pinned 0, library-hit molecules 12, POP_W 0.1, NP_W 0.12\n"}
+,{"stream_name":"stdout","time":1334.13820419,"data":"InChIKey14 Deduplication: reclaimed 0 redundant isomer slots!\n"}
+,{"stream_name":"stdout","time":1334.138209791,"data":"Documentation Prior: reordered secondary ranks in 12 / 400 rows.\n"}
+,{"stream_name":"stdout","time":1334.138216155,"data":"SUBMISSION READY: /kaggle/working/submission.csv molecules 400 MERGE {\"status\": \"applied\", \"rows\": 400, \"merged\": 400, \"leader_moves\": 0, \"ranks_reordered\": 12, \"dedup_swaps\": 0, \"output_equals_custom\": false, \"outsider_fills\": 0, \"old_leader_pinned\": 0, \"lib_hit_molecules\": 12, \"output_sha256\": \"5803d3bdf65908d656672f0796305fd9d72cd56f9d1d90f7beff7d5f59847c0d\"}\n"}
+,{"stream_name":"stdout","time":1334.216851082,"data":"Commit run: the counts cover the 12 visible smoke molecules; the hidden scoring rerun is not shown to anyone.\n"}
+,{"stream_name":"stdout","time":1334.216890795,"data":"spectral_parallax_report.json {\"control_sha256\": \"b9c94e5f37e002e22633c04951957f57f41374580ca5802b108acf4a851be7d7\", \"submission_sha256\": \"ef716f5402e18b7d4780ffda2e9d0cad5419358c57baee1e22bcaa629a39c7ea\", \"rows\": 400, \"changed_rows\": 4, \"top1_changed\": 0, \"tail_changed\": 0, \"adjacent_swaps\": 4, \"time_budget_exceeded\": false, \"elapsed_seconds\": 2.51, \"outcome\": \"experimental_unvalidated\", \"baseline\": \"V2_0.468_user_reported\"}\n"}
+,{"stream_name":"stdout","time":1334.216903352,"data":"merge_report.json {\"status\": \"applied\", \"input_sha256\": {\"physical_v2\": \"ef716f5402e18b7d4780ffda2e9d0cad5419358c57baee1e22bcaa629a39c7ea\", \"v2\": \"b9c94e5f37e002e22633c04951957f57f41374580ca5802b108acf4a851be7d7\", \"custom\": \"81232c60b15d2ea000a74d76592dcc992d763f6a0c5c8018ac0e47196ed6715a\"}, \"overlay\": {\"control_sha256\": \"b9c94e5f37e002e22633c04951957f57f41374580ca5802b108acf4a851be7d7\", \"submission_sha256\": \"ef716f5402e18b7d4780ffda2e9d0cad5419358c57baee1e22bcaa629a39c7ea\", \"changed_rows\": 4, \"top1_changed\": 0, \"tail_changed\": 0, \"adjacent_swaps\": 4}, \"lib_hit_molecules\": 12, \"dedup_swaps\": 0, \"outsider_fills\"\n"}
+,{"stream_name":"stdout","time":1334.799809052,"data":"PUBLIC NEURAL EXECUTION AUDIT passed 12 {'rows': 400, 'sha256': '5803d3bdf65908d656672f0796305fd9d72cd56f9d1d90f7beff7d5f59847c0d', 'bytes': 17303}\n"}
+,{"stream_name":"stderr","time":1337.691766693,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1337.691791992,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1337.856317758,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1337.856344657,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1338.660496086,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1338.779678562,"data":"[NbConvertApp] Writing 901204 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1341.63398463,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1342.764644707,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":1342.764700432,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":1342.765042183,"data":"[NbConvertApp] Writing 1594804 bytes to __results__.html\n"}
+]

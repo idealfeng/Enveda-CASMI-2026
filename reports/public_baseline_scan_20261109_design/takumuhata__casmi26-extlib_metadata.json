@@ -1,0 +1,60 @@
+{
+  "ref": "takumuhata/casmi26-extlib",
+  "checked_at_utc": "2026-11-09T07:13:40.246369+00:00",
+  "read_only": true,
+  "metadata": {
+    "ref": "takumuhata/casmi26-extlib",
+    "title": "casmi26-extlib",
+    "id": 12267306,
+    "owner_name": "Takumu Hata",
+    "owner_ref": "takumuhata",
+    "current_version_number": 2,
+    "version_number": null,
+    "last_updated": "2026-10-03 16:02:58.440000",
+    "total_bytes": 264695042,
+    "license_name": "CC0: Public Domain",
+    "licenses": null,
+    "description": "",
+    "subtitle": "External MS2 spectral library (GNPS+MassBank+MoNA) merged",
+    "usability_rating": 0.3529412
+  },
+  "files": [
+    {
+      "name": "coconut_index.parquet",
+      "total_bytes": 41851716,
+      "creation_date": "2026-10-03 16:03:01.320000",
+      "file_type": ""
+    },
+    {
+      "name": "ext_fp_keys.parquet",
+      "total_bytes": 2201107,
+      "creation_date": "2026-10-03 16:03:00.934000",
+      "file_type": ""
+    },
+    {
+      "name": "ext_in.npy",
+      "total_bytes": 102770816,
+      "creation_date": "2026-10-03 16:03:01.673000",
+      "file_type": ""
+    },
+    {
+      "name": "ext_mass.parquet",
+      "total_bytes": 7979821,
+      "creation_date": "2026-10-03 16:03:00.934000",
+      "file_type": ""
+    },
+    {
+      "name": "ext_meta.parquet",
+      "total_bytes": 7120766,
+      "creation_date": "2026-10-03 16:03:01.205000",
+      "file_type": ""
+    },
+    {
+      "name": "ext_mz.npy",
+      "total_bytes": 102770816,
+      "creation_date": "2026-10-03 16:03:01.717000",
+      "file_type": ""
+    }
+  ],
+  "next_page_token_present": false
+}

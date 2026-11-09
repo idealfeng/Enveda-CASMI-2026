@@ -1,0 +1,6 @@
+﻿{
+    "read_only":  true,
+    "script":  "scripts/watch_kaggle_batch_20261107.py",
+    "launcher_pid":  5644,
+    "maximum_hours":  12
+}

@@ -1,0 +1,39 @@
+🔥 Massive Pre-training Dataset for CASMI26
+
+https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/753724
+
+Author: Rishav Yadav
+
+Posted: 2026-10-29T04:47:22.290Z
+
+Hey folks,
+
+Since mass spectra identification in CASMI 2026 needs a solid candidate database for unknown spectra, I spent time cleaning, desalting, and organizing a reference database of ~1.8 Crore (18M+) chemical structures so you don't have to spend hours processing raw files from scratch:
+
+
+📦 Dataset: CASMI 2026 Candidate Database
+
+
+coconut/: 460k natural products from COCONUT 2.0.
+
+pubchem/: Bio-active small molecules (100–1200 Da, 8–75 heavy atoms).
+
+100% deduplicated on 14-character InChIKey scaffolds.
+
+
+🚀 Starter Notebook: 20M+ Candidate Retrieval Baseline
+
+
+Streams all shards in < 250MB RAM using Polars.
+
+Inverts all 10 competition adduct mass offsets.
+
+Runs binary search to fetch matching structures in < 2 milliseconds.
+
+Draws 2D molecular structures with RDKit.
+
+
+
+Hope this saves you time and GPU memory for your training and inference pipelines. 
+
+If this helps your workflow, an upvote on the dataset and notebook would mean a lot! 🧪

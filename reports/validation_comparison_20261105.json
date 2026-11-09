@@ -1,0 +1,901 @@
+{
+  "status": "complete_architectural_diagnostic_comparison",
+  "input_reports": {
+    "flex": {
+      "path": "reports/validation_flex_c2_20261105d/evaluation_report.json",
+      "sha256": "ae61b9142d852a012cb1cb46973ef5e4fcb1b255ca3ef98c90a2948cb97a0521"
+    },
+    "v43": {
+      "path": "reports/validation_v43_c2_20261105c/evaluation_report.json",
+      "sha256": "f668edc9bdd83e75c7b71865fa2b020fbe9cbcc8e139308fd8ddd79a8c7f1dba"
+    }
+  },
+  "validated_equal_bindings": {
+    "manifest_sha256": "8e1ab36f2d8b7f800aa88baf845c0ffdc3790d36bdcabbb6d465ace05a571b09",
+    "run_manifest_sha256": "8e1ab36f2d8b7f800aa88baf845c0ffdc3790d36bdcabbb6d465ace05a571b09",
+    "split_sha256": "7126c55aebbc33505d1659797550d0d90cbb3014e3116862cf75cdde0c3e7ee0",
+    "metric_rdkit": "2026.03.3",
+    "official_source_sha256": "bf8535f01bf73268a52819b38e7f6b205e37ec127c268e48081b780a10b609dd",
+    "cohort_policy": "global leave-cohort-identity-out; all current pilot query identities removed from every reference path"
+  },
+  "active_molecules": 48,
+  "panel_sizes": {
+    "cross": 24,
+    "np": 24
+  },
+  "final_locked_evaluated": false,
+  "final_locked_active_intersection": 0,
+  "comparisons": {
+    "flex_final_vs_v43_final": {
+      "strata": {
+        "all": {
+          "molecules": 48,
+          "flex_metrics": {
+            "mrr_at_25": 0.8389136904761904,
+            "top1": 0.7708333333333334,
+            "top5": 0.8958333333333334,
+            "top25": 0.9583333333333334
+          },
+          "v43_metrics": {
+            "mrr_at_25": 0.8206699346405228,
+            "top1": 0.75,
+            "top5": 0.9375,
+            "top25": 0.9583333333333334
+          },
+          "paired_bootstrap": {
+            "unit": "molecule",
+            "method": "paired percentile bootstrap",
+            "molecules": 48,
+            "resamples": 2000,
+            "seed": 20261104,
+            "confidence": 0.95,
+            "metrics": {
+              "mrr_at_25": {
+                "delta": 0.0182437558356676,
+                "ci_low": -0.02477860936041082,
+                "ci_high": 0.07292086105275443
+              },
+              "top1": {
+                "delta": 0.020833333333333332,
+                "ci_low": -0.041666666666666664,
+                "ci_high": 0.10416666666666667
+              },
+              "top5": {
+                "delta": -0.041666666666666664,
+                "ci_low": -0.10416666666666667,
+                "ci_high": 0.0
+              },
+              "top25": {
+                "delta": 0.0,
+                "ci_low": 0.0,
+                "ci_high": 0.0
+              }
+            }
+          },
+          "counts": {
+            "both_top1_correct": 35,
+            "only_flex_top1_correct": 2,
+            "only_v43_top1_correct": 1,
+            "both_top1_wrong": 10,
+            "rr_flex_better": 5,
+            "rr_v43_better": 4,
+            "rr_equal": 39
+          },
+          "correlations": {
+            "top1_error_phi": 0.8299275201966082,
+            "top25_miss_phi": 0.9999999999999999,
+            "reciprocal_rank_pearson": 0.8586476676887372
+          },
+          "common_top25_miss_ids": [
+            "cross_GFZLFKCEWJJEFW",
+            "cross_MZNCWPOVMBLUSG"
+          ],
+          "same_top1_identity_molecules": 44,
+          "oracle": {
+            "scope": "Truth-conditioned diagnostic upper bound, never a deployable prediction or chosen ensemble.",
+            "best_of_two_top1_hits": 38,
+            "best_of_two_top25_hits": 46,
+            "best_of_two_mrr": 0.8585069444444443
+          }
+        },
+        "cross": {
+          "molecules": 24,
+          "flex_metrics": {
+            "mrr_at_25": 0.6986607142857143,
+            "top1": 0.5833333333333334,
+            "top5": 0.7916666666666666,
+            "top25": 0.9166666666666666
+          },
+          "v43_metrics": {
+            "mrr_at_25": 0.7212009803921569,
+            "top1": 0.625,
+            "top5": 0.875,
+            "top25": 0.9166666666666666
+          },
+          "paired_bootstrap": {
+            "unit": "molecule",
+            "method": "paired percentile bootstrap",
+            "molecules": 24,
+            "resamples": 2000,
+            "seed": 20261104,
+            "confidence": 0.95,
+            "metrics": {
+              "mrr_at_25": {
+                "delta": -0.02254026610644258,
+                "ci_low": -0.07534539857609711,
+                "ci_high": 0.020833333333333332
+              },
+              "top1": {
+                "delta": -0.041666666666666664,
+                "ci_low": -0.125,
+                "ci_high": 0.0
+              },
+              "top5": {
+                "delta": -0.08333333333333333,
+                "ci_low": -0.20833333333333334,
+                "ci_high": 0.0
+              },
+              "top25": {
+                "delta": 0.0,
+                "ci_low": 0.0,
+                "ci_high": 0.0
+              }
+            }
+          },
+          "counts": {
+            "both_top1_correct": 14,
+            "only_flex_top1_correct": 0,
+            "only_v43_top1_correct": 1,
+            "both_top1_wrong": 9,
+            "rr_flex_better": 3,
+            "rr_v43_better": 4,
+            "rr_equal": 17
+          },
+          "correlations": {
+            "top1_error_phi": 0.9165151389911681,
+            "top25_miss_phi": 1.0,
+            "reciprocal_rank_pearson": 0.9469687109694501
+          },
+          "common_top25_miss_ids": [
+            "cross_GFZLFKCEWJJEFW",
+            "cross_MZNCWPOVMBLUSG"
+          ],
+          "same_top1_identity_molecules": 22,
+          "oracle": {
+            "scope": "Truth-conditioned diagnostic upper bound, never a deployable prediction or chosen ensemble.",
+            "best_of_two_top1_hits": 15,
+            "best_of_two_top25_hits": 22,
+            "best_of_two_mrr": 0.7378472222222222
+          }
+        },
+        "np": {
+          "molecules": 24,
+          "flex_metrics": {
+            "mrr_at_25": 0.9791666666666666,
+            "top1": 0.9583333333333334,
+            "top5": 1.0,
+            "top25": 1.0
+          },
+          "v43_metrics": {
+            "mrr_at_25": 0.9201388888888888,
+            "top1": 0.875,
+            "top5": 1.0,
+            "top25": 1.0
+          },
+          "paired_bootstrap": {
+            "unit": "molecule",
+            "method": "paired percentile bootstrap",
+            "molecules": 24,
+            "resamples": 2000,
+            "seed": 20261104,
+            "confidence": 0.95,
+            "metrics": {
+              "mrr_at_25": {
+                "delta": 0.05902777777777778,
+                "ci_low": 0.0,
+                "ci_high": 0.14930555555555558
+              },
+              "top1": {
+                "delta": 0.08333333333333333,
+                "ci_low": 0.0,
+                "ci_high": 0.20833333333333334
+              },
+              "top5": {
+                "delta": 0.0,
+                "ci_low": 0.0,
+                "ci_high": 0.0
+              },
+              "top25": {
+                "delta": 0.0,
+                "ci_low": 0.0,
+                "ci_high": 0.0
+              }
+            }
+          },
+          "counts": {
+            "both_top1_correct": 21,
+            "only_flex_top1_correct": 2,
+            "only_v43_top1_correct": 0,
+            "both_top1_wrong": 1,
+            "rr_flex_better": 2,
+            "rr_v43_better": 0,
+            "rr_equal": 22
+          },
+          "correlations": {
+            "top1_error_phi": 0.5516772843673705,
+            "top25_miss_phi": null,
+            "reciprocal_rank_pearson": 0.4084831825870387
+          },
+          "common_top25_miss_ids": [],
+          "same_top1_identity_molecules": 22,
+          "oracle": {
+            "scope": "Truth-conditioned diagnostic upper bound, never a deployable prediction or chosen ensemble.",
+            "best_of_two_top1_hits": 23,
+            "best_of_two_top25_hits": 24,
+            "best_of_two_mrr": 0.9791666666666666
+          }
+        }
+      },
+      "candidate_overlap": {
+        "exact_identity_set_molecules": 21,
+        "molecules": 48,
+        "mean_jaccard": 0.9479336250169584,
+        "scope": "Observed final list overlap only; architectures/weights/candidate generation differ, so this is not a fixed-candidate causal ablation."
+      },
+      "differing_truth_ranks": [
+        {
+          "molecule_id": "np_RZGFUGXQKMEMOO",
+          "panel": "np",
+          "truth_formula": "C12H18O4",
+          "flex_rank": 1,
+          "v43_rank": 4,
+          "rr_delta": 0.75,
+          "flex_top1_same_formula": true,
+          "v43_top1_same_formula": true,
+          "top1_correctness_differs": true,
+          "candidate_identity_set_jaccard": 0.8518518518518519
+        },
+        {
+          "molecule_id": "np_CTRLABGOLIVAIY",
+          "panel": "np",
+          "truth_formula": "C15H12N2O2",
+          "flex_rank": 1,
+          "v43_rank": 3,
+          "rr_delta": 0.6666666666666667,
+          "flex_top1_same_formula": true,
+          "v43_top1_same_formula": true,
+          "top1_correctness_differs": true,
+          "candidate_identity_set_jaccard": 0.9230769230769231
+        },
+        {
+          "molecule_id": "cross_DKZBBWMURDFHNE",
+          "panel": "cross",
+          "truth_formula": "C10H10O3",
+          "flex_rank": 2,
+          "v43_rank": 1,
+          "rr_delta": -0.5,
+          "flex_top1_same_formula": true,
+          "v43_top1_same_formula": true,
+          "top1_correctness_differs": true,
+          "candidate_identity_set_jaccard": 0.9230769230769231
+        },
+        {
+          "molecule_id": "cross_KAQOTUWFZPIKLZ",
+          "panel": "cross",
+          "truth_formula": "C19H26O5",
+          "flex_rank": 2,
+          "v43_rank": 3,
+          "rr_delta": 0.16666666666666669,
+          "flex_top1_same_formula": true,
+          "v43_top1_same_formula": true,
+          "top1_correctness_differs": false,
+          "candidate_identity_set_jaccard": 0.9230769230769231
+        },
+        {
+          "molecule_id": "cross_VXVNYCRICCVPTD",
+          "panel": "cross",
+          "truth_formula": "C22H24N2O8",
+          "flex_rank": 3,
+          "v43_rank": 2,
+          "rr_delta": -0.16666666666666669,
+          "flex_top1_same_formula": true,
+          "v43_top1_same_formula": true,
+          "top1_correctness_differs": false,
+          "candidate_identity_set_jaccard": 0.9230769230769231
+        },
+        {
+          "molecule_id": "cross_YFJYOZDIJVHPAU",
+          "panel": "cross",
+          "truth_formula": "C24H27O4P",
+          "flex_rank": 2,
+          "v43_rank": 3,
+          "rr_delta": 0.16666666666666669,
+          "flex_top1_same_formula": true,
+          "v43_top1_same_formula": true,
+          "top1_correctness_differs": false,
+          "candidate_identity_set_jaccard": 1.0
+        },
+        {
+          "molecule_id": "cross_CDUVSQMTLOYKTR",
+          "panel": "cross",
+          "truth_formula": "C20H34O5",
+          "flex_rank": 6,
+          "v43_rank": 3,
+          "rr_delta": -0.16666666666666666,
+          "flex_top1_same_formula": true,
+          "v43_top1_same_formula": true,
+          "top1_correctness_differs": false,
+          "candidate_identity_set_jaccard": 0.9230769230769231
+        },
+        {
+          "molecule_id": "cross_DWVXZQVYILJCJH",
+          "panel": "cross",
+          "truth_formula": "C45H77NO8",
+          "flex_rank": 7,
+          "v43_rank": 4,
+          "rr_delta": -0.10714285714285715,
+          "flex_top1_same_formula": true,
+          "v43_top1_same_formula": true,
+          "top1_correctness_differs": false,
+          "candidate_identity_set_jaccard": 1.0
+        },
+        {
+          "molecule_id": "cross_NOFOAYPPHIUXJR",
+          "panel": "cross",
+          "truth_formula": "C20H34O4",
+          "flex_rank": 8,
+          "v43_rank": 17,
+          "rr_delta": 0.0661764705882353,
+          "flex_top1_same_formula": true,
+          "v43_top1_same_formula": true,
+          "top1_correctness_differs": false,
+          "candidate_identity_set_jaccard": 0.8518518518518519
+        }
+      ]
+    },
+    "flex_V0_vs_v43_final": {
+      "strata": {
+        "all": {
+          "molecules": 48,
+          "flex_metrics": {
+            "mrr_at_25": 0.8504464285714285,
+            "top1": 0.7916666666666666,
+            "top5": 0.9375,
+            "top25": 0.9583333333333334
+          },
+          "v43_metrics": {
+            "mrr_at_25": 0.8206699346405228,
+            "top1": 0.75,
+            "top5": 0.9375,
+            "top25": 0.9583333333333334
+          },
+          "paired_bootstrap": {
+            "unit": "molecule",
+            "method": "paired percentile bootstrap",
+            "molecules": 48,
+            "resamples": 2000,
+            "seed": 20261104,
+            "confidence": 0.95,
+            "metrics": {
+              "mrr_at_25": {
+                "delta": 0.029776493930905697,
+                "ci_low": 0.0,
+                "ci_high": 0.07544715802987859
+              },
+              "top1": {
+                "delta": 0.041666666666666664,
+                "ci_low": 0.0,
+                "ci_high": 0.10416666666666667
+              },
+              "top5": {
+                "delta": 0.0,
+                "ci_low": 0.0,
+                "ci_high": 0.0
+              },
+              "top25": {
+                "delta": 0.0,
+                "ci_low": 0.0,
+                "ci_high": 0.0
+              }
+            }
+          },
+          "counts": {
+            "both_top1_correct": 36,
+            "only_flex_top1_correct": 2,
+            "only_v43_top1_correct": 0,
+            "both_top1_wrong": 10,
+            "rr_flex_better": 3,
+            "rr_v43_better": 0,
+            "rr_equal": 45
+          },
+          "correlations": {
+            "top1_error_phi": 0.8885233166386378,
+            "top25_miss_phi": 0.9999999999999999,
+            "reciprocal_rank_pearson": 0.8992991243847589
+          },
+          "common_top25_miss_ids": [
+            "cross_GFZLFKCEWJJEFW",
+            "cross_MZNCWPOVMBLUSG"
+          ],
+          "same_top1_identity_molecules": 46,
+          "oracle": {
+            "scope": "Truth-conditioned diagnostic upper bound, never a deployable prediction or chosen ensemble.",
+            "best_of_two_top1_hits": 38,
+            "best_of_two_top25_hits": 46,
+            "best_of_two_mrr": 0.8504464285714285
+          }
+        },
+        "cross": {
+          "molecules": 24,
+          "flex_metrics": {
+            "mrr_at_25": 0.7217261904761904,
+            "top1": 0.625,
+            "top5": 0.875,
+            "top25": 0.9166666666666666
+          },
+          "v43_metrics": {
+            "mrr_at_25": 0.7212009803921569,
+            "top1": 0.625,
+            "top5": 0.875,
+            "top25": 0.9166666666666666
+          },
+          "paired_bootstrap": {
+            "unit": "molecule",
+            "method": "paired percentile bootstrap",
+            "molecules": 24,
+            "resamples": 2000,
+            "seed": 20261104,
+            "confidence": 0.95,
+            "metrics": {
+              "mrr_at_25": {
+                "delta": 0.0005252100840336133,
+                "ci_low": 0.0,
+                "ci_high": 0.00157563025210084
+              },
+              "top1": {
+                "delta": 0.0,
+                "ci_low": 0.0,
+                "ci_high": 0.0
+              },
+              "top5": {
+                "delta": 0.0,
+                "ci_low": 0.0,
+                "ci_high": 0.0
+              },
+              "top25": {
+                "delta": 0.0,
+                "ci_low": 0.0,
+                "ci_high": 0.0
+              }
+            }
+          },
+          "counts": {
+            "both_top1_correct": 15,
+            "only_flex_top1_correct": 0,
+            "only_v43_top1_correct": 0,
+            "both_top1_wrong": 9,
+            "rr_flex_better": 1,
+            "rr_v43_better": 0,
+            "rr_equal": 23
+          },
+          "correlations": {
+            "top1_error_phi": 1.0,
+            "top25_miss_phi": 1.0,
+            "reciprocal_rank_pearson": 0.9999806063070713
+          },
+          "common_top25_miss_ids": [
+            "cross_GFZLFKCEWJJEFW",
+            "cross_MZNCWPOVMBLUSG"
+          ],
+          "same_top1_identity_molecules": 24,
+          "oracle": {
+            "scope": "Truth-conditioned diagnostic upper bound, never a deployable prediction or chosen ensemble.",
+            "best_of_two_top1_hits": 15,
+            "best_of_two_top25_hits": 22,
+            "best_of_two_mrr": 0.7217261904761904
+          }
+        },
+        "np": {
+          "molecules": 24,
+          "flex_metrics": {
+            "mrr_at_25": 0.9791666666666666,
+            "top1": 0.9583333333333334,
+            "top5": 1.0,
+            "top25": 1.0
+          },
+          "v43_metrics": {
+            "mrr_at_25": 0.9201388888888888,
+            "top1": 0.875,
+            "top5": 1.0,
+            "top25": 1.0
+          },
+          "paired_bootstrap": {
+            "unit": "molecule",
+            "method": "paired percentile bootstrap",
+            "molecules": 24,
+            "resamples": 2000,
+            "seed": 20261104,
+            "confidence": 0.95,
+            "metrics": {
+              "mrr_at_25": {
+                "delta": 0.05902777777777778,
+                "ci_low": 0.0,
+                "ci_high": 0.14930555555555558
+              },
+              "top1": {
+                "delta": 0.08333333333333333,
+                "ci_low": 0.0,
+                "ci_high": 0.20833333333333334
+              },
+              "top5": {
+                "delta": 0.0,
+                "ci_low": 0.0,
+                "ci_high": 0.0
+              },
+              "top25": {
+                "delta": 0.0,
+                "ci_low": 0.0,
+                "ci_high": 0.0
+              }
+            }
+          },
+          "counts": {
+            "both_top1_correct": 21,
+            "only_flex_top1_correct": 2,
+            "only_v43_top1_correct": 0,
+            "both_top1_wrong": 1,
+            "rr_flex_better": 2,
+            "rr_v43_better": 0,
+            "rr_equal": 22
+          },
+          "correlations": {
+            "top1_error_phi": 0.5516772843673705,
+            "top25_miss_phi": null,
+            "reciprocal_rank_pearson": 0.4084831825870387
+          },
+          "common_top25_miss_ids": [],
+          "same_top1_identity_molecules": 22,
+          "oracle": {
+            "scope": "Truth-conditioned diagnostic upper bound, never a deployable prediction or chosen ensemble.",
+            "best_of_two_top1_hits": 23,
+            "best_of_two_top25_hits": 24,
+            "best_of_two_mrr": 0.9791666666666666
+          }
+        }
+      },
+      "candidate_overlap": {
+        "exact_identity_set_molecules": 21,
+        "molecules": 48,
+        "mean_jaccard": 0.9479336250169584,
+        "scope": "Observed final list overlap only; architectures/weights/candidate generation differ, so this is not a fixed-candidate causal ablation."
+      },
+      "differing_truth_ranks": [
+        {
+          "molecule_id": "np_RZGFUGXQKMEMOO",
+          "panel": "np",
+          "truth_formula": "C12H18O4",
+          "flex_rank": 1,
+          "v43_rank": 4,
+          "rr_delta": 0.75,
+          "flex_top1_same_formula": true,
+          "v43_top1_same_formula": true,
+          "top1_correctness_differs": true,
+          "candidate_identity_set_jaccard": 0.8518518518518519
+        },
+        {
+          "molecule_id": "np_CTRLABGOLIVAIY",
+          "panel": "np",
+          "truth_formula": "C15H12N2O2",
+          "flex_rank": 1,
+          "v43_rank": 3,
+          "rr_delta": 0.6666666666666667,
+          "flex_top1_same_formula": true,
+          "v43_top1_same_formula": true,
+          "top1_correctness_differs": true,
+          "candidate_identity_set_jaccard": 0.9230769230769231
+        },
+        {
+          "molecule_id": "cross_NOFOAYPPHIUXJR",
+          "panel": "cross",
+          "truth_formula": "C20H34O4",
+          "flex_rank": 14,
+          "v43_rank": 17,
+          "rr_delta": 0.01260504201680672,
+          "flex_top1_same_formula": true,
+          "v43_top1_same_formula": true,
+          "top1_correctness_differs": false,
+          "candidate_identity_set_jaccard": 0.8518518518518519
+        }
+      ]
+    },
+    "flex_V1_vs_v43_final": {
+      "strata": {
+        "all": {
+          "molecules": 48,
+          "flex_metrics": {
+            "mrr_at_25": 0.8572916666666667,
+            "top1": 0.7916666666666666,
+            "top5": 0.9375,
+            "top25": 0.9583333333333334
+          },
+          "v43_metrics": {
+            "mrr_at_25": 0.8206699346405228,
+            "top1": 0.75,
+            "top5": 0.9375,
+            "top25": 0.9583333333333334
+          },
+          "paired_bootstrap": {
+            "unit": "molecule",
+            "method": "paired percentile bootstrap",
+            "molecules": 48,
+            "resamples": 2000,
+            "seed": 20261104,
+            "confidence": 0.95,
+            "metrics": {
+              "mrr_at_25": {
+                "delta": 0.03662173202614379,
+                "ci_low": 0.003631535947712426,
+                "ci_high": 0.08523284313725492
+              },
+              "top1": {
+                "delta": 0.041666666666666664,
+                "ci_low": 0.0,
+                "ci_high": 0.10416666666666667
+              },
+              "top5": {
+                "delta": 0.0,
+                "ci_low": 0.0,
+                "ci_high": 0.0
+              },
+              "top25": {
+                "delta": 0.0,
+                "ci_low": 0.0,
+                "ci_high": 0.0
+              }
+            }
+          },
+          "counts": {
+            "both_top1_correct": 36,
+            "only_flex_top1_correct": 2,
+            "only_v43_top1_correct": 0,
+            "both_top1_wrong": 10,
+            "rr_flex_better": 5,
+            "rr_v43_better": 0,
+            "rr_equal": 43
+          },
+          "correlations": {
+            "top1_error_phi": 0.8885233166386378,
+            "top25_miss_phi": 0.9999999999999999,
+            "reciprocal_rank_pearson": 0.8946763574707144
+          },
+          "common_top25_miss_ids": [
+            "cross_GFZLFKCEWJJEFW",
+            "cross_MZNCWPOVMBLUSG"
+          ],
+          "same_top1_identity_molecules": 46,
+          "oracle": {
+            "scope": "Truth-conditioned diagnostic upper bound, never a deployable prediction or chosen ensemble.",
+            "best_of_two_top1_hits": 38,
+            "best_of_two_top25_hits": 46,
+            "best_of_two_mrr": 0.8572916666666667
+          }
+        },
+        "cross": {
+          "molecules": 24,
+          "flex_metrics": {
+            "mrr_at_25": 0.7354166666666666,
+            "top1": 0.625,
+            "top5": 0.875,
+            "top25": 0.9166666666666666
+          },
+          "v43_metrics": {
+            "mrr_at_25": 0.7212009803921569,
+            "top1": 0.625,
+            "top5": 0.875,
+            "top25": 0.9166666666666666
+          },
+          "paired_bootstrap": {
+            "unit": "molecule",
+            "method": "paired percentile bootstrap",
+            "molecules": 24,
+            "resamples": 2000,
+            "seed": 20261104,
+            "confidence": 0.95,
+            "metrics": {
+              "mrr_at_25": {
+                "delta": 0.014215686274509804,
+                "ci_low": 0.0,
+                "ci_high": 0.035049019607843145
+              },
+              "top1": {
+                "delta": 0.0,
+                "ci_low": 0.0,
+                "ci_high": 0.0
+              },
+              "top5": {
+                "delta": 0.0,
+                "ci_low": 0.0,
+                "ci_high": 0.0
+              },
+              "top25": {
+                "delta": 0.0,
+                "ci_low": 0.0,
+                "ci_high": 0.0
+              }
+            }
+          },
+          "counts": {
+            "both_top1_correct": 15,
+            "only_flex_top1_correct": 0,
+            "only_v43_top1_correct": 0,
+            "both_top1_wrong": 9,
+            "rr_flex_better": 3,
+            "rr_v43_better": 0,
+            "rr_equal": 21
+          },
+          "correlations": {
+            "top1_error_phi": 1.0,
+            "top25_miss_phi": 1.0,
+            "reciprocal_rank_pearson": 0.9928648773880704
+          },
+          "common_top25_miss_ids": [
+            "cross_GFZLFKCEWJJEFW",
+            "cross_MZNCWPOVMBLUSG"
+          ],
+          "same_top1_identity_molecules": 24,
+          "oracle": {
+            "scope": "Truth-conditioned diagnostic upper bound, never a deployable prediction or chosen ensemble.",
+            "best_of_two_top1_hits": 15,
+            "best_of_two_top25_hits": 22,
+            "best_of_two_mrr": 0.7354166666666666
+          }
+        },
+        "np": {
+          "molecules": 24,
+          "flex_metrics": {
+            "mrr_at_25": 0.9791666666666666,
+            "top1": 0.9583333333333334,
+            "top5": 1.0,
+            "top25": 1.0
+          },
+          "v43_metrics": {
+            "mrr_at_25": 0.9201388888888888,
+            "top1": 0.875,
+            "top5": 1.0,
+            "top25": 1.0
+          },
+          "paired_bootstrap": {
+            "unit": "molecule",
+            "method": "paired percentile bootstrap",
+            "molecules": 24,
+            "resamples": 2000,
+            "seed": 20261104,
+            "confidence": 0.95,
+            "metrics": {
+              "mrr_at_25": {
+                "delta": 0.05902777777777778,
+                "ci_low": 0.0,
+                "ci_high": 0.14930555555555558
+              },
+              "top1": {
+                "delta": 0.08333333333333333,
+                "ci_low": 0.0,
+                "ci_high": 0.20833333333333334
+              },
+              "top5": {
+                "delta": 0.0,
+                "ci_low": 0.0,
+                "ci_high": 0.0
+              },
+              "top25": {
+                "delta": 0.0,
+                "ci_low": 0.0,
+                "ci_high": 0.0
+              }
+            }
+          },
+          "counts": {
+            "both_top1_correct": 21,
+            "only_flex_top1_correct": 2,
+            "only_v43_top1_correct": 0,
+            "both_top1_wrong": 1,
+            "rr_flex_better": 2,
+            "rr_v43_better": 0,
+            "rr_equal": 22
+          },
+          "correlations": {
+            "top1_error_phi": 0.5516772843673705,
+            "top25_miss_phi": null,
+            "reciprocal_rank_pearson": 0.4084831825870387
+          },
+          "common_top25_miss_ids": [],
+          "same_top1_identity_molecules": 22,
+          "oracle": {
+            "scope": "Truth-conditioned diagnostic upper bound, never a deployable prediction or chosen ensemble.",
+            "best_of_two_top1_hits": 23,
+            "best_of_two_top25_hits": 24,
+            "best_of_two_mrr": 0.9791666666666666
+          }
+        }
+      },
+      "candidate_overlap": {
+        "exact_identity_set_molecules": 21,
+        "molecules": 48,
+        "mean_jaccard": 0.9479336250169584,
+        "scope": "Observed final list overlap only; architectures/weights/candidate generation differ, so this is not a fixed-candidate causal ablation."
+      },
+      "differing_truth_ranks": [
+        {
+          "molecule_id": "np_RZGFUGXQKMEMOO",
+          "panel": "np",
+          "truth_formula": "C12H18O4",
+          "flex_rank": 1,
+          "v43_rank": 4,
+          "rr_delta": 0.75,
+          "flex_top1_same_formula": true,
+          "v43_top1_same_formula": true,
+          "top1_correctness_differs": true,
+          "candidate_identity_set_jaccard": 0.8518518518518519
+        },
+        {
+          "molecule_id": "np_CTRLABGOLIVAIY",
+          "panel": "np",
+          "truth_formula": "C15H12N2O2",
+          "flex_rank": 1,
+          "v43_rank": 3,
+          "rr_delta": 0.6666666666666667,
+          "flex_top1_same_formula": true,
+          "v43_top1_same_formula": true,
+          "top1_correctness_differs": true,
+          "candidate_identity_set_jaccard": 0.9230769230769231
+        },
+        {
+          "molecule_id": "cross_KAQOTUWFZPIKLZ",
+          "panel": "cross",
+          "truth_formula": "C19H26O5",
+          "flex_rank": 2,
+          "v43_rank": 3,
+          "rr_delta": 0.16666666666666669,
+          "flex_top1_same_formula": true,
+          "v43_top1_same_formula": true,
+          "top1_correctness_differs": false,
+          "candidate_identity_set_jaccard": 0.9230769230769231
+        },
+        {
+          "molecule_id": "cross_YFJYOZDIJVHPAU",
+          "panel": "cross",
+          "truth_formula": "C24H27O4P",
+          "flex_rank": 2,
+          "v43_rank": 3,
+          "rr_delta": 0.16666666666666669,
+          "flex_top1_same_formula": true,
+          "v43_top1_same_formula": true,
+          "top1_correctness_differs": false,
+          "candidate_identity_set_jaccard": 1.0
+        },
+        {
+          "molecule_id": "cross_NOFOAYPPHIUXJR",
+          "panel": "cross",
+          "truth_formula": "C20H34O4",
+          "flex_rank": 15,
+          "v43_rank": 17,
+          "rr_delta": 0.00784313725490196,
+          "flex_top1_same_formula": true,
+          "v43_top1_same_formula": true,
+          "top1_correctness_differs": false,
+          "candidate_identity_set_jaccard": 0.8518518518518519
+        }
+      ]
+    }
+  },
+  "implementation_sha256": {
+    "scripts/compare_validation_reports.py": "dc20f29f4bec52bd615328dae355dc9daa8797a18930ea042f96d73a2c4829e6",
+    "validation/evaluate.py": "2822886841f8669dcbb403e1815ca2ffad0bad94cf9118e08bde104cf3e24039"
+  },
+  "limitations": [
+    "Whole-stack public checkpoints have known or insufficiently audited training exposure. Reference isolation does not establish clean CV.",
+    "An architectural comparator changes multiple components and candidate lists; it is not the fixed-candidate Saner ablation.",
+    "Small-panel paired bootstrap and observed error correlation do not imply hidden-test or medal performance.",
+    "Oracle best-of-two results condition on truth and are not an implemented ensemble. No weights or mainline configuration were changed."
+  ]
+}

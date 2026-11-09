@@ -1,0 +1,353 @@
+{
+  "sha": "b3b57ce17cbcc29731d0c14252e95e7889d2c21a",
+  "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/trees/b3b57ce17cbcc29731d0c14252e95e7889d2c21a",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a989d6776d4d7cad51cdbda43e7ca5879039473",
+      "size": 368,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/8a989d6776d4d7cad51cdbda43e7ca5879039473"
+    },
+    {
+      "path": ".python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0733315e415bfb5e5b353f9996ecd964d395b2",
+      "size": 5,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/2c0733315e415bfb5e5b353f9996ecd964d395b2"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f5e9e280942e9402df7a78e03ff940958a22dbf",
+      "size": 1064,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/4f5e9e280942e9402df7a78e03ff940958a22dbf"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88f4c4513f92109bc95a3ff99ac4703ef2c74800",
+      "size": 11671,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/88f4c4513f92109bc95a3ff99ac4703ef2c74800"
+    },
+    {
+      "path": "casmi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6d4b6a33a031d2862c5d78caf1bd4d413f72d1f1",
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/trees/6d4b6a33a031d2862c5d78caf1bd4d413f72d1f1"
+    },
+    {
+      "path": "casmi/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "994710049e9afd7da7574f9ff5aadcee35dcd79b",
+      "size": 2049,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/994710049e9afd7da7574f9ff5aadcee35dcd79b"
+    },
+    {
+      "path": "casmi/candidates.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54068bd0f46199a30be825fdabe4a0198688730b",
+      "size": 5659,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/54068bd0f46199a30be825fdabe4a0198688730b"
+    },
+    {
+      "path": "casmi/chem.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "628ad78a578d3fc50b468c7240b50c517c27d997",
+      "size": 10259,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/628ad78a578d3fc50b468c7240b50c517c27d997"
+    },
+    {
+      "path": "casmi/data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "015304309b1da4c9a2ec3d59ae18e89f4e352bd6",
+      "size": 6105,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/015304309b1da4c9a2ec3d59ae18e89f4e352bd6"
+    },
+    {
+      "path": "casmi/metric.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d488642ba155d3d1a3b48eed727a294ae45e52e9",
+      "size": 2558,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/d488642ba155d3d1a3b48eed727a294ae45e52e9"
+    },
+    {
+      "path": "casmi/paths.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cf247f95840d8552a40884341cae166e0d07ca6",
+      "size": 1153,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/7cf247f95840d8552a40884341cae166e0d07ca6"
+    },
+    {
+      "path": "casmi/pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b36111a2e217e23f269c2468a90f4608169dcb66",
+      "size": 4553,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/b36111a2e217e23f269c2468a90f4608169dcb66"
+    },
+    {
+      "path": "casmi/ranking.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a5dc4502daf57c91c939f8f774baa39d4c65022",
+      "size": 10420,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/6a5dc4502daf57c91c939f8f774baa39d4c65022"
+    },
+    {
+      "path": "casmi/spectra.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a06ae90dd98570ff5c4f187cedfc0d7d62a1442",
+      "size": 9126,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/0a06ae90dd98570ff5c4f187cedfc0d7d62a1442"
+    },
+    {
+      "path": "casmi/validation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bc96d97056b86932510d6bbac9cc43efe197702",
+      "size": 3610,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/0bc96d97056b86932510d6bbac9cc43efe197702"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ecb97f21e53bd8aa4e64ba11de594f64e89a2117",
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/trees/ecb97f21e53bd8aa4e64ba11de594f64e89a2117"
+    },
+    {
+      "path": "docs/experiment_log.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "821be7aa730e3b0ec7f7ca520130b0cde2053abe",
+      "size": 3799,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/821be7aa730e3b0ec7f7ca520130b0cde2053abe"
+    },
+    {
+      "path": "kaggle",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "851fe9a8665330a0f55a27e894182db8b30a92a9",
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/trees/851fe9a8665330a0f55a27e894182db8b30a92a9"
+    },
+    {
+      "path": "kaggle/build_assets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e5e30271ce544074660b0b7c4dcda82428d7a39",
+      "size": 1878,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/2e5e30271ce544074660b0b7c4dcda82428d7a39"
+    },
+    {
+      "path": "kaggle/dataset-metadata.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "499a1fd9160a809eb4d3b8bf9e4bd656fb6e294b",
+      "size": 482,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/499a1fd9160a809eb4d3b8bf9e4bd656fb6e294b"
+    },
+    {
+      "path": "kaggle/inference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f40df01b3d164b55688914b8522918af05f5478",
+      "size": 4504,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/9f40df01b3d164b55688914b8522918af05f5478"
+    },
+    {
+      "path": "kaggle/kernel-metadata.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17ba1abbea305a669451f630c18677620ca898af",
+      "size": 427,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/17ba1abbea305a669451f630c18677620ca898af"
+    },
+    {
+      "path": "notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9e186ca275e7550b9088b2cb9e6976d10ae394a0",
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/trees/9e186ca275e7550b9088b2cb9e6976d10ae394a0"
+    },
+    {
+      "path": "notebooks/01_explore.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08387ba83cfacb526b341c91b78b33e77fce6174",
+      "size": 142951,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/08387ba83cfacb526b341c91b78b33e77fce6174"
+    },
+    {
+      "path": "notebooks/02_validation.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57582c7dd6a1c5ae944d349c0d7a362378218cd2",
+      "size": 160481,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/57582c7dd6a1c5ae944d349c0d7a362378218cd2"
+    },
+    {
+      "path": "notebooks/03_library_search.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99f5b36b3df6ebb7de4237807aa2ae853e5599b6",
+      "size": 74579,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/99f5b36b3df6ebb7de4237807aa2ae853e5599b6"
+    },
+    {
+      "path": "notebooks/04_candidates.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d5195c20463e6f53032320489d4080fcde0a53c",
+      "size": 51882,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/3d5195c20463e6f53032320489d4080fcde0a53c"
+    },
+    {
+      "path": "notebooks/05_ranker.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e448c39484790b51cfa1e5adc9b84064f8dd3b90",
+      "size": 37295,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/e448c39484790b51cfa1e5adc9b84064f8dd3b90"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2599c1b53f0e20b014b978c4d4e97ce2b94d98bc",
+      "size": 877,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/2599c1b53f0e20b014b978c4d4e97ce2b94d98bc"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "42658715ad76baa8a614e7b10d17da24ed1561d6",
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/trees/42658715ad76baa8a614e7b10d17da24ed1561d6"
+    },
+    {
+      "path": "scripts/build_feature_tables.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a819b80c0bdc534777c1d4678d339165ff10ba0f",
+      "size": 2343,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/a819b80c0bdc534777c1d4678d339165ff10ba0f"
+    },
+    {
+      "path": "scripts/build_ranker_set.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e41337bf2808f6876bdc55419c3aa74af8943d0e",
+      "size": 4795,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/e41337bf2808f6876bdc55419c3aa74af8943d0e"
+    },
+    {
+      "path": "scripts/build_structures.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d24d82f0dd0eec88d973b15f45ddaee7e632e548",
+      "size": 1714,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/d24d82f0dd0eec88d973b15f45ddaee7e632e548"
+    },
+    {
+      "path": "scripts/cache_validation_hits.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4faa9937f9af901b9076057b93e101070437a613",
+      "size": 1282,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/4faa9937f9af901b9076057b93e101070437a613"
+    },
+    {
+      "path": "scripts/score_visible_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fe074eeb8c7be6186a437911f39af7b127d54ff",
+      "size": 1895,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/4fe074eeb8c7be6186a437911f39af7b127d54ff"
+    },
+    {
+      "path": "scripts/train_ranker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56a77a9d1505aef9603a10348885728f641150b5",
+      "size": 7830,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/56a77a9d1505aef9603a10348885728f641150b5"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dcb922ea52a09a3307804675ee6ab090b198d689",
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/trees/dcb922ea52a09a3307804675ee6ab090b198d689"
+    },
+    {
+      "path": "tests/test_chem.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a11421c393aa45d68971cd9af7932f1303a08f5",
+      "size": 1607,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/9a11421c393aa45d68971cd9af7932f1303a08f5"
+    },
+    {
+      "path": "tests/test_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fe50d798b804a1c100ff7b0ec518c01b492ae58",
+      "size": 1737,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/5fe50d798b804a1c100ff7b0ec518c01b492ae58"
+    },
+    {
+      "path": "tests/test_metric.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b59aae37cafa6b4833d2fc8c8cce98f59893c7dc",
+      "size": 1805,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/b59aae37cafa6b4833d2fc8c8cce98f59893c7dc"
+    },
+    {
+      "path": "tests/test_ranking.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcc54bbf544cd53fbc9ade6f90ec059d866b5ed8",
+      "size": 3284,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/dcc54bbf544cd53fbc9ade6f90ec059d866b5ed8"
+    },
+    {
+      "path": "tests/test_spectra.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebd509930ceff3abfce8b20820ce548219284be1",
+      "size": 1601,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/ebd509930ceff3abfce8b20820ce548219284be1"
+    },
+    {
+      "path": "tests/test_validation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae49d9e6019911ac630d5a748c5d2beb5107fbd5",
+      "size": 1817,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/ae49d9e6019911ac630d5a748c5d2beb5107fbd5"
+    },
+    {
+      "path": "uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b5373914d36a044516fa3b912248d4afd410cdf",
+      "size": 590977,
+      "url": "https://api.github.com/repos/Majyles/kaggle-casmi-2026/git/blobs/2b5373914d36a044516fa3b912248d4afd410cdf"
+    }
+  ],
+  "truncated": false
+}

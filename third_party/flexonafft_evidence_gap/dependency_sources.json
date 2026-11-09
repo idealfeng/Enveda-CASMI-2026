@@ -1,0 +1,96 @@
+{
+  "upstream": "flexonafft/casmi26-closing-the-evidence-gap",
+  "retrieved_versions": [
+    56,
+    61
+  ],
+  "reported_best_public_score": {
+    "score": 0.479,
+    "version": 56,
+    "evidence": "Kaggle original-page search index; not reproduced locally"
+  },
+  "datasets": [
+    {
+      "slug": "sanpier/casmi-spectrum-model-v1",
+      "currently_available_version": 1,
+      "total_bytes": 55917850,
+      "reported_license": "Apache 2.0",
+      "needed_for_v56": true,
+      "listed_by_pull_metadata": true,
+      "file_list": "dataset_metadata\\sanpier__casmi-spectrum-model-v1__files.json"
+    },
+    {
+      "slug": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "currently_available_version": 5,
+      "total_bytes": 1071751236,
+      "reported_license": "Other (specified in description)",
+      "needed_for_v56": true,
+      "listed_by_pull_metadata": true,
+      "file_list": "dataset_metadata\\dmitriigluzdov__casmi26-fold-safe-fpnet__files.json"
+    },
+    {
+      "slug": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "currently_available_version": 10,
+      "total_bytes": 136005626,
+      "reported_license": "Other (specified in description)",
+      "needed_for_v56": true,
+      "listed_by_pull_metadata": true,
+      "file_list": "dataset_metadata\\dmitriigluzdov__casmi26-natural-product-knowledge-table__files.json"
+    },
+    {
+      "slug": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "currently_available_version": 10,
+      "total_bytes": 233058969,
+      "reported_license": "Other (specified in description)",
+      "needed_for_v56": true,
+      "listed_by_pull_metadata": true,
+      "file_list": "dataset_metadata\\dmitriigluzdov__casmi26-natural-product-panel-benchmark__files.json"
+    },
+    {
+      "slug": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "currently_available_version": 13,
+      "total_bytes": 80416140333,
+      "reported_license": "Other (specified in description)",
+      "needed_for_v56": true,
+      "listed_by_pull_metadata": true,
+      "file_list": "dataset_metadata\\dmitriigluzdov__casmi26-pubchem-popularity-prior__files.json"
+    },
+    {
+      "slug": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "currently_available_version": 9,
+      "total_bytes": 20082868365,
+      "reported_license": "CC BY-NC-SA 4.0",
+      "needed_for_v56": true,
+      "listed_by_pull_metadata": true,
+      "file_list": "dataset_metadata\\dmitriigluzdov__casmi26-attributed-v4g-reproduction-assets__files.json"
+    },
+    {
+      "slug": "ahmedberatozer/casmi26-spectrum-model-long",
+      "currently_available_version": 1,
+      "total_bytes": 23824866,
+      "reported_license": "Other (specified in description)",
+      "needed_for_v56": false,
+      "listed_by_pull_metadata": true,
+      "file_list": "dataset_metadata\\ahmedberatozer__casmi26-spectrum-model-long__files.json"
+    },
+    {
+      "slug": "sanpier/catalogue-experiment-saner",
+      "currently_available_version": 1,
+      "total_bytes": 25575791,
+      "reported_license": "Unknown",
+      "needed_for_v56": false,
+      "listed_by_pull_metadata": true,
+      "file_list": "dataset_metadata\\sanpier__catalogue-experiment-saner__files.json"
+    }
+  ],
+  "exact_models": {
+    "features.py": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+    "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+    "config.json": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+    "final_model.pt": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642"
+  },
+  "download_plan": "minimum_download_plan.json",
+  "static_dependency_note": "Pull metadata lacks original mounted dataset version IDs. Current snapshots pinned; runtime source hardcoded hashes still mandatory.",
+  "notebook_execution_performed": false,
+  "commercial_eligibility": "unresolved; attributed asset collection currently labelled CC BY-NC-SA4.0"
+}

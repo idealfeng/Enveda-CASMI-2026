@@ -1,0 +1,19 @@
+{
+  "status": "stopped_no_automatic_retry",
+  "pid": 9064,
+  "target": "stormseye/casmi26-mass-head-seed0-1108",
+  "branch": "mass_head_seed0",
+  "manifest_sha256": "6838fef5ff1f9359b4635569914cb962be26df7e87c46917ba043c974c86ddc9",
+  "branch_sha256": "93ec7de696aec20194b55f38eaa5530297f0e67aa443f4e2f61681d71fbb41d0",
+  "started_at_utc": "2026-11-08T13:10:27.628274+00:00",
+  "maximum_seconds": 300,
+  "interval_seconds": 45,
+  "submission_retries_allowed": false,
+  "notebook_push_performed": false,
+  "cloud_status": "COMPLETE",
+  "checked_at_utc": "2026-11-08T13:10:27.657591+00:00",
+  "cloud_failure_message_present": false,
+  "finished_at_utc": "2026-11-08T13:10:27.687369+00:00",
+  "error_type": "RuntimeError",
+  "http_status": null
+}

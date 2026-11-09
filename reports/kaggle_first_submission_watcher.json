@@ -1,0 +1,15 @@
+{
+  "status": "monitoring",
+  "pid": 27220,
+  "started_at_utc": "2026-11-05T11:31:09.100350+00:00",
+  "read_only": true,
+  "new_run_or_submission_allowed": false,
+  "poll_interval_seconds": 45,
+  "max_seconds": 43200,
+  "checked_at_utc": "2026-11-05T15:46:41.632199+00:00",
+  "last_error": null,
+  "submission_ref": 58021256,
+  "last_submission_status": "PENDING",
+  "public_score": "",
+  "hidden_score_available": false
+}

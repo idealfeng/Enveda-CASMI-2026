@@ -1,0 +1,24 @@
+{
+  "status": "downloaded",
+  "source_url": "https://www.kaggle.com/api/v1/kernels/output/download/canqiang/casmi26-e006-window-40-ice-fallback-true/submission.csv?versionNumber=1",
+  "requested_kernel_version": 1,
+  "source_notebook_sha256": "ee55b55c7f5bdb08f1a8154396b18fdb0203fb7178b3a52429e0999e69ad7e53",
+  "download_date": "2026-11-04",
+  "auth_used": false,
+  "file": "canqiang_e006_v1_submission.csv",
+  "bytes": 17224,
+  "sha256": "a5f021a6d43963eb681a478d2e356478e19c068b02e68d060084d5bd453f1eab",
+  "rows": 400,
+  "schema": [
+    "molecule_id",
+    "smiles"
+  ],
+  "historical_source_preview_sha256": "a5f021a6d43963eb681a478d2e356478e19c068b02e68d060084d5bd453f1eab",
+  "matches_historical_source_preview": true,
+  "headers": {
+    "content_type": "text/plain; charset=utf-8",
+    "content_length": "17224",
+    "content_disposition": null
+  },
+  "scope": "Upstream visible-placeholder preview output; not hidden predictions or independent validation"
+}

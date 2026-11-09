@@ -1,0 +1,29 @@
+{
+  "status": "accepted",
+  "target": "stormseye/casmi26-flex-rr-aggressive-1107",
+  "version": 1,
+  "branch_sha256": "d848d6d887d690d7130e492861b23ec4dec0c5081caa88bb13163a3ed82e2328",
+  "actual_target": "stormseye/casmi26-flex-rr-aggressive-1107",
+  "description": "CASMI26 20261107 flex_rr_aggressive audited V1",
+  "competition": "enveda-CASMI26-molecule-id-mass-spectra",
+  "output_file": "submission.csv",
+  "requested_at_utc": "2026-11-06T16:46:07.598402+00:00",
+  "notebook_sha256": "e2e4613baf7020d03eccbcad0d765d3940c127d9af4303109ba3824be10d88ce",
+  "visible_output_sha256": "210bb8deb556e8ac7b6ca1636775a01bc94d59c87c94fad5a3bdca164e70bb83",
+  "output_audit_sha256": "36f831b92eb7e258f9248d29b637bdff6ad839f93f96e432c8eb28e2ee855055",
+  "observed_existing_refs": [
+    58021256,
+    58051406,
+    58063780,
+    58063822
+  ],
+  "num_allowed_before": 2,
+  "num_today_before": 3,
+  "num_total_before": 4,
+  "validation_mode": "fast_static",
+  "automatic_retry_allowed": false,
+  "submits_cloud_code_version": true,
+  "local_diagnostic_csv_uploaded": false,
+  "submission_ref": 58063870,
+  "responded_at_utc": "2026-11-06T16:46:10.581217+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "prepared",
+  "branch": "mass_guarded_isomer_p7",
+  "target": "stormseye/casmi26-mass-guarded-isomer-p7-1109",
+  "version": 1,
+  "notebook_sha256": "0ab4a66896ad364e99fe8db2c234e13dc0622085606313a10fccf5c685b88b23",
+  "metadata_sha256": "c8a042b7ca2a5754f6cc81773169ef0ba84ff769e5477041e28570751377fddf",
+  "recipe_sha256": "af484d4e817ca1515584ad4aace5496bff84ec9fee8b8ce9a346a335e08a8cbe",
+  "static_review_path": "submission/optimization_20261109/mass_guarded_isomer_p7/static_review.json",
+  "validation_mode": "fast_static"
+}

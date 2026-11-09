@@ -1,0 +1,341 @@
+{
+  "status": "passed",
+  "branches": {
+    "v35_baseline": {
+      "status": "passed",
+      "checks": {
+        "one_observer_added": true,
+        "expected_cells_only": true,
+        "notebook_sha": true,
+        "metadata_sha": true,
+        "static_review_bound": true,
+        "no_stored_outputs": true,
+        "private_offline_gpu": true,
+        "version_pinned_sources": true,
+        "title_matches_slug": true,
+        "all_code_compile": true,
+        "actual_fast_observer_passes": true,
+        "actual_hidden_observer_passes": true,
+        "wrong_main_score_rejected": true
+      },
+      "observer_fixtures": {
+        "fast": {
+          "status": "passed",
+          "checks": {
+            "configuration": true,
+            "official_rdkit": true,
+            "public_model_pins": true,
+            "v2_model_pins": true,
+            "distinct_models": true,
+            "lotus_pin": true,
+            "csv_schema_ids": true,
+            "csv_counts": true,
+            "fast_no_model": true
+          },
+          "models_executed": false
+        },
+        "hidden": {
+          "status": "passed",
+          "checks": {
+            "configuration": true,
+            "official_rdkit": true,
+            "public_model_pins": true,
+            "v2_model_pins": true,
+            "distinct_models": true,
+            "lotus_pin": true,
+            "csv_schema_ids": true,
+            "csv_counts": true,
+            "pipeline_complete": true,
+            "hidden_full_scope": true,
+            "merge_applied": true,
+            "main_keys": true,
+            "main_scores": true,
+            "main_coverage": true,
+            "main_finite": true,
+            "outsider_keys": true,
+            "outsider_scores": true,
+            "outsider_coverage": true,
+            "outsider_finite": true
+          },
+          "models_executed": false
+        },
+        "wrong_main_score_rejected": true
+      },
+      "notebook_sha256": "79266187fc05ca98376eafa3c2e46d097f746ecbb0cd94039b2c1609abfcf223"
+    },
+    "v35_weak_prior": {
+      "status": "passed",
+      "checks": {
+        "one_observer_added": true,
+        "expected_cells_only": true,
+        "notebook_sha": true,
+        "metadata_sha": true,
+        "static_review_bound": true,
+        "no_stored_outputs": true,
+        "private_offline_gpu": true,
+        "version_pinned_sources": true,
+        "title_matches_slug": true,
+        "all_code_compile": true,
+        "exact_prior_configuration": true,
+        "actual_fast_observer_passes": true,
+        "actual_hidden_observer_passes": true,
+        "wrong_main_score_rejected": true
+      },
+      "observer_fixtures": {
+        "fast": {
+          "status": "passed",
+          "checks": {
+            "configuration": true,
+            "official_rdkit": true,
+            "public_model_pins": true,
+            "v2_model_pins": true,
+            "distinct_models": true,
+            "lotus_pin": true,
+            "csv_schema_ids": true,
+            "csv_counts": true,
+            "fast_no_model": true
+          },
+          "models_executed": false
+        },
+        "hidden": {
+          "status": "passed",
+          "checks": {
+            "configuration": true,
+            "official_rdkit": true,
+            "public_model_pins": true,
+            "v2_model_pins": true,
+            "distinct_models": true,
+            "lotus_pin": true,
+            "csv_schema_ids": true,
+            "csv_counts": true,
+            "pipeline_complete": true,
+            "hidden_full_scope": true,
+            "merge_applied": true,
+            "main_keys": true,
+            "main_scores": true,
+            "main_coverage": true,
+            "main_finite": true,
+            "outsider_keys": true,
+            "outsider_scores": true,
+            "outsider_coverage": true,
+            "outsider_finite": true
+          },
+          "models_executed": false
+        },
+        "wrong_main_score_rejected": true
+      },
+      "notebook_sha256": "4b318cbf898b7e03bab3ebc467d75a940b2d359cab796ebe75e4ed3abb2dc34e"
+    },
+    "v35_v2_emphasis": {
+      "status": "passed",
+      "checks": {
+        "one_observer_added": true,
+        "expected_cells_only": true,
+        "notebook_sha": true,
+        "metadata_sha": true,
+        "static_review_bound": true,
+        "no_stored_outputs": true,
+        "private_offline_gpu": true,
+        "version_pinned_sources": true,
+        "title_matches_slug": true,
+        "all_code_compile": true,
+        "exact_eight_ensemble_changes": true,
+        "only_matching_log_labels_changed": true,
+        "actual_fast_observer_passes": true,
+        "actual_hidden_observer_passes": true,
+        "wrong_main_score_rejected": true
+      },
+      "observer_fixtures": {
+        "fast": {
+          "status": "passed",
+          "checks": {
+            "configuration": true,
+            "official_rdkit": true,
+            "public_model_pins": true,
+            "v2_model_pins": true,
+            "distinct_models": true,
+            "lotus_pin": true,
+            "csv_schema_ids": true,
+            "csv_counts": true,
+            "fast_no_model": true
+          },
+          "models_executed": false
+        },
+        "hidden": {
+          "status": "passed",
+          "checks": {
+            "configuration": true,
+            "official_rdkit": true,
+            "public_model_pins": true,
+            "v2_model_pins": true,
+            "distinct_models": true,
+            "lotus_pin": true,
+            "csv_schema_ids": true,
+            "csv_counts": true,
+            "pipeline_complete": true,
+            "hidden_full_scope": true,
+            "merge_applied": true,
+            "main_keys": true,
+            "main_scores": true,
+            "main_coverage": true,
+            "main_finite": true,
+            "outsider_keys": true,
+            "outsider_scores": true,
+            "outsider_coverage": true,
+            "outsider_finite": true
+          },
+          "models_executed": false
+        },
+        "wrong_main_score_rejected": true
+      },
+      "notebook_sha256": "f9e786e3d256a19b2d3531283facbd81de98afcfee35bf6296ed9bf61149ecf2"
+    },
+    "v35_robust_mass": {
+      "status": "passed",
+      "checks": {
+        "one_observer_added": true,
+        "expected_cells_only": true,
+        "notebook_sha": true,
+        "metadata_sha": true,
+        "static_review_bound": true,
+        "no_stored_outputs": true,
+        "private_offline_gpu": true,
+        "version_pinned_sources": true,
+        "title_matches_slug": true,
+        "all_code_compile": true,
+        "actual_fast_observer_passes": true,
+        "actual_hidden_observer_passes": true,
+        "wrong_main_score_rejected": true
+      },
+      "observer_fixtures": {
+        "fast": {
+          "status": "passed",
+          "checks": {
+            "configuration": true,
+            "official_rdkit": true,
+            "public_model_pins": true,
+            "v2_model_pins": true,
+            "distinct_models": true,
+            "lotus_pin": true,
+            "csv_schema_ids": true,
+            "csv_counts": true,
+            "fast_no_model": true
+          },
+          "models_executed": false
+        },
+        "hidden": {
+          "status": "passed",
+          "checks": {
+            "configuration": true,
+            "official_rdkit": true,
+            "public_model_pins": true,
+            "v2_model_pins": true,
+            "distinct_models": true,
+            "lotus_pin": true,
+            "csv_schema_ids": true,
+            "csv_counts": true,
+            "pipeline_complete": true,
+            "hidden_full_scope": true,
+            "merge_applied": true,
+            "main_keys": true,
+            "main_scores": true,
+            "main_coverage": true,
+            "main_finite": true,
+            "outsider_keys": true,
+            "outsider_scores": true,
+            "outsider_coverage": true,
+            "outsider_finite": true,
+            "robust_mass_executed": true
+          },
+          "models_executed": false
+        },
+        "wrong_main_score_rejected": true
+      },
+      "notebook_sha256": "5599c52d9e82210b78f804fa283793908a07fc3bff5b482d3545f5c4dd55cc75"
+    },
+    "v35_no_interleave": {
+      "status": "passed",
+      "checks": {
+        "one_observer_added": true,
+        "expected_cells_only": true,
+        "notebook_sha": true,
+        "metadata_sha": true,
+        "static_review_bound": true,
+        "no_stored_outputs": true,
+        "private_offline_gpu": true,
+        "version_pinned_sources": true,
+        "title_matches_slug": true,
+        "all_code_compile": true,
+        "only_forced_interleave_disabled": true,
+        "vacant_fill_preserved": true,
+        "actual_fast_observer_passes": true,
+        "actual_hidden_observer_passes": true,
+        "wrong_main_score_rejected": true
+      },
+      "observer_fixtures": {
+        "fast": {
+          "status": "passed",
+          "checks": {
+            "configuration": true,
+            "official_rdkit": true,
+            "public_model_pins": true,
+            "v2_model_pins": true,
+            "distinct_models": true,
+            "lotus_pin": true,
+            "csv_schema_ids": true,
+            "csv_counts": true,
+            "fast_no_model": true
+          },
+          "models_executed": false
+        },
+        "hidden": {
+          "status": "passed",
+          "checks": {
+            "configuration": true,
+            "official_rdkit": true,
+            "public_model_pins": true,
+            "v2_model_pins": true,
+            "distinct_models": true,
+            "lotus_pin": true,
+            "csv_schema_ids": true,
+            "csv_counts": true,
+            "pipeline_complete": true,
+            "hidden_full_scope": true,
+            "merge_applied": true,
+            "main_keys": true,
+            "main_scores": true,
+            "main_coverage": true,
+            "main_finite": true,
+            "outsider_keys": true,
+            "outsider_scores": true,
+            "outsider_coverage": true,
+            "outsider_finite": true
+          },
+          "models_executed": false
+        },
+        "wrong_main_score_rejected": true
+      },
+      "notebook_sha256": "5eea610eb49d3eb6562861eb0149e7054abb76610a600a7c9b939a2053053465"
+    }
+  },
+  "robust_mass_fixture": {
+    "checks": {
+      "effective_median_priority": true,
+      "even_sample_median": true,
+      "raw_fills_missing_effective": true,
+      "dehydrated_adduct_supported": true,
+      "invalid_mass_excluded": true,
+      "row_order_invariant": true
+    },
+    "result": {
+      "a": 100.0002,
+      "d": 300.001,
+      "b": 200.0,
+      "c": 200.0
+    },
+    "source": "Executed actual builder ROBUST_MAP in a local fixture"
+  },
+  "source_sha256": "759067bc1449427089e95b811ee49f866580590905484577fe09a143740a2842",
+  "no_labels_or_models_or_cloud_calls": true,
+  "scope": "Static source review and synthetic actual-observer fixtures; no accuracy inference"
+}

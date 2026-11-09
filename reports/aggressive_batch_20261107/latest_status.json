@@ -1,0 +1,63 @@
+{
+  "status": "finished_refreshed_from_live_reads",
+  "pid": 37680,
+  "started_at_utc": "2026-11-06T16:47:49.453650+00:00",
+  "manifest_sha256": "11b1077776fb860a97906b1e60d9336bd1b73ea9e13138395c06e3b2445d5dee",
+  "max_seconds": 43200.0,
+  "poll_interval_seconds": 45,
+  "read_only": true,
+  "new_run_or_submission_performed": false,
+  "checked_at_utc": "2026-11-07T06:40:32.804779+00:00",
+  "baseline_public_score": 0.479,
+  "branches": [
+    {
+      "branch": "flex_dual_only",
+      "target": "stormseye/casmi26-flex-dual-only-1107",
+      "actual_target": "stormseye/casmi26-flex-dual-neural-only",
+      "submission_ref": 58063780,
+      "status": "COMPLETE",
+      "public_score": 0.48,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-07T06:39:32.742012+00:00"
+    },
+    {
+      "branch": "flex_tri_only",
+      "target": "stormseye/casmi26-flex-tri-only-1107",
+      "actual_target": "stormseye/casmi26-flex-tri-only-1107",
+      "submission_ref": 58063822,
+      "status": "COMPLETE",
+      "public_score": 0.475,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-07T06:39:33.606619+00:00"
+    },
+    {
+      "branch": "public_mass_repro",
+      "target": "stormseye/casmi26-public-mass-repro-1107",
+      "actual_target": "stormseye/casmi26-public-mass-repro-1107",
+      "submission_ref": 58063883,
+      "status": "COMPLETE",
+      "public_score": 0.481,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-07T06:39:34.334485+00:00"
+    },
+    {
+      "branch": "flex_rr_aggressive",
+      "target": "stormseye/casmi26-flex-rr-aggressive-1107",
+      "actual_target": "stormseye/casmi26-flex-rr-aggressive-1107",
+      "submission_ref": 58063870,
+      "status": "COMPLETE",
+      "public_score": 0.436,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-07T06:39:35.476682+00:00"
+    }
+  ],
+  "best_this_batch": {
+    "branch": "public_mass_repro",
+    "actual_target": "stormseye/casmi26-public-mass-repro-1107",
+    "submission_ref": 58063883,
+    "public_score": 0.481
+  },
+  "best_overall_public_score": 0.481,
+  "all_branches_terminal": true,
+  "process_liveness": "Historical watcher PID is not a current liveness claim."
+}

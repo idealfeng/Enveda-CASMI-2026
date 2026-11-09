@@ -1,0 +1,16 @@
+.venv/
+.venv-linux/
+.cache/
+assets/
+runs/
+__pycache__/
+*.pyc
+*.part
+enveda-CASMI26-molecule-id-mass-spectra/
+.kaggle/
+.txt
+
+# Kaggle /kaggle/input mount views (junction/symlink scaffolds) created by reproduction scripts
+**/attached_input/
+**/input_view/
+third_party/prvsiyan_analog/cache_equivalence_rg20/linked_linux/

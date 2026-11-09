@@ -1,0 +1,31 @@
+{
+  "status": "failed",
+  "target": "stormseye/casmi26-public-tri-v30",
+  "version": 1,
+  "checked_at_utc": "2026-11-06T07:54:32.194714+00:00",
+  "checks": {
+    "target": true,
+    "version": true,
+    "private": true,
+    "internet_off": true,
+    "source_exact": false,
+    "required_dataset_slugs": true,
+    "no_kernel_dependencies": true
+  },
+  "server_source_sha256": "60b45e331d6f04e34ce779f35421cd09915256f56a85d2ef1a6da9e3757d5748",
+  "dataset_sources": [
+    "bgunshui/casmi26-scorer-v2-model",
+    "bgunshui/casmi26-scorer-v4-model",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "qwertykeypadapple/casmi26-lotus-candidates",
+    "sanpier/casmi-spectrum-model-v1"
+  ],
+  "numeric_dataset_versions_read_back": false,
+  "metadata_docker_image": "gcr.io/kaggle-private-byod/python@sha256:9a6bcfda6d03b2cd9aa347ee8c1bae62043328ed0f4afe9bda014e4f8bbf9435",
+  "metadata_machine_shape": "NvidiaTeslaT4",
+  "runtime_device_or_model_execution_proven": false
+}

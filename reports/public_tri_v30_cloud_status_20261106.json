@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-11-06T08:17:06.293935+00:00",
+  "target": "stormseye/casmi26-public-tri-v30",
+  "version": 1,
+  "read_only": true,
+  "new_run_or_submission_performed": false,
+  "version_ref": "stormseye/casmi26-public-tri-v30/1",
+  "server_source_private_offline_binding": "passed",
+  "status_read_success": true,
+  "session_status": "COMPLETE",
+  "failure_message": "",
+  "log_read_success": true,
+  "log_bytes": 14145,
+  "log_sha256": "2e56d8f9bea2ee8b923d413103d84c35fb61be50346783612ad5f58d318cb56e",
+  "marker_lines": [
+    "MODEL BUNDLE [bundle_v2] READY: ['config.json', 'config_used.json', 'features.py', 'final_model.pt', 'model.py'] from /kaggle/input/datasets/bgunshui/casmi26-scorer-v2-model",
+    "MODEL BUNDLE [bundle_v4] READY: ['config.json', 'config_used.json', 'features.py', 'final_model.pt', 'model.py'] from /kaggle/input/datasets/bgunshui/casmi26-scorer-v4-model",
+    "      NEURAL input failures kept at baseline: 0",
+    "      NEURAL input failures kept at baseline: 0",
+    "      NEURAL input failures kept at baseline: 0",
+    "TRI-FORCE ENSEMBLE: 0.50*z(pub) + 0.25*z(v2_192w) + 0.25*z(v4_256w)",
+    "      NEURAL input failures kept at baseline: 0",
+    "      NEURAL input failures kept at baseline: 0",
+    "      NEURAL input failures kept at baseline: 0",
+    "TRI-FORCE ENSEMBLE outsider: 0.50*z(pub) + 0.25*z(v2) + 0.25*z(v4)",
+    "SUBMISSION READY: /kaggle/working/submission.csv rows 400 control CUSTOM",
+    "SUBMISSION READY: /kaggle/working/submission.csv molecules 400 provenance {'status': 'disabled in this experiment'}",
+    "LOTUS Candidate index ready for 10 molecules from /kaggle/input/datasets/qwertykeypadapple/casmi26-lotus-candidates/candidates_lotus.parquet",
+    "LOTUS Knowledge Base: augmented np_map with 149983 verified natural products from candidates_lotus.parquet",
+    "LOTUS Backfill: added 0 verified natural products to vacant slots.",
+    "SUBMISSION READY: /kaggle/working/submission.csv molecules 400 MERGE {\"status\": \"applied\", \"rows\": 400, \"merged\": 400, \"leader_moves\": 0, \"ranks_reordered\": 12, \"dedup_swaps\": 0, \"output_equals_custom\": false, \"outsider_fills\": 0, \"old_leader_pinned\": 0, \"lib_hit_molecules\": 12, \"output_sha256\": \"5803d3bdf65908d656672f0796305fd9d72cd56f9d1d90f7beff7d5f59847c0d\"}"
+  ]
+}

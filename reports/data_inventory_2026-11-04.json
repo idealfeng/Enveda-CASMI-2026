@@ -1,0 +1,157 @@
+{
+  "observed_date": "2026-11-04",
+  "timezone": "Asia/Shanghai",
+  "purpose": "Read-only inventory; visible test is placeholder, not validation.",
+  "files": {
+    "train.parquet": {
+      "bytes": 3033286496,
+      "rows": 2539608,
+      "row_groups": 21,
+      "columns": [
+        "ingest_lib",
+        "normalized_smiles",
+        "inchikey",
+        "inchikey14",
+        "molecular_formula",
+        "ionization_mode",
+        "instrument_type",
+        "adduct",
+        "adduct_orig",
+        "precursor_mz",
+        "precursor_error_ppm",
+        "ms2_mzs",
+        "ms2_normalized_intensities",
+        "num_peaks",
+        "base_peak_intensity",
+        "collision_energy_ev",
+        "collision_energy_orig",
+        "collision_energy_orig_units"
+      ]
+    },
+    "test.parquet": {
+      "bytes": 4848729,
+      "rows": 1213,
+      "row_groups": 1,
+      "columns": [
+        "molecule_id",
+        "spectrum_id",
+        "ms2_mzs",
+        "ms2_normalized_intensities",
+        "base_peak_intensity",
+        "adduct",
+        "ionization_mode",
+        "instrument_type",
+        "precursor_mz",
+        "collision_energy_orig",
+        "collision_energy_ev",
+        "collision_energy_orig_units"
+      ]
+    }
+  },
+  "train": {
+    "unique_raw_inchikey14": 275810,
+    "identity_note": "Stored keys, not recomputed with official tautomer canonicalization. Source counts overlap across libraries.",
+    "sources": {
+      "enveda-180": {
+        "spectra": 1153785,
+        "unique_raw_inchikey14": 182941
+      },
+      "pluskal_ms2": {
+        "spectra": 527581,
+        "unique_raw_inchikey14": 46821
+      },
+      "riken": {
+        "spectra": 347171,
+        "unique_raw_inchikey14": 15892
+      },
+      "gnps": {
+        "spectra": 220849,
+        "unique_raw_inchikey14": 45750
+      },
+      "massbank": {
+        "spectra": 101727,
+        "unique_raw_inchikey14": 9180
+      },
+      "mona": {
+        "spectra": 92416,
+        "unique_raw_inchikey14": 11681
+      },
+      "spectraverse": {
+        "spectra": 50933,
+        "unique_raw_inchikey14": 9631
+      },
+      "msdial": {
+        "spectra": 40765,
+        "unique_raw_inchikey14": 9127
+      },
+      "drug_plus": {
+        "spectra": 2545,
+        "unique_raw_inchikey14": 2539
+      },
+      "enveda-np-examples": {
+        "spectra": 1184,
+        "unique_raw_inchikey14": 250
+      },
+      "masaryk": {
+        "spectra": 652,
+        "unique_raw_inchikey14": 416
+      }
+    }
+  },
+  "visible_test": {
+    "molecules": 400,
+    "spectra_per_molecule": {
+      "min": 1,
+      "median": 3.0,
+      "max": 9
+    },
+    "adducts": {
+      "[M+H]+": 959,
+      "[M-H]-": 193,
+      "[M+CH2O2-H]-": 31,
+      "[M+Na]+": 22,
+      "[M+NH4]+": 4,
+      "[M+K]+": 2,
+      "[M+Cl]-": 2
+    },
+    "instruments": {
+      "timsTOF": 1213
+    },
+    "ionization_mode": {
+      "positive": 987,
+      "negative": 226
+    },
+    "precursor_mz_range": [
+      245.0931,
+      460.1554
+    ]
+  },
+  "sample_submission": {
+    "bytes": 43619,
+    "rows": 400,
+    "columns": [
+      "molecule_id",
+      "smiles"
+    ],
+    "unique_ids": 400,
+    "matches_visible_test_ids": true
+  },
+  "environment": {
+    "python": "3.12.2",
+    "rdkit_installed": "2025.09.3",
+    "rdkit_official_metric": "2026.03.3",
+    "gpu_observed": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_memory_mib": 8188,
+    "gpu_driver": "566.07",
+    "packages_discoverable": {
+      "pyarrow": true,
+      "pandas": true,
+      "numpy": true,
+      "rdkit": true,
+      "torch": true,
+      "lightgbm": true,
+      "kaggle": false
+    },
+    "note": "Package discovery does not verify CUDA availability or pipeline compatibility."
+  }
+}

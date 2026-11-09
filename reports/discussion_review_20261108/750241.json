@@ -1,0 +1,36 @@
+{
+  "id": 750241,
+  "read_only": true,
+  "checked_at_utc": "2026-11-07T16:01:45.844453+00:00",
+  "topic": {
+    "id": 750241,
+    "title": "new molecules (not in any database)'s prediction:how can we improve that?",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/750241",
+    "postDate": "2026-10-17T12:32:27.762Z",
+    "authorName": "Kino Lutor",
+    "authorUrl": "https://www.kaggle.com/kinolutor",
+    "votes": 4,
+    "commentCount": 2,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>Hi everyone!\nV22 performs almost perfectly on known molecules, but on 130 molecules absent from the candidate databases, it places the correct structure first only 7 times.\nThe encouraging finding: Engine 1’s generator could produce the correct structure for 100 of those 130 molecules when given suitable starting analogs. However, the default pipeline starts generation from only the 6 closest known molecules. We’re now testing 12, 20 and 30 parents on CPU, without using GPU resources.\nHas anyone investigated this bottleneck?</p>\n<ul>\n<li>Does expanding the parent set improve final identification, or mostly add distracting candidates?</li>\n<li>Would selecting structurally diverse parents work better than simply taking more nearest analogs?</li>\n<li>How would you distinguish generation failures from cases where the correct generated candidate is lost during filtering or ranking?\nThe 100/130 figure is generation potential, not end-to-end identification accuracy. Any suggestions for controlled experiments would be appreciated!</li>\n</ul>"
+  },
+  "comments": [
+    {
+      "id": 3540271,
+      "authorName": "ZavodRobotov",
+      "postDate": "2026-10-17T14:08:38.187Z",
+      "content": "<p>Same problem has been observed in AlphaStar training to play StarCraft. Learning from human games in initial stage was crutical, because model cannot learn new tactics by itself. First attempts for new tactics give bad results for model, so model drop these new tactics. You can read paper about training AlphaFold and AlphaStar to find some interesting.</p>",
+      "votes": 1,
+      "replies": [
+        {
+          "id": 3540315,
+          "authorName": "Kino Lutor",
+          "postDate": "2026-10-17T16:36:57.690Z",
+          "content": "<p>ok,thank you so much</p>"
+        }
+      ]
+    }
+  ],
+  "comments_truncated": false
+}

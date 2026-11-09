@@ -1,0 +1,74 @@
+{
+  "status": "processes_complete",
+  "visible_input_is_placeholder": true,
+  "full_hidden_score_reproduced": false,
+  "runs": [
+    {
+      "scheme": "prvsiyan",
+      "work_root": "/mnt/d/Paper/casmi/runs/prvsiyan_smoke_20261104a",
+      "command": [
+        "/mnt/d/Paper/casmi/.venv-linux/bin/python",
+        "/mnt/d/Paper/casmi/third_party/prvsiyan_analog/run_local_linux.py",
+        "--input-root",
+        "/mnt/d/Paper/casmi/runs/inputs/prvsiyan_v43",
+        "--work-root",
+        "/mnt/d/Paper/casmi/runs/prvsiyan_smoke_20261104a",
+        "--competition-root",
+        "/mnt/d/Paper/casmi/enveda-CASMI26-molecule-id-mass-spectra",
+        "--shared-spec-cache",
+        "/mnt/d/Paper/casmi/runs/shared_spec_cache",
+        "--mmap-pool"
+      ],
+      "status": "failed",
+      "log": "/mnt/d/Paper/casmi/runs/prvsiyan_smoke_20261104a/console.log",
+      "pid": 468,
+      "exit_code": 1,
+      "elapsed_seconds": 921.668,
+      "log_tail": "LOCAL_CELL_START 20\nLOCAL_CELL_END 20 0.0s\nLOCAL_CELL_START 21\nICE_UNION: engine candidates added to ICE input: 814\nICE input molecules 12 candidates 814 767s\n[claw] site preseed rc 0 \n[claw] site ready; substituted ['rdkit-2025.3.6-cp312-cp312-manylinux_2_28_x86_64.whl.ice'] -> ['rdkit-2025.3.6-cp312-cp312-manylinux_2_28_x86_64.whl.ice']\n[ice     0.1s] stubbed (absent) modules: ['pygmtools', 'h5py', 'multiprocess', 'platformdirs']\n[ice    57.4s] ERROR ModuleNotFoundError(\"No module named 'yaml'\")\n[ice    57.4s] status error {'n_mols': 12, 'n_mols_covered': 0, 'n_mols_scored': 0, 'n_cands': 814, 'n_scored': 0}\n\n{'status': 'error', 'n_mols': 12, 'n_mols_covered': 0, 'n_mols_scored': 0, 'n_cands': 814, 'n_scored': 0, 'seconds': 57.42, 'pred_per_s': None, 'device': 'cuda', 'rdkit': '2025.03.6', 'max_mem_gb': None}\nICE meta {\"status\": \"error\", \"n_mols\": 12, \"n_mols_scored\": 0, \"n_mols_covered\": 0, \"n_cands\": 814, \"n_scored\": 0, \"errors\": [\"Traceback (most recent call last):\\n  File \\\"/mnt/d/Paper/casmi/runs/inputs/prvsiyan_v43/datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/common/misc_utils.py\\\", line 24, in <module>\\n    from pytorch_lightning.loggers import LightningLoggerBase as Logger\\n  File \\\"/mnt/d/Paper/casmi/runs/prvsiyan_smoke_20261104a/ice_site/pytorch_lightning/__init__.py\\\", line 27, in <module>\\n    from pytorch_lightning.callbacks import Callback  # noqa: E402\\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/mnt/d/Paper/casmi/runs/prvsiyan_smoke_20261104a/ice_site/pytorch_lightning/callbacks/__init__.py\\\", line 24, in <module>\\n    from pytorch_lightning.callbacks.model_checkpoint import ModelCheckpoint\\n  File \\\"/mnt/d/Paper/casmi/runs/prvsiyan_smoke_20261104a/ice_site/pytorch_lightning/callbacks/model_checkpoint.py\\\", line 34, in <module>\\n    import yaml\\nModuleNotFoundError: No module named 'yaml'\\n\\nDuring handling of the above exception, another exception occurred:\\n\\nTraceback (most recent call last):\\n  File \\\"/mnt/d/Paper/casmi/runs/inputs/prvsiyan_v43/datasets/ahmedberatozer/casmi26-iceberg/ice_runner.py\\\", line 681, in main\\n    model = load_model(pkg, dev, log)\\n            ^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/mnt/d/Paper/casmi/runs/inputs/prvsiyan_v43/datasets/ahmedberatozer/casmi26-iceberg/ice_runner.py\\\", line 435, in load_model\\n    import ms_p\nv29 GLACIER [M+H]+ only: molecules 11 of 12\n[gl     0.0s] site ready (marker matches): /mnt/d/Paper/casmi/runs/prvsiyan_smoke_20261104a/ice_site\n[gl     0.1s] stubbed (absent) modules: ['pygmtools', 'h5py', 'multiprocess', 'platformdirs']\n[gl    56.3s] ERROR ModuleNotFoundError(\"No module named 'yaml'\")\n[gl    56.3s] status error {'n_mols': 11, 'n_mols_covered': 0, 'n_mols_scored': 0, 'n_cands': 793, 'n_scored': 0}\n\n{'status': 'error', 'n_mols': 11, 'n_mols_covered': 0, 'n_mols_scored': 0, 'n_cands': 793, 'n_scored': 0, 'seconds': 56.3, 'pred_per_s': None, 'device': 'cuda', 'rdkit': '2025.03.6', 'max_mem_gb': None}\nGL meta {\"model\": \"glacier\", \"status\": \"error\", \"n_mols\": 11, \"n_mols_scored\": 0, \"n_mols_covered\": 0, \"n_cands\": 793, \"n_scored\": 0, \"errors\": [\"Traceback (most recent call last):\\n  File \\\"/mnt/d/Paper/casmi/runs/inputs/prvsiyan_v43/datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/common/misc_utils.py\\\", line 24, in <module>\\n    from pytorch_lightning.loggers import LightningLoggerBase as Logger\\n  File \\\"/mnt/d/Paper/casmi/runs/prvsiyan_smoke_20261104a/ice_site/pytorch_lightning/__init__.py\\\", line 27, in <module>\\n    from pytorch_lightning.callbacks import Callback  # noqa: E402\\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/mnt/d/Paper/casmi/runs/prvsiyan_smoke_20261104a/ice_site/pytorch_lightning/callbacks/__init__.py\\\", line 24, in <module>\\n    from pytorch_lightning.callbacks.model_checkpoint import ModelCheckpoint\\n  File \\\"/mnt/d/Paper/casmi/runs/prvsiyan_smoke_20261104a/ice_site/pytorch_lightning/callbacks/model_checkpoint.py\\\", line 34, in <module>\\n    import yaml\\nModuleNotFoundError: No module named 'yaml'\\n\\nDuring handling of the above exception, another exception occurred:\\n\\nTraceback (most recent call last):\\n  File \\\"/mnt/d/Paper/casmi/runs/inputs/prvsiyan_v43/datasets/ahmedberatozer/casmi26-glacier/gl_runner.py\\\", line 816, in main\\n    model = load_model(pkg, dev, log, a.ckpt)\\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/mnt/d/Paper/casmi/runs/inputs/prvsiyan_v43/datasets/ahmedberatozer/casmi26-glacier/gl_runner.py\\\", line 5\n[N1] FAILED -> H1 behaviour (no N1 GL scores): RuntimeError('H1 GLACIER produced no scores (GL failed / not run) -> N1 not attempted')\nTraceback (most recent call last):\n  File \"/mnt/d/Paper/casmi/third_party/prvsiyan_analog/run_local_linux.py\", line 231, in main\n    exec(compile(text, str(prepared_dir / f\"cell_{index:02d}.py\"), \"exec\"), namespace)\n  File \"/mnt/d/Paper/casmi/runs/prvsiyan_smoke_20261104a/adapted_cells/cell_21.py\", line 1161, in <module>\n    raise RuntimeError('H1 GLACIER produced no scores (GL failed / not run) -> N1 not attempted')\nRuntimeError: H1 GLACIER produced no scores (GL failed / not run) -> N1 not attempted"
+    },
+    {
+      "scheme": "canqiang",
+      "work_root": "/mnt/d/Paper/casmi/runs/canqiang_smoke_20261104a",
+      "command": [
+        "/mnt/d/Paper/casmi/.venv-linux/bin/python",
+        "/mnt/d/Paper/casmi/third_party/canqiang_e006/run_local_linux.py",
+        "--input-root",
+        "/mnt/d/Paper/casmi/assets/kaggle",
+        "--work-root",
+        "/mnt/d/Paper/casmi/runs/canqiang_smoke_20261104a",
+        "--competition-root",
+        "/mnt/d/Paper/casmi/enveda-CASMI26-molecule-id-mass-spectra",
+        "--input-mode",
+        "exact",
+        "--shared-spec-cache",
+        "/mnt/d/Paper/casmi/runs/shared_spec_cache"
+      ],
+      "status": "failed",
+      "log": "/mnt/d/Paper/casmi/runs/canqiang_smoke_20261104a/console.log",
+      "pid": 1827,
+      "exit_code": 1,
+      "elapsed_seconds": 837.562,
+      "log_tail": "LOCAL_CELL_END 26 0.008s\nLOCAL_CELL_START 27\n{\n  \"experiment\": \"V1.1 metric-safe tail\",\n  \"rdkit\": \"2026.03.3\",\n  \"hidden_rerun\": false,\n  \"active_molecules\": 12,\n  \"output_rows\": 400,\n  \"changed_molecules\": 1,\n  \"invalid_removed\": 0,\n  \"equivalent_duplicates_removed\": 0,\n  \"existing_candidates_promoted\": 0,\n  \"ranked_candidates_added\": 2,\n  \"dreams_candidates_added\": 0,\n  \"monotone_rank_assertions_passed\": true,\n  \"metric_source_sha256\": \"c61d163f1bb768313fd0863822952f035f343924f37e3f5e4b5883ccef7e6201\",\n  \"baseline_sha256\": \"66565f7e041e063672ebdf5cbac4d7e836d404cddff17bf9074564f355d2bb64\",\n  \"submission_sha256\": \"3e2191eabad2dc1cd804dc640be3f983f6ff46f7b4b7d3d0ce08a9a3f548870b\",\n  \"runtime_seconds\": 832.1,\n  \"validation_note\": \"Visible test is a smoke check only and overlaps training; no generalization score claimed.\"\n}\nTraceback (most recent call last):\n  File \"/mnt/d/Paper/casmi/third_party/canqiang_e006/run_local_linux.py\", line 331, in main\n    exec(compile(text, str(prepared_dir / f\"cell_{index:02d}.py\"), \"exec\"), namespace)\n  File \"/mnt/d/Paper/casmi/runs/canqiang_smoke_20261104a/adapted_cells/cell_27.py\", line 94, in <module>\n    display(_audit_df)\n    ^^^^^^^\nNameError: name 'display' is not defined"
+    },
+    {
+      "scheme": "flexonafft",
+      "work_root": "/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104a",
+      "command": [
+        "/mnt/d/Paper/casmi/.venv-linux/bin/python",
+        "/mnt/d/Paper/casmi/third_party/flexonafft_evidence_gap/run_local.py",
+        "--input-root",
+        "/mnt/d/Paper/casmi/assets/kaggle",
+        "--work-root",
+        "/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104a",
+        "--shared-spec-cache",
+        "/mnt/d/Paper/casmi/runs/shared_spec_cache"
+      ],
+      "status": "failed",
+      "log": "/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104a/console.log",
+      "pid": 3055,
+      "exit_code": 1,
+      "elapsed_seconds": 29.47,
+      "log_tail": "Prepared source: /mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104a/adapted_v56.ipynb\nLOCAL NOTEBOOK CELL 1 START\nLOCAL NOTEBOOK CELL 2 START\n<IPython.core.display.HTML object>\nLOCAL NOTEBOOK CELL 4 START\nLOCAL NOTEBOOK CELL 5 START\n974 public notebooks, 678 with a score, 279 of those below 0.4 not drawn\nLOCAL NOTEBOOK CELL 8 START\nLOCAL NOTEBOOK CELL 9 START\nLOCAL NOTEBOOK CELL 10 START\nFragment source: eeacdcf0afb1\nLOCAL NOTEBOOK CELL 11 START\nTraceback (most recent call last):\n  File \"/mnt/d/Paper/casmi/third_party/flexonafft_evidence_gap/run_local.py\", line 273, in <module>\n    main()\n  File \"/mnt/d/Paper/casmi/third_party/flexonafft_evidence_gap/run_local.py\", line 255, in main\n    exec(compile(get_source(cell), f'{run_source}:cell{index}', 'exec'), scope)\n  File \"/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104a/adapted_v56.ipynb:cell11\", line 1, in <module>\n  File \"/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104a/adapted_v56.ipynb:cell9\", line 78, in materialise_sources\n  File \"/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104a/p2s_code/bundle.py\", line 16, in find_bundle\n    assert len(archives)==1, 'Attach the supplied casmi_spectrum_model_v1.zip as a Kaggle dataset (zipped or extracted)'\n           ^^^^^^^^^^^^^^^^\nAssertionError: Attach the supplied casmi_spectrum_model_v1.zip as a Kaggle dataset (zipped or extracted)"
+    }
+  ]
+}

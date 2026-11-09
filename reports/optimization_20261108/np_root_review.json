@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "changed_original_cells": [
+    4,
+    20
+  ],
+  "np_only_config_difference": true,
+  "original_final_mass_and_physical_unchanged": true,
+  "source_sha256": "ad43e44f60b933b3ec5fa85cb349346da198e96c94c4113b0023594bee076bc7",
+  "fixture_review": "reports/mass_np_ablation_fixture_20261108/verification.json"
+}

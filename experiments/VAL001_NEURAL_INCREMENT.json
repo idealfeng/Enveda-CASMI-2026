@@ -1,0 +1,64 @@
+{
+  "experiment_id": "VAL001_NEURAL_INCREMENT",
+  "prepared_local_date": "2026-11-05",
+  "status": "complete_local_diagnostic",
+  "runs": {
+    "flex": "runs/validation_flex_c2_20261105d",
+    "flex_preserved_ice_budget_failure": "runs/validation_flex_c2_20261105b",
+    "flex_preserved_session_interruption": "runs/validation_flex_c2_20261105c",
+    "v43_preserved_oom_failure": "runs/validation_v43_c2_20261105b",
+    "v43": "runs/validation_v43_c2_20261105c"
+  },
+  "objective": "Measure the ranking increment from Saner with the candidate identities and query cohort held fixed.",
+  "evaluation_scope": "reference-isolated diagnostic with known pretrained exposure; not clean model-generalization validation",
+  "query_manifest": "runs/validation_pilot_v2_20261104/manifest.json",
+  "reference_policy": "global leave-cohort-identity-out: all active query identities and exact query duplicates removed from reference and analog paths; structural candidate truth retained",
+  "active_cohort": {"same_instrument_np": 24, "cross_library_development": 24},
+  "locked_final_cohort": {"molecules": 250, "evaluate": false},
+  "primary_pipeline": "Flex V56",
+  "control_pipeline": "prvsiyan V43; observed comparator, not a single-factor architectural ablation",
+  "fixed_candidate_comparisons": [
+    {"control": "Flex V0", "variant": "Flex V1", "neural_rrf_top_weight": 0.25, "neural_rrf_tail_weight": 0.25},
+    {"control": "Flex V0", "variant": "Flex CUSTOM", "neural_rrf_top_weight": 0.25, "neural_rrf_tail_weight": 0.75}
+  ],
+  "not_part_of_neural_ablation": ["physical overlay", "final-layer priors", "outsider rescue", "Roman second neural model", "fivefold ensemble"],
+  "identity_metric": "validation.metric, checked against official CASMI metric V14 using RDKit2026.03.3",
+  "metrics": ["MRR@25", "top1", "top5", "top25", "observed candidate-stage recall", "same-formula ranking diagnostics"],
+  "comparison": {"bootstrap_unit": "molecule", "resamples": 2000, "seed": 20261104, "panels_reported_separately": true},
+  "acceptance": [
+    "Every active molecule predicted; no placeholder fill counted as inference.",
+    "Every reference index/representative excludes the frozen cohort mask; candidates are not filtered by target labels.",
+    "Forward scorers complete covered queries without swallowed failures or budget truncation.",
+    "Metric-identity candidate sets exactly equal for V0/V1/CUSTOM; otherwise reject a ranking-only interpretation.",
+    "Do not adopt a configuration or infer hidden-test performance from this exposed 48-molecule diagnostic alone."
+  ],
+  "known_exposure": [
+    "FPNet full1 was declared trained on all competition training folds including NP examples.",
+    "Saner final_model was refit on full data including former validation identities.",
+    "Other public checkpoints/ranker rows have component-specific unknown or insufficiently audited membership."
+  ],
+  "component_experiment": "COMP001_FOLD0_SANER_FIXED_CANDIDATES: complete on 32 audited development identities; see its separate record, not a substitute for whole-stack ablation.",
+  "flex_result": {
+    "report": "reports/validation_flex_c2_20261105d/evaluation_report.json",
+    "execution_audit": "reports/validation_flex_c2_20261105d/execution_audit.json",
+    "status": "complete_diagnostic_known_pretrained_exposure",
+    "baseline_V0_mrr_at_25": 0.8504464285714285,
+    "light_Saner_V1_mrr_at_25": 0.8572916666666667,
+    "CUSTOM_mrr_at_25": 0.84510582010582,
+    "full_final_mrr_at_25": 0.8389136904761904,
+    "V1_delta_paired_95pct": [-0.00019841269841269828, 0.017361111111111115],
+    "fixed_candidate_identity_sets_equal": true,
+    "adoption": "Retain variants for further verification. Do not replace the main pipeline or extrapolate hidden performance from this exposed pilot."
+  },
+  "v43_result": {
+    "report": "reports/validation_v43_c2_20261105c/evaluation_report.json",
+    "execution_audit": "reports/validation_v43_c2_20261105c/execution_audit.json",
+    "mrr_at_25": 0.8206699346405228,
+    "top1_hits": 36,
+    "top25_hits": 46,
+    "comparison_report": "reports/VALIDATION_COMPARISON_2026-11-05.md",
+    "interpretation": "Architecture comparator with known pretrained exposure, not a single-factor ablation or a hidden-test score."
+  },
+  "first_attempt_failure": "Flex 48-query run reached ICE budget 636.12s with 32/46 covered molecules scored. Final health check rejected the run. Preserve failed artifacts and recover only verified stages.",
+  "next_clean_experiment": "Use the completed component audit as a limited development result; any broader clean validation requires component-specific retraining or proven untouched identities. Do not label the whole existing pipeline clean."
+}

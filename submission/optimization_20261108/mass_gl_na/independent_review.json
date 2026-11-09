@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "notebook_sha256": "6e86ab7b93fdfa537c2cd0624e664691ccf6096b7696c4f84e2f8c2703f49605",
+  "checks": {
+    "only_adapter_and_observer_original_cells_changed": true,
+    "all_code_compiles": true,
+    "frozen_source_bytes_preserved": true,
+    "runtime_payloads_match_observer_pins": true,
+    "actual_merge_candidate_weighted": true,
+    "actual_merge_preserves_no_na_values": true,
+    "actual_merge_adds_na_only_query": true,
+    "actual_merge_rejects_negative_count": true,
+    "actual_merge_rejects_finite_with_zero_count": true,
+    "actual_merge_rejects_float_count": true,
+    "actual_fast_observer_passes": true,
+    "actual_hidden_observer_passes": true,
+    "observer_rejects_empty_runtime_checks": true,
+    "observer_rejects_failed_runtime": true,
+    "observer_rejects_failed_named_check": true,
+    "observer_rejects_wrong_query_count": true,
+    "observer_rejects_changed_consumed_gl_score": true,
+    "observer_rejects_no_consumed_scores": true,
+    "reviewed_notebook_unchanged": true
+  },
+  "model_inference": false,
+  "training": false,
+  "cloud_write": false,
+  "fixtures_only": true,
+  "source_scope": "actual staged observer and embedded counted-merge helper",
+  "fast_checks": {
+    "original_mass_observer": true,
+    "explicit_runtime_adapter": true,
+    "original_frozen_source_pin": true,
+    "original_physical_source_pin": true,
+    "fast_static_explicit": true
+  },
+  "hidden_checks": {
+    "original_mass_observer": true,
+    "explicit_runtime_adapter": true,
+    "original_frozen_source_pin": true,
+    "original_physical_source_pin": true,
+    "new_component_executed": true,
+    "dynamic_full_scope": true,
+    "explicit_execution_receipt": true,
+    "combined_query_count": true,
+    "expanded_export_values": true,
+    "expanded_scores_exported": true
+  }
+}

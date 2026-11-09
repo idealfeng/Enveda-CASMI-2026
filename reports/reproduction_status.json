@@ -1,0 +1,89 @@
+{
+  "tag": "20261104b",
+  "runs": [
+    {
+      "scheme": "prvsiyan",
+      "version": "V43",
+      "status": "complete",
+      "work_root": "runs\\prvsiyan_smoke_20261104b",
+      "receipt": "local_run_receipt.json",
+      "elapsed_seconds": 575.604,
+      "engine2_reused": true,
+      "processed_molecules": 12,
+      "output_sha256": "59de48188d2c624b9cf27384b06837d3f27d02c6fe24ce0875661dbf82d31f49",
+      "comparison_hash_matches_output": true,
+      "matching_molecules": {
+        "top1_exact": 12,
+        "candidate_set_exact": 9,
+        "ranking_exact": 3,
+        "top1_identity": 12,
+        "candidate_set_identity": 9,
+        "ranking_identity": 3
+      },
+      "latest_cell": {
+        "cell": 34,
+        "status": "complete",
+        "elapsed_seconds": 0.017
+      },
+      "prior_engine2_seconds": 525.789
+    },
+    {
+      "scheme": "canqiang",
+      "version": "E006 V1",
+      "status": "complete",
+      "work_root": "runs\\canqiang_smoke_20261104b",
+      "receipt": "local_run_receipt.json",
+      "elapsed_seconds": 532.866,
+      "engine2_reused": true,
+      "processed_molecules": 12,
+      "output_sha256": "3e2191eabad2dc1cd804dc640be3f983f6ff46f7b4b7d3d0ce08a9a3f548870b",
+      "comparison_hash_matches_output": true,
+      "matching_molecules": {
+        "top1_exact": 12,
+        "candidate_set_exact": 12,
+        "ranking_exact": 2,
+        "top1_identity": 12,
+        "candidate_set_identity": 12,
+        "ranking_identity": 2
+      },
+      "latest_cell": {
+        "cell": 31,
+        "status": "complete",
+        "elapsed_seconds": 8.81
+      },
+      "prior_engine2_seconds": 418.919
+    },
+    {
+      "scheme": "flexonafft",
+      "version": "V56",
+      "status": "complete",
+      "work_root": "runs\\flexonafft_smoke_20261104b",
+      "receipt": "local_reproduction_status.json",
+      "elapsed_seconds": 1597.724,
+      "engine2_reused": false,
+      "processed_molecules": 12,
+      "output_sha256": "50f38416a9e52fcd94812156216807c2cab1dc780c67bdb053069e780dca2e7b",
+      "comparison_hash_matches_output": true,
+      "matching_molecules": {
+        "top1_exact": 12,
+        "candidate_set_exact": 10,
+        "ranking_exact": 4,
+        "top1_identity": 12,
+        "candidate_set_identity": 10,
+        "ranking_identity": 4
+      },
+      "last_completed_cell": 19,
+      "execution_audit": {
+        "status": "passed_with_allowed_skips",
+        "failed_checks": [],
+        "required_unknown_checks": [],
+        "allowed_skips": [
+          "provenance_overlay"
+        ]
+      }
+    }
+  ],
+  "hidden_score_reproduced": false,
+  "scope": "Original 12-molecule visible-placeholder smoke; remaining rows can be padding.",
+  "timing": "Runner elapsed time; Engine2 recovery reuse is explicitly recorded. Not full-test timing."
+}

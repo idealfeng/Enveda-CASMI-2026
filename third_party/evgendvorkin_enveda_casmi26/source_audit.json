@@ -1,0 +1,468 @@
+{
+  "ref": "evgendvorkin/enveda-casmi-2026",
+  "version": 27,
+  "source_sha256": "10c2c7e3e6bb33c34bafbe3ffd9d85cb4b1aa56f323ebba48b3674b3d69f9bca",
+  "code_cells": 24,
+  "total_cells": 49,
+  "cells": [
+    {
+      "index": 0,
+      "kind": "markdown",
+      "bytes": 17789,
+      "file": "cells\\cell_00.md",
+      "sha256": "46e7c39df90ad777a1e2ee7411dc290cc4259f0d9c31f870aec5bfb500ffc62c"
+    },
+    {
+      "index": 1,
+      "kind": "markdown",
+      "bytes": 639,
+      "file": "cells\\cell_01.md",
+      "sha256": "9ee9c7f9267a6543984c39b8bb7afb8574793f67467c85e3d75d133cdde19007"
+    },
+    {
+      "index": 2,
+      "kind": "code",
+      "bytes": 1064,
+      "file": "cells\\cell_02.py",
+      "sha256": "b27b9705fb6d6cc138610be11b09bc0555caee7f8fe5bbe8a1474a6c1110097f",
+      "syntax_valid": true
+    },
+    {
+      "index": 3,
+      "kind": "markdown",
+      "bytes": 738,
+      "file": "cells\\cell_03.md",
+      "sha256": "0687bfe8a218c7e288248f0d6552331c129b03160d15390ed9f8c8ed382234aa"
+    },
+    {
+      "index": 4,
+      "kind": "code",
+      "bytes": 1391,
+      "file": "cells\\cell_04.py",
+      "sha256": "cd78e31c72f54ff73ced6da8329201b7b33221995ad2238b3442600fd8b6e4b9",
+      "syntax_valid": true
+    },
+    {
+      "index": 5,
+      "kind": "markdown",
+      "bytes": 625,
+      "file": "cells\\cell_05.md",
+      "sha256": "c408386662d2066364ea156eadfc7118a9e931e5f5d7a2feb02d8c1874b7ec0c"
+    },
+    {
+      "index": 6,
+      "kind": "code",
+      "bytes": 845,
+      "file": "cells\\cell_06.py",
+      "sha256": "c663ead944d0309e5d1c5e2fc8c028bec99234b5f95c15b42ff152a02ed5fc8f",
+      "syntax_valid": true
+    },
+    {
+      "index": 7,
+      "kind": "markdown",
+      "bytes": 695,
+      "file": "cells\\cell_07.md",
+      "sha256": "5e3726e3812404d3120d87800d6ed840410ec8ac3e63c702b88eed71be9ed97b"
+    },
+    {
+      "index": 8,
+      "kind": "code",
+      "bytes": 817,
+      "file": "cells\\cell_08.py",
+      "sha256": "378c434284e773b295a41c993392605460b0765bbfe8fbfc7a383e354e99cf4e",
+      "syntax_valid": true
+    },
+    {
+      "index": 9,
+      "kind": "markdown",
+      "bytes": 918,
+      "file": "cells\\cell_09.md",
+      "sha256": "46309e55cc481059c581723bba853b5c6f0af38163a6c3eb2b3081285a0b1fae"
+    },
+    {
+      "index": 10,
+      "kind": "code",
+      "bytes": 7953,
+      "file": "cells\\cell_10.py",
+      "sha256": "7699e124bd44b4988b8303b72ee5441b2873080330282fa2cc8a3b2452763125",
+      "syntax_valid": true
+    },
+    {
+      "index": 11,
+      "kind": "markdown",
+      "bytes": 760,
+      "file": "cells\\cell_11.md",
+      "sha256": "15cdcfdfe3018d4b1e372af259b21dcd17ad39e40e0771255e84d6c0976b6a91"
+    },
+    {
+      "index": 12,
+      "kind": "code",
+      "bytes": 2479,
+      "file": "cells\\cell_12.py",
+      "sha256": "3f729aaca5d826f58945b24287aab6d8ad6d17c3cd0020de914cdb003a116944",
+      "syntax_valid": true
+    },
+    {
+      "index": 13,
+      "kind": "markdown",
+      "bytes": 625,
+      "file": "cells\\cell_13.md",
+      "sha256": "ae5e2ad9874d94ec2711ba17aef06bd5325ede354b40051eccc06ea4176cf0a8"
+    },
+    {
+      "index": 14,
+      "kind": "code",
+      "bytes": 1380,
+      "file": "cells\\cell_14.py",
+      "sha256": "4ee132701e4ae940f5ebad56af41ab4fce6a6a94d9483e1cf8ce6266f73aad67",
+      "syntax_valid": true
+    },
+    {
+      "index": 15,
+      "kind": "markdown",
+      "bytes": 703,
+      "file": "cells\\cell_15.md",
+      "sha256": "ae6b1a0793815896d0cf6438e13faef352a9e425da3c0be4891b0aafc7d68a6b"
+    },
+    {
+      "index": 16,
+      "kind": "code",
+      "bytes": 1049,
+      "file": "cells\\cell_16.py",
+      "sha256": "d330c75cd6981dd26d104cf2b6b99c68caab8286a19bd49e057d3e7113a85499",
+      "syntax_valid": true
+    },
+    {
+      "index": 17,
+      "kind": "markdown",
+      "bytes": 828,
+      "file": "cells\\cell_17.md",
+      "sha256": "3141459588ece71b7d1490846c22eda89bba1d647eb29a804cb310a2b3841086"
+    },
+    {
+      "index": 18,
+      "kind": "code",
+      "bytes": 52338,
+      "file": "cells\\cell_18.py",
+      "sha256": "1defa9d8b8b57cf8d994d12ddf75d87a47877427aeac6da511e489dcf75a70d6",
+      "syntax_valid": true
+    },
+    {
+      "index": 19,
+      "kind": "markdown",
+      "bytes": 752,
+      "file": "cells\\cell_19.md",
+      "sha256": "63280c387e1c6a4bc9bd1519b809b1830e7a92cc629ac2f4885e9ad6105c4143"
+    },
+    {
+      "index": 20,
+      "kind": "code",
+      "bytes": 25133,
+      "file": "cells\\cell_20.py",
+      "sha256": "05bf1e5038d663463a2b2dc426f9f8a87bc7dfa7cdd4e01ee41c519308802ac8",
+      "syntax_valid": true
+    },
+    {
+      "index": 21,
+      "kind": "markdown",
+      "bytes": 776,
+      "file": "cells\\cell_21.md",
+      "sha256": "341d7e47dd35c481bb99d14f44e45e34c209bfe015fb846a17091d79e89fcbba"
+    },
+    {
+      "index": 22,
+      "kind": "code",
+      "bytes": 12639,
+      "file": "cells\\cell_22.py",
+      "sha256": "5ef5602ccaa8546e5eb4897f1f24da14dd147e0e512b174a89a74da8544b75b8",
+      "syntax_valid": true
+    },
+    {
+      "index": 23,
+      "kind": "markdown",
+      "bytes": 688,
+      "file": "cells\\cell_23.md",
+      "sha256": "ac37cb25d76a774d2d112521cd749b7f88fb6b3d7135cd3f438dbb0d895d4360"
+    },
+    {
+      "index": 24,
+      "kind": "code",
+      "bytes": 1997,
+      "file": "cells\\cell_24.py",
+      "sha256": "28f7a9dcbcd049952e9e0ee8c9d0d24d3527fb6597650006b2ffb0b89b59caea",
+      "syntax_valid": true
+    },
+    {
+      "index": 25,
+      "kind": "markdown",
+      "bytes": 665,
+      "file": "cells\\cell_25.md",
+      "sha256": "90ec68bc1d3b8fd746d9e11258bda0783fecab7191c64a5e15e6e5239838bfaa"
+    },
+    {
+      "index": 26,
+      "kind": "code",
+      "bytes": 3442,
+      "file": "cells\\cell_26.py",
+      "sha256": "7f9801ff15ec8420f1a9185359d014fff1c8887c58e1cffa9df51ea13fb245f8",
+      "syntax_valid": true
+    },
+    {
+      "index": 27,
+      "kind": "markdown",
+      "bytes": 887,
+      "file": "cells\\cell_27.md",
+      "sha256": "a3627e97f7ee6d6df6ad10e60945247c082501f1744a468c9321d3be70fb5f94"
+    },
+    {
+      "index": 28,
+      "kind": "code",
+      "bytes": 84335,
+      "file": "cells\\cell_28.py",
+      "sha256": "7d05369c8d49bb33652469af42df6d349500fa30d143a80d8928fff555644719",
+      "syntax_valid": true
+    },
+    {
+      "index": 29,
+      "kind": "markdown",
+      "bytes": 842,
+      "file": "cells\\cell_29.md",
+      "sha256": "fa0a1eccfc2cc4d160242e49d4482c836260a29ef814f3a9e58a71d83bb2a288"
+    },
+    {
+      "index": 30,
+      "kind": "code",
+      "bytes": 5185,
+      "file": "cells\\cell_30.py",
+      "sha256": "c0016baeb084e8ba93e9652714335d81a75f876480a60117bff5c2547771ea72",
+      "syntax_valid": true
+    },
+    {
+      "index": 31,
+      "kind": "markdown",
+      "bytes": 533,
+      "file": "cells\\cell_31.md",
+      "sha256": "0f9f2708e6beeadfe63380e1e475d2d2610908a2d2925972a64de7c34bd19e36"
+    },
+    {
+      "index": 32,
+      "kind": "code",
+      "bytes": 2980,
+      "file": "cells\\cell_32.py",
+      "sha256": "7032b2c0ac57880a7ac918552b6f399cdc5754b6b65ecc4aebe7cd90973d8c2a",
+      "syntax_valid": true
+    },
+    {
+      "index": 33,
+      "kind": "markdown",
+      "bytes": 584,
+      "file": "cells\\cell_33.md",
+      "sha256": "6ec116b74cc348b0074f4ae2a51136846a2898b6aadc462660c59cacc416bf59"
+    },
+    {
+      "index": 34,
+      "kind": "code",
+      "bytes": 4074,
+      "file": "cells\\cell_34.py",
+      "sha256": "bc79ab9792521ec374367fdb0529cb975696514dabbee3bc9d02a5e9ad693223",
+      "syntax_valid": true
+    },
+    {
+      "index": 35,
+      "kind": "markdown",
+      "bytes": 719,
+      "file": "cells\\cell_35.md",
+      "sha256": "0b3a048eacaa3cfbb3e5c71a6c5fdb8e1dae186d4f817ed96f57752ca3a7f308"
+    },
+    {
+      "index": 36,
+      "kind": "code",
+      "bytes": 5577,
+      "file": "cells\\cell_36.py",
+      "sha256": "e6ae0bfee8c3193a0c75e6ef93a6645d7a9bff3b31629db2ad0041719b561d44",
+      "syntax_valid": true
+    },
+    {
+      "index": 37,
+      "kind": "markdown",
+      "bytes": 646,
+      "file": "cells\\cell_37.md",
+      "sha256": "6fb524efbeaf1926a3c553023f5d15456119691a7b9507a71cb6310f4bef472c"
+    },
+    {
+      "index": 38,
+      "kind": "code",
+      "bytes": 3496,
+      "file": "cells\\cell_38.py",
+      "sha256": "ce316e129686ceb95737fcf7504c3487f0f8223848efc31bd04f67c379f9bbba",
+      "syntax_valid": true
+    },
+    {
+      "index": 39,
+      "kind": "markdown",
+      "bytes": 654,
+      "file": "cells\\cell_39.md",
+      "sha256": "eece3c704ad838bb903bee81faa612e6ba0409fdda57a3bd66b6f649a91e344d"
+    },
+    {
+      "index": 40,
+      "kind": "code",
+      "bytes": 4106,
+      "file": "cells\\cell_40.py",
+      "sha256": "9e509b22dcc8432d5e3e2a9148289f4f4153ed6ce2c055bf6ad7bf40a3fd119a",
+      "syntax_valid": true
+    },
+    {
+      "index": 41,
+      "kind": "markdown",
+      "bytes": 757,
+      "file": "cells\\cell_41.md",
+      "sha256": "dcc3e80c5ef688ccf2ea95f00c3aeaadaa6934d4432aee87449e0a2da27b784b"
+    },
+    {
+      "index": 42,
+      "kind": "code",
+      "bytes": 15257,
+      "file": "cells\\cell_42.py",
+      "sha256": "8c82c6d9aac6d86fcffb551b915912c8bb3afb217daf2e836cbeb12eb00dced2",
+      "syntax_valid": true
+    },
+    {
+      "index": 43,
+      "kind": "markdown",
+      "bytes": 874,
+      "file": "cells\\cell_43.md",
+      "sha256": "341eaa7d37f710a7713fb727d7416d7dbdad815376de3723efcfbc821e59a0f6"
+    },
+    {
+      "index": 44,
+      "kind": "code",
+      "bytes": 11436,
+      "file": "cells\\cell_44.py",
+      "sha256": "1982eb13d835fca5240261631ee4231a15d58f3cf054ff092b5bfac4b4fe95f9",
+      "syntax_valid": true
+    },
+    {
+      "index": 45,
+      "kind": "markdown",
+      "bytes": 685,
+      "file": "cells\\cell_45.md",
+      "sha256": "ed3c742fcc6316aa19a83af749f1e6bc155e5ee6850ab4f46e343e93aaac8e0a"
+    },
+    {
+      "index": 46,
+      "kind": "code",
+      "bytes": 2666,
+      "file": "cells\\cell_46.py",
+      "sha256": "914763689ec15fa4255f430f49b0e48de5b25c6fb49e78b6d349de417867ff28",
+      "syntax_valid": true
+    },
+    {
+      "index": 47,
+      "kind": "markdown",
+      "bytes": 695,
+      "file": "cells\\cell_47.md",
+      "sha256": "ecb520f5a002ce7fd628770226696821f00b84c649d10e71452ae8a0eb7d257c"
+    },
+    {
+      "index": 48,
+      "kind": "code",
+      "bytes": 6429,
+      "file": "cells\\cell_48.py",
+      "sha256": "341eae497785683924156c2e3d10c70d228ea803375ebd908c9ae695999d89d4",
+      "syntax_valid": true
+    }
+  ],
+  "literal_source_payloads": [
+    {
+      "cell": 18,
+      "assignment": "ENG_FILES",
+      "file": "embedded\\pv.py",
+      "sha256": "bb25a009990d02c48744ffa6bab45e30b83dd05b2224e34cf1eda7bad552b612",
+      "syntax_valid": true
+    },
+    {
+      "cell": 18,
+      "assignment": "ENG_FILES",
+      "file": "embedded\\pv_fp.py",
+      "sha256": "6cd203636523ff9e088dae47e9c2e5ea815a70e6421f8bcfb82d33b18a9cd9aa",
+      "syntax_valid": true
+    },
+    {
+      "cell": 18,
+      "assignment": "ENG_FILES",
+      "file": "embedded\\casmi_engine.py",
+      "sha256": "5217ea71746e54fad62980f7f96bc5fd733632128094017660777abcae055b98",
+      "syntax_valid": true
+    },
+    {
+      "cell": 20,
+      "assignment": "V17_PATCH",
+      "file": "embedded\\V17_PATCH.py",
+      "sha256": "d49e63e8c9d48eaa218d7f6acf79a06ba8f1a5b81e19fee23a72aaf40f83cd7e",
+      "syntax_valid": true
+    },
+    {
+      "cell": 20,
+      "assignment": "CORE",
+      "file": "embedded\\CORE.py",
+      "sha256": "8a6612351b8a00a645414d9a98acd4095bc2ff728fbd370b8308f6a7365d0d74",
+      "syntax_valid": true
+    },
+    {
+      "cell": 20,
+      "assignment": "RUNNER",
+      "file": "embedded\\RUNNER.py",
+      "sha256": "f11fa1c0bb4641b716bd60d4135cb18f734bbe925bbb8d3382b8538b2f848821",
+      "syntax_valid": true
+    }
+  ],
+  "fold_asset_check": [
+    {
+      "name": "fpnet_fold0.pt",
+      "upstream_required_sha256": "ddf6eaaa8e541a16e3f0357ed30f0346e529054f75d5619aedb6024dcb1bd7f0",
+      "locally_present": true,
+      "local_sha256": "ddf6eaaa8e541a16e3f0357ed30f0346e529054f75d5619aedb6024dcb1bd7f0",
+      "local_hash_matches": true
+    },
+    {
+      "name": "fpnet_fold1.pt",
+      "upstream_required_sha256": "1739d5683fa94fd73fe3b37db98ac364cb5dfdc22ad5bea9789be9c48d7cadc4",
+      "locally_present": false,
+      "local_sha256": null,
+      "local_hash_matches": null
+    },
+    {
+      "name": "fpnet_fold2.pt",
+      "upstream_required_sha256": "257062cb6ece333226027de6e313792e7b364517adf42a05e0df950b8e27bbe2",
+      "locally_present": false,
+      "local_sha256": null,
+      "local_hash_matches": null
+    },
+    {
+      "name": "fpnet_fold3.pt",
+      "upstream_required_sha256": "ac61125ef34415d857d58a115e017e0af2aede044e3a5d524029dd1364cbd58c",
+      "locally_present": false,
+      "local_sha256": null,
+      "local_hash_matches": null
+    },
+    {
+      "name": "fpnet_fold4.pt",
+      "upstream_required_sha256": "ad0b2a43343287f7deb4334c4ad766e8aa236d7f0bbeb91e3702910ee49aabe7",
+      "locally_present": false,
+      "local_sha256": null,
+      "local_hash_matches": null
+    }
+  ],
+  "dataset_sources": [
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets"
+  ],
+  "kernel_sources": [],
+  "executed": false,
+  "model_weights_downloaded": false,
+  "score_evidence": "No current V27 leaderboard score established by source download or comments."
+}

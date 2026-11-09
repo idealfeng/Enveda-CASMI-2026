@@ -1,0 +1,16 @@
+from_stage,to_stage,panel,scope,paired_observed_molecules,unknown_molecules,truth_lost,truth_lost_ids,truth_gained,truth_gained_ids,equal_identity_sets_molecules
+e2_mass_window,e2_ranked_all,all,Observed materialized candidate lists only; different branches may add candidates. Not a complete global source-recall decomposition.,48,0,0,[],0,[],48
+e2_mass_window,e2_ranked_all,cross,Observed materialized candidate lists only; different branches may add candidates. Not a complete global source-recall decomposition.,24,0,0,[],0,[],24
+e2_mass_window,e2_ranked_all,np,Observed materialized candidate lists only; different branches may add candidates. Not a complete global source-recall decomposition.,24,0,0,[],0,[],24
+e2_ranked_all,e2_top40,all,Observed materialized candidate lists only; different branches may add candidates. Not a complete global source-recall decomposition.,48,0,1,['cross_NOFOAYPPHIUXJR'],0,[],17
+e2_ranked_all,e2_top40,cross,Observed materialized candidate lists only; different branches may add candidates. Not a complete global source-recall decomposition.,24,0,1,['cross_NOFOAYPPHIUXJR'],0,[],10
+e2_ranked_all,e2_top40,np,Observed materialized candidate lists only; different branches may add candidates. Not a complete global source-recall decomposition.,24,0,0,[],0,[],7
+e1_ranked_all,e1_base_top,all,Observed materialized candidate lists only; different branches may add candidates. Not a complete global source-recall decomposition.,48,0,0,[],0,[],10
+e1_ranked_all,e1_base_top,cross,Observed materialized candidate lists only; different branches may add candidates. Not a complete global source-recall decomposition.,24,0,0,[],0,[],6
+e1_ranked_all,e1_base_top,np,Observed materialized candidate lists only; different branches may add candidates. Not a complete global source-recall decomposition.,24,0,0,[],0,[],4
+prefusion_lists,frozen_final25,all,Observed materialized candidate lists only; different branches may add candidates. Not a complete global source-recall decomposition.,48,0,0,[],0,[],1
+prefusion_lists,frozen_final25,cross,Observed materialized candidate lists only; different branches may add candidates. Not a complete global source-recall decomposition.,24,0,0,[],0,[],0
+prefusion_lists,frozen_final25,np,Observed materialized candidate lists only; different branches may add candidates. Not a complete global source-recall decomposition.,24,0,0,[],0,[],1
+frozen_final25,final_submission,all,Observed materialized candidate lists only; different branches may add candidates. Not a complete global source-recall decomposition.,48,0,0,[],0,[],48
+frozen_final25,final_submission,cross,Observed materialized candidate lists only; different branches may add candidates. Not a complete global source-recall decomposition.,24,0,0,[],0,[],24
+frozen_final25,final_submission,np,Observed materialized candidate lists only; different branches may add candidates. Not a complete global source-recall decomposition.,24,0,0,[],0,[],24

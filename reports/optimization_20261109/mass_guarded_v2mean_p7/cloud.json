@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-mass-guarded-v2mean-p7-1109",
+  "version": 1,
+  "branch_sha256": "dd7a1eef5a5d57f21a0fa5c0e914f7a8bcc6cf9730d3e28ef8c7781348580565",
+  "notebook_sha256": "aa29969bacf47b437a51bab68b1f146ae17bf62058931129d435f1e1fe27311b",
+  "metadata_sha256": "b8c7443e7083968995baa5dab1a4b6115dbbd8c4cf33188d0a8ce3a93282aac4",
+  "requested_at_utc": "2026-11-09T07:19:28.827241+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-09T07:19:32.702968+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

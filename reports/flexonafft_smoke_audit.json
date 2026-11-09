@@ -1,0 +1,392 @@
+{
+  "work_root": "/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104b",
+  "status": "passed_with_allowed_skips",
+  "checks": [
+    {
+      "name": "runner_complete",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "status": "complete",
+        "error": null,
+        "last_completed_cell": 19,
+        "elapsed_seconds": 1597.724,
+        "execution_mode": "upstream visible smoke"
+      }
+    },
+    {
+      "name": "frozen_pipeline_complete",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "source_sha256": "5668c631315270c758be12bf9910372ddccc9fcb6454d53633ac885eb718f809",
+        "mode": "submission",
+        "source_adaptations": [],
+        "candidate_promotion_fix": true,
+        "is_full_run": false,
+        "processed_molecules": 12
+      }
+    },
+    {
+      "name": "baseline_coverage",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "is_full_run": false,
+        "processed_molecules": 12,
+        "input_molecules": 400,
+        "placeholder_fill_rows": 388,
+        "base_errors": 0,
+        "base_nonempty": 12,
+        "engine2_nonempty": 12,
+        "pubchem_nonempty": 12
+      }
+    },
+    {
+      "name": "official_metric_rdkit",
+      "status": "pass",
+      "required": true,
+      "evidence": "2026.03.3"
+    },
+    {
+      "name": "baseline_final_receipt",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "main_errors": 0,
+        "processed_molecules": 12,
+        "placeholder_rows": 388
+      }
+    },
+    {
+      "name": "ice_model",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "status": "ok",
+        "device": "cuda",
+        "rdkit": "2025.03.6",
+        "n_mols": 12,
+        "n_mols_done": null,
+        "n_mols_covered": 11,
+        "n_mols_scored": 11,
+        "n_scored": 793,
+        "n_pred_fail": 0,
+        "n_feat_fail": null,
+        "n_bad_smiles": 0,
+        "errors": [],
+        "seconds": 109.17
+      }
+    },
+    {
+      "name": "gl_model",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "status": "ok",
+        "device": "cuda",
+        "rdkit": "2025.03.6",
+        "n_mols": 11,
+        "n_mols_done": null,
+        "n_mols_covered": 11,
+        "n_mols_scored": 11,
+        "n_scored": 793,
+        "n_pred_fail": 0,
+        "n_feat_fail": 0,
+        "n_bad_smiles": 0,
+        "errors": [],
+        "seconds": 82.02
+      }
+    },
+    {
+      "name": "n1_model",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "status": "ok",
+        "device": "cuda",
+        "rdkit": "2025.03.6",
+        "n_mols": 11,
+        "n_mols_done": 11,
+        "n_mols_covered": null,
+        "n_mols_scored": null,
+        "n_scored": null,
+        "n_pred_fail": 0,
+        "n_feat_fail": 0,
+        "n_bad_smiles": 0,
+        "errors": [],
+        "seconds": 82.87
+      }
+    },
+    {
+      "name": "neural_candidate_features.parquet",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "active_molecules": 12,
+        "candidate_rows": 300,
+        "all_active_neural_ok": true,
+        "errors": []
+      }
+    },
+    {
+      "name": "outsider_neural_features.parquet",
+      "status": "pass",
+      "required": false,
+      "evidence": {
+        "active_molecules": 12,
+        "candidate_rows": 240,
+        "all_active_neural_ok": true,
+        "errors": []
+      }
+    },
+    {
+      "name": "selected_consensus_available",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "variant": "CUSTOM",
+        "report": {
+          "V0": {
+            "w_top": 0.0,
+            "w_mid": 0.0,
+            "rescue": 0,
+            "label": "Baseline 0.465 - no neural term",
+            "offset": 3.0,
+            "file": "submission_V0.csv",
+            "sha256": "07866b95fa588f0bb8465428e9167cb080071b5b460d5e98b92313427b14ebdc",
+            "active_rows": 12,
+            "changed_rows": 0,
+            "changed_top1": 0,
+            "rescued": 0
+          },
+          "V1": {
+            "w_top": 0.25,
+            "w_mid": 0.25,
+            "rescue": 0,
+            "label": "Neural RRF 0.25 - public 0.466 recipe",
+            "offset": 3.0,
+            "file": "submission_V1.csv",
+            "sha256": "ff00d3f4a131af77626dfc59cf9f3e3e7f7568c119d1fdf556e7c6cc5879e180",
+            "active_rows": 12,
+            "changed_rows": 12,
+            "changed_top1": 1,
+            "rescued": 0
+          },
+          "V2": {
+            "w_top": 0.25,
+            "w_mid": 0.5,
+            "rescue": 0,
+            "label": "Leader-safe consensus 0.25 / 0.50",
+            "offset": 3.0,
+            "file": "submission_V2.csv",
+            "sha256": "264336ca012cf722b2128fb911402ff3bd489d523dba487a076e7f53ccc988eb",
+            "active_rows": 12,
+            "changed_rows": 12,
+            "changed_top1": 1,
+            "rescued": 0
+          },
+          "V3": {
+            "w_top": 0.25,
+            "w_mid": 0.5,
+            "rescue": 3,
+            "label": "Leader-safe consensus + 3-slot tail rescue",
+            "offset": 3.0,
+            "file": "submission_V3.csv",
+            "sha256": "2a2237fac97c1a74aeece65d74c2df1d0fdcfd87df63b6a8c5d805228d785f0b",
+            "active_rows": 12,
+            "changed_rows": 12,
+            "changed_top1": 1,
+            "rescued": 36
+          },
+          "V4": {
+            "w_top": 0.25,
+            "w_mid": 1.0,
+            "rescue": 0,
+            "label": "Bold consensus 0.25 / 1.00",
+            "offset": 3.0,
+            "file": "submission_V4.csv",
+            "sha256": "78769bbce2511ae9eda3c79308fdb31cf32d2fa935eb075fc62afcf2d4c730a3",
+            "active_rows": 12,
+            "changed_rows": 12,
+            "changed_top1": 1,
+            "rescued": 0
+          },
+          "CUSTOM": {
+            "w_top": 0.25,
+            "w_mid": 0.75,
+            "rescue": 0,
+            "label": "Custom weights",
+            "offset": 3.0,
+            "file": "submission_CUSTOM.csv",
+            "sha256": "872b071637d4ba8389f502b4eb81b4684928af5cc49c9dff7a55e6139721baf5",
+            "active_rows": 12,
+            "changed_rows": 12,
+            "changed_top1": 1,
+            "rescued": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "physical_overlay",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "control_sha256": "264336ca012cf722b2128fb911402ff3bd489d523dba487a076e7f53ccc988eb",
+        "submission_sha256": "3b621ee018781366c020a10ca2693085bfa0141ebe4b62df347b8ad3f1e84da6",
+        "rows": 400,
+        "changed_rows": 5,
+        "top1_changed": 0,
+        "tail_changed": 0,
+        "adjacent_swaps": 6,
+        "time_budget_exceeded": false,
+        "elapsed_seconds": 6.78,
+        "outcome": "experimental_unvalidated",
+        "baseline": "V2_0.468_user_reported"
+      }
+    },
+    {
+      "name": "provenance_overlay",
+      "status": "allowed_skip",
+      "required": false,
+      "evidence": {
+        "configured": false,
+        "report": null
+      }
+    },
+    {
+      "name": "merge_report.json",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "status": "applied",
+        "input_sha256": {
+          "physical_v2": "3b621ee018781366c020a10ca2693085bfa0141ebe4b62df347b8ad3f1e84da6",
+          "v2": "264336ca012cf722b2128fb911402ff3bd489d523dba487a076e7f53ccc988eb",
+          "custom": "872b071637d4ba8389f502b4eb81b4684928af5cc49c9dff7a55e6139721baf5"
+        },
+        "overlay": {
+          "control_sha256": "264336ca012cf722b2128fb911402ff3bd489d523dba487a076e7f53ccc988eb",
+          "submission_sha256": "3b621ee018781366c020a10ca2693085bfa0141ebe4b62df347b8ad3f1e84da6",
+          "changed_rows": 5,
+          "top1_changed": 0,
+          "tail_changed": 0,
+          "adjacent_swaps": 6
+        },
+        "rows": 400,
+        "merged": 400,
+        "leader_moves": 0,
+        "skipped": {},
+        "skipped_leader_moves": 0,
+        "moved_ids": [],
+        "output_sha256": "872b071637d4ba8389f502b4eb81b4684928af5cc49c9dff7a55e6139721baf5",
+        "output_equals_custom": true
+      }
+    },
+    {
+      "name": "final_layer_report.json",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "status": "applied",
+        "input_sha256": "872b071637d4ba8389f502b4eb81b4684928af5cc49c9dff7a55e6139721baf5",
+        "prior_file": "/mnt/d/Paper/casmi/runs/flexonafft_smoke_20261104b/input_view/datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pool_popularity.csv",
+        "rows": 400,
+        "reordered": 12,
+        "pinned": 0,
+        "dup_removed": 0,
+        "outsider_fills": 0,
+        "top1_changed": 0,
+        "changed_rows": 12,
+        "output_sha256": "50f38416a9e52fcd94812156216807c2cab1dc780c67bdb053069e780dca2e7b"
+      }
+    },
+    {
+      "name": "final_csv_format",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "rows": 400,
+        "sha256": "50f38416a9e52fcd94812156216807c2cab1dc780c67bdb053069e780dca2e7b"
+      }
+    },
+    {
+      "name": "final_layer_output_binding",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "recorded": "50f38416a9e52fcd94812156216807c2cab1dc780c67bdb053069e780dca2e7b",
+        "actual": "50f38416a9e52fcd94812156216807c2cab1dc780c67bdb053069e780dca2e7b"
+      }
+    },
+    {
+      "name": "external_reference_spectra",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "added_and_structures": [
+          [
+            "751",
+            "469"
+          ]
+        ],
+        "expected": [
+          751,
+          469
+        ],
+        "disabled_messages": []
+      }
+    },
+    {
+      "name": "n1_coverage_policy",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "complement": false,
+        "eligible_molecules": 0,
+        "proxy_covered_molecules": 0,
+        "proxy_covered_with_finite_ice": 0,
+        "real_h_molecules_skipped": 11,
+        "health": "N1 OK: 0 of 0 N1 molecules GL-scored (0 candidates), driver ok, clashes dropped 0"
+      }
+    }
+  ],
+  "failed_checks": [],
+  "required_unknown_checks": [],
+  "allowed_skips": [
+    "provenance_overlay"
+  ],
+  "config": {
+    "VARIANT": "CUSTOM",
+    "PHYSICAL": true,
+    "PROVENANCE": false,
+    "FRAG_ON_V2": true,
+    "FINAL_LAYER": true
+  },
+  "unreadable_files": {},
+  "diagnostic_log_excerpts": [
+    {
+      "file": "console.log",
+      "line": "      NEURAL input failures kept at baseline: 0"
+    },
+    {
+      "file": "console.log",
+      "line": "      NEURAL input failures kept at baseline: 0"
+    },
+    {
+      "file": "submission_neural.log",
+      "line": "NEURAL input failures kept at baseline: 0"
+    },
+    {
+      "file": "outsiders_neural.log",
+      "line": "NEURAL input failures kept at baseline: 0"
+    }
+  ],
+  "limitations": [
+    "Read-only execution audit; only the requested report is written.",
+    "Missing evidence remains unknown; optional-stage absence alone is not proof of a skip.",
+    "Allowed budget/optional skips can mean partial execution; inspect individual checks.",
+    "This is not upstream ranking parity, independent validation, or a hidden-test score."
+  ]
+}

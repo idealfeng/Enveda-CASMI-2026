@@ -1,0 +1,18 @@
+﻿[
+    {
+        "status_file":  "batch_dispatcher_status.json",
+        "actual_pid":  35228,
+        "process_exists":  true,
+        "expected_script":  "dispatch_fixed_batch_20261109.py",
+        "manifest_sha256":  "e0779b1bb105dfe76c65beafde67345d1c8157b549d22368d2c0c81ca6891517",
+        "script_command_matches":  true
+    },
+    {
+        "status_file":  "latest_status.json",
+        "actual_pid":  40236,
+        "process_exists":  true,
+        "expected_script":  "watch_batch_with_ledger_20261109.py",
+        "manifest_sha256":  "e0779b1bb105dfe76c65beafde67345d1c8157b549d22368d2c0c81ca6891517",
+        "script_command_matches":  true
+    }
+]

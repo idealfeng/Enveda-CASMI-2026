@@ -1,0 +1,28 @@
+{
+  "branch": "mass_gl_na",
+  "target": "stormseye/casmi26-mass-gl-na-1108",
+  "baseline_public_score": 0.481,
+  "baseline_notebook_sha256": "2bf3c51c8703956f80892d478b0de77747f90a8228bf275399d793666e5a1ea6",
+  "change": "Preserve H-only GL inputs/order; independently score real Na and merge by actual finite per-candidate spectrum counts",
+  "new_training": false,
+  "candidate_policy": "original ICE union lists unchanged",
+  "aggregation": "original H-only run/order; independent Na-only run; weighted by actual per-candidate finite counts",
+  "gl_budget_seconds": 4000,
+  "na_budget_seconds": 1800,
+  "na_accuracy_established": false,
+  "n1_policy": "real Na GL coverage wins proxy overlap, as original hidden clash removal; visible checks allow only Na clashes",
+  "adaptations": [
+    "Explicit source-pinned runtime cell41 adapter; frozen notebook bytes unchanged",
+    "Dynamic hidden query count audit instead of assuming exactly 400",
+    "Retain original MASS final leader rule, physical code and all priors"
+  ],
+  "runner_sha256": "c1353397691ac6ba00415f3058c617398aa5501696811dcb4191c02ceac084e7",
+  "hook_sha256": "23eb09d02f648dbb372ba5fb6e7e276dee3203b15f568d0df3cf0cbc9780a93f",
+  "extra_source_sha256": {
+    "gl_counted_runner.py": "31074184c2b0f30af461f812e4aeb75de957f13a90340b4336c425c840c28ac8",
+    "gl_score_observer.py": "1f51a106b532bec40b59ed01e83393bdc9660277d893d7f89660dae964d34fe4"
+  },
+  "frozen_sha256": "d1e757c2b71b46e6e8a5777f14302a4737d0fdbcd56d8365093c039b93c5fd88",
+  "adapted_cell41_sha256": "b3f0ed152dc9b1b30f37490bad077feaaf6866f765a7014f40c0e97ca6eac42c",
+  "locked_final_used": false
+}

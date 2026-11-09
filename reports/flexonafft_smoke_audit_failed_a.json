@@ -1,0 +1,148 @@
+{
+  "work_root": "D:\\Paper\\casmi\\runs\\flexonafft_smoke_20261104a",
+  "status": "failed",
+  "checks": [
+    {
+      "name": "runner_complete",
+      "status": "fail",
+      "required": true,
+      "evidence": {
+        "status": "failed",
+        "error": "AssertionError: Attach the supplied casmi_spectrum_model_v1.zip as a Kaggle dataset (zipped or extracted)",
+        "last_completed_cell": 10,
+        "elapsed_seconds": 28.363,
+        "execution_mode": "upstream visible smoke"
+      }
+    },
+    {
+      "name": "frozen_pipeline_complete",
+      "status": "unknown",
+      "required": true,
+      "evidence": null
+    },
+    {
+      "name": "baseline_coverage",
+      "status": "unknown",
+      "required": true,
+      "evidence": "e004_verification.json missing or unreadable"
+    },
+    {
+      "name": "baseline_final_receipt",
+      "status": "unknown",
+      "required": true,
+      "evidence": "v43_execution_receipt.json absent"
+    },
+    {
+      "name": "ice_model",
+      "status": "unknown",
+      "required": true,
+      "evidence": "ice_work/ice_out.json.meta.json missing or unreadable"
+    },
+    {
+      "name": "gl_model",
+      "status": "unknown",
+      "required": true,
+      "evidence": "gl_work/gl_out.json.meta.json missing or unreadable"
+    },
+    {
+      "name": "n1_model",
+      "status": "unknown",
+      "required": true,
+      "evidence": "n1_work/n1_out.json.meta.json missing or unreadable"
+    },
+    {
+      "name": "neural_candidate_features.parquet",
+      "status": "unknown",
+      "required": true,
+      "evidence": "Feature file absent; optional-stage skip cannot be inferred from absence."
+    },
+    {
+      "name": "outsider_neural_features.parquet",
+      "status": "unknown",
+      "required": false,
+      "evidence": "Feature file absent; optional-stage skip cannot be inferred from absence."
+    },
+    {
+      "name": "selected_consensus_available",
+      "status": "unknown",
+      "required": true,
+      "evidence": {
+        "variant": "CUSTOM",
+        "report": null
+      }
+    },
+    {
+      "name": "physical_overlay",
+      "status": "unknown",
+      "required": true,
+      "evidence": null
+    },
+    {
+      "name": "provenance_overlay",
+      "status": "allowed_skip",
+      "required": false,
+      "evidence": {
+        "configured": false,
+        "report": null
+      }
+    },
+    {
+      "name": "merge_report.json",
+      "status": "unknown",
+      "required": true,
+      "evidence": null
+    },
+    {
+      "name": "final_layer_report.json",
+      "status": "unknown",
+      "required": true,
+      "evidence": null
+    },
+    {
+      "name": "final_csv_format",
+      "status": "unknown",
+      "required": true,
+      "evidence": "submission.csv absent"
+    }
+  ],
+  "failed_checks": [
+    "runner_complete"
+  ],
+  "required_unknown_checks": [
+    "frozen_pipeline_complete",
+    "baseline_coverage",
+    "baseline_final_receipt",
+    "ice_model",
+    "gl_model",
+    "n1_model",
+    "neural_candidate_features.parquet",
+    "selected_consensus_available",
+    "physical_overlay",
+    "merge_report.json",
+    "final_layer_report.json",
+    "final_csv_format"
+  ],
+  "allowed_skips": [
+    "provenance_overlay"
+  ],
+  "config": {
+    "VARIANT": "CUSTOM",
+    "PHYSICAL": true,
+    "PROVENANCE": false,
+    "FRAG_ON_V2": true,
+    "FINAL_LAYER": true
+  },
+  "unreadable_files": {},
+  "diagnostic_log_excerpts": [
+    {
+      "file": "console.log",
+      "line": "Traceback (most recent call last):"
+    }
+  ],
+  "limitations": [
+    "Read-only execution audit; only the requested report is written.",
+    "Missing evidence remains unknown; optional-stage absence alone is not proof of a skip.",
+    "Allowed budget/optional skips can mean partial execution; inspect individual checks.",
+    "This is not upstream ranking parity, independent validation, or a hidden-test score."
+  ]
+}

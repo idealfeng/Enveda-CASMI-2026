@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-flex-tri-only-1107",
+  "version": 1,
+  "branch_sha256": "0f001077f011d748375d1dfe74330efcbb815215b50d9c85477d1c692054d993",
+  "submission_ref": 58063822,
+  "actual_target": "stormseye/casmi26-flex-tri-only-1107",
+  "status": "COMPLETE",
+  "public_score": "0.475",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-07T06:39:33.606619+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-public-mass-repro-1107",
+  "version": 1,
+  "branch_sha256": "8c12a6ab9f0e1b26e1dd8ade6cc16a81a5f6358bb407892a83c9f7be9c36d43c",
+  "notebook_sha256": "2bf3c51c8703956f80892d478b0de77747f90a8228bf275399d793666e5a1ea6",
+  "metadata_sha256": "fe7539e77b6bb559426a7bec9f084cd3e21729faff0dd1fe572a77d7dfbe0e0a",
+  "requested_at_utc": "2026-11-06T16:43:07.237522+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-06T16:43:11.117674+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

@@ -1,0 +1,91 @@
+name: kaggle-checkpoint
+
+# Every six hours: report the training kernel's status, and when it is complete, download its
+# checkpoints and publish any new one as a version of the Kaggle dataset
+# amhashiferaw/casmi26-fp-own, which the inference kernels attach. Checkpoint file names carry
+# the epoch, so a file already in the dataset is skipped and nothing is published twice.
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      kernel:
+        description: "Training kernel to check"
+        default: "amhashiferaw/casmi26-train-fp-v2"
+        required: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+      KERNEL: ${{ github.event.inputs.kernel || 'amhashiferaw/casmi26-train-fp-v2' }}
+      DATASET: amhashiferaw/casmi26-fp-own
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q kaggle
+      - name: Kernel status
+        id: status
+        run: |
+          # a kernel that has not been pushed yet (before its first scheduled run) is not an error
+          S=$(kaggle kernels status "$KERNEL" 2>&1 | tail -1 || true)
+          echo "$S" | tee -a "$GITHUB_STEP_SUMMARY"
+          case "$S" in
+            *COMPLETE*) echo "complete=true" >> "$GITHUB_OUTPUT" ;;
+            *) echo "complete=false" >> "$GITHUB_OUTPUT" ;;
+          esac
+          exit 0
+      - name: Download checkpoints
+        if: steps.status.outputs.complete == 'true'
+        run: |
+          mkdir -p out
+          # --file-pattern only returns the log, so fetch everything and keep the weights
+          kaggle kernels output "$KERNEL" -p out
+          find out -type f ! -name "fp_*.pt" -delete
+          ls -la out
+          if ! ls out/fp_*.pt >/dev/null 2>&1; then
+            echo "no checkpoints in the kernel output" | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+      - name: Publish new checkpoints as a dataset version
+        if: steps.status.outputs.complete == 'true'
+        run: |
+          cd out
+          write_meta() {
+            echo "{\"title\":\"casmi26-fp-own\",\"id\":\"$DATASET\",\"licenses\":[{\"name\":\"CC0-1.0\"}]}" > dataset-metadata.json
+          }
+          if kaggle datasets status "$DATASET" >/dev/null 2>&1; then
+            kaggle datasets files "$DATASET" > ../existing.txt 2>/dev/null || true
+            NEW=0
+            for f in fp_*.pt; do
+              [ -f "$f" ] || continue
+              if grep -q "^$f " ../existing.txt; then
+                echo "already published: $f"
+                rm "$f"
+              else
+                NEW=1
+              fi
+            done
+            if [ "$NEW" = "1" ]; then
+              write_meta
+              kaggle datasets version -p . -m "checkpoints from $KERNEL $(date -u +%Y-%m-%dT%H:%MZ)" --dir-mode skip
+              echo "published new checkpoints" | tee -a "$GITHUB_STEP_SUMMARY"
+            else
+              echo "no new checkpoints" | tee -a "$GITHUB_STEP_SUMMARY"
+            fi
+          else
+            write_meta
+            kaggle datasets create -p . --dir-mode skip
+            echo "created dataset with first checkpoints" | tee -a "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Keep checkpoints as a workflow artifact
+        if: steps.status.outputs.complete == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: checkpoints-${{ github.run_id }}
+          path: out/fp_*.pt
+          if-no-files-found: ignore
+          retention-days: 14

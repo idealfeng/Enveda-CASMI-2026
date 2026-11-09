@@ -1,0 +1,49 @@
+{
+  "name": "public_alex_extlib",
+  "target": "stormseye/casmi26-public-alex-extlib-1109",
+  "version": 1,
+  "stage_dir": "submission/optimization_20261109/public_alex_extlib",
+  "notebook_sha256": "1838e7c7c07177b7e6976c9b4c1e9c566769b2c88c2a699ce002bffa174dbbee",
+  "metadata_sha256": "f45fb0e45dbbba76f6675f140179999ee39899b13c3e95c2ba0fdaac9ea0de88",
+  "description": "CASMI26 20261109 AlexV12 measured library reproduction audited V1",
+  "validation_mode": "fast_static",
+  "static_review_path": "submission/optimization_20261109/public_alex_extlib/static_review.json",
+  "required_runtime_audits": [
+    {
+      "name": "base_external_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "mode": "fast_static"
+      },
+      "required_true_checks": [
+        "public_model_pins",
+        "faithful_public_fallback",
+        "original_priors",
+        "mass_only",
+        "official_rdkit",
+        "ids_schema",
+        "fast_no_model"
+      ]
+    },
+    {
+      "name": "external_overlay_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "public_alex_extlib",
+        "recipe_sha256": "d1d5492bfe78e367948d8c9c39c1a0b60cff07fac1a4176a5a94c374c5de4741",
+        "mode": "fast_static"
+      },
+      "required_true_checks": [
+        "base_audit_passed",
+        "control_bound",
+        "final_bound",
+        "source_function_pin",
+        "exact_ids_schema",
+        "official_identities_valid",
+        "library_file_pins",
+        "runtime_checks",
+        "fast_no_matching"
+      ]
+    }
+  ]
+}

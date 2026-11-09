@@ -1,0 +1,11 @@
+{
+  "status": "prepared",
+  "branch": "mass_heads_na_compact",
+  "target": "stormseye/casmi26-mass-heads-na-compact-1108",
+  "version": 1,
+  "notebook_sha256": "4b985a2a0e2cb501be2fb045993cf1fc182886cfc6bf818c102c54f4d5bbb4a6",
+  "metadata_sha256": "f6470ffcef4aae72143200070f920af812388a7df47f502ad1af7090d1e213c8",
+  "recipe_sha256": "8f76435efafbe9a7ba5a76afc58b724b3a8d4bba109665db7b7bf565d2e20ed9",
+  "static_review_path": "submission/optimization_20261108/mass_heads_na_compact/static_review.json",
+  "validation_mode": "fast_static"
+}

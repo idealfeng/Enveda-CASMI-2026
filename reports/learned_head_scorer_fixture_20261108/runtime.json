@@ -1,0 +1,13 @@
+{
+  "baseline_scorer_file": "/mnt/d/Paper/casmi/runs/validation_flex_c2_20261105d/p2s_code/neural_scores.py",
+  "baseline_scorer_sha256": "cb9e4d6732992e3310e951533fd0c644d3b515134ad03768c35e5a86551267d2",
+  "head_model_file": "/mnt/d/Paper/casmi/scripts/candidate_multispectrum_head.py",
+  "head_model_sha256": "6dc38d9d9dd59bff0ed791045573638c5566b2e1f84c0336c1b1bff383f886f0",
+  "heads": [
+    {
+      "file": "/mnt/d/Paper/casmi/reports/learned_head_scorer_fixture_20261108/zero_head.pt",
+      "sha256": "cd523874b33e389a6a86f82a085656a79c9f21017d78530d433ab9c029702120"
+    }
+  ],
+  "required_step": 0
+}

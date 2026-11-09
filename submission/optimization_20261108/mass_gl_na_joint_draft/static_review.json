@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-mass-gl-na-1108",
+  "version": 1,
+  "notebook_sha256": "eaf3cdc5c9822f6bfc666dc4d4c359cbadaf756e21b42372b43a498806d96362",
+  "checks": {
+    "base_0481_sha": true,
+    "all_code_compiles": true,
+    "unchanged_nonadapter_cells": true,
+    "original_mass_leader_unchanged": true,
+    "physical_cell_unchanged": true,
+    "original_model_pins_unchanged": true,
+    "fixed_frozen_source": true,
+    "real_na_no_relabel_fixture": true,
+    "actual_per_spectrum_aggregation": true,
+    "explicit_proxy_overlap_policy": true,
+    "private_offline_gpu": true,
+    "dynamic_hidden_scope": true
+  }
+}

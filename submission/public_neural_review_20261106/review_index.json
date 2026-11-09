@@ -1,0 +1,27 @@
+{
+  "status": "prepared_for_review_not_run",
+  "private_offline": true,
+  "source_assets_originals_unchanged": true,
+  "recipes": [
+    {
+      "recipe": "hardened_v1",
+      "status": "prepared_for_review_not_run",
+      "source_version": 1,
+      "source_sha256": "7780631f63b07663792b7e47c06585c7d3799e1e2ad9755698657aa4b2959d7f",
+      "suggested_kernel_id": "stormseye/casmi26-n480-public-v2",
+      "original_commit_mode": "smoke",
+      "smoke_source_sha256": "7780631f63b07663792b7e47c06585c7d3799e1e2ad9755698657aa4b2959d7f",
+      "missing_required": []
+    },
+    {
+      "recipe": "tri_v30",
+      "status": "prepared_for_review_not_run",
+      "source_version": 30,
+      "source_sha256": "73c8bdc7799ffdad7ef756015c74c90365ee060122f2567f8a3c061ff42cc0df",
+      "suggested_kernel_id": "stormseye/casmi26-public-tri-v30",
+      "original_commit_mode": "fast",
+      "smoke_source_sha256": "b8ebb7ac69f726c191c6888c186b7cdffae72adf474b64c82611137da43a2b15",
+      "missing_required": []
+    }
+  ]
+}

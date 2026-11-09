@@ -1,0 +1,1887 @@
+{
+  "version": 1,
+  "state": "validated",
+  "prior_lists": "/mnt/d/Paper/casmi/runs/prvsiyan_smoke_20261104a/eng_lists.json",
+  "prior_lists_sha256": "8165da965bff1e6f611b938ffa787a5242a9dd47f39248840b1ccd1a70a33971",
+  "prior_lists_bytes": 29969,
+  "prior_receipt": "/mnt/d/Paper/casmi/runs/prvsiyan_smoke_20261104a/local_run_receipt.json",
+  "prior_receipt_sha256": "2a2173b1651e6c4a3b5c2da0fa63c18ae428e60dd466ef1046dadfbfafe2b2f1",
+  "source_sha256": "a1da86c791cdbcb553254a12cef8bca8b527b991f40953d9dcb2a9c819d3c852",
+  "prior_generated_source_hashes": [
+    {
+      "name": "casmi_engine.py",
+      "sha256": "28222ed65a2b4e102ead73e614cdbb2d238c1b6112f397b93c3fd8352d5d49dc"
+    },
+    {
+      "name": "eng_runner.py",
+      "sha256": "bea3d342579461f5a48eb708df6c864329d920f2b57707b7ec00d68a223c0045"
+    },
+    {
+      "name": "pv.py",
+      "sha256": "1aeee82124c7e9b338b6fb1db4a117cfd1ee21a9a990ecbb338d7c5bc891c730"
+    },
+    {
+      "name": "pv_fp.py",
+      "sha256": "86a760b10a75f3b527a75fca8533e030783c3fd542daaca4711e051734914bcd"
+    }
+  ],
+  "notebook_version": 43,
+  "engine_cell": 12,
+  "active_query": {
+    "sha256": "46f83234764281559a5c6df56643796304d7939b7501506746d68df8bce16ccf",
+    "rows": 41,
+    "molecule_ids": [
+      "m_005e53",
+      "m_006153",
+      "m_00b5aa",
+      "m_01e922",
+      "m_0259d4",
+      "m_02d188",
+      "m_0318b5",
+      "m_043e86",
+      "m_050bf1",
+      "m_05b52e",
+      "m_068354",
+      "m_06e13d"
+    ],
+    "columns": [
+      "molecule_id",
+      "spectrum_id",
+      "ms2_mzs",
+      "ms2_normalized_intensities",
+      "base_peak_intensity",
+      "adduct",
+      "ionization_mode",
+      "instrument_type",
+      "precursor_mz",
+      "collision_energy_orig",
+      "collision_energy_ev",
+      "collision_energy_orig_units"
+    ],
+    "arrow_schema": "molecule_id: string\nspectrum_id: string\nms2_mzs: list<item: double>\n  child 0, item: double\nms2_normalized_intensities: list<item: double>\n  child 0, item: double\nbase_peak_intensity: double\nadduct: string\nionization_mode: string\ninstrument_type: string\nprecursor_mz: double\ncollision_energy_orig: string\ncollision_energy_ev: list<item: double>\n  child 0, item: double\ncollision_energy_orig_units: string\n__index_level_0__: int64"
+  },
+  "prior_query_file": "/mnt/d/Paper/casmi/runs/prvsiyan_smoke_20261104a/smoke_comp/test.parquet",
+  "input_root": "/mnt/d/Paper/casmi/runs/inputs/prvsiyan_v43",
+  "input_files": [
+    {
+      "name": "competitions/enveda-CASMI26-molecule-id-mass-spectra/sample_submission.csv",
+      "resolved_path": "/mnt/d/Paper/casmi/enveda-CASMI26-molecule-id-mass-spectra/sample_submission.csv",
+      "bytes": 43619,
+      "mtime_ns": 1792862099531512200,
+      "download_receipt_sha256": null
+    },
+    {
+      "name": "competitions/enveda-CASMI26-molecule-id-mass-spectra/test.parquet",
+      "resolved_path": "/mnt/d/Paper/casmi/enveda-CASMI26-molecule-id-mass-spectra/test.parquet",
+      "bytes": 4848729,
+      "mtime_ns": 1792862099588858700,
+      "download_receipt_sha256": null
+    },
+    {
+      "name": "competitions/enveda-CASMI26-molecule-id-mass-spectra/train.parquet",
+      "resolved_path": "/mnt/d/Paper/casmi/enveda-CASMI26-molecule-id-mass-spectra/train.parquet",
+      "bytes": 3033286496,
+      "mtime_ns": 1792862123383409500,
+      "download_receipt_sha256": null
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-fpnet-full1/download_receipt.json",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-fpnet-full1/v1/download_receipt.json",
+      "bytes": 667,
+      "mtime_ns": 1793731121172253800,
+      "download_receipt_sha256": null
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-fpnet-full1/fpnet_full1.pt",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-fpnet-full1/v1/fpnet_full1.pt",
+      "bytes": 198791233,
+      "mtime_ns": 1793731121170573400,
+      "download_receipt_sha256": "d13a3611e499d7783c4a6fce5b04363eb297dcf70f2d7d00bb66f9ff1f547123"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/LICENSE-NOTICE.txt",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/LICENSE-NOTICE.txt",
+      "bytes": 1489,
+      "mtime_ns": 1793731228599144100,
+      "download_receipt_sha256": "563c9951ffb47543beeff63df8006b0ba5ab9785a23acfb5311a6b4ceaf44f55"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/MANIFEST.json",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/MANIFEST.json",
+      "bytes": 6286,
+      "mtime_ns": 1793731242388456200,
+      "download_receipt_sha256": "53bf3f8724cb0d8ddbb104254deda88b0a90502e3ab031aa42cbbf010b38634d"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/README.md",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/README.md",
+      "bytes": 2423,
+      "mtime_ns": 1793731232356009400,
+      "download_receipt_sha256": "430b17c774e84f76204aa83b2672d39d31de9f1479eff8a2a3663bcc8ce000ac"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/ckpt/glacier.pt",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/ckpt/glacier.pt",
+      "bytes": 60531887,
+      "mtime_ns": 1793731339528815500,
+      "download_receipt_sha256": "9192e4c2eeafe83317d5a2c2641e1fc4d68934488757a4faafeb66f2ab397a12"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/gl_fuse.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/gl_fuse.py",
+      "bytes": 7533,
+      "mtime_ns": 1793731245505432100,
+      "download_receipt_sha256": "ea390f5f29705c015f39c509cc2b86e6a360d0bb90db61c87c507068f38ae58e"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/gl_runner.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/gl_runner.py",
+      "bytes": 39880,
+      "mtime_ns": 1793731267514270300,
+      "download_receipt_sha256": "5c4f74313ac54263d05d987c39d012d81ec57c5f35e1095ecd49a5bcb6440fca"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/shim/LinSATNet/__init__.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/shim/LinSATNet/__init__.py",
+      "bytes": 3656,
+      "mtime_ns": 1793731238391233200,
+      "download_receipt_sha256": "a0ffdf64f610ad6a86ef560d3ff62f06a9c2b53ed13473d85eae87953f39e6af"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/shim/dgl/__init__.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/shim/dgl/__init__.py",
+      "bytes": 10029,
+      "mtime_ns": 1793731250501726200,
+      "download_receipt_sha256": "35dd2028bbb1fb14442d7a4cbbd9cb260c1063ab05dd556ddaf1f77aa2f3d2e2"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/shim/dgl/backend/__init__.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/shim/dgl/backend/__init__.py",
+      "bytes": 36,
+      "mtime_ns": 1793731217566909900,
+      "download_receipt_sha256": "f85e782b33669b9567ba24c46931db87506637870d723c8696e66515ff0f9ee7"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/shim/dgl/backend/pytorch.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/shim/dgl/backend/pytorch.py",
+      "bytes": 964,
+      "mtime_ns": 1793731224051613500,
+      "download_receipt_sha256": "e7bf3d120f37ebc40fb8dec000f637ec516b75610b21717a4d7abe3cb40f37c7"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/shim/dgl/function.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/shim/dgl/function.py",
+      "bytes": 1803,
+      "mtime_ns": 1793731228980027400,
+      "download_receipt_sha256": "4dd78301a49129085e3234ff902999c7921979a5e09e5415a3aaf3a0aa9d27ff"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/shim/dgl/nn/__init__.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/shim/dgl/nn/__init__.py",
+      "bytes": 1958,
+      "mtime_ns": 1793731230447528800,
+      "download_receipt_sha256": "cd78a6aaee83a58cadb14a9a41f8c8e92a07c3c2bba52f6a83b4eb8ac4fd62a2"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/shim/torch_scatter/__init__.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/shim/torch_scatter/__init__.py",
+      "bytes": 3120,
+      "mtime_ns": 1793731235316317000,
+      "download_receipt_sha256": "d8f0b42adc06bb499514f68378c826900cbcb2e9764a4ea403bc160497c842a6"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/LICENSE",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/LICENSE",
+      "bytes": 1092,
+      "mtime_ns": 1793731226393357400,
+      "download_receipt_sha256": "cb323bf6812b7ebc608d6ded23cf0245ab4633d68b1998010ece3ea3d2810fe3"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/__init__.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/__init__.py",
+      "bytes": 266,
+      "mtime_ns": 1793731220247580600,
+      "download_receipt_sha256": "e4a927730a084dd169e994b1fa712c5e17709e0a869f00aadb4709df9855c487"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/common/__init__.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/common/__init__.py",
+      "bytes": 381,
+      "mtime_ns": 1793731224224839200,
+      "download_receipt_sha256": "521b8cd399abda6a52cd1cc3304d46557035c70f3332be50122c9e68032d1351"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/common/chem_utils.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/common/chem_utils.py",
+      "bytes": 26034,
+      "mtime_ns": 1793731260009844100,
+      "download_receipt_sha256": "c9842ef76eb831394c53fdd5050d87842edaebd46427a722d43983286495f96e"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/common/denoising_utils.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/common/denoising_utils.py",
+      "bytes": 3478,
+      "mtime_ns": 1793731236279520700,
+      "download_receipt_sha256": "34f9658456896a4adcd4302c783d7253727fe527454bec2b7c91f224a4cc0051"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/common/fingerprint.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/common/fingerprint.py",
+      "bytes": 1649,
+      "mtime_ns": 1793731227705464300,
+      "download_receipt_sha256": "d3032ecff1a43472af33ce1ea307223941b014290b7507c44e9ee028f5d764d3"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/common/misc_utils.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/common/misc_utils.py",
+      "bytes": 96988,
+      "mtime_ns": 1793731270438700300,
+      "download_receipt_sha256": "bbee369888121c45384a4c93c5c0811bd3b4d8ba9bd038aa119f04b1ca4d1122"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/common/parallel_utils.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/common/parallel_utils.py",
+      "bytes": 13635,
+      "mtime_ns": 1793731256510716700,
+      "download_receipt_sha256": "60dbeac1f6d2b52009b40329790d6ca05fdd28efb70a1c23586616d6c984c691"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/common/splitter.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/common/splitter.py",
+      "bytes": 2676,
+      "mtime_ns": 1793731233264903000,
+      "download_receipt_sha256": "47ea4c05697ddaa8bafe777c58ebb7ff0d9de762a5ee8345b6ec38cf9496827c"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/glacier/dataset.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/glacier/dataset.py",
+      "bytes": 46377,
+      "mtime_ns": 1793731268737480600,
+      "download_receipt_sha256": "547a09d8629a45c8fad43dcb60277a36906b1d382520c959950562d109014360"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/glacier/joint_model.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/glacier/joint_model.py",
+      "bytes": 76110,
+      "mtime_ns": 1793731270353410000,
+      "download_receipt_sha256": "9481602423011e830c94b8fcd857ac2be3cb31b2c24d714a3ae0c1edd235c293"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/graphormer/__init__.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/graphormer/__init__.py",
+      "bytes": 351,
+      "mtime_ns": 1793731221170021900,
+      "download_receipt_sha256": "b31b131343597bb736ee984291cbe0688383b507cd6b22d4d9ca01159ac440f2"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/graphormer/graphormer_graph_encoder.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/graphormer/graphormer_graph_encoder.py",
+      "bytes": 6925,
+      "mtime_ns": 1793731244323011700,
+      "download_receipt_sha256": "074a59296c0a2903fd5018c27705ea1da2393f09c84ba30fb32acbf3827729ea"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/graphormer/graphormer_graph_encoder_layer.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/graphormer/graphormer_graph_encoder_layer.py",
+      "bytes": 3593,
+      "mtime_ns": 1793731237780885300,
+      "download_receipt_sha256": "d98ba908616e231187afe2409409c06269e5d2017bd12c0d85c6ef093e8272f7"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/graphormer/graphormer_layers.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/graphormer/graphormer_layers.py",
+      "bytes": 5937,
+      "mtime_ns": 1793731241273483900,
+      "download_receipt_sha256": "26c8d693bebc8904a975aeb11cf343b9c7a0fd9a120f828ed597bd8180bc606d"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/graphormer/multihead_attention.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/graphormer/multihead_attention.py",
+      "bytes": 2404,
+      "mtime_ns": 1793731230965246600,
+      "download_receipt_sha256": "f11b79e3e4f8147cbbe97638e27b7046dfb8c2ed714b35409925f9bb4c5f0815"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/iceberg/dag_data.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/iceberg/dag_data.py",
+      "bytes": 36155,
+      "mtime_ns": 1793731266608521200,
+      "download_receipt_sha256": "80a4f2abd57a59077bf988c9a3f975de36cf856c189aadf9f871382054494814"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/iceberg/graph_mutate.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/iceberg/graph_mutate.py",
+      "bytes": 9359,
+      "mtime_ns": 1793731248863913100,
+      "download_receipt_sha256": "06c343312d44eedc1498c5513b33bcf5b1bc950f05dcb87e18827a0a7a81c55d"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/magma/fragmentation.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/magma/fragmentation.py",
+      "bytes": 28327,
+      "mtime_ns": 1793731261840773500,
+      "download_receipt_sha256": "5fc6ac347a09ea8486154ce827eea0ea810a0c7f6a277279ffd4c5abd1e93744"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/nn_utils/__init__.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/nn_utils/__init__.py",
+      "bytes": 378,
+      "mtime_ns": 1793731220992588900,
+      "download_receipt_sha256": "2f7f5b3d2537b6bde6a28be84908826901cb2306756b680a57934c39831ade57"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/nn_utils/dgl_graph_ops.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/nn_utils/dgl_graph_ops.py",
+      "bytes": 18955,
+      "mtime_ns": 1793731257657316100,
+      "download_receipt_sha256": "d65b239032eae4ec8cb2d0b9850fd773542722ff953c96827ab59000d13eba9f"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/nn_utils/dgl_modules.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/nn_utils/dgl_modules.py",
+      "bytes": 23408,
+      "mtime_ns": 1793731259140702700,
+      "download_receipt_sha256": "b98dfc02dad06a67e2c9ee61670ebc0c96a8b2a62859335888f8189d5677e2e4"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/nn_utils/form_embedder.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/nn_utils/form_embedder.py",
+      "bytes": 10681,
+      "mtime_ns": 1793731254419971600,
+      "download_receipt_sha256": "30bb3670c8b21e01ebb3fb2548dac7f8e0cac589fd4cfccc51589ddf55c1ea4b"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/nn_utils/mol_graph.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/nn_utils/mol_graph.py",
+      "bytes": 10573,
+      "mtime_ns": 1793731252568690900,
+      "download_receipt_sha256": "62d11349b0c9d06335384b6fabfcddffaf78ece4c1d6f5c18ac426746d1e7d89"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/nn_utils/nn_utils.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/nn_utils/nn_utils.py",
+      "bytes": 41337,
+      "mtime_ns": 1793731267807549500,
+      "download_receipt_sha256": "f07a9018515ed0204b305741c5b13db9285d400ee7ff3e5bfa12db756a87146f"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-glacier/src/ms_pred/nn_utils/transformer_layer.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-glacier/v1/src/ms_pred/nn_utils/transformer_layer.py",
+      "bytes": 30192,
+      "mtime_ns": 1793731263821937300,
+      "download_receipt_sha256": "8884d91afd479bef9b05d4a4527953ade8fd9353332ca3c6eddb8e1b048d2a92"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/LICENSE-NOTICE.txt",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/LICENSE-NOTICE.txt",
+      "bytes": 1003,
+      "mtime_ns": 1793731225478403300,
+      "download_receipt_sha256": "2bdc24cdcfda1c536a17d8af6a85b6028b19369527d84db8cc81800228897bce"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/MANIFEST.json",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/MANIFEST.json",
+      "bytes": 6163,
+      "mtime_ns": 1793731242086527500,
+      "download_receipt_sha256": "78ab2dff112b1e9a043a8025bf8b57839be3f4b94f2e87fc61becbef4c804f8b"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/README.md",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/README.md",
+      "bytes": 3879,
+      "mtime_ns": 1793731238688438700,
+      "download_receipt_sha256": "1a36864cb19161b84742f9cb8f323f795b5b3e8e1d739474b7b205acd2d8601f"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/ckpt/gen.pt",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/ckpt/gen.pt",
+      "bytes": 14561244,
+      "mtime_ns": 1793731304235073800,
+      "download_receipt_sha256": "deef0451c1870d2125653bb212c9d95c5b5d9bf80156dfa9b22fedda7db49bea"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/ckpt/inten.pt",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/ckpt/inten.pt",
+      "bytes": 13793037,
+      "mtime_ns": 1793731296547195300,
+      "download_receipt_sha256": "c49e330e049d3a8b0095026ed694fcf70045c24305354853732aaa5f89d55068"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/fuse.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/fuse.py",
+      "bytes": 8349,
+      "mtime_ns": 1793731246986931600,
+      "download_receipt_sha256": "6d1bdf0c63ff8844d6994bb83cdadf07951ee40ed87ea5a2d870577c6fc76bb1"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/ice_runner.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/ice_runner.py",
+      "bytes": 31551,
+      "mtime_ns": 1793731265502788300,
+      "download_receipt_sha256": "dc0d5d1e14053e2e7d9088817c620d6615372abc3afdd02be2fc7ff9ee0b2802"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/shim/dgl/__init__.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/shim/dgl/__init__.py",
+      "bytes": 10029,
+      "mtime_ns": 1793731251957623100,
+      "download_receipt_sha256": "35dd2028bbb1fb14442d7a4cbbd9cb260c1063ab05dd556ddaf1f77aa2f3d2e2"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/shim/dgl/backend/__init__.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/shim/dgl/backend/__init__.py",
+      "bytes": 36,
+      "mtime_ns": 1793731219123047400,
+      "download_receipt_sha256": "f85e782b33669b9567ba24c46931db87506637870d723c8696e66515ff0f9ee7"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/shim/dgl/backend/pytorch.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/shim/dgl/backend/pytorch.py",
+      "bytes": 964,
+      "mtime_ns": 1793731225613909400,
+      "download_receipt_sha256": "e7bf3d120f37ebc40fb8dec000f637ec516b75610b21717a4d7abe3cb40f37c7"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/shim/dgl/function.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/shim/dgl/function.py",
+      "bytes": 1803,
+      "mtime_ns": 1793731229816451300,
+      "download_receipt_sha256": "4dd78301a49129085e3234ff902999c7921979a5e09e5415a3aaf3a0aa9d27ff"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/shim/dgl/nn/__init__.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/shim/dgl/nn/__init__.py",
+      "bytes": 1958,
+      "mtime_ns": 1793731229711048600,
+      "download_receipt_sha256": "cd78a6aaee83a58cadb14a9a41f8c8e92a07c3c2bba52f6a83b4eb8ac4fd62a2"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/shim/torch_scatter/__init__.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/shim/torch_scatter/__init__.py",
+      "bytes": 3120,
+      "mtime_ns": 1793731235271258600,
+      "download_receipt_sha256": "d8f0b42adc06bb499514f68378c826900cbcb2e9764a4ea403bc160497c842a6"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/LICENSE",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/LICENSE",
+      "bytes": 1092,
+      "mtime_ns": 1793731227804788700,
+      "download_receipt_sha256": "cb323bf6812b7ebc608d6ded23cf0245ab4633d68b1998010ece3ea3d2810fe3"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/__init__.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/__init__.py",
+      "bytes": 266,
+      "mtime_ns": 1793731221173357000,
+      "download_receipt_sha256": "e4a927730a084dd169e994b1fa712c5e17709e0a869f00aadb4709df9855c487"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/common/__init__.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/common/__init__.py",
+      "bytes": 381,
+      "mtime_ns": 1793731222457164600,
+      "download_receipt_sha256": "521b8cd399abda6a52cd1cc3304d46557035c70f3332be50122c9e68032d1351"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/common/chem_utils.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/common/chem_utils.py",
+      "bytes": 26034,
+      "mtime_ns": 1793731260226133700,
+      "download_receipt_sha256": "c9842ef76eb831394c53fdd5050d87842edaebd46427a722d43983286495f96e"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/common/denoising_utils.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/common/denoising_utils.py",
+      "bytes": 3478,
+      "mtime_ns": 1793731236392219700,
+      "download_receipt_sha256": "34f9658456896a4adcd4302c783d7253727fe527454bec2b7c91f224a4cc0051"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/common/fingerprint.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/common/fingerprint.py",
+      "bytes": 1649,
+      "mtime_ns": 1793731228574178600,
+      "download_receipt_sha256": "d3032ecff1a43472af33ce1ea307223941b014290b7507c44e9ee028f5d764d3"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/common/misc_utils.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/common/misc_utils.py",
+      "bytes": 96988,
+      "mtime_ns": 1793731272504576400,
+      "download_receipt_sha256": "bbee369888121c45384a4c93c5c0811bd3b4d8ba9bd038aa119f04b1ca4d1122"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/common/parallel_utils.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/common/parallel_utils.py",
+      "bytes": 13635,
+      "mtime_ns": 1793731256809389600,
+      "download_receipt_sha256": "60dbeac1f6d2b52009b40329790d6ca05fdd28efb70a1c23586616d6c984c691"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/common/splitter.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/common/splitter.py",
+      "bytes": 2676,
+      "mtime_ns": 1793731232903022700,
+      "download_receipt_sha256": "47ea4c05697ddaa8bafe777c58ebb7ff0d9de762a5ee8345b6ec38cf9496827c"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/iceberg/dag_data.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/iceberg/dag_data.py",
+      "bytes": 36155,
+      "mtime_ns": 1793731266603180800,
+      "download_receipt_sha256": "80a4f2abd57a59077bf988c9a3f975de36cf856c189aadf9f871382054494814"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/iceberg/gen_model.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/iceberg/gen_model.py",
+      "bytes": 34864,
+      "mtime_ns": 1793731266551497800,
+      "download_receipt_sha256": "467a117823c4e1885636cbad4d4925f69c68722aea460cf8fc91e08cfcb6c755"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/iceberg/inten_model.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/iceberg/inten_model.py",
+      "bytes": 34601,
+      "mtime_ns": 1793731265440578600,
+      "download_receipt_sha256": "821942bdcb0282dd229deb6cafcfd6f07ab29eeb9539446acaa88229d6341ff6"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/iceberg/joint_model.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/iceberg/joint_model.py",
+      "bytes": 7968,
+      "mtime_ns": 1793731246749778400,
+      "download_receipt_sha256": "d1cd923d0729e6a0b141f97926e4ed8d4172b01ee4b0212781f3835f2f558f74"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/magma/fragmentation.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/magma/fragmentation.py",
+      "bytes": 28327,
+      "mtime_ns": 1793731262166036300,
+      "download_receipt_sha256": "5fc6ac347a09ea8486154ce827eea0ea810a0c7f6a277279ffd4c5abd1e93744"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/magma/run_magma.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/magma/run_magma.py",
+      "bytes": 23083,
+      "mtime_ns": 1793731257951065900,
+      "download_receipt_sha256": "b55f7b3914835e53641ca3e0c337e7b1b5acc61d914268fd26d61263d0f56b6d"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/nn_utils/__init__.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/nn_utils/__init__.py",
+      "bytes": 378,
+      "mtime_ns": 1793731222702973300,
+      "download_receipt_sha256": "2f7f5b3d2537b6bde6a28be84908826901cb2306756b680a57934c39831ade57"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/nn_utils/dgl_graph_ops.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/nn_utils/dgl_graph_ops.py",
+      "bytes": 18955,
+      "mtime_ns": 1793731258286755200,
+      "download_receipt_sha256": "d65b239032eae4ec8cb2d0b9850fd773542722ff953c96827ab59000d13eba9f"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/nn_utils/dgl_modules.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/nn_utils/dgl_modules.py",
+      "bytes": 23408,
+      "mtime_ns": 1793731260243347700,
+      "download_receipt_sha256": "b98dfc02dad06a67e2c9ee61670ebc0c96a8b2a62859335888f8189d5677e2e4"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/nn_utils/form_embedder.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/nn_utils/form_embedder.py",
+      "bytes": 10681,
+      "mtime_ns": 1793731253121488100,
+      "download_receipt_sha256": "30bb3670c8b21e01ebb3fb2548dac7f8e0cac589fd4cfccc51589ddf55c1ea4b"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/nn_utils/mol_graph.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/nn_utils/mol_graph.py",
+      "bytes": 10573,
+      "mtime_ns": 1793731253524581100,
+      "download_receipt_sha256": "62d11349b0c9d06335384b6fabfcddffaf78ece4c1d6f5c18ac426746d1e7d89"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/nn_utils/nn_utils.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/nn_utils/nn_utils.py",
+      "bytes": 41337,
+      "mtime_ns": 1793731268139527000,
+      "download_receipt_sha256": "f07a9018515ed0204b305741c5b13db9285d400ee7ff3e5bfa12db756a87146f"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/nn_utils/transformer_layer.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/src/ms_pred/nn_utils/transformer_layer.py",
+      "bytes": 30192,
+      "mtime_ns": 1793731263343150700,
+      "download_receipt_sha256": "8884d91afd479bef9b05d4a4527953ade8fd9353332ca3c6eddb8e1b048d2a92"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/wheels/einops-0.8.2-py3-none-any.whl.ice",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/wheels/einops-0.8.2-py3-none-any.whl.ice",
+      "bytes": 65638,
+      "mtime_ns": 1793731270044270400,
+      "download_receipt_sha256": "54058201ac7087911181bfec4af6091bb59380360f069276601256a76af08193"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/wheels/lightning_utilities-0.15.3-py3-none-any.whl.ice",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/wheels/lightning_utilities-0.15.3-py3-none-any.whl.ice",
+      "bytes": 31906,
+      "mtime_ns": 1793731265372829800,
+      "download_receipt_sha256": "6c55f1bee70084a1cbeaa41ada96e4b3a0fea5909e844dd335bd80f5a73c5f91"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/wheels/pytorch_lightning-2.6.6-py3-none-any.whl.ice",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/wheels/pytorch_lightning-2.6.6-py3-none-any.whl.ice",
+      "bytes": 853045,
+      "mtime_ns": 1793731275846465900,
+      "download_receipt_sha256": "71f95c7b22f25c4f91cc659e1734bcdc6c69c8b66543f2ed2d78dbe29ce2f167"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/wheels/rdkit-2025.3.6-cp312-cp312-manylinux_2_28_x86_64.whl.ice",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/wheels/rdkit-2025.3.6-cp312-cp312-manylinux_2_28_x86_64.whl.ice",
+      "bytes": 36119142,
+      "mtime_ns": 1793731325102089200,
+      "download_receipt_sha256": "ed5565d4d6423def7c52eb20a6263afcd979383757086dec92f57e77d7c7f856"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-iceberg/wheels/torchmetrics-1.9.0-py3-none-any.whl.ice",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/wheels/torchmetrics-1.9.0-py3-none-any.whl.ice",
+      "bytes": 983384,
+      "mtime_ns": 1793731275091204500,
+      "download_receipt_sha256": "bfdcbff3dd1d96b3374bb2496eb39f23c4b28b8a845b6a18c313688e0d2d9ca1"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-pubchem-tier/pc_mass.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-pubchem-tier/v1/pc_mass.npy",
+      "bytes": 847004040,
+      "mtime_ns": 1793731864700190800,
+      "download_receipt_sha256": "e0d7b6d7f5640c1709ec52b235ee7e7ec4615efcb2e5cb80b7886d7d261f6d94"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-pubchem-tier/pc_off.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-pubchem-tier/v1/pc_off.npy",
+      "bytes": 847004048,
+      "mtime_ns": 1793732211137601600,
+      "download_receipt_sha256": "0aa81667eccdeeea3f521d621100a597104014504a6f19ad292401da03460392"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-pubchem-tier/pc_smiles.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-pubchem-tier/v1/pc_smiles.npy",
+      "bytes": 5520120190,
+      "mtime_ns": 1793732712176147800,
+      "download_receipt_sha256": "7a888630a74c1f84027dacf4dec804798d2bc18a40043eb901eca6f0b959f34e"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v2-pool/fp_bits.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v2-pool/v1/fp_bits.npy",
+      "bytes": 41032,
+      "mtime_ns": 1793731268675445800,
+      "download_receipt_sha256": "c3869e86449d6fed6e79e9655f8a7d35bd55c3138ecddfc1dae5072627e78677"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v2-pool/pool_fp.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v2-pool/v1/pool_fp.npy",
+      "bytes": 908986707,
+      "mtime_ns": 1793732259015836000,
+      "download_receipt_sha256": "f02d91eeb4e2be5687ce678c199aa09a3acda1e821478372fc23fd1c7edf55e8"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v2-pool/pool_frag_mass.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v2-pool/v1/pool_frag_mass.npy",
+      "bytes": 357116708,
+      "mtime_ns": 1793731730726863600,
+      "download_receipt_sha256": "9afbdc02856b287e06e6c9f61a9f0032b2dd53b20557942c1d00542d9c490ffc"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v2-pool/pool_frag_off.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v2-pool/v1/pool_frag_off.npy",
+      "bytes": 5685744,
+      "mtime_ns": 1793731285263442700,
+      "download_receipt_sha256": "354015a6eab8b6762f9124384e959d606e961c35b999d1b088153d69538765e7"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v2-pool/pool_meta.parquet",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v2-pool/v1/pool_meta.parquet",
+      "bytes": 36692358,
+      "mtime_ns": 1793731325646627900,
+      "download_receipt_sha256": "82b8c40315611289b9a4004b3af18d6d3402b3cd5baa4ee5723da07b7e2f6bb0"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v2-pool/train_fp_sel.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v2-pool/v1/train_fp_sel.npy",
+      "bytes": 352761118,
+      "mtime_ns": 1793731633096790100,
+      "download_receipt_sha256": "0e6ddfbfb188b6cffb9f1b0ad9c7ba268ef709ce60b2711d05f98096cd772a8d"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v2-pool/train_structs.parquet",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v2-pool/v1/train_structs.parquet",
+      "bytes": 23306834,
+      "mtime_ns": 1793731311817605100,
+      "download_receipt_sha256": "f20aa1cac23af42e430a6633707fda34e48dea97114bdc3e443897f692df3656"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v3-models/code/casmi/__init__.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v3-models/v4/code/casmi/__init__.py",
+      "bytes": 0,
+      "mtime_ns": 1793731219054841500,
+      "download_receipt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v3-models/code/casmi/build.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v3-models/v4/code/casmi/build.py",
+      "bytes": 4979,
+      "mtime_ns": 1793731240412844200,
+      "download_receipt_sha256": "86776c14e237dc64dbf965d9bc200cc670dc7226bf946938380729d7e80c56f8"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v3-models/code/casmi/chem.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v3-models/v4/code/casmi/chem.py",
+      "bytes": 12328,
+      "mtime_ns": 1793731255693768700,
+      "download_receipt_sha256": "99474f23d8a67040b0c0f8c70e73592a6f7f656f50103e350ca473451e2169f1"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v3-models/code/casmi/derive.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v3-models/v4/code/casmi/derive.py",
+      "bytes": 6929,
+      "mtime_ns": 1793731242893764400,
+      "download_receipt_sha256": "7c1e8c3afb4c17a3ae58fbc6c36fd4cfc552da97b9129c9b46cca3cdc6ee4892"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v3-models/code/casmi/engine.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v3-models/v4/code/casmi/engine.py",
+      "bytes": 26449,
+      "mtime_ns": 1793731260319724700,
+      "download_receipt_sha256": "d914bf9d5eb56cfff434b5d53a4d55881b97697aa834a627d9932a4f8c650d27"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v3-models/code/casmi/fpnet.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v3-models/v4/code/casmi/fpnet.py",
+      "bytes": 9551,
+      "mtime_ns": 1793731250074897800,
+      "download_receipt_sha256": "0ea6e372d1f045a877d350234c2ccf5d93fdd98cb23bd4c22376bf7e99547608"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v3-models/code/casmi/frag.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v3-models/v4/code/casmi/frag.py",
+      "bytes": 11172,
+      "mtime_ns": 1793731254622148300,
+      "download_receipt_sha256": "809f5582494cee4cf6dcace4b04699b8427e81022b78d42162cc0239a57773de"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v3-models/code/casmi/graphs.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v3-models/v4/code/casmi/graphs.py",
+      "bytes": 2850,
+      "mtime_ns": 1793731234050148100,
+      "download_receipt_sha256": "8dcbe16bbf3b34b7a08866234eb9abf2de713d21c93c653e7156e94e9debcd55"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v3-models/code/casmi/library.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v3-models/v4/code/casmi/library.py",
+      "bytes": 7577,
+      "mtime_ns": 1793731246278727600,
+      "download_receipt_sha256": "21ee24dee9f39123da518fb17802a394e6dc46b147d5dbdf276210b60185f831"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v3-models/code/casmi/pool.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v3-models/v4/code/casmi/pool.py",
+      "bytes": 2370,
+      "mtime_ns": 1793731231245552500,
+      "download_receipt_sha256": "279444f6c03834adbbfc0fad321e24187585d7cd5afdc363eff083dc263a0286"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v3-models/code/casmi/ranker.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v3-models/v4/code/casmi/ranker.py",
+      "bytes": 4189,
+      "mtime_ns": 1793731237566967400,
+      "download_receipt_sha256": "a7ee491b5a3d3decb3887afe3931adb10c11964468fb204e8c27b42757424fe4"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v3-models/code/casmi/spectra.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v3-models/v4/code/casmi/spectra.py",
+      "bytes": 10057,
+      "mtime_ns": 1793731251198873900,
+      "download_receipt_sha256": "e2481761cdfb2515e8a945751f85f6b9e885680a8e974d7ac35c78bbf279ae74"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v3-models/code/casmi/structs.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v3-models/v4/code/casmi/structs.py",
+      "bytes": 2791,
+      "mtime_ns": 1793731233409244600,
+      "download_receipt_sha256": "2c70df89e8f96b3e716651fe8815d0a05af3ad26e2b448e552ea53c26ede334a"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v3-models/code/casmi/traindata.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v3-models/v4/code/casmi/traindata.py",
+      "bytes": 9425,
+      "mtime_ns": 1793731249362935000,
+      "download_receipt_sha256": "cecb329d96362f11d16b40a26f1888f092610ff6202812408c13e2c293c6a2bc"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v3-models/code/casmi/xenc.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v3-models/v4/code/casmi/xenc.py",
+      "bytes": 6938,
+      "mtime_ns": 1793731244921839500,
+      "download_receipt_sha256": "89fbb470e6fc085f7363bf79e4517c06d43eed3c1df197b7f374b65dacdb7310"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v3-models/fpnet_0.pt",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v3-models/v4/fpnet_0.pt",
+      "bytes": 198790165,
+      "mtime_ns": 1793731410004992700,
+      "download_receipt_sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v3-models/fpnet_1.pt",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v3-models/v4/fpnet_1.pt",
+      "bytes": 198790165,
+      "mtime_ns": 1793731492410922900,
+      "download_receipt_sha256": "6f60a22b3c3b21aa48d47328bb9523bdf07cc004bfb72966e0f9713507c24f2e"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v3-models/ranker_0.pkl",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v3-models/v4/ranker_0.pkl",
+      "bytes": 14162986,
+      "mtime_ns": 1793731296031440200,
+      "download_receipt_sha256": "b7d5e5bf7a70b35526a78a999def236c795ae1f114e4e360728f1cea068e8e68"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/LICENSE-NOTICE.txt",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/LICENSE-NOTICE.txt",
+      "bytes": 1363,
+      "mtime_ns": 1793731227456955100,
+      "download_receipt_sha256": "b9c26d77338c03cb4387ae61bf4f6524eb77ee59c8530bc9f8d33a742a913a3b"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/MANIFEST.json",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/MANIFEST.json",
+      "bytes": 9209,
+      "mtime_ns": 1793731248767017000,
+      "download_receipt_sha256": "e64b960037769971e146a35932e29ed3f042de1716e4dbe281ebd84a7cfc3b6a"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/casmi/__init__.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/casmi/__init__.py",
+      "bytes": 0,
+      "mtime_ns": 1793731217657489500,
+      "download_receipt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/casmi/build.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/casmi/build.py",
+      "bytes": 4979,
+      "mtime_ns": 1793731239671293300,
+      "download_receipt_sha256": "86776c14e237dc64dbf965d9bc200cc670dc7226bf946938380729d7e80c56f8"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/casmi/chem.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/casmi/chem.py",
+      "bytes": 12328,
+      "mtime_ns": 1793731256619205900,
+      "download_receipt_sha256": "99474f23d8a67040b0c0f8c70e73592a6f7f656f50103e350ca473451e2169f1"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/casmi/derive.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/casmi/derive.py",
+      "bytes": 6929,
+      "mtime_ns": 1793731244282900500,
+      "download_receipt_sha256": "7c1e8c3afb4c17a3ae58fbc6c36fd4cfc552da97b9129c9b46cca3cdc6ee4892"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/casmi/dreams_model.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/casmi/dreams_model.py",
+      "bytes": 32798,
+      "mtime_ns": 1793731265408516800,
+      "download_receipt_sha256": "5c09c3d22e8d2c09678b796cb1d57a449442437847e094f49f6ed2619a73a83c"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/casmi/engine.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/casmi/engine.py",
+      "bytes": 26449,
+      "mtime_ns": 1793731261109747100,
+      "download_receipt_sha256": "d914bf9d5eb56cfff434b5d53a4d55881b97697aa834a627d9932a4f8c650d27"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/casmi/fpnet.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/casmi/fpnet.py",
+      "bytes": 9551,
+      "mtime_ns": 1793731250628710000,
+      "download_receipt_sha256": "0ea6e372d1f045a877d350234c2ccf5d93fdd98cb23bd4c22376bf7e99547608"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/casmi/fpnet6.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/casmi/fpnet6.py",
+      "bytes": 14661,
+      "mtime_ns": 1793731256743233200,
+      "download_receipt_sha256": "32542bb0039b2d24d9911030559f13221e630cef7df0d10c7d65f54424da2633"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/casmi/frag.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/casmi/frag.py",
+      "bytes": 11172,
+      "mtime_ns": 1793731254912169000,
+      "download_receipt_sha256": "809f5582494cee4cf6dcace4b04699b8427e81022b78d42162cc0239a57773de"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/casmi/graphs.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/casmi/graphs.py",
+      "bytes": 2850,
+      "mtime_ns": 1793731235849737300,
+      "download_receipt_sha256": "8dcbe16bbf3b34b7a08866234eb9abf2de713d21c93c653e7156e94e9debcd55"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/casmi/library.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/casmi/library.py",
+      "bytes": 7577,
+      "mtime_ns": 1793731246615342900,
+      "download_receipt_sha256": "21ee24dee9f39123da518fb17802a394e6dc46b147d5dbdf276210b60185f831"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/casmi/pool.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/casmi/pool.py",
+      "bytes": 2370,
+      "mtime_ns": 1793731231704738600,
+      "download_receipt_sha256": "279444f6c03834adbbfc0fad321e24187585d7cd5afdc363eff083dc263a0286"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/casmi/ranker.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/casmi/ranker.py",
+      "bytes": 4189,
+      "mtime_ns": 1793731239317960600,
+      "download_receipt_sha256": "a7ee491b5a3d3decb3887afe3931adb10c11964468fb204e8c27b42757424fe4"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/casmi/spectra.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/casmi/spectra.py",
+      "bytes": 10057,
+      "mtime_ns": 1793731251520024300,
+      "download_receipt_sha256": "e2481761cdfb2515e8a945751f85f6b9e885680a8e974d7ac35c78bbf279ae74"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/casmi/structs.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/casmi/structs.py",
+      "bytes": 2791,
+      "mtime_ns": 1793731234285646400,
+      "download_receipt_sha256": "2c70df89e8f96b3e716651fe8815d0a05af3ad26e2b448e552ea53c26ede334a"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/casmi/traindata.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/casmi/traindata.py",
+      "bytes": 9425,
+      "mtime_ns": 1793731250139827600,
+      "download_receipt_sha256": "cecb329d96362f11d16b40a26f1888f092610ff6202812408c13e2c293c6a2bc"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/casmi/xenc.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/casmi/xenc.py",
+      "bytes": 6938,
+      "mtime_ns": 1793731244684540200,
+      "download_receipt_sha256": "89fbb470e6fc085f7363bf79e4517c06d43eed3c1df197b7f374b65dacdb7310"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/chemfeat.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/chemfeat.py",
+      "bytes": 6158,
+      "mtime_ns": 1793731240697891800,
+      "download_receipt_sha256": "8fedf317042f989b1569ca65c0d6d87a0387f9fc9934504420a95d8d973f8746"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/ctxlib.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/ctxlib.py",
+      "bytes": 20737,
+      "mtime_ns": 1793731257937422600,
+      "download_receipt_sha256": "c050e4b0ac937a7d65fa14ac55c6904e2232cb077830a20b653ac6df22922943"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/derive6.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/derive6.py",
+      "bytes": 8635,
+      "mtime_ns": 1793731248391211200,
+      "download_receipt_sha256": "0e4b436d6b978b2e2e1af8767d6b3c32a6b1fc0e4b64960d5eeeaa8885ddf68a"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/fams/__init__.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/fams/__init__.py",
+      "bytes": 0,
+      "mtime_ns": 1793731217043639300,
+      "download_receipt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/fams/analog_struct.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/fams/analog_struct.py",
+      "bytes": 30583,
+      "mtime_ns": 1793731263682131600,
+      "download_receipt_sha256": "2311219220c65bc83c2cd447a8cdb07db27a984124f6c88d687494556e7337b6"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/fams/derivation.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/fams/derivation.py",
+      "bytes": 29276,
+      "mtime_ns": 1793731262470106000,
+      "download_receipt_sha256": "eb9aa474bef8e1d067cadccec0101042878ebb5aedf50d1168dc9dfd884dceae"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/fams/frag2.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/fams/frag2.py",
+      "bytes": 29368,
+      "mtime_ns": 1793731263038037800,
+      "download_receipt_sha256": "bf17577ef673f8ab0121caa1c9335dc1e827e2f1eb44b3bbde0b0c0cbe858e6c"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/fams/fragnet.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/fams/fragnet.py",
+      "bytes": 46806,
+      "mtime_ns": 1793731268954343000,
+      "download_receipt_sha256": "d0952d34d227013b8486eff36c30a4233f491d2e32c3f816b9d000c493b7234e"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/fams/model_views.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/fams/model_views.py",
+      "bytes": 3492,
+      "mtime_ns": 1793731236481104500,
+      "download_receipt_sha256": "aa964b12265bb70144d2d653b600a7f1a4972829032274bab76ea9e39afd7e79"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/fragcaps.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/fragcaps.py",
+      "bytes": 6766,
+      "mtime_ns": 1793731241701901000,
+      "download_receipt_sha256": "ba6280f9a46ca28cd72b8a7a0324724a73fd0c67a13acdd82a8193ac30d17a83"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/hooks_v1.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/hooks_v1.py",
+      "bytes": 4338,
+      "mtime_ns": 1793731240193973700,
+      "download_receipt_sha256": "d0cb1e37566a54bbb3082ccd29579ac47fc2526c5d64ef073dc0e628ee5657e8"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_coresmi_buf.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/analog_struct/pool_coresmi_buf.npy",
+      "bytes": 19703633,
+      "mtime_ns": 1793731308785103900,
+      "download_receipt_sha256": "c0b2ce3ff292cae239fbb1f1670f345462dbab31e920b17d2e52bef9f9e5fc53"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_coresmi_off.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/analog_struct/pool_coresmi_off.npy",
+      "bytes": 5685744,
+      "mtime_ns": 1793731285789773900,
+      "download_receipt_sha256": "570664567fb313291f46e30aecfd9e82e8526eadde651cb2dbb98ead8d2220d5"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_elsmi_buf.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/analog_struct/pool_elsmi_buf.npy",
+      "bytes": 35033614,
+      "mtime_ns": 1793731325020388200,
+      "download_receipt_sha256": "f54697041c9f384a617bbfaca0d5ad0ff68f48df7b472c38d62b44a44c15c6e9"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_elsmi_off.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/analog_struct/pool_elsmi_off.npy",
+      "bytes": 5685744,
+      "mtime_ns": 1793731287236260100,
+      "download_receipt_sha256": "4624def96688547f5edf7fa347cf9498ff0ac80a9fb669dd53d4bfc20212602e"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_fvec.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/analog_struct/pool_fvec.npy",
+      "bytes": 14214148,
+      "mtime_ns": 1793731299527932300,
+      "download_receipt_sha256": "8eebe4be5c87aa87a498fb998ce013cdc0d0f9aa251d6184ec22f7aad755e07b"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_hash.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/analog_struct/pool_hash.npy",
+      "bytes": 45484992,
+      "mtime_ns": 1793731334564654500,
+      "download_receipt_sha256": "9835d50a54a5ac4b568d2fd5e1221455af86b12cd048df8eef27b6ae4848fa68"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_num.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/analog_struct/pool_num.npy",
+      "bytes": 11371344,
+      "mtime_ns": 1793731294998660400,
+      "download_receipt_sha256": "08f8831f7abada09392570fc27af1fd625a23dd2391ddca65bcb88b3cb2c7430"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/analog_struct/train_coresmi_buf.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/analog_struct/train_coresmi_buf.npy",
+      "bytes": 6940196,
+      "mtime_ns": 1793731290201226800,
+      "download_receipt_sha256": "5352fdcbea2bc09be258cb4047644491919dd289d28422eb51d8f3fdea3a864e"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/analog_struct/train_coresmi_off.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/analog_struct/train_coresmi_off.npy",
+      "bytes": 2206616,
+      "mtime_ns": 1793731278905227200,
+      "download_receipt_sha256": "7f72b42397cb1198521cf09caa72ac4c2788544ba2673e8447cc12fbd6d8aece"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/analog_struct/train_elsmi_buf.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/analog_struct/train_elsmi_buf.npy",
+      "bytes": 10880676,
+      "mtime_ns": 1793731301197310800,
+      "download_receipt_sha256": "9f2b3d602cb5ada97d86a10790f30bb7c070b6c990dfe7c099551cd60ee79d87"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/analog_struct/train_elsmi_off.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/analog_struct/train_elsmi_off.npy",
+      "bytes": 2206616,
+      "mtime_ns": 1793731279221793400,
+      "download_receipt_sha256": "4d84e388a066c85d3496b16f670ed2b39e3a297c8490d2625dd80e0a0f547854"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/analog_struct/train_fvec.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/analog_struct/train_fvec.npy",
+      "bytes": 5516328,
+      "mtime_ns": 1793731283667930600,
+      "download_receipt_sha256": "f30560e0d23e04a3d9e23828a49ef0b9f08977789e41fb00005835d3d970cca2"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/analog_struct/train_hash.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/analog_struct/train_hash.npy",
+      "bytes": 17651968,
+      "mtime_ns": 1793731308634888100,
+      "download_receipt_sha256": "cf5c28edcf09e0a7a76df1b44db6a4638a42ca826ddacd9b2f2f8429a6293dc7"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/analog_struct/train_num.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/analog_struct/train_num.npy",
+      "bytes": 4413088,
+      "mtime_ns": 1793731283452390500,
+      "download_receipt_sha256": "7267bb0bdc9e4d698328c4430f1cac2afd6e37a549ef597ee2eafb922f16997b"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/derivation/parity_fixture.pkl",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/derivation/parity_fixture.pkl",
+      "bytes": 98158,
+      "mtime_ns": 1793731271866160500,
+      "download_receipt_sha256": "bc12af267cbcd05942da8903d9058d20cc23d96c91233967d4a20102fe785176"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/derivation/prior_tables.pkl",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/derivation/prior_tables.pkl",
+      "bytes": 20738118,
+      "mtime_ns": 1793731316242762600,
+      "download_receipt_sha256": "217905818dd187da47cb458a60aeae2a5f2b0139904b4e320f70e41a9bd74c90"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/frag2/caps.txt",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/frag2/caps.txt",
+      "bytes": 149,
+      "mtime_ns": 1793731218894304700,
+      "download_receipt_sha256": "0ebe04b72563f828e4a6391bea393fdeb37777f87fc4c24aa408e41ea3d2ced2"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/frag2/pool_cap.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/frag2/pool_cap.npy",
+      "bytes": 15635550,
+      "mtime_ns": 1793731306434573900,
+      "download_receipt_sha256": "6be43a73f773e50decde505a10e23a3114f09bdc2005fe9c51cc87bf0d851dbe"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/frag2/pool_f1_mass.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/frag2/pool_f1_mass.npy",
+      "bytes": 62531984,
+      "mtime_ns": 1793731350805932900,
+      "download_receipt_sha256": "0fab0a2076b997dd7ff579f2d7e2e54baededb9025b7a1b9fb0bbc3cda4d3272"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/frag2/pool_f1_off.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/frag2/pool_f1_off.npy",
+      "bytes": 5685744,
+      "mtime_ns": 1793731286872913500,
+      "download_receipt_sha256": "de25d731fd3fb09319538949e07c34135a3671ac7bd48dd2dbf9eece08a3121d"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/fragnet/countsA.npz",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/fragnet/countsA.npz",
+      "bytes": 1568346,
+      "mtime_ns": 1793731279281828300,
+      "download_receipt_sha256": "42f37e29b933552175b91e732d9bbbcb08c54bea849976dd55858bc115701f10"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/fragnet/featB.npz",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/fragnet/featB.npz",
+      "bytes": 131473600,
+      "mtime_ns": 1793731367037239700,
+      "download_receipt_sha256": "cbf40d3f16e2748dfaf71033bb87ae5bbb18957b7c76c16e8574caecc05bb33f"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/fragnet/rec_aoff.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/fragnet/rec_aoff.npy",
+      "bytes": 5685744,
+      "mtime_ns": 1793731287868164900,
+      "download_receipt_sha256": "9aadeb10c9629498e20679aa24fc403b1e1e2b3b76dd9799ffc9c4c7d0c1187b"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/fragnet/rec_atom.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/fragnet/rec_atom.npy",
+      "bytes": 66704036,
+      "mtime_ns": 1793731350524038800,
+      "download_receipt_sha256": "4b33b9c3457cdacd0af9913e4bfbc82e30d5f6cddf7041012a81dd448b2b5ce1"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/fragnet/rec_boff.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/fragnet/rec_boff.npy",
+      "bytes": 5685744,
+      "mtime_ns": 1793731289975616600,
+      "download_receipt_sha256": "0d15c8c4072a3bdd23637edeb24843f6adbf9d9dd270adc8fdf82c00436d91da"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/fragnet/rec_bond.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/fragnet/rec_bond.npy",
+      "bytes": 71602625,
+      "mtime_ns": 1793731432693141500,
+      "download_receipt_sha256": "ca1caa5d1c8a2dc3dfcca0031cba402b99e9546c5fb85aaee21a6f7ea1eb901b"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/fragnet/rec_ok.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/fragnet/rec_ok.npy",
+      "bytes": 710829,
+      "mtime_ns": 1793731273987227000,
+      "download_receipt_sha256": "efa48d27dbc1ee7b512b8b376076bd6a6c544c5b86013166e6a52c352b451c68"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/fragnet/sets.pkl",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/fragnet/sets.pkl",
+      "bytes": 9343635,
+      "mtime_ns": 1793731290427369800,
+      "download_receipt_sha256": "922fafcbb454509f1397de6da7bafb19d46edb43520f54405abdbc994c760551"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/fragnet/stageA.npz",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/fragnet/stageA.npz",
+      "bytes": 268385,
+      "mtime_ns": 1793731272944933900,
+      "download_receipt_sha256": "3a501ecbfae647d86d7fda87605eda2d573475201b2482ca02a130aa2a3d7a68"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/res/fragnet/stageB.txt",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/res/fragnet/stageB.txt",
+      "bytes": 544829,
+      "mtime_ns": 1793731272950912200,
+      "download_receipt_sha256": "6916c25c6f32fdea4a20f5c0b4b5cf45a3f6bbbfa625552195a7909e8ae8685b"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/code/fe_v4/v1engine.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/code/fe_v4/v1engine.py",
+      "bytes": 8391,
+      "mtime_ns": 1793731247410263300,
+      "download_receipt_sha256": "9074546910ba850a98bb95afe531669c62a26c15ab8b6bf9d6b6020c77ea0e8a"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/fe_A.pt",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/fe_A.pt",
+      "bytes": 198790165,
+      "mtime_ns": 1793731469526285800,
+      "download_receipt_sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/fe_B.pt",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/fe_B.pt",
+      "bytes": 198790165,
+      "mtime_ns": 1793731503848606400,
+      "download_receipt_sha256": "6f60a22b3c3b21aa48d47328bb9523bdf07cc004bfb72966e0f9713507c24f2e"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/fe_D.pt",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/fe_D.pt",
+      "bytes": 486278727,
+      "mtime_ns": 1793731886712361900,
+      "download_receipt_sha256": "8ae5bee2c978f4f01ea7cfe29b514cd3e9112006ab51aa8b13f20e26e9365362"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/fpnet_0.pt",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/fpnet_0.pt",
+      "bytes": 198790165,
+      "mtime_ns": 1793731534312995500,
+      "download_receipt_sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a"
+    },
+    {
+      "name": "datasets/ahmedberatozer/casmi26-v4b-models/ranker_v4b.pkl",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/ranker_v4b.pkl",
+      "bytes": 14301548,
+      "mtime_ns": 1793731301726959900,
+      "download_receipt_sha256": "6172e926fb2de244f0b9189ed54e1ed8a15e76d166592b724129a4d6a34931da"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/ATTRIBUTION.md",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/ATTRIBUTION.md",
+      "bytes": 1077,
+      "mtime_ns": 1793731425923275400,
+      "download_receipt_sha256": "c9393e830e6fd5e586b3e93522d12c25f1f02d44f110be9004a47536f6883cdb"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/FILE_DESCRIPTIONS.json",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/FILE_DESCRIPTIONS.json",
+      "bytes": 25770,
+      "mtime_ns": 1793731531676635300,
+      "download_receipt_sha256": "6a5f1a99556752ce9107ef6c3e4209a56555683c4cb5bed2bd9b4b66226dde29"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/GROWTH_INPUTS.json",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/GROWTH_INPUTS.json",
+      "bytes": 8258,
+      "mtime_ns": 1793731496180298500,
+      "download_receipt_sha256": "64c88e0c6923b2b6f4ef742aae8cfc7c4d4fd1b3f2d6504687877f71ef207fbe"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/GROWTH_MANIFEST.json",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/GROWTH_MANIFEST.json",
+      "bytes": 6352,
+      "mtime_ns": 1793731486171237300,
+      "download_receipt_sha256": "cae173a5ab7e21c4d86a57579ce1bd106f96502a11fbbac8cdf1205a07e5e73c"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/MANIFEST.json",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/MANIFEST.json",
+      "bytes": 894,
+      "mtime_ns": 1793731418979704800,
+      "download_receipt_sha256": "b4d3aa114e7ba04c618bb022d7943f0d43f0333ecd578dacbe15b8a666b3d67f"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/README.md",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/README.md",
+      "bytes": 14312,
+      "mtime_ns": 1793731519569061500,
+      "download_receipt_sha256": "cca1041f3264296339dadf4b897094aa70f2e4ee2f77003e295c460b715dd6f9"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/aligned_public_priors.py",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/aligned_public_priors.py",
+      "bytes": 1178,
+      "mtime_ns": 1793731428700869800,
+      "download_receipt_sha256": "89873c7312c16be2180d44bb9eb3c4e9ce19c821e74ab92bb41666ea0c0f9248"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/casmi26-pubchem-tier/pc_mass.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/casmi26-pubchem-tier/pc_mass.npy",
+      "bytes": 847004040,
+      "mtime_ns": 1793731864700190800,
+      "download_receipt_sha256": null
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/casmi26-pubchem-tier/pc_off.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/casmi26-pubchem-tier/pc_off.npy",
+      "bytes": 847004048,
+      "mtime_ns": 1793732211137601600,
+      "download_receipt_sha256": null
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/casmi26-pubchem-tier/pc_smiles.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/casmi26-pubchem-tier/pc_smiles.npy",
+      "bytes": 5520120190,
+      "mtime_ns": 1793732712176147800,
+      "download_receipt_sha256": null
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/delta_pc_cid.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/delta_pc_cid.npy",
+      "bytes": 145340,
+      "mtime_ns": 1793731567067602200,
+      "download_receipt_sha256": "6c60a856461bdb6ad2a28c66baf5b67c34b804146cf8ca8bed0eb55ffddeb398"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/delta_pc_ik14.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/delta_pc_ik14.npy",
+      "bytes": 508370,
+      "mtime_ns": 1793731580947428700,
+      "download_receipt_sha256": "4f74a9d10d3690c0f5dd18d5f8937fb74de2b6f1fede780ca17f2db6bb9ba87a"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/delta_pc_lotus_refs.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/delta_pc_lotus_refs.npy",
+      "bytes": 145340,
+      "mtime_ns": 1793731567078826600,
+      "download_receipt_sha256": "ab0ea32e7ece083440d0186af54175c539f7a20687ea593a6771084e2a0b7be5"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/delta_pc_lpmid.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/delta_pc_lpmid.npy",
+      "bytes": 72734,
+      "mtime_ns": 1793731558298957400,
+      "download_receipt_sha256": "7089da71194227bd405004728db2462b26961be156e4838c580508cef2370c6b"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/delta_pc_lsid.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/delta_pc_lsid.npy",
+      "bytes": 72734,
+      "mtime_ns": 1793731559037363700,
+      "download_receipt_sha256": "673a198394971fc1b78fecf77b6f9a89000719ac0b76c1aa7ffdeb81486f2a29"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/delta_pc_lsynonyms.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/delta_pc_lsynonyms.npy",
+      "bytes": 72734,
+      "mtime_ns": 1793731558663439000,
+      "download_receipt_sha256": "12d1ac3c4d320f57e6dd0e83aae8aeb598bc79c42186e8b07f55185b84824838"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/delta_pc_mass.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/delta_pc_mass.npy",
+      "bytes": 290552,
+      "mtime_ns": 1793731576069074200,
+      "download_receipt_sha256": "ef82c84ce4ca3d9a00a2a5bbe265bda379b5e8525f8ec92bfd45cea408d7c011"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/delta_pc_np.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/delta_pc_np.npy",
+      "bytes": 36431,
+      "mtime_ns": 1793731547270513000,
+      "download_receipt_sha256": "30b3e56727e9e8f08ab5928066ae9974edefa724ccb6e4b6ceb2f63c4c23c31c"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/delta_pc_off.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/delta_pc_off.npy",
+      "bytes": 290560,
+      "mtime_ns": 1793731576060822300,
+      "download_receipt_sha256": "edb3c5565dab80f7c7cddb7d6070f8f79f8fbfb758f9becb0c98c27cea85f5fb"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/delta_pc_smiles.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/delta_pc_smiles.npy",
+      "bytes": 2320603,
+      "mtime_ns": 1793731626405292300,
+      "download_receipt_sha256": "604c68274fb313bd032fd16315b3c928cd619f29137bd4cb67bfc6c38fae4d75"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/delta_pc_src_mask.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/delta_pc_src_mask.npy",
+      "bytes": 72734,
+      "mtime_ns": 1793731560437810400,
+      "download_receipt_sha256": "52ceaac2cfca47983d3b8328a30220e264ed5cfff3140fb04a7ecb55bdea551e"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/delta_pc_src_observed.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/delta_pc_src_observed.npy",
+      "bytes": 36431,
+      "mtime_ns": 1793731547232874300,
+      "download_receipt_sha256": "e734af8c8cf8e20fb2d0c5460220109c69a23f45b3a2a7ff2bb8922623569455"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/growth_pc_cid.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/growth_pc_cid.npy",
+      "bytes": 44836,
+      "mtime_ns": 1793731553398167700,
+      "download_receipt_sha256": "dd182e3b29c435b4a8b6f8db9af271a26bd895d04dbe2f63c60e9c7a403eb4cf"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/growth_pc_ik14.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/growth_pc_ik14.npy",
+      "bytes": 156606,
+      "mtime_ns": 1793731570460255300,
+      "download_receipt_sha256": "4b5cc955bd472bf4b6f79111382f08da2b2e13d0955fd9f7ae7861df636f6867"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/growth_pc_lotus_refs.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/growth_pc_lotus_refs.npy",
+      "bytes": 44836,
+      "mtime_ns": 1793731553398167700,
+      "download_receipt_sha256": "c36054e30c5762a76287242dd6905fe673f8998be356c2c10b4dfd2525d65d07"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/growth_pc_lpmid.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/growth_pc_lpmid.npy",
+      "bytes": 22482,
+      "mtime_ns": 1793731526937835800,
+      "download_receipt_sha256": "6087f448d23c830d71b507f0d37d2fa03e8a7edb439fc4f11cac2c6dc296272f"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/growth_pc_lsid.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/growth_pc_lsid.npy",
+      "bytes": 22482,
+      "mtime_ns": 1793731528957560400,
+      "download_receipt_sha256": "b61869798298ec8bc909263a58f5025830f599ec8488d16ef4f94b5625a40e6b"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/growth_pc_lsynonyms.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/growth_pc_lsynonyms.npy",
+      "bytes": 22482,
+      "mtime_ns": 1793731526982809200,
+      "download_receipt_sha256": "82104705a06d5296d8fb14a6daa786e47fe193359b0fc881d7f32d439f0105da"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/growth_pc_mass.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/growth_pc_mass.npy",
+      "bytes": 89544,
+      "mtime_ns": 1793731561356495900,
+      "download_receipt_sha256": "ca46c1c72932c1cc6b58ab9bcb833a2125281f20c0b623af9fa30b182561ef1b"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/growth_pc_np.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/growth_pc_np.npy",
+      "bytes": 11305,
+      "mtime_ns": 1793731513141735000,
+      "download_receipt_sha256": "0247d671abeee3d605859f4f95b6d9876fca22539136039ece9c7f73c0ba6464"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/growth_pc_off.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/growth_pc_off.npy",
+      "bytes": 89552,
+      "mtime_ns": 1793731562743121600,
+      "download_receipt_sha256": "07ba3dc94264691e8a74912aa85c9e64415a4511d41e58055de36fdda34cce5e"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/growth_pc_smiles.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/growth_pc_smiles.npy",
+      "bytes": 559296,
+      "mtime_ns": 1793731581384011500,
+      "download_receipt_sha256": "578590187454a7b01d3af9f994ab7cd148041a8fcab913bffa44a99909167ab4"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/growth_pc_src_mask.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/growth_pc_src_mask.npy",
+      "bytes": 22482,
+      "mtime_ns": 1793731528979530800,
+      "download_receipt_sha256": "9723906a530f498a678018ae5ea4c616690aaf6f435f2bbd9f588594b3676ea8"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/growth_pc_src_observed.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/growth_pc_src_observed.npy",
+      "bytes": 11305,
+      "mtime_ns": 1793731513588983300,
+      "download_receipt_sha256": "befe16f61edd8b2d9bb0947026c01b52f01763b6641b0ba402d13dd44a0ca3f5"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pc_lotus_refs.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pc_lotus_refs.npy",
+      "bytes": 211751106,
+      "mtime_ns": 1793732176933253500,
+      "download_receipt_sha256": "8f3aa62dfc687441f361b6d7a69090ec97341bebba1ceeeb31db0527c0c53481"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pc_lpmid.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pc_lpmid.npy",
+      "bytes": 211751106,
+      "mtime_ns": 1793731515555740000,
+      "download_receipt_sha256": "ab8c8f7cb19cf23ebaa5ef8500c72ee8960987776db73d6d951489d394c7c4f2"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pc_lsid.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pc_lsid.npy",
+      "bytes": 211751106,
+      "mtime_ns": 1793731647935113600,
+      "download_receipt_sha256": "99f0de558e7a17e2a18a0f118228bcbfd50cdfefe31635488992585ff067de0c"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pc_lsynonyms.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pc_lsynonyms.npy",
+      "bytes": 211751106,
+      "mtime_ns": 1793732565665450200,
+      "download_receipt_sha256": "7bf7c427d1746fb2c1eff7271c5bc81b47b740c74b99acbd2f1a95d838562504"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pc_np.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pc_np.npy",
+      "bytes": 105875617,
+      "mtime_ns": 1793732100032005200,
+      "download_receipt_sha256": "04cb9a14f4077b8cd396d54e2635c36a813c930bdfee5309c75b906291638a5f"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pc_src_mask.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pc_src_mask.npy",
+      "bytes": 211751106,
+      "mtime_ns": 1793732619286619200,
+      "download_receipt_sha256": "1d72e2ceed72dc23f8ade42cffd052d21d1ffa59cca229c690bb55b0e9206589"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pool_cid.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pool_cid.npy",
+      "bytes": 2842932,
+      "mtime_ns": 1793731632477980800,
+      "download_receipt_sha256": "5bd33739596de0d396c04fc50ec1268e95a427917016f06c00cc04e853155b25"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pool_formula_isomers.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pool_formula_isomers.npy",
+      "bytes": 1421530,
+      "mtime_ns": 1793731598085543000,
+      "download_receipt_sha256": "cce7974779e71c4cd8ff41a3291bf1d57caa48f9a0a1fe7b1ff58a2699eff01e"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pool_has_different_parent.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pool_has_different_parent.npy",
+      "bytes": 710829,
+      "mtime_ns": 1793731591996805600,
+      "download_receipt_sha256": "7b23111c70942bf6c7ee770d103b50a9d9b1c4b530051fa851e3b39d05ea68a8"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pool_lmesh.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pool_lmesh.npy",
+      "bytes": 1421530,
+      "mtime_ns": 1793731599282157200,
+      "download_receipt_sha256": "c6309dfcfffaf601dad54de724d0b55956873314b626eac241decf68b6a862bc"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pool_lotus_refs.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pool_lotus_refs.npy",
+      "bytes": 1421530,
+      "mtime_ns": 1793731599272164300,
+      "download_receipt_sha256": "b3a8e9a44f25c83cc8794a05e0800a1800caa36ebe7f857a10c6b823b51d4dc8"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pool_lpatent.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pool_lpatent.npy",
+      "bytes": 1421530,
+      "mtime_ns": 1793731606841807800,
+      "download_receipt_sha256": "ba80c57bc2e83538658a3c7e2ed27e11936d67adcaede98320ce8bd43bc48ce2"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pool_lpmid.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pool_lpmid.npy",
+      "bytes": 1421530,
+      "mtime_ns": 1793731276092984000,
+      "download_receipt_sha256": "4cbece84f0a8ae04895df2c7184ac1e121803b9cad1a6de16333848d4834bb5b"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pool_lsid.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pool_lsid.npy",
+      "bytes": 1421530,
+      "mtime_ns": 1793731277436986600,
+      "download_receipt_sha256": "461ebd8bb1035faf019075bd122f28445a65c52b4b09a209e5d49fad1f7d71e5"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pool_lsynonyms.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pool_lsynonyms.npy",
+      "bytes": 1421530,
+      "mtime_ns": 1793731602792487900,
+      "download_receipt_sha256": "29bb614126f060af9d9d9257d9a28aeff9288c60227505fae378f0049e36c1b3"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pool_n_depositors.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pool_n_depositors.npy",
+      "bytes": 1421530,
+      "mtime_ns": 1793731606403278900,
+      "download_receipt_sha256": "97a16d2ac5dc88198db85ea9c1e9ff1bb56763217d8ba3da8aa8f90d22f22ea2"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pool_n_vendors.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pool_n_vendors.npy",
+      "bytes": 1421530,
+      "mtime_ns": 1793731603672870700,
+      "download_receipt_sha256": "86a7c47053f0e7a3e1ffad8b934ffa070cf5b752b8c37a06c571fe7b097c40e4"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pool_np.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pool_np.npy",
+      "bytes": 710829,
+      "mtime_ns": 1793731588180262200,
+      "download_receipt_sha256": "87ad6f0afb6cf930b47ed035dd4acc20e1305d1b96ceeff1f8fdbddd6892e390"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pool_parent_cid.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pool_parent_cid.npy",
+      "bytes": 2842932,
+      "mtime_ns": 1793731626917849600,
+      "download_receipt_sha256": "1e5e783689c4859e103a719ca8cc51f366ca8c904a09e2d4e21ef5b20acf74e8"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pool_popularity.csv",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pool_popularity.csv",
+      "bytes": 180875134,
+      "mtime_ns": 1793732074822858600,
+      "download_receipt_sha256": "33955e2fb32d3e8b6d030f5585f7823097194829f434df90f8214be44b7ba764"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pool_src_mask.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pool_src_mask.npy",
+      "bytes": 1421530,
+      "mtime_ns": 1793731604964933200,
+      "download_receipt_sha256": "6e4b8831abebadf7aa418fc192d58486a86084954e6cdc3ee53543533507d695"
+    },
+    {
+      "name": "datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pubchemlite_annotations.parquet",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/dmitriigluzdov/casmi26-pubchem-popularity-prior/v13/pubchemlite_annotations.parquet",
+      "bytes": 13570437,
+      "mtime_ns": 1793731739739606600,
+      "download_receipt_sha256": "7a054d9b5933f7bda90965f9671dac234c2bf2420435cd39c2e69177b6a0f15d"
+    },
+    {
+      "name": "datasets/franciscoangulo/casmi26-pubchemlite-cc0-candidate-fingerprints/MANIFEST.json",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/franciscoangulo/casmi26-pubchemlite-cc0-candidate-fingerprints/v1/MANIFEST.json",
+      "bytes": 920,
+      "mtime_ns": 1793731224455028300,
+      "download_receipt_sha256": "f333f6fa150f807f2981faa7dcb930b90c6f5022015f7314f428cb8bd84e42cb"
+    },
+    {
+      "name": "datasets/franciscoangulo/casmi26-pubchemlite-cc0-candidate-fingerprints/pubchemlite_fp.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/franciscoangulo/casmi26-pubchemlite-cc0-candidate-fingerprints/v1/pubchemlite_fp.npy",
+      "bytes": 334454048,
+      "mtime_ns": 1793731589675765600,
+      "download_receipt_sha256": "724926ecb4bfb2efc7e63014e7f6b8bed8aec34882a435f039c0ddab139e569c"
+    },
+    {
+      "name": "datasets/franciscoangulo/casmi26-pubchemlite-cc0-candidate-fingerprints/pubchemlite_mass.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/franciscoangulo/casmi26-pubchemlite-cc0-candidate-fingerprints/v1/pubchemlite_mass.npy",
+      "bytes": 3086208,
+      "mtime_ns": 1793731279866477000,
+      "download_receipt_sha256": "f107bdf361b75fb2f6115abb2a28eda053b476b6c3694f4b0a2bfdadb248730f"
+    },
+    {
+      "name": "datasets/franciscoangulo/casmi26-pubchemlite-cc0-candidate-fingerprints/pubchemlite_meta.pkl",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/franciscoangulo/casmi26-pubchemlite-cc0-candidate-fingerprints/v1/pubchemlite_meta.pkl",
+      "bytes": 23642096,
+      "mtime_ns": 1793731315238344900,
+      "download_receipt_sha256": "3c9a18c7662022bce51759b1660292b712fe7544459020e38299d2f0747517ce"
+    },
+    {
+      "name": "datasets/megayak/casmi26-simulated-ranker-rows/sim_rank_rows_nofp.npz",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/megayak/casmi26-simulated-ranker-rows/v4/sim_rank_rows_nofp.npz",
+      "bytes": 26872207,
+      "mtime_ns": 1793731315217720800,
+      "download_receipt_sha256": "c19ae76f69c7a3f23e67d2e27441830213eee941aa5658b47b1798872a61a7e9"
+    },
+    {
+      "name": "datasets/metric/rdkit-2026-3-3-wheel/rdkit-2026.3.3-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/metric/rdkit-2026-3-3-wheel/v1/rdkit-2026.3.3-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 37188323,
+      "mtime_ns": 1793731350873190900,
+      "download_receipt_sha256": "c69a40ad52a2489cf592d55b41f5f6fa482f028341c038f3ed7d6b46834d1d3d"
+    },
+    {
+      "name": "datasets/prvsiyan/casmi26-fp-models-v2/fp_merged_m1.pt",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/prvsiyan/casmi26-fp-models-v2/v1/fp_merged_m1.pt",
+      "bytes": 144110255,
+      "mtime_ns": 1793731377909507600,
+      "download_receipt_sha256": "261529c823825cbe2028684bbf7214a95a7e631ca9f656336d577c507cce8294"
+    },
+    {
+      "name": "datasets/prvsiyan/casmi26-fp-models-v2/fp_single_s2.pt",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/prvsiyan/casmi26-fp-models-v2/v1/fp_single_s2.pt",
+      "bytes": 144110255,
+      "mtime_ns": 1793731431899680600,
+      "download_receipt_sha256": "c19aa29016ed4d7a67bac38105b8fa5076c696c29eb66a504558c9b2e52b614a"
+    },
+    {
+      "name": "datasets/prvsiyan/casmi26-ranker-features/rank_train.npz",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/prvsiyan/casmi26-ranker-features/v6/rank_train.npz",
+      "bytes": 9553020,
+      "mtime_ns": 1793731291059984300,
+      "download_receipt_sha256": "41ccec87fba5f8ab255aaf5a723567f25bd766064265c5cc2b83ba2cf15f57f8"
+    },
+    {
+      "name": "datasets/prvsiyan/coconut-casmi26-candidates/coco_fp.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/prvsiyan/coconut-casmi26-candidates/v2/coco_fp.npy",
+      "bytes": 378349391,
+      "mtime_ns": 1793731752922251300,
+      "download_receipt_sha256": "5d960d7355e0e10b22f1b2fa97c9fde37e86ddffbea8e562ec1873bdbb0e5f88"
+    },
+    {
+      "name": "datasets/prvsiyan/coconut-casmi26-candidates/coco_mass.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/prvsiyan/coconut-casmi26-candidates/v2/coco_mass.npy",
+      "bytes": 3491240,
+      "mtime_ns": 1793731282119469200,
+      "download_receipt_sha256": "2b2af92c3185fa8cd52a4a3e3e7fd7eda4d94e8b9402662a3a4c55ffb13c6e5c"
+    },
+    {
+      "name": "datasets/prvsiyan/coconut-casmi26-candidates/coco_meta.pkl",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/prvsiyan/coconut-casmi26-candidates/v2/coco_meta.pkl",
+      "bytes": 41450156,
+      "mtime_ns": 1793731338599349200,
+      "download_receipt_sha256": "29eab3083adcb329b52ac7909b4d3ce21f9f95a4008a93356bc526310ab44091"
+    },
+    {
+      "name": "datasets/prvsiyan/coconut-casmi26-candidates/fp_bits.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/prvsiyan/coconut-casmi26-candidates/v2/fp_bits.npy",
+      "bytes": 55568,
+      "mtime_ns": 1793731270284144800,
+      "download_receipt_sha256": "a61e372fc41091bf5c7467e08134081266262665077cb9e2c56d73e4887f3013"
+    },
+    {
+      "name": "datasets/sergiomalv/casmi-chebi-lmsd-structures/ATTRIBUTION.md",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/sergiomalv/casmi-chebi-lmsd-structures/v1/ATTRIBUTION.md",
+      "bytes": 2428,
+      "mtime_ns": 1793731232171379000,
+      "download_receipt_sha256": "fb49f6a959f562b7edb50a9103eccbbdf55a2c38327f09b989a369311fd280d7"
+    },
+    {
+      "name": "datasets/sergiomalv/casmi-chebi-lmsd-structures/bio_fp.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/sergiomalv/casmi-chebi-lmsd-structures/v1/bio_fp.npy",
+      "bytes": 85341539,
+      "mtime_ns": 1793731386609690900,
+      "download_receipt_sha256": "daa609d2b598f5b7e4a7692116f05b39b508d1a5565a9f19ef163cd0d4e98544"
+    },
+    {
+      "name": "datasets/sergiomalv/casmi-chebi-lmsd-structures/bio_mass.npy",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/sergiomalv/casmi-chebi-lmsd-structures/v1/bio_mass.npy",
+      "bytes": 787592,
+      "mtime_ns": 1793731275251348400,
+      "download_receipt_sha256": "2407a2ee04bd6bc468db876e7c0569842e7652432386cf1101dc85ef5a5611df"
+    },
+    {
+      "name": "datasets/sergiomalv/casmi-chebi-lmsd-structures/bio_meta.pkl",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/sergiomalv/casmi-chebi-lmsd-structures/v1/bio_meta.pkl",
+      "bytes": 14266637,
+      "mtime_ns": 1793731301541230300,
+      "download_receipt_sha256": "bfc92d81dafe8244a86f3a7b74b0da66b61605a9581b78c60acea619908404d4"
+    },
+    {
+      "name": "datasets/sergiomalv/casmi-chebi-lmsd-structures/bio_structures.parquet",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/sergiomalv/casmi-chebi-lmsd-structures/v1/bio_structures.parquet",
+      "bytes": 5407545,
+      "mtime_ns": 1793731281886842100,
+      "download_receipt_sha256": "6bef7106d640ed370046e79d67b86932ba26da3a3632e6901e3b040fad56aa88"
+    },
+    {
+      "name": "datasets/sergiomalv/casmi-chebi-lmsd-structures/stats.json",
+      "resolved_path": "/mnt/d/Paper/casmi/assets/kaggle/sergiomalv/casmi-chebi-lmsd-structures/v1/stats.json",
+      "bytes": 608,
+      "mtime_ns": 1793731223602012400,
+      "download_receipt_sha256": "dd0d5686dd54824a40857b75338ed03dc922a2580031d246bf1995b43af57a5e"
+    }
+  ],
+  "competition_root": "/mnt/d/Paper/casmi/enveda-CASMI26-molecule-id-mass-spectra",
+  "competition_files": [
+    {
+      "name": "train.parquet",
+      "resolved_path": "/mnt/d/Paper/casmi/enveda-CASMI26-molecule-id-mass-spectra/train.parquet",
+      "bytes": 3033286496,
+      "mtime_ns": 1792862123383409500,
+      "download_receipt_sha256": null
+    },
+    {
+      "name": "test.parquet",
+      "resolved_path": "/mnt/d/Paper/casmi/enveda-CASMI26-molecule-id-mass-spectra/test.parquet",
+      "bytes": 4848729,
+      "mtime_ns": 1792862099588858700,
+      "download_receipt_sha256": null
+    },
+    {
+      "name": "sample_submission.csv",
+      "resolved_path": "/mnt/d/Paper/casmi/enveda-CASMI26-molecule-id-mass-spectra/sample_submission.csv",
+      "bytes": 43619,
+      "mtime_ns": 1792862099531512200,
+      "download_receipt_sha256": null
+    }
+  ],
+  "input_metadata_sha256": "af0061ef9d5c0f105981da037689275ffa40cb427fdd913d7eda84043c7f3162",
+  "competition_metadata_sha256": "ae1480eb4e504883bb02496936355c86beeba086ea21254d79d7aba3396a1b33",
+  "molecules": 12,
+  "candidate_counts": {
+    "m_005e53": 40,
+    "m_006153": 40,
+    "m_00b5aa": 40,
+    "m_01e922": 40,
+    "m_0259d4": 40,
+    "m_02d188": 40,
+    "m_0318b5": 40,
+    "m_043e86": 40,
+    "m_050bf1": 40,
+    "m_05b52e": 40,
+    "m_068354": 40,
+    "m_06e13d": 31
+  },
+  "not_cold_start": true,
+  "limitations": [
+    "Prior source run did not snapshot input metadata at Engine2 completion; binding is retrospective.",
+    "Requires current input payload mtimes to precede prior output and identical resolved-file metadata.",
+    "Downloaded content hashes are recorded from download receipts; large inputs are not rehashed here.",
+    "Only Engine2 candidates are reused. Subsequent stages and their failure checks execute normally."
+  ],
+  "binding_sha256": "d2329632afeb6ad8e5a04a29054e50db9830f4aff55c34249e6f6c3f65a88384"
+}

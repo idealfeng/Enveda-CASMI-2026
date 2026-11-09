@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "mode": "fast_static",
+  "checks": {
+    "public_model_pins": true,
+    "faithful_public_fallback": true,
+    "original_priors": true,
+    "mass_only": true,
+    "official_rdkit": true,
+    "ids_schema": true,
+    "fast_no_model": true
+  },
+  "csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "models": "public/public: no second checkpoint in original attachments"
+}

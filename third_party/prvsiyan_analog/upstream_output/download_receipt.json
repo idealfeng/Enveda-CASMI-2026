@@ -1,0 +1,62 @@
+{
+  "status": "version_bound_output_downloaded",
+  "ref": "prvsiyan/analog-propagation-casmi-2026-baseline",
+  "source_url": "https://www.kaggle.com/api/v1/kernels/output/download/prvsiyan/analog-propagation-casmi-2026-baseline/submission.csv?versionNumber=43",
+  "download_date": "2026-11-04",
+  "auth_used": false,
+  "version_binding": {
+    "requested_kernel_version": 43,
+    "invalid_version_rejected": true,
+    "storage_script_version_id": 360497306,
+    "source_notebook_sha256": "a1da86c791cdbcb553254a12cef8bca8b527b991f40953d9dcb2a9c819d3c852",
+    "matches_downloaded_source_script_version_id": true
+  },
+  "original_output": {
+    "file": "prvsiyan_v43_submission.csv",
+    "bytes": 17303,
+    "sha256": "5c098f153b748a651757c5aea2f078a7d1d82cfb3ae89bd656c5cc81a203ce76",
+    "rows": 400,
+    "headers": {
+      "Content-Type": "text/plain; charset=utf-8",
+      "Content-Length": "17303",
+      "Last-Modified": "Tue, 20 Oct 2026 17:35:32 GMT"
+    }
+  },
+  "active_output": {
+    "file": "prvsiyan_v43_active12.csv",
+    "bytes": 12259,
+    "sha256": "ab77a99b2960dc3f12cfa195a2236d1987aee059d6c7370caabfe2bd5123b845",
+    "rows": 12,
+    "ids": [
+      "m_005e53",
+      "m_006153",
+      "m_00b5aa",
+      "m_01e922",
+      "m_0259d4",
+      "m_02d188",
+      "m_0318b5",
+      "m_043e86",
+      "m_050bf1",
+      "m_05b52e",
+      "m_068354",
+      "m_06e13d"
+    ],
+    "candidate_counts": {
+      "m_005e53": 25,
+      "m_006153": 25,
+      "m_00b5aa": 25,
+      "m_01e922": 25,
+      "m_0259d4": 25,
+      "m_02d188": 25,
+      "m_0318b5": 25,
+      "m_043e86": 25,
+      "m_050bf1": 25,
+      "m_05b52e": 25,
+      "m_068354": 25,
+      "m_06e13d": 25
+    }
+  },
+  "visible_test_signature": "654e030e4173780e945252b4a5adf70b",
+  "placeholder_rows": 388,
+  "scope": "Upstream visible-placeholder smoke output; reference for ordered candidate comparison, not ground truth or hidden validation"
+}

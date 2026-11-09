@@ -1,0 +1,133 @@
+{
+  "download_date": "2026-11-04",
+  "origin_notebook": "https://www.kaggle.com/code/canqiang/casmi26-e006-window-40-ice-fallback-true",
+  "requested_version": 1,
+  "mirror_repo": "https://github.com/billylu24/Enveda-CASMI-2026---Molecule-ID-From-Mass-Spectra",
+  "mirror_commit": "b4da1be06973a19c3db0ed94d9dda14416def023",
+  "files": [
+    {
+      "local_path": "upstream_mirror/README.md",
+      "upstream_path": "research/canqiang_e006_20261011/README.md",
+      "url": "https://raw.githubusercontent.com/billylu24/Enveda-CASMI-2026---Molecule-ID-From-Mass-Spectra/b4da1be06973a19c3db0ed94d9dda14416def023/research/canqiang_e006_20261011/README.md",
+      "bytes": 2502,
+      "git_blob_sha": "e1cd72c7d398e111f62341e82a767c80b4217377",
+      "sha256": "12eb7645d677f51e313b5fe9ca39862cea79485be1e2f6089c945e6a84acca46"
+    },
+    {
+      "local_path": "upstream_mirror/RESULTS.md",
+      "upstream_path": "research/canqiang_e006_20261011/RESULTS.md",
+      "url": "https://raw.githubusercontent.com/billylu24/Enveda-CASMI-2026---Molecule-ID-From-Mass-Spectra/b4da1be06973a19c3db0ed94d9dda14416def023/research/canqiang_e006_20261011/RESULTS.md",
+      "bytes": 856,
+      "git_blob_sha": "7946065e2b756a1222db8fd532b52b73c281c4d1",
+      "sha256": "547bda6d319746c874d3714f16f238f143b36c25af0d41026b6a2b6f4c76ba92"
+    },
+    {
+      "local_path": "upstream_mirror/evidence/dependencies.json",
+      "upstream_path": "research/canqiang_e006_20261011/evidence/dependencies.json",
+      "url": "https://raw.githubusercontent.com/billylu24/Enveda-CASMI-2026---Molecule-ID-From-Mass-Spectra/b4da1be06973a19c3db0ed94d9dda14416def023/research/canqiang_e006_20261011/evidence/dependencies.json",
+      "bytes": 2948,
+      "git_blob_sha": "4e796bef5c81a1d76a860d59bf3246eeb2732c52",
+      "sha256": "7eca3daf4e67e0e1848b7131148480f0408382173aeba116e72fb97c54b7282b"
+    },
+    {
+      "local_path": "upstream_mirror/evidence/platform_acceptance.json",
+      "upstream_path": "research/canqiang_e006_20261011/evidence/platform_acceptance.json",
+      "url": "https://raw.githubusercontent.com/billylu24/Enveda-CASMI-2026---Molecule-ID-From-Mass-Spectra/b4da1be06973a19c3db0ed94d9dda14416def023/research/canqiang_e006_20261011/evidence/platform_acceptance.json",
+      "bytes": 5882,
+      "git_blob_sha": "f42797f5126dfe78b4699ce20ecb9121b8f69719",
+      "sha256": "21d1b281b3d9497f8fc23872d3320d4e25cad204074013605b5ead9b7d07e66c"
+    },
+    {
+      "local_path": "upstream_mirror/evidence/platform_output/reproduction_acceptance.json",
+      "upstream_path": "research/canqiang_e006_20261011/evidence/platform_output/reproduction_acceptance.json",
+      "url": "https://raw.githubusercontent.com/billylu24/Enveda-CASMI-2026---Molecule-ID-From-Mass-Spectra/b4da1be06973a19c3db0ed94d9dda14416def023/research/canqiang_e006_20261011/evidence/platform_output/reproduction_acceptance.json",
+      "bytes": 3826,
+      "git_blob_sha": "82c5a928167ad5c69226165ffe81315612ffe85b",
+      "sha256": "73fc6fc3b8c8ec8aba20cebda4a1aa6c610268ad97be96b74af2b9730164c21b"
+    },
+    {
+      "local_path": "upstream_mirror/evidence/release_identity.json",
+      "upstream_path": "research/canqiang_e006_20261011/evidence/release_identity.json",
+      "url": "https://raw.githubusercontent.com/billylu24/Enveda-CASMI-2026---Molecule-ID-From-Mass-Spectra/b4da1be06973a19c3db0ed94d9dda14416def023/research/canqiang_e006_20261011/evidence/release_identity.json",
+      "bytes": 796,
+      "git_blob_sha": "76ea8af5a46938b9411527591c1d6ec291c38ff3",
+      "sha256": "06193201f3a95c3bbe9e18b36efc5c9ccdd2c549e1d81b9be5412b08a36868bc"
+    },
+    {
+      "local_path": "upstream_mirror/evidence/source_api_metadata.json",
+      "upstream_path": "research/canqiang_e006_20261011/evidence/source_api_metadata.json",
+      "url": "https://raw.githubusercontent.com/billylu24/Enveda-CASMI-2026---Molecule-ID-From-Mass-Spectra/b4da1be06973a19c3db0ed94d9dda14416def023/research/canqiang_e006_20261011/evidence/source_api_metadata.json",
+      "bytes": 1340,
+      "git_blob_sha": "3e9acfb2a48b42a2f3b57b44a30b5e9adec73aba",
+      "sha256": "119f670c010e0d4d21c048cfd5491331a31262c3c0fccfd4b5b28b1356134105"
+    },
+    {
+      "local_path": "upstream_mirror/evidence/source_page_evidence.json",
+      "upstream_path": "research/canqiang_e006_20261011/evidence/source_page_evidence.json",
+      "url": "https://raw.githubusercontent.com/billylu24/Enveda-CASMI-2026---Molecule-ID-From-Mass-Spectra/b4da1be06973a19c3db0ed94d9dda14416def023/research/canqiang_e006_20261011/evidence/source_page_evidence.json",
+      "bytes": 382,
+      "git_blob_sha": "dc1576c30559f6890fc9a2e8660af6902998849e",
+      "sha256": "bce45a162e9569559f79d71581df51c588ec8b28bc08fef55134e94d7c46f153"
+    },
+    {
+      "local_path": "upstream_mirror/evidence/source_preview_comparison.json",
+      "upstream_path": "research/canqiang_e006_20261011/evidence/source_preview_comparison.json",
+      "url": "https://raw.githubusercontent.com/billylu24/Enveda-CASMI-2026---Molecule-ID-From-Mass-Spectra/b4da1be06973a19c3db0ed94d9dda14416def023/research/canqiang_e006_20261011/evidence/source_preview_comparison.json",
+      "bytes": 350,
+      "git_blob_sha": "f87b8c058dfe611d6f2c7093ccc782396d3ffd34",
+      "sha256": "43274d898fc58537ef77ffc4f8c5b0b2226240d5ea84cde495eddc9b47aa5907"
+    },
+    {
+      "local_path": "upstream_mirror/evidence/submission_result.json",
+      "upstream_path": "research/canqiang_e006_20261011/evidence/submission_result.json",
+      "url": "https://raw.githubusercontent.com/billylu24/Enveda-CASMI-2026---Molecule-ID-From-Mass-Spectra/b4da1be06973a19c3db0ed94d9dda14416def023/research/canqiang_e006_20261011/evidence/submission_result.json",
+      "bytes": 600,
+      "git_blob_sha": "34725adcd07c8c643a3ff20faa07e66bcdb5ce1a",
+      "sha256": "862f02df2c9aa80816742a2649333a964ec4baa1a12dc1431e38d65ebd1d9132"
+    },
+    {
+      "local_path": "upstream_mirror/release/kernel-metadata.json",
+      "upstream_path": "research/canqiang_e006_20261011/release/kernel-metadata.json",
+      "url": "https://raw.githubusercontent.com/billylu24/Enveda-CASMI-2026---Molecule-ID-From-Mass-Spectra/b4da1be06973a19c3db0ed94d9dda14416def023/research/canqiang_e006_20261011/release/kernel-metadata.json",
+      "bytes": 1326,
+      "git_blob_sha": "c59beeceadee214c87c002fc96f0cb5bfc008ab2",
+      "sha256": "9080bfd06b2dcf6ecb99684aa7bc021ab4753f49921541d18a1dc62e89bd1ced"
+    },
+    {
+      "local_path": "upstream_mirror/release/reproduction.ipynb",
+      "upstream_path": "research/canqiang_e006_20261011/release/reproduction.ipynb",
+      "url": "https://raw.githubusercontent.com/billylu24/Enveda-CASMI-2026---Molecule-ID-From-Mass-Spectra/b4da1be06973a19c3db0ed94d9dda14416def023/research/canqiang_e006_20261011/release/reproduction.ipynb",
+      "bytes": 145681,
+      "git_blob_sha": "2cb1be9e608ee089baa23a60f573c42ac543f60e",
+      "sha256": "e06dc6550afb86168d6f83d031f6e818d9ef5a0a4ffdbbbb457f7f085890a657"
+    },
+    {
+      "local_path": "upstream_mirror/source/casmi26-e006-window-40-ice-fallback-true.ipynb",
+      "upstream_path": "research/canqiang_e006_20261011/source/casmi26-e006-window-40-ice-fallback-true.ipynb",
+      "url": "https://raw.githubusercontent.com/billylu24/Enveda-CASMI-2026---Molecule-ID-From-Mass-Spectra/b4da1be06973a19c3db0ed94d9dda14416def023/research/canqiang_e006_20261011/source/casmi26-e006-window-40-ice-fallback-true.ipynb",
+      "bytes": 141243,
+      "git_blob_sha": "2f6957c327d6b979d5830e0ea3b7906b3329b0ea",
+      "sha256": "ee55b55c7f5bdb08f1a8154396b18fdb0203fb7178b3a52429e0999e69ad7e53"
+    },
+    {
+      "local_path": "upstream_mirror/source/kernel-metadata.json",
+      "upstream_path": "research/canqiang_e006_20261011/source/kernel-metadata.json",
+      "url": "https://raw.githubusercontent.com/billylu24/Enveda-CASMI-2026---Molecule-ID-From-Mass-Spectra/b4da1be06973a19c3db0ed94d9dda14416def023/research/canqiang_e006_20261011/source/kernel-metadata.json",
+      "bytes": 1357,
+      "git_blob_sha": "d7ccb335ea26a797372c2761c1f98bb832fa2e70",
+      "sha256": "2565b0637f002f15021dbfc72dde9bb98c5fc05305eeed4d9f8b89e26a9c9780"
+    }
+  ],
+  "execution_status": "not executed; static download only",
+  "direct_source": {
+    "url": "https://www.kaggle.com/api/v1/kernels/pull/canqiang/casmi26-e006-window-40-ice-fallback-true",
+    "local_path": "original/canqiang_e006_v1.ipynb",
+    "version": 1,
+    "sha256": "ee55b55c7f5bdb08f1a8154396b18fdb0203fb7178b3a52429e0999e69ad7e53",
+    "exact_mirror_bytes": true
+  },
+  "component_weights": {
+    "local_path": "../../assets/kaggle/ahmedberatozer/casmi26-fpnet-full1/v1/fpnet_full1.pt",
+    "sha256": "d13a3611e499d7783c4a6fce5b04363eb297dcf70f2d7d00bb66f9ff1f547123"
+  }
+}

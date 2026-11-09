@@ -1,0 +1,104 @@
+Using 250 enveda-np-examples structures as CV doesn't seem very helpful (CV-LB thread)
+
+https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/741597
+
+Author: Adarsh
+
+Posted: 2026-09-16T03:21:53.259Z
+
+Using this dataset doesnt seem to have a good correlation with LB. Anyone else have any suggestions on a good candidate dataset to use as CV which correlated well with LB they would like to share?
+
+
+Comment: haideptry
+
+The correlation breaks mainly because enveda-np-examples is leaking across other libraries, and because the actual test set is dominated by Class 2 and Class 3 rather than Class 1.
+
+
+Holding out enveda-np-examples by library name does not actually hold out its structures
+
+
+If the CV pipeline simply filters out rows where ingest_lib == 'enveda-np-examples' and uses them as validation queries, the holdout is still heavily contaminated. In fact, all 250 of those natural product structures are already present in other libraries such as riken, gnps, mona, massbank, and pluskal_ms2.
+
+Because of that, a direct spectral library search can immediately find the same structures from those other sources, giving an inflated CV score of around 0.33–0.37. A simple sanity check is to run the spectral library search on the holdout set. If it returns any exact matches, then the holdout is contaminated.
+
+
+The test set is mostly Class 2 and Class 3, not Class 1
+
+
+The test set is roughly composed of:
+
+
+Class 1 (~16%): Compounds that already have reference MS/MS spectra in public libraries. Spectral entropy can reach around 0.93 MRR on this group, but this class only contributes roughly 0.151 to the LB.
+
+Class 2 (~45%): Known natural products found in databases such as COCONUT or PubChem, but with no reference spectrum in the training data.
+
+Class 3 (~39%): Novel natural products.
+
+
+So when you evaluate mainly on enveda-np-examples, where library hits are available, you are effectively testing a Class 1 benchmark. That explains why the CV can reach 0.35+ while the Public LB stays around 0.15–0.16.
+
+It also explains why making the model more aggressive about library matching can actually hurt the leaderboard. The model gets better at Class 1, but that improvement does not help much on the much larger Class 2 portion, and can even make candidate ranking worse there. That is likely what happened when the LB dropped from 0.152 to 0.145.
+
+
+  Comment: Adarsh
+
+Thanks a lot,
+
+
+  The test set is roughly composed of:Class 1 (~16%): Compounds that already have reference MS/MS spectra in public libraries. Spectral entropy can reach around 0.93 MRR on this group, but this class only contributes roughly 0.151 to the LB.
+  Class 2 (~45%): Known natural products found in databases such as COCONUT or PubChem, but with no reference spectrum in the training data.
+  Class 3 (~39%): Novel natural products.
+
+
+How do we know this? Is this given somewhere?
+
+
+    Comment: haideptry
+
+The hosts (Enveda) did not explicitly give the exact percentages in the competition description. They only described the setup qualitatively in the Overview:
+
+
+The ~400 scored molecules are partitioned into three regimes: (1) has reference spectra in public libraries, (2) known structures in PubChem/COCONUT without reference spectra, and (3) novel natural products.
+
+The exact numbers (~16% Class 1, ~45% Class 2, ~39% Class 3) were analyzed and shared by @prvsiyan in their public notebook (Analog Propagation - CASMI 2026 baseline):
+
+1. Deriving Class 1 share (~16%)
+
+
+If you submit a pure spectral library search (only predicting matches from train.parquet with zero database fallback), the public leaderboard score lands at 0.151.
+
+
+On a rigorously held-out simulation of Class 1 (molecules that are in the library, tested across different instruments/libraries), modern spectral entropy similarity achieves an MRR@25 of ~0.92 – 0.93.
+
+
+Because Class 2 and Class 3 contribute exactly 0.00 to a library-only submission, the expected score is simply:
+$$\text{Score} = f_1 \times \text{MRR}_1$$
+$$0.151 \approx f_1 \times 0.93 \implies \mathbf{f_1 \approx 16.2\%}$$
+
+
+
+2. Deriving Class 2 share (~45%)
+
+
+Adding COCONUT retrieval and mass-shifted analog propagation increases the LB from 0.151 → 0.245.
+
+
+On a held-out Class 2 simulation, analog propagation achieves ~0.521 MRR@25, while COCONUT 2.0 covers ~99.6% of the in-domain plant natural products in enveda-np-examples.
+
+
+Using the estimated Class 2 contribution:
+
+0.094 ≈ f2 × 0.996 × 0.521
+
+gives f2 ≈ 18%, so the ~45% estimate depends on the broader calibration/assumptions in @prvsiyan’s analysis rather than this equation alone.
+
+
+
+3. Class 3 (~39%)
+
+The remaining ~39% is attributed to genuinely novel compounds that are absent from standard natural-product databases and therefore require approaches such as de novo generation or structural assembly.
+
+
+    Comment: Adarsh
+
+Oh, okay, this is public LB-probed. Got it, thanks. Might be a long-shot that this would be hold in the pvt. test set but nevertheless, thanks. This helps

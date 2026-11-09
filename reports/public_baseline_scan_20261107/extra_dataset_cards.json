@@ -1,0 +1,22 @@
+[
+  {
+    "title": "catalogue_experiment_saner",
+    "currentVersionNumber": 1,
+    "isPrivate": false,
+    "licenseName": "Unknown",
+    "totalBytes": 25575791,
+    "lastUpdated": "2026-10-24T13:17:40.933Z",
+    "ref": "sanpier/catalogue-experiment-saner",
+    "files": []
+  },
+  {
+    "title": "rdkit 2026.3.3 wheel",
+    "currentVersionNumber": 1,
+    "isPrivate": false,
+    "licenseName": "Unknown",
+    "totalBytes": 148891687,
+    "lastUpdated": "2026-09-08T22:23:23.197Z",
+    "ref": "metric/rdkit-2026-3-3-wheel",
+    "files": []
+  }
+]

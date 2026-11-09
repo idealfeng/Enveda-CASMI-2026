@@ -1,0 +1,378 @@
+{
+  "status": "passed_no_model_execution",
+  "prepared_cells": 32,
+  "all_generated_cells_compile": true,
+  "scientific_ENG_FILES_payloads_equal_after_path_normalization": true,
+  "scientific_modules": [
+    "casmi_engine.py",
+    "pv.py",
+    "pv_fp.py"
+  ],
+  "resource_policy": {
+    "worker_limit": 4,
+    "resource_only": true,
+    "original_map_order_preserved": true,
+    "helper_sha256": "e8558ec18985ef102b0f3ba12018de38f91162bec9586acbeb765d1f6e4e4169"
+  },
+  "runtime_patches": [
+    {
+      "cell": 2,
+      "source_sha256": "cabf8eaf41cb65ab6fcd0c29abcbb339c54b698ab2984b2f68f4fcd1ee4f3ddf",
+      "adapted_sha256": "cabf8eaf41cb65ab6fcd0c29abcbb339c54b698ab2984b2f68f4fcd1ee4f3ddf",
+      "changes": []
+    },
+    {
+      "cell": 3,
+      "source_sha256": "087b8e08aacf74fb48aa9c35e7e4ff73ba6132d3a3e7abcea582e01a68fae9c3",
+      "adapted_sha256": "087b8e08aacf74fb48aa9c35e7e4ff73ba6132d3a3e7abcea582e01a68fae9c3",
+      "changes": []
+    },
+    {
+      "cell": 4,
+      "source_sha256": "78c189d5cbf227535e45c9a0142ea32a0ef499f83b8f659623d34ca02519dc8c",
+      "adapted_sha256": "78c189d5cbf227535e45c9a0142ea32a0ef499f83b8f659623d34ca02519dc8c",
+      "changes": []
+    },
+    {
+      "cell": 5,
+      "source_sha256": "eb5032aedcc7496993c02d5c624eb8004c22c1fa549be31c7caf24f0940649a5",
+      "adapted_sha256": "eb5032aedcc7496993c02d5c624eb8004c22c1fa549be31c7caf24f0940649a5",
+      "changes": []
+    },
+    {
+      "cell": 6,
+      "source_sha256": "783aec683ad85097fc1a302e6fbad41b71f952b2913b0f28f060bf3208066148",
+      "adapted_sha256": "783aec683ad85097fc1a302e6fbad41b71f952b2913b0f28f060bf3208066148",
+      "changes": []
+    },
+    {
+      "cell": 7,
+      "source_sha256": "c4047f3625b442dee8650ea986acf2e15bedd3bda3edec30de5ee8c4f04dbbd4",
+      "adapted_sha256": "3c7c286c140bd6755ec23e874cb89dd3bb13869125e33fe5440bd6c0d38c3a34",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/input",
+          "after": "D:/Paper/casmi/runs/inputs/prvsiyan_v43",
+          "count": 3
+        },
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/working",
+          "after": "D:/Paper/casmi/reports/v43c_runtime_patch_20261105/prepared_work",
+          "count": 2
+        },
+        {
+          "kind": "explicit_local_competition_binding",
+          "before": "COMP = os.path.dirname(find('test.parquet'))",
+          "after": "COMP = _LOCAL_COMPETITION_ROOT"
+        }
+      ]
+    },
+    {
+      "cell": 8,
+      "source_sha256": "000a7c8b2cab56d0b991c783d9b4690cdadb63083a737e942551f7c4590e1f14",
+      "adapted_sha256": "480aef8e839e689eafcd74b3eb47633121e4a5913401fd5b4f6615e23f4ed281",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/input",
+          "after": "D:/Paper/casmi/runs/inputs/prvsiyan_v43",
+          "count": 2
+        },
+        {
+          "kind": "hardware_observer",
+          "before": "assert 'T4' in gpu, gpu",
+          "after": "print('LOCAL_GPU_OBSERVED', gpu)"
+        },
+        {
+          "kind": "local_competition_path_guard",
+          "before": "    assert comp in {f'D:/Paper/casmi/runs/inputs/prvsiyan_v43/{slug}', f'D:/Paper/casmi/runs/inputs/prvsiyan_v43/competitions/{slug}'}",
+          "after": "    assert comp == os.path.realpath(scope['_LOCAL_COMPETITION_ROOT'])"
+        }
+      ]
+    },
+    {
+      "cell": 9,
+      "source_sha256": "d31b7fcca1a9cccd8fdaa0c8b15ff6149cde01b80c74e1d9865adc0d3b1d01c8",
+      "adapted_sha256": "d31b7fcca1a9cccd8fdaa0c8b15ff6149cde01b80c74e1d9865adc0d3b1d01c8",
+      "changes": []
+    },
+    {
+      "cell": 10,
+      "source_sha256": "5064b6cd900543abbf28ae18783798f64a7676769260ce2f7c7bfc05a89dedda",
+      "adapted_sha256": "300d20e0a7bdd778c54e93cfd3a69c53917f8ce8c2967cb2b3cb693ac2713188",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/working",
+          "after": "D:/Paper/casmi/reports/v43c_runtime_patch_20261105/prepared_work",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "cell": 11,
+      "source_sha256": "bdaa34c570aeb1fe32575ce538542338d9ea18c8b3bcdb31bc5905be9b76dd3c",
+      "adapted_sha256": "bdaa34c570aeb1fe32575ce538542338d9ea18c8b3bcdb31bc5905be9b76dd3c",
+      "changes": []
+    },
+    {
+      "cell": 12,
+      "source_sha256": "4fbf71d7b0ba13bd88df971f4f0d659087fc2f270cbd000514aff26f41df6d07",
+      "adapted_sha256": "e182820c018258a5cfe486c2855ed46c370be66ad5bbad6ca059d2f55184cd40",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/input",
+          "after": "D:/Paper/casmi/runs/inputs/prvsiyan_v43",
+          "count": 2
+        },
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/working",
+          "after": "D:/Paper/casmi/reports/v43c_runtime_patch_20261105/prepared_work",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "cell": 13,
+      "source_sha256": "a9015f472ace8fae7b6afd522f6bbf39f271ffeae4ec5142c0cd9d618007635f",
+      "adapted_sha256": "a9015f472ace8fae7b6afd522f6bbf39f271ffeae4ec5142c0cd9d618007635f",
+      "changes": []
+    },
+    {
+      "cell": 14,
+      "source_sha256": "15048e0c75de5a12495b098e890f27665aed0a3befaefdac7495066285651fde",
+      "adapted_sha256": "bf699a1033b7c0696d406022344c42e7bcfda6f03fbbf3d15df9e2c5e3d39142",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/working",
+          "after": "D:/Paper/casmi/reports/v43c_runtime_patch_20261105/prepared_work",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "cell": 15,
+      "source_sha256": "1053f88537e945cf44d420c2ff75cad06a984f89e9d531eabb0dafcf70da28ed",
+      "adapted_sha256": "1053f88537e945cf44d420c2ff75cad06a984f89e9d531eabb0dafcf70da28ed",
+      "changes": []
+    },
+    {
+      "cell": 16,
+      "source_sha256": "c49cd153179059b5ca956356c3d27f948727464557cf38b83fe710fc69e90efd",
+      "adapted_sha256": "c49cd153179059b5ca956356c3d27f948727464557cf38b83fe710fc69e90efd",
+      "changes": []
+    },
+    {
+      "cell": 17,
+      "source_sha256": "3d4737aa017e3854ffbd88318ffab81b73845048bc8003d38297aeb164a384aa",
+      "adapted_sha256": "89901a8cf187a34d0216f61603a8d8d538da61f0f14f42800e18ce64801a8c19",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/input",
+          "after": "D:/Paper/casmi/runs/inputs/prvsiyan_v43",
+          "count": 1
+        },
+        {
+          "kind": "copy_on_write_train_fingerprint_mmap",
+          "before": "np.load('work/train_fp_sel.npy')",
+          "after": "np.load('work/train_fp_sel.npy', mmap_mode='c')"
+        }
+      ]
+    },
+    {
+      "cell": 18,
+      "source_sha256": "b3bb80a6a5b90b2fa7659cca3b8869675394acdc5a57993b35c231bbe7d67d88",
+      "adapted_sha256": "b3bb80a6a5b90b2fa7659cca3b8869675394acdc5a57993b35c231bbe7d67d88",
+      "changes": []
+    },
+    {
+      "cell": 19,
+      "source_sha256": "ebe44703116a65f5851684e22b46b836ff1b4bed38df927b78780e77e7ad9ace",
+      "adapted_sha256": "ebe44703116a65f5851684e22b46b836ff1b4bed38df927b78780e77e7ad9ace",
+      "changes": []
+    },
+    {
+      "cell": 20,
+      "source_sha256": "091429d6c480fae2af79026317b159825182c5978b3df62585b4dd366d4966fd",
+      "adapted_sha256": "091429d6c480fae2af79026317b159825182c5978b3df62585b4dd366d4966fd",
+      "changes": []
+    },
+    {
+      "cell": 21,
+      "source_sha256": "abf7de71e0c6ff1f74fb8625b88aa4eb9989b4b8c0c7e92a4c6b2b1ae5485a01",
+      "adapted_sha256": "a9a7662fde48cf02d93cfd0b9fc38d825fc46ed545cc3b65280b86e7d1d47a92",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/input",
+          "after": "D:/Paper/casmi/runs/inputs/prvsiyan_v43",
+          "count": 2
+        },
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/working",
+          "after": "D:/Paper/casmi/reports/v43c_runtime_patch_20261105/prepared_work",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "cell": 22,
+      "source_sha256": "3a72611493f53d392baff64a703dea02df794ede76295f467b847f3f21ef58ef",
+      "adapted_sha256": "3a72611493f53d392baff64a703dea02df794ede76295f467b847f3f21ef58ef",
+      "changes": []
+    },
+    {
+      "cell": 23,
+      "source_sha256": "2ce945557fd15506abab421412ca2333eade154601699052c31de6fce9710c5a",
+      "adapted_sha256": "e77ac685dd236072bcd76fe2743ea49ec784f03ec9cd7854331a1597730c5abf",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/working",
+          "after": "D:/Paper/casmi/reports/v43c_runtime_patch_20261105/prepared_work",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "cell": 24,
+      "source_sha256": "6d5f258b5de28b375311f9e5bf8caa1a8240120a5b5dd2bc149a62e71f8fe70a",
+      "adapted_sha256": "6d5f258b5de28b375311f9e5bf8caa1a8240120a5b5dd2bc149a62e71f8fe70a",
+      "changes": []
+    },
+    {
+      "cell": 25,
+      "source_sha256": "28c5e7a69e23085f245580578c3fbbdaed87e1dbc58265d039dfe0d9edf771b9",
+      "adapted_sha256": "28c5e7a69e23085f245580578c3fbbdaed87e1dbc58265d039dfe0d9edf771b9",
+      "changes": []
+    },
+    {
+      "cell": 26,
+      "source_sha256": "45aacf15b708f9caa9255acdba77e6e242ff8dab48f3acd342c0f09be334322c",
+      "adapted_sha256": "45aacf15b708f9caa9255acdba77e6e242ff8dab48f3acd342c0f09be334322c",
+      "changes": []
+    },
+    {
+      "cell": 27,
+      "source_sha256": "8219c49d43927f5a4b257c4f6061518aeb1df2a4dbf67753a223cd4bcbfefb42",
+      "adapted_sha256": "8219c49d43927f5a4b257c4f6061518aeb1df2a4dbf67753a223cd4bcbfefb42",
+      "changes": []
+    },
+    {
+      "cell": 28,
+      "source_sha256": "c31215bc2416fff5b73b49e48f520cf2a4092da5b57ec63e9b9bfc971e1facc6",
+      "adapted_sha256": "a758a8f6a6e4bedcf6016e42ddfe7baae1a908f7b12b06f5afbaf2e781f0623d",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/input",
+          "after": "D:/Paper/casmi/runs/inputs/prvsiyan_v43",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "cell": 29,
+      "source_sha256": "ff83e5e96f99f6da6b26b10cb30ce76e8ae6235cb77d3ae3dacccddc8d79b530",
+      "adapted_sha256": "ff83e5e96f99f6da6b26b10cb30ce76e8ae6235cb77d3ae3dacccddc8d79b530",
+      "changes": []
+    },
+    {
+      "cell": 30,
+      "source_sha256": "b4120c1fd03fa98969b55f93c9a4eacd99212d8b98214a38373fc2ae061fdf53",
+      "adapted_sha256": "b4120c1fd03fa98969b55f93c9a4eacd99212d8b98214a38373fc2ae061fdf53",
+      "changes": []
+    },
+    {
+      "cell": 32,
+      "source_sha256": "61d9cde75957a0435e4c89ffc8c8e26f88c30ab825180ceb91da413f54051168",
+      "adapted_sha256": "cf200fd9a8308e325def294788431ae30576101e1ebcf3f1783f0ac41be765cd",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/working",
+          "after": "D:/Paper/casmi/reports/v43c_runtime_patch_20261105/prepared_work",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "cell": 33,
+      "source_sha256": "b2b64712f4d531d27346130b9854388c21e3504f3b2e4667d10a6575eb788d08",
+      "adapted_sha256": "b2b64712f4d531d27346130b9854388c21e3504f3b2e4667d10a6575eb788d08",
+      "changes": []
+    },
+    {
+      "cell": 34,
+      "source_sha256": "4e9e26abfa1c70911662b0b900f3a30a57a1e9710e1b0cab21a1f156b91181a3",
+      "adapted_sha256": "aa0d0e40f8e8d609965cacdf004c1655e5fdc48d0ad921a9fc1451589c03067d",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/working",
+          "after": "D:/Paper/casmi/reports/v43c_runtime_patch_20261105/prepared_work",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "cell": 10,
+      "validation_changes": [
+        "all_query_strict_mode"
+      ]
+    },
+    {
+      "cell": 12,
+      "validation_changes": [
+        "e2_reference_and_candidate_hooks",
+        "stage_process_diagnostics_and_fail_fast",
+        "v43_durable_e2_stdout_stderr_returncode",
+        "v43_e2_failfast_outside_original_catch"
+      ]
+    },
+    {
+      "cell": 14,
+      "validation_changes": [
+        "stage_process_diagnostics_and_fail_fast"
+      ]
+    },
+    {
+      "cell": 16,
+      "validation_changes": [
+        "e1_all_library_reference_hooks"
+      ]
+    },
+    {
+      "cell": 19,
+      "validation_changes": [
+        "e1_full_candidate_record"
+      ]
+    },
+    {
+      "cell": 21,
+      "validation_changes": [
+        "explicit_forward_model_budgets"
+      ]
+    },
+    {
+      "cell": 30,
+      "validation_changes": [
+        "allow_empty_pubchem_candidates_record_recall",
+        "allow_empty_e1_candidates_record_recall"
+      ]
+    },
+    {
+      "cell": 34,
+      "validation_changes": [
+        "allow_processed_empty_e2_rank2_noop"
+      ]
+    }
+  ]
+}

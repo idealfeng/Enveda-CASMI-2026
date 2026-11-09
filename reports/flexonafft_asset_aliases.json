@@ -1,0 +1,32 @@
+[
+  {
+    "destination_ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "destination_version": 13,
+    "destination_file": "casmi26-pubchem-tier/pc_mass.npy",
+    "source_ref": "ahmedberatozer/casmi26-pubchem-tier",
+    "source_version": 1,
+    "source_file": "pc_mass.npy",
+    "bytes": 847004040,
+    "sha256": "e0d7b6d7f5640c1709ec52b235ee7e7ec4615efcb2e5cb80b7886d7d261f6d94"
+  },
+  {
+    "destination_ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "destination_version": 13,
+    "destination_file": "casmi26-pubchem-tier/pc_off.npy",
+    "source_ref": "ahmedberatozer/casmi26-pubchem-tier",
+    "source_version": 1,
+    "source_file": "pc_off.npy",
+    "bytes": 847004048,
+    "sha256": "0aa81667eccdeeea3f521d621100a597104014504a6f19ad292401da03460392"
+  },
+  {
+    "destination_ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "destination_version": 13,
+    "destination_file": "casmi26-pubchem-tier/pc_smiles.npy",
+    "source_ref": "ahmedberatozer/casmi26-pubchem-tier",
+    "source_version": 1,
+    "source_file": "pc_smiles.npy",
+    "bytes": 5520120190,
+    "sha256": "7a888630a74c1f84027dacf4dec804798d2bc18a40043eb901eca6f0b959f34e"
+  }
+]

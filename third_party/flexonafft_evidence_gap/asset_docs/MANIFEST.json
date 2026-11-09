@@ -1,0 +1,971 @@
+{
+ "dataset": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+ "file_count": 137,
+ "files": {
+  "iceberg/LICENSE-NOTICE.txt": {
+   "bytes": 1003,
+   "path": "casmi26-iceberg/LICENSE-NOTICE.txt",
+   "sha256": "2bdc24cdcfda1c536a17d8af6a85b6028b19369527d84db8cc81800228897bce",
+   "transport_name": "iceberg__LICENSE-NOTICE.txt",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/MANIFEST.json": {
+   "bytes": 6163,
+   "path": "casmi26-iceberg/MANIFEST.json",
+   "sha256": "78ab2dff112b1e9a043a8025bf8b57839be3f4b94f2e87fc61becbef4c804f8b",
+   "transport_name": "iceberg__MANIFEST.json",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/README.md": {
+   "bytes": 3879,
+   "path": "casmi26-iceberg/README.md",
+   "sha256": "1a36864cb19161b84742f9cb8f323f795b5b3e8e1d739474b7b205acd2d8601f",
+   "transport_name": "iceberg__README.md",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/ckpt/gen.pt": {
+   "bytes": 14561244,
+   "path": "casmi26-iceberg/ckpt/gen.pt",
+   "sha256": "deef0451c1870d2125653bb212c9d95c5b5d9bf80156dfa9b22fedda7db49bea",
+   "transport_name": "iceberg__ckpt__gen.pt",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/ckpt/inten.pt": {
+   "bytes": 13793037,
+   "path": "casmi26-iceberg/ckpt/inten.pt",
+   "sha256": "c49e330e049d3a8b0095026ed694fcf70045c24305354853732aaa5f89d55068",
+   "transport_name": "iceberg__ckpt__inten.pt",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/fuse.py": {
+   "bytes": 8349,
+   "path": "casmi26-iceberg/fuse.py",
+   "sha256": "6d1bdf0c63ff8844d6994bb83cdadf07951ee40ed87ea5a2d870577c6fc76bb1",
+   "transport_name": "iceberg__fuse.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/ice_runner.py": {
+   "bytes": 31551,
+   "path": "casmi26-iceberg/ice_runner.py",
+   "sha256": "dc0d5d1e14053e2e7d9088817c620d6615372abc3afdd02be2fc7ff9ee0b2802",
+   "transport_name": "iceberg__ice_runner.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/shim/dgl/__init__.py": {
+   "bytes": 10029,
+   "path": "casmi26-glacier/shim/dgl/__init__.py",
+   "sha256": "35dd2028bbb1fb14442d7a4cbbd9cb260c1063ab05dd556ddaf1f77aa2f3d2e2",
+   "transport_name": "iceberg__shim__dgl____init__.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/shim/dgl/backend/__init__.py": {
+   "bytes": 36,
+   "path": "casmi26-glacier/shim/dgl/backend/__init__.py",
+   "sha256": "f85e782b33669b9567ba24c46931db87506637870d723c8696e66515ff0f9ee7",
+   "transport_name": "iceberg__shim__dgl__backend____init__.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/shim/dgl/backend/pytorch.py": {
+   "bytes": 964,
+   "path": "casmi26-glacier/shim/dgl/backend/pytorch.py",
+   "sha256": "e7bf3d120f37ebc40fb8dec000f637ec516b75610b21717a4d7abe3cb40f37c7",
+   "transport_name": "iceberg__shim__dgl__backend__pytorch.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/shim/dgl/function.py": {
+   "bytes": 1803,
+   "path": "casmi26-glacier/shim/dgl/function.py",
+   "sha256": "4dd78301a49129085e3234ff902999c7921979a5e09e5415a3aaf3a0aa9d27ff",
+   "transport_name": "iceberg__shim__dgl__function.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/shim/dgl/nn/__init__.py": {
+   "bytes": 1958,
+   "path": "casmi26-glacier/shim/dgl/nn/__init__.py",
+   "sha256": "cd78a6aaee83a58cadb14a9a41f8c8e92a07c3c2bba52f6a83b4eb8ac4fd62a2",
+   "transport_name": "iceberg__shim__dgl__nn____init__.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/shim/torch_scatter/__init__.py": {
+   "bytes": 3120,
+   "path": "casmi26-glacier/shim/torch_scatter/__init__.py",
+   "sha256": "d8f0b42adc06bb499514f68378c826900cbcb2e9764a4ea403bc160497c842a6",
+   "transport_name": "iceberg__shim__torch_scatter____init__.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/LICENSE": {
+   "bytes": 1092,
+   "path": "casmi26-glacier/src/ms_pred/LICENSE",
+   "sha256": "cb323bf6812b7ebc608d6ded23cf0245ab4633d68b1998010ece3ea3d2810fe3",
+   "transport_name": "iceberg__src__ms_pred__LICENSE",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/__init__.py": {
+   "bytes": 266,
+   "path": "casmi26-glacier/src/ms_pred/__init__.py",
+   "sha256": "e4a927730a084dd169e994b1fa712c5e17709e0a869f00aadb4709df9855c487",
+   "transport_name": "iceberg__src__ms_pred____init__.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/common/__init__.py": {
+   "bytes": 381,
+   "path": "casmi26-glacier/src/ms_pred/common/__init__.py",
+   "sha256": "521b8cd399abda6a52cd1cc3304d46557035c70f3332be50122c9e68032d1351",
+   "transport_name": "iceberg__src__ms_pred__common____init__.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/common/chem_utils.py": {
+   "bytes": 26034,
+   "path": "casmi26-glacier/src/ms_pred/common/chem_utils.py",
+   "sha256": "c9842ef76eb831394c53fdd5050d87842edaebd46427a722d43983286495f96e",
+   "transport_name": "iceberg__src__ms_pred__common__chem_utils.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/common/denoising_utils.py": {
+   "bytes": 3478,
+   "path": "casmi26-glacier/src/ms_pred/common/denoising_utils.py",
+   "sha256": "34f9658456896a4adcd4302c783d7253727fe527454bec2b7c91f224a4cc0051",
+   "transport_name": "iceberg__src__ms_pred__common__denoising_utils.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/common/fingerprint.py": {
+   "bytes": 1649,
+   "path": "casmi26-glacier/src/ms_pred/common/fingerprint.py",
+   "sha256": "d3032ecff1a43472af33ce1ea307223941b014290b7507c44e9ee028f5d764d3",
+   "transport_name": "iceberg__src__ms_pred__common__fingerprint.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/common/misc_utils.py": {
+   "bytes": 96988,
+   "path": "casmi26-glacier/src/ms_pred/common/misc_utils.py",
+   "sha256": "bbee369888121c45384a4c93c5c0811bd3b4d8ba9bd038aa119f04b1ca4d1122",
+   "transport_name": "iceberg__src__ms_pred__common__misc_utils.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/common/parallel_utils.py": {
+   "bytes": 13635,
+   "path": "casmi26-glacier/src/ms_pred/common/parallel_utils.py",
+   "sha256": "60dbeac1f6d2b52009b40329790d6ca05fdd28efb70a1c23586616d6c984c691",
+   "transport_name": "iceberg__src__ms_pred__common__parallel_utils.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/common/splitter.py": {
+   "bytes": 2676,
+   "path": "casmi26-glacier/src/ms_pred/common/splitter.py",
+   "sha256": "47ea4c05697ddaa8bafe777c58ebb7ff0d9de762a5ee8345b6ec38cf9496827c",
+   "transport_name": "iceberg__src__ms_pred__common__splitter.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/iceberg/dag_data.py": {
+   "bytes": 36155,
+   "path": "casmi26-glacier/src/ms_pred/iceberg/dag_data.py",
+   "sha256": "80a4f2abd57a59077bf988c9a3f975de36cf856c189aadf9f871382054494814",
+   "transport_name": "iceberg__src__ms_pred__iceberg__dag_data.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/iceberg/gen_model.py": {
+   "bytes": 34864,
+   "path": "casmi26-iceberg/src/ms_pred/iceberg/gen_model.py",
+   "sha256": "467a117823c4e1885636cbad4d4925f69c68722aea460cf8fc91e08cfcb6c755",
+   "transport_name": "iceberg__src__ms_pred__iceberg__gen_model.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/iceberg/inten_model.py": {
+   "bytes": 34601,
+   "path": "casmi26-iceberg/src/ms_pred/iceberg/inten_model.py",
+   "sha256": "821942bdcb0282dd229deb6cafcfd6f07ab29eeb9539446acaa88229d6341ff6",
+   "transport_name": "iceberg__src__ms_pred__iceberg__inten_model.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/iceberg/joint_model.py": {
+   "bytes": 7968,
+   "path": "casmi26-iceberg/src/ms_pred/iceberg/joint_model.py",
+   "sha256": "d1cd923d0729e6a0b141f97926e4ed8d4172b01ee4b0212781f3835f2f558f74",
+   "transport_name": "iceberg__src__ms_pred__iceberg__joint_model.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/magma/fragmentation.py": {
+   "bytes": 28327,
+   "path": "casmi26-glacier/src/ms_pred/magma/fragmentation.py",
+   "sha256": "5fc6ac347a09ea8486154ce827eea0ea810a0c7f6a277279ffd4c5abd1e93744",
+   "transport_name": "iceberg__src__ms_pred__magma__fragmentation.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/magma/run_magma.py": {
+   "bytes": 23083,
+   "path": "casmi26-iceberg/src/ms_pred/magma/run_magma.py",
+   "sha256": "b55f7b3914835e53641ca3e0c337e7b1b5acc61d914268fd26d61263d0f56b6d",
+   "transport_name": "iceberg__src__ms_pred__magma__run_magma.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/nn_utils/__init__.py": {
+   "bytes": 378,
+   "path": "casmi26-glacier/src/ms_pred/nn_utils/__init__.py",
+   "sha256": "2f7f5b3d2537b6bde6a28be84908826901cb2306756b680a57934c39831ade57",
+   "transport_name": "iceberg__src__ms_pred__nn_utils____init__.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/nn_utils/dgl_graph_ops.py": {
+   "bytes": 18955,
+   "path": "casmi26-glacier/src/ms_pred/nn_utils/dgl_graph_ops.py",
+   "sha256": "d65b239032eae4ec8cb2d0b9850fd773542722ff953c96827ab59000d13eba9f",
+   "transport_name": "iceberg__src__ms_pred__nn_utils__dgl_graph_ops.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/nn_utils/dgl_modules.py": {
+   "bytes": 23408,
+   "path": "casmi26-glacier/src/ms_pred/nn_utils/dgl_modules.py",
+   "sha256": "b98dfc02dad06a67e2c9ee61670ebc0c96a8b2a62859335888f8189d5677e2e4",
+   "transport_name": "iceberg__src__ms_pred__nn_utils__dgl_modules.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/nn_utils/form_embedder.py": {
+   "bytes": 10681,
+   "path": "casmi26-glacier/src/ms_pred/nn_utils/form_embedder.py",
+   "sha256": "30bb3670c8b21e01ebb3fb2548dac7f8e0cac589fd4cfccc51589ddf55c1ea4b",
+   "transport_name": "iceberg__src__ms_pred__nn_utils__form_embedder.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/nn_utils/mol_graph.py": {
+   "bytes": 10573,
+   "path": "casmi26-glacier/src/ms_pred/nn_utils/mol_graph.py",
+   "sha256": "62d11349b0c9d06335384b6fabfcddffaf78ece4c1d6f5c18ac426746d1e7d89",
+   "transport_name": "iceberg__src__ms_pred__nn_utils__mol_graph.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/nn_utils/nn_utils.py": {
+   "bytes": 41337,
+   "path": "casmi26-glacier/src/ms_pred/nn_utils/nn_utils.py",
+   "sha256": "f07a9018515ed0204b305741c5b13db9285d400ee7ff3e5bfa12db756a87146f",
+   "transport_name": "iceberg__src__ms_pred__nn_utils__nn_utils.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/src/ms_pred/nn_utils/transformer_layer.py": {
+   "bytes": 30192,
+   "path": "casmi26-glacier/src/ms_pred/nn_utils/transformer_layer.py",
+   "sha256": "8884d91afd479bef9b05d4a4527953ade8fd9353332ca3c6eddb8e1b048d2a92",
+   "transport_name": "iceberg__src__ms_pred__nn_utils__transformer_layer.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/wheels/einops-0.8.2-py3-none-any.whl.ice": {
+   "bytes": 65638,
+   "path": "casmi26-iceberg/wheels/einops-0.8.2-py3-none-any.whl.ice",
+   "sha256": "54058201ac7087911181bfec4af6091bb59380360f069276601256a76af08193",
+   "transport_name": "iceberg__wheels__einops-0.8.2-py3-none-any.whl.ice",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/wheels/lightning_utilities-0.15.3-py3-none-any.whl.ice": {
+   "bytes": 31906,
+   "path": "casmi26-iceberg/wheels/lightning_utilities-0.15.3-py3-none-any.whl.ice",
+   "sha256": "6c55f1bee70084a1cbeaa41ada96e4b3a0fea5909e844dd335bd80f5a73c5f91",
+   "transport_name": "iceberg__wheels__lightning_utilities-0.15.3-py3-none-any.whl.ice",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/wheels/pytorch_lightning-2.6.6-py3-none-any.whl.ice": {
+   "bytes": 853045,
+   "path": "casmi26-iceberg/wheels/pytorch_lightning-2.6.6-py3-none-any.whl.ice",
+   "sha256": "71f95c7b22f25c4f91cc659e1734bcdc6c69c8b66543f2ed2d78dbe29ce2f167",
+   "transport_name": "iceberg__wheels__pytorch_lightning-2.6.6-py3-none-any.whl.ice",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/wheels/rdkit-2025.3.6-cp312-cp312-manylinux_2_28_x86_64.whl.ice": {
+   "bytes": 36119142,
+   "path": "casmi26-iceberg/wheels/rdkit-2025.3.6-cp312-cp312-manylinux_2_28_x86_64.whl.ice",
+   "sha256": "ed5565d4d6423def7c52eb20a6263afcd979383757086dec92f57e77d7c7f856",
+   "transport_name": "iceberg__wheels__rdkit-2025.3.6-cp312-cp312-manylinux_2_28_x86_64.whl.ice",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "iceberg/wheels/torchmetrics-1.9.0-py3-none-any.whl.ice": {
+   "bytes": 983384,
+   "path": "casmi26-iceberg/wheels/torchmetrics-1.9.0-py3-none-any.whl.ice",
+   "sha256": "bfdcbff3dd1d96b3374bb2496eb39f23c4b28b8a845b6a18c313688e0d2d9ca1",
+   "transport_name": "iceberg__wheels__torchmetrics-1.9.0-py3-none-any.whl.ice",
+   "upstream_dataset": "ahmedberatozer/casmi26-iceberg"
+  },
+  "pubchem_tier/pc_mass.npy": {
+   "bytes": 847004040,
+   "path": "pubchem_tier__pc_mass.npy",
+   "sha256": "e0d7b6d7f5640c1709ec52b235ee7e7ec4615efcb2e5cb80b7886d7d261f6d94",
+   "transport_name": "pubchem_tier__pc_mass.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-pubchem-tier"
+  },
+  "pubchem_tier/pc_off.npy": {
+   "bytes": 847004048,
+   "path": "pubchem_tier__pc_off.npy",
+   "sha256": "0aa81667eccdeeea3f521d621100a597104014504a6f19ad292401da03460392",
+   "transport_name": "pubchem_tier__pc_off.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-pubchem-tier"
+  },
+  "pubchem_tier/pc_smiles.npy": {
+   "bytes": 5520120190,
+   "path": "pubchem_tier__pc_smiles.npy",
+   "sha256": "7a888630a74c1f84027dacf4dec804798d2bc18a40043eb901eca6f0b959f34e",
+   "transport_name": "pubchem_tier__pc_smiles.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-pubchem-tier"
+  },
+  "v2_pool/fp_bits.npy": {
+   "bytes": 41032,
+   "path": "casmi26-v2-pool/fp_bits.npy",
+   "sha256": "c3869e86449d6fed6e79e9655f8a7d35bd55c3138ecddfc1dae5072627e78677",
+   "transport_name": "v2_pool__fp_bits.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v2-pool"
+  },
+  "v2_pool/pool_fp.npy": {
+   "bytes": 908986707,
+   "path": "casmi26-v2-pool/pool_fp.npy",
+   "sha256": "f02d91eeb4e2be5687ce678c199aa09a3acda1e821478372fc23fd1c7edf55e8",
+   "transport_name": "v2_pool__pool_fp.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v2-pool"
+  },
+  "v2_pool/pool_frag_mass.npy": {
+   "bytes": 357116708,
+   "path": "casmi26-v2-pool/pool_frag_mass.npy",
+   "sha256": "9afbdc02856b287e06e6c9f61a9f0032b2dd53b20557942c1d00542d9c490ffc",
+   "transport_name": "v2_pool__pool_frag_mass.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v2-pool"
+  },
+  "v2_pool/pool_frag_off.npy": {
+   "bytes": 5685744,
+   "path": "casmi26-v2-pool/pool_frag_off.npy",
+   "sha256": "354015a6eab8b6762f9124384e959d606e961c35b999d1b088153d69538765e7",
+   "transport_name": "v2_pool__pool_frag_off.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v2-pool"
+  },
+  "v2_pool/pool_meta.parquet": {
+   "bytes": 36692358,
+   "path": "casmi26-v2-pool/pool_meta.parquet",
+   "sha256": "82b8c40315611289b9a4004b3af18d6d3402b3cd5baa4ee5723da07b7e2f6bb0",
+   "transport_name": "v2_pool__pool_meta.parquet",
+   "upstream_dataset": "ahmedberatozer/casmi26-v2-pool"
+  },
+  "v2_pool/train_fp_sel.npy": {
+   "bytes": 352761118,
+   "path": "casmi26-v2-pool/train_fp_sel.npy",
+   "sha256": "0e6ddfbfb188b6cffb9f1b0ad9c7ba268ef709ce60b2711d05f98096cd772a8d",
+   "transport_name": "v2_pool__train_fp_sel.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v2-pool"
+  },
+  "v2_pool/train_structs.parquet": {
+   "bytes": 23306834,
+   "path": "casmi26-v2-pool/train_structs.parquet",
+   "sha256": "f20aa1cac23af42e430a6633707fda34e48dea97114bdc3e443897f692df3656",
+   "transport_name": "v2_pool__train_structs.parquet",
+   "upstream_dataset": "ahmedberatozer/casmi26-v2-pool"
+  },
+  "v3_models/code/casmi/__init__.py": {
+   "bytes": 0,
+   "path": "casmi26-v3-models/code/casmi/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "transport_name": "v3_models__code__casmi____init__.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v3-models"
+  },
+  "v3_models/code/casmi/build.py": {
+   "bytes": 4979,
+   "path": "casmi26-v3-models/code/casmi/build.py",
+   "sha256": "86776c14e237dc64dbf965d9bc200cc670dc7226bf946938380729d7e80c56f8",
+   "transport_name": "v3_models__code__casmi__build.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v3-models"
+  },
+  "v3_models/code/casmi/chem.py": {
+   "bytes": 12328,
+   "path": "casmi26-v3-models/code/casmi/chem.py",
+   "sha256": "99474f23d8a67040b0c0f8c70e73592a6f7f656f50103e350ca473451e2169f1",
+   "transport_name": "v3_models__code__casmi__chem.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v3-models"
+  },
+  "v3_models/code/casmi/derive.py": {
+   "bytes": 6929,
+   "path": "casmi26-v3-models/code/casmi/derive.py",
+   "sha256": "7c1e8c3afb4c17a3ae58fbc6c36fd4cfc552da97b9129c9b46cca3cdc6ee4892",
+   "transport_name": "v3_models__code__casmi__derive.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v3-models"
+  },
+  "v3_models/code/casmi/engine.py": {
+   "bytes": 26449,
+   "path": "casmi26-v3-models/code/casmi/engine.py",
+   "sha256": "d914bf9d5eb56cfff434b5d53a4d55881b97697aa834a627d9932a4f8c650d27",
+   "transport_name": "v3_models__code__casmi__engine.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v3-models"
+  },
+  "v3_models/code/casmi/fpnet.py": {
+   "bytes": 9551,
+   "path": "casmi26-v3-models/code/casmi/fpnet.py",
+   "sha256": "0ea6e372d1f045a877d350234c2ccf5d93fdd98cb23bd4c22376bf7e99547608",
+   "transport_name": "v3_models__code__casmi__fpnet.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v3-models"
+  },
+  "v3_models/code/casmi/frag.py": {
+   "bytes": 11172,
+   "path": "casmi26-v3-models/code/casmi/frag.py",
+   "sha256": "809f5582494cee4cf6dcace4b04699b8427e81022b78d42162cc0239a57773de",
+   "transport_name": "v3_models__code__casmi__frag.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v3-models"
+  },
+  "v3_models/code/casmi/graphs.py": {
+   "bytes": 2850,
+   "path": "casmi26-v3-models/code/casmi/graphs.py",
+   "sha256": "8dcbe16bbf3b34b7a08866234eb9abf2de713d21c93c653e7156e94e9debcd55",
+   "transport_name": "v3_models__code__casmi__graphs.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v3-models"
+  },
+  "v3_models/code/casmi/library.py": {
+   "bytes": 7577,
+   "path": "casmi26-v3-models/code/casmi/library.py",
+   "sha256": "21ee24dee9f39123da518fb17802a394e6dc46b147d5dbdf276210b60185f831",
+   "transport_name": "v3_models__code__casmi__library.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v3-models"
+  },
+  "v3_models/code/casmi/pool.py": {
+   "bytes": 2370,
+   "path": "casmi26-v3-models/code/casmi/pool.py",
+   "sha256": "279444f6c03834adbbfc0fad321e24187585d7cd5afdc363eff083dc263a0286",
+   "transport_name": "v3_models__code__casmi__pool.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v3-models"
+  },
+  "v3_models/code/casmi/ranker.py": {
+   "bytes": 4189,
+   "path": "casmi26-v3-models/code/casmi/ranker.py",
+   "sha256": "a7ee491b5a3d3decb3887afe3931adb10c11964468fb204e8c27b42757424fe4",
+   "transport_name": "v3_models__code__casmi__ranker.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v3-models"
+  },
+  "v3_models/code/casmi/spectra.py": {
+   "bytes": 10057,
+   "path": "casmi26-v3-models/code/casmi/spectra.py",
+   "sha256": "e2481761cdfb2515e8a945751f85f6b9e885680a8e974d7ac35c78bbf279ae74",
+   "transport_name": "v3_models__code__casmi__spectra.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v3-models"
+  },
+  "v3_models/code/casmi/structs.py": {
+   "bytes": 2791,
+   "path": "casmi26-v3-models/code/casmi/structs.py",
+   "sha256": "2c70df89e8f96b3e716651fe8815d0a05af3ad26e2b448e552ea53c26ede334a",
+   "transport_name": "v3_models__code__casmi__structs.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v3-models"
+  },
+  "v3_models/code/casmi/traindata.py": {
+   "bytes": 9425,
+   "path": "casmi26-v3-models/code/casmi/traindata.py",
+   "sha256": "cecb329d96362f11d16b40a26f1888f092610ff6202812408c13e2c293c6a2bc",
+   "transport_name": "v3_models__code__casmi__traindata.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v3-models"
+  },
+  "v3_models/code/casmi/xenc.py": {
+   "bytes": 6938,
+   "path": "casmi26-v3-models/code/casmi/xenc.py",
+   "sha256": "89fbb470e6fc085f7363bf79e4517c06d43eed3c1df197b7f374b65dacdb7310",
+   "transport_name": "v3_models__code__casmi__xenc.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v3-models"
+  },
+  "v3_models/fpnet_0.pt": {
+   "bytes": 198790165,
+   "path": "casmi26-v4b-models/fe_A.pt",
+   "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+   "transport_name": "v3_models__fpnet_0.pt",
+   "upstream_dataset": "ahmedberatozer/casmi26-v3-models"
+  },
+  "v3_models/fpnet_1.pt": {
+   "bytes": 198790165,
+   "path": "casmi26-v4b-models/fe_B.pt",
+   "sha256": "6f60a22b3c3b21aa48d47328bb9523bdf07cc004bfb72966e0f9713507c24f2e",
+   "transport_name": "v3_models__fpnet_1.pt",
+   "upstream_dataset": "ahmedberatozer/casmi26-v3-models"
+  },
+  "v3_models/ranker_0.pkl": {
+   "bytes": 14162986,
+   "path": "casmi26-v3-models/ranker_0.pkl",
+   "sha256": "b7d5e5bf7a70b35526a78a999def236c795ae1f114e4e360728f1cea068e8e68",
+   "transport_name": "v3_models__ranker_0.pkl",
+   "upstream_dataset": "ahmedberatozer/casmi26-v3-models"
+  },
+  "v4b/LICENSE-NOTICE.txt": {
+   "bytes": 1363,
+   "path": "casmi26-v4b-models/LICENSE-NOTICE.txt",
+   "sha256": "b9c26d77338c03cb4387ae61bf4f6524eb77ee59c8530bc9f8d33a742a913a3b",
+   "transport_name": "v4b__LICENSE-NOTICE.txt",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/MANIFEST.json": {
+   "bytes": 9209,
+   "path": "casmi26-v4b-models/MANIFEST.json",
+   "sha256": "e64b960037769971e146a35932e29ed3f042de1716e4dbe281ebd84a7cfc3b6a",
+   "transport_name": "v4b__MANIFEST.json",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/casmi/__init__.py": {
+   "bytes": 0,
+   "path": "casmi26-v3-models/code/casmi/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "transport_name": "v4b__code__casmi____init__.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/casmi/build.py": {
+   "bytes": 4979,
+   "path": "casmi26-v3-models/code/casmi/build.py",
+   "sha256": "86776c14e237dc64dbf965d9bc200cc670dc7226bf946938380729d7e80c56f8",
+   "transport_name": "v4b__code__casmi__build.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/casmi/chem.py": {
+   "bytes": 12328,
+   "path": "casmi26-v3-models/code/casmi/chem.py",
+   "sha256": "99474f23d8a67040b0c0f8c70e73592a6f7f656f50103e350ca473451e2169f1",
+   "transport_name": "v4b__code__casmi__chem.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/casmi/derive.py": {
+   "bytes": 6929,
+   "path": "casmi26-v3-models/code/casmi/derive.py",
+   "sha256": "7c1e8c3afb4c17a3ae58fbc6c36fd4cfc552da97b9129c9b46cca3cdc6ee4892",
+   "transport_name": "v4b__code__casmi__derive.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/casmi/dreams_model.py": {
+   "bytes": 32798,
+   "path": "casmi26-v4b-models/code/casmi/dreams_model.py",
+   "sha256": "5c09c3d22e8d2c09678b796cb1d57a449442437847e094f49f6ed2619a73a83c",
+   "transport_name": "v4b__code__casmi__dreams_model.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/casmi/engine.py": {
+   "bytes": 26449,
+   "path": "casmi26-v3-models/code/casmi/engine.py",
+   "sha256": "d914bf9d5eb56cfff434b5d53a4d55881b97697aa834a627d9932a4f8c650d27",
+   "transport_name": "v4b__code__casmi__engine.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/casmi/fpnet.py": {
+   "bytes": 9551,
+   "path": "casmi26-v3-models/code/casmi/fpnet.py",
+   "sha256": "0ea6e372d1f045a877d350234c2ccf5d93fdd98cb23bd4c22376bf7e99547608",
+   "transport_name": "v4b__code__casmi__fpnet.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/casmi/fpnet6.py": {
+   "bytes": 14661,
+   "path": "casmi26-v4b-models/code/casmi/fpnet6.py",
+   "sha256": "32542bb0039b2d24d9911030559f13221e630cef7df0d10c7d65f54424da2633",
+   "transport_name": "v4b__code__casmi__fpnet6.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/casmi/frag.py": {
+   "bytes": 11172,
+   "path": "casmi26-v3-models/code/casmi/frag.py",
+   "sha256": "809f5582494cee4cf6dcace4b04699b8427e81022b78d42162cc0239a57773de",
+   "transport_name": "v4b__code__casmi__frag.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/casmi/graphs.py": {
+   "bytes": 2850,
+   "path": "casmi26-v3-models/code/casmi/graphs.py",
+   "sha256": "8dcbe16bbf3b34b7a08866234eb9abf2de713d21c93c653e7156e94e9debcd55",
+   "transport_name": "v4b__code__casmi__graphs.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/casmi/library.py": {
+   "bytes": 7577,
+   "path": "casmi26-v3-models/code/casmi/library.py",
+   "sha256": "21ee24dee9f39123da518fb17802a394e6dc46b147d5dbdf276210b60185f831",
+   "transport_name": "v4b__code__casmi__library.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/casmi/pool.py": {
+   "bytes": 2370,
+   "path": "casmi26-v3-models/code/casmi/pool.py",
+   "sha256": "279444f6c03834adbbfc0fad321e24187585d7cd5afdc363eff083dc263a0286",
+   "transport_name": "v4b__code__casmi__pool.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/casmi/ranker.py": {
+   "bytes": 4189,
+   "path": "casmi26-v3-models/code/casmi/ranker.py",
+   "sha256": "a7ee491b5a3d3decb3887afe3931adb10c11964468fb204e8c27b42757424fe4",
+   "transport_name": "v4b__code__casmi__ranker.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/casmi/spectra.py": {
+   "bytes": 10057,
+   "path": "casmi26-v3-models/code/casmi/spectra.py",
+   "sha256": "e2481761cdfb2515e8a945751f85f6b9e885680a8e974d7ac35c78bbf279ae74",
+   "transport_name": "v4b__code__casmi__spectra.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/casmi/structs.py": {
+   "bytes": 2791,
+   "path": "casmi26-v3-models/code/casmi/structs.py",
+   "sha256": "2c70df89e8f96b3e716651fe8815d0a05af3ad26e2b448e552ea53c26ede334a",
+   "transport_name": "v4b__code__casmi__structs.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/casmi/traindata.py": {
+   "bytes": 9425,
+   "path": "casmi26-v3-models/code/casmi/traindata.py",
+   "sha256": "cecb329d96362f11d16b40a26f1888f092610ff6202812408c13e2c293c6a2bc",
+   "transport_name": "v4b__code__casmi__traindata.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/casmi/xenc.py": {
+   "bytes": 6938,
+   "path": "casmi26-v3-models/code/casmi/xenc.py",
+   "sha256": "89fbb470e6fc085f7363bf79e4517c06d43eed3c1df197b7f374b65dacdb7310",
+   "transport_name": "v4b__code__casmi__xenc.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/chemfeat.py": {
+   "bytes": 6158,
+   "path": "casmi26-v4b-models/code/fe_v4/chemfeat.py",
+   "sha256": "8fedf317042f989b1569ca65c0d6d87a0387f9fc9934504420a95d8d973f8746",
+   "transport_name": "v4b__code__fe_v4__chemfeat.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/ctxlib.py": {
+   "bytes": 20737,
+   "path": "casmi26-v4b-models/code/fe_v4/ctxlib.py",
+   "sha256": "c050e4b0ac937a7d65fa14ac55c6904e2232cb077830a20b653ac6df22922943",
+   "transport_name": "v4b__code__fe_v4__ctxlib.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/derive6.py": {
+   "bytes": 8635,
+   "path": "casmi26-v4b-models/code/fe_v4/derive6.py",
+   "sha256": "0e4b436d6b978b2e2e1af8767d6b3c32a6b1fc0e4b64960d5eeeaa8885ddf68a",
+   "transport_name": "v4b__code__fe_v4__derive6.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/fams/__init__.py": {
+   "bytes": 0,
+   "path": "casmi26-v3-models/code/casmi/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "transport_name": "v4b__code__fe_v4__fams____init__.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/fams/analog_struct.py": {
+   "bytes": 30583,
+   "path": "casmi26-v4b-models/code/fe_v4/fams/analog_struct.py",
+   "sha256": "2311219220c65bc83c2cd447a8cdb07db27a984124f6c88d687494556e7337b6",
+   "transport_name": "v4b__code__fe_v4__fams__analog_struct.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/fams/derivation.py": {
+   "bytes": 29276,
+   "path": "casmi26-v4b-models/code/fe_v4/fams/derivation.py",
+   "sha256": "eb9aa474bef8e1d067cadccec0101042878ebb5aedf50d1168dc9dfd884dceae",
+   "transport_name": "v4b__code__fe_v4__fams__derivation.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/fams/frag2.py": {
+   "bytes": 29368,
+   "path": "casmi26-v4b-models/code/fe_v4/fams/frag2.py",
+   "sha256": "bf17577ef673f8ab0121caa1c9335dc1e827e2f1eb44b3bbde0b0c0cbe858e6c",
+   "transport_name": "v4b__code__fe_v4__fams__frag2.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/fams/fragnet.py": {
+   "bytes": 46806,
+   "path": "casmi26-v4b-models/code/fe_v4/fams/fragnet.py",
+   "sha256": "d0952d34d227013b8486eff36c30a4233f491d2e32c3f816b9d000c493b7234e",
+   "transport_name": "v4b__code__fe_v4__fams__fragnet.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/fams/model_views.py": {
+   "bytes": 3492,
+   "path": "casmi26-v4b-models/code/fe_v4/fams/model_views.py",
+   "sha256": "aa964b12265bb70144d2d653b600a7f1a4972829032274bab76ea9e39afd7e79",
+   "transport_name": "v4b__code__fe_v4__fams__model_views.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/fragcaps.py": {
+   "bytes": 6766,
+   "path": "casmi26-v4b-models/code/fe_v4/fragcaps.py",
+   "sha256": "ba6280f9a46ca28cd72b8a7a0324724a73fd0c67a13acdd82a8193ac30d17a83",
+   "transport_name": "v4b__code__fe_v4__fragcaps.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/hooks_v1.py": {
+   "bytes": 4338,
+   "path": "casmi26-v4b-models/code/fe_v4/hooks_v1.py",
+   "sha256": "d0cb1e37566a54bbb3082ccd29579ac47fc2526c5d64ef073dc0e628ee5657e8",
+   "transport_name": "v4b__code__fe_v4__hooks_v1.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/analog_struct/pool_coresmi_buf.npy": {
+   "bytes": 19703633,
+   "path": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_coresmi_buf.npy",
+   "sha256": "c0b2ce3ff292cae239fbb1f1670f345462dbab31e920b17d2e52bef9f9e5fc53",
+   "transport_name": "v4b__code__fe_v4__res__analog_struct__pool_coresmi_buf.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/analog_struct/pool_coresmi_off.npy": {
+   "bytes": 5685744,
+   "path": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_coresmi_off.npy",
+   "sha256": "570664567fb313291f46e30aecfd9e82e8526eadde651cb2dbb98ead8d2220d5",
+   "transport_name": "v4b__code__fe_v4__res__analog_struct__pool_coresmi_off.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/analog_struct/pool_elsmi_buf.npy": {
+   "bytes": 35033614,
+   "path": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_elsmi_buf.npy",
+   "sha256": "f54697041c9f384a617bbfaca0d5ad0ff68f48df7b472c38d62b44a44c15c6e9",
+   "transport_name": "v4b__code__fe_v4__res__analog_struct__pool_elsmi_buf.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/analog_struct/pool_elsmi_off.npy": {
+   "bytes": 5685744,
+   "path": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_elsmi_off.npy",
+   "sha256": "4624def96688547f5edf7fa347cf9498ff0ac80a9fb669dd53d4bfc20212602e",
+   "transport_name": "v4b__code__fe_v4__res__analog_struct__pool_elsmi_off.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/analog_struct/pool_fvec.npy": {
+   "bytes": 14214148,
+   "path": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_fvec.npy",
+   "sha256": "8eebe4be5c87aa87a498fb998ce013cdc0d0f9aa251d6184ec22f7aad755e07b",
+   "transport_name": "v4b__code__fe_v4__res__analog_struct__pool_fvec.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/analog_struct/pool_hash.npy": {
+   "bytes": 45484992,
+   "path": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_hash.npy",
+   "sha256": "9835d50a54a5ac4b568d2fd5e1221455af86b12cd048df8eef27b6ae4848fa68",
+   "transport_name": "v4b__code__fe_v4__res__analog_struct__pool_hash.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/analog_struct/pool_num.npy": {
+   "bytes": 11371344,
+   "path": "casmi26-v4b-models/code/fe_v4/res/analog_struct/pool_num.npy",
+   "sha256": "08f8831f7abada09392570fc27af1fd625a23dd2391ddca65bcb88b3cb2c7430",
+   "transport_name": "v4b__code__fe_v4__res__analog_struct__pool_num.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/analog_struct/train_coresmi_buf.npy": {
+   "bytes": 6940196,
+   "path": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_coresmi_buf.npy",
+   "sha256": "5352fdcbea2bc09be258cb4047644491919dd289d28422eb51d8f3fdea3a864e",
+   "transport_name": "v4b__code__fe_v4__res__analog_struct__train_coresmi_buf.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/analog_struct/train_coresmi_off.npy": {
+   "bytes": 2206616,
+   "path": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_coresmi_off.npy",
+   "sha256": "7f72b42397cb1198521cf09caa72ac4c2788544ba2673e8447cc12fbd6d8aece",
+   "transport_name": "v4b__code__fe_v4__res__analog_struct__train_coresmi_off.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/analog_struct/train_elsmi_buf.npy": {
+   "bytes": 10880676,
+   "path": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_elsmi_buf.npy",
+   "sha256": "9f2b3d602cb5ada97d86a10790f30bb7c070b6c990dfe7c099551cd60ee79d87",
+   "transport_name": "v4b__code__fe_v4__res__analog_struct__train_elsmi_buf.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/analog_struct/train_elsmi_off.npy": {
+   "bytes": 2206616,
+   "path": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_elsmi_off.npy",
+   "sha256": "4d84e388a066c85d3496b16f670ed2b39e3a297c8490d2625dd80e0a0f547854",
+   "transport_name": "v4b__code__fe_v4__res__analog_struct__train_elsmi_off.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/analog_struct/train_fvec.npy": {
+   "bytes": 5516328,
+   "path": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_fvec.npy",
+   "sha256": "f30560e0d23e04a3d9e23828a49ef0b9f08977789e41fb00005835d3d970cca2",
+   "transport_name": "v4b__code__fe_v4__res__analog_struct__train_fvec.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/analog_struct/train_hash.npy": {
+   "bytes": 17651968,
+   "path": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_hash.npy",
+   "sha256": "cf5c28edcf09e0a7a76df1b44db6a4638a42ca826ddacd9b2f2f8429a6293dc7",
+   "transport_name": "v4b__code__fe_v4__res__analog_struct__train_hash.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/analog_struct/train_num.npy": {
+   "bytes": 4413088,
+   "path": "casmi26-v4b-models/code/fe_v4/res/analog_struct/train_num.npy",
+   "sha256": "7267bb0bdc9e4d698328c4430f1cac2afd6e37a549ef597ee2eafb922f16997b",
+   "transport_name": "v4b__code__fe_v4__res__analog_struct__train_num.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/derivation/parity_fixture.pkl": {
+   "bytes": 98158,
+   "path": "casmi26-v4b-models/code/fe_v4/res/derivation/parity_fixture.pkl",
+   "sha256": "bc12af267cbcd05942da8903d9058d20cc23d96c91233967d4a20102fe785176",
+   "transport_name": "v4b__code__fe_v4__res__derivation__parity_fixture.pkl",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/derivation/prior_tables.pkl": {
+   "bytes": 20738118,
+   "path": "casmi26-v4b-models/code/fe_v4/res/derivation/prior_tables.pkl",
+   "sha256": "217905818dd187da47cb458a60aeae2a5f2b0139904b4e320f70e41a9bd74c90",
+   "transport_name": "v4b__code__fe_v4__res__derivation__prior_tables.pkl",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/frag2/caps.txt": {
+   "bytes": 149,
+   "path": "casmi26-v4b-models/code/fe_v4/res/frag2/caps.txt",
+   "sha256": "0ebe04b72563f828e4a6391bea393fdeb37777f87fc4c24aa408e41ea3d2ced2",
+   "transport_name": "v4b__code__fe_v4__res__frag2__caps.txt",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/frag2/pool_cap.npy": {
+   "bytes": 15635550,
+   "path": "casmi26-v4b-models/code/fe_v4/res/frag2/pool_cap.npy",
+   "sha256": "6be43a73f773e50decde505a10e23a3114f09bdc2005fe9c51cc87bf0d851dbe",
+   "transport_name": "v4b__code__fe_v4__res__frag2__pool_cap.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/frag2/pool_f1_mass.npy": {
+   "bytes": 62531984,
+   "path": "casmi26-v4b-models/code/fe_v4/res/frag2/pool_f1_mass.npy",
+   "sha256": "0fab0a2076b997dd7ff579f2d7e2e54baededb9025b7a1b9fb0bbc3cda4d3272",
+   "transport_name": "v4b__code__fe_v4__res__frag2__pool_f1_mass.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/frag2/pool_f1_off.npy": {
+   "bytes": 5685744,
+   "path": "casmi26-v4b-models/code/fe_v4/res/frag2/pool_f1_off.npy",
+   "sha256": "de25d731fd3fb09319538949e07c34135a3671ac7bd48dd2dbf9eece08a3121d",
+   "transport_name": "v4b__code__fe_v4__res__frag2__pool_f1_off.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/fragnet/countsA.npz": {
+   "bytes": 1568346,
+   "path": "casmi26-v4b-models/code/fe_v4/res/fragnet/countsA.npz",
+   "sha256": "42f37e29b933552175b91e732d9bbbcb08c54bea849976dd55858bc115701f10",
+   "transport_name": "v4b__code__fe_v4__res__fragnet__countsA.npz",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/fragnet/featB.npz": {
+   "bytes": 131473600,
+   "path": "casmi26-v4b-models/code/fe_v4/res/fragnet/featB.npz",
+   "sha256": "cbf40d3f16e2748dfaf71033bb87ae5bbb18957b7c76c16e8574caecc05bb33f",
+   "transport_name": "v4b__code__fe_v4__res__fragnet__featB.npz",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/fragnet/rec_aoff.npy": {
+   "bytes": 5685744,
+   "path": "casmi26-v4b-models/code/fe_v4/res/fragnet/rec_aoff.npy",
+   "sha256": "9aadeb10c9629498e20679aa24fc403b1e1e2b3b76dd9799ffc9c4c7d0c1187b",
+   "transport_name": "v4b__code__fe_v4__res__fragnet__rec_aoff.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/fragnet/rec_atom.npy": {
+   "bytes": 66704036,
+   "path": "casmi26-v4b-models/code/fe_v4/res/fragnet/rec_atom.npy",
+   "sha256": "4b33b9c3457cdacd0af9913e4bfbc82e30d5f6cddf7041012a81dd448b2b5ce1",
+   "transport_name": "v4b__code__fe_v4__res__fragnet__rec_atom.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/fragnet/rec_boff.npy": {
+   "bytes": 5685744,
+   "path": "casmi26-v4b-models/code/fe_v4/res/fragnet/rec_boff.npy",
+   "sha256": "0d15c8c4072a3bdd23637edeb24843f6adbf9d9dd270adc8fdf82c00436d91da",
+   "transport_name": "v4b__code__fe_v4__res__fragnet__rec_boff.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/fragnet/rec_bond.npy": {
+   "bytes": 71602625,
+   "path": "casmi26-v4b-models/code/fe_v4/res/fragnet/rec_bond.npy",
+   "sha256": "ca1caa5d1c8a2dc3dfcca0031cba402b99e9546c5fb85aaee21a6f7ea1eb901b",
+   "transport_name": "v4b__code__fe_v4__res__fragnet__rec_bond.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/fragnet/rec_ok.npy": {
+   "bytes": 710829,
+   "path": "casmi26-v4b-models/code/fe_v4/res/fragnet/rec_ok.npy",
+   "sha256": "efa48d27dbc1ee7b512b8b376076bd6a6c544c5b86013166e6a52c352b451c68",
+   "transport_name": "v4b__code__fe_v4__res__fragnet__rec_ok.npy",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/fragnet/sets.pkl": {
+   "bytes": 9343635,
+   "path": "casmi26-v4b-models/code/fe_v4/res/fragnet/sets.pkl",
+   "sha256": "922fafcbb454509f1397de6da7bafb19d46edb43520f54405abdbc994c760551",
+   "transport_name": "v4b__code__fe_v4__res__fragnet__sets.pkl",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/fragnet/stageA.npz": {
+   "bytes": 268385,
+   "path": "casmi26-v4b-models/code/fe_v4/res/fragnet/stageA.npz",
+   "sha256": "3a501ecbfae647d86d7fda87605eda2d573475201b2482ca02a130aa2a3d7a68",
+   "transport_name": "v4b__code__fe_v4__res__fragnet__stageA.npz",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/res/fragnet/stageB.txt": {
+   "bytes": 544829,
+   "path": "casmi26-v4b-models/code/fe_v4/res/fragnet/stageB.txt",
+   "sha256": "6916c25c6f32fdea4a20f5c0b4b5cf45a3f6bbbfa625552195a7909e8ae8685b",
+   "transport_name": "v4b__code__fe_v4__res__fragnet__stageB.txt",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/code/fe_v4/v1engine.py": {
+   "bytes": 8391,
+   "path": "casmi26-v4b-models/code/fe_v4/v1engine.py",
+   "sha256": "9074546910ba850a98bb95afe531669c62a26c15ab8b6bf9d6b6020c77ea0e8a",
+   "transport_name": "v4b__code__fe_v4__v1engine.py",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/fe_A.pt": {
+   "bytes": 198790165,
+   "path": "casmi26-v4b-models/fe_A.pt",
+   "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+   "transport_name": "v4b__fe_A.pt",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/fe_B.pt": {
+   "bytes": 198790165,
+   "path": "casmi26-v4b-models/fe_B.pt",
+   "sha256": "6f60a22b3c3b21aa48d47328bb9523bdf07cc004bfb72966e0f9713507c24f2e",
+   "transport_name": "v4b__fe_B.pt",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/fe_D.pt": {
+   "bytes": 486278727,
+   "path": "casmi26-v4b-models/fe_D.pt",
+   "sha256": "8ae5bee2c978f4f01ea7cfe29b514cd3e9112006ab51aa8b13f20e26e9365362",
+   "transport_name": "v4b__fe_D.pt",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/fpnet_0.pt": {
+   "bytes": 198790165,
+   "path": "casmi26-v4b-models/fe_A.pt",
+   "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+   "transport_name": "v4b__fpnet_0.pt",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "v4b/ranker_v4b.pkl": {
+   "bytes": 14301548,
+   "path": "casmi26-v4b-models/ranker_v4b.pkl",
+   "sha256": "6172e926fb2de244f0b9189ed54e1ed8a15e76d166592b724129a4d6a34931da",
+   "transport_name": "v4b__ranker_v4b.pkl",
+   "upstream_dataset": "ahmedberatozer/casmi26-v4b-models"
+  },
+  "spec2mol/spec2mol.pt": {
+   "bytes": 66731290,
+   "path": "casmi26-spec2mol/spec2mol.pt",
+   "sha256": "9d74116acee29e34c762fab928615b763cf7d2803a0736b257fb1d784ef4abbe",
+   "upstream_dataset": null,
+   "origin": "trained for this dataset from the competition training file (2026-10-27)"
+  },
+  "spec2mol/spec2mol_model.py": {
+   "bytes": 2528,
+   "path": "casmi26-spec2mol/spec2mol_model.py",
+   "sha256": "c2bfc970392ec862f684d2fc2e0d2f77a80863cc87b40ef3f442d0218ff5e1e4",
+   "upstream_dataset": null,
+   "origin": "trained for this dataset from the competition training file (2026-10-27)"
+  },
+  "spec2mol/spec2mol_features.py": {
+   "bytes": 1512,
+   "path": "casmi26-spec2mol/spec2mol_features.py",
+   "sha256": "0fd9286aff5564dc327511f17a4af23b3d52eb14515e92ea828024cab9ae80be",
+   "upstream_dataset": null,
+   "origin": "trained for this dataset from the competition training file (2026-10-27)"
+  }
+ },
+ "layout": "source folders named after the upstream Kaggle datasets; `path` gives the current location, `transport_name` the flat name of the first version (flat copies with a folder twin removed 2026-10-20)",
+ "original_notebook": "ahmedberatozer/casmi26-v4g-inference",
+ "readme_sha256": "db3790cee6e5ba1afe228f6fc30b4ccfeb48c993b09fac673877ab498f6c6d12",
+ "source_inventory_sha256": "0b13cdcdb92824e2427c39f3b0c80d41e4d39a267f516bc6c888ae95469aa2bf",
+ "source_licenses_sha256": "0343e31e5a9e064b524491bfe02a5f0f127ad9643a049882cd7e74bdd7014b94",
+ "total_bytes": 11126831141
+}

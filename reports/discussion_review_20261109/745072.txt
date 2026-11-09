@@ -1,0 +1,255 @@
+Prize eligibility: code and weights shared in public Kaggle datasets with an "Other (non-commercial)" licence
+
+https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/745072
+
+Author: gennexuslabsDDM
+
+Posted: 2026-10-02T03:27:01.940Z
+
+Hi David and the Enveda team,
+
+Many public notebooks in this competition run inference code and model weights stored in public Kaggle datasets. Examples are ahmedberatozer/casmi26-v4b-models, 
+  -fpnet-full1, -v2-pool, -v3-models, -iceberg and -glacier. Their licence field is "Other". The v4b-models description says the assets are for use "under the 
+  (respective) source licenses (non-commercial, with attribution)", because they are derived from the competition training data (CC BY-NC) and COCONUT (CC BY 4.0). The 
+  training scripts for the weights are not published.
+
+We have two questions about prize-eligible solutions:
+
+
+Does Foundational Rule 6.b (Public Code Sharing) also cover code that was shared publicly for this competition inside Kaggle datasets? That rule says shared code is 
+deemed licensed under an OSI-approved licence that does not limit commercial use. If it does, a winning solution could include that code and deliver it under the MIT 
+winner licence.
+
+
+Under rule 2.5.3, can a winning solution use those published pretrained weights as they are? We would deliver our own training and inference code plus references to 
+the public datasets, even though the code used to train the weights is not public.
+
+A short answer would help the many teams building on the public notebooks. Thank you!
+
+
+Comment: Mansur Nurmukhambetov
+
+Hi @ahmedberatozer , thank you for publishing the casmi26 v4b/v2/fpnet datasets, they made this competition much more accessible. Following David's clarification that train.parquet-derived artefacts are fine to use (above), the one open point for prize eligibility is the code itself: the casmi / fe_v4 package inside these datasets has no licence file, and winners must license their solution MIT. Would you be willing to add an explicit MIT or Apache-2.0 licence for the code (and confirm the weights may be redistributed)? That would let everyone build on your work in prize-eligible solutions. Many thanks!
+
+
+Comment: David Healey
+
+Hello, thank you for your patience.
+
+
+train.parquet should be considered open source, as it is a compilation of open sourced libraries. (The noncommercial provision on the kaggle data license was intended to cover the test data). So any datasets that are only noncommercial by inheriting from train.parquet are fine to use. As are the large molecule libraries like PubChem and COCONUT that are generally treated as open source, and in general most of the external datasets that are prominently published as open source are fine to use.  Our concerns about data are mostly about the proprietary datasets with very restrictive redistribution licenses, like NIST and the proprietary libraries from the mass spectrometer manufacturers. 
+
+
+Regarding penalties, we retain the option to disqualify any solutions that are not in compliance with the rules. This includes removal from the leaderboard. 
+
+
+I will get back to you when I know more about the compliance check scope, but developing your solutions on the datasets you have mentioned here should be fine.
+
+
+Comment: Mike.X
+
+Looks like the organizers aren’t going to do anything about it.
+
+
+  Comment: nofreewill42
+
+So it's possible you think that the top 100 will be eliminated and the first without using anything forbidden is 101th, getting 1st price? and then looking for the 2nd who hasnt gone against the rules, then 3rd etc?
+
+
+    Comment: MarvinTMB
+
+Why do you assume all the top is using forbidden code/data?
+
+
+    Comment: gennexuslabsDDM
+
+Thanks for stopping by, and congrats on 0.484, that's a seriously impressive lead! Agreed, nobody should assume that. This thread only asks the hosts to clarify 
+  ▎ which licenses are prize-eligible, so every team can pick compliant final submissions. Looking forward to learning from your write-up after the competition!
+🤣the god is here.
+
+
+    Comment: sixk_tagged
+
+Well done on the lead, I hope you keep breaking highs <3
+
+
+Comment: Asan Ashirov
+
+Adding to the questions above: several of these datasets (for example ahmedberatozer/casmi26-v4b-models, casmi26-v2-pool and casmi26-fpnet-full1) contain code together with models and tables derived from train.parquet, which you have confirmed can be open-sourced (threads 742265 and 743236).
+
+
+If an author publicly relicenses such a dataset under MIT, Apache-2.0 or CC0, can it then be used in a prize-eligible solution?
+
+For assets that keep a non-commercial licence: does using them only forfeit prize eligibility, or can it also affect leaderboard placement and medals?
+
+
+Thank you!
+
+
+Comment: Truthseeking
+
+Hi David, a follow-up on the question above. Several public notebooks use ahmedberatozer/casmi26-v4b-models, -v3-models, -fpnet-full1 and -v2-pool. As far as we can tell they contain models and candidate pools trained or built only on train.parquet and COCONUT (CC BY 4.0), but their description says "non-commercial, with attribution", which seems inherited from the competition data's CC BY-NC licence. Given your earlier answer that models trained on train.parquet are fine for solutions, could you confirm these datasets are acceptable in a prize-eligible solution? Thanks.
+
+
+Comment: Mike.X
+
+I also have a few questions below.🤣
+
+
+  
+    Public code in Kaggle datasets
+    Does Foundational Rule 6.b also apply to source code shared publicly through a Kaggle Dataset? If so, is that code treated as commercially usable even when the dataset says “Other” or mentions non-commercial terms?
+
+    Public pretrained weights
+    Can prize-winning solutions use publicly available pretrained weights if those weights or their README are subject to non-commercial terms, or must the weights themselves be commercially licensed?
+
+    Reproducibility requirement
+    For third-party pretrained checkpoints, is it enough to reproduce the final submission using the published weights, or must winners also be able to reproduce the training process that created those weights?
+
+    Non-commercial external data
+    Can a prize-winning solution use a public candidate database licensed CC BY-NC / CC BY-NC-SA, or would that make the solution ineligible even though the dataset is publicly accessible?
+
+
+Comment: Truthseeking
+
+Thank you for the clarification that train.parquet-derived datasets are fine to use, and that developing on the datasets named in this thread is acceptable.
+
+One point remains open from the follow-up in thread 742265: for the winner's package (rule 2.8), is it sufficient to cite and link the public v3 dataset (ahmedberatozer/casmi26-v3-models), which includes the model definition and inference code under MIT but does not include the original training loop (no optimizer, no backward pass)?
+
+Specifically: does the winner's package need to include the training script that reproduces the v3 weights, or is the public inference code plus a link to the dataset sufficient?
+
+
+  Comment: nofreewill42
+
+I'm pretty sure that for a prize winner the training run needs to be reproducible.
+
+
+  Comment: Marie Killian
+
+The winner's package would need to include the training script that reproduces the v3 weights. As we have stated, for any weights used, the original training code and access to permitted training data must be available.
+
+
+Comment: Truthseeking
+
+In discussion 745072 you wrote: “A team cannot use shared weights without the original training code.” Our solution would use two third-party components whose training code is not published: ahmedberatozer/casmi26-fpnet-full1 (FPNet weights trained on the competition training data) and the feature set in prvsiyan/casmi26-ranker-features. We can provide our own inference and ranking code and cite both datasets, but not the original training code for either. Under your ruling, are these components eligible for a prize-eligible solution? If not, does retraining equivalent models with our own published code and permitted data satisfy the rule?
+
+
+  Comment: Marie Killian
+
+Without the original training code, these components are not eligible. But if you retrain equivalent models with your own published code and permitted data, that would satisfy the rule.
+
+
+Comment: kowero
+
+Hi David and the Enveda team,
+
+Thanks for the clarifications in this thread. Before we choose final submissions, we want to make sure a solution built partly on public competition datasets is prize-eligible. Could you confirm each point (a yes/no per item is enough)?
+
+
+Third-party model weights trained only on train.parquet. For example ahmedberatozer/casmi26-fpnet-full1 and the FPNet weights inside casmi26-v4b-models / v3-models. You said datasets derived from train.parquet are fine. Rule 2.8 asks winners to provide code to reproduce the solution. If the original training code for such weights is not public, is it enough that we (a) retrain equivalent weights with our own published training code, or (b) would using the published weights as-is also be acceptable?
+
+
+Engine code published in public competition datasets without an explicit licence file (e.g. the casmi package in casmi26-v4b-models). Does rule 6.b ("code publicly shared for the competition is deemed OSI-licensed") cover using it in a winning solution, provided we release our full solution under MIT?
+
+
+Publisher-applied CC BY-NC-SA labels on datasets derived only from train.parquet plus CC0 or CC BY sources (e.g. prvsiyan/casmi26-ranker-features, prvsiyan/coconut-casmi26-candidates). Our plan is to rebuild these ourselves from the primary sources (COCONUT CC0, NCBI PubChem, train.parquet), so we would not ship the labelled files. Is a rebuilt equivalent fine?
+
+
+Components we will not use, for completeness: anything NIST-derived, NPAtlas (CC BY-NC), HMDB data records (spectra or structure rows taken from HMDB as candidates or training examples), and MassBank/MoNA records marked NC/ND. Items 5 and 6 below are separate cases we are unsure about.
+
+
+FRIGID weights (CC BY-NC). Topic 746430 asked this and is still open. Are they usable in a prize-eligible solution, or should we treat them as excluded like NIST?
+
+
+Permissively licensed generative models whose decoder was pretrained on HMDB structures (e.g. DiffMS, MIT code and weights). Is the HMDB pretraining a problem for eligibility?
+
+
+
+If anything above would make a solution ineligible, we would rather know now and rebuild that part.
+
+Thank you!
+
+
+  Comment: Marie Killian
+
+Hi @kowero Thank you for asking for clarification!
+
+
+A winning solution can include third party weights, including those shared by other competitors, only if it provides the original training code and access to the permitted data needed to reproduce them. A team cannot use shared weights without the original training code. Alternatively, teams may retrain equivalent models themselves using permitted data and provide their own training code.
+
+Use of public competition datasets and code shared by other competitors is allowed, provided they are derived from permissible sources and comply with applicable licensing requirements. For pretrained model weights, the original training code and access to the permitted training data needed to reproduce them must also be available.
+
+Yes.
+
+Open datasets with noncommercial provisions are permitted. Datasets that are proprietary, paywalled, or have restrictive licensing terms that prohibit their use or the required redistribution of derived artifacts are not permitted. NPAtlas and HMDB are acceptable. NIST and NIST-derived models or datasets are not permitted except for previously approved sources.
+
+The official FRIGID checkpoints are allowed with a reference to the authors’ public training code and data.
+
+HMDB is allowed (see 4) so pretraining on HMDB does not cause a problem for eligibility. Please note that winning teams must provide the original training code and access to the permissible training data needed to reproduce the weights used.
+
+
+Comment: kenneth uchegbu
+
+please who can help me with the reson why code has been saying submission error for like 4 submissions now? what could possibly be wrong?
+
+
+  Comment: Shehab Alshehabi
+
+Are you sure you are following the submission format correctly? Have you checked your notebook produces a submissions.csv in the correct format?
+
+From the competitions page:
+
+
+  Fewer than 25 guesses is allowed but there is no penalty for a wrong guess beyond the rank it occupies. A submission is rejected if it is missing the molecule_id or smiles column, is empty, contains nulls in either column, repeats a molecule_id, or gives more than 25 semicolon-separated guesses for any molecule.
+
+
+That said I had two notebook submissions that were rejected a few days ago that worked fine when I resubmitted.
+
+
+    Comment: kenneth uchegbu
+
+ok. Thank you very much. i will do that.
+
+
+Comment: Gisel Regina Benítez Calvillo
+
+Hi David and the Enveda team, thank you for the clarification in thread 745841 that models trained on train.parquet and redistributed artifacts are fine. Could you please confirm how this applies to ahmedberatozer/casmi26-v4b-models, casmi26-v3-models, casmi26-v2-pool and casmi26-fpnet-full1, whose descriptions still contain a non-commercial source note? It would also help to confirm casmi26-pubchem-tier, which lists its licence as Other and identifies PubChem as its source.
+
+The remaining distinction seems to be code versus data/weights: is the bundled casmi/fe_v4 source code covered by Rule 6.b when shared inside a public Kaggle Dataset, or does Rule 6.c require an explicit OSI-approved software licence from its author? The v4b LICENSE-NOTICE.txt appears specific to DreaMS.
+
+For the Rule 2.8 winner deliverables, are published third-party checkpoints plus a team's own training/inference code and documented dataset references sufficient when the original checkpoint training scripts are unavailable?
+
+Could you also clarify whether compliance is checked only for selected final submissions or for earlier experimental submissions too? This would help teams make compliant final selections while the dataset-specific questions remain open. Thank you.
+
+
+Comment: Subhranil Paul
+
+Hi, thank you for publishing the casmi26 code and datasets. They've been a huge help to many of us in this competition.
+
+A quick licensing question: the casmi / fe_v4 code inside casmi26-v4b-models (and the related v2/v3 datasets) doesn't seem to include a licence file for the code itself. The LICENSE-NOTICE.txt covers DreaMS, and the dataset's "other / non-commercial" note mentions data and models.
+Since the competition rules ask that any open-source code used in a winning solution be under an OSI-approved licence, would you consider adding an explicit code licence, for example MIT or Apache-2.0, to these datasets? That would make it clear for everyone building on your work, and keep teams that use it eligible.
+Thanks again for sharing!
+
+
+Comment: Jusamonix
+
+Hi David, +1 to the open questions in this thread. Two points that have not been asked yet:
+
+
+Scope of the compliance review. Will the end-of-competition check look only at the two submissions a team selects for final scoring, or at every submission the team has made? Many teams use these public datasets for experiments now and plan to replace them before the final selection, so knowing the scope would let them do that safely.
+
+Timing. Could you share roughly when the broader announcement on leaderboard and medal eligibility you mentioned in 745841 will be posted?
+
+
+Thank you!
+
+
+Comment: Shalini S
+
+Hi David, thank you for the Oct 5 clarification in thread 745841 that train.parquet "can be treated effectively as open-source and any model trained on it is fine, redistributed artifacts are fine."
+
+I'd like to confirm how that applies to the public datasets asked about here: ahmedberatozer/casmi26-v4b-models, -v3-models, -v2-pool and -fpnet-full1. As far as we can tell, they contain models and candidate tables derived only from train.parquet and COCONUT (CC BY 4.0). Their Kaggle licence field is "Other", and the training scripts for some of the weights are not published.
+
+Could a prize-eligible solution use these artifacts as published, treating them like other public pretrained models (as with ICEBERG/GLACIER)? We would deliver our own code, cite the datasets, and identify the components we did not retrain ourselves. Or does the winner obligation to deliver training code mean the submitting team must retrain those weights from train.parquet?
+
+Thank you!

@@ -1,0 +1,11 @@
+{
+  "status": "prepared",
+  "branch": "mass_guarded_head_tail_1108",
+  "target": "stormseye/casmi26-mass-guarded-head-tail-1108",
+  "version": 1,
+  "notebook_sha256": "d075cb569a9f2043d43e869b5aaedb5776dcbe410a56dde6c551be8b8c1eec35",
+  "metadata_sha256": "045ba009c65566f0e6599d5af7f2cde7f79e159481883176e3a91a83d74a3fec",
+  "recipe_sha256": "367cb8da9e72c688d5d8ef348de41134f0c5ef1d2e3f3ed612fe109b2c133eda",
+  "static_review_path": "submission/optimization_20261108/mass_guarded_head_tail_1108/static_review.json",
+  "validation_mode": "fast_static"
+}

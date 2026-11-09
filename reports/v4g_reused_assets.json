@@ -1,0 +1,243 @@
+[
+  {
+    "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "version": 9,
+    "filename": "casmi26-pubchemlite-cc0-candidate-fingerprints/pubchemlite_fp.npy",
+    "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-pubchemlite-cc0-candidate-fingerprints/pubchemlite_fp.npy",
+    "bytes": 334454048,
+    "sha256": "724926ecb4bfb2efc7e63014e7f6b8bed8aec34882a435f039c0ddab139e569c",
+    "hash_evidence": [
+      {
+        "sha256": "724926ecb4bfb2efc7e63014e7f6b8bed8aec34882a435f039c0ddab139e569c",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-pubchemlite-cc0-candidate-fingerprints/MANIFEST.json",
+        "key": "files.pubchemlite_fp.npy"
+      }
+    ],
+    "already_complete": false,
+    "state": "verified_hardlink",
+    "reused_from": "assets\\kaggle\\franciscoangulo\\casmi26-pubchemlite-cc0-candidate-fingerprints\\v1\\pubchemlite_fp.npy",
+    "proof": [
+      {
+        "sha256": "724926ecb4bfb2efc7e63014e7f6b8bed8aec34882a435f039c0ddab139e569c",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-pubchemlite-cc0-candidate-fingerprints/MANIFEST.json",
+        "key": "files.pubchemlite_fp.npy"
+      }
+    ]
+  },
+  {
+    "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "version": 9,
+    "filename": "casmi26-v2-pool/pool_fp.npy",
+    "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v2-pool/pool_fp.npy",
+    "bytes": 908986707,
+    "sha256": "f02d91eeb4e2be5687ce678c199aa09a3acda1e821478372fc23fd1c7edf55e8",
+    "hash_evidence": [
+      {
+        "sha256": "f02d91eeb4e2be5687ce678c199aa09a3acda1e821478372fc23fd1c7edf55e8",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/MANIFEST.json",
+        "key": "files.v2_pool/pool_fp.npy",
+        "upstream_ref": "ahmedberatozer/casmi26-v2-pool"
+      }
+    ],
+    "already_complete": false,
+    "state": "verified_hardlink",
+    "reused_from": "assets\\kaggle\\ahmedberatozer\\casmi26-v2-pool\\v1\\pool_fp.npy",
+    "proof": [
+      {
+        "sha256": "f02d91eeb4e2be5687ce678c199aa09a3acda1e821478372fc23fd1c7edf55e8",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/MANIFEST.json",
+        "key": "files.v2_pool/pool_fp.npy",
+        "upstream_ref": "ahmedberatozer/casmi26-v2-pool"
+      }
+    ]
+  },
+  {
+    "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "version": 9,
+    "filename": "casmi26-v2-pool/pool_frag_mass.npy",
+    "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v2-pool/pool_frag_mass.npy",
+    "bytes": 357116708,
+    "sha256": "9afbdc02856b287e06e6c9f61a9f0032b2dd53b20557942c1d00542d9c490ffc",
+    "hash_evidence": [
+      {
+        "sha256": "9afbdc02856b287e06e6c9f61a9f0032b2dd53b20557942c1d00542d9c490ffc",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/MANIFEST.json",
+        "key": "files.v2_pool/pool_frag_mass.npy",
+        "upstream_ref": "ahmedberatozer/casmi26-v2-pool"
+      }
+    ],
+    "already_complete": false,
+    "state": "verified_hardlink",
+    "reused_from": "assets\\kaggle\\ahmedberatozer\\casmi26-v2-pool\\v1\\pool_frag_mass.npy",
+    "proof": [
+      {
+        "sha256": "9afbdc02856b287e06e6c9f61a9f0032b2dd53b20557942c1d00542d9c490ffc",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/MANIFEST.json",
+        "key": "files.v2_pool/pool_frag_mass.npy",
+        "upstream_ref": "ahmedberatozer/casmi26-v2-pool"
+      }
+    ]
+  },
+  {
+    "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "version": 9,
+    "filename": "casmi26-v2-pool/train_fp_sel.npy",
+    "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v2-pool/train_fp_sel.npy",
+    "bytes": 352761118,
+    "sha256": "0e6ddfbfb188b6cffb9f1b0ad9c7ba268ef709ce60b2711d05f98096cd772a8d",
+    "hash_evidence": [
+      {
+        "sha256": "0e6ddfbfb188b6cffb9f1b0ad9c7ba268ef709ce60b2711d05f98096cd772a8d",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/MANIFEST.json",
+        "key": "files.v2_pool/train_fp_sel.npy",
+        "upstream_ref": "ahmedberatozer/casmi26-v2-pool"
+      }
+    ],
+    "already_complete": false,
+    "state": "verified_hardlink",
+    "reused_from": "assets\\kaggle\\ahmedberatozer\\casmi26-v2-pool\\v1\\train_fp_sel.npy",
+    "proof": [
+      {
+        "sha256": "0e6ddfbfb188b6cffb9f1b0ad9c7ba268ef709ce60b2711d05f98096cd772a8d",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/MANIFEST.json",
+        "key": "files.v2_pool/train_fp_sel.npy",
+        "upstream_ref": "ahmedberatozer/casmi26-v2-pool"
+      }
+    ]
+  },
+  {
+    "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "version": 9,
+    "filename": "casmi26-v4b-models/code/fe_v4/res/fragnet/featB.npz",
+    "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v4b-models/code/fe_v4/res/fragnet/featB.npz",
+    "bytes": 131473600,
+    "sha256": "cbf40d3f16e2748dfaf71033bb87ae5bbb18957b7c76c16e8574caecc05bb33f",
+    "hash_evidence": [
+      {
+        "sha256": "cbf40d3f16e2748dfaf71033bb87ae5bbb18957b7c76c16e8574caecc05bb33f",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/MANIFEST.json",
+        "key": "files.v4b/code/fe_v4/res/fragnet/featB.npz",
+        "upstream_ref": "ahmedberatozer/casmi26-v4b-models"
+      },
+      {
+        "sha256": "cbf40d3f16e2748dfaf71033bb87ae5bbb18957b7c76c16e8574caecc05bb33f",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v4b-models/MANIFEST.json",
+        "key": "files.code/fe_v4/res/fragnet/featB.npz"
+      }
+    ],
+    "already_complete": false,
+    "state": "verified_hardlink",
+    "reused_from": "assets\\kaggle\\ahmedberatozer\\casmi26-v4b-models\\v4\\code\\fe_v4\\res\\fragnet\\featB.npz",
+    "proof": [
+      {
+        "sha256": "cbf40d3f16e2748dfaf71033bb87ae5bbb18957b7c76c16e8574caecc05bb33f",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/MANIFEST.json",
+        "key": "files.v4b/code/fe_v4/res/fragnet/featB.npz",
+        "upstream_ref": "ahmedberatozer/casmi26-v4b-models"
+      },
+      {
+        "sha256": "cbf40d3f16e2748dfaf71033bb87ae5bbb18957b7c76c16e8574caecc05bb33f",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v4b-models/MANIFEST.json",
+        "key": "files.code/fe_v4/res/fragnet/featB.npz"
+      }
+    ]
+  },
+  {
+    "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "version": 9,
+    "filename": "casmi26-v4b-models/fe_A.pt",
+    "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v4b-models/fe_A.pt",
+    "bytes": 198790165,
+    "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+    "hash_evidence": [
+      {
+        "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/MANIFEST.json",
+        "key": "files.v3_models/fpnet_0.pt",
+        "upstream_ref": "ahmedberatozer/casmi26-v3-models"
+      },
+      {
+        "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/MANIFEST.json",
+        "key": "files.v4b/fe_A.pt",
+        "upstream_ref": "ahmedberatozer/casmi26-v4b-models"
+      },
+      {
+        "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/MANIFEST.json",
+        "key": "files.v4b/fpnet_0.pt",
+        "upstream_ref": "ahmedberatozer/casmi26-v4b-models"
+      },
+      {
+        "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v4b-models/MANIFEST.json",
+        "key": "files.fe_A.pt"
+      }
+    ],
+    "already_complete": false,
+    "state": "verified_hardlink",
+    "reused_from": "assets\\kaggle\\ahmedberatozer\\casmi26-v4b-models\\v4\\fe_A.pt",
+    "proof": [
+      {
+        "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/MANIFEST.json",
+        "key": "files.v3_models/fpnet_0.pt",
+        "upstream_ref": "ahmedberatozer/casmi26-v3-models"
+      },
+      {
+        "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/MANIFEST.json",
+        "key": "files.v4b/fe_A.pt",
+        "upstream_ref": "ahmedberatozer/casmi26-v4b-models"
+      },
+      {
+        "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/MANIFEST.json",
+        "key": "files.v4b/fpnet_0.pt",
+        "upstream_ref": "ahmedberatozer/casmi26-v4b-models"
+      },
+      {
+        "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v4b-models/MANIFEST.json",
+        "key": "files.fe_A.pt"
+      }
+    ]
+  },
+  {
+    "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "version": 9,
+    "filename": "casmi26-v4b-models/fe_D.pt",
+    "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v4b-models/fe_D.pt",
+    "bytes": 486278727,
+    "sha256": "8ae5bee2c978f4f01ea7cfe29b514cd3e9112006ab51aa8b13f20e26e9365362",
+    "hash_evidence": [
+      {
+        "sha256": "8ae5bee2c978f4f01ea7cfe29b514cd3e9112006ab51aa8b13f20e26e9365362",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/MANIFEST.json",
+        "key": "files.v4b/fe_D.pt",
+        "upstream_ref": "ahmedberatozer/casmi26-v4b-models"
+      },
+      {
+        "sha256": "8ae5bee2c978f4f01ea7cfe29b514cd3e9112006ab51aa8b13f20e26e9365362",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v4b-models/MANIFEST.json",
+        "key": "files.fe_D.pt"
+      }
+    ],
+    "already_complete": false,
+    "state": "verified_hardlink",
+    "reused_from": "assets\\kaggle\\ahmedberatozer\\casmi26-v4b-models\\v4\\fe_D.pt",
+    "proof": [
+      {
+        "sha256": "8ae5bee2c978f4f01ea7cfe29b514cd3e9112006ab51aa8b13f20e26e9365362",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/MANIFEST.json",
+        "key": "files.v4b/fe_D.pt",
+        "upstream_ref": "ahmedberatozer/casmi26-v4b-models"
+      },
+      {
+        "sha256": "8ae5bee2c978f4f01ea7cfe29b514cd3e9112006ab51aa8b13f20e26e9365362",
+        "evidence": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v4b-models/MANIFEST.json",
+        "key": "files.fe_D.pt"
+      }
+    ]
+  }
+]

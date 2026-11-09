@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "branch": "flex_rr_aggressive",
+  "notebook_sha256": "e2e4613baf7020d03eccbcad0d765d3940c127d9af4303109ba3824be10d88ce",
+  "checks": {
+    "original_config_only_fast_mode": true,
+    "original_post_neural_hidden_asts_exact": true,
+    "original_hidden_neural_schedule_exact": true,
+    "fast_observer_passed": true,
+    "fast_mode_declared": true,
+    "fast_no_runtime_models": true,
+    "fast_rr_not_run": true,
+    "fast_no_model_or_consensus_calls": true,
+    "fast_csv_400": true,
+    "recipe_rr_settings": true,
+    "rr_allows_top1": true,
+    "rr_preserves_candidate_sets": true,
+    "rr_native_training_structure_freeze": true
+  },
+  "fast_fixture_audit": {
+    "status": "passed",
+    "mode": "fast_static",
+    "branch": "flex_rr_aggressive",
+    "recipe_sha256": "66fcdea4c6f199dc902c59ed7798e42235126f8dcd14fb255dfacbb99b02f533",
+    "checks": {
+      "recipe_configuration": true,
+      "original_final_prior": true,
+      "official_rdkit": true,
+      "public_model_pins": true,
+      "rr_features_pin": true,
+      "rr_overlay_pin": true,
+      "rr_model_pin": true,
+      "csv_schema_ids": true,
+      "csv_counts": true,
+      "fast_no_model": true
+    },
+    "visible_model_executed": false,
+    "pins": {
+      "features.py": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+      "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+      "config.json": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+      "final_model.pt": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642"
+    },
+    "rr_report": {
+      "status": "off: no pipeline answer in this run"
+    },
+    "scoring_rerun": false,
+    "csv_sha256": "1066d40831a33ec3010a338f129fb4d10e017a61201b012fd9372930f4c7b17e"
+  },
+  "model_executed": false,
+  "truth_read": false,
+  "external_action_performed": false
+}

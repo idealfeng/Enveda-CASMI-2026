@@ -1,0 +1,33 @@
+{
+  "review_date_local": "2026-11-04",
+  "timezone": "Asia/Shanghai",
+  "discussion": {
+    "id": 743254,
+    "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/743254",
+    "title": "Lessons from ~30 submissions: where the MRR actually goes",
+    "author": "Udam Liyanage",
+    "evidence_access": "Kaggle original-URL search-index snapshot, full nine-point body",
+    "snapshot_crawl_label": "2 weeks ago",
+    "live_page_readable_lines": 0,
+    "comments_obtained": true,
+    "comments_access": "Later original-URL search-index result exposed NeckBeard and topic-author Udam Liyanage replies; live/API access still unavailable",
+    "independent_experiment_reproduction": false,
+    "specific_multiview_ablation_in_retrieved_body": false,
+    "code_or_model_download_in_retrieved_body": false
+  },
+  "related_host_correction": {
+    "discussion_id": 741404,
+    "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/741404",
+    "author": "David Healey",
+    "role_label": "Competition Host",
+    "evidence_access": "Kaggle original-URL search-index snapshot including comments",
+    "exact_excerpt": "but rather on the public split of the Hidden test set provided to your submission notebook.",
+    "interpretation": "Public LB is evaluated on the hidden test set public split, not the downloadable dummy test.parquet.",
+    "comment_permalink_available": false
+  },
+  "downloads": {
+    "models": 0,
+    "datasets": 0,
+    "scope": "Small scripts, receipts and review text under D:/Paper/casmi only"
+  }
+}

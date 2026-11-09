@@ -1,0 +1,149 @@
+Compliance: is the approved-dataset list exhaustive, and does "trained on NIST" reach models whose training corpus CONTAINS NIST-derived data?
+
+https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/749217
+
+Author: Marco Pereira
+
+Posted: 2026-10-14T10:57:36.311Z
+
+Four yes/no questions on dataset compliance, asked narrowly because we can act on one-line answers.
+
+We have read the answers compiled in the 748270 table and the threads it cites (741359, 744338, 744556), and we believe we follow them. Four points remain ambiguous, and each one changes what we may ship.
+
+
+Is the approved list EXHAUSTIVE, or is the rule "anything not NIST-derived is acceptable"? The 748270 table liberates COCONUT, PubChemLite, ChEBI, LIPID MAPS, MassSpecGym, GLACIER/ICEBERG, DreaMS, CFM-ID 4, GNPS/MassBank/MoNA releases, GNPS-NIST14-MATCHES, Enveda-180, PubChem and train.parquet. Is using a collection NOT on that list permitted as long as it is not NIST-derived — or is the list itself the rule?
+
+
+Does "trained on NIST" reach a MODEL whose training corpus merely CONTAINS NIST-derived data? This is the practical version of the question and it is the one that blocks us. A concrete case: DreaMS is MIT-licensed and its code and weights are freely released — but its pre-training corpus, GeMS, redistributes DreaMS_Atlas/nist20_mona_clean_merged_spectra_dreams_hidden_nist20.hdf5, i.e. a NIST20 derivative. Does using DreaMS (a) as released, (b) retrained on a NIST-free corpus, or (c) not at all, follow from your rule? We ask because the answer is not deducible: the model is not NIST-derived, but its training data is.
+
+
+MassSpecGym models specifically. The host note we have (742991) says MassSpecGym and models trained on it are fair game. Does that hold for every checkpoint released on the MassSpecGym Hub, or only for those whose training split excludes any NIST-derived spectra? If some are excluded, is there a list, or a rule we can apply ourselves?
+
+
+Reference spectra released by GNPS/MassBank/MoNA. Most of these libraries are redistributions that aggregate multiple upstream sources. Is the correct procedure to (i) take the release as a whole, (ii) audit the per-record provenance and drop specific records, or (iii) only use an explicitly NIST-free subset? GNPS-NIST14-MATCHES is on the approved list despite the name, so we want to be sure we are not over- or under-reading it.
+
+
+
+Our reading, stated so it can be corrected: we will treat any artifact whose own manifest or archive contents show a NIST20/NIST-derived member as excluded, and we will audit provenance from inside the artifact (manifests, hashes, archive listings) rather than from names or documentation. If that rule is stricter than yours, we would rather be told than assume.
+
+A one-line answer to each — or a single "the list is exhaustive; audit per-record" — is all we need. Thank you.
+
+
+Comment: Marco Pereira
+
+One procedural question about the Final Submissions, because the rules leave one case open and it changes what we do.
+
+The rules say we may select up to two Final Submissions, and that a Final Submission is the one selected by the user — "or automatically selected by Kaggle in the event not selected by the user." That is clear for the normal case.
+
+What is not clear: if a team selects ONE Final Submission and deliberately leaves the second slot empty, does Kaggle fill that empty slot automatically with the team's next-best scoring submission — or does the team stand judged on the one submission it selected?
+
+Why we ask, concretely. We would rather submit fewer things than be judged on something we did not intend to stand behind. If the empty slot is filled automatically, the safe move is to fill both slots ourselves, even with our weaker candidate. If an empty slot simply means "judged on what I selected", then selecting one is a legitimate choice and we will make it deliberately.
+
+We are asking rather than assuming because the answer is not in the rules, and because both readings are reasonable. One line is enough.
+
+Thank you.
+
+
+Comment: Marco Pereira
+
+Follow-up with what we found when we went to check, because it narrows my earlier question to one specific point.
+
+I asked whether a fine-tune of an approved model inherits that model's approval. While waiting, we audited the base model from its own artifacts rather than assuming, and we want to report the result — it is more favourable than our first reading, and it moves the question.
+
+On the base model (DreaMS):
+
+Its training recipe pins a single dataset: pre_train.sh sets --dataset_pth "…/GeMS_A/GeMS_A10.hdf5", and train_argparse.py marks it required.
+The NIST20 material lives in a different directory (DreaMS_Atlas/), not in the GeMS_A/ training split — and the authors state it themselves: "a NIST20 spectrum which was masked in the public version of the Atlas due to the NIST20 licensing restrictions."
+⇒ Under your criterion — "whether NIST-derived data was used to train the weights" — we find no gradient path from NIST to the base model's weights. (We had earlier flagged the base as excluded because one redistributed listing contains a NIST-derived member. On re-reading your criterion, that was us answering a redistribution question with a training rule. We withdraw it.)
+What remains, and it is the only thing left:
+
+We use a fine-tune of DreaMS, published by a third party, whose own training recipe is NOT published. We can show the fine-tune is light and weight-only — 64 of 64 backbone tensors match the base by name and shape, median relative difference 6.2 % — but it cannot be audited from the inside: the artifact carries no training record at all (zero trainer markers, nine keys, no corpus field, no validation set). The base is auditable; the derivative is not, even with the file in hand.
+
+So, one question: when a competitor uses a third-party derivative whose recipe is unpublished and whose artifact carries no training record, does the burden fall on us to prove a negative — or is "the base is clean, and the derivative is a light weight-space fine-tune" acceptable?
+
+And so you know our position either way: we would rather rebuild than argue. We can drop that checkpoint and the five features it feeds in one submission — one slot, and the leaderboard keeps the best, so it costs us nothing but the work. We are asking because your answer decides whether the work is necessary, not because we intend to contest it.
+
+Thank you — and the same question applies to any third-party repackaged checkpoint, so an answer here helps more than us.
+
+
+  Comment: Marie Killian
+
+Thank you for clarifying! Any third-party derivatives (including fine-tuned models) must have the original training code and access to the permitted training data to show how they were developed. So, no, a third-party derivative whose recipe is unpublished and whose artifact carries no training record would not be permitted.
+
+
+Comment: Marco Pereira
+
+One follow-up, and it is a yes/no that decides whether we rebuild something.
+
+Your Q2 answer — "the relevant question is whether NIST-derived data was used to train the weights" — is clear for a base model. It is not clear for a FINE-TUNE, and that is our exact situation.
+
+The concrete case. We use a checkpoint that is a fine-tune of DreaMS. We can establish that objectively from the artifact, and we did: 64 of 64 backbone tensors match the officially released DreaMS by name and shape, with a median relative weight difference of 6.2 % — a light fine-tune, and the file itself records its base ("ssl_ckpt": "data/external/dreams/ssl_model.ckpt"). The fine-tune's own training data is not recorded in the artifact and is not published, so we cannot audit it.
+
+So the question is about inheritance, and it splits in two:
+
+Does a fine-tune of an approved model inherit that model's approval? Concretely: DreaMS is MIT-licensed and was approved by name, but its pre-training corpus (GeMS) redistributes a member named …hidden_nist20.hdf5. If the base model's pre-training is the question, a fine-tune of it inherits the answer — and we would stop using it. If the question is only the fine-tune's OWN training run, then a fine-tune is judged on its own data.
+And if the answer is "judged on its own data" — is that data something you can check on your side, or does the burden fall on us to prove a negative? We ask because "we reserve the right to check any and all submissions" makes the second reading expensive for us and cheap for you.
+What we will do with either answer:
+
+"inherits" ⇒ we rebuild without it. We already know it is feasible: the checkpoint lives inside a third-party dataset, so we would pass a different bank to our engine and drop the five feature columns it feeds. One submission slot, and the leaderboard keeps the best, so this costs us nothing but the work.
+"judged on its own data" ⇒ we keep it, and we will audit what we can and say plainly in our write-up what we could not.
+We are asking rather than assuming, precisely because we cannot deduce it — and because a disqualification is a worse outcome than a lost tenth of a point. One line is enough. Thank you.
+
+
+Comment: Marco Pereira
+
+Withdrawing question 1, and narrowing this to the three that are still open.
+
+Q1 is answered elsewhere on this forum — "Competitors are not limited to the external datasets that have been explicitly approved by name. Other publicly available datasets may be used, provided they comply with the competition's external-data rules and applicable licensing requirements." We had asked it again here because we failed to read the reply before posting. That was our error, and it is now fixed on our side (our tooling reads the forum by two independent routes and cross-checks them, precisely because a silent parse failure is how we missed it).
+
+So the list is not a ceiling — and we have since measured what that permits. Eight public collections, all between 95.2 % and 100 % inside PubChem; the one genuinely independent corpus we found contributes 2 answers, none of which are in our evaluation set. The constraint we are actually hitting is coverage, not permission. That is reported back on the original thread and is not a question for you.
+
+The three that remain genuinely open, and each is a yes/no we can act on:
+
+Q2 (the one that blocks us). The adjacent answer we have speaks to the weights: "the weights are not derived from NIST or other prohibited data." Our case is the training corpus, not the weights. Concretely: DreaMS is MIT, its code and weights are freely released, and its pre-training corpus (GeMS) redistributes a member named …hidden_nist20.hdf5, i.e. a NIST20 derivative. Does "not derived from NIST" (a) reach the corpus, (b) only the weights, or (c) is it undefined and we should simply avoid the checkpoint? We ask because we cannot deduce it: the model is not NIST-derived, but the data it was trained on is — and the answer decides whether an entire class of published models is usable.
+
+Q3. Is every checkpoint released with MassSpecGym "fair game", or only those whose training split excludes NIST-derived spectra — and if there is a distinction, is it a list, or a rule we can apply ourselves?
+
+Q4. For GNPS / MassBank / MoNA releases that aggregate upstream sources: (i) take the release as a whole, (ii) audit per-record provenance and drop specific records, or (iii) use only an explicitly NIST-free subset? GNPS-NIST14-MATCHES appears as allowed in the community-compiled table, which is a third-party summary — we would rather have it from you.
+
+Our working rule, stated so it can be corrected: treat any artifact whose own manifest or archive contents show a NIST20/NIST-derived member as excluded, and audit provenance from inside the artifact rather than from names or documentation. If that is stricter than your rule, we would rather be told.
+
+One line each is enough. Thank you.
+
+
+  Comment: Marie Killian
+
+Q2 As David stated in 748799, “If the model weights aren’t a derivative of NIST then they are not in violation of the NIST license so should be fine.” The relevant question is whether NIST-derived data was used to train the weights.
+
+Q3 Only checkpoints whose training data excludes NIST-derived spectra are allowed (except for the previously approved exception for GNPS-NIST14-MATCHES).
+
+Q4 Publicly released libraries (GNPS, MassBank, MoNA) can generally be used as distributed. However, competitors should avoid using data known to violate applicable licensing requirements, including restrictions on NIST-derived data.
+As David stated in 745832, “Yes, specifically GNPS-NIST14-MATCHES is allowed, because it has been in the GNPS open repository for many years and we won't require everyone to remove it from their GNPS library dumps. Allowed for library matching and training. However, I believe NIST would consider any newly created such datasets to be derivatives and in violation of their license."
+
+
+    Comment: WEI ZIHE12
+
+Thank you for the clarification in 3538798. Following your criterion ("whether NIST-derived data was used to train the weights"), could you confirm that these three official checkpoints are allowed?
+
+
+DreaMS ssl_model.ckpt (Zenodo 10997887): the hyperparameters stored in the checkpoint show it was trained from scratch only on GeMS-A10 (unlabeled MassIVE spectra) and checkpointed on GeMS validation loss. NIST20 was used only to evaluate the frozen backbone (a linear probe on a ~6k NIST20+MoNA subset, and NIST20 similarity metrics in the authors' ablations), never for gradient updates.
+
+
+GLACIER, official MassSpecGym checkpoint (coleygroup/ms-pred): trained only on MassSpecGym, whose GNPS part includes GNPS-NIST14-MATCHES and no other NIST library. It shares most hyperparameters with the authors' NIST20 config, but no NIST spectra were used in training.
+
+
+ICEBERG, official MassSpecGym checkpoints (gen and inten_contr): trained only on MassSpecGym; missing collision energies were imputed by an ICEBERG model also trained only on MassSpecGym, and contrastive decoys come from PubChem.
+
+
+
+Can we treat these as allowed under 3538798?
+
+
+    Comment: Marie Killian
+
+Yes, all of those are allowed.
+
+
+    Comment: WEI ZIHE12
+
+Thanks a lot!!!

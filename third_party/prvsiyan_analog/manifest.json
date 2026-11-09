@@ -1,0 +1,157 @@
+{
+  "retrieved_date": "2026-11-04",
+  "source_kind": "Kaggle public kernels/pull API; anonymous download",
+  "notebook_ref": "prvsiyan/analog-propagation-casmi-2026-baseline",
+  "notebook_version": 43,
+  "script_version_id": 360497306,
+  "page_url": "https://www.kaggle.com/code/prvsiyan/analog-propagation-casmi-2026-baseline",
+  "pinned_page_url": "https://www.kaggle.com/code/prvsiyan/analog-propagation-casmi-2026-baseline?scriptVersionId=360497306",
+  "api_url": "https://www.kaggle.com/api/v1/kernels/pull/prvsiyan/analog-propagation-casmi-2026-baseline",
+  "source_notebook": "prvsiyan_v43.ipynb",
+  "source_sha256": "a1da86c791cdbcb553254a12cef8bca8b527b991f40953d9dcb2a9c819d3c852",
+  "code_cells": 32,
+  "cells_total": 35,
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+  "last_run_time": "2026-10-31T18:34:28.9069307Z",
+  "source_license": "Notebook page declares Apache-2.0; input licenses are separate. See dependency_sources.json.",
+  "dependency_version_binding": "Kernels/pull does not disclose the notebook-bound dataset version IDs. Current versions and file inventories are recorded separately, not asserted identical to historical run.",
+  "execution_status": "Not executed. Source downloaded and every code cell AST parsed only.",
+  "known_limitations": [
+    "Original notebook assumes Kaggle Linux paths and Linux RDKit wheels.",
+    "Visible placeholder test automatically reduces to 12 molecules. The 400 visible IDs are not the hidden scoring IDs.",
+    "Primary RDKit 2026.03.3 and simulator RDKit 2025.03.6 must be isolated.",
+    "Multiple input datasets explicitly CC BY-NC-SA 4.0; local research download does not establish competition eligibility.",
+    "Official hidden leaderboard score not independently reproduced."
+  ],
+  "files": [
+    {
+      "path": "dependency_sources.json",
+      "bytes": 36070,
+      "sha256": "ac39868ecf4dc61d92df6f77789a72be32a64b00794146aa05fd144a154ffc17"
+    },
+    {
+      "path": "ENGINE2_CACHE_BOUNDARIES.md",
+      "bytes": 6798,
+      "sha256": "e141a162d53ce94877a9853a7b9a6a17b6236bbd41b42966e024e1cf1788c182"
+    },
+    {
+      "path": "kaggle_page.html",
+      "bytes": 8591,
+      "sha256": "87532cb9d7c99edd81be909f54ce757c23e59fad4cce8fcae3ed3f23c3a6cbad"
+    },
+    {
+      "path": "kaggle_pull_latest.json",
+      "bytes": 604821,
+      "sha256": "f0519d00beaa2f21e333aafc1e6fe042e4ed1ce3e9a18a168d361277e119961d"
+    },
+    {
+      "path": "memory_audit.json",
+      "bytes": 2146,
+      "sha256": "c79be69afdbd117b9acce884bf30631cf89e40832ae94351d1721dbea8e2ebb5"
+    },
+    {
+      "path": "metadata_v43.json",
+      "bytes": 2170,
+      "sha256": "d99ef38d175b9e4fde512909ba4d317e21a435a78bd768da08c8d9cbb83a1ceb"
+    },
+    {
+      "path": "minimum_inputs.json",
+      "bytes": 23974,
+      "sha256": "3eba119aa01511fe6157be3ea6fe50e7982ca63553aadf0eb2867cc06effa49d"
+    },
+    {
+      "path": "prvsiyan_v43.ipynb",
+      "bytes": 250480,
+      "sha256": "a1da86c791cdbcb553254a12cef8bca8b527b991f40953d9dcb2a9c819d3c852"
+    },
+    {
+      "path": "prvsiyan_v43_source.txt",
+      "bytes": 235877,
+      "sha256": "def9f457e8d51f738799f2cf4de742a231823e625885ee54cc89956944552046"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8048,
+      "sha256": "0c1ba993dca6059a9e5928cb689c8dff4f727d4f50ad2991543d3f3f50a69bc9"
+    },
+    {
+      "path": "reuse_engine_lists.py",
+      "bytes": 12640,
+      "sha256": "ee4f0c44fbdc7fa58aa6933d56e0b5008e4e7b8ad64001595ae3e8960f5fd1de"
+    },
+    {
+      "path": "run_local_linux.py",
+      "bytes": 18130,
+      "sha256": "3120be44bf017060862977ffe88cbea4dfb4d5ff3e4bd995a3912638d2c3312e"
+    }
+  ],
+  "static_checks": {
+    "all_code_cells_ast_parse": true,
+    "parsed_cells": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      32,
+      33,
+      34
+    ],
+    "no_execution_performed": true
+  },
+  "local_adapter": {
+    "file": "run_local_linux.py",
+    "sha256": "3120be44bf017060862977ffe88cbea4dfb4d5ff3e4bd995a3912638d2c3312e",
+    "status": "WSL Ubuntu prepare-only passed; model execution pending",
+    "changes": [
+      "Translate Kaggle input and working paths",
+      "Record actual local GPU instead of requiring T4",
+      "Check explicit local competition directory after realpath"
+    ],
+    "algorithm_changes": false,
+    "shared_cache_support": {
+      "builder": "scripts/build_shared_spec_cache.py",
+      "runtime_helper": "scripts/reproduction_io.py",
+      "mmap_mode": "c",
+      "fixture_spectra": 1184,
+      "fixture_clean_peaks": 152902,
+      "csr_and_metadata_equal": true,
+      "library_search_and_representatives_equal": true
+    },
+    "cross_platform_fixture_equivalence": "passed: Linux original RDKit2026.03.3 output versus Windows streamed cache",
+    "engine2_recovery": {
+      "flag": "--reuse-engine-lists",
+      "helper": "reuse_engine_lists.py",
+      "prepare_only_validated": true,
+      "negative_query_guards_passed": true,
+      "not_cold_start": true
+    },
+    "notebook_globals": {
+      "display": "IPython.display.display with text fallback"
+    }
+  }
+}

@@ -1,0 +1,540 @@
+{
+  "status": "passed",
+  "checks": {
+    "actual_fast": true,
+    "actual_hidden": true,
+    "actual_no_eligible": true,
+    "actual_prefix_protection": true,
+    "actual_tail_same_formula_reorder": true,
+    "invalid_query_preserved": true,
+    "no_spectrum_preserved": true,
+    "missing_query_preserved": true,
+    "duplicate_identity_preserved": true,
+    "global_model_failure_closed": true,
+    "global_control_binding_failure_closed": true,
+    "source_unchanged": true,
+    "bad_prefix_rejected": true,
+    "bad_candidate_rejected": true,
+    "cross_formula_rejected": true,
+    "invalid_query_changed_rejected": true,
+    "empty_checks_rejected": true,
+    "no_model_claim_rejected": true,
+    "bad_head_receipts_rejected": true,
+    "bad_score_hash_rejected": true,
+    "bad_head_audit_rejected": true,
+    "bad_head_coverage_rejected": true,
+    "bad_checkpoint_rejected": true,
+    "bad_module_rejected": true
+  },
+  "checks_passed": 24,
+  "checks_total": 24,
+  "notebook_sha256": "6de37bec32c8aa8bfb46b2c5e94e374b53fe36137dff1cd7d1c4a295359f56fe",
+  "fast": {
+    "accepted": true,
+    "direct": {
+      "prefix_exact": true,
+      "invalid_preserved": true,
+      "no_spectrum_preserved": true,
+      "missing_query_preserved": true,
+      "duplicate_identity_preserved": true,
+      "actual_tail_reordered": true
+    },
+    "report": {
+      "status": "fast_static_no_model",
+      "mode": "fast_static",
+      "control_sha256": "f1b0eaeaec497a0ac51944a393b15c60dbf59b4247a7de009c4a780622bc72c0",
+      "baseline_audit_csv_sha256": "f1b0eaeaec497a0ac51944a393b15c60dbf59b4247a7de009c4a780622bc72c0",
+      "policy": "prefix ranks1-7 exact; ranks8-25 same-formula original slots only",
+      "model_invoked": false,
+      "rows": 5,
+      "output_sha256": "f1b0eaeaec497a0ac51944a393b15c60dbf59b4247a7de009c4a780622bc72c0",
+      "checks": {
+        "original_output_untouched": true
+      },
+      "details": []
+    },
+    "observer": {
+      "status": "passed",
+      "branch": "mass_guarded_head_tail_1108",
+      "mode": "fast_static",
+      "recipe_sha256": "ba7ee5d3545fd6bc32159bbeed785e904dbf99beae0347984a8b7d5c8809e5d8",
+      "checks": {
+        "original_base_audit": true,
+        "late_module_pin": true,
+        "head_payload_pins": true,
+        "original_scorer_pin": true,
+        "audited_control_bound": true,
+        "final_csv_bound": true,
+        "exact_ids_order": true,
+        "exact_prefix7": true,
+        "exact_candidate_multisets": true,
+        "fast_no_model": true
+      },
+      "head_executed": false,
+      "changed_queries": 0,
+      "baseline_control_sha256": "f1b0eaeaec497a0ac51944a393b15c60dbf59b4247a7de009c4a780622bc72c0",
+      "csv_sha256": "f1b0eaeaec497a0ac51944a393b15c60dbf59b4247a7de009c4a780622bc72c0"
+    }
+  },
+  "hidden": {
+    "accepted": true,
+    "direct": {
+      "prefix_exact": true,
+      "invalid_preserved": true,
+      "no_spectrum_preserved": true,
+      "missing_query_preserved": true,
+      "duplicate_identity_preserved": true,
+      "actual_tail_reordered": true
+    },
+    "report": {
+      "status": "applied",
+      "mode": "hidden_full",
+      "control_sha256": "f1b0eaeaec497a0ac51944a393b15c60dbf59b4247a7de009c4a780622bc72c0",
+      "baseline_audit_csv_sha256": "f1b0eaeaec497a0ac51944a393b15c60dbf59b4247a7de009c4a780622bc72c0",
+      "policy": "prefix ranks1-7 exact; ranks8-25 same-formula original slots only",
+      "model_invoked": true,
+      "eligible_queries": 1,
+      "eligible_candidate_rows": 17,
+      "skipped_queries": {
+        "q_invalid": "invalid_or_duplicate_identity",
+        "q_nospectrum": "no_usable_spectra",
+        "q_missing": "missing_query_spectra",
+        "q_duplicate": "invalid_or_duplicate_identity"
+      },
+      "score_bindings": {
+        "status": true,
+        "encoder": true,
+        "heads": true,
+        "input_hash": true,
+        "queries_hash": true,
+        "output_hash": true,
+        "exact_keys": true,
+        "exact_rows": true,
+        "actual_score_coverage": true,
+        "scoped_failures": true
+      },
+      "head_receipts": [
+        {
+          "sha256": "99e63aedb420217c817aeaaebd3d09ffa9620824a8d8833dcf55fd90ae903a53",
+          "step": 2500,
+          "seed": 20261108
+        },
+        {
+          "sha256": "f29077ca350e48705cec93ed7a9716b2b718e965ba56cec859bb829bf4b7ba75",
+          "step": 2500,
+          "seed": 20261109
+        }
+      ],
+      "evidence_sha256": "24c34ebb22ee083ac7d161747991f48e2296e39e76e9a56ce48d5904226daa87",
+      "queries_sha256": "921f3decd0d19a16ddf85a7f987ffbfb8ca896faa1f26aee5a42f459fd8acaeb",
+      "scores_sha256": "f555783cd6ceb02fd4f1e91f82a27af5d2fc7e4f63771a87f147f6924437e974",
+      "head_audit_sha256": "af5384ac0f37e4dfdd5d61b5027b8988b41dd419b186547c8e336a315ab59edd",
+      "rows": 5,
+      "changed_queries": 1,
+      "output_sha256": "7c6bfad815928a49a7af7b8ae86d6d7cf64b3f62a7670ff9fdc73a62768d8ad1",
+      "details": [
+        {
+          "molecule_id": "q0",
+          "reason": "scored_tail",
+          "changed": true,
+          "changed_formula_groups": 4,
+          "prefix7_exact": true,
+          "candidate_multiset_exact": true,
+          "official_identity_multiset_exact": true,
+          "formula_slots_exact": true
+        },
+        {
+          "molecule_id": "q_invalid",
+          "reason": "invalid_or_duplicate_identity",
+          "changed": false,
+          "changed_formula_groups": 0,
+          "prefix7_exact": true,
+          "candidate_multiset_exact": true,
+          "official_identity_multiset_exact": true,
+          "formula_slots_exact": true
+        },
+        {
+          "molecule_id": "q_nospectrum",
+          "reason": "no_usable_spectra",
+          "changed": false,
+          "changed_formula_groups": 0,
+          "prefix7_exact": true,
+          "candidate_multiset_exact": true,
+          "official_identity_multiset_exact": true,
+          "formula_slots_exact": true
+        },
+        {
+          "molecule_id": "q_missing",
+          "reason": "missing_query_spectra",
+          "changed": false,
+          "changed_formula_groups": 0,
+          "prefix7_exact": true,
+          "candidate_multiset_exact": true,
+          "official_identity_multiset_exact": true,
+          "formula_slots_exact": true
+        },
+        {
+          "molecule_id": "q_duplicate",
+          "reason": "invalid_or_duplicate_identity",
+          "changed": false,
+          "changed_formula_groups": 0,
+          "prefix7_exact": true,
+          "candidate_multiset_exact": true,
+          "official_identity_multiset_exact": true,
+          "formula_slots_exact": true
+        }
+      ],
+      "checks": {
+        "control_matches_audited_base": true,
+        "exact_molecule_order": true,
+        "prefix7_exact": true,
+        "candidate_multiset_exact": true,
+        "official_identity_multiset_exact": true,
+        "formula_slots_exact": true,
+        "no_eligible_explicit": true
+      }
+    },
+    "observer": {
+      "status": "passed",
+      "branch": "mass_guarded_head_tail_1108",
+      "mode": "hidden_full",
+      "recipe_sha256": "ba7ee5d3545fd6bc32159bbeed785e904dbf99beae0347984a8b7d5c8809e5d8",
+      "checks": {
+        "original_base_audit": true,
+        "late_module_pin": true,
+        "head_payload_pins": true,
+        "original_scorer_pin": true,
+        "audited_control_bound": true,
+        "final_csv_bound": true,
+        "exact_ids_order": true,
+        "exact_prefix7": true,
+        "exact_candidate_multisets": true,
+        "tail_execution": true,
+        "named_tail_checks": true,
+        "dynamic_scope": true,
+        "actual_formula_slots": true,
+        "actual_official_identity_multisets": true,
+        "invalid_identity_query_preserved": true,
+        "actual_head_inference": true,
+        "actual_score_bindings": true,
+        "saved_score_hashes": true
+      },
+      "head_executed": true,
+      "changed_queries": 1,
+      "baseline_control_sha256": "f1b0eaeaec497a0ac51944a393b15c60dbf59b4247a7de009c4a780622bc72c0",
+      "csv_sha256": "7c6bfad815928a49a7af7b8ae86d6d7cf64b3f62a7670ff9fdc73a62768d8ad1"
+    }
+  },
+  "no_eligible": {
+    "accepted": true,
+    "direct": {
+      "prefix_exact": true,
+      "invalid_preserved": true,
+      "no_spectrum_preserved": true,
+      "missing_query_preserved": true,
+      "duplicate_identity_preserved": true,
+      "actual_tail_reordered": true
+    },
+    "report": {
+      "status": "no_eligible",
+      "mode": "hidden_full",
+      "control_sha256": "f1b0eaeaec497a0ac51944a393b15c60dbf59b4247a7de009c4a780622bc72c0",
+      "baseline_audit_csv_sha256": "f1b0eaeaec497a0ac51944a393b15c60dbf59b4247a7de009c4a780622bc72c0",
+      "policy": "prefix ranks1-7 exact; ranks8-25 same-formula original slots only",
+      "model_invoked": false,
+      "eligible_queries": 0,
+      "eligible_candidate_rows": 0,
+      "skipped_queries": {
+        "q0": "no_usable_spectra",
+        "q_invalid": "invalid_or_duplicate_identity",
+        "q_nospectrum": "no_usable_spectra",
+        "q_missing": "missing_query_spectra",
+        "q_duplicate": "invalid_or_duplicate_identity"
+      },
+      "rows": 5,
+      "changed_queries": 0,
+      "output_sha256": "f1b0eaeaec497a0ac51944a393b15c60dbf59b4247a7de009c4a780622bc72c0",
+      "details": [
+        {
+          "molecule_id": "q0",
+          "reason": "no_usable_spectra",
+          "changed": false,
+          "prefix7_exact": true,
+          "candidate_multiset_exact": true,
+          "official_identity_multiset_exact": true,
+          "formula_slots_exact": true
+        },
+        {
+          "molecule_id": "q_invalid",
+          "reason": "invalid_or_duplicate_identity",
+          "changed": false,
+          "prefix7_exact": true,
+          "candidate_multiset_exact": true,
+          "official_identity_multiset_exact": true,
+          "formula_slots_exact": true
+        },
+        {
+          "molecule_id": "q_nospectrum",
+          "reason": "no_usable_spectra",
+          "changed": false,
+          "prefix7_exact": true,
+          "candidate_multiset_exact": true,
+          "official_identity_multiset_exact": true,
+          "formula_slots_exact": true
+        },
+        {
+          "molecule_id": "q_missing",
+          "reason": "missing_query_spectra",
+          "changed": false,
+          "prefix7_exact": true,
+          "candidate_multiset_exact": true,
+          "official_identity_multiset_exact": true,
+          "formula_slots_exact": true
+        },
+        {
+          "molecule_id": "q_duplicate",
+          "reason": "invalid_or_duplicate_identity",
+          "changed": false,
+          "prefix7_exact": true,
+          "candidate_multiset_exact": true,
+          "official_identity_multiset_exact": true,
+          "formula_slots_exact": true
+        }
+      ],
+      "checks": {
+        "control_matches_audited_base": true,
+        "exact_molecule_order": true,
+        "prefix7_exact": true,
+        "candidate_multiset_exact": true,
+        "official_identity_multiset_exact": true,
+        "formula_slots_exact": true,
+        "no_eligible_explicit": true
+      }
+    },
+    "observer": {
+      "status": "passed",
+      "branch": "mass_guarded_head_tail_1108",
+      "mode": "hidden_full",
+      "recipe_sha256": "ba7ee5d3545fd6bc32159bbeed785e904dbf99beae0347984a8b7d5c8809e5d8",
+      "checks": {
+        "original_base_audit": true,
+        "late_module_pin": true,
+        "head_payload_pins": true,
+        "original_scorer_pin": true,
+        "audited_control_bound": true,
+        "final_csv_bound": true,
+        "exact_ids_order": true,
+        "exact_prefix7": true,
+        "exact_candidate_multisets": true,
+        "tail_execution": true,
+        "named_tail_checks": true,
+        "dynamic_scope": true,
+        "actual_formula_slots": true,
+        "actual_official_identity_multisets": true,
+        "invalid_identity_query_preserved": true,
+        "explicit_no_eligible": true
+      },
+      "head_executed": false,
+      "changed_queries": 0,
+      "baseline_control_sha256": "f1b0eaeaec497a0ac51944a393b15c60dbf59b4247a7de009c4a780622bc72c0",
+      "csv_sha256": "f1b0eaeaec497a0ac51944a393b15c60dbf59b4247a7de009c4a780622bc72c0"
+    }
+  },
+  "global_failure": {
+    "accepted": false,
+    "fail_closed": true,
+    "control_preserved": true,
+    "report": {
+      "status": "failed_closed",
+      "mode": "hidden_full",
+      "control_sha256": "f1b0eaeaec497a0ac51944a393b15c60dbf59b4247a7de009c4a780622bc72c0",
+      "baseline_audit_csv_sha256": "f1b0eaeaec497a0ac51944a393b15c60dbf59b4247a7de009c4a780622bc72c0",
+      "policy": "prefix ranks1-7 exact; ranks8-25 same-formula original slots only",
+      "model_invoked": true,
+      "eligible_queries": 1,
+      "eligible_candidate_rows": 17,
+      "skipped_queries": {
+        "q_invalid": "invalid_or_duplicate_identity",
+        "q_nospectrum": "no_usable_spectra",
+        "q_missing": "missing_query_spectra",
+        "q_duplicate": "invalid_or_duplicate_identity"
+      },
+      "error_type": "RuntimeError",
+      "error": "Guarded tail head process failed; see guarded_tail_neural.log"
+    }
+  },
+  "control_binding_failure": {
+    "accepted": false,
+    "fail_closed": true,
+    "control_preserved": true,
+    "report": {
+      "status": "failed_closed",
+      "mode": "hidden_full",
+      "control_sha256": "f1b0eaeaec497a0ac51944a393b15c60dbf59b4247a7de009c4a780622bc72c0",
+      "baseline_audit_csv_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "policy": "prefix ranks1-7 exact; ranks8-25 same-formula original slots only",
+      "model_invoked": false,
+      "error_type": "ValueError",
+      "error": "Original audited MASS output was changed before tail"
+    }
+  },
+  "rejected": {
+    "bad_prefix": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "exact_prefix7",
+      "direct": {
+        "prefix_exact": true,
+        "invalid_preserved": true,
+        "no_spectrum_preserved": true,
+        "missing_query_preserved": true,
+        "duplicate_identity_preserved": true,
+        "actual_tail_reordered": true
+      }
+    },
+    "bad_candidate": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "exact_candidate_multisets",
+      "direct": {
+        "prefix_exact": true,
+        "invalid_preserved": true,
+        "no_spectrum_preserved": true,
+        "missing_query_preserved": true,
+        "duplicate_identity_preserved": true,
+        "actual_tail_reordered": true
+      }
+    },
+    "cross_formula": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "actual_formula_slots",
+      "direct": {
+        "prefix_exact": true,
+        "invalid_preserved": true,
+        "no_spectrum_preserved": true,
+        "missing_query_preserved": true,
+        "duplicate_identity_preserved": true,
+        "actual_tail_reordered": true
+      }
+    },
+    "invalid_query_changed": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "invalid_identity_query_preserved",
+      "direct": {
+        "prefix_exact": true,
+        "invalid_preserved": true,
+        "no_spectrum_preserved": true,
+        "missing_query_preserved": true,
+        "duplicate_identity_preserved": true,
+        "actual_tail_reordered": true
+      }
+    },
+    "empty_checks": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "named_tail_checks",
+      "direct": {
+        "prefix_exact": true,
+        "invalid_preserved": true,
+        "no_spectrum_preserved": true,
+        "missing_query_preserved": true,
+        "duplicate_identity_preserved": true,
+        "actual_tail_reordered": true
+      }
+    },
+    "no_model_claim": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "actual_head_inference",
+      "direct": {
+        "prefix_exact": true,
+        "invalid_preserved": true,
+        "no_spectrum_preserved": true,
+        "missing_query_preserved": true,
+        "duplicate_identity_preserved": true,
+        "actual_tail_reordered": true
+      }
+    },
+    "bad_head_receipts": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "actual_score_bindings",
+      "direct": {
+        "prefix_exact": true,
+        "invalid_preserved": true,
+        "no_spectrum_preserved": true,
+        "missing_query_preserved": true,
+        "duplicate_identity_preserved": true,
+        "actual_tail_reordered": true
+      }
+    },
+    "bad_score_hash": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "saved_score_hashes",
+      "direct": {
+        "prefix_exact": true,
+        "invalid_preserved": true,
+        "no_spectrum_preserved": true,
+        "missing_query_preserved": true,
+        "duplicate_identity_preserved": true,
+        "actual_tail_reordered": true
+      }
+    },
+    "bad_head_audit": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "reason": "Head score binding failed: {'status': True, 'encoder': True, 'heads': True, 'input_hash': True, 'queries_hash': False, 'output_hash': True, 'exact_keys': True, 'exact_rows': True, 'actual_score_coverage': True, 'scoped_failures': True}",
+      "direct": {
+        "prefix_exact": true,
+        "invalid_preserved": true,
+        "no_spectrum_preserved": true,
+        "missing_query_preserved": true,
+        "duplicate_identity_preserved": true,
+        "actual_tail_reordered": true
+      }
+    },
+    "bad_head_coverage": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "reason": "Head score binding failed: {'status': True, 'encoder': True, 'heads': True, 'input_hash': True, 'queries_hash': True, 'output_hash': True, 'exact_keys': True, 'exact_rows': True, 'actual_score_coverage': False, 'scoped_failures': True}",
+      "direct": {
+        "prefix_exact": true,
+        "invalid_preserved": true,
+        "no_spectrum_preserved": true,
+        "missing_query_preserved": true,
+        "duplicate_identity_preserved": true,
+        "actual_tail_reordered": true
+      }
+    },
+    "bad_checkpoint": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "head_payload_pins",
+      "direct": {
+        "prefix_exact": true,
+        "invalid_preserved": true,
+        "no_spectrum_preserved": true,
+        "missing_query_preserved": true,
+        "duplicate_identity_preserved": true,
+        "actual_tail_reordered": true
+      }
+    },
+    "bad_module": {
+      "accepted": false,
+      "error_type": "AssertionError",
+      "reason": "late_module_pin",
+      "direct": {
+        "prefix_exact": true,
+        "invalid_preserved": true,
+        "no_spectrum_preserved": true,
+        "missing_query_preserved": true,
+        "duplicate_identity_preserved": true,
+        "actual_tail_reordered": true
+      }
+    }
+  },
+  "no_gpu_cloud_or_model_calls": true
+}

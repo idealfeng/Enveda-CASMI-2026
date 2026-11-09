@@ -1,0 +1,12 @@
+{
+  "original_sha256": "73c8bdc7799ffdad7ef756015c74c90365ee060122f2567f8a3c061ff42cc0df",
+  "smoke_sha256": "b8ebb7ac69f726c191c6888c186b7cdffae72adf474b64c82611137da43a2b15",
+  "source_change": {
+    "COMMIT_MODE": [
+      "fast",
+      "smoke"
+    ]
+  },
+  "hidden_scoring_route_modified": false,
+  "claimed_real_smoke_execution": false
+}

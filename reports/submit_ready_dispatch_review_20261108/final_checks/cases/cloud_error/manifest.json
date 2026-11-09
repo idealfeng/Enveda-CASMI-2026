@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "batch_id": "ready_fixture_cloud_error",
+  "competition": "enveda-CASMI26-molecule-id-mass-spectra",
+  "max_submissions": 1,
+  "state_root": "reports/submit_ready_dispatch_review_20261108/final_checks/cases/cloud_error/state",
+  "branches": [
+    {
+      "name": "mass_head_seed0",
+      "target": "stormseye/casmi26-mass-head-seed0-1108",
+      "version": 1,
+      "stage_dir": "submission/optimization_20261108/mass_head_seed0",
+      "notebook_sha256": "35475aa4e40eb2da03c5f5dcff92fc2d89913b9f4477f15a26273a804b4c6ffc",
+      "metadata_sha256": "1176315ba769ff3c7cfa299e088dbbf840aa5bf0639c71b88cb65cf3f81ed417",
+      "description": "CASMI26 20261108 head_seed0 trained multispectrum head audited V1",
+      "validation_mode": "fast_static",
+      "static_review_path": "submission/optimization_20261108/mass_head_seed0/static_review.json",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "public_mass_repro",
+            "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+          },
+          "required_true_checks": [
+            "mass_recipe",
+            "original_public_priors",
+            "official_rdkit",
+            "public_model_pins",
+            "ours_model_pins",
+            "two_distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "learned_head_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_head_seed0",
+            "mode": "fast_static",
+            "recipe_sha256": "c77ce44941d2cfd879cd348720bd2a64d59d8c0db307dd26ad3e327e34fdb7a4"
+          },
+          "required_true_checks": [
+            "base_mass_audit",
+            "head_scorer_source_pin",
+            "head_model_source_pin",
+            "original_scorer_source_pin",
+            "runtime_manifest_pin",
+            "trained_checkpoint_pins",
+            "base_mass_configuration",
+            "fast_no_model_claim"
+          ]
+        }
+      ]
+    }
+  ]
+}

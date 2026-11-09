@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-mass-head-seed1-1108",
+  "version": 1,
+  "branch_sha256": "1aeb892d4ba242c9293a7b1e1ec0d02125838884c258a0abe3f239d829c79a4d",
+  "submission_ref": 58120395,
+  "actual_target": "stormseye/casmi26-mass-head-seed1-1108",
+  "status": "COMPLETE",
+  "public_score": "0.470",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-09T07:08:09.972634+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

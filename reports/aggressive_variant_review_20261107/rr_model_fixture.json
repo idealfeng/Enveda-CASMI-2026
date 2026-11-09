@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "checks": {
+    "expected_102_features": true,
+    "model_102_features": true,
+    "valid_prediction_shape": true,
+    "finite_predictions": true,
+    "actual_candidate_sets_preserved": true,
+    "top1_can_move": true,
+    "training_freeze_preserved": true
+  },
+  "fixture": "Synthetic spectra and three example isomers; no query labels or hidden inputs",
+  "features_shape": [
+    3,
+    102
+  ],
+  "predictions": [
+    -2.6956237708019692,
+    -2.678649660060496,
+    -2.678649660060496
+  ],
+  "seconds": 7.1208395190000005,
+  "performance_evaluated": false,
+  "training_performed": false
+}

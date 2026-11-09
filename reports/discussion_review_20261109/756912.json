@@ -1,0 +1,32 @@
+{
+  "id": 756912,
+  "read_only": true,
+  "checked_at_utc": "2026-11-09T07:11:38.167065+00:00",
+  "topic": {
+    "id": 756912,
+    "title": "Repeated \"Notebook Threw Exception\" on Hidden Reruns Despite Successful Public Execution",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/756912",
+    "postDate": "2026-11-08T04:58:35.607Z",
+    "authorName": "Sergii Iuriev",
+    "authorUrl": "https://www.kaggle.com/sergiiiuriev",
+    "commentCount": 2,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>Hello fellow kagglers,</p>\n<p>I'm experiencing a persistent issue with notebook submissions to the Enveda CASMI 2026 competition and would appreciate some guidance.</p>\n<p><strong>Three competition submissions have failed with \"Notebook Threw Exception\"</strong> during the hidden-data rerun. However, the corresponding saved notebooks execute successfully on Kaggle with CPU acceleration disabled and Internet access turned off.</p>\n<p>The public notebook execution:</p>\n<ul>\n<li>Processes all 400 demonstration-test molecules and 1,213 spectra.</li>\n<li>Generates a <code>submission.csv</code> with the required molecular predictions.</li>\n<li>Passes independent validation of molecular identities, chemical validity, coverage, ranking, and submission format.</li>\n<li>Produces a CSV that matches the independently validated local output byte-for-byte (SHA-256 verified).</li>\n</ul>\n<p><strong>Troubleshooting already performed:</strong></p>\n<ul>\n<li>Verified that the notebook code downloaded from Kaggle matches the locally prepared source.</li>\n<li>Confirmed that molecule counts, IDs, and ordering are derived dynamically from the runtime <code>test.parquet</code>, rather than hardcoded from the public demonstration data.</li>\n<li>Confirmed that public-data-specific checksum requirements are skipped when the runtime TEST data differs.</li>\n<li>Tested alternative input sizes, supported adducts, missing optional values, and large observation groups.</li>\n<li>Verified that the notebook does not depend on <code>sample_submission.csv</code> for prediction generation or ordering.</li>\n<li>Investigated candidate-generation limitations and other possible inference failures, but have not established the cause of the hidden-run exceptions.</li>\n</ul>\n<p>The notebook uses frozen trained models, local inference assets, and an offline RDKit dependency. It performs inference only, with no external network access or training during execution.</p>\n<p><strong>Could the organizers clarify the following?</strong></p>\n<ol>\n<li>Is the hidden <code>test.parquet</code> guaranteed to follow the same schema and supported ion/adduct definitions as the demonstration dataset?</li>\n<li>Are the molecule IDs in hidden <code>test.parquet</code> guaranteed to correspond to the IDs required by the hidden <code>sample_submission.csv</code>?</li>\n<li>What is the expected submission behavior when a model cannot generate a chemically valid candidate for a particular molecule?</li>\n<li>Are there known hidden-rerun environment constraints or debugging approaches that might help distinguish input compatibility issues from notebook execution problems?</li>\n</ol>\n<p>I understand that hidden-data tracebacks and private test information may not be available. I'm not asking for either—only clarification of the documented inference requirements and any recommended troubleshooting steps.</p>\n<p>Thank you for your help.</p>"
+  },
+  "comments": [
+    {
+      "id": 3551955,
+      "authorName": "Shehab Alshehabi",
+      "postDate": "2026-11-08T18:26:34.763Z",
+      "content": "<p>Hi. I believe that \"Notebook Threw Exception\" means that a notebook cell produced an error and that the issue was not with the grader - I think that would show up as \"Submission Scoring Error\". I'm not an organiser so I might be wrong about this.</p>\n<p>I would first make sure you are not running out of memory. I would try to process:</p>\n<ul>\n<li>A very large molecule (1159 Da is the largest molecule on the real test whereas 157 Da is the largest on the placeholder)</li>\n<li>A molecule many spectra (16 is the largest in the test set and 9 is the most in the placeholder)</li>\n<li>A molecule with all 10 adducts (7 is the maximum in train)</li>\n<li>All the above at the same time</li>\n</ul>\n<p>In order to run these tests, you can find molecules from the training data or just mash spectra together since we are trying to catch a crash rather than a logic issue.</p>\n<p>To look for python errors, I would try to process:</p>\n<ul>\n<li>A molecule with a very large mass that isn't in any database.</li>\n<li>A molecule with a negative mass. When there isn't a chemically valid candidate, your notebook shouldn't produce an error so this case is worth running even though I strongly doubt it's in the test set. </li>\n</ul>\n<p>If the cause of the error isn't memory and it is a normal python error, you can proceed by wrapping your code for each prediction in a try/except block and making a default prediction in the except block. Alternatively, you can wrap smaller bits of code in the wrapper to try to try to narrow which block is throwing the error.</p>"
+    },
+    {
+      "id": 3551866,
+      "authorName": "Ángel Jacinto Sánchez Ruiz",
+      "postDate": "2026-11-08T13:46:18.743Z",
+      "content": "<p>Try to process train. Is a bigger debug option.</p>"
+    }
+  ],
+  "comments_truncated": false
+}

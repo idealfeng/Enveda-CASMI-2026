@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-mass-guarded-head-tail-1108",
+  "version": 1,
+  "branch_sha256": "5aefe4d9233d8023441f12508afc37a548fa168c27ed3a7b1afc7a2f3669c98f",
+  "notebook_sha256": "6de37bec32c8aa8bfb46b2c5e94e374b53fe36137dff1cd7d1c4a295359f56fe",
+  "metadata_sha256": "045ba009c65566f0e6599d5af7f2cde7f79e159481883176e3a91a83d74a3fec",
+  "requested_at_utc": "2026-11-08T13:15:56.806657+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-08T13:16:00.724251+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

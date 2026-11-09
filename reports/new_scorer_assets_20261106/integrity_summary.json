@@ -1,0 +1,43 @@
+{
+  "status": "passed_download_integrity_not_model_execution",
+  "weight_loading_or_inference_performed": false,
+  "total_payload_bytes": 28806023,
+  "bundles": [
+    {
+      "ref": "bgunshui/casmi26-scorer-v2-model",
+      "version": 1,
+      "path": "assets\\kaggle\\bgunshui\\casmi26-scorer-v2-model\\v1",
+      "file_count": 8,
+      "all_file_receipts_rehashed_match": true,
+      "checkpoint_bytes": 11872818,
+      "checkpoint_sha256": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46",
+      "config_width": 192,
+      "config_heads": 6,
+      "config_layers": 3,
+      "config_embedding": 192,
+      "best_epoch": 52,
+      "completed_epochs": 56,
+      "refit_epochs": 52,
+      "native_license": "Unknown",
+      "matches_public": false
+    },
+    {
+      "ref": "bgunshui/casmi26-scorer-v4-model",
+      "version": 1,
+      "path": "assets\\kaggle\\bgunshui\\casmi26-scorer-v4-model\\v1",
+      "file_count": 8,
+      "all_file_receipts_rehashed_match": true,
+      "checkpoint_bytes": 16913586,
+      "checkpoint_sha256": "10565a0d8c2c1cc903882ff7ba2a9b7b994ae169228bf0c9b6c4ae055ff4ec51",
+      "config_width": 256,
+      "config_heads": 8,
+      "config_layers": 3,
+      "config_embedding": 256,
+      "best_epoch": 109,
+      "completed_epochs": 120,
+      "refit_epochs": 109,
+      "native_license": "Unknown",
+      "matches_public": false
+    }
+  ]
+}

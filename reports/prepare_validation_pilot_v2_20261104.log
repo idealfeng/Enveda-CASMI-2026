@@ -1,0 +1,25 @@
+METADATA rows=16384 raw_structures=4673
+METADATA rows=540672 raw_structures=87730
+METADATA rows=1064960 raw_structures=170982
+METADATA rows=1589248 raw_structures=235273
+METADATA rows=2113536 raw_structures=263431
+IDENTITY raw_structures=0 canonical_checked=0 blocked_keys=0
+IDENTITY raw_structures=25000 canonical_checked=482 blocked_keys=17
+IDENTITY raw_structures=50000 canonical_checked=864 blocked_keys=18
+IDENTITY raw_structures=75000 canonical_checked=1285 blocked_keys=18
+IDENTITY raw_structures=100000 canonical_checked=1693 blocked_keys=18
+IDENTITY raw_structures=125000 canonical_checked=2086 blocked_keys=18
+IDENTITY raw_structures=150000 canonical_checked=2497 blocked_keys=18
+IDENTITY raw_structures=175000 canonical_checked=2886 blocked_keys=18
+IDENTITY raw_structures=200000 canonical_checked=3632 blocked_keys=26
+IDENTITY raw_structures=225000 canonical_checked=4546 blocked_keys=33
+IDENTITY raw_structures=250000 canonical_checked=5342 blocked_keys=43
+IDENTITY raw_structures=275000 canonical_checked=5966 blocked_keys=51
+IDENTITY_FAMILIES_READY 51
+QUERIES_WRITTEN 240 48
+DUPLICATES rows_scanned=4096 exact_matches=0
+DUPLICATES rows_scanned=528384 exact_matches=2
+DUPLICATES rows_scanned=1052672 exact_matches=2
+DUPLICATES rows_scanned=1576960 exact_matches=43
+DUPLICATES rows_scanned=2101248 exact_matches=101
+PREPARATION_COMPLETE {"processed_molecules": 48, "query_spectra": 240, "reference_exclusion_rows": 5725, "elapsed_seconds": 165.566, "validation_status": "reference-isolated diagnostic with known pretrained exposure"}

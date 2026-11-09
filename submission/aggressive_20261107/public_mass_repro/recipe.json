@@ -1,0 +1,22 @@
+{
+  "branch": "public_mass_repro",
+  "target": "stormseye/casmi26-public-mass-repro-1107",
+  "upstream": "popwenman/casmi26-0482-gold-apex-v22",
+  "upstream_version": 2,
+  "upstream_source_sha256": "351d0fadaffd5d9894d76f55b3fa30247b269255d6ca46fe1e93f3d31ef9d9d4",
+  "recipe": "Original MASS-only, RR disabled",
+  "validation_mode": "fast_static",
+  "adaptations": [
+    "Replace unavailable-in-dataset training output with byte-identical public bgun v2 weights.",
+    "Use previously working Docker image and existing offline RDKit bundle.",
+    "Omit catalogue/extra wheel datasets unused by the inference code; use pinned old six plus v2 and LOTUS.",
+    "Append observer; all original cells remain byte-identical."
+  ],
+  "checkpoint_sha256": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46",
+  "native_configuration_differences": [
+    "output",
+    "work"
+  ],
+  "new_training": false,
+  "locked_final_used": false
+}

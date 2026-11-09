@@ -1,0 +1,55 @@
+{
+  "name": "mass_guarded_head_tail_1108",
+  "target": "stormseye/casmi26-mass-guarded-head-tail-1108",
+  "version": 1,
+  "stage_dir": "submission/optimization_20261108/mass_guarded_head_tail_1108",
+  "notebook_sha256": "d075cb569a9f2043d43e869b5aaedb5776dcbe410a56dde6c551be8b8c1eec35",
+  "metadata_sha256": "045ba009c65566f0e6599d5af7f2cde7f79e159481883176e3a91a83d74a3fec",
+  "description": "CASMI26 20261108 guarded head tail ranks8-25 audited V1",
+  "validation_mode": "fast_static",
+  "static_review_path": "submission/optimization_20261108/mass_guarded_head_tail_1108/static_review.json",
+  "required_runtime_audits": [
+    {
+      "name": "batch_variant_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "mode": "fast_static",
+        "branch": "public_mass_repro",
+        "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+      },
+      "required_true_checks": [
+        "mass_recipe",
+        "original_public_priors",
+        "official_rdkit",
+        "public_model_pins",
+        "ours_model_pins",
+        "two_distinct_models",
+        "lotus_pin",
+        "csv_schema_ids",
+        "csv_counts",
+        "fast_no_model"
+      ]
+    },
+    {
+      "name": "guarded_tail_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "mass_guarded_head_tail_1108",
+        "mode": "fast_static",
+        "recipe_sha256": "367cb8da9e72c688d5d8ef348de41134f0c5ef1d2e3f3ed612fe109b2c133eda"
+      },
+      "required_true_checks": [
+        "original_base_audit",
+        "late_module_pin",
+        "head_payload_pins",
+        "original_scorer_pin",
+        "audited_control_bound",
+        "final_csv_bound",
+        "exact_ids_order",
+        "exact_prefix7",
+        "exact_candidate_multisets",
+        "fast_no_model"
+      ]
+    }
+  ]
+}

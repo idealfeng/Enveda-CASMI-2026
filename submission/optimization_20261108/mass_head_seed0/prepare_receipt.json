@@ -1,0 +1,11 @@
+{
+  "status": "prepared",
+  "branch": "mass_head_seed0",
+  "target": "stormseye/casmi26-mass-head-seed0-1108",
+  "version": 1,
+  "notebook_sha256": "35475aa4e40eb2da03c5f5dcff92fc2d89913b9f4477f15a26273a804b4c6ffc",
+  "metadata_sha256": "1176315ba769ff3c7cfa299e088dbbf840aa5bf0639c71b88cb65cf3f81ed417",
+  "recipe_sha256": "c77ce44941d2cfd879cd348720bd2a64d59d8c0db307dd26ad3e327e34fdb7a4",
+  "static_review_path": "submission/optimization_20261108/mass_head_seed0/static_review.json",
+  "validation_mode": "fast_static"
+}

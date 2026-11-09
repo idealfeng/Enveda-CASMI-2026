@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "tests": [
+    {
+      "fixture": "visible",
+      "passed": true,
+      "expected_rejection": false
+    },
+    {
+      "fixture": "hidden_common_unsupported",
+      "passed": true,
+      "expected_rejection": false
+    },
+    {
+      "fixture": "hidden_coverage_mismatch",
+      "passed": true,
+      "expected_rejection": true
+    }
+  ],
+  "model_execution": false,
+  "network_or_cloud_write": false
+}

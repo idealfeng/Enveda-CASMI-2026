@@ -1,0 +1,255 @@
+{
+  "files": [
+    {
+      "name": "casmi_spectrum_model_v1/data_audit.json",
+      "bytes": 1256,
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\data_audit.json",
+      "sha256": "b6cbfbfd3d936066ad53b6846f09433827b4180718e99ccb2f352ae568624fed",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/sanpier/casmi-spectrum-model-v1/casmi_spectrum_model_v1%2Fdata_audit.json?datasetVersionNumber=1",
+      "state": "downloaded",
+      "seconds": 1.53
+    },
+    {
+      "name": "SPLIT_AUDIT.json",
+      "bytes": 1337,
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "version": 5,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-fold-safe-fpnet\\v5\\SPLIT_AUDIT.json",
+      "sha256": "d4b994b663a7ddd944603b5a2f025c0a76a4d1648fa6deccf402b5c026137661",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/dmitriigluzdov/casmi26-fold-safe-fpnet/SPLIT_AUDIT.json?datasetVersionNumber=5",
+      "state": "downloaded",
+      "seconds": 1.66
+    },
+    {
+      "name": "casmi_spectrum_model_v1/training_result.json",
+      "bytes": 390,
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\training_result.json",
+      "sha256": "b1ec8850960aa1d439f72a73f432b5daedfee5764509885db91b56e53496f92e",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/sanpier/casmi-spectrum-model-v1/casmi_spectrum_model_v1%2Ftraining_result.json?datasetVersionNumber=1",
+      "state": "downloaded",
+      "seconds": 1.66
+    },
+    {
+      "name": "casmi_spectrum_model_v1/environment.json",
+      "bytes": 212,
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\environment.json",
+      "sha256": "26f6d15fe5f7399e2e30313dc2d320a83d0dda1c5bf5561eae467f27e9b715f2",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/sanpier/casmi-spectrum-model-v1/casmi_spectrum_model_v1%2Fenvironment.json?datasetVersionNumber=1",
+      "state": "downloaded",
+      "seconds": 1.66
+    },
+    {
+      "name": "casmi_spectrum_model_v1/refit_history.json",
+      "bytes": 2187,
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\refit_history.json",
+      "sha256": "7801237d850a9e28f030e6c9cb205c2567fb61fa41a166fdfac5a21fc4988ca8",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/sanpier/casmi-spectrum-model-v1/casmi_spectrum_model_v1%2Frefit_history.json?datasetVersionNumber=1",
+      "state": "downloaded",
+      "seconds": 1.49
+    },
+    {
+      "name": "casmi_spectrum_model_v1/sha256.json",
+      "bytes": 1818,
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\sha256.json",
+      "sha256": "99b2a7ef0e39cb4fb1bd3104f340b51255cb830640c8a9c00595920be7b05eb1",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/sanpier/casmi-spectrum-model-v1/casmi_spectrum_model_v1%2Fsha256.json?datasetVersionNumber=1",
+      "state": "downloaded",
+      "seconds": 1.53
+    },
+    {
+      "name": "make_split.py",
+      "bytes": 1438,
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "version": 5,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-fold-safe-fpnet\\v5\\make_split.py",
+      "sha256": "136bb35028db11b614e6ad544b044f35199d614d52d2349e2191cda6df77d4fd",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/dmitriigluzdov/casmi26-fold-safe-fpnet/make_split.py?datasetVersionNumber=5",
+      "state": "downloaded",
+      "seconds": 2.0
+    },
+    {
+      "name": "SOURCE_CHECK_20261019.md",
+      "bytes": 1351,
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "version": 5,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-fold-safe-fpnet\\v5\\SOURCE_CHECK_20261019.md",
+      "sha256": "aace993777bd139fb0faa5ba5f536b761ed59379c0e918e6602d462f2a44401e",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/dmitriigluzdov/casmi26-fold-safe-fpnet/SOURCE_CHECK_20261019.md?datasetVersionNumber=5",
+      "state": "downloaded",
+      "seconds": 3.08
+    },
+    {
+      "name": "casmi_spectrum_model_v1/training_history.json",
+      "bytes": 3193,
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\training_history.json",
+      "sha256": "04910f1028a01d505253d4f713c043e84dc37ed91127fcde7f5b51403c96b702",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/sanpier/casmi-spectrum-model-v1/casmi_spectrum_model_v1%2Ftraining_history.json?datasetVersionNumber=1",
+      "state": "downloaded",
+      "seconds": 1.45
+    },
+    {
+      "name": "SHA256SUMS_FIVEFOLD.txt",
+      "bytes": 4890,
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "version": 5,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-fold-safe-fpnet\\v5\\SHA256SUMS_FIVEFOLD.txt",
+      "sha256": "73d1e104222c11d47e603ee18856bdf0ac5dd817b492cefdb73d35d74cd199bd",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/dmitriigluzdov/casmi26-fold-safe-fpnet/SHA256SUMS_FIVEFOLD.txt?datasetVersionNumber=5",
+      "state": "downloaded",
+      "seconds": 1.7
+    },
+    {
+      "name": "README.md",
+      "bytes": 6597,
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "version": 5,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-fold-safe-fpnet\\v5\\README.md",
+      "sha256": "8767f5c201c499cbac9b20630c12ccfbb877fb9a1665c3338cfb0b3358eb320c",
+      "state": "present"
+    },
+    {
+      "name": "casmi_spectrum_model_v1/inference.py",
+      "bytes": 2694,
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\inference.py",
+      "sha256": "c43086b2150ab912f812ec152676422d592fae2b2b835458aabcfe32591fa04a",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/sanpier/casmi-spectrum-model-v1/casmi_spectrum_model_v1%2Finference.py?datasetVersionNumber=1",
+      "state": "downloaded",
+      "seconds": 2.31
+    },
+    {
+      "name": "MANIFEST_20261019.json",
+      "bytes": 5578,
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "version": 5,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-fold-safe-fpnet\\v5\\MANIFEST_20261019.json",
+      "sha256": "24a522855d346635e70ba8e033ea5780ba46527c82c7f4f16f934431dcf3fd82",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/dmitriigluzdov/casmi26-fold-safe-fpnet/MANIFEST_20261019.json?datasetVersionNumber=5",
+      "state": "downloaded",
+      "seconds": 1.61
+    },
+    {
+      "name": "casmi_spectrum_model_v1/prepare.py",
+      "bytes": 5797,
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\prepare.py",
+      "sha256": "3cd819e73715e657e9b1d280ffc1a8de3210b106431f52d1756ce813b86d223b",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/sanpier/casmi-spectrum-model-v1/casmi_spectrum_model_v1%2Fprepare.py?datasetVersionNumber=1",
+      "state": "downloaded",
+      "seconds": 1.67
+    },
+    {
+      "name": "MANIFEST_FIVEFOLD.json",
+      "bytes": 9013,
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "version": 5,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-fold-safe-fpnet\\v5\\MANIFEST_FIVEFOLD.json",
+      "sha256": "1ee36e9b73172efd5f1cc90655949695718ffab5b258efe22f9d06ec8a13ff84",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/dmitriigluzdov/casmi26-fold-safe-fpnet/MANIFEST_FIVEFOLD.json?datasetVersionNumber=5",
+      "state": "downloaded",
+      "seconds": 1.22
+    },
+    {
+      "name": "train_fpnet.py",
+      "bytes": 9744,
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "version": 5,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-fold-safe-fpnet\\v5\\train_fpnet.py",
+      "sha256": "46b4dceebb2badeac78e0d5e55849169f5bef8da70a3adf1a7431fe34e603312",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/dmitriigluzdov/casmi26-fold-safe-fpnet/train_fpnet.py?datasetVersionNumber=5",
+      "state": "downloaded",
+      "seconds": 1.98
+    },
+    {
+      "name": "casmi_spectrum_model_v1/train.py",
+      "bytes": 11003,
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\train.py",
+      "sha256": "6204c62462be4f686fa2e1d46d7d42b994c0087ee8e51fc84208e299d72081d2",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/sanpier/casmi-spectrum-model-v1/casmi_spectrum_model_v1%2Ftrain.py?datasetVersionNumber=1",
+      "state": "downloaded",
+      "seconds": 1.72
+    },
+    {
+      "name": "identity_audit.json",
+      "bytes": 41499,
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "version": 5,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-fold-safe-fpnet\\v5\\identity_audit.json",
+      "sha256": "99a0350ec9b0e967e4d60154f3598c46d07f6b4ff3aa2257eeda1a78210d5dda",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/dmitriigluzdov/casmi26-fold-safe-fpnet/identity_audit.json?datasetVersionNumber=5",
+      "state": "downloaded",
+      "seconds": 1.83
+    },
+    {
+      "name": "check_inputs_fold0.json",
+      "bytes": 116402,
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "version": 5,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-fold-safe-fpnet\\v5\\check_inputs_fold0.json",
+      "sha256": "fd86ff6d71318467d3b2e6b1acfba8c637832f9d439e00f119b3451be46d8fc9",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/dmitriigluzdov/casmi26-fold-safe-fpnet/check_inputs_fold0.json?datasetVersionNumber=5",
+      "state": "downloaded",
+      "seconds": 1.92
+    },
+    {
+      "name": "split.parquet",
+      "bytes": 2204455,
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "version": 5,
+      "path": "assets\\kaggle\\dmitriigluzdov\\casmi26-fold-safe-fpnet\\v5\\split.parquet",
+      "sha256": "dd62549f81b9540890e0da17a06d0dcd216a2781b2c31687bd333445fe57d45e",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/dmitriigluzdov/casmi26-fold-safe-fpnet/split.parquet?datasetVersionNumber=5",
+      "state": "downloaded",
+      "seconds": 8.02
+    },
+    {
+      "name": "casmi_spectrum_model_v1/spectrum_split_manifest.parquet",
+      "bytes": 7034971,
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\spectrum_split_manifest.parquet",
+      "sha256": "84c5e37e1a468fedd0c3e508516c93e81e39c38efc618101d081e77447bf7c70",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/sanpier/casmi-spectrum-model-v1/casmi_spectrum_model_v1%2Fspectrum_split_manifest.parquet?datasetVersionNumber=1",
+      "state": "downloaded",
+      "seconds": 16.7
+    },
+    {
+      "name": "casmi_spectrum_model_v1/best_validation_model.pt",
+      "bytes": 11873492,
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\best_validation_model.pt",
+      "sha256": "969d13443fcf168eae1e00e56a8e0ae87dcb16f337cb6dbac959e7cd218f089c",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/sanpier/casmi-spectrum-model-v1/casmi_spectrum_model_v1%2Fbest_validation_model.pt?datasetVersionNumber=1",
+      "state": "downloaded",
+      "seconds": 20.17
+    },
+    {
+      "name": "casmi_spectrum_model_v1/molecules.parquet",
+      "bytes": 12176141,
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "version": 1,
+      "path": "assets\\kaggle\\sanpier\\casmi-spectrum-model-v1\\v1\\casmi_spectrum_model_v1\\molecules.parquet",
+      "sha256": "f566b7344cae9299e187f1de4b7a783098e92bbf6b970f5cd5b2f5fe35e53276",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/sanpier/casmi-spectrum-model-v1/casmi_spectrum_model_v1%2Fmolecules.parquet?datasetVersionNumber=1",
+      "state": "downloaded",
+      "seconds": 19.86
+    }
+  ]
+}

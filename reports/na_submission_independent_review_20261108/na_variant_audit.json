@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "branch": "mass_gl_na",
+  "mode": "hidden_full",
+  "recipe_sha256": "0e328c2d4df45ac3253fdcb47d1987a6da58dc99b981f5b9d58a1bb2aa140776",
+  "checks": {
+    "original_mass_observer": true,
+    "explicit_runtime_adapter": true,
+    "original_frozen_source_pin": true,
+    "original_physical_source_pin": true,
+    "new_component_executed": true,
+    "dynamic_full_scope": true,
+    "explicit_execution_receipt": true,
+    "combined_query_count": true,
+    "expanded_export_values": true,
+    "expanded_scores_exported": true
+  },
+  "component": {
+    "status": "passed",
+    "checks": {
+      "original_runner_pin": true,
+      "original_checkpoint_pin": true,
+      "original_h_output_unchanged": true,
+      "non_na_query_scores_exactly_unchanged": true,
+      "exact_na_query_set": true,
+      "exact_na_candidate_sets": true,
+      "actual_finite_candidate_counts": true,
+      "original_candidate_sets": true,
+      "original_h_input_selection": true,
+      "real_na_input_selection": true
+    },
+    "combined_queries": 3,
+    "exported_candidate_scores_checked": 4
+  }
+}

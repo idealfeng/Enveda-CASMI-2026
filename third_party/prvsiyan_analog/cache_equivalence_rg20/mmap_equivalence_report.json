@@ -1,0 +1,32 @@
+{
+  "shared_cache": "D:\\Paper\\casmi\\third_party\\prvsiyan_analog\\cache_equivalence_rg20\\streamed",
+  "cache_rows": 1184,
+  "cache_peaks": 152902,
+  "cache_receipt_sha256": "03500c260af390237df65b074dc61c483baaea4e42bd78d1a9b42464a329dbc4",
+  "module_local_mmap": {
+    "casmi.library": [
+      "spec_off.npy",
+      "spec_mz.npy",
+      "spec_it.npy"
+    ],
+    "casmi.pool": [
+      "pool_fp.npy",
+      "pool_frag_off.npy",
+      "pool_frag_mass.npy"
+    ]
+  },
+  "numpy_global_load_unchanged": true,
+  "mmap_mode": "c",
+  "algorithm_changes": false,
+  "limitations": [
+    "Copy-on-write mmap preserves writeable array semantics without changing cached files.",
+    "Cache file sizes checked on use; full cache hashes retained in builder receipt."
+  ],
+  "status": "passed",
+  "direct_search_exact_equal": true,
+  "representatives_exact_equal": true,
+  "global_numpy_load_unchanged": true,
+  "reference_spectra": 1184,
+  "candidate_structures_in_direct_search": 1,
+  "writeable_semantics_preserved": true
+}

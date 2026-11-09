@@ -1,0 +1,255 @@
+{
+  "target": "stormseye/casmi26-public-tri-v30",
+  "version": 1,
+  "original_cells": 26,
+  "server_cells": 26,
+  "all_normalized_sources_equal": true,
+  "all_code_asts_equal": true,
+  "checks": [
+    {
+      "index": 0,
+      "kind": "markdown",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": null,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 1,
+      "kind": "markdown",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": null,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 2,
+      "kind": "markdown",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": null,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 3,
+      "kind": "markdown",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": null,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 4,
+      "kind": "code",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": true,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 5,
+      "kind": "code",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": true,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 6,
+      "kind": "markdown",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": null,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 7,
+      "kind": "code",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": true,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 8,
+      "kind": "code",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": true,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 9,
+      "kind": "markdown",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": null,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 10,
+      "kind": "markdown",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": null,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 11,
+      "kind": "code",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": true,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 12,
+      "kind": "code",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": true,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 13,
+      "kind": "code",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": true,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 14,
+      "kind": "code",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": true,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 15,
+      "kind": "code",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": true,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 16,
+      "kind": "code",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": true,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 17,
+      "kind": "code",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": true,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 18,
+      "kind": "code",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": true,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 19,
+      "kind": "markdown",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": null,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 20,
+      "kind": "code",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": true,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 21,
+      "kind": "markdown",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": null,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 22,
+      "kind": "markdown",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": null,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 23,
+      "kind": "markdown",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": null,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 24,
+      "kind": "markdown",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": null,
+      "metadata_equal": true,
+      "id_equal": true
+    },
+    {
+      "index": 25,
+      "kind": "code",
+      "same_kind": true,
+      "normalized_source_equal": true,
+      "ast_equal": true,
+      "metadata_equal": true,
+      "id_equal": true
+    }
+  ],
+  "server_sha256": "60b45e331d6f04e34ce779f35421cd09915256f56a85d2ef1a6da9e3757d5748",
+  "top_metadata_keys_original": [
+    "kernelspec",
+    "language_info",
+    "casmi"
+  ],
+  "top_metadata_keys_server": [
+    "kernelspec",
+    "language_info",
+    "casmi"
+  ]
+}

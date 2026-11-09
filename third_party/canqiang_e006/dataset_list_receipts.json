@@ -1,0 +1,214 @@
+[
+  {
+    "ref": "prvsiyan/casmi26-ranker-features",
+    "version": 6,
+    "status": 200,
+    "keys": [
+      "datasetFiles",
+      "errorMessage",
+      "hasErrorMessage",
+      "nextPageToken",
+      "hasNextPageToken"
+    ],
+    "bytes": 432
+  },
+  {
+    "ref": "prvsiyan/casmi26-fp-models-v2",
+    "version": 1,
+    "status": 200,
+    "keys": [
+      "datasetFiles",
+      "errorMessage",
+      "hasErrorMessage",
+      "nextPageToken",
+      "hasNextPageToken"
+    ],
+    "bytes": 767
+  },
+  {
+    "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "version": 4,
+    "status": 200,
+    "keys": [
+      "nextPageTokenNullable",
+      "datasetFiles",
+      "errorMessage",
+      "hasErrorMessage",
+      "nextPageToken",
+      "hasNextPageToken"
+    ],
+    "bytes": 7002
+  },
+  {
+    "ref": "megayak/casmi26-simulated-ranker-rows",
+    "version": 4,
+    "status": 200,
+    "keys": [
+      "datasetFiles",
+      "errorMessage",
+      "hasErrorMessage",
+      "nextPageToken",
+      "hasNextPageToken"
+    ],
+    "bytes": 2158
+  },
+  {
+    "ref": "ahmedberatozer/casmi26-fpnet-full1",
+    "version": 1,
+    "status": 200,
+    "keys": [
+      "datasetFiles",
+      "errorMessage",
+      "hasErrorMessage",
+      "nextPageToken",
+      "hasNextPageToken"
+    ],
+    "bytes": 434
+  },
+  {
+    "ref": "ahmedberatozer/casmi26-glacier",
+    "version": 1,
+    "status": 200,
+    "keys": [
+      "nextPageTokenNullable",
+      "datasetFiles",
+      "errorMessage",
+      "hasErrorMessage",
+      "nextPageToken",
+      "hasNextPageToken"
+    ],
+    "bytes": 7331
+  },
+  {
+    "ref": "ahmedberatozer/casmi26-iceberg",
+    "version": 1,
+    "status": 200,
+    "keys": [
+      "nextPageTokenNullable",
+      "datasetFiles",
+      "errorMessage",
+      "hasErrorMessage",
+      "nextPageToken",
+      "hasNextPageToken"
+    ],
+    "bytes": 7297
+  },
+  {
+    "ref": "ahmedberatozer/casmi26-pubchem-tier",
+    "version": 1,
+    "status": 200,
+    "keys": [
+      "datasetFiles",
+      "errorMessage",
+      "hasErrorMessage",
+      "nextPageToken",
+      "hasNextPageToken"
+    ],
+    "bytes": 1079
+  },
+  {
+    "ref": "ahmedberatozer/casmi26-v2-pool",
+    "version": 1,
+    "status": 200,
+    "keys": [
+      "datasetFiles",
+      "errorMessage",
+      "hasErrorMessage",
+      "nextPageToken",
+      "hasNextPageToken"
+    ],
+    "bytes": 2431
+  },
+  {
+    "ref": "ahmedberatozer/casmi26-v3-models",
+    "version": 4,
+    "status": 200,
+    "keys": [
+      "datasetFiles",
+      "errorMessage",
+      "hasErrorMessage",
+      "nextPageToken",
+      "hasNextPageToken"
+    ],
+    "bytes": 6123
+  },
+  {
+    "ref": "ahmedberatozer/casmi26-v4b-models",
+    "version": 4,
+    "status": 200,
+    "keys": [
+      "nextPageTokenNullable",
+      "datasetFiles",
+      "errorMessage",
+      "hasErrorMessage",
+      "nextPageToken",
+      "hasNextPageToken"
+    ],
+    "bytes": 7167
+  },
+  {
+    "ref": "prvsiyan/chebi-lipidmaps-casmi26",
+    "version": 1,
+    "status": 200,
+    "keys": [
+      "datasetFiles",
+      "errorMessage",
+      "hasErrorMessage",
+      "nextPageToken",
+      "hasNextPageToken"
+    ],
+    "bytes": 1072
+  },
+  {
+    "ref": "prvsiyan/coconut-casmi26-candidates",
+    "version": 2,
+    "status": 200,
+    "keys": [
+      "datasetFiles",
+      "errorMessage",
+      "hasErrorMessage",
+      "nextPageToken",
+      "hasNextPageToken"
+    ],
+    "bytes": 1401
+  },
+  {
+    "ref": "hengck23/hengck23-dreams-enveda-casmi26",
+    "version": 2,
+    "status": 200,
+    "keys": [
+      "datasetFiles",
+      "errorMessage",
+      "hasErrorMessage",
+      "nextPageToken",
+      "hasNextPageToken"
+    ],
+    "bytes": 3277
+  },
+  {
+    "ref": "metric/rdkit-2026-3-3-wheel",
+    "version": 1,
+    "status": 200,
+    "keys": [
+      "datasetFiles",
+      "errorMessage",
+      "hasErrorMessage",
+      "nextPageToken",
+      "hasNextPageToken"
+    ],
+    "bytes": 1723
+  },
+  {
+    "ref": "eveliaveldrine/rdkit-wheels",
+    "version": 3,
+    "status": 200,
+    "keys": [
+      "datasetFiles",
+      "errorMessage",
+      "hasErrorMessage",
+      "nextPageToken",
+      "hasNextPageToken"
+    ],
+    "bytes": 1397
+  }
+]

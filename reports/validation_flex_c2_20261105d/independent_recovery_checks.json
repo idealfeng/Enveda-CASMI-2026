@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "scope": "Independent low-memory execution/recovery verification only; no additional inference, no final250 evaluation, no hidden or clean-generalization claim.",
+  "checks": {
+    "prior_33_recorded_files_unchanged": true,
+    "reused_outputs_byte_equal": true,
+    "ice_inputs_exact_old_by_molecule": true,
+    "ice_reused_32_exact_scores": true,
+    "ice_pending_partition": true,
+    "ice_all_candidate_keys_match": true,
+    "ice_complete46_unsupported2": true,
+    "ice_counts_and_cumulative_binding": true,
+    "gl_inputs_exact_by_molecule": true,
+    "gl_candidates_scores_complete": true,
+    "n1_inputs_exact_by_molecule": true,
+    "n1_candidates_spectra_scores_complete": true,
+    "final_48_ids_no_padding": true,
+    "physical_merge_final_sha_chain": true,
+    "receipt_runtime_and_exit_zero": true
+  },
+  "prior_recorded_files_verified": 33,
+  "reused_outputs_verified": [
+    "eng_lists.json",
+    "pc_lists.json",
+    "validation_e2_candidates.jsonl",
+    "validation_e2_reference_audit.json",
+    "gl_work/gl_out.json",
+    "gl_work/gl_out.json.meta.json",
+    "n1_work/n1_out.json",
+    "n1_work/n1_out.json.meta.json"
+  ],
+  "ice": {
+    "prior_complete": 32,
+    "newly_complete": 14,
+    "unsupported": 2,
+    "merged_scored_candidates": 3774,
+    "prior_seconds": 636.12,
+    "new_pending_seconds": 310.17,
+    "cumulative_driver_seconds": 946.29,
+    "cold_run_feasibility_established": false
+  },
+  "sha256": {
+    "final_submission": "87b00838b3c3e4df2928d2d4a74b8c6bfbafa7c93958509c406dc825dbe118f5",
+    "validation_run_receipt": "4319fd17300bc024365fa0d4f85194ea52ea15dcb75cba41f269c02370aa59b2",
+    "validation_runtime_audit": "b6a89356aeb2b74dad9e7f47a4f2a344aa815be7967fc6ab199f9aef2ea3e610",
+    "execution_audit": "b11e1c2d22652f7df3d9d81a52d2a8a6ab3d7d30ffd787bd55782c8d2a077352"
+  },
+  "limitations": [
+    "Known pretrained positive/query exposure remains in the whole Flex stack.",
+    "447 large assets are bound by recorded download SHA and size/mtime, not rehashed by this independent check.",
+    "Successful recovery and cumulative timing do not prove cold-start budget feasibility.",
+    "Official-identity fixed-candidate and metric evaluation are handled separately by the frozen evaluator."
+  ]
+}

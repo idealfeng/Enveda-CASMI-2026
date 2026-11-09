@@ -1,0 +1,90 @@
+# casmi26
+
+Entry for the Kaggle competition Enveda CASMI 2026 (predict SMILES from LC-MS/MS spectra, metric MRR@25 on tautomer-canonical InChIKey14). Runs locally on Windows for validation, submitted as an offline Kaggle kernel. Public repo: https://github.com/shiferaxa/casmi26 (branch main, Apache 2.0, see NOTICE for the forked public kernel attribution). The repo is public during the competition; anything that must stay private (data, assets, tokens) is gitignored.
+
+## Warnings
+
+- `data/` and `artifacts/` are gitignored. Data comes from `kaggle competitions download -c enveda-CASMI26-molecule-id-mass-spectra -p data`. Never commit it.
+- Direct CSV submissions are rejected (code competition). Submit by pushing the kernel in `kaggle/kernel/`, then `kaggle competitions submit -k amhashiferaw/casmi26-library-search -v <version> -f submission.csv -m "..."`.
+- The Kaggle image has no RDKit and internet is off. The kernel installs it from the private dataset amhashiferaw/rdkit-wheel-cp312 (wheel in `kaggle/rdkit_wheel/`). Source code ships as the private dataset amhashiferaw/casmi26-src, a flat copy of `src/casmi/*.py` in `kaggle/dataset/`. After editing `src/casmi`, copy the files there and run `kaggle datasets version -p . -m "..."` from inside that folder.
+- Kaggle CLI 2.2.4 gotchas: run `datasets create`, `datasets version`, and `kernels push` from inside the folder with `-p .` (a relative folder path crashes on a temp-dir bug). Wait for `kaggle datasets status <id>` to say ready before pushing a kernel that depends on a new dataset version, or the kernel sees an empty folder.
+- Kaggle auth is the access token file in the user's .kaggle folder (username amhashiferaw). It is never committed; `data/`, `artifacts/`, and dataset payloads under `kaggle/` are gitignored.
+- No CUDA on this machine (AMD integrated GPU). Train models on Kaggle GPU, not here. Submission kernels run with GPU off (same 65 min runtime, fork_v4_cpu is the template); the 6 weekly GPU hours are for training only.
+- Paths handed to Python must be Windows style (`C:/Users/...`). Git Bash style `/c/Users/...` works in bash tests and `ls` but Python cannot open it, and the failure only shows as FileNotFoundError deep in numpy. Also use absolute paths in background shell chains, the working directory drifts between calls.
+- Windows multiprocessing spawns fresh workers, so module globals set at runtime (like `core.BITS`) are None inside a Pool unless passed through an initializer. The public notebook relies on Linux fork semantics. See `_worker_init` in `src/casmi/fork/harness.py`. Also delete `data/cache/train_fp.npz` whenever fingerprint code changes, the cache is not keyed on it.
+- `src/casmi/fork/core.py` is a transplant of the public 0.339 kernel (`kaggle/fork_v2/notebook.py`). Change numerics in the notebook first, then re-transplant, so Kaggle and local stay identical.
+- Fingerprint checkpoints for the harness come only from the folder given by `--models` (default `data/public/casmi26-fp-models-v2`). Never rely on a sweep of `data/`: every downloaded or smoke-tested `fp_*.pt` under it would be ensembled silently (this corrupted one evaluation on Sep 21). Public v2 and v4 share file names, so a combined folder needs renamed copies. Files with "merged" in the name form the merged group; singles are averaged, then averaged 50/50 with the merged group, so an own single mixed with v4 gets a minority weight.
+- Validation must group by InChIKey14 and hold out by instrument, never by spectrum. See the table below.
+- Background shell waiters do not survive the end of a session. Never schedule a Kaggle push behind a local timer; push immediately when quota allows, otherwise write the exact command in the notes for the next session (Sep 20 2026: two GPU days lost this way).
+- Forking a public kernel: keep its `docker_image` and set `docker_image_pinning_type` to original in kernel-metadata.json (fork_public.sh does). Without the pin the v4n fork scored 0.378 instead of 0.415 (Oct 2026), because the kernel's stages fall back silently on a library mismatch.
+- Commit messages: no em dashes, never mention AI.
+
+## Architecture
+
+train.parquet -> `Library.from_table` (vectorised 1 Da binning over pyarrow offsets, keyed by inchikey14) -> `predict` (precursor ppm window, cosine, RRF over the spectra of a molecule, nearest-mass fill) -> `write_submission` -> submission.csv
+
+- `src/casmi/schema.py` maps real column names (ms2_mzs, ms2_normalized_intensities, normalized_smiles, inchikey14, instrument_type, ...) to canonical ones. Add aliases here, never rename columns elsewhere.
+- `src/casmi/metric.py` exact competition metric: `key14`, `reciprocal_rank`, `mrr_at_k`
+- `src/casmi/spectra.py` per-spectrum peak cleaning, binning, entropy similarity (used for queries and tests)
+- `src/casmi/library_search.py` `Library` index, `binned_matrix` (vectorised build), `predict`
+- `src/casmi/validation.py` metadata frame and the three splits
+- `src/casmi/submission.py` writes and validates submission.csv against sample_submission.csv
+- `scripts/inspect_data.py` schema and stats
+- `scripts/run_baseline.py` modes val, val2x, val3, submit
+- `kaggle/kernel/notebook.py` offline kernel script, `kaggle/dataset/` source dataset, `kaggle/rdkit_wheel/` wheel dataset
+- `docs/plan.md` competition facts, data facts, strategy phases, dated score log
+
+## Commands
+
+```
+.venv\Scripts\activate
+pip install -r requirements.txt
+python -m pytest -q tests
+python scripts\inspect_data.py data
+python scripts\run_baseline.py --mode val2x --limit 300000
+python scripts\run_baseline.py --mode val2x
+python scripts\run_baseline.py --mode submit
+```
+
+Full library build is about 90 s and a validation run about 3 min on this machine.
+
+## Validation
+
+Splits in `src/casmi/validation.py`, all with timsTOF queries in the test mass range (240 to 465). Baseline numbers, Sep 17 2026, full 2.5M library:
+
+| split | held out | MRR@25 |
+|---|---|---|
+| val | one timsTOF scan, replicates at other energies stay | 0.82 (too easy, ignore) |
+| val2x | all timsTOF scans of a structure, structure kept via other instruments | 0.53 |
+| val3 | every spectrum of the structure | 0.00 |
+
+Report val2x and val3. The leaderboard sits between them depending on the class mix.
+
+## Conventions
+
+- Canonical column names after `resolve_columns`: molecule_id, smiles, inchikey14, precursor_mz, mzs, intensities, adduct, instrument, ingest_lib.
+- Every experiment gets a dated line in the log at the bottom of `docs/plan.md` with val2x, val3, and public LB.
+- Structures are identified by inchikey14 (provided column, agrees with the metric's `key14` on 99 percent of structures).
+
+## Automation (GitHub Actions)
+
+- `.github/workflows/kaggle-train.yml` pushes a kernel folder to Kaggle. Runs every Saturday 00:05 UTC (the GPU quota refresh) for `kaggle/train_fp_v2`, and on demand from the Actions tab with any kernel folder and accelerator. Pushing a kernel that is already running restarts it as a new version.
+- `.github/workflows/kaggle-checkpoint.yml` runs every six hours: reports the training kernel status and, once complete, publishes new `fp_*.pt` checkpoints to the Kaggle dataset amhashiferaw/casmi26-fp-own (file names carry the epoch, so nothing is published twice) and keeps them as a workflow artifact for 14 days. Inference kernels attach that dataset to use our model.
+- Both need the repository secret `KAGGLE_API_TOKEN` (set Sep 20 2026 from the local token file). Rotate the Kaggle token by updating that secret.
+- Dispatch from the CLI without gh: POST `/repos/shiferaxa/casmi26/actions/workflows/<file>/dispatches` with the credential from `git credential fill`.
+
+## Fork of the public pipeline
+
+`kaggle/fork_base`, `fork_v2`, `fork_v3` are script kernels forked from the public 0.339 notebook; `src/casmi/fork/` is the same code as an importable module with a local validation harness (`scripts/run_fork_val.py`, `scripts/diag_fork_val.py`) on the 250 enveda-np-examples structures. Public assets are under `data/public/` (gitignored), ranker training file versions under `artifacts/ranker_versions/` (must stay outside `data/`, the file finder searches it). Always pass `--ranker` explicitly. The ranker file the public author ships changes without notice and moved the LB by 0.05. `scripts/dump_rank_features.py` builds ranker rows and takes `--models` like `run_fork_val.py`, so the logit features match the checkpoints the ranker will serve with. Two harness runs at once need separate `--cache` folders (copy `data/cache`), because each rewrites `frag_cache.pkl` every 25 to 50 structures.
+
+## Validation rule
+
+Only `scripts/run_fork_val.py --split npx` (the 250 enveda-np-examples structures) predicts the leaderboard. Held-out random training structures (train_ranker.py's holdout, the `--split overlap` set) predicted the opposite ordering of three rankers and were wrong on the board. Never submit on the strength of the training-structure holdout alone.
+
+## Training on Runpod
+
+Model training moved off the Kaggle quota to a rented Runpod pod on Oct 8 2026 (Community Cloud, RTX PRO 5000 Blackwell 48 GB, about $0.79/h, account amhashiferaw@gmail.com). Connection details and gotchas are in the memory file `runpod-training-box`. On the pod: `/workspace/input` (training inputs, pulled once by `scripts/runpod_setup.sh`), `/workspace/src` (copies of `kaggle/train_fp_v2/notebook.py` and the two scripts), `/workspace/runs/<tag>/` (train.log plus `fp_single_<tag>_s<step>.pt` best and `_last.pt`). `scripts/runpod_train.sh <tag> CASMI_CFG_<KEY>=<value> ...` runs one job; any key of the notebook's CFG can be overridden. Detach jobs with `setsid nohup ... < /dev/null &`. The Runpod MCP (plugin `runpod@runpod`) can stop and start the pod from a session started after Oct 7 2026; stop the pod when nothing is queued, the volume keeps everything. Pull checkpoints with `scp -P <port> root@<ip>:/workspace/runs/<tag>/fp_single_*.pt data/own_runs/<tag>/` and score with `scripts/eval_channel4.py --models data/own_runs/<tag>`.
+
+## Current state
+
+Oct 12 2026: public LB 0.415 (casmi26-fork-v4n version 2, unchanged fork of huseyinemreaksoy's 0.420 kernel with its Docker image pinned), rank 948 of 3,171; rank 500 is 0.438 and the crowd is at 0.44. Lesson: a fork without the author's docker_image pin scored 0.378, so every fork keeps the pin (fork_public.sh does this now). Next: find what the 0.44 public kernels add over v4n. Own fingerprint checkpoints (seven seeds, saturated at 0.53 Bernoulli on channel 4) are under `data/own_runs/` and `artifacts/models_own*`; they lose through the public ranker, and test-like ranker rows are the lever that unlocks them. The fork with own checkpoints in engine 2 is prepared in `kaggle/casmi26-fork-v4n-own3`. Runpod: pods u6idxqe6p9gq78 (PRO 5000, inputs on volume) and rk0wvmaukdlhy3 (2x H100, inputs on volume) stopped, qk827u9f0b2wrh (H200, empty) stopped; terminate what is not needed, rotate the API key.

@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-v35-v2-emphasis-1107pm",
+  "version": 1,
+  "branch_sha256": "ed73b081dbf50db38034fbb137fa847fe4f2c1eaed0c920be3eb969f392d286d",
+  "submission_ref": 58082871,
+  "actual_target": "stormseye/casmi26-v35-v2-emphasis-1107pm",
+  "status": "COMPLETE",
+  "public_score": "0.458",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-07T15:57:25.720584+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

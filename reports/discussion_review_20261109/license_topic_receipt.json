@@ -1,0 +1,76 @@
+{
+  "results": [
+    {
+      "id": 748363,
+      "read_only": true,
+      "checked_at_utc": "2026-11-09T07:15:00.355732+00:00",
+      "status": "saved",
+      "title": "Licence clarification for CC-BY-NC-SA external datasets",
+      "comments": 1,
+      "comments_truncated": false,
+      "text_sha256": "debf289be1dc62635bc36f438bff3075bd3bb24d730fd21c0ba8dbdef0c2670f"
+    },
+    {
+      "id": 745841,
+      "read_only": true,
+      "checked_at_utc": "2026-11-09T07:15:00.355732+00:00",
+      "status": "saved",
+      "title": "Are non-commercial public datasets/weights allowed in a prize-eligible solution?",
+      "comments": 1,
+      "comments_truncated": false,
+      "text_sha256": "bd5fb78682614a0b2d74a3030f42dfeb501e5135707b560de5dbbd39afabf96b"
+    },
+    {
+      "id": 745615,
+      "read_only": true,
+      "checked_at_utc": "2026-11-09T07:15:00.356275+00:00",
+      "status": "saved",
+      "title": "Non-commercial inputs: prize-ineligible only, or also excluded from the final leaderboard and medals?",
+      "comments": 1,
+      "comments_truncated": false,
+      "text_sha256": "9f3d99f931522dc9daab542a245591d3822c7bc82280e39d083c8d112a973e17"
+    },
+    {
+      "id": 745072,
+      "read_only": true,
+      "checked_at_utc": "2026-11-09T07:15:01.801277+00:00",
+      "status": "saved",
+      "title": "Prize eligibility: code and weights shared in public Kaggle datasets with an \"Other (non-commercial)\" licence",
+      "comments": 14,
+      "comments_truncated": false,
+      "text_sha256": "b8a4b49b2ea6713031899c7a4c2b26d32d21669f935bc968412f7721615608a7"
+    },
+    {
+      "id": 749217,
+      "read_only": true,
+      "checked_at_utc": "2026-11-09T07:15:02.405667+00:00",
+      "status": "saved",
+      "title": "Compliance: is the approved-dataset list exhaustive, and does \"trained on NIST\" reach models whose training corpus CONTAINS NIST-derived data?",
+      "comments": 4,
+      "comments_truncated": false,
+      "text_sha256": "90809a0eeed1e66813eb6ed4a49c158d1f172c38458860a11bc921713a625828"
+    },
+    {
+      "id": 745134,
+      "read_only": true,
+      "checked_at_utc": "2026-11-09T07:15:02.460047+00:00",
+      "status": "saved",
+      "title": "ICEBERG PubChem atlas (predicted spectra from a NIST'23-trained model) \u2014 usable as a spectral library?",
+      "comments": 4,
+      "comments_truncated": false,
+      "text_sha256": "34c84c8f508b2ae2b677209846cc2810b0d2133430f09ef75f6a7ef81b653522"
+    },
+    {
+      "id": 750330,
+      "read_only": true,
+      "checked_at_utc": "2026-11-09T07:15:03.118350+00:00",
+      "status": "saved",
+      "title": "Clarification regarding permitted external data sources",
+      "comments": 0,
+      "comments_truncated": false,
+      "text_sha256": "547ea5b2e456d3a0c8e0f6ff0f56c4fe9ca71f1ca9248cfbb0f57e48096671af"
+    }
+  ],
+  "read_only": true,
+  "external_writes": false
+}

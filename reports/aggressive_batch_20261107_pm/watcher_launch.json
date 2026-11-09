@@ -1,0 +1,15 @@
+﻿{
+    "launcher_pid":  23264,
+    "launched_at_utc":  "2026-11-07T06:57:22.8330143Z",
+    "manifest":  "submission/aggressive_20261107_pm/manifest.json",
+    "read_only":  true,
+    "max_hours":  12,
+    "submission_refs":  [
+                            58082815,
+                            58082822,
+                            58082871,
+                            58082895,
+                            58082938
+                        ],
+    "baseline_public_score":  0.481
+}

@@ -1,0 +1,56 @@
+{
+  "files": [
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_meta.parquet",
+      "bytes": 7120766,
+      "sha256": "9b0c2d675612580a4aedbdd3c8891d046fdf864b0805aaef852acc6653f7d37f",
+      "path": "assets\\kaggle\\takumuhata\\casmi26-extlib\\v2\\ext_meta.parquet",
+      "checked_at_utc": "2026-11-09T07:17:58.663386+00:00",
+      "downloaded_or_present": true
+    },
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_mass.parquet",
+      "bytes": 7979821,
+      "sha256": "e82a878f3e9f4d19067199d1376231b1663a83d08c512ba8e03d6ae88b7af12e",
+      "path": "assets\\kaggle\\takumuhata\\casmi26-extlib\\v2\\ext_mass.parquet",
+      "checked_at_utc": "2026-11-09T07:17:59.506839+00:00",
+      "downloaded_or_present": true
+    },
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_mz.npy",
+      "bytes": 102770816,
+      "sha256": "a14f750d46bfca4176110d1a83cc3562944a3ca1e3f1344c94141f6d8d85fad5",
+      "path": "assets\\kaggle\\takumuhata\\casmi26-extlib\\v2\\ext_mz.npy",
+      "checked_at_utc": "2026-11-09T07:18:17.100557+00:00",
+      "downloaded_or_present": true
+    },
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_in.npy",
+      "bytes": 102770816,
+      "sha256": "e47b359f27d0aacda22f7ef47f8f60f7912136027d70d2bc915890a8d51be841",
+      "path": "assets\\kaggle\\takumuhata\\casmi26-extlib\\v2\\ext_in.npy",
+      "checked_at_utc": "2026-11-09T07:18:18.535497+00:00",
+      "downloaded_or_present": true
+    },
+    {
+      "ref": "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+      "version": 1,
+      "file": "spectra.parquet",
+      "bytes": 43941912,
+      "sha256": "6ebb46b32ddd344d988c3bdb90e7160d4ce46e6d0b900a1217607aa2234c9477",
+      "path": "assets\\kaggle\\samartalwar\\casmi-2026-spectral-library-massbankharmonized\\v1\\spectra.parquet",
+      "checked_at_utc": "2026-11-09T07:18:25.692861+00:00",
+      "downloaded_or_present": true
+    }
+  ],
+  "bytes": 264584131,
+  "all_verified": true
+}

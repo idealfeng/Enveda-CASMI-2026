@@ -1,0 +1,58 @@
+{
+  "name": "mass_guarded_isomer_p7",
+  "target": "stormseye/casmi26-mass-guarded-isomer-p7-1109",
+  "version": 1,
+  "stage_dir": "submission/optimization_20261109/mass_guarded_isomer_p7",
+  "notebook_sha256": "0ab4a66896ad364e99fe8db2c234e13dc0622085606313a10fccf5c685b88b23",
+  "metadata_sha256": "c8a042b7ca2a5754f6cc81773169ef0ba84ff769e5477041e28570751377fddf",
+  "description": "CASMI26 20261109 mass_guarded_isomer_p7 prefix7 audited V1",
+  "validation_mode": "fast_static",
+  "static_review_path": "submission/optimization_20261109/mass_guarded_isomer_p7/static_review.json",
+  "required_runtime_audits": [
+    {
+      "name": "batch_variant_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "mode": "fast_static",
+        "branch": "public_mass_repro",
+        "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+      },
+      "required_true_checks": [
+        "mass_recipe",
+        "original_public_priors",
+        "official_rdkit",
+        "public_model_pins",
+        "ours_model_pins",
+        "two_distinct_models",
+        "lotus_pin",
+        "csv_schema_ids",
+        "csv_counts",
+        "fast_no_model"
+      ]
+    },
+    {
+      "name": "guarded_tail_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "mass_guarded_isomer_p7",
+        "mode": "fast_static",
+        "recipe_sha256": "af484d4e817ca1515584ad4aace5496bff84ec9fee8b8ce9a346a335e08a8cbe",
+        "protected_prefix": 7,
+        "score_mode": "learned_heads"
+      },
+      "required_true_checks": [
+        "original_base_audit",
+        "late_module_pin",
+        "scorer_payload_pins",
+        "original_scorer_pin",
+        "configuration_binding",
+        "audited_control_bound",
+        "final_csv_bound",
+        "exact_ids_order",
+        "exact_protected_prefix",
+        "exact_candidate_multisets",
+        "fast_no_model"
+      ]
+    }
+  ]
+}

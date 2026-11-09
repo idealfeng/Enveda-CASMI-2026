@@ -1,0 +1,11 @@
+{
+  "status": "prepared",
+  "branch": "mass_heads_na",
+  "target": "stormseye/casmi26-mass-heads-na-1108",
+  "version": 1,
+  "notebook_sha256": "9417600e4a0118c671dff6e571ac0260bac951eb7531ee985096c60d7beb8e8e",
+  "metadata_sha256": "b2e709187d56f9f93052b6253e683f0fcf67491b6427b76df59e031a8fe553b1",
+  "recipe_sha256": "ee411dfc4144a31a2fe9f3031d22a81fe4a5ca5df8063bc6df59acf4f1973438",
+  "static_review_path": "submission/optimization_20261108/mass_heads_na/static_review.json",
+  "validation_mode": "fast_static"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "prepared",
+  "target": "stormseye/casmi26-flex-dual-only-1107",
+  "version": 1,
+  "branch": "flex_dual_only",
+  "notebook_sha256": "56afead5063b63f24b76c66431a733638c2913e95fe9ab3a11ed569dc3237598",
+  "metadata_sha256": "782d1b6ff2b249d2b2e63846f9f10130ca2a74c8147911ea84c11297cf6d47a6",
+  "recipe_sha256": "87654a637d19477226a6cc425779954fce76a8191ad57f3d1962e1b4b31861f5",
+  "static_review_path": "submission\\aggressive_20261107\\flex_dual_only\\static_review.json",
+  "static_review_sha256": "f26dd111a493d2aebab7636edf5b79da35098de460a8adb13378945fc601a15d",
+  "expected_runtime_artifact": "batch_variant_audit.json",
+  "fast_expected_mode": "fast_static",
+  "cloud_run_or_submission_performed": false,
+  "model_execution_performed": false
+}

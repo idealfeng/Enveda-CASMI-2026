@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "rdkit": "2026.03.3",
+  "checks": {
+    "columns": true,
+    "rows_400": true,
+    "unique_ids": true,
+    "official_id_order": true,
+    "all_candidates_valid": true,
+    "metric_identity_deduplicated": true,
+    "max25": true,
+    "active12": true,
+    "padding388": true,
+    "final_sha_matches": true
+  },
+  "invalid_rows": [],
+  "duplicate_identity_rows": [],
+  "bad_length_rows": [],
+  "submission_sha256": "d2027d8918d15b27fa271ba4961faa63c28fa7f4efbea0dd8069ecbfe6a5060b"
+}

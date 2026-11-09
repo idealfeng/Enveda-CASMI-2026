@@ -1,0 +1,4 @@
+[ice     0.1s] stubbed (absent) modules: ['pygmtools', 'h5py', 'multiprocess', 'platformdirs']
+[ice    90.9s] ms_pred tautomer mode v2 cache /mnt/d/Paper/casmi/.cache/tmp-linux/ice_ms_pred_cache
+[ice    91.9s] model loaded on cuda (rdkit 2025.03.6, torch 2.9.1+cu126, numba True)
+[ice    99.4s] status budget {'n_mols': 1, 'n_mols_covered': 1, 'n_mols_scored': 0, 'n_cands': 1, 'n_scored': 0}

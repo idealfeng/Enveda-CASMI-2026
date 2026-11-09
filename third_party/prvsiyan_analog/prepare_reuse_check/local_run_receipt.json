@@ -1,0 +1,358 @@
+{
+  "notebook_ref": "prvsiyan/analog-propagation-casmi-2026-baseline",
+  "notebook_version": 43,
+  "script_version_id": 360497306,
+  "source_sha256": "a1da86c791cdbcb553254a12cef8bca8b527b991f40953d9dcb2a9c819d3c852",
+  "runner_sha256": "3120be44bf017060862977ffe88cbea4dfb4d5ff3e4bd995a3912638d2c3312e",
+  "runtime": {
+    "platform": "linux",
+    "python": "3.12.3",
+    "executable": "/mnt/d/Paper/casmi/.venv-linux/bin/python",
+    "input_root": "/mnt/d/Paper/casmi/runs/inputs/prvsiyan_v43",
+    "work_root": "/mnt/d/Paper/casmi/third_party/prvsiyan_analog/prepare_reuse_check",
+    "competition_root": "/mnt/d/Paper/casmi/enveda-CASMI26-molecule-id-mass-spectra"
+  },
+  "status": "prepared",
+  "patches": [
+    {
+      "cell": 2,
+      "source_sha256": "cabf8eaf41cb65ab6fcd0c29abcbb339c54b698ab2984b2f68f4fcd1ee4f3ddf",
+      "adapted_sha256": "cabf8eaf41cb65ab6fcd0c29abcbb339c54b698ab2984b2f68f4fcd1ee4f3ddf",
+      "changes": []
+    },
+    {
+      "cell": 3,
+      "source_sha256": "087b8e08aacf74fb48aa9c35e7e4ff73ba6132d3a3e7abcea582e01a68fae9c3",
+      "adapted_sha256": "087b8e08aacf74fb48aa9c35e7e4ff73ba6132d3a3e7abcea582e01a68fae9c3",
+      "changes": []
+    },
+    {
+      "cell": 4,
+      "source_sha256": "78c189d5cbf227535e45c9a0142ea32a0ef499f83b8f659623d34ca02519dc8c",
+      "adapted_sha256": "78c189d5cbf227535e45c9a0142ea32a0ef499f83b8f659623d34ca02519dc8c",
+      "changes": []
+    },
+    {
+      "cell": 5,
+      "source_sha256": "eb5032aedcc7496993c02d5c624eb8004c22c1fa549be31c7caf24f0940649a5",
+      "adapted_sha256": "eb5032aedcc7496993c02d5c624eb8004c22c1fa549be31c7caf24f0940649a5",
+      "changes": []
+    },
+    {
+      "cell": 6,
+      "source_sha256": "783aec683ad85097fc1a302e6fbad41b71f952b2913b0f28f060bf3208066148",
+      "adapted_sha256": "783aec683ad85097fc1a302e6fbad41b71f952b2913b0f28f060bf3208066148",
+      "changes": []
+    },
+    {
+      "cell": 7,
+      "source_sha256": "c4047f3625b442dee8650ea986acf2e15bedd3bda3edec30de5ee8c4f04dbbd4",
+      "adapted_sha256": "4869824309e04e39a057711d609fc5fd750927ad001d7671ed235e0def36130c",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/input",
+          "after": "/mnt/d/Paper/casmi/runs/inputs/prvsiyan_v43",
+          "count": 3
+        },
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/working",
+          "after": "/mnt/d/Paper/casmi/third_party/prvsiyan_analog/prepare_reuse_check",
+          "count": 2
+        },
+        {
+          "kind": "explicit_local_competition_binding",
+          "before": "COMP = os.path.dirname(find('test.parquet'))",
+          "after": "COMP = _LOCAL_COMPETITION_ROOT"
+        }
+      ]
+    },
+    {
+      "cell": 8,
+      "source_sha256": "000a7c8b2cab56d0b991c783d9b4690cdadb63083a737e942551f7c4590e1f14",
+      "adapted_sha256": "480aef8e839e689eafcd74b3eb47633121e4a5913401fd5b4f6615e23f4ed281",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/input",
+          "after": "/mnt/d/Paper/casmi/runs/inputs/prvsiyan_v43",
+          "count": 2
+        },
+        {
+          "kind": "hardware_observer",
+          "before": "assert 'T4' in gpu, gpu",
+          "after": "print('LOCAL_GPU_OBSERVED', gpu)"
+        },
+        {
+          "kind": "local_competition_path_guard",
+          "before": "    assert comp in {f'/mnt/d/Paper/casmi/runs/inputs/prvsiyan_v43/{slug}', f'/mnt/d/Paper/casmi/runs/inputs/prvsiyan_v43/competitions/{slug}'}",
+          "after": "    assert comp == os.path.realpath(scope['_LOCAL_COMPETITION_ROOT'])"
+        }
+      ]
+    },
+    {
+      "cell": 9,
+      "source_sha256": "d31b7fcca1a9cccd8fdaa0c8b15ff6149cde01b80c74e1d9865adc0d3b1d01c8",
+      "adapted_sha256": "d31b7fcca1a9cccd8fdaa0c8b15ff6149cde01b80c74e1d9865adc0d3b1d01c8",
+      "changes": []
+    },
+    {
+      "cell": 10,
+      "source_sha256": "5064b6cd900543abbf28ae18783798f64a7676769260ce2f7c7bfc05a89dedda",
+      "adapted_sha256": "335098598bd7991e13d1f4a797cbab75fa0ee817443ec9090b37f2ce7b72b9f7",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/working",
+          "after": "/mnt/d/Paper/casmi/third_party/prvsiyan_analog/prepare_reuse_check",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "cell": 11,
+      "source_sha256": "bdaa34c570aeb1fe32575ce538542338d9ea18c8b3bcdb31bc5905be9b76dd3c",
+      "adapted_sha256": "bdaa34c570aeb1fe32575ce538542338d9ea18c8b3bcdb31bc5905be9b76dd3c",
+      "changes": []
+    },
+    {
+      "cell": 12,
+      "source_sha256": "4fbf71d7b0ba13bd88df971f4f0d659087fc2f270cbd000514aff26f41df6d07",
+      "adapted_sha256": "1d63e094de5349fb0eb402db618772b37b591784c7c95a39fc7f95ac1742a90e",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/input",
+          "after": "/mnt/d/Paper/casmi/runs/inputs/prvsiyan_v43",
+          "count": 2
+        },
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/working",
+          "after": "/mnt/d/Paper/casmi/third_party/prvsiyan_analog/prepare_reuse_check",
+          "count": 3
+        },
+        {
+          "kind": "validated_engine2_output_reuse",
+          "before": "subprocess.run([sys.executable, os.path.join(ENG_DIR, 'eng_runner.py'), os.path.join(COMP, 'test.parquet'),\n                         os.path.join(COMP, 'train.parquet'), os.path.join(COMP, 'sample_submission.csv'),\n                         '/mnt/d/Paper/casmi/third_party/prvsiyan_analog/prepare_reuse_check/eng_lists.json'], capture_output=True, text=True, timeout=4 * 3600, cwd=ENG_DIR)",
+          "after": "_LOCAL_REUSE_ENGINE_LISTS(globals())",
+          "preserves_ENG_FILES_generation": true
+        }
+      ]
+    },
+    {
+      "cell": 13,
+      "source_sha256": "a9015f472ace8fae7b6afd522f6bbf39f271ffeae4ec5142c0cd9d618007635f",
+      "adapted_sha256": "a9015f472ace8fae7b6afd522f6bbf39f271ffeae4ec5142c0cd9d618007635f",
+      "changes": []
+    },
+    {
+      "cell": 14,
+      "source_sha256": "15048e0c75de5a12495b098e890f27665aed0a3befaefdac7495066285651fde",
+      "adapted_sha256": "901cae7ec2fd2947d5593f43245981797a4f1963ccb29e0450f79a92fb6332ad",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/working",
+          "after": "/mnt/d/Paper/casmi/third_party/prvsiyan_analog/prepare_reuse_check",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "cell": 15,
+      "source_sha256": "1053f88537e945cf44d420c2ff75cad06a984f89e9d531eabb0dafcf70da28ed",
+      "adapted_sha256": "1053f88537e945cf44d420c2ff75cad06a984f89e9d531eabb0dafcf70da28ed",
+      "changes": []
+    },
+    {
+      "cell": 16,
+      "source_sha256": "c49cd153179059b5ca956356c3d27f948727464557cf38b83fe710fc69e90efd",
+      "adapted_sha256": "c49cd153179059b5ca956356c3d27f948727464557cf38b83fe710fc69e90efd",
+      "changes": []
+    },
+    {
+      "cell": 17,
+      "source_sha256": "3d4737aa017e3854ffbd88318ffab81b73845048bc8003d38297aeb164a384aa",
+      "adapted_sha256": "054e39359099d784f138169057b32d01b9cb2ebca85bc68915c18fa35f867120",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/input",
+          "after": "/mnt/d/Paper/casmi/runs/inputs/prvsiyan_v43",
+          "count": 1
+        },
+        {
+          "kind": "copy_on_write_train_fingerprint_mmap",
+          "before": "np.load('work/train_fp_sel.npy')",
+          "after": "np.load('work/train_fp_sel.npy', mmap_mode='c')"
+        }
+      ]
+    },
+    {
+      "cell": 18,
+      "source_sha256": "b3bb80a6a5b90b2fa7659cca3b8869675394acdc5a57993b35c231bbe7d67d88",
+      "adapted_sha256": "b3bb80a6a5b90b2fa7659cca3b8869675394acdc5a57993b35c231bbe7d67d88",
+      "changes": []
+    },
+    {
+      "cell": 19,
+      "source_sha256": "ebe44703116a65f5851684e22b46b836ff1b4bed38df927b78780e77e7ad9ace",
+      "adapted_sha256": "ebe44703116a65f5851684e22b46b836ff1b4bed38df927b78780e77e7ad9ace",
+      "changes": []
+    },
+    {
+      "cell": 20,
+      "source_sha256": "091429d6c480fae2af79026317b159825182c5978b3df62585b4dd366d4966fd",
+      "adapted_sha256": "091429d6c480fae2af79026317b159825182c5978b3df62585b4dd366d4966fd",
+      "changes": []
+    },
+    {
+      "cell": 21,
+      "source_sha256": "abf7de71e0c6ff1f74fb8625b88aa4eb9989b4b8c0c7e92a4c6b2b1ae5485a01",
+      "adapted_sha256": "35ae4e922178c235f55ad6c9fdcf4a2f341362dc4c6cca86e1d93eea7cdfd8bd",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/input",
+          "after": "/mnt/d/Paper/casmi/runs/inputs/prvsiyan_v43",
+          "count": 2
+        },
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/working",
+          "after": "/mnt/d/Paper/casmi/third_party/prvsiyan_analog/prepare_reuse_check",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "cell": 22,
+      "source_sha256": "3a72611493f53d392baff64a703dea02df794ede76295f467b847f3f21ef58ef",
+      "adapted_sha256": "3a72611493f53d392baff64a703dea02df794ede76295f467b847f3f21ef58ef",
+      "changes": []
+    },
+    {
+      "cell": 23,
+      "source_sha256": "2ce945557fd15506abab421412ca2333eade154601699052c31de6fce9710c5a",
+      "adapted_sha256": "7845e74e6659fd5c357b4f83f21e4ba8b73f6552b3e21d7fca43b42a949ba4a3",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/working",
+          "after": "/mnt/d/Paper/casmi/third_party/prvsiyan_analog/prepare_reuse_check",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "cell": 24,
+      "source_sha256": "6d5f258b5de28b375311f9e5bf8caa1a8240120a5b5dd2bc149a62e71f8fe70a",
+      "adapted_sha256": "6d5f258b5de28b375311f9e5bf8caa1a8240120a5b5dd2bc149a62e71f8fe70a",
+      "changes": []
+    },
+    {
+      "cell": 25,
+      "source_sha256": "28c5e7a69e23085f245580578c3fbbdaed87e1dbc58265d039dfe0d9edf771b9",
+      "adapted_sha256": "28c5e7a69e23085f245580578c3fbbdaed87e1dbc58265d039dfe0d9edf771b9",
+      "changes": []
+    },
+    {
+      "cell": 26,
+      "source_sha256": "45aacf15b708f9caa9255acdba77e6e242ff8dab48f3acd342c0f09be334322c",
+      "adapted_sha256": "45aacf15b708f9caa9255acdba77e6e242ff8dab48f3acd342c0f09be334322c",
+      "changes": []
+    },
+    {
+      "cell": 27,
+      "source_sha256": "8219c49d43927f5a4b257c4f6061518aeb1df2a4dbf67753a223cd4bcbfefb42",
+      "adapted_sha256": "8219c49d43927f5a4b257c4f6061518aeb1df2a4dbf67753a223cd4bcbfefb42",
+      "changes": []
+    },
+    {
+      "cell": 28,
+      "source_sha256": "c31215bc2416fff5b73b49e48f520cf2a4092da5b57ec63e9b9bfc971e1facc6",
+      "adapted_sha256": "6d7d5c6fe6f085d50fb9947ecd021fc275727a35eeb424c9ed1d44b924d38f5f",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/input",
+          "after": "/mnt/d/Paper/casmi/runs/inputs/prvsiyan_v43",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "cell": 29,
+      "source_sha256": "ff83e5e96f99f6da6b26b10cb30ce76e8ae6235cb77d3ae3dacccddc8d79b530",
+      "adapted_sha256": "ff83e5e96f99f6da6b26b10cb30ce76e8ae6235cb77d3ae3dacccddc8d79b530",
+      "changes": []
+    },
+    {
+      "cell": 30,
+      "source_sha256": "b4120c1fd03fa98969b55f93c9a4eacd99212d8b98214a38373fc2ae061fdf53",
+      "adapted_sha256": "b4120c1fd03fa98969b55f93c9a4eacd99212d8b98214a38373fc2ae061fdf53",
+      "changes": []
+    },
+    {
+      "cell": 32,
+      "source_sha256": "61d9cde75957a0435e4c89ffc8c8e26f88c30ab825180ceb91da413f54051168",
+      "adapted_sha256": "2f67269f3e48ca64106721e637ef43ddc101ac7f445e88842851857116f619f3",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/working",
+          "after": "/mnt/d/Paper/casmi/third_party/prvsiyan_analog/prepare_reuse_check",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "cell": 33,
+      "source_sha256": "b2b64712f4d531d27346130b9854388c21e3504f3b2e4667d10a6575eb788d08",
+      "adapted_sha256": "b2b64712f4d531d27346130b9854388c21e3504f3b2e4667d10a6575eb788d08",
+      "changes": []
+    },
+    {
+      "cell": 34,
+      "source_sha256": "4e9e26abfa1c70911662b0b900f3a30a57a1e9710e1b0cab21a1f156b91181a3",
+      "adapted_sha256": "62c911d246a36f515de2b64e05b1e6edc5906488f0baa89cea976a689351fdc1",
+      "changes": [
+        {
+          "kind": "path_translation",
+          "before": "/kaggle/working",
+          "after": "/mnt/d/Paper/casmi/third_party/prvsiyan_analog/prepare_reuse_check",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "shared_cache_requested": "/mnt/d/Paper/casmi/runs/shared_spec_cache",
+  "engine2_reuse_requested": "/mnt/d/Paper/casmi/runs/prvsiyan_smoke_20261104a/eng_lists.json",
+  "cell_results": [],
+  "notebook_globals": {
+    "display": "IPython.display.display"
+  },
+  "limitations": [
+    "Path and hardware adaptations mean this is not a byte-identical Kaggle runtime.",
+    "The source retains its 12-molecule visible-placeholder smoke and padding behavior.",
+    "Visible smoke output and any padded rows are not independent validation or leaderboard reproduction.",
+    "Source e004 reports retain ancestor-source identifiers; this receipt identifies the actual downloaded V43.",
+    "Public input availability does not certify competition-license eligibility.",
+    "Engine2 reuse enabled: elapsed times are recovery-run times, not cold-start times."
+  ],
+  "engine2_reuse": {
+    "status": "validated",
+    "prior_lists": "/mnt/d/Paper/casmi/runs/prvsiyan_smoke_20261104a/eng_lists.json",
+    "prior_lists_sha256": "8165da965bff1e6f611b938ffa787a5242a9dd47f39248840b1ccd1a70a33971",
+    "prior_receipt_sha256": "2a2173b1651e6c4a3b5c2da0fa63c18ae428e60dd466ef1046dadfbfafe2b2f1",
+    "active_query_sha256": "46f83234764281559a5c6df56643796304d7939b7501506746d68df8bce16ccf",
+    "molecules": 12,
+    "input_files": 253,
+    "input_metadata_sha256": "af0061ef9d5c0f105981da037689275ffa40cb427fdd913d7eda84043c7f3162",
+    "binding_sha256": "d2329632afeb6ad8e5a04a29054e50db9830f4aff55c34249e6f6c3f65a88384",
+    "not_cold_start": true,
+    "helper_sha256": "ee4f0c44fbdc7fa58aa6933d56e0b5008e4e7b8ad64001595ae3e8960f5fd1de"
+  }
+}

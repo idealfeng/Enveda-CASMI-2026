@@ -1,0 +1,19 @@
+{
+  "id": 744011,
+  "read_only": true,
+  "checked_at_utc": "2026-11-07T16:01:51.894493+00:00",
+  "topic": {
+    "id": 744011,
+    "title": "Test is 100% timsTOF, train is 46%: a train/test shift checklist before you build a reference library",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/744011",
+    "postDate": "2026-09-28T08:58:03.068Z",
+    "authorName": "Md Kishor Morol",
+    "authorUrl": "https://www.kaggle.com/kishormorol",
+    "votes": 5,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>I compared the metadata of the current <code>train.parquet</code> with the visible <code>test.parquet</code>. The spectra arrays aren't needed for any of this. A few differences matter for anyone building a retrieval library or training on train:</p>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>train (2.54M spectra, 276k molecules)</th>\n<th>visible test (1,213 spectra, 400 molecules)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Instrument</td>\n<td>46% timsTOF, 30% Orbitrap, the rest QTOF / ion trap / QqQ</td>\n<td><strong>100% timsTOF</strong></td>\n</tr>\n<tr>\n<td>Adducts</td>\n<td>52% [M+H]+, 18% [M-H]-, <strong>13% dimers</strong> ([2M+Na]+, [2M+H]+, [2M-H]-)</td>\n<td>79% [M+H]+, 16% [M-H]-, <strong>no dimers</strong></td>\n</tr>\n<tr>\n<td>Precursor m/z</td>\n<td>median 350, but min 2 and max ~2.4 million</td>\n<td>245–460, median 329</td>\n</tr>\n<tr>\n<td>Collision energy</td>\n<td>same energies written as <code>60</code>, <code>60.0</code> and <code>[60.0]</code></td>\n<td>clean <code>20</code> / <code>40</code> / <code>60</code> and stepped <code>20,40,60</code> (plus negatives)</td>\n</tr>\n</tbody>\n</table>\n<p>What I'd do with it:</p>\n<ol>\n<li><strong>Weight or filter by instrument.</strong> Fragmentation differs between Orbitrap (HCD) and timsTOF (CID), so a timsTOF-only (or timsTOF-weighted) reference set is probably a better match for test. Instrument names come in ~15 spellings (<code>QTOF</code>, <code>qTof</code>, <code>qtof</code>, <code>LC-ESI-QTOF</code>, …), so normalise them first.</li>\n<li><strong>Drop dimer adducts</strong> from the library, or at least from the candidate ranking. None of them appear in test.</li>\n<li><strong>Drop impossible precursors.</strong> Anything outside roughly 50–2,000 m/z is a unit or parsing error.</li>\n<li><strong>Parse collision energy into numbers</strong> before using it as a feature. Otherwise <code>60</code>, <code>60.0</code> and <code>[60.0]</code> look like three different settings.</li>\n<li><strong>Build CV from the same slice:</strong> positive and negative mode in about the test's 80/20 ratio, [M+H]+ / [M-H]- dominant, with precursors 240–470. And split by <code>inchikey14</code>, never by spectrum, or the same molecule ends up on both sides.</li>\n</ol>\n<p>One caveat: this is the <em>visible</em> test file. The hidden test used at scoring may be larger, but a code competition's visible test is usually drawn the same way.</p>\n<p>Numbers come from a metadata-only script (no spectra loaded). Happy to share it if useful, and if you've seen the timsTOF-only subset help or hurt your CV, I'd like to hear it.</p>"
+  },
+  "comments": [],
+  "comments_truncated": false
+}

@@ -1,0 +1,642 @@
+{
+  "work_root": "/mnt/d/Paper/casmi/runs/validation_flex_c2_20261105d",
+  "status": "passed_with_allowed_skips",
+  "checks": [
+    {
+      "name": "runner_complete",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "status": "complete",
+        "elapsed_seconds": 1282.673,
+        "traceback": null
+      }
+    },
+    {
+      "name": "frozen_pipeline_complete",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "source_sha256": "5f2d2aa0d16a6a2593dcfa94b2707c95cf598ec020db050ecf1c3ce22a70ca9f",
+        "mode": "submission",
+        "source_adaptations": [],
+        "candidate_promotion_fix": true,
+        "is_full_run": false,
+        "processed_molecules": 48
+      }
+    },
+    {
+      "name": "baseline_coverage",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "processed_molecules": 48,
+        "base_errors": 0,
+        "base_nonempty": 48,
+        "engine2_nonempty": 48,
+        "pubchem_nonempty": 48
+      }
+    },
+    {
+      "name": "official_metric_rdkit",
+      "status": "pass",
+      "required": true,
+      "evidence": "2026.03.3"
+    },
+    {
+      "name": "baseline_final_receipt",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "main_errors": 0,
+        "processed_molecules": 48,
+        "placeholder_rows": 0
+      }
+    },
+    {
+      "name": "ice_model",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "status": "ok",
+        "device": "cuda",
+        "rdkit": "2025.03.6",
+        "n_mols": 48,
+        "n_mols_done": null,
+        "n_mols_covered": 46,
+        "n_mols_scored": 46,
+        "n_scored": 3774,
+        "n_pred_fail": 0,
+        "n_feat_fail": null,
+        "n_bad_smiles": 0,
+        "errors": [],
+        "seconds": 946.29
+      }
+    },
+    {
+      "name": "gl_model",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "status": "ok",
+        "device": "cuda",
+        "rdkit": "2025.03.6",
+        "n_mols": 45,
+        "n_mols_done": null,
+        "n_mols_covered": 45,
+        "n_mols_scored": 45,
+        "n_scored": 3679,
+        "n_pred_fail": 0,
+        "n_feat_fail": 0,
+        "n_bad_smiles": 0,
+        "errors": [],
+        "seconds": 168.77
+      }
+    },
+    {
+      "name": "n1_model",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "status": "ok",
+        "device": "cuda",
+        "rdkit": "2025.03.6",
+        "n_mols": 46,
+        "n_mols_done": 46,
+        "n_mols_covered": null,
+        "n_mols_scored": null,
+        "n_scored": null,
+        "n_pred_fail": 0,
+        "n_feat_fail": 0,
+        "n_bad_smiles": 0,
+        "errors": [],
+        "seconds": 177.52
+      }
+    },
+    {
+      "name": "neural_candidate_features.parquet",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "active_molecules": 48,
+        "candidate_rows": 1200,
+        "all_active_neural_ok": true,
+        "errors": []
+      }
+    },
+    {
+      "name": "outsider_neural_features.parquet",
+      "status": "pass",
+      "required": false,
+      "evidence": {
+        "active_molecules": 48,
+        "candidate_rows": 902,
+        "all_active_neural_ok": true,
+        "errors": []
+      }
+    },
+    {
+      "name": "selected_consensus_available",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "variant": "CUSTOM",
+        "report": {
+          "V0": {
+            "w_top": 0.0,
+            "w_mid": 0.0,
+            "rescue": 0,
+            "label": "Baseline 0.465 - no neural term",
+            "offset": 3.0,
+            "file": "submission_V0.csv",
+            "sha256": "b3b856281d2957b8035f634e01c9f2dc865746cf2ac3edb2e7921614ab6aa621",
+            "active_rows": 48,
+            "changed_rows": 0,
+            "changed_top1": 0,
+            "rescued": 0
+          },
+          "V1": {
+            "w_top": 0.25,
+            "w_mid": 0.25,
+            "rescue": 0,
+            "label": "Neural RRF 0.25 - public 0.466 recipe",
+            "offset": 3.0,
+            "file": "submission_V1.csv",
+            "sha256": "0cb0cce635fe9800c35fd843158d85a0216bd021df685afef5e76d2ac2e401be",
+            "active_rows": 48,
+            "changed_rows": 48,
+            "changed_top1": 0,
+            "rescued": 0
+          },
+          "V2": {
+            "w_top": 0.25,
+            "w_mid": 0.5,
+            "rescue": 0,
+            "label": "Leader-safe consensus 0.25 / 0.50",
+            "offset": 3.0,
+            "file": "submission_V2.csv",
+            "sha256": "f22922cbfbf9cb4a601e2ff2970ac7640ed92681116b246e871e1e9013bcb805",
+            "active_rows": 48,
+            "changed_rows": 48,
+            "changed_top1": 0,
+            "rescued": 0
+          },
+          "V3": {
+            "w_top": 0.25,
+            "w_mid": 0.5,
+            "rescue": 3,
+            "label": "Leader-safe consensus + 3-slot tail rescue",
+            "offset": 3.0,
+            "file": "submission_V3.csv",
+            "sha256": "4592e268d15488efad66c6b073129f3fad95ab733a2e5c5c5e3f7fe6de56b28b",
+            "active_rows": 48,
+            "changed_rows": 48,
+            "changed_top1": 0,
+            "rescued": 142
+          },
+          "V4": {
+            "w_top": 0.25,
+            "w_mid": 1.0,
+            "rescue": 0,
+            "label": "Bold consensus 0.25 / 1.00",
+            "offset": 3.0,
+            "file": "submission_V4.csv",
+            "sha256": "24a56250969dfa4ec84891039274eae648284d9c5c775453bde36b723c0d248f",
+            "active_rows": 48,
+            "changed_rows": 48,
+            "changed_top1": 0,
+            "rescued": 0
+          },
+          "CUSTOM": {
+            "w_top": 0.25,
+            "w_mid": 0.75,
+            "rescue": 0,
+            "label": "Custom weights",
+            "offset": 3.0,
+            "file": "submission_CUSTOM.csv",
+            "sha256": "f0f81c0f9fe333f2ea9bb7e9285275a1ec32c49865bf6364fc8f19b134b8b4be",
+            "active_rows": 48,
+            "changed_rows": 48,
+            "changed_top1": 0,
+            "rescued": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "physical_overlay",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "control_sha256": "f22922cbfbf9cb4a601e2ff2970ac7640ed92681116b246e871e1e9013bcb805",
+        "submission_sha256": "4b2c1327e76f4664b31718f10528b0b81211487292560c1f069909f7d46d6ca6",
+        "rows": 48,
+        "changed_rows": 9,
+        "top1_changed": 2,
+        "tail_changed": 0,
+        "adjacent_swaps": 11,
+        "time_budget_exceeded": false,
+        "elapsed_seconds": 8.15,
+        "outcome": "experimental_unvalidated",
+        "baseline": "V2_0.468_user_reported"
+      }
+    },
+    {
+      "name": "provenance_overlay",
+      "status": "allowed_skip",
+      "required": false,
+      "evidence": {
+        "configured": false,
+        "report": null
+      }
+    },
+    {
+      "name": "merge_report.json",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "status": "applied",
+        "input_sha256": {
+          "physical_v2": "4b2c1327e76f4664b31718f10528b0b81211487292560c1f069909f7d46d6ca6",
+          "v2": "f22922cbfbf9cb4a601e2ff2970ac7640ed92681116b246e871e1e9013bcb805",
+          "custom": "f0f81c0f9fe333f2ea9bb7e9285275a1ec32c49865bf6364fc8f19b134b8b4be"
+        },
+        "overlay": {
+          "control_sha256": "f22922cbfbf9cb4a601e2ff2970ac7640ed92681116b246e871e1e9013bcb805",
+          "submission_sha256": "4b2c1327e76f4664b31718f10528b0b81211487292560c1f069909f7d46d6ca6",
+          "changed_rows": 9,
+          "top1_changed": 2,
+          "tail_changed": 0,
+          "adjacent_swaps": 11
+        },
+        "rows": 48,
+        "merged": 48,
+        "leader_moves": 2,
+        "skipped": {},
+        "skipped_leader_moves": 0,
+        "moved_ids": [
+          "cross_DKZBBWMURDFHNE",
+          "cross_NOFOAYPPHIUXJR"
+        ],
+        "output_sha256": "250671d1d4c08ef23c72255fcf817dcd6f75c1d0bd68a24086a12eb11752905e",
+        "output_equals_custom": false
+      }
+    },
+    {
+      "name": "final_layer_report.json",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "status": "applied",
+        "input_sha256": "250671d1d4c08ef23c72255fcf817dcd6f75c1d0bd68a24086a12eb11752905e",
+        "prior_file": "/mnt/d/Paper/casmi/runs/validation_flex_c2_20261105d/input_view/datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pool_popularity.csv",
+        "rows": 48,
+        "reordered": 47,
+        "pinned": 2,
+        "dup_removed": 0,
+        "outsider_fills": 0,
+        "top1_changed": 0,
+        "changed_rows": 47,
+        "output_sha256": "87b00838b3c3e4df2928d2d4a74b8c6bfbafa7c93958509c406dc825dbe118f5"
+      }
+    },
+    {
+      "name": "final_csv_format",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "rows": 48,
+        "sha256": "87b00838b3c3e4df2928d2d4a74b8c6bfbafa7c93958509c406dc825dbe118f5"
+      }
+    },
+    {
+      "name": "final_layer_output_binding",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "recorded": "87b00838b3c3e4df2928d2d4a74b8c6bfbafa7c93958509c406dc825dbe118f5",
+        "actual": "87b00838b3c3e4df2928d2d4a74b8c6bfbafa7c93958509c406dc825dbe118f5"
+      }
+    },
+    {
+      "name": "external_reference_spectra",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "added_and_structures": [
+          [
+            "751",
+            "469"
+          ]
+        ],
+        "expected": [
+          751,
+          469
+        ],
+        "disabled_messages": []
+      }
+    },
+    {
+      "name": "n1_coverage_policy",
+      "status": "pass",
+      "required": true,
+      "evidence": {
+        "complement": false,
+        "eligible_molecules": 1,
+        "proxy_covered_molecules": 1,
+        "proxy_covered_with_finite_ice": 0,
+        "real_h_molecules_skipped": 45,
+        "health": "N1 OK: 1 of 1 N1 molecules GL-scored (92 candidates), driver ok, clashes dropped 0"
+      }
+    },
+    {
+      "name": "actual_query_cohort",
+      "required": true,
+      "status": "pass",
+      "evidence": {
+        "processed": 48,
+        "placeholder_rows": 0,
+        "cohort_policy": "global leave-cohort-identity-out; all current pilot query identities removed from every reference path"
+      }
+    },
+    {
+      "name": "validation_e1_reference_audit.json",
+      "required": true,
+      "status": "pass",
+      "evidence": {
+        "status": "installed",
+        "cohort": "global leave-cohort-identity-out; all current pilot query identities removed from every reference path",
+        "libraries": [
+          {
+            "workdir": "/mnt/d/Paper/casmi/runs/validation_flex_c2_20261105d/external_reference_t8l92mn1",
+            "rows": 2540359,
+            "excluded_rows": 5732,
+            "allowed_rows": 2534627,
+            "excluded_base_rows": 5725,
+            "excluded_extra_rows": 7,
+            "excluded_extra_query_clean_duplicates": 0,
+            "blocked_sids": 51,
+            "csr_offsets_preserved": true,
+            "reference_mask_sha256": "bc0c9105a1034f96053be7704dc00bf3b78e96131debfb8bc85a38f4c40c90bd"
+          }
+        ],
+        "source_library_sha256": "21ee24dee9f39123da518fb17802a394e6dc46b147d5dbdf276210b60185f831",
+        "candidate_pool_filtered": false,
+        "extra_duplicate_policy": "Same precursor/adduct/mode and identical clean float32 CSR; conservative superset of raw exact duplicates."
+      }
+    },
+    {
+      "name": "validation_e2_reference_audit.json",
+      "required": true,
+      "status": "pass",
+      "evidence": {
+        "status": "passed",
+        "rows": 2539608,
+        "excluded_rows": 5725,
+        "direct_index_rows": 2533883,
+        "representatives": {
+          "all": 275759,
+          "pos": 258710,
+          "neg": 113129
+        },
+        "no_excluded_direct_or_representative_rows": true,
+        "candidate_pool_filtered": false,
+        "pool_structures": 1137233,
+        "blocked_raw_keys_still_in_pool": 51,
+        "reference_mask_sha256": "1c19f4740982dbe2e28a617579ce08447a941affe735ebee26fcbb5ac7dbf642",
+        "cohort": "global leave-cohort-identity-out; all current pilot query identities removed from every reference path"
+      }
+    },
+    {
+      "name": "validation_full_coverage_neural_candidate_features.parquet",
+      "required": true,
+      "status": "pass",
+      "evidence": {
+        "errors": [],
+        "active_molecules": 48,
+        "active_candidates": 1200,
+        "all_active_neural_ok": true,
+        "expected_nonempty_query_molecules": 48,
+        "known_retrieval_miss_queries": [],
+        "cco_fallback_is_not_retrieval_evidence": true
+      }
+    },
+    {
+      "name": "validation_full_coverage_outsider_neural_features.parquet",
+      "required": true,
+      "status": "pass",
+      "evidence": {
+        "errors": [],
+        "active_molecules": 48,
+        "active_candidates": 902,
+        "all_active_neural_ok": true,
+        "expected_nonempty_query_molecules": 48,
+        "known_retrieval_miss_queries": [],
+        "cco_fallback_is_not_retrieval_evidence": true
+      }
+    },
+    {
+      "name": "physical_merge_hash_binding",
+      "required": true,
+      "status": "pass",
+      "evidence": {
+        "physical_output": "4b2c1327e76f4664b31718f10528b0b81211487292560c1f069909f7d46d6ca6",
+        "merge_input": "4b2c1327e76f4664b31718f10528b0b81211487292560c1f069909f7d46d6ca6"
+      }
+    },
+    {
+      "name": "merge_final_hash_binding",
+      "required": true,
+      "status": "pass",
+      "evidence": {
+        "merge_output": "250671d1d4c08ef23c72255fcf817dcd6f75c1d0bd68a24086a12eb11752905e",
+        "final_input": "250671d1d4c08ef23c72255fcf817dcd6f75c1d0bd68a24086a12eb11752905e"
+      }
+    }
+  ],
+  "failed_checks": [],
+  "required_unknown_checks": [],
+  "allowed_skips": [
+    "provenance_overlay"
+  ],
+  "config": {
+    "VARIANT": "CUSTOM",
+    "PHYSICAL": true,
+    "PROVENANCE": false,
+    "FRAG_ON_V2": true,
+    "FINAL_LAYER": true
+  },
+  "unreadable_files": {},
+  "diagnostic_log_excerpts": [
+    {
+      "file": "submission_neural.log",
+      "line": "NEURAL input failures kept at baseline: 0"
+    },
+    {
+      "file": "outsiders_neural.log",
+      "line": "NEURAL input failures kept at baseline: 0"
+    }
+  ],
+  "limitations": [
+    "Read-only execution audit; only the requested report is written.",
+    "Missing evidence remains unknown; optional-stage absence alone is not proof of a skip.",
+    "Allowed budget/optional skips can mean partial execution; inspect individual checks.",
+    "This is not upstream ranking parity, independent validation, or a hidden-test score."
+  ],
+  "complete_layer_reports": {
+    "spectral_parallax_report.json": {
+      "control_sha256": "f22922cbfbf9cb4a601e2ff2970ac7640ed92681116b246e871e1e9013bcb805",
+      "submission_sha256": "4b2c1327e76f4664b31718f10528b0b81211487292560c1f069909f7d46d6ca6",
+      "rows": 48,
+      "changed_rows": 9,
+      "top1_changed": 2,
+      "tail_changed": 0,
+      "adjacent_swaps": 11,
+      "time_budget_exceeded": false,
+      "elapsed_seconds": 8.15,
+      "outcome": "experimental_unvalidated",
+      "baseline": "V2_0.468_user_reported"
+    },
+    "merge_report.json": {
+      "status": "applied",
+      "input_sha256": {
+        "physical_v2": "4b2c1327e76f4664b31718f10528b0b81211487292560c1f069909f7d46d6ca6",
+        "v2": "f22922cbfbf9cb4a601e2ff2970ac7640ed92681116b246e871e1e9013bcb805",
+        "custom": "f0f81c0f9fe333f2ea9bb7e9285275a1ec32c49865bf6364fc8f19b134b8b4be"
+      },
+      "overlay": {
+        "control_sha256": "f22922cbfbf9cb4a601e2ff2970ac7640ed92681116b246e871e1e9013bcb805",
+        "submission_sha256": "4b2c1327e76f4664b31718f10528b0b81211487292560c1f069909f7d46d6ca6",
+        "changed_rows": 9,
+        "top1_changed": 2,
+        "tail_changed": 0,
+        "adjacent_swaps": 11
+      },
+      "rows": 48,
+      "merged": 48,
+      "leader_moves": 2,
+      "skipped": {},
+      "skipped_leader_moves": 0,
+      "moved_ids": [
+        "cross_DKZBBWMURDFHNE",
+        "cross_NOFOAYPPHIUXJR"
+      ],
+      "output_sha256": "250671d1d4c08ef23c72255fcf817dcd6f75c1d0bd68a24086a12eb11752905e",
+      "output_equals_custom": false
+    },
+    "final_layer_report.json": {
+      "status": "applied",
+      "input_sha256": "250671d1d4c08ef23c72255fcf817dcd6f75c1d0bd68a24086a12eb11752905e",
+      "prior_file": "/mnt/d/Paper/casmi/runs/validation_flex_c2_20261105d/input_view/datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior/pool_popularity.csv",
+      "rows": 48,
+      "reordered": 47,
+      "pinned": 2,
+      "dup_removed": 0,
+      "outsider_fills": 0,
+      "top1_changed": 0,
+      "changed_rows": 47,
+      "output_sha256": "87b00838b3c3e4df2928d2d4a74b8c6bfbafa7c93958509c406dc825dbe118f5"
+    }
+  },
+  "final_sha256": "87b00838b3c3e4df2928d2d4a74b8c6bfbafa7c93958509c406dc825dbe118f5",
+  "explicit_budgets_seconds": {
+    "ice_budget_seconds": 2400,
+    "gl_budget_seconds": 4000,
+    "n1_budget_seconds": 2400
+  },
+  "evaluation_label": "reference-isolated diagnostic with known pretrained exposure",
+  "pretrained_exposure": {
+    "FPNet_full1": {
+      "status": "declared_seen_all_train",
+      "evidence": "third_party/prvsiyan_analog/dataset_metadata/ahmedberatozer__casmi26-fpnet-full1__view.json"
+    },
+    "fold0_FPNet": {
+      "status": "declared_np_panel_excluded_only",
+      "does_not_establish_full_stack_cleanliness": true
+    },
+    "other_public_models_rankers": {
+      "status": "unknown_membership"
+    },
+    "Saner_final_model": {
+      "status": "declared_full_refit_including_former_validation_identities",
+      "evidence": "/mnt/d/Paper/casmi/assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/training_result.json",
+      "evidence_sha256": "b1ec8850960aa1d439f72a73f432b5daedfee5764509885db91b56e53496f92e",
+      "producer_statement": "full data, including former validation identities; DO NOT evaluate this model on that holdout",
+      "clean_holdout_performance_claimed": false
+    }
+  },
+  "recovery": {
+    "recovery_engine2": {
+      "status": "reused",
+      "prior_root": "/mnt/d/Paper/casmi/runs/validation_flex_c2_20261105b",
+      "output_sha256": {
+        "eng_lists.json": "a53d80ee8d0a5f4d4ac5d63b8e42aefb60c96b5c1a4e2da2dac6cbd9a679dede",
+        "validation_e2_candidates.jsonl": "cf1694f9dad10af7bc2640f9c648403aae35ecf5223f84ba7f9810fb6623c6ba",
+        "validation_e2_reference_audit.json": "100167a28aaa8ea6c86122d190ce1af98ca5a627fe085791b43f92510d44e2aa"
+      },
+      "current_gpu_work": false
+    },
+    "recovery_gl": {
+      "status": "reused",
+      "exact_per_molecule_inputs": true,
+      "prior_root": "/mnt/d/Paper/casmi/runs/validation_flex_c2_20261105b",
+      "output_sha256": "424ffecab17f571a858da452c27a6f1ce2dda64d01549b0854d1ce1c0b0c62d9"
+    },
+    "recovery_ice": {
+      "prior_status": "budget",
+      "old_complete_molecules": 32,
+      "reused_molecules": 32,
+      "rebuilt_or_pending_molecules": 16,
+      "newly_scored_molecules": 14,
+      "prior_seconds": 636.12,
+      "current_seconds": 325.88,
+      "declared_budget": 2400,
+      "prior_output_sha256": "3b0c840561bd597a23416dcf7d1f4c07838ffec0de1f128d0e08fa84a231f9b7",
+      "prior_budget_seconds": 636,
+      "new_pending_budget_seconds": 2400,
+      "cumulative_seconds": 946.29,
+      "cumulative_exceeds_new_pending_budget": false,
+      "cold_start_budget_feasibility": "not established",
+      "not_a_cold_run": true,
+      "source_chunk_atomicity_checked": true
+    },
+    "recovery_n1": {
+      "status": "reused",
+      "exact_per_molecule_inputs": true,
+      "prior_root": "/mnt/d/Paper/casmi/runs/validation_flex_c2_20261105b"
+    },
+    "recovery_pubchem": {
+      "status": "reused",
+      "prior_root": "/mnt/d/Paper/casmi/runs/validation_flex_c2_20261105b",
+      "output_sha256": {
+        "pc_lists.json": "ce0968b124ad2e61018df68bd9e7b2c914ce7350148a252ddbb35d135221c029"
+      },
+      "current_gpu_work": false
+    },
+    "ice_meta_performance_scope": {
+      "seconds": "cumulative prior budget-attempt plus current pending invocation",
+      "n_pred_t_pred_t_load_pred_per_s": "current pending invocation only",
+      "coverage_and_n_scored": "merged complete prior groups plus current pending output",
+      "original_attempt_status": "budget",
+      "cold_run_performance_claimed": false,
+      "merged_recovery": {
+        "prior_status": "budget",
+        "old_complete_molecules": 32,
+        "reused_molecules": 32,
+        "rebuilt_or_pending_molecules": 16,
+        "newly_scored_molecules": 14,
+        "prior_seconds": 636.12,
+        "current_seconds": 325.88,
+        "declared_budget": 2400,
+        "prior_output_sha256": "3b0c840561bd597a23416dcf7d1f4c07838ffec0de1f128d0e08fa84a231f9b7",
+        "prior_budget_seconds": 636,
+        "new_pending_budget_seconds": 2400,
+        "cumulative_seconds": 946.29,
+        "cumulative_exceeds_new_pending_budget": false,
+        "cold_start_budget_feasibility": "not established",
+        "not_a_cold_run": true,
+        "source_chunk_atomicity_checked": true
+      }
+    }
+  }
+}

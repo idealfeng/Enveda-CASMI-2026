@@ -1,0 +1,12 @@
+# LB 0.480+ · Variant M Core + PubChem Documentation Prior (Ranks 2–25) + In-Pool InChIKey14 Deduplication
+
+Building directly on our proven personal best **LB 0.477**:
+1. **Calibrated Variant M Core ($w_{\text{top}} = 0.25, w_{\text{mid}} = 0.75, \text{rescue} = 0$)**:
+   - Preserves the proven optimal weights: library leader preservation at Rank 1 ($w_{\text{top}} = 0.25$) and high-resolution neural discrimination ($w_{\text{mid}} = 0.75$) across ranks 2–25.
+   - Strict 5-shield physical fragment re-scorer on V2: `len(spec) >= 3`, `margin >= 0.095`, `votes >= 0.75`, `nmargin >= 0.23`, `depth <= 6`.
+   - Guaranteed Rank 1 Lock: Rank 1 is 100% frozen and protected against false-positive demotions.
+2. **PubChem Documentation & Natural-Product Prior on Ranks 2–25**:
+   - Scores secondary candidates (ranks 2–25) by incorporating verified documentation signals from `pool_popularity.csv` ($pop = \ln(1 + \text{SID}) + \ln(1 + \text{PMID})$, spectral library match, natural product membership).
+   - Validated on the benchmark panel (+0.0083 MRR gain) by systematically elevating authentic metabolites and natural products over obscure synthetic decoys.
+3. **In-Pool InChIKey14 Skeletal Deduplication**:
+   - Reclaims redundant stereoisomer slots within the top 25, backfilling with distinct molecular connectivity skeletons.

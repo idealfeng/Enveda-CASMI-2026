@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-mass-gl-na-1108",
+  "version": 1,
+  "branch_sha256": "74f2525fd66cb9c6ece1d77f3de62feba0dccfb422f2bd9e07916d5786f4c251",
+  "submission_ref": 58120288,
+  "actual_target": "stormseye/casmi26-mass-gl-na-1108",
+  "status": "COMPLETE",
+  "public_score": null,
+  "public_score_available": false,
+  "error_description_present": true,
+  "checked_at_utc": "2026-11-09T07:08:08.233152+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

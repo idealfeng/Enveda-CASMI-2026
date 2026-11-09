@@ -1,0 +1,28 @@
+{
+  "id": 142820484,
+  "ref": "miaoyu/casmi26-v10-autonomous",
+  "title": "casmi26-v10-autonomous",
+  "current_version_number": 19,
+  "last_run_time": "2026-11-04 06:39:49.713000",
+  "total_votes": 0,
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_data_sources": [
+    "",
+    "",
+    "qwertykeypadapple/casmi26-lotus-candidates",
+    "miaoyu/pmd-fpnet-casmi26",
+    "adityamishranika/casmi26-rdkit-2026033-cp313"
+  ],
+  "kernel_data_sources": [],
+  "competition_data_sources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "model_data_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:0717e81990be591f8c5f98f033d29ab23e9ffde057e5b3a6bd4371f93969e962",
+  "machine_shape": "None",
+  "source_sha256": "74e590cf3cbe02396e0ba1fc69519003e183be01d7c17a7118d64b10ed6d68eb",
+  "source_bytes": 60928,
+  "source_path": "third_party\\public_scan_miaoyu__casmi26-v10-autonomous_20261107_pm\\source.py"
+}

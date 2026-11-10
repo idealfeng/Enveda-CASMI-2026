@@ -275,5 +275,25 @@
       ]
     }
   ],
-  "latest_api_reverification": "reports/optimization_20261110/initial_live_status.json"
+  "latest_api_reverification": "reports/optimization_20261110/initial_live_status.json",
+  "research_decisions": [
+    {
+      "date_beijing": "2026-11-10",
+      "route": "class3_generation_derive",
+      "status": "parked_as_independent_research",
+      "decision": "do not occupy today's 5 submission slots",
+      "evidence": {
+        "generation_coverage_class3": 0.396,
+        "recovered_rankable_fz_top25_rate": 0.9474,
+        "dev_panel_class2_rank_delta": 0.0,
+        "bottleneck_ranking": "n_analog ~= max_steps > template_coverage > min_sim > mass_tol(no effect)",
+        "artifacts": [
+          "produre2/Q345_RESULTS.md",
+          "produre2/artifacts/q3_ablation.json",
+          "produre2/artifacts/q4_light_fz.json",
+          "produre2/artifacts/q5_real_paths.json"
+        ]
+      }
+    }
+  ]
 }

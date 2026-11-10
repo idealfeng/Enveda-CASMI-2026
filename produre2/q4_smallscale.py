@@ -16,7 +16,7 @@ from validation.metric import assert_official_rdkit, identity  # noqa: E402
 
 RUN = ROOT / "runs/validation_flex_c2_20261105d"
 DEV = ROOT / "runs/validation_pilot_v2_20261104"
-STEP3 = ROOT / "produre2/artifacts/step3_per_query.csv"
+Q5 = ROOT / "produre2/artifacts/q5_real_paths.json"
 
 
 def mrr(ranked, tid):
@@ -29,8 +29,9 @@ def main():
     assert_official_rdkit()
     base = pd.read_csv(RUN / "baseline_submission.csv", dtype=str, keep_default_na=False)
     truth = pd.read_csv(DEV / "truth.csv", dtype=str, keep_default_na=False)
-    gen = pd.read_csv(STEP3, dtype=str, keep_default_na=False)
-    recovered = set(gen[gen.recovered.astype(str) == "True"].molecule_id)
+    import json
+    gen = json.loads(Q5.read_text())
+    recovered = {r["molecule_id"] for r in gen["per_query"] if r["recovered"]}
 
     base_list = {str(m): s.split(";") for m, s in zip(base.molecule_id, base.smiles)}
     truth_smi = dict(zip(truth.molecule_id, truth.smiles))

@@ -36,3 +36,9 @@
 归因限制：单独增加一整套外库匹配组件；不能拆分库A、库B或阈值贡献，也不是新增训练收益。
 
 固定源码 SHA：`2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7`。证据：[stormseye/casmi26-mass-guarded-extlib-1109](https://www.kaggle.com/code/stormseye/casmi26-mass-guarded-extlib-1109)、[reports/optimization_20261109/mass_guarded_extlib/score.json](optimization_20261109/mass_guarded_extlib/score.json)。
+
+## 研发决策（非分数，2026-11-10）
+
+- **Class-3 生成路线（derive）审计结论**：真实谱母体通道（`search_shift`）下 Generation Coverage **19/48 = 0.396**；恢复结构 **94.7%（18/19）可用 fz 排进 top-25**。瓶颈排序：母体数量 ≈ 反应步数 > 模板覆盖 > min_sim > 质量容差（无影响）。
+- **决策：生成作为后续独立研发挂起，不占今日 5 次提交名额。** dev 面板（Class-2）上生成完全冗余（真实恢复的查询真结构都已在基线 top-25，排名增量 0），比赛隐藏测试集 Class-3 占比未知，不据此抢名额。
+- 证据：`produre2/Q345_RESULTS.md`、`produre2/artifacts/q3_ablation.json`、`q4_light_fz.json`、`q5_real_paths.json`。

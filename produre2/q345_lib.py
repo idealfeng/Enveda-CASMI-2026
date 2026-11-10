@@ -53,7 +53,8 @@ def load_engine(cfg=None, bank=False, xscorer=None):
     bank_obj = None
     if bank:
         from casmi.fpnet import ModelBank
-        paths = [f"{MODELS}/fpnet_0.pt", f"{MODELS}/fe_A.pt", f"{MODELS}/fe_B.pt", f"{MODELS}/fe_D.pt"]
+        # fe_D.pt is DreamsFP (arch='dreams_fp'), incompatible with the old fpnet.py loader.
+        paths = [f"{MODELS}/fpnet_0.pt", f"{MODELS}/fe_A.pt", f"{MODELS}/fe_B.pt"]
         bank_obj = ModelBank([p for p in paths if os.path.exists(p)])
     return Engine(L, P, train_fp, cfg, bank=bank_obj, xscorer=xscorer)
 

@@ -1,0 +1,49 @@
+Clarification on permitted external resources for final submissions
+
+https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/754610
+
+Author: blaise yonga
+
+Posted: 2026-10-31T18:59:44.601Z
+
+Hello organizers. Could you please clarify the following for final-submission eligibility?
+
+Is a model fine-tuned from an officially released checkpoint (for example a DreaMS-derived model) permitted, when the checkpoint's own pretraining data is not fully documented?
+Are public datasets permitted that contain training rows or features produced by a participant's own simulation code, when that code is not published?
+Must a final submission be reproducible end-to-end from the competition data and openly documented resources?
+Could a score relying on such artifacts be removed retroactively, and if so, on what basis?
+
+Could you please confirm before the final-submission deadline, so participants can still adjust their selections? Thank you.
+
+
+Comment: David Healey
+
+Officially released DreaMS checkpoints are fine to use.  
+
+
+  Must a final submission be reproducible end-to-end from the competition data and openly documented resources?
+
+  Yes.  But if there is some technicality about that question, happy to hear it out. 
+
+  Could a score relying on such artifacts be removed retroactively, and if so, on what basis?
+  We reserve the right to  disqualify and removed from the leaderboard solutions that are not in compliance with the rules.
+
+
+  Comment: wata
+
+Thank you, David. Here is one technicality on the "reproducible end-to-end" point.
+
+The public dataset ahmedberatozer/casmi26-v2-pool contains a candidate pool built from train.parquet and COCONUT. Most of its files can be recomputed from those sources with public code. One file, fp_bits.npy, is a list of fingerprint bit indices (which bits of a raw RDKit/Morgan fingerprint vector are kept). The dataset does not include the code or the rule that selected these bits.
+
+
+Does a bit-index list like this count as an artifact that must be reproducible, i.e. must a solution using it be able to reproduce how the bits were selected?
+
+
+If so, is documenting the list itself (it is a small list of integers, not a trained model) enough, or is the selection code required?
+
+Thank you.
+
+
+  Comment: Aravindhan Chandran
+
+Thanks, David. Quick follow-up so there’s no ambiguity: does “officially released DreaMS checkpoints” include the self-supervised checkpoint ssl_model.ckpt from Zenodo (record 10997887, CC BY 4.0)? We’d use it as frozen encoder weights, shared as a Kaggle dataset, with a small head trained only on the competition data. Thanks!

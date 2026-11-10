@@ -1,0 +1,123 @@
+{
+  "step": "step3_generation",
+  "scope": "bounded Class-3 derive-only recovery test on dev panel",
+  "queries": 48,
+  "generation_coverage": 0.25,
+  "recovered_queries": 12,
+  "timed_out_queries": 5,
+  "total_generated": 19232,
+  "valid_generated": 19232,
+  "novel_generated": 19019,
+  "valid_structure_rate": 1.0,
+  "novel_rate": 0.9889247088186356,
+  "top_templates": [
+    [
+      "oxidize_CHOH",
+      5
+    ],
+    [
+      "dehydrogenate",
+      5
+    ],
+    [
+      "demethoxy",
+      5
+    ],
+    [
+      "hydrogenate_CO",
+      4
+    ],
+    [
+      "hydrogenate_CC",
+      4
+    ],
+    [
+      "demethyl_O",
+      4
+    ],
+    [
+      "demethyl_N",
+      4
+    ],
+    [
+      "dehydroxyl_aliph",
+      4
+    ],
+    [
+      "dehydroxyl_arom",
+      4
+    ],
+    [
+      "methyl_N",
+      3
+    ],
+    [
+      "methyl_O",
+      3
+    ],
+    [
+      "methyl_c",
+      3
+    ],
+    [
+      "deoxyhexose_O",
+      3
+    ],
+    [
+      "hydroxyl_ch",
+      3
+    ],
+    [
+      "hydroxyl_aliph",
+      3
+    ],
+    [
+      "hydroxyl_arom",
+      3
+    ],
+    [
+      "depentose",
+      2
+    ],
+    [
+      "methoxy_arom",
+      2
+    ],
+    [
+      "dehexose",
+      2
+    ],
+    [
+      "dehexose2",
+      2
+    ],
+    [
+      "hexose_O",
+      2
+    ],
+    [
+      "dedeoxyhexose",
+      2
+    ],
+    [
+      "hexose_C",
+      2
+    ],
+    [
+      "pentose_O",
+      2
+    ],
+    [
+      "acetyl_N",
+      1
+    ]
+  ],
+  "parents_cap": 100,
+  "tol": 0.004,
+  "elapsed_s": 226.9,
+  "caveats": [
+    "Parent = pool structure whose mass delta matches a template combo (bounded proxy for the spectral analog channel).",
+    "derive-only; ranking / Recall / MRR not measured here.",
+    "Class 3 = true identity removed from the parent pool."
+  ]
+}

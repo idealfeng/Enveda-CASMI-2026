@@ -1,0 +1,28 @@
+{
+  "id": 757307,
+  "read_only": true,
+  "checked_at_utc": "2026-11-10T12:11:36.894849+00:00",
+  "topic": {
+    "id": 757307,
+    "title": "Is MassSpecGym (and MIST weights trained only on it) allowed? NIST was used only for data cleaning",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/757307",
+    "postDate": "2026-11-09T14:09:22.019Z",
+    "authorName": "ujihash",
+    "authorUrl": "https://www.kaggle.com/ujihash",
+    "votes": -1,
+    "commentCount": 1,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>Hi, I understand that NIST libraries and weights derived from them are not allowed in this competition. I would like to confirm one borderline case before relying on it.</p>\n<p><strong>What I want to use</strong></p>\n<ul>\n<li>The public MIST weights <code>mist_msg_noaug.ckpt</code> (<a href=\"https://zenodo.org/records/23303289\" target=\"_blank\">Zenodo 23303289</a>, MIT), from <a href=\"https://www.nature.com/articles/s42256-023-00708-3\" target=\"_blank\">Goldman et al., Nature Machine Intelligence 2023</a>.</li>\n<li>The code, including the training code, is public under MIT (<a href=\"https://github.com/coleygroup/MIST\" target=\"_blank\">coleygroup/MIST</a>), so the weights can be retrained from public data.</li>\n<li>These weights are trained only on the real spectra of MassSpecGym (<a href=\"https://github.com/coleygroup/MIST/blob/main/configs/noaug/msg.yaml\" target=\"_blank\">training config</a>). No synthetic spectra are used.</li>\n</ul>\n<p><strong>Why I am asking</strong>\nMassSpecGym (<a href=\"https://arxiv.org/abs/2410.23326\" target=\"_blank\">paper</a>, <a href=\"https://huggingface.co/datasets/roman-bushuiev/MassSpecGym\" target=\"_blank\">dataset</a>, <a href=\"https://github.com/pluskal-lab/MassSpecGym\" target=\"_blank\">code</a>) is built from MoNA, MassBank, GNPS and MSnLib, the same public libraries as this competition's <a href=\"https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/data\" target=\"_blank\">training data</a>, and it contains no NIST spectra. However, its supplementary information (<a href=\"https://arxiv.org/pdf/2410.23326\" target=\"_blank\">arXiv PDF</a>) mentions two links to NIST:</p>\n<ol>\n<li>NIST spectra were used to clean the data. About 24,000 spectra that disagreed with the NIST20 spectra of the same structure (no shared peaks, cosine below 0.2, or fewer than 5 shared peaks) were removed. The datasheet says: \"The only non-publicly available processing step we performed was the comparison of our mass spectra with the spectra of the commercially available NIST23 library. This step helped us to partially clean the dataset but NIST23 spectra were never disclosed or used in any further analyses.\"</li>\n<li>The list of downloaded GNPS files includes <code>GNPS-NIST14-MATCHES.mgf</code> (as I understand it, public spectra whose structures were assigned by matching against NIST14). The paper does not say whether any of these spectra remain after filtering.</li>\n</ol>\n<p><strong>Questions</strong></p>\n<ol>\n<li>Is MassSpecGym allowed as external training data, and are weights trained only on it (such as MIST <code>msg-noaug</code>) allowed?</li>\n<li>Does this competition's <code>gnps</code> training data include <code>GNPS-NIST14-MATCHES</code>?</li>\n</ol>\n<p>Thank you!</p>"
+  },
+  "comments": [
+    {
+      "id": 3552320,
+      "authorName": "Nidhal",
+      "postDate": "2026-11-09T15:32:26.037Z",
+      "content": "<p>Same question here — I think several teams need this ruling. Two quick points: (1) MassSpecGym's NIST use was only a <em>filtering</em> step (removing ~24k disagreeing spectra); no NIST spectra were retained or trained on, and MIST <code>msg_noaug</code> is retrainable from public data via MIT-licensed code. (2) The sharper issue is whether <code>GNPS-NIST14-MATCHES</code> survives filtering and appears in this competition's GNPS split — that affects anyone training on GNPS, not just MIST users.\n<strong>@Organizers:</strong> Could you confirm (a) whether MassSpecGym + MIST <code>msg_noaug</code> weights are allowed, and (b) whether <code>GNPS-NIST14-MATCHES</code> is in the competition's GNPS training data? A clear yes/no on both would settle this for the whole leaderboard.</p>",
+      "votes": -1
+    }
+  ],
+  "comments_truncated": false
+}

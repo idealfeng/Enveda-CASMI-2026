@@ -1,0 +1,495 @@
+MARKDOWN 0
+**Measured public MRR@25: 0.487**, submission **58177835**, scored notebook version **3**.
+The score improved on this account's preceding 0.465 submission by 0.022.
+Hongbin Gu's source also displayed 0.487, so this result establishes reproduction
+Equal displayed scores do not prove identical prediction files.
+were removed; it was disabled in the scored version. The active mass-only rule is retained.
+| Scored version 3 | MRR@25 0.487, submission 58177835 | Our measured hidden-test result |
+| Source version | Hongbin Gu v589, displayed 0.487 | No demonstrated score gain over the source |
+| Smoke mass gate | 7,315 reference comparisons rejected, 0 promotions | Mechanical gate check, not evidence of better MRR |
+MARKDOWN 1
+scored inference pipeline, select GPU T4 with the pinned image and keep internet off.
+The measured 0.487 belongs to version 3's T4 hidden-test run.
+CHANGED CODE 2
+MARKDOWN 3
+new models. Their contents match the scored implementation after restoring the
+CHANGED CODE 5
+    for path in Path(input_root).rglob('final_model.pt'):
+        archives=list(Path(input_root).rglob('casmi_spectrum_model_v1.zip'))
+        assert len(archives)==1, 'Attach the supplied casmi_spectrum_model_v1.zip as a Kaggle dataset (zipped or extracted)'
+        dest=Path(output_root)/'uploaded_model';dest.mkdir(parents=True,exist_ok=True)
+        roots=[p.parent for p in dest.rglob('final_model.pt')]
+    assert len(matching)==1, f'Expected exactly one matching model bundle, found {len(matching)}. Use the attached v1 artifacts.'
+CHANGED CODE 7
+Runs after the frozen 0.465 pipeline and after the neural scorer. It never reruns a
+model: it reorders the candidates of each molecule and, only when asked, lets a few
+of the public 0.466 notebook (``ranking.rrf_order``), which build_variants re-checks.
+    'V0': dict(w_top=0.00, w_mid=0.00, rescue=0, label='Baseline 0.465 - no neural term'),
+    'V1': dict(w_top=0.25, w_mid=0.25, rescue=0, label='Neural RRF 0.25 - public 0.466 recipe'),
+    'V2': dict(w_top=0.25, w_mid=0.50, rescue=0, label='Leader-safe consensus 0.25 / 0.50'),
+    'V3': dict(w_top=0.25, w_mid=0.50, rescue=3, label='Leader-safe consensus + 3-slot tail rescue'),
+CHANGED CODE 9
+MARKDOWN 10
+### Dependency file: `outer_06_neural_scores_cb9e4d67.py`
+CHANGED CODE 11
+def load_model(bundle,checkpoint,device):
+    # Private module namespace prevents collision with public engines' model/features modules.
+    for name in ['features','model']:
+    features=sys.modules[package+'.features'];cls=sys.modules[package+'.model'].SpectrumCandidateModel
+    cfg=json.loads((Path(bundle)/'config.json').read_text());model=cls(cfg).to(device)
+    ck=torch.load(Path(bundle)/checkpoint,map_location=device,weights_only=True)
+    model.load_state_dict(ck['state_dict']);model.eval()
+    return model,features,cfg
+def score(bundle,checkpoint,evidence,queries,output,device='cuda'):
+    model,feat,cfg=load_model(bundle,checkpoint,device)
+            for c in ['neural_cos','neural_fp','neural_score','neural_std','n_spectra','n_adducts']:g[c]=0.
+            # Use EVERY observed query spectrum; no adduct merging and no new spectrum selection rule.
+                    m,a=feat.metadata(row.precursor_mz,row.adduct,row.ionization_mode,row.collision_energy_ev)
+            F=torch.tensor(np.stack(fp),device=device,dtype=torch.float32);M=model.encode_molecules(F)
+                adduct=torch.tensor([v[3] for v in b],device=device,dtype=torch.long)
+                Z,P=model.encode_spectra(x,lengths,meta,adduct)
+            g['neural_std']=combined.std(0);g['n_spectra']=len(records);g['n_adducts']=query[mid].adduct.nunique()
+            for col in ['neural_cos','neural_fp','neural_score','neural_std','n_spectra','n_adducts']:g[col]=0.
+    print('NEURAL FEATURES',result.shape,checkpoint,flush=True)
+CHANGED CODE 13
+Output rows follow the evidence schema the neural scorer reads; baseline_rank 26, 27, ...
+CHANGED CODE 15
+    'n_spectra_log','n_adducts','neural_top_gap','neural_agrees_top1','engine2_agrees_top1',
+CHANGED CODE 17
+MARKDOWN 18
+### Dependency file: `outer_06_submission_d0027a89.py`
+CHANGED CODE 19
+CHANGED CODE 21
+"""Untrained MetFrag-lite re-scorer: how much MS/MS intensity a candidate's <=2-bond-cleavage fragments explain.
+Independent of pv.py (same idea as pv.fragment_masses / explain_score_adduct, new code): enumerate the neutral masses
+`neutral fragment + dh*H + charge carrier` for dh in `h_shifts` and the carriers the precursor adduct allows.
+`spectra`: list of dicts {mz: ndarray, it: ndarray (base peak = 1), adduct: str, prec: float, mode: +1/-1}.
+# charge carriers a fragment ion may keep, per precursor adduct (added to the neutral fragment mass)
+def _carriers(adduct, mode):
+    c = CARRIERS.get(adduct)
+    if isinstance(adduct, str) and adduct.endswith('-'):
+    if isinstance(adduct, str) and adduct.endswith('+'):
+    shifts = np.array([car + dh * H for car in _carriers(s.get('adduct'), s.get('mode')) for dh in c['h_shifts']])
+CHANGED CODE 23
+        adduct=str(getattr(r,'adduct','[M+H]+'))
+        item={'mz':mz,'it':it,'adduct':adduct,'prec':finite(getattr(r,'precursor_mz',None),float(mz.max())),'mode':mode}
+        bucket=(adduct,round(e/10))
+        'outcome':'experimental_unvalidated','baseline':'V2_0.468_user_reported'}
+CHANGED CODE 25
+        adduct=str(getattr(r,'adduct','[M+H]+'))
+              'adduct':adduct,'mode':mode}
+        bucket=(adduct,int(round(energy/10.)))
+    # The private 0.475 model freezes known training candidates. This public analogue
+    summary={'source':'0.472 physical consensus public pipeline',
+CHANGED CODE 27
+    riken's 0.005 Da precursor precision and gnps adduct mislabels). NaN if an element is untabulated."""
+    W_A = (0.35, 0.55)      # weight on class-1 simulation rows; two priors averaged
+    SEEDS = (0, 1, 2, 3, 4, 5)  # 6-seed bag (ghazarosbarseghyan91 v14 seeds)
+        t = f.read_row_group(i, columns=["inchikey14", "normalized_smiles", "adduct", "precursor_mz", "ionization_mode",
+        add += t.column("adduct").cast(pa.string()).to_pylist()
+    if "te" not in _g: _g["te"] = rdMolStandardize.TautomerEnumerator()
+def compute_channels(L, I, models, te):
+        nms = pv.neutral_mass(sub.precursor_mz.values.astype(np.float64), sub.adduct.astype(str).values)
+            zlog = pv_fp.molecule_logits(models, specs, sub.precursor_mz.values.astype(np.float32),
+                                         list(sub.adduct.astype(str).values), list(sub.instrument_type.astype(str).values),
+                       mode=float(np.mean(modes)), modes=modes, adducts=list(sub.adduct.astype(str).values),
+                F2[j, k] = pv.explain_score_adduct(fm, x, y, r["adducts"][k], tol=CFG.MZ_TOL)
+def _hgb(X, Y, W, seed, gbm):
+    m = HistGradientBoostingClassifier(random_state=seed, **gbm); m.fit(X, Y, sample_weight=W)
+    rankers = [_hgb(X, Y, np.where(S == 0, wA, 1.0 - wA), sd, RANK.GBM) for wA in RANK.W_A for sd in RANK.SEEDS]
+def fit_pv_rankers(pv_rank_path, priors=(0.30, 0.60), seeds=(0, 1, 2, 3)):
+    rankers = [_hgb(z["X"], z["Y"], np.where(z["M"] == 0, w1, 1.0 - w1), sd, CFG.GBM) for w1 in priors for sd in seeds]
+def main(test_path, train_path, sample_path, our_rank_path, pv_rank_path, fp_model_paths, workers=4, limit=0, w_pv=0.88):
+    single, merged, _ = pv_fp.load_fp_models(fp_model_paths, dev)
+    log(f"fp models: {len(single)} single + {len(merged)} merged on {dev}")
+CHANGED CODE 29
+    E.RANK.W_A = (0.35, 0.55); E.RANK.SEEDS = (0, 1); E.CFG.N_ANALOG = 200
+    fp_models = sorted(p for p in glob.glob('/kaggle/input/**/fp_*.pt', recursive=True) if 'casmi26-fp-models-v2' in p)
+    print('engine fp models', fp_models, flush=True)
+    subs, recs, S = E.main(test, train, sample, E.find('sim_rank_rows_nofp.npz'), E.find('rank_train.npz'), fp_models,
+                           workers=os.cpu_count(), w_pv=0.88)
+    bl = E.blend_scores(S['pv'], S['ours'], 0.88)
+CHANGED CODE 31
+    SEEDS = (0, 1, 2, 3, 4, 5, 6, 7)  # 8-seed bag (ghazarosbarseghyan91 v14 seeds)
+# the same molecule measured as a different adduct keeps its neutral losses (modified-cosine idea)
+# adducts
+ADDUCTS = {
+def neutral_mass(mz, adduct):
+    out = np.full(len(mz), np.nan); ad = np.asarray(adduct, dtype=object)
+    for a, (n, z, d) in ADDUCTS.items():
+def rank_features(cand_fp, cand_lib, analog_fp, analog_sim, model_logits=None, frag=None):
+    if model_logits is not None:
+        raw = cf @ np.asarray(model_logits, np.float32)
+    if model_logits is not None and nc:
+        mr = _rank_norm(cf @ np.asarray(model_logits, np.float32))
+# ADDED: charge carriers a fragment may keep, per precursor adduct (prvsiyan only used +-proton)
+def explain_score_adduct(frag_mass, peak_mz, peak_int, adduct, tol=0.01, h_shifts=(-2, -1, 0, 1, 2)):
+    car = CARRIERS.get(adduct, (PROTON,) if "+" in adduct[-2:] else (-PROTON,))
+CHANGED CODE 33
+"""Spectrum -> fingerprint model (prvsiyan FPNet), kept apart so CPU worker processes never import torch."""
+# spectrum -> fingerprint model
+ADDUCT_LIST = ["[M+H]+", "[M+NH4]+", "[M+Na]+", "[M+K]+", "[M-H2O+H]+", "[M-2H2O+H]+", "[M]+",
+ADDUCT_IX = {a: i for i, a in enumerate(ADDUCT_LIST)}
+        self.ad = nn.Embedding(len(ADDUCT_LIST), d)
+def load_fp_models(paths, dev):
+        net.load_state_dict(ck['model'])
+def logits_batch(P, nets, dev, prec, adduct, instr, ce, mode):
+    """P: list of (mz, it) already prepped; per-row arrays prec/adduct(str)/instr(str)/ce/mode."""
+            T(np.array([ADDUCT_IX.get(a, ADDUCT_IX['<unk>']) for a in np.asarray(adduct, object)[keep]])),
+def molecule_logits(models, specs, prec, adduct, instr, ce, mode):
+    """prvsiyan model_logits(): mean of (single-model per-spectrum mean) and (merged-model on merged list).
+    specs: list of (mz, it); prec/adduct/instr/ce/mode: per-spectrum."""
+    single, merged, dev = models
+        za = logits_batch(P, single, dev, prec, adduct, instr, ce, mode)
+        zb = logits_batch(P, merged, dev, [pm], [adduct[0]], [instr[0]], [25.0], [float(np.mean(mode))])
+CHANGED CODE 35
+  1. f.z logits of the A+B FPNet ensemble, exactly like Engine.model_logits: z = 0.5 * (mean per-spectrum logits +
+     mean per-polarity merged-spectrum logits); models averaged inside ModelBank.
+  5. walk down the f.z order, compute the metric score key (tautomer-canonical InChIKey14); keep a structure only if
+# ------------------------------------------------------------------------------------------ model part (main process)
+    """spectra: list of dict(mz, it, mode, adduct, prec, ce, ce_n). Returns z_avg (nbits,) float32 or None."""
+        items_s.append(dict(mz=pm, it=pi, prec=float(s['prec']), adduct_ix=chem.adduct_index(s['adduct']),
+        adducts = [s['adduct'] for s in grp]
+        ad = max(adducts, key=adducts.count)          # deterministic tie-break (first occurrence)
+        items_m.append(dict(mz=pm, it=pi, prec=prec, adduct_ix=chem.adduct_index(ad),
+    # 1.5 * mean(A, B, fold0) = mean(A, B) + 0.5 * fold0.
+    return (1.5 * 0.5 * (zs.mean(0) + zm.mean(0))).astype(np.float32)
+CHANGED CODE 37
+usage: python pc_runner.py <v3_code_dir> <v3_models_dir> <pool_dir> <pubchem_dir> <test_parquet> <out_json> <n_workers> [max_mols]
+    models = sorted(glob.glob(os.path.join(V3MOD, 'fpnet_*.pt')))
+    assert len(models) == 2, models
+    bank = fpnet.ModelBank(models + [fold0], device=dev)
+    te['nm'] = chem.neutral_mass(te.precursor_mz.values.astype(np.float64), te.adduct.values)
+                                mode=1 if r.ionization_mode == 'positive' else -1, adduct=r.adduct,
+CHANGED CODE 39
+_SYN_W = 0.5
+        _lam = _POP_LAM * np.clip(np.log1p(_count) / np.log1p(1000.0), 0.5, 1.5)
+CHANGED CODE 41
+"""Untrained MetFrag-lite re-scorer: how much MS/MS intensity a candidate's <=2-bond-cleavage fragments explain.
+Independent of pv.py (same idea as pv.fragment_masses / explain_score_adduct, new code): enumerate the neutral masses
+`neutral fragment + dh*H + charge carrier` for dh in `h_shifts` and the carriers the precursor adduct allows.
+`spectra`: list of dicts {mz: ndarray, it: ndarray (base peak = 1), adduct: str, prec: float, mode: +1/-1}.
+# charge carriers a fragment ion may keep, per precursor adduct (added to the neutral fragment mass)
+def _carriers(adduct, mode):
+    c = CARRIERS.get(adduct)
+    if isinstance(adduct, str) and adduct.endswith('-'):
+    if isinstance(adduct, str) and adduct.endswith('+'):
+    shifts = np.array([car + dh * H for car in _carriers(s.get('adduct'), s.get('mode')) for dh in c['h_shifts']])
+MARKDOWN 42
+to release GPU memory before the spectrum-structure scorer runs. The file-writing
+CHANGED CODE 44
+os.environ['PYTHONHASHSEED'] = '0'
+    subprocess.check_call([sys.executable,'-m','pip','install','--no-index','--no-deps','-q',str(wheels[0])], env={**os.environ, 'PYTHONHASHSEED': '0'})
+CHANGED CODE 46
+SEED = 20260915
+rng = np.random.default_rng(SEED)
+CHANGED CODE 48
+CHANGED CODE 50
+FOLD = dataset_dir('casmi26-fold-safe-fpnet', 'MODEL_INPUTS.json')
+CHANGED CODE 52
+CHANGED CODE 54
+    'casmi26-v4b-models': 'main engine: code, four LightGBM boosters, generator',
+    'casmi26-fpnet-full1': 'main engine: full1 fingerprint model',
+    'casmi26-v3-models': 'PubChem channel: FPNet A+B models and code; ensemble adds fold-safe FPNet from the fifth dataset',
+    'casmi26-fp-models-v2': 'second engine: single and merged fingerprint models',
+    'casmi26-iceberg': 'forward model ICEBERG and its inference wrapper',
+    'casmi26-glacier': 'forward model GLACIER and its inference wrapper',
+CHANGED CODE 56
+CHANGED CODE 58
+    for w in ('0.10', '0.25', '0.50'):
+CHANGED CODE 60
+    contract = _json.loads((FOLD / 'MODEL_INPUTS.json').read_text())
+    replay.insert(0, 'fingerprint logits', np.where(replay['fold0 weight'].eq(0), 'A+B', 'A+B + 0.5 fold0'))
+CHANGED CODE 62
+CHANGED CODE 64
+CHANGED CODE 66
+CHANGED CODE 68
+The source page displays public score 0.433; this adaptation has not reproduced that result.
+@prvsiyan — analog propagation, spectral matching and fingerprint models: https://www.kaggle.com/code/prvsiyan/analog-propagation-casmi-2026-baseline
+CHANGED CODE 70
+Direct starting point: @obstacledeveloper, linked in Credits & Attribution below. The upstream engine/fusion/simulator code is substantially reused, not claimed as original. Our contribution here is the separately audited overlay described above. Previous analog expansion, top-1 shielding, adduct-specific merging and single-pass variants did not im
+CHANGED CODE 72
+Starting point: this account's V1 submission, public MRR **0.425** on 2026-10-08.
+CHANGED CODE 74
+Locates every dataset, installs the competition's RDKit wheel, sets the popularity-prior parameters for the PubChem channel (`POP_LAM = 0.25`, `POP_UNION = 200`) and checks the v4b model files against their manifest.
+CHANGED CODE 76
+'''CASMI26 v4h = v4g + GLACIER third re-scoring term: z(ranker) + 0.5 z(ICEBERG) + 0.5 z(GLACIER) (casmi26-glacier)'''
+'''CASMI26 v4f = v4b (FPNet A engine bank, LB 0.354) + ICEBERG post-ranker isomer re-scoring = the v3.6 model (v1 engine + FPNet A + moderate generation + gated PubChem channel, LB 0.358)'''
+LIB_TAU, REL_TH = 0.9, 600.0
+assert sha256(FOLD0_PATH) == 'ddf6eaaa8e541a16e3f0357ed30f0346e529054f75d5619aedb6024dcb1bd7f0', 'Untested fold-safe checkpoint'
+print('PubChem fold-safe model:', FOLD0_PATH, flush=True)
+SRC_BONUS, SRC_BITS = 0.5, 1   # documentation prior + bonus for depositor-source groups (pc_src_mask.npy, dataset v5)
+LOTUS_W = 0.5   # literature prior: ln(1 + LOTUS references) from the natural-product knowledge table
+print('PubChem synonym prior 0.5 (pc_lsynonyms.npy)', flush=True)
+V4CODE = os.path.dirname(os.path.dirname(find('casmi26-v4b-models/**/casmi/engine.py')))
+V4MOD = os.path.dirname(find('casmi26-v4b-models/**/MANIFEST.json'))
+V3CODE = os.path.dirname(os.path.dirname(find('casmi26-v3-models/**/casmi/engine.py')))
+V3MOD = os.path.dirname(find('casmi26-v3-models/**/ranker_0.pkl'))
+CHANGED CODE 78
+    old = 'ad = max(set(adducts), key=adducts.count)'
+    new = 'ad = max(adducts, key=adducts.count)'
+    assert text.count(old) == 1, 'Expected exactly one source main-engine adduct tie'
+        original_line=old, patched_line=new, subprocess_pythonhashseed='0',
+        torch_seed=0, cuda_seed=0, cudnn_deterministic=True, cudnn_benchmark=False)
+os.environ['PYTHONHASHSEED'] = '0'
+CHANGED CODE 80
+CHANGED CODE 82
+CHANGED CODE 84
+CHANGED CODE 86
+This engine runs first in its own process, while GPU memory is still empty. It writes a top-40 list per molecule with tautomer-canonical InChIKey-14 keys.
+- **Evidence** comes from library matching (including adduct-shifted matches), analog propagation, prvsiyan's fingerprint models and MetFrag-lite fragment matching.
+CHANGED CODE 88
+                         '/kaggle/working/eng_lists.json'], capture_output=True, text=True, timeout=4 * 3600, cwd=ENG_DIR, env={**os.environ, 'PYTHONHASHSEED': '0'})
+CHANGED CODE 90
+CHANGED CODE 92
+'''PubChem-only channel in its own process (S1 code snapshot + FPNet A+B of casmi26-v3-models) -- identical to v3.6'''
+                        capture_output=True, text=True, timeout=4 * 3600, env={**os.environ, 'PYTHONHASHSEED': '0'})
+CHANGED CODE 94
+CHANGED CODE 96
+'''v1 engine code (the 0.358 model's engine) + fe_v4; pool symlinks; spectrum cache from train.parquet'''
+        links = pq.read_table(source / 'external_scorer_sid_links.parquet').to_pylist()
+        k2link = {r['scorer_key']: r for r in links}
+        check(len(k2link) == len(links), 'duplicate scorer links')
+        required = {'sid','lib','instr','adduct_ix','mode','precursor_mz','n_clean','nm','adduct',
+        sources = {'MassBank':'massbank', 'MoNA':'mona', 'GNPS':'gnps', 'MSnLib':'pluskal_ms2'}
+                check(q['delta_row'] == row and all(q[c] == r[c] for c in ['source','record_id','scorer_key','spectrum_sha256','licence']), 'quality join differs')
+                link = k2link.get(r['scorer_key'])
+                check(link is not None, 'scorer link missing')
+                check(r['adduct'] in chem.ADDUCTS and r['ionization_mode'] in ['positive','negative'], 'unsupported ion metadata')
+                if chem.ADDUCTS[r['adduct']][3] != mode:
+                d = dict(adduct=r['adduct'], precursor_mz=prec, precursor_error_ppm=None,
+                         instr=instr_family(r['instrument_type']), adduct_ix=chem.adduct_index(r['adduct']),
+                         mode=mode, nm=float(chem.neutral_mass([prec], [r['adduct']])[0]), n_clean=len(x))
+                extra_meta.append(d); extra_mz.append(x); extra_it.append(y); used_keys.add(r['scorer_key'])
+_EXTERNAL_REFERENCE_PINS = {'files': {'external_delta.parquet': 'e75558832935f28e85a5419022c4cfba4d0d4b49f1063544c317c8ae61c2ac41', 'external_record_quality.parquet': '4f5b227d1c874624182c76e8f8406ba3ee86521744831cb461d6198c898b6c9e', 'external_scorer_sid_links.parquet': '8cd61b8f110bfd6686684d330609a1d0f0d7cc96eab32b9cdd3352939ef443ef'}, 'base_fil
+CHANGED CODE 98
+torch.manual_seed(0)
+torch.cuda.manual_seed_all(0)
+bank = fpnet.ModelBank([_FULL[0] if _FULL else os.path.join(V4MOD, 'fpnet_0.pt')], device=dev)
+V = v1engine.V1FE(E, [os.path.join(V4MOD, m['file']) for m in MAN['fe_models']], MAN['families'], device=dev)
+RK_FEATS = list(RK['features']); RK_B = [lgb.Booster(model_str=s) for s in RK['boosters']]
+CHANGED CODE 100
+CHANGED CODE 102
+te['nm'] = chem.neutral_mass(te.precursor_mz.values.astype(np.float64), te.adduct.values)
+                                mode=1 if r.ionization_mode == 'positive' else -1, adduct=r.adduct,
+CHANGED CODE 104
+Both models predict each candidate's spectrum and compare it with the measured one. Candidates with the same molecular formula are then re-ranked by
+CHANGED CODE 106
+large code 83061
+CHANGED CODE 108
+CHANGED CODE 110
+'''must never be compared to S_TAU; that would fire on ~71% of molecules.'''
+'''EVIDENCE: b416 (promotion, ICEBERG broken) = 0.417 vs base415 (ICE broken, no'''
+S_TAU, POP_TAU = 6.0, 5.0
+    elif lib_max >= LIB_TAU:
+        old_promote = bool((old_S is not None and float(old_S) > S_TAU and old_pop >= POP_TAU) or rel > 150.0)
+        new_promote = bool((S > S_TAU and pop_top >= POP_TAU) or candidate_rel > 150.0)
+CHANGED CODE 112
+CHANGED CODE 114
+'''applied) scored 0.402; b416 (GLACIER only) scored 0.417. This isolates that one'''
+CHANGED CODE 116
+CHANGED CODE 118
+_tautomer_canonicalizer = rdMolStandardize.TautomerEnumerator()
+    Stereochemistry is removed *before* the tautomer canonicalization, not left to fall out of
+    first, and `TautomerEnumerator` will not move a double bond whose position a neighbouring
+    therefore land on two different canonical tautomers, and different tautomers are different
+        canonical_mol = _tautomer_canonicalizer.Canonicalize(mol)
+    Cheap (no tautomer enumeration) -- used to gate the expensive canonicalization. Anything
+CHANGED CODE 120
+'''Final pass: no change to any V1 model, fusion weight, promotion gate or simulator.'''
+if (te.adduct == '[M+H]+').any():
+CHANGED CODE 122
+CHANGED CODE 124
+                               'Author 0.436 is not this reproduction score.',
+CHANGED CODE 126
+# Fragment score for molecules without forward-model scores (since v46), copied verbatim from
+# v7c: MetFrag-lite fragment evidence for molecules with NO forward-model coverage (no GLACIER, no finite ICEBERG)
+                      adduct=r.adduct, prec=float(r.precursor_mz), mode=1 if r.ionization_mode == 'positive' else -1)
+CHANGED CODE 128
+    never installs dependencies, changes model scores, or recanonicalizes SMILES.
+            # v7c: no forward-model evidence at all -> MetFrag-lite gap re-rank (lambda 0.5), once
+                [scope["FRAG_GAP"][mid]], [0.5], top_n=len(candidates))
+CHANGED CODE 130
+CHANGED CODE 132
+    # The inventory records content hashes, including model arrays and source modules.
+        version=49, method='canqiang_E006_window40_ice_fallback_plus_v7c_fragment_gap_plus_e2_rank2_rel150_e2_bags_chebi_lmsd_pubchem_spectral_bonus_np_bonus_pubchemlite_lotus_refs_depth6_poplam015_fold0_n1a_syn050_pcdelta_extlib_n1challenger_jointicegl',
+        pubchem_fpnet_ensemble=dict(models='A+B+fold0', fold0_weight=0.3333333333333333, raw_logit_scale=1.5, fold0_path=scope['FOLD0_PATH']),
+CHANGED CODE 134
+    eligible_ids = [m for m in example_ids if BASE[m][2] < LIB_TAU and PC.get(m, {}).get('pc')]
+    elif example_lib >= LIB_TAU:
+        if (proposal.get('S') is not None and float(proposal['S']) > S_TAU and
+            float(proposal.get('top_pop') or 0.0) >= POP_TAU) or _delta > 150.0:
+CHANGED CODE 136
+# 0.464 baseline — candidate-specific PubChem promotion experiment
+Interleaving slots still use the original channel-level margin. Top-25 retention, spectrum/adduct handling, model weights, simulator policies, final fusion and Engine 2 rank-2 placement are unchanged. No new datasets or packages are required; use the same dataset versions and GPU settings as the source notebook, Internet off. Run all cells in order
+The source notebook's visible-placeholder 12-molecule smoke switch is preserved. Hidden scoring runs process the full hidden test. This is submission inference, not a validation/training notebook. `pubchem_promotion_audit.csv` records old/new promotion decisions for eligible rows before final fusion; it does not measure accuracy or final-ranking ch
+first correct structure (1 at rank 1, 0.5 at rank 2, 0 when it is missing from the 25). A structure counts as correct
+answer after the scorer's RDKit 2026.03.3 tautomer standardisation.
+`ms2_normalized_intensities`, the precursor m/z, the ion form (`adduct`), polarity, instrument and collision energy, the
+**Beyond the spectra.** A ranked answer also needs candidate structures, models trained on the labelled spectra,
+| fingerprint models, rankers, ICEBERG and GLACIER | public competition notebooks; ms-pred | scoring and final reordering | 1 |
+| fingerprint model trained without the panel molecules (fold-safe FPNet) | the author's training run | PubChem channel | 3 |
+| fingerprint, FPNet | a binary vector of substructure features; FPNet models predict it from the spectra |
+| ranker | a gradient-boosted model that orders candidates from their features |
+| ICEBERG, GLACIER | forward models that simulate the spectrum of a candidate for comparison with the measured one |
+| scorer key (`scorer_key`) | the same block recomputed after the scorer's standardisation; it can differ from the stored key, so the two are not interchangeable join columns |
+scored **0.456** on the public leaderboard; Section 6 lists every version with its score, the sources and the
+The pipeline is assembled from public components by several authors. [Public Models and Candidate Sets](https://www.kaggle.com/datasets/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets) holds
+(MassBank Europe, MoNA or the NIST Mass Spectrometry Data Center) receive `pop + 0.5` in the PubChem channel: the bonus
+`0.5 · ln(1 + LOTUS references)` from the knowledge table of Section 4. The counts are pre-aligned by InChIKey connectivity block in
+same replay the two natural-product terms together raised MRR@25 by 0.008. Since version 14 the channel also adds `0.5 · ln(1 + PubChem synonyms)` of the representative compound
+The new columns were evaluated on the panel of Section 3 with the prior alone and no spectral model: the candidates of each molecule were the PubChem structures with exactly the answer's formula, ordered by
+`pop + w · signal` for the fixed weights w = 0.10, 0.25 and 0.50. Repeated scored identities count once, with their
+high on `pop`, the changes are small (Table 3): at w = 0.50 the spectral-library flag raises MRR@25 from 0.8034 to
+0.8086, at w = 0.10 it lowers it by 0.0014. The pipeline uses the flag at w = 0.50, the best of the three weights on this
+pipeline, an earlier pipeline without the second engine and the forward-model reordering, and the scores it assigns in
+share a scorer or stored key in one fold, and `fold_scaffold` also keeps structures with the same Bemis–Murcko scaffold (the ring-and-linker
+channel ordered its 10-ppm window by fingerprint score alone at MRR@25 0.512 with a 5,000-row shortlist; adding
+5,000-row shortlist replay with its pool-exclusion rule, whereas the 0.8034 of Table 3 uses the prior alone on
+These are development measurements with known limits. The full1 fingerprint model was trained on all folds, the panel
+included; the training code of the FPNet A+B models excludes this library by default, but the exact training rosters
+of the public checkpoints are not published, and the rankers and their feature resources may have seen these
+[CASMI26 Fold-Safe FPNet](https://www.kaggle.com/datasets/dmitriigluzdov/casmi26-fold-safe-fpnet) holds a training loop for FPNet and a checkpoint trained without identity fold 0 and
+FPNet A+B as `z_AB + 0.5 · z_fold0`, which keeps the raw-score units of the merge thresholds; on the panel's PubChem
+Table 4 also shows the checkpoint's split audit (`SPLIT_AUDIT.json`), its input description
+(`MODEL_INPUTS.json`) and the cached shortlist replay (`PANEL_REPLAY_PUBLIC.json`) from that dataset.
+formula; what the fold-safe checkpoint excluded from training; the PubChem-channel shortlist with and without it.*
+connectivity block (`ik14`), with the scorer key, the pathway, superclass and class assigned by the NPClassifier model where available (7,101
+library also holds 751 public MassBank, MoNA and GNPS spectra of 469 trained structures from the table's
+                     columns=['ik14', 'scorer_key', 'smiles', 'np_pathway', 'in_casmi_train', 'in_casmi_pool'])
+  since version 15, 751 public external spectra (Section 4). The full1 fingerprint model (FPNet
+- **PubChem channel.** The FPNet A+B fingerprint models, with the fold-safe checkpoint of Section 3 added since version 12, screen the PubChem tier and its two supplements outside the pool and return up to 25
+  PubChemLite are scored by library matching, analogue propagation, fingerprint models and fragment matching, and ordered by two
+  gradient-boosted rankers with trees of depth 6, which average eight and four fitted models.
+  proxy-covered lists use both models in the final same-formula re-ordering; the leading second-engine
+| 1 | Pipeline of the main notebook (its version 51 method) | 0.450 |
+| 3 | Pipeline of main notebook version 52 (public MRR@25 0.451) with the spectral-library bonus of Section 2 | 0.451 |
+| 5 | Natural-product bonus in the PubChem channel (Section 2) | 0.451 |
+| 7 | PubChemLite candidates in the second engine (Section 5) | 0.448 |
+| 8 | LOTUS literature prior in the PubChem channel (Sections 2 and 4) | 0.448 |
+| 9 | Second-engine trees at depth 6 instead of 7, as in the public PubChemLite notebooks (Section 5) | 0.455 |
+| 10 | PubChem-channel prior weight 0.15 instead of 0.25 (Section 2) | 0.455 |
+| 12 | Fold-safe FPNet added to the PubChem channel (Section 3) | 0.455 |
+| 13 | GLACIER proxies for molecules without an [M+H]+ spectrum (Section 5) | **0.456** |
+| 14 | PubChem synonym counts in the PubChem-channel prior (Section 2) | 0.456 |
+| 15 | PubChem supplements in the PubChem channel (Section 2); public external reference spectra (Section 4) | 0.456 |
+| [Public Models and Candidate Sets](https://www.kaggle.com/datasets/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets) | CC BY-NC-SA 4.0 | Dataset-level licence; each copied folder keeps its source licence and notices (`ATTRIBUTION.md`), and competition- and COCONUT-derived files remain non-commercial with attribution. |
+| [CASMI26 Fold-Safe FPNet](https://www.kaggle.com/datasets/dmitriigluzdov/casmi26-fold-safe-fpnet) | Other | The checkpoint derives from the competition training file and follows the competition data terms (non-commercial, with attribution); the training and evaluation scripts are Apache 2.0. |
+| [Ahmed Berat Özer v4n](https://www.kaggle.com/code/ahmedberatozer/casmi26-v4n-inference), [v4m](https://www.kaggle.com/code/ahmedberatozer/casmi26-v4m-inference); [v4b models](https://www.kaggle.com/datasets/ahmedberatozer/casmi26-v4b-models), [v3 models](https://www.kaggle.com/datasets/ahmedberatozer/casmi26-v3-models), [FPNet full1](https://www
+| [Ahmed Berat Özer v7c](https://www.kaggle.com/code/ahmedberatozer/casmi26-v7c-e006-fraggap) | Fragment score where neither forward model has scores; its `frag_rescore.py` is attributed to [Huseyin Emre Aksoy](https://www.kaggle.com/huseyinemreaksoy) (Apache-2.0). |
+| [Ranker features](https://www.kaggle.com/datasets/prvsiyan/casmi26-ranker-features), [FP models](https://www.kaggle.com/datasets/prvsiyan/casmi26-fp-models-v2), [COCONUT candidates](https://www.kaggle.com/datasets/prvsiyan/coconut-casmi26-candidates), [ChEBI/LIPID MAPS](https://www.kaggle.com/datasets/prvsiyan/chebi-lipidmaps-casmi26) (prvsiyan);
+| [ghazarosbarseghyan91](https://www.kaggle.com/code/ghazarosbarseghyan91/enveda-v7c-e006-fraggap-evgen-v14seeds), building on [evgendvorkin, version 14](https://www.kaggle.com/code/evgendvorkin/enveda-casmi-2026) | Deeper trees (depth 7) for the second-engine rankers, used in versions 1–8. |
+| [MassBank](https://massbank.eu/), [MoNA](https://mona.fiehnlab.ucdavis.edu/), [GNPS](https://gnps.ucsd.edu/) | Public MS/MS reference spectra (CC BY 4.0 or CC0 1.0 per record), screened against the training file; in the knowledge table's `external_reference_spectra/`. |
+| [ICEBERG](https://www.kaggle.com/datasets/ahmedberatozer/casmi26-iceberg), [GLACIER](https://www.kaggle.com/datasets/ahmedberatozer/casmi26-glacier) packages; [ms-pred](https://github.com/coleygroup/ms-pred) (Coley group), [ICEBERG paper](https://doi.org/10.1021/acs.analchem.3c04654) | Forward spectrum prediction: models by the ms-pred authors, p
+CHANGED CODE 138
+MARKDOWN 139
+The model and ranking settings below are inherited from the scored public source.
+CHANGED CODE 140
+#   V0  baseline 0.465 answers, no neural term
+#   V1  public 0.466 recipe: neural reciprocal-rank fusion, weight 0.25 everywhere
+#   V2  leader-safe consensus: rank 1 as V1, ranks 2-25 at neural weight 0.50   (upstream default)
+#   'CUSTOM' uses the verified 0.477 optimal weights (w_top=0.25, w_mid=0.75, rescue=0)
+# Physical switches the fragment check; PROVENANCE the provenance reranker; neural model: Saner Turhaner v1
+# metric-exact deduplication (the scorer's own key) and empty slots filled with scored outside candidates.
+MASS_LEAD_OFF, MASS_LIB_TAU = 5.0, 0.9                              # rank-1 rule: leader beyond 5 ppm, library < 0.9
+RR8_LIB_TAU = 0.9
+CHANGED CODE 141
+    'font.size': 10.5, 'axes.titlesize': 12.5, 'axes.titleweight': 'bold', 'axes.titlelocation': 'left',
+    'axes.linewidth': 0.8, 'xtick.color': AXIS, 'ytick.color': AXIS, 'xtick.labelcolor': INK2,
+    'ytick.labelcolor': INK2, 'axes.grid': True, 'grid.color': GRID, 'grid.linewidth': 0.8,
+CHANGED CODE 142
+# MODULES: the six helper modules of the public 0.466 notebooks, unchanged, plus this notebook's
+# consensus.py and outsiders.py. FROZEN_B64: the public 0.465 pipeline notebook, byte for byte.
+MODEL_PINS = {
+ "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+ "final_model.pt": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642"
+CHANGED CODE 143
+import contextlib, importlib
+    37: 'Engine 1  /  models and rankers', 39: 'Engine 1  /  candidate lists', 41: 'GLACIER + ICEBERG forward models',
+    env = {**os.environ, 'PYTHONHASHSEED': '0', 'PYTHONUNBUFFERED': '1'}
+            return find_bundle(str(INPUT), ROOT, MODEL_PINS)
+            _cands = [p.parent for p in _BPath('/kaggle/input').rglob('final_model.pt')
+                      if (p.parent / 'config.json').is_file() and 'casmi-spectrum-model-v1' in str(p)]
+            assert _cands, 'public model bundle not found'
+                        ROOT / 'submission_pipeline.log', 'Public 0.465 pipeline')
+    """Stage 2a: the public scorer on exactly the exported candidates."""
+        run_stage([sys.executable, CODE / 'neural_scores.py', BUNDLE, 'final_model.pt',
+                  ROOT / 'submission_neural.log', 'Neural scorer  /  final lists')
+        note('Neural scorer failed.', f'The 0.465 answers will be submitted. {type(exc).__name__}: {str(exc)[:300]}', RED)
+        run_stage([sys.executable, CODE / 'neural_scores.py', BUNDLE, 'final_model.pt',
+                  ROOT / 'outsiders_neural.log', 'Neural scorer  /  outside candidates')
+           ('Spectra per molecule', f'{act.groupby("molecule_id").n_spectra.first().median():.0f}', 'median used by the scorer'),
+    """Stage 3a: the public 0.466 file, its exact rebuild, then every variant."""
+        with contextlib.redirect_stdout(io.StringIO()):      # the public helper prints its own report
+        assert mine.equals(public), 'V1 differs from the public 0.466 file'
+        print('V1 rebuilt exactly: the new code reproduces the public 0.466 file row for row.')
+    """Stage 3b: chosen variant -> V1 -> V0 -> public 0.466 file -> baseline file (-> sample in a fast commit)."""
+    chain += [('public 0.466 file', ROOT / 'submission_public0466.csv'), ('baseline file', BASELINE)]
+CHANGED CODE 144
+CHANGED CODE 147
+CHANGED CODE 149
+ADDUCT_DELTA = {
+    adduct = frame.adduct.astype(str).str.replace(' ', '', regex=False)
+    masses = pd.to_numeric(frame.precursor_mz, errors='coerce') - adduct.map(ADDUCT_DELTA)
+_TAUT = rdMolStandardize.TautomerEnumerator()
+        key = Chem.MolToInchiKey(_TAUT.Canonicalize(mol))
+CHANGED CODE 150
+        # neutral mass from the competition's own precursor m/z and adduct, with the constants the band was measured with
+        _ADD = dict(ADDUCT_DELTA)
+        _eq = pd.read_parquet(COMP / 'test.parquet', columns=['molecule_id', 'precursor_mz', 'adduct'])
+        _eq['nm'] = pd.to_numeric(_eq.precursor_mz, errors='coerce') - _eq.adduct.map(_ADD)
+CHANGED CODE 151
+    _TAUT = rdMolStandardize.TautomerEnumerator()
+            return Chem.MolToInchiKey(_TAUT.Canonicalize(m))[:14]
+CHANGED CODE 152
+            if (len(_l) >= 2 and V8_LIB.get(_mid, 0.0) < MASS_LIB_TAU and _l[0] in ppm
+CHANGED CODE 154
+#  0.500 APEX OVERLAY: DUAL-BAND EXTERNAL SPECTRAL LIBRARY RANK-1 PROMOTION
+# Integrates external measured MS/MS reference libraries (Takumu Hata extlib CC0 & MassBank harmonized)
+# sqrt-intensity cosine >= 0.85, matched peaks >= 4):
+# When lib_max >= LIB_TAU (pipeline already has strong match), existing ranking is protected.
+# All operations fail safe: any exception preserves the 0.480 Variant M submission.csv untouched.
+def _apex_extlib_overlay(work='/kaggle/working', inp='/kaggle/input'):
+        print('[apex-extlib] submission.csv not found; overlay skipped')
+    shutil.copy(sub_path, os.path.join(work, 'submission_pre_apex_extlib.csv'))
+        print('[apex-extlib] test.parquet not found; overlay skipped')
+        adduct = str(getattr(r, 'adduct', ''))
+        ok = (m > 0) & (it > 0) & (m <= prec + 0.5)
+        if '[M+Na]+' in adduct: nm = prec - 22.989218
+        elif '[M+K]+' in adduct: nm = prec - 38.963158
+        elif '[M+NH4]+' in adduct: nm = prec - 18.033823
+        elif '[M+HCOO]-' in adduct: nm = prec - 44.998201
+    # Check Source A: Takumu Hata extlib (ext_meta.parquet + ext_mz.npy / ext_in.npy)
+            print(f'[apex-extlib] Loading Takumu Hata extlib from {meta_hits[0]}...')
+            print(f'[apex-extlib] Loaded {len(refs)} reference spectra from Source A.')
+            print(f'[apex-extlib] Source A loading error: {e}')
+    # Check Source B: MassBank harmonized spectra.parquet
+                     key=lambda p: ('massbank' not in p.lower(), len(p)))
+    if mb_hits and 'massbank' in mb_hits[0].lower():
+            print(f'[apex-extlib] Loading MassBank harmonized from {mb_hits[0]}...')
+            print(f'[apex-extlib] Total references after Source B: {len(refs)} spectra.')
+            print(f'[apex-extlib] Source B loading error: {e}')
+        print('[apex-extlib] No external reference spectra available; keeping submission untouched.')
+    TAU = 0.80          # Minimum cosine similarity for direct Rank-1 hit
+    K_PEAKS = 4         # Minimum matching peaks
+    LIB_TAU = 0.90      # Protect queries already strong in pipeline library
+            if lib_max.get(mid, 0.0) >= LIB_TAU:
+                    if n_matched >= K_PEAKS and cos > best_match[0]:
+            if match_smi is not None and best_cos >= TAU:
+    with open(os.path.join(work, 'apex_extlib_audit.json'), 'w') as f:
+    print(f'[apex-extlib] SUCCESS: {hits_count} library matches (TAU={TAU}, K={K_PEAKS}), '
+    _apex_extlib_overlay()
+    print('[apex-extlib] overlay failed; existing submission preserved.')
+CHANGED CODE 156
+previous_path = ROOT / 'submission_pre_apex_extlib.csv'
+CHANGED CODE 158
+for adduct, delta in ADDUCT_DELTA.items():
+    row = pd.DataFrame([dict(molecule_id='fixture', adduct=adduct, precursor_mz=ethanol_mass + delta)])
+    records.append(dict(adduct=adduct, recovered_mass=recovered, absolute_error=abs(recovered-ethanol_mass)))
+adduct_checks = pd.DataFrame(records)
+assert len(adduct_checks) == 10 and adduct_checks.absolute_error.max() < 1e-9
+display(adduct_checks)
+MARKDOWN 159
+Attach the listed public datasets and scorer output, use the pinned T4 image and
+structure-without-reference scenarios. Keep candidate coverage, MRR and rank-1
+changes separate. A single rounded public score is insufficient to attribute gains.

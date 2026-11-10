@@ -1,0 +1,43 @@
+{
+  "step": "step7_enveda180",
+  "scope": "Enveda-180 membership / dedup / independent overlay on 200 cross_development identities",
+  "membership": {
+    "total_alias_identities": 431,
+    "categories": {
+      "D_not_covered": 431
+    },
+    "scope": "official InChIKey14 vs raw publisher keys; raw-key-level membership, tautomer/stereo aliases may differ"
+  },
+  "dedup": {
+    "total_rows": 730252,
+    "unique_signatures": 730252,
+    "duplicate_groups": 0,
+    "duplicate_extra_rows": 0
+  },
+  "overlay": {
+    "refs_A": 200724,
+    "refs_B": 124160,
+    "refs_E": 728195,
+    "AB": {
+      "queries": 200,
+      "match_coverage": 0.2,
+      "correct_match_coverage": 0.185,
+      "hits": 40,
+      "correct": 37
+    },
+    "AB_plus_Enveda180": {
+      "queries": 200,
+      "match_coverage": 0.35,
+      "correct_match_coverage": 0.325,
+      "hits": 70,
+      "correct": 65
+    },
+    "coverage_increment": 0.15,
+    "correct_coverage_increment": 0.14
+  },
+  "caveats": [
+    "Enveda-180 restricted to [M+H]+ / [M-H]- (its only two adducts).",
+    "Membership is raw-key level, not full official identity.",
+    "Overlay increment is on the 200 dev identities, not hidden test."
+  ]
+}

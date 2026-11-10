@@ -1,0 +1,38 @@
+{
+  "ref": "bgunshui/casmi26-scorer-v8-model",
+  "title": "casmi26-scorer-v8-model",
+  "license_name": "CC0: Public Domain",
+  "description": "",
+  "current_version_number": 1,
+  "total_bytes": 37838240,
+  "files": [
+    {
+      "name": "README.md",
+      "total_bytes": 414
+    },
+    {
+      "name": "config_used.json",
+      "total_bytes": 706
+    },
+    {
+      "name": "data_audit.json",
+      "total_bytes": 1205
+    },
+    {
+      "name": "features.py",
+      "total_bytes": 2289
+    },
+    {
+      "name": "final_model.pt",
+      "total_bytes": 37831657
+    },
+    {
+      "name": "model.py",
+      "total_bytes": 1577
+    },
+    {
+      "name": "training_result.json",
+      "total_bytes": 392
+    }
+  ]
+}

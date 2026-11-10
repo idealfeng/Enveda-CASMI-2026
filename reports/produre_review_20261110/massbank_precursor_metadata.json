@@ -1,0 +1,720 @@
+{
+  "status": "completed_read_only",
+  "source": "assets/kaggle/samartalwar/casmi-2026-spectral-library-massbankharmonized/v1/spectra.parquet",
+  "source_sha256": "6ebb46b32ddd344d988c3bdb90e7160d4ce46e6d0b900a1217607aa2234c9477",
+  "elapsed_seconds": 4.4312322030000075,
+  "counts": {
+    "raw_rows": 139744,
+    "non_casmi_smiles_rows": 139096,
+    "usable_refs": 124160,
+    "finite_positive_measured_precursor": 101807,
+    "measured_within_old_window": 76327,
+    "known_adduct_measured_rows": 91408,
+    "measured_consistent_with_named_adduct_and_mass": 75974,
+    "measured_outside_old_10ppm_plus_002": 25480,
+    "measured_inconsistent_with_named_adduct_and_mass": 15434,
+    "changed_measured_and_chemically_consistent": 1289,
+    "changed_chemically_consistent_and_mode_compatible": 1281,
+    "missing_or_invalid_measured_precursor": 22353,
+    "named_adduct_mode_inconsistent": 8
+  },
+  "by_adduct": {
+    "[M+H]+": {
+      "usable_refs": 64908,
+      "measured": 62068,
+      "known_adduct_measured_rows": 62068,
+      "missing_or_invalid": 2840,
+      "outside_old_window": 7863,
+      "inconsistent_known_adduct_mass": 7863
+    },
+    "[M-H]-": {
+      "usable_refs": 27704,
+      "measured": 27013,
+      "known_adduct_measured_rows": 27013,
+      "outside_old_window": 6533,
+      "inconsistent_known_adduct_mass": 6525,
+      "missing_or_invalid": 691,
+      "changed_chemically_consistent": 8
+    },
+    "None": {
+      "usable_refs": 24076,
+      "missing_or_invalid": 18414,
+      "measured": 5662,
+      "outside_old_window": 4023
+    },
+    "[M]+": {
+      "usable_refs": 2091,
+      "measured": 2044,
+      "outside_old_window": 2044,
+      "missing_or_invalid": 47
+    },
+    "[M+HCOO]-": {
+      "usable_refs": 1098,
+      "measured": 918,
+      "outside_old_window": 918,
+      "known_adduct_measured_rows": 918,
+      "changed_chemically_consistent": 119,
+      "missing_or_invalid": 180,
+      "inconsistent_known_adduct_mass": 799
+    },
+    "[M+Na]+": {
+      "usable_refs": 751,
+      "measured": 623,
+      "outside_old_window": 622,
+      "known_adduct_measured_rows": 623,
+      "changed_chemically_consistent": 620,
+      "missing_or_invalid": 128,
+      "inconsistent_known_adduct_mass": 3
+    },
+    "[M+CH3COOH-H]-": {
+      "usable_refs": 590,
+      "measured": 590,
+      "outside_old_window": 590
+    },
+    "[M+CH3COO]-": {
+      "usable_refs": 584,
+      "measured": 584,
+      "outside_old_window": 584
+    },
+    "[M+CH3COO]-/[M-CH3]-": {
+      "usable_refs": 507,
+      "measured": 507,
+      "outside_old_window": 507
+    },
+    "[M+NH4]+": {
+      "usable_refs": 329,
+      "measured": 309,
+      "outside_old_window": 309,
+      "known_adduct_measured_rows": 309,
+      "changed_chemically_consistent": 248,
+      "inconsistent_known_adduct_mass": 61,
+      "missing_or_invalid": 20
+    },
+    "[M-2H]-": {
+      "usable_refs": 304,
+      "measured": 304,
+      "outside_old_window": 304
+    },
+    "[M-H2O+H]+": {
+      "usable_refs": 291,
+      "measured": 291,
+      "outside_old_window": 291,
+      "known_adduct_measured_rows": 291,
+      "inconsistent_known_adduct_mass": 166,
+      "changed_chemically_consistent": 125
+    },
+    "[M]+*": {
+      "usable_refs": 157,
+      "measured": 157,
+      "outside_old_window": 157
+    },
+    "[M-H]-/[M-C3H6NO2]-": {
+      "usable_refs": 71,
+      "measured": 71,
+      "outside_old_window": 70
+    },
+    "[M-2H2O+H]+": {
+      "usable_refs": 53,
+      "measured": 53,
+      "outside_old_window": 53
+    },
+    "[2M+H]+": {
+      "usable_refs": 51,
+      "missing_or_invalid": 4,
+      "measured": 47,
+      "outside_old_window": 47
+    },
+    "[M+FA-H]-": {
+      "usable_refs": 44,
+      "measured": 44,
+      "outside_old_window": 44,
+      "known_adduct_measured_rows": 44,
+      "changed_chemically_consistent": 43,
+      "inconsistent_known_adduct_mass": 1
+    },
+    "[M+2H]++": {
+      "usable_refs": 40,
+      "measured": 40,
+      "outside_old_window": 40
+    },
+    "[M+Cl]-": {
+      "usable_refs": 35,
+      "measured": 35,
+      "outside_old_window": 35,
+      "known_adduct_measured_rows": 35,
+      "changed_chemically_consistent": 35
+    },
+    "[M+H-H2O]+": {
+      "usable_refs": 34,
+      "measured": 31,
+      "outside_old_window": 31,
+      "known_adduct_measured_rows": 31,
+      "changed_chemically_consistent": 16,
+      "inconsistent_known_adduct_mass": 15,
+      "missing_or_invalid": 3
+    },
+    "[M+2H]2+": {
+      "usable_refs": 33,
+      "measured": 33,
+      "outside_old_window": 33,
+      "known_adduct_measured_rows": 33,
+      "changed_chemically_consistent": 33
+    },
+    "[M+HCOOH-H]-": {
+      "usable_refs": 33,
+      "measured": 33,
+      "outside_old_window": 33
+    },
+    "[M+H-NH3]+": {
+      "usable_refs": 31,
+      "measured": 31,
+      "outside_old_window": 31
+    },
+    "[2M-H]-": {
+      "usable_refs": 31,
+      "measured": 31,
+      "outside_old_window": 31
+    },
+    "[M-2H]2-": {
+      "usable_refs": 26,
+      "measured": 26,
+      "outside_old_window": 26,
+      "known_adduct_measured_rows": 26,
+      "changed_chemically_consistent": 25,
+      "inconsistent_known_adduct_mass": 1
+    },
+    "[2M+Na]+": {
+      "usable_refs": 19,
+      "measured": 19,
+      "outside_old_window": 19
+    },
+    "[M+K]+": {
+      "usable_refs": 17,
+      "measured": 17,
+      "outside_old_window": 17,
+      "known_adduct_measured_rows": 17,
+      "changed_chemically_consistent": 17
+    },
+    "[M+HOO]-": {
+      "usable_refs": 16,
+      "missing_or_invalid": 16
+    },
+    "[M]-": {
+      "usable_refs": 14,
+      "measured": 14,
+      "outside_old_window": 13
+    },
+    "[M+C2HF3O2-H]-": {
+      "usable_refs": 13,
+      "measured": 13,
+      "outside_old_window": 13
+    },
+    "[M-O3S+H]+": {
+      "usable_refs": 11,
+      "measured": 11,
+      "outside_old_window": 11
+    },
+    "[M-CH3]-": {
+      "usable_refs": 10,
+      "measured": 10,
+      "outside_old_window": 10
+    },
+    "[M+HCO2]-": {
+      "usable_refs": 10,
+      "measured": 10,
+      "outside_old_window": 10
+    },
+    "[M-OH]+": {
+      "usable_refs": 8,
+      "missing_or_invalid": 8
+    },
+    "[M-NH3+H]+": {
+      "usable_refs": 8,
+      "measured": 8,
+      "outside_old_window": 8
+    },
+    "[M-C6H10O5+H]+": {
+      "usable_refs": 7,
+      "measured": 7,
+      "outside_old_window": 7
+    },
+    "[M-H2O-H]-": {
+      "usable_refs": 7,
+      "measured": 7,
+      "outside_old_window": 7
+    },
+    "[M-2H]--": {
+      "usable_refs": 6,
+      "measured": 6,
+      "outside_old_window": 6
+    },
+    "[M+CH3]+": {
+      "usable_refs": 6,
+      "measured": 6,
+      "outside_old_window": 6
+    },
+    "[M-H-CO2-2HF]-": {
+      "usable_refs": 6,
+      "measured": 6,
+      "outside_old_window": 6
+    },
+    "[2M+NH4]+": {
+      "usable_refs": 6,
+      "measured": 6,
+      "outside_old_window": 6
+    },
+    "[M-H-C6H10O5]-": {
+      "usable_refs": 6,
+      "measured": 6,
+      "outside_old_window": 6
+    },
+    "[M-C6H10O8S+H]+": {
+      "usable_refs": 5,
+      "measured": 5,
+      "outside_old_window": 5
+    },
+    "[2M-H2O+H]+": {
+      "usable_refs": 5,
+      "measured": 5,
+      "outside_old_window": 5
+    },
+    "[M]++": {
+      "usable_refs": 5,
+      "measured": 5,
+      "outside_old_window": 5
+    },
+    "[M+K-2H]-": {
+      "usable_refs": 4,
+      "measured": 4,
+      "outside_old_window": 4
+    },
+    "[2M-2H2O+H]+": {
+      "usable_refs": 4,
+      "measured": 4,
+      "outside_old_window": 4
+    },
+    "[M-C12H20O9+H]+": {
+      "usable_refs": 4,
+      "measured": 4,
+      "outside_old_window": 4
+    },
+    "[M+2Na-H]+": {
+      "usable_refs": 4,
+      "measured": 4,
+      "outside_old_window": 4
+    },
+    "[2M-2H+H]+": {
+      "usable_refs": 4,
+      "measured": 4,
+      "outside_old_window": 4
+    },
+    "[M-H+CH2O2]-": {
+      "usable_refs": 4,
+      "measured": 4,
+      "outside_old_window": 4
+    },
+    "[M-HCO2]-": {
+      "usable_refs": 4,
+      "measured": 4,
+      "outside_old_window": 4
+    },
+    "[M]2+": {
+      "usable_refs": 3,
+      "measured": 3,
+      "outside_old_window": 3
+    },
+    "[2M+K]+": {
+      "usable_refs": 3,
+      "measured": 3,
+      "outside_old_window": 3
+    },
+    "[M+ACN+Na]+": {
+      "usable_refs": 3,
+      "measured": 3,
+      "outside_old_window": 3
+    },
+    "[M+ACN+H]+": {
+      "usable_refs": 3,
+      "measured": 3,
+      "outside_old_window": 3
+    },
+    "[M+Li]+*": {
+      "usable_refs": 3,
+      "measured": 3,
+      "outside_old_window": 3
+    },
+    "[M-2H+Na]-": {
+      "usable_refs": 2,
+      "measured": 2,
+      "outside_old_window": 2
+    },
+    "[M+H-C12H20O9]+": {
+      "usable_refs": 2,
+      "missing_or_invalid": 2
+    },
+    "[M-CO+H]+": {
+      "usable_refs": 2,
+      "measured": 2,
+      "outside_old_window": 2
+    },
+    "[M+ACN+2H]2+": {
+      "usable_refs": 2,
+      "measured": 2,
+      "outside_old_window": 2
+    },
+    "[M-HO3P+H]+": {
+      "usable_refs": 2,
+      "measured": 2,
+      "outside_old_window": 2
+    },
+    "[M-C6H10O5-H2O+H]+": {
+      "usable_refs": 2,
+      "measured": 2,
+      "outside_old_window": 2
+    },
+    "[2M-2O+H]+": {
+      "usable_refs": 2,
+      "measured": 2,
+      "outside_old_window": 2
+    },
+    "[M-C6H10O5-H]-": {
+      "usable_refs": 2,
+      "measured": 2,
+      "outside_old_window": 2
+    },
+    "[M+H+O]+": {
+      "usable_refs": 2,
+      "measured": 2,
+      "outside_old_window": 2
+    },
+    "[M-H+Li]+*": {
+      "usable_refs": 2,
+      "measured": 2,
+      "outside_old_window": 2
+    },
+    "[M-H+Na]+*": {
+      "usable_refs": 2,
+      "measured": 2,
+      "outside_old_window": 2
+    },
+    "[M-CO2-H]-": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M+H-C9H10O5]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M-C2H3O]-": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M+2H]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M+H2CO2-H]-": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M-C18H30O14+H]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[3M-2H2O+Na]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M-O+H]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M+H2O+H]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[2M+Na-2H]-": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[2M+2Na-3H]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M+3H]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[2M+HCOOH-H]-": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M-C4H8+H]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[2M+3Na-4H]-": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M-C6H10O4+H]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M-H2O+Na]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M-C7H12O6+H]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M-C5H10N2O+H]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[2M-NH3+Na-2H]-": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[2M-3H]-": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M-C7H6O+H]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M-CH3-H]-": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[2M-H2O+Na]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M-C9H8O4-H2O+H]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M+H2O-H]-": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M-C5H8O3+H]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M-C3H6+H]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[2M-3O+Na]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M+CF3CO2H-H]-": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[2M-2O+Na]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M-CO2+H]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M-C4H12O2+H]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[3M-H]-": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M-C6H14O2+H]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M-H+C2H2O]-": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M+H-C8H10O]+": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    },
+    "[M+Na]+*": {
+      "usable_refs": 1,
+      "measured": 1,
+      "outside_old_window": 1
+    }
+  },
+  "absolute_da_quantiles": {
+    "p0": 0.0,
+    "p50": 3.400000002784509e-05,
+    "p90": 0.3777070000000777,
+    "p99": 60.02478600000006,
+    "p100": 1543.2961440000004
+  },
+  "named_adduct_absolute_da_quantiles": {
+    "p0": 1.4920942703611217e-08,
+    "p50": 2.3533379021500878e-05,
+    "p90": 0.17754146662102827,
+    "p99": 0.7720151481701123,
+    "p100": 610.2735235333789
+  },
+  "discrepant_examples": [
+    {
+      "adduct": "[M-H]-",
+      "measured_precursor": 508.9704,
+      "old_neutral_plus_carrier": 402.842604,
+      "absolute_da": 106.12779599999999,
+      "neutral_mass": 403.84988
+    },
+    {
+      "adduct": "[M+HCOO]-",
+      "measured_precursor": 362.0469,
+      "old_neutral_plus_carrier": 316.041424,
+      "absolute_da": 46.00547599999999,
+      "neutral_mass": 317.0487
+    },
+    {
+      "adduct": "[M-H]-",
+      "measured_precursor": 138.4893,
+      "old_neutral_plus_carrier": 138.01962400000002,
+      "absolute_da": 0.46967599999996423,
+      "neutral_mass": 139.0269
+    },
+    {
+      "adduct": "[M+H]+",
+      "measured_precursor": 218.1099,
+      "old_neutral_plus_carrier": 218.08453599999999,
+      "absolute_da": 0.02536400000002459,
+      "neutral_mass": 217.07726
+    },
+    {
+      "adduct": "[M-H]-",
+      "measured_precursor": 182.021,
+      "old_neutral_plus_carrier": 207.012124,
+      "absolute_da": 24.991124000000013,
+      "neutral_mass": 208.0194
+    },
+    {
+      "adduct": "[M-H]-",
+      "measured_precursor": 132.0566,
+      "old_neutral_plus_carrier": 145.077124,
+      "absolute_da": 13.020523999999995,
+      "neutral_mass": 146.0844
+    },
+    {
+      "adduct": "[M+Cl]-",
+      "measured_precursor": 555.1919,
+      "old_neutral_plus_carrier": 519.2155039999999,
+      "absolute_da": 35.976396000000136,
+      "neutral_mass": 520.22278
+    },
+    {
+      "adduct": "[M]+",
+      "measured_precursor": 511.4362,
+      "old_neutral_plus_carrier": 512.444866,
+      "absolute_da": 1.008666000000062,
+      "neutral_mass": 511.43759
+    },
+    {
+      "adduct": "[M-H]-",
+      "measured_precursor": 214.0869,
+      "old_neutral_plus_carrier": 168.089124,
+      "absolute_da": 45.997776000000016,
+      "neutral_mass": 169.0964
+    },
+    {
+      "adduct": "[M+2H]2+",
+      "measured_precursor": 218.1099,
+      "old_neutral_plus_carrier": 435.217746,
+      "absolute_da": 217.10784599999997,
+      "neutral_mass": 434.21047
+    },
+    {
+      "adduct": "[M-2H]2-",
+      "measured_precursor": 722.7086,
+      "old_neutral_plus_carrier": 1446.422924,
+      "absolute_da": 723.7143239999999,
+      "neutral_mass": 1447.4302
+    },
+    {
+      "adduct": "[M-H]-",
+      "measured_precursor": 259.9314,
+      "old_neutral_plus_carrier": 218.96212400000002,
+      "absolute_da": 40.96927599999998,
+      "neutral_mass": 219.9694
+    }
+  ],
+  "invalid_measured_examples": [
+    {
+      "adduct": "[M+H]+",
+      "precursor": null
+    },
+    {
+      "adduct": "[M+H]+",
+      "precursor": null
+    },
+    {
+      "adduct": "[M+H]+",
+      "precursor": null
+    },
+    {
+      "adduct": "[M+H]+",
+      "precursor": null
+    },
+    {
+      "adduct": "[M+H]+",
+      "precursor": null
+    },
+    {
+      "adduct": "[M+H]+",
+      "precursor": null
+    }
+  ],
+  "interpretation": "Finite-positive publisher measured precursor is materially different for some records; no assay/pipeline score inferred. Missing measured values can retain exact original fallback. A valid measured number alone does not prove metadata correct.",
+  "no_user_artifact_or_frozen_source_changes": true,
+  "no_training_or_network_or_gpu": true
+}

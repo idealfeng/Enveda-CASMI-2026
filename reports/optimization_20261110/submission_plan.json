@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "status": "reviewed_plan_only_no_cloud_writes",
+  "created_at_utc": "2026-11-10T12:21:58.376789+00:00",
+  "baseline_ref": 58156482,
+  "baseline_score": 0.488,
+  "baseline_notebook_sha256": "2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7",
+  "shared_pre_external_parent_ref": 58129661,
+  "shared_pre_external_parent_score": 0.482,
+  "max_submissions": 5,
+  "branches": [
+    {
+      "priority": 1,
+      "name": "extlib_b_only",
+      "sources": [
+        "B"
+      ],
+      "purpose": "Measure A incremental contribution by removing it; source ablation, original guard preserved"
+    },
+    {
+      "priority": 2,
+      "name": "extlib_a_only",
+      "sources": [
+        "A"
+      ],
+      "purpose": "Measure B incremental contribution by removing it; source ablation, original guard preserved"
+    },
+    {
+      "priority": 3,
+      "name": "extlib_abe_gap_fill",
+      "sources": [
+        "A",
+        "B",
+        "E"
+      ],
+      "e_policy": "Only use E when AB has no valid accepted reference hit; invalid E preserves exact AB output"
+    },
+    {
+      "priority": 4,
+      "name": "extlib_abe_compete",
+      "sources": [
+        "A",
+        "B",
+        "E"
+      ],
+      "e_policy": "E may replace a valid AB hit only with a strictly higher score; ties/invalid E preserve exact AB output"
+    },
+    {
+      "priority": 5,
+      "name": "extlib_ab_bprec_trusted",
+      "sources": [
+        "A",
+        "B"
+      ],
+      "b_precursor_policy": "Replace only finite measured m/z with supported adduct, compatible mode, neutral/adduct theoretical consistency and mismatch from original neutral +/- H window; otherwise original fallback",
+      "eligible_reference_rows": 1281
+    }
+  ],
+  "e_allowed_adducts": [
+    "[M+H]+",
+    "[M-H]-"
+  ],
+  "matching_constants": {
+    "min_cosine": 0.8,
+    "min_matched_peaks": 4,
+    "protect_original_library_at": 0.9,
+    "precursor_ppm": 10,
+    "precursor_da": 0.002,
+    "fragment_da": 0.015
+  },
+  "generation_submission_ready": false,
+  "no_training_planned_for_these_five": true,
+  "requires_implementation_and_actual_checks": true,
+  "evidence": [
+    "reports/optimization_20261110/initial_live_status.json",
+    "reports/produre_review_20261110/PRODURE1_REVIEW.md",
+    "reports/produre_review_20261110/PRODURE2_REVIEW.md",
+    "reports/produre_review_20261110/massbank_precursor_metadata.json",
+    "reports/PUBLIC_UPDATE_2026-11-10.md"
+  ]
+}

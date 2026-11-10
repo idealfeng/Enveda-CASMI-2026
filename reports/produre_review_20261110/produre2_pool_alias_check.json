@@ -1,0 +1,46 @@
+{
+  "columns": [
+    "inchikey14",
+    "smiles",
+    "formula_given",
+    "n_spec",
+    "n_tims",
+    "libmask",
+    "formula",
+    "mass",
+    "n_heavy",
+    "key",
+    "rawkey",
+    "sid"
+  ],
+  "alternate_pairs": [
+    {
+      "pool_key": "VXVNYCRICCVPTD",
+      "pool_raw": "JBIWCJUYHHGXTC",
+      "official": "VXVNYCRICCVPTD",
+      "smiles": "CC1c2cccc(O)c2C(=O)C2=C(O)C3(O)C(=O)C(C(N)=O)=C(O)C(N(C)C)C3C(O)C21",
+      "class3_mask_survives": false
+    },
+    {
+      "pool_key": "VXVNYCRICCVPTD",
+      "pool_raw": "SGKRLCUYIXIAHR",
+      "official": "VXVNYCRICCVPTD",
+      "smiles": "CC1c2cccc(O)c2C(O)=C2C(=O)C3(O)C(O)=C(C(N)=O)C(=O)C(N(C)C)C3C(O)C21",
+      "class3_mask_survives": false
+    },
+    {
+      "pool_key": "VXVNYCRICCVPTD",
+      "pool_raw": "YDUGFTMNXJLIFF",
+      "official": "VXVNYCRICCVPTD",
+      "smiles": "CC1c2cccc(O)c2C(=O)C2=C(O)C3(O)C(O)=C(C(N)=O)C(=O)C(N(C)C)C3C(O)C21",
+      "class3_mask_survives": false
+    },
+    {
+      "pool_key": "KAQOTUWFZPIKLZ",
+      "pool_raw": "ICKPYUKAWSXKMY",
+      "official": "KAQOTUWFZPIKLZ",
+      "smiles": "CCC(=O)C1=C(O)C(CC=C(C)C)=C(O)C(O)(CC=C(C)C)C1=O",
+      "class3_mask_survives": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+Is MassSpecGym (and MIST weights trained only on it) allowed? NIST was used only for data cleaning
+
+https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/757307
+
+Author: ujihash
+
+Posted: 2026-11-09T14:09:22.019Z
+
+Hi, I understand that NIST libraries and weights derived from them are not allowed in this competition. I would like to confirm one borderline case before relying on it.
+
+What I want to use
+
+
+The public MIST weights mist_msg_noaug.ckpt (Zenodo 23303289, MIT), from Goldman et al., Nature Machine Intelligence 2023.
+
+The code, including the training code, is public under MIT (coleygroup/MIST), so the weights can be retrained from public data.
+
+These weights are trained only on the real spectra of MassSpecGym (training config). No synthetic spectra are used.
+
+
+Why I am asking
+MassSpecGym (paper, dataset, code) is built from MoNA, MassBank, GNPS and MSnLib, the same public libraries as this competition's training data, and it contains no NIST spectra. However, its supplementary information (arXiv PDF) mentions two links to NIST:
+
+
+NIST spectra were used to clean the data. About 24,000 spectra that disagreed with the NIST20 spectra of the same structure (no shared peaks, cosine below 0.2, or fewer than 5 shared peaks) were removed. The datasheet says: "The only non-publicly available processing step we performed was the comparison of our mass spectra with the spectra of the commercially available NIST23 library. This step helped us to partially clean the dataset but NIST23 spectra were never disclosed or used in any further analyses."
+
+The list of downloaded GNPS files includes GNPS-NIST14-MATCHES.mgf (as I understand it, public spectra whose structures were assigned by matching against NIST14). The paper does not say whether any of these spectra remain after filtering.
+
+
+Questions
+
+
+Is MassSpecGym allowed as external training data, and are weights trained only on it (such as MIST msg-noaug) allowed?
+
+Does this competition's gnps training data include GNPS-NIST14-MATCHES?
+
+
+Thank you!
+
+
+Comment: Nidhal
+
+Same question here — I think several teams need this ruling. Two quick points: (1) MassSpecGym's NIST use was only a filtering step (removing ~24k disagreeing spectra); no NIST spectra were retained or trained on, and MIST msg_noaug is retrainable from public data via MIT-licensed code. (2) The sharper issue is whether GNPS-NIST14-MATCHES survives filtering and appears in this competition's GNPS split — that affects anyone training on GNPS, not just MIST users.
+@Organizers: Could you confirm (a) whether MassSpecGym + MIST msg_noaug weights are allowed, and (b) whether GNPS-NIST14-MATCHES is in the competition's GNPS training data? A clear yes/no on both would settle this for the whole leaderboard.

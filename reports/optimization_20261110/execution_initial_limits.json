@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-11-10T12:27:12.429602+00:00",
+  "allowance": {
+    "num_today": 0,
+    "num_total": 21,
+    "num_allowed_now": 5
+  },
+  "new_submission_performed": false,
+  "gpu_quota": {
+    "time_used": "0:08:37.738000",
+    "time_reserved": "0:00:00",
+    "total_time_allowed": "1 day, 6:00:00"
+  },
+  "gpu_refresh": "2026-11-14 00:00:00"
+}

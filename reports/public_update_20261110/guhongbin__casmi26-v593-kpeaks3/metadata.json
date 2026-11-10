@@ -1,0 +1,27 @@
+{
+  "ref": "guhongbin/casmi26-v593-kpeaks3",
+  "title": "casmi26 v593 kpeaks3",
+  "current_version_number": 1,
+  "last_run_time": "2026-11-07 12:11:34.228000",
+  "dataset_data_sources": [
+    "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "takumuhata/casmi26-extlib",
+    "sanpier/catalogue-experiment-saner",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [
+    "popwenman/casmi26-scorer-train-v80"
+  ],
+  "enable_gpu": true,
+  "enable_internet": false,
+  "is_private": false,
+  "source_sha256": "0c5370c235cb11e83ce4fddbb26328174fd0885d16577b377f35a78dd329de2b",
+  "source_bytes": 810963,
+  "source_path": "reports\\public_update_20261110\\guhongbin__casmi26-v593-kpeaks3\\source.ipynb"
+}

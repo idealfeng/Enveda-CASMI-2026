@@ -1,0 +1,939 @@
+{
+  "step": "q5_real_paths",
+  "scope": "real spectral analog channel + combo-capturing derive on 48 dev queries (class-3 truth-key exclusion)",
+  "queries": 48,
+  "recovered_queries": 19,
+  "generation_coverage": 0.3958,
+  "parent_sim": {
+    "n": 1408,
+    "mean": 0.6893,
+    "min": 0.379,
+    "max": 0.9137
+  },
+  "template_counts": {
+    "dehydroxyl_aliph": 536,
+    "hydroxyl_aliph": 472,
+    "hydrogenate_CC": 217,
+    "hydroxyl_arom": 215,
+    "hydroxyl_ch": 203,
+    "dehydroxyl_arom": 191,
+    "dehydrogenate": 164,
+    "hydrogenate_CO": 147,
+    "deoxyhexose_O": 141,
+    "methyl_c": 61,
+    "methyl_O": 58,
+    "demethyl_O": 42,
+    "pentose_O": 40,
+    "demethoxy": 32,
+    "hexose_O": 32,
+    "methoxy_arom": 30,
+    "ethyl_O": 25,
+    "amine_c": 24,
+    "demethyl_N": 23,
+    "carboxyl_c": 13,
+    "decarboxyl": 13,
+    "dehexose": 12,
+    "deacetyl_O": 9,
+    "methyl_N": 5,
+    "deprenyl": 2,
+    "prenyl_c": 2
+  },
+  "template_categories": {
+    "hydroxyl_arom": "addition",
+    "hydroxyl_aliph": "addition",
+    "methoxy_arom": "addition",
+    "demethyl_O": "removal",
+    "hydrogenate_CC": "addition",
+    "hydrogenate_CO": "addition",
+    "hydroxyl_ch": "addition",
+    "dehydroxyl_arom": "removal",
+    "demethoxy": "removal",
+    "dehydrogenate": "removal",
+    "methyl_N": "addition",
+    "methyl_c": "addition",
+    "demethyl_N": "removal",
+    "dehydroxyl_aliph": "removal",
+    "ethyl_O": "addition",
+    "methyl_O": "addition",
+    "carboxyl_c": "addition",
+    "decarboxyl": "removal",
+    "amine_c": "addition",
+    "deprenyl": "removal",
+    "dehexose": "removal",
+    "deacetyl_O": "removal",
+    "deoxyhexose_O": "addition",
+    "pentose_O": "addition",
+    "hexose_O": "addition",
+    "prenyl_c": "addition"
+  },
+  "combo_counts": {
+    "hydroxyl_aliph;dehydroxyl_aliph": 171,
+    "hydrogenate_CC;dehydrogenate": 140,
+    "hydroxyl_arom;dehydroxyl_aliph": 139,
+    "hydroxyl_aliph;deoxyhexose_O": 109,
+    "hydroxyl_ch;dehydroxyl_aliph": 85,
+    "hydroxyl_aliph;hydrogenate_CO": 84,
+    "hydroxyl_arom;dehydroxyl_arom": 56,
+    "hydroxyl_ch;dehydroxyl_arom": 50,
+    "hydroxyl_aliph;hydrogenate_CC": 44,
+    "dehydroxyl_arom;dehydroxyl_aliph": 39,
+    "dehydroxyl_aliph;dehydroxyl_aliph": 36,
+    "hydroxyl_aliph": 25,
+    "amine_c;demethyl_O": 24,
+    "hydrogenate_CO;dehydrogenate": 22,
+    "hydroxyl_aliph;dehydroxyl_arom": 22,
+    "hydroxyl_ch;hydrogenate_CO": 21,
+    "hexose_O": 21,
+    "methyl_O;pentose_O": 20,
+    "methyl_c;pentose_O": 20,
+    "hydroxyl_ch;deoxyhexose_O": 20,
+    "hydroxyl_aliph;ethyl_O": 17,
+    "methoxy_arom;demethyl_O": 14,
+    "hydroxyl_ch;hydrogenate_CC": 14,
+    "hydroxyl_ch": 13,
+    "carboxyl_c;decarboxyl": 13,
+    "methyl_c;demethoxy": 13,
+    "methyl_O;demethyl_N": 12,
+    "dehydroxyl_aliph": 11,
+    "deoxyhexose_O;dehexose": 10,
+    "methyl_O;demethoxy": 9,
+    "methyl_c;demethyl_N": 8,
+    "hexose_O;dehydroxyl_aliph": 8,
+    "methoxy_arom;hydrogenate_CC": 8,
+    "methoxy_arom;hydrogenate_CO": 8,
+    "hydroxyl_arom": 7,
+    "methyl_O;methyl_c": 7,
+    "dehydroxyl_arom;dehydroxyl_arom": 6,
+    "dehydroxyl_aliph;deacetyl_O": 6,
+    "methyl_c": 5,
+    "ethyl_O": 5,
+    "methyl_O;methyl_O": 5,
+    "hydroxyl_arom;demethoxy": 5,
+    "hydrogenate_CO": 4,
+    "demethoxy": 4,
+    "demethyl_O;dehydroxyl_arom": 4,
+    "methyl_c;methyl_c": 4,
+    "hydroxyl_arom;hydrogenate_CC": 4,
+    "hydroxyl_arom;hydrogenate_CO": 4,
+    "methyl_N;demethyl_N": 3,
+    "hexose_O;dehydroxyl_arom": 3,
+    "dehydroxyl_arom": 3,
+    "hydrogenate_CC": 2,
+    "hydrogenate_CC;hydrogenate_CO": 2,
+    "dehydroxyl_aliph;deprenyl": 2,
+    "dehydrogenate;dehydroxyl_aliph": 2,
+    "dehexose": 2,
+    "deoxyhexose_O": 2,
+    "prenyl_c": 2,
+    "dehydroxyl_arom;demethoxy": 1,
+    "methyl_N": 1,
+    "methyl_N;ethyl_O": 1,
+    "ethyl_O;hydrogenate_CC": 1,
+    "ethyl_O;hydrogenate_CO": 1,
+    "hydrogenate_CC;hydrogenate_CC": 1,
+    "deacetyl_O;deacetyl_O": 1,
+    "dehydroxyl_arom;deacetyl_O": 1,
+    "hydrogenate_CO;dehydroxyl_aliph": 1
+  },
+  "per_query": [
+    {
+      "molecule_id": "cross_CBIAKDAYHRWZCU",
+      "n_parents": 6,
+      "parent_sims": [
+        0.7416,
+        0.7035,
+        0.6991,
+        0.687,
+        0.6795,
+        0.6673
+      ],
+      "n_generated": 23,
+      "recovered": true,
+      "hit_combos": [
+        [
+          "hydroxyl_arom"
+        ]
+      ]
+    },
+    {
+      "molecule_id": "cross_CDUVSQMTLOYKTR",
+      "n_parents": 6,
+      "parent_sims": [
+        0.7415,
+        0.7085,
+        0.6786,
+        0.6676,
+        0.6651,
+        0.6565
+      ],
+      "n_generated": 130,
+      "recovered": true,
+      "hit_combos": [
+        [
+          "hydrogenate_CC"
+        ]
+      ]
+    },
+    {
+      "molecule_id": "cross_DKZBBWMURDFHNE",
+      "n_parents": 6,
+      "parent_sims": [
+        0.6365,
+        0.6121,
+        0.5952,
+        0.5844,
+        0.584,
+        0.5824
+      ],
+      "n_generated": 1,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "cross_DWVXZQVYILJCJH",
+      "n_parents": 6,
+      "parent_sims": [
+        0.7376,
+        0.7269,
+        0.7093,
+        0.6941,
+        0.6843,
+        0.6615
+      ],
+      "n_generated": 60,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "cross_FWXUWWAXYNCZAY",
+      "n_parents": 6,
+      "parent_sims": [
+        0.811,
+        0.7899,
+        0.7836,
+        0.7284,
+        0.6921,
+        0.6863
+      ],
+      "n_generated": 10,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "cross_GFZLFKCEWJJEFW",
+      "n_parents": 6,
+      "parent_sims": [
+        0.6372,
+        0.5919,
+        0.5919,
+        0.5644,
+        0.5621,
+        0.5533
+      ],
+      "n_generated": 0,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "cross_HPXGRJSGVYZSBD",
+      "n_parents": 6,
+      "parent_sims": [
+        0.7786,
+        0.7775,
+        0.7687,
+        0.7553,
+        0.752,
+        0.7449
+      ],
+      "n_generated": 0,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "cross_IYODIJVWGPRBGQ",
+      "n_parents": 6,
+      "parent_sims": [
+        0.5821,
+        0.5688,
+        0.563,
+        0.5602,
+        0.5576,
+        0.5561
+      ],
+      "n_generated": 0,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "cross_JIZXTXDQGNQBTA",
+      "n_parents": 6,
+      "parent_sims": [
+        0.6877,
+        0.6781,
+        0.6556,
+        0.6473,
+        0.6435,
+        0.6325
+      ],
+      "n_generated": 10,
+      "recovered": true,
+      "hit_combos": [
+        [
+          "dehydroxyl_aliph"
+        ]
+      ]
+    },
+    {
+      "molecule_id": "cross_KAQOTUWFZPIKLZ",
+      "n_parents": 6,
+      "parent_sims": [
+        0.5172,
+        0.3956,
+        0.3954,
+        0.3657,
+        0.3451,
+        0.3451
+      ],
+      "n_generated": 0,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "cross_MZNCWPOVMBLUSG",
+      "n_parents": 0,
+      "parent_sims": [],
+      "n_generated": 0,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "cross_NOFOAYPPHIUXJR",
+      "n_parents": 6,
+      "parent_sims": [
+        0.6166,
+        0.5867,
+        0.5743,
+        0.5661,
+        0.5633,
+        0.5559
+      ],
+      "n_generated": 6,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "cross_NQHGQOVKJGGLKE",
+      "n_parents": 6,
+      "parent_sims": [
+        0.8753,
+        0.8671,
+        0.8257,
+        0.8157,
+        0.8115,
+        0.7912
+      ],
+      "n_generated": 9,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "cross_OTGQIQQTPXJQRG",
+      "n_parents": 6,
+      "parent_sims": [
+        0.9013,
+        0.8887,
+        0.8862,
+        0.7981,
+        0.7469,
+        0.7465
+      ],
+      "n_generated": 23,
+      "recovered": true,
+      "hit_combos": [
+        [
+          "hydrogenate_CC",
+          "hydrogenate_CC"
+        ]
+      ]
+    },
+    {
+      "molecule_id": "cross_QNUNSPMEODRLBZ",
+      "n_parents": 6,
+      "parent_sims": [
+        0.8421,
+        0.8318,
+        0.7075,
+        0.6857,
+        0.677,
+        0.6288
+      ],
+      "n_generated": 24,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "cross_SRNDKRJFBMZBCK",
+      "n_parents": 6,
+      "parent_sims": [
+        0.5305,
+        0.4481,
+        0.447,
+        0.4239,
+        0.4144,
+        0.4052
+      ],
+      "n_generated": 59,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "n_parents": 6,
+      "parent_sims": [
+        0.5346,
+        0.5152,
+        0.4712,
+        0.4461,
+        0.4364,
+        0.4327
+      ],
+      "n_generated": 5,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "cross_VJLSQJBXDSKTLG",
+      "n_parents": 6,
+      "parent_sims": [
+        0.7664,
+        0.6434,
+        0.5898,
+        0.528,
+        0.4269,
+        0.4155
+      ],
+      "n_generated": 3,
+      "recovered": true,
+      "hit_combos": [
+        [
+          "dehydroxyl_aliph",
+          "deprenyl"
+        ]
+      ]
+    },
+    {
+      "molecule_id": "cross_VXVNYCRICCVPTD",
+      "n_parents": 6,
+      "parent_sims": [
+        0.8881,
+        0.6938,
+        0.6564,
+        0.6564,
+        0.6564,
+        0.6527
+      ],
+      "n_generated": 150,
+      "recovered": true,
+      "hit_combos": [
+        [
+          "hydrogenate_CO",
+          "dehydrogenate"
+        ]
+      ]
+    },
+    {
+      "molecule_id": "cross_WDRYRZXSPDWGEB",
+      "n_parents": 6,
+      "parent_sims": [
+        0.7382,
+        0.7194,
+        0.7099,
+        0.7,
+        0.6842,
+        0.6827
+      ],
+      "n_generated": 0,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "n_parents": 6,
+      "parent_sims": [
+        0.835,
+        0.7469,
+        0.6873,
+        0.685,
+        0.6646,
+        0.6635
+      ],
+      "n_generated": 0,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "cross_WIOKWEJDRXNVSH",
+      "n_parents": 6,
+      "parent_sims": [
+        0.661,
+        0.6465,
+        0.6137,
+        0.612,
+        0.6092,
+        0.5913
+      ],
+      "n_generated": 0,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "cross_XSOKPIZATJBJPO",
+      "n_parents": 6,
+      "parent_sims": [
+        0.732,
+        0.7257,
+        0.7083,
+        0.7064,
+        0.6996,
+        0.6957
+      ],
+      "n_generated": 0,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "cross_YFJYOZDIJVHPAU",
+      "n_parents": 6,
+      "parent_sims": [
+        0.5896,
+        0.5451,
+        0.5112,
+        0.4981,
+        0.4941,
+        0.4939
+      ],
+      "n_generated": 0,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "np_AAWZDTNXLSGCEK",
+      "n_parents": 6,
+      "parent_sims": [
+        0.8621,
+        0.8562,
+        0.8273,
+        0.7982,
+        0.6992,
+        0.6481
+      ],
+      "n_generated": 0,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "np_ACNHBCIZLNNLRS",
+      "n_parents": 6,
+      "parent_sims": [
+        0.6301,
+        0.6209,
+        0.5943,
+        0.5866,
+        0.5864,
+        0.5831
+      ],
+      "n_generated": 0,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "np_CEUORZQYGODEFX",
+      "n_parents": 6,
+      "parent_sims": [
+        0.6896,
+        0.6892,
+        0.688,
+        0.6877,
+        0.6866,
+        0.6815
+      ],
+      "n_generated": 0,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "np_CTRLABGOLIVAIY",
+      "n_parents": 6,
+      "parent_sims": [
+        0.6224,
+        0.616,
+        0.6057,
+        0.5951,
+        0.593,
+        0.5882
+      ],
+      "n_generated": 1,
+      "recovered": true,
+      "hit_combos": [
+        [
+          "dehydrogenate",
+          "dehydroxyl_aliph"
+        ]
+      ]
+    },
+    {
+      "molecule_id": "np_DBEPLOCGEIEOCV",
+      "n_parents": 6,
+      "parent_sims": [
+        0.6739,
+        0.5893,
+        0.5842,
+        0.5782,
+        0.5694,
+        0.5636
+      ],
+      "n_generated": 0,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "np_DOFJNFPSMUCECH",
+      "n_parents": 6,
+      "parent_sims": [
+        0.7073,
+        0.7041,
+        0.701,
+        0.6874,
+        0.6841,
+        0.6813
+      ],
+      "n_generated": 23,
+      "recovered": true,
+      "hit_combos": [
+        [
+          "demethoxy"
+        ]
+      ]
+    },
+    {
+      "molecule_id": "np_DOUMFZQKYFQNTF",
+      "n_parents": 6,
+      "parent_sims": [
+        0.8793,
+        0.8148,
+        0.7754,
+        0.7272,
+        0.7082,
+        0.697
+      ],
+      "n_generated": 1,
+      "recovered": true,
+      "hit_combos": [
+        [
+          "dehexose"
+        ]
+      ]
+    },
+    {
+      "molecule_id": "np_DUXQKCCELUKXOE",
+      "n_parents": 6,
+      "parent_sims": [
+        0.7433,
+        0.7109,
+        0.6897,
+        0.6712,
+        0.6577,
+        0.6559
+      ],
+      "n_generated": 150,
+      "recovered": true,
+      "hit_combos": [
+        [
+          "deacetyl_O",
+          "deacetyl_O"
+        ]
+      ]
+    },
+    {
+      "molecule_id": "np_FELGMEQIXOGIFQ",
+      "n_parents": 6,
+      "parent_sims": [
+        0.7275,
+        0.6871,
+        0.6718,
+        0.6594,
+        0.6361,
+        0.6305
+      ],
+      "n_generated": 0,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "np_FFGPTBGBLSHEPO",
+      "n_parents": 6,
+      "parent_sims": [
+        0.9137,
+        0.7982,
+        0.7754,
+        0.7669,
+        0.7469,
+        0.7333
+      ],
+      "n_generated": 1,
+      "recovered": true,
+      "hit_combos": [
+        [
+          "dehydrogenate",
+          "dehydroxyl_aliph"
+        ]
+      ]
+    },
+    {
+      "molecule_id": "np_GZSOSUNBTXMUFQ",
+      "n_parents": 6,
+      "parent_sims": [
+        0.8069,
+        0.7679,
+        0.7218,
+        0.7188,
+        0.7184,
+        0.7097
+      ],
+      "n_generated": 150,
+      "recovered": true,
+      "hit_combos": [
+        [
+          "hydroxyl_arom",
+          "demethoxy"
+        ]
+      ]
+    },
+    {
+      "molecule_id": "np_HELXLJCILKEWJH",
+      "n_parents": 6,
+      "parent_sims": [
+        0.4962,
+        0.4638,
+        0.4294,
+        0.4243,
+        0.4186,
+        0.4155
+      ],
+      "n_generated": 150,
+      "recovered": true,
+      "hit_combos": [
+        [
+          "hexose_O"
+        ]
+      ]
+    },
+    {
+      "molecule_id": "np_HSMPDPBYAYSOBC",
+      "n_parents": 6,
+      "parent_sims": [
+        0.3869,
+        0.379,
+        0.3515,
+        0.3505,
+        0.3478,
+        0.3388
+      ],
+      "n_generated": 4,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "np_HUSISCNTLUEZCN",
+      "n_parents": 6,
+      "parent_sims": [
+        0.8457,
+        0.7958,
+        0.783,
+        0.7693,
+        0.7636,
+        0.7374
+      ],
+      "n_generated": 60,
+      "recovered": true,
+      "hit_combos": [
+        [
+          "hexose_O"
+        ]
+      ]
+    },
+    {
+      "molecule_id": "np_JYGXADMDTFJGBT",
+      "n_parents": 6,
+      "parent_sims": [
+        0.536,
+        0.5308,
+        0.5119,
+        0.5046,
+        0.5031,
+        0.5017
+      ],
+      "n_generated": 14,
+      "recovered": true,
+      "hit_combos": [
+        [
+          "hydroxyl_aliph"
+        ]
+      ]
+    },
+    {
+      "molecule_id": "np_MBRLOUHOWLUMFF",
+      "n_parents": 6,
+      "parent_sims": [
+        0.4645,
+        0.4622,
+        0.4589,
+        0.4566,
+        0.4437,
+        0.4406
+      ],
+      "n_generated": 9,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "np_QCHFTSOMWOSFHM",
+      "n_parents": 6,
+      "parent_sims": [
+        0.7799,
+        0.7621,
+        0.7364,
+        0.7165,
+        0.7134,
+        0.708
+      ],
+      "n_generated": 2,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "np_RFDAIACWWDREDC",
+      "n_parents": 6,
+      "parent_sims": [
+        0.8079,
+        0.8074,
+        0.8033,
+        0.8016,
+        0.7946,
+        0.7931
+      ],
+      "n_generated": 0,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "np_RXPRRQLKFXBCSJ",
+      "n_parents": 6,
+      "parent_sims": [
+        0.7131,
+        0.7086,
+        0.5873,
+        0.5729,
+        0.5659,
+        0.5637
+      ],
+      "n_generated": 46,
+      "recovered": true,
+      "hit_combos": [
+        [
+          "hydrogenate_CC"
+        ]
+      ]
+    },
+    {
+      "molecule_id": "np_RZGFUGXQKMEMOO",
+      "n_parents": 6,
+      "parent_sims": [
+        0.6699,
+        0.6671,
+        0.6621,
+        0.6418,
+        0.6329,
+        0.6295
+      ],
+      "n_generated": 0,
+      "recovered": false,
+      "hit_combos": []
+    },
+    {
+      "molecule_id": "np_SGEWCQFRYRRZDC",
+      "n_parents": 6,
+      "parent_sims": [
+        0.7645,
+        0.6885,
+        0.685,
+        0.6807,
+        0.6674,
+        0.6401
+      ],
+      "n_generated": 150,
+      "recovered": true,
+      "hit_combos": [
+        [
+          "dehexose"
+        ]
+      ]
+    },
+    {
+      "molecule_id": "np_SHIBSTMRCDJXLN",
+      "n_parents": 6,
+      "parent_sims": [
+        0.83,
+        0.8237,
+        0.819,
+        0.798,
+        0.767,
+        0.7566
+      ],
+      "n_generated": 124,
+      "recovered": true,
+      "hit_combos": [
+        [
+          "hydroxyl_aliph",
+          "dehydroxyl_aliph"
+        ]
+      ]
+    },
+    {
+      "molecule_id": "np_URFCJEUYXNAHFI",
+      "n_parents": 6,
+      "parent_sims": [
+        0.7176,
+        0.714,
+        0.6749,
+        0.6649,
+        0.6229,
+        0.5983
+      ],
+      "n_generated": 10,
+      "recovered": true,
+      "hit_combos": [
+        [
+          "dehydroxyl_arom"
+        ]
+      ]
+    },
+    {
+      "molecule_id": "np_XKLMZUWKNUAPSZ",
+      "n_parents": 6,
+      "parent_sims": [
+        0.6487,
+        0.6414,
+        0.6289,
+        0.6255,
+        0.6213,
+        0.6169
+      ],
+      "n_generated": 0,
+      "recovered": false,
+      "hit_combos": []
+    }
+  ],
+  "elapsed_s": 76.2,
+  "note": "steps recorded as len(combo) (original engine hardcodes steps=1; this is the true path)."
+}

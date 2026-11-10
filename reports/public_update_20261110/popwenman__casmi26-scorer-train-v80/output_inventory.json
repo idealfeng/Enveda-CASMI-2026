@@ -1,0 +1,150 @@
+[
+  {
+    "name": "best_validation_model.pt",
+    "size": 943
+  },
+  {
+    "name": "config_used.json",
+    "size": 919
+  },
+  {
+    "name": "data_audit.json",
+    "size": 916
+  },
+  {
+    "name": "features.py",
+    "size": 902
+  },
+  {
+    "name": "final_model.pt",
+    "size": 913
+  },
+  {
+    "name": "last_validation_model.pt",
+    "size": 943
+  },
+  {
+    "name": "model.py",
+    "size": 893
+  },
+  {
+    "name": "refit_history.json",
+    "size": 925
+  },
+  {
+    "name": "training_history.json",
+    "size": 934
+  },
+  {
+    "name": "training_result.json",
+    "size": 931
+  },
+  {
+    "name": "validation_candidates.npz",
+    "size": 946
+  },
+  {
+    "name": "validation_predictions.csv",
+    "size": 949
+  },
+  {
+    "name": "README.txt",
+    "size": 862
+  },
+  {
+    "name": "features.cpython-313.pyc",
+    "size": 928
+  },
+  {
+    "name": "model.cpython-313.pyc",
+    "size": 919
+  },
+  {
+    "name": "prepare.cpython-313.pyc",
+    "size": 925
+  },
+  {
+    "name": "train.cpython-313.pyc",
+    "size": 920
+  },
+  {
+    "name": "best_validation_model.pt",
+    "size": 905
+  },
+  {
+    "name": "config.json",
+    "size": 866
+  },
+  {
+    "name": "data_audit.json",
+    "size": 878
+  },
+  {
+    "name": "environment.json",
+    "size": 881
+  },
+  {
+    "name": "features.py",
+    "size": 864
+  },
+  {
+    "name": "final_model.pt",
+    "size": 875
+  },
+  {
+    "name": "inference.py",
+    "size": 867
+  },
+  {
+    "name": "last_validation_model.pt",
+    "size": 905
+  },
+  {
+    "name": "model.py",
+    "size": 855
+  },
+  {
+    "name": "molecules.parquet",
+    "size": 889
+  },
+  {
+    "name": "prepare.py",
+    "size": 861
+  },
+  {
+    "name": "refit_history.json",
+    "size": 887
+  },
+  {
+    "name": "runtime_test.py",
+    "size": 876
+  },
+  {
+    "name": "sha256.json",
+    "size": 866
+  },
+  {
+    "name": "spectrum_split_manifest.parquet",
+    "size": 931
+  },
+  {
+    "name": "train.py",
+    "size": 855
+  },
+  {
+    "name": "training_history.json",
+    "size": 896
+  },
+  {
+    "name": "training_result.json",
+    "size": 893
+  },
+  {
+    "name": "validation_candidates.npz",
+    "size": 908
+  },
+  {
+    "name": "validation_predictions.csv",
+    "size": 911
+  }
+]

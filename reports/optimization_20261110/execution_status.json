@@ -1,0 +1,17 @@
+{
+  "status": "implementing_authorized_five_variants",
+  "updated_at_utc": "2026-11-10T12:28:42.329906+00:00",
+  "authorization": "User: ni zuo ba; execute the five reviewed variants",
+  "baseline_ref": 58156482,
+  "baseline_score": 0.488,
+  "planned_branches": [
+    "extlib_b_only",
+    "extlib_a_only",
+    "extlib_abe_gap_fill",
+    "extlib_abe_compete",
+    "extlib_ab_bprec_trusted"
+  ],
+  "downloads_and_artifacts_root": "D:/Paper/casmi",
+  "stage_creation_performed": false,
+  "formal_submissions_this_turn": 0
+}

@@ -1,0 +1,126 @@
+{
+  "status": "passed_bounded_read_only",
+  "user_artifacts_unchanged": true,
+  "scope": "CSV metric arithmetic + original source AST + 200 exclusion identity recheck + bounded metadata/peak sample",
+  "current_production_baseline": "58156482 / .488; not rerun by this audit",
+  "matching_reference_function_exact_ast": true,
+  "document_actual_cell_index": 24,
+  "independently_recomputed_48_mrr": {
+    "BASE": 0.857390873015873,
+    "A": 0.8628472222222222,
+    "B": 0.8782242063492064,
+    "AB": 0.8871527777777778,
+    "AB_STRICT": 0.8678075396825397
+  },
+  "source_changed_stats": {
+    "A": {
+      "changed": 3,
+      "correct": 1,
+      "changed_whole_lists_not_top1_guarded": true,
+      "invalid_or_duplicate_metric_proposal_check_implemented": false,
+      "invalid_or_duplicate_metric_proposals": 2,
+      "invalid_proposal_ids": [
+        "cross_JIZXTXDQGNQBTA",
+        "np_JYGXADMDTFJGBT"
+      ],
+      "hypothetical_same_flex48_with_production_validity_guard_mrr": 0.8732638888888888
+    },
+    "B": {
+      "changed": 9,
+      "correct": 9,
+      "changed_whole_lists_not_top1_guarded": true,
+      "invalid_or_duplicate_metric_proposal_check_implemented": false,
+      "invalid_or_duplicate_metric_proposals": 9,
+      "invalid_proposal_ids": [
+        "cross_CDUVSQMTLOYKTR",
+        "cross_VXVNYCRICCVPTD",
+        "np_AAWZDTNXLSGCEK",
+        "np_DBEPLOCGEIEOCV",
+        "np_JYGXADMDTFJGBT",
+        "np_QCHFTSOMWOSFHM",
+        "np_RXPRRQLKFXBCSJ",
+        "np_SGEWCQFRYRRZDC",
+        "np_SHIBSTMRCDJXLN"
+      ],
+      "hypothetical_same_flex48_with_production_validity_guard_mrr": 0.8573908730158729
+    },
+    "AB": {
+      "changed": 11,
+      "correct": 10,
+      "changed_whole_lists_not_top1_guarded": true,
+      "invalid_or_duplicate_metric_proposal_check_implemented": false,
+      "invalid_or_duplicate_metric_proposals": 10,
+      "invalid_proposal_ids": [
+        "cross_CDUVSQMTLOYKTR",
+        "cross_JIZXTXDQGNQBTA",
+        "cross_VXVNYCRICCVPTD",
+        "np_AAWZDTNXLSGCEK",
+        "np_DBEPLOCGEIEOCV",
+        "np_JYGXADMDTFJGBT",
+        "np_QCHFTSOMWOSFHM",
+        "np_RXPRRQLKFXBCSJ",
+        "np_SGEWCQFRYRRZDC",
+        "np_SHIBSTMRCDJXLN"
+      ],
+      "hypothetical_same_flex48_with_production_validity_guard_mrr": 0.876736111111111
+    },
+    "AB_STRICT": {
+      "changed": 10,
+      "correct": 9,
+      "changed_whole_lists_not_top1_guarded": true,
+      "invalid_or_duplicate_metric_proposal_check_implemented": false,
+      "invalid_or_duplicate_metric_proposals": 10,
+      "invalid_proposal_ids": [
+        "cross_CDUVSQMTLOYKTR",
+        "cross_JIZXTXDQGNQBTA",
+        "cross_VXVNYCRICCVPTD",
+        "np_AAWZDTNXLSGCEK",
+        "np_DBEPLOCGEIEOCV",
+        "np_JYGXADMDTFJGBT",
+        "np_QCHFTSOMWOSFHM",
+        "np_RXPRRQLKFXBCSJ",
+        "np_SGEWCQFRYRRZDC",
+        "np_SHIBSTMRCDJXLN"
+      ],
+      "hypothetical_same_flex48_with_production_validity_guard_mrr": 0.8573908730158729
+    }
+  },
+  "invalid_original_base_queries": [
+    "np_JYGXADMDTFJGBT"
+  ],
+  "exclusion": {
+    "reported_false_hits": 13,
+    "actually_same_official_identity_hits": 2,
+    "actually_wrong_official_identity_hits": 11,
+    "residual_same_identity_ids": [
+      "VXVNYCRICCVPTD",
+      "BGYJFSXPRMOZJK"
+    ]
+  },
+  "massbank_membership_format": {
+    "key_lengths": {
+      "27": 139744
+    },
+    "direct_14_to_full_matches": 0,
+    "normalized_14_prefix_matches": 0,
+    "meaning": "14-character official IDs compared to full publisher InChIKeys is a format error; even prefix matching is not official-tautomer membership"
+  },
+  "candidate_pool_file_rows": {
+    "train_structs.parquet": 275810,
+    "pool_meta.parquet": 710701
+  },
+  "enveda_bounded_signature_check": {
+    "rows": 4096,
+    "publisher_unique": 4096,
+    "independent_content_unique": 4096,
+    "duplicate_content_groups": 0,
+    "duplicate_extra_rows": 0,
+    "first_signature_examples": [
+      "8a7034e288ba30e24c84f5f7b6bed2635310b0c001e375d0abc7fdaf17d64040",
+      "67ea5d31c75347a33c02a2e5bc501c65cd0be9c70e5f88d4f3744bccde20dc49",
+      "0e2526a4aa637c4056a40d36b5494ee5956f4629fd75df0784168120fafa3a41"
+    ],
+    "exact_check": "sorted finite positive peaks; float32 basepeak intensity normalization; exact neutral mass/adduct",
+    "scope": "first4096 only, not full spectrum or train-reference overlap audit"
+  }
+}

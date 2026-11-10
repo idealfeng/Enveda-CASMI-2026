@@ -1,0 +1,397 @@
+{
+  "step": "q4_smallscale_upper_bound",
+  "scope": "Flex48 V0 base + derive recovery promoted to rank-1 (best case)",
+  "molecules": 48,
+  "recovered_queries": 12,
+  "promoted_queries": 1,
+  "base_mrr": 0.8574,
+  "gen_mrr_upper_bound": 0.8782,
+  "mrr_delta": 0.0208,
+  "note": "UPPER BOUND: assumes every recovered structure is promoted to rank-1. The real LightGBM ranker would place generated candidates by score, not necessarily rank-1.",
+  "rows": [
+    {
+      "molecule_id": "cross_CBIAKDAYHRWZCU",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "cross_CDUVSQMTLOYKTR",
+      "base_rank": 2,
+      "recovered": true,
+      "promoted": false,
+      "base_mrr": 0.5,
+      "gen_mrr": 0.5
+    },
+    {
+      "molecule_id": "cross_DKZBBWMURDFHNE",
+      "base_rank": 1,
+      "recovered": true,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "cross_DWVXZQVYILJCJH",
+      "base_rank": 4,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 0.25,
+      "gen_mrr": 0.25
+    },
+    {
+      "molecule_id": "cross_FWXUWWAXYNCZAY",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "cross_GFZLFKCEWJJEFW",
+      "base_rank": null,
+      "recovered": true,
+      "promoted": true,
+      "base_mrr": 0.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "cross_HPXGRJSGVYZSBD",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "cross_IYODIJVWGPRBGQ",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "cross_JIZXTXDQGNQBTA",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "cross_KAQOTUWFZPIKLZ",
+      "base_rank": 2,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 0.5,
+      "gen_mrr": 0.5
+    },
+    {
+      "molecule_id": "cross_MZNCWPOVMBLUSG",
+      "base_rank": null,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 0.0,
+      "gen_mrr": 0.0
+    },
+    {
+      "molecule_id": "cross_NOFOAYPPHIUXJR",
+      "base_rank": 14,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 0.0714,
+      "gen_mrr": 0.0714
+    },
+    {
+      "molecule_id": "cross_NQHGQOVKJGGLKE",
+      "base_rank": 2,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 0.5,
+      "gen_mrr": 0.5
+    },
+    {
+      "molecule_id": "cross_OTGQIQQTPXJQRG",
+      "base_rank": 1,
+      "recovered": true,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "cross_QNUNSPMEODRLBZ",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "cross_SRNDKRJFBMZBCK",
+      "base_rank": 1,
+      "recovered": true,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "cross_VJLSQJBXDSKTLG",
+      "base_rank": 1,
+      "recovered": true,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "cross_VXVNYCRICCVPTD",
+      "base_rank": 2,
+      "recovered": true,
+      "promoted": false,
+      "base_mrr": 0.5,
+      "gen_mrr": 0.5
+    },
+    {
+      "molecule_id": "cross_WDRYRZXSPDWGEB",
+      "base_rank": 1,
+      "recovered": true,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "cross_WIOKWEJDRXNVSH",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "cross_XSOKPIZATJBJPO",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "cross_YFJYOZDIJVHPAU",
+      "base_rank": 3,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 0.3333,
+      "gen_mrr": 0.3333
+    },
+    {
+      "molecule_id": "np_AAWZDTNXLSGCEK",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_ACNHBCIZLNNLRS",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_CEUORZQYGODEFX",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_CTRLABGOLIVAIY",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_DBEPLOCGEIEOCV",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_DOFJNFPSMUCECH",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_DOUMFZQKYFQNTF",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_DUXQKCCELUKXOE",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_FELGMEQIXOGIFQ",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_FFGPTBGBLSHEPO",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_GZSOSUNBTXMUFQ",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_HELXLJCILKEWJH",
+      "base_rank": 1,
+      "recovered": true,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_HSMPDPBYAYSOBC",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_HUSISCNTLUEZCN",
+      "base_rank": 1,
+      "recovered": true,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_JYGXADMDTFJGBT",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_MBRLOUHOWLUMFF",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_QCHFTSOMWOSFHM",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_RFDAIACWWDREDC",
+      "base_rank": 2,
+      "recovered": true,
+      "promoted": false,
+      "base_mrr": 0.5,
+      "gen_mrr": 0.5
+    },
+    {
+      "molecule_id": "np_RXPRRQLKFXBCSJ",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_RZGFUGXQKMEMOO",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_SGEWCQFRYRRZDC",
+      "base_rank": 1,
+      "recovered": true,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_SHIBSTMRCDJXLN",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_URFCJEUYXNAHFI",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    },
+    {
+      "molecule_id": "np_XKLMZUWKNUAPSZ",
+      "base_rank": 1,
+      "recovered": false,
+      "promoted": false,
+      "base_mrr": 1.0,
+      "gen_mrr": 1.0
+    }
+  ]
+}

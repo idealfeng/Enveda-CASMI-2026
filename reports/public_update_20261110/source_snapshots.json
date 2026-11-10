@@ -1,0 +1,198 @@
+{
+  "results": [
+    {
+      "ref": "heliosli/casmi26-0-488",
+      "title": "casmi26-0.488",
+      "current_version_number": 1,
+      "last_run_time": "2026-11-07 12:11:31.687000",
+      "dataset_data_sources": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "sanpier/casmi-spectrum-model-v1",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "sanpier/catalogue-experiment-saner"
+      ],
+      "kernel_data_sources": [],
+      "enable_gpu": true,
+      "enable_internet": false,
+      "is_private": false,
+      "source_sha256": "0848adfa1628233ddeafd4912583e45b87e2e1c45876d19d8df74d879fa8c25d",
+      "source_bytes": 739560,
+      "source_path": "reports\\public_update_20261110\\heliosli__casmi26-0-488\\source.ipynb"
+    },
+    {
+      "ref": "alexchilton/casmi26-lb-0-487-peaks-to-structures-scorer",
+      "title": "CASMI26 LB 0.487 | Peaks to Structures + Scorer",
+      "current_version_number": 13,
+      "last_run_time": "2026-11-07 12:11:31.046000",
+      "dataset_data_sources": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "takumuhata/casmi26-extlib",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_data_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
+      "enable_gpu": true,
+      "enable_internet": false,
+      "is_private": false,
+      "source_sha256": "380e2c820c2a47cfad268b75cdd0dfc564350b599b9b052a1915d292987113c5",
+      "source_bytes": 811698,
+      "source_path": "reports\\public_update_20261110\\alexchilton__casmi26-lb-0-487-peaks-to-structures-scorer\\source.ipynb"
+    },
+    {
+      "ref": "zz3t3rn41/casmi26-peaks-to-structures-v2",
+      "title": "casmi26-peaks-to-structures-v2",
+      "current_version_number": 45,
+      "last_run_time": "2026-11-07 12:11:31.228000",
+      "dataset_data_sources": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "bgunshui/casmi26-scorer-v2-model",
+        "takumuhata/casmi26-extlib",
+        "bgunshui/casmi26-scorer-v8-model",
+        "sanpier/catalogue-experiment-saner",
+        "qwertykeypadapple/casmi26-lotus-candidates",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_data_sources": [],
+      "enable_gpu": true,
+      "enable_internet": false,
+      "is_private": false,
+      "source_sha256": "f081172548135e7d40b5a19feb87b307e1f62cfdf45146e5bed73f446b7a7b33",
+      "source_bytes": 811502,
+      "source_path": "reports\\public_update_20261110\\zz3t3rn41__casmi26-peaks-to-structures-v2\\source.ipynb"
+    },
+    {
+      "ref": "avazaku/casmi26-evidence-lab",
+      "title": "CASMI26 Evidence Lab",
+      "current_version_number": 7,
+      "last_run_time": "2026-11-07 12:11:32.781000",
+      "dataset_data_sources": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "takumuhata/casmi26-extlib",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_data_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
+      "enable_gpu": false,
+      "enable_internet": false,
+      "is_private": false,
+      "source_sha256": "da543b3dc26c31d71486afb6934dee3af7830f7736fe9144fc6ddd4caa73267d",
+      "source_bytes": 502386,
+      "source_path": "reports\\public_update_20261110\\avazaku__casmi26-evidence-lab\\source.ipynb"
+    },
+    {
+      "ref": "guhongbin/casmi26-v591-massbank-only",
+      "title": "casmi26 v591 massbank only",
+      "current_version_number": 1,
+      "last_run_time": "2026-11-07 12:11:33.840000",
+      "dataset_data_sources": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_data_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
+      "enable_gpu": true,
+      "enable_internet": false,
+      "is_private": false,
+      "source_sha256": "5ca30854be8f92e84a1510996ba71504537b849d3e7e2e77fd7c50ae2c1bf69c",
+      "source_bytes": 810963,
+      "source_path": "reports\\public_update_20261110\\guhongbin__casmi26-v591-massbank-only\\source.ipynb"
+    },
+    {
+      "ref": "guhongbin/casmi26-v593-kpeaks3",
+      "title": "casmi26 v593 kpeaks3",
+      "current_version_number": 1,
+      "last_run_time": "2026-11-07 12:11:34.228000",
+      "dataset_data_sources": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "takumuhata/casmi26-extlib",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_data_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
+      "enable_gpu": true,
+      "enable_internet": false,
+      "is_private": false,
+      "source_sha256": "0c5370c235cb11e83ce4fddbb26328174fd0885d16577b377f35a78dd329de2b",
+      "source_bytes": 810963,
+      "source_path": "reports\\public_update_20261110\\guhongbin__casmi26-v593-kpeaks3\\source.ipynb"
+    },
+    {
+      "ref": "pablodiegoo/enveda-casmi26-starter-notebook",
+      "title": "Enveda CASMI26 Starter Notebook",
+      "current_version_number": 14,
+      "last_run_time": "2026-11-07 12:11:35.311000",
+      "dataset_data_sources": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "prvsiyan/casmi26-self-trained-scorer-seeds",
+        "takumuhata/casmi26-extlib",
+        "sanpier/catalogue-experiment-saner",
+        "qwertykeypadapple/casmi26-lotus-candidates",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_data_sources": [
+        "alexchilton/casmi26-scorer-train-v80"
+      ],
+      "enable_gpu": true,
+      "enable_internet": false,
+      "is_private": false,
+      "source_sha256": "fed994052414f5ef83314f6a868731f175723c0f8ce260545f1c68a4f3253603",
+      "source_bytes": 680966,
+      "source_path": "reports\\public_update_20261110\\pablodiegoo__enveda-casmi26-starter-notebook\\source.ipynb"
+    }
+  ],
+  "read_only": true,
+  "executed": false
+}

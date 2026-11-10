@@ -1,5 +1,7 @@
 # CASMI26 冲银牌作战计划
 
+2026-11-10审阅更新：昨日真实结果为`.482/.482/.482/.484/.488`，**58156482=.488**为最佳；相对精确.482父版本，增加实测两库匹配的成组收益为**+.006**。今天API剩余5次。用户交付的`produre1/2`已经独审，发现外库归因遗漏正式身份guard、生成Q4使用truth的oracle上界等差异，不直接采用其数字作榜分预期。今日规划五版：**MassBank-only、Takumu-only、AB+Enveda补缺、AB+Enveda竞争、AB可信前体修复**；尚未创建或提交今日新版本。原.488及用户原件保留，先完成单因素实现与实际路径核验。[完整规划](reports/SUBMISSION_PLAN_2026-11-10.md)、[提升记录](reports/IMPROVEMENT_LEDGER.md)、[线上复核](reports/optimization_20261110/initial_live_status.json)。
+
 2026-11-09 15:37（北京时间）执行更新：今日5个不同机制分支的源码/权重/配方已冻结且通过本地实际推理与独审。**58155921（前3保护）、58155938（原v2mean消融）已正式接受/PENDING**；新同式head和Alex外库复现的云V1排队，原0.482仅追加外库版等待空槽。后台按最多2个未完成云运行自动核验并单次提交剩余分支；当前仍最佳0.482，无新榜分。只读查分同步将新个人最佳写入提升记录，30项隔离检查通过。提交调度/记录更新需要本机运行；已接受的Kaggle评分可独立继续。[最新状态](reports/optimization_20261109/latest_status.json)、[调度状态](reports/optimization_20261109/batch_dispatcher_status.json)、[本批说明](reports/OPTIMIZATION_BATCH_2026-11-09.md)。
 
 2026-11-09 15:08（北京时间）官方 API 已确认 **58129661 / guarded head tail 1108 V1 = 0.482、COMPLETE、无错误**，超过旧 MASS 0.481；今天 0/5 已用，5 次可用。新默认锚点为该固定版本。提升改动是原 MASS 完整运行后，固定前 7 名，仅用 v2 双 head 对第 8–25 名同式候选原槽位重排；尚未拆分训练增量与晚接入原 v2 的收益。用户要求每次提升记录来源，统一维护 [提升记录](reports/IMPROVEMENT_LEDGER.md) 与 [机器可读记录](reports/improvement_ledger.json)。今日范围对照、新同式残差目标训练和近期公开方案核查并行；未核实的新标题分数不能当复现结果。

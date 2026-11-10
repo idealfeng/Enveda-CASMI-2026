@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_beijing": "2026-11-09 20:42",
+  "updated_at_beijing": "2026-11-10 20:11",
   "metric": "Kaggle displayed public MRR@25",
   "current_best": 0.488,
   "records": [
@@ -259,7 +259,21 @@
         ]
       },
       "private_gain_verified": false,
-      "evidence": "reports/optimization_20261109/mass_guarded_extlib/score.json"
+      "evidence": "reports/optimization_20261109/mass_guarded_extlib/score.json",
+      "paired_comparison": {
+        "parent_ref": 58129661,
+        "parent_score": 0.482,
+        "current_score": 0.488,
+        "displayed_delta": 0.006,
+        "source": "late measured-library overlay plus official identity validity guard; exact original 32 cells preserved"
+      },
+      "global_best_step_displayed_delta": 0.004,
+      "next_tests": [
+        "same-parent guarded Takumu-only",
+        "same-parent guarded MassBank-only",
+        "Enveda180 measured reference increment"
+      ]
     }
-  ]
+  ],
+  "latest_api_reverification": "reports/optimization_20261110/initial_live_status.json"
 }

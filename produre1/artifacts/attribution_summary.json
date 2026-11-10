@@ -1,0 +1,219 @@
+{
+  "created_by": "produre1/attribution.py",
+  "scope": "48-query dev panel (reference-isolated diagnostic, known pretrained exposure)",
+  "base_source": "runs/validation_flex_c2_20261105d/baseline_submission.csv",
+  "truth_source": "runs/validation_pilot_v2_20261104/truth.csv",
+  "library_sha": {
+    "ext_meta": "9b0c2d675612580a4aedbdd3c8891d046fdf864b0805aaef852acc6653f7d37f",
+    "ext_mass": "e82a878f3e9f4d19067199d1376231b1663a83d08c512ba8e03d6ae88b7af12e",
+    "ext_mz": "a14f750d46bfca4176110d1a83cc3562944a3ca1e3f1344c94141f6d8d85fad5",
+    "ext_in": "e47b359f27d0aacda22f7ef47f8f60f7912136027d70d2bc915890a8d51be841",
+    "spectra": "6ebb46b32ddd344d988c3bdb90e7160d4ce46e6d0b900a1217607aa2234c9477"
+  },
+  "ranking_constants": {
+    "TAU": 0.8,
+    "K_PEAKS": 4,
+    "LIB_TAU": 0.9,
+    "fragment_da": 0.015,
+    "precursor_ppm": 1e-05,
+    "precursor_da": 0.002
+  },
+  "composition": {
+    "refs_total": 324884,
+    "A": 200724,
+    "B": 124160,
+    "A_keys": 151338,
+    "A_adduct_top": [
+      [
+        "[M+H]+",
+        103493
+      ],
+      [
+        "[M+NH4]+",
+        43814
+      ],
+      [
+        "[M+Na]+",
+        24601
+      ],
+      [
+        "[M+H-H2O]+",
+        21985
+      ],
+      [
+        "[M-H]-",
+        2621
+      ],
+      [
+        "[M-2H2O+H]+",
+        1748
+      ],
+      [
+        "[M+K]+",
+        674
+      ],
+      [
+        "[M+CH2O2-H]-",
+        382
+      ],
+      [
+        "[M+CH3COOH-H]-",
+        331
+      ],
+      [
+        "[M+CH3COO]-",
+        168
+      ],
+      [
+        "[M]+*",
+        154
+      ],
+      [
+        "[M+HCOO]-",
+        152
+      ]
+    ],
+    "B_adduct_top": [
+      [
+        "[M+H]+",
+        64908
+      ],
+      [
+        "[M-H]-",
+        27704
+      ],
+      [
+        "None",
+        24076
+      ],
+      [
+        "[M]+",
+        2091
+      ],
+      [
+        "[M+HCOO]-",
+        1098
+      ],
+      [
+        "[M+Na]+",
+        751
+      ],
+      [
+        "[M+CH3COOH-H]-",
+        590
+      ],
+      [
+        "[M+CH3COO]-",
+        584
+      ],
+      [
+        "[M+CH3COO]-/[M-CH3]-",
+        507
+      ],
+      [
+        "[M+NH4]+",
+        329
+      ],
+      [
+        "[M-2H]-",
+        304
+      ],
+      [
+        "[M-H2O+H]+",
+        291
+      ]
+    ]
+  },
+  "results": {
+    "BASE": {
+      "metrics": {
+        "mrr": 0.857390873015873,
+        "top1": 0.7916666666666666,
+        "top5": 0.9375,
+        "top25": 0.9583333333333334
+      },
+      "molecules": 48,
+      "promoted": 0,
+      "promoted_correct": 0,
+      "promoted_incorrect": 0,
+      "promotion_precision": null,
+      "false_promotion_rate": null
+    },
+    "A": {
+      "metrics": {
+        "mrr": 0.8628472222222223,
+        "top1": 0.7916666666666666,
+        "top5": 0.9583333333333334,
+        "top25": 0.9583333333333334
+      },
+      "molecules": 48,
+      "promoted": 3,
+      "promoted_correct": 1,
+      "promoted_incorrect": 2,
+      "promotion_precision": 0.3333333333333333,
+      "false_promotion_rate": 0.6666666666666666
+    },
+    "B": {
+      "metrics": {
+        "mrr": 0.8782242063492064,
+        "top1": 0.8333333333333334,
+        "top5": 0.9375,
+        "top25": 0.9583333333333334
+      },
+      "molecules": 48,
+      "promoted": 9,
+      "promoted_correct": 9,
+      "promoted_incorrect": 0,
+      "promotion_precision": 1.0,
+      "false_promotion_rate": 0.0
+    },
+    "AB": {
+      "metrics": {
+        "mrr": 0.8871527777777778,
+        "top1": 0.8333333333333334,
+        "top5": 0.9583333333333334,
+        "top25": 0.9583333333333334
+      },
+      "molecules": 48,
+      "promoted": 11,
+      "promoted_correct": 10,
+      "promoted_incorrect": 1,
+      "promotion_precision": 0.9090909090909091,
+      "false_promotion_rate": 0.09090909090909091
+    },
+    "AB_STRICT": {
+      "metrics": {
+        "mrr": 0.8678075396825397,
+        "top1": 0.8125,
+        "top5": 0.9375,
+        "top25": 0.9583333333333334
+      },
+      "molecules": 48,
+      "promoted": 10,
+      "promoted_correct": 9,
+      "promoted_incorrect": 1,
+      "promotion_precision": 0.9,
+      "false_promotion_rate": 0.1
+    }
+  },
+  "deltas": {
+    "A": 0.005456,
+    "B": 0.020833,
+    "AB": 0.029762,
+    "AB_STRICT": 0.010417,
+    "interaction_AB": 0.003472
+  },
+  "ab_conflict": {
+    "both_hit": 1,
+    "conflict_queries": 1,
+    "conflict_ids": [
+      "np_RFDAIACWWDREDC"
+    ]
+  },
+  "caveats": [
+    "Base is the Flex48 V0 diagnostic ranking, NOT the 0.482 MASS hidden output.",
+    "Public-pretrained exposure; not clean generalization.",
+    "Promotion precision is against the 48 dev truths only.",
+    "AB_STRICT uses exact adduct string equality, a strict proxy."
+  ]
+}

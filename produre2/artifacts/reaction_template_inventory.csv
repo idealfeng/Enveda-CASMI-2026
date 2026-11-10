@@ -1,0 +1,47 @@
+template_name,reaction_smarts,formula_delta,exact_mass_delta,reaction_category,whether_single_step,whether_used_in_current_pipeline
+demalonyl,[O:1]C(=O)CC(=O)O>>[O:1],C-3 H-2 O-3,-86.000394,acetylation/deacetylation,True,True
+deacetyl_O,[O:1]C(=O)[CH3]>>[O:1],C-2 H-2 O-1,-42.010565,acetylation/deacetylation,True,True
+acetyl_O,[O;H1;!$(OC=O):1]>>[O:1]C(C)=O,C2 H2 O1,42.010565,acetylation/deacetylation,True,True
+acetyl_N,"[N;H1,H2;!$(NC=O):1]>>[N:1]C(C)=O",C2 H2 O1,42.010565,acetylation/deacetylation,True,True
+malonyl_O,[O;H1;!$(OC=O):1]>>[O:1]C(=O)CC(=O)O,C3 H2 O3,86.000394,acetylation/deacetylation,True,True
+decarboxyl,"[C,c:1]C(=O)[OH]>>[C,c:1]",C-1 O-2,-43.989829,decarboxylation,True,True
+dehydroxyl_arom,[c:1][OH]>>[c:1],O-1,-15.994915,dehydroxylation,True,True
+dehydroxyl_aliph,[C;!$(C=O):1][OH]>>[C:1],O-1,-15.994915,dehydroxylation,True,True
+demethoxy,[c:1]O[CH3]>>[c:1],C-1 H-2 O-1,-30.010565,demethoxylation,True,True
+demethyl_O,[O:1][CH3]>>[O:1],C-1 H-2,-14.01565,demethylation,True,True
+demethyl_N,[N:1][CH3]>>[N:1],C-1 H-2,-14.01565,demethylation,True,True
+dehexose,[O:1]C1OC(CO)C(O)C(O)C1O>>[O:1],C-6 H-10 O-5,-162.052823,glycosylation/deglycosylation,True,True
+dehexose2,[O:1]C1OC(CO)C(O)C(O)C1O>>[O:1],C-6 H-10 O-5,-162.052823,glycosylation/deglycosylation,True,True
+dedeoxyhexose,[O:1]C1OC(C)C(O)C(O)C1O>>[O:1],C-6 H-10 O-4,-146.057909,glycosylation/deglycosylation,True,True
+depentose,[O:1]C1OCC(O)C(O)C1O>>[O:1],C-5 H-8 O-4,-132.042259,glycosylation/deglycosylation,True,True
+pentose_O,[O;H1;!$(OC=O):1]>>[O:1]C1OCC(O)C(O)C1O,C5 H8 O4,132.042259,glycosylation/deglycosylation,True,True
+deoxyhexose_O,[O;H1;!$(OC=O):1]>>[O:1]C1OC(C)C(O)C(O)C1O,C6 H10 O4,146.057909,glycosylation/deglycosylation,True,True
+hexose_O,[O;H1;!$(OC=O):1]>>[O:1]C1OC(CO)C(O)C(O)C1O,C6 H10 O5,162.052823,glycosylation/deglycosylation,True,True
+hexose_C,[c;H1:1]>>[c:1]C1OC(CO)C(O)C(O)C1O,C6 H10 O5,162.052823,glycosylation/deglycosylation,True,True
+glucuronyl_O,[O;H1;!$(OC=O):1]>>[O:1]C1OC(C(=O)O)C(O)C(O)C1O,C6 H8 O6,176.032088,glycosylation/deglycosylation,True,True
+dehydrogenate,"[C;H1,H2:1][C;H1,H2:2]>>[C:1]=[C:2]",H-2,-2.01565,hydrogenation/dehydrogenation,True,True
+hydrogenate_CC,[C:1]=[C:2]>>[C:1][C:2],H2,2.01565,hydrogenation/dehydrogenation,True,True
+hydrogenate_CO,[C:1]=[O:2]>>[C:1][O:2],H2,2.01565,hydrogenation/dehydrogenation,True,True
+oxidize_CHOH,[C;H1:1][O;H1:2]>>[C:1]=[O:2],H-2,-2.01565,hydroxylation/oxidation,True,True
+hydroxyl_arom,[c;H1:1]>>[c:1]O,O1,15.994915,hydroxylation/oxidation,True,True
+hydroxyl_aliph,"[C;H2,H3;!$(C=O):1]>>[C:1]O",O1,15.994915,hydroxylation/oxidation,True,True
+hydroxyl_ch,[C;H1;!$(C=O):1]>>[C:1]O,O1,15.994915,hydroxylation/oxidation,True,True
+carboxyl_CH3,[C;H3:1]>>[C:1](=O)O,O2,31.989829,hydroxylation/oxidation,True,True
+carboxyl_c,[c;H1:1]>>[c:1]C(=O)O,C1 O2,43.989829,hydroxylation/oxidation,True,True
+methyl_O,[O;H1;!$(OC=O):1]>>[O:1]C,C1 H2,14.01565,methylation/methoxylation,True,True
+methyl_N,"[N;H1,H2:1]>>[N:1]C",C1 H2,14.01565,methylation/methoxylation,True,True
+methyl_c,[c;H1:1]>>[c:1]C,C1 H2,14.01565,methylation/methoxylation,True,True
+ethyl_O,[O;H1;!$(OC=O):1]>>[O:1]CC,C2 H4,28.0313,methylation/methoxylation,True,True
+methoxy_arom,[c;H1:1]>>[c:1]OC,C1 H2 O1,30.010565,methylation/methoxylation,True,True
+deprenyl,[c:1]CC=C(C)C>>[c:1],C-5 H-8,-68.0626,other,True,True
+amine_c,[c;H1:1]>>[c:1]N,H1 N1,15.010899,other,True,True
+chloro_c,[c;H1:1]>>[c:1]Cl,Cl1 H-1,33.961028,other,True,True
+prenyl_c,[c;H1:1]>>[c:1]CC=C(C)C,C5 H8,68.0626,other,True,True
+prenyl_O,[O;H1;!$(OC=O):1]>>[O:1]CC=C(C)C,C5 H8,68.0626,other,True,True
+benzoyl_O,[O;H1;!$(OC=O):1]>>[O:1]C(=O)c1ccccc1,C7 H4 O1,104.026215,other,True,True
+coumaroyl_O,[O;H1;!$(OC=O):1]>>[O:1]C(=O)C=Cc1ccc(O)cc1,C9 H6 O2,146.036779,other,True,True
+galloyl_O,[O;H1;!$(OC=O):1]>>[O:1]C(=O)c1cc(O)c(O)c(O)c1,C7 H4 O4,152.010959,other,True,True
+caffeoyl_O,[O;H1;!$(OC=O):1]>>[O:1]C(=O)C=Cc1ccc(O)c(O)c1,C9 H6 O3,162.031694,other,True,True
+feruloyl_O,[O;H1;!$(OC=O):1]>>[O:1]C(=O)C=Cc1ccc(O)c(OC)c1,C10 H8 O3,176.047344,other,True,True
+desulfate,[O:1]S(=O)(=O)O>>[O:1],O-3 S-1,-79.956815,sulfation/desulfation,True,True
+sulfate_O,[O;H1;!$(OC=O):1]>>[O:1]S(=O)(=O)O,O3 S1,79.956815,sulfation/desulfation,True,True

@@ -1,0 +1,2097 @@
+{
+  "step": "q3_single_factor_ablation",
+  "scope": "paired single-factor ablation on the REAL spectral-analog generate path (truth key excluded), 48 dev queries",
+  "queries": 48,
+  "coverage": {
+    "base_transf(n6_sim0.3_tol0.004_step2_all)": 0.375,
+    "n_analog=3": 0.2708,
+    "n_analog=12": 0.4167,
+    "min_sim=0.1": 0.375,
+    "min_sim=0.5": 0.3333,
+    "tol=0.002": 0.375,
+    "tol=0.010": 0.375,
+    "max_steps=1": 0.2708,
+    "additions_only": 0.1875,
+    "removals_only": 0.2292
+  },
+  "recovered_counts": {
+    "base_transf(n6_sim0.3_tol0.004_step2_all)": 18,
+    "n_analog=3": 13,
+    "n_analog=12": 20,
+    "min_sim=0.1": 18,
+    "min_sim=0.5": 16,
+    "tol=0.002": 18,
+    "tol=0.010": 18,
+    "max_steps=1": 13,
+    "additions_only": 9,
+    "removals_only": 11
+  },
+  "elapsed_s": 86.9,
+  "per_query": [
+    {
+      "molecule_id": "cross_CBIAKDAYHRWZCU",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 23,
+        "recovered": true
+      },
+      "n_analog=3": {
+        "n_gen": 23,
+        "recovered": true
+      },
+      "n_analog=12": {
+        "n_gen": 41,
+        "recovered": true
+      },
+      "min_sim=0.1": {
+        "n_gen": 23,
+        "recovered": true
+      },
+      "min_sim=0.5": {
+        "n_gen": 23,
+        "recovered": true
+      },
+      "tol=0.002": {
+        "n_gen": 23,
+        "recovered": true
+      },
+      "tol=0.010": {
+        "n_gen": 23,
+        "recovered": true
+      },
+      "max_steps=1": {
+        "n_gen": 9,
+        "recovered": true
+      },
+      "additions_only": {
+        "n_gen": 9,
+        "recovered": true
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_CDUVSQMTLOYKTR",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 130,
+        "recovered": true
+      },
+      "n_analog=3": {
+        "n_gen": 110,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 132,
+        "recovered": true
+      },
+      "min_sim=0.1": {
+        "n_gen": 130,
+        "recovered": true
+      },
+      "min_sim=0.5": {
+        "n_gen": 130,
+        "recovered": true
+      },
+      "tol=0.002": {
+        "n_gen": 130,
+        "recovered": true
+      },
+      "tol=0.010": {
+        "n_gen": 130,
+        "recovered": true
+      },
+      "max_steps=1": {
+        "n_gen": 20,
+        "recovered": true
+      },
+      "additions_only": {
+        "n_gen": 130,
+        "recovered": true
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_DKZBBWMURDFHNE",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 1,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 2,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 1,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 1,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 1,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 1,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 1,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_DWVXZQVYILJCJH",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 1,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_FWXUWWAXYNCZAY",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 2,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 2,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 2,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 2,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 2,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 2,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 2,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 2,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 2,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_GFZLFKCEWJJEFW",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_HPXGRJSGVYZSBD",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_IYODIJVWGPRBGQ",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_JIZXTXDQGNQBTA",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 7,
+        "recovered": true
+      },
+      "n_analog=3": {
+        "n_gen": 7,
+        "recovered": true
+      },
+      "n_analog=12": {
+        "n_gen": 8,
+        "recovered": true
+      },
+      "min_sim=0.1": {
+        "n_gen": 7,
+        "recovered": true
+      },
+      "min_sim=0.5": {
+        "n_gen": 7,
+        "recovered": true
+      },
+      "tol=0.002": {
+        "n_gen": 7,
+        "recovered": true
+      },
+      "tol=0.010": {
+        "n_gen": 7,
+        "recovered": true
+      },
+      "max_steps=1": {
+        "n_gen": 7,
+        "recovered": true
+      },
+      "additions_only": {
+        "n_gen": 5,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 3,
+        "recovered": true
+      }
+    },
+    {
+      "molecule_id": "cross_KAQOTUWFZPIKLZ",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_MZNCWPOVMBLUSG",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_NOFOAYPPHIUXJR",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 6,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 6,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 8,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 6,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 6,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 6,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 6,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 3,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 6,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_NQHGQOVKJGGLKE",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 1,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 2,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 1,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 1,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 1,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 1,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 1,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 1,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_OTGQIQQTPXJQRG",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 23,
+        "recovered": true
+      },
+      "n_analog=3": {
+        "n_gen": 6,
+        "recovered": true
+      },
+      "n_analog=12": {
+        "n_gen": 23,
+        "recovered": true
+      },
+      "min_sim=0.1": {
+        "n_gen": 23,
+        "recovered": true
+      },
+      "min_sim=0.5": {
+        "n_gen": 23,
+        "recovered": true
+      },
+      "tol=0.002": {
+        "n_gen": 23,
+        "recovered": true
+      },
+      "tol=0.010": {
+        "n_gen": 23,
+        "recovered": true
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 23,
+        "recovered": true
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_QNUNSPMEODRLBZ",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 24,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 24,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 24,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 24,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 24,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 24,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_SRNDKRJFBMZBCK",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 1,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_VJLSQJBXDSKTLG",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 3,
+        "recovered": true
+      },
+      "n_analog=3": {
+        "n_gen": 1,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 3,
+        "recovered": true
+      },
+      "min_sim=0.1": {
+        "n_gen": 3,
+        "recovered": true
+      },
+      "min_sim=0.5": {
+        "n_gen": 1,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 3,
+        "recovered": true
+      },
+      "tol=0.010": {
+        "n_gen": 3,
+        "recovered": true
+      },
+      "max_steps=1": {
+        "n_gen": 1,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 3,
+        "recovered": true
+      }
+    },
+    {
+      "molecule_id": "cross_VXVNYCRICCVPTD",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 9,
+        "recovered": true
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_WDRYRZXSPDWGEB",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 9,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 14,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_WIOKWEJDRXNVSH",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_XSOKPIZATJBJPO",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "cross_YFJYOZDIJVHPAU",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 16,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "np_AAWZDTNXLSGCEK",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "np_ACNHBCIZLNNLRS",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 6,
+        "recovered": true
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "np_CEUORZQYGODEFX",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "np_CTRLABGOLIVAIY",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "min_sim=0.1": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "min_sim=0.5": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "tol=0.002": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "tol=0.010": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 1,
+        "recovered": true
+      }
+    },
+    {
+      "molecule_id": "np_DBEPLOCGEIEOCV",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "np_DOFJNFPSMUCECH",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 23,
+        "recovered": true
+      },
+      "n_analog=3": {
+        "n_gen": 8,
+        "recovered": true
+      },
+      "n_analog=12": {
+        "n_gen": 68,
+        "recovered": true
+      },
+      "min_sim=0.1": {
+        "n_gen": 23,
+        "recovered": true
+      },
+      "min_sim=0.5": {
+        "n_gen": 23,
+        "recovered": true
+      },
+      "tol=0.002": {
+        "n_gen": 23,
+        "recovered": true
+      },
+      "tol=0.010": {
+        "n_gen": 23,
+        "recovered": true
+      },
+      "max_steps=1": {
+        "n_gen": 6,
+        "recovered": true
+      },
+      "additions_only": {
+        "n_gen": 15,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 8,
+        "recovered": true
+      }
+    },
+    {
+      "molecule_id": "np_DOUMFZQKYFQNTF",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "n_analog=3": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "n_analog=12": {
+        "n_gen": 9,
+        "recovered": true
+      },
+      "min_sim=0.1": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "min_sim=0.5": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "tol=0.002": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "tol=0.010": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "max_steps=1": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 1,
+        "recovered": true
+      }
+    },
+    {
+      "molecule_id": "np_DUXQKCCELUKXOE",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 114,
+        "recovered": true
+      },
+      "n_analog=3": {
+        "n_gen": 37,
+        "recovered": true
+      },
+      "n_analog=12": {
+        "n_gen": 150,
+        "recovered": true
+      },
+      "min_sim=0.1": {
+        "n_gen": 114,
+        "recovered": true
+      },
+      "min_sim=0.5": {
+        "n_gen": 114,
+        "recovered": true
+      },
+      "tol=0.002": {
+        "n_gen": 114,
+        "recovered": true
+      },
+      "tol=0.010": {
+        "n_gen": 114,
+        "recovered": true
+      },
+      "max_steps=1": {
+        "n_gen": 3,
+        "recovered": true
+      },
+      "additions_only": {
+        "n_gen": 43,
+        "recovered": true
+      },
+      "removals_only": {
+        "n_gen": 37,
+        "recovered": true
+      }
+    },
+    {
+      "molecule_id": "np_FELGMEQIXOGIFQ",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "np_FFGPTBGBLSHEPO",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "n_analog=3": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "n_analog=12": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "min_sim=0.1": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "min_sim=0.5": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "tol=0.002": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "tol=0.010": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 1,
+        "recovered": true
+      }
+    },
+    {
+      "molecule_id": "np_GZSOSUNBTXMUFQ",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 147,
+        "recovered": true
+      },
+      "n_analog=3": {
+        "n_gen": 78,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 150,
+        "recovered": true
+      },
+      "min_sim=0.1": {
+        "n_gen": 147,
+        "recovered": true
+      },
+      "min_sim=0.5": {
+        "n_gen": 147,
+        "recovered": true
+      },
+      "tol=0.002": {
+        "n_gen": 147,
+        "recovered": true
+      },
+      "tol=0.010": {
+        "n_gen": 147,
+        "recovered": true
+      },
+      "max_steps=1": {
+        "n_gen": 26,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 17,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 62,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "np_HELXLJCILKEWJH",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 150,
+        "recovered": true
+      },
+      "n_analog=3": {
+        "n_gen": 60,
+        "recovered": true
+      },
+      "n_analog=12": {
+        "n_gen": 150,
+        "recovered": true
+      },
+      "min_sim=0.1": {
+        "n_gen": 150,
+        "recovered": true
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 150,
+        "recovered": true
+      },
+      "tol=0.010": {
+        "n_gen": 150,
+        "recovered": true
+      },
+      "max_steps=1": {
+        "n_gen": 29,
+        "recovered": true
+      },
+      "additions_only": {
+        "n_gen": 150,
+        "recovered": true
+      },
+      "removals_only": {
+        "n_gen": 2,
+        "recovered": true
+      }
+    },
+    {
+      "molecule_id": "np_HSMPDPBYAYSOBC",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 4,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 4,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 4,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 4,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 4,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 4,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 4,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 4,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "np_HUSISCNTLUEZCN",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 60,
+        "recovered": true
+      },
+      "n_analog=3": {
+        "n_gen": 60,
+        "recovered": true
+      },
+      "n_analog=12": {
+        "n_gen": 60,
+        "recovered": true
+      },
+      "min_sim=0.1": {
+        "n_gen": 60,
+        "recovered": true
+      },
+      "min_sim=0.5": {
+        "n_gen": 60,
+        "recovered": true
+      },
+      "tol=0.002": {
+        "n_gen": 60,
+        "recovered": true
+      },
+      "tol=0.010": {
+        "n_gen": 60,
+        "recovered": true
+      },
+      "max_steps=1": {
+        "n_gen": 2,
+        "recovered": true
+      },
+      "additions_only": {
+        "n_gen": 60,
+        "recovered": true
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "np_JYGXADMDTFJGBT",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 14,
+        "recovered": true
+      },
+      "n_analog=3": {
+        "n_gen": 14,
+        "recovered": true
+      },
+      "n_analog=12": {
+        "n_gen": 19,
+        "recovered": true
+      },
+      "min_sim=0.1": {
+        "n_gen": 14,
+        "recovered": true
+      },
+      "min_sim=0.5": {
+        "n_gen": 14,
+        "recovered": true
+      },
+      "tol=0.002": {
+        "n_gen": 14,
+        "recovered": true
+      },
+      "tol=0.010": {
+        "n_gen": 14,
+        "recovered": true
+      },
+      "max_steps=1": {
+        "n_gen": 14,
+        "recovered": true
+      },
+      "additions_only": {
+        "n_gen": 14,
+        "recovered": true
+      },
+      "removals_only": {
+        "n_gen": 1,
+        "recovered": true
+      }
+    },
+    {
+      "molecule_id": "np_MBRLOUHOWLUMFF",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 9,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 8,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 9,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 9,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 9,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 9,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "np_QCHFTSOMWOSFHM",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 2,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 2,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 3,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 2,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 2,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 2,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 2,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 2,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 2,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "np_RFDAIACWWDREDC",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 55,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "np_RXPRRQLKFXBCSJ",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 46,
+        "recovered": true
+      },
+      "n_analog=3": {
+        "n_gen": 28,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 113,
+        "recovered": true
+      },
+      "min_sim=0.1": {
+        "n_gen": 46,
+        "recovered": true
+      },
+      "min_sim=0.5": {
+        "n_gen": 46,
+        "recovered": true
+      },
+      "tol=0.002": {
+        "n_gen": 46,
+        "recovered": true
+      },
+      "tol=0.010": {
+        "n_gen": 46,
+        "recovered": true
+      },
+      "max_steps=1": {
+        "n_gen": 2,
+        "recovered": true
+      },
+      "additions_only": {
+        "n_gen": 46,
+        "recovered": true
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "np_RZGFUGXQKMEMOO",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "np_SGEWCQFRYRRZDC",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "n_analog=3": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "n_analog=12": {
+        "n_gen": 2,
+        "recovered": true
+      },
+      "min_sim=0.1": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "min_sim=0.5": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "tol=0.002": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "tol=0.010": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "max_steps=1": {
+        "n_gen": 1,
+        "recovered": true
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 1,
+        "recovered": true
+      }
+    },
+    {
+      "molecule_id": "np_SHIBSTMRCDJXLN",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 43,
+        "recovered": true
+      },
+      "n_analog=3": {
+        "n_gen": 10,
+        "recovered": true
+      },
+      "n_analog=12": {
+        "n_gen": 97,
+        "recovered": true
+      },
+      "min_sim=0.1": {
+        "n_gen": 43,
+        "recovered": true
+      },
+      "min_sim=0.5": {
+        "n_gen": 43,
+        "recovered": true
+      },
+      "tol=0.002": {
+        "n_gen": 43,
+        "recovered": true
+      },
+      "tol=0.010": {
+        "n_gen": 43,
+        "recovered": true
+      },
+      "max_steps=1": {
+        "n_gen": 10,
+        "recovered": true
+      },
+      "additions_only": {
+        "n_gen": 43,
+        "recovered": true
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    },
+    {
+      "molecule_id": "np_URFCJEUYXNAHFI",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 7,
+        "recovered": true
+      },
+      "n_analog=3": {
+        "n_gen": 2,
+        "recovered": true
+      },
+      "n_analog=12": {
+        "n_gen": 37,
+        "recovered": true
+      },
+      "min_sim=0.1": {
+        "n_gen": 7,
+        "recovered": true
+      },
+      "min_sim=0.5": {
+        "n_gen": 7,
+        "recovered": true
+      },
+      "tol=0.002": {
+        "n_gen": 7,
+        "recovered": true
+      },
+      "tol=0.010": {
+        "n_gen": 7,
+        "recovered": true
+      },
+      "max_steps=1": {
+        "n_gen": 2,
+        "recovered": true
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 2,
+        "recovered": true
+      }
+    },
+    {
+      "molecule_id": "np_XKLMZUWKNUAPSZ",
+      "base_transf(n6_sim0.3_tol0.004_step2_all)": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=3": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "n_analog=12": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "min_sim=0.5": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.002": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "tol=0.010": {
+        "n_gen": 18,
+        "recovered": false
+      },
+      "max_steps=1": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "additions_only": {
+        "n_gen": 0,
+        "recovered": false
+      },
+      "removals_only": {
+        "n_gen": 0,
+        "recovered": false
+      }
+    }
+  ],
+  "note": "Same analogs/target/exclude reused for all conditions -> true paired comparison."
+}

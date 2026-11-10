@@ -1,0 +1,9 @@
+Clarification on PubChem/COCONUT candidate-index redistribution
+
+https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/757309
+
+Author: Phil Mohrman
+
+Posted: 2026-11-09T14:17:28.373Z
+
+Can a private, offline CASMI 2026 submission notebook attach a candidate index derived from NCBI’s public PubChem Compound CID-SMILES.gz and CC0 COCONUT under the competition’s external-data and redistribution rules? The index contains standardized structures and computed search features. It excludes contributor annotations and competition training data. Is the PubChem bulk-file provenance sufficient, or do you require contributor-level clearance?

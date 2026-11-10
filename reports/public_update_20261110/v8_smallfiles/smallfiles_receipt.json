@@ -1,0 +1,32 @@
+[
+  {
+    "file": "README.md",
+    "bytes": 414,
+    "sha256": "7c80c85df3ab192990d9b899002620ed312c2798ab848727d6d86a5236e0a193"
+  },
+  {
+    "file": "config_used.json",
+    "bytes": 706,
+    "sha256": "343f0dbe79b7809a908d694bb649480dafce8f615b38bfae27b0b61526d2216f"
+  },
+  {
+    "file": "data_audit.json",
+    "bytes": 1205,
+    "sha256": "07e392f6a3675782dadd40106e6463e321420dc2f1330d1ac279d6508b002dbb"
+  },
+  {
+    "file": "features.py",
+    "bytes": 2289,
+    "sha256": "d230b7dc98043e851497c352e0fef056aa6e3e7d33f4899b41e4032e5d493582"
+  },
+  {
+    "file": "model.py",
+    "bytes": 1577,
+    "sha256": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39"
+  },
+  {
+    "file": "training_result.json",
+    "bytes": 392,
+    "sha256": "bb3baf051728c0583e750852325977ee7e424b811ae5fd191cace7ffd55a5321"
+  }
+]

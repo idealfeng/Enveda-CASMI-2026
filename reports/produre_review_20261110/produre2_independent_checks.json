@@ -1,0 +1,109 @@
+{
+  "status": "checked",
+  "artifact_internal_checks": {
+    "rows": true,
+    "recovered": true,
+    "timeout": true,
+    "generated": true,
+    "valid": true,
+    "novel": true
+  },
+  "rdkit": "2026.03.3",
+  "q4_oracle_recomputation": {
+    "base": 0.857390873015873,
+    "raw_string_oracle": 0.888640873015873,
+    "delta": 0.03125,
+    "inserted_rows": [
+      {
+        "molecule_id": "cross_GFZLFKCEWJJEFW",
+        "base_rank": null,
+        "truly_new_candidate_identity": true,
+        "raw_string_inserted": true,
+        "before": 0.0,
+        "after": 1.0,
+        "duplicate_official_identity": false
+      },
+      {
+        "molecule_id": "cross_VXVNYCRICCVPTD",
+        "base_rank": 2,
+        "truly_new_candidate_identity": false,
+        "raw_string_inserted": true,
+        "before": 0.5,
+        "after": 1.0,
+        "duplicate_official_identity": true
+      }
+    ],
+    "genuine_identity_absence_only_oracle": 0.8782242063492064,
+    "genuine_identity_absence_only_delta": 0.02083333333333337,
+    "true_absent_recovered": 1
+  },
+  "source_lineage": {
+    "engine.py": {
+      "experiment_import_sha256": "d914bf9d5eb56cfff434b5d53a4d55881b97697aa834a627d9932a4f8c650d27",
+      "formal_asset_sha256": "d914bf9d5eb56cfff434b5d53a4d55881b97697aa834a627d9932a4f8c650d27",
+      "exact_equal": true
+    },
+    "derive.py": {
+      "experiment_import_sha256": "7c1e8c3afb4c17a3ae58fbc6c36fd4cfc552da97b9129c9b46cca3cdc6ee4892",
+      "formal_asset_sha256": "7c1e8c3afb4c17a3ae58fbc6c36fd4cfc552da97b9129c9b46cca3cdc6ee4892",
+      "exact_equal": true
+    },
+    "chem.py": {
+      "experiment_import_sha256": "99474f23d8a67040b0c0f8c70e73592a6f7f656f50103e350ca473451e2169f1",
+      "formal_asset_sha256": "99474f23d8a67040b0c0f8c70e73592a6f7f656f50103e350ca473451e2169f1",
+      "exact_equal": true
+    }
+  },
+  "raw_key_vs_official_identity": {
+    "prior_audit_alternate_target_pairs": [
+      {
+        "raw_inchikey14": "JBIWCJUYHHGXTC",
+        "official_identity": "VXVNYCRICCVPTD",
+        "smiles": "CC1c2cccc(O)c2C(=O)C2=C(O)C3(O)C(=O)C(C(N)=O)=C(O)C(N(C)C)C3C(O)C21"
+      },
+      {
+        "raw_inchikey14": "SGKRLCUYIXIAHR",
+        "official_identity": "VXVNYCRICCVPTD",
+        "smiles": "CC1c2cccc(O)c2C(O)=C2C(=O)C3(O)C(O)=C(C(N)=O)C(=O)C(N(C)C)C3C(O)C21"
+      },
+      {
+        "raw_inchikey14": "SGKRLCUYIXIAHR",
+        "official_identity": "VXVNYCRICCVPTD",
+        "smiles": "CC1c2cccc(O)c2C(O)=C2C(=O)C3(O)C(O)=C(C(=N)O)C(=O)C(N(C)C)C3C(O)C21"
+      },
+      {
+        "raw_inchikey14": "YDUGFTMNXJLIFF",
+        "official_identity": "VXVNYCRICCVPTD",
+        "smiles": "CC1c2cccc(O)c2C(=O)C2=C(O)C3(O)C(O)=C(C(N)=O)C(=O)C(N(C)C)C3C(O)C21"
+      },
+      {
+        "raw_inchikey14": "ICKPYUKAWSXKMY",
+        "official_identity": "KAQOTUWFZPIKLZ",
+        "smiles": "CCC(=O)C1=C(O)C(CC=C(C)C)=C(O)C(O)(CC=C(C)C)C1=O"
+      }
+    ]
+  },
+  "user_files_sha256_before": {
+    "produre2\\q4_smallscale.py": "805c2febd8b99d16eb84565108b91cf038829d89a31836ea878af72061c7a089",
+    "produre2\\README.md": "96464e248517095f07acda5942dda336cc1f73138479ebdd5fbc3c548e55f8fc",
+    "produre2\\step01_audit.md": "d9e08591330e7b0fcc70da7c137d407dc5dcf450cc5548aa8bcd2b65734cf9b0",
+    "produre2\\step02_isolation.md": "e81d926be142f503f792c22b29aa80b5b7e80de964d6d13b174778d5c845aa6a",
+    "produre2\\step03_generation.md": "4c45fcb7d446f0894638794c8fe9529d0d0161f670d0f2ef5695006d4a3990a4",
+    "produre2\\step04_metrics_ablation.md": "d564d405c209a93df6e08529dd78d8cf0d627e363cdd7efbe7e0f1a4be51ff6f",
+    "produre2\\step05_report.md": "2602fc82a8947cc54bd8ca70fe5f0fa878c5e5acddf4887ea045bed93f511ae7",
+    "produre2\\step1_templates.py": "b5d1b70ad418d22dc730b4fd40185c1e3ef2b36171b9472bf75f9f78b9514a2d",
+    "produre2\\step2_leakage.py": "66f1479e051ec2be68955152cb89dda91ab0b9f81e3141b0c9feb65c9f08d07d",
+    "produre2\\step3_generation.py": "44d335c9bf1833e4ee7ba6da89b38d74cef0d079218d3d746d6fa0996c32fda7",
+    "produre2\\step5_tests.py": "5389bf5cd18fc28d1b74d16b4ab85519c3c9601c5bb05c02781f46d0760e3e8b",
+    "produre2\\artifacts\\q4_smallscale.json": "dc7bb17540ec439d82e6aaeb7ec78d86a94e0fbb480c1b202f64fcff899020a9",
+    "produre2\\artifacts\\reaction_template_inventory.csv": "ded41e1d9dfd5757fa125bdbdc2b8d258a2c10dec2665ee3ee9dfdea3de039b0",
+    "produre2\\artifacts\\step2_leakage.json": "9f5e988bb33b1dc46b57200258e16d319bcff093ebb8d8770f46f8fc2905704e",
+    "produre2\\artifacts\\step3_generation_summary.json": "fb596e63b6620d455f8cb6e94b4638efcefc4e7eaefb6db6a3d53612ab15e4bd",
+    "produre2\\artifacts\\step3_per_query.csv": "42fb39c62d7038467036fc8c5a2fb799c53a94c7fdc5cda4999bbecf7fff9388",
+    "produre2\\artifacts\\step5_tests.json": "be1d4e1f63c21c88a00491779c2b0031e7e0342659c57e3a37c2aeb4a9b6231e"
+  },
+  "user_files_unchanged": true,
+  "actual_generation_rerun": false,
+  "actual_engine_ranking_rerun": false,
+  "hidden_or_locked_data_read": false
+}

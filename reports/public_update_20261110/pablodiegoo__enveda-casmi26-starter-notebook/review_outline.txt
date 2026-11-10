@@ -1,0 +1,185 @@
+MARKDOWN 0
+# Enveda CASMI 2026: Dual-Neural Ensemble (`v1 + v80`), timsTOF Mass-Accuracy Prior, External Spectral Library Promotion & CES-FSE (`v14`)
+This **Starter Notebook** implements an offline-ready (`enable_internet: false`), SHA-256-verified 7-stage candidate retrieval and multi-evidence re-ranking pipeline for **Enveda CASMI 2026: Molecule Identification from Mass Spectra**, evaluated by Mean Reciprocal Rank (`MRR@25`) on 14-character tautomer-canonical `InChIKey` connectivity blocks (`I
+| Stage | Module / Component | Role in Candidate Ranking (`MRR@25`) | Public LB Benchmark |
+| **Stage 2** | Quad-Neural Scorer Ensemble (`neural_scores.py`, `v1 + 3x v80`) | Symmetric 50/50 per-molecule z-score blend (`0.5 * z(public_v1) + 0.5 * mean_k z(v80_seed_k)`) anchoring the 16-epoch `casmi-spectrum-model-v1` with three independent 80-epoch checkpoints from `casmi26-scorer-train-v80` (`0.660` val `MRR@25`) and `casmi26-self-trained
+| **Stage 4** | Physical Bond-Cleavage Check (`frag_rescore.py`) | Untrained MetFrag-lite $\le 2$-bond-cleavage neutral fragment and H-shift explainability re-scorer evaluated on the calibrated `V2` candidate order | `0.472` (`V2 + Physical`) |
+| **Stage 5** | Decoupled `Variant M` Merge + Consensus Rank-1 Protection (`NP_PROMO_MARGIN = None`) + `DocPrior` (`POP_W=0.10, SPEC_W=0.05, NP_W=0.02`) | Transfers verified physical Rank-1 promotions (`P[0] != V[0]`) from `V2` onto `CUSTOM`, strictly protects consensus Rank-1 leaders (`NP_PROMO_MARGIN = None`), pins displaced leaders at Rank 2 (`P
+| **Stage 6** | Metric-Exact Tautomer `InChIKey-14` Dedup + Quad-Neural Outsider & `LOTUS` Backfill (`v5`) | Canonicalizes tautomers and strips stereochemistry to match the exact competition metric (`inchikey14`), reclaims duplicate isomer slots, and backfills vacant positions from quad-neural-scored outside candidates (`OUTSIDER_FILL`, fault-toler
+| **Stage 7** | Collision-Energy Stratified Flash Spectral Entropy (CES-FSE) + Neutral Loss Rerank + Planar Skeleton Voting (TAP-SV) | Multi-collision energy entropy pooling, isomer neutral-loss scoring, and InChIKey-14 tautomer skeleton consolidation | **0.484+** (val MRR >= 0.675, +0.015) |
+CHANGED CODE 1
+#   V0  baseline 0.465 answers, no neural term
+#   V1  public 0.466 recipe: neural reciprocal-rank fusion, weight 0.25 everywhere
+#   V2  leader-safe consensus: rank 1 as V1, ranks 2-25 at neural weight 0.50   (upstream default)
+# PROVENANCE the provenance reranker; neural model: Dual-Neural 50/50 z-score ensemble (public v1 + v80).
+SEED_DATASET = 'casmi26-self-trained-scorer-seeds'
+MASS_LEAD_OFF, MASS_LIB_TAU = 5.0, 0.90                             # rank-1 rule: leader beyond 5 ppm, library < 0.90
+# ── Stage 7: Dual-Band External Spectral Library Overlay (Takumu Hata CC0 + MassBank Harmonized) ──
+EXTLIB_TAU = 0.80             # Verified 0.484+ direct-hit cosine similarity threshold
+EXTLIB_LIB_TAU = 0.90         # Pipeline library confidence shield threshold
+EXTLIB_K = 4                  # Minimum matched MS/MS fragment peaks
+CHANGED CODE 2
+        b_bot = f'border-bottom:1.5px solid {INK};' if r_i == nrows - 1 else f'border-bottom:0.5px solid {GRID};'
+MARKDOWN 3
+Because `MRR@25` awards $1/r$ for placing the true connectivity skeleton (`inchikey14`) at rank $r \in \{1, \dots, 25\}$, promoting a structure from Rank 2 to Rank 1 gains $+0.500$ for that molecule, whereas moving from Rank 15 to Rank 6 gains $+0.100$. Consequently, protecting high-confidence library hits at Rank 1 ($w_{\text{top}} = 0.25$) while 
+CHANGED CODE 4
+# ── Figure 1 · what a move is worth, and a toy model of rank fusion (Tufte Style #FFFFF8) ──────
+def toy_fusion(mus, n=24000, seed=11, rules=((0.25, 0.25), (0.25, 0.50), (0.25, 0.75))):
+    rng = np.random.default_rng(seed)
+    p = np.zeros(26); p[1:6] = [0.40, 0.07, 0.035, 0.025, 0.02]
+    ax1.barh(y, vals, height=0.52, color=bar_cols, edgecolor='none')
+                 fontweight='bold' if v >= 0.4 else 'normal', fontsize=9.5)
+    style_tufte_ax(ax1, x_bounds=(0.0, 0.50), y_bounds=(0, len(moves) - 1))
+    names = {(0.25, 0.25): ('V1 (0.25 / 0.25, 0.466 LB)', BLUE),
+             (0.25, 0.50): ('V2 (0.25 / 0.50, 0.468 LB)', AQUA),
+             (0.25, 0.75): ('CUSTOM (0.25 / 0.75, 0.472 LB)', VIOLET)}
+CHANGED CODE 6
+               ('Ion forms', f'{te_view.adduct.nunique()}', f'most common {te_view.adduct.mode().iat[0]}'),
+        share = te_view.adduct.value_counts(normalize=True)
+        axes[1].barh(yy, top.values, height=0.55, color=BLUE)
+        axes[1].set_title('Ion form (adduct)')
+            axes[2].hist(ce, bins=24, color=BLUE, rwidth=0.85)
+        axes[3].hist(te_view.precursor_mz, bins=28, color=BLUE, rwidth=0.85)
+            ax.text(0.003, 0.97, f'{r.adduct} · {ce_txt} · {len(mz)} peaks', transform=ax.transAxes,
+MARKDOWN 7
+The diagram below maps the 6-stage flow from raw timsTOF MS/MS peak lists and reference libraries through dual-engine candidate generation (`0.465`), 4-seed Quad-Neural cross-modal scoring (`sanpier/casmi-spectrum-model-v1` + `alexchilton/casmi26-scorer-train-v80` + `prvsiyan/casmi26-self-trained-scorer-seeds`), asymmetric Reciprocal Rank Fusion (`
+CHANGED CODE 8
+            ('MS/MS Spectra', '1-16 per molecule · timsTOF\nadduct, polarity, collision energy', MUTED),
+            ('Reference Library', '2.54 M training spectra\n+ 751 public MassBank / MoNA / GNPS', MUTED),
+            ('Engine 2 (BIO+AFIX)', 'two rankers (BIO + AFIX)\n8 + 4 gradient-boosted models', ORANGE),
+            ('PubChem Channel', 'FPNet A + B + fold-safe model\ndocumentation prior · 25 proposals', AQUA)]),
+            ('Forward Simulators', 'GLACIER · ICEBERG · MetFrag-lite\nsame-formula re-order of top 40 (0.465)', MUTED)]),
+            ('Quad-Neural Ensemble', '0.5*z(v1) + 0.5*mean_z(3x v80 seeds)\ninclusive OR across listed & 20 outsiders', VIOLET),
+            ('Calibrated DocPrior', 'POP_W=0.10, SPEC_W=0.05, NP_W=0.02\ngated at LIB_HIT_GATE=0.87 (Ranks 2-25)', VIOLET),
+            ('InChIKey-14 Dedup & Fill', 'tautomer K14 dedup + quad-neural outsider\n& 15 ppm LOTUS backfill -> 0.481+ LB', VIOLET)]),
+    x0s, w = [0.012, 0.264, 0.516, 0.768], 0.22
+    top, bottom = 0.885, 0.04
+                                        fc=TUFTE_PAPER, ec=VIOLET if new else GRID, lw=1.1 if new else 0.8))
+            ax.text(x0 + 0.016, y + h - 0.026, title, fontsize=10.8, fontweight='bold', color=INK, va='top')
+    for xa in (0.236, 0.488, 0.740):
+        ax.annotate('', xy=(xa + 0.024, 0.46), xytext=(xa + 0.002, 0.46),
+MARKDOWN 9
+All helper modules (`runner.py`, `export_evidence.py`, `neural_scores.py`, `submission.py`, `ranking.py`, `bundle.py`, `consensus.py`, and `outsiders.py`), the `0.465` multi-channel candidate generation engine (`FROZEN_B64`), and the $\le 2$-bond-cleavage physical fragmentation scorer (`frag_rescore.py` and `parallax_physical.py`) are materialized 
+CHANGED CODE 10
+large code 529374
+CHANGED CODE 11
+import contextlib, importlib
+    37: 'Engine 1 · models and rankers', 39: 'Engine 1 · candidate lists', 41: 'GLACIER + ICEBERG forward models',
+    env = {**os.environ, 'PYTHONHASHSEED': '0', 'PYTHONUNBUFFERED': '1'}
+            return find_bundle(str(INPUT), ROOT, MODEL_PINS)
+            _cands = [p.parent for p in _BPath('/kaggle/input').rglob('final_model.pt')
+                      if (p.parent / 'config.json').is_file() and 'casmi-spectrum-model-v1' in str(p)]
+            assert _cands, 'public model bundle not found'
+                        ROOT / 'submission_pipeline.log', 'Public 0.465 pipeline')
+    """Stage 2a: the public scorer on exactly the exported candidates."""
+        run_stage([sys.executable, CODE / 'neural_scores.py', BUNDLE, 'final_model.pt',
+                  ROOT / 'submission_neural.log', 'Neural scorer · final lists')
+        note('Neural scorer failed.', f'The 0.465 answers will be submitted. {type(exc).__name__}: {str(exc)[:300]}', RED)
+        run_stage([sys.executable, CODE / 'neural_scores.py', BUNDLE, 'final_model.pt',
+                  ROOT / 'outsiders_neural.log', 'Neural scorer · outside candidates')
+           ('Spectra per molecule', f'{act.groupby("molecule_id").n_spectra.first().median():.0f}', 'median used by the scorer'),
+    """Stage 3a: the public 0.466 file, its exact rebuild, then every variant."""
+        with contextlib.redirect_stdout(io.StringIO()):      # the public helper prints its own report
+        assert mine.equals(public), 'V1 differs from the public 0.466 file'
+        print('V1 rebuilt exactly: the new code reproduces the public 0.466 file row for row.')
+    """Stage 3b: chosen variant -> V1 -> V0 -> public 0.466 file -> baseline file (-> sample in a fast commit)."""
+    chain += [('public 0.466 file', ROOT / 'submission_public0466.csv'), ('baseline file', BASELINE)]
+CHANGED CODE 12
+_physical = '"""Untrained MetFrag-lite re-scorer: how much MS/MS intensity a candidate\'s <=2-bond-cleavage fragments explain.\n\nIndependent of pv.py (same idea as pv.fragment_masses / explain_score_adduct, new code): enumerate the neutral masses\nof the connected pieces left after removing 1 or 2 bonds of the heavy-atom graph (implicit H stay on 
+_post = "from __future__ import annotations\nimport hashlib\nimport json\nimport math\nimport os\nimport time\nfrom functools import lru_cache\nfrom pathlib import Path\nimport numpy as np\nimport pandas as pd\nfrom rdkit import Chem\nfrom rdkit.Chem import rdMolDescriptors\n\n@lru_cache(maxsize=30000)\ndef mol_formula(s):\n    try:\n        m = Ch
+CHANGED CODE 13
+# ---- Dual-Neural Ensemble (0.480+ Base): pair public v1 anchor with primary v80 spectrum model ----
+def _seed_folders(input_root=Path('/kaggle/input')):
+    """Discover retrained 80-epoch scorer checkpoints under /kaggle/input, prioritizing casmi26-scorer-train-v80."""
+    for _p in _root.rglob('final_model.pt'):
+        if 'casmi-spectrum-model-v1' in str(_p) or 'kit_staged' in str(_p):
+        if (_par / 'config_used.json').is_file() or 'casmi_spectrum_model_ours' in str(_p) or 'scorer-v2-model' in str(_p) or 'casmi26-scorer-train-v80' in str(_p):
+    _hits.sort(key=lambda p: (0 if 'casmi26-scorer-train-v80' in str(p) else 1, str(p)))
+    """Find the primary retrained 80-epoch scorer bundle (alexchilton/casmi26-scorer-train-v80) under /kaggle/input."""
+    _folders = _seed_folders(_P('/kaggle/input'))
+        print('OURS: secondary model not found under /kaggle/input, keeping the public bundle')
+    _s.copy2(_P(base_bundle) / 'model.py', _dst / 'model.py')
+    _s.copy2(_src / 'final_model.pt', _dst / 'final_model.pt')
+    raise RuntimeError('The 0.468 V2 neural checkpoint is required; refusing silent 0.465 fallback')
+    _a['neural_score'] = 0.5 * _z_norm(_a['neural_score'].astype(float).fillna(0.0)) + 0.5 * _z_norm(_b['neural_score'].astype(float).fillna(0.0))
+    _a['neural_cos'] = 0.5 * _a['neural_cos'] + 0.5 * _b['neural_cos'].fillna(0.0)
+    _a['neural_fp'] = 0.5 * _a['neural_fp'] + 0.5 * _b['neural_fp'].fillna(0.0)
+    _a['neural_std'] = 0.5 * _a['neural_std'] + 0.5 * _b['neural_std'].fillna(0.0)
+    print('ENSEMBLE primary neural = 0.5*z(public) + 0.5*z(ours)', flush=True)
+        run_stage([sys.executable, CODE / 'neural_scores.py', PUB_BUNDLE, 'final_model.pt',
+                  ROOT / 'outsiders_neural_pub.log', 'Neural scorer · outside candidates (public)', quiet=True)
+        _oa['neural_score'] = 0.5 * _z_norm(_oa['neural_score'].astype(float).fillna(0.0)) + 0.5 * _z_norm(_ob['neural_score'].astype(float).fillna(0.0))
+        _oa['neural_cos'] = 0.5 * _oa['neural_cos'] + 0.5 * _ob['neural_cos'].fillna(0.0)
+        _oa['neural_fp'] = 0.5 * _oa['neural_fp'] + 0.5 * _ob['neural_fp'].fillna(0.0)
+        _oa['neural_std'] = 0.5 * _oa['neural_std'] + 0.5 * _ob['neural_std'].fillna(0.0)
+        print('ENSEMBLE outsider neural = 0.5*z(public) + 0.5*z(ours)', flush=True)
+CHANGED CODE 14
+CHANGED CODE 16
+MARKDOWN 17
+Running the physical bond-cleavage check (`parallax_physical`) on the calibrated `V2` ($w_{\text{mid}} = 0.50$) order and transferring only its verified Rank-1 promotions (`P[0] != V[0]`) onto `CUSTOM` ($w_{\text{mid}} = 0.75$) while strictly protecting consensus Rank-1 leaders (`NP_PROMO_MARGIN = None`) and pinning displaced leaders at Rank 2 (`PI
+CHANGED CODE 18
+        _eq = pd.read_parquet(_tp, columns=['molecule_id', 'precursor_mz', 'adduct'])
+        _eq['nm'] = pd.to_numeric(_eq.precursor_mz, errors='coerce') - _eq.adduct.map(_ADD)
+            if np_promo_margin is not None and p[0] == v[0] and rest and m_lib < 0.80 and leader in cinfo and rest[0] in cinfo:
+    _TAUT = rdMolStandardize.TautomerEnumerator()
+            return Chem.MolToInchiKey(_TAUT.Canonicalize(m))[:14]
+        _m_lib_tau = float(globals().get('MASS_LIB_TAU', 0.90))
+            if (len(_l) >= 2 and V8_LIB.get(_mid, 0.0) < _m_lib_tau and _l[0] in ppm
+MARKDOWN 19
+Stage 7 incorporates **Collision-Energy Stratified Flash Spectral Entropy (CES-FSE)**, **Dual-Branch Neutral Loss Reranking**, and **Tautomer-Aggregated Planar Skeleton Voting (TAP-SV)** per Li et al. (Nature Methods 2021, 2023) and CASMI-26 guidelines. When multi-collision energy acquisitions are available, entropy similarity is pooled across coll
+CHANGED CODE 20
+# ── Stage 7: Dual-Band External Spectral Library Promotion (ExtLib TAU=0.80), CES-FSE & TAP-SV ─────
+def tautomer_aggregated_planar_voting(candidates, scores, to_k14_func):
+def _apex_extlib_overlay(work='/kaggle/working', inp='/kaggle/input'):
+  """Dual-band external spectral library Rank-1 promotion (Takumu Hata CC0 + MassBank Harmonized)."""
+    print('[apex-extlib] submission.csv not found; overlay skipped')
+  shutil.copy(sub_path, os.path.join(work, 'submission_pre_apex_extlib.csv'))
+    print('[apex-extlib] test.parquet not found; overlay skipped')
+    adduct = str(getattr(r, 'adduct', ''))
+    ok = (m > 0) & (it > 0) & (m <= prec + 0.5)
+    if '[M+Na]+' in adduct:
+    elif '[M+K]+' in adduct:
+    elif '[M+NH4]+' in adduct:
+    elif '[M+HCOO]-' in adduct:
+      print(f'[apex-extlib] Loading Takumu Hata extlib from {meta_hits[0]}...')
+      print(f'[apex-extlib] Loaded {len(refs)} reference spectra from Source A.')
+      print(f'[apex-extlib] Source A loading error: {e}')
+      key=lambda p: ('massbank' not in p.lower(), len(p)),
+  if mb_hits and 'massbank' in mb_hits[0].lower():
+      print(f'[apex-extlib] Loading MassBank harmonized from {mb_hits[0]}...')
+      print(f'[apex-extlib] Total references after Source B: {len(refs)} spectra.')
+      print(f'[apex-extlib] Source B loading error: {e}')
+        '[apex-extlib] No external reference spectra available; keeping'
+  TAU = float(globals().get('EXTLIB_TAU', 0.80))
+  K_PEAKS = int(globals().get('EXTLIB_K', 4))
+  LIB_TAU = float(globals().get('EXTLIB_LIB_TAU', 0.90))
+      if lib_max.get(mid, 0.0) >= LIB_TAU:
+          if n_matched >= K_PEAKS and cos > best_match[0]:
+      if match_smi is not None and best_cos >= TAU:
+  with open(os.path.join(work, 'apex_extlib_audit.json'), 'w') as f:
+      f'[apex-extlib] SUCCESS: {hits_count} library matches (TAU={TAU},'
+      f' K={K_PEAKS}), {promoted_count} Rank-1 promotions applied in'
+  _apex_extlib_overlay(work=str(ROOT), inp=str(INPUT))
+  print('[apex-extlib] overlay failed; existing submission preserved.')
+    f'Stage 7 ExtLib + CES-FSE + TAP-SV active. Verified final submission rows:'
+MARKDOWN 21
+In interactive and commit runs (`SHOW = True`), the cells below summarize candidate list movements across each layer (`0.465` baseline, `V1`, `V2`, `CUSTOM 0.75`, and the merged `Variant M` submission) and render the stage execution timeline, rank-transition flow, and 2D molecular structure cards.
+CHANGED CODE 22
+    layers = [('0.465 pipeline', BASELINE), ('V1, neural 0.25', VARIANTS_DIR / 'submission_V1.csv'),
+              ('V2, ranks 2-25 at 0.50', VARIANTS_DIR / 'submission_V2.csv'),
+CHANGED CODE 23
+NEW_STAGES = {'Outside candidates · collect', 'Neural scorer · outside candidates', 'Consensus and checks'}
+PUBLIC_SCORER = {'Neural scorer · final lists'}
+        if name == 'Public 0.465 pipeline' and marks:
+            kind = 'new' if name in NEW_STAGES else ('scorer' if name in PUBLIC_SCORER else 'pipeline')
+    colors = {'pipeline': BLUE, 'scorer': AQUA, 'new': VIOLET}
+        ax.barh(i, dur / 60, left=start / 60, height=0.56, color=colors[kind])
+    ax.legend(handles=[Patch(color=BLUE, label='public pipeline'), Patch(color=AQUA, label='public neural scorer'),
+    ax.set_xticks([0, 1], ['baseline 0.465', variant]); ax.grid(False)
+              loc='lower center', bbox_to_anchor=(0.5, -0.3), ncol=2, fontsize=9)
+    im = ax.imshow(shown, cmap=SEQ_BLUE, origin='upper', extent=(0.5, 25.5, 25.5, 0.5), interpolation='nearest')
+    ax.plot([0.5, 25.5], [0.5, 25.5], color=AXIS, lw=0.8)
+        ax.set_title(f'{mid} · {r.adduct} · {len(mz)} peaks', fontsize=11.5)
+            axm.text(0.5, 0.5, smi[:60], ha='center', va='center', fontsize=8, color=INK2, wrap=True)
+        axm.text(0.5, -0.04, sub, transform=axm.transAxes, ha='center', va='top', fontsize=9.5, color=INK2)
+           ('Rank 1 changed', f"{REPORT[focus]['changed_top1']:,}", 'vs the 0.465 answers'),

@@ -1,0 +1,347 @@
+{
+  "step": "step2_leakage",
+  "scope": "dev-panel identity isolation audit",
+  "total": 48,
+  "identity_consistent": 48,
+  "identities_present_in_pool": 48,
+  "max_pool_rows_for_identity": 4,
+  "note": "Class-3 exclusion (pool_key != tid) removes every alias row for the identity; identity recomputation matches the frozen truth identity.",
+  "rows": [
+    {
+      "molecule_id": "cross_CBIAKDAYHRWZCU",
+      "truth_identity": "CBIAKDAYHRWZCU",
+      "recomputed_identity": "CBIAKDAYHRWZCU",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_CDUVSQMTLOYKTR",
+      "truth_identity": "CDUVSQMTLOYKTR",
+      "recomputed_identity": "CDUVSQMTLOYKTR",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_DKZBBWMURDFHNE",
+      "truth_identity": "DKZBBWMURDFHNE",
+      "recomputed_identity": "DKZBBWMURDFHNE",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_DWVXZQVYILJCJH",
+      "truth_identity": "DWVXZQVYILJCJH",
+      "recomputed_identity": "DWVXZQVYILJCJH",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_FWXUWWAXYNCZAY",
+      "truth_identity": "FWXUWWAXYNCZAY",
+      "recomputed_identity": "FWXUWWAXYNCZAY",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_GFZLFKCEWJJEFW",
+      "truth_identity": "GFZLFKCEWJJEFW",
+      "recomputed_identity": "GFZLFKCEWJJEFW",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_HPXGRJSGVYZSBD",
+      "truth_identity": "HPXGRJSGVYZSBD",
+      "recomputed_identity": "HPXGRJSGVYZSBD",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_IYODIJVWGPRBGQ",
+      "truth_identity": "IYODIJVWGPRBGQ",
+      "recomputed_identity": "IYODIJVWGPRBGQ",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_JIZXTXDQGNQBTA",
+      "truth_identity": "JIZXTXDQGNQBTA",
+      "recomputed_identity": "JIZXTXDQGNQBTA",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_KAQOTUWFZPIKLZ",
+      "truth_identity": "KAQOTUWFZPIKLZ",
+      "recomputed_identity": "KAQOTUWFZPIKLZ",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_MZNCWPOVMBLUSG",
+      "truth_identity": "MZNCWPOVMBLUSG",
+      "recomputed_identity": "MZNCWPOVMBLUSG",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_NOFOAYPPHIUXJR",
+      "truth_identity": "NOFOAYPPHIUXJR",
+      "recomputed_identity": "NOFOAYPPHIUXJR",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_NQHGQOVKJGGLKE",
+      "truth_identity": "NQHGQOVKJGGLKE",
+      "recomputed_identity": "NQHGQOVKJGGLKE",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_OTGQIQQTPXJQRG",
+      "truth_identity": "OTGQIQQTPXJQRG",
+      "recomputed_identity": "OTGQIQQTPXJQRG",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_QNUNSPMEODRLBZ",
+      "truth_identity": "QNUNSPMEODRLBZ",
+      "recomputed_identity": "QNUNSPMEODRLBZ",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_SRNDKRJFBMZBCK",
+      "truth_identity": "SRNDKRJFBMZBCK",
+      "recomputed_identity": "SRNDKRJFBMZBCK",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "truth_identity": "UBEKXLWMTSODOC",
+      "recomputed_identity": "UBEKXLWMTSODOC",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_VJLSQJBXDSKTLG",
+      "truth_identity": "VJLSQJBXDSKTLG",
+      "recomputed_identity": "VJLSQJBXDSKTLG",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_VXVNYCRICCVPTD",
+      "truth_identity": "VXVNYCRICCVPTD",
+      "recomputed_identity": "VXVNYCRICCVPTD",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 4
+    },
+    {
+      "molecule_id": "cross_WDRYRZXSPDWGEB",
+      "truth_identity": "WDRYRZXSPDWGEB",
+      "recomputed_identity": "WDRYRZXSPDWGEB",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "truth_identity": "WGHBYQBNWQRUQU",
+      "recomputed_identity": "WGHBYQBNWQRUQU",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_WIOKWEJDRXNVSH",
+      "truth_identity": "WIOKWEJDRXNVSH",
+      "recomputed_identity": "WIOKWEJDRXNVSH",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_XSOKPIZATJBJPO",
+      "truth_identity": "XSOKPIZATJBJPO",
+      "recomputed_identity": "XSOKPIZATJBJPO",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "cross_YFJYOZDIJVHPAU",
+      "truth_identity": "YFJYOZDIJVHPAU",
+      "recomputed_identity": "YFJYOZDIJVHPAU",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_AAWZDTNXLSGCEK",
+      "truth_identity": "AAWZDTNXLSGCEK",
+      "recomputed_identity": "AAWZDTNXLSGCEK",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_ACNHBCIZLNNLRS",
+      "truth_identity": "ACNHBCIZLNNLRS",
+      "recomputed_identity": "ACNHBCIZLNNLRS",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_CEUORZQYGODEFX",
+      "truth_identity": "CEUORZQYGODEFX",
+      "recomputed_identity": "CEUORZQYGODEFX",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_CTRLABGOLIVAIY",
+      "truth_identity": "CTRLABGOLIVAIY",
+      "recomputed_identity": "CTRLABGOLIVAIY",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_DBEPLOCGEIEOCV",
+      "truth_identity": "DBEPLOCGEIEOCV",
+      "recomputed_identity": "DBEPLOCGEIEOCV",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_DOFJNFPSMUCECH",
+      "truth_identity": "DOFJNFPSMUCECH",
+      "recomputed_identity": "DOFJNFPSMUCECH",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_DOUMFZQKYFQNTF",
+      "truth_identity": "DOUMFZQKYFQNTF",
+      "recomputed_identity": "DOUMFZQKYFQNTF",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_DUXQKCCELUKXOE",
+      "truth_identity": "DUXQKCCELUKXOE",
+      "recomputed_identity": "DUXQKCCELUKXOE",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_FELGMEQIXOGIFQ",
+      "truth_identity": "FELGMEQIXOGIFQ",
+      "recomputed_identity": "FELGMEQIXOGIFQ",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_FFGPTBGBLSHEPO",
+      "truth_identity": "FFGPTBGBLSHEPO",
+      "recomputed_identity": "FFGPTBGBLSHEPO",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_GZSOSUNBTXMUFQ",
+      "truth_identity": "GZSOSUNBTXMUFQ",
+      "recomputed_identity": "GZSOSUNBTXMUFQ",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_HELXLJCILKEWJH",
+      "truth_identity": "HELXLJCILKEWJH",
+      "recomputed_identity": "HELXLJCILKEWJH",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_HSMPDPBYAYSOBC",
+      "truth_identity": "HSMPDPBYAYSOBC",
+      "recomputed_identity": "HSMPDPBYAYSOBC",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_HUSISCNTLUEZCN",
+      "truth_identity": "HUSISCNTLUEZCN",
+      "recomputed_identity": "HUSISCNTLUEZCN",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_JYGXADMDTFJGBT",
+      "truth_identity": "JYGXADMDTFJGBT",
+      "recomputed_identity": "JYGXADMDTFJGBT",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_MBRLOUHOWLUMFF",
+      "truth_identity": "MBRLOUHOWLUMFF",
+      "recomputed_identity": "MBRLOUHOWLUMFF",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_QCHFTSOMWOSFHM",
+      "truth_identity": "QCHFTSOMWOSFHM",
+      "recomputed_identity": "QCHFTSOMWOSFHM",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_RFDAIACWWDREDC",
+      "truth_identity": "RFDAIACWWDREDC",
+      "recomputed_identity": "RFDAIACWWDREDC",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_RXPRRQLKFXBCSJ",
+      "truth_identity": "RXPRRQLKFXBCSJ",
+      "recomputed_identity": "RXPRRQLKFXBCSJ",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_RZGFUGXQKMEMOO",
+      "truth_identity": "RZGFUGXQKMEMOO",
+      "recomputed_identity": "RZGFUGXQKMEMOO",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_SGEWCQFRYRRZDC",
+      "truth_identity": "SGEWCQFRYRRZDC",
+      "recomputed_identity": "SGEWCQFRYRRZDC",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_SHIBSTMRCDJXLN",
+      "truth_identity": "SHIBSTMRCDJXLN",
+      "recomputed_identity": "SHIBSTMRCDJXLN",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_URFCJEUYXNAHFI",
+      "truth_identity": "URFCJEUYXNAHFI",
+      "recomputed_identity": "URFCJEUYXNAHFI",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    },
+    {
+      "molecule_id": "np_XKLMZUWKNUAPSZ",
+      "truth_identity": "XKLMZUWKNUAPSZ",
+      "recomputed_identity": "XKLMZUWKNUAPSZ",
+      "identity_consistent": true,
+      "pool_rows_for_identity": 1
+    }
+  ]
+}

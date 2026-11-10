@@ -1,0 +1,18 @@
+{
+  "id": 757309,
+  "read_only": true,
+  "checked_at_utc": "2026-11-10T12:11:35.670941+00:00",
+  "topic": {
+    "id": 757309,
+    "title": "Clarification on PubChem/COCONUT candidate-index redistribution",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/757309",
+    "postDate": "2026-11-09T14:17:28.373Z",
+    "authorName": "Phil Mohrman",
+    "authorUrl": "https://www.kaggle.com/philmohrman",
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>Can a private, offline CASMI 2026 submission notebook attach a candidate index derived from NCBI’s public PubChem Compound CID-SMILES.gz and CC0 COCONUT under the competition’s external-data and redistribution rules? The index contains standardized structures and computed search features. It excludes contributor annotations and competition training data. Is the PubChem bulk-file provenance sufficient, or do you require contributor-level clearance?</p>"
+  },
+  "comments": [],
+  "comments_truncated": false
+}

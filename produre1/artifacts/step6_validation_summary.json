@@ -1,0 +1,52 @@
+{
+  "step": "step6_validation_panel",
+  "scope": "cross_development frozen split (200 identities); positive matching + target-identity exclusion",
+  "panel_size": 200,
+  "identities_with_query_spectra": 200,
+  "refs": {
+    "A": 200724,
+    "B": 124160
+  },
+  "a_class": {
+    "match_coverage": 0.2,
+    "correct_match_coverage": 0.185,
+    "promotion_precision": 0.925,
+    "false_promotion_rate": 0.075,
+    "hits": 40,
+    "correct_hits": 37,
+    "per_source": {
+      "A": {
+        "hits": 9,
+        "correct": 8,
+        "precision": 0.8888888888888888
+      },
+      "B": {
+        "hits": 31,
+        "correct": 29,
+        "precision": 0.9354838709677419
+      }
+    },
+    "bootstrap_match_coverage": {
+      "mean": 0.2,
+      "ci_low": 0.145,
+      "ci_high": 0.255
+    },
+    "bootstrap_correct_match_coverage": {
+      "mean": 0.185,
+      "ci_low": 0.13,
+      "ci_high": 0.24
+    }
+  },
+  "b_class": {
+    "identities_with_query_spectra": 200,
+    "false_promotion_rate": 0.065,
+    "false_hits": 13,
+    "scope": "raw-inchikey14 exclusion of target identity from A+B; any above-threshold match counts as a false promotion"
+  },
+  "caveats": [
+    "Exclusion is at raw inchikey14 level, not full official identity (tautomer/stereo aliases may differ).",
+    "Positive matching compares the external best match to the panel's official identity.",
+    "No pipeline base ranking is used; promotion is the match-level rank-1 rule.",
+    "Public-pretrained exposure; not clean generalization."
+  ]
+}

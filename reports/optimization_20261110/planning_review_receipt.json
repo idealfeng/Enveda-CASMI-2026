@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-10T12:23:11.425551+00:00",
+  "champion_local_stage_unchanged": true,
+  "champion_ref": 58156482,
+  "champion_notebook_sha256": "2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7",
+  "five_planned_branches": [
+    "extlib_b_only",
+    "extlib_a_only",
+    "extlib_abe_gap_fill",
+    "extlib_abe_compete",
+    "extlib_ab_bprec_trusted"
+  ],
+  "new_cloud_or_submission_write": false,
+  "user_artifacts_modified": false,
+  "planning_evidence_only": true
+}

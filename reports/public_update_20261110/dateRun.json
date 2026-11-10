@@ -1,0 +1,905 @@
+{
+  "checked_at_utc": "2026-11-10T12:11:04.238727+00:00",
+  "records": [
+    {
+      "ref": "duongynhi/enveda-casmi26-gold-apex",
+      "title": "Enveda CASMI26 Gold Apex",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 12:10:49.490000",
+      "total_votes": 30,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "ozertuu/0-487-fastest-notebook",
+      "title": "👑 [0.487+] Fastest Notebook ",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 11:42:47.177000",
+      "total_votes": 2,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "takumuhata/casmi26-codex-sp482goldboth",
+      "title": "casmi26-codex-sp482goldboth",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 11:22:07.117000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "wenbodai/casmi26-apex-0487-l60",
+      "title": "CASMI26 apex 0487 L60",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 11:15:18.400000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "ozertuu/0-485-sota-casmi26-from-peaks-to-structures",
+      "title": "🏆 [0.485+ SOTA] CASMI26: From Peaks to Structures",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 10:57:40.607000",
+      "total_votes": 42,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "alexchilton/casmi26-lb-0-487-peaks-to-structures-scorer",
+      "title": "CASMI26 LB 0.487 | Peaks to Structures + Scorer",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 10:01:53.933000",
+      "total_votes": 205,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "avazaku/casmi26-evidence-lab",
+      "title": "CASMI26 Evidence Lab",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 09:59:02.760000",
+      "total_votes": 3,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "zz3t3rn41/casmi26-peaks-to-structures-v2",
+      "title": "casmi26-peaks-to-structures-v2",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 09:52:36.930000",
+      "total_votes": 116,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "koushikkumardinda/casmi-2026-eda-3-stage-hybrid-clip-ms-pubchem",
+      "title": "CASMI 2026: EDA + 3-Stage Hybrid, CLIP-MS, PubChem",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 07:38:27.117000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "tejashxprakash/enveda-neutral-mass-library-search",
+      "title": "Enveda Neutral Mass Library Search",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 06:30:34.400000",
+      "total_votes": 1,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "takumuhata/casmi26-codex-sp484alex",
+      "title": "casmi26-codex-sp484alex",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 05:53:49.387000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "takumuhata/casmi26-codex-sp483zenith33",
+      "title": "casmi26-codex-sp483zenith33",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 05:52:07.107000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "stardjyeah/casmi26-v589-fork",
+      "title": "casmi26 v589 fork",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 05:47:00.367000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "youyouwou/casmi26-v196v8pair",
+      "title": "casmi26-v196v8pair",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 05:08:55.680000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "youyouwou/casmi26-v195v7pair",
+      "title": "casmi26-v195v7pair",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 05:03:22.933000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "youyouwou/casmi26-v192v7triple",
+      "title": "casmi26-v192v7triple",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 03:32:30.020000",
+      "total_votes": 1,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "youyouwou/casmi26-v171tau75",
+      "title": "casmi26-v171tau75",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 02:36:01.090000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "youyouwou/casmi26-v173pertsrc",
+      "title": "casmi26-v173pertsrc",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 02:34:13.717000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "youyouwou/casmi26-v190heon487",
+      "title": "casmi26-v190heon487",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 02:31:14.430000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "youyouwou/casmi26-v153electr",
+      "title": "casmi26-v153electr",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 01:56:27.640000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "youyouwou/casmi26-v152massmode",
+      "title": "casmi26-v152massmode",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 01:56:18.527000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "guhongbin/casmi26-v593-kpeaks3",
+      "title": "casmi26 v593 kpeaks3",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 00:54:31.140000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "guhongbin/casmi26-v592-tau072",
+      "title": "casmi26 v592 tau072",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 00:54:22.140000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "guhongbin/casmi26-v591-massbank-only",
+      "title": "casmi26 v591 massbank only",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 00:51:58.893000",
+      "total_votes": 2,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "guhongbin/casmi26-v590-extlib-only",
+      "title": "casmi26 v590 extlib only",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 00:51:48.187000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "pablodiegoo/enveda-casmi26-starter-notebook",
+      "title": "Enveda CASMI26 Starter Notebook",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 00:45:23.327000",
+      "total_votes": 25,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "yw8837/0-481-lb-casmi-2026-timstof-3ppm-scaffold-cv",
+      "title": "[0.481 LB] CASMI 2026: timsTOF 3ppm & Scaffold CV",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 00:42:56.130000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "heon29/casmi26-zz3-v42-v7-triple-20261110",
+      "title": "CASMI26 ZZ3 V42 V7 Triple 20261110",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 00:27:12.697000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "heon29/casmi26-zz3-v42-0-487-repro-20261109",
+      "title": "CASMI26 ZZ3 V42 0.487 Repro 20261109",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-10 00:17:18.117000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "rushikeshpundkar/notebook9ef1cf0c62",
+      "title": "notebook9ef1cf0c62",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 23:27:48.253000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "znidhal/baseline-ipynb",
+      "title": "baseline.ipynb",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 23:19:58.020000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "theomainetucker/casmi-2026-flagship-hybrid-sota",
+      "title": "CASMI 2026 Flagship Hybrid SOTA",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 23:00:00.087000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "johnnykhan1/enveda-the-0481-wall",
+      "title": "enveda-the-0481-wall",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 21:29:14.253000",
+      "total_votes": 1,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "gedouluhui/casmi26-0486-fork-h1",
+      "title": "casmi26-0486-fork-h1",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 21:05:57.180000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "evgendvorkin/spectra-to-structures-deep-eda-molecular-clues",
+      "title": "🧬Spectra to Structures Deep EDA & Molecular Clues",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 20:39:13.867000",
+      "total_votes": 1,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "hananfish/casmi26-0486-repro-h1",
+      "title": "casmi26 0486 repro h1",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 19:23:50.627000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "easonyanyan/casmi26-v51-alex0484-extlib-fork",
+      "title": "CASMI26 V51 alex0484 extlib fork",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 17:18:36.370000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "mohitnehete2005/casmi26-apex-500-sota-dual-neural-dual-mode",
+      "title": "CASMI26 Apex 500 SOTA Dual Neural Dual Mode",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 14:44:19.893000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "adityaraj0612/casmi26-exp303-exact-lookup-fast",
+      "title": "casmi26 exp303 exact lookup fast",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 14:39:11.147000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "adityaraj0612/casmi26-exp302-exact-spectrum-lookup",
+      "title": "casmi26 exp302 exact spectrum lookup",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 14:30:32.097000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "rogersjohnson/casmi26-zz3v2-1109",
+      "title": "casmi26 zz3v2 1109",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 11:08:35.240000",
+      "total_votes": 27,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "rogersjohnson/casmi26-alex0484-extlib",
+      "title": "casmi26 alex0484 extlib",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 11:08:28.040000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "rajrajak99/casmi26-apex-v2210-extlib-sota-485",
+      "title": "CASMI26 Apex v2210 ExtLib SOTA 485",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 10:12:50.070000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "rajrajak99/casmi26-apex-v2215-extlib-sota-485",
+      "title": "CASMI26 Apex v2215 ExtLib SOTA 485",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 09:25:56.380000",
+      "total_votes": 1,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "rajrajak99/casmi26-apex-v2240-deep-extlib-v5-487",
+      "title": "CASMI26 Apex v2240 Deep ExtLib v5 487",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 09:16:49.353000",
+      "total_votes": 1,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "rajrajak99/casmi26-apex-v2230-extlib-calibrated-485",
+      "title": "CASMI26 Apex v2230 ExtLib Calibrated 485",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 09:14:59.610000",
+      "total_votes": 1,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "rajrajak99/casmi26-apex-v2220-sovereign-zenith-486",
+      "title": "CASMI26 Apex v2220 Sovereign Zenith 486",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 09:13:23.660000",
+      "total_votes": 1,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "rajrajak99/casmi26-apex-v2200-extlib-sota-484",
+      "title": "CASMI26 Apex v2200 ExtLib SOTA 484",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 09:02:09.600000",
+      "total_votes": 1,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "kevindesuwa/notebook7fcee8f338",
+      "title": "notebook7fcee8f338",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 08:28:57.713000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "takumuhata/casmi26-codex-sp479mid08",
+      "title": "casmi26-codex-sp479mid08",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 07:47:47.187000",
+      "total_votes": 1,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "adityaraj0612/casmi26-exp301-waterloss-adducts",
+      "title": "casmi26 exp301 waterloss adducts",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 06:51:16.183000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "youyouwou/casmi26-v160tau80",
+      "title": "casmi26-v160tau80",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 06:50:06.627000",
+      "total_votes": 17,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "adityaraj0612/casmi26-exp300-audit-fix",
+      "title": "casmi26 exp300 audit fix",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 06:04:52.627000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "guhongbin/casmi26-v589-alex0484-extlib",
+      "title": "casmi26 v589 alex0484 extlib",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 05:44:59.400000",
+      "total_votes": 73,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "matterhorn3838/evenda-casmi-2026-nextgen",
+      "title": "Evenda CASMI 2026 NextGen",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 05:39:49.023000",
+      "total_votes": 9,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "youyouwou/casmi26-v131diag400",
+      "title": "casmi26-v131diag400",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 05:26:21.197000",
+      "total_votes": 3,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "youyouwou/casmi26-v159extlib479",
+      "title": "casmi26-v159extlib479",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 04:07:19",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "liuzewen123/casmi26-0482-v2weights",
+      "title": "casmi26-0482-v2weights",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 02:50:40.747000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "heliosli/casmi26-0-486",
+      "title": "casmi26-0.486",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 02:31:45.367000",
+      "total_votes": 100,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "takumuhata/casmi26-codex-sp479mid05",
+      "title": "casmi26-codex-sp479mid05",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 02:17:55.367000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "youyouwou/casmi26-v154electrflat",
+      "title": "casmi26-v154electrflat",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 00:46:13.913000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "guhongbin/casmi26-v587-prvmass",
+      "title": "casmi26 v587 prvmass",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 00:45:47.900000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "guhongbin/casmi26-v586-eason50rr",
+      "title": "casmi26 v586 eason50rr",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-09 00:43:23.297000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "chyibo/enveda-casmi-0486-fork",
+      "title": "Enveda CASMI 0486 Fork",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 23:40:58.807000",
+      "total_votes": 2,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "chyibo/enveda-casmi-0485-fork",
+      "title": "Enveda CASMI 0485 Fork",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 23:35:38.513000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "takumuhata/casmi26-codex-sp479sp10",
+      "title": "casmi26-codex-sp479sp10",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 21:10:59.607000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "ozertuu/casmi26-apex-gold-486",
+      "title": "casmi26-apex-gold-486",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 21:03:06.963000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "roshanrobinc/casmi26-sovereignzenith-v32-apex-0-486-sota",
+      "title": "CASMI26 SovereignZenith V32 Apex 0.486+ SOTA",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 19:53:53.253000",
+      "total_votes": 3,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "adityaraj0612/casmi26-exp298-enveda180",
+      "title": "casmi26 exp298 enveda180",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 19:40:04.237000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "ndaedzomukhuba/enveda-apex-0500",
+      "title": "enveda-apex-0500",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 18:04:58.260000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "adityaraj0612/casmi26-exp297-extlib-recall",
+      "title": "casmi26 exp297 extlib recall",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 17:34:51.507000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "adityaraj0612/casmi26-exp296-provenance-reranker",
+      "title": "casmi26 exp296 provenance reranker",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 17:00:49.587000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "lucifer19/ionwraith-v11-evidence-guided-molecule-id",
+      "title": "🐈‍⬛🧪 IONWRAITH v11 | Evidence-Guided Molecule ID",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 16:25:30.783000",
+      "total_votes": 8,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "takumuhata/casmi26-codex-sp479np10",
+      "title": "casmi26-codex-sp479np10",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 16:03:30.970000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "adityaraj0612/casmi26-exp295-fragment-rank1-challenger",
+      "title": "casmi26 exp295 fragment rank1 challenger",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 16:00:27.850000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "stardjyeah/casmi26-v10-pubchem-standalone",
+      "title": "casmi26 v10 pubchem standalone",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 15:59:22.250000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "stardjyeah/casmi26-pool-probe",
+      "title": "casmi26 pool probe",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 15:56:27.770000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "takumuhata/casmi26-codex-sp482gold",
+      "title": "casmi26-codex-sp482gold",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 15:24:01.950000",
+      "total_votes": 1,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "adityaraj0612/casmi26-exp294-conservative-rank1-unlock",
+      "title": "casmi26 exp294 conservative rank1 unlock",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 15:15:11.003000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "adityaraj0612/casmi26-exp293-foodb-mass-fallback",
+      "title": "casmi26 exp293 foodb mass fallback",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 14:33:09.013000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "adityaraj0612/casmi26-exp292-foodb-mass-alias",
+      "title": "casmi26 exp292 foodb mass alias",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 14:04:33.550000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "adityaraj0612/casmi26-exp291-foodb-column-fix",
+      "title": "casmi26 exp291 foodb column fix",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 13:16:00.070000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "adityaraj0612/casmi26-exp290-conservative-recovery",
+      "title": "casmi26 exp290 conservative recovery",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 12:43:16.903000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "cheek2005/casmi26-scorer-train-hn",
+      "title": "CASMI26 scorer train hn",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 12:28:14.627000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "youyouwou/casmi26-v149rrfreeall",
+      "title": "casmi26-v149rrfreeall",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 12:28:14.053000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "mohitnehete2005/casmi26-apex-dual-neural-extlib-rank1-sota",
+      "title": "CASMI26 Apex | Dual Neural + ExtLib Rank1 SOTA",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 12:13:08.493000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "liuzewen123/casmi26-0500-quad-v1",
+      "title": "casmi26-0500-quad-v1",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 11:51:03.533000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "mohitnehete2005/casmi26-lb-0-482-gold-apex-v22-mass-prior",
+      "title": "CASMI26 LB 0.482 | Gold Apex V22 Mass Prior",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 11:41:46.137000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "youyouwou/casmi26-v145lotus479",
+      "title": "casmi26-v145lotus479",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 10:54:30.177000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "youyouwou/casmi26-v144rralpha3",
+      "title": "casmi26-v144rralpha3",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 09:49:41.953000",
+      "total_votes": 2,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "zkheart/casmi26-full-pipeline-v1",
+      "title": "CASMI26 Full Pipeline V1",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 09:36:06.583000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "chuanyuchangbio/casmi26-public-0482-20261108",
+      "title": "CASMI26 Public 0482 20261108",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 09:17:08.820000",
+      "total_votes": 2,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "chuanyuchangbio/casmi26-public-0481-20261108",
+      "title": "CASMI26 Public 0481 20261108",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 09:01:21.493000",
+      "total_votes": 2,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "youyouwou/casmi26-v142rr0482",
+      "title": "casmi26-v142rr0482",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 08:51:29.707000",
+      "total_votes": 2,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "stardjyeah/casmi26-v9-pubchem",
+      "title": "casmi26 v9 pubchem",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 08:21:23.443000",
+      "total_votes": 3,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "stardjyeah/casmi26-e3-gated",
+      "title": "casmi26 e3 gated",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 07:11:12.810000",
+      "total_votes": 3,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "stardjyeah/casmi26-v9-pubchem-pool",
+      "title": "casmi26 v9 pubchem pool",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 06:47:00.870000",
+      "total_votes": 1,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "stardjyeah/casmi26-e3-gated-extlib",
+      "title": "casmi26 e3 gated extlib",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 06:39:42.533000",
+      "total_votes": 1,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "liuzewen123/casmi26-0481-repro-v1",
+      "title": "casmi26-0481-repro-v1",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 06:05:14.900000",
+      "total_votes": 5,
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "rogersjohnson/casmi26-zz3v2-fork",
+      "title": "casmi26 zz3v2 fork",
+      "current_version_number": 0,
+      "last_run_time": "2026-11-08 05:39:57.907000",
+      "total_votes": 0,
+      "public_score": null,
+      "best_score": null
+    }
+  ]
+}

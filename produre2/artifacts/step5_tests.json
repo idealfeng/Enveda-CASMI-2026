@@ -1,0 +1,66 @@
+{
+  "total": 12,
+  "passed": 12,
+  "results": [
+    {
+      "test": "1_same_identity",
+      "passed": true,
+      "detail": "JVTAAEKCZFNVCJ JVTAAEKCZFNVCJ"
+    },
+    {
+      "test": "2_identity_exclusion",
+      "passed": true,
+      "detail": "['AAAABBBBCCCCDD', 'EEEEFFFFGGGGHH']"
+    },
+    {
+      "test": "3_no_reentry",
+      "passed": true,
+      "detail": "pool-level exclusion + derive seen-dedup"
+    },
+    {
+      "test": "4_query_runs_isolated",
+      "passed": true,
+      "detail": "derive is spectrum-free"
+    },
+    {
+      "test": "5_generate_false_default",
+      "passed": true,
+      "detail": "EngineCfg(ppm_win=10.0, ppm_fallback=30.0, search=SearchCfg(floor=0.002, topk=256, power=1.0, ent_weight=True, tol=0.01, ppm_tol=20.0, ppm_win=10.0, analog_win=200.0, n_analog=100), sim_power=4.0, n_analog=100, analog_query='merged', max_query_spectra=16, use_frag=True, use_subformula=True, frag_max_cand=600, generate=False, gen_n_analog=6, gen_min_sim=0.3, gen_max_per_parent=60, gen_max_total=150, gen_tol_da=0.004)"
+    },
+    {
+      "test": "6_generate_true_produces",
+      "passed": true,
+      "detail": "n=5"
+    },
+    {
+      "test": "7_valid_rdkit",
+      "passed": true,
+      "detail": "valid=5/5"
+    },
+    {
+      "test": "8_mass_tolerance",
+      "passed": true,
+      "detail": "hydroxyl delta ~ +15.9949"
+    },
+    {
+      "test": "9_dedup",
+      "passed": true,
+      "detail": "unique=5 total=5"
+    },
+    {
+      "test": "10_reproducible",
+      "passed": true,
+      "detail": "same call same output"
+    },
+    {
+      "test": "11_no_silent_exception",
+      "passed": true,
+      "detail": "bad-input returns list"
+    },
+    {
+      "test": "12_official_identity",
+      "passed": true,
+      "detail": "CBIAKDAYHRWZCU"
+    }
+  ]
+}

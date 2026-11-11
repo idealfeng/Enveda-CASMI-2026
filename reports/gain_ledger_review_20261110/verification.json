@@ -35,7 +35,7 @@
     "recipe_mutation_rejected": true,
     "real_ledgers_unchanged": true
   },
-  "source_sha256": "dcb8ed3b06c0373d578c0ffc4132655b3281dfb4e82f26f699edeaef648912e4",
+  "source_sha256": "3301ef58093309befc273e0cf9d64f734b11cb6887782b1fa9a50714766ce8a1",
   "no_network_used": true,
   "real_ledgers_untouched": true,
   "temporary_fixture_root": "D:/Paper/casmi/.cache/tmp"

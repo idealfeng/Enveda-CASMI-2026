@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "actual_report": "runs/identity_alias_stage_canary_20261111_final/verification.json",
+  "cases": {
+    "fast": "passed",
+    "hidden": "passed",
+    "bad_payload": "passed",
+    "bad_old_runtime": "passed"
+  },
+  "notebook_sha256": "27403704d35eaf044c5a9055d65c0cb051861f3572123df874f658e056b0327b"
+}

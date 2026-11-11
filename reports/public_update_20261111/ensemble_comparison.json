@@ -1,0 +1,69 @@
+{
+  "status": "source_comparison_complete_not_efficacy_test",
+  "public_ref": "ozertuu/casmi26-dual-neural-physical-isomer",
+  "public_version": 18,
+  "public_source_sha256": "54ad16b546964a1044f07aa5229cd7ee81145882d73a83fda061923e9254adcd",
+  "public_source_bytes": 813013,
+  "ours_public_score": 0.488,
+  "ours_submission_ref": 58156482,
+  "ours_source_sha256": "2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7",
+  "public_score_verified": false,
+  "public_api_score": null,
+  "frozen_pipeline_exact": true,
+  "frozen_pipeline_sha256": "d1e757c2b71b46e6e8a5777f14302a4737d0fdbcd56d8365093c039b93c5fd88",
+  "shared_embedded_modules_exact": {
+    "_post": true,
+    "_RR8_OVERLAY": false,
+    "_PUBLIC_RERANKER": true,
+    "_physical": true,
+    "_RR8_FEATURES": true
+  },
+  "rr8_enabled": {
+    "ours": false,
+    "v13": true,
+    "v18": false
+  },
+  "public_extra_discovery": {
+    "sorted_path": true,
+    "sha_dedup": false,
+    "score_all_but_fuse_at_most_two_extras": true,
+    "outside_scored_with_first_extra_only": true,
+    "training_config_used_as_scorer_config": false
+  },
+  "ensemble": {
+    "ours": ".5*z(v1)+.5*z(v2)",
+    "v18_one_extra": ".5*z(public)+.5*z(extra0)",
+    "v18_two_or_more_extras": ".5*z(public)+.25*z(extra0)+.25*z(extra1)"
+  },
+  "differences": {
+    "prior_weights": {
+      "ours": [
+        0.1,
+        0.1,
+        0.12
+      ],
+      "v18": [
+        0.12,
+        0.12,
+        0.12
+      ]
+    },
+    "library_prior_gate": {
+      "ours": 0.78,
+      "v18": 0.75
+    },
+    "external_mass_index": {
+      "ours": "precursor 10ppm+.002Da",
+      "v18": "neutral mass 12ppm+.002Da"
+    },
+    "external_exact_mass_15ppm_new": true,
+    "identity_alias_native_promotion_new": true,
+    "our_late_guarded_head_in_public": false,
+    "new_generation_base": false,
+    "new_enveda_library_in_public": false
+  },
+  "current_alias_submission": 58222489,
+  "new_kaggle_submission_performed": false,
+  "new_training_or_inference_performed": false,
+  "comparison_report": "reports/public_update_20261111/ensemble_comparison.md"
+}

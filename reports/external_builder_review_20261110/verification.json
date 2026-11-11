@@ -71,23 +71,21 @@
     "extlib_abe_compete:error_deletes_final": true,
     "extlib_abe_compete:e_credit": true,
     "extlib_abe_compete:never_overwrites_stage": true,
-    "extlib_ab_bprec_trusted:exact_first32_objects": true,
-    "extlib_ab_bprec_trusted:last_cell_only": true,
-    "extlib_ab_bprec_trusted:source_bound": true,
-    "extlib_ab_bprec_trusted:metadata_bound": true,
-    "extlib_ab_bprec_trusted:source_payload_pins": true,
-    "extlib_ab_bprec_trusted:explicit_sources": true,
-    "extlib_ab_bprec_trusted:e_policy": true,
-    "extlib_ab_bprec_trusted:bprec_flag": true,
-    "extlib_ab_bprec_trusted:only_e_uses_e_module": true,
-    "extlib_ab_bprec_trusted:e_dependency": true,
-    "extlib_ab_bprec_trusted:observer_recipe_pin": true,
-    "extlib_ab_bprec_trusted:original_function_pin": true,
-    "extlib_ab_bprec_trusted:old_guard_pin": true,
-    "extlib_ab_bprec_trusted:private_offline": true,
-    "extlib_ab_bprec_trusted:actual_source_consumption_calls": true,
-    "extlib_ab_bprec_trusted:error_deletes_final": true,
-    "extlib_ab_bprec_trusted:never_overwrites_stage": true,
+    "extlib_ab_identity_alias:exact_all33_objects": true,
+    "extlib_ab_identity_alias:single_cell_appended": true,
+    "extlib_ab_identity_alias:source_bound": true,
+    "extlib_ab_identity_alias:metadata_bound": true,
+    "extlib_ab_identity_alias:alias_payload_pin": true,
+    "extlib_ab_identity_alias:observer_recipe_pin": true,
+    "extlib_ab_identity_alias:complete_original_observers": true,
+    "extlib_ab_identity_alias:no_new_dependencies": true,
+    "extlib_ab_identity_alias:no_new_candidates_or_scoring": true,
+    "extlib_ab_identity_alias:private_offline": true,
+    "extlib_ab_identity_alias:actual_original_ab_audit_consumed": true,
+    "extlib_ab_identity_alias:actual_alias_run_and_audit": true,
+    "extlib_ab_identity_alias:error_deletes_final": true,
+    "extlib_ab_identity_alias:no_fallback_to_pre_ab": true,
+    "extlib_ab_identity_alias:never_overwrites_stage": true,
     "exact_five_manifest": true,
     "competition_baseline": true,
     "actual_engine_preflight": true,
@@ -114,7 +112,7 @@
         "actual_source_consumption_calls": true,
         "error_deletes_final": true
       },
-      "notebook_bytes": 859642
+      "notebook_bytes": 860324
     },
     "extlib_a_only": {
       "checks": {
@@ -135,7 +133,7 @@
         "actual_source_consumption_calls": true,
         "error_deletes_final": true
       },
-      "notebook_bytes": 859642
+      "notebook_bytes": 860324
     },
     "extlib_abe_gap_fill": {
       "checks": {
@@ -157,7 +155,7 @@
         "error_deletes_final": true,
         "e_credit": true
       },
-      "notebook_bytes": 866483
+      "notebook_bytes": 867165
     },
     "extlib_abe_compete": {
       "checks": {
@@ -179,31 +177,29 @@
         "error_deletes_final": true,
         "e_credit": true
       },
-      "notebook_bytes": 866481
+      "notebook_bytes": 867163
     },
-    "extlib_ab_bprec_trusted": {
+    "extlib_ab_identity_alias": {
       "checks": {
-        "exact_first32_objects": true,
-        "last_cell_only": true,
+        "exact_all33_objects": true,
+        "single_cell_appended": true,
         "source_bound": true,
         "metadata_bound": true,
-        "source_payload_pins": true,
-        "explicit_sources": true,
-        "e_policy": true,
-        "bprec_flag": true,
-        "only_e_uses_e_module": true,
-        "e_dependency": true,
+        "alias_payload_pin": true,
         "observer_recipe_pin": true,
-        "original_function_pin": true,
-        "old_guard_pin": true,
+        "complete_original_observers": true,
+        "no_new_dependencies": true,
+        "no_new_candidates_or_scoring": true,
         "private_offline": true,
-        "actual_source_consumption_calls": true,
-        "error_deletes_final": true
+        "actual_original_ab_audit_consumed": true,
+        "actual_alias_run_and_audit": true,
+        "error_deletes_final": true,
+        "no_fallback_to_pre_ab": true
       },
-      "notebook_bytes": 859656
+      "notebook_bytes": 879774
     }
   },
   "new_cloud_or_submission_write": false,
   "disposable_d_fixture": true,
-  "builder_sha256": "57c3afe72f16f4284e834c8c4112121ecd68ca60abe0002d8b4b87adfe14a622"
+  "builder_sha256": "c4322d65f86dbd74373fbae7e6e672274f8131b0a5eeb4127fbcc11f252d18b8"
 }

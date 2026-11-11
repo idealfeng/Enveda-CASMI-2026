@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "branch": "mass_guarded_head_tail_1108",
+  "mode": "fast_static",
+  "recipe_sha256": "ba7ee5d3545fd6bc32159bbeed785e904dbf99beae0347984a8b7d5c8809e5d8",
+  "checks": {
+    "original_base_audit": true,
+    "late_module_pin": true,
+    "head_payload_pins": true,
+    "original_scorer_pin": true,
+    "audited_control_bound": true,
+    "final_csv_bound": true,
+    "exact_ids_order": true,
+    "exact_prefix7": true,
+    "exact_candidate_multisets": true,
+    "fast_no_model": true
+  },
+  "head_executed": false,
+  "changed_queries": 0,
+  "baseline_control_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0"
+}

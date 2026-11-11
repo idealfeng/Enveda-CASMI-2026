@@ -83,7 +83,7 @@ def build_query(queries, mid):
         prec = float(np.asarray(r.precursor_mz).reshape(-1)[0])
         ce_raw = np.asarray(r.collision_energy_ev, np.float64).reshape(-1)
         ce_raw = ce_raw[~np.isnan(ce_raw)]
-        ce = float(ce_raw.mean()) if len(ce_raw) else None
+        ce = float(ce_raw.mean()) if len(ce_raw) else float("nan")
         ce_n = int(len(ce_raw))
         spectra.append(dict(mz=mz, it=it, mode=mode, adduct=adduct, prec=prec, ce=ce, ce_n=ce_n))
     masses = chem.neutral_mass(np.array([s["prec"] for s in spectra], np.float64),

@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-extlib-abe-compete-1110",
+  "version": 1,
+  "branch_sha256": "9622b514a98bf5286761eb15967d0f9fedd2150b59c91bfe1402ca6e18ac6fbf",
+  "notebook_sha256": "e41084bdd6fd77544784df7689ff647d915cf196b81829fd6898a6eaade9f6dd",
+  "metadata_sha256": "8fedeaf1cbbeef83275b81881a4d5f0537014e1e2e6005bc8446d914d3c4ef5f",
+  "requested_at_utc": "2026-11-11T02:42:18.123557+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-11T02:42:25.068968+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

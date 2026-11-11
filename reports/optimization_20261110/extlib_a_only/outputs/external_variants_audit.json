@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "branch": "extlib_a_only",
+  "recipe_sha256": "f9d0169dc3ec56e8acee8ccce5c014d2f9e154e1fd1d69015779fd04006b9d2d",
+  "mode": "fast_static",
+  "checks": {
+    "base_audit_passed": true,
+    "configuration_bound": true,
+    "control_bound": true,
+    "final_bound": true,
+    "source_function_pin": true,
+    "exact_ids_schema": true,
+    "official_identities_valid": true,
+    "library_file_pins": true,
+    "runtime_checks": true,
+    "fast_no_matching": true,
+    "installed_payload_pins": true
+  },
+  "csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "control_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "runtime_report_sha256": "a078925aeaa62f55692a5fc73c03ff6693e39221c23d40181d447915ca336de4",
+  "configuration_sha256": "7a2cab8b005fbba5a4886b5f2b6b089aeaa4a8140162fdbd73c1800baa89e431",
+  "sources": [
+    "A"
+  ],
+  "e_policy": "none",
+  "trusted_bprec": false,
+  "changed_top1": 0,
+  "e_selected_queries": 0,
+  "bprec_corrected_count": 0,
+  "installed_payload_pins": {
+    "external_library_overlay_20261109.py": "a31c55a2958139cbeea948ea4d11fa32eb40e3d3d7b0bac157f6d0fdc51025db",
+    "alex_v12_external_function.py": "9ceaa95ddda0fb304758c9acd7dd1f256c528fcb4a8304c0152f8b6d8e3e3e76",
+    "external_library_variants_20261110.py": "8c7b203f4fe90ccd95194f68cae5dd1afc7163119da84dd96c91e5f05df095e2"
+  }
+}

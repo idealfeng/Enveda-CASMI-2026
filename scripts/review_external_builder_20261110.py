@@ -24,23 +24,41 @@ def main():
                     if isinstance(node,ast.Assign) and len(node.targets)==1 and isinstance(node.targets[0],ast.Name):
                         try:values[node.targets[0].id]=ast.literal_eval(node.value)
                         except (ValueError,TypeError):pass
-                packed=values['_variant_payloads'];pins=values['_variant_pins']
-                actual={k:hashlib.sha256(zlib.decompress(base64.b64decode(v))).hexdigest() for k,v in packed.items()}
-                cfg=recipe['configuration'];has_e='E' in item['sources']
-                branch_checks=dict(exact_first32_objects=nb['cells'][:-1]==old['cells'][:-1],last_cell_only=len(nb['cells'])==33,
-                    source_bound=sha(stage/'notebook.ipynb')==prepared['notebook_sha256']==spec['notebook_sha256'],metadata_bound=sha(stage/'kernel-metadata.json')==spec['metadata_sha256'],
-                    source_payload_pins=actual==pins==recipe['payload_pins'],explicit_sources=cfg['sources']==item['sources'],
-                    e_policy=cfg['e_policy']==({'extlib_abe_gap_fill':'gap_fill','extlib_abe_compete':'compete'}.get(name,'none')),
-                    bprec_flag=cfg['trusted_bprec']==(name=='extlib_ab_bprec_trusted'),
-                    only_e_uses_e_module=('enveda_matching_20261110.py' in packed)==has_e,
-                    e_dependency=('egehseyinca/enveda180-casmi26-reference-ccby4/1' in metadata['dataset_sources'])==has_e,
-                    observer_recipe_pin=spec['required_runtime_audits'][-1]['expected_fields']['recipe_sha256']==sha(stage/'recipe.json'),
-                    original_function_pin=actual['alex_v12_external_function.py']==build.ORIGINAL_FUNCTION_SHA,
-                    old_guard_pin=actual['external_library_overlay_20261109.py']==build.OLD_HELPER_SHA,
-                    private_offline=metadata['is_private'] is True and metadata['enable_internet'] is False and metadata['enable_gpu'] is True,
-                    actual_source_consumption_calls='EXTERNAL_VARIANTS_REPORT=_variant_overlay.run(*_variant_args)' in build.source(nb['cells'][-1]) and 'EXTERNAL_VARIANTS_AUDIT=_variant_overlay.audit' in build.source(nb['cells'][-1]),
-                    error_deletes_final="(ROOT/'submission.csv').unlink(missing_ok=True)" in build.source(nb['cells'][-1]))
-                if has_e:branch_checks['e_credit']='10.5281/zenodo.21346580' in recipe['enveda_attribution']['doi'] and 'CC BY 4.0' in build.source(nb['cells'][-1])
+                if name=='extlib_ab_identity_alias':
+                    call=next(x for x in ast.walk(tree) if isinstance(x,ast.Call) and isinstance(x.func,ast.Attribute) and x.func.attr=='b64decode')
+                    actual=hashlib.sha256(zlib.decompress(base64.b64decode(ast.literal_eval(call.args[0])))).hexdigest()
+                    parent_meta=read(build.BASE/'kernel-metadata.json')
+                    branch_checks=dict(exact_all33_objects=nb['cells'][:-1]==old['cells'],single_cell_appended=len(nb['cells'])==34,
+                        source_bound=sha(stage/'notebook.ipynb')==prepared['notebook_sha256']==spec['notebook_sha256'],
+                        metadata_bound=sha(stage/'kernel-metadata.json')==spec['metadata_sha256'],
+                        alias_payload_pin=actual==recipe['alias_module_sha256']==build.ALIAS_SHA,
+                        observer_recipe_pin=spec['required_runtime_audits'][-1]['expected_fields']['recipe_sha256']==sha(stage/'recipe.json'),
+                        complete_original_observers=spec['required_runtime_audits'][:-1]==read(build.BASE/'branch_spec.json')['required_runtime_audits'],
+                        no_new_dependencies=metadata['dataset_sources']==parent_meta['dataset_sources'] and metadata['kernel_sources']==parent_meta['kernel_sources'],
+                        no_new_candidates_or_scoring=recipe['no_new_candidates'] and recipe['no_new_scoring'],
+                        private_offline=metadata['is_private'] is True and metadata['enable_internet'] is False and metadata['enable_gpu'] is True,
+                        actual_original_ab_audit_consumed='EXTERNAL_OVERLAY_AUDIT' in build.source(nb['cells'][-1]),
+                        actual_alias_run_and_audit='IDENTITY_ALIAS_REPORT=_alias_module.run(*_alias_args)' in build.source(nb['cells'][-1]) and 'IDENTITY_ALIAS_AUDIT=_alias_module.audit(*_alias_args)' in build.source(nb['cells'][-1]),
+                        error_deletes_final="(ROOT/'submission.csv').unlink(missing_ok=True)" in build.source(nb['cells'][-1]),
+                        no_fallback_to_pre_ab=recipe['baseline_ref']==58156482 and recipe['baseline_public_score']==.488)
+                else:
+                    packed=values['_variant_payloads'];pins=values['_variant_pins']
+                    actual={k:hashlib.sha256(zlib.decompress(base64.b64decode(v))).hexdigest() for k,v in packed.items()}
+                    cfg=recipe['configuration'];has_e='E' in item['sources']
+                    branch_checks=dict(exact_first32_objects=nb['cells'][:-1]==old['cells'][:-1],last_cell_only=len(nb['cells'])==33,
+                        source_bound=sha(stage/'notebook.ipynb')==prepared['notebook_sha256']==spec['notebook_sha256'],metadata_bound=sha(stage/'kernel-metadata.json')==spec['metadata_sha256'],
+                        source_payload_pins=actual==pins==recipe['payload_pins'],explicit_sources=cfg['sources']==item['sources'],
+                        e_policy=cfg['e_policy']==({'extlib_abe_gap_fill':'gap_fill','extlib_abe_compete':'compete'}.get(name,'none')),
+                        bprec_flag=cfg['trusted_bprec'] is False,
+                        only_e_uses_e_module=('enveda_matching_20261110.py' in packed)==has_e,
+                        e_dependency=('egehseyinca/enveda180-casmi26-reference-ccby4/1' in metadata['dataset_sources'])==has_e,
+                        observer_recipe_pin=spec['required_runtime_audits'][-1]['expected_fields']['recipe_sha256']==sha(stage/'recipe.json'),
+                        original_function_pin=actual['alex_v12_external_function.py']==build.ORIGINAL_FUNCTION_SHA,
+                        old_guard_pin=actual['external_library_overlay_20261109.py']==build.OLD_HELPER_SHA,
+                        private_offline=metadata['is_private'] is True and metadata['enable_internet'] is False and metadata['enable_gpu'] is True,
+                        actual_source_consumption_calls='EXTERNAL_VARIANTS_REPORT=_variant_overlay.run(*_variant_args)' in build.source(nb['cells'][-1]) and 'EXTERNAL_VARIANTS_AUDIT=_variant_overlay.audit' in build.source(nb['cells'][-1]),
+                        error_deletes_final="(ROOT/'submission.csv').unlink(missing_ok=True)" in build.source(nb['cells'][-1]))
+                    if has_e:branch_checks['e_credit']='10.5281/zenodo.21346580' in recipe['enveda_attribution']['doi'] and 'CC BY 4.0' in build.source(nb['cells'][-1])
                 checks.update({name+':'+k:v for k,v in branch_checks.items()});details[name]=dict(checks=branch_checks,notebook_bytes=prepared['notebook_bytes'])
                 try:build.prepare(name)
                 except FileExistsError:checks[name+':never_overwrites_stage']=True

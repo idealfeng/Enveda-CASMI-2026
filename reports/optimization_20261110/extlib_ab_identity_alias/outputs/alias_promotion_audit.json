@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "mode": "fast_static",
+  "branch": "extlib_ab_identity_alias",
+  "recipe_sha256": "e6a318ecc5284972d682618fccfdfbcfa1d82077a228451420c80ca5cd350504",
+  "checks": {
+    "original_ab_audit_passed": true,
+    "old_audit_snapshot_bound": true,
+    "original_runtime_bound": true,
+    "original_ab_output_bound": true,
+    "pre_ab_control_bound": true,
+    "module_pin": true,
+    "branch_recipe_bound": true,
+    "final_bound": true,
+    "exact_ids_schema": true,
+    "native_candidate_multisets": true,
+    "official_identities_valid": true,
+    "runtime_checks": true,
+    "no_new_scoring_or_candidates": true,
+    "fast_no_promotion": true,
+    "installed_payload_pin": true
+  },
+  "csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "control_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "runtime_report_sha256": "bcbf8335d6f1e414129f0db3a96d0778f317a016b25c7e35cca7a875983b89a2",
+  "eligible_queries": 0,
+  "changed_queries": 0,
+  "module_sha256": "44b1964b9298a794bb303f3ce579c8d06ef8b8047f078fe868bed0154d607c02",
+  "installed_module_sha256": "44b1964b9298a794bb303f3ce579c8d06ef8b8047f078fe868bed0154d607c02"
+}

@@ -1,0 +1,30 @@
+{
+  "ref": "zz3t3rn41/casmi26-peaks-to-structures-v2",
+  "title": "casmi26-peaks-to-structures-v2",
+  "current_version_number": 46,
+  "last_run_time": "2026-11-07 17:09:58.695000",
+  "dataset_data_sources": [
+    "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "bgunshui/casmi26-scorer-v2-model",
+    "takumuhata/casmi26-extlib",
+    "sanpier/catalogue-experiment-saner",
+    "qwertykeypadapple/casmi26-lotus-candidates",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [],
+  "enable_gpu": true,
+  "enable_internet": false,
+  "is_private": false,
+  "public_score": null,
+  "best_score": null,
+  "source_sha256": "25549ed9615a25ebce25f23f5aab7749bc084789e41fbe528c12f7b5a48b35e7",
+  "source_bytes": 811903,
+  "source_path": "reports\\public_update_20261111\\zz3t3rn41__casmi26-peaks-to-structures-v2\\source.ipynb",
+  "checked_at_utc": "2026-11-10T17:09:59.612977+00:00"
+}

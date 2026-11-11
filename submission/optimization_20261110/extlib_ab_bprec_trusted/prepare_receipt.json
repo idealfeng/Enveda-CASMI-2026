@@ -1,0 +1,12 @@
+{
+  "status": "prepared",
+  "branch": "extlib_ab_bprec_trusted",
+  "target": "stormseye/casmi26-extlib-ab-bprec-trusted-1110",
+  "version": 1,
+  "notebook_sha256": "b07764ca3040e7270aad28241a2be5882a2c653222325865cdd46143d8db86d7",
+  "metadata_sha256": "a480cb71bf104cd84bd8c5e9560987efa7f609da5d6631cd634f7eb5d19c354f",
+  "recipe_sha256": "237b65db5b1452c6f792b89d410a6fb295dbea346e1662a046a6a7156d8f3031",
+  "static_review_path": "submission/optimization_20261110/extlib_ab_bprec_trusted/static_review.json",
+  "validation_mode": "fast_static",
+  "notebook_bytes": 860338
+}

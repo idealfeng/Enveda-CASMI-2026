@@ -1,0 +1,448 @@
+{
+  "step": "q4_full_rank_160feat",
+  "scope": "REAL 160-feature v4b ranker (fe_v4/V1FE) on Class-3 dev queries, generate ON",
+  "queries": 48,
+  "ok_queries": 48,
+  "error_queries": 0,
+  "recovered_by_generation": 19,
+  "recovered_top25": 19,
+  "recovered_top25_rate": 1.0,
+  "mrr_class3_160feat": 0.2958,
+  "mrr_recovered_only": 0.7474,
+  "elapsed_s": 116.5,
+  "rows": [
+    {
+      "molecule_id": "cross_CBIAKDAYHRWZCU",
+      "n_cand": 27,
+      "n_gen": 23,
+      "truth_present": true,
+      "truth_is_gen": true,
+      "rank": 3,
+      "top25": true
+    },
+    {
+      "molecule_id": "cross_CDUVSQMTLOYKTR",
+      "n_cand": 252,
+      "n_gen": 130,
+      "truth_present": true,
+      "truth_is_gen": true,
+      "rank": 4,
+      "top25": true
+    },
+    {
+      "molecule_id": "cross_DKZBBWMURDFHNE",
+      "n_cand": 111,
+      "n_gen": 1,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "cross_DWVXZQVYILJCJH",
+      "n_cand": 64,
+      "n_gen": 60,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "cross_FWXUWWAXYNCZAY",
+      "n_cand": 179,
+      "n_gen": 10,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "cross_GFZLFKCEWJJEFW",
+      "n_cand": 255,
+      "n_gen": 0,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "cross_HPXGRJSGVYZSBD",
+      "n_cand": 70,
+      "n_gen": 0,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "cross_IYODIJVWGPRBGQ",
+      "n_cand": 3,
+      "n_gen": 0,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "cross_JIZXTXDQGNQBTA",
+      "n_cand": 47,
+      "n_gen": 10,
+      "truth_present": true,
+      "truth_is_gen": true,
+      "rank": 2,
+      "top25": true
+    },
+    {
+      "molecule_id": "cross_KAQOTUWFZPIKLZ",
+      "n_cand": 320,
+      "n_gen": 0,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "cross_MZNCWPOVMBLUSG",
+      "n_cand": 1,
+      "n_gen": 0,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "cross_NOFOAYPPHIUXJR",
+      "n_cand": 207,
+      "n_gen": 6,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "cross_NQHGQOVKJGGLKE",
+      "n_cand": 53,
+      "n_gen": 9,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "cross_OTGQIQQTPXJQRG",
+      "n_cand": 32,
+      "n_gen": 23,
+      "truth_present": true,
+      "truth_is_gen": true,
+      "rank": 1,
+      "top25": true
+    },
+    {
+      "molecule_id": "cross_QNUNSPMEODRLBZ",
+      "n_cand": 197,
+      "n_gen": 24,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "cross_SRNDKRJFBMZBCK",
+      "n_cand": 79,
+      "n_gen": 59,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "n_cand": 11,
+      "n_gen": 5,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "cross_VJLSQJBXDSKTLG",
+      "n_cand": 6,
+      "n_gen": 3,
+      "truth_present": true,
+      "truth_is_gen": true,
+      "rank": 1,
+      "top25": true
+    },
+    {
+      "molecule_id": "cross_VXVNYCRICCVPTD",
+      "n_cand": 201,
+      "n_gen": 150,
+      "truth_present": true,
+      "truth_is_gen": true,
+      "rank": 3,
+      "top25": true
+    },
+    {
+      "molecule_id": "cross_WDRYRZXSPDWGEB",
+      "n_cand": 9,
+      "n_gen": 0,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "n_cand": 142,
+      "n_gen": 0,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "cross_WIOKWEJDRXNVSH",
+      "n_cand": 175,
+      "n_gen": 0,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "cross_XSOKPIZATJBJPO",
+      "n_cand": 5,
+      "n_gen": 0,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "cross_YFJYOZDIJVHPAU",
+      "n_cand": 47,
+      "n_gen": 0,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "np_AAWZDTNXLSGCEK",
+      "n_cand": 13,
+      "n_gen": 0,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "np_ACNHBCIZLNNLRS",
+      "n_cand": 28,
+      "n_gen": 0,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "np_CEUORZQYGODEFX",
+      "n_cand": 29,
+      "n_gen": 0,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "np_CTRLABGOLIVAIY",
+      "n_cand": 51,
+      "n_gen": 1,
+      "truth_present": true,
+      "truth_is_gen": true,
+      "rank": 1,
+      "top25": true
+    },
+    {
+      "molecule_id": "np_DBEPLOCGEIEOCV",
+      "n_cand": 11,
+      "n_gen": 0,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "np_DOFJNFPSMUCECH",
+      "n_cand": 182,
+      "n_gen": 23,
+      "truth_present": true,
+      "truth_is_gen": true,
+      "rank": 1,
+      "top25": true
+    },
+    {
+      "molecule_id": "np_DOUMFZQKYFQNTF",
+      "n_cand": 149,
+      "n_gen": 1,
+      "truth_present": true,
+      "truth_is_gen": true,
+      "rank": 1,
+      "top25": true
+    },
+    {
+      "molecule_id": "np_DUXQKCCELUKXOE",
+      "n_cand": 186,
+      "n_gen": 150,
+      "truth_present": true,
+      "truth_is_gen": true,
+      "rank": 1,
+      "top25": true
+    },
+    {
+      "molecule_id": "np_FELGMEQIXOGIFQ",
+      "n_cand": 112,
+      "n_gen": 0,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "np_FFGPTBGBLSHEPO",
+      "n_cand": 18,
+      "n_gen": 1,
+      "truth_present": true,
+      "truth_is_gen": true,
+      "rank": 1,
+      "top25": true
+    },
+    {
+      "molecule_id": "np_GZSOSUNBTXMUFQ",
+      "n_cand": 253,
+      "n_gen": 150,
+      "truth_present": true,
+      "truth_is_gen": true,
+      "rank": 5,
+      "top25": true
+    },
+    {
+      "molecule_id": "np_HELXLJCILKEWJH",
+      "n_cand": 160,
+      "n_gen": 150,
+      "truth_present": true,
+      "truth_is_gen": true,
+      "rank": 4,
+      "top25": true
+    },
+    {
+      "molecule_id": "np_HSMPDPBYAYSOBC",
+      "n_cand": 68,
+      "n_gen": 4,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "np_HUSISCNTLUEZCN",
+      "n_cand": 73,
+      "n_gen": 60,
+      "truth_present": true,
+      "truth_is_gen": true,
+      "rank": 1,
+      "top25": true
+    },
+    {
+      "molecule_id": "np_JYGXADMDTFJGBT",
+      "n_cand": 272,
+      "n_gen": 14,
+      "truth_present": true,
+      "truth_is_gen": true,
+      "rank": 1,
+      "top25": true
+    },
+    {
+      "molecule_id": "np_MBRLOUHOWLUMFF",
+      "n_cand": 176,
+      "n_gen": 9,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "np_QCHFTSOMWOSFHM",
+      "n_cand": 26,
+      "n_gen": 2,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "np_RFDAIACWWDREDC",
+      "n_cand": 14,
+      "n_gen": 0,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "np_RXPRRQLKFXBCSJ",
+      "n_cand": 271,
+      "n_gen": 46,
+      "truth_present": true,
+      "truth_is_gen": true,
+      "rank": 1,
+      "top25": true
+    },
+    {
+      "molecule_id": "np_RZGFUGXQKMEMOO",
+      "n_cand": 84,
+      "n_gen": 0,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    },
+    {
+      "molecule_id": "np_SGEWCQFRYRRZDC",
+      "n_cand": 300,
+      "n_gen": 150,
+      "truth_present": true,
+      "truth_is_gen": true,
+      "rank": 1,
+      "top25": true
+    },
+    {
+      "molecule_id": "np_SHIBSTMRCDJXLN",
+      "n_cand": 284,
+      "n_gen": 124,
+      "truth_present": true,
+      "truth_is_gen": true,
+      "rank": 3,
+      "top25": true
+    },
+    {
+      "molecule_id": "np_URFCJEUYXNAHFI",
+      "n_cand": 154,
+      "n_gen": 10,
+      "truth_present": true,
+      "truth_is_gen": true,
+      "rank": 1,
+      "top25": true
+    },
+    {
+      "molecule_id": "np_XKLMZUWKNUAPSZ",
+      "n_cand": 34,
+      "n_gen": 0,
+      "truth_present": false,
+      "truth_is_gen": false,
+      "rank": null,
+      "top25": false
+    }
+  ],
+  "note": "160-feature ranker = casmi 94 features + fe_v4 66 family features; read-only diagnostic."
+}

@@ -1,0 +1,7 @@
+{
+  "public_read_only": true,
+  "requested_version": 18,
+  "status": "unavailable",
+  "error_type": "JSONDecodeError",
+  "http_status": null
+}

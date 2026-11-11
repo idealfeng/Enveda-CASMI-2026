@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-extlib-a-only-1110",
+  "version": 1,
+  "actual_target": "stormseye/casmi26-extlib-a-only-1110",
+  "branch_sha256": "f18f3feaa98f473322fe8a6dc175678ad8b099eee587f0b028f92930ccc42209",
+  "notebook_sha256": "82459aad7d58ddf3187f17fba2bf6dfa66d7839982f91ee3e34e3fadca1bcc57",
+  "checked_at_utc": "2026-11-11T02:40:38.395064+00:00",
+  "checks": {
+    "csv_schema_and_official_identities": true,
+    "version_source_private_offline": true,
+    "observer:batch_variant_audit.json": true,
+    "observer:guarded_tail_audit.json": true,
+    "observer:external_variants_audit.json": true
+  },
+  "files": [
+    {
+      "name": "submission.csv",
+      "bytes": 153619,
+      "sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0"
+    },
+    {
+      "name": "batch_variant_audit.json",
+      "bytes": 1501,
+      "sha256": "2061f767b45750206a4e482971b383097810927e7a8a204eebf670a7890b0131"
+    },
+    {
+      "name": "guarded_tail_audit.json",
+      "bytes": 741,
+      "sha256": "9d10f93bc38eb6a4bb49415567ceb510ba9993c7f321ebbecff67fa84436f1bb"
+    },
+    {
+      "name": "external_variants_audit.json",
+      "bytes": 1406,
+      "sha256": "b6e5e7775c67f950553b303a6105ca3257c89b2c29b729161d89a2fc316aff90"
+    }
+  ],
+  "csv": {
+    "rows": 400,
+    "rdkit": "2026.03.3",
+    "duplicate_identity_rows": []
+  },
+  "submission_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "total_bytes": 157267,
+  "validation_mode": "fast_static",
+  "scope": "fast_static_no_visible_model_execution",
+  "signed_urls_persisted": false,
+  "read_only": true,
+  "competition_submission_performed": false
+}

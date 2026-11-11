@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-extlib-abe-gap-fill-1110",
+  "version": 1,
+  "branch_sha256": "344228e0e31703e643308cc86c01d7db696f071af1620d669c92cc881f1552c0",
+  "notebook_sha256": "619a3258c2c29030841d63410413f95a0de0a8a211eede5c24a8008b7e238c1d",
+  "metadata_sha256": "92bc40769e574073149462ce34da325da39498620cd467057bb42931e5a37276",
+  "requested_at_utc": "2026-11-11T02:40:51.490173+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-11T02:40:59.745333+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

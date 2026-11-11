@@ -70,7 +70,7 @@ def main():
         tests['explicit_causal_scope']=bool(entry['source']) and bool(entry['attribution_limit']) and entry['private_gain_verified'] is False and entry['comparison_anchor_ref']==58156482
         tests['current_champion_anchor']=entry['comparison_anchor_public_score']==.488 and entry['paired_comparison']['parent_ref']==58156482 and entry['paired_comparison']['parent_score']==.488 and entry['paired_comparison']['displayed_delta']==.001
         tests['pre_external_parent_kept_distinct']=entry['shared_pre_external_parent_ref']==58129661 and entry['shared_pre_external_parent_public_score']==.482
-        expected_names={'extlib_b_only','extlib_a_only','extlib_abe_gap_fill','extlib_abe_compete','extlib_ab_bprec_trusted'}
+        expected_names={'extlib_b_only','extlib_a_only','extlib_abe_gap_fill','extlib_abe_compete','extlib_ab_identity_alias'}
         tests['five_explicit_readable_sources']=set(ledger_module.ATTRIBUTIONS)==expected_names and all('??' not in text and any('\u4e00'<=ch<='\u9fff' for ch in text) for pair in ledger_module.ATTRIBUTIONS.values() for text in pair)
         tests['markdown_matches_json']='<!-- gain-ref: 91000001 -->' in prose and entry['source'] in prose and entry['attribution_limit'] in prose and entry['notebook_sha256'] in prose
         frozen=(sha(f['ledger']),sha(f['md']))

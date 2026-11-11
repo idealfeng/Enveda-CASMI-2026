@@ -1,17 +1,52 @@
 {
-  "status": "implementing_authorized_five_variants",
-  "updated_at_utc": "2026-11-10T12:28:42.329906+00:00",
-  "authorization": "User: ni zuo ba; execute the five reviewed variants",
+  "status": "five_formal_submissions_accepted_waiting_hidden_scores",
+  "updated_at_utc": "2026-11-11T02:46:43.073593+00:00",
+  "authorization": "User directly authorized five Kaggle submissions",
   "baseline_ref": 58156482,
   "baseline_score": 0.488,
-  "planned_branches": [
-    "extlib_b_only",
-    "extlib_a_only",
-    "extlib_abe_gap_fill",
-    "extlib_abe_compete",
-    "extlib_ab_bprec_trusted"
-  ],
   "downloads_and_artifacts_root": "D:/Paper/casmi",
-  "stage_creation_performed": false,
-  "formal_submissions_this_turn": 0
+  "stage_creation_performed": true,
+  "manifest_sha256": "3c5179c08249d4d5e010f34fdf67d17c855bd471b69a97c83a43b5507097ba21",
+  "formal_submissions_this_batch": 5,
+  "branches": [
+    {
+      "branch": "extlib_b_only",
+      "submission_ref": 58222403,
+      "accepted": true,
+      "output_audit_status": "passed"
+    },
+    {
+      "branch": "extlib_a_only",
+      "submission_ref": 58222369,
+      "accepted": true,
+      "output_audit_status": "passed"
+    },
+    {
+      "branch": "extlib_abe_gap_fill",
+      "submission_ref": 58222443,
+      "accepted": true,
+      "output_audit_status": "passed"
+    },
+    {
+      "branch": "extlib_abe_compete",
+      "submission_ref": 58222478,
+      "accepted": true,
+      "output_audit_status": "passed"
+    },
+    {
+      "branch": "extlib_ab_identity_alias",
+      "submission_ref": 58222489,
+      "accepted": true,
+      "output_audit_status": "passed"
+    }
+  ],
+  "limits": {
+    "checked_at_utc": "2026-11-11T02:45:57.159261+00:00",
+    "num_today": 5,
+    "num_total": 26,
+    "num_allowed_now": 0
+  },
+  "score_watcher_pid": 15096,
+  "local_pc_required_for_kaggle_scoring": false,
+  "local_pc_required_for_local_monitoring": true
 }

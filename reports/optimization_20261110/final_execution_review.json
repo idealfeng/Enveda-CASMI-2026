@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-11T02:41:37.342109+00:00",
+  "manifest_sha256": "3c5179c08249d4d5e010f34fdf67d17c855bd471b69a97c83a43b5507097ba21",
+  "best_anchor_ref": 58156482,
+  "best_anchor_score": 0.488,
+  "branches": [
+    {
+      "branch": "extlib_b_only",
+      "notebook_sha256": "82952464750c163b64e15832bfb7266b45a63f6e1aeaa929c21d175afa27de7b",
+      "metadata_sha256": "b4aedf818adcc40bf1c9fdb7b405ea17d3b680464fbaca9ec3d058379f45e50d",
+      "recipe_sha256": "82b9d585307964aa4be97cb73ccb461df4e6733a5839240e2f2418389fe92e66",
+      "champion_cells_exact": true
+    },
+    {
+      "branch": "extlib_a_only",
+      "notebook_sha256": "82459aad7d58ddf3187f17fba2bf6dfa66d7839982f91ee3e34e3fadca1bcc57",
+      "metadata_sha256": "bd2593d2a27a8bd9f9fc2de52b1a85d3ff290a8d930a64e44d2c9436a29681fc",
+      "recipe_sha256": "f9d0169dc3ec56e8acee8ccce5c014d2f9e154e1fd1d69015779fd04006b9d2d",
+      "champion_cells_exact": true
+    },
+    {
+      "branch": "extlib_abe_gap_fill",
+      "notebook_sha256": "619a3258c2c29030841d63410413f95a0de0a8a211eede5c24a8008b7e238c1d",
+      "metadata_sha256": "92bc40769e574073149462ce34da325da39498620cd467057bb42931e5a37276",
+      "recipe_sha256": "da42785e84e27991a7c4bf551c0ceb84b566c493d463fc0f224d1d2ebee2cdd7",
+      "champion_cells_exact": true
+    },
+    {
+      "branch": "extlib_abe_compete",
+      "notebook_sha256": "e41084bdd6fd77544784df7689ff647d915cf196b81829fd6898a6eaade9f6dd",
+      "metadata_sha256": "8fedeaf1cbbeef83275b81881a4d5f0537014e1e2e6005bc8446d914d3c4ef5f",
+      "recipe_sha256": "52b2fc81af7b540a86eae5cfdf379c60751f8bcc0244c2ffa20e91cb989a8787",
+      "champion_cells_exact": true
+    },
+    {
+      "branch": "extlib_ab_identity_alias",
+      "notebook_sha256": "27403704d35eaf044c5a9055d65c0cb051861f3572123df874f658e056b0327b",
+      "metadata_sha256": "7a23678aabd6c875f6da762cedd283487e95bd91a29ff9993754aba7ba036386",
+      "recipe_sha256": "e6a318ecc5284972d682618fccfdfbcfa1d82077a228451420c80ca5cd350504",
+      "champion_cells_exact": true
+    }
+  ],
+  "evidence": [
+    "reports/external_five_stages_canary_20261110.json",
+    "reports/identity_alias_stage_canary_20261111.json",
+    "reports/alias_independent_review_20261111.json",
+    "reports/external_builder_review_20261110/verification.json",
+    "reports/gain_ledger_review_20261110/verification.json"
+  ],
+  "no_efficacy_claim": true
+}

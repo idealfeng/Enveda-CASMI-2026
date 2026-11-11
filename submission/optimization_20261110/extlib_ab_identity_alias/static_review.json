@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-extlib-ab-identity-alias-1111",
+  "version": 1,
+  "notebook_sha256": "27403704d35eaf044c5a9055d65c0cb051861f3572123df874f658e056b0327b",
+  "checks": {
+    "champion_source_pin": true,
+    "all_33_champion_cells_exact": true,
+    "one_late_alias_cell_appended": true,
+    "pinned_lossless_alias_source": true,
+    "actual_ab_audit_consumed": true,
+    "no_new_data_or_weights": true,
+    "no_new_candidates_or_scoring": true,
+    "official_identity_guard": true,
+    "source_compiles": true,
+    "private_offline_gpu": true,
+    "global_errors_fail_closed": true
+  }
+}

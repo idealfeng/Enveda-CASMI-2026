@@ -1,0 +1,77 @@
+{
+  "name": "extlib_ab_bprec_trusted",
+  "target": "stormseye/casmi26-extlib-ab-bprec-trusted-1110",
+  "version": 1,
+  "stage_dir": "submission/optimization_20261110/extlib_ab_bprec_trusted",
+  "notebook_sha256": "b07764ca3040e7270aad28241a2be5882a2c653222325865cdd46143d8db86d7",
+  "metadata_sha256": "a480cb71bf104cd84bd8c5e9560987efa7f609da5d6631cd634f7eb5d19c354f",
+  "description": "CASMI26 20261110 extlib_ab_bprec_trusted source-bound audited V1",
+  "validation_mode": "fast_static",
+  "static_review_path": "submission/optimization_20261110/extlib_ab_bprec_trusted/static_review.json",
+  "required_runtime_audits": [
+    {
+      "name": "batch_variant_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "mode": "fast_static",
+        "branch": "public_mass_repro",
+        "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+      },
+      "required_true_checks": [
+        "mass_recipe",
+        "original_public_priors",
+        "official_rdkit",
+        "public_model_pins",
+        "ours_model_pins",
+        "two_distinct_models",
+        "lotus_pin",
+        "csv_schema_ids",
+        "csv_counts",
+        "fast_no_model"
+      ]
+    },
+    {
+      "name": "guarded_tail_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "mass_guarded_head_tail_1108",
+        "mode": "fast_static",
+        "recipe_sha256": "ba7ee5d3545fd6bc32159bbeed785e904dbf99beae0347984a8b7d5c8809e5d8"
+      },
+      "required_true_checks": [
+        "original_base_audit",
+        "late_module_pin",
+        "head_payload_pins",
+        "original_scorer_pin",
+        "audited_control_bound",
+        "final_csv_bound",
+        "exact_ids_order",
+        "exact_prefix7",
+        "exact_candidate_multisets",
+        "fast_no_model"
+      ]
+    },
+    {
+      "name": "external_variants_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "extlib_ab_bprec_trusted",
+        "recipe_sha256": "237b65db5b1452c6f792b89d410a6fb295dbea346e1662a046a6a7156d8f3031",
+        "mode": "fast_static"
+      },
+      "required_true_checks": [
+        "base_audit_passed",
+        "control_bound",
+        "final_bound",
+        "source_function_pin",
+        "configuration_bound",
+        "exact_ids_schema",
+        "official_identities_valid",
+        "library_file_pins",
+        "runtime_checks",
+        "fast_no_matching",
+        "installed_payload_pins"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "branch": "extlib_abe_gap_fill",
+  "target": "stormseye/casmi26-extlib-abe-gap-fill-1110",
+  "method": "Fixed original .482 upstream plus controlled measured-library variant",
+  "baseline_ref": 58156482,
+  "baseline_public_score": 0.488,
+  "champion_notebook_sha256": "2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7",
+  "pre_external_parent_ref": 58129661,
+  "pre_external_parent_public_score": 0.482,
+  "pre_external_parent_notebook_sha256": "6de37bec32c8aa8bfb46b2c5e94e374b53fe36137dff1cd7d1c4a295359f56fe",
+  "configuration": {
+    "sources": [
+      "A",
+      "B",
+      "E"
+    ],
+    "e_policy": "gap_fill",
+    "trusted_bprec": false,
+    "old_helper_sha256": "a31c55a2958139cbeea948ea4d11fa32eb40e3d3d7b0bac157f6d0fdc51025db",
+    "e_helper_sha256": "7713c5fd97f9648ee9a914c9370d17b9f6224549f3cf20f12b71cf50592c3242",
+    "enveda_file": {
+      "ref": "egehseyinca/enveda180-casmi26-reference-ccby4",
+      "version": 1,
+      "file": "enveda180_hplus_hminus_references.parquet",
+      "bytes": 218514313,
+      "sha256": "37b8f37c5f5f536ed804d4d0456e20f183fa32388f30ae1c1712928471146069"
+    }
+  },
+  "configuration_sha256": "73f205ba3852cae291418b223d3e73867772d6d0ac775d0b7ffbb3839bd8b7ce",
+  "payload_pins": {
+    "external_library_overlay_20261109.py": "a31c55a2958139cbeea948ea4d11fa32eb40e3d3d7b0bac157f6d0fdc51025db",
+    "alex_v12_external_function.py": "9ceaa95ddda0fb304758c9acd7dd1f256c528fcb4a8304c0152f8b6d8e3e3e76",
+    "external_library_variants_20261110.py": "8c7b203f4fe90ccd95194f68cae5dd1afc7163119da84dd96c91e5f05df095e2",
+    "enveda_matching_20261110.py": "7713c5fd97f9648ee9a914c9370d17b9f6224549f3cf20f12b71cf50592c3242"
+  },
+  "original_function_sha256": "9ceaa95ddda0fb304758c9acd7dd1f256c528fcb4a8304c0152f8b6d8e3e3e76",
+  "files": [
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_meta.parquet",
+      "bytes": 7120766,
+      "sha256": "9b0c2d675612580a4aedbdd3c8891d046fdf864b0805aaef852acc6653f7d37f"
+    },
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_mass.parquet",
+      "bytes": 7979821,
+      "sha256": "e82a878f3e9f4d19067199d1376231b1663a83d08c512ba8e03d6ae88b7af12e"
+    },
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_mz.npy",
+      "bytes": 102770816,
+      "sha256": "a14f750d46bfca4176110d1a83cc3562944a3ca1e3f1344c94141f6d8d85fad5"
+    },
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_in.npy",
+      "bytes": 102770816,
+      "sha256": "e47b359f27d0aacda22f7ef47f8f60f7912136027d70d2bc915890a8d51be841"
+    },
+    {
+      "ref": "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+      "version": 1,
+      "file": "spectra.parquet",
+      "bytes": 43941912,
+      "sha256": "6ebb46b32ddd344d988c3bdb90e7160d4ce46e6d0b900a1217607aa2234c9477"
+    }
+  ],
+  "enveda_file": {
+    "ref": "egehseyinca/enveda180-casmi26-reference-ccby4",
+    "version": 1,
+    "file": "enveda180_hplus_hminus_references.parquet",
+    "bytes": 218514313,
+    "sha256": "37b8f37c5f5f536ed804d4d0456e20f183fa32388f30ae1c1712928471146069"
+  },
+  "all_original_first32_cells_unchanged": true,
+  "official_identity_guard_preserved": true,
+  "actual_disabled_source_candidates_zero": true,
+  "baseline_control": "GUARDED_TAIL_AUDIT bound exact original pre-external .482 output",
+  "source_attribution": {
+    "priority": 3,
+    "name": "extlib_abe_gap_fill",
+    "sources": [
+      "A",
+      "B",
+      "E"
+    ],
+    "e_policy": "Only use E when AB has no valid accepted reference hit; invalid E preserves exact AB output"
+  },
+  "ranking_constants": {
+    "min_cosine": 0.8,
+    "min_matched_peaks": 4,
+    "protect_original_library_at": 0.9,
+    "precursor_ppm": 10,
+    "precursor_da": 0.002,
+    "fragment_da": 0.015
+  },
+  "new_training": false,
+  "locked_final_used": false,
+  "validation_mode": "fast_static",
+  "source_compaction": "zlib lossless bytes; decode SHA256 before import",
+  "enveda_attribution": {
+    "authors": "Krettler et al.",
+    "title": "Enveda-180",
+    "doi": "10.5281/zenodo.21346580",
+    "record": "https://zenodo.org/records/21346580",
+    "license": "CC BY 4.0",
+    "kaggle_mirror": "egehseyinca/enveda180-casmi26-reference-ccby4/1",
+    "coverage_claim": "Published reference spectra only; no claim of new identities or hidden coverage"
+  },
+  "enveda_fallback": "Invalid E preserves valid AB output; ties retain AB",
+  "trusted_bprec_expected_changed_refs": 0
+}

@@ -171,7 +171,10 @@ def compose(control,ab_matches,e_matches,policy,guard):
                 raise ValueError('Invalid Enveda match contract')
             if em.get('adduct') not in ('[M+H]+','[M-H]-'):raise ValueError('Unsupported Enveda adduct')
             if not em.get('above_threshold',True):raise ValueError('Unexpected subthreshold E match')
-            e_candidate=propose(raw,dict(em,above_threshold=True))
+            # E is a second stage over the accepted AB output. A new E winner
+            # retains a newly inserted AB candidate below it instead of dropping
+            # that candidate by reconstructing from the pre-AB control.
+            e_candidate=propose(ab_value,dict(em,above_threshold=True))
             if not guard.valid(e_candidate):reason='invalid_e_preserves_ab'
             elif policy=='gap_fill':take=not accepted_ab;reason='e_gap_fill' if take else 'valid_ab_protected'
             elif policy=='compete':take=not accepted_ab or em['cosine']>ab['cosine'];reason='e_wins' if take else 'ab_score_or_tie_protected'
@@ -291,6 +294,16 @@ def audit(root,input_root,test_path,is_rerun,sample_ids,base_audit,source_path,s
         if ep:
             ea=report.get('enveda_audit') or {}
             checks['enveda_actual_scoring']=ea.get('status')=='passed' and ea.get('sha256')==configuration['enveda_file']['sha256']
+            checks['enveda_full_source_bound']=ea.get('bytes')==configuration['enveda_file']['bytes'] and ea.get('source_ref')==configuration['enveda_file']['ref'] and ea.get('source_version')==configuration['enveda_file']['version'] and ea.get('source_rows_total')==730252
+            qp=ea.get('query_preparation',{});eligible=qp.get('eligible_spectra')
+            checks['enveda_explicit_scan_scope']=(type(eligible) is int and eligible>=0 and
+                ((eligible==0 and ea.get('scan_performed') is False and ea.get('rows_scanned')==0 and ea.get('no_eligible_queries') is True)
+                 or (eligible>0 and ea.get('scan_performed') is True and ea.get('rows_scanned')==730252 and ea.get('no_eligible_queries') is False)))
+            expected_hits={x['molecule_id']:x for x in ea.get('query_best',[]) if x.get('above_threshold') is True}
+            checks['enveda_actual_hit_receipts']=expected_hits==report['enveda_matches'] and ea.get('returned_hits')==len(expected_hits)
+            rules=ea.get('rules',{})
+            checks['enveda_same_adduct_recipe']=rules.get('exact_adduct') is True and rules.get('exact_mode') is True and rules.get('min_cosine')==.80 and rules.get('min_matched_peaks')==4
+        else:checks['enveda_disabled']=report.get('enveda_audit') is None and report.get('enveda_matches')=={}
     else:checks['fast_no_matching']=report.get('status')=='fast_static_no_matching' and report.get('library_matching_performed') is False and final.equals(control)
     if not all(checks.values()):raise ValueError('External variants observer rejected: '+repr(checks))
     result=dict(status='passed',branch=branch,recipe_sha256=recipe_sha256,mode='hidden_full' if is_rerun else 'fast_static',checks=checks,

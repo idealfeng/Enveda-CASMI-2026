@@ -1,0 +1,74 @@
+{
+  "status": "monitoring",
+  "pid": 15096,
+  "manifest_sha256": "3c5179c08249d4d5e010f34fdf67d17c855bd471b69a97c83a43b5507097ba21",
+  "started_at_utc": "2026-11-11T02:39:19.796989+00:00",
+  "read_only_network": true,
+  "new_submission_performed": false,
+  "checked_at_utc": "2026-11-11T03:11:30.737896+00:00",
+  "baseline_public_score": 0.488,
+  "branches": [
+    {
+      "branch": "extlib_b_only",
+      "target": "stormseye/casmi26-extlib-b-only-1110",
+      "actual_target": "stormseye/casmi26-extlib-b-only-1110",
+      "submission_ref": 58222403,
+      "status": "PENDING",
+      "public_score": null,
+      "public_score_available": false,
+      "checked_at_utc": "2026-11-11T03:11:26.764498+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "extlib_a_only",
+      "target": "stormseye/casmi26-extlib-a-only-1110",
+      "actual_target": "stormseye/casmi26-extlib-a-only-1110",
+      "submission_ref": 58222369,
+      "status": "PENDING",
+      "public_score": null,
+      "public_score_available": false,
+      "checked_at_utc": "2026-11-11T03:11:27.668319+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "extlib_abe_gap_fill",
+      "target": "stormseye/casmi26-extlib-abe-gap-fill-1110",
+      "actual_target": "stormseye/casmi26-extlib-abe-gap-fill-1110",
+      "submission_ref": 58222443,
+      "status": "PENDING",
+      "public_score": null,
+      "public_score_available": false,
+      "checked_at_utc": "2026-11-11T03:11:29.149922+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "extlib_abe_compete",
+      "target": "stormseye/casmi26-extlib-abe-compete-1110",
+      "actual_target": "stormseye/casmi26-extlib-abe-compete-1110",
+      "submission_ref": 58222478,
+      "status": "PENDING",
+      "public_score": null,
+      "public_score_available": false,
+      "checked_at_utc": "2026-11-11T03:11:29.890414+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "extlib_ab_identity_alias",
+      "target": "stormseye/casmi26-extlib-ab-identity-alias-1111",
+      "actual_target": "stormseye/casmi26-extlib-ab-identity-alias-1111",
+      "submission_ref": 58222489,
+      "status": "PENDING",
+      "public_score": null,
+      "public_score_available": false,
+      "checked_at_utc": "2026-11-11T03:11:30.735701+00:00",
+      "error_description_present": false
+    }
+  ],
+  "best_this_batch": null,
+  "best_overall_public_score": 0.488,
+  "all_branches_terminal": false,
+  "read_only": true,
+  "new_run_or_submission_performed": false,
+  "ledger_added_refs": [],
+  "ledger_current_best": 0.488
+}

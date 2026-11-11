@@ -1,0 +1,33 @@
+{
+  "ref": "ozertuu/0-500-casmi26-dual-neural-physical-isomer",
+  "title": "👑 [0.500+] CASMI26 Dual-Neural & Physical Isomer",
+  "current_version_number": 13,
+  "last_run_time": "2026-11-07 17:09:58.654000",
+  "dataset_data_sources": [
+    "",
+    "",
+    "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "takumuhata/casmi26-extlib",
+    "sanpier/catalogue-experiment-saner",
+    "qwertykeypadapple/casmi26-lotus-candidates",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [
+    "popwenman/casmi26-scorer-train-v80"
+  ],
+  "enable_gpu": true,
+  "enable_internet": false,
+  "is_private": false,
+  "public_score": null,
+  "best_score": null,
+  "source_sha256": "09ede63ad50aed22303a233e04d23331e04b0350aef94b43f0f2996bcf845258",
+  "source_bytes": 813311,
+  "source_path": "reports\\public_update_20261111\\ozertuu__0-500-casmi26-dual-neural-physical-isomer\\source.ipynb",
+  "checked_at_utc": "2026-11-10T17:09:59.591750+00:00"
+}

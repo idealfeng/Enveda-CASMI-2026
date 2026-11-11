@@ -1,0 +1,21 @@
+{
+  "ref": "ozertuu/casmi26-our-scorer-v80-model",
+  "checked_at_utc": "2026-11-11T03:06:57.464064+00:00",
+  "read_only": true,
+  "weights_downloaded": false,
+  "view_status": "read_failed",
+  "view_error_type": "HTTPError",
+  "view_http_status": 403,
+  "files_status": "read_failed",
+  "files_error_type": "HTTPError",
+  "files_http_status": 403,
+  "public_datasets": [
+    {
+      "ref": "ozertuu/frigidwheels-casmi26",
+      "title": "FRIGID wheels CASMI26 v33",
+      "is_private": false,
+      "current_version_number": 1,
+      "total_bytes": 37140471
+    }
+  ]
+}

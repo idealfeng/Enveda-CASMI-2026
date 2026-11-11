@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-extlib-abe-gap-fill-1110",
+  "version": 1,
+  "notebook_sha256": "619a3258c2c29030841d63410413f95a0de0a8a211eede5c24a8008b7e238c1d",
+  "checks": {
+    "champion_source_pin": true,
+    "exact_first32_cell_objects": true,
+    "only_final_external_cell_replaced": true,
+    "explicit_source_configuration": true,
+    "all_embedded_payloads_sha_pinned": true,
+    "lossless_payload_compaction": true,
+    "original_function_source_pinned": true,
+    "original_identity_guard_preserved": true,
+    "dynamic_hidden_ids": true,
+    "actual_output_consumption_observer": true,
+    "private_offline_gpu": true,
+    "versioned_inputs": true,
+    "all_code_compiles": true,
+    "no_training_or_locked_final": true,
+    "global_errors_fail_closed": true,
+    "all_embedded_python_sources_compile": true
+  }
+}

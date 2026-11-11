@@ -1,0 +1,96 @@
+{
+  "public": {
+    "MODULES['runner.py']": {
+      "sha256": "86b74f3b4cd5767a2cbe1d291735c292b66b4fbf286a705c6cb777a1865883db",
+      "bytes": 1468,
+      "file": "reports\\public_update_20261111\\ensemble_extract\\public\\runner.py"
+    },
+    "MODULES['export_evidence.py']": {
+      "sha256": "d4ec36a9f6216d2607fff4f481bc465dbc8fbc616ec4b24f12932e4c5e546e19",
+      "bytes": 2607,
+      "file": "reports\\public_update_20261111\\ensemble_extract\\public\\export_evidence.py"
+    },
+    "MODULES['neural_scores.py']": {
+      "sha256": "cb9e4d6732992e3310e951533fd0c644d3b515134ad03768c35e5a86551267d2",
+      "bytes": 4639,
+      "file": "reports\\public_update_20261111\\ensemble_extract\\public\\neural_scores.py"
+    },
+    "MODULES['submission.py']": {
+      "sha256": "d0027a893b1bfefe8066ede4f625c584fe0d4fa16bfe4bee32265ef34a7f007c",
+      "bytes": 2125,
+      "file": "reports\\public_update_20261111\\ensemble_extract\\public\\submission.py"
+    },
+    "MODULES['ranking.py']": {
+      "sha256": "6f909cd7e41e88387c23109b93dd590885d2283509804279a58c624a758987d7",
+      "bytes": 4133,
+      "file": "reports\\public_update_20261111\\ensemble_extract\\public\\ranking.py"
+    },
+    "MODULES['bundle.py']": {
+      "sha256": "8595ef16ead9c9e6ac34a3398bff4b748f5668cdc517c396be18100a5b745cea",
+      "bytes": 1272,
+      "file": "reports\\public_update_20261111\\ensemble_extract\\public\\bundle.py"
+    },
+    "MODULES['consensus.py']": {
+      "sha256": "9e67ab49a852404587e62ca84e0fc551d70ce68ec8f7a47739aada6ca08d3989",
+      "bytes": 8073,
+      "file": "reports\\public_update_20261111\\ensemble_extract\\public\\consensus.py"
+    },
+    "MODULES['outsiders.py']": {
+      "sha256": "4dcf6c2b9c9b7be3ac8f7a616683495430fcb4e0c25b449684d132daaa8e7b5c",
+      "bytes": 3833,
+      "file": "reports\\public_update_20261111\\ensemble_extract\\public\\outsiders.py"
+    },
+    "_physical": {
+      "sha256": "eeacdcf0afb173a8b438054d93c30f061df7c9c69d1ae32db3530b2916f2e6a7",
+      "bytes": 12857,
+      "file": "reports\\public_update_20261111\\ensemble_extract\\public\\_physical.py"
+    },
+    "_post": {
+      "sha256": "cd1594b3bbfa75ce30997559c5403438b7cec011879dcb9c0d48e111715dd85d",
+      "bytes": 13264,
+      "file": "reports\\public_update_20261111\\ensemble_extract\\public\\_post.py"
+    },
+    "_PUBLIC_RERANKER": {
+      "sha256": "e61c7c447deedd2e4a8922ec2d8e8a0fe7189deea300d24121735afe1a1fff1b",
+      "bytes": 10952,
+      "file": "reports\\public_update_20261111\\ensemble_extract\\public\\_PUBLIC_RERANKER.py"
+    },
+    "_RR8_FEATURES": {
+      "sha256": "aec9012e72324095308af81c1408aa36f6a44cb00f6d4389e87529a68329d176",
+      "bytes": 9453,
+      "file": "reports\\public_update_20261111\\ensemble_extract\\public\\_RR8_FEATURES.py"
+    },
+    "_RR8_OVERLAY": {
+      "sha256": "18c7d9262d4c9337b2631db335fa91ba78e5e07ce39acac3f18247319b512314",
+      "bytes": 5714,
+      "file": "reports\\public_update_20261111\\ensemble_extract\\public\\_RR8_OVERLAY.py"
+    }
+  },
+  "ours": {
+    "_physical": {
+      "sha256": "eeacdcf0afb173a8b438054d93c30f061df7c9c69d1ae32db3530b2916f2e6a7",
+      "bytes": 12857,
+      "file": "reports\\public_update_20261111\\ensemble_extract\\ours\\_physical.py"
+    },
+    "_post": {
+      "sha256": "cd1594b3bbfa75ce30997559c5403438b7cec011879dcb9c0d48e111715dd85d",
+      "bytes": 13264,
+      "file": "reports\\public_update_20261111\\ensemble_extract\\ours\\_post.py"
+    },
+    "_PUBLIC_RERANKER": {
+      "sha256": "e61c7c447deedd2e4a8922ec2d8e8a0fe7189deea300d24121735afe1a1fff1b",
+      "bytes": 10952,
+      "file": "reports\\public_update_20261111\\ensemble_extract\\ours\\_PUBLIC_RERANKER.py"
+    },
+    "_RR8_FEATURES": {
+      "sha256": "aec9012e72324095308af81c1408aa36f6a44cb00f6d4389e87529a68329d176",
+      "bytes": 9453,
+      "file": "reports\\public_update_20261111\\ensemble_extract\\ours\\_RR8_FEATURES.py"
+    },
+    "_RR8_OVERLAY": {
+      "sha256": "e83b7986c46d0ef02bc6cfde17e891c9e7ee66a0eed8c716f5e3474e5663ccf7",
+      "bytes": 5662,
+      "file": "reports\\public_update_20261111\\ensemble_extract\\ours\\_RR8_OVERLAY.py"
+    }
+  }
+}

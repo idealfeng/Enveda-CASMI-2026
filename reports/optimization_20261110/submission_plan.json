@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "reviewed_plan_only_no_cloud_writes",
+  "status": "implementation_in_progress_user_authorized",
   "created_at_utc": "2026-11-10T12:21:58.376789+00:00",
   "baseline_ref": 58156482,
   "baseline_score": 0.488,
@@ -47,13 +47,15 @@
     },
     {
       "priority": 5,
-      "name": "extlib_ab_bprec_trusted",
+      "name": "extlib_ab_identity_alias",
       "sources": [
         "A",
         "B"
       ],
-      "b_precursor_policy": "Replace only finite measured m/z with supported adduct, compatible mode, neutral/adduct theoretical consistency and mismatch from original neutral +/- H window; otherwise original fallback",
-      "eligible_reference_rows": 1281
+      "purpose": "Use actual A/B hits previously rejected only because a reference SMILES alias duplicates an existing official identity; promote the native existing candidate instead",
+      "scope": "Append to all 33 exact .488 champion cells; preserve candidate multiset and original matching thresholds; no rescoring",
+      "parent_ref": 58156482,
+      "alias_policy": "Only original validity_guard_preserved_control queries with a threshold-passing actual match and one existing metric-identity representative; move that native SMILES first; no new candidates"
     }
   ],
   "e_allowed_adducts": [
@@ -77,5 +79,11 @@
     "reports/produre_review_20261110/PRODURE2_REVIEW.md",
     "reports/produre_review_20261110/massbank_precursor_metadata.json",
     "reports/PUBLIC_UPDATE_2026-11-10.md"
-  ]
+  ],
+  "updated_at_utc": "2026-11-10T17:14:38.290271+00:00",
+  "change_reason": "User requested newest public baseline comparison and delegated actual submissions; new Ozertuu V13 source exposes identity-aware promotion. Prefer a controlled identity-promotion component over narrower precursor correction.",
+  "unused_backup_branch": "extlib_ab_bprec_trusted",
+  "public_component_source": "reports/public_update_20261111/ozertuu__0-500-casmi26-dual-neural-physical-isomer/source.ipynb",
+  "public_component_source_sha256": "09ede63ad50aed22303a233e04d23331e04b0350aef94b43f0f2996bcf845258",
+  "public_title_score_verified": false
 }

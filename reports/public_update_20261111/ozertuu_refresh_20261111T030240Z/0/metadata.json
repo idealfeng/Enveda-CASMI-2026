@@ -1,0 +1,42 @@
+{
+  "id": 143460191,
+  "ref": "ozertuu/casmi26-dual-neural-physical-isomer",
+  "title": "👑 CASMI26 Dual-Neural & Physical Isomer",
+  "current_version_number": 18,
+  "last_run_time": "2026-11-08 03:02:42.153000",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_data_sources": [
+    "",
+    "",
+    "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "takumuhata/casmi26-extlib",
+    "sanpier/catalogue-experiment-saner",
+    "qwertykeypadapple/casmi26-lotus-candidates",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [
+    "popwenman/casmi26-scorer-train-v80"
+  ],
+  "competition_data_sources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "model_data_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:0717e81990be591f8c5f98f033d29ab23e9ffde057e5b3a6bd4371f93969e962",
+  "machine_shape": "NvidiaTeslaT4",
+  "public_score": null,
+  "best_score": null,
+  "requested_ref": "ozertuu/casmi26-dual-neural-physical-isomer",
+  "checked_at_utc": "2026-11-11T03:02:42.867354+00:00",
+  "source_sha256": "54ad16b546964a1044f07aa5229cd7ee81145882d73a83fda061923e9254adcd",
+  "source_bytes": 813013,
+  "executed": false,
+  "model_assets_downloaded": false
+}

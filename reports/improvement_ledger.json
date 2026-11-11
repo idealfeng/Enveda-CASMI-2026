@@ -284,7 +284,8 @@
       "decision": "do not occupy today's 5 submission slots",
       "evidence": {
         "generation_coverage_class3": 0.396,
-        "recovered_rankable_fz_top25_rate": 0.9474,
+        "recovered_top25_rate_160feat_ranker": 1.0,
+        "mrr_class3_160feat": 0.2958,
         "dev_panel_class2_rank_delta": 0.0,
         "bottleneck_ranking": "n_analog ~= max_steps > template_coverage > min_sim > mass_tol(no effect)",
         "artifacts": [

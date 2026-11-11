@@ -1,0 +1,32 @@
+{
+  "ref": "pablodiegoo/enveda-casmi26-starter-notebook",
+  "title": "Enveda CASMI26 Starter Notebook",
+  "current_version_number": 15,
+  "last_run_time": "2026-11-07 17:09:57.917000",
+  "dataset_data_sources": [
+    "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "prvsiyan/casmi26-self-trained-scorer-seeds",
+    "takumuhata/casmi26-extlib",
+    "sanpier/catalogue-experiment-saner",
+    "qwertykeypadapple/casmi26-lotus-candidates",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [
+    "alexchilton/casmi26-scorer-train-v80"
+  ],
+  "enable_gpu": true,
+  "enable_internet": false,
+  "is_private": false,
+  "public_score": null,
+  "best_score": null,
+  "source_sha256": "54600a06a7cfa05a38b93c1d40c4842547df5ed5d1cbb582e65caaeec105bd92",
+  "source_bytes": 681019,
+  "source_path": "reports\\public_update_20261111\\pablodiegoo__enveda-casmi26-starter-notebook\\source.ipynb",
+  "checked_at_utc": "2026-11-10T17:09:58.558857+00:00"
+}

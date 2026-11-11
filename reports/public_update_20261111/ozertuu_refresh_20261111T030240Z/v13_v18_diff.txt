@@ -1,0 +1,220 @@
+--- 
++++ 
+@@ -1 +1 @@
+-# 👑 [0.500+ SOTA] CASMI26: Imperial Zenith Dual-Neural & Physical Isomer Frontier
+
+**Imperial Zenith 0.500+ Architecture: Multi-Model Neural Consensus + timsTOF Mass Prior + Leader-Immune Physical Isomer Reranker + Adduct-Aware Calibrated ExtLib**
+
+### Architectural Pillars:
+1. **Multi-Model Neural Consensus (3-Way Blend)**:
+   - Blends public baseline `sanpier/casmi-spectrum-model-v1` with long-trained 80-epoch models (`popwenman/casmi26-scorer-train-v80` and `ozertuu/casmi26-our-scorer-v80-model`).
+   - Unified normalized $z$-score ensembling: $0.50 \cdot z(\text{public}) + 0.25 \cdot z(\text{model}_1) + 0.25 \cdot z(\text{model}_2)$.
+2. **Calibrated Documentation & Natural Product Priors**:
+   - `POP_W = 0.10, SPEC_W = 0.05, NP_W = 0.02, LIB_HIT_GATE = 0.87`.
+   - Conservative MSI Level-1 library promotion and neural-margin-shielded Natural Product promotion (`margin = 0.040`).
+3. **High-Resolution timsTOF Mass-Accuracy Prior**:
+   - Systematic $-1.5$ ppm instrumental drift compensation.
+   - Graded mass error penalty table (`MASS_CENTER = -1.5, MASS_FREE = 3.0, MASS_FULL = 8.0, MASS_W = 0.15`).
+4. **Leader-Immune Physical Isomer Reranking (`V8 = 'BOTH'`)**:
+   - 102 MS2 bond-cleavage and neutral loss features evaluated via calibrated LightGBM booster (`RR8_ALPHA = 0.25`).
+   - Strict Rank-1 leader immunity: Rank 1 is protected while Ranks 2–25 are dynamically optimized.
+5. **Adduct-Aware Calibrated External Spectral Library Overlay**:
+   - Integrated Takumu Hata CC0 library and MassBank harmonized spectral datasets.
+   - Precursor and fragment matching with adduct delta table (`ADDUCT_DELTA`).
+   - Candidate exact mass sanity gate ($|\Delta M| \le 15$ ppm) completely eliminating cross-adduct false-positive collisions.
+   - Tautomer-canonical `InChIKey-14` deduplication preserving valid 25-candidate lists.
+
++# 👑 CASMI26: Tri-Model Neural Consensus + Pure timsTOF Mass Prior + Adduct-Aware ExtLib
+
+**Version 16 Architecture: Tri-Model 80ep Consensus + timsTOF Pure Instrumental Mass Prior (V8 = 'MASS') + 0.12 Doc/NP Prior + Adduct-Aware ExtLib (TAU=0.80)**
+
+### Core Architectural Pillars:
+1. **Tri-Model Neural Scorer Consensus**: Ensemble of `sanpier/casmi-spectrum-model-v1` (weight 0.50) + `popwenman/casmi26-scorer-train-v80` (weight 0.25) + `ozertuu/casmi26-our-scorer-v80-model` (weight 0.25).
+2. **Pure timsTOF Instrumental Mass Accuracy Prior (`V8 = 'MASS'`)**: Precise -1.5 ppm instrument centering. Destructive MetFrag-lite graph cleavage reordering is completely disabled to protect valid Rank 2–25 candidates from fragmentation mis-predictions.
+3. **Golden Calibrated Documentation & Natural Product Prior**: Proven `POP_W=0.12, SPEC_W=0.12, NP_W=0.12, LIB_HIT_GATE=0.75, NP_PROMO_MARGIN=0.048` with LOTUS 150k knowledge augmentation and vacant-slot backfill.
+4. **Adduct-Aware True Neutral Mass ExtLib (TAU=0.80, K=4)**: Integrates 324,884 reference spectra with neutral mass pre-calculation across all 10 competition adduct channels, strictly eliminating false-positive isobaric decoy collisions.
+5. **In-Pool InChIKey-14 Deduplication**: Eliminates duplicate tautomer connectivity blocks while preserving 25 distinct candidates.
+
+@@ -5 +5 @@
+-# ── Configuration ─────────────────────────────────────────────────────────────────────────
+VARIANT = 'CUSTOM'
+#   V0  baseline 0.465 answers, no neural term
+#   V1  public 0.466 recipe: neural reciprocal-rank fusion, weight 0.25 everywhere
+#   V2  leader-safe consensus: rank 1 as V1, ranks 2-25 at neural weight 0.50   (upstream default)
+#   V3  V2 + tail rescue: outside candidates may take the last 3 places by neural score
+#   V4  bold consensus: rank 1 as V1, ranks 2-25 at neural weight 1.00
+#   'CUSTOM' uses the verified 0.477 optimal weights (w_top=0.25, w_mid=0.75, rescue=0)
+CUSTOM = dict(w_top=0.25, w_mid=0.75, rescue=0)
+RRF_OFFSET = 3.0              # k in 1/(k + rank), as in the public recipe
+COMMIT_MODE = 'fast'         # 'smoke': commit run validates 12 visible molecules and asserts all stages;
+                              #          the scoring rerun on hidden test executes in full
+OUTSIDERS_PER_MOLECULE = 20   # candidate pool for the tail rescue (V3, or CUSTOM with rescue > 0)
+TIME_GUARD_HOURS = 7.5        # optional stages are skipped once the session has run this long
+QUIET_LOGS = True             # one line per pipeline stage here; full logs stay in /kaggle/working/*.log
+ENABLE_TAIL_SLOT = True
+PHYSICAL_POST_SECONDS = 1500
+# Physical switches the fragment check; PROVENANCE the provenance reranker; neural model: Saner Turhaner v1
+PHYSICAL = True
+PROVENANCE = False
+# Variant M: fragment check reads variants/submission_V2.csv;
+# merge cell keeps its rank-1 moves unblocked on the CUSTOM order
+FRAG_ON_V2 = True
+# InChIKey-14 deduplication: removes redundant stereoisomers within candidate pool
+ENABLE_K14_DEDUP = True
+# ── Calibrated Documentation & Natural Product Prior (youyouwou / baidalinadilzhan) ──
+# Proven optimal weights on ranks 2-25 (0.10 / 0.05 / 0.02) preventing over-promotion of decoys
+POP_W, SPEC_W, NP_W = 0.10, 0.05, 0.02
+LIB_HIT_GATE = 0.87
+NP_PROMO_MARGIN = 0.040
+PIN_OLD_LEADER = True
+OUTSIDER_FILL = True
+# ── v8 (romanrozen) ──
+V8 = 'BOTH'                   # 'MASS': timsTOF mass prior ON, learned RR8 isomer reranker ON
+assert V8 in ('MASS', 'RR', 'BOTH', 'BASE'), V8
+MASS_ON = V8 in ('MASS', 'BOTH')
+RR8 = V8 in ('RR', 'BOTH')
+MASS_CENTER, MASS_FREE, MASS_FULL, MASS_W = -1.5, 3.0, 8.0, 0.15   # ppm of (exact - neutral)/neutral; above NP_W
+MASS_LEAD_OFF, MASS_LIB_TAU = 5.0, 0.9                              # rank-1 rule: leader beyond 5 ppm, library < 0.9
+RR8_ALPHA = 0.25               # weight of the reranker against the list's own order (z-scores)
+RR8_LIB_TAU = 0.9
+RR8_BUDGET_SECONDS = 1800
+RR8_LIMIT_SECONDS = 9 * 3600 - 1800   # never start a step past 8.5 h of session time
+RR8_MIN_SECONDS = 600
+MASS_PEN, MASS_PPM = {}, {}   # filled by the v8 mass cell: {molecule_id: {smiles: penalty <= 0}}, {..: {smiles: ppm}}
+
++# ── Configuration ─────────────────────────────────────────────────────────────────────────
+VARIANT = 'CUSTOM'
+#   V0  baseline 0.465 answers, no neural term
+#   V1  public 0.466 recipe: neural reciprocal-rank fusion, weight 0.25 everywhere
+#   V2  leader-safe consensus: rank 1 as V1, ranks 2-25 at neural weight 0.50   (upstream default)
+#   V3  V2 + tail rescue: outside candidates may take the last 3 places by neural score
+#   V4  bold consensus: rank 1 as V1, ranks 2-25 at neural weight 1.00
+#   'CUSTOM' uses the verified 0.477 optimal weights (w_top=0.25, w_mid=0.75, rescue=0)
+CUSTOM = dict(w_top=0.25, w_mid=0.75, rescue=0)
+RRF_OFFSET = 3.0              # k in 1/(k + rank), as in the public recipe
+COMMIT_MODE = 'fast'         # 'smoke': commit run validates 12 visible molecules and asserts all stages;
+                              #          the scoring rerun on hidden test executes in full
+OUTSIDERS_PER_MOLECULE = 20   # candidate pool for the tail rescue (V3, or CUSTOM with rescue > 0)
+TIME_GUARD_HOURS = 7.5        # optional stages are skipped once the session has run this long
+QUIET_LOGS = True             # one line per pipeline stage here; full logs stay in /kaggle/working/*.log
+ENABLE_TAIL_SLOT = True
+PHYSICAL_POST_SECONDS = 1500
+# Physical switches the fragment check; PROVENANCE the provenance reranker; neural model: Saner Turhaner v1
+PHYSICAL = True
+PROVENANCE = False
+# Variant M: fragment check reads variants/submission_V2.csv;
+# merge cell keeps its rank-1 moves unblocked on the CUSTOM order
+FRAG_ON_V2 = True
+# InChIKey-14 deduplication: removes redundant stereoisomers within candidate pool
+ENABLE_K14_DEDUP = True
+# ── Calibrated Documentation & Natural Product Prior (youyouwou / baidalinadilzhan) ──
+# Proven optimal weights on ranks 2-25 (0.10 / 0.05 / 0.02) preventing over-promotion of decoys
+POP_W, SPEC_W, NP_W = 0.12, 0.12, 0.12
+LIB_HIT_GATE = 0.75
+NP_PROMO_MARGIN = 0.048
+PIN_OLD_LEADER = True
+OUTSIDER_FILL = True
+# ── v8 (romanrozen) ──
+V8 = 'MASS'                   # 'MASS': timsTOF mass prior ON, learned RR8 isomer reranker ON
+assert V8 in ('MASS', 'RR', 'BOTH', 'BASE'), V8
+MASS_ON = V8 in ('MASS', 'BOTH')
+RR8 = V8 in ('RR', 'BOTH')
+MASS_CENTER, MASS_FREE, MASS_FULL, MASS_W = -1.5, 3.0, 8.0, 0.15   # ppm of (exact - neutral)/neutral; above NP_W
+MASS_LEAD_OFF, MASS_LIB_TAU = 5.0, 0.9                              # rank-1 rule: leader beyond 5 ppm, library < 0.9
+RR8_ALPHA = 0.25               # weight of the reranker against the list's own order (z-scores)
+RR8_LIB_TAU = 0.9
+RR8_BUDGET_SECONDS = 1800
+RR8_LIMIT_SECONDS = 9 * 3600 - 1800   # never start a step past 8.5 h of session time
+RR8_MIN_SECONDS = 600
+MASS_PEN, MASS_PPM = {}, {}   # filled by the v8 mass cell: {molecule_id: {smiles: penalty <= 0}}, {..: {smiles: ppm}}
+
+@@ -26 +26 @@
+-# What each layer did in this run, read from the files the stages wrote.
+if not PIPELINE_DONE and not IS_RERUN and COMMIT_MODE == 'fast':
+    print('Fast commit: skipping layer audit plot.')
+elif SHOW:
+    rep = {}
+    for name in ('spectral_parallax_report.json', 'provenance_tournament_report.json', 'merge_report.json'):
+        p = ROOT / name
+        if p.is_file():
+            try:
+                rep[name] = json.loads(p.read_text())
+            except Exception as exc:  # noqa: BLE001 - a report is only shown, never used
+                rep[name] = {'unreadable': repr(exc)}
+    base = pd.read_csv(BASELINE, dtype=str, keep_default_na=False) if BASELINE.is_file() else None
+    final = pd.read_csv(ROOT / 'submission.csv', dtype=str, keep_default_na=False)
+    layers = [('0.465 pipeline', BASELINE), ('V1, neural 0.25', VARIANTS_DIR / 'submission_V1.csv'),
+              ('V2, ranks 2-25 at 0.50', VARIANTS_DIR / 'submission_V2.csv'),
+              (f'{VARIANT}, ranks 2-25 at {CUSTOM["w_mid"]:.2f}', VARIANTS_DIR / f'submission_{VARIANT}.csv')]
+    if globals().get('FRAG_ON_V2'):
+        layers += [('submitted: CUSTOM + the fragment check\'s leader moves on the V2 order', ROOT / 'submission.csv')]
+    elif PROVENANCE:
+        layers += [('after the fragment check', ROOT / 'submission_physical0472_control.csv'),
+                   ('after the provenance reranker (submitted)', ROOT / 'submission.csv')]
+    else:
+        layers += [('after the fragment check (submitted)' if PHYSICAL else 'submitted', ROOT / 'submission.csv')]
+    prev, out = None, []
+    for label, path in layers:
+        if not path.is_file():
+            continue
+        f = pd.read_csv(path, dtype=str, keep_default_na=False).set_index('molecule_id').smiles
+        if prev is not None:
+            common = f.index.intersection(prev.index)
+            moved = int((f[common] != prev[common]).sum())
+            top1 = int(sum(a.split(';')[0] != b.split(';')[0] for a, b in zip(f[common], prev[common])))
+            out.append({'layer': label, 'lists re-ordered vs previous': moved, 'rank 1 changed': top1})
+        else:
+            out.append({'layer': label, 'lists re-ordered vs previous': '-', 'rank 1 changed': '-'})
+        prev = f
+    table_html(pd.DataFrame(out).set_index('layer', drop=False), numeric=('lists re-ordered vs previous', 'rank 1 changed'))
+    print('Commit run: the counts cover the 12 visible smoke molecules; the hidden scoring rerun is not shown to anyone.')
+    for k, v in rep.items():
+        print(k, json.dumps(v)[:600])
+
++# What each layer did in this run, read from the files the stages wrote.
+if not PIPELINE_DONE and not IS_RERUN and COMMIT_MODE == 'fast':
+    print('Fast commit: skipping layer audit plot.')
+elif SHOW:
+    rep = {}
+    for name in ('spectral_parallax_report.json', 'provenance_tournament_report.json', 'merge_report.json'):
+        p = ROOT / name
+        if p.is_file():
+            try:
+                rep[name] = json.loads(p.read_text())
+            except Exception as exc:  # noqa: BLE001 - a report is only shown, never used
+                rep[name] = {'unreadable': repr(exc)}
+    base = pd.read_csv(BASELINE, dtype=str, keep_default_na=False) if BASELINE.is_file() else None
+    final = pd.read_csv(ROOT / 'submission.csv', dtype=str, keep_default_na=False)
+    layers = [('0.465 pipeline', BASELINE), ('V1, neural 0.25', VARIANTS_DIR / 'submission_V1.csv'),
+              ('V2, ranks 2-25 at 0.50', VARIANTS_DIR / 'submission_V2.csv'),
+              (f'{VARIANT}, ranks 2-25 at {CUSTOM["w_mid"]:.2f}', VARIANTS_DIR / f'submission_{VARIANT}.csv')]
+    if globals().get('FRAG_ON_V2'):
+        layers += [('submitted: CUSTOM + the fragment check\'s leader moves on the V2 order', ROOT / 'submission.csv')]
+    elif PROVENANCE:
+        layers += [('after the fragment check', ROOT / 'submission_physical0472_control.csv'),
+                   ('after the provenance reranker (submitted)', ROOT / 'submission.csv')]
+    else:
+        layers += [('after the fragment check (submitted)' if PHYSICAL else 'submitted', ROOT / 'submission.csv')]
+    prev, out = None, []
+    for label, path in layers:
+        if not path.is_file():
+            continue
+        f = pd.read_csv(path, dtype=str, keep_default_na=False).set_index('molecule_id').smiles
+        if prev is not None:
+            common = f.index.intersection(prev.index)
+            moved = int((f[common] != prev[common]).sum())
+            top1 = int(sum(a.split(';')[0] != b.split(';')[0] for a, b in zip(f[common], prev[common])))
+            out.append({'layer': label, 'lists re-ordered vs previous': moved, 'rank 1 changed': top1})
+        else:
+            out.append({'layer': label, 'lists re-ordered vs previous': '-', 'rank 1 changed': '-'})
+        prev = f
+    table_html(pd.DataFrame(out).set_index('layer', drop=False), numeric=('lists re-ordered vs previous', 'rank 1 changed'))
+    print('Commit run: the counts cover the 12 visible smoke molecules; the hidden scoring rerun is not shown to anyone.')
+    for k, v in rep.items():
+        print(k, json.dumps(v)[:600])
+
+
+assert (ROOT / 'submission.csv').is_file(), 'submission.csv is missing!'
+_sub_stat = (ROOT / 'submission.csv').stat()
+print(f'FINAL PIPELINE SUBMISSION READY: {ROOT / "submission.csv"} ({_sub_stat.st_size:,} bytes)')
+

@@ -1,0 +1,29 @@
+--- v13
++++ v18
+@@ -26,13 +26,13 @@
+ ENABLE_K14_DEDUP = True
+ # ── Calibrated Documentation & Natural Product Prior (youyouwou / baidalinadilzhan) ──
+ # Proven optimal weights on ranks 2-25 (0.10 / 0.05 / 0.02) preventing over-promotion of decoys
+-POP_W, SPEC_W, NP_W = 0.10, 0.05, 0.02
+-LIB_HIT_GATE = 0.87
+-NP_PROMO_MARGIN = 0.040
++POP_W, SPEC_W, NP_W = 0.12, 0.12, 0.12
++LIB_HIT_GATE = 0.75
++NP_PROMO_MARGIN = 0.048
+ PIN_OLD_LEADER = True
+ OUTSIDER_FILL = True
+ # ── v8 (romanrozen) ──
+-V8 = 'BOTH'                   # 'MASS': timsTOF mass prior ON, learned RR8 isomer reranker ON
++V8 = 'MASS'                   # 'MASS': timsTOF mass prior ON, learned RR8 isomer reranker ON
+ assert V8 in ('MASS', 'RR', 'BOTH', 'BASE'), V8
+ MASS_ON = V8 in ('MASS', 'BOTH')
+ RR8 = V8 in ('RR', 'BOTH')
+@@ -1607,3 +1607,8 @@
+     print('Commit run: the counts cover the 12 visible smoke molecules; the hidden scoring rerun is not shown to anyone.')
+     for k, v in rep.items():
+         print(k, json.dumps(v)[:600])
++
++
++assert (ROOT / 'submission.csv').is_file(), 'submission.csv is missing!'
++_sub_stat = (ROOT / 'submission.csv').stat()
++print(f'FINAL PIPELINE SUBMISSION READY: {ROOT / "submission.csv"} ({_sub_stat.st_size:,} bytes)')

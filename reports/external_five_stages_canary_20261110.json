@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "actual_report": "runs/external_five_stages_canary_20261110_first4/verification.json",
+  "branches": {
+    "extlib_b_only_fast": "passed",
+    "extlib_b_only_hidden": "passed",
+    "extlib_b_only_bad_payload": "passed",
+    "extlib_a_only_fast": "passed",
+    "extlib_a_only_hidden": "passed",
+    "extlib_a_only_bad_payload": "passed",
+    "extlib_abe_gap_fill_fast": "passed",
+    "extlib_abe_gap_fill_hidden": "passed",
+    "extlib_abe_gap_fill_bad_payload": "passed",
+    "extlib_abe_compete_fast": "passed",
+    "extlib_abe_compete_hidden": "passed",
+    "extlib_abe_compete_bad_payload": "passed"
+  },
+  "full_upstream_inference": false
+}

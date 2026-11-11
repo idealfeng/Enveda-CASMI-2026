@@ -1,0 +1,12 @@
+{
+  "status": "prepared",
+  "branch": "extlib_abe_compete",
+  "target": "stormseye/casmi26-extlib-abe-compete-1110",
+  "version": 1,
+  "notebook_sha256": "e41084bdd6fd77544784df7689ff647d915cf196b81829fd6898a6eaade9f6dd",
+  "metadata_sha256": "8fedeaf1cbbeef83275b81881a4d5f0537014e1e2e6005bc8446d914d3c4ef5f",
+  "recipe_sha256": "52b2fc81af7b540a86eae5cfdf379c60751f8bcc0244c2ffa20e91cb989a8787",
+  "static_review_path": "submission/optimization_20261110/extlib_abe_compete/static_review.json",
+  "validation_mode": "fast_static",
+  "notebook_bytes": 867163
+}

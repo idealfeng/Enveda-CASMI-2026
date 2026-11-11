@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-11-10T17:07:00.378350+00:00",
+  "allowance": {
+    "num_today": 0,
+    "num_total": 21,
+    "num_allowed_now": 5
+  },
+  "new_submission_performed": false,
+  "action": "resume_authorized_batch"
+}

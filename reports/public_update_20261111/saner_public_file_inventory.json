@@ -1,0 +1,241 @@
+{
+  "ref": "sanpier/catalogue-experiment-saner",
+  "files": [
+    {
+      "name": "catalogue_experiment/calibration_grid.csv",
+      "bytes": 440,
+      "size": null
+    },
+    {
+      "name": "catalogue_experiment/catalogue_audit.json",
+      "bytes": 592,
+      "size": null
+    },
+    {
+      "name": "catalogue_experiment/combiner_all.pkl",
+      "bytes": 121163,
+      "size": null
+    },
+    {
+      "name": "catalogue_experiment/combiner_no_neural.pkl",
+      "bytes": 109017,
+      "size": null
+    },
+    {
+      "name": "catalogue_experiment/engine2_coverage_audit.csv",
+      "bytes": 88,
+      "size": null
+    },
+    {
+      "name": "catalogue_experiment/feature_schema.json",
+      "bytes": 987,
+      "size": null
+    },
+    {
+      "name": "catalogue_experiment/labelled_candidate_scores.parquet",
+      "bytes": 347698,
+      "size": null
+    },
+    {
+      "name": "catalogue_experiment/learned.py",
+      "bytes": 6037,
+      "size": null
+    },
+    {
+      "name": "catalogue_experiment/paired_comparisons.csv",
+      "bytes": 915,
+      "size": null
+    },
+    {
+      "name": "catalogue_experiment/panel_audit.json",
+      "bytes": 701,
+      "size": null
+    },
+    {
+      "name": "catalogue_experiment/per_query_results.csv",
+      "bytes": 28354,
+      "size": null
+    },
+    {
+      "name": "catalogue_experiment/ranking.py",
+      "bytes": 4133,
+      "size": null
+    },
+    {
+      "name": "catalogue_experiment/ranking_summary.csv",
+      "bytes": 1119,
+      "size": null
+    },
+    {
+      "name": "catalogue_experiment/replay_contract.json",
+      "bytes": 1994,
+      "size": null
+    },
+    {
+      "name": "catalogue_experiment/report.json",
+      "bytes": 870,
+      "size": null
+    },
+    {
+      "name": "catalogue_experiment/source_coverage.csv",
+      "bytes": 1449,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/all_features.parquet",
+      "bytes": 255450,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/DONE.json",
+      "bytes": 2829,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/REPLAY.json",
+      "bytes": 2546,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/catalogue_audit.json",
+      "bytes": 273,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/effective_query_spectra.parquet",
+      "bytes": 1337151,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/engine2_coverage.json",
+      "bytes": 102,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/engine2_coverage_audit.csv",
+      "bytes": 88,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/execution_receipt.json",
+      "bytes": 543,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/features.parquet",
+      "bytes": 131437,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/features.parquet.errors.json",
+      "bytes": 2,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/frozen_candidate_evidence.parquet",
+      "bytes": 95944,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/pubchem_promotion_audit.csv",
+      "bytes": 10380,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/DONE.json",
+      "bytes": 2829,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/REPLAY.json",
+      "bytes": 2546,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/catalogue_audit.json",
+      "bytes": 273,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/effective_query_spectra.parquet",
+      "bytes": 1406407,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/engine2_coverage.json",
+      "bytes": 102,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/engine2_coverage_audit.csv",
+      "bytes": 88,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/execution_receipt.json",
+      "bytes": 543,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/features.parquet",
+      "bytes": 134658,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/features.parquet.errors.json",
+      "bytes": 2,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/frozen_candidate_evidence.parquet",
+      "bytes": 98657,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/pubchem_promotion_audit.csv",
+      "bytes": 10705,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/contract.json",
+      "bytes": 1994,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/panel/READY.json",
+      "bytes": 479,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/panel/identity_map.json",
+      "bytes": 18702350,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/panel/labels.parquet",
+      "bytes": 6508,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/panel/panel_audit.json",
+      "bytes": 701,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/panel/sample_submission.csv",
+      "bytes": 3259,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/panel/test.parquet",
+      "bytes": 2741202,
+      "size": null
+    },
+    {
+      "name": "catalogue_replay_checkpoint/run_status.json",
+      "bytes": 186,
+      "size": null
+    }
+  ],
+  "next_page_token_present": false
+}

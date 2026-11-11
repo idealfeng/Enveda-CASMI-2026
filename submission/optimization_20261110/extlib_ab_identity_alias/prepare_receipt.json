@@ -1,0 +1,12 @@
+{
+  "status": "prepared",
+  "branch": "extlib_ab_identity_alias",
+  "target": "stormseye/casmi26-extlib-ab-identity-alias-1111",
+  "version": 1,
+  "notebook_sha256": "27403704d35eaf044c5a9055d65c0cb051861f3572123df874f658e056b0327b",
+  "metadata_sha256": "7a23678aabd6c875f6da762cedd283487e95bd91a29ff9993754aba7ba036386",
+  "recipe_sha256": "e6a318ecc5284972d682618fccfdfbcfa1d82077a228451420c80ca5cd350504",
+  "static_review_path": "submission/optimization_20261110/extlib_ab_identity_alias/static_review.json",
+  "validation_mode": "fast_static",
+  "notebook_bytes": 879774
+}

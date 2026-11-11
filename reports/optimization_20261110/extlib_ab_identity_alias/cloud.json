@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-extlib-ab-identity-alias-1111",
+  "version": 1,
+  "branch_sha256": "050cf7a5acdcc646d6398f97fe405b8b2a51b587ae5584ab76527abc07987d6c",
+  "notebook_sha256": "27403704d35eaf044c5a9055d65c0cb051861f3572123df874f658e056b0327b",
+  "metadata_sha256": "7a23678aabd6c875f6da762cedd283487e95bd91a29ff9993754aba7ba036386",
+  "requested_at_utc": "2026-11-11T02:43:47.761657+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-11T02:43:52.856012+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

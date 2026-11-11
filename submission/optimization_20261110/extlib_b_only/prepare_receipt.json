@@ -1,0 +1,12 @@
+{
+  "status": "prepared",
+  "branch": "extlib_b_only",
+  "target": "stormseye/casmi26-extlib-b-only-1110",
+  "version": 1,
+  "notebook_sha256": "82952464750c163b64e15832bfb7266b45a63f6e1aeaa929c21d175afa27de7b",
+  "metadata_sha256": "b4aedf818adcc40bf1c9fdb7b405ea17d3b680464fbaca9ec3d058379f45e50d",
+  "recipe_sha256": "82b9d585307964aa4be97cb73ccb461df4e6733a5839240e2f2418389fe92e66",
+  "static_review_path": "submission/optimization_20261110/extlib_b_only/static_review.json",
+  "validation_mode": "fast_static",
+  "notebook_bytes": 860324
+}

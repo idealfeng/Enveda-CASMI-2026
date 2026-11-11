@@ -1,0 +1,101 @@
+{
+  "name": "extlib_ab_identity_alias",
+  "target": "stormseye/casmi26-extlib-ab-identity-alias-1111",
+  "version": 1,
+  "stage_dir": "submission/optimization_20261110/extlib_ab_identity_alias",
+  "notebook_sha256": "27403704d35eaf044c5a9055d65c0cb051861f3572123df874f658e056b0327b",
+  "metadata_sha256": "7a23678aabd6c875f6da762cedd283487e95bd91a29ff9993754aba7ba036386",
+  "description": "CASMI26 20261111 AB native identity alias promotion audited V1",
+  "validation_mode": "fast_static",
+  "static_review_path": "submission/optimization_20261110/extlib_ab_identity_alias/static_review.json",
+  "required_runtime_audits": [
+    {
+      "name": "batch_variant_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "mode": "fast_static",
+        "branch": "public_mass_repro",
+        "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+      },
+      "required_true_checks": [
+        "mass_recipe",
+        "original_public_priors",
+        "official_rdkit",
+        "public_model_pins",
+        "ours_model_pins",
+        "two_distinct_models",
+        "lotus_pin",
+        "csv_schema_ids",
+        "csv_counts",
+        "fast_no_model"
+      ]
+    },
+    {
+      "name": "guarded_tail_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "mass_guarded_head_tail_1108",
+        "mode": "fast_static",
+        "recipe_sha256": "ba7ee5d3545fd6bc32159bbeed785e904dbf99beae0347984a8b7d5c8809e5d8"
+      },
+      "required_true_checks": [
+        "original_base_audit",
+        "late_module_pin",
+        "head_payload_pins",
+        "original_scorer_pin",
+        "audited_control_bound",
+        "final_csv_bound",
+        "exact_ids_order",
+        "exact_prefix7",
+        "exact_candidate_multisets",
+        "fast_no_model"
+      ]
+    },
+    {
+      "name": "external_overlay_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "mass_guarded_extlib",
+        "recipe_sha256": "5fc1c8cb1e27bd9e555090fcf437d0c9bfe02a0f8371811da286d2f3a4d4efd1",
+        "mode": "fast_static"
+      },
+      "required_true_checks": [
+        "base_audit_passed",
+        "control_bound",
+        "final_bound",
+        "source_function_pin",
+        "exact_ids_schema",
+        "official_identities_valid",
+        "library_file_pins",
+        "runtime_checks",
+        "fast_no_matching"
+      ]
+    },
+    {
+      "name": "alias_promotion_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "extlib_ab_identity_alias",
+        "recipe_sha256": "e6a318ecc5284972d682618fccfdfbcfa1d82077a228451420c80ca5cd350504",
+        "mode": "fast_static"
+      },
+      "required_true_checks": [
+        "original_ab_audit_passed",
+        "old_audit_snapshot_bound",
+        "original_runtime_bound",
+        "original_ab_output_bound",
+        "pre_ab_control_bound",
+        "module_pin",
+        "branch_recipe_bound",
+        "final_bound",
+        "exact_ids_schema",
+        "native_candidate_multisets",
+        "official_identities_valid",
+        "runtime_checks",
+        "no_new_scoring_or_candidates",
+        "fast_no_promotion",
+        "installed_payload_pin"
+      ]
+    }
+  ]
+}

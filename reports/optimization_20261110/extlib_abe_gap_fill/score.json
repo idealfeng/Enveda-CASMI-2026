@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-extlib-abe-gap-fill-1110",
+  "version": 1,
+  "branch_sha256": "344228e0e31703e643308cc86c01d7db696f071af1620d669c92cc881f1552c0",
+  "submission_ref": 58222443,
+  "actual_target": "stormseye/casmi26-extlib-abe-gap-fill-1110",
+  "status": "PENDING",
+  "public_score": null,
+  "public_score_available": false,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-11T03:11:29.149922+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

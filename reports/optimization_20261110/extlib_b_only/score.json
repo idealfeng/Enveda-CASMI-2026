@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-extlib-b-only-1110",
+  "version": 1,
+  "branch_sha256": "17a330e672953916d92c3d306a463c5c3c154fa96cc58266adb93377996cf7b2",
+  "submission_ref": 58222403,
+  "actual_target": "stormseye/casmi26-extlib-b-only-1110",
+  "status": "PENDING",
+  "public_score": null,
+  "public_score_available": false,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-11T03:11:26.764498+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

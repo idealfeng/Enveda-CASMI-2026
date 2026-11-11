@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-extlib-ab-identity-alias-1111",
+  "version": 1,
+  "branch_sha256": "050cf7a5acdcc646d6398f97fe405b8b2a51b587ae5584ab76527abc07987d6c",
+  "submission_ref": 58222489,
+  "actual_target": "stormseye/casmi26-extlib-ab-identity-alias-1111",
+  "status": "PENDING",
+  "public_score": null,
+  "public_score_available": false,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-11T03:11:30.735701+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

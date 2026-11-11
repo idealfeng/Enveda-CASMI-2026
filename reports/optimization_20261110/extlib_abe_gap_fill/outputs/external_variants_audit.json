@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "branch": "extlib_abe_gap_fill",
+  "recipe_sha256": "da42785e84e27991a7c4bf551c0ceb84b566c493d463fc0f224d1d2ebee2cdd7",
+  "mode": "fast_static",
+  "checks": {
+    "base_audit_passed": true,
+    "configuration_bound": true,
+    "control_bound": true,
+    "final_bound": true,
+    "source_function_pin": true,
+    "exact_ids_schema": true,
+    "official_identities_valid": true,
+    "library_file_pins": true,
+    "runtime_checks": true,
+    "enveda_file_pin": true,
+    "fast_no_matching": true,
+    "installed_payload_pins": true
+  },
+  "csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "control_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "runtime_report_sha256": "ce2a9734caf15de9dc71b522224bbc416f36741d6339945560cab85b1068d8e7",
+  "configuration_sha256": "73f205ba3852cae291418b223d3e73867772d6d0ac775d0b7ffbb3839bd8b7ce",
+  "sources": [
+    "A",
+    "B",
+    "E"
+  ],
+  "e_policy": "gap_fill",
+  "trusted_bprec": false,
+  "changed_top1": 0,
+  "e_selected_queries": 0,
+  "bprec_corrected_count": 0,
+  "installed_payload_pins": {
+    "external_library_overlay_20261109.py": "a31c55a2958139cbeea948ea4d11fa32eb40e3d3d7b0bac157f6d0fdc51025db",
+    "alex_v12_external_function.py": "9ceaa95ddda0fb304758c9acd7dd1f256c528fcb4a8304c0152f8b6d8e3e3e76",
+    "external_library_variants_20261110.py": "8c7b203f4fe90ccd95194f68cae5dd1afc7163119da84dd96c91e5f05df095e2",
+    "enveda_matching_20261110.py": "7713c5fd97f9648ee9a914c9370d17b9f6224549f3cf20f12b71cf50592c3242"
+  }
+}

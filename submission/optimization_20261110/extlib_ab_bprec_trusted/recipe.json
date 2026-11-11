@@ -1,0 +1,96 @@
+{
+  "branch": "extlib_ab_bprec_trusted",
+  "target": "stormseye/casmi26-extlib-ab-bprec-trusted-1110",
+  "method": "Fixed original .482 upstream plus controlled measured-library variant",
+  "baseline_ref": 58156482,
+  "baseline_public_score": 0.488,
+  "champion_notebook_sha256": "2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7",
+  "pre_external_parent_ref": 58129661,
+  "pre_external_parent_public_score": 0.482,
+  "pre_external_parent_notebook_sha256": "6de37bec32c8aa8bfb46b2c5e94e374b53fe36137dff1cd7d1c4a295359f56fe",
+  "configuration": {
+    "sources": [
+      "A",
+      "B"
+    ],
+    "e_policy": "none",
+    "trusted_bprec": true,
+    "old_helper_sha256": "a31c55a2958139cbeea948ea4d11fa32eb40e3d3d7b0bac157f6d0fdc51025db",
+    "e_helper_sha256": null,
+    "enveda_file": null
+  },
+  "configuration_sha256": "1e8d5041c2bac07c466a8d00e44bac8f25c028fcf35cc0ee38f4e8d853d5dc74",
+  "payload_pins": {
+    "external_library_overlay_20261109.py": "a31c55a2958139cbeea948ea4d11fa32eb40e3d3d7b0bac157f6d0fdc51025db",
+    "alex_v12_external_function.py": "9ceaa95ddda0fb304758c9acd7dd1f256c528fcb4a8304c0152f8b6d8e3e3e76",
+    "external_library_variants_20261110.py": "8c7b203f4fe90ccd95194f68cae5dd1afc7163119da84dd96c91e5f05df095e2"
+  },
+  "original_function_sha256": "9ceaa95ddda0fb304758c9acd7dd1f256c528fcb4a8304c0152f8b6d8e3e3e76",
+  "files": [
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_meta.parquet",
+      "bytes": 7120766,
+      "sha256": "9b0c2d675612580a4aedbdd3c8891d046fdf864b0805aaef852acc6653f7d37f"
+    },
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_mass.parquet",
+      "bytes": 7979821,
+      "sha256": "e82a878f3e9f4d19067199d1376231b1663a83d08c512ba8e03d6ae88b7af12e"
+    },
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_mz.npy",
+      "bytes": 102770816,
+      "sha256": "a14f750d46bfca4176110d1a83cc3562944a3ca1e3f1344c94141f6d8d85fad5"
+    },
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_in.npy",
+      "bytes": 102770816,
+      "sha256": "e47b359f27d0aacda22f7ef47f8f60f7912136027d70d2bc915890a8d51be841"
+    },
+    {
+      "ref": "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+      "version": 1,
+      "file": "spectra.parquet",
+      "bytes": 43941912,
+      "sha256": "6ebb46b32ddd344d988c3bdb90e7160d4ce46e6d0b900a1217607aa2234c9477"
+    }
+  ],
+  "enveda_file": null,
+  "all_original_first32_cells_unchanged": true,
+  "official_identity_guard_preserved": true,
+  "actual_disabled_source_candidates_zero": true,
+  "baseline_control": "GUARDED_TAIL_AUDIT bound exact original pre-external .482 output",
+  "source_attribution": {
+    "priority": 5,
+    "name": "extlib_ab_bprec_trusted",
+    "sources": [
+      "A",
+      "B"
+    ],
+    "b_precursor_policy": "Replace only finite measured m/z with supported adduct, compatible mode, neutral/adduct theoretical consistency and mismatch from original neutral +/- H window; otherwise original fallback",
+    "eligible_reference_rows": 1281
+  },
+  "ranking_constants": {
+    "min_cosine": 0.8,
+    "min_matched_peaks": 4,
+    "protect_original_library_at": 0.9,
+    "precursor_ppm": 10,
+    "precursor_da": 0.002,
+    "fragment_da": 0.015
+  },
+  "new_training": false,
+  "locked_final_used": false,
+  "validation_mode": "fast_static",
+  "source_compaction": "zlib lossless bytes; decode SHA256 before import",
+  "enveda_attribution": null,
+  "enveda_fallback": null,
+  "trusted_bprec_expected_changed_refs": 1281
+}

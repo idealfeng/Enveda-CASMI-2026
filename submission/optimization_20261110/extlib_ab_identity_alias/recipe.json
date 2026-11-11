@@ -1,0 +1,41 @@
+{
+  "branch": "extlib_ab_identity_alias",
+  "target": "stormseye/casmi26-extlib-ab-identity-alias-1111",
+  "method": "Post-.488 identity-aware promotion of existing native candidates only",
+  "baseline_ref": 58156482,
+  "baseline_public_score": 0.488,
+  "champion_notebook_sha256": "2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7",
+  "all_original_33_cell_objects_unchanged": true,
+  "alias_module_sha256": "44b1964b9298a794bb303f3ce579c8d06ef8b8047f078fe868bed0154d607c02",
+  "source_attribution": {
+    "priority": 5,
+    "name": "extlib_ab_identity_alias",
+    "sources": [
+      "A",
+      "B"
+    ],
+    "purpose": "Use actual A/B hits previously rejected only because a reference SMILES alias duplicates an existing official identity; promote the native existing candidate instead",
+    "scope": "Append to all 33 exact .488 champion cells; preserve candidate multiset and original matching thresholds; no rescoring",
+    "parent_ref": 58156482,
+    "alias_policy": "Only original validity_guard_preserved_control queries with a threshold-passing actual match and one existing metric-identity representative; move that native SMILES first; no new candidates"
+  },
+  "policy": "Only actual original A/B matches rejected by official-identity duplication; promote existing native SMILES with the same official identity",
+  "candidate_multiset_unchanged": true,
+  "no_new_candidates": true,
+  "no_new_scoring": true,
+  "new_training": false,
+  "locked_final_used": false,
+  "matching_constants_unchanged": {
+    "min_cosine": 0.8,
+    "min_matched_peaks": 4,
+    "protect_original_library_at": 0.9,
+    "precursor_ppm": 10,
+    "precursor_da": 0.002,
+    "fragment_da": 0.015
+  },
+  "validation_mode": "fast_static",
+  "public_component_source": "reports/public_update_20261111/ozertuu__0-500-casmi26-dual-neural-physical-isomer/source.ipynb",
+  "public_component_source_sha256": "09ede63ad50aed22303a233e04d23331e04b0350aef94b43f0f2996bcf845258",
+  "public_title_score_verified": false,
+  "source_compaction": "lossless zlib+base64; verify decoded SHA before import"
+}

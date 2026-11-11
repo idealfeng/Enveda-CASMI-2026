@@ -1,0 +1,72 @@
+{
+  "status": "finished_all_claimed_or_failed",
+  "pid": 32860,
+  "manifest_sha256": "3c5179c08249d4d5e010f34fdf67d17c855bd471b69a97c83a43b5507097ba21",
+  "started_at_utc": "2026-11-11T02:39:19.936721+00:00",
+  "maximum_seconds": 21600.0,
+  "interval_seconds": 45,
+  "max_pending_cloud_runs": 2,
+  "submissions_at_most": 5,
+  "automatic_write_retries_allowed": false,
+  "branches": {
+    "extlib_b_only": {
+      "branch": "extlib_b_only",
+      "target": "stormseye/casmi26-extlib-b-only-1110",
+      "status": "submission_accepted",
+      "terminal": true,
+      "reserved_cloud_slot": false,
+      "consecutive_read_errors": 0,
+      "claim_status": "accepted",
+      "cloud_status": "COMPLETE",
+      "submission_ref": 58222403
+    },
+    "extlib_a_only": {
+      "branch": "extlib_a_only",
+      "target": "stormseye/casmi26-extlib-a-only-1110",
+      "status": "submission_accepted",
+      "terminal": true,
+      "reserved_cloud_slot": false,
+      "consecutive_read_errors": 0,
+      "claim_status": "accepted",
+      "cloud_status": "COMPLETE",
+      "submission_ref": 58222369
+    },
+    "extlib_abe_gap_fill": {
+      "branch": "extlib_abe_gap_fill",
+      "target": "stormseye/casmi26-extlib-abe-gap-fill-1110",
+      "status": "submission_accepted",
+      "terminal": true,
+      "reserved_cloud_slot": false,
+      "consecutive_read_errors": 0,
+      "claim_status": "accepted",
+      "cloud_status": "COMPLETE",
+      "submission_ref": 58222443
+    },
+    "extlib_abe_compete": {
+      "branch": "extlib_abe_compete",
+      "target": "stormseye/casmi26-extlib-abe-compete-1110",
+      "status": "submission_accepted",
+      "terminal": true,
+      "reserved_cloud_slot": false,
+      "consecutive_read_errors": 0,
+      "claim_status": "accepted",
+      "cloud_status": "COMPLETE",
+      "submission_ref": 58222478
+    },
+    "extlib_ab_identity_alias": {
+      "branch": "extlib_ab_identity_alias",
+      "target": "stormseye/casmi26-extlib-ab-identity-alias-1111",
+      "status": "submission_accepted",
+      "terminal": true,
+      "reserved_cloud_slot": false,
+      "consecutive_read_errors": 0,
+      "claim_status": "accepted",
+      "cloud_status": "COMPLETE",
+      "submission_ref": 58222489
+    }
+  },
+  "reserved_pending_cloud_runs": 0,
+  "checked_at_utc": "2026-11-11T02:45:30.800671+00:00",
+  "num_allowed_now": 2,
+  "finished_at_utc": "2026-11-11T02:45:30.800671+00:00"
+}

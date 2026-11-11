@@ -20,6 +20,10 @@ EN_FILE=dict(ref='egehseyinca/enveda180-casmi26-reference-ccby4',version=1,
     sha256='37b8f37c5f5f536ed804d4d0456e20f183fa32388f30ae1c1712928471146069')
 CORE_FILE='external_library_variants_20261110.py'
 E_FILE='enveda_matching_20261110.py'
+CORE_SHA='8c7b203f4fe90ccd95194f68cae5dd1afc7163119da84dd96c91e5f05df095e2'
+E_SHA='7713c5fd97f9648ee9a914c9370d17b9f6224549f3cf20f12b71cf50592c3242'
+ALIAS_FILE='identity_alias_promotion_20261111.py'
+ALIAS_SHA='44b1964b9298a794bb303f3ce579c8d06ef8b8047f078fe868bed0154d607c02'
 
 def read(path):return json.loads(Path(path).read_text(encoding='utf-8'))
 def source(cell):return ''.join(cell['source']) if isinstance(cell['source'],list) else cell['source']
@@ -31,7 +35,7 @@ def write(path,value):Path(path).write_text(json.dumps(value,indent=2,ensure_asc
 def planned():
     plan=read(PLAN)
     names=[b['name'] for b in plan['branches']]
-    expected=['extlib_b_only','extlib_a_only','extlib_abe_gap_fill','extlib_abe_compete','extlib_ab_bprec_trusted']
+    expected=['extlib_b_only','extlib_a_only','extlib_abe_gap_fill','extlib_abe_compete','extlib_ab_identity_alias']
     if names!=expected or plan['baseline_notebook_sha256']!=BASE_SHA or plan['baseline_ref']!=58156482:raise ValueError('Approved plan binding changed')
     return plan
 
@@ -46,7 +50,70 @@ def inherited_payload():
     if digest(payload['alex_v12_external_function.py'])!=ORIGINAL_FUNCTION_SHA or digest(payload['external_library_overlay_20261109.py'])!=OLD_HELPER_SHA:raise ValueError('Original source payload differs')
     return notebook,payload
 
+def prepare_alias(name):
+    plan=planned();approved=next(x for x in plan['branches'] if x['name']==name)
+    if sha(BASE/'notebook.ipynb')!=BASE_SHA:raise ValueError('Champion source changed')
+    module=ROOT/'scripts'/ALIAS_FILE
+    if ALIAS_SHA is None or sha(module)!=ALIAS_SHA:raise ValueError('Alias source has not passed frozen verification')
+    stage=OUT/name
+    if stage.exists():raise FileExistsError('Preserve frozen alias stage')
+    parent=read(BASE/'notebook.ipynb');notebook=copy.deepcopy(parent)
+    target='stormseye/casmi26-'+name.replace('_','-')+'-1111'
+    metadata=read(BASE/'kernel-metadata.json');metadata.update(id=target,title=target.split('/')[1].replace('-',' '))
+    recipe=dict(branch=name,target=target,method='Post-.488 identity-aware promotion of existing native candidates only',
+        baseline_ref=58156482,baseline_public_score=.488,champion_notebook_sha256=BASE_SHA,
+        all_original_33_cell_objects_unchanged=True,alias_module_sha256=ALIAS_SHA,
+        source_attribution=approved,policy='Only actual original A/B matches rejected by official-identity duplication; promote existing native SMILES with the same official identity',
+        candidate_multiset_unchanged=True,no_new_candidates=True,no_new_scoring=True,new_training=False,locked_final_used=False,
+        matching_constants_unchanged=plan['matching_constants'],validation_mode='fast_static',
+        public_component_source=plan.get('public_component_source'),public_component_source_sha256=plan.get('public_component_source_sha256'),
+        public_title_score_verified=False,source_compaction='lossless zlib+base64; verify decoded SHA before import')
+    raw=(json.dumps(recipe,indent=2,ensure_ascii=False)+'\n').encode();recipe_pin=digest(raw)
+    packed=base64.b64encode(zlib.compress(module.read_bytes(),9)).decode()
+    late=r'''
+# Identity-aware native-candidate promotion; original .488 is fully executed first.
+import base64,zlib,hashlib,importlib.util,json,shutil
+try:
+    shutil.copy2(ROOT/'submission.csv',ROOT/'submission_alias_preinstall_control.csv')
+    _alias_raw=zlib.decompress(base64.b64decode(__PAYLOAD__))
+    assert hashlib.sha256(_alias_raw).hexdigest()==__MODULE_PIN__
+    (CODE/'identity_alias_promotion_20261111.py').write_bytes(_alias_raw)
+    _alias_spec=importlib.util.spec_from_file_location('_identity_alias_promotion_runtime',CODE/'identity_alias_promotion_20261111.py')
+    _alias_module=importlib.util.module_from_spec(_alias_spec);_alias_spec.loader.exec_module(_alias_module)
+    _alias_args=(ROOT,EXTERNAL_OVERLAY_AUDIT,IS_RERUN,SAMPLE_IDS,__BRANCH__,__RECIPE_PIN__)
+    IDENTITY_ALIAS_REPORT=_alias_module.run(*_alias_args)
+    IDENTITY_ALIAS_AUDIT=_alias_module.audit(*_alias_args)
+    IDENTITY_ALIAS_AUDIT['checks']['installed_payload_pin']=hashlib.sha256((CODE/'identity_alias_promotion_20261111.py').read_bytes()).hexdigest()==__MODULE_PIN__
+    assert IDENTITY_ALIAS_AUDIT['checks']['installed_payload_pin']
+    IDENTITY_ALIAS_AUDIT['installed_module_sha256']=__MODULE_PIN__
+    (ROOT/'alias_promotion_audit.json').write_text(json.dumps(IDENTITY_ALIAS_AUDIT,indent=2)+'\n')
+except BaseException:
+    (ROOT/'submission.csv').unlink(missing_ok=True)
+    raise
+'''
+    for token,value in {'__PAYLOAD__':repr(packed),'__MODULE_PIN__':repr(ALIAS_SHA),'__BRANCH__':repr(name),'__RECIPE_PIN__':repr(recipe_pin)}.items():late=late.replace(token,value)
+    notebook['cells'].append(dict(cell_type='code',execution_count=None,metadata={},outputs=[],source=late))
+    if notebook['cells'][:-1]!=parent['cells']:raise ValueError('An original champion cell changed')
+    for c in notebook['cells']:
+        if c['cell_type']=='code':compile(source(c),'alias_stage','exec')
+    compile(module.read_text(encoding='utf-8'),ALIAS_FILE,'exec')
+    stage.mkdir(parents=True);write(stage/'notebook.ipynb',notebook);write(stage/'kernel-metadata.json',metadata);(stage/'recipe.json').write_bytes(raw)
+    static=dict(status='passed',target=target,version=1,notebook_sha256=sha(stage/'notebook.ipynb'),checks=dict(
+        champion_source_pin=True,all_33_champion_cells_exact=True,one_late_alias_cell_appended=True,
+        pinned_lossless_alias_source=True,actual_ab_audit_consumed=True,no_new_data_or_weights=True,
+        no_new_candidates_or_scoring=True,official_identity_guard=True,source_compiles=True,
+        private_offline_gpu=True,global_errors_fail_closed=True))
+    write(stage/'static_review.json',static)
+    receipt=dict(status='prepared',branch=name,target=target,version=1,notebook_sha256=static['notebook_sha256'],metadata_sha256=sha(stage/'kernel-metadata.json'),recipe_sha256=recipe_pin,static_review_path=str((stage/'static_review.json').relative_to(ROOT)).replace('\\','/'),validation_mode='fast_static',notebook_bytes=(stage/'notebook.ipynb').stat().st_size)
+    write(stage/'prepare_receipt.json',receipt)
+    audits=copy.deepcopy(read(BASE/'branch_spec.json')['required_runtime_audits'])
+    checks=['original_ab_audit_passed','old_audit_snapshot_bound','original_runtime_bound','original_ab_output_bound','pre_ab_control_bound','module_pin','branch_recipe_bound','final_bound','exact_ids_schema','native_candidate_multisets','official_identities_valid','runtime_checks','no_new_scoring_or_candidates','fast_no_promotion','installed_payload_pin']
+    audits.append(dict(name='alias_promotion_audit.json',expected_fields=dict(status='passed',branch=name,recipe_sha256=recipe_pin,mode='fast_static'),required_true_checks=checks))
+    branch=dict(name=name,target=target,version=1,stage_dir=str(stage.relative_to(ROOT)).replace('\\','/'),notebook_sha256=receipt['notebook_sha256'],metadata_sha256=receipt['metadata_sha256'],description='CASMI26 20261111 AB native identity alias promotion audited V1',validation_mode='fast_static',static_review_path=receipt['static_review_path'],required_runtime_audits=audits)
+    write(stage/'branch_spec.json',branch);return receipt
+
 def prepare(name):
+    if name=='extlib_ab_identity_alias':return prepare_alias(name)
     plan=planned();spec=next(b for b in plan['branches'] if b['name']==name)
     if sha(BASE/'notebook.ipynb')!=BASE_SHA:raise ValueError('Champion source changed')
     notebook,old_payload=inherited_payload();stage=OUT/name
@@ -54,6 +121,8 @@ def prepare(name):
     original=copy.deepcopy(notebook)
     e_policy={'extlib_abe_gap_fill':'gap_fill','extlib_abe_compete':'compete'}.get(name,'none')
     has_e=e_policy!='none'
+    if sha(ROOT/'scripts'/CORE_FILE)!=CORE_SHA:raise ValueError('Core source differs from final real-reference parity run')
+    if has_e and (E_SHA is None or sha(ROOT/'scripts'/E_FILE)!=E_SHA):raise ValueError('E source is not yet frozen and verified')
     payload={
       'external_library_overlay_20261109.py':old_payload['external_library_overlay_20261109.py'],
       'alex_v12_external_function.py':old_payload['alex_v12_external_function.py'],
@@ -87,10 +156,11 @@ def prepare(name):
     raw=(json.dumps(recipe,indent=2,ensure_ascii=False)+'\n').encode();recipe_pin=digest(raw)
     packed={name:base64.b64encode(zlib.compress(value,9)).decode() for name,value in payload.items()}
     late=("# Enveda-180: Krettler et al., doi:10.5281/zenodo.21346580, CC BY 4.0; mirror egehseyinca/enveda180-casmi26-reference-ccby4/1.\n" if has_e else '')+r'''
-import base64,zlib,hashlib,importlib.util,json
+import base64,zlib,hashlib,importlib.util,json,shutil
 _variant_payloads=__PAYLOADS__
 _variant_pins=__PINS__
 try:
+    shutil.copy2(ROOT/'submission.csv',ROOT/'submission_external_preinstall_control.csv')
     for _variant_name,_variant_encoded in _variant_payloads.items():
         _variant_raw=zlib.decompress(base64.b64decode(_variant_encoded))
         assert hashlib.sha256(_variant_raw).hexdigest()==_variant_pins[_variant_name],_variant_name

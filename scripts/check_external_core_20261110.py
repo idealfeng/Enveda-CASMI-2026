@@ -52,6 +52,14 @@ def main():
     invalid_ab=copy.deepcopy(ab);invalid_ab['q']['smiles']='[CH3:1][CH3:2]'
     inv,detail,_,_=new.compose(frame,invalid_ab,em,'gap_fill',old)
     checks['invalid_ab_allows_e_gap']=not detail[0]['ab_hit_accepted'] and detail[0]['e_selected']
+    added_ab=copy.deepcopy(ab);added_ab['q']['smiles']='O'
+    added_e=copy.deepcopy(em);added_e['q']['smiles']='N'
+    ab_added_frame=new.compose(frame,added_ab,{},'none',old)[0]
+    competing_added=new.compose(frame,added_ab,added_e,'compete',old)[0]
+    checks['competing_e_retains_added_ab_candidate']=competing_added.smiles.iloc[0]=='N;O;C;CC;CCC'
+    alias_e=copy.deepcopy(added_e);alias_e['q']['smiles']='[OH2:1]'
+    alias_result,alias_details,_,_=new.compose(frame,added_ab,alias_e,'compete',old)
+    checks['e_alias_of_added_ab_falls_back_to_ab']=alias_result.equals(ab_added_frame) and alias_details[0]['e_reason']=='invalid_e_preserves_ab'
     # Tampering only a score/policy must be rejected by actual output reconstruction.
     sample=actual['ab'];path=Path(sample['args'][0])/'external_variants_runtime.json';saved=new.read(path);bad=copy.deepcopy(saved)
     key=next(k for k,v in bad['actual_matches'].items() if v['above_threshold']);bad['actual_matches'][key]['above_threshold']=False;new.write(path,bad)

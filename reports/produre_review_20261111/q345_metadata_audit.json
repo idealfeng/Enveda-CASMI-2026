@@ -1,0 +1,893 @@
+{
+  "status": "completed_read_only",
+  "source_equal_to_formal_v9": {
+    "engine.py": true,
+    "derive.py": true,
+    "chem.py": true,
+    "pool.py": true,
+    "library.py": true
+  },
+  "asset_equal_to_formal_v9": {
+    "ranker_v4b.pkl": true,
+    "fpnet_0.pt": true,
+    "fe_A.pt": true,
+    "fe_B.pt": true,
+    "fe_D.pt": true,
+    "code/fe_v4/v1engine.py": true,
+    "code/fe_v4/hooks_v1.py": true
+  },
+  "q4_recomputed": {
+    "queries": 48,
+    "recovered": 19,
+    "rank_histogram": {
+      "3": 3,
+      "4": 2,
+      "2": 1,
+      "1": 12,
+      "5": 1
+    },
+    "mrr25": 0.29583333333333334,
+    "recall25": 0.3958333333333333,
+    "top1": 0.25,
+    "errors": 0
+  },
+  "isolation": {
+    "queries_with_multiple_exact_key_train_sids": 1,
+    "queries_with_remaining_same_official_sid": 1,
+    "recovered_queries_with_remaining_same_official_sid": 1,
+    "queries_with_multiple_exact_key_pool_entries": 0,
+    "scope": "Only exact label-key train SIDs and exact-key pool rows checked. Other canonical aliases outside those keys are not exhaustively audited."
+  },
+  "q3_counts": {
+    "base_transf(n6_sim0.3_tol0.004_step2_all)": 18,
+    "n_analog=3": 13,
+    "n_analog=12": 20,
+    "min_sim=0.1": 18,
+    "min_sim=0.5": 16,
+    "tol=0.002": 18,
+    "tol=0.010": 18,
+    "max_steps=1": 13,
+    "additions_only": 9,
+    "removals_only": 11
+  },
+  "rows": [
+    {
+      "molecule_id": "cross_CBIAKDAYHRWZCU",
+      "official_identity": "CBIAKDAYHRWZCU",
+      "exact_key_train_sids": [
+        226
+      ],
+      "train_sid_official_keys": [
+        "CBIAKDAYHRWZCU"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "CBIAKDAYHRWZCU"
+      ],
+      "recovered_in_q4": true
+    },
+    {
+      "molecule_id": "cross_CDUVSQMTLOYKTR",
+      "official_identity": "CDUVSQMTLOYKTR",
+      "exact_key_train_sids": [
+        228575
+      ],
+      "train_sid_official_keys": [
+        "CDUVSQMTLOYKTR"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "CDUVSQMTLOYKTR"
+      ],
+      "recovered_in_q4": true
+    },
+    {
+      "molecule_id": "cross_DKZBBWMURDFHNE",
+      "official_identity": "DKZBBWMURDFHNE",
+      "exact_key_train_sids": [
+        191447
+      ],
+      "train_sid_official_keys": [
+        "DKZBBWMURDFHNE"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "DKZBBWMURDFHNE"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "cross_DWVXZQVYILJCJH",
+      "official_identity": "DWVXZQVYILJCJH",
+      "exact_key_train_sids": [
+        267847
+      ],
+      "train_sid_official_keys": [
+        "DWVXZQVYILJCJH"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "DWVXZQVYILJCJH"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "cross_FWXUWWAXYNCZAY",
+      "official_identity": "FWXUWWAXYNCZAY",
+      "exact_key_train_sids": [
+        39517
+      ],
+      "train_sid_official_keys": [
+        "FWXUWWAXYNCZAY"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "FWXUWWAXYNCZAY"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "cross_GFZLFKCEWJJEFW",
+      "official_identity": "GFZLFKCEWJJEFW",
+      "exact_key_train_sids": [
+        232394
+      ],
+      "train_sid_official_keys": [
+        "GFZLFKCEWJJEFW"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "GFZLFKCEWJJEFW"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "cross_HPXGRJSGVYZSBD",
+      "official_identity": "HPXGRJSGVYZSBD",
+      "exact_key_train_sids": [
+        243792
+      ],
+      "train_sid_official_keys": [
+        "HPXGRJSGVYZSBD"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "HPXGRJSGVYZSBD"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "cross_IYODIJVWGPRBGQ",
+      "official_identity": "IYODIJVWGPRBGQ",
+      "exact_key_train_sids": [
+        199367
+      ],
+      "train_sid_official_keys": [
+        "IYODIJVWGPRBGQ"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "IYODIJVWGPRBGQ"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "cross_JIZXTXDQGNQBTA",
+      "official_identity": "JIZXTXDQGNQBTA",
+      "exact_key_train_sids": [
+        200082
+      ],
+      "train_sid_official_keys": [
+        "JIZXTXDQGNQBTA"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "JIZXTXDQGNQBTA"
+      ],
+      "recovered_in_q4": true
+    },
+    {
+      "molecule_id": "cross_KAQOTUWFZPIKLZ",
+      "official_identity": "KAQOTUWFZPIKLZ",
+      "exact_key_train_sids": [
+        235139
+      ],
+      "train_sid_official_keys": [
+        "KAQOTUWFZPIKLZ"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "KAQOTUWFZPIKLZ"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "cross_MZNCWPOVMBLUSG",
+      "official_identity": "MZNCWPOVMBLUSG",
+      "exact_key_train_sids": [
+        235355
+      ],
+      "train_sid_official_keys": [
+        "MZNCWPOVMBLUSG"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "MZNCWPOVMBLUSG"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "cross_NOFOAYPPHIUXJR",
+      "official_identity": "NOFOAYPPHIUXJR",
+      "exact_key_train_sids": [
+        1307
+      ],
+      "train_sid_official_keys": [
+        "NOFOAYPPHIUXJR"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "NOFOAYPPHIUXJR"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "cross_NQHGQOVKJGGLKE",
+      "official_identity": "NQHGQOVKJGGLKE",
+      "exact_key_train_sids": [
+        251063
+      ],
+      "train_sid_official_keys": [
+        "NQHGQOVKJGGLKE"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "NQHGQOVKJGGLKE"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "cross_OTGQIQQTPXJQRG",
+      "official_identity": "OTGQIQQTPXJQRG",
+      "exact_key_train_sids": [
+        230299
+      ],
+      "train_sid_official_keys": [
+        "OTGQIQQTPXJQRG"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "OTGQIQQTPXJQRG"
+      ],
+      "recovered_in_q4": true
+    },
+    {
+      "molecule_id": "cross_QNUNSPMEODRLBZ",
+      "official_identity": "QNUNSPMEODRLBZ",
+      "exact_key_train_sids": [
+        254540
+      ],
+      "train_sid_official_keys": [
+        "QNUNSPMEODRLBZ"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "QNUNSPMEODRLBZ"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "cross_SRNDKRJFBMZBCK",
+      "official_identity": "SRNDKRJFBMZBCK",
+      "exact_key_train_sids": [
+        273192
+      ],
+      "train_sid_official_keys": [
+        "SRNDKRJFBMZBCK"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "SRNDKRJFBMZBCK"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "official_identity": "UBEKXLWMTSODOC",
+      "exact_key_train_sids": [
+        257855
+      ],
+      "train_sid_official_keys": [
+        "UBEKXLWMTSODOC"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "UBEKXLWMTSODOC"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "cross_VJLSQJBXDSKTLG",
+      "official_identity": "VJLSQJBXDSKTLG",
+      "exact_key_train_sids": [
+        273984
+      ],
+      "train_sid_official_keys": [
+        "VJLSQJBXDSKTLG"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "VJLSQJBXDSKTLG"
+      ],
+      "recovered_in_q4": true
+    },
+    {
+      "molecule_id": "cross_VXVNYCRICCVPTD",
+      "official_identity": "VXVNYCRICCVPTD",
+      "exact_key_train_sids": [
+        858,
+        215890,
+        224967,
+        234305
+      ],
+      "train_sid_official_keys": [
+        "VXVNYCRICCVPTD",
+        "VXVNYCRICCVPTD",
+        "VXVNYCRICCVPTD",
+        "VXVNYCRICCVPTD"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [
+        215890,
+        224967,
+        234305
+      ],
+      "remaining_same_official_spectra": 194,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "VXVNYCRICCVPTD"
+      ],
+      "recovered_in_q4": true
+    },
+    {
+      "molecule_id": "cross_WDRYRZXSPDWGEB",
+      "official_identity": "WDRYRZXSPDWGEB",
+      "exact_key_train_sids": [
+        2128
+      ],
+      "train_sid_official_keys": [
+        "WDRYRZXSPDWGEB"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "WDRYRZXSPDWGEB"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "official_identity": "WGHBYQBNWQRUQU",
+      "exact_key_train_sids": [
+        260441
+      ],
+      "train_sid_official_keys": [
+        "WGHBYQBNWQRUQU"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "WGHBYQBNWQRUQU"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "cross_WIOKWEJDRXNVSH",
+      "official_identity": "WIOKWEJDRXNVSH",
+      "exact_key_train_sids": [
+        234349
+      ],
+      "train_sid_official_keys": [
+        "WIOKWEJDRXNVSH"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "WIOKWEJDRXNVSH"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "cross_XSOKPIZATJBJPO",
+      "official_identity": "XSOKPIZATJBJPO",
+      "exact_key_train_sids": [
+        274889
+      ],
+      "train_sid_official_keys": [
+        "XSOKPIZATJBJPO"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "XSOKPIZATJBJPO"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "cross_YFJYOZDIJVHPAU",
+      "official_identity": "YFJYOZDIJVHPAU",
+      "exact_key_train_sids": [
+        225080
+      ],
+      "train_sid_official_keys": [
+        "YFJYOZDIJVHPAU"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "YFJYOZDIJVHPAU"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "np_AAWZDTNXLSGCEK",
+      "official_identity": "AAWZDTNXLSGCEK",
+      "exact_key_train_sids": [
+        185538
+      ],
+      "train_sid_official_keys": [
+        "AAWZDTNXLSGCEK"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "AAWZDTNXLSGCEK"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "np_ACNHBCIZLNNLRS",
+      "official_identity": "ACNHBCIZLNNLRS",
+      "exact_key_train_sids": [
+        6
+      ],
+      "train_sid_official_keys": [
+        "ACNHBCIZLNNLRS"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "ACNHBCIZLNNLRS"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "np_CEUORZQYGODEFX",
+      "official_identity": "CEUORZQYGODEFX",
+      "exact_key_train_sids": [
+        244
+      ],
+      "train_sid_official_keys": [
+        "CEUORZQYGODEFX"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "CEUORZQYGODEFX"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "np_CTRLABGOLIVAIY",
+      "official_identity": "CTRLABGOLIVAIY",
+      "exact_key_train_sids": [
+        290
+      ],
+      "train_sid_official_keys": [
+        "CTRLABGOLIVAIY"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "CTRLABGOLIVAIY"
+      ],
+      "recovered_in_q4": true
+    },
+    {
+      "molecule_id": "np_DBEPLOCGEIEOCV",
+      "official_identity": "DBEPLOCGEIEOCV",
+      "exact_key_train_sids": [
+        318
+      ],
+      "train_sid_official_keys": [
+        "DBEPLOCGEIEOCV"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "DBEPLOCGEIEOCV"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "np_DOFJNFPSMUCECH",
+      "official_identity": "DOFJNFPSMUCECH",
+      "exact_key_train_sids": [
+        191661
+      ],
+      "train_sid_official_keys": [
+        "DOFJNFPSMUCECH"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "DOFJNFPSMUCECH"
+      ],
+      "recovered_in_q4": true
+    },
+    {
+      "molecule_id": "np_DOUMFZQKYFQNTF",
+      "official_identity": "DOUMFZQKYFQNTF",
+      "exact_key_train_sids": [
+        191707
+      ],
+      "train_sid_official_keys": [
+        "DOUMFZQKYFQNTF"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "DOUMFZQKYFQNTF"
+      ],
+      "recovered_in_q4": true
+    },
+    {
+      "molecule_id": "np_DUXQKCCELUKXOE",
+      "official_identity": "DUXQKCCELUKXOE",
+      "exact_key_train_sids": [
+        192138
+      ],
+      "train_sid_official_keys": [
+        "DUXQKCCELUKXOE"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "DUXQKCCELUKXOE"
+      ],
+      "recovered_in_q4": true
+    },
+    {
+      "molecule_id": "np_FELGMEQIXOGIFQ",
+      "official_identity": "FELGMEQIXOGIFQ",
+      "exact_key_train_sids": [
+        452
+      ],
+      "train_sid_official_keys": [
+        "FELGMEQIXOGIFQ"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "FELGMEQIXOGIFQ"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "np_FFGPTBGBLSHEPO",
+      "official_identity": "FFGPTBGBLSHEPO",
+      "exact_key_train_sids": [
+        461
+      ],
+      "train_sid_official_keys": [
+        "FFGPTBGBLSHEPO"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "FFGPTBGBLSHEPO"
+      ],
+      "recovered_in_q4": true
+    },
+    {
+      "molecule_id": "np_GZSOSUNBTXMUFQ",
+      "official_identity": "GZSOSUNBTXMUFQ",
+      "exact_key_train_sids": [
+        631
+      ],
+      "train_sid_official_keys": [
+        "GZSOSUNBTXMUFQ"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "GZSOSUNBTXMUFQ"
+      ],
+      "recovered_in_q4": true
+    },
+    {
+      "molecule_id": "np_HELXLJCILKEWJH",
+      "official_identity": "HELXLJCILKEWJH",
+      "exact_key_train_sids": [
+        196237
+      ],
+      "train_sid_official_keys": [
+        "HELXLJCILKEWJH"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "HELXLJCILKEWJH"
+      ],
+      "recovered_in_q4": true
+    },
+    {
+      "molecule_id": "np_HSMPDPBYAYSOBC",
+      "official_identity": "HSMPDPBYAYSOBC",
+      "exact_key_train_sids": [
+        197157
+      ],
+      "train_sid_official_keys": [
+        "HSMPDPBYAYSOBC"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "HSMPDPBYAYSOBC"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "np_HUSISCNTLUEZCN",
+      "official_identity": "HUSISCNTLUEZCN",
+      "exact_key_train_sids": [
+        229257
+      ],
+      "train_sid_official_keys": [
+        "HUSISCNTLUEZCN"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "HUSISCNTLUEZCN"
+      ],
+      "recovered_in_q4": true
+    },
+    {
+      "molecule_id": "np_JYGXADMDTFJGBT",
+      "official_identity": "JYGXADMDTFJGBT",
+      "exact_key_train_sids": [
+        949
+      ],
+      "train_sid_official_keys": [
+        "JYGXADMDTFJGBT"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "JYGXADMDTFJGBT"
+      ],
+      "recovered_in_q4": true
+    },
+    {
+      "molecule_id": "np_MBRLOUHOWLUMFF",
+      "official_identity": "MBRLOUHOWLUMFF",
+      "exact_key_train_sids": [
+        204949
+      ],
+      "train_sid_official_keys": [
+        "MBRLOUHOWLUMFF"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "MBRLOUHOWLUMFF"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "np_QCHFTSOMWOSFHM",
+      "official_identity": "QCHFTSOMWOSFHM",
+      "exact_key_train_sids": [
+        1586
+      ],
+      "train_sid_official_keys": [
+        "QCHFTSOMWOSFHM"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "QCHFTSOMWOSFHM"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "np_RFDAIACWWDREDC",
+      "official_identity": "RFDAIACWWDREDC",
+      "exact_key_train_sids": [
+        1700
+      ],
+      "train_sid_official_keys": [
+        "RFDAIACWWDREDC"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "RFDAIACWWDREDC"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "np_RXPRRQLKFXBCSJ",
+      "official_identity": "RXPRRQLKFXBCSJ",
+      "exact_key_train_sids": [
+        1772
+      ],
+      "train_sid_official_keys": [
+        "RXPRRQLKFXBCSJ"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "RXPRRQLKFXBCSJ"
+      ],
+      "recovered_in_q4": true
+    },
+    {
+      "molecule_id": "np_RZGFUGXQKMEMOO",
+      "official_identity": "RZGFUGXQKMEMOO",
+      "exact_key_train_sids": [
+        215414
+      ],
+      "train_sid_official_keys": [
+        "RZGFUGXQKMEMOO"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "RZGFUGXQKMEMOO"
+      ],
+      "recovered_in_q4": false
+    },
+    {
+      "molecule_id": "np_SGEWCQFRYRRZDC",
+      "official_identity": "SGEWCQFRYRRZDC",
+      "exact_key_train_sids": [
+        215872
+      ],
+      "train_sid_official_keys": [
+        "SGEWCQFRYRRZDC"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "SGEWCQFRYRRZDC"
+      ],
+      "recovered_in_q4": true
+    },
+    {
+      "molecule_id": "np_SHIBSTMRCDJXLN",
+      "official_identity": "SHIBSTMRCDJXLN",
+      "exact_key_train_sids": [
+        1824
+      ],
+      "train_sid_official_keys": [
+        "SHIBSTMRCDJXLN"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "SHIBSTMRCDJXLN"
+      ],
+      "recovered_in_q4": true
+    },
+    {
+      "molecule_id": "np_URFCJEUYXNAHFI",
+      "official_identity": "URFCJEUYXNAHFI",
+      "exact_key_train_sids": [
+        218775
+      ],
+      "train_sid_official_keys": [
+        "URFCJEUYXNAHFI"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "URFCJEUYXNAHFI"
+      ],
+      "recovered_in_q4": true
+    },
+    {
+      "molecule_id": "np_XKLMZUWKNUAPSZ",
+      "official_identity": "XKLMZUWKNUAPSZ",
+      "exact_key_train_sids": [
+        2272
+      ],
+      "train_sid_official_keys": [
+        "XKLMZUWKNUAPSZ"
+      ],
+      "remaining_same_official_sids_after_first_exclusion": [],
+      "remaining_same_official_spectra": 0,
+      "exact_key_pool_entries": 1,
+      "pool_smiles_official_keys": [
+        "XKLMZUWKNUAPSZ"
+      ],
+      "recovered_in_q4": false
+    }
+  ],
+  "user_file_sha256": {
+    "produre2/q345_lib.py": "83fe7d46b46c385cb8b42c356cc146bc02a8c356308fc1ed4c2386651e42d527",
+    "produre2/q3_ablation.py": "7128cba3c80d1625a572190d4b4db6ee1dfa0e02bb736425ef70329365365b4b",
+    "produre2/q4_full_rank.py": "c3881f3a792241c3e14c1e09955cb17c85bba26c3b43baa5aaa2d0ed9a9ebb10",
+    "produre2/q5_templates.py": "278013824cebb7fae473c5106fe88f90b4a97fddc313b4456237800fcda51f2c",
+    "produre2/Q345_RESULTS.md": "0ac85dd0dee94a985d61a3268e1ef66ae3d5b8e14fcc04876881624d90831340",
+    "produre2/artifacts/q3_ablation.json": "883786d7d8eec05674c8869dc7bd8b8444b04e3b9d0366767228f9868939673d",
+    "produre2/artifacts/q4_full_rank.json": "09e9e84b58c3f9e0af63c60fef6641bf08bc3736c1614a05e86863b777fc8d3b",
+    "produre2/artifacts/q5_real_paths.json": "82d657ba30b3fc7a636de8f137b44be0a4ab03117bf0b5b5fc68a2bb24f7cf85"
+  },
+  "no_model_gpu_or_generation_execution": true,
+  "user_files_unchanged": true
+}

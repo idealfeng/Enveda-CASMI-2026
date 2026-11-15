@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-generation-production-1113",
+  "version": 1,
+  "branch_sha256": "0765ec6b7824d38ddb8ea241ab8408071b17da5876fcff93cb59564c1bd4f271",
+  "notebook_sha256": "a9debc93f59213d3c80a8b3ee0e4808ee930d6ada34c3ee908f1469fa35cfa2c",
+  "metadata_sha256": "4b4f5016b649ffc5cbebe4436a05a4bcd319ae81e76520f15209da771a60172c",
+  "requested_at_utc": "2026-11-13T13:04:07.152416+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-13T13:04:11.580414+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

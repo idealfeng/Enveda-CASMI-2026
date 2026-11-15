@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "branch": "generation_budget_only",
+  "recipe_sha256": "db45580e4d0b3e1dea6456afce1ff48722b8c78293d838c3f71cec02336ebb33",
+  "mode": "fast_static",
+  "checks": {
+    "original_ab_audit": true,
+    "original_ab_output_bound": true,
+    "installed_module_pin": true,
+    "fast_no_generation": true
+  },
+  "module_sha256": "b7e3366aeb19b03da7caa1eadfdbf7c3afc25025b8e013d154a0e5ccc5773b3f",
+  "runner_sha256": "153c85fb59025f3c2fa75cf9a64ffe7aa6cdb26b25113fee9fa46643c22f1182",
+  "configuration": {
+    "gen_n_analog": 6,
+    "gen_max_total": 300,
+    "gen_max_per_parent": 60,
+    "max_steps": 2,
+    "allow_isomerisation": true
+  },
+  "csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0"
+}

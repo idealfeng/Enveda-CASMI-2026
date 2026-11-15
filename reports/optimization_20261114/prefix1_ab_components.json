@@ -1,0 +1,131 @@
+{
+  "status": "passed",
+  "branches": [
+    {
+      "status": "passed_actual_changed_components",
+      "branch": "head_prefix1_ab",
+      "notebook_sha256": "6c08b5287e42969ab0e67b50975ac46bae2c35f6dad76f8a32b94bc4ae022670",
+      "recipe_sha256": "a6e2710a099fd00e9972e18126202dd70ebcdf6b43081d4a3a860f24b98bab64",
+      "marks": [
+        {
+          "cell": 30,
+          "seconds": 57.905878643
+        },
+        {
+          "cell": 31,
+          "seconds": 0.09017906500000095
+        },
+        {
+          "cell": 32,
+          "seconds": 40.044223912999996
+        },
+        {
+          "cell": 33,
+          "seconds": 0.019760379999993916
+        }
+      ],
+      "seconds": 98.116650971,
+      "checks": {
+        "exact_source_bound": true,
+        "actual_models_invoked": true,
+        "correct_official_rdkit": true,
+        "all_tail_AB_final_checks": true,
+        "score_errors_empty": true,
+        "prefix1_exact": true,
+        "same_score_prefix7_matches_prior": true,
+        "production_library_context_copied": true,
+        "actual_AB_matching": true
+      },
+      "queries": 2,
+      "candidate_rows": 50,
+      "score_mode": "learned_heads",
+      "learned_heads_applied": true,
+      "head_weights": [
+        {
+          "sha256": "99e63aedb420217c817aeaaebd3d09ffa9620824a8d8833dcf55fd90ae903a53",
+          "step": 2500,
+          "seed": 20261108
+        },
+        {
+          "sha256": "f29077ca350e48705cec93ed7a9716b2b718e965ba56cec859bb829bf4b7ba75",
+          "step": 2500,
+          "seed": 20261109
+        }
+      ],
+      "source_control_sha256": "d3d17cb53ba68ac437c01b9512dfa2d40fdaa35952d9bc549e7d6a77504b8a78",
+      "effective_query_sha256": "4f75976b3e3d81837cd5da299956745c41650537caa5d2ef9a43b5698653b293",
+      "prefix7_comparison_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416",
+      "prefix7_output_reconstructed": true,
+      "changed_query_lists_vs_same_score_prefix7": 2,
+      "changed_ranks2_7_queries": 2,
+      "changed_top1_before_AB": 0,
+      "AB_hits": 0,
+      "AB_reference_counts": {
+        "A": 200724,
+        "B": 124160
+      },
+      "final_csv_sha256": "c83dd6a65811efa2ac1ca95d66d87a9c15d36584666943ddded05fa3fd846548",
+      "truth_metrics_computed": false,
+      "new_full_pipeline_executed": false,
+      "limitation": "Actual changed cells30-33 only, on saved two-query generation-variant production intermediates. Same-score prefix7 reconstruction exactly reproduces prior actual trained/mean counterpart. No new complete initialization, no exact champion-candidate efficacy panel, no truth metrics."
+    },
+    {
+      "status": "passed_actual_changed_components",
+      "branch": "mean_prefix1_ab",
+      "notebook_sha256": "909972b476b706624d66cfa11f2bf1f32a45967d1f44fdd2231a136232d7fd5f",
+      "recipe_sha256": "a0623e5314185582e93ce5c832e474ba9c938d262487ae347046f44cc207eaf1",
+      "marks": [
+        {
+          "cell": 30,
+          "seconds": 57.359104463999984
+        },
+        {
+          "cell": 31,
+          "seconds": 0.09015275600000905
+        },
+        {
+          "cell": 32,
+          "seconds": 40.995581783000006
+        },
+        {
+          "cell": 33,
+          "seconds": 0.01803210200000649
+        }
+      ],
+      "seconds": 98.517198065,
+      "checks": {
+        "exact_source_bound": true,
+        "actual_models_invoked": true,
+        "correct_official_rdkit": true,
+        "all_tail_AB_final_checks": true,
+        "score_errors_empty": true,
+        "prefix1_exact": true,
+        "same_score_prefix7_matches_prior": true,
+        "production_library_context_copied": true,
+        "actual_AB_matching": true
+      },
+      "queries": 2,
+      "candidate_rows": 50,
+      "score_mode": "frozen_v2_mean",
+      "learned_heads_applied": false,
+      "head_weights": [],
+      "source_control_sha256": "d3d17cb53ba68ac437c01b9512dfa2d40fdaa35952d9bc549e7d6a77504b8a78",
+      "effective_query_sha256": "4f75976b3e3d81837cd5da299956745c41650537caa5d2ef9a43b5698653b293",
+      "prefix7_comparison_sha256": "73cc8fa3ea59a8fe8cb83c19a169611bde4a5dfddf5139e6994d0cb01f1de7a8",
+      "prefix7_output_reconstructed": true,
+      "changed_query_lists_vs_same_score_prefix7": 2,
+      "changed_ranks2_7_queries": 2,
+      "changed_top1_before_AB": 0,
+      "AB_hits": 0,
+      "AB_reference_counts": {
+        "A": 200724,
+        "B": 124160
+      },
+      "final_csv_sha256": "930133713cd45845ed466f8eb313e781d30fca7c40634debd3775f97a16f9a08",
+      "truth_metrics_computed": false,
+      "new_full_pipeline_executed": false,
+      "limitation": "Actual changed cells30-33 only, on saved two-query generation-variant production intermediates. Same-score prefix7 reconstruction exactly reproduces prior actual trained/mean counterpart. No new complete initialization, no exact champion-candidate efficacy panel, no truth metrics."
+    }
+  ],
+  "all_data_on_D": true
+}

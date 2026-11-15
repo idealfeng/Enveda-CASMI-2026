@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-adduct-extlib-1112",
+  "version": 1,
+  "branch_sha256": "84262dd9cd081da818f74c123321be64f9c49f2bbeab2ffbdcfcb5d9bd58eb7b",
+  "submission_ref": 58263553,
+  "actual_target": "stormseye/casmi26-adduct-extlib-1112",
+  "status": "COMPLETE",
+  "public_score": "0.488",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-13T11:39:25.616013+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

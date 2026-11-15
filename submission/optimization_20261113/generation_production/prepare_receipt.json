@@ -1,0 +1,10 @@
+{
+  "status": "prepared_pending_actual_canary",
+  "branch": "generation_production",
+  "notebook_sha256": "a9debc93f59213d3c80a8b3ee0e4808ee930d6ada34c3ee908f1469fa35cfa2c",
+  "metadata_sha256": "4b4f5016b649ffc5cbebe4436a05a4bcd319ae81e76520f15209da771a60172c",
+  "recipe_sha256": "9f70ddc759cf3ce5c927c7e0154128768b6f6931f8b19528c8f3649e9e743bae",
+  "module_sha256": "d25564341cb9c9ed32e780ce660a853c03aa421a7a63869799376fd3eb1db42c",
+  "runner_sha256": "153c85fb59025f3c2fa75cf9a64ffe7aa6cdb26b25113fee9fa46643c22f1182",
+  "notebook_bytes": 882608
+}

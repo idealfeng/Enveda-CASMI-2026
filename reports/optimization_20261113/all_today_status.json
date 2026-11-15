@@ -1,0 +1,73 @@
+{
+  "status": "monitoring",
+  "pid": 64288,
+  "started_at_utc": "2026-11-13T13:37:57.570132+00:00",
+  "manifest_sha256": [
+    "3c65dd2759ee93a21f52c7fc4f726b44c55b5985f3f571d97de101adfb38d4d3",
+    "a1bb2d829c8f945db4718fca1d9d5a893c68419f21b538d4a965b39d79f5ade8"
+  ],
+  "read_only_network": true,
+  "new_run_or_submission_performed": false,
+  "single_ledger_writer": true,
+  "checked_at_utc": "2026-11-13T16:42:11.197209+00:00",
+  "branches": [
+    {
+      "branch": "generation_production",
+      "target": "stormseye/casmi26-generation-production-1113",
+      "actual_target": "stormseye/casmi26-generation-production-1113",
+      "submission_ref": 58309573,
+      "status": "PENDING",
+      "public_score": null,
+      "public_score_available": false,
+      "checked_at_utc": "2026-11-13T16:42:02.851796+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "generation_noiso_control",
+      "target": "stormseye/casmi26-gen-noiso-only-1113",
+      "actual_target": "stormseye/casmi26-gen-noiso-only-1113",
+      "submission_ref": 58310788,
+      "status": "PENDING",
+      "public_score": null,
+      "public_score_available": false,
+      "checked_at_utc": "2026-11-13T16:42:04.272756+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "generation_budget_only",
+      "target": "stormseye/casmi26-gen-budget-only-1113",
+      "actual_target": "stormseye/casmi26-gen-budget-only-1113",
+      "submission_ref": 58310627,
+      "status": "PENDING",
+      "public_score": null,
+      "public_score_available": false,
+      "checked_at_utc": "2026-11-13T16:42:07.042511+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "spectral_network_explore",
+      "target": "stormseye/casmi26-spectral-network-1113",
+      "actual_target": "stormseye/casmi26-spectral-network-explore-1113",
+      "submission_ref": 58310918,
+      "status": "PENDING",
+      "public_score": null,
+      "public_score_available": false,
+      "checked_at_utc": "2026-11-13T16:42:08.906279+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "head_mean_ab",
+      "target": "stormseye/casmi26-head-mean-ab-1113",
+      "actual_target": "stormseye/casmi26-mean-tail-with-ab-1113",
+      "submission_ref": 58310818,
+      "status": "PENDING",
+      "public_score": null,
+      "public_score_available": false,
+      "checked_at_utc": "2026-11-13T16:42:11.193637+00:00",
+      "error_description_present": false
+    }
+  ],
+  "ledger_added_refs": [],
+  "ledger_current_best": 0.488,
+  "all_branches_terminal": false
+}

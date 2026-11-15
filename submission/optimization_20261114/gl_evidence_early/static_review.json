@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-gl-evidence-early-1114",
+  "version": 1,
+  "notebook_sha256": "de6b09110573232fcb33e3ff40b4a01428ec1a376edc2a839131bcea3726cc8d",
+  "checks": {
+    "exact_parent_pin": true,
+    "all_original_cells_unchanged": true,
+    "original_head_AB_retained": true,
+    "only_one_appended_cell": true,
+    "original_dataset_pins_retained": true,
+    "private_offline_gpu": true,
+    "module_payload_pinned": true,
+    "source_compiles": true,
+    "errors_fail_closed": true
+  },
+  "boundary": "Static stage binding only; real changed components separately checked, not new full production inference or efficacy."
+}

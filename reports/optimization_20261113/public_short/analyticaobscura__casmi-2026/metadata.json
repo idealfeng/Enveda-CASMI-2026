@@ -1,0 +1,24 @@
+{
+  "ref": "analyticaobscura/casmi-2026",
+  "title": "Casmi-2026 ",
+  "current_version_number": 1,
+  "last_run_time": "2026-11-10 11:41:47.596000",
+  "dataset_data_sources": [
+    "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "takumuhata/casmi26-extlib",
+    "sanpier/catalogue-experiment-saner",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [
+    "popwenman/casmi26-scorer-train-v80"
+  ],
+  "is_private": false,
+  "sha256": "7a7162f784d71ec8250f5eb130cb78c69791c578cc5c778d6386df2f10eca7e2",
+  "bytes": 815404
+}

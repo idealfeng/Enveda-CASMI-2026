@@ -1,0 +1,25 @@
+{
+  "ref": "prvsiyan/analog-propagation-casmi-2026-baseline",
+  "title": "Analog Propagation - CASMI 2026 baseline",
+  "current_version_number": 50,
+  "last_run_time": "2026-11-10 11:41:54.703000",
+  "dataset_data_sources": [
+    "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "takumuhata/casmi26-extlib",
+    "agentili/casmi26-fr-reranker-blend",
+    "sanpier/catalogue-experiment-saner",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [
+    "popwenman/casmi26-scorer-train-v80"
+  ],
+  "is_private": false,
+  "sha256": "74448d4ce49d53de7d69dcb027b86f2c5581798fc826b46c61653b755688fbf8",
+  "bytes": 803300
+}

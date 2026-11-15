@@ -1,0 +1,36 @@
+{
+  "status": "released_for_two_exploratory_cloud_runs",
+  "checked_at_utc": "2026-11-14T06:43:37.378953+00:00",
+  "branches": [
+    {
+      "branch": "head_prefix1_ab",
+      "stage": "submission/optimization_20261114/head_prefix1_ab",
+      "spec_path": "submission/optimization_20261114/head_prefix1_ab/branch_spec.json",
+      "notebook_sha256": "6c08b5287e42969ab0e67b50975ac46bae2c35f6dad76f8a32b94bc4ae022670",
+      "metadata_sha256": "8d3063cb2eb3efd1c206b5a483b951ec0c5318b6f2f1fe9e5c617a590eba571d",
+      "recipe_sha256": "a6e2710a099fd00e9972e18126202dd70ebcdf6b43081d4a3a860f24b98bab64",
+      "actual_component_evidence": "runs/prefix1_ab_20261114/head_prefix1_ab/verification.json",
+      "actual_component_evidence_sha256": "bc1e32d564b665243a43093c15d156530c95f2e9f9de20fc8ab02dd0d9d8be3b",
+      "component_seconds": 98.116650971,
+      "changed_rank2_7_queries": 2
+    },
+    {
+      "branch": "mean_prefix1_ab",
+      "stage": "submission/optimization_20261114/mean_prefix1_ab",
+      "spec_path": "submission/optimization_20261114/mean_prefix1_ab/branch_spec.json",
+      "notebook_sha256": "909972b476b706624d66cfa11f2bf1f32a45967d1f44fdd2231a136232d7fd5f",
+      "metadata_sha256": "8fa00029b7f139c2de8295ca48efb626a711c720d3ed2c049ea565454dd1e49d",
+      "recipe_sha256": "a0623e5314185582e93ce5c832e474ba9c938d262487ae347046f44cc207eaf1",
+      "actual_component_evidence": "runs/prefix1_ab_20261114/mean_prefix1_ab/verification.json",
+      "actual_component_evidence_sha256": "79131a62109330100598d23d768e3f2b77449f58c6200c80a5115378e206c3a4",
+      "component_seconds": 98.517198065,
+      "changed_rank2_7_queries": 2
+    }
+  ],
+  "component_summary_sha256": "f6c821f415a1002bb557ecfbff556767304844237fab0d237cf6ef2e7ecffaff",
+  "no_cloud_write": true,
+  "new_full_pipeline_test": false,
+  "truth_metrics_computed": false,
+  "component_input_scope": "Saved generation-variant two-query production intermediate, not exact champion candidate set",
+  "process_finished_exit0": true
+}

@@ -1,0 +1,70 @@
+{
+  "status": "partial_results_one_hidden_exception_two_pending",
+  "updated_at_utc": "2026-11-12T14:39:06.161674+00:00",
+  "baseline_ref": 58156482,
+  "baseline_public_score": 0.488,
+  "formal_submissions_accepted": 5,
+  "accepted": [
+    {
+      "branch": "adduct_extlib",
+      "ref": 58263553,
+      "status": "accepted",
+      "output_audit": "passed",
+      "notebook_sha256": "da79811ad20e32ed6c68082d488785ff893793f6d5a5ec36f71dc5ebc74871af"
+    },
+    {
+      "branch": "bestval_v80_tri",
+      "ref": 58270931,
+      "status": "accepted",
+      "output_audit": "passed",
+      "notebook_sha256": "e1d732f2a4e1aab9a5ecda2d849176039636f4fb58c743f2eeee7e1a5e224681"
+    },
+    {
+      "branch": "bestval_saner_tri",
+      "ref": 58263831,
+      "status": "accepted",
+      "output_audit": "passed",
+      "notebook_sha256": "363bcfcf402d58d4bac16375323b97924abd40125d8f1adcb54806935eb740af"
+    },
+    {
+      "branch": "generation_expand_r3",
+      "ref": 58271324,
+      "status": "accepted",
+      "output_audit": "passed",
+      "notebook_sha256": "1f9a7119dd4fdb45e006c71bd89719646dd08723faf0737920e1b0fd658c73a9"
+    },
+    {
+      "branch": "bestval_v80_adduct",
+      "ref": 58271026,
+      "status": "accepted",
+      "output_audit": "passed",
+      "notebook_sha256": "1280a429ae410fd282deec6f2f93dd4d035a6a7655443ac95bc21731f99346c1"
+    }
+  ],
+  "manifest_path": "submission/optimization_20261112/manifest_recovered.json",
+  "manifest_sha256": "08f87e64eca0894d1a3c6a0a4b4c0ec3c3652fdef540871acf402318a1355d24",
+  "limits": {
+    "checked_at_utc": "2026-11-12T11:33:41.529169+00:00",
+    "num_today": 5,
+    "num_total": 31,
+    "num_allowed_now": 0
+  },
+  "watcher_pid": 33264,
+  "watcher_source": "scripts/watch_batch_with_ledger_20261112_recovery.py",
+  "old_generation_cloud_failed_no_formal_submission": true,
+  "old_generation_evidence": "reports/optimization_20261112/generation_failed_log.txt",
+  "produre_rerun": false,
+  "all_artifacts_root": "D:/Paper/casmi",
+  "local_pc_required_for_kaggle_scoring": false,
+  "accepted_request_count": 5,
+  "valid_scored_count": 2,
+  "hidden_exception_refs": [
+    58271324
+  ],
+  "pending_refs": [
+    58270931,
+    58271026
+  ],
+  "note": "Accepted request and fast visible output audits are not successful hidden execution or gain",
+  "latest_results": "review_live_results.json"
+}

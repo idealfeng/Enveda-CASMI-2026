@@ -1,0 +1,29 @@
+{
+ "A": {
+  "tier1 >=0.80": "131/141 correct",
+  "tier2 0.72-0.80": "13/18 correct",
+  "tier3 0.65-0.72": "9/12 correct",
+  "tier1 MRR gain proxy (correct - wrong)": 121,
+  "refs": 324000
+ },
+ "B": {
+  "tier1 >=0.80": "186/202 correct",
+  "tier2 0.72-0.80": "17/23 correct",
+  "tier3 0.65-0.72": "8/10 correct",
+  "tier1 MRR gain proxy (correct - wrong)": 170,
+  "refs": 490840
+ },
+ "AB": {
+  "tier1 >=0.80": "187/204 correct",
+  "tier2 0.72-0.80": "15/21 correct",
+  "tier3 0.65-0.72": "8/10 correct",
+  "tier1 MRR gain proxy (correct - wrong)": 170,
+  "refs": 814840
+ },
+ "coverage": {
+  "molecules": 250,
+  "A": 214,
+  "B": 247,
+  "A+B": 247
+ }
+}

@@ -1,0 +1,57 @@
+{
+  "status": "downloaded_verified_identity_metadata",
+  "checked_at_utc": "2026-11-14T14:26:15.753431+00:00",
+  "source": "https://zenodo.org/records/23303289/files/msg_compact.tar.gz",
+  "bytes": 15682874,
+  "sha256": "a19e657a802cf5869d97b3486c7ce41021cba9c9a6279818e5d186307e3e7a35",
+  "md5": "13e86837ee49ea81e15f3d096cc636ec",
+  "files": [
+    {
+      "path": "assets/research/mist_msg_20261114/exposure/metadata/data/compact/msg/train/manifest.json",
+      "bytes": 567,
+      "sha256": "b2d07bbb4e241873eb917c7194b73d86def1835e3f7c7bad5183ede1fbfea4d8"
+    },
+    {
+      "path": "assets/research/mist_msg_20261114/exposure/metadata/data/compact/msg/train/part_00000/names.npy",
+      "bytes": 26400312,
+      "sha256": "915888ecba1111cffe27d86b43c396b1c72736bffcc6711a0fe90046572a9aa1"
+    },
+    {
+      "path": "assets/research/mist_msg_20261114/exposure/metadata/data/compact/msg/train/part_00000/structure_ids.npy",
+      "bytes": 10870792,
+      "sha256": "b73f0dde1f6f22b5e7a573c95d6a4e49280fb8b3781b9a283c9d64b7c2d8a186"
+    },
+    {
+      "path": "assets/research/mist_msg_20261114/exposure/metadata/data/compact/msg/val/manifest.json",
+      "bytes": 561,
+      "sha256": "f928aac1cdeba3f0ecdead37e06b5fe66433b280dc32502386616895bce1bc42"
+    },
+    {
+      "path": "assets/research/mist_msg_20261114/exposure/metadata/data/compact/msg/val/part_00000/names.npy",
+      "bytes": 2642472,
+      "sha256": "46f371a39999c4900f7e285599f86fa7b53f6e406bc5a2bdb3cedcea21d8a03c"
+    },
+    {
+      "path": "assets/research/mist_msg_20261114/exposure/metadata/data/compact/msg/val/part_00000/structure_ids.npy",
+      "bytes": 1088152,
+      "sha256": "4df81d0616b655e09110b6387aff61f6181e640bc7d86a49f2980dc755b1a899"
+    },
+    {
+      "path": "assets/research/mist_msg_20261114/exposure/metadata/data/compact/msg/test/manifest.json",
+      "bytes": 563,
+      "sha256": "decd241da80cb8ec3e4f12fbc98580ae393a45339dc50483798a5c3a26a33b95"
+    },
+    {
+      "path": "assets/research/mist_msg_20261114/exposure/metadata/data/compact/msg/test/part_00000/names.npy",
+      "bytes": 2387744,
+      "sha256": "2f2fefa4bf60f6904c03ff5c61821373cdf83170bc7495897bf74694b6dee411"
+    },
+    {
+      "path": "assets/research/mist_msg_20261114/exposure/metadata/data/compact/msg/test/part_00000/structure_ids.npy",
+      "bytes": 983264,
+      "sha256": "e27681bfbea9c108f597064bd2cc48276a20e6e199a846b7a933881956db949e"
+    }
+  ],
+  "downloaded_fingerprint_targets": false,
+  "note": "Archive contains labels but only names/structure_ids/manifests extracted. Membership identities are raw InChIKey14, not yet official tautomer-canonical identities."
+}

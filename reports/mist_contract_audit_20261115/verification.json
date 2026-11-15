@@ -1,0 +1,40 @@
+{
+  "status": "completed_input_contract_and_signal_audit",
+  "checkpoint_sha256": "6f8df582df36aa4a984f120efee14ee0a62f3a7723caa770b856a6e704236727",
+  "checkpoint_step": 30000,
+  "model_source_sha256": "ae9634f0cbc97713cde3ffe67ab9317048e6d4c6e54714c9851f4bb3ef0c0bf7",
+  "input_contract_passed": true,
+  "signal_admission_passed": false,
+  "actual_casmi_conditioned_rows": 103,
+  "actual_native_forward_rows": 16,
+  "spectrum_dependent_variation_lost_in": "final encoder attention layers",
+  "encoder_layer_cross_sample_std": [
+    0.16168531775474548,
+    0.013020711950957775,
+    5.689799945685081e-05,
+    3.0253630711740698e-09
+  ],
+  "final_fingerprint_cross_sample_std": 5.509946388038145e-10,
+  "evidence": [
+    {
+      "path": "reports/mist_contract_audit_20261115/feature_tensor_parity.json",
+      "sha256": "6491f65c45bfa3d74b48ef5e43c47e0d9b18f9cfedb0b42f3ca84ceadc82a1cf"
+    },
+    {
+      "path": "reports/mist_contract_audit_20261115/native_casmi_feature_statistics.json",
+      "sha256": "daa18b738455670850a53cad41856dd4ec339b22bd6b6e6d95488c8e7b764fb8"
+    },
+    {
+      "path": "reports/mist_contract_audit_20261115/layer_contraction.json",
+      "sha256": "81ec661cc4eff5ff41703db7d6360fde7a4502be692796fb7406370a39530359"
+    },
+    {
+      "path": "reports/mist_fingerprint_audit_20261115/verification.json",
+      "sha256": "c770e1ec21ffd6b8d1b6abe214b0a2c7c7b73bc21770664230af78a3a0862643"
+    }
+  ],
+  "training_performed": false,
+  "model_or_source_modified": false,
+  "no_general_claim_against_all_mist_models": true,
+  "decision": "Reject this exact checkpoint/source combination for production scoring until a spectrum-dependent artifact is available; preserve all original results."
+}

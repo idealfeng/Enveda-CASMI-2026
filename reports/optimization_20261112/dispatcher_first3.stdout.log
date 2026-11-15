@@ -1,0 +1,52 @@
+{
+  "status": "finished_all_claimed_or_failed",
+  "pid": 4100,
+  "manifest_sha256": "71394fffb83417ade1cf21dc8342c54119a59cd72f6a6d761b25e54b0ec1e0ff",
+  "started_at_utc": "2026-11-12T06:30:04.804905+00:00",
+  "maximum_seconds": 21600.0,
+  "interval_seconds": 45,
+  "max_pending_cloud_runs": 2,
+  "submissions_at_most": 5,
+  "automatic_write_retries_allowed": false,
+  "branches": {
+    "adduct_extlib": {
+      "branch": "adduct_extlib",
+      "target": "stormseye/casmi26-adduct-extlib-1112",
+      "status": "submission_accepted",
+      "terminal": true,
+      "reserved_cloud_slot": false,
+      "consecutive_read_errors": 0,
+      "submission_ref": 58263553,
+      "claim_status": "accepted"
+    },
+    "bestval_v80_tri": {
+      "branch": "bestval_v80_tri",
+      "target": "stormseye/casmi26-bestval-v80-tri-1112",
+      "status": "audit_or_submit_stopped_no_retry",
+      "terminal": true,
+      "reserved_cloud_slot": false,
+      "consecutive_read_errors": 0,
+      "claim_status": "run_requested",
+      "cloud_status": "COMPLETE",
+      "error_type": "ReadTimeout",
+      "http_status": null
+    },
+    "bestval_saner_tri": {
+      "branch": "bestval_saner_tri",
+      "target": "stormseye/casmi26-bestval-saner-tri-1112",
+      "status": "submission_accepted",
+      "terminal": true,
+      "reserved_cloud_slot": false,
+      "consecutive_read_errors": 0,
+      "claim_status": "accepted",
+      "error_type": "ReadTimeout",
+      "http_status": null,
+      "cloud_status": "COMPLETE",
+      "submission_ref": 58263831
+    }
+  },
+  "reserved_pending_cloud_runs": 0,
+  "checked_at_utc": "2026-11-12T06:33:09.703786+00:00",
+  "num_allowed_now": 4,
+  "finished_at_utc": "2026-11-12T06:33:09.703786+00:00"
+}

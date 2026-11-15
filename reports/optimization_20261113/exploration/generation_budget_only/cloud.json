@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-gen-budget-only-1113",
+  "version": 1,
+  "branch_sha256": "10ac1a72a1919d6826b7693639403815f3af69c6d6670c168fa93f78dc171413",
+  "notebook_sha256": "7f87816791ce5fb87b68d747286acebd6e803d7ab1752edcfb5f5ee951595272",
+  "metadata_sha256": "8a333e50e54a25bffc530d7fdb16cff07f36c117e9964f20d2ed458afd2c46f8",
+  "requested_at_utc": "2026-11-13T13:39:02.119406+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-13T13:39:07.433298+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

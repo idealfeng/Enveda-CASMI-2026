@@ -1,0 +1,71 @@
+{
+  "status": "passed_real_controlled_matching",
+  "checks": {
+    "official_rdkit": true,
+    "real_AB_and_C_matching": true,
+    "actual_score_artifacts_frozen": true,
+    "whitelisted_spectrum_inputs": true,
+    "identity_controls_exclude_all_truth_hits": true,
+    "no_training": true,
+    "no_cloud_write": true
+  },
+  "configuration": {
+    "cosine_threshold": 0.8,
+    "matched_peaks": 4,
+    "fragment_tolerance": 0.015,
+    "precursor_ppm": 10.0,
+    "precursor_da": 0.002,
+    "mode_only": true,
+    "source_C_real_recorded_precursor": true,
+    "original_pipeline_protection": 0.9,
+    "protect_accepted_AB": true,
+    "policy": "gap_fill_only",
+    "new_candidates_allowed": true
+  },
+  "seconds": 59.957667437,
+  "max_rss_kib": 522036,
+  "source_script_sha256": "adb8eb3b9a5000a270fac570a0d0c8c98a285b5353a2a81ffa2e337917128738",
+  "original_control_sha256": "7b8db80228adafd94aa285a2a3fdcc86e36a7fe27f796a2bd2576f2e00fc57ae",
+  "diagnostic_control_deduplicated_rows": 0,
+  "baseline_diagnostic_mrr": 0.857390873015873,
+  "evaluations": {
+    "references_present": {
+      "queries": 48,
+      "AB_mrr25": 0.8871527777777778,
+      "ABC_mrr25": 0.9010416666666666,
+      "delta": 0.01388888888888884,
+      "C_changed_queries": 1,
+      "improved": 1,
+      "worsened": 0,
+      "C_high_cos_correct": 32,
+      "C_high_cos_wrong": 1,
+      "C_high_cos_wrong_same_formula": 1,
+      "AB_high_cos": 23,
+      "pipeline_protected": 2
+    },
+    "all_truth_references_absent": {
+      "queries": 48,
+      "AB_mrr25": 0.8330853174603176,
+      "ABC_mrr25": 0.7914186507936508,
+      "delta": -0.04166666666666674,
+      "C_changed_queries": 4,
+      "improved": 0,
+      "worsened": 4,
+      "C_high_cos_correct": 0,
+      "C_high_cos_wrong": 10,
+      "C_high_cos_wrong_same_formula": 9,
+      "AB_high_cos": 4,
+      "pipeline_protected": 2
+    }
+  },
+  "score_artifact_sha256": {
+    "A": "3e45ed0c0444ca34b9f60ff78b92778e1d7901d593828e3d7b85589fe80a59c5",
+    "B": "f3ad266af95792ffc947ad838467a132ad2b29bfeee47ca420d8cb377ed7050a",
+    "C": "ed25a2a1318c0a6416ab4bd37e19452d89e3eb39ac21611e1c66841205ef76e0"
+  },
+  "production_component_changes": 0,
+  "pretrained_exposure": "Existing old48 panel has known pretrained exposure; not clean CV. No new labels select policy.",
+  "exact_champion_full_pipeline": false,
+  "public_score": null,
+  "limitation": "Old48 class2 stage lists are canonical-identity deduplicated consistently for both arms; AB/C controls reuse fixed matcher and same pipeline confidence. They are not exact current .488 predictions or hidden gains. Exclusion removes every considered reference sharing official truth identity in both AB and C, not just a raw key. 2-query component uses saved generation-variant control; no efficacy metric."
+}

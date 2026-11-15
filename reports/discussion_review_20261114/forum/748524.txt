@@ -1,0 +1,143 @@
+Validation stragegy
+
+https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/748524
+
+Author: Bull
+
+Posted: 2026-10-12T12:07:10.022Z
+
+The public LB covers only about 130 molecules (estimated), so a single molecule moving from "outside the top 25" to "rank 1" shifts the score by about 0.008. For that reason, we decide what to adopt using local validation built from the training data.
+
+However, the class shares in the test set are not disclosed in this competition, which makes it hard to make local validation resemble the test. At first, our local estimate came out as much as 0.16 higher than the LB. Below we share our current approach and what we learned along the way. We'd love to hear how you validate, too.
+
+Note that our candidates come from COCONUT and the training-data structures (we don't use PubChem).
+
+Validation data
+
+We hold out 1,250 structures from training, together with all of their spectra in every library. We decide whether two structures are the same using the first block of the InChIKey, as the evaluation metric does.
+
+
+
+
+Structures
+How they are chosen
+Why
+
+
+
+
+250
+All structures in enveda-np-examples
+Closest to the test (natural products measured on timsTOF)
+
+
+600
+From the other natural-product libraries, limited to structures that are in COCONUT and not in MassSpecGym
+Test class 2 molecules are in COCONUT or PubChem, so we match that. Also lets us evaluate models trained on MassSpecGym fairly (see below)
+
+
+400
+From the other natural-product libraries, structures not in COCONUT
+Simulates molecules that our candidates cannot find
+
+
+
+
+From each structure we draw a few spectra and treat them as one test molecule. The number of spectra follows the test's "spectra per molecule" distribution, and adducts are limited to the 10 types that appear in the test. We draw 5 times per structure (with a single draw, results varied by about ±0.01).
+
+
+From every structure we simulate all three classes by changing what we remove.
+
+
+
+
+Class
+Removed from the library
+Removed from the candidates
+
+
+
+
+1
+The true structure's spectra in the library we drew from
+Nothing
+
+
+2
+All spectra of the true structure
+Nothing
+
+
+3
+All spectra of structures similar to the truth (Tanimoto ≥ 0.7)
+Structures similar to the truth
+
+
+
+Matching the LB
+
+Without knowing the test class shares, the LB estimate ranges from 0.30 to 0.60 depending on the assumption.
+
+So we estimate the shares from the LB scores of several submissions, as follows.
+
+
+
+
+Class
+Share
+
+
+
+
+Class 1
+~28%
+
+
+Class 2
+~20%
+
+
+Class 3
+~52%
+
+
+
+In our first submission after weighting local scores by these shares, the estimate was 0.334 and the LB was 0.322.
+
+What we watch out for
+
+
+We compare two settings by their score difference on the same validation molecules. We check whether the difference is just chance with a bootstrap that resamples structures. If the 95% interval crosses 0, we treat the two as no different.
+
+Changes that retrain a model are trained several times with different random seeds and compared on the average. Changing only the seed moved class 2 MRR by about 0.02. With one run per side, differences below 0.02 can't be trusted.
+
+Models trained on MassSpecGym (ICEBERG, etc.) are evaluated only on structures not in MassSpecGym. Test class 2 and 3 molecules have no public spectra, so they should not be in MassSpecGym either. Many of our validation structures, on the other hand, are in MassSpecGym, and evaluating on them makes the model look better by however much it has memorized the answers. In fact, re-ranking candidates with ICEBERG gave +0.02 on class 2 overall, but about 0 when measured only on structures not in MassSpecGym.
+
+We don't adopt improvements that depend on molecule types whose share in the test is unknown based on local results alone. For example, inserting PubChem candidates at fixed ranks (5th, 10th, etc.) gave +0.01 to +0.02 locally, but the LB dropped from 0.295 to 0.288. Locally we had assumed that a fair number of test molecules exist only in PubChem, but there appear to be almost none. Only the harm remained: the inserted candidates pushed the correct answer down the ranking.
+
+
+Comment: Aryan Awasthi
+
+Thanks for sharing this, very close to what I ended up with. Two things that changed my decisions:
+
+
+Split by “has public spectra”, not just by library. I use two splits where the answer is reachable only through PubChem (~5k–10k candidates per molecule, answers removed from the training-structure tier):
+
+
+S1: the 250 enveda-np-examples structures (all have public spectra elsewhere)
+S2: 490 held-out enveda-180 structures with no public spectra (class-2-like)
+
+They disagree sharply on priors: ranked by PubChem popularity alone, the answer is #1 for 67% of S1 but ~0% of S2. A popularity prior added +0.50 MRR on S1 but only +0.075 on the LB. Since then I only accept a change if it helps S2.
+
+
+Ranking gains transfer to the LB at a much smaller size. With a LambdaRank ranker, in-silico fragmentation (1–2 bond cuts, explained intensity) lifted S2 from 0.502 to 0.627 and analog features to 0.660. On the LB the same steps were +0.03 to +0.04. The direction matched every time, the size never did, which fits your point that coverage and class mix dominate.
+
+
+Your class-share estimate (~28/20/52) is interesting. Did you fit it with a fixed per-class MRR from CV, or jointly? My own estimate from cosine-only runs put class 1 lower (~16%), but I didn’t control for adduct mix.
+
+Notebook with the S1/S2 numbers and the v2→v3 model comparison: https://www.kaggle.com/code/aryanawasthiteykik/casmi26-gpu-fingerprint-fragmentation-ranker
+
+
+Comment: Bianco Chiu
+
+Thanks for sharing. I wonder how to estimate the number of molecules in public lb?

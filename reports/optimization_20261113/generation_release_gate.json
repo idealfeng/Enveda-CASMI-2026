@@ -1,0 +1,10 @@
+{
+  "status": "released_for_one_private_run_and_code_submission",
+  "checked_at_utc": "2026-11-13T13:03:42.892302+00:00",
+  "branch": "generation_production",
+  "notebook_sha256": "a9debc93f59213d3c80a8b3ee0e4808ee930d6ada34c3ee908f1469fa35cfa2c",
+  "manifest_sha256": "3c65dd2759ee93a21f52c7fc4f726b44c55b5985f3f571d97de101adfb38d4d3",
+  "independent_review_sha256": "1678bd6edbe4751043210a4886d9f6258765856141bbe0662bfcc06c0c737ee1",
+  "real_production_verification_sha256": "958e7f60a5209b760aa231f1655dc579da454175aa3019c16dd6f8c79f3e57e1",
+  "evidence_boundary": "Two query production smoke with disclosed label metadata; no efficacy claim; hidden full budget and score unverified"
+}

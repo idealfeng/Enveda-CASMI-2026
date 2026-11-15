@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-mean-prefix1-ab-1114",
+  "version": 1,
+  "branch_sha256": "69e9c70b465d874177431898a2f1edd38993aca2882d09bf86477828865ece13",
+  "notebook_sha256": "909972b476b706624d66cfa11f2bf1f32a45967d1f44fdd2231a136232d7fd5f",
+  "metadata_sha256": "8fa00029b7f139c2de8295ca48efb626a711c720d3ed2c049ea565454dd1e49d",
+  "requested_at_utc": "2026-11-14T06:51:14.295796+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-14T06:51:19.774090+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

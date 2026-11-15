@@ -1,0 +1,61 @@
+{
+  "status": "released_for_five_user_authorized_exploratory_submissions",
+  "checked_at_utc": "2026-11-14T06:50:45.547876+00:00",
+  "manifest_sha256": "8a4897ca2cb8f21c0eb12807c4f256991b3e1fec344511c7d79528ed330eb719",
+  "branches": [
+    "head_prefix1_ab",
+    "mean_prefix1_ab",
+    "gl_evidence_early",
+    "dual_evidence_agreement",
+    "library_consensus_early"
+  ],
+  "evidence": [
+    {
+      "path": "reports/optimization_20261114/independent_static_review.json",
+      "status": "passed_static_not_full_execution",
+      "sha256": "1485805588c44840f8f5ab049e2bb472539e454d16be3cf7185247357fc5a1eb"
+    },
+    {
+      "path": "reports/optimization_20261114/prefix1_ab_components.json",
+      "status": "passed",
+      "sha256": "f6c821f415a1002bb557ecfbff556767304844237fab0d237cf6ef2e7ecffaff"
+    },
+    {
+      "path": "reports/optimization_20261114/evidence_early_components/verification.json",
+      "status": "passed_actual_evidence_changed_components",
+      "sha256": "6265f5102aa84419c59cbed8521aa70cf4d27f3df363df3e1efc7f4c8e2a91cc"
+    },
+    {
+      "path": "reports/optimization_20261114/evidence_pairwise_components/verification.json",
+      "status": "passed_actual_evidence_changed_components",
+      "sha256": "15c95ce8a9662432b3549c1af359fc076608788d1133a612a84104a0c7bfbd3f"
+    },
+    {
+      "path": "runs/library_consensus_early_20261114_r2/verification_completed.json",
+      "status": "passed_actual_appended_cell_components",
+      "sha256": "c56f6d8139c00e3deb74860bd5515207b9792c1b9da11f0a840ca42409543c20"
+    },
+    {
+      "path": "runs/library_consensus_early_20261114_r3_replay/verification.json",
+      "status": "passed_source_bound_fixed_policy_replay",
+      "sha256": "3a950ee5be58ee0553d8371d897937ac1b40bc73df3833d226abc1c98810d737"
+    },
+    {
+      "path": "reports/optimization_20261114/gain_watcher_review.json",
+      "status": "passed",
+      "sha256": "3384ecf2609b7a794062c9715df621298316fca0ecf4e0b9871688f86cc5c631"
+    },
+    {
+      "path": "reports/optimization_20261114/read_recovery_review.json",
+      "status": "passed",
+      "sha256": "0cf049b638bb342f0f65be94c2180b556b6a7b3065d53a248b6b0a7574ff4d4a"
+    }
+  ],
+  "max_submissions": 5,
+  "parent_ref": 58156482,
+  "parent_public_score": 0.488,
+  "new_training": false,
+  "new_complete_production_run": false,
+  "metric_boundary": "Real changed components and score replay, not new clean CV or full test success. Visible mode fast_static; formal hidden inference and score unverified.",
+  "user_authorization": "????0.488?????????????????????????"
+}

@@ -1,0 +1,404 @@
+{
+  "checked_at_utc": "2026-11-14T14:11:44.558140+00:00",
+  "status": "public_source_and_metadata_saved_no_execution",
+  "repository": "https://github.com/coleygroup/MIST",
+  "commit": "48e339be6535546c87ba4f6b81a0f787c2e4ac40",
+  "source_dir": "assets\\research\\mist_msg_20261114\\source",
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "bytes": 1071,
+      "sha256": "b0b902c0847833aee26472ee9c7fe61b97a9e15532c434c87f27d592beaba54b",
+      "git_blob_sha": "15606a2ddf355d74b246045f70a413a83de1366f"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1307,
+      "sha256": "0c257de43bd0f08ecf0bd664e6d5ddafa0aec3369156d61e48e9f6d87bcceee6",
+      "git_blob_sha": "5fadbcb032ba2050e71b7f476038c39fdc637448"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7060,
+      "sha256": "bca80f2a17b59e41070d9d9bf8d97738f52fe659188a8c4fa9d0b8833d034380",
+      "git_blob_sha": "cceb14c4f95a18d505a75710b4b2ceff9c7009ed"
+    },
+    {
+      "path": "configs/aug/canopus.yaml",
+      "bytes": 1522,
+      "sha256": "d13c632504edce007f6b76e06a28dcfefc9c020bde41449efaf574ddaeccf406",
+      "git_blob_sha": "cff1e0414f50bc720a7f03914e2fa0afbb9e0e6a"
+    },
+    {
+      "path": "configs/aug/msg.yaml",
+      "bytes": 1439,
+      "sha256": "08734397ddfa125857fc8e9d388492861cdc498da932b83aaf9a527903c3faf3",
+      "git_blob_sha": "fbad63dd91f2ae01e1192e98f11449772e117523"
+    },
+    {
+      "path": "configs/noaug/canopus.yaml",
+      "bytes": 1366,
+      "sha256": "6a2563ac0371003afa400c9e9f9824419c0f5848ef2d8cb6c76a6595dfa3659e",
+      "git_blob_sha": "89e185d5aa0f9f9fb2c4aa49f86b353f78b8a3bc"
+    },
+    {
+      "path": "configs/noaug/msg.yaml",
+      "bytes": 1338,
+      "sha256": "53dce6fe74cb67cf24510a7a36b10d6a1c25c255aa684025ff55a32fda4eeed8",
+      "git_blob_sha": "ee0b46440f37b631b77d4a87b14ffaeaa266f39e"
+    },
+    {
+      "path": "configs/releases.json",
+      "bytes": 687,
+      "sha256": "7b78d9fec15e2c512f9ad7f4ba3bfd9153920c9fb50162e4eb5407f481c3856e",
+      "git_blob_sha": "2b2b79432e4e8b8a1f7879b2659ca7bea2d2b3d4"
+    },
+    {
+      "path": "docs/data.md",
+      "bytes": 6490,
+      "sha256": "20dac4123b1ab4fbaf3550125c8c7bf8678eb50a8c2844050498ee61e6541bac",
+      "git_blob_sha": "971d588a92c30842e1c1bd55e5f29570082c813e"
+    },
+    {
+      "path": "docs/glacier.md",
+      "bytes": 3426,
+      "sha256": "92eee5709760fb1d09aa2cc06953cf2136c4a7ce56a3dad10857a8911e0031b0",
+      "git_blob_sha": "c5ce695215dbe523aa2fd435fb1b4bab12356e8c"
+    },
+    {
+      "path": "docs/training.md",
+      "bytes": 4549,
+      "sha256": "48448a282d4840af54cf083d265100591cbac6cdefc2f60a783eb6995256224f",
+      "git_blob_sha": "aca882e6bf3c7c3378af07eb4feab9ec672ece79"
+    },
+    {
+      "path": "environment.yml",
+      "bytes": 156,
+      "sha256": "4efe411b32da7055ce62f92595699f5d5d78e806fa3c63fec2365181491ab471",
+      "git_blob_sha": "32c7a327e99c200c04b1ce3cf02ef6197449bcaa"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 1812,
+      "sha256": "c0ce91de7eeccc11db499075384f2c30c900c7b591b2bb892db1a79f92ba98f4",
+      "git_blob_sha": "06cf7fe166c3e4709cb4cf36300e291a1136abd1"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 42,
+      "sha256": "3ebf377b6214978005593ea8aa9a3842c25a02a0e905218d0faa058f69260657",
+      "git_blob_sha": "4ca87b19e6248a9180923df214b1822f3e27e31c"
+    },
+    {
+      "path": "scripts/evaluate_ddp.sh",
+      "bytes": 363,
+      "sha256": "f273c1ce9feb976a941a1594a4247fb9262a33aef4c6ae855a8d593255fbafe0",
+      "git_blob_sha": "9631071a329b8953438362af84ad8680984f49c3"
+    },
+    {
+      "path": "scripts/export_scaled_release.py",
+      "bytes": 2748,
+      "sha256": "f3d42a0c8a67843b1acd6d7125ab2edf7db238e182d94abd811cc2de598b1fb8",
+      "git_blob_sha": "637116015eccd01e883f996f61d5d5a5948c07c1"
+    },
+    {
+      "path": "scripts/train_ddp.sh",
+      "bytes": 454,
+      "sha256": "176d0da8ed91eb58bdbf648db4561a9bc8697400b35b79d651f4a3a13784601a",
+      "git_blob_sha": "ec482d9bb32b0af121e37eaa07a86281d09ff2cc"
+    },
+    {
+      "path": "scripts/train_recipe.sh",
+      "bytes": 909,
+      "sha256": "a685637ae732e4d4ac5ddce1656fdcb7aa1598d07711d6d2e36e62cf307acfb1",
+      "git_blob_sha": "de21904c3b552ebb00cee37e99472f638a87c3ad"
+    },
+    {
+      "path": "src/mist/__init__.py",
+      "bytes": 87,
+      "sha256": "788f4f552e65782cbe2f3f8bfd615131b7018cec97b60bef2f72de3c6c49747a",
+      "git_blob_sha": "6c9c7ab56aa37d4040889eef5707af605a77bf25"
+    },
+    {
+      "path": "src/mist/artifacts.json",
+      "bytes": 4320,
+      "sha256": "d77f7cc02e238b05a8a86d1a22fc027ad092264026680b8d5f4acfeeda4bf134",
+      "git_blob_sha": "9c6ecf4dcddf18e91fc2771f4c0db35a02907218"
+    },
+    {
+      "path": "src/mist/data/atlas.py",
+      "bytes": 12597,
+      "sha256": "74bbebeb7e455eecd33cb5a13a860c5131a08443df5d411eecb6f76148efafcd",
+      "git_blob_sha": "c5324e990ca7f0d3fa455b21cffc6474251a81cd"
+    },
+    {
+      "path": "src/mist/data/augmentation.py",
+      "bytes": 2909,
+      "sha256": "198cad82f31f562289bea999a00cd9fcf02f2292f05b627839a98f8dbd56036f",
+      "git_blob_sha": "64e4edcdfc5179f170d6dc26f36d20b0ad5fa248"
+    },
+    {
+      "path": "src/mist/data/build_all_cache.py",
+      "bytes": 8775,
+      "sha256": "0a5771153cc98d992e00ddb9380704a76991b175a49a0726613125be930a1977",
+      "git_blob_sha": "1ce8943d77158b776e9ff83abc94eac645853b8e"
+    },
+    {
+      "path": "src/mist/data/build_simulated_cache.py",
+      "bytes": 19280,
+      "sha256": "30f38542ba9f37b5f898dbc20bd9d7cc0cbfe803b450a0b6fbe30cda8f0cdcbd",
+      "git_blob_sha": "33b85b8af73278619d1ad94357794be428cc23fe"
+    },
+    {
+      "path": "src/mist/data/compact.py",
+      "bytes": 16320,
+      "sha256": "6e4bd546a496ff8f5b8e90bf8446dbb828010c98b8292da855c1dbb3a900d797",
+      "git_blob_sha": "c49854f38c2823fa94362826b91f948b6227f2c0"
+    },
+    {
+      "path": "src/mist/data/data.py",
+      "bytes": 653,
+      "sha256": "7e63355b65e7f5548ab0108026d14d5a669696833459b874ea77e9330592f936",
+      "git_blob_sha": "8917daaafc29b6b99ff48a9f57b0c119d5d56ea8"
+    },
+    {
+      "path": "src/mist/data/datasets.py",
+      "bytes": 10696,
+      "sha256": "c773408a28adf7c7c157f9e3678837ca5bf9cf5d61fa7400f61c0e564ff3941c",
+      "git_blob_sha": "df5f3747d485f09ec20e52946600ac9e82d1ddd0"
+    },
+    {
+      "path": "src/mist/data/export_cache.py",
+      "bytes": 4530,
+      "sha256": "703d2aef5affb0595f1920db6021078777bfaf4e495371619c1004cc424efcb1",
+      "git_blob_sha": "77cb6e41e31fe0a3938b0983172ea631a08ad94c"
+    },
+    {
+      "path": "src/mist/data/featurizers.py",
+      "bytes": 11336,
+      "sha256": "f8e3b24f540bbe4d6d858dcada7b8d54f5fbb1a62001634f6a59186fdbe01bbc",
+      "git_blob_sha": "cdcbc49d2ae014d643bb25b36c44908077c8252b"
+    },
+    {
+      "path": "src/mist/data/input_signal.py",
+      "bytes": 10842,
+      "sha256": "98266963fed7d4dacee6d81b2158aae96ccf49be1266fdafcfef8a8284ed1a35",
+      "git_blob_sha": "e9fba5c8ccd0087cb7ba1b0a843c888a9172f7fb"
+    },
+    {
+      "path": "src/mist/data/random_pubchem.py",
+      "bytes": 17394,
+      "sha256": "a7fe45b960bf7ae6a76d1b7307ddac1dcc2032af1519280b29919c619a33c79b",
+      "git_blob_sha": "21b651dbd3409e2dcf1dc7cddb55f66806772247"
+    },
+    {
+      "path": "src/mist/data/simulation_utils.py",
+      "bytes": 2483,
+      "sha256": "c22068f04d8688f5028a2d5ba33e5f19059608700492720f50497af18aab1cfb",
+      "git_blob_sha": "89111873bc62a1617b47bf912ad1f9fdf9c0350f"
+    },
+    {
+      "path": "src/mist/data/training_sources.py",
+      "bytes": 11927,
+      "sha256": "765f0365ab3aad5ff5a7dbb7b103235cbbf040e4249c35c4726f37db229e7202",
+      "git_blob_sha": "60314a88b1e79c558328972eda269a58dea1f0e8"
+    },
+    {
+      "path": "src/mist/download.py",
+      "bytes": 3310,
+      "sha256": "28f8f883ea8c42d74d7f62aba949ba22d983fedf3969af06cede39d807943b91",
+      "git_blob_sha": "ed18d7c8acb69fb3d9e8f3cd56ccceb512b3976f"
+    },
+    {
+      "path": "src/mist/evaluate_scaled.py",
+      "bytes": 13596,
+      "sha256": "c118d50c2dc7c2444d14fcd90a5b2269469f7f376fe01798e2e978d28dd1b874",
+      "git_blob_sha": "88a7d670414397ad66cf87abf00a6a91aeda9fd7"
+    },
+    {
+      "path": "src/mist/glacier/__init__.py",
+      "bytes": 67,
+      "sha256": "28fcab9f9fae0358ad30e1133381e666b07e85a274ad5b4e74561fcb135fb0fe",
+      "git_blob_sha": "7fa02d1231bdaa99a4cebd084f9bc96b1baf307a"
+    },
+    {
+      "path": "src/mist/glacier/decoder.py",
+      "bytes": 12767,
+      "sha256": "ff0c41947023ee14a9dafd0364fad6071a6162c1a610f6e746df6b8eb1077d1e",
+      "git_blob_sha": "01a61a13257af7a64b2d308b615a6acfacaab856"
+    },
+    {
+      "path": "src/mist/glacier/features.py",
+      "bytes": 16900,
+      "sha256": "36a6f58800d3c8ae4dd8bd589a3b3ea751d710e050d8ac997eccc90c2c529411",
+      "git_blob_sha": "14fd8834780cacead595ad689dbdae05771839cc"
+    },
+    {
+      "path": "src/mist/glacier/model.py",
+      "bytes": 42207,
+      "sha256": "1e2b3753ef141fd5ab12b4e77c20c7fe34b06d582e9b3e27a7d31c05910d26f7",
+      "git_blob_sha": "1708206685ef15ca5dfdbb1c5c2f7aae703dbadc"
+    },
+    {
+      "path": "src/mist/glacier/predict.py",
+      "bytes": 3274,
+      "sha256": "7bb6d7326dbacc2c34deff491dd743aba16e701a5fa8ae835c91ed566ccc7ae8",
+      "git_blob_sha": "24614a88b61d15cb69678a00927067b48a8f46c8"
+    },
+    {
+      "path": "src/mist/metrics.py",
+      "bytes": 4928,
+      "sha256": "5729eb07246f5f8af6e8e5fd8f539efb0f32469916430f483ed5d70a106d3fe2",
+      "git_blob_sha": "98c63dc79ae3211872091f5b17dfee49850033e1"
+    },
+    {
+      "path": "src/mist/models/__init__.py",
+      "bytes": 190,
+      "sha256": "ff8058c322ac2eb0bf3bf8e54453fbbc09ea066c43f5a71c4a88c801369c8d76",
+      "git_blob_sha": "33d97ed3f422785d8bc6d7fc69d4c56f7e406a29"
+    },
+    {
+      "path": "src/mist/models/form_embedders.py",
+      "bytes": 12280,
+      "sha256": "0d875efa4d83acf7cf670be5c268ea78e685c4428c40405e195117e865842e2f",
+      "git_blob_sha": "ddb3e2daa5cfb02a244d1591ca07f46dd9e158bb"
+    },
+    {
+      "path": "src/mist/models/modules.py",
+      "bytes": 13461,
+      "sha256": "71bbdcf5277a1cf9ee37ef2f0651b041df63cbbeb385f82696ee34da29f6a767",
+      "git_blob_sha": "9445480749cbef9bb3bb24642093802059ceb26a"
+    },
+    {
+      "path": "src/mist/models/scaled_mist.py",
+      "bytes": 2608,
+      "sha256": "ae9634f0cbc97713cde3ffe67ab9317048e6d4c6e54714c9851f4bb3ef0c0bf7",
+      "git_blob_sha": "e82dd344826b456c18dcbb5a5977bf4213430676"
+    },
+    {
+      "path": "src/mist/models/transformer_layer.py",
+      "bytes": 28035,
+      "sha256": "6820c74d50d0dad1b84719ee984091b82733f9b876fbb3e038d06e5e76a0b0a3",
+      "git_blob_sha": "1a632bfad962a775aa60e7fe2e5ca280f8c77de4"
+    },
+    {
+      "path": "src/mist/train_scaled.py",
+      "bytes": 36099,
+      "sha256": "7a53f58f34292bca8dbc33f6ad759a1337ec1a624575153d320113649c425ab2",
+      "git_blob_sha": "2544cfdbd0443c12e87b55c96f71d8983d8c21bf"
+    },
+    {
+      "path": "src/mist/utils/__init__.py",
+      "bytes": 526,
+      "sha256": "6d9e3c0aa8b48d79893b208d389dcbde1c7f8d610461ae0095262999dd8a13d4",
+      "git_blob_sha": "646b4006ee84ae69ddea2e02ae95c656955cebf6"
+    },
+    {
+      "path": "src/mist/utils/chem_utils.py",
+      "bytes": 3610,
+      "sha256": "124340b651533112c0275b0c79418e157f003163d81f79c611c86499bd808c6f",
+      "git_blob_sha": "94ed09ccc3fff6444fa24e84332e6788a7fd4f76"
+    }
+  ],
+  "zenodo_files": [
+    {
+      "key": "glacier_msg.ckpt",
+      "size": 54264785,
+      "checksum": "md5:66bb00aaa652a21cca94e254b38554e5",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/glacier_msg.ckpt/content"
+      }
+    },
+    {
+      "key": "msg_synthetic.tar.gz",
+      "size": 12081676267,
+      "checksum": "md5:18414289155f67e4a44eb9a2dfecdd81",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/msg_synthetic.tar.gz/content"
+      }
+    },
+    {
+      "key": "canopus_compact.tar.gz",
+      "size": 976436,
+      "checksum": "md5:387b72b057544914208c2e4385877be6",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/canopus_compact.tar.gz/content"
+      }
+    },
+    {
+      "key": "canopus_all.tar.gz",
+      "size": 84581759,
+      "checksum": "md5:46153679ac76099ac6c618c84dd00e0c",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/canopus_all.tar.gz/content"
+      }
+    },
+    {
+      "key": "mist_canopus_aug.ckpt",
+      "size": 289222801,
+      "checksum": "md5:7ae9eebf590c52dbee7df4c7f151c470",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/mist_canopus_aug.ckpt/content"
+      }
+    },
+    {
+      "key": "mist_canopus_noaug.ckpt",
+      "size": 289222983,
+      "checksum": "md5:9ad3fe98d08f3a7bc241986288321ab5",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/mist_canopus_noaug.ckpt/content"
+      }
+    },
+    {
+      "key": "msg_compact.tar.gz",
+      "size": 15682874,
+      "checksum": "md5:13e86837ee49ea81e15f3d096cc636ec",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/msg_compact.tar.gz/content"
+      }
+    },
+    {
+      "key": "mist_msg_noaug.ckpt",
+      "size": 289222619,
+      "checksum": "md5:80594e4dfd82d15fb32a3b186e686b6b",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/mist_msg_noaug.ckpt/content"
+      }
+    },
+    {
+      "key": "glacier_canopus.ckpt",
+      "size": 54265821,
+      "checksum": "md5:add4236a311e9e3cab4c2701c8c475f3",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/glacier_canopus.ckpt/content"
+      }
+    },
+    {
+      "key": "msg_all.tar.gz",
+      "size": 292073888,
+      "checksum": "md5:8548d0e658d747b96a79ae3213df1cdc",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/msg_all.tar.gz/content"
+      }
+    },
+    {
+      "key": "mist_msg_aug.ckpt",
+      "size": 289222437,
+      "checksum": "md5:3e92179240e3043733627d720f4b7b86",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/mist_msg_aug.ckpt/content"
+      }
+    },
+    {
+      "key": "canopus_synthetic.tar.gz",
+      "size": 2262417967,
+      "checksum": "md5:37d80d56e1de6dff98f4cbaf9c65282c",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/canopus_synthetic.tar.gz/content"
+      }
+    }
+  ],
+  "model_downloaded": false,
+  "code_executed": false,
+  "total_source_bytes": 364746
+}

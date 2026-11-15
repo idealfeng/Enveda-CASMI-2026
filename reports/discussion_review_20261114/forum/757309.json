@@ -1,0 +1,33 @@
+{
+  "id": 757309,
+  "read_only": true,
+  "checked_at_utc": "2026-11-14T14:07:47.486606+00:00",
+  "topic": {
+    "id": 757309,
+    "title": "Clarification on PubChem/COCONUT candidate-index redistribution",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/757309",
+    "postDate": "2026-11-09T14:17:28.373Z",
+    "authorName": "Phil Mohrman",
+    "authorUrl": "https://www.kaggle.com/philmohrman",
+    "commentCount": 2,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>Can a private, offline CASMI 2026 submission notebook attach a candidate index derived from NCBI’s public PubChem Compound CID-SMILES.gz and CC0 COCONUT under the competition’s external-data and redistribution rules? The index contains standardized structures and computed search features. It excludes contributor annotations and competition training data. Is the PubChem bulk-file provenance sufficient, or do you require contributor-level clearance?</p>"
+  },
+  "comments": [
+    {
+      "id": 3552981,
+      "authorName": "Phil Mohrman",
+      "postDate": "2026-11-10T18:14:22.247Z",
+      "content": "<p>Could the organizers confirm whether each of these packages may be attached as a private Kaggle input to an offline competition submission notebook, and whether either requires additional permission?</p>\n<ol>\n<li>A verified 95.1 MB inference-only package of seven files derived from the authorized competition training data, including frozen spectral indexes and model context.</li>\n<li>A candidate-search index derived from public PubChem CID-SMILES.gz and CC0 COCONUT, containing standardized structures and computed search features, with no contributor annotations or competition data.</li>\n</ol>\n<p>Thank you.</p>",
+      "votes": -1
+    },
+    {
+      "id": 3553100,
+      "authorName": "David Healey",
+      "postDate": "2026-11-11T00:19:09.460Z",
+      "content": "<p>Those are fine to use</p>"
+    }
+  ],
+  "comments_truncated": false
+}

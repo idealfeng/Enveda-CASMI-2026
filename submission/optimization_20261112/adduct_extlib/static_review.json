@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-adduct-extlib-1112",
+  "version": 1,
+  "notebook_sha256": "da79811ad20e32ed6c68082d488785ff893793f6d5a5ec36f71dc5ebc74871af",
+  "checks": {
+    "champion_pin": true,
+    "original_first32_exact": true,
+    "only_final_cell_replaced": true,
+    "original_v18_function_exact": true,
+    "explicit_source_pins": true,
+    "actual_score_consumption_observer": true,
+    "official_guard_preserved": true,
+    "all_code_compiles": true,
+    "private_offline_gpu": true,
+    "no_new_training_or_data": true,
+    "error_removes_final": true
+  }
+}

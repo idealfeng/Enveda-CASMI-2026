@@ -1,0 +1,9 @@
+﻿{
+    "started_at":  "2026-11-14T14:50:55.1233971+08:00",
+    "dispatcher_launcher_pid":  54740,
+    "watcher_launcher_pid":  85560,
+    "branches":  5,
+    "max_submissions":  5,
+    "single_ledger_writer":  true,
+    "manifest":  "submission/optimization_20261114/manifest.json"
+}

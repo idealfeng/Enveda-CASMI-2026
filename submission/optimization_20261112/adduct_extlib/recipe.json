@@ -1,0 +1,74 @@
+{
+  "branch": "adduct_extlib",
+  "target": "stormseye/casmi26-adduct-extlib-1112",
+  "baseline_ref": 58156482,
+  "baseline_public_score": 0.488,
+  "champion_notebook_sha256": "2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7",
+  "pre_external_parent_ref": 58129661,
+  "pre_external_parent_public_score": 0.482,
+  "original_first32_cell_objects_exact": true,
+  "method": "Exact public V18 neutral-mass/adduct external function plus original official identity validity guard",
+  "public_source": "ozertuu/casmi26-dual-neural-physical-isomer",
+  "public_version": 18,
+  "public_source_sha256": "54ad16b546964a1044f07aa5229cd7ee81145882d73a83fda061923e9254adcd",
+  "public_function_sha256": "8e1439c05d7721946ab21e08fec18b4d54d890d3188bf7ec111b32712c545624",
+  "payload_pins": {
+    "adduct_external_overlay_20261112.py": "8712dc0b9de851e4042019e1f036f043566412584bd4d4e6361a9f48b40c4895",
+    "external_library_overlay_20261109.py": "a31c55a2958139cbeea948ea4d11fa32eb40e3d3d7b0bac157f6d0fdc51025db",
+    "ozertuu_v18_adduct_function.py": "8e1439c05d7721946ab21e08fec18b4d54d890d3188bf7ec111b32712c545624"
+  },
+  "files": [
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_meta.parquet",
+      "bytes": 7120766,
+      "sha256": "9b0c2d675612580a4aedbdd3c8891d046fdf864b0805aaef852acc6653f7d37f"
+    },
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_mass.parquet",
+      "bytes": 7979821,
+      "sha256": "e82a878f3e9f4d19067199d1376231b1663a83d08c512ba8e03d6ae88b7af12e"
+    },
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_mz.npy",
+      "bytes": 102770816,
+      "sha256": "a14f750d46bfca4176110d1a83cc3562944a3ca1e3f1344c94141f6d8d85fad5"
+    },
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_in.npy",
+      "bytes": 102770816,
+      "sha256": "e47b359f27d0aacda22f7ef47f8f60f7912136027d70d2bc915890a8d51be841"
+    },
+    {
+      "ref": "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+      "version": 1,
+      "file": "spectra.parquet",
+      "bytes": 43941912,
+      "sha256": "6ebb46b32ddd344d988c3bdb90e7160d4ce46e6d0b900a1217607aa2234c9477"
+    }
+  ],
+  "matching": {
+    "neutral_mass_ppm": 12,
+    "neutral_mass_da": 0.002,
+    "structure_mass_max_ppm": 15,
+    "min_cosine": 0.8,
+    "min_matched_peaks": 4,
+    "protect_library": 0.9,
+    "fragment_da": 0.015
+  },
+  "proposal_policy": "Public native-key promotion/dedup then official metric identity validity guard; invalid query proposal preserves control",
+  "massbank_assumption": "Unchanged public exact_mass +/- proton; no trusted-adduct precursor correction",
+  "source_attribution": "V18 public matching code; original Alex V12 A/B data and identity guard retained",
+  "title_score_verified": false,
+  "validation_mode": "fast_static",
+  "new_training": false,
+  "locked_final_used": false,
+  "control": "Exact pre-external .482 GUARDED_TAIL_AUDIT; only final external cell replaced"
+}

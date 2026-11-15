@@ -1,0 +1,12 @@
+{
+  "status": "metadata_wording_generalized_after_saved_runtime_snapshots",
+  "current_adapter_sha256": "3c24320bb735de9bd4ef938e2764ceb84fdfcc6979f4e1ae262e9346c0ace591",
+  "prior_actual_adapter_sha256": "c8b958ea6f129ccca7c8bbdc8ead34fdc989e92b7a4cf8a4f1ed68e934581626",
+  "new_source_logic_changed": false,
+  "actual_snapshots": [
+    "runs/mist_casmi_20261114/adapter_executed.py",
+    "runs/mist_active_evaluation_20261114/inference/adapter_executed.py"
+  ],
+  "all_prediction_files_unchanged": true,
+  "negative_fallback_check": "reports/mist_casmi_20261114/negative_fallback_verification.json"
+}

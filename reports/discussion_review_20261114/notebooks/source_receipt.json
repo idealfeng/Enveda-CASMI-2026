@@ -1,0 +1,174 @@
+{
+  "checked_at_utc": "2026-11-14T14:07:34.784366+00:00",
+  "sources": [
+    {
+      "ref": "heliosli/casmi26-0-489",
+      "title": "casmi26-0.489",
+      "current_version_number": 2,
+      "last_run_time": "2026-11-11 14:07:13.342000",
+      "dataset_data_sources": [
+        "",
+        "",
+        "sanpier/casmi-spectrum-model-v1",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "sanpier/catalogue-experiment-saner"
+      ],
+      "kernel_data_sources": [],
+      "is_private": false,
+      "sha256": "e102d0218293fa1ec6ea0c80d102ce44d0e99bc4207321a304a9428da128e7e5",
+      "bytes": 678144,
+      "status": "downloaded",
+      "read_only": true,
+      "no_execution": true
+    },
+    {
+      "ref": "ozertuu/0-500-casmi26-dual-neural-physical-isomer",
+      "title": "👑 [0.500+] CASMI26 Dual-Neural & Physical Isomer",
+      "current_version_number": 45,
+      "last_run_time": "2026-11-11 14:07:17.202000",
+      "dataset_data_sources": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "takumuhata/casmi26-extlib",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_data_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
+      "is_private": false,
+      "sha256": "a77bde9b0b3df2cc836001aee4f8e298790bae61ded9565dfe6448b06d5ce0e3",
+      "bytes": 809666,
+      "status": "downloaded",
+      "read_only": true,
+      "no_execution": true
+    },
+    {
+      "ref": "kingdamon/casmi26-wsp-dual-encoder-inference",
+      "title": "CASMI26 WSP Dual-Encoder Inference",
+      "current_version_number": 5,
+      "last_run_time": "2026-11-11 14:07:20.209000",
+      "dataset_data_sources": [
+        "prvsiyan/casmi26-ranker-features",
+        "prvsiyan/casmi26-fp-models-v2",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "megayak/casmi26-simulated-ranker-rows",
+        "ahmedberatozer/casmi26-fpnet-full1",
+        "ahmedberatozer/casmi26-glacier",
+        "ahmedberatozer/casmi26-iceberg",
+        "ahmedberatozer/casmi26-pubchem-tier",
+        "ahmedberatozer/casmi26-v2-pool",
+        "ahmedberatozer/casmi26-v3-models",
+        "ahmedberatozer/casmi26-v4b-models",
+        "prvsiyan/chebi-lipidmaps-casmi26",
+        "prvsiyan/coconut-casmi26-candidates",
+        "hengck23/hengck23-dreams-enveda-casmi26",
+        "metric/rdkit-2026-3-3-wheel",
+        "eveliaveldrine/rdkit-wheels"
+      ],
+      "kernel_data_sources": [
+        "",
+        ""
+      ],
+      "is_private": false,
+      "sha256": "ab77323e4ae1d2e705512533d531a6aab51c810174819acbf28c019c363f4a99",
+      "bytes": 168734,
+      "status": "downloaded",
+      "read_only": true,
+      "no_execution": true
+    },
+    {
+      "ref": "prvsiyan/what-the-library-has-not-heard",
+      "title": "What the Library Has Not Heard",
+      "current_version_number": 2,
+      "last_run_time": "2026-11-11 14:07:22.721000",
+      "dataset_data_sources": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "takumuhata/casmi26-extlib",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_data_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
+      "is_private": false,
+      "sha256": "2f9e6a206ae873e75d08a78360e825e8b9ade9c6b8a1e604d3cdf197c1bf37a4",
+      "bytes": 970009,
+      "status": "downloaded",
+      "read_only": true,
+      "no_execution": true
+    },
+    {
+      "ref": "zz3t3rn41/casmi26-peaks-to-structures-v2",
+      "title": "casmi26-peaks-to-structures-v2",
+      "current_version_number": 55,
+      "last_run_time": "2026-11-11 14:07:26.720000",
+      "dataset_data_sources": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "bgunshui/casmi26-scorer-v2-model",
+        "takumuhata/casmi26-extlib",
+        "nakhun/casmi26-extlib2",
+        "sanpier/catalogue-experiment-saner",
+        "qwertykeypadapple/casmi26-lotus-candidates",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_data_sources": [],
+      "is_private": false,
+      "sha256": "22e42f998a6a3ba4001272af40de7794a5c5a42692205149663e940a038e6a61",
+      "bytes": 826643,
+      "status": "downloaded",
+      "read_only": true,
+      "no_execution": true
+    },
+    {
+      "ref": "alexchilton/casmi26-lb-0-488-peaks-to-structures-network",
+      "title": "CASMI26 LB 0.488 | Peaks to Structures + Network",
+      "current_version_number": 14,
+      "last_run_time": "2026-11-11 14:07:31.072000",
+      "dataset_data_sources": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "takumuhata/casmi26-extlib",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_data_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
+      "is_private": false,
+      "sha256": "9bc6431ef5062876e973b7b7bbcd106ccc4cfaadeea01e3924c42ead8a03d95f",
+      "bytes": 816835,
+      "status": "downloaded",
+      "read_only": true,
+      "no_execution": true
+    }
+  ],
+  "no_execution": true,
+  "no_model_assets_downloaded": true
+}

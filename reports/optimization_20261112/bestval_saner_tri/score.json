@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-bestval-saner-tri-1112",
+  "version": 1,
+  "branch_sha256": "4bd5e8fce2150b052fd1aeeb92e22a5184fe4ab6a142c7f9f4ab1edc2bb84931",
+  "submission_ref": 58263831,
+  "actual_target": "stormseye/casmi26-bestval-saner-tri-1112",
+  "status": "COMPLETE",
+  "public_score": "0.478",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-13T11:39:29.482097+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

@@ -1,0 +1,8 @@
+﻿{
+    "at":  "2026-11-13T21:46:43.6739488+08:00",
+    "reason":  "Noiso read failed before audit/formal claim; two actual cloud slugs source-reconciled; all three V1 complete; no cloud repush and no formal write retry",
+    "already_accepted":  58310627,
+    "remaining_formal_branches":  3,
+    "remaining_allowance_read":  3,
+    "manifest_unchanged":  true
+}

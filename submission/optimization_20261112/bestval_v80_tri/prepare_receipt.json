@@ -1,0 +1,11 @@
+{
+  "status": "prepared",
+  "branch": "bestval_v80_tri",
+  "target": "stormseye/casmi26-bestval-v80-tri-1112",
+  "notebook_sha256": "e1d732f2a4e1aab9a5ecda2d849176039636f4fb58c743f2eeee7e1a5e224681",
+  "metadata_sha256": "926c618320042f5a7dbe31780540ba4a678a895d7fe8ce1d26c96e3c90e86e5f",
+  "recipe_sha256": "fb452ba78d35aa840e35bc81dc727a66bacc7dee30705a63b1e504483322335c",
+  "module_sha256": "80a5c83b275cb7365a2b4dad4f9376e9ca874106a299a755686c4f913fef0f5b",
+  "kind": "popwenman_best",
+  "notebook_bytes": 877318
+}

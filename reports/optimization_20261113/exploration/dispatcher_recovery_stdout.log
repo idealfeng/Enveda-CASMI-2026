@@ -1,0 +1,60 @@
+{
+  "status": "finished_all_claimed_or_failed",
+  "pid": 67356,
+  "manifest_sha256": "a1bb2d829c8f945db4718fca1d9d5a893c68419f21b538d4a965b39d79f5ade8",
+  "started_at_utc": "2026-11-13T13:46:43.902676+00:00",
+  "maximum_seconds": 7200.0,
+  "interval_seconds": 45,
+  "max_pending_cloud_runs": 2,
+  "submissions_at_most": 5,
+  "automatic_write_retries_allowed": false,
+  "branches": {
+    "generation_noiso_control": {
+      "branch": "generation_noiso_control",
+      "target": "stormseye/casmi26-gen-noiso-only-1113",
+      "status": "submission_accepted",
+      "terminal": true,
+      "reserved_cloud_slot": false,
+      "consecutive_read_errors": 0,
+      "cloud_status": "COMPLETE",
+      "submission_ref": 58310788,
+      "claim_status": "accepted"
+    },
+    "generation_budget_only": {
+      "branch": "generation_budget_only",
+      "target": "stormseye/casmi26-gen-budget-only-1113",
+      "status": "submission_accepted",
+      "terminal": true,
+      "reserved_cloud_slot": false,
+      "consecutive_read_errors": 0,
+      "submission_ref": 58310627,
+      "claim_status": "accepted"
+    },
+    "spectral_network_explore": {
+      "branch": "spectral_network_explore",
+      "target": "stormseye/casmi26-spectral-network-1113",
+      "status": "audit_or_submit_stopped_no_retry",
+      "terminal": true,
+      "reserved_cloud_slot": false,
+      "consecutive_read_errors": 0,
+      "cloud_status": "COMPLETE",
+      "error_type": "ConnectionError",
+      "http_status": null
+    },
+    "head_mean_ab": {
+      "branch": "head_mean_ab",
+      "target": "stormseye/casmi26-head-mean-ab-1113",
+      "status": "submission_accepted",
+      "terminal": true,
+      "reserved_cloud_slot": false,
+      "consecutive_read_errors": 0,
+      "cloud_status": "COMPLETE",
+      "submission_ref": 58310818,
+      "claim_status": "accepted"
+    }
+  },
+  "reserved_pending_cloud_runs": 0,
+  "checked_at_utc": "2026-11-13T13:49:05.448640+00:00",
+  "num_allowed_now": 3,
+  "finished_at_utc": "2026-11-13T13:49:05.448640+00:00"
+}

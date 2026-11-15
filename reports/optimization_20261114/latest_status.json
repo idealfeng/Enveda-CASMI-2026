@@ -1,0 +1,78 @@
+{
+  "status": "monitoring",
+  "pid": 82896,
+  "started_at_utc": "2026-11-14T06:50:55.396891+00:00",
+  "manifest_sha256": "8a4897ca2cb8f21c0eb12807c4f256991b3e1fec344511c7d79528ed330eb719",
+  "read_only_network": true,
+  "new_submission_performed": false,
+  "single_ledger_writer": true,
+  "checked_at_utc": "2026-11-14T16:11:32.368413+00:00",
+  "baseline_public_score": 0.488,
+  "branches": [
+    {
+      "branch": "head_prefix1_ab",
+      "target": "stormseye/casmi26-head-prefix1-ab-1114",
+      "actual_target": "stormseye/casmi26-head-prefix1-ab-1114",
+      "submission_ref": 58334939,
+      "status": "COMPLETE",
+      "public_score": 0.47,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-14T11:43:53.463647+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "mean_prefix1_ab",
+      "target": "stormseye/casmi26-mean-prefix1-ab-1114",
+      "actual_target": "stormseye/casmi26-mean-prefix1-ab-1114",
+      "submission_ref": 58341597,
+      "status": "READ_ERROR",
+      "public_score": null,
+      "public_score_available": false,
+      "error_type": "ConnectionError"
+    },
+    {
+      "branch": "gl_evidence_early",
+      "target": "stormseye/casmi26-gl-evidence-early-1114",
+      "actual_target": "stormseye/casmi26-gl-evidence-early-1114",
+      "submission_ref": 58335002,
+      "status": "COMPLETE",
+      "public_score": 0.481,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-14T12:20:18.131813+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "dual_evidence_agreement",
+      "target": "stormseye/casmi26-dual-evidence-agreement-1114",
+      "actual_target": "stormseye/casmi26-dual-evidence-agreement-1114",
+      "submission_ref": 58335047,
+      "status": "COMPLETE",
+      "public_score": 0.449,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-14T12:02:17.004857+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "library_consensus_early",
+      "target": "stormseye/casmi26-library-consensus-early-1114",
+      "actual_target": "stormseye/casmi26-library-consensus-early-1114",
+      "submission_ref": 58341606,
+      "status": "READ_ERROR",
+      "public_score": null,
+      "public_score_available": false,
+      "error_type": "ConnectionError"
+    }
+  ],
+  "best_this_batch": {
+    "branch": "gl_evidence_early",
+    "actual_target": "stormseye/casmi26-gl-evidence-early-1114",
+    "submission_ref": 58335002,
+    "public_score": 0.481
+  },
+  "best_overall_public_score": 0.488,
+  "all_branches_terminal": false,
+  "read_only": true,
+  "new_run_or_submission_performed": false,
+  "ledger_added_refs": [],
+  "ledger_current_best": 0.488
+}

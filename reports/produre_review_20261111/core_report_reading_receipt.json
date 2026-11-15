@@ -1,0 +1,32 @@
+{
+  "read_at_utc": "2026-11-11T09:43:56.372488+00:00",
+  "mode": "complete_markdown_read_only",
+  "experiments_rerun": false,
+  "files": [
+    {
+      "path": "produre1/README.md",
+      "bytes": 2860,
+      "sha256": "3b2a3a793562b00cb8bb93f7e55765a333d7ee20b6238a7a65dabc23ed384394"
+    },
+    {
+      "path": "produre1/step12_final_report.md",
+      "bytes": 2651,
+      "sha256": "d29b4dce507aa12f5c61b287d504c92c0f5ba712ff5bc815c75956fdab63154d"
+    },
+    {
+      "path": "produre2/README.md",
+      "bytes": 2665,
+      "sha256": "e0fb3432254a1965a21ac639e64f779b03eb9a21dd1f9d578171c8b3053423fb"
+    },
+    {
+      "path": "produre2/Q345_RESULTS.md",
+      "bytes": 3186,
+      "sha256": "0ac85dd0dee94a985d61a3268e1ef66ae3d5b8e14fcc04876881624d90831340"
+    },
+    {
+      "path": "produre2/step05_report.md",
+      "bytes": 2835,
+      "sha256": "8bbba7ce1dce664c76ea8646f3a0ca4b8f7e7e29046aa289bdcfd754ea783f5f"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "branch": "bestval_v80_adduct",
+  "recipe_sha256": "2c66a0e6017f5df1c46afb6d944ba9fbe16a1d421a7843032f913a0386d0ba3b",
+  "mode": "fast_static",
+  "checks": {
+    "configuration_exact": true,
+    "installed_models_exact": true,
+    "three_distinct_checkpoints": true,
+    "outsider_v2_unchanged": true,
+    "late_head_unchanged": true,
+    "fast_no_model": true,
+    "module_pin": true,
+    "branch_recipe_bound": true,
+    "original_ab_passed": true,
+    "final_ab_output_bound": true,
+    "exact_ids_schema": true
+  },
+  "csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "module_sha256": "80a5c83b275cb7365a2b4dad4f9376e9ca874106a299a755686c4f913fef0f5b",
+  "runtime_report_sha256": "5c1798c1cf982b9eba9cf5cfa354e5588c65b3a8ffb29a14f684ff0491c06e36",
+  "configuration": {
+    "kind": "popwenman_best",
+    "checkpoint": {
+      "marker": "casmi26-scorer-train-v80",
+      "subdirectory": "casmi_spectrum_model_ours_v80",
+      "filename": "best_validation_model.pt",
+      "bytes": 11873492,
+      "sha256": "f7e2383fe5fc0cc85e7333d308bc7201144574f2eef6b59000570d171e0758a7",
+      "weights": [
+        0.5,
+        0.25,
+        0.25
+      ]
+    },
+    "public_pins": {
+      "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+      "features.py": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+      "config.json": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+      "final_model.pt": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642"
+    },
+    "v2_sha256": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46",
+    "outsider_scorer": "original_v2",
+    "late_head": "original_frozen_v2_two_heads"
+  },
+  "no_gain_claim": true
+}

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "branch": "head_prefix1_ab",
+  "mode": "fast_static",
+  "recipe_sha256": "a6e2710a099fd00e9972e18126202dd70ebcdf6b43081d4a3a860f24b98bab64",
+  "checks": {
+    "original_mass_passed": true,
+    "prefix1_tail_passed": true,
+    "actual_score_mode": true,
+    "tail_recipe_bound": true,
+    "original_AB_passed": true,
+    "mass_to_tail_control_bound": true,
+    "tail_to_AB_control_bound": true,
+    "actual_final_csv_bound": true,
+    "actual_tail_module_pin": true,
+    "dynamic_final_ids": true,
+    "actual_configuration": true,
+    "fast_no_model": true
+  },
+  "csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "protected_prefix": 1,
+  "score_mode": "learned_heads",
+  "scorer_executed": false
+}

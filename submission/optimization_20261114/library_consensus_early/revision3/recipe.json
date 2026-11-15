@@ -1,0 +1,68 @@
+{
+  "branch": "library_consensus_early",
+  "target": "stormseye/casmi26-library-consensus-early-1114",
+  "parent_ref": 58156482,
+  "parent_public": 0.488,
+  "parent_notebook_sha256": "2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7",
+  "method": "Second-pass measured-library per-candidate support across distinct actual query spectra; fixed early same-formula rerank allowing early rank1 challenge while preserving actual AB hits",
+  "configuration": {
+    "pair_min_cosine": 0.6,
+    "pair_min_peaks": 4,
+    "minimum_support_spectra": 2,
+    "rank_weight": 1.0,
+    "support_weight": 1.0,
+    "protected_prefix": 0,
+    "protect_accepted_ab": true,
+    "same_formula_slots": true,
+    "source_reference_algorithm": "Alex V12 original precursor window and cosine"
+  },
+  "module_sha256": "4a530491bc101579bb4f0430d9fa0ac89208784971d44b871f23fbc5b0dc4ce1",
+  "module_source": "scripts/library_consensus_early_20261114_v3.py",
+  "original_library_function_sha256": "9ceaa95ddda0fb304758c9acd7dd1f256c528fcb4a8304c0152f8b6d8e3e3e76",
+  "guard_sha256": "a31c55a2958139cbeea948ea4d11fa32eb40e3d3d7b0bac157f6d0fdc51025db",
+  "library_files": [
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_meta.parquet",
+      "bytes": 7120766,
+      "sha256": "9b0c2d675612580a4aedbdd3c8891d046fdf864b0805aaef852acc6653f7d37f"
+    },
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_mass.parquet",
+      "bytes": 7979821,
+      "sha256": "e82a878f3e9f4d19067199d1376231b1663a83d08c512ba8e03d6ae88b7af12e"
+    },
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_mz.npy",
+      "bytes": 102770816,
+      "sha256": "a14f750d46bfca4176110d1a83cc3562944a3ca1e3f1344c94141f6d8d85fad5"
+    },
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2,
+      "file": "ext_in.npy",
+      "bytes": 102770816,
+      "sha256": "e47b359f27d0aacda22f7ef47f8f60f7912136027d70d2bc915890a8d51be841"
+    },
+    {
+      "ref": "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+      "version": 1,
+      "file": "spectra.parquet",
+      "bytes": 43941912,
+      "sha256": "6ebb46b32ddd344d988c3bdb90e7160d4ce46e6d0b900a1217607aa2234c9477"
+    }
+  ],
+  "new_training": false,
+  "new_candidates": false,
+  "full_pipeline_local_validation": false,
+  "experimental_authorization": "User requested five submissions on 2026-11-14 despite preceding displayed .488 scores",
+  "actual_information": "Per query-spectrum maximum cosine for each existing official candidate identity; average similarity and support fraction across spectra rather than one global winner.",
+  "algorithm_boundary": "Original pair math/tolerances/loaders intact; original whole-query library>=.90 skip disabled only in the private evidence pass. Its generated winner CSV is ignored. Actual accepted AB rows protected; rank1 can change only within the same-formula slots under the fixed score. Other original output candidates retain same-formula slots.",
+  "exact_duplicate_query_spectra_count_once": true,
+  "gain_claim": false
+}

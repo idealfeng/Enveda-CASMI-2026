@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-generation-expand-r3-1112",
+  "version": 1,
+  "branch_sha256": "050d14b8de01b6f98b55265ca4d311f5d8dcf6ae78037fa2522b4d512284deb5",
+  "notebook_sha256": "1f9a7119dd4fdb45e006c71bd89719646dd08723faf0737920e1b0fd658c73a9",
+  "metadata_sha256": "ae26b5a2de8d19c9eb2ae8b814957a4150b81b124e8803fca558869bcfc7bb82",
+  "requested_at_utc": "2026-11-12T11:30:47.566877+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-12T11:30:51.677344+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

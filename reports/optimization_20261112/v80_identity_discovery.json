@@ -1,0 +1,11 @@
+{
+  "status": "identical_to_existing_v2_do_not_submit",
+  "public_v80": "assets/kaggle/popwenman/casmi26-scorer-train-v80/v1/casmi_spectrum_model_ours_v80/final_model.pt",
+  "champion_v2": "assets/kaggle/bgunshui/casmi26-scorer-v2-model/v1/final_model.pt",
+  "bytes": 11872818,
+  "sha256": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46",
+  "tri_effect": "0.5z(public)+0.25z(v2)+0.25z(same_v2) equals existing 0.5/0.5",
+  "dual_effect": "same checkpoint replacement; no new model information",
+  "no_stage_created": true,
+  "no_cloud_write": true
+}

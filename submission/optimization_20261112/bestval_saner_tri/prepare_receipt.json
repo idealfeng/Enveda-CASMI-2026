@@ -1,0 +1,11 @@
+{
+  "status": "prepared",
+  "branch": "bestval_saner_tri",
+  "target": "stormseye/casmi26-bestval-saner-tri-1112",
+  "notebook_sha256": "363bcfcf402d58d4bac16375323b97924abd40125d8f1adcb54806935eb740af",
+  "metadata_sha256": "01551350fbd2fbd5cb06c07869d1db39fc10a1668c004ebb0d54b9b639ee4f21",
+  "recipe_sha256": "051a199209a8f9cae8c6192e0811b4218ba00dcff9eb8d678f436a19273f095b",
+  "module_sha256": "80a5c83b275cb7365a2b4dad4f9376e9ca874106a299a755686c4f913fef0f5b",
+  "kind": "saner_best",
+  "notebook_bytes": 877307
+}

@@ -1,0 +1,50 @@
+{
+  "status": "all_five_complete",
+  "checked_at_utc": "2026-11-14T06:39:35.867818+00:00",
+  "rows": [
+    {
+      "branch": "generation_production",
+      "ref": 58309573,
+      "raw_public_score": "0.473",
+      "public_score": 0.473,
+      "score_path": "D:/Paper/casmi/reports/optimization_20261113/generation_production/score.json",
+      "score_sha256": "f62aba0ae7124f6e78f28c1e2ff8ad7f2a3dc53d570327ffa0c503b454be2ced"
+    },
+    {
+      "branch": "generation_noiso_control",
+      "ref": 58310788,
+      "raw_public_score": "0.488",
+      "public_score": 0.488,
+      "score_path": "D:/Paper/casmi/reports/optimization_20261113/exploration/generation_noiso_control/score.json",
+      "score_sha256": "964b7d3ca5fbf8bc38493b2ef291a2c5cd3f264e869678577cf0be4e8bb15f48"
+    },
+    {
+      "branch": "generation_budget_only",
+      "ref": 58310627,
+      "raw_public_score": "0.488",
+      "public_score": 0.488,
+      "score_path": "D:/Paper/casmi/reports/optimization_20261113/exploration/generation_budget_only/score.json",
+      "score_sha256": "fe37f1007c02e9f75e132ad81d4c20b2ded614943572bd1c68bba419368e79bc"
+    },
+    {
+      "branch": "spectral_network_explore",
+      "ref": 58310918,
+      "raw_public_score": "0.488",
+      "public_score": 0.488,
+      "score_path": "D:/Paper/casmi/reports/optimization_20261113/exploration/spectral_network_explore/score.json",
+      "score_sha256": "6ef5fa8065cff3705fb541435d9fabec0ad010e29f72a4d764d8b5de43db9dc6"
+    },
+    {
+      "branch": "head_mean_ab",
+      "ref": 58310818,
+      "raw_public_score": "0.488",
+      "public_score": 0.488,
+      "score_path": "D:/Paper/casmi/reports/optimization_20261113/exploration/head_mean_ab/score.json",
+      "score_sha256": "d57e295826fc062c28811575275c9a92abe436f6f25b7ed74540dd1eaeedb326"
+    }
+  ],
+  "score_precision": "API returns the strings 0.473 or 0.488 here; no additional decimal precision is exposed",
+  "current_best": 0.488,
+  "new_best": false,
+  "read_only_network_evidence": true
+}

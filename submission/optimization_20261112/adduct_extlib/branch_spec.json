@@ -1,0 +1,78 @@
+{
+  "name": "adduct_extlib",
+  "target": "stormseye/casmi26-adduct-extlib-1112",
+  "version": 1,
+  "stage_dir": "submission/optimization_20261112/adduct_extlib",
+  "notebook_sha256": "da79811ad20e32ed6c68082d488785ff893793f6d5a5ec36f71dc5ebc74871af",
+  "metadata_sha256": "297b379c80d2b591c0faac7d1cc97b8c71ee0eda7ffae74bdb3ed6a6010a2dd6",
+  "description": "CASMI26 20261112 public V18 neutral mass adduct external matching audited V1",
+  "validation_mode": "fast_static",
+  "static_review_path": "submission/optimization_20261112/adduct_extlib/static_review.json",
+  "required_runtime_audits": [
+    {
+      "name": "batch_variant_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "mode": "fast_static",
+        "branch": "public_mass_repro",
+        "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+      },
+      "required_true_checks": [
+        "mass_recipe",
+        "original_public_priors",
+        "official_rdkit",
+        "public_model_pins",
+        "ours_model_pins",
+        "two_distinct_models",
+        "lotus_pin",
+        "csv_schema_ids",
+        "csv_counts",
+        "fast_no_model"
+      ]
+    },
+    {
+      "name": "guarded_tail_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "mass_guarded_head_tail_1108",
+        "mode": "fast_static",
+        "recipe_sha256": "ba7ee5d3545fd6bc32159bbeed785e904dbf99beae0347984a8b7d5c8809e5d8"
+      },
+      "required_true_checks": [
+        "original_base_audit",
+        "late_module_pin",
+        "head_payload_pins",
+        "original_scorer_pin",
+        "audited_control_bound",
+        "final_csv_bound",
+        "exact_ids_order",
+        "exact_prefix7",
+        "exact_candidate_multisets",
+        "fast_no_model"
+      ]
+    },
+    {
+      "name": "adduct_overlay_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "adduct_extlib",
+        "recipe_sha256": "b700e845e2eb850674c2d461498d6a991d6165e18bc66aab3e3d75e9c67a123f",
+        "mode": "fast_static"
+      },
+      "required_true_checks": [
+        "base_audit_passed",
+        "control_bound",
+        "final_bound",
+        "source_function_pin",
+        "module_pin",
+        "official_guard_pin",
+        "exact_ids_schema",
+        "official_identities_valid",
+        "library_file_pins",
+        "runtime_checks",
+        "fast_no_matching",
+        "installed_payload_pins"
+      ]
+    }
+  ]
+}

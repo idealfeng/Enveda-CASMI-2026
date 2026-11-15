@@ -1,0 +1,12 @@
+{
+  "n": 48,
+  "recovered": 19,
+  "top25": 19,
+  "top1": 12,
+  "not_recovered": 29,
+  "mrr": 0.29583333333333334,
+  "recall_ceiling_if_recovered_all_first": 0.3958333333333333,
+  "conditional_rank_gap": 0.09999999999999998,
+  "missing_candidate_gap": 0.6041666666666666,
+  "scope": "Existing synthetic Class3 component diagnostic, not hidden score or exact .488 complete pipeline"
+}

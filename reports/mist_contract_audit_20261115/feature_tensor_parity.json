@@ -1,0 +1,1592 @@
+{
+  "status": "passed_actual_upstream_tensor_parity",
+  "queries": 17,
+  "conditional_rows": 103,
+  "upstream_source_sha256": "f8e3b24f540bbe4d6d858dcada7b8d54f5fbb1a62001634f6a59186fdbe01bbc",
+  "adapter_sha256": "3c24320bb735de9bd4ef938e2764ceb84fdfcc6979f4e1ae262e9346c0ace591",
+  "all_represented_rows_exact_upstream_pre_cache_tensors": true,
+  "comparisons": [
+    {
+      "molecule_id": "cross_CDUVSQMTLOYKTR",
+      "spectrum_id": "train_row_001386334",
+      "formula": "C20H34O5",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_CDUVSQMTLOYKTR",
+      "spectrum_id": "train_row_001386335",
+      "formula": "C20H34O5",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_DWVXZQVYILJCJH",
+      "spectrum_id": "train_row_002495491",
+      "formula": "C45H77NO8",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_DWVXZQVYILJCJH",
+      "spectrum_id": "train_row_002495491",
+      "formula": "C52H73NO3",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_FWXUWWAXYNCZAY",
+      "spectrum_id": "train_row_000235751",
+      "formula": "C15H24N6O",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_FWXUWWAXYNCZAY",
+      "spectrum_id": "train_row_000235752",
+      "formula": "C15H24N6O",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_FWXUWWAXYNCZAY",
+      "spectrum_id": "train_row_000235751",
+      "formula": "C14H28N2O5",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_FWXUWWAXYNCZAY",
+      "spectrum_id": "train_row_000235752",
+      "formula": "C14H28N2O5",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_FWXUWWAXYNCZAY",
+      "spectrum_id": "train_row_000235751",
+      "formula": "C19H28O3",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_FWXUWWAXYNCZAY",
+      "spectrum_id": "train_row_000235752",
+      "formula": "C19H28O3",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_GFZLFKCEWJJEFW",
+      "spectrum_id": "train_row_001498948",
+      "formula": "C21H28O3",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_HPXGRJSGVYZSBD",
+      "spectrum_id": "train_row_001757243",
+      "formula": "C17H17N3OS",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_HPXGRJSGVYZSBD",
+      "spectrum_id": "train_row_001757244",
+      "formula": "C17H17N3OS",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_HPXGRJSGVYZSBD",
+      "spectrum_id": "train_row_001757245",
+      "formula": "C17H17N3OS",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_HPXGRJSGVYZSBD",
+      "spectrum_id": "train_row_001757246",
+      "formula": "C17H17N3OS",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_HPXGRJSGVYZSBD",
+      "spectrum_id": "train_row_001757247",
+      "formula": "C17H17N3OS",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_HPXGRJSGVYZSBD",
+      "spectrum_id": "train_row_001757248",
+      "formula": "C17H17N3OS",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_HPXGRJSGVYZSBD",
+      "spectrum_id": "train_row_001757249",
+      "formula": "C17H17N3OS",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_HPXGRJSGVYZSBD",
+      "spectrum_id": "train_row_001757250",
+      "formula": "C17H17N3OS",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_JIZXTXDQGNQBTA",
+      "spectrum_id": "train_row_001233472",
+      "formula": "C8H15NO3",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_JIZXTXDQGNQBTA",
+      "spectrum_id": "train_row_001233473",
+      "formula": "C8H15NO3",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_JIZXTXDQGNQBTA",
+      "spectrum_id": "train_row_001233474",
+      "formula": "C8H15NO3",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_KAQOTUWFZPIKLZ",
+      "spectrum_id": "train_row_001584082",
+      "formula": "C19H26O5",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_KAQOTUWFZPIKLZ",
+      "spectrum_id": "train_row_001584082",
+      "formula": "C20H30S2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_MZNCWPOVMBLUSG",
+      "spectrum_id": "train_row_001592497",
+      "formula": "C33H47N7O16",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_MZNCWPOVMBLUSG",
+      "spectrum_id": "train_row_001592497",
+      "formula": "C34H51N7O11S2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_MZNCWPOVMBLUSG",
+      "spectrum_id": "train_row_001592497",
+      "formula": "C31H53N5O15P2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_NOFOAYPPHIUXJR",
+      "spectrum_id": "train_row_001271228",
+      "formula": "C20H34O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_NOFOAYPPHIUXJR",
+      "spectrum_id": "train_row_001271229",
+      "formula": "C20H34O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_NOFOAYPPHIUXJR",
+      "spectrum_id": "train_row_001271230",
+      "formula": "C20H34O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_NOFOAYPPHIUXJR",
+      "spectrum_id": "train_row_001271231",
+      "formula": "C20H34O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_NOFOAYPPHIUXJR",
+      "spectrum_id": "train_row_001271233",
+      "formula": "C20H34O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_NOFOAYPPHIUXJR",
+      "spectrum_id": "train_row_001271235",
+      "formula": "C20H34O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_NOFOAYPPHIUXJR",
+      "spectrum_id": "train_row_001271237",
+      "formula": "C20H34O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_NOFOAYPPHIUXJR",
+      "spectrum_id": "train_row_001271242",
+      "formula": "C20H34O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_NQHGQOVKJGGLKE",
+      "spectrum_id": "train_row_001888875",
+      "formula": "C9H8N2O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_NQHGQOVKJGGLKE",
+      "spectrum_id": "train_row_001888876",
+      "formula": "C9H8N2O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_NQHGQOVKJGGLKE",
+      "spectrum_id": "train_row_001888877",
+      "formula": "C9H8N2O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_NQHGQOVKJGGLKE",
+      "spectrum_id": "train_row_001888878",
+      "formula": "C9H8N2O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_NQHGQOVKJGGLKE",
+      "spectrum_id": "train_row_001888879",
+      "formula": "C9H8N2O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_NQHGQOVKJGGLKE",
+      "spectrum_id": "train_row_001888880",
+      "formula": "C9H8N2O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_NQHGQOVKJGGLKE",
+      "spectrum_id": "train_row_001888881",
+      "formula": "C9H8N2O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_NQHGQOVKJGGLKE",
+      "spectrum_id": "train_row_001888882",
+      "formula": "C9H8N2O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_QNUNSPMEODRLBZ",
+      "spectrum_id": "train_row_001951762",
+      "formula": "C18H18N2O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_QNUNSPMEODRLBZ",
+      "spectrum_id": "train_row_001951763",
+      "formula": "C18H18N2O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_QNUNSPMEODRLBZ",
+      "spectrum_id": "train_row_001951764",
+      "formula": "C18H18N2O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_QNUNSPMEODRLBZ",
+      "spectrum_id": "train_row_001951765",
+      "formula": "C18H18N2O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_QNUNSPMEODRLBZ",
+      "spectrum_id": "train_row_001951766",
+      "formula": "C18H18N2O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_SRNDKRJFBMZBCK",
+      "spectrum_id": "train_row_002523968",
+      "formula": "C45H82NO7P",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012319",
+      "formula": "C10H6F3N3O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012320",
+      "formula": "C10H6F3N3O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012321",
+      "formula": "C10H6F3N3O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012322",
+      "formula": "C10H6F3N3O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012323",
+      "formula": "C10H6F3N3O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012324",
+      "formula": "C10H6F3N3O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012325",
+      "formula": "C10H6F3N3O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012326",
+      "formula": "C10H6F3N3O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012319",
+      "formula": "C11H16BrNO",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012320",
+      "formula": "C11H16BrNO",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012321",
+      "formula": "C11H16BrNO",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012322",
+      "formula": "C11H16BrNO",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012323",
+      "formula": "C11H16BrNO",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012324",
+      "formula": "C11H16BrNO",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012325",
+      "formula": "C11H16BrNO",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012326",
+      "formula": "C11H16BrNO",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012319",
+      "formula": "C12H7N3O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012320",
+      "formula": "C12H7N3O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012321",
+      "formula": "C12H7N3O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012322",
+      "formula": "C12H7N3O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012323",
+      "formula": "C12H7N3O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012324",
+      "formula": "C12H7N3O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012325",
+      "formula": "C12H7N3O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "spectrum_id": "train_row_002012326",
+      "formula": "C12H7N3O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_VJLSQJBXDSKTLG",
+      "spectrum_id": "train_row_002528249",
+      "formula": "C38H49NO4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_VJLSQJBXDSKTLG",
+      "spectrum_id": "train_row_002528250",
+      "formula": "C38H49NO4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_VJLSQJBXDSKTLG",
+      "spectrum_id": "train_row_002528249",
+      "formula": "C33H49N3O6",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_VJLSQJBXDSKTLG",
+      "spectrum_id": "train_row_002528250",
+      "formula": "C33H49N3O6",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_VJLSQJBXDSKTLG",
+      "spectrum_id": "train_row_002528249",
+      "formula": "C35H50FNO5",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_VJLSQJBXDSKTLG",
+      "spectrum_id": "train_row_002528250",
+      "formula": "C35H50FNO5",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "spectrum_id": "train_row_002058832",
+      "formula": "C17H26N2O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "spectrum_id": "train_row_002058833",
+      "formula": "C17H26N2O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "spectrum_id": "train_row_002058834",
+      "formula": "C17H26N2O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "spectrum_id": "train_row_002058835",
+      "formula": "C17H26N2O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "spectrum_id": "train_row_002058836",
+      "formula": "C17H26N2O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "spectrum_id": "train_row_002058837",
+      "formula": "C17H26N2O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "spectrum_id": "train_row_002058832",
+      "formula": "C16H31ClO2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "spectrum_id": "train_row_002058833",
+      "formula": "C16H31ClO2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "spectrum_id": "train_row_002058834",
+      "formula": "C16H31ClO2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "spectrum_id": "train_row_002058835",
+      "formula": "C16H31ClO2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "spectrum_id": "train_row_002058836",
+      "formula": "C16H31ClO2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "spectrum_id": "train_row_002058837",
+      "formula": "C16H31ClO2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_XSOKPIZATJBJPO",
+      "spectrum_id": "train_row_002532903",
+      "formula": "C28H48N2O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_XSOKPIZATJBJPO",
+      "spectrum_id": "train_row_002532904",
+      "formula": "C28H48N2O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_XSOKPIZATJBJPO",
+      "spectrum_id": "train_row_002532905",
+      "formula": "C28H48N2O4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_XSOKPIZATJBJPO",
+      "spectrum_id": "train_row_002532903",
+      "formula": "C33H48O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_XSOKPIZATJBJPO",
+      "spectrum_id": "train_row_002532904",
+      "formula": "C33H48O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_XSOKPIZATJBJPO",
+      "spectrum_id": "train_row_002532905",
+      "formula": "C33H48O2",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_XSOKPIZATJBJPO",
+      "spectrum_id": "train_row_002532903",
+      "formula": "C33H49P",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_XSOKPIZATJBJPO",
+      "spectrum_id": "train_row_002532904",
+      "formula": "C33H49P",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_XSOKPIZATJBJPO",
+      "spectrum_id": "train_row_002532905",
+      "formula": "C33H49P",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_YFJYOZDIJVHPAU",
+      "spectrum_id": "train_row_001361953",
+      "formula": "C24H27O4P",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_YFJYOZDIJVHPAU",
+      "spectrum_id": "train_row_001361953",
+      "formula": "C17H31ClN2O5S",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    },
+    {
+      "molecule_id": "cross_YFJYOZDIJVHPAU",
+      "spectrum_id": "train_row_001361953",
+      "formula": "C22H28ClFO4",
+      "checks": {
+        "formula": true,
+        "ion": true,
+        "intensity": true,
+        "types": true,
+        "length": true,
+        "instrument": true,
+        "exactly_one_cls": true,
+        "zero_padding": true
+      }
+    }
+  ],
+  "casmi_feature_statistics": {
+    "conditional_rows": 103,
+    "token_lengths_quantiles": [
+      2.0,
+      10.0,
+      11.0,
+      11.0,
+      11.0
+    ],
+    "fragment_intensity_quantiles": [
+      0.034370265901088715,
+      0.17935001477599144,
+      0.3213186264038086,
+      0.5633293986320496,
+      1.0
+    ],
+    "ion_counts": {
+      "0": 942,
+      "1": 28,
+      "2": 7,
+      "4": 11,
+      "3": 11
+    },
+    "instrument_counts": {
+      "4": 38,
+      "2": 65
+    }
+  },
+  "float16_training_cache_rounding_max_abs_intensity_difference": 0.00024110078811645508,
+  "event_reason_counts": {
+    "represented": 103,
+    "unsupported_negative_or_adduct": 13,
+    "no_assigned_fragment": 2
+  },
+  "no_model_forward": true,
+  "no_truth_read": true,
+  "limitation": "Parity is against upstream PeakFormula given the SAME reconstructed subformula tree. MSG training uses preassigned source trees; this does not prove CASMI reassignment matches MSG historical preprocessing. Adapter skips unassigned spectra while upstream supports CLS-only trees."
+}

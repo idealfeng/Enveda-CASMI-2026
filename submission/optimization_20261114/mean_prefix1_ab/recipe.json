@@ -1,0 +1,35 @@
+{
+  "branch": "mean_prefix1_ab",
+  "target": "stormseye/casmi26-mean-prefix1-ab-1114",
+  "parent_ref": 58156482,
+  "parent_public_score": 0.488,
+  "parent_notebook_sha256": "2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7",
+  "method": "Move same-formula late reranking from ranks8-25 to ranks2-25; retain rank1 then original AB",
+  "configuration": {
+    "protected_prefix": 1,
+    "score_mode": "frozen_v2_mean",
+    "scorer_file": "guarded_v2_mean_score_20261109.py",
+    "scorer_sha256": "aac7fab01dbac124ff7debde08ed370fcf9cecc158064ffe83a575ee4f466fab",
+    "payload_pins": {
+      "guarded_v2_mean_score_20261109.py": "aac7fab01dbac124ff7debde08ed370fcf9cecc158064ffe83a575ee4f466fab"
+    },
+    "head_receipts": [],
+    "baseline_scorer_sha256": "cb9e4d6732992e3310e951533fd0c644d3b515134ad03768c35e5a86551267d2"
+  },
+  "configuration_sha256": "b95fcaae24f7e87c6ee44371c9eabd6ed576cc1f3488f033ec95aab7bd21ddbe",
+  "tail_module_sha256": "783b767e6b5425879ea3bcc8dadbedc40ea349def0e943c65dbf9c5052af3a64",
+  "original_ab_recipe_sha256": "5fc1c8cb1e27bd9e555090fcf437d0c9bfe02a0f8371811da286d2f3a4d4efd1",
+  "original_ab_cell_sha256": "f41dbfea9936cde15af1a554fb1dac84cb7a5a1b2c55a89ae20f074f6572e799",
+  "old_trained_head_same_model": true,
+  "new_training": false,
+  "new_data": false,
+  "original_mass_neural_generation_unchanged": true,
+  "original_AB_unchanged": true,
+  "original_model_exposure_retained": true,
+  "score_mode_changed_from_champion": true,
+  "comparison_scope": "Head arm changes prefix only. Mean arm changes prefix versus yesterday meanAB and scorer+prefix versus champion.",
+  "mutable_ranks": "2..25, original same-formula slots only",
+  "full_pipeline_new_config_tested": false,
+  "validation_mode": "fast_static",
+  "component_boundary": "Actual changed cells on saved generation-variant intermediate, not clean CV or a new complete model initialization."
+}

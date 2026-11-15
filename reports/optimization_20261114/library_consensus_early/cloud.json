@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-library-consensus-early-1114",
+  "version": 1,
+  "branch_sha256": "3b15091f78aefc8be566c20af3696ba6ab9ef9a94a7f84830e911441eb01d9b6",
+  "notebook_sha256": "1a6b341fe9b62f23d0a0db1a3513f624f29faa260f31f4b145e282f621ab689b",
+  "metadata_sha256": "30c69bf275a8511f91f08df9c51f6d21d574312df524fa81fa6f4ec995bd844a",
+  "requested_at_utc": "2026-11-14T06:57:33.520877+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-14T06:57:40.607120+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

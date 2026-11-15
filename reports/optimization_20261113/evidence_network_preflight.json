@@ -1,0 +1,12 @@
+{
+  "status": "passed_actual_batch_preflight",
+  "target": "stormseye/casmi26-spectral-network-1113",
+  "version": 1,
+  "notebook_sha256": "389b5341a38cf3825f09450e2a99e604655e3fb25beb474131364c6dd0b1ad00",
+  "recipe_sha256": "f6bc296a0988f9b860e851d08e8540e060ac3cb7ffb8470b3b0c4a07c0a42e6b",
+  "stage": "D:\\Paper\\casmi\\submission\\optimization_20261113\\spectral_network_explore\\revision2",
+  "load_manifest": true,
+  "local_preflight": true,
+  "no_cloud_write": true,
+  "review_metadata_corrected_only": true
+}

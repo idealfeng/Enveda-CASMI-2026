@@ -1,0 +1,50 @@
+{
+  "branch": "head_prefix1_ab",
+  "target": "stormseye/casmi26-head-prefix1-ab-1114",
+  "parent_ref": 58156482,
+  "parent_public_score": 0.488,
+  "parent_notebook_sha256": "2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7",
+  "method": "Move same-formula late reranking from ranks8-25 to ranks2-25; retain rank1 then original AB",
+  "configuration": {
+    "protected_prefix": 1,
+    "score_mode": "learned_heads",
+    "scorer_file": "learned_head_score.py",
+    "scorer_sha256": "14ba386cef89194c87cead728b23a670f83d425b2316a007d3f07901e5cf1a74",
+    "payload_pins": {
+      "candidate_multispectrum_head.py": "6dc38d9d9dd59bff0ed791045573638c5566b2e1f84c0336c1b1bff383f886f0",
+      "learned_head_score.py": "14ba386cef89194c87cead728b23a670f83d425b2316a007d3f07901e5cf1a74",
+      "learned_head_runtime.json": "b3e605208a660c00a48409226c8088a5aa63a8228dc69c8bafbd6ded80289de5",
+      "head_seed20261108_step2500.pt": "99e63aedb420217c817aeaaebd3d09ffa9620824a8d8833dcf55fd90ae903a53",
+      "head_seed20261109_step2500.pt": "f29077ca350e48705cec93ed7a9716b2b718e965ba56cec859bb829bf4b7ba75"
+    },
+    "head_receipts": [
+      {
+        "sha256": "99e63aedb420217c817aeaaebd3d09ffa9620824a8d8833dcf55fd90ae903a53",
+        "step": 2500,
+        "seed": 20261108
+      },
+      {
+        "sha256": "f29077ca350e48705cec93ed7a9716b2b718e965ba56cec859bb829bf4b7ba75",
+        "step": 2500,
+        "seed": 20261109
+      }
+    ],
+    "baseline_scorer_sha256": "cb9e4d6732992e3310e951533fd0c644d3b515134ad03768c35e5a86551267d2"
+  },
+  "configuration_sha256": "2f511d3b6de23aafa368998e628544dd994c2ca106fe3886a16475dfd6defa70",
+  "tail_module_sha256": "783b767e6b5425879ea3bcc8dadbedc40ea349def0e943c65dbf9c5052af3a64",
+  "original_ab_recipe_sha256": "5fc1c8cb1e27bd9e555090fcf437d0c9bfe02a0f8371811da286d2f3a4d4efd1",
+  "original_ab_cell_sha256": "f41dbfea9936cde15af1a554fb1dac84cb7a5a1b2c55a89ae20f074f6572e799",
+  "old_trained_head_same_model": true,
+  "new_training": false,
+  "new_data": false,
+  "original_mass_neural_generation_unchanged": true,
+  "original_AB_unchanged": true,
+  "original_model_exposure_retained": true,
+  "score_mode_changed_from_champion": false,
+  "comparison_scope": "Head arm changes prefix only. Mean arm changes prefix versus yesterday meanAB and scorer+prefix versus champion.",
+  "mutable_ranks": "2..25, original same-formula slots only",
+  "full_pipeline_new_config_tested": false,
+  "validation_mode": "fast_static",
+  "component_boundary": "Actual changed cells on saved generation-variant intermediate, not clean CV or a new complete model initialization."
+}

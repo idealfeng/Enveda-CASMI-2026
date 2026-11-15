@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "branch": "dual_evidence_agreement",
+  "recipe_sha256": "e523db977cfe19c487a55c0b1faf414f54f234ed97e4b5fec29f46a4d50adb92",
+  "mode": "hidden_full",
+  "checks": {
+    "base_ab_passed": true,
+    "control_bound": true,
+    "final_bound": true,
+    "module_pin": true,
+    "configuration_exact": true,
+    "recipe_branch_bound": true,
+    "sample_ids_exact": true,
+    "csv_schema": true,
+    "candidate_multisets": true,
+    "official_identities": true,
+    "actual_evidence_executed": true,
+    "actual_score_consumption": true,
+    "actual_protected_set": true,
+    "reference_rows_exact": true
+  },
+  "csv_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416",
+  "runtime_sha256": "db6ad1304750f41a933b987669ec0b6584208a8ec84c4babdb8b17e5e1cfea9f",
+  "changed_queries": 0,
+  "changed_top1": 0,
+  "protected_queries": 2,
+  "eligible_queries": 0,
+  "no_new_model_or_gain_claim": true
+}

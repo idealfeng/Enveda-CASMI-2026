@@ -1,0 +1,136 @@
+{
+  "status": "passed_fixed_policy_real_graph_component",
+  "notebook_sha256": "389b5341a38cf3825f09450e2a99e604655e3fb25beb474131364c6dd0b1ad00",
+  "module_sha256": "16f62e95a18608e66f95be0b5c279666cfd07f92d07c88c0a0d6a0153cf0018a",
+  "public_source_sha256": "8150955a1f0a617639253bd59cca9c186c6e881ebc7f15447682c0e3df7de768",
+  "recipe_sha256": "f6bc296a0988f9b860e851d08e8540e060ac3cb7ffb8470b3b0c4a07c0a42e6b",
+  "queries": 48,
+  "spectra": 240,
+  "graph": {
+    "graph": {
+      "cross_CDUVSQMTLOYKTR": [
+        [
+          "np_JYGXADMDTFJGBT",
+          0.6368994948831369
+        ]
+      ],
+      "np_JYGXADMDTFJGBT": [
+        [
+          "cross_CDUVSQMTLOYKTR",
+          0.6368994948831369
+        ],
+        [
+          "np_RZGFUGXQKMEMOO",
+          0.6019237221020859
+        ],
+        [
+          "np_SHIBSTMRCDJXLN",
+          0.6475863548195665
+        ]
+      ],
+      "cross_GFZLFKCEWJJEFW": [
+        [
+          "cross_WIOKWEJDRXNVSH",
+          0.7168997920715071
+        ]
+      ],
+      "cross_WIOKWEJDRXNVSH": [
+        [
+          "cross_GFZLFKCEWJJEFW",
+          0.7168997920715071
+        ]
+      ],
+      "cross_JIZXTXDQGNQBTA": [
+        [
+          "cross_NQHGQOVKJGGLKE",
+          0.6134749591782395
+        ]
+      ],
+      "cross_NQHGQOVKJGGLKE": [
+        [
+          "cross_JIZXTXDQGNQBTA",
+          0.6134749591782395
+        ]
+      ],
+      "np_CTRLABGOLIVAIY": [
+        [
+          "np_FFGPTBGBLSHEPO",
+          0.6762097757245591
+        ]
+      ],
+      "np_FFGPTBGBLSHEPO": [
+        [
+          "np_CTRLABGOLIVAIY",
+          0.6762097757245591
+        ]
+      ],
+      "np_DUXQKCCELUKXOE": [
+        [
+          "np_GZSOSUNBTXMUFQ",
+          0.8797785006185875
+        ]
+      ],
+      "np_GZSOSUNBTXMUFQ": [
+        [
+          "np_DUXQKCCELUKXOE",
+          0.8797785006185875
+        ]
+      ],
+      "np_RZGFUGXQKMEMOO": [
+        [
+          "np_JYGXADMDTFJGBT",
+          0.6019237221020859
+        ]
+      ],
+      "np_SHIBSTMRCDJXLN": [
+        [
+          "np_JYGXADMDTFJGBT",
+          0.6475863548195665
+        ],
+        [
+          "np_RFDAIACWWDREDC",
+          0.6612392279137553
+        ]
+      ],
+      "np_RFDAIACWWDREDC": [
+        [
+          "np_SHIBSTMRCDJXLN",
+          0.6612392279137553
+        ]
+      ]
+    },
+    "spectra_molecules": 47,
+    "edges": 8
+  },
+  "changed_queries": 13,
+  "changed_top1": 0,
+  "score_vectors_reconstructed": true,
+  "candidate_multisets": true,
+  "official_identities": true,
+  "protection_fixture_query": "cross_CDUVSQMTLOYKTR",
+  "protection_exact": true,
+  "raw_spectral_columns": [
+    "molecule_id",
+    "spectrum_id",
+    "ms2_mzs",
+    "ms2_normalized_intensities",
+    "base_peak_intensity",
+    "adduct",
+    "ionization_mode",
+    "instrument_type",
+    "precursor_mz",
+    "collision_energy_orig",
+    "collision_energy_ev",
+    "collision_energy_orig_units"
+  ],
+  "truth_metadata_present": false,
+  "no_labels_read": true,
+  "no_new_metric_evaluated": true,
+  "no_models_run": true,
+  "coefficient_search": false,
+  "limitations": [
+    "Old exposed 48-query Flex predictions, not exact .488 stage output.",
+    "Constructed AB interface receipt, not AB efficacy or full-pipeline execution.",
+    "The frozen fixed-policy old panel MRR delta was negative; these ordering changes do not claim a gain."
+  ]
+}

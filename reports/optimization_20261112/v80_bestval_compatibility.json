@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "models": [
+    {
+      "name": "public_final",
+      "checkpoint_sha256": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642",
+      "rows": 15,
+      "seconds": 4.904991332999998,
+      "strict_load_and_actual_scoring": true
+    },
+    {
+      "name": "v2_final",
+      "checkpoint_sha256": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46",
+      "rows": 15,
+      "seconds": 0.3821554479999918,
+      "strict_load_and_actual_scoring": true
+    },
+    {
+      "name": "popwenman_best",
+      "checkpoint_sha256": "f7e2383fe5fc0cc85e7333d308bc7201144574f2eef6b59000570d171e0758a7",
+      "rows": 15,
+      "seconds": 0.38809020400000804,
+      "strict_load_and_actual_scoring": true
+    },
+    {
+      "name": "saner_best",
+      "checkpoint_sha256": "969d13443fcf168eae1e00e56a8e0ae87dcb16f337cb6dbac959e7cd218f089c",
+      "rows": 15,
+      "seconds": 0.3748864000000083,
+      "strict_load_and_actual_scoring": true
+    }
+  ],
+  "candidate_rows": 15,
+  "query_spectra": 26,
+  "max_score_difference_vs_v2": {
+    "public_final": 1.595545768737793,
+    "popwenman_best": 1.2867984771728516,
+    "saner_best": 1.2204570770263672
+  },
+  "truth_read": false,
+  "quality_gain_claim": false,
+  "gpu_used": false
+}

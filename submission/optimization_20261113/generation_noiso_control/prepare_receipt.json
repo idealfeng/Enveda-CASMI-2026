@@ -1,0 +1,10 @@
+{
+  "status": "prepared_exploratory_reused_production_template",
+  "branch": "generation_noiso_control",
+  "notebook_sha256": "794a4aeff3d71347db36b7da76beb23fae1a6eb754cb726432c5f8a29b351aaf",
+  "metadata_sha256": "daf2db067e48e0e1ed31d7c1042fb2d26472028a6f354106eeb74a64c2e49351",
+  "recipe_sha256": "ed9c2d5f4158c1d004b9fbd4d5d7eb3c9b5d93782964ac4da8dda6c9ad997278",
+  "module_sha256": "283c7f49a4a77d821f2f44d347c934c001a18ee65fd637706e4cbe7760bdb062",
+  "runner_sha256": "153c85fb59025f3c2fa75cf9a64ffe7aa6cdb26b25113fee9fa46643c22f1182",
+  "notebook_bytes": 882599
+}

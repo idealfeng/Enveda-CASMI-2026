@@ -1,0 +1,23 @@
+{
+  "status": "fast_static_no_evidence",
+  "branch": "gl_evidence_early",
+  "recipe_sha256": "ddcae1e322d8a0a6f1ebf416477b32aa98a3dd6a477ad3de9e53f65f63f01da9",
+  "configuration": {
+    "protect_prefix": 1,
+    "gl_weight": 1.0,
+    "scope": "same_formula_observed_slots",
+    "minimum_covered": 2,
+    "minimum_coverage_fraction": 0.8,
+    "protect_library": 0.9,
+    "protect_AB": true
+  },
+  "control_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416",
+  "observations": {},
+  "protected_ids": [],
+  "changed_queries": 0,
+  "changed_top1": 0,
+  "evidence_executed": false,
+  "protected_queries": 0,
+  "eligible_queries": 0,
+  "output_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416"
+}

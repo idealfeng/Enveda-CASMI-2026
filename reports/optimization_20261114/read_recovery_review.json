@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checks": {
+    "preclaim_transport_recovers": true,
+    "claimed_or_partial_never_retried": true,
+    "integrity_failure_not_retried": true
+  },
+  "no_network": true
+}

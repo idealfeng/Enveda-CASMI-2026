@@ -1,0 +1,17 @@
+{
+  "baseline_scorer_file": "neural_scores_original.py",
+  "baseline_scorer_sha256": "cb9e4d6732992e3310e951533fd0c644d3b515134ad03768c35e5a86551267d2",
+  "head_model_file": "candidate_multispectrum_head.py",
+  "head_model_sha256": "6dc38d9d9dd59bff0ed791045573638c5566b2e1f84c0336c1b1bff383f886f0",
+  "required_step": 2500,
+  "heads": [
+    {
+      "file": "head_seed20261108_step2500.pt",
+      "sha256": "99e63aedb420217c817aeaaebd3d09ffa9620824a8d8833dcf55fd90ae903a53"
+    },
+    {
+      "file": "head_seed20261109_step2500.pt",
+      "sha256": "f29077ca350e48705cec93ed7a9716b2b718e965ba56cec859bb829bf4b7ba75"
+    }
+  ]
+}

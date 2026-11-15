@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-head-prefix1-ab-1114",
+  "version": 1,
+  "branch_sha256": "a4793177697c10233527d6f08563dcb245566207d43c0318f7c04a554935cac1",
+  "notebook_sha256": "6c08b5287e42969ab0e67b50975ac46bae2c35f6dad76f8a32b94bc4ae022670",
+  "metadata_sha256": "8d3063cb2eb3efd1c206b5a483b951ec0c5318b6f2f1fe9e5c617a590eba571d",
+  "requested_at_utc": "2026-11-14T06:51:05.008178+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-14T06:51:10.229342+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

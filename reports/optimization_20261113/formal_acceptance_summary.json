@@ -1,0 +1,81 @@
+{
+  "status": "all_five_formal_submissions_accepted",
+  "checked_at_utc": "2026-11-13T13:54:24.548072+00:00",
+  "num_today": 5,
+  "num_allowed_now": 0,
+  "prior_best": 0.488,
+  "branches": [
+    {
+      "branch": "generation_production",
+      "target": "stormseye/casmi26-generation-production-1113",
+      "actual_target": "stormseye/casmi26-generation-production-1113",
+      "version": 1,
+      "submission_ref": 58309573,
+      "notebook_sha256": "a9debc93f59213d3c80a8b3ee0e4808ee930d6ada34c3ee908f1469fa35cfa2c",
+      "recipe_sha256": "9f70ddc759cf3ce5c927c7e0154128768b6f6931f8b19528c8f3649e9e743bae",
+      "status": "accepted_for_hidden_evaluation",
+      "visible_output_audit": "passed",
+      "public_score": null,
+      "score_note": "See all_today_status.json for current official score",
+      "receipt": "D:/Paper/casmi/reports/optimization_20261113/generation_production/submission.json"
+    },
+    {
+      "branch": "generation_noiso_control",
+      "target": "stormseye/casmi26-gen-noiso-only-1113",
+      "actual_target": "stormseye/casmi26-gen-noiso-only-1113",
+      "version": 1,
+      "submission_ref": 58310788,
+      "notebook_sha256": "794a4aeff3d71347db36b7da76beb23fae1a6eb754cb726432c5f8a29b351aaf",
+      "recipe_sha256": "ed9c2d5f4158c1d004b9fbd4d5d7eb3c9b5d93782964ac4da8dda6c9ad997278",
+      "status": "accepted_for_hidden_evaluation",
+      "visible_output_audit": "passed",
+      "public_score": null,
+      "score_note": "See all_today_status.json for current official score",
+      "receipt": "D:/Paper/casmi/reports/optimization_20261113/exploration/generation_noiso_control/submission.json"
+    },
+    {
+      "branch": "generation_budget_only",
+      "target": "stormseye/casmi26-gen-budget-only-1113",
+      "actual_target": "stormseye/casmi26-gen-budget-only-1113",
+      "version": 1,
+      "submission_ref": 58310627,
+      "notebook_sha256": "7f87816791ce5fb87b68d747286acebd6e803d7ab1752edcfb5f5ee951595272",
+      "recipe_sha256": "db45580e4d0b3e1dea6456afce1ff48722b8c78293d838c3f71cec02336ebb33",
+      "status": "accepted_for_hidden_evaluation",
+      "visible_output_audit": "passed",
+      "public_score": null,
+      "score_note": "See all_today_status.json for current official score",
+      "receipt": "D:/Paper/casmi/reports/optimization_20261113/exploration/generation_budget_only/submission.json"
+    },
+    {
+      "branch": "spectral_network_explore",
+      "target": "stormseye/casmi26-spectral-network-1113",
+      "actual_target": "stormseye/casmi26-spectral-network-explore-1113",
+      "version": 1,
+      "submission_ref": 58310918,
+      "notebook_sha256": "389b5341a38cf3825f09450e2a99e604655e3fb25beb474131364c6dd0b1ad00",
+      "recipe_sha256": "f6bc296a0988f9b860e851d08e8540e060ac3cb7ffb8470b3b0c4a07c0a42e6b",
+      "status": "accepted_for_hidden_evaluation",
+      "visible_output_audit": "passed",
+      "public_score": null,
+      "score_note": "See all_today_status.json for current official score",
+      "receipt": "D:/Paper/casmi/reports/optimization_20261113/exploration/spectral_network_explore/submission.json"
+    },
+    {
+      "branch": "head_mean_ab",
+      "target": "stormseye/casmi26-head-mean-ab-1113",
+      "actual_target": "stormseye/casmi26-mean-tail-with-ab-1113",
+      "version": 1,
+      "submission_ref": 58310818,
+      "notebook_sha256": "d61a87c4edc67ddd078845e6aeff2d09209e2ab6c75192d20cb3cdcd1318d270",
+      "recipe_sha256": "cbb3916beddd216750f9b05384180f35700c8a98c6feb330a8c77ff9f79919a2",
+      "status": "accepted_for_hidden_evaluation",
+      "visible_output_audit": "passed",
+      "public_score": null,
+      "score_note": "See all_today_status.json for current official score",
+      "receipt": "D:/Paper/casmi/reports/optimization_20261113/exploration/head_mean_ab/submission.json"
+    }
+  ],
+  "hidden_full_success_not_yet_confirmed": true,
+  "read_only_live_verification": true
+}

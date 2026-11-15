@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "notebook_sha256": "1f9a7119dd4fdb45e006c71bd89719646dd08723faf0737920e1b0fd658c73a9",
+  "module_sha256": "0a9a19291ab2f4867331b6f4c81c535c30246ad2d0df873e11dd8ce04d3c8590",
+  "checks": {
+    "real_p2s_code_path_repair": true,
+    "algorithm_functions_unchanged": true,
+    "prior_actual_ranker_canary": true,
+    "no_model_rerun": true,
+    "no_kaggle_write": true
+  },
+  "evidence": [
+    "runs/generation_recovery_r3_20261112/verification.json",
+    "runs/generation_prod_canary_20261112_actual_revision2/verification.json",
+    "reports/optimization_20261112/generation_r3_recovery.md"
+  ]
+}

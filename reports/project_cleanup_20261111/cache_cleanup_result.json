@@ -1,0 +1,2251 @@
+﻿{
+    "status":  "completed",
+    "checked_at_utc":  "2026-11-11T03:27:51.8053170Z",
+    "scope":  "Only pip HTTP cache and pip-* temporary installation files older than 24h",
+    "bytes_planned":  6339905785,
+    "file_count":  446,
+    "files":  [
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\0\\3\\4\\0\\00340dc40d3f38899c8915431c775e447957f2685b9ddb660fe35e1f",
+                      "bytes":  1275,
+                      "last_write_utc":  "2026-11-03T18:40:07.9873878Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\0\\3\\4\\0\\00340dc40d3f38899c8915431c775e447957f2685b9ddb660fe35e1f.body",
+                      "bytes":  5857,
+                      "last_write_utc":  "2026-11-03T18:40:08.0024308Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\0\\4\\8\\0\\004806b0fb647e1403e847bbbddba0c566d3ff7f95bd6d6e7b4be0d9",
+                      "bytes":  1251,
+                      "last_write_utc":  "2026-11-03T18:40:39.7604940Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\0\\4\\8\\0\\004806b0fb647e1403e847bbbddba0c566d3ff7f95bd6d6e7b4be0d9.body",
+                      "bytes":  28702,
+                      "last_write_utc":  "2026-11-03T18:40:39.7745687Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\0\\4\\f\\5\\004f51e4cdaa64d7951a6294c47f410a2290cde6415bd52c394181fd",
+                      "bytes":  1259,
+                      "last_write_utc":  "2026-11-03T18:40:37.9004995Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\0\\4\\f\\5\\004f51e4cdaa64d7951a6294c47f410a2290cde6415bd52c394181fd.body",
+                      "bytes":  1250147,
+                      "last_write_utc":  "2026-11-03T18:40:37.9224469Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\0\\6\\5\\b\\0065bba6f06e01e65ba132cfe86220e95f035652e2e6517802b30f63",
+                      "bytes":  1203,
+                      "last_write_utc":  "2026-11-03T18:40:23.5844266Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\0\\6\\5\\b\\0065bba6f06e01e65ba132cfe86220e95f035652e2e6517802b30f63.body",
+                      "bytes":  3885928,
+                      "last_write_utc":  "2026-11-03T18:40:23.6176551Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\2\\7\\9\\5\\027957941cf023b378c66a2c8ff8866b9be33990bc5a4a630bc806de",
+                      "bytes":  1254,
+                      "last_write_utc":  "2026-11-03T18:40:38.3832996Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\2\\7\\9\\5\\027957941cf023b378c66a2c8ff8866b9be33990bc5a4a630bc806de.body",
+                      "bytes":  506321,
+                      "last_write_utc":  "2026-11-03T18:40:38.4009674Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\2\\d\\6\\2\\02d626582a9e076d82f01a05842ed4fff15ad75241b197d3d361515c",
+                      "bytes":  1250,
+                      "last_write_utc":  "2026-11-03T18:40:10.8123084Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\2\\d\\6\\2\\02d626582a9e076d82f01a05842ed4fff15ad75241b197d3d361515c.body",
+                      "bytes":  10832,
+                      "last_write_utc":  "2026-11-03T18:40:10.8267116Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\5\\8\\9\\6\\0589682f53f4c502330bc0fa01138806ce0467c549c2af469b6afb31",
+                      "bytes":  1235,
+                      "last_write_utc":  "2026-11-03T18:40:29.4307823Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\5\\8\\9\\6\\0589682f53f4c502330bc0fa01138806ce0467c549c2af469b6afb31.body",
+                      "bytes":  64928,
+                      "last_write_utc":  "2026-11-03T18:40:29.4477760Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\5\\d\\1\\a\\05d1a84247795b21f396fe0019e21fa37c4186b8a54da420cb9ef4e5",
+                      "bytes":  643,
+                      "last_write_utc":  "2026-11-03T19:05:32.5426886Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\5\\d\\1\\a\\05d1a84247795b21f396fe0019e21fa37c4186b8a54da420cb9ef4e5.body",
+                      "bytes":  13926,
+                      "last_write_utc":  "2026-11-03T18:52:22.7589868Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\6\\a\\1\\0\\06a10a01993b98a46b24126de4370c3ed430c734a40d6ac34065ddcf",
+                      "bytes":  1897,
+                      "last_write_utc":  "2026-11-03T18:40:13.2206831Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\6\\a\\1\\0\\06a10a01993b98a46b24126de4370c3ed430c734a40d6ac34065ddcf.body",
+                      "bytes":  2050,
+                      "last_write_utc":  "2026-11-03T18:40:13.2373699Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\6\\a\\7\\6\\06a7694f032b3a9f6034bc7e6af8878b66beb5946409baf2e8edc21e",
+                      "bytes":  1233,
+                      "last_write_utc":  "2026-11-03T18:40:27.7020661Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\6\\a\\7\\6\\06a7694f032b3a9f6034bc7e6af8878b66beb5946409baf2e8edc21e.body",
+                      "bytes":  3569831,
+                      "last_write_utc":  "2026-11-03T18:40:27.7372767Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\6\\d\\0\\2\\06d021aef3f778999f7884ae6d27081c980a484c493850c10aade999",
+                      "bytes":  1207,
+                      "last_write_utc":  "2026-11-03T18:40:21.8778888Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\6\\d\\0\\2\\06d021aef3f778999f7884ae6d27081c980a484c493850c10aade999.body",
+                      "bytes":  37309455,
+                      "last_write_utc":  "2026-11-03T18:40:22.0895314Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\8\\7\\e\\e\\087eebaa03e82ab6d4f23229d27869c23e12a1809936b46f07710249",
+                      "bytes":  1208,
+                      "last_write_utc":  "2026-11-03T19:04:54.9110481Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\8\\7\\e\\e\\087eebaa03e82ab6d4f23229d27869c23e12a1809936b46f07710249.body",
+                      "bytes":  294914,
+                      "last_write_utc":  "2026-11-03T19:04:54.9453772Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\8\\d\\0\\f\\08d0feb0a1c34d9758fddaebe2e05756117faa3534945921423995e2",
+                      "bytes":  1229,
+                      "last_write_utc":  "2026-11-03T18:40:29.2781870Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\8\\d\\0\\f\\08d0feb0a1c34d9758fddaebe2e05756117faa3534945921423995e2.body",
+                      "bytes":  78540,
+                      "last_write_utc":  "2026-11-03T18:40:29.2939739Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\a\\4\\b\\3\\0a4b30c32de5c577e2dc938a411fca44968f5e16b63e4d561d3b1e6d",
+                      "bytes":  1293,
+                      "last_write_utc":  "2026-11-03T18:40:11.4958232Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\a\\4\\b\\3\\0a4b30c32de5c577e2dc938a411fca44968f5e16b63e4d561d3b1e6d.body",
+                      "bytes":  7207,
+                      "last_write_utc":  "2026-11-03T18:40:11.5113279Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\a\\5\\b\\5\\0a5b50aac9e22911a9e07de7b70cb2f99a1d1ad2d2a475d992a5dde9",
+                      "bytes":  1255,
+                      "last_write_utc":  "2026-11-03T18:40:13.3780347Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\a\\5\\b\\5\\0a5b50aac9e22911a9e07de7b70cb2f99a1d1ad2d2a475d992a5dde9.body",
+                      "bytes":  1312,
+                      "last_write_utc":  "2026-11-03T18:40:13.3926990Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\a\\8\\0\\0\\0a80049ae5fabff68ac11451db740667a6c9c05687b0a6d6059d5689",
+                      "bytes":  616,
+                      "last_write_utc":  "2026-11-03T19:02:10.3415841Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\a\\8\\0\\0\\0a80049ae5fabff68ac11451db740667a6c9c05687b0a6d6059d5689.body",
+                      "bytes":  22947,
+                      "last_write_utc":  "2026-11-03T19:02:10.3583022Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\a\\f\\f\\9\\0aff96846765be2c4ec38fb34c1094927facb1c7e14ba3dde2d4dafe",
+                      "bytes":  1301,
+                      "last_write_utc":  "2026-11-03T18:40:03.8524372Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\a\\f\\f\\9\\0aff96846765be2c4ec38fb34c1094927facb1c7e14ba3dde2d4dafe.body",
+                      "bytes":  7341,
+                      "last_write_utc":  "2026-11-03T18:40:03.8672100Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\c\\f\\6\\e\\0cf6e817e2c5554000c735ecab0f3cf492f7d33b50d5a474a801ba24",
+                      "bytes":  1873,
+                      "last_write_utc":  "2026-11-03T18:40:04.3549449Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\c\\f\\6\\e\\0cf6e817e2c5554000c735ecab0f3cf492f7d33b50d5a474a801ba24.body",
+                      "bytes":  10411,
+                      "last_write_utc":  "2026-11-03T18:40:04.3731939Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\d\\d\\4\\1\\0dd41db00e66e8f023866dce6baa7eb7809deae43552bd459fb06187",
+                      "bytes":  644,
+                      "last_write_utc":  "2026-11-03T19:04:25.4533925Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\d\\d\\4\\1\\0dd41db00e66e8f023866dce6baa7eb7809deae43552bd459fb06187.body",
+                      "bytes":  147978,
+                      "last_write_utc":  "2026-11-03T18:42:31.4814773Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\e\\9\\1\\c\\0e91ca5f9ad6f6ca8cd9ed45fdc44a135ed19f6005bc53fcfe6802cf",
+                      "bytes":  1250,
+                      "last_write_utc":  "2026-11-03T18:40:01.8048165Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\e\\9\\1\\c\\0e91ca5f9ad6f6ca8cd9ed45fdc44a135ed19f6005bc53fcfe6802cf.body",
+                      "bytes":  17935,
+                      "last_write_utc":  "2026-11-03T18:40:01.8188441Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\f\\b\\9\\e\\0fb9e3091de4f40ea9031e23c8e25fea79ee5e5b34dcff8f41dc7eae",
+                      "bytes":  1872,
+                      "last_write_utc":  "2026-11-03T18:40:00.9488195Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\0\\f\\b\\9\\e\\0fb9e3091de4f40ea9031e23c8e25fea79ee5e5b34dcff8f41dc7eae.body",
+                      "bytes":  228127,
+                      "last_write_utc":  "2026-11-03T18:40:00.9650867Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\1\\3\\3\\6\\3\\133630aa4713ef2b23e3a975b7db5f09b6c307de4dc21a5f3f2ba609",
+                      "bytes":  1227,
+                      "last_write_utc":  "2026-11-03T19:02:08.9385108Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\1\\3\\3\\6\\3\\133630aa4713ef2b23e3a975b7db5f09b6c307de4dc21a5f3f2ba609.body",
+                      "bytes":  162475,
+                      "last_write_utc":  "2026-11-03T19:02:08.9582700Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\1\\4\\1\\2\\f\\1412f7aaef345697d92ebdc719ec24c744b69ef7368fab96b66aff55",
+                      "bytes":  643,
+                      "last_write_utc":  "2026-11-03T19:05:01.8915462Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\1\\4\\1\\2\\f\\1412f7aaef345697d92ebdc719ec24c744b69ef7368fab96b66aff55.body",
+                      "bytes":  14271,
+                      "last_write_utc":  "2026-11-03T18:47:08.1605132Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\1\\4\\5\\3\\b\\1453bc507f32e2c331edea4e8b583a6805a366204c5233f2f7a4cf4e",
+                      "bytes":  1296,
+                      "last_write_utc":  "2026-11-03T18:40:04.1940346Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\1\\4\\5\\3\\b\\1453bc507f32e2c331edea4e8b583a6805a366204c5233f2f7a4cf4e.body",
+                      "bytes":  22904,
+                      "last_write_utc":  "2026-11-03T18:40:04.2106085Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\1\\4\\e\\8\\e\\14e8e63536df4820fa204a618b6cfaba1dfbde594a982d49f6eaf3bc",
+                      "bytes":  1210,
+                      "last_write_utc":  "2026-11-03T18:40:33.4067807Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\1\\4\\e\\8\\e\\14e8e63536df4820fa204a618b6cfaba1dfbde594a982d49f6eaf3bc.body",
+                      "bytes":  42361901,
+                      "last_write_utc":  "2026-11-03T18:40:33.6816140Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\1\\c\\3\\9\\a\\1c39af2369d8f13af63e9d28afaa2cd539297d562f9121b3b37b278d",
+                      "bytes":  1244,
+                      "last_write_utc":  "2026-11-03T18:40:29.5931107Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\1\\c\\3\\9\\a\\1c39af2369d8f13af63e9d28afaa2cd539297d562f9121b3b37b278d.body",
+                      "bytes":  257601,
+                      "last_write_utc":  "2026-11-03T18:40:29.6112933Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\1\\c\\5\\b\\1\\1c5b17e81e98d5f333ee74a4e18c0549c9a1f39a3d34f4b659c890ca",
+                      "bytes":  642,
+                      "last_write_utc":  "2026-11-03T19:04:27.0091876Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\1\\c\\5\\b\\1\\1c5b17e81e98d5f333ee74a4e18c0549c9a1f39a3d34f4b659c890ca.body",
+                      "bytes":  1169,
+                      "last_write_utc":  "2026-11-03T18:42:41.4863741Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\2\\0\\4\\e\\9\\204e9c1711e5f8738658b443b4125a54df71e9e30c62943077e83417",
+                      "bytes":  642,
+                      "last_write_utc":  "2026-11-03T19:05:29.5770762Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\2\\0\\4\\e\\9\\204e9c1711e5f8738658b443b4125a54df71e9e30c62943077e83417.body",
+                      "bytes":  7258,
+                      "last_write_utc":  "2026-11-03T18:51:53.3354400Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\2\\0\\a\\c\\5\\20ac5679228fa5a5b29bb571484ef3922d4a9c28e1ce92cd8264c167",
+                      "bytes":  603,
+                      "last_write_utc":  "2026-11-03T19:02:13.9030456Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\2\\0\\a\\c\\5\\20ac5679228fa5a5b29bb571484ef3922d4a9c28e1ce92cd8264c167.body",
+                      "bytes":  1256108,
+                      "last_write_utc":  "2026-11-03T19:02:13.9261372Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\2\\0\\e\\1\\0\\20e10f4fc988909a746bf843c101fcfdd9ccd6c16c4cc28a5a0f489b",
+                      "bytes":  1234,
+                      "last_write_utc":  "2026-11-03T18:40:36.1406076Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\2\\0\\e\\1\\0\\20e10f4fc988909a746bf843c101fcfdd9ccd6c16c4cc28a5a0f489b.body",
+                      "bytes":  22228,
+                      "last_write_utc":  "2026-11-03T18:40:36.1578678Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\2\\4\\9\\1\\0\\24910841fb3c16c6f9302f2c0c23e5c775901e69aa2088efe34786bf",
+                      "bytes":  641,
+                      "last_write_utc":  "2026-11-03T19:05:08.0144559Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\2\\4\\9\\1\\0\\24910841fb3c16c6f9302f2c0c23e5c775901e69aa2088efe34786bf.body",
+                      "bytes":  56279010,
+                      "last_write_utc":  "2026-11-03T18:48:09.2720984Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\2\\7\\e\\c\\d\\27ecd23e8ab8a9b3e8bd3ba17f4fdd4a9d2b69755f908bb19d1a6157",
+                      "bytes":  643,
+                      "last_write_utc":  "2026-11-03T19:04:33.0822808Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\2\\7\\e\\c\\d\\27ecd23e8ab8a9b3e8bd3ba17f4fdd4a9d2b69755f908bb19d1a6157.body",
+                      "bytes":  45335,
+                      "last_write_utc":  "2026-11-03T18:43:02.0312071Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\2\\b\\1\\d\\2\\2b1d293c3d18b4323770d2cd4fd26b0d9830fd0996d25d67d5bf7d2c",
+                      "bytes":  1257,
+                      "last_write_utc":  "2026-11-03T18:40:38.2098980Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\2\\b\\1\\d\\2\\2b1d293c3d18b4323770d2cd4fd26b0d9830fd0996d25d67d5bf7d2c.body",
+                      "bytes":  92853,
+                      "last_write_utc":  "2026-11-03T18:40:38.2248637Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\2\\c\\4\\a\\5\\2c4a587704102f10821765c44e6a1105cf53f204749fc4ea68e6c959",
+                      "bytes":  1278,
+                      "last_write_utc":  "2026-11-03T18:40:07.3864730Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\2\\c\\4\\a\\5\\2c4a587704102f10821765c44e6a1105cf53f204749fc4ea68e6c959.body",
+                      "bytes":  5152,
+                      "last_write_utc":  "2026-11-03T18:40:07.4014612Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\2\\c\\b\\f\\c\\2cbfcb3c43dfe4d68d7e7a63d83ce47abe237b857b71d7f73288f8b1",
+                      "bytes":  1238,
+                      "last_write_utc":  "2026-11-03T18:40:39.4721573Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\2\\c\\b\\f\\c\\2cbfcb3c43dfe4d68d7e7a63d83ce47abe237b857b71d7f73288f8b1.body",
+                      "bytes":  9534,
+                      "last_write_utc":  "2026-11-03T18:40:39.4871123Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\2\\e\\0\\b\\1\\2e0b104156b59fc95cf18a269ffed21374c7d170902fa4d96c00004d",
+                      "bytes":  1231,
+                      "last_write_utc":  "2026-11-03T18:40:34.0222907Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\2\\e\\0\\b\\1\\2e0b104156b59fc95cf18a269ffed21374c7d170902fa4d96c00004d.body",
+                      "bytes":  135717,
+                      "last_write_utc":  "2026-11-03T18:40:34.0376416Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\2\\f\\7\\c\\c\\2f7cc4a8f3638b8c00c6f733763cb4b8ea30a178a1d3d5b7c1537401",
+                      "bytes":  1278,
+                      "last_write_utc":  "2026-11-04T07:56:43.1718757Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\2\\f\\7\\c\\c\\2f7cc4a8f3638b8c00c6f733763cb4b8ea30a178a1d3d5b7c1537401.body",
+                      "bytes":  2060,
+                      "last_write_utc":  "2026-11-04T07:56:43.1884512Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\1\\5\\b\\d\\315bd5994915d999cc934902f11d8d89b7bce4fc77ed43b9a66f4aad",
+                      "bytes":  1898,
+                      "last_write_utc":  "2026-11-03T18:40:09.4413717Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\1\\5\\b\\d\\315bd5994915d999cc934902f11d8d89b7bce4fc77ed43b9a66f4aad.body",
+                      "bytes":  4045,
+                      "last_write_utc":  "2026-11-03T18:40:09.4596208Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\1\\c\\6\\9\\31c69fa94c24f1bbeb4dc300ed0fb03a1638372c15b37b6bd3d4fe3b",
+                      "bytes":  1276,
+                      "last_write_utc":  "2026-11-03T18:40:12.7297799Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\1\\c\\6\\9\\31c69fa94c24f1bbeb4dc300ed0fb03a1638372c15b37b6bd3d4fe3b.body",
+                      "bytes":  8180,
+                      "last_write_utc":  "2026-11-03T18:40:12.7442649Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\1\\e\\7\\3\\31e732d471eda2b72ff0bf252966dc07476feae2918232d8a7a5ffd9",
+                      "bytes":  1276,
+                      "last_write_utc":  "2026-11-03T18:40:12.4134580Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\1\\e\\7\\3\\31e732d471eda2b72ff0bf252966dc07476feae2918232d8a7a5ffd9.body",
+                      "bytes":  23692,
+                      "last_write_utc":  "2026-11-03T18:40:12.4279519Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\4\\1\\7\\0\\341703dbb77865b7fa311cf922015eaa7820372ce966af1c1e1da06b",
+                      "bytes":  1235,
+                      "last_write_utc":  "2026-11-03T18:40:34.1706263Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\4\\1\\7\\0\\341703dbb77865b7fa311cf922015eaa7820372ce966af1c1e1da06b.body",
+                      "bytes":  135082,
+                      "last_write_utc":  "2026-11-03T18:40:34.1872231Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\4\\a\\5\\7\\34a5713eb0f0da5c491ba44e38631aade855840f0b00bd070493efab",
+                      "bytes":  1252,
+                      "last_write_utc":  "2026-11-03T18:40:09.8934661Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\4\\a\\5\\7\\34a5713eb0f0da5c491ba44e38631aade855840f0b00bd070493efab.body",
+                      "bytes":  6447,
+                      "last_write_utc":  "2026-11-03T18:40:09.9084330Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\5\\0\\6\\c\\3506c6f060d2d902bef431ef0574bc4c6df0eddbfdc9eeccfba29686",
+                      "bytes":  1274,
+                      "last_write_utc":  "2026-11-03T18:40:02.9085021Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\5\\0\\6\\c\\3506c6f060d2d902bef431ef0574bc4c6df0eddbfdc9eeccfba29686.body",
+                      "bytes":  22315,
+                      "last_write_utc":  "2026-11-03T18:40:02.9235524Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\5\\8\\d\\9\\358d9164fbffff48dd2beae0acf1ea26f4118d7610c16b731b69dcec",
+                      "bytes":  1898,
+                      "last_write_utc":  "2026-11-03T19:04:52.4342088Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\5\\8\\d\\9\\358d9164fbffff48dd2beae0acf1ea26f4118d7610c16b731b69dcec.body",
+                      "bytes":  7962,
+                      "last_write_utc":  "2026-11-03T19:04:52.4511429Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\7\\2\\8\\c\\3728cc57e0a699b574537a9634d1b2d4b2765f6e9411d970b2d219ac",
+                      "bytes":  642,
+                      "last_write_utc":  "2026-11-03T19:05:33.9729433Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\7\\2\\8\\c\\3728cc57e0a699b574537a9634d1b2d4b2765f6e9411d970b2d219ac.body",
+                      "bytes":  2968,
+                      "last_write_utc":  "2026-11-03T18:52:27.5833078Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\8\\6\\0\\e\\3860e4de9ae53c79d2fd61419e9049df314ccc8b640782c02c6e2e2d",
+                      "bytes":  1898,
+                      "last_write_utc":  "2026-11-03T18:40:03.0828021Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\8\\6\\0\\e\\3860e4de9ae53c79d2fd61419e9049df314ccc8b640782c02c6e2e2d.body",
+                      "bytes":  44604,
+                      "last_write_utc":  "2026-11-03T18:40:03.0978649Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\c\\f\\9\\9\\3cf9972d7e183f32267558a027dd05bbc91bc7b7ca370b2511934842",
+                      "bytes":  1250,
+                      "last_write_utc":  "2026-11-03T18:40:38.6719019Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\c\\f\\9\\9\\3cf9972d7e183f32267558a027dd05bbc91bc7b7ca370b2511934842.body",
+                      "bytes":  86211,
+                      "last_write_utc":  "2026-11-03T18:40:38.6884387Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\c\\f\\e\\8\\3cfe8ad0742088368690cfec457312d12dd46f85d524823fd19b772f",
+                      "bytes":  1280,
+                      "last_write_utc":  "2026-11-03T18:40:10.2008032Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\c\\f\\e\\8\\3cfe8ad0742088368690cfec457312d12dd46f85d524823fd19b772f.body",
+                      "bytes":  2527,
+                      "last_write_utc":  "2026-11-03T18:40:10.2158950Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\d\\2\\3\\a\\3d23a5ad548471fdadffd54fe2363185ef4648db7c0bf11d16c83f16",
+                      "bytes":  1262,
+                      "last_write_utc":  "2026-11-03T19:02:08.4026772Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\d\\2\\3\\a\\3d23a5ad548471fdadffd54fe2363185ef4648db7c0bf11d16c83f16.body",
+                      "bytes":  536198,
+                      "last_write_utc":  "2026-11-03T19:02:08.4225300Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\e\\9\\a\\4\\3e9a4e7f56493e9f06407dbc32afae529f65c7ec2e8742451dcc4271",
+                      "bytes":  1896,
+                      "last_write_utc":  "2026-11-03T18:40:12.5762796Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\3\\e\\9\\a\\4\\3e9a4e7f56493e9f06407dbc32afae529f65c7ec2e8742451dcc4271.body",
+                      "bytes":  8353,
+                      "last_write_utc":  "2026-11-03T18:40:12.5911743Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\0\\d\\d\\1\\40dd1ddd968875b37da527b5cf84946a953d23b4599ad6051d2f650b",
+                      "bytes":  602,
+                      "last_write_utc":  "2026-11-03T19:02:10.0103659Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\0\\d\\d\\1\\40dd1ddd968875b37da527b5cf84946a953d23b4599ad6051d2f650b.body",
+                      "bytes":  134899,
+                      "last_write_utc":  "2026-11-03T19:02:10.0294101Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\1\\a\\e\\c\\41aec2e5bdd903f15f1f1118d58b99344b8ac4e9c7e16a7d1b8cc25e",
+                      "bytes":  1271,
+                      "last_write_utc":  "2026-11-03T18:40:04.8377499Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\1\\a\\e\\c\\41aec2e5bdd903f15f1f1118d58b99344b8ac4e9c7e16a7d1b8cc25e.body",
+                      "bytes":  6540,
+                      "last_write_utc":  "2026-11-03T18:40:04.8529218Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\2\\0\\3\\4\\42034c7c91e5dbbe04894ec38f1c44a060efee67e7349bae4cfb1412",
+                      "bytes":  1249,
+                      "last_write_utc":  "2026-11-03T18:40:40.0557524Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\2\\0\\3\\4\\42034c7c91e5dbbe04894ec38f1c44a060efee67e7349bae4cfb1412.body",
+                      "bytes":  11893,
+                      "last_write_utc":  "2026-11-03T18:40:40.0718220Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\2\\4\\c\\4\\424c497ebb48f09f99ccf2753672121c2cf002ea2840f17db91044f8",
+                      "bytes":  1196,
+                      "last_write_utc":  "2026-11-03T18:40:27.0741620Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\2\\4\\c\\4\\424c497ebb48f09f99ccf2753672121c2cf002ea2840f17db91044f8.body",
+                      "bytes":  37188323,
+                      "last_write_utc":  "2026-11-03T18:40:27.2861347Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\2\\a\\c\\1\\42ac1c1f08de95ed8f783eeec3ebe8f9183bdc5c566fbab35b9da3cc",
+                      "bytes":  604,
+                      "last_write_utc":  "2026-11-03T19:05:34.2506500Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\2\\a\\c\\1\\42ac1c1f08de95ed8f783eeec3ebe8f9183bdc5c566fbab35b9da3cc.body",
+                      "bytes":  1142103,
+                      "last_write_utc":  "2026-11-03T18:52:28.2263927Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\3\\1\\0\\a\\4310a14c9aa3ce1575b521b198f0b746bc0c8a0ed1817b28db2f59fb",
+                      "bytes":  1898,
+                      "last_write_utc":  "2026-11-03T18:40:10.3553968Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\3\\1\\0\\a\\4310a14c9aa3ce1575b521b198f0b746bc0c8a0ed1817b28db2f59fb.body",
+                      "bytes":  4548,
+                      "last_write_utc":  "2026-11-03T18:40:10.3736214Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\4\\e\\5\\b\\44e5b11a6caa92636d8ccfe658d420ba4ed8f67f7f4e835b214255aa",
+                      "bytes":  1899,
+                      "last_write_utc":  "2026-11-03T18:40:07.5453017Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\4\\e\\5\\b\\44e5b11a6caa92636d8ccfe658d420ba4ed8f67f7f4e835b214255aa.body",
+                      "bytes":  14909,
+                      "last_write_utc":  "2026-11-03T18:40:07.5587931Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\5\\9\\c\\1\\459c164d9ee240dc086ea20e4130182feceabd583aa5367be8f6a67c",
+                      "bytes":  1900,
+                      "last_write_utc":  "2026-11-03T18:40:12.8946407Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\5\\9\\c\\1\\459c164d9ee240dc086ea20e4130182feceabd583aa5367be8f6a67c.body",
+                      "bytes":  11311,
+                      "last_write_utc":  "2026-11-03T18:40:12.9116093Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\6\\3\\f\\7\\463f74c6cc5fc4a5eb62ae96bef7b9caf005f4a50970dfe9c6212329",
+                      "bytes":  1278,
+                      "last_write_utc":  "2026-11-03T18:40:07.0259712Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\6\\3\\f\\7\\463f74c6cc5fc4a5eb62ae96bef7b9caf005f4a50970dfe9c6212329.body",
+                      "bytes":  139903,
+                      "last_write_utc":  "2026-11-03T18:40:07.0437305Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\6\\7\\8\\2\\46782699abbec5872b7532f8fdb60b49d903fe55317d456987dab6fe",
+                      "bytes":  1898,
+                      "last_write_utc":  "2026-11-03T18:40:05.3204434Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\6\\7\\8\\2\\46782699abbec5872b7532f8fdb60b49d903fe55317d456987dab6fe.body",
+                      "bytes":  110195,
+                      "last_write_utc":  "2026-11-03T18:40:05.3344269Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\6\\d\\d\\6\\46dd6c7d38d9678c38989b4cd14dca9da87ef21be758c0f56968decd",
+                      "bytes":  1898,
+                      "last_write_utc":  "2026-11-03T18:40:00.5746041Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\6\\d\\d\\6\\46dd6c7d38d9678c38989b4cd14dca9da87ef21be758c0f56968decd.body",
+                      "bytes":  177979,
+                      "last_write_utc":  "2026-11-03T18:40:00.5898610Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\8\\4\\a\\8\\484a87c470bf881da789905e89842b57bae0f1dac368ba88de934863",
+                      "bytes":  1294,
+                      "last_write_utc":  "2026-11-03T18:40:13.9917606Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\8\\4\\a\\8\\484a87c470bf881da789905e89842b57bae0f1dac368ba88de934863.body",
+                      "bytes":  5713,
+                      "last_write_utc":  "2026-11-03T18:40:14.0068859Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\b\\c\\2\\2\\4bc2254e8e4d54c633c048f7452da2dca4b5903c06f90a1620dc81ff",
+                      "bytes":  1236,
+                      "last_write_utc":  "2026-11-03T18:40:38.5300954Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\b\\c\\2\\2\\4bc2254e8e4d54c633c048f7452da2dca4b5903c06f90a1620dc81ff.body",
+                      "bytes":  26362,
+                      "last_write_utc":  "2026-11-03T18:40:38.5442323Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\b\\e\\0\\7\\4be07d3ac353e38d2c9e3a257cad36ee2a758fc88b4cd5f0d479a5a9",
+                      "bytes":  1872,
+                      "last_write_utc":  "2026-11-03T18:40:11.9521962Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\b\\e\\0\\7\\4be07d3ac353e38d2c9e3a257cad36ee2a758fc88b4cd5f0d479a5a9.body",
+                      "bytes":  20105,
+                      "last_write_utc":  "2026-11-03T18:40:11.9661268Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\c\\5\\2\\e\\4c52e6debea1d29c54f52b0dbada3ffe65c017c907055a0a3a13ee08",
+                      "bytes":  1295,
+                      "last_write_utc":  "2026-11-03T18:42:37.9165023Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\c\\5\\2\\e\\4c52e6debea1d29c54f52b0dbada3ffe65c017c907055a0a3a13ee08.body",
+                      "bytes":  1976,
+                      "last_write_utc":  "2026-11-03T18:42:37.9355124Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\e\\6\\a\\0\\4e6a0f925c478bba1e1499dc573f162850fb205aadda307079a2496b",
+                      "bytes":  1277,
+                      "last_write_utc":  "2026-11-03T18:40:08.9420115Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\e\\6\\a\\0\\4e6a0f925c478bba1e1499dc573f162850fb205aadda307079a2496b.body",
+                      "bytes":  23678,
+                      "last_write_utc":  "2026-11-03T18:40:08.9595119Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\e\\e\\3\\1\\4ee3138b60ee0c1b5c7c6d39d2830adba9f08a2f0a1a300dfb7d80b0",
+                      "bytes":  1875,
+                      "last_write_utc":  "2026-11-03T18:40:05.6714390Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\e\\e\\3\\1\\4ee3138b60ee0c1b5c7c6d39d2830adba9f08a2f0a1a300dfb7d80b0.body",
+                      "bytes":  423351,
+                      "last_write_utc":  "2026-11-03T18:40:05.6894428Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\e\\f\\5\\6\\4ef56ded4ddd2fae64e1815ca8e8692e2be13545bebc62f6e0183330",
+                      "bytes":  1264,
+                      "last_write_utc":  "2026-11-03T18:40:08.6259874Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\4\\e\\f\\5\\6\\4ef56ded4ddd2fae64e1815ca8e8692e2be13545bebc62f6e0183330.body",
+                      "bytes":  1121,
+                      "last_write_utc":  "2026-11-03T18:40:08.6420258Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\3\\6\\2\\8\\536280ba603ddfd351f5f8065df81cf709bb87a2faafb7b4e717a353",
+                      "bytes":  641,
+                      "last_write_utc":  "2026-11-03T19:05:33.3498612Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\3\\6\\2\\8\\536280ba603ddfd351f5f8065df81cf709bb87a2faafb7b4e717a353.body",
+                      "bytes":  19744971,
+                      "last_write_utc":  "2026-11-03T18:52:27.3365436Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\3\\b\\5\\4\\53b543c3cdf7d0e8ef646f841157f443065fa7107b23e218a4c330b4",
+                      "bytes":  643,
+                      "last_write_utc":  "2026-11-03T18:52:45.9351326Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\3\\b\\5\\4\\53b543c3cdf7d0e8ef646f841157f443065fa7107b23e218a4c330b4.body",
+                      "bytes":  25549,
+                      "last_write_utc":  "2026-11-03T18:52:45.9523946Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\5\\7\\8\\f\\5578f04015bc72d34ccff0865612606d646694de3865112ddef4292f",
+                      "bytes":  1229,
+                      "last_write_utc":  "2026-11-03T18:40:29.7446979Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\5\\7\\8\\f\\5578f04015bc72d34ccff0865612606d646694de3865112ddef4292f.body",
+                      "bytes":  69583,
+                      "last_write_utc":  "2026-11-03T18:40:29.7624376Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\9\\5\\f\\0\\595f01992f9f5fbeec150b38875346e8994c242a466ab0cd4fed9cad",
+                      "bytes":  1897,
+                      "last_write_utc":  "2026-11-03T18:40:13.8388558Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\9\\5\\f\\0\\595f01992f9f5fbeec150b38875346e8994c242a466ab0cd4fed9cad.body",
+                      "bytes":  9998,
+                      "last_write_utc":  "2026-11-03T18:40:13.8513588Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\a\\e\\b\\5\\5aeb5f293cbd2926d2da51f39ee2351620870a6a62d04ab7243fce82",
+                      "bytes":  1208,
+                      "last_write_utc":  "2026-11-03T18:40:16.6835968Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\a\\e\\b\\5\\5aeb5f293cbd2926d2da51f39ee2351620870a6a62d04ab7243fce82.body",
+                      "bytes":  12739445,
+                      "last_write_utc":  "2026-11-03T18:40:16.7606153Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\b\\d\\8\\9\\5bd894eeb3dfe1c8aaee1daecdfb74bbb314293813a730238621f077",
+                      "bytes":  1900,
+                      "last_write_utc":  "2026-11-03T18:40:10.9937656Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\b\\d\\8\\9\\5bd894eeb3dfe1c8aaee1daecdfb74bbb314293813a730238621f077.body",
+                      "bytes":  271714,
+                      "last_write_utc":  "2026-11-03T18:40:11.0097011Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\c\\3\\c\\d\\5c3cd2ffa0bb10d724e8f9b0aa7072fea4805693dccf6192adf0c0b4",
+                      "bytes":  1234,
+                      "last_write_utc":  "2026-11-03T18:40:35.0918046Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\c\\3\\c\\d\\5c3cd2ffa0bb10d724e8f9b0aa7072fea4805693dccf6192adf0c0b4.body",
+                      "bytes":  5443448,
+                      "last_write_utc":  "2026-11-03T18:40:35.1326178Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\d\\8\\6\\2\\5d862704d3e17307bb96b138da639ffd45fddd47817efcb99021385f",
+                      "bytes":  1251,
+                      "last_write_utc":  "2026-11-03T18:40:09.5946495Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\d\\8\\6\\2\\5d862704d3e17307bb96b138da639ffd45fddd47817efcb99021385f.body",
+                      "bytes":  2463,
+                      "last_write_utc":  "2026-11-03T18:40:09.6084868Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\d\\e\\7\\4\\5de74aa606aaf8588141cbe765382839ecb0982f091a947770ca6fa8",
+                      "bytes":  1279,
+                      "last_write_utc":  "2026-11-03T19:02:08.6183738Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\d\\e\\7\\4\\5de74aa606aaf8588141cbe765382839ecb0982f091a947770ca6fa8.body",
+                      "bytes":  45571,
+                      "last_write_utc":  "2026-11-03T19:02:08.6373727Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\e\\1\\5\\6\\5e1566c3cd6ebe85e96ca647578431e485dbc275e8e8ec5aaf5ff3e8",
+                      "bytes":  1869,
+                      "last_write_utc":  "2026-11-03T18:40:08.7810235Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\e\\1\\5\\6\\5e1566c3cd6ebe85e96ca647578431e485dbc275e8e8ec5aaf5ff3e8.body",
+                      "bytes":  9101,
+                      "last_write_utc":  "2026-11-03T18:40:08.7977082Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\f\\3\\b\\0\\5f3b06ec7fcaf9103b611eb768299fad443e81b3b655a7190ec8ffc7",
+                      "bytes":  1206,
+                      "last_write_utc":  "2026-11-04T07:56:51.3051249Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\f\\3\\b\\0\\5f3b06ec7fcaf9103b611eb768299fad443e81b3b655a7190ec8ffc7.body",
+                      "bytes":  767542,
+                      "last_write_utc":  "2026-11-04T07:56:51.3558926Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\f\\a\\9\\b\\5fa9b39efcc9f45c487dab50ba67fa13d6febd14466092be8c74030f",
+                      "bytes":  1252,
+                      "last_write_utc":  "2026-11-03T18:39:59.9457733Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\f\\a\\9\\b\\5fa9b39efcc9f45c487dab50ba67fa13d6febd14466092be8c74030f.body",
+                      "bytes":  3292,
+                      "last_write_utc":  "2026-11-03T18:39:59.9652760Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\f\\a\\f\\0\\5faf00c54fc36550a518cc353f9b59e8a5d73fbcaea5e307238a29f7",
+                      "bytes":  644,
+                      "last_write_utc":  "2026-11-03T19:04:26.1765588Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\5\\f\\a\\f\\0\\5faf00c54fc36550a518cc353f9b59e8a5d73fbcaea5e307238a29f7.body",
+                      "bytes":  106699,
+                      "last_write_utc":  "2026-11-03T18:42:35.9589063Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\0\\8\\7\\3\\60873756db1169508e978b4724725c8e329dc126045ef17b72c55192",
+                      "bytes":  1303,
+                      "last_write_utc":  "2026-11-03T18:42:52.9489613Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\0\\8\\7\\3\\60873756db1169508e978b4724725c8e329dc126045ef17b72c55192.body",
+                      "bytes":  10609,
+                      "last_write_utc":  "2026-11-03T18:42:52.9658032Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\1\\4\\2\\e\\6142eba3624140f37ea7c64c64d429579696ea9044901aa0d1ae4553",
+                      "bytes":  606,
+                      "last_write_utc":  "2026-11-03T19:04:32.4627406Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\1\\4\\2\\e\\6142eba3624140f37ea7c64c64d429579696ea9044901aa0d1ae4553.body",
+                      "bytes":  8917980,
+                      "last_write_utc":  "2026-11-03T18:43:01.1959924Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\2\\d\\5\\c\\62d5c3ff305c0cf5fa7e2a6417ad5310ba8578f7a1e72512ddfef9d5",
+                      "bytes":  1275,
+                      "last_write_utc":  "2026-11-03T18:42:48.2705384Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\2\\d\\5\\c\\62d5c3ff305c0cf5fa7e2a6417ad5310ba8578f7a1e72512ddfef9d5.body",
+                      "bytes":  6719,
+                      "last_write_utc":  "2026-11-03T18:42:48.2907137Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\3\\a\\1\\c\\63a1c7aef5ed99668744302e397bd8b7dc5a8163e02c959246cd4464",
+                      "bytes":  643,
+                      "last_write_utc":  "2026-11-03T19:04:27.5329621Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\3\\a\\1\\c\\63a1c7aef5ed99668744302e397bd8b7dc5a8163e02c959246cd4464.body",
+                      "bytes":  78635,
+                      "last_write_utc":  "2026-11-03T18:42:47.9611920Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\4\\c\\f\\c\\64cfc03e83f9fad4049b1d2a1d785c9273270a4ab9788b538f5054e3",
+                      "bytes":  1872,
+                      "last_write_utc":  "2026-11-03T18:40:06.7521089Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\4\\c\\f\\c\\64cfc03e83f9fad4049b1d2a1d785c9273270a4ab9788b538f5054e3.body",
+                      "bytes":  352598,
+                      "last_write_utc":  "2026-11-03T18:40:06.7690469Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\4\\e\\2\\9\\64e296cbfe60aae9cd77672acb86809b404934de3a43033ab1af5b5f",
+                      "bytes":  643,
+                      "last_write_utc":  "2026-11-03T19:05:17.9540212Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\4\\e\\2\\9\\64e296cbfe60aae9cd77672acb86809b404934de3a43033ab1af5b5f.body",
+                      "bytes":  14806,
+                      "last_write_utc":  "2026-11-03T18:48:51.1029295Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\5\\1\\e\\5\\651e58859e8db8c99b9e7068d03984cfd4577518ff0e021c717afbf4",
+                      "bytes":  1280,
+                      "last_write_utc":  "2026-11-03T18:40:06.5686305Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\5\\1\\e\\5\\651e58859e8db8c99b9e7068d03984cfd4577518ff0e021c717afbf4.body",
+                      "bytes":  3779,
+                      "last_write_utc":  "2026-11-03T18:40:06.5865910Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\5\\4\\4\\c\\6544c2585a8dfaebf3ea2537bede0c2fbd439c497e11315f4345365e",
+                      "bytes":  768,
+                      "last_write_utc":  "2026-11-03T18:42:32.3509061Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\5\\4\\4\\c\\6544c2585a8dfaebf3ea2537bede0c2fbd439c497e11315f4345365e.body",
+                      "bytes":  30252,
+                      "last_write_utc":  "2026-11-03T18:42:32.3681542Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\6\\e\\c\\7\\66ec76a7b6ed4081044f5c7821af293b63c17bc2ac523ff93d5ca7d5",
+                      "bytes":  1875,
+                      "last_write_utc":  "2026-11-03T18:39:59.3049869Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\6\\e\\c\\7\\66ec76a7b6ed4081044f5c7821af293b63c17bc2ac523ff93d5ca7d5.body",
+                      "bytes":  286196,
+                      "last_write_utc":  "2026-11-03T18:39:59.3234744Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\7\\f\\5\\b\\67f5b5747518cbf74987d367c9e086a003d777484ff6398b7b101a95",
+                      "bytes":  1285,
+                      "last_write_utc":  "2026-11-03T18:40:37.6755659Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\7\\f\\5\\b\\67f5b5747518cbf74987d367c9e086a003d777484ff6398b7b101a95.body",
+                      "bytes":  13993,
+                      "last_write_utc":  "2026-11-03T18:40:37.6937581Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\8\\c\\a\\7\\68ca780eba360688ca812ff0aee3ad395f17a35d822ed3ae715f064c",
+                      "bytes":  643,
+                      "last_write_utc":  "2026-11-03T19:05:34.5102819Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\8\\c\\a\\7\\68ca780eba360688ca812ff0aee3ad395f17a35d822ed3ae715f064c.body",
+                      "bytes":  46127,
+                      "last_write_utc":  "2026-11-03T18:53:02.6796659Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\9\\e\\2\\b\\69e2bd90138f82116ccf40281b18352a8e3174d817cc9189d02aef18",
+                      "bytes":  1280,
+                      "last_write_utc":  "2026-11-03T18:40:13.0484168Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\9\\e\\2\\b\\69e2bd90138f82116ccf40281b18352a8e3174d817cc9189d02aef18.body",
+                      "bytes":  7079,
+                      "last_write_utc":  "2026-11-03T18:40:13.0645180Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\a\\e\\8\\e\\6ae8e8506a840acfaaa00834840dd3d52be7601983122991941c0fee",
+                      "bytes":  643,
+                      "last_write_utc":  "2026-11-03T18:42:41.0059518Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\a\\e\\8\\e\\6ae8e8506a840acfaaa00834840dd3d52be7601983122991941c0fee.body",
+                      "bytes":  49903,
+                      "last_write_utc":  "2026-11-03T18:42:41.0225228Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\c\\2\\e\\f\\6c2ef01137d50405712309e049ebec1d497a13fa85661cd3df520e39",
+                      "bytes":  600,
+                      "last_write_utc":  "2026-11-03T19:04:27.2575220Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\c\\2\\e\\f\\6c2ef01137d50405712309e049ebec1d497a13fa85661cd3df520e39.body",
+                      "bytes":  6599,
+                      "last_write_utc":  "2026-11-03T18:42:41.8469551Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\c\\6\\e\\e\\6c6eeaf6757edbde690577822daacaba826c2b12ce67b57b33e8021d",
+                      "bytes":  1229,
+                      "last_write_utc":  "2026-11-03T18:40:34.4747963Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\c\\6\\e\\e\\6c6eeaf6757edbde690577822daacaba826c2b12ce67b57b33e8021d.body",
+                      "bytes":  8321,
+                      "last_write_utc":  "2026-11-03T18:40:34.4889237Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\d\\4\\5\\6\\6d45661c8528eec24a3bda8c6ac0b2d711be10662b13fbf9fb560c1e",
+                      "bytes":  1870,
+                      "last_write_utc":  "2026-11-03T18:40:13.5379430Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\d\\4\\5\\6\\6d45661c8528eec24a3bda8c6ac0b2d711be10662b13fbf9fb560c1e.body",
+                      "bytes":  8042,
+                      "last_write_utc":  "2026-11-03T18:40:13.5512080Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\e\\3\\1\\8\\6e318a12ccb36622c715c72cea568ef29cdc833d3327b4ab114c4986",
+                      "bytes":  643,
+                      "last_write_utc":  "2026-11-03T19:05:33.0277462Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\e\\3\\1\\8\\6e318a12ccb36622c715c72cea568ef29cdc833d3327b4ab114c4986.body",
+                      "bytes":  15012,
+                      "last_write_utc":  "2026-11-03T18:52:23.4126363Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\e\\9\\5\\e\\6e95e98189bddf937993f3feb9469906abbc5e11ade1df01509091e4",
+                      "bytes":  1236,
+                      "last_write_utc":  "2026-11-03T18:40:38.8351029Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\6\\e\\9\\5\\e\\6e95e98189bddf937993f3feb9469906abbc5e11ade1df01509091e4.body",
+                      "bytes":  348210,
+                      "last_write_utc":  "2026-11-03T18:40:38.8532233Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\7\\0\\e\\1\\0\\70e102208004780f2ee2eb5869df8c9f3a76afdb9a8b54a5b184c4d2",
+                      "bytes":  1246,
+                      "last_write_utc":  "2026-11-03T18:40:03.2464372Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\7\\0\\e\\1\\0\\70e102208004780f2ee2eb5869df8c9f3a76afdb9a8b54a5b184c4d2.body",
+                      "bytes":  57675,
+                      "last_write_utc":  "2026-11-03T18:40:03.2606047Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\7\\2\\8\\a\\2\\728a2f33f382f4dacf08f6df77aad6f3d889f819ba4fa3efad5ec7e4",
+                      "bytes":  1899,
+                      "last_write_utc":  "2026-11-03T18:40:07.2084996Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\7\\2\\8\\a\\2\\728a2f33f382f4dacf08f6df77aad6f3d889f819ba4fa3efad5ec7e4.body",
+                      "bytes":  138517,
+                      "last_write_utc":  "2026-11-03T18:40:07.2236455Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\7\\3\\c\\3\\a\\73c3a780e17f5e947c788a9cb111cdef096f43dbe925001283e27a77",
+                      "bytes":  1897,
+                      "last_write_utc":  "2026-11-03T18:40:07.8408987Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\7\\3\\c\\3\\a\\73c3a780e17f5e947c788a9cb111cdef096f43dbe925001283e27a77.body",
+                      "bytes":  37310,
+                      "last_write_utc":  "2026-11-03T18:40:07.8542345Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\7\\4\\b\\d\\f\\74bdf372f3d845193f395b9ba4ed91510cd09dc32621fc25fe02568d",
+                      "bytes":  1900,
+                      "last_write_utc":  "2026-11-03T18:40:02.7275511Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\7\\4\\b\\d\\f\\74bdf372f3d845193f395b9ba4ed91510cd09dc32621fc25fe02568d.body",
+                      "bytes":  161570,
+                      "last_write_utc":  "2026-11-03T18:40:02.7439583Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\7\\5\\6\\f\\a\\756faff88b5a64bea74c21c1ac02303100e3b934606df8dfa5780266",
+                      "bytes":  446,
+                      "last_write_utc":  "2026-11-03T18:52:45.4613978Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\7\\5\\6\\f\\a\\756faff88b5a64bea74c21c1ac02303100e3b934606df8dfa5780266.body",
+                      "bytes":  1663,
+                      "last_write_utc":  "2026-11-03T18:52:45.4793148Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\7\\5\\d\\a\\7\\75da720ac42175ed4b83fc4b3e24a1d33cdeba4a4391249a0602b084",
+                      "bytes":  643,
+                      "last_write_utc":  "2026-11-03T19:05:22.4266623Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\7\\5\\d\\a\\7\\75da720ac42175ed4b83fc4b3e24a1d33cdeba4a4391249a0602b084.body",
+                      "bytes":  13935,
+                      "last_write_utc":  "2026-11-03T18:50:43.0601045Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\7\\7\\a\\1\\c\\77a1cb71ed0bf3f938ff2afef628ee3008416312da5b7a971cb3c5ab",
+                      "bytes":  769,
+                      "last_write_utc":  "2026-11-03T18:50:38.9896857Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\7\\7\\a\\1\\c\\77a1cb71ed0bf3f938ff2afef628ee3008416312da5b7a971cb3c5ab.body",
+                      "bytes":  287193691,
+                      "last_write_utc":  "2026-11-03T18:50:40.9504876Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\7\\9\\2\\1\\a\\7921ac3318a5cdb592026cc26a94f7a2c1e1f7d3a1dc1e3857fd49f1",
+                      "bytes":  1898,
+                      "last_write_utc":  "2026-11-03T18:40:06.4178150Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\7\\9\\2\\1\\a\\7921ac3318a5cdb592026cc26a94f7a2c1e1f7d3a1dc1e3857fd49f1.body",
+                      "bytes":  1940,
+                      "last_write_utc":  "2026-11-03T18:40:06.4355259Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\7\\a\\5\\f\\7\\7a5f717e7b3fb99ec006f4d173aad55224eb063005c662c586ba0518",
+                      "bytes":  1898,
+                      "last_write_utc":  "2026-11-03T18:40:10.0449423Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\7\\a\\5\\f\\7\\7a5f717e7b3fb99ec006f4d173aad55224eb063005c662c586ba0518.body",
+                      "bytes":  22817,
+                      "last_write_utc":  "2026-11-03T18:40:10.0603984Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\7\\e\\6\\1\\c\\7e61cc5d72d9e780b403e53c65b2d16456a4ecee37f6bb5d55d92f5b",
+                      "bytes":  642,
+                      "last_write_utc":  "2026-11-03T19:04:28.3988914Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\7\\e\\6\\1\\c\\7e61cc5d72d9e780b403e53c65b2d16456a4ecee37f6bb5d55d92f5b.body",
+                      "bytes":  67151,
+                      "last_write_utc":  "2026-11-03T18:42:52.5923932Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\0\\7\\8\\e\\8078e92b0b202235ee4551134ba00861de89ebe8d3323ded451143b3",
+                      "bytes":  1253,
+                      "last_write_utc":  "2026-11-03T18:40:35.6427341Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\0\\7\\8\\e\\8078e92b0b202235ee4551134ba00861de89ebe8d3323ded451143b3.body",
+                      "bytes":  4885980,
+                      "last_write_utc":  "2026-11-03T18:40:35.6830277Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\1\\c\\8\\4\\81c84bddb52730ae8902cf01987f586bc246fc3873305939a89132a7",
+                      "bytes":  600,
+                      "last_write_utc":  "2026-11-03T19:04:28.1092186Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\1\\c\\8\\4\\81c84bddb52730ae8902cf01987f586bc246fc3873305939a89132a7.body",
+                      "bytes":  2871,
+                      "last_write_utc":  "2026-11-03T18:42:49.6226306Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\2\\7\\0\\b\\8270beed7cfcf2f3f74d1353dba1eb58486adcb5f27e89589ca30bfa",
+                      "bytes":  1898,
+                      "last_write_utc":  "2026-11-03T18:40:08.4765832Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\2\\7\\0\\b\\8270beed7cfcf2f3f74d1353dba1eb58486adcb5f27e89589ca30bfa.body",
+                      "bytes":  1177,
+                      "last_write_utc":  "2026-11-03T18:40:08.4937318Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\3\\7\\6\\5\\83765fc094afeb5c556e7a44f51e69041559878455007bc8f72fe7ba",
+                      "bytes":  644,
+                      "last_write_utc":  "2026-11-03T19:05:10.9223614Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\3\\7\\6\\5\\83765fc094afeb5c556e7a44f51e69041559878455007bc8f72fe7ba.body",
+                      "bytes":  158229790,
+                      "last_write_utc":  "2026-11-03T18:48:48.9186357Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\4\\4\\b\\2\\844b2d5eee83181f8a179873739402c91039a3a4c415c909e14866a6",
+                      "bytes":  1255,
+                      "last_write_utc":  "2026-11-03T18:40:02.2288122Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\4\\4\\b\\2\\844b2d5eee83181f8a179873739402c91039a3a4c415c909e14866a6.body",
+                      "bytes":  11268,
+                      "last_write_utc":  "2026-11-03T18:40:02.2430879Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\6\\0\\c\\1\\860c19959b07bf3999e9af42449c3b1bb27f757b4fb39bb36dd767a3",
+                      "bytes":  640,
+                      "last_write_utc":  "2026-11-03T18:42:44.6812250Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\6\\0\\c\\1\\860c19959b07bf3999e9af42449c3b1bb27f757b4fb39bb36dd767a3.body",
+                      "bytes":  42033,
+                      "last_write_utc":  "2026-11-03T18:42:44.6975841Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\7\\8\\a\\c\\878aca33a3985f3ba8cea259f3043b638a32bbdae4f379d773d30d2e",
+                      "bytes":  1233,
+                      "last_write_utc":  "2026-11-03T19:01:02.6269860Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\7\\8\\a\\c\\878aca33a3985f3ba8cea259f3043b638a32bbdae4f379d773d30d2e.body",
+                      "bytes":  2142205,
+                      "last_write_utc":  "2026-11-03T19:01:02.6524591Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\7\\c\\e\\9\\87ce9edf7955fcf6668e28974f4d4041c72652b8e0dc3e1c665c21a3",
+                      "bytes":  1896,
+                      "last_write_utc":  "2026-11-03T18:40:01.3129790Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\7\\c\\e\\9\\87ce9edf7955fcf6668e28974f4d4041c72652b8e0dc3e1c665c21a3.body",
+                      "bytes":  114445,
+                      "last_write_utc":  "2026-11-03T18:40:01.3296038Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\8\\b\\8\\b\\88b8bfb8f1d620e081b2b226e7936019ed96f3fadbfbd878f24e6be7",
+                      "bytes":  1279,
+                      "last_write_utc":  "2026-11-03T18:40:03.5503055Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\8\\b\\8\\b\\88b8bfb8f1d620e081b2b226e7936019ed96f3fadbfbd878f24e6be7.body",
+                      "bytes":  4610,
+                      "last_write_utc":  "2026-11-03T18:40:03.5642555Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\9\\1\\e\\6\\891e6746964046b02f8110af28ead2df1f1dcb315d449854e155017a",
+                      "bytes":  772,
+                      "last_write_utc":  "2026-11-03T19:00:32.0281583Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\9\\1\\e\\6\\891e6746964046b02f8110af28ead2df1f1dcb315d449854e155017a.body",
+                      "bytes":  170460288,
+                      "last_write_utc":  "2026-11-03T19:00:33.3990162Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\9\\3\\a\\9\\893a9178010858cecf72b523725b46ddedbe6c23406a020810080ab3",
+                      "bytes":  1871,
+                      "last_write_utc":  "2026-11-03T18:40:04.0259257Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\9\\3\\a\\9\\893a9178010858cecf72b523725b46ddedbe6c23406a020810080ab3.body",
+                      "bytes":  82008,
+                      "last_write_utc":  "2026-11-03T18:40:04.0402339Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\b\\2\\4\\2\\8b24226e2da88df4abeee0d8ca6bce79b19ca2bcd5f94b543939c66c",
+                      "bytes":  1900,
+                      "last_write_utc":  "2026-11-03T18:40:11.3545769Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\b\\2\\4\\2\\8b24226e2da88df4abeee0d8ca6bce79b19ca2bcd5f94b543939c66c.body",
+                      "bytes":  10289,
+                      "last_write_utc":  "2026-11-03T18:40:11.3675433Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\d\\0\\e\\1\\8d0e104919449355aedb55b5b546bb9fd53f0e1a8ca1b082109464e9",
+                      "bytes":  1899,
+                      "last_write_utc":  "2026-11-03T18:40:11.6507928Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\d\\0\\e\\1\\8d0e104919449355aedb55b5b546bb9fd53f0e1a8ca1b082109464e9.body",
+                      "bytes":  25898,
+                      "last_write_utc":  "2026-11-03T18:40:11.6675472Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\d\\6\\d\\9\\8d6d9159466801acd4a98aac12c046a67f2512315620b116fd6902fc",
+                      "bytes":  643,
+                      "last_write_utc":  "2026-11-03T19:04:31.2404443Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\8\\d\\6\\d\\9\\8d6d9159466801acd4a98aac12c046a67f2512315620b116fd6902fc.body",
+                      "bytes":  15266,
+                      "last_write_utc":  "2026-11-03T18:42:58.9622194Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\0\\5\\6\\8\\9056849b78d20e678c8fd481e9eb1e9cd6d40b9f4ce03c6f1100f96e",
+                      "bytes":  1296,
+                      "last_write_utc":  "2026-11-03T18:40:13.6809830Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\0\\5\\6\\8\\9056849b78d20e678c8fd481e9eb1e9cd6d40b9f4ce03c6f1100f96e.body",
+                      "bytes":  9123,
+                      "last_write_utc":  "2026-11-03T18:40:13.6966842Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\0\\5\\7\\4\\90574cb3b4a1d7db48325e2339e8ce08ce285ef050e693d3b67130ae",
+                      "bytes":  643,
+                      "last_write_utc":  "2026-11-03T19:04:28.7297287Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\0\\5\\7\\4\\90574cb3b4a1d7db48325e2339e8ce08ce285ef050e693d3b67130ae.body",
+                      "bytes":  15696,
+                      "last_write_utc":  "2026-11-03T18:42:53.4449203Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\0\\c\\c\\6\\90cc6e876cfbbf822d3438296fb13a1644fad34add976996b38c9362",
+                      "bytes":  1277,
+                      "last_write_utc":  "2026-11-03T18:40:11.8003163Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\0\\c\\c\\6\\90cc6e876cfbbf822d3438296fb13a1644fad34add976996b38c9362.body",
+                      "bytes":  7389,
+                      "last_write_utc":  "2026-11-03T18:40:11.8146267Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\1\\e\\2\\9\\91e29cfae6898edea71dc112f1ec999b55fb2b5de4b991fbc5559131",
+                      "bytes":  1232,
+                      "last_write_utc":  "2026-11-03T18:40:28.9522647Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\1\\e\\2\\9\\91e29cfae6898edea71dc112f1ec999b55fb2b5de4b991fbc5559131.body",
+                      "bytes":  604277,
+                      "last_write_utc":  "2026-11-03T18:40:28.9727759Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\2\\d\\7\\9\\92d794b4a88e3bdd7525377ea80b35bfc7975b4f772f4c00720bd76e",
+                      "bytes":  1248,
+                      "last_write_utc":  "2026-11-03T18:40:01.1474116Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\2\\d\\7\\9\\92d794b4a88e3bdd7525377ea80b35bfc7975b4f772f4c00720bd76e.body",
+                      "bytes":  2838,
+                      "last_write_utc":  "2026-11-03T18:40:01.1636965Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\3\\4\\2\\c\\9342ccd26cbebf3b7f292e682bc1a9e8141b62c8c93481f8de30cf71",
+                      "bytes":  1872,
+                      "last_write_utc":  "2026-11-03T18:40:10.6622061Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\3\\4\\2\\c\\9342ccd26cbebf3b7f292e682bc1a9e8141b62c8c93481f8de30cf71.body",
+                      "bytes":  15598,
+                      "last_write_utc":  "2026-11-03T18:40:10.6781105Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\7\\2\\3\\f\\9723f956c2832f0bf7a0b916be4cb31c77752847964e667e66c6bd97",
+                      "bytes":  1898,
+                      "last_write_utc":  "2026-11-03T18:40:08.1490869Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\7\\2\\3\\f\\9723f956c2832f0bf7a0b916be4cb31c77752847964e667e66c6bd97.body",
+                      "bytes":  9826,
+                      "last_write_utc":  "2026-11-03T18:40:08.1669509Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\9\\b\\9\\f\\99b9fb401046d0087739bf3e341643c44de7418b76d1fcbfb1ba4684",
+                      "bytes":  638,
+                      "last_write_utc":  "2026-11-03T19:04:31.6156299Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\9\\b\\9\\f\\99b9fb401046d0087739bf3e341643c44de7418b76d1fcbfb1ba4684.body",
+                      "bytes":  897690,
+                      "last_write_utc":  "2026-11-03T18:42:59.2627507Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\a\\9\\2\\6\\9a926243f3c5fd39ebd3d9552fc85bf7e36eec7bb160784fc1077a4d",
+                      "bytes":  1193,
+                      "last_write_utc":  "2026-11-03T18:40:34.3300160Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\a\\9\\2\\6\\9a926243f3c5fd39ebd3d9552fc85bf7e36eec7bb160784fc1077a4d.body",
+                      "bytes":  383243,
+                      "last_write_utc":  "2026-11-03T18:40:34.3472120Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\a\\9\\7\\a\\9a97ae9e6c46d1ed1a91b9c60ea5ac0925fd6b4cd080ac41e68138b6",
+                      "bytes":  1213,
+                      "last_write_utc":  "2026-11-03T18:40:33.8558266Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\a\\9\\7\\a\\9a97ae9e6c46d1ed1a91b9c60ea5ac0925fd6b4cd080ac41e68138b6.body",
+                      "bytes":  392288,
+                      "last_write_utc":  "2026-11-03T18:40:33.8756523Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\a\\b\\5\\b\\9ab5b17bf96eee9ad9c5fa02817780da9b64af39dddf77dea980557d",
+                      "bytes":  1251,
+                      "last_write_utc":  "2026-11-03T18:40:05.4831547Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\a\\b\\5\\b\\9ab5b17bf96eee9ad9c5fa02817780da9b64af39dddf77dea980557d.body",
+                      "bytes":  4954,
+                      "last_write_utc":  "2026-11-03T18:40:05.4965332Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\b\\5\\1\\6\\9b51619e20a708f99372afefd7dbe20a1b5e42ae213f02bf27267976",
+                      "bytes":  1899,
+                      "last_write_utc":  "2026-11-03T18:40:01.9930086Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\b\\5\\1\\6\\9b51619e20a708f99372afefd7dbe20a1b5e42ae213f02bf27267976.body",
+                      "bytes":  305624,
+                      "last_write_utc":  "2026-11-03T18:40:02.0088419Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\d\\4\\2\\3\\9d4231efbe0f4d5ad6ad8728355ecad3f690b1684e06a180d84dbc32",
+                      "bytes":  644,
+                      "last_write_utc":  "2026-11-03T19:05:02.2382204Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\d\\4\\2\\3\\9d4231efbe0f4d5ad6ad8728355ecad3f690b1684e06a180d84dbc32.body",
+                      "bytes":  200221632,
+                      "last_write_utc":  "2026-11-03T18:47:55.3871691Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\d\\f\\1\\e\\9df1ee6c2e327fe1c6b83e310229ce0dc078eddefce5100826a82a16",
+                      "bytes":  1871,
+                      "last_write_utc":  "2026-11-03T18:39:59.7450675Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\d\\f\\1\\e\\9df1ee6c2e327fe1c6b83e310229ce0dc078eddefce5100826a82a16.body",
+                      "bytes":  189295,
+                      "last_write_utc":  "2026-11-03T18:39:59.7637196Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\e\\1\\e\\8\\9e1e87fd0b1feba06f600b881d4ff1fd1cc341220693d9024534a6bd",
+                      "bytes":  1898,
+                      "last_write_utc":  "2026-11-03T18:40:09.1144690Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\e\\1\\e\\8\\9e1e87fd0b1feba06f600b881d4ff1fd1cc341220693d9024534a6bd.body",
+                      "bytes":  3082,
+                      "last_write_utc":  "2026-11-03T18:40:09.1297218Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\f\\9\\3\\3\\9f93306d7b672475999e1ccb003ed535876b07060341d71f2c054af0",
+                      "bytes":  1871,
+                      "last_write_utc":  "2026-11-03T18:40:12.2645079Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\9\\f\\9\\3\\3\\9f93306d7b672475999e1ccb003ed535876b07060341d71f2c054af0.body",
+                      "bytes":  25388,
+                      "last_write_utc":  "2026-11-03T18:40:12.2782384Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\a\\1\\9\\5\\3\\a19537d3cf37c122db841d6fe4cd322bc10d1a558bb00d146b85cb9a",
+                      "bytes":  1873,
+                      "last_write_utc":  "2026-11-03T18:39:56.4798768Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\a\\1\\9\\5\\3\\a19537d3cf37c122db841d6fe4cd322bc10d1a558bb00d146b85cb9a.body",
+                      "bytes":  38861,
+                      "last_write_utc":  "2026-11-03T18:39:56.4953943Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\a\\1\\e\\0\\a\\a1e0a86bad6bf000641a3b4ec8542efc4fb20564c3b5b964ae34d70f",
+                      "bytes":  1299,
+                      "last_write_utc":  "2026-11-03T18:40:04.5218310Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\a\\1\\e\\0\\a\\a1e0a86bad6bf000641a3b4ec8542efc4fb20564c3b5b964ae34d70f.body",
+                      "bytes":  1358,
+                      "last_write_utc":  "2026-11-03T18:40:04.5418277Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\a\\4\\c\\7\\7\\a4c7774304a851dad9a542bf39c9413bd254ed035b05238b9c32e307",
+                      "bytes":  1280,
+                      "last_write_utc":  "2026-11-03T18:40:05.1478236Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\a\\4\\c\\7\\7\\a4c7774304a851dad9a542bf39c9413bd254ed035b05238b9c32e307.body",
+                      "bytes":  24052,
+                      "last_write_utc":  "2026-11-03T18:40:05.1620877Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\a\\5\\c\\a\\a\\a5caaf0c9e3464ce0253ae12b5a401d5319c338a9e5090d040fb03ab",
+                      "bytes":  1279,
+                      "last_write_utc":  "2026-11-03T18:39:59.5526444Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\a\\5\\c\\a\\a\\a5caaf0c9e3464ce0253ae12b5a401d5319c338a9e5090d040fb03ab.body",
+                      "bytes":  89901,
+                      "last_write_utc":  "2026-11-03T18:39:59.5691653Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\a\\7\\0\\9\\4\\a7094ed5a4cc16f47a5321a9f38285921c17bacfd72d0b4f42bc4cf5",
+                      "bytes":  1233,
+                      "last_write_utc":  "2026-11-03T19:02:07.6889535Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\a\\7\\0\\9\\4\\a7094ed5a4cc16f47a5321a9f38285921c17bacfd72d0b4f42bc4cf5.body",
+                      "bytes":  6299353,
+                      "last_write_utc":  "2026-11-03T19:02:07.7424971Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\a\\a\\7\\0\\6\\aa706f9b39d8f380a83d6308c4c316faa6ae0f790eadd6fdfc93beb2",
+                      "bytes":  1208,
+                      "last_write_utc":  "2026-11-03T18:40:15.6410564Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\a\\a\\7\\0\\6\\aa706f9b39d8f380a83d6308c4c316faa6ae0f790eadd6fdfc93beb2.body",
+                      "bytes":  16527618,
+                      "last_write_utc":  "2026-11-03T18:40:15.7462451Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\a\\c\\a\\1\\8\\aca18640ed8802e03e05b07d841ca27bc2a6fbde351362d6b60d6eb8",
+                      "bytes":  1295,
+                      "last_write_utc":  "2026-11-03T18:40:05.9222357Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\a\\c\\a\\1\\8\\aca18640ed8802e03e05b07d841ca27bc2a6fbde351362d6b60d6eb8.body",
+                      "bytes":  9118,
+                      "last_write_utc":  "2026-11-03T18:40:05.9360647Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\a\\d\\8\\9\\6\\ad896e9f6f090eeacb3fa6938b190685423374a2e2989c62b0329584",
+                      "bytes":  1284,
+                      "last_write_utc":  "2026-11-03T18:40:00.7655208Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\a\\d\\8\\9\\6\\ad896e9f6f090eeacb3fa6938b190685423374a2e2989c62b0329584.body",
+                      "bytes":  18191,
+                      "last_write_utc":  "2026-11-03T18:40:00.7820293Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\a\\f\\8\\b\\e\\af8be65c7605cae719b8e4d05b9ae78ad68e5ef86c8dd98de32433b4",
+                      "bytes":  1249,
+                      "last_write_utc":  "2026-11-03T19:04:53.3862503Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\a\\f\\8\\b\\e\\af8be65c7605cae719b8e4d05b9ae78ad68e5ef86c8dd98de32433b4.body",
+                      "bytes":  5381,
+                      "last_write_utc":  "2026-11-03T19:04:53.4041551Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\a\\f\\d\\d\\8\\afdd8422b81cf4456a4e91f228e14118612b0e1450c1108ed4430915",
+                      "bytes":  1307,
+                      "last_write_utc":  "2026-11-03T18:40:11.2035551Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\a\\f\\d\\d\\8\\afdd8422b81cf4456a4e91f228e14118612b0e1450c1108ed4430915.body",
+                      "bytes":  46395,
+                      "last_write_utc":  "2026-11-03T18:40:11.2173991Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\b\\0\\c\\1\\2\\b0c12ff469cdde890e136dcf989247defaf1cfcd950bc21b595c1206",
+                      "bytes":  1278,
+                      "last_write_utc":  "2026-11-03T18:40:00.3927101Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\b\\0\\c\\1\\2\\b0c12ff469cdde890e136dcf989247defaf1cfcd950bc21b595c1206.body",
+                      "bytes":  61956,
+                      "last_write_utc":  "2026-11-03T18:40:00.4094030Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\b\\1\\1\\9\\0\\b11909f451f61fb29636217082b1c638b177c59eac335e0200a136e6",
+                      "bytes":  1254,
+                      "last_write_utc":  "2026-11-03T18:40:36.5603327Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\b\\1\\1\\9\\0\\b11909f451f61fb29636217082b1c638b177c59eac335e0200a136e6.body",
+                      "bytes":  129956,
+                      "last_write_utc":  "2026-11-03T18:40:36.5746736Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\b\\1\\f\\5\\d\\b1f5dc01896eee598e8915be35e61304ad2b16363d00711f8576642c",
+                      "bytes":  1895,
+                      "last_write_utc":  "2026-11-03T18:40:06.0880950Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\b\\1\\f\\5\\d\\b1f5dc01896eee598e8915be35e61304ad2b16363d00711f8576642c.body",
+                      "bytes":  126872,
+                      "last_write_utc":  "2026-11-03T18:40:06.1044366Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\b\\4\\1\\2\\9\\b4129c6f477ae9b963bdfa9f8eb39b26ace86ea93847a25041d3638d",
+                      "bytes":  1239,
+                      "last_write_utc":  "2026-11-03T18:40:10.5067913Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\b\\4\\1\\2\\9\\b4129c6f477ae9b963bdfa9f8eb39b26ace86ea93847a25041d3638d.body",
+                      "bytes":  18440,
+                      "last_write_utc":  "2026-11-03T18:40:10.5230212Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\b\\8\\6\\2\\6\\b862637a242a4033f1ba3be874e038f3a95ab29277da4c878f7c162d",
+                      "bytes":  1901,
+                      "last_write_utc":  "2026-11-04T07:56:41.7344936Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\b\\8\\6\\2\\6\\b862637a242a4033f1ba3be874e038f3a95ab29277da4c878f7c162d.body",
+                      "bytes":  64599,
+                      "last_write_utc":  "2026-11-04T07:56:41.7521650Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\b\\9\\d\\0\\5\\b9d059ad207e0896b8ccf10fededb75ac7e01cbd2227c21918724ea4",
+                      "bytes":  603,
+                      "last_write_utc":  "2026-11-03T19:05:32.7494434Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\b\\9\\d\\0\\5\\b9d059ad207e0896b8ccf10fededb75ac7e01cbd2227c21918724ea4.body",
+                      "bytes":  89276,
+                      "last_write_utc":  "2026-11-03T18:52:22.9591050Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\b\\d\\0\\0\\4\\bd0047e9e78fec2a9ca4954114befc25d1e4fa3ca26d91f5c5fcfe07",
+                      "bytes":  610,
+                      "last_write_utc":  "2026-11-03T19:05:29.8209988Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\b\\d\\0\\0\\4\\bd0047e9e78fec2a9ca4954114befc25d1e4fa3ca26d91f5c5fcfe07.body",
+                      "bytes":  124657145,
+                      "last_write_utc":  "2026-11-03T18:52:21.8321935Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\b\\f\\1\\3\\7\\bf1374d83e33a9a8181e6a65301e30f528a57fb82d0b7f2235769e97",
+                      "bytes":  1229,
+                      "last_write_utc":  "2026-11-03T18:40:29.1260562Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\b\\f\\1\\3\\7\\bf1374d83e33a9a8181e6a65301e30f528a57fb82d0b7f2235769e97.body",
+                      "bytes":  277986,
+                      "last_write_utc":  "2026-11-03T18:40:29.1431209Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\0\\1\\d\\5\\c01d5845b3c9e03a517e2b8f2540742c711596c475241b6f374ebbd3",
+                      "bytes":  609,
+                      "last_write_utc":  "2026-11-03T19:05:18.1496985Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\0\\1\\d\\5\\c01d5845b3c9e03a517e2b8f2540742c711596c475241b6f374ebbd3.body",
+                      "bytes":  216561367,
+                      "last_write_utc":  "2026-11-03T18:50:01.7310915Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\2\\3\\4\\5\\c2345d91d8e1879d1ded35c83b5699864875de1d636bbf277e37a73e",
+                      "bytes":  1249,
+                      "last_write_utc":  "2026-11-03T18:40:02.5538878Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\2\\3\\4\\5\\c2345d91d8e1879d1ded35c83b5699864875de1d636bbf277e37a73e.body",
+                      "bytes":  4431,
+                      "last_write_utc":  "2026-11-03T18:40:02.5691818Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\3\\5\\8\\0\\c358079f222127e2d8e35c450aca8f89a9554f80e5d8f41848bea58c",
+                      "bytes":  643,
+                      "last_write_utc":  "2026-11-03T19:05:10.6480458Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\3\\5\\8\\0\\c358079f222127e2d8e35c450aca8f89a9554f80e5d8f41848bea58c.body",
+                      "bytes":  14400,
+                      "last_write_utc":  "2026-11-03T18:48:09.8667417Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\3\\e\\8\\8\\c3e88656ec9b47dda7b25b9c77869d1b29bbfbb6c0ed664eeae43a15",
+                      "bytes":  1248,
+                      "last_write_utc":  "2026-11-03T18:53:01.1046565Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\3\\e\\8\\8\\c3e88656ec9b47dda7b25b9c77869d1b29bbfbb6c0ed664eeae43a15.body",
+                      "bytes":  8630,
+                      "last_write_utc":  "2026-11-03T18:53:01.1321904Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\4\\e\\0\\b\\c4e0bbcf1e744a205d7c8da3e02693a8cd6728b28834d0397a7908d1",
+                      "bytes":  610,
+                      "last_write_utc":  "2026-11-03T19:04:33.5307324Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\4\\e\\0\\b\\c4e0bbcf1e744a205d7c8da3e02693a8cd6728b28834d0397a7908d1.body",
+                      "bytes":  706758467,
+                      "last_write_utc":  "2026-11-03T18:44:54.0386038Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\5\\e\\a\\a\\c5eaa387ea392a0383bf54e68908564b630ef342ce47e5f562ca0099",
+                      "bytes":  600,
+                      "last_write_utc":  "2026-11-03T19:05:34.6895888Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\5\\e\\a\\a\\c5eaa387ea392a0383bf54e68908564b630ef342ce47e5f562ca0099.body",
+                      "bytes":  2690,
+                      "last_write_utc":  "2026-11-03T18:53:02.9724569Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\6\\e\\9\\e\\c6e9e86050c17543a79a531d08b3da4e44a0e764529762dc591e71ca",
+                      "bytes":  643,
+                      "last_write_utc":  "2026-11-03T19:05:07.7084681Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\6\\e\\9\\e\\c6e9e86050c17543a79a531d08b3da4e44a0e764529762dc591e71ca.body",
+                      "bytes":  13842,
+                      "last_write_utc":  "2026-11-03T18:47:57.9572689Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\8\\4\\6\\0\\c846015f0bde9c5632281834a4a1db65dddce516c5552c2f5ba3bee4",
+                      "bytes":  609,
+                      "last_write_utc":  "2026-11-03T19:04:52.3776056Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\8\\4\\6\\0\\c846015f0bde9c5632281834a4a1db65dddce516c5552c2f5ba3bee4.body",
+                      "bytes":  393138322,
+                      "last_write_utc":  "2026-11-03T18:47:07.1661169Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\9\\1\\f\\2\\c91f2e41337665457740aa256c527d2526390279f8c0d22dbb82a31c",
+                      "bytes":  1897,
+                      "last_write_utc":  "2026-11-03T18:40:09.7449691Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\9\\1\\f\\2\\c91f2e41337665457740aa256c527d2526390279f8c0d22dbb82a31c.body",
+                      "bytes":  38612,
+                      "last_write_utc":  "2026-11-03T18:40:09.7615223Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\9\\3\\7\\b\\c937b431279c6406205e3bff4ca5dc48573a0f6ca318f6b26be34f8f",
+                      "bytes":  1248,
+                      "last_write_utc":  "2026-11-03T18:40:01.4826995Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\9\\3\\7\\b\\c937b431279c6406205e3bff4ca5dc48573a0f6ca318f6b26be34f8f.body",
+                      "bytes":  3798,
+                      "last_write_utc":  "2026-11-03T18:40:01.4966140Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\9\\4\\0\\8\\c94085942220b9fdd4130473dde48ba0a2445975e9ba4fb8cf6e9853",
+                      "bytes":  607,
+                      "last_write_utc":  "2026-11-03T19:04:30.0947161Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\9\\4\\0\\8\\c94085942220b9fdd4130473dde48ba0a2445975e9ba4fb8cf6e9853.body",
+                      "bytes":  23650380,
+                      "last_write_utc":  "2026-11-03T18:42:58.4520870Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\a\\0\\3\\0\\ca030b7138c735f1d1cb1b803632bac8c9a11524371168a8d11595ef",
+                      "bytes":  610,
+                      "last_write_utc":  "2026-11-03T19:05:22.6062341Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\a\\0\\3\\0\\ca030b7138c735f1d1cb1b803632bac8c9a11524371168a8d11595ef.body",
+                      "bytes":  322348229,
+                      "last_write_utc":  "2026-11-03T18:51:51.7654448Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\a\\4\\0\\5\\ca40521d6f4ca2bc510659d13a3cff56d7241103db5d1e645bc10f8f",
+                      "bytes":  1874,
+                      "last_write_utc":  "2026-11-03T18:40:02.3919873Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\a\\4\\0\\5\\ca40521d6f4ca2bc510659d13a3cff56d7241103db5d1e645bc10f8f.body",
+                      "bytes":  65019,
+                      "last_write_utc":  "2026-11-03T18:40:02.4084539Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\a\\4\\8\\5\\ca4859a3b60e961769907410c9c819bc33a934afa59f143e504c92ac",
+                      "bytes":  1235,
+                      "last_write_utc":  "2026-11-03T18:40:35.8221795Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\a\\4\\8\\5\\ca4859a3b60e961769907410c9c819bc33a934afa59f143e504c92ac.body",
+                      "bytes":  107025,
+                      "last_write_utc":  "2026-11-03T18:40:35.8385654Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\b\\b\\2\\f\\cbb2f18d08235269c225c581e189de58db3ff38bc5e7a9b297893794",
+                      "bytes":  453,
+                      "last_write_utc":  "2026-11-03T18:58:49.4913720Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\b\\b\\2\\f\\cbb2f18d08235269c225c581e189de58db3ff38bc5e7a9b297893794.body",
+                      "bytes":  832880698,
+                      "last_write_utc":  "2026-11-03T18:58:56.3365461Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\c\\1\\3\\3\\cc133da5701a066bc3777b2575e0daa601596f19871db4608ca98b97",
+                      "bytes":  1872,
+                      "last_write_utc":  "2026-11-03T18:39:58.3180954Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\c\\1\\3\\3\\cc133da5701a066bc3777b2575e0daa601596f19871db4608ca98b97.body",
+                      "bytes":  476412,
+                      "last_write_utc":  "2026-11-03T18:39:58.3390475Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\d\\5\\d\\e\\cd5de44b899cbe1869765c21b55cffc53c0c0ffa9d3c6f1fd40a42a2",
+                      "bytes":  1877,
+                      "last_write_utc":  "2026-11-03T18:40:00.1417208Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\d\\5\\d\\e\\cd5de44b899cbe1869765c21b55cffc53c0c0ffa9d3c6f1fd40a42a2.body",
+                      "bytes":  284431,
+                      "last_write_utc":  "2026-11-03T18:40:00.1614283Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\e\\9\\9\\f\\ce99f7afa05596f9460db2f6f99e1e5fa370337a5b67f0ce3d8af044",
+                      "bytes":  1209,
+                      "last_write_utc":  "2026-11-03T18:40:19.3309178Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\e\\9\\9\\f\\ce99f7afa05596f9460db2f6f99e1e5fa370337a5b67f0ce3d8af044.body",
+                      "bytes":  42087026,
+                      "last_write_utc":  "2026-11-03T18:40:19.5764202Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\e\\9\\c\\4\\ce9c4272bcbe7e0b3418d8fabb2be2ea9f24aed8f777600ae7b67ec7",
+                      "bytes":  642,
+                      "last_write_utc":  "2026-11-03T18:52:29.6135947Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\e\\9\\c\\4\\ce9c4272bcbe7e0b3418d8fabb2be2ea9f24aed8f777600ae7b67ec7.body",
+                      "bytes":  86363,
+                      "last_write_utc":  "2026-11-03T18:52:29.6329053Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\f\\0\\6\\d\\cf06de1e2f69cd4de8ffff30e8a1cd02146f3c1c0ca65b57bc144242",
+                      "bytes":  1252,
+                      "last_write_utc":  "2026-11-03T18:42:45.2888202Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\c\\f\\0\\6\\d\\cf06de1e2f69cd4de8ffff30e8a1cd02146f3c1c0ca65b57bc144242.body",
+                      "bytes":  12816,
+                      "last_write_utc":  "2026-11-03T18:42:45.3066866Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\d\\0\\c\\c\\4\\d0cc4834917d51ebc47f8e6d3fcee364756b0384692636ba399f95c2",
+                      "bytes":  1212,
+                      "last_write_utc":  "2026-11-03T18:40:28.7127079Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\d\\0\\c\\c\\4\\d0cc4834917d51ebc47f8e6d3fcee364756b0384692636ba399f95c2.body",
+                      "bytes":  8601321,
+                      "last_write_utc":  "2026-11-03T18:40:28.7767019Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\d\\2\\8\\5\\a\\d285aa471f8edb707b387daccda8ae890c96947237c2c4bf6cce0a68",
+                      "bytes":  1301,
+                      "last_write_utc":  "2026-11-03T18:40:12.1052054Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\d\\2\\8\\5\\a\\d285aa471f8edb707b387daccda8ae890c96947237c2c4bf6cce0a68.body",
+                      "bytes":  2526,
+                      "last_write_utc":  "2026-11-03T18:40:12.1186153Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\d\\6\\b\\2\\e\\d6b2ebfb34fb64c86001340a82a1bed98c505eef999f639af4ede410",
+                      "bytes":  643,
+                      "last_write_utc":  "2026-11-03T19:04:32.0068188Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\d\\6\\b\\2\\e\\d6b2ebfb34fb64c86001340a82a1bed98c505eef999f639af4ede410.body",
+                      "bytes":  14760,
+                      "last_write_utc":  "2026-11-03T18:42:59.7196866Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\d\\9\\5\\e\\0\\d95e0f01da1bb1b7f2859ec329b3c5472f1f6ed5d0f1614e1da08bc5",
+                      "bytes":  1897,
+                      "last_write_utc":  "2026-11-03T18:40:14.1499870Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\d\\9\\5\\e\\0\\d95e0f01da1bb1b7f2859ec329b3c5472f1f6ed5d0f1614e1da08bc5.body",
+                      "bytes":  2204,
+                      "last_write_utc":  "2026-11-03T18:40:14.1647704Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\d\\e\\a\\7\\3\\dea73a0d919fc483c93277a8e2fab12ccc05d0b44f10f7832284a340",
+                      "bytes":  1316,
+                      "last_write_utc":  "2026-11-03T18:40:09.2704442Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\d\\e\\a\\7\\3\\dea73a0d919fc483c93277a8e2fab12ccc05d0b44f10f7832284a340.body",
+                      "bytes":  2394,
+                      "last_write_utc":  "2026-11-03T18:40:09.2885153Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\1\\1\\8\\f\\e118f2ee6723f4730701e26761d482eaf366e138301ea6f693b34175",
+                      "bytes":  1276,
+                      "last_write_utc":  "2026-11-03T18:40:08.3125108Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\1\\1\\8\\f\\e118f2ee6723f4730701e26761d482eaf366e138301ea6f693b34175.body",
+                      "bytes":  3886,
+                      "last_write_utc":  "2026-11-03T18:40:08.3297324Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\1\\3\\3\\6\\e133652aa63b050ce98b6df151cfb82e4a4a074936713c6324bddd5a",
+                      "bytes":  1263,
+                      "last_write_utc":  "2026-11-03T18:40:35.9906762Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\1\\3\\3\\6\\e133652aa63b050ce98b6df151cfb82e4a4a074936713c6324bddd5a.body",
+                      "bytes":  306115,
+                      "last_write_utc":  "2026-11-03T18:40:36.0085992Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\1\\a\\1\\0\\e1a102a58d5f97b4d2a7ffd62157f43e68a5808f81e4779f2eb95e89",
+                      "bytes":  1870,
+                      "last_write_utc":  "2026-11-03T18:40:03.7053050Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\1\\a\\1\\0\\e1a102a58d5f97b4d2a7ffd62157f43e68a5808f81e4779f2eb95e89.body",
+                      "bytes":  7935,
+                      "last_write_utc":  "2026-11-03T18:40:03.7213695Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\1\\e\\3\\5\\e1e353c2468471571780f9a97348e73888d6231894c139b9466648d0",
+                      "bytes":  1277,
+                      "last_write_utc":  "2026-11-03T18:40:07.6821515Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\1\\e\\3\\5\\e1e353c2468471571780f9a97348e73888d6231894c139b9466648d0.body",
+                      "bytes":  3544,
+                      "last_write_utc":  "2026-11-03T18:40:07.6969489Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\4\\5\\1\\e\\e451e3d9f947df0a1f9239713f36b95f7be8d366bacac154aa4a879b",
+                      "bytes":  1896,
+                      "last_write_utc":  "2026-11-03T18:40:04.9965534Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\4\\5\\1\\e\\e451e3d9f947df0a1f9239713f36b95f7be8d366bacac154aa4a879b.body",
+                      "bytes":  3854,
+                      "last_write_utc":  "2026-11-03T18:40:05.0126552Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\5\\4\\c\\2\\e54c203b04089954d243a72e04a8d5b3689fcfc620c9b127e3447e74",
+                      "bytes":  1206,
+                      "last_write_utc":  "2026-11-03T18:40:39.1811971Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\5\\4\\c\\2\\e54c203b04089954d243a72e04a8d5b3689fcfc620c9b127e3447e74.body",
+                      "bytes":  10365,
+                      "last_write_utc":  "2026-11-03T18:40:39.1946337Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\5\\7\\1\\d\\e571d5adef8f80bcc3dcdf48f01d191c928a036f1a50a62c1d0e83f0",
+                      "bytes":  1249,
+                      "last_write_utc":  "2026-11-03T18:39:59.1070040Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\5\\7\\1\\d\\e571d5adef8f80bcc3dcdf48f01d191c928a036f1a50a62c1d0e83f0.body",
+                      "bytes":  62026,
+                      "last_write_utc":  "2026-11-03T18:39:59.1217830Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\5\\9\\9\\b\\e599b6418d10d681ba6db09fb679a0e09e0381cdddc5ba6309439496",
+                      "bytes":  1205,
+                      "last_write_utc":  "2026-11-03T18:40:39.6227300Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\5\\9\\9\\b\\e599b6418d10d681ba6db09fb679a0e09e0381cdddc5ba6309439496.body",
+                      "bytes":  24521,
+                      "last_write_utc":  "2026-11-03T18:40:39.6376012Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\7\\b\\e\\0\\e7be012d46497fd57f7b59ba94f776871b3e13a1aea79c6c1009d52e",
+                      "bytes":  1194,
+                      "last_write_utc":  "2026-11-03T18:40:36.4054362Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\7\\b\\e\\0\\e7be012d46497fd57f7b59ba94f776871b3e13a1aea79c6c1009d52e.body",
+                      "bytes":  1477929,
+                      "last_write_utc":  "2026-11-03T18:40:36.4251804Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\8\\5\\d\\5\\e85d57f13b27e8792f582983bf96fb2eb991f447c01c02bcbf0d1405",
+                      "bytes":  1218,
+                      "last_write_utc":  "2026-11-03T18:40:39.3250308Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\8\\5\\d\\5\\e85d57f13b27e8792f582983bf96fb2eb991f447c01c02bcbf0d1405.body",
+                      "bytes":  8074,
+                      "last_write_utc":  "2026-11-03T18:40:39.3376683Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\8\\b\\b\\4\\e8bb438e40d451abce07d3f186a094aced245a20c83f86cbd1dae3b0",
+                      "bytes":  1255,
+                      "last_write_utc":  "2026-11-03T18:40:37.4678840Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\8\\b\\b\\4\\e8bb438e40d451abce07d3f186a094aced245a20c83f86cbd1dae3b0.body",
+                      "bytes":  7144542,
+                      "last_write_utc":  "2026-11-03T18:40:37.5258278Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\a\\c\\6\\1\\eac61126daf80149d2a016f12a54eab5e3b5c1dbc77410ff1a97edc4",
+                      "bytes":  1900,
+                      "last_write_utc":  "2026-11-03T18:40:03.4038402Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\a\\c\\6\\1\\eac61126daf80149d2a016f12a54eab5e3b5c1dbc77410ff1a97edc4.body",
+                      "bytes":  31334,
+                      "last_write_utc":  "2026-11-03T18:40:03.4180736Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\b\\1\\9\\1\\eb191316105c4d39809788cbc595af2313b33a8242498096126657d4",
+                      "bytes":  1232,
+                      "last_write_utc":  "2026-11-03T18:40:38.0594243Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\b\\1\\9\\1\\eb191316105c4d39809788cbc595af2313b33a8242498096126657d4.body",
+                      "bytes":  126420,
+                      "last_write_utc":  "2026-11-03T18:40:38.0743102Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\d\\6\\b\\9\\ed6b955d0e4fb6cac1b70077c8fae42f7e6fd1d273898216bde262e8",
+                      "bytes":  1231,
+                      "last_write_utc":  "2026-11-03T18:40:39.9058775Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\d\\6\\b\\9\\ed6b955d0e4fb6cac1b70077c8fae42f7e6fd1d273898216bde262e8.body",
+                      "bytes":  29393,
+                      "last_write_utc":  "2026-11-03T18:40:39.9221177Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\e\\1\\6\\2\\ee1624dd5000de523bacdda25b755b20c5b8068bb7ba8f82f10a6264",
+                      "bytes":  1295,
+                      "last_write_utc":  "2026-11-03T18:40:14.2954665Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\e\\1\\6\\2\\ee1624dd5000de523bacdda25b755b20c5b8068bb7ba8f82f10a6264.body",
+                      "bytes":  6351,
+                      "last_write_utc":  "2026-11-03T18:40:14.3115861Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\e\\2\\d\\e\\ee2deaa8f2869903d111d4a5d30b4cebb2833878a6622141def4813c",
+                      "bytes":  1232,
+                      "last_write_utc":  "2026-11-03T18:40:39.0240497Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\e\\2\\d\\e\\ee2deaa8f2869903d111d4a5d30b4cebb2833878a6622141def4813c.body",
+                      "bytes":  785946,
+                      "last_write_utc":  "2026-11-03T18:40:39.0433431Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\f\\e\\4\\e\\efe4e1b5eb92732b04ca34dd66a4ffb8ad986d1ba410b612480cd718",
+                      "bytes":  1232,
+                      "last_write_utc":  "2026-11-03T19:00:52.4578149Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\e\\f\\e\\4\\e\\efe4e1b5eb92732b04ca34dd66a4ffb8ad986d1ba410b612480cd718.body",
+                      "bytes":  221738,
+                      "last_write_utc":  "2026-11-03T19:00:52.4742056Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\f\\0\\a\\4\\4\\f0a441a88701c97b3cadd67ced03e50a1758bb8b7205d413307cd990",
+                      "bytes":  1871,
+                      "last_write_utc":  "2026-11-03T18:40:01.6376470Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\f\\0\\a\\4\\4\\f0a441a88701c97b3cadd67ced03e50a1758bb8b7205d413307cd990.body",
+                      "bytes":  20908,
+                      "last_write_utc":  "2026-11-03T18:40:01.6530824Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\f\\3\\4\\2\\1\\f3421f3ce3d4b92052d9235a8669a435644140a32e8d5d47a7149f30",
+                      "bytes":  1277,
+                      "last_write_utc":  "2026-11-03T18:40:06.2550787Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\f\\3\\4\\2\\1\\f3421f3ce3d4b92052d9235a8669a435644140a32e8d5d47a7149f30.body",
+                      "bytes":  3756,
+                      "last_write_utc":  "2026-11-03T18:40:06.2698058Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\f\\3\\a\\6\\5\\f3a6530dc7fb03fabb45f38f86d64f93ec229749526b88172b3d7d2f",
+                      "bytes":  1194,
+                      "last_write_utc":  "2026-11-03T18:40:36.7220477Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\f\\3\\a\\6\\5\\f3a6530dc7fb03fabb45f38f86d64f93ec229749526b88172b3d7d2f.body",
+                      "bytes":  63772,
+                      "last_write_utc":  "2026-11-03T18:40:36.7382957Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\f\\6\\7\\d\\b\\f67db69c46ec6d8d9e4115c2b93ebe0e508a22b24ed95edf57524814",
+                      "bytes":  643,
+                      "last_write_utc":  "2026-11-03T19:04:51.8616163Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\f\\6\\7\\d\\b\\f67db69c46ec6d8d9e4115c2b93ebe0e508a22b24ed95edf57524814.body",
+                      "bytes":  15856,
+                      "last_write_utc":  "2026-11-03T18:44:55.7366673Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\f\\6\\d\\8\\6\\f6d8679ee4db3f4b10e31605d51b7501e2e49f4438f613e2148dffc2",
+                      "bytes":  1215,
+                      "last_write_utc":  "2026-11-03T18:40:23.0995167Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\f\\6\\d\\8\\6\\f6d8679ee4db3f4b10e31605d51b7501e2e49f4438f613e2148dffc2.body",
+                      "bytes":  13147700,
+                      "last_write_utc":  "2026-11-03T18:40:23.1811739Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\f\\7\\4\\0\\5\\f74053129a5311e9e7fb3ec482f853ecd35871faf0d989ba941b071d",
+                      "bytes":  641,
+                      "last_write_utc":  "2026-11-03T19:04:27.8995599Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\f\\7\\4\\0\\5\\f74053129a5311e9e7fb3ec482f853ecd35871faf0d989ba941b071d.body",
+                      "bytes":  1217,
+                      "last_write_utc":  "2026-11-03T18:42:49.1784611Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\f\\c\\4\\b\\5\\fc4b5845a2f5e3034d3c8ff90f2747f3618350ecfef44b03b9d9d68d",
+                      "bytes":  642,
+                      "last_write_utc":  "2026-11-03T18:50:03.0671168Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\f\\c\\4\\b\\5\\fc4b5845a2f5e3034d3c8ff90f2747f3618350ecfef44b03b9d9d68d.body",
+                      "bytes":  4810,
+                      "last_write_utc":  "2026-11-03T18:50:03.0836008Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\f\\e\\1\\c\\a\\fe1ca1e21c9f20d94b78f2f1ffaa4f52c862765a094b92306e6d0c07",
+                      "bytes":  1309,
+                      "last_write_utc":  "2026-11-03T18:42:41.2993392Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\f\\e\\1\\c\\a\\fe1ca1e21c9f20d94b78f2f1ffaa4f52c862765a094b92306e6d0c07.body",
+                      "bytes":  3310,
+                      "last_write_utc":  "2026-11-03T18:42:41.3162083Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\f\\f\\5\\7\\0\\ff57044fbdd8366a0aafc1423058140ac7d29cfda72f3b6a82557928",
+                      "bytes":  1898,
+                      "last_write_utc":  "2026-11-03T18:40:04.6912200Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\http-v2\\f\\f\\5\\7\\0\\ff57044fbdd8366a0aafc1423058140ac7d29cfda72f3b6a82557928.body",
+                      "bytes":  26213,
+                      "last_write_utc":  "2026-11-03T18:40:04.7064790Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\pip-linux\\selfcheck\\46642de7f9e49ef9bf1749692300b1f6c3d605bfdd6e1fa6ddb800d4",
+                      "bytes":  110,
+                      "last_write_utc":  "2026-11-03T18:39:56.6549301Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-metadata-2jv3z4fr\\METADATA",
+                      "bytes":  2690,
+                      "last_write_utc":  "2026-11-03T19:05:34.7102006Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-metadata-afhuspkl\\METADATA",
+                      "bytes":  6719,
+                      "last_write_utc":  "2026-11-03T19:04:27.6087730Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-metadata-mmxf_nh2\\METADATA",
+                      "bytes":  2871,
+                      "last_write_utc":  "2026-11-03T19:04:28.1304228Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-metadata-oq9k_wpv\\METADATA",
+                      "bytes":  1976,
+                      "last_write_utc":  "2026-11-03T19:04:26.2607288Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-metadata-qinn2wmx\\METADATA",
+                      "bytes":  10609,
+                      "last_write_utc":  "2026-11-03T19:04:28.4847888Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-metadata-ui9xa682\\METADATA",
+                      "bytes":  6599,
+                      "last_write_utc":  "2026-11-03T19:04:27.2799560Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-metadata-wpe_70zt\\METADATA",
+                      "bytes":  30252,
+                      "last_write_utc":  "2026-11-03T19:04:25.6576453Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-2pyzqu75\\nvidia_cuda_nvrtc_cu12-12.6.77-py3-none-manylinux2014_x86_64.whl",
+                      "bytes":  23650380,
+                      "last_write_utc":  "2026-11-03T19:04:30.4638073Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-5euhfabp\\nvidia_cuda_runtime_cu12-12.6.77-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+                      "bytes":  897690,
+                      "last_write_utc":  "2026-11-03T19:04:31.6359490Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-5opptz2o\\markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata",
+                      "bytes":  2690,
+                      "last_write_utc":  "2026-11-03T19:05:34.6973613Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-6orfles5\\networkx-3.7-py3-none-any.whl.metadata",
+                      "bytes":  6719,
+                      "last_write_utc":  "2026-11-03T19:04:27.5908218Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-940cyoor\\nvidia_cufile_cu12-1.11.1.6-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+                      "bytes":  1142103,
+                      "last_write_utc":  "2026-11-03T19:05:34.2736622Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-9c7bx5rr\\nvidia_cusparse_cu12-12.5.4.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+                      "bytes":  216561367,
+                      "last_write_utc":  "2026-11-03T19:05:21.2339586Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-9pbc9hcx\\jinja2-3.1.6-py3-none-any.whl.metadata",
+                      "bytes":  2871,
+                      "last_write_utc":  "2026-11-03T19:04:28.1163433Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-a38ckxt7\\fsspec-2026.9.0-py3-none-any.whl.metadata",
+                      "bytes":  10609,
+                      "last_write_utc":  "2026-11-03T19:04:28.4678564Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-b1bgeb0t\\nvidia_nccl_cu12-2.27.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+                      "bytes":  322348229,
+                      "last_write_utc":  "2026-11-03T19:05:27.7214086Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-dm_1vm61\\filelock-4.2.4-py3-none-any.whl.metadata",
+                      "bytes":  1976,
+                      "last_write_utc":  "2026-11-03T19:04:26.2457451Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-e3syqoct\\setuptools-78.1.0-py3-none-any.whl.metadata",
+                      "bytes":  6599,
+                      "last_write_utc":  "2026-11-03T19:04:27.2637692Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-etg2vdjh\\torch-2.9.1+cu126-cp312-cp312-manylinux_2_28_x86_64.whl",
+                      "bytes":  322961408,
+                      "last_write_utc":  "2026-11-03T19:05:39.8993004Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-g9c_oat9\\nvidia_cuda_cupti_cu12-12.6.80-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+                      "bytes":  8917980,
+                      "last_write_utc":  "2026-11-03T19:04:32.6583341Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-iuh30ko5\\nvidia_cufft_cu12-11.3.0.4-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+                      "bytes":  200221632,
+                      "last_write_utc":  "2026-11-03T19:05:06.2740671Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-je4_yu_c\\torch-2.9.1+cu126-cp312-cp312-manylinux_2_28_x86_64.whl.metadata",
+                      "bytes":  30252,
+                      "last_write_utc":  "2026-11-03T19:04:25.6431490Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-pxv1mgz6\\nvidia_nvjitlink_cu12-12.6.85-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl",
+                      "bytes":  19744971,
+                      "last_write_utc":  "2026-11-03T19:05:33.6660257Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-rezhm6un\\nvidia_cublas_cu12-12.6.4.1-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+                      "bytes":  393138322,
+                      "last_write_utc":  "2026-11-03T19:04:59.4745431Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-rk_up3ik\\nvidia_nvshmem_cu12-3.3.20-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+                      "bytes":  124657145,
+                      "last_write_utc":  "2026-11-03T19:05:31.6605521Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-s2l1rvr4\\nvidia_cusolver_cu12-11.7.1.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+                      "bytes":  158229790,
+                      "last_write_utc":  "2026-11-03T19:05:16.5436639Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-vryd254p\\nvidia_curand_cu12-10.3.7.77-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+                      "bytes":  56279010,
+                      "last_write_utc":  "2026-11-03T19:05:10.1921435Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-w4b_poth\\nvidia_nvtx_cu12-12.6.77-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+                      "bytes":  89276,
+                      "last_write_utc":  "2026-11-03T19:05:32.7569753Z"
+                  },
+                  {
+                      "path":  "D:\\Paper\\casmi\\.cache\\tmp-linux\\pip-unpack-_ktmgs9u\\nvidia_cudnn_cu12-9.10.2.21-py3-none-manylinux_2_27_x86_64.whl",
+                      "bytes":  706758467,
+                      "last_write_utc":  "2026-11-03T19:04:47.8105448Z"
+                  }
+              ],
+    "deleted_files":  446,
+    "deleted_bytes":  6339905785,
+    "preserved":  [
+                      ".cache/wheels-linux",
+                      ".cache/windows-system-ca-bundle.pem",
+                      "assets",
+                      "runs",
+                      "submission",
+                      "produre1",
+                      "produre2"
+                  ],
+    "completed_at_utc":  "2026-11-11T03:27:52.8987772Z"
+}

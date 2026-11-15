@@ -1,0 +1,118 @@
+{
+  "status": "passed_actual_appended_cell_component_only",
+  "notebook_sha256": "389b5341a38cf3825f09450e2a99e604655e3fb25beb474131364c6dd0b1ad00",
+  "recipe_sha256": "f6bc296a0988f9b860e851d08e8540e060ac3cb7ffb8470b3b0c4a07c0a42e6b",
+  "module_sha256": "16f62e95a18608e66f95be0b5c279666cfd07f92d07c88c0a0d6a0153cf0018a",
+  "public_source_sha256": "8150955a1f0a617639253bd59cca9c186c6e881ebc7f15447682c0e3df7de768",
+  "original_all33_cells_exact": true,
+  "query_columns_exact_official": [
+    "molecule_id",
+    "spectrum_id",
+    "ms2_mzs",
+    "ms2_normalized_intensities",
+    "base_peak_intensity",
+    "adduct",
+    "ionization_mode",
+    "instrument_type",
+    "precursor_mz",
+    "collision_energy_orig",
+    "collision_energy_ev",
+    "collision_energy_orig_units"
+  ],
+  "truth_metadata_present": false,
+  "raw_source_parquet_sha256": "c501d8f33a36d52f344300f587510bad97400cf99405db72b4b48699f4ea0068",
+  "projected_query_sha256": "6373f801bb9a982a7f7d3581148bdac921458b096e53e5145f97fa1143b740bc",
+  "spectra": 20,
+  "queries": 2,
+  "reports": {
+    "fast_static": {
+      "audit": {
+        "status": "passed",
+        "branch": "spectral_network_explore",
+        "recipe_sha256": "f6bc296a0988f9b860e851d08e8540e060ac3cb7ffb8470b3b0c4a07c0a42e6b",
+        "mode": "fast_static",
+        "checks": {
+          "base_ab_passed": true,
+          "control_bound": true,
+          "final_bound": true,
+          "module_pin": true,
+          "public_source_pin": true,
+          "configuration_exact": true,
+          "recipe_branch_bound": true,
+          "sample_ids_exact": true,
+          "candidate_multisets": true,
+          "official_identities": true,
+          "fast_no_network": true
+        },
+        "csv_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416",
+        "runtime_sha256": "53209c9d00c2d55e2742087027f10908c5f76336e6bb6f567b1d1eba763f72cf",
+        "changed_queries": 0,
+        "changed_top1": 0,
+        "no_gain_claim": true
+      },
+      "network_executed": false,
+      "changed_queries": 0,
+      "changed_top1": 0,
+      "protected_ids": [],
+      "graph": null,
+      "input_control_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416",
+      "output_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416"
+    },
+    "hidden_full_component": {
+      "audit": {
+        "status": "passed",
+        "branch": "spectral_network_explore",
+        "recipe_sha256": "f6bc296a0988f9b860e851d08e8540e060ac3cb7ffb8470b3b0c4a07c0a42e6b",
+        "mode": "hidden_full",
+        "checks": {
+          "base_ab_passed": true,
+          "control_bound": true,
+          "final_bound": true,
+          "module_pin": true,
+          "public_source_pin": true,
+          "configuration_exact": true,
+          "recipe_branch_bound": true,
+          "sample_ids_exact": true,
+          "candidate_multisets": true,
+          "official_identities": true,
+          "actual_raw_test_bound": true,
+          "actual_test_ids": true,
+          "network_really_executed": true,
+          "actual_score_consumption": true,
+          "reference_protection": true,
+          "ab_runtime_pin": true,
+          "exact_final_schema": true,
+          "protected_set_reconstructed": true
+        },
+        "csv_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416",
+        "runtime_sha256": "9159d70f960bbee664f6639a4283a173335cb6050b0b18b4ab6ed942919844bb",
+        "changed_queries": 0,
+        "changed_top1": 0,
+        "no_gain_claim": true
+      },
+      "network_executed": true,
+      "changed_queries": 0,
+      "changed_top1": 0,
+      "protected_ids": [
+        "cross_VXVNYCRICCVPTD",
+        "np_DUXQKCCELUKXOE"
+      ],
+      "graph": {
+        "graph": {},
+        "spectra_molecules": 2,
+        "edges": 0
+      },
+      "input_control_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416",
+      "output_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416",
+      "tampered_output_hash_rejected_fail_closed": true
+    }
+  },
+  "no_models_run": true,
+  "no_new_effectiveness_evaluation": true,
+  "limitations": [
+    "Actual saved two-query output came from the successful generation-production full-chain run, not a fresh .488 run.",
+    "Only appended network cell and audit executed. No claim complete new pipeline ran.",
+    "Zero graph/changes is valid execution evidence, not gain evidence.",
+    "Old Flex48 fixed-policy efficacy was negative; this remains explicitly exploratory at user request."
+  ]
+}

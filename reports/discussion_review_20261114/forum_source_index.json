@@ -1,0 +1,133 @@
+{
+  "topics": [
+    {
+      "id": 743254,
+      "title": " Lessons from ~30 submissions: where the MRR actually goes",
+      "postDate": "2026-09-25T11:44:07.568Z",
+      "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/743254",
+      "comments_truncated": false,
+      "sha256": "f01fc3e7282d7de155c084519ba7ea4abd2c5d12e8b6f69027fe0766c0eb3844"
+    },
+    {
+      "id": 748524,
+      "title": "Validation stragegy",
+      "postDate": "2026-10-12T12:07:10.022Z",
+      "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/748524",
+      "comments_truncated": false,
+      "sha256": "d764a0fecfbb2e5606cf6135e1f011e02c0f710ca48fbded6ac3267017eb7058"
+    },
+    {
+      "id": 749217,
+      "title": "Compliance: is the approved-dataset list exhaustive, and does \"trained on NIST\" reach models whose training corpus CONTAINS NIST-derived data?",
+      "postDate": "2026-10-14T10:57:36.311Z",
+      "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/749217",
+      "comments_truncated": false,
+      "sha256": "90809a0eeed1e66813eb6ed4a49c158d1f172c38458860a11bc921713a625828"
+    },
+    {
+      "id": 754610,
+      "title": "Clarification on permitted external resources for final submissions",
+      "postDate": "2026-10-31T18:59:44.601Z",
+      "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/754610",
+      "comments_truncated": false,
+      "sha256": "b0aaacdd1af3ad838bd0c2bcba113bd13a391d89ed5677bf6f18e6d9b55918a9"
+    },
+    {
+      "id": 755089,
+      "title": "Class 3 graph generation: MC isomers are different from Natural Product not because they are unstable (GFN2-xTB)",
+      "postDate": "2026-11-02T19:14:34.256Z",
+      "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/755089",
+      "comments_truncated": false,
+      "sha256": "a915c48bf02f4593f177ba50384578a1fea9e7afcf70f93951764c44485435da"
+    },
+    {
+      "id": 755319,
+      "title": "So tired of fork..",
+      "postDate": "2026-11-03T08:08:26.209Z",
+      "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/755319",
+      "comments_truncated": false,
+      "sha256": "0235e0a4f989e4b4f5878459868f5f3e148efb20b0220a1763b7d2bce97ab4ea"
+    },
+    {
+      "id": 756504,
+      "title": "Open-source pipeline: identity search + analog propagation + LightGBM ranker (with notes on validation)",
+      "postDate": "2026-11-06T15:25:57.784Z",
+      "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/756504",
+      "comments_truncated": false,
+      "sha256": "d91dab034f829b9715a59b433e2aa0522411250ecd7dd15255a3caa4d0c80bdd"
+    },
+    {
+      "id": 756741,
+      "title": "Spectrum-Structure data volume vs quantum mechanical/chemical inductive bias injection",
+      "postDate": "2026-11-07T11:30:54.973Z",
+      "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/756741",
+      "comments_truncated": false,
+      "sha256": "5c2ea5f92e0fed76a32dcc86d8abf2c667e9b40a43babb209881fc6b0a8f5a26"
+    },
+    {
+      "id": 756893,
+      "title": "Are shipped ranker tables without a public generator reproducible?",
+      "postDate": "2026-11-08T03:14:21.978Z",
+      "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/756893",
+      "comments_truncated": false,
+      "sha256": "a2c52910c729bb825d1133eb8d048e0e0871a4e5c62ef51d262b1a7f7a8ee774"
+    },
+    {
+      "id": 757152,
+      "title": "[Deleted Topic]",
+      "postDate": "2026-11-09T04:32:09.648Z",
+      "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/757152",
+      "comments_truncated": false,
+      "sha256": "e9f8aadc1c01ac6b875df9c7da24927ae2a1ef89a21f2b46c37b3136337086c7"
+    },
+    {
+      "id": 757307,
+      "title": "Is MassSpecGym (and MIST weights trained only on it) allowed? NIST was used only for data cleaning",
+      "postDate": "2026-11-09T14:09:22.019Z",
+      "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/757307",
+      "comments_truncated": false,
+      "sha256": "d199efa6794f96b41af8fb96af522b4c905bb81543076afefd13b0fd82d6dfc8"
+    },
+    {
+      "id": 757309,
+      "title": "Clarification on PubChem/COCONUT candidate-index redistribution",
+      "postDate": "2026-11-09T14:17:28.373Z",
+      "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/757309",
+      "comments_truncated": false,
+      "sha256": "f7249ca789b3a01a684f7fa361f2ec2aebcbb1aeba8d286e4a4ee20b194dd534"
+    },
+    {
+      "id": 758233,
+      "title": "Clarification request: Reproducibility of small fixed index lists shipped inside public datasets",
+      "postDate": "2026-11-12T00:03:48.203Z",
+      "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/758233",
+      "comments_truncated": false,
+      "sha256": "fc5bf80e7dcb1f3759adc6b85644af935104135ceb62dc4dc0ea494e7cfe2455"
+    },
+    {
+      "id": 758541,
+      "title": "How do you check your ideas locally before submitting?",
+      "postDate": "2026-11-12T14:46:01.343Z",
+      "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/758541",
+      "comments_truncated": false,
+      "sha256": "6b4abcf76b22cb45045edc7d7cc61daa666e95acb1285bdfd3f31331d49e64e0"
+    },
+    {
+      "id": 758596,
+      "title": "How Can I Tell Whether My Score Is Good or Bad?",
+      "postDate": "2026-11-12T16:24:48.107Z",
+      "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/758596",
+      "comments_truncated": false,
+      "sha256": "7197cbcd00b82986d0d3798a4b40e33ae86547b907bccfe288ab9c2646af2199"
+    },
+    {
+      "id": 759109,
+      "title": "CASMI26 data card: what the parquets contain, what is derivable, and what is not determinable",
+      "postDate": "2026-11-13T20:27:20.314Z",
+      "url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/759109",
+      "comments_truncated": false,
+      "sha256": "b87d11b21fecc645aba784a0237889cbbc35d86baa3ed258e1955b27b8f25d55"
+    }
+  ],
+  "topics_read": 16
+}

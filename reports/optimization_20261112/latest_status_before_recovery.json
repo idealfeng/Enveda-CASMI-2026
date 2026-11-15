@@ -1,0 +1,77 @@
+{
+  "status": "monitoring",
+  "pid": 26536,
+  "manifest_sha256": "4faa5ccc709cdca950af1b75cb123bdc88f49413a09744a5443150c34fe209ce",
+  "started_at_utc": "2026-11-12T11:20:40.130114+00:00",
+  "read_only_network": true,
+  "new_submission_performed": false,
+  "checked_at_utc": "2026-11-12T11:26:26.863827+00:00",
+  "baseline_public_score": 0.488,
+  "branches": [
+    {
+      "branch": "adduct_extlib",
+      "target": "stormseye/casmi26-adduct-extlib-1112",
+      "actual_target": "stormseye/casmi26-adduct-extlib-1112",
+      "submission_ref": 58263553,
+      "status": "COMPLETE",
+      "public_score": 0.488,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-12T11:25:36.480240+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "bestval_v80_tri",
+      "target": "stormseye/casmi26-bestval-v80-tri-1112",
+      "actual_target": "stormseye/casmi26-bestval-v80-tri-1112",
+      "submission_ref": 58270931,
+      "status": "PENDING",
+      "public_score": null,
+      "public_score_available": false,
+      "checked_at_utc": "2026-11-12T11:26:25.131633+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "bestval_saner_tri",
+      "target": "stormseye/casmi26-bestval-saner-tri-1112",
+      "actual_target": "stormseye/casmi26-bestval-saner-tri-1112",
+      "submission_ref": 58263831,
+      "status": "PENDING",
+      "public_score": null,
+      "public_score_available": false,
+      "checked_at_utc": "2026-11-12T11:26:25.948199+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "generation_expand",
+      "target": "stormseye/casmi26-generation-expand-1112",
+      "actual_target": "stormseye/casmi26-generation-expand-1112",
+      "submission_ref": null,
+      "status": "not_submitted",
+      "public_score": null,
+      "public_score_available": false
+    },
+    {
+      "branch": "bestval_v80_adduct",
+      "target": "stormseye/casmi26-bestval-v80-adduct-1112",
+      "actual_target": "stormseye/casmi26-bestval-v80-adduct-1112",
+      "submission_ref": 58271026,
+      "status": "PENDING",
+      "public_score": null,
+      "public_score_available": false,
+      "checked_at_utc": "2026-11-12T11:26:26.862249+00:00",
+      "error_description_present": false
+    }
+  ],
+  "best_this_batch": {
+    "branch": "adduct_extlib",
+    "actual_target": "stormseye/casmi26-adduct-extlib-1112",
+    "submission_ref": 58263553,
+    "public_score": 0.488
+  },
+  "best_overall_public_score": 0.488,
+  "all_branches_terminal": false,
+  "read_only": true,
+  "new_run_or_submission_performed": false,
+  "ledger_added_refs": [],
+  "ledger_current_best": 0.488
+}

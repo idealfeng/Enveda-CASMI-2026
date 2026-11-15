@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "branch": "bestval_saner_tri",
+  "recipe_sha256": "051a199209a8f9cae8c6192e0811b4218ba00dcff9eb8d678f436a19273f095b",
+  "mode": "fast_static",
+  "checks": {
+    "configuration_exact": true,
+    "installed_models_exact": true,
+    "three_distinct_checkpoints": true,
+    "outsider_v2_unchanged": true,
+    "late_head_unchanged": true,
+    "fast_no_model": true,
+    "module_pin": true,
+    "branch_recipe_bound": true,
+    "original_ab_passed": true,
+    "final_ab_output_bound": true,
+    "exact_ids_schema": true
+  },
+  "csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "module_sha256": "80a5c83b275cb7365a2b4dad4f9376e9ca874106a299a755686c4f913fef0f5b",
+  "runtime_report_sha256": "47cbaab605ec73764f4b3c50ec3ad842609179c888ca5f158109231de5473c09",
+  "configuration": {
+    "kind": "saner_best",
+    "checkpoint": {
+      "marker": "casmi-spectrum-model-v1",
+      "subdirectory": "casmi_spectrum_model_v1",
+      "filename": "best_validation_model.pt",
+      "bytes": 11873492,
+      "sha256": "969d13443fcf168eae1e00e56a8e0ae87dcb16f337cb6dbac959e7cd218f089c",
+      "weights": [
+        0.375,
+        0.375,
+        0.25
+      ]
+    },
+    "public_pins": {
+      "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+      "features.py": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+      "config.json": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+      "final_model.pt": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642"
+    },
+    "v2_sha256": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46",
+    "outsider_scorer": "original_v2",
+    "late_head": "original_frozen_v2_two_heads"
+  },
+  "no_gain_claim": true
+}

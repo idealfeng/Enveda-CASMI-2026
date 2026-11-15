@@ -1,0 +1,27 @@
+{
+  "ref": "prvsiyan/what-the-library-has-not-heard",
+  "title": "What the Library Has Not Heard",
+  "current_version_number": 2,
+  "last_run_time": "2026-11-11 14:07:22.721000",
+  "dataset_data_sources": [
+    "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "takumuhata/casmi26-extlib",
+    "sanpier/catalogue-experiment-saner",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [
+    "popwenman/casmi26-scorer-train-v80"
+  ],
+  "is_private": false,
+  "sha256": "2f9e6a206ae873e75d08a78360e825e8b9ade9c6b8a1e604d3cdf197c1bf37a4",
+  "bytes": 970009,
+  "status": "downloaded",
+  "read_only": true,
+  "no_execution": true
+}

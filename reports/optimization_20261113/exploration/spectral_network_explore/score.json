@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-spectral-network-1113",
+  "version": 1,
+  "branch_sha256": "afc4276b9dd06b88d338bb6488a899683f02f6bca9f09e9216323444ef42be7a",
+  "submission_ref": 58310918,
+  "actual_target": "stormseye/casmi26-spectral-network-explore-1113",
+  "status": "COMPLETE",
+  "public_score": "0.488",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-14T06:35:01.058758+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

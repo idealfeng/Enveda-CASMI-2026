@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-gen-noiso-only-1113",
+  "version": 1,
+  "branch_sha256": "b7011207526d74f1b8766fdbef491d2a9d0bb13cb030787651c757f433169f2e",
+  "notebook_sha256": "794a4aeff3d71347db36b7da76beb23fae1a6eb754cb726432c5f8a29b351aaf",
+  "metadata_sha256": "daf2db067e48e0e1ed31d7c1042fb2d26472028a6f354106eeb74a64c2e49351",
+  "requested_at_utc": "2026-11-13T13:38:53.218209+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-13T13:38:58.805813+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

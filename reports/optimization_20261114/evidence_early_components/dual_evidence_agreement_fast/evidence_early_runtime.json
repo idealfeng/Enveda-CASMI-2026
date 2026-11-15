@@ -1,0 +1,24 @@
+{
+  "status": "fast_static_no_evidence",
+  "branch": "dual_evidence_agreement",
+  "recipe_sha256": "9fc8de4cfea84b81fc4d434134f38611e7d9fb97a799be14029a5fb11a2ff481",
+  "configuration": {
+    "protect_prefix": 0,
+    "scope": "swap_agreed_same_formula_winner_to_top1",
+    "minimum_covered": 2,
+    "minimum_coverage_fraction": 0.8,
+    "maximum_winner_rank": 10,
+    "minimum_standardized_margin": 0.1,
+    "protect_library": 0.9,
+    "protect_AB": true
+  },
+  "control_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416",
+  "observations": {},
+  "protected_ids": [],
+  "changed_queries": 0,
+  "changed_top1": 0,
+  "evidence_executed": false,
+  "protected_queries": 0,
+  "eligible_queries": 0,
+  "output_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416"
+}

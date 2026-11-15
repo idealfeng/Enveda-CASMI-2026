@@ -1,0 +1,13 @@
+{
+  "status": "verified",
+  "checked_at_utc": "2026-11-14T14:26:05.586985+00:00",
+  "path": "assets\\research\\mist_msg_20261114\\checkpoints\\mist_msg_noaug.ckpt",
+  "bytes": 289222619,
+  "sha256": "6f8df582df36aa4a984f120efee14ee0a62f3a7723caa770b856a6e704236727",
+  "md5": "80594e4dfd82d15fb32a3b186e686b6b",
+  "source": "https://zenodo.org/records/23303289",
+  "download_mode": "downloaded_and_verified",
+  "seconds": 178.7029999999795,
+  "model_deserialized": false,
+  "training_performed": false
+}

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "branch": "spectral_network_explore",
+  "recipe_sha256": "f6bc296a0988f9b860e851d08e8540e060ac3cb7ffb8470b3b0c4a07c0a42e6b",
+  "mode": "fast_static",
+  "checks": {
+    "base_ab_passed": true,
+    "control_bound": true,
+    "final_bound": true,
+    "module_pin": true,
+    "public_source_pin": true,
+    "configuration_exact": true,
+    "recipe_branch_bound": true,
+    "sample_ids_exact": true,
+    "candidate_multisets": true,
+    "official_identities": true,
+    "fast_no_network": true
+  },
+  "csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "runtime_sha256": "8f61344ab65d46b142bf4999e6ae0b1b61ffb1b846cf2f92544f73669178279b",
+  "changed_queries": 0,
+  "changed_top1": 0,
+  "no_gain_claim": true
+}

@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "checks": {
+    "fast_actual_passed": true,
+    "fast_query_ids": true,
+    "fast_protected": true,
+    "fast_missing_query": true,
+    "fast_exact_control": true,
+    "hidden_actual_passed": true,
+    "hidden_query_ids": true,
+    "hidden_protected": true,
+    "hidden_missing_query": true,
+    "both_actual_reference_sources": true,
+    "actual_scores_consumed": true,
+    "actual_best_scores_observed": true,
+    "actual_hits_after_massgate": true,
+    "tampered_actual_score_rejected": true,
+    "native_alias_preserves_original_smiles": true,
+    "mass_gate_rejects_wrong_structure": true
+  },
+  "cases": {
+    "fast": {
+      "seconds": 7.189128073999999,
+      "reference_counts": null,
+      "public_hits": null,
+      "changed_top1": null
+    },
+    "hidden": {
+      "seconds": 25.476362263000002,
+      "reference_counts": {
+        "A": 200724,
+        "B": 124160
+      },
+      "public_hits": 3,
+      "changed_top1": 2
+    }
+  },
+  "module_sha256": "8712dc0b9de851e4042019e1f036f043566412584bd4d4e6361a9f48b40c4895",
+  "function_sha256": "8e1439c05d7721946ab21e08fec18b4d54d890d3188bf7ec111b32712c545624",
+  "notebook_sha256": null,
+  "gpu_used": false,
+  "cloud_writes": false,
+  "full_upstream_pipeline": false,
+  "efficacy_or_mrr_claim": false,
+  "evidence": "runs/adduct_overlay_canary_20261112_module1/verification.json"
+}

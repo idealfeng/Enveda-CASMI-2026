@@ -1,0 +1,687 @@
+{
+  "status": "applied",
+  "branch": "dual_evidence_agreement",
+  "recipe_sha256": "e523db977cfe19c487a55c0b1faf414f54f234ed97e4b5fec29f46a4d50adb92",
+  "configuration": {
+    "protect_prefix": 0,
+    "scope": "swap_pairwise_dominant_same_formula_candidate_to_top1",
+    "minimum_covered": 2,
+    "minimum_coverage_fraction": 0.8,
+    "maximum_winner_rank": 10,
+    "minimum_standardized_advantage": 0.1,
+    "protect_library": 0.9,
+    "protect_AB": true
+  },
+  "control_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416",
+  "observations": {
+    "cross_VXVNYCRICCVPTD": {
+      "candidates": [
+        "CN(C)C1C(O)=C(C(N)=O)C(=O)C2(O)C(O)=C3C(=O)c4c(O)cccc4C(C)(O)C3CC12",
+        "C[C@@H]1[C@H]2[C@@H]([C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O",
+        "CCN(C)C1C(O)=C(C(N)=O)C(=O)C2(O)C(O)=C3C(=O)c4c(O)cccc4C(O)C3CC12",
+        "C=C1c2cccc(O)c2C(=O)C2=C(O)C3(O)C(=O)C(C(N)=O)C(O)C(N(C)C)C3C(O)C12",
+        "CN(C)C1C(O)=C(C(N)=O)C(=O)C2(O)C(=O)C3=C(O)c4ccccc4C(C)(O)C3C(O)C12",
+        "Cc1nnc(C(=O)NC(C)(C)c2nc(C(=O)NCc3ccc(F)cc3)c(O)c(=O)n2C)o1",
+        "CC1CC2C3CC(F)C4=CC(=O)C(Cl)=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)CO",
+        "C=C1c2cccc(O)c2C(=O)C2=C(O)C3(O)C(=O)C(C(N)O)=C(O)C(N(C)C)C3C(O)C12",
+        "C=C1c2cccc(O)c2C(=O)C2=C(O)C3(O)C(O)C(C(N)=O)=C(O)C(N(C)C)C3C(O)C12",
+        "CN(C)C1C(=O)C(C(N)=O)=CC2(O)C(=O)C3=C(O)c4c(O)cccc4C(C)(O)C3C(O)C12",
+        "C=C1c2cccc(O)c2C(=O)C2C1C(O)C1C(N(C)C)C(O)=C(C(N)=O)C(=O)C1(O)C2O",
+        "C=C1c2cccc(O)c2C(O)C2=C(O)C3(O)C(=O)C(C(N)=O)=C(O)C(N(C)C)C3C(O)C12",
+        "CN(C)C1C(=O)C(C(N)=O)=C(O)C2(O)C(=O)C3=Cc4c(O)cccc4C(C)(O)C3C(O)C12",
+        "CN(C)C1C(=O)C(C(N)=O)=C(O)C2C(=O)C3=C(O)c4c(O)cccc4C(C)(O)C3C(O)C21",
+        "COC(=O)C1=CC23CCNC(C(=O)OC)(C2CC1)N(C(=O)OC)c1c3ccc2c1OCO2",
+        "COC(=O)c1[nH]c2cc(OC)c(OC)cc2c1NC(=O)c1cc(OC)c(OC)c(OC)c1",
+        "O=C(NCc1ccccc1)N1Cc2nc[nH]c2CC1c1nc(-c2ccc3c(c2)OCO3)no1",
+        "CCOC(=O)C1=C(C)OC(N)=C(C(=O)OCC)C12C(=O)N(CC(=O)OC)c1ccccc12",
+        "CCOC(=O)CN1C(=O)C2(C(C(=O)OC)=C(C)OC(N)=C2C(=O)OCC)c2ccccc21",
+        "COC(=O)CC(c1ccc2c(c1)OCO2)c1oc(CN2CCN(C=O)CC2)cc(=O)c1O",
+        "COc1ccc(NC(=O)N2CCC3(CC2)NC(=O)c2ccc(Cl)cc2N3C)cc1OC",
+        "CCC(Oc1ccc2c(=O)c(-c3ccccc3OC)coc2c1)C(=O)OCc1ccccc1",
+        "CCOc1ccc(-c2cc(OC(=O)c3ccc(OC)cc3)c3c(C)oc(C)c3c(=O)c2)cc1",
+        "CC(=O)Nc1ccc(S(=O)(=O)N2CCN(S(=O)(=O)N3CCCCCC3)CC2)cc1",
+        "COc1cc2ncnc(Nc3ccc(O)c(Cl)c3)c2cc1OCCCN1CCOCC1"
+      ],
+      "formulas": [
+        "C22H24N2O8",
+        "C22H24N2O8",
+        "C22H24N2O8",
+        "C22H24N2O8",
+        "C22H24N2O8",
+        "C20H21FN6O5",
+        "C22H27ClF2O5",
+        "C22H24N2O8",
+        "C22H24N2O8",
+        "C22H24N2O8",
+        "C22H24N2O8",
+        "C22H24N2O8",
+        "C22H24N2O8",
+        "C22H24N2O8",
+        "C22H24N2O8",
+        "C22H24N2O8",
+        "C23H20N6O4",
+        "C22H24N2O8",
+        "C22H24N2O8",
+        "C22H24N2O8",
+        "C22H25ClN4O4",
+        "C27H24O6",
+        "C27H24O6",
+        "C18H28N4O5S2",
+        "C22H25ClN4O4"
+      ],
+      "gl": [
+        0.3093939082660383,
+        0.3578283645129562,
+        0.28304912171669133,
+        0.3014918100995991,
+        0.32232887335991967,
+        null,
+        null,
+        0.191772082986892,
+        0.31223736657225065,
+        0.2542759762287001,
+        0.3116588451365916,
+        0.3098119795472575,
+        0.30641658134647254,
+        0.29722613513382695,
+        0.09357599316759871,
+        0.05016634227840886,
+        0.10571942849270184,
+        0.05464509580095145,
+        0.052115859716097265,
+        0.10700339007963719,
+        0.1003559918073477,
+        0.26876215682438925,
+        0.17045420660664495,
+        0.1362136817987624,
+        0.16966217606143869
+      ],
+      "ice": [
+        0.26466220545012875,
+        0.27941919802909154,
+        0.23026034525869332,
+        0.19151613513472546,
+        0.2725716853499547,
+        null,
+        null,
+        0.059247968450689234,
+        0.16106904559775612,
+        0.2286123932353735,
+        0.19384389007768058,
+        0.1312270654011752,
+        0.23172684991830575,
+        0.26058375001919387,
+        0.1933365706897948,
+        0.1269511659293577,
+        0.08474815663363647,
+        0.07064479569643035,
+        0.0780903455056076,
+        0.1345007638802958,
+        0.1863101811285427,
+        0.2087557561873617,
+        0.19885107123592013,
+        0.10418012917546585,
+        0.15571844796021936
+      ],
+      "decisions": [
+        {
+          "formula": "C22H24N2O8",
+          "slots": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            17,
+            18,
+            19
+          ],
+          "gl": [
+            0.70789041657918,
+            1.141345791856514,
+            0.47212253096210727,
+            0.6371720232777127,
+            0.8236495389771804,
+            -0.3447447602722523,
+            0.7333374305999714,
+            0.21462248777332418,
+            0.7281600580137861,
+            0.7116318696300763,
+            0.6812453697004756,
+            0.5989971393960021,
+            -1.2235328434170298,
+            -1.6120196351528038,
+            -1.5719378434012565,
+            -1.5945727826836646,
+            -1.1033667918393222
+          ],
+          "ice": [
+            1.125308809025125,
+            1.3282608647850418,
+            0.6521820380751737,
+            0.11933518249952868,
+            1.234087423439407,
+            -1.6997411771639408,
+            -0.2994018589653586,
+            0.6295178502918672,
+            0.15134866007296888,
+            -0.7098168670664539,
+            0.6723507908787859,
+            1.069218050043961,
+            0.14437152620593272,
+            -0.768623062392812,
+            -1.5430012786861738,
+            -1.4406030676719899,
+            -0.6647938833710636
+          ],
+          "original_leader_slot": 0,
+          "pairwise_advantages": [
+            {
+              "index": 0,
+              "gl": 0.0,
+              "ice": 0.0
+            },
+            {
+              "index": 1,
+              "gl": 0.433455375277334,
+              "ice": 0.2029520557599167
+            },
+            {
+              "index": 2,
+              "gl": -0.23576788561707268,
+              "ice": -0.47312677094995137
+            },
+            {
+              "index": 3,
+              "gl": -0.07071839330146723,
+              "ice": -1.0059736265255963
+            },
+            {
+              "index": 4,
+              "gl": 0.11575912239800046,
+              "ice": 0.10877861441428194
+            },
+            {
+              "index": 7,
+              "gl": -1.0526351768514322,
+              "ice": -2.825049986189066
+            },
+            {
+              "index": 8,
+              "gl": 0.025447014020791414,
+              "ice": -1.4247106679904837
+            },
+            {
+              "index": 9,
+              "gl": -0.4932679288058558,
+              "ice": -0.49579095873325785
+            },
+            {
+              "index": 10,
+              "gl": 0.02026964143460619,
+              "ice": -0.9739601489521562
+            },
+            {
+              "index": 11,
+              "gl": 0.0037414530508963484,
+              "ice": -1.8351256760915788
+            },
+            {
+              "index": 12,
+              "gl": -0.026645046878704393,
+              "ice": -0.4529580181463392
+            },
+            {
+              "index": 13,
+              "gl": -0.10889327718317787,
+              "ice": -0.05609075898116411
+            },
+            {
+              "index": 14,
+              "gl": -1.9314232599962098,
+              "ice": -0.9809372828191923
+            },
+            {
+              "index": 15,
+              "gl": -2.3199100517319837,
+              "ice": -1.8939318714179372
+            },
+            {
+              "index": 17,
+              "gl": -2.2798282599804365,
+              "ice": -2.6683100877112986
+            },
+            {
+              "index": 18,
+              "gl": -2.302463199262845,
+              "ice": -2.5659118766971147
+            },
+            {
+              "index": 19,
+              "gl": -1.8112572084185021,
+              "ice": -1.7901026923961887
+            }
+          ],
+          "eligible_candidates": [
+            {
+              "index": 1,
+              "gl": 0.433455375277334,
+              "ice": 0.2029520557599167
+            },
+            {
+              "index": 4,
+              "gl": 0.11575912239800046,
+              "ice": 0.10877861441428194
+            }
+          ],
+          "promoted_from": 1
+        }
+      ],
+      "proposed": [
+        "C[C@@H]1[C@H]2[C@@H]([C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O",
+        "CN(C)C1C(O)=C(C(N)=O)C(=O)C2(O)C(O)=C3C(=O)c4c(O)cccc4C(C)(O)C3CC12",
+        "CCN(C)C1C(O)=C(C(N)=O)C(=O)C2(O)C(O)=C3C(=O)c4c(O)cccc4C(O)C3CC12",
+        "C=C1c2cccc(O)c2C(=O)C2=C(O)C3(O)C(=O)C(C(N)=O)C(O)C(N(C)C)C3C(O)C12",
+        "CN(C)C1C(O)=C(C(N)=O)C(=O)C2(O)C(=O)C3=C(O)c4ccccc4C(C)(O)C3C(O)C12",
+        "Cc1nnc(C(=O)NC(C)(C)c2nc(C(=O)NCc3ccc(F)cc3)c(O)c(=O)n2C)o1",
+        "CC1CC2C3CC(F)C4=CC(=O)C(Cl)=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)CO",
+        "C=C1c2cccc(O)c2C(=O)C2=C(O)C3(O)C(=O)C(C(N)O)=C(O)C(N(C)C)C3C(O)C12",
+        "C=C1c2cccc(O)c2C(=O)C2=C(O)C3(O)C(O)C(C(N)=O)=C(O)C(N(C)C)C3C(O)C12",
+        "CN(C)C1C(=O)C(C(N)=O)=CC2(O)C(=O)C3=C(O)c4c(O)cccc4C(C)(O)C3C(O)C12",
+        "C=C1c2cccc(O)c2C(=O)C2C1C(O)C1C(N(C)C)C(O)=C(C(N)=O)C(=O)C1(O)C2O",
+        "C=C1c2cccc(O)c2C(O)C2=C(O)C3(O)C(=O)C(C(N)=O)=C(O)C(N(C)C)C3C(O)C12",
+        "CN(C)C1C(=O)C(C(N)=O)=C(O)C2(O)C(=O)C3=Cc4c(O)cccc4C(C)(O)C3C(O)C12",
+        "CN(C)C1C(=O)C(C(N)=O)=C(O)C2C(=O)C3=C(O)c4c(O)cccc4C(C)(O)C3C(O)C21",
+        "COC(=O)C1=CC23CCNC(C(=O)OC)(C2CC1)N(C(=O)OC)c1c3ccc2c1OCO2",
+        "COC(=O)c1[nH]c2cc(OC)c(OC)cc2c1NC(=O)c1cc(OC)c(OC)c(OC)c1",
+        "O=C(NCc1ccccc1)N1Cc2nc[nH]c2CC1c1nc(-c2ccc3c(c2)OCO3)no1",
+        "CCOC(=O)C1=C(C)OC(N)=C(C(=O)OCC)C12C(=O)N(CC(=O)OC)c1ccccc12",
+        "CCOC(=O)CN1C(=O)C2(C(C(=O)OC)=C(C)OC(N)=C2C(=O)OCC)c2ccccc21",
+        "COC(=O)CC(c1ccc2c(c1)OCO2)c1oc(CN2CCN(C=O)CC2)cc(=O)c1O",
+        "COc1ccc(NC(=O)N2CCC3(CC2)NC(=O)c2ccc(Cl)cc2N3C)cc1OC",
+        "CCC(Oc1ccc2c(=O)c(-c3ccccc3OC)coc2c1)C(=O)OCc1ccccc1",
+        "CCOc1ccc(-c2cc(OC(=O)c3ccc(OC)cc3)c3c(C)oc(C)c3c(=O)c2)cc1",
+        "CC(=O)Nc1ccc(S(=O)(=O)N2CCN(S(=O)(=O)N3CCCCCC3)CC2)cc1",
+        "COc1cc2ncnc(Nc3ccc(O)c(Cl)c3)c2cc1OCCCN1CCOCC1"
+      ]
+    },
+    "np_DUXQKCCELUKXOE": {
+      "candidates": [
+        "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC4OC(COC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)cc3o2)cc1",
+        "COc1ccc(-c2coc3cc(OC4OC(COC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)c(OC)c(O)c3c2=O)cc1",
+        "COc1cc2oc(-c3ccc(OC4OC(COC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)cc3)cc(=O)c2c(O)c1OC",
+        "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC4OC(CO)C(O)C(O)C4OC4OC(C)C(O)C(O)C4O)cc3o2)cc1",
+        "COc1ccc(-c2cc(=O)c3c(OC)cc(OC4OC(COC5OCC(O)C(O)C5O)C(O)C(O)C4O)cc3o2)cc1OC",
+        "COc1ccc(-c2cc(=O)c3cc(OC4OC(COC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)c(OC)c(O)c3o2)cc1",
+        "COc1cc(OC2OC(COC3OCC(O)C(O)C3O)C(O)C(O)C2O)c2c(=O)cc(-c3ccc(OC)c(OC)c3)oc2c1",
+        "COc1ccc(-c2coc3cc(OC4OC(CO)C(O)C(O)C4OC4OC(C)C(O)C(O)C4O)c(OC)c(O)c3c2=O)cc1",
+        "COc1ccc(-c2oc3cc(OC)cc(O)c3c(=O)c2OC2OC(COC3OC(C)C(O)C(O)C3O)C(O)C(O)C2O)cc1",
+        "COc1cc(OC)c2c(=O)c(OC3OC(CO)C(O)C(O)C3OC3OC(C)C(O)C(O)C3O)c(-c3ccc(O)cc3)oc2c1",
+        "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC4C(C)OC(OCC5OC(O)C(O)C(O)C5O)C(O)C4O)cc3o2)cc1",
+        "COc1cc2oc(-c3ccc(OC4OC(CO)C(O)C(O)C4OC4OC(C)C(O)C(O)C4O)cc3)cc(=O)c2c(O)c1OC",
+        "COc1ccc(-c2cc(=O)c3c(O)c(OC4OC(CO)C(O)C(O)C4OC4OC(C)C(O)C(O)C4O)c(OC)cc3o2)cc1",
+        "COc1ccc(-c2oc3cc(OC)cc(O)c3c(=O)c2OC2OC(CO)C(O)C(O)C2OC2OC(C)C(O)C(O)C2O)cc1",
+        "COc1ccc(-c2coc3cc(O[C@@H]4O[C@@H](CO)[C@@H](O)[C@H](O[C@@H]5O[C@@H](CO)[C@@H](O)[C@H](O)[C@H]5O)[C@H]4O)ccc3c2=O)cc1OC",
+        "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC4OC(CO)C(O)C(OC5OC(C)C(O)C(O)C5O)C4O)cc3o2)cc1",
+        "COc1ccc(-c2cc(=O)c3c(O)c(OC4OC(CO)C(OC5OC(C)C(O)C(O)C5O)C(O)C4O)c(OC)cc3o2)cc1",
+        "COc1ccc(-c2coc3cc(OC4OC(CO)C(O)C(OC5OC(CO)C(O)C(O)C5O)C4O)c(OC)cc3c2=O)cc1",
+        "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC4OC(OCC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)cc3o2)cc1",
+        "COc1cc(-c2oc3cc(O)cc(O)c3c(=O)c2OC2OC(COC3OC(C)C(C)C(O)C3O)C(O)C(O)C2O)ccc1O",
+        "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC4OC(CO)C(OC5OC(C)C(O)C(O)C5O)C(O)C4O)cc3o2)cc1",
+        "COc1ccc(-c2oc3cc(OC4OC(C)C(O)C(O)C4O)cc(O)c3c(=O)c2OC2OC(CO)C(O)C(OC)C2O)cc1",
+        "COc1ccc(-c2oc3cc(OC4OC(C)C(O)C(O)C4O)cc(O)c3c(=O)c2OC2OC(CO)C(OC)C(O)C2O)cc1",
+        "COc1ccc(-c2cc(=O)c3c(O)c(C4OC(CO)C(O)C(O)C4OC4OC(CO)C(O)C(O)C4O)c(OC)cc3o2)cc1",
+        "COc1cc(OC)c2c(c1)C(=O)c1cc(O[C@H]3O[C@@H](CO[C@H]4O[C@@H](C)[C@H](O)[C@@H](O)[C@@H]4O)[C@H](O)[C@@H](O)[C@@H]3O)c(C)c(O)c1C2=O"
+      ],
+      "formulas": [
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15",
+        "C29H34O15"
+      ],
+      "gl": [
+        0.6450002290099782,
+        0.5943084485996646,
+        0.5672908337560694,
+        0.6370854110736941,
+        0.1705511949675685,
+        0.6344601904270329,
+        0.13958222794606243,
+        0.5852893235859687,
+        0.47688148863006513,
+        0.5058963413524472,
+        0.4468578903968089,
+        0.5678773799772545,
+        0.6183008267181789,
+        0.46973743204640056,
+        0.0698052000732637,
+        0.6343882710808357,
+        0.619241393395388,
+        0.07365510743945033,
+        0.6096940189761357,
+        0.053299639999300985,
+        0.6372693637077942,
+        0.1992834945535938,
+        0.20463552439144825,
+        0.08433513770016025,
+        0.4580284339026699
+      ],
+      "ice": [
+        0.5565422253349951,
+        0.5436791181297387,
+        0.5410454949420781,
+        0.5440944659355017,
+        0.16205164060985044,
+        0.5614914086824909,
+        0.15691087604197781,
+        0.5303191345533421,
+        0.5166056157040306,
+        0.5073983809795977,
+        0.4446236960695998,
+        0.5315655538926476,
+        0.5410828202045883,
+        0.5087930368217901,
+        0.09127929529182352,
+        0.5391010883548445,
+        0.538698376314211,
+        0.08933314235641432,
+        0.5233051190545966,
+        0.06711142912472917,
+        0.5447422618095012,
+        0.2046410916211337,
+        0.20595797587951722,
+        0.10236789258726652,
+        0.4704597680821581
+      ],
+      "decisions": [
+        {
+          "formula": "C29H34O15",
+          "slots": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "gl": [
+            0.973014707837753,
+            0.7456006291672295,
+            0.6243938785303711,
+            0.9375071558390708,
+            -1.1554642897340528,
+            0.9257298592076467,
+            -1.2943976443246268,
+            0.7051389213952411,
+            0.2187983804315812,
+            0.34896516380774684,
+            0.08410615073824895,
+            0.62702524928533,
+            0.8532355262012791,
+            0.1867486273395865,
+            -1.607432191101592,
+            0.9254072137664797,
+            0.8574551078098623,
+            -1.5901606900897618,
+            0.8146235611626069,
+            -1.6814796344302447,
+            0.9383324063720819,
+            -1.0265650996572333,
+            -1.0025547586366368,
+            -1.5422478091009044,
+            0.13421957818293834
+          ],
+          "ice": [
+            0.818513862636693,
+            0.7508553050735784,
+            0.7370027309483257,
+            0.7530399897672928,
+            -1.2564640963300189,
+            0.8445460336404549,
+            -1.283503963905071,
+            0.6805832313497029,
+            0.6084516001929754,
+            0.5600225378630282,
+            0.2298344608520653,
+            0.6871392627401369,
+            0.7371990578063553,
+            0.5673582772822839,
+            -1.6287190051299412,
+            0.7267753618601878,
+            0.7246571399292203,
+            -1.6389555598212682,
+            0.6436902657700858,
+            -1.7558393764486075,
+            0.7564473262475668,
+            -1.0324481741389295,
+            -1.0255215048685848,
+            -1.570394178442549,
+            0.36572941512502144
+          ],
+          "original_leader_slot": 0,
+          "pairwise_advantages": [
+            {
+              "index": 0,
+              "gl": 0.0,
+              "ice": 0.0
+            },
+            {
+              "index": 1,
+              "gl": -0.22741407867052355,
+              "ice": -0.06765855756311456
+            },
+            {
+              "index": 2,
+              "gl": -0.3486208293073819,
+              "ice": -0.08151113168836732
+            },
+            {
+              "index": 3,
+              "gl": -0.03550755199868216,
+              "ice": -0.06547387286940021
+            },
+            {
+              "index": 4,
+              "gl": -2.128478997571806,
+              "ice": -2.074977958966712
+            },
+            {
+              "index": 5,
+              "gl": -0.04728484863010629,
+              "ice": 0.026032171003761873
+            },
+            {
+              "index": 6,
+              "gl": -2.26741235216238,
+              "ice": -2.102017826541764
+            },
+            {
+              "index": 7,
+              "gl": -0.26787578644251187,
+              "ice": -0.13793063128699012
+            },
+            {
+              "index": 8,
+              "gl": -0.7542163274061718,
+              "ice": -0.21006226244371762
+            },
+            {
+              "index": 9,
+              "gl": -0.6240495440300062,
+              "ice": -0.25849132477366477
+            },
+            {
+              "index": 10,
+              "gl": -0.8889085570995041,
+              "ice": -0.5886794017846277
+            },
+            {
+              "index": 11,
+              "gl": -0.345989458552423,
+              "ice": -0.1313745998965561
+            },
+            {
+              "index": 12,
+              "gl": -0.11977918163647394,
+              "ice": -0.0813148048303377
+            },
+            {
+              "index": 13,
+              "gl": -0.7862660804981665,
+              "ice": -0.25115558535440907
+            },
+            {
+              "index": 14,
+              "gl": -2.580446898939345,
+              "ice": -2.447232867766634
+            },
+            {
+              "index": 15,
+              "gl": -0.04760749407127329,
+              "ice": -0.09173850077650525
+            },
+            {
+              "index": 16,
+              "gl": -0.11555960002789067,
+              "ice": -0.0938567227074727
+            },
+            {
+              "index": 17,
+              "gl": -2.5631753979275147,
+              "ice": -2.457469422457961
+            },
+            {
+              "index": 18,
+              "gl": -0.1583911466751461,
+              "ice": -0.1748235968666072
+            },
+            {
+              "index": 19,
+              "gl": -2.6544943422679976,
+              "ice": -2.5743532390853003
+            },
+            {
+              "index": 20,
+              "gl": -0.034682301465671084,
+              "ice": -0.06206653638912618
+            },
+            {
+              "index": 21,
+              "gl": -1.9995798074949862,
+              "ice": -1.8509620367756225
+            },
+            {
+              "index": 22,
+              "gl": -1.97556946647439,
+              "ice": -1.8440353675052779
+            },
+            {
+              "index": 23,
+              "gl": -2.5152625169386575,
+              "ice": -2.388908041079242
+            },
+            {
+              "index": 24,
+              "gl": -0.8387951296548146,
+              "ice": -0.4527844475116716
+            }
+          ],
+          "eligible_candidates": [],
+          "promoted_from": null
+        }
+      ],
+      "proposed": [
+        "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC4OC(COC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)cc3o2)cc1",
+        "COc1ccc(-c2coc3cc(OC4OC(COC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)c(OC)c(O)c3c2=O)cc1",
+        "COc1cc2oc(-c3ccc(OC4OC(COC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)cc3)cc(=O)c2c(O)c1OC",
+        "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC4OC(CO)C(O)C(O)C4OC4OC(C)C(O)C(O)C4O)cc3o2)cc1",
+        "COc1ccc(-c2cc(=O)c3c(OC)cc(OC4OC(COC5OCC(O)C(O)C5O)C(O)C(O)C4O)cc3o2)cc1OC",
+        "COc1ccc(-c2cc(=O)c3cc(OC4OC(COC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)c(OC)c(O)c3o2)cc1",
+        "COc1cc(OC2OC(COC3OCC(O)C(O)C3O)C(O)C(O)C2O)c2c(=O)cc(-c3ccc(OC)c(OC)c3)oc2c1",
+        "COc1ccc(-c2coc3cc(OC4OC(CO)C(O)C(O)C4OC4OC(C)C(O)C(O)C4O)c(OC)c(O)c3c2=O)cc1",
+        "COc1ccc(-c2oc3cc(OC)cc(O)c3c(=O)c2OC2OC(COC3OC(C)C(O)C(O)C3O)C(O)C(O)C2O)cc1",
+        "COc1cc(OC)c2c(=O)c(OC3OC(CO)C(O)C(O)C3OC3OC(C)C(O)C(O)C3O)c(-c3ccc(O)cc3)oc2c1",
+        "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC4C(C)OC(OCC5OC(O)C(O)C(O)C5O)C(O)C4O)cc3o2)cc1",
+        "COc1cc2oc(-c3ccc(OC4OC(CO)C(O)C(O)C4OC4OC(C)C(O)C(O)C4O)cc3)cc(=O)c2c(O)c1OC",
+        "COc1ccc(-c2cc(=O)c3c(O)c(OC4OC(CO)C(O)C(O)C4OC4OC(C)C(O)C(O)C4O)c(OC)cc3o2)cc1",
+        "COc1ccc(-c2oc3cc(OC)cc(O)c3c(=O)c2OC2OC(CO)C(O)C(O)C2OC2OC(C)C(O)C(O)C2O)cc1",
+        "COc1ccc(-c2coc3cc(O[C@@H]4O[C@@H](CO)[C@@H](O)[C@H](O[C@@H]5O[C@@H](CO)[C@@H](O)[C@H](O)[C@H]5O)[C@H]4O)ccc3c2=O)cc1OC",
+        "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC4OC(CO)C(O)C(OC5OC(C)C(O)C(O)C5O)C4O)cc3o2)cc1",
+        "COc1ccc(-c2cc(=O)c3c(O)c(OC4OC(CO)C(OC5OC(C)C(O)C(O)C5O)C(O)C4O)c(OC)cc3o2)cc1",
+        "COc1ccc(-c2coc3cc(OC4OC(CO)C(O)C(OC5OC(CO)C(O)C(O)C5O)C4O)c(OC)cc3c2=O)cc1",
+        "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC4OC(OCC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)cc3o2)cc1",
+        "COc1cc(-c2oc3cc(O)cc(O)c3c(=O)c2OC2OC(COC3OC(C)C(C)C(O)C3O)C(O)C(O)C2O)ccc1O",
+        "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC4OC(CO)C(OC5OC(C)C(O)C(O)C5O)C(O)C4O)cc3o2)cc1",
+        "COc1ccc(-c2oc3cc(OC4OC(C)C(O)C(O)C4O)cc(O)c3c(=O)c2OC2OC(CO)C(O)C(OC)C2O)cc1",
+        "COc1ccc(-c2oc3cc(OC4OC(C)C(O)C(O)C4O)cc(O)c3c(=O)c2OC2OC(CO)C(OC)C(O)C2O)cc1",
+        "COc1ccc(-c2cc(=O)c3c(O)c(C4OC(CO)C(O)C(O)C4OC4OC(CO)C(O)C(O)C4O)c(OC)cc3o2)cc1",
+        "COc1cc(OC)c2c(c1)C(=O)c1cc(O[C@H]3O[C@@H](CO[C@H]4O[C@@H](C)[C@H](O)[C@@H](O)[C@@H]4O)[C@H](O)[C@@H](O)[C@@H]3O)c(C)c(O)c1C2=O"
+      ]
+    }
+  },
+  "protected_ids": [
+    "cross_VXVNYCRICCVPTD",
+    "np_DUXQKCCELUKXOE"
+  ],
+  "changed_queries": 0,
+  "changed_top1": 0,
+  "evidence_executed": true,
+  "protected_queries": 2,
+  "eligible_queries": 0,
+  "pins": {
+    "ab_runtime_sha256": "7256e2a02a21039f450ff0e7e026d741fd03b0bf4d0523875f391d3b9f13b5fc",
+    "library_evidence_sha256": "11345b56530731c3c7005ed594eb0a84edc4a276d97710e75e6d76dd3849c59a",
+    "gl_score_sha256": "dffb7de96e6e9f84bb7b1c0a6da96a76c483671fb2c9a1f0b7b76ecee2a50a72",
+    "ice_score_sha256": "ccbd35e529595033a1c31e3bbf4e4bbe9ec61c9e06a6f57d6487e5955d74c477"
+  },
+  "output_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416"
+}

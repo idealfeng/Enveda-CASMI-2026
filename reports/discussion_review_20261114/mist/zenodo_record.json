@@ -1,0 +1,207 @@
+{
+  "created": "2026-10-21T01:24:40.879359+00:00",
+  "modified": "2026-10-21T01:24:41.370769+00:00",
+  "id": 23303289,
+  "conceptrecid": "23303288",
+  "doi": "10.5281/zenodo.23303289",
+  "conceptdoi": "10.5281/zenodo.23303288",
+  "doi_url": "https://doi.org/10.5281/zenodo.23303289",
+  "metadata": {
+    "title": "MIST: Processed Data, Synthetic Training Features, and Pretrained Models",
+    "doi": "10.5281/zenodo.23303289",
+    "publication_date": "2026-10-20",
+    "description": "<p>This record provides processed datasets, synthetic training features, and pretrained models for MIST:&nbsp;https://github.com/coleygroup/MIST.</p>\n<p>The repository is an updated implementation of MIST, originally developed by Goldman and colleagues, with improved support for modern distributed data parallel (DDP) training and optional synthetic-data training. MIST predicts&nbsp;molecular fingerprints from tandem mass spectra using chemical formula transformers.</p>\n<p>&nbsp;</p>\n<p><strong>Processed datasets and portable training features</strong></p>\n<p>The msg_all.tar.gz and canopus_all.tar.gz archives contain processed spectra, molecular labels, formula assignments, and split definitions for rebuilding features.</p>\n<p>The msg_compact.tar.gz and canopus_compact.tar.gz archives contain self-contained features directly consumed by MIST training and evaluation:</p>\n<p><span class=\"Apple-converted-space\">&nbsp; </span>&bull; MassSpecGym (MSG): 194,119 training, 19,429 validation, and 17,556 test rows.</p>\n<p><span class=\"Apple-converted-space\">&nbsp; </span>&bull; CANOPUS: 9,181 training, 401 validation, and 819 test rows.</p>\n<p>These counts describe the released compact feature selections. Compact validation and test selections do not necessarily include every collision-energy row in the processed source datasets.</p>\n<p>&nbsp;</p>\n<p><strong>Synthetic training features</strong></p>\n<p>The msg_synthetic.tar.gz archive contains 78,450,500 feature rows generated from the refined-4M molecular collection. The canopus_synthetic.tar.gz archive contains 40,000,000 feature rows generated from the random-2M molecular&nbsp;collection.</p>\n<p>The 4M and 2M labels refer to molecular collections, not spectral feature row counts. Both archives are self-contained and use relative paths, allowing them to be moved between machines without access to the original filesystem.</p>\n<p>&nbsp;</p>\n<p><strong>Pretrained models</strong></p>\n<p>Four MIST checkpoints provide exponential moving average (EMA) weights for real-only and synthetic-augmented training:</p>\n<p><span class=\"Apple-converted-space\">&nbsp; </span>&bull; mist_msg_noaug.ckpt: MSG real-only model.</p>\n<p><span class=\"Apple-converted-space\">&nbsp; </span>&bull; mist_msg_aug.ckpt: MSG model trained with synthetic augmentation.</p>\n<p><span class=\"Apple-converted-space\">&nbsp; </span>&bull; mist_canopus_noaug.ckpt: CANOPUS real-only model.</p>\n<p><span class=\"Apple-converted-space\">&nbsp; </span>&bull; mist_canopus_aug.ckpt: CANOPUS model trained with synthetic augmentation.</p>\n<p>Here, &ldquo;noaug&rdquo; means training without synthetic spectra; stochastic peak and intensity regularization may still be used. These are inference checkpoints, rather than complete training-state snapshots for exact training resumption.</p>\n<p>The glacier_msg.ckpt and glacier_canopus.ckpt files provide GLACIER weights for synthetic-spectrum inference through the repository&rsquo;s compatibility implementation. Training MIST with the supplied compact features does not require&nbsp;running GLACIER.</p>\n<p>&nbsp;</p>\n<p><strong>Usage</strong></p>\n<p>Extract the data archives from the repository root and place checkpoint files under checkpoints/. Installation, training, evaluation, and GLACIER dependency instructions are available at:</p>\n<p>https://github.com/coleygroup/MIST</p>\n<p>&nbsp;</p>\n<p><strong>Citation</strong></p>\n<p>Please cite the original MIST paper when using these resources:</p>\n<p>Goldman, S., Wohlwend, J., Stra\u017ear, M., Haroush, G., Xavier, R. J., and Coley, C. W. &ldquo;Annotating metabolite mass spectra with domain-inspired chemical formula transformers.&rdquo; <em>Nature Machine Intelligence</em> <strong>5</strong>, 965&ndash;979 (2023).</p>\n<p>https://doi.org/10.1038/s42256-023-00708-3</p>\n<p>Please also acknowledge the applicable source datasets:</p>\n<p>MassSpecGym: https://huggingface.co/datasets/roman-bushuiev/MassSpecGym</p>\n<p>Original MIST CANOPUS resources: https://doi.org/10.5281/zenodo.8316682</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Liu, Hongxuan",
+        "affiliation": null,
+        "orcid": "0009-0001-9899-9830"
+      }
+    ],
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "mit-license"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "23303288"
+          }
+        }
+      ]
+    }
+  },
+  "title": "MIST: Processed Data, Synthetic Training Features, and Pretrained Models",
+  "links": {
+    "self": "https://zenodo.org/api/records/23303289",
+    "self_html": "https://zenodo.org/records/23303289",
+    "preview_html": "https://zenodo.org/records/23303289?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.23303289",
+    "self_doi": "https://doi.org/10.5281/zenodo.23303289",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.23303289",
+    "reserve_doi": "https://zenodo.org/api/records/23303289/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/23303288",
+    "parent_html": "https://zenodo.org/records/23303288",
+    "parent_doi": "https://doi.org/10.5281/zenodo.23303288",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.23303288",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:23303289/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:23303289/sequence/default",
+    "files": "https://zenodo.org/api/records/23303289/files",
+    "media_files": "https://zenodo.org/api/records/23303289/media-files",
+    "latest": "https://zenodo.org/api/records/23303289/versions/latest",
+    "latest_html": "https://zenodo.org/records/23303289/latest",
+    "versions": "https://zenodo.org/api/records/23303289/versions",
+    "draft": "https://zenodo.org/api/records/23303289/draft",
+    "access_links": "https://zenodo.org/api/records/23303289/access/links",
+    "access_grants": "https://zenodo.org/api/records/23303289/access/grants",
+    "access_users": "https://zenodo.org/api/records/23303289/access/users",
+    "access_request": "https://zenodo.org/api/records/23303289/access/request",
+    "access": "https://zenodo.org/api/records/23303289/access",
+    "communities": "https://zenodo.org/api/records/23303289/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/23303289/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/23303289/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/23303289/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/23303289/quota-increase",
+    "requests": "https://zenodo.org/api/records/23303289/requests"
+  },
+  "updated": "2026-10-21T01:24:41.370769+00:00",
+  "recid": "23303289",
+  "revision": 4,
+  "files": [
+    {
+      "id": "67c24632-4310-467b-84b3-8d0ba13f7d12",
+      "key": "glacier_msg.ckpt",
+      "size": 54264785,
+      "checksum": "md5:66bb00aaa652a21cca94e254b38554e5",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/glacier_msg.ckpt/content"
+      }
+    },
+    {
+      "id": "5bfe1e40-8b93-49f0-9e84-3611358402c1",
+      "key": "msg_synthetic.tar.gz",
+      "size": 12081676267,
+      "checksum": "md5:18414289155f67e4a44eb9a2dfecdd81",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/msg_synthetic.tar.gz/content"
+      }
+    },
+    {
+      "id": "b30a32d1-f26e-4147-bcb7-f95da7a54e7c",
+      "key": "canopus_compact.tar.gz",
+      "size": 976436,
+      "checksum": "md5:387b72b057544914208c2e4385877be6",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/canopus_compact.tar.gz/content"
+      }
+    },
+    {
+      "id": "29e99cbc-99dd-4e50-ad21-54dff6f33893",
+      "key": "canopus_all.tar.gz",
+      "size": 84581759,
+      "checksum": "md5:46153679ac76099ac6c618c84dd00e0c",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/canopus_all.tar.gz/content"
+      }
+    },
+    {
+      "id": "bad028b6-71f9-498b-91b8-1795930d2885",
+      "key": "mist_canopus_aug.ckpt",
+      "size": 289222801,
+      "checksum": "md5:7ae9eebf590c52dbee7df4c7f151c470",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/mist_canopus_aug.ckpt/content"
+      }
+    },
+    {
+      "id": "bc3f10f5-28fc-48bd-bc0d-7545a6de6f26",
+      "key": "mist_canopus_noaug.ckpt",
+      "size": 289222983,
+      "checksum": "md5:9ad3fe98d08f3a7bc241986288321ab5",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/mist_canopus_noaug.ckpt/content"
+      }
+    },
+    {
+      "id": "22ec5cb7-c277-47ff-b34f-b4ae7582a045",
+      "key": "msg_compact.tar.gz",
+      "size": 15682874,
+      "checksum": "md5:13e86837ee49ea81e15f3d096cc636ec",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/msg_compact.tar.gz/content"
+      }
+    },
+    {
+      "id": "24f46c3e-6ae5-4ed8-83ec-c8a25b8f1c52",
+      "key": "mist_msg_noaug.ckpt",
+      "size": 289222619,
+      "checksum": "md5:80594e4dfd82d15fb32a3b186e686b6b",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/mist_msg_noaug.ckpt/content"
+      }
+    },
+    {
+      "id": "a58ec872-d8d4-4caf-8e11-d1d0e7d07bd6",
+      "key": "glacier_canopus.ckpt",
+      "size": 54265821,
+      "checksum": "md5:add4236a311e9e3cab4c2701c8c475f3",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/glacier_canopus.ckpt/content"
+      }
+    },
+    {
+      "id": "093b763b-a844-4621-8930-babae072322f",
+      "key": "msg_all.tar.gz",
+      "size": 292073888,
+      "checksum": "md5:8548d0e658d747b96a79ae3213df1cdc",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/msg_all.tar.gz/content"
+      }
+    },
+    {
+      "id": "6d880566-0d2f-47a1-b23a-136a4e7b7787",
+      "key": "mist_msg_aug.ckpt",
+      "size": 289222437,
+      "checksum": "md5:3e92179240e3043733627d720f4b7b86",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/mist_msg_aug.ckpt/content"
+      }
+    },
+    {
+      "id": "31447e0a-6a15-460a-a74b-420ad2afda8e",
+      "key": "canopus_synthetic.tar.gz",
+      "size": 2262417967,
+      "checksum": "md5:37d80d56e1de6dff98f4cbaf9c65282c",
+      "links": {
+        "self": "https://zenodo.org/api/records/23303289/files/canopus_synthetic.tar.gz/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1686341"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 2414,
+    "unique_downloads": 790,
+    "views": 626,
+    "unique_views": 604,
+    "version_downloads": 2414,
+    "version_unique_downloads": 790,
+    "version_unique_views": 604,
+    "version_views": 626
+  },
+  "state": "done",
+  "submitted": true
+}

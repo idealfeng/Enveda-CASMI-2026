@@ -1,0 +1,24 @@
+{
+  "read_only": true,
+  "no_large_data_downloaded": true,
+  "files": [
+    {
+      "file": "extlib2/build_log.txt",
+      "bytes": 1483,
+      "sha256": "e7b71f15cc65bd56b64286156c24ba78d6800e245bf159c4084217414c03794f",
+      "text": "rdkit 2026.03.3\ngnps library list failed HTTP Error 404: NOT FOUND\ndownloaded ALL_GNPS_NO_PROPOGATED.mgf: 2227.0 MB in 575s\nGNPS2: seen 100,000 kept 25,872 unique smiles 18,157\nGNPS2: seen 200,000 kept 100,780 unique smiles 35,905\nGNPS2: seen 300,000 kept 187,054 unique smiles 49,687\nGNPS2: seen 400,000 kept 261,585 unique smiles 55,097\nGNPS2: seen 500,000 kept 326,853 unique smiles 57,305\nGNPS2: seen 600,000 kept 396,571 unique smiles 75,125\nGNPS2: seen 700,000 kept 427,470 unique smiles 77,546\nGNPS2: seen 800,000 kept 455,115 unique smiles 77,601\nGNPS2: seen 900,000 kept 507,764 unique smiles 87,483\nrows so far 528980\nMassBank release 2026.11 https://github.com/MassBank/MassBank-data/releases/download/2026.11/MassBank_NISTformat.msp\ndownloaded MassBank_NISTformat.msp: 142.8 MB in 1s\nMassBank: seen 100,000 kept 72,416 unique smiles 92,283\nrows so far 612200\nMSnLib files selected: ['20241003_nihnp_neg_ms2.mgf', '20250828_targetmol_hts_np_neg_ms2.mgf', '20250828_targetmol_hts_np_pos_ms2.mgf', '20241003_mcebio_pos_ms2.mgf', '20241003_nihnp_pos_ms2.mgf', '20241003_mcebio_neg_ms2.mgf']\ndownloaded 20241003_nihnp_neg_ms2.mgf: 35.3 MB in 25s\ndownloaded 20250828_targetmol_hts_np_neg_ms2.mgf: 16.6 MB in 4s\ndownloaded 20250828_targetmol_hts_np_pos_ms2.mgf: 17.8 MB in 14s\ndownloaded 20241003_mcebio_pos_ms2.mgf: 115.8 MB in 43s\ndownloaded 20241003_nihnp_pos_ms2.mgf: 45.1 MB in 10s\ndownloaded 20241003_mcebio_neg_ms2.mgf: 63.1 MB in 20s\nrows so far 680491\ntotal kept 680491"
+    },
+    {
+      "file": "extlib2/ext2_summary.json",
+      "bytes": 897,
+      "sha256": "e6d91b42b14d1bad7ba600a2bd77ff3a8ba26bb70c1f2563a9b489e110b3d2df",
+      "text": "{\n \"rows\": 490840,\n \"structures\": 62782,\n \"rdkit\": \"2026.03.3\",\n \"by_source\": {\n  \"GNPS2\": 432221,\n  \"MassBank\": 44480,\n  \"MSnLib\": 14139\n },\n \"by_adduct\": {\n  \"[M+H]+\": 352469,\n  \"[M-H]-\": 123995,\n  \"[M+NH4]+\": 5231,\n  \"[M+Cl]-\": 3844,\n  \"[M-H2O+H]+\": 2381,\n  \"[M+Na]+\": 1430,\n  \"[M+CH2O2-H]-\": 944,\n  \"[M-2H2O+H]+\": 530,\n  \"[M+K]+\": 14,\n  \"[M-H2O-H]-\": 2\n },\n \"stats\": {\n  \"GNPS2\": {\n   \"seen\": 953293,\n   \"kept\": 528980,\n   \"no_struct\": 96086,\n   \"bad_adduct\": 0,\n   \"bad_mass\": 276961,\n   \"few_peaks\": 51266,\n   \"msn\": 0\n  },\n  \"MassBank\": {\n   \"seen\": 116340,\n   \"kept\": 83220,\n   \"no_struct\": 960,\n   \"bad_adduct\": 4463,\n   \"bad_mass\": 14167,\n   \"few_peaks\": 13530,\n   \"msn\": 0\n  },\n  \"MSnLib\": {\n   \"seen\": 82851,\n   \"kept\": 68291,\n   \"no_struct\": 0,\n   \"bad_adduct\": 11708,\n   \"bad_mass\": 0,\n   \"few_peaks\": 2852,\n   \"msn\": 0\n  }\n },\n \"built_utc\": \"2026-11-12 19:25:42\",\n \"seconds\": 1009\n}"
+    },
+    {
+      "file": "extlib2/offline_eval.json",
+      "bytes": 649,
+      "sha256": "457fafc22532556717fbd00241021ec9ce8bd070545b38c81c3ab4859614e652",
+      "text": "{\n \"A\": {\n  \"tier1 >=0.80\": \"131/141 correct\",\n  \"tier2 0.72-0.80\": \"13/18 correct\",\n  \"tier3 0.65-0.72\": \"9/12 correct\",\n  \"tier1 MRR gain proxy (correct - wrong)\": 121,\n  \"refs\": 324000\n },\n \"B\": {\n  \"tier1 >=0.80\": \"186/202 correct\",\n  \"tier2 0.72-0.80\": \"17/23 correct\",\n  \"tier3 0.65-0.72\": \"8/10 correct\",\n  \"tier1 MRR gain proxy (correct - wrong)\": 170,\n  \"refs\": 490840\n },\n \"AB\": {\n  \"tier1 >=0.80\": \"187/204 correct\",\n  \"tier2 0.72-0.80\": \"15/21 correct\",\n  \"tier3 0.65-0.72\": \"8/10 correct\",\n  \"tier1 MRR gain proxy (correct - wrong)\": 170,\n  \"refs\": 814840\n },\n \"coverage\": {\n  \"molecules\": 250,\n  \"A\": 214,\n  \"B\": 247,\n  \"A+B\": 247\n }\n}"
+    }
+  ]
+}

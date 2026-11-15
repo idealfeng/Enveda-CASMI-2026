@@ -1,0 +1,15 @@
+{
+  "status": "released_for_exploratory_cloud_run",
+  "checked_at_utc": "2026-11-13T13:35:04.889584+00:00",
+  "branch": "head_mean_ab",
+  "notebook_sha256": "d61a87c4edc67ddd078845e6aeff2d09209e2ab6c75192d20cb3cdcd1318d270",
+  "recipe_sha256": "cbb3916beddd216750f9b05384180f35700c8a98c6feb330a8c77ff9f79919a2",
+  "actual_component_evidence": "runs\\head_mean_ab_20261113_r3\\verification.json",
+  "actual_component_evidence_sha256": "b227662673febf523f4a36d39a4dd106de6a2b096b78e57d85a8bbe90364913f",
+  "all_component_checks_passed": true,
+  "actual_mean_scorer_executed": true,
+  "actual_AB_matching": true,
+  "truth_metrics_computed": false,
+  "new_full_pipeline_executed": false,
+  "scope": "Exact changed mean cells executed in r2; exact AB and final cells rerun in r3 with actual production library_max context. Saved intermediates use generation-variant candidates, not exact champion, and no efficacy claim."
+}

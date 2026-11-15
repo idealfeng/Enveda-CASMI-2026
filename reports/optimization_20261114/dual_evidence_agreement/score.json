@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-dual-evidence-agreement-1114",
+  "version": 1,
+  "branch_sha256": "0286d6a40b3ce9c6115c2c41fa9fe7c573671618544a4881ded3124349c75148",
+  "submission_ref": 58335047,
+  "actual_target": "stormseye/casmi26-dual-evidence-agreement-1114",
+  "status": "COMPLETE",
+  "public_score": "0.449",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-15T03:20:16.042054+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

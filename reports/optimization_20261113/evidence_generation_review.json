@@ -1,0 +1,143 @@
+{
+  "status": "passed_real_production_subset_release_recommended",
+  "static_checks": {
+    "parent_sha": true,
+    "stage_sha": true,
+    "metadata_sha": true,
+    "only_original_cell12_changed": true,
+    "original_cell12_is_prefix": true,
+    "one_appended_audit_cell": true,
+    "embedded_frozen_cell11_unchanged": true,
+    "all_original_cells13_to32_unchanged": true,
+    "original_head_AB_cells_retained": true,
+    "original_runner_sha": true,
+    "runner_only_aftercell_and_finish_hook": true,
+    "runner_sha": true,
+    "module_payload_sha": true,
+    "module_equals_local": true,
+    "exact_post_frozen27_source_pins": true,
+    "dataset_versions_unchanged": true,
+    "competition_versions_unchanged": true,
+    "private_gpu_offline": true,
+    "stage_all_code_compiles": true
+  },
+  "notebook_sha256": "a9debc93f59213d3c80a8b3ee0e4808ee930d6ada34c3ee908f1469fa35cfa2c",
+  "recipe_sha256": "9f70ddc759cf3ce5c927c7e0154128768b6f6931f8b19528c8f3649e9e743bae",
+  "source_pins": {
+    "engine": "e4943fb26a8141f47ea95e744910c2d0f4746e36e72ef43e3263e7f327cfc0b5",
+    "derive": "7c1e8c3afb4c17a3ae58fbc6c36fd4cfc552da97b9129c9b46cca3cdc6ee4892",
+    "hooks_v1": "d0cb1e37566a54bbb3082ccd29579ac47fc2526c5d64ef073dc0e628ee5657e8",
+    "v1engine": "9074546910ba850a98bb95afe531669c62a26c15ab8b6bf9d6b6020c77ea0e8a"
+  },
+  "original_cell_count": 33,
+  "original_cell_changes": [
+    12
+  ],
+  "real_execution": {
+    "status": "passed_real_production_subset",
+    "full_run_log_sha256": "21b496b9318f66adfee36c74e205eae263e74dabce0a29d094f38b8cdaa39099",
+    "preparation_sha256": "fec827bbce924fce093fbb6fb1ebc8c347175c8406735a943cf8314354eee399",
+    "failure_present": false,
+    "verification_present": true,
+    "verification_sha256": "958e7f60a5209b760aa231f1655dc579da454175aa3019c16dd6f8c79f3e57e1",
+    "exact_stage": true,
+    "all_outer_code_cells": true,
+    "all_audits_actual_hidden_full": true,
+    "output_bound": true,
+    "audit_sha256": {
+      "batch_variant_audit.json": "678b0647e144cae1e3401b072f58b65ba69ab4c5b826a61f53545867bbc5d90c",
+      "guarded_tail_audit.json": "e5240b882331ea0892a58800e0e3e2a550b6862acf047635a86eb21fe6cd50c8",
+      "external_overlay_audit.json": "344584415621810c419704f8f419dbee0f1e5599be87654cfaaaf9935e29bc5e",
+      "generation_variant_audit.json": "ba926a41dba76c20acf5461fc291a35bdd4b82195defc3e718e3bf7bea0d51a4"
+    },
+    "production_health": {
+      "actual_csv_columns": true,
+      "actual_csv_ids": true,
+      "two_unique_ids": true,
+      "exactly25_nonempty_unique_candidates": true,
+      "installed_engine_pin": true,
+      "runtime_installed_source_pins": true,
+      "embedded_actual_module": true,
+      "embedded_actual_runner": true,
+      "actual_frozen_sha": true,
+      "executed_real_submission_path": true,
+      "actual_engine2_pubchem_lists": true,
+      "no_main_errors": true,
+      "exact_generation_configuration": true,
+      "actual_rank_features": true,
+      "finite_complete_ice": true,
+      "finite_complete_gl": true,
+      "neural_errors_empty": true,
+      "both_original_AB_sources": true
+    },
+    "rows": 2,
+    "candidates": 50,
+    "generated_candidates": 308,
+    "generated_candidates_in_actual_engine25": 15,
+    "generated_candidates_in_final25": 14,
+    "generation_queries": [
+      {
+        "molecule_id": "cross_VXVNYCRICCVPTD",
+        "parents": 12,
+        "generated": 8,
+        "actual_ranker_features": 160
+      },
+      {
+        "molecule_id": "np_DUXQKCCELUKXOE",
+        "parents": 12,
+        "generated": 300,
+        "actual_ranker_features": 160
+      }
+    ],
+    "stale_log_banner_note": "CLAW STAGE HEALTH says NOT RUN, but actual ICE/GL meta, score files and V43 receipt prove successful 2/2 scoring; banner is not the health source.",
+    "expected_inactive_scopes": [
+      "N1 proxy has no eligible queries in this H+ subset; no proxy coverage claim.",
+      "AB actually loads and matches both libraries but finds zero hits in this subset; promotion branch not exercised."
+    ],
+    "source_label_audit": {
+      "status": "manual_source_review_no_query_label_reads_found",
+      "truth_metadata_present": true,
+      "clean_validation": false,
+      "no_efficacy_claim": true,
+      "review_boundary": "Source review, not runtime field-access instrumentation. Full query frame and its labels are exported, but reviewed prediction inputs use spectral fields and candidate structures only.",
+      "reviewed_prediction_consumers": [
+        "FROZEN39 V1FE spectra construction; FROZEN41 GL/ICE item construction",
+        "Actual eng/casmi_engine.py compute_channels",
+        "Actual pc_runner.py spectra construction",
+        "p2s_code/neural_scores.py score: query spectrum encoder versus candidate-frame smiles",
+        "guarded_head_tail.py run and learned_head_score.py score",
+        "alex_v12_external_function.py query parsing; external matching uses reference structures"
+      ],
+      "query_fields": [
+        "molecule_id",
+        "ms2_mzs",
+        "ms2_normalized_intensities",
+        "precursor_mz",
+        "adduct",
+        "ionization_mode",
+        "instrument_type",
+        "collision_energy_ev"
+      ],
+      "label_fields_not_used_as_query_features": [
+        "normalized_smiles",
+        "inchikey",
+        "inchikey14",
+        "molecular_formula",
+        "official_identity"
+      ],
+      "export_note": "export_evidence.py writes scope te with the extra columns unchanged to effective_query_spectra.parquet. This persistence is why no_truth_loaded is false.",
+      "provenance_correction": "Original verification.json limitation says unlabelled incorrectly. input_schema_review.json and preparation.json retract that claim; this independent report uses labelled metadata present, deployment smoke only.",
+      "input_schema_review_sha256": "db2ec3718ce9f2d8350ac0e9ebf6499c9c86e19175e7ffee373528b9cacb08db"
+    }
+  },
+  "scope": "Read-only independent audit; two-query local production subset with unused truth metadata present. No efficacy or clean-validation claim.",
+  "no_model_or_library_launched": true,
+  "release_recommendation": "Release this unchanged frozen stage for one Kaggle submission. This closes the previous source-pin/runtime-path failure on the tested subset; full hidden coverage, resource budget and score gain remain unproven.",
+  "remaining_constraints": [
+    "Only 2 queries / 20 spectra on local RTX4060, not full Kaggle hidden test or T4 runtime validation.",
+    "No same-run default-generation control, so 308 generated candidates and 14 final candidates do not measure incremental coverage or score gain.",
+    "Both AB libraries and heads executed; this subset has zero AB hits, so actual promotion branch was not exercised.",
+    "Input includes unused truth metadata. Treat only as production execution-path smoke, never clean CV.",
+    "Do not select future methods from these two known-answer queries."
+  ]
+}

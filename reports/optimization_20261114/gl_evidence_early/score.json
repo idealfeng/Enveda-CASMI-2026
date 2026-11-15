@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-gl-evidence-early-1114",
+  "version": 1,
+  "branch_sha256": "b07b93bd2c08ee17a6c97f071f02322b06120fab0f9e5b94d39ab6d8852160a7",
+  "submission_ref": 58335002,
+  "actual_target": "stormseye/casmi26-gl-evidence-early-1114",
+  "status": "COMPLETE",
+  "public_score": "0.481",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-15T03:20:14.184981+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

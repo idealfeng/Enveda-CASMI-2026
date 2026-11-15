@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-bestval-v80-adduct-1112",
+  "version": 1,
+  "branch_sha256": "a92c9f69399154165497b09f5eafe4e6440bbbfb9eb5aeb36d229d950d263f7d",
+  "submission_ref": 58271026,
+  "actual_target": "stormseye/casmi26-bestval-v80-adduct-1112",
+  "status": "COMPLETE",
+  "public_score": "0.481",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-13T11:39:33.423161+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

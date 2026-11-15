@@ -1,0 +1,9 @@
+{
+  "status": "prepared",
+  "branch": "bestval_v80_adduct",
+  "target": "stormseye/casmi26-bestval-v80-adduct-1112",
+  "notebook_sha256": "1280a429ae410fd282deec6f2f93dd4d035a6a7655443ac95bc21731f99346c1",
+  "metadata_sha256": "da426b735e9c9cd27096691c56866d547f9a61df702a9dbadd24622181fc74a2",
+  "recipe_sha256": "2c66a0e6017f5df1c46afb6d944ba9fbe16a1d421a7843032f913a0386d0ba3b",
+  "notebook_bytes": 861647
+}

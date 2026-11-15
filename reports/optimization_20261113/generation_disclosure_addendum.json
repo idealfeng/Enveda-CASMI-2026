@@ -1,0 +1,66 @@
+{
+  "status": "provenance_correction_addendum",
+  "supersedes": "verification.json limitation word unlabelled and preparation original no_truth_loaded=true",
+  "original_verification_preserved": true,
+  "actual_input_not_modified": true,
+  "actual_input_extra_columns": [
+    "adduct_orig",
+    "inchikey",
+    "inchikey14",
+    "ingest_lib",
+    "molecular_formula",
+    "normalized_smiles",
+    "num_peaks",
+    "official_identity",
+    "panel",
+    "precursor_error_ppm",
+    "source_row",
+    "spectrum_sha256"
+  ],
+  "no_truth_loaded": false,
+  "truth_metadata_present": true,
+  "clean_validation": false,
+  "efficacy_claim": false,
+  "use": "Production execution-path smoke only",
+  "source_review": {
+    "status": "manual_source_review_no_query_label_reads_found",
+    "truth_metadata_present": true,
+    "clean_validation": false,
+    "no_efficacy_claim": true,
+    "review_boundary": "Source review, not runtime field-access instrumentation. Full query frame and its labels are exported, but reviewed prediction inputs use spectral fields and candidate structures only.",
+    "reviewed_prediction_consumers": [
+      "FROZEN39 V1FE spectra construction; FROZEN41 GL/ICE item construction",
+      "Actual eng/casmi_engine.py compute_channels",
+      "Actual pc_runner.py spectra construction",
+      "p2s_code/neural_scores.py score: query spectrum encoder versus candidate-frame smiles",
+      "guarded_head_tail.py run and learned_head_score.py score",
+      "alex_v12_external_function.py query parsing; external matching uses reference structures"
+    ],
+    "query_fields": [
+      "molecule_id",
+      "ms2_mzs",
+      "ms2_normalized_intensities",
+      "precursor_mz",
+      "adduct",
+      "ionization_mode",
+      "instrument_type",
+      "collision_energy_ev"
+    ],
+    "label_fields_not_used_as_query_features": [
+      "normalized_smiles",
+      "inchikey",
+      "inchikey14",
+      "molecular_formula",
+      "official_identity"
+    ],
+    "export_note": "export_evidence.py writes scope te with the extra columns unchanged to effective_query_spectra.parquet. This persistence is why no_truth_loaded is false.",
+    "provenance_correction": "Original verification.json limitation says unlabelled incorrectly. input_schema_review.json and preparation.json retract that claim; this independent report uses labelled metadata present, deployment smoke only.",
+    "input_schema_review_sha256": "db2ec3718ce9f2d8350ac0e9ebf6499c9c86e19175e7ffee373528b9cacb08db"
+  },
+  "future_prepare": "Official test schema whitelist; already implemented in run_generation_production_20261113.py",
+  "sources": {
+    "verification_sha256": "958e7f60a5209b760aa231f1655dc579da454175aa3019c16dd6f8c79f3e57e1",
+    "input_schema_review_sha256": "db2ec3718ce9f2d8350ac0e9ebf6499c9c86e19175e7ffee373528b9cacb08db",
+    "independent_review_sha256": "1678bd6edbe4751043210a4886d9f6258765856141bbe0662bfcc06c0c737ee1"
+  }
+}

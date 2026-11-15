@@ -1,0 +1,57 @@
+{
+  "status": "extracted_native_val_only",
+  "archive_sha256": "a19e657a802cf5869d97b3486c7ce41021cba9c9a6279818e5d186307e3e7a35",
+  "files": [
+    {
+      "path": "runs/mist_fingerprint_audit_20261115/native_val/manifest.json",
+      "bytes": 561,
+      "sha256": "f928aac1cdeba3f0ecdead37e06b5fe66433b280dc32502386616895bce1bc42"
+    },
+    {
+      "path": "runs/mist_fingerprint_audit_20261115/native_val/part_00000/fingerprints.npy",
+      "bytes": 9947776,
+      "sha256": "778051b9c317e39f1225d9096f03b77f182e102709bacd8ff23e7a233d042cb7"
+    },
+    {
+      "path": "runs/mist_fingerprint_audit_20261115/native_val/part_00000/form_vec.npy",
+      "bytes": 7694012,
+      "sha256": "8e91269c81cd36281a5268bf21636e6fa1fb1cd14332090909d01e2386b5eb77"
+    },
+    {
+      "path": "runs/mist_fingerprint_audit_20261115/native_val/part_00000/instruments.npy",
+      "bytes": 19557,
+      "sha256": "172ceabbb397d447bd6d3b0f22098b72e04c5112bba7bb76736da606c9a88af7"
+    },
+    {
+      "path": "runs/mist_fingerprint_audit_20261115/native_val/part_00000/intens.npy",
+      "bytes": 427566,
+      "sha256": "abcf74e917540133234fd9be5445123bd26460b9e2e2945b3fe5adeecfc3b5fb"
+    },
+    {
+      "path": "runs/mist_fingerprint_audit_20261115/native_val/part_00000/ion_vec.npy",
+      "bytes": 213847,
+      "sha256": "a597d87e6cffc6e8046fe4c0bbeee5b18f8a76ce6b0a29c91ad4109e6fa2ef8b"
+    },
+    {
+      "path": "runs/mist_fingerprint_audit_20261115/native_val/part_00000/lengths.npy",
+      "bytes": 19557,
+      "sha256": "d1f863a9cf1ef3250637bca8e03dcffcdd8cbbd8712028e4f521e42ad10c62cb"
+    },
+    {
+      "path": "runs/mist_fingerprint_audit_20261115/native_val/part_00000/names.npy",
+      "bytes": 2642472,
+      "sha256": "46f371a39999c4900f7e285599f86fa7b53f6e406bc5a2bdb3cedcea21d8a03c"
+    },
+    {
+      "path": "runs/mist_fingerprint_audit_20261115/native_val/part_00000/peak_type.npy",
+      "bytes": 213847,
+      "sha256": "a864b4919c53da24c055df26c18867b778760419938bb89b638998bc692faa27"
+    },
+    {
+      "path": "runs/mist_fingerprint_audit_20261115/native_val/part_00000/structure_ids.npy",
+      "bytes": 1088152,
+      "sha256": "4df81d0616b655e09110b6387aff61f6181e640bc7d86a49f2980dc755b1a899"
+    }
+  ],
+  "no_test_extracted": true
+}

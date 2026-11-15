@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-head-prefix1-ab-1114",
+  "version": 1,
+  "branch_sha256": "a4793177697c10233527d6f08563dcb245566207d43c0318f7c04a554935cac1",
+  "submission_ref": 58334939,
+  "actual_target": "stormseye/casmi26-head-prefix1-ab-1114",
+  "status": "COMPLETE",
+  "public_score": "0.470",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-15T03:20:10.848666+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

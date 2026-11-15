@@ -1,0 +1,9 @@
+{
+  "status": "prepared_pending_targeted_component_check",
+  "name": "head_mean_ab",
+  "target": "stormseye/casmi26-head-mean-ab-1113",
+  "version": 1,
+  "notebook_sha256": "d61a87c4edc67ddd078845e6aeff2d09209e2ab6c75192d20cb3cdcd1318d270",
+  "metadata_sha256": "acabf6ec07e8fa2192fe752c934e2a8eb0eb7cc3d15f89947fdc0e51d01c79b4",
+  "recipe_sha256": "cbb3916beddd216750f9b05384180f35700c8a98c6feb330a8c77ff9f79919a2"
+}

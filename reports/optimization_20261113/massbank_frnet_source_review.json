@@ -1,0 +1,13 @@
+{
+  "status": "completed_read_only_source_review",
+  "checks": {
+    "model.py_source_matches_public_pin": true,
+    "fragfeat.py_source_matches_public_pin": true,
+    "weight_not_downloaded": true,
+    "expected_model_hash_not_in_registry": true
+  },
+  "code_compiled": false,
+  "code_ast_parsed": true,
+  "no_model_execution": true,
+  "no_kaggle_write": true
+}

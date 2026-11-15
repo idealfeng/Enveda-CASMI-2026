@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-bestval-v80-adduct-1112",
+  "version": 1,
+  "notebook_sha256": "1280a429ae410fd282deec6f2f93dd4d035a6a7655443ac95bc21731f99346c1",
+  "checks": {
+    "champion_pin": true,
+    "standalone_components_frozen": true,
+    "original_other30_cells_exact": true,
+    "external_actual_cell_exact": true,
+    "neural_fixed_pop_best_config": true,
+    "distinct_checkpoints": true,
+    "outside_and_latehead_original": true,
+    "final_observer_binds_adduct_output": true,
+    "original_generation_preserved": true,
+    "official_identity_guard": true,
+    "private_offline_gpu": true,
+    "source_compiles": true,
+    "fail_closed": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-gen-budget-only-1113",
+  "version": 1,
+  "notebook_sha256": "7f87816791ce5fb87b68d747286acebd6e803d7ab1752edcfb5f5ee951595272",
+  "checks": {
+    "champion_pin": true,
+    "only_stage_machinery_changed": true,
+    "all_other_32_original_cells_exact": true,
+    "original_frozen_unmodified": true,
+    "explicit_actual_runner_replacement": true,
+    "runtime_module_and_runner_pinned": true,
+    "source_compiles": true,
+    "all_original_neural_heads_ab_retained": true,
+    "no_new_data_or_training": true,
+    "private_offline_gpu": true,
+    "errors_fail_closed": true
+  },
+  "validation_scope": "Static source, pins and compile checks only; separate derive component check, no new full inference",
+  "new_arm_complete_production_run": false,
+  "reused_production_notebook_sha256": "a9debc93f59213d3c80a8b3ee0e4808ee930d6ada34c3ee908f1469fa35cfa2c",
+  "user_authorized_exploration": true
+}

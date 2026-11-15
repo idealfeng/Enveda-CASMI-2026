@@ -1,0 +1,44 @@
+[
+  {
+    "type": "directory",
+    "oid": "67b9b2a85629038db94534f2e0090a4c7a199e38",
+    "size": 0,
+    "path": "data/auxiliary"
+  },
+  {
+    "type": "directory",
+    "oid": "1e44db5adb1114154780857542ad7520feaa9807",
+    "size": 0,
+    "path": "data/molecules"
+  },
+  {
+    "type": "directory",
+    "oid": "39551ee4f1a322b2839ab8d464f1d8073b8588ad",
+    "size": 0,
+    "path": "data/spectra"
+  },
+  {
+    "type": "file",
+    "oid": "5cca8567cbd2db39c0864bcfb4e684565b408e8c",
+    "size": 262334768,
+    "lfs": {
+      "oid": "0c9cc50450def3f0d4fe2dc09dea1105fc15e635db8c6656bc3e3be37a3bcd95",
+      "size": 262334768,
+      "pointerSize": 134
+    },
+    "xetHash": "e7b72dc379a59ebd683212309388a2ff0fc221a0ba43a6889739f9f5313a0c37",
+    "path": "data/MassSpecGym.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "8f288131fae71dd686cfe942086894c2cd74cac0",
+    "size": 261197365,
+    "lfs": {
+      "oid": "50cfdd1d22f79543c59555f9ce43c6893bd788a19a42b21fb4e2e3a54673c06a",
+      "size": 261197365,
+      "pointerSize": 134
+    },
+    "xetHash": "5399410f26e7a077508c73837f160a664677be608e7b40d28e90f8a6252d89ca",
+    "path": "data/MassSpecGym1.5.tsv"
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "events": [
+    {
+      "phase": "live_binding",
+      "attempt": 1,
+      "checked_at_utc": "2026-11-14T07:06:11.796417+00:00",
+      "error_type": "ConnectionError",
+      "http_status": null
+    },
+    {
+      "phase": "live_binding",
+      "attempt": 1,
+      "checked_at_utc": "2026-11-14T08:11:51.532356+00:00",
+      "error_type": "ConnectionError",
+      "http_status": null
+    },
+    {
+      "phase": "live_binding",
+      "attempt": 2,
+      "checked_at_utc": "2026-11-14T08:11:58.647859+00:00",
+      "error_type": "ConnectionError",
+      "http_status": null
+    },
+    {
+      "phase": "live_binding",
+      "attempt": 3,
+      "checked_at_utc": "2026-11-14T11:32:29.874618+00:00",
+      "error_type": "ConnectionError",
+      "http_status": null
+    },
+    {
+      "phase": "live_binding",
+      "attempt": 1,
+      "checked_at_utc": "2026-11-14T11:32:33.603522+00:00",
+      "error_type": "ConnectionError",
+      "http_status": null
+    },
+    {
+      "phase": "live_binding",
+      "attempt": 2,
+      "checked_at_utc": "2026-11-14T11:32:40.656859+00:00",
+      "error_type": "ConnectionError",
+      "http_status": null
+    },
+    {
+      "phase": "live_binding",
+      "attempt": 3,
+      "checked_at_utc": "2026-11-14T11:32:47.694228+00:00",
+      "error_type": "ConnectionError",
+      "http_status": null
+    }
+  ],
+  "unknown_writes_retried": false
+}

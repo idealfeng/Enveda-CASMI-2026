@@ -1,0 +1,656 @@
+{
+  "sha": "48e339be6535546c87ba4f6b81a0f787c2e4ac40",
+  "url": "https://api.github.com/repos/coleygroup/MIST/git/trees/48e339be6535546c87ba4f6b81a0f787c2e4ac40",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b0c89bf40026e918708d987adeb1e03e08376850",
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/trees/b0c89bf40026e918708d987adeb1e03e08376850"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1ea0e9ee286e09ad17e03d8019ff6e13c8d43ebe",
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/trees/1ea0e9ee286e09ad17e03d8019ff6e13c8d43ebe"
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "215837a172993e62a45f993dbfe84cf4f887735f",
+      "size": 1097,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/215837a172993e62a45f993dbfe84cf4f887735f"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea340ed21b9c18f80993b97c9a47385f66602f36",
+      "size": 404,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/ea340ed21b9c18f80993b97c9a47385f66602f36"
+    },
+    {
+      "path": "CITATION.cff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cb0993c38ca9e43f3b6d6e57710ba81926ff923",
+      "size": 876,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/3cb0993c38ca9e43f3b6d6e57710ba81926ff923"
+    },
+    {
+      "path": "LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15606a2ddf355d74b246045f70a413a83de1366f",
+      "size": 1071,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/15606a2ddf355d74b246045f70a413a83de1366f"
+    },
+    {
+      "path": "LICENSES",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2b9a79d162dd8d5402b0d3b28d3e443a5fd15f78",
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/trees/2b9a79d162dd8d5402b0d3b28d3e443a5fd15f78"
+    },
+    {
+      "path": "LICENSES/ms-pred.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9adbe3238e983aca158203d0079c6041d1ad2479",
+      "size": 1071,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/9adbe3238e983aca158203d0079c6041d1ad2479"
+    },
+    {
+      "path": "MANIFEST.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d849334dc22cb0da93c18e61985cab8b917ae52",
+      "size": 179,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/8d849334dc22cb0da93c18e61985cab8b917ae52"
+    },
+    {
+      "path": "NOTICE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fadbcb032ba2050e71b7f476038c39fdc637448",
+      "size": 1307,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/5fadbcb032ba2050e71b7f476038c39fdc637448"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cceb14c4f95a18d505a75710b4b2ceff9c7009ed",
+      "size": 7060,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/cceb14c4f95a18d505a75710b4b2ceff9c7009ed"
+    },
+    {
+      "path": "configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e88b54144c43c7e0741037a2d13d0ddea26a7647",
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/trees/e88b54144c43c7e0741037a2d13d0ddea26a7647"
+    },
+    {
+      "path": "configs/aug",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e668d3b47d9b5a03c127a4f1fad5942c98a8bee",
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/trees/2e668d3b47d9b5a03c127a4f1fad5942c98a8bee"
+    },
+    {
+      "path": "configs/aug/canopus.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cff1e0414f50bc720a7f03914e2fa0afbb9e0e6a",
+      "size": 1522,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/cff1e0414f50bc720a7f03914e2fa0afbb9e0e6a"
+    },
+    {
+      "path": "configs/aug/msg.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbad63dd91f2ae01e1192e98f11449772e117523",
+      "size": 1439,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/fbad63dd91f2ae01e1192e98f11449772e117523"
+    },
+    {
+      "path": "configs/noaug",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ec12085fbf0c60fa005a56c87680ca657d1157e3",
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/trees/ec12085fbf0c60fa005a56c87680ca657d1157e3"
+    },
+    {
+      "path": "configs/noaug/canopus.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89e185d5aa0f9f9fb2c4aa49f86b353f78b8a3bc",
+      "size": 1366,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/89e185d5aa0f9f9fb2c4aa49f86b353f78b8a3bc"
+    },
+    {
+      "path": "configs/noaug/msg.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee0b46440f37b631b77d4a87b14ffaeaa266f39e",
+      "size": 1338,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/ee0b46440f37b631b77d4a87b14ffaeaa266f39e"
+    },
+    {
+      "path": "configs/releases.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b2b79432e4e8b8a1f7879b2659ca7bea2d2b3d4",
+      "size": 687,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/2b2b79432e4e8b8a1f7879b2659ca7bea2d2b3d4"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "95ba0d2a43edd96116cfd4512f2374c7d71ab310",
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/trees/95ba0d2a43edd96116cfd4512f2374c7d71ab310"
+    },
+    {
+      "path": "docs/data.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "971d588a92c30842e1c1bd55e5f29570082c813e",
+      "size": 6490,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/971d588a92c30842e1c1bd55e5f29570082c813e"
+    },
+    {
+      "path": "docs/glacier.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5ce695215dbe523aa2fd435fb1b4bab12356e8c",
+      "size": 3426,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/c5ce695215dbe523aa2fd435fb1b4bab12356e8c"
+    },
+    {
+      "path": "docs/training.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aca882e6bf3c7c3378af07eb4feab9ec672ece79",
+      "size": 4549,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/aca882e6bf3c7c3378af07eb4feab9ec672ece79"
+    },
+    {
+      "path": "environment.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32c7a327e99c200c04b1ce3cf02ef6197449bcaa",
+      "size": 156,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/32c7a327e99c200c04b1ce3cf02ef6197449bcaa"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06cf7fe166c3e4709cb4cf36300e291a1136abd1",
+      "size": 1812,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/06cf7fe166c3e4709cb4cf36300e291a1136abd1"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ca87b19e6248a9180923df214b1822f3e27e31c",
+      "size": 42,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/4ca87b19e6248a9180923df214b1822f3e27e31c"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ca2982a2bd237b6cc9b6d1b09b3a3b1cc3b81e5f",
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/trees/ca2982a2bd237b6cc9b6d1b09b3a3b1cc3b81e5f"
+    },
+    {
+      "path": "scripts/evaluate_ddp.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9631071a329b8953438362af84ad8680984f49c3",
+      "size": 363,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/9631071a329b8953438362af84ad8680984f49c3"
+    },
+    {
+      "path": "scripts/export_scaled_release.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "637116015eccd01e883f996f61d5d5a5948c07c1",
+      "size": 2748,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/637116015eccd01e883f996f61d5d5a5948c07c1"
+    },
+    {
+      "path": "scripts/train_ddp.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ec482d9bb32b0af121e37eaa07a86281d09ff2cc",
+      "size": 454,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/ec482d9bb32b0af121e37eaa07a86281d09ff2cc"
+    },
+    {
+      "path": "scripts/train_recipe.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "de21904c3b552ebb00cee37e99472f638a87c3ad",
+      "size": 909,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/de21904c3b552ebb00cee37e99472f638a87c3ad"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ff7d144fb198fa30e9080437a3f329243d617f91",
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/trees/ff7d144fb198fa30e9080437a3f329243d617f91"
+    },
+    {
+      "path": "src/mist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a2854944257cc2269fb383e5628ced10879a188a",
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/trees/a2854944257cc2269fb383e5628ced10879a188a"
+    },
+    {
+      "path": "src/mist/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c9c7ab56aa37d4040889eef5707af605a77bf25",
+      "size": 87,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/6c9c7ab56aa37d4040889eef5707af605a77bf25"
+    },
+    {
+      "path": "src/mist/artifacts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c6ecf4dcddf18e91fc2771f4c0db35a02907218",
+      "size": 4320,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/9c6ecf4dcddf18e91fc2771f4c0db35a02907218"
+    },
+    {
+      "path": "src/mist/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "16a7b509d744e85ea57d052b7ab400c7d87bb3db",
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/trees/16a7b509d744e85ea57d052b7ab400c7d87bb3db"
+    },
+    {
+      "path": "src/mist/data/atlas.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5324e990ca7f0d3fa455b21cffc6474251a81cd",
+      "size": 12597,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/c5324e990ca7f0d3fa455b21cffc6474251a81cd"
+    },
+    {
+      "path": "src/mist/data/augmentation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64e4edcdfc5179f170d6dc26f36d20b0ad5fa248",
+      "size": 2909,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/64e4edcdfc5179f170d6dc26f36d20b0ad5fa248"
+    },
+    {
+      "path": "src/mist/data/build_all_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ce8943d77158b776e9ff83abc94eac645853b8e",
+      "size": 8775,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/1ce8943d77158b776e9ff83abc94eac645853b8e"
+    },
+    {
+      "path": "src/mist/data/build_simulated_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33b85b8af73278619d1ad94357794be428cc23fe",
+      "size": 19280,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/33b85b8af73278619d1ad94357794be428cc23fe"
+    },
+    {
+      "path": "src/mist/data/compact.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c49854f38c2823fa94362826b91f948b6227f2c0",
+      "size": 16320,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/c49854f38c2823fa94362826b91f948b6227f2c0"
+    },
+    {
+      "path": "src/mist/data/data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8917daaafc29b6b99ff48a9f57b0c119d5d56ea8",
+      "size": 653,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/8917daaafc29b6b99ff48a9f57b0c119d5d56ea8"
+    },
+    {
+      "path": "src/mist/data/datasets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df5f3747d485f09ec20e52946600ac9e82d1ddd0",
+      "size": 10696,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/df5f3747d485f09ec20e52946600ac9e82d1ddd0"
+    },
+    {
+      "path": "src/mist/data/export_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77cb6e41e31fe0a3938b0983172ea631a08ad94c",
+      "size": 4530,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/77cb6e41e31fe0a3938b0983172ea631a08ad94c"
+    },
+    {
+      "path": "src/mist/data/featurizers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdcbc49d2ae014d643bb25b36c44908077c8252b",
+      "size": 11336,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/cdcbc49d2ae014d643bb25b36c44908077c8252b"
+    },
+    {
+      "path": "src/mist/data/input_signal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9fba5c8ccd0087cb7ba1b0a843c888a9172f7fb",
+      "size": 10842,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/e9fba5c8ccd0087cb7ba1b0a843c888a9172f7fb"
+    },
+    {
+      "path": "src/mist/data/random_pubchem.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21b651dbd3409e2dcf1dc7cddb55f66806772247",
+      "size": 17394,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/21b651dbd3409e2dcf1dc7cddb55f66806772247"
+    },
+    {
+      "path": "src/mist/data/simulation_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89111873bc62a1617b47bf912ad1f9fdf9c0350f",
+      "size": 2483,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/89111873bc62a1617b47bf912ad1f9fdf9c0350f"
+    },
+    {
+      "path": "src/mist/data/training_sources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60314a88b1e79c558328972eda269a58dea1f0e8",
+      "size": 11927,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/60314a88b1e79c558328972eda269a58dea1f0e8"
+    },
+    {
+      "path": "src/mist/download.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed18d7c8acb69fb3d9e8f3cd56ccceb512b3976f",
+      "size": 3310,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/ed18d7c8acb69fb3d9e8f3cd56ccceb512b3976f"
+    },
+    {
+      "path": "src/mist/evaluate_scaled.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88a7d670414397ad66cf87abf00a6a91aeda9fd7",
+      "size": 13596,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/88a7d670414397ad66cf87abf00a6a91aeda9fd7"
+    },
+    {
+      "path": "src/mist/glacier",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9cbbc9636d2725bb0bb7d16dc1babbe0ee54fad7",
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/trees/9cbbc9636d2725bb0bb7d16dc1babbe0ee54fad7"
+    },
+    {
+      "path": "src/mist/glacier/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fa02d1231bdaa99a4cebd084f9bc96b1baf307a",
+      "size": 67,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/7fa02d1231bdaa99a4cebd084f9bc96b1baf307a"
+    },
+    {
+      "path": "src/mist/glacier/decoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01a61a13257af7a64b2d308b615a6acfacaab856",
+      "size": 12767,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/01a61a13257af7a64b2d308b615a6acfacaab856"
+    },
+    {
+      "path": "src/mist/glacier/features.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14fd8834780cacead595ad689dbdae05771839cc",
+      "size": 16900,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/14fd8834780cacead595ad689dbdae05771839cc"
+    },
+    {
+      "path": "src/mist/glacier/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1708206685ef15ca5dfdbb1c5c2f7aae703dbadc",
+      "size": 42207,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/1708206685ef15ca5dfdbb1c5c2f7aae703dbadc"
+    },
+    {
+      "path": "src/mist/glacier/predict.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24614a88b61d15cb69678a00927067b48a8f46c8",
+      "size": 3274,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/24614a88b61d15cb69678a00927067b48a8f46c8"
+    },
+    {
+      "path": "src/mist/metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98c63dc79ae3211872091f5b17dfee49850033e1",
+      "size": 4928,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/98c63dc79ae3211872091f5b17dfee49850033e1"
+    },
+    {
+      "path": "src/mist/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "91e9e648e652cef92cc988513da13e5178dcb862",
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/trees/91e9e648e652cef92cc988513da13e5178dcb862"
+    },
+    {
+      "path": "src/mist/models/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33d97ed3f422785d8bc6d7fc69d4c56f7e406a29",
+      "size": 190,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/33d97ed3f422785d8bc6d7fc69d4c56f7e406a29"
+    },
+    {
+      "path": "src/mist/models/form_embedders.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddb3e2daa5cfb02a244d1591ca07f46dd9e158bb",
+      "size": 12280,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/ddb3e2daa5cfb02a244d1591ca07f46dd9e158bb"
+    },
+    {
+      "path": "src/mist/models/modules.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9445480749cbef9bb3bb24642093802059ceb26a",
+      "size": 13461,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/9445480749cbef9bb3bb24642093802059ceb26a"
+    },
+    {
+      "path": "src/mist/models/scaled_mist.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e82dd344826b456c18dcbb5a5977bf4213430676",
+      "size": 2608,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/e82dd344826b456c18dcbb5a5977bf4213430676"
+    },
+    {
+      "path": "src/mist/models/transformer_layer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a632bfad962a775aa60e7fe2e5ca280f8c77de4",
+      "size": 28035,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/1a632bfad962a775aa60e7fe2e5ca280f8c77de4"
+    },
+    {
+      "path": "src/mist/train_scaled.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2544cfdbd0443c12e87b55c96f71d8983d8c21bf",
+      "size": 36099,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/2544cfdbd0443c12e87b55c96f71d8983d8c21bf"
+    },
+    {
+      "path": "src/mist/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "15d629c6edb6c450c129e520e2a11487b2c23e16",
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/trees/15d629c6edb6c450c129e520e2a11487b2c23e16"
+    },
+    {
+      "path": "src/mist/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "646b4006ee84ae69ddea2e02ae95c656955cebf6",
+      "size": 526,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/646b4006ee84ae69ddea2e02ae95c656955cebf6"
+    },
+    {
+      "path": "src/mist/utils/chem_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94ed09ccc3fff6444fa24e84332e6788a7fd4f76",
+      "size": 3610,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/94ed09ccc3fff6444fa24e84332e6788a7fd4f76"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5bc63dafdb27d2751c128541736bc7c282ef365e",
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/trees/5bc63dafdb27d2751c128541736bc7c282ef365e"
+    },
+    {
+      "path": "tests/test_atlas_features.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce53078bf6488e44fe99ebd0bd4e76c70876ca49",
+      "size": 3707,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/ce53078bf6488e44fe99ebd0bd4e76c70876ca49"
+    },
+    {
+      "path": "tests/test_augmentation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70adde658752f6a6906a1a9c0eefffb663674edf",
+      "size": 1145,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/70adde658752f6a6906a1a9c0eefffb663674edf"
+    },
+    {
+      "path": "tests/test_canonical_datasets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46f0921b455fd4dbb757c85b0dce583b535d501b",
+      "size": 11034,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/46f0921b455fd4dbb757c85b0dce583b535d501b"
+    },
+    {
+      "path": "tests/test_compact.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1159289837b37695aadfdb6f438e35efefa9d5a",
+      "size": 4017,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/c1159289837b37695aadfdb6f438e35efefa9d5a"
+    },
+    {
+      "path": "tests/test_download.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b098162bfaae1e3bc3fda9f9d5cac305f71b5a58",
+      "size": 1589,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/b098162bfaae1e3bc3fda9f9d5cac305f71b5a58"
+    },
+    {
+      "path": "tests/test_evaluate_scaled.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f6ba46d6184dc80178aa4415f73bc6bde236ee9",
+      "size": 1470,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/1f6ba46d6184dc80178aa4415f73bc6bde236ee9"
+    },
+    {
+      "path": "tests/test_formula_transformer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ae2c056a4a718d1dfdcb18d1ae00a850861a3d7",
+      "size": 934,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/7ae2c056a4a718d1dfdcb18d1ae00a850861a3d7"
+    },
+    {
+      "path": "tests/test_glacier_decoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62014ce21e2fd0c7f7ea66231c7ca96b960d49b5",
+      "size": 1433,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/62014ce21e2fd0c7f7ea66231c7ca96b960d49b5"
+    },
+    {
+      "path": "tests/test_inference_workflow.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da9beb66761bc06d9896aeb64d8d02cdc4090216",
+      "size": 2243,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/da9beb66761bc06d9896aeb64d8d02cdc4090216"
+    },
+    {
+      "path": "tests/test_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee3ec15953ced32105cc06e18fc0367bdb4a081e",
+      "size": 1400,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/ee3ec15953ced32105cc06e18fc0367bdb4a081e"
+    },
+    {
+      "path": "tests/test_random_pubchem.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f39d3cea8e269e66841b169b19663690f3fb3d2",
+      "size": 3429,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/6f39d3cea8e269e66841b169b19663690f3fb3d2"
+    },
+    {
+      "path": "tests/test_simulated_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a6eaea7fe5421a3a9af6be98b4d8019cdbea24d",
+      "size": 4364,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/7a6eaea7fe5421a3a9af6be98b4d8019cdbea24d"
+    },
+    {
+      "path": "tests/test_training_runtime.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fdf41908d6a07111a38720b183a1c1ef825047b",
+      "size": 3979,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/4fdf41908d6a07111a38720b183a1c1ef825047b"
+    },
+    {
+      "path": "tests/test_training_sources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39196e0a5d0430c373293325da772858674f0c39",
+      "size": 4935,
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/blobs/39196e0a5d0430c373293325da772858674f0c39"
+    }
+  ],
+  "truncated": false
+}

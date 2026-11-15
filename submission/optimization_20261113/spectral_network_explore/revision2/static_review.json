@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "notebook_sha256": "389b5341a38cf3825f09450e2a99e604655e3fb25beb474131364c6dd0b1ad00",
+  "checks": {
+    "exact_parent_pin": true,
+    "all_original_cells_unchanged": true,
+    "original_head_AB_retained": true,
+    "only_one_appended_cell": true,
+    "original_dataset_pins_retained": true,
+    "private_offline_gpu": true,
+    "source_payload_pinned": true,
+    "source_compiles": true,
+    "errors_fail_closed": true
+  },
+  "boundary": "Static stage review; existing component evidence is not a new complete model/pipeline run.",
+  "target": "stormseye/casmi26-spectral-network-1113",
+  "version": 1
+}

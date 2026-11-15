@@ -1,0 +1,25 @@
+{
+  "ref": "heliosli/casmi26-0-488",
+  "title": "casmi26-0.488",
+  "current_version_number": 1,
+  "last_run_time": "2026-11-10 11:41:43.266000",
+  "dataset_data_sources": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "sanpier/catalogue-experiment-saner"
+  ],
+  "kernel_data_sources": [],
+  "is_private": false,
+  "sha256": "0848adfa1628233ddeafd4912583e45b87e2e1c45876d19d8df74d879fa8c25d",
+  "bytes": 739560
+}

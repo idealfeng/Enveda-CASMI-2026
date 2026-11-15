@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "notebook_sha256": "7ed40ac01c64448490cf9cfd85ad21210e34163e81affdb2e1a1dcbac7514753",
+  "module_sha256": "32145802187bda9fe178048df49ec9ecfce6a0c7bab46c15550b5a479774eef9",
+  "checks": {
+    "exact_staged_entry_passed": true,
+    "actual_160_feature_ranker_passed": true,
+    "source_hashes_match": true,
+    "no_kaggle_or_produre_rerun": true
+  },
+  "reports": [
+    "runs/generation_prod_canary_20261112_actual_revision2/verification.json",
+    "runs/generation_prod_canary_20261112_route_revision2/verification.json",
+    "reports/optimization_20261112/generation_variant_report.md"
+  ]
+}

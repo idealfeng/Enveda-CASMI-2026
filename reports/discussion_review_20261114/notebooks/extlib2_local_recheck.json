@@ -1,0 +1,9 @@
+{
+  "status": "passed_recheck_all_seven_files",
+  "files": 7,
+  "bytes": 128947012,
+  "download_seconds": 152.422,
+  "archive_bytes": 85758662,
+  "array_or_model_loaded": false,
+  "signed_urls_persisted": false
+}

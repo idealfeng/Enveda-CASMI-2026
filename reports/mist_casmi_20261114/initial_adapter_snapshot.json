@@ -1,0 +1,5 @@
+{
+  "path": "runs\\mist_casmi_20261114\\adapter_executed.py",
+  "sha256": "57687d1fc2e219e1d8b7cefaa60580ad012f2459a98522732f933ee15f8ab7bf",
+  "reason": "Preserve exact source executed before adding all-unsupported query fallback edge case"
+}

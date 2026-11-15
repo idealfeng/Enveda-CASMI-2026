@@ -1,0 +1,99 @@
+{
+  "status": "completed_disjoint_C_gate_pilot",
+  "checks": {
+    "selection_unchanged": true,
+    "source_queries_12_fields": true,
+    "no_labels_or_arm_in_features": true,
+    "separate_labels": true,
+    "each_query_two_conditions": true,
+    "train_development_group_disjoint": true,
+    "absent_condition_all_labels_false": true,
+    "real_cosine_calls": true,
+    "no_model_training": true,
+    "no_cloud_write": true
+  },
+  "configuration": {
+    "seed": 20261115,
+    "target_structures": 500,
+    "max_spectra": 3,
+    "precursor_error_ppm_cap": 10.0,
+    "minimum_query_peaks": 6,
+    "precursor_ppm": 10.0,
+    "precursor_da": 0.002,
+    "fragment_da": 0.015,
+    "matched_peaks_minimum": 4,
+    "strong_cosine": 0.8,
+    "no_old48_or_mist17_training": true,
+    "reference_policy": "same_mode_precursor_window",
+    "duplicate_policy": "remove_float32_or_quantized_query_content_in_both_conditions_reference_ID_unavailable",
+    "conditions": [
+      "references_present",
+      "all_true_identity_references_absent"
+    ]
+  },
+  "queries": 500,
+  "spectra": 1461,
+  "feature_rows": 1000,
+  "feature_names": [
+    "has_match",
+    "best_cosine",
+    "second_identity_cosine",
+    "identity_margin",
+    "best_matched_peaks",
+    "support_spectra",
+    "support_fraction",
+    "distinct_references",
+    "same_adduct_fraction",
+    "ppm_error_min",
+    "query_spectra",
+    "query_peak_count_mean",
+    "reference_peak_count",
+    "positive_query_fraction"
+  ],
+  "split_queries": {
+    "train": 400,
+    "development": 100
+  },
+  "labels_by_split_condition": {
+    "train|references_present": {
+      "rows": 400,
+      "correct": 381
+    },
+    "train|all_true_identity_references_absent": {
+      "rows": 400,
+      "correct": 0
+    },
+    "development|references_present": {
+      "rows": 100,
+      "correct": 94
+    },
+    "development|all_true_identity_references_absent": {
+      "rows": 100,
+      "correct": 0
+    }
+  },
+  "counters": {
+    "actual_cosine_pairs": 104256,
+    "observed_four_peak_matches": 58735
+  },
+  "seconds": 91.25529073300001,
+  "peak_rss_mib": 1012.93359375,
+  "source_pins": {
+    "assets/kaggle/nakhun/casmi26-extlib2/v1/extlib2/ext2_meta.parquet": "85a20dc86673da64298656a04b6e0fcd651cba9752d0afade913caa428a75b26",
+    "assets/kaggle/nakhun/casmi26-extlib2/v1/extlib2/ext2_mz_flat.npy": "0f1026d394c7973e81196f4223c0f29e79bbd3339c3cbd77f2fd8765fa402c9b",
+    "assets/kaggle/nakhun/casmi26-extlib2/v1/extlib2/ext2_in_flat.npy": "7f28b12469a15ed577b66537867153e78fbcf10c155e94332d758e26f95c1c0c",
+    "assets/kaggle/nakhun/casmi26-extlib2/v1/extlib2/ext2_offsets.npy": "c71347dfb182e73e58bf0b782eee7b9cd49e6dc0e43a64b485699eac881e6e60"
+  },
+  "selection_sha256": "674c5ef17bda33069d18185d87b3104fbe44d4ae8f5eb3453c28d5fe4b88d57a",
+  "artifact_pins": {
+    "features.parquet": "38adc492bfe3e1129143ece3a71ae5dd6f421c33a9ac18b4edd738a72efd275c",
+    "labels.parquet": "3ee0ae93b42d66047b5e6234364417e11ee3fdec846f6a97af161667c6a1bf52",
+    "row_metadata.parquet": "52eb500000d54b0d2608c5a36df022530bdc3f84f30d34993d6ba75dc719b6d5",
+    "queries.parquet": "b5cec6f4896f86fe81723f01d9de897f94f2f284b70713314052c0dd962646d9",
+    "match_events.jsonl": "40e420c08454517ff51b13c9aa298a6fa5a44e96f80751f4c50b3f76c8c936f9"
+  },
+  "source_script_sha256": "eec30e1c54ea1b951f4ee5abc48b342ca2659d2fa70936c53f4d5321dd038b3a",
+  "parent_baseline_ref": 58156482,
+  "public_score": null,
+  "limitation": "Disjoint training pilot for top-reference correctness, not full candidate ranking or hidden MRR. Both controlled conditions share an official query group and split. C reference truth identity removed only to simulate absence; reference condition and query truth identity are metadata, excluded from model features. Known raw-family exclusions cannot prove exclusion of every unknown MSG tautomer alias."
+}

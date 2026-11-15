@@ -1,0 +1,218 @@
+{
+  "status": "completed_post_inference_component_evaluation",
+  "queries": 17,
+  "control_mrr25": 0.6561624649859944,
+  "mist_mrr25": 0.0959617549259493,
+  "delta_mrr25": -0.5602007100600451,
+  "paired_bootstrap95": [
+    -0.7290488922841863,
+    -0.38594046050567793
+  ],
+  "control_top1": 0.5294117647058824,
+  "mist_top1": 0.0,
+  "candidate_recall": 0.8823529411764706,
+  "improved": 0,
+  "worsened": 15,
+  "unchanged": 2,
+  "panel_counts": {
+    "cross": 17
+  },
+  "rows": [
+    {
+      "molecule_id": "cross_CDUVSQMTLOYKTR",
+      "panel": "cross",
+      "control_rank": 2,
+      "mist_rank": 6,
+      "control_rr": 0.5,
+      "mist_rr": 0.16666666666666666,
+      "delta": -0.33333333333333337,
+      "candidate_truth_recalled": true,
+      "top1_changed": true
+    },
+    {
+      "molecule_id": "cross_DWVXZQVYILJCJH",
+      "panel": "cross",
+      "control_rank": 4,
+      "mist_rank": 5,
+      "control_rr": 0.25,
+      "mist_rr": 0.2,
+      "delta": -0.04999999999999999,
+      "candidate_truth_recalled": true,
+      "top1_changed": true
+    },
+    {
+      "molecule_id": "cross_FWXUWWAXYNCZAY",
+      "panel": "cross",
+      "control_rank": 1,
+      "mist_rank": 7,
+      "control_rr": 1.0,
+      "mist_rr": 0.14285714285714285,
+      "delta": -0.8571428571428572,
+      "candidate_truth_recalled": true,
+      "top1_changed": true
+    },
+    {
+      "molecule_id": "cross_GFZLFKCEWJJEFW",
+      "panel": "cross",
+      "control_rank": null,
+      "mist_rank": null,
+      "control_rr": 0.0,
+      "mist_rr": 0.0,
+      "delta": 0.0,
+      "candidate_truth_recalled": false,
+      "top1_changed": true
+    },
+    {
+      "molecule_id": "cross_HPXGRJSGVYZSBD",
+      "panel": "cross",
+      "control_rank": 1,
+      "mist_rank": 12,
+      "control_rr": 1.0,
+      "mist_rr": 0.08333333333333333,
+      "delta": -0.9166666666666666,
+      "candidate_truth_recalled": true,
+      "top1_changed": true
+    },
+    {
+      "molecule_id": "cross_JIZXTXDQGNQBTA",
+      "panel": "cross",
+      "control_rank": 1,
+      "mist_rank": 4,
+      "control_rr": 1.0,
+      "mist_rr": 0.25,
+      "delta": -0.75,
+      "candidate_truth_recalled": true,
+      "top1_changed": true
+    },
+    {
+      "molecule_id": "cross_KAQOTUWFZPIKLZ",
+      "panel": "cross",
+      "control_rank": 2,
+      "mist_rank": 24,
+      "control_rr": 0.5,
+      "mist_rr": 0.041666666666666664,
+      "delta": -0.4583333333333333,
+      "candidate_truth_recalled": true,
+      "top1_changed": true
+    },
+    {
+      "molecule_id": "cross_MZNCWPOVMBLUSG",
+      "panel": "cross",
+      "control_rank": null,
+      "mist_rank": null,
+      "control_rr": 0.0,
+      "mist_rr": 0.0,
+      "delta": 0.0,
+      "candidate_truth_recalled": false,
+      "top1_changed": true
+    },
+    {
+      "molecule_id": "cross_NOFOAYPPHIUXJR",
+      "panel": "cross",
+      "control_rank": 14,
+      "mist_rank": 23,
+      "control_rr": 0.07142857142857142,
+      "mist_rr": 0.043478260869565216,
+      "delta": -0.02795031055900621,
+      "candidate_truth_recalled": true,
+      "top1_changed": true
+    },
+    {
+      "molecule_id": "cross_NQHGQOVKJGGLKE",
+      "panel": "cross",
+      "control_rank": 2,
+      "mist_rank": 14,
+      "control_rr": 0.5,
+      "mist_rr": 0.07142857142857142,
+      "delta": -0.4285714285714286,
+      "candidate_truth_recalled": true,
+      "top1_changed": true
+    },
+    {
+      "molecule_id": "cross_QNUNSPMEODRLBZ",
+      "panel": "cross",
+      "control_rank": 1,
+      "mist_rank": 15,
+      "control_rr": 1.0,
+      "mist_rr": 0.06666666666666667,
+      "delta": -0.9333333333333333,
+      "candidate_truth_recalled": true,
+      "top1_changed": true
+    },
+    {
+      "molecule_id": "cross_SRNDKRJFBMZBCK",
+      "panel": "cross",
+      "control_rank": 1,
+      "mist_rank": 4,
+      "control_rr": 1.0,
+      "mist_rr": 0.25,
+      "delta": -0.75,
+      "candidate_truth_recalled": true,
+      "top1_changed": true
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "panel": "cross",
+      "control_rank": 1,
+      "mist_rank": 12,
+      "control_rr": 1.0,
+      "mist_rr": 0.08333333333333333,
+      "delta": -0.9166666666666666,
+      "candidate_truth_recalled": true,
+      "top1_changed": true
+    },
+    {
+      "molecule_id": "cross_VJLSQJBXDSKTLG",
+      "panel": "cross",
+      "control_rank": 1,
+      "mist_rank": 11,
+      "control_rr": 1.0,
+      "mist_rr": 0.09090909090909091,
+      "delta": -0.9090909090909091,
+      "candidate_truth_recalled": true,
+      "top1_changed": true
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "panel": "cross",
+      "control_rank": 1,
+      "mist_rank": 22,
+      "control_rr": 1.0,
+      "mist_rr": 0.045454545454545456,
+      "delta": -0.9545454545454546,
+      "candidate_truth_recalled": true,
+      "top1_changed": true
+    },
+    {
+      "molecule_id": "cross_XSOKPIZATJBJPO",
+      "panel": "cross",
+      "control_rank": 1,
+      "mist_rank": 18,
+      "control_rr": 1.0,
+      "mist_rr": 0.05555555555555555,
+      "delta": -0.9444444444444444,
+      "candidate_truth_recalled": true,
+      "top1_changed": true
+    },
+    {
+      "molecule_id": "cross_YFJYOZDIJVHPAU",
+      "panel": "cross",
+      "control_rank": 3,
+      "mist_rank": 25,
+      "control_rr": 0.3333333333333333,
+      "mist_rr": 0.04,
+      "delta": -0.29333333333333333,
+      "candidate_truth_recalled": true,
+      "top1_changed": true
+    }
+  ],
+  "control_sha256": "316b5caf2f6a39d8b1e57fcf4479a0394ac8e067348a0104ea262116cfb36b87",
+  "prediction_sha256": "a7701029560178c12c716314c044b8a914ca752a3fc78a5de35c0d2ba2cc7d0b",
+  "actual_model_sha256": "6f8df582df36aa4a984f120efee14ee0a62f3a7723caa770b856a6e704236727",
+  "no_parameter_search": true,
+  "new_training": false,
+  "public_score": null,
+  "exact_champion_parent": false,
+  "exposure": "Outside all MSG train/val/test known raw identity families; unlisted tautomer aliases remain possible. Existing baseline models have known pretrained exposure.",
+  "boundary": "17 existing exposed-development cross-library queries and old Flex candidate lists, not exact .488 CV or hidden-test gain. Inference did not consume truth; labels read only in this post-hoc fixed-policy evaluation."
+}

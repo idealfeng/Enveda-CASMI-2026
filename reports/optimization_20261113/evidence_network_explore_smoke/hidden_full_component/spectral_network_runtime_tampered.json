@@ -1,0 +1,40 @@
+{
+  "status": "applied",
+  "branch": "spectral_network_explore",
+  "recipe_sha256": "f6bc296a0988f9b860e851d08e8540e060ac3cb7ffb8470b3b0c4a07c0a42e6b",
+  "configuration": {
+    "lam": 0.25,
+    "tau": 0.6,
+    "matched_peaks": 6,
+    "protect_original_library": 0.9,
+    "protect_accepted_ab": true,
+    "scope": "post_AB_original_candidates"
+  },
+  "control_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416",
+  "base_audit_csv_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416",
+  "public_function_sha256": "8150955a1f0a617639253bd59cca9c186c6e881ebc7f15447682c0e3df7de768",
+  "module_sha256": "16f62e95a18608e66f95be0b5c279666cfd07f92d07c88c0a0d6a0153cf0018a",
+  "observations": {},
+  "accepted_ids": [],
+  "protected_ids": [
+    "cross_VXVNYCRICCVPTD",
+    "np_DUXQKCCELUKXOE"
+  ],
+  "new_candidates": 0,
+  "changed_queries": 0,
+  "changed_top1": 0,
+  "network_executed": true,
+  "pins": {
+    "library_evidence_sha256": "11345b56530731c3c7005ed594eb0a84edc4a276d97710e75e6d76dd3849c59a",
+    "ab_runtime_sha256": "7256e2a02a21039f450ff0e7e026d741fd03b0bf4d0523875f391d3b9f13b5fc"
+  },
+  "test_sha256": "6373f801bb9a982a7f7d3581148bdac921458b096e53e5145f97fa1143b740bc",
+  "actual_test_path": "/mnt/d/Paper/casmi/reports/optimization_20261113/evidence_network_explore_smoke/input/enveda-CASMI26-molecule-id-mass-spectra/test.parquet",
+  "actual_test_molecules": 2,
+  "graph": {
+    "graph": {},
+    "spectra_molecules": 2,
+    "edges": 0
+  },
+  "output_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+}

@@ -1,0 +1,504 @@
+{
+  "schema_version": 1,
+  "competition": "enveda-CASMI26-molecule-id-mass-spectra",
+  "batch_id": "optimization_20261114",
+  "max_submissions": 5,
+  "baseline_public_score": 0.488,
+  "state_root": "reports/optimization_20261114",
+  "branches": [
+    {
+      "name": "head_prefix1_ab",
+      "target": "stormseye/casmi26-head-prefix1-ab-1114",
+      "version": 1,
+      "stage_dir": "submission/optimization_20261114/head_prefix1_ab",
+      "notebook_sha256": "6c08b5287e42969ab0e67b50975ac46bae2c35f6dad76f8a32b94bc4ae022670",
+      "metadata_sha256": "8d3063cb2eb3efd1c206b5a483b951ec0c5318b6f2f1fe9e5c617a590eba571d",
+      "description": "CASMI26 20261114 head_prefix1_ab fixed same-formula ranks2-25 original AB V1",
+      "validation_mode": "fast_static",
+      "static_review_path": "submission/optimization_20261114/head_prefix1_ab/static_review.json",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "public_mass_repro",
+            "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+          },
+          "required_true_checks": [
+            "mass_recipe",
+            "original_public_priors",
+            "official_rdkit",
+            "public_model_pins",
+            "ours_model_pins",
+            "two_distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "guarded_tail_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "head_prefix1_ab",
+            "mode": "fast_static",
+            "recipe_sha256": "a6e2710a099fd00e9972e18126202dd70ebcdf6b43081d4a3a860f24b98bab64",
+            "protected_prefix": 1,
+            "score_mode": "learned_heads"
+          },
+          "required_true_checks": [
+            "original_base_audit",
+            "late_module_pin",
+            "scorer_payload_pins",
+            "original_scorer_pin",
+            "configuration_binding",
+            "audited_control_bound",
+            "final_csv_bound",
+            "exact_ids_order",
+            "exact_protected_prefix",
+            "exact_candidate_multisets",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "external_overlay_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_extlib",
+            "recipe_sha256": "5fc1c8cb1e27bd9e555090fcf437d0c9bfe02a0f8371811da286d2f3a4d4efd1",
+            "mode": "fast_static"
+          },
+          "required_true_checks": [
+            "base_audit_passed",
+            "control_bound",
+            "final_bound",
+            "source_function_pin",
+            "exact_ids_schema",
+            "official_identities_valid",
+            "library_file_pins",
+            "runtime_checks",
+            "fast_no_matching"
+          ]
+        },
+        {
+          "name": "prefix1_ab_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "head_prefix1_ab",
+            "mode": "fast_static",
+            "recipe_sha256": "a6e2710a099fd00e9972e18126202dd70ebcdf6b43081d4a3a860f24b98bab64"
+          },
+          "required_true_checks": [
+            "original_mass_passed",
+            "prefix1_tail_passed",
+            "actual_score_mode",
+            "tail_recipe_bound",
+            "original_AB_passed",
+            "mass_to_tail_control_bound",
+            "tail_to_AB_control_bound",
+            "actual_final_csv_bound",
+            "actual_tail_module_pin",
+            "dynamic_final_ids",
+            "actual_configuration",
+            "fast_no_model"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mean_prefix1_ab",
+      "target": "stormseye/casmi26-mean-prefix1-ab-1114",
+      "version": 1,
+      "stage_dir": "submission/optimization_20261114/mean_prefix1_ab",
+      "notebook_sha256": "909972b476b706624d66cfa11f2bf1f32a45967d1f44fdd2231a136232d7fd5f",
+      "metadata_sha256": "8fa00029b7f139c2de8295ca48efb626a711c720d3ed2c049ea565454dd1e49d",
+      "description": "CASMI26 20261114 mean_prefix1_ab fixed same-formula ranks2-25 original AB V1",
+      "validation_mode": "fast_static",
+      "static_review_path": "submission/optimization_20261114/mean_prefix1_ab/static_review.json",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "public_mass_repro",
+            "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+          },
+          "required_true_checks": [
+            "mass_recipe",
+            "original_public_priors",
+            "official_rdkit",
+            "public_model_pins",
+            "ours_model_pins",
+            "two_distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "guarded_tail_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mean_prefix1_ab",
+            "mode": "fast_static",
+            "recipe_sha256": "a0623e5314185582e93ce5c832e474ba9c938d262487ae347046f44cc207eaf1",
+            "protected_prefix": 1,
+            "score_mode": "frozen_v2_mean"
+          },
+          "required_true_checks": [
+            "original_base_audit",
+            "late_module_pin",
+            "scorer_payload_pins",
+            "original_scorer_pin",
+            "configuration_binding",
+            "audited_control_bound",
+            "final_csv_bound",
+            "exact_ids_order",
+            "exact_protected_prefix",
+            "exact_candidate_multisets",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "external_overlay_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_extlib",
+            "recipe_sha256": "5fc1c8cb1e27bd9e555090fcf437d0c9bfe02a0f8371811da286d2f3a4d4efd1",
+            "mode": "fast_static"
+          },
+          "required_true_checks": [
+            "base_audit_passed",
+            "control_bound",
+            "final_bound",
+            "source_function_pin",
+            "exact_ids_schema",
+            "official_identities_valid",
+            "library_file_pins",
+            "runtime_checks",
+            "fast_no_matching"
+          ]
+        },
+        {
+          "name": "prefix1_ab_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mean_prefix1_ab",
+            "mode": "fast_static",
+            "recipe_sha256": "a0623e5314185582e93ce5c832e474ba9c938d262487ae347046f44cc207eaf1"
+          },
+          "required_true_checks": [
+            "original_mass_passed",
+            "prefix1_tail_passed",
+            "actual_score_mode",
+            "tail_recipe_bound",
+            "original_AB_passed",
+            "mass_to_tail_control_bound",
+            "tail_to_AB_control_bound",
+            "actual_final_csv_bound",
+            "actual_tail_module_pin",
+            "dynamic_final_ids",
+            "actual_configuration",
+            "fast_no_model"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gl_evidence_early",
+      "target": "stormseye/casmi26-gl-evidence-early-1114",
+      "version": 1,
+      "stage_dir": "submission/optimization_20261114/gl_evidence_early",
+      "notebook_sha256": "de6b09110573232fcb33e3ff40b4a01428ec1a376edc2a839131bcea3726cc8d",
+      "metadata_sha256": "77cb5d001ed6da500aea6ffb1be3ed76c33827a14fd4c708dfebae6ef95144b9",
+      "description": "CASMI26 20261114 gl_evidence_early actual GL ICE scores after original 0488 V1",
+      "validation_mode": "fast_static",
+      "static_review_path": "submission/optimization_20261114/gl_evidence_early/static_review.json",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "public_mass_repro",
+            "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+          },
+          "required_true_checks": [
+            "mass_recipe",
+            "original_public_priors",
+            "official_rdkit",
+            "public_model_pins",
+            "ours_model_pins",
+            "two_distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "guarded_tail_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_head_tail_1108",
+            "mode": "fast_static",
+            "recipe_sha256": "ba7ee5d3545fd6bc32159bbeed785e904dbf99beae0347984a8b7d5c8809e5d8"
+          },
+          "required_true_checks": [
+            "original_base_audit",
+            "late_module_pin",
+            "head_payload_pins",
+            "original_scorer_pin",
+            "audited_control_bound",
+            "final_csv_bound",
+            "exact_ids_order",
+            "exact_prefix7",
+            "exact_candidate_multisets",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "external_overlay_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_extlib",
+            "recipe_sha256": "5fc1c8cb1e27bd9e555090fcf437d0c9bfe02a0f8371811da286d2f3a4d4efd1",
+            "mode": "fast_static"
+          },
+          "required_true_checks": [
+            "base_audit_passed",
+            "control_bound",
+            "final_bound",
+            "source_function_pin",
+            "exact_ids_schema",
+            "official_identities_valid",
+            "library_file_pins",
+            "runtime_checks",
+            "fast_no_matching"
+          ]
+        },
+        {
+          "name": "evidence_early_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "gl_evidence_early",
+            "mode": "fast_static",
+            "recipe_sha256": "ddcae1e322d8a0a6f1ebf416477b32aa98a3dd6a477ad3de9e53f65f63f01da9"
+          },
+          "required_true_checks": [
+            "base_ab_passed",
+            "control_bound",
+            "final_bound",
+            "module_pin",
+            "configuration_exact",
+            "recipe_branch_bound",
+            "sample_ids_exact",
+            "csv_schema",
+            "candidate_multisets",
+            "official_identities",
+            "fast_no_evidence"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dual_evidence_agreement",
+      "target": "stormseye/casmi26-dual-evidence-agreement-1114",
+      "version": 1,
+      "stage_dir": "submission/optimization_20261114/dual_evidence_agreement/revision2",
+      "notebook_sha256": "928da39f189adba270f21ec9c75c1260e4820aa46596c8b56cbbf372eb789d4f",
+      "metadata_sha256": "88d6bad826661f5a1767fd16f5848f5bf596bbcfe5d8dabb0a01767dbd8ee9d1",
+      "description": "CASMI26 20261114 dual_evidence_agreement actual GL ICE scores after original 0488 V1",
+      "validation_mode": "fast_static",
+      "static_review_path": "submission/optimization_20261114/dual_evidence_agreement/revision2/static_review.json",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "public_mass_repro",
+            "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+          },
+          "required_true_checks": [
+            "mass_recipe",
+            "original_public_priors",
+            "official_rdkit",
+            "public_model_pins",
+            "ours_model_pins",
+            "two_distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "guarded_tail_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_head_tail_1108",
+            "mode": "fast_static",
+            "recipe_sha256": "ba7ee5d3545fd6bc32159bbeed785e904dbf99beae0347984a8b7d5c8809e5d8"
+          },
+          "required_true_checks": [
+            "original_base_audit",
+            "late_module_pin",
+            "head_payload_pins",
+            "original_scorer_pin",
+            "audited_control_bound",
+            "final_csv_bound",
+            "exact_ids_order",
+            "exact_prefix7",
+            "exact_candidate_multisets",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "external_overlay_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_extlib",
+            "recipe_sha256": "5fc1c8cb1e27bd9e555090fcf437d0c9bfe02a0f8371811da286d2f3a4d4efd1",
+            "mode": "fast_static"
+          },
+          "required_true_checks": [
+            "base_audit_passed",
+            "control_bound",
+            "final_bound",
+            "source_function_pin",
+            "exact_ids_schema",
+            "official_identities_valid",
+            "library_file_pins",
+            "runtime_checks",
+            "fast_no_matching"
+          ]
+        },
+        {
+          "name": "evidence_early_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "dual_evidence_agreement",
+            "mode": "fast_static",
+            "recipe_sha256": "e523db977cfe19c487a55c0b1faf414f54f234ed97e4b5fec29f46a4d50adb92"
+          },
+          "required_true_checks": [
+            "base_ab_passed",
+            "control_bound",
+            "final_bound",
+            "module_pin",
+            "configuration_exact",
+            "recipe_branch_bound",
+            "sample_ids_exact",
+            "csv_schema",
+            "candidate_multisets",
+            "official_identities",
+            "fast_no_evidence"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "library_consensus_early",
+      "target": "stormseye/casmi26-library-consensus-early-1114",
+      "version": 1,
+      "stage_dir": "submission/optimization_20261114/library_consensus_early/revision3",
+      "notebook_sha256": "1a6b341fe9b62f23d0a0db1a3513f624f29faa260f31f4b145e282f621ab689b",
+      "metadata_sha256": "30c69bf275a8511f91f08df9c51f6d21d574312df524fa81fa6f4ec995bd844a",
+      "description": "CASMI26 20261114 actual multi-spectrum library consensus early same-formula V1",
+      "validation_mode": "fast_static",
+      "static_review_path": "submission/optimization_20261114/library_consensus_early/revision3/static_review.json",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "public_mass_repro",
+            "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+          },
+          "required_true_checks": [
+            "mass_recipe",
+            "original_public_priors",
+            "official_rdkit",
+            "public_model_pins",
+            "ours_model_pins",
+            "two_distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "guarded_tail_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_head_tail_1108",
+            "mode": "fast_static",
+            "recipe_sha256": "ba7ee5d3545fd6bc32159bbeed785e904dbf99beae0347984a8b7d5c8809e5d8"
+          },
+          "required_true_checks": [
+            "original_base_audit",
+            "late_module_pin",
+            "head_payload_pins",
+            "original_scorer_pin",
+            "audited_control_bound",
+            "final_csv_bound",
+            "exact_ids_order",
+            "exact_prefix7",
+            "exact_candidate_multisets",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "external_overlay_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_extlib",
+            "recipe_sha256": "5fc1c8cb1e27bd9e555090fcf437d0c9bfe02a0f8371811da286d2f3a4d4efd1",
+            "mode": "fast_static"
+          },
+          "required_true_checks": [
+            "base_audit_passed",
+            "control_bound",
+            "final_bound",
+            "source_function_pin",
+            "exact_ids_schema",
+            "official_identities_valid",
+            "library_file_pins",
+            "runtime_checks",
+            "fast_no_matching"
+          ]
+        },
+        {
+          "name": "library_consensus_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "library_consensus_early",
+            "mode": "fast_static",
+            "recipe_sha256": "3bc44dc8ce443dad75c5b73b601f6bdb9b9ac114558acef02c90aa767832bee0"
+          },
+          "required_true_checks": [
+            "parent_AB_passed",
+            "control_bound",
+            "final_bound",
+            "source_pin",
+            "module_pin",
+            "recipe_branch_bound",
+            "actual_configuration",
+            "exact_ids_schema",
+            "original_candidate_multisets",
+            "official_identity_validity",
+            "configured_prefix_preserved",
+            "fast_no_pair_matching"
+          ]
+        }
+      ]
+    }
+  ]
+}

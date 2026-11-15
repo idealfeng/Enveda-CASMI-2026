@@ -1,0 +1,8 @@
+{
+  "status": "monitoring",
+  "pid": 26536,
+  "manifest_sha256": "4faa5ccc709cdca950af1b75cb123bdc88f49413a09744a5443150c34fe209ce",
+  "started_at_utc": "2026-11-12T11:20:40.130114+00:00",
+  "read_only_network": true,
+  "new_submission_performed": false
+}

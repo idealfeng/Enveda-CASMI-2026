@@ -1,0 +1,51 @@
+{
+  "nakhun/casmi26-extlib2": {
+    "ref": "nakhun/casmi26-extlib2",
+    "title": "casmi26-extlib2",
+    "description": "",
+    "license_name": "Other (specified in description)",
+    "total_bytes": 128947012,
+    "current_version_number": 1,
+    "last_updated": "2026-11-12 19:56:10.067000",
+    "files": [
+      {
+        "name": "extlib2/build_log.txt",
+        "bytes": 1483
+      },
+      {
+        "name": "extlib2/ext2_in_flat.npy",
+        "bytes": 55406884
+      },
+      {
+        "name": "extlib2/ext2_meta.parquet",
+        "bytes": 14203359
+      },
+      {
+        "name": "extlib2/ext2_mz_flat.npy",
+        "bytes": 55406884
+      },
+      {
+        "name": "extlib2/ext2_offsets.npy",
+        "bytes": 3926856
+      },
+      {
+        "name": "extlib2/ext2_summary.json",
+        "bytes": 897
+      },
+      {
+        "name": "extlib2/offline_eval.json",
+        "bytes": 649
+      }
+    ],
+    "more_files": false
+  },
+  "ozertuu/casmi26-our-scorer-v80-model": {
+    "error_type": "HTTPError",
+    "http_status": 403
+  },
+  "kingdamon/casmi26-cycle-3-wsp-gpu-trainer": {
+    "error_type": "HTTPError",
+    "http_status": 403
+  },
+  "kingdamon_models": []
+}

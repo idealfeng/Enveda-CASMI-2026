@@ -1,0 +1,29 @@
+{
+  "status": "accepted",
+  "started_at_utc": "2026-11-13T13:51:06.826987+00:00",
+  "attempts": [
+    {
+      "phase": "audit",
+      "attempt": 1,
+      "checked_at_utc": "2026-11-13T13:51:27.170070+00:00",
+      "error_type": "ReadTimeout",
+      "http_status": null
+    },
+    {
+      "phase": "audit",
+      "attempt": 2,
+      "status": "passed"
+    },
+    {
+      "phase": "first_formal_submit",
+      "attempt": 1,
+      "status": "accepted"
+    }
+  ],
+  "manifest_sha256": "a1bb2d829c8f945db4718fca1d9d5a893c68419f21b538d4a965b39d79f5ade8",
+  "cloud_push_performed": false,
+  "branch": "spectral_network_explore",
+  "no_unknown_write_retry": true,
+  "submission_ref": 58310918,
+  "completed_at_utc": "2026-11-13T13:52:14.359026+00:00"
+}

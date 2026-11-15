@@ -1,6 +1,8 @@
 # Enveda-CASMI-2026
 
-针对 Kaggle 竞赛 **Enveda CASMI 2026 — Molecule Identification from Mass Spectra**（从质谱鉴定分子结构）的研究与实验仓库。当前公开榜（Public LB）最佳 **0.482**（正式提交 58129661，COMPLETE）。
+针对 Kaggle 竞赛 **Enveda CASMI 2026 — Molecule Identification from Mass Spectra**（从质谱鉴定分子结构）的研究与实验仓库。2026-11-11整理时已确认的公开榜最佳 **0.488**（正式提交 **58156482**，COMPLETE）；后续以[提升账本](reports/improvement_ledger.json)为准。
+
+**先看 [项目导航](PROJECT_INDEX.md)**：可直接找到[经验与失败路线](docs/LESSONS.md)、[所有正式提交结果](docs/SUBMISSIONS.md)、[模型位置及SHA](docs/MODELS.md)、[当前实验状态](docs/EXPERIMENTS.md)。历史日志、用户实验和正式提交原件保持原路径。
 
 ## 项目概况
 
@@ -14,6 +16,7 @@
 | `validation/` | 本地验证与诊断管线（官方 metric 对齐、分子级 MRR、paired bootstrap、恢复与证据） |
 | `tests/` | 针对脚本与提交守卫的测试 |
 | `experiments/` | 实验定义（EXP001–004、VAL001、COMP001 等） |
+| `docs/` | 项目索引、失败与经验、模型注册表、实验状态和维护模板 |
 | `submission/` | 各批次的提交 manifest、Notebook 与配方 |
 | `third_party/` | 已归档的公开方案源码（Flexonafft、prvsiyan、canqiang、shiferaxa、majyles、evgendvorkin 等） |
 | `reports/` | 各批次状态、审计、复现与诊断的 JSON/Markdown 记录 |
@@ -35,4 +38,6 @@
 
 ## 说明
 
-`assets/`（约 27GB）、`runs/`（约 7GB）、`enveda-CASMI26-molecule-id-mass-spectra/`（约 2.9GB train.parquet）为大型数据/权重/运行产物，未纳入版本控制。公开方案的部分权重/数据卡标注 CC BY-NC-SA 4.0，正式冲奖前需按主办要求逐项核验许可证。
+`assets/`、`runs/`和官方数据目录在忽略列表中。部分资产路径使用硬链接共享内容，目录大小不能直接相加当作磁盘实际占用。索引刷新：`.venv\Scripts\python.exe scripts/refresh_project_index.py`；核对：同命令增加 `--check`。
+
+许可与来源以具体资产及主办当前规定为准，现有核对见 [11/9执行记录](reports/OPTIMIZATION_BATCH_2026-11-09.md)。清理及后续记录方式见 [维护规则](docs/MAINTENANCE.md)。

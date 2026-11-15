@@ -1,0 +1,26 @@
+{
+  "checked_at_utc": "2026-11-14T11:35:29.390437+00:00",
+  "refs": [
+    58334939,
+    58341597,
+    58335002,
+    58335047,
+    58341606
+  ],
+  "checks": [
+    {
+      "args": [],
+      "returncode": 0,
+      "stdout": "{\"models\": 108, \"unique_model_contents\": 29, \"submissions\": 41, \"identical_weight_groups\": 22}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "--check"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"passed\", \"models_checked\": 108}\n",
+      "stderr": ""
+    }
+  ]
+}

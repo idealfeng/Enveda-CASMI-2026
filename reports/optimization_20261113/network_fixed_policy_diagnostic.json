@@ -1,0 +1,20 @@
+{
+  "scope": "Post-generation diagnostic evaluation of a fixed public network policy on old exposed Flex48, not exact .488",
+  "queries": 48,
+  "control_mrr": 0.8389136904761906,
+  "treatment_mrr": 0.8361359126984128,
+  "delta": -0.002777777777777768,
+  "changed_true_ranks": [
+    {
+      "mid": "cross_CDUVSQMTLOYKTR",
+      "control_rank": 6,
+      "treatment_rank": 5
+    },
+    {
+      "mid": "cross_NQHGQOVKJGGLKE",
+      "control_rank": 2,
+      "treatment_rank": 3
+    }
+  ],
+  "policy_not_tuned": true
+}

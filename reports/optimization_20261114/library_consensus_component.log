@@ -1,0 +1,13 @@
+[apex-extlib] Loading Takumu Hata extlib from /mnt/d/Paper/casmi/runs/library_consensus_early_20261114_r2/input/casmi26-extlib/ext_meta.parquet...
+[apex-extlib] Loaded 200724 reference spectra from Source A.
+[apex-extlib] Loading MassBank harmonized from /mnt/d/Paper/casmi/runs/library_consensus_early_20261114_r2/input/casmi-2026-spectral-library-massbankharmonized/spectra.parquet...
+[apex-extlib] Total references after Source B: 324884 spectra.
+[apex-extlib] SUCCESS: 2 library matches (TAU=0.8, K=4), 1 Rank-1 promotions applied in 19.9s.
+Traceback (most recent call last):
+  File "/mnt/d/Paper/casmi/scripts/check_library_consensus_early_20261114_v2.py", line 98, in <module>
+    try:main()
+        ^^^^^^
+  File "/mnt/d/Paper/casmi/scripts/check_library_consensus_early_20261114_v2.py", line 84, in main
+    assert fixtures and any(x['changed'] for x in fixtures)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

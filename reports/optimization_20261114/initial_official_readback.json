@@ -1,0 +1,105 @@
+{
+  "checked_at_utc": "2026-11-14T06:35:06.405518+00:00",
+  "prior_rows": [
+    {
+      "branch": "generation_production",
+      "target": "stormseye/casmi26-generation-production-1113",
+      "actual_target": "stormseye/casmi26-generation-production-1113",
+      "submission_ref": 58309573,
+      "status": "COMPLETE",
+      "public_score": 0.473,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-14T06:34:51.888630+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "generation_noiso_control",
+      "target": "stormseye/casmi26-gen-noiso-only-1113",
+      "actual_target": "stormseye/casmi26-gen-noiso-only-1113",
+      "submission_ref": 58310788,
+      "status": "COMPLETE",
+      "public_score": 0.488,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-14T06:34:54.156518+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "generation_budget_only",
+      "target": "stormseye/casmi26-gen-budget-only-1113",
+      "actual_target": "stormseye/casmi26-gen-budget-only-1113",
+      "submission_ref": 58310627,
+      "status": "READ_ERROR",
+      "public_score": null,
+      "public_score_available": false,
+      "error_type": "ConnectionError"
+    },
+    {
+      "branch": "spectral_network_explore",
+      "target": "stormseye/casmi26-spectral-network-1113",
+      "actual_target": "stormseye/casmi26-spectral-network-explore-1113",
+      "submission_ref": 58310918,
+      "status": "COMPLETE",
+      "public_score": 0.488,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-14T06:35:01.058758+00:00",
+      "error_description_present": false
+    },
+    {
+      "branch": "head_mean_ab",
+      "target": "stormseye/casmi26-head-mean-ab-1113",
+      "actual_target": "stormseye/casmi26-mean-tail-with-ab-1113",
+      "submission_ref": 58310818,
+      "status": "COMPLETE",
+      "public_score": 0.488,
+      "public_score_available": true,
+      "checked_at_utc": "2026-11-14T06:35:04.246258+00:00",
+      "error_description_present": false
+    }
+  ],
+  "raw_score_readback": [
+    {
+      "path": "reports\\optimization_20261113\\generation_production\\score.json",
+      "ref": 58309573,
+      "public_score_value": "0.473",
+      "public_score_type": "str",
+      "status": "COMPLETE",
+      "error": false
+    },
+    {
+      "path": "reports\\optimization_20261113\\exploration\\generation_budget_only\\score.json",
+      "ref": 58310627,
+      "public_score_value": null,
+      "public_score_type": "NoneType",
+      "status": "PENDING",
+      "error": false
+    },
+    {
+      "path": "reports\\optimization_20261113\\exploration\\generation_noiso_control\\score.json",
+      "ref": 58310788,
+      "public_score_value": "0.488",
+      "public_score_type": "str",
+      "status": "COMPLETE",
+      "error": false
+    },
+    {
+      "path": "reports\\optimization_20261113\\exploration\\head_mean_ab\\score.json",
+      "ref": 58310818,
+      "public_score_value": "0.488",
+      "public_score_type": "str",
+      "status": "COMPLETE",
+      "error": false
+    },
+    {
+      "path": "reports\\optimization_20261113\\exploration\\spectral_network_explore\\score.json",
+      "ref": 58310918,
+      "public_score_value": "0.488",
+      "public_score_type": "str",
+      "status": "COMPLETE",
+      "error": false
+    }
+  ],
+  "num_today": 0,
+  "num_total": 36,
+  "num_allowed_now": 5,
+  "network_read_only": true
+}

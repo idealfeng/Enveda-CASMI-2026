@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-adduct-extlib-1112",
+  "version": 1,
+  "branch_sha256": "84262dd9cd081da818f74c123321be64f9c49f2bbeab2ffbdcfcb5d9bd58eb7b",
+  "notebook_sha256": "da79811ad20e32ed6c68082d488785ff893793f6d5a5ec36f71dc5ebc74871af",
+  "metadata_sha256": "297b379c80d2b591c0faac7d1cc97b8c71ee0eda7ffae74bdb3ed6a6010a2dd6",
+  "requested_at_utc": "2026-11-12T06:20:39.452313+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-12T06:20:44.902311+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

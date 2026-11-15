@@ -1,0 +1,70 @@
+{
+  "status": "passed_static_not_full_execution",
+  "checked_at_utc": "2026-11-13T13:30:24.176019+00:00",
+  "branches": [
+    {
+      "branch": "generation_noiso_control",
+      "stage": "submission\\optimization_20261113\\generation_noiso_control",
+      "notebook_sha256": "794a4aeff3d71347db36b7da76beb23fae1a6eb754cb726432c5f8a29b351aaf",
+      "recipe_sha256": "ed9c2d5f4158c1d004b9fbd4d5d7eb3c9b5d93782964ac4da8dda6c9ad997278",
+      "changed_cells": [
+        12
+      ],
+      "checks": {
+        "frozen_local_preflight": true,
+        "exact_changed_original_cells": true,
+        "one_appended_audit": true,
+        "champion_dataset_versions": true,
+        "own_final_recipe_pin": true
+      }
+    },
+    {
+      "branch": "generation_budget_only",
+      "stage": "submission\\optimization_20261113\\generation_budget_only",
+      "notebook_sha256": "7f87816791ce5fb87b68d747286acebd6e803d7ab1752edcfb5f5ee951595272",
+      "recipe_sha256": "db45580e4d0b3e1dea6456afce1ff48722b8c78293d838c3f71cec02336ebb33",
+      "changed_cells": [
+        12
+      ],
+      "checks": {
+        "frozen_local_preflight": true,
+        "exact_changed_original_cells": true,
+        "one_appended_audit": true,
+        "champion_dataset_versions": true,
+        "own_final_recipe_pin": true
+      }
+    },
+    {
+      "branch": "spectral_network_explore",
+      "stage": "submission\\optimization_20261113\\spectral_network_explore\\revision2",
+      "notebook_sha256": "389b5341a38cf3825f09450e2a99e604655e3fb25beb474131364c6dd0b1ad00",
+      "recipe_sha256": "f6bc296a0988f9b860e851d08e8540e060ac3cb7ffb8470b3b0c4a07c0a42e6b",
+      "changed_cells": [],
+      "checks": {
+        "frozen_local_preflight": true,
+        "exact_changed_original_cells": true,
+        "one_appended_audit": true,
+        "champion_dataset_versions": true,
+        "own_final_recipe_pin": true
+      }
+    },
+    {
+      "branch": "head_mean_ab",
+      "stage": "submission\\optimization_20261113\\head_mean_ab",
+      "notebook_sha256": "d61a87c4edc67ddd078845e6aeff2d09209e2ab6c75192d20cb3cdcd1318d270",
+      "recipe_sha256": "cbb3916beddd216750f9b05384180f35700c8a98c6feb330a8c77ff9f79919a2",
+      "changed_cells": [
+        30,
+        31
+      ],
+      "checks": {
+        "frozen_local_preflight": true,
+        "exact_changed_original_cells": true,
+        "one_appended_audit": true,
+        "champion_dataset_versions": true,
+        "own_final_recipe_pin": true
+      }
+    }
+  ],
+  "new_full_inference_claim": false
+}

@@ -1,0 +1,296 @@
+CASMI26 data card: what the parquets contain, what is derivable, and what is not determinable
+
+https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/759109
+
+Author: Marco Pereira
+
+Posted: 2026-11-13T20:27:20.314Z
+
+A data card for CASMI 2026: what the two Parquet files are, measured
+Version: 2026-11-03. Scope: the data the competition ships, and only that. This is not a write-up of a method and it makes no claim about a leaderboard position.
+
+How to read the numbers. Every number carries a source tag. The tags are defined at the end, in Sources. A number without a tag is not in this document on purpose. Where a quantity cannot be determined from the shipped files, this card writes not determinable — it never writes zero.
+
+
+What the competition ships
+Two Parquet files and a sample submission. Within the data there is no split file, no label for the test file, and no scorer: everything below has to be built from the two tables.
+
+
+file    rows    columns bytes   row groups
+train.parquet    2,539,608   18  3,033,286,496 (2.82 GiB)    21
+test.parquet    1,213   12  4,848,729 (4.62 MiB)    1
+Sources: [M1]. Shapes read from ParquetFile(…).schema_arrow, not from documentation.
+
+1.1 train.parquet — the real schema
+One row is one spectrum, not one molecule. There is no molecule id and no spectrum id.
+
+column    type    nulls   distinct    what it is
+ingest_lib    string  0   11  source library label
+normalized_smiles    string  0   277,566 structure, normalized
+inchikey    string  0   275,950 full InChIKey
+inchikey14    string  0   275,810 first block (skeleton)
+molecular_formula    string  0   51,291  molecular formula
+ionization_mode    string  0   2   positive / negative
+instrument_type    string  33,053  82  instrument label
+adduct    string  0   121 adduct, normalized
+adduct_orig    string  0   123 adduct, as published
+precursor_mz    double  0   —   precursor m/z
+precursor_error_ppm    double  4,286   —   reported mass error
+ms2_mzs    list    0   —   peak m/z
+ms2_normalized_intensities    list    0   —   peak intensities
+num_peaks    int64   0   —   number of peaks
+base_peak_intensity    double  1,163,138   —   base peak intensity
+collision_energy_ev    list    337,443 —   collision energy, eV
+collision_energy_orig    string  320,464 3,309   collision energy, as published
+collision_energy_orig_units    string  0   4   eV / NCE / unknown / V
+Sources: [M1]. distinct is not computed for float columns.
+
+Three things in that table are easy to miss and expensive to miss:
+
+normalized_smiles is complete. 0 nulls in 2,539,608 rows. Structures are given for every training spectrum [M1].
+Structures are not one-to-one with keys. 277,566 distinct SMILES against 275,810 distinct inchikey14 and 275,950 distinct full InChIKeys: the same skeleton appears with several stereochemistries or tautomers [M1].
+The peak arrays are the file. 1,778,025,639 B of intensities plus 1,203,416,533 B of m/z = 98.3% of the 3.03 GB [M1].
+1.2 test.parquet — the real schema
+column    type    nulls   distinct    what it is
+molecule_id    large_string    0   400 anonymous molecule id
+spectrum_id    large_string    0   1,213   anonymous spectrum id
+ms2_mzs    list    0   —   peak m/z
+ms2_normalized_intensities    list    0   —   peak intensities
+base_peak_intensity    double  0   —   base peak intensity
+adduct    large_string    0   7   adduct
+ionization_mode    large_string    0   2   positive / negative
+instrument_type    large_string    0   1   timsTOF only
+precursor_mz    double  0   —   precursor m/z
+collision_energy_orig    large_string    0   8   collision energy, as published
+collision_energy_ev    list    0   —   collision energy, eV
+collision_energy_orig_units    large_string    0   1   eV only
+Sources: [M1]. There are no nulls at all in the test file.
+
+1.3 What does not ship
+Measured by absence, not by assumption [M1]:
+
+No structure in the test file. No SMILES, no InChI, no InChIKey, no molecular formula — neither under the training file's column names nor under the usual aliases.
+No molecular formula in the test file. Candidate generation cannot be constrained by a shipped formula; the formula has to come from the precursor and from chemistry.
+No identifier in the training file. The only identity is chemical (inchikey, inchikey14); there is no row id to join on.
+No ground truth for the test file. The 400 molecules have anonymous ids.
+No split. No fold column, no train/validation file. Any split must be built by the user.
+The hidden test is not shipped. test.parquet is the visible file: 1,213 spectra, 400 molecules. What the rerun scores is not in the data. Its size and composition are not determinable from the files.
+No metric implementation. The competition declares "CASMI: Mean Average Precision" [M5b]; no scorer ships, so any local number is a declared proxy.
+
+
+The visible split is the training set
+This is the single most important fact in this data card, and it is measurable in one pass.
+
+
+2.1 The measurement
+Take every test spectrum, round m/z to 4 decimals and normalized intensity to 6 decimals, and look for an identical record in train.parquet:
+
+measured    value
+test spectra with an identical record in train.parquet    1,213 / 1,213 (100.0%)
+test molecules with all their spectra in train.parquet    400 / 400
+test molecules with none of their spectra in the train    0
+distinct inchikey14 among the matched training rows    400
+test molecules matching more than one structure    0
+source library of every matched row    a single one (enveda-180)
+control: every match re-checked with the reference key implementation    1,213 / 1,213 agree
+Sources: [M2]. Two earlier, independent passes — a spectrum-overlap instrument and a separate exact-key instrument — reported the same 1,213/1,213 and 400/400 [M2c].
+
+Consequence 1 — the ground truth of the visible split can be recovered without any hidden label. Join the test spectra to the training rows; the structure comes with the row. This is not a modelling result. It is a property of the shipped data.
+
+Consequence 2 — the visible file is not a random sample of the training table. All 400 molecules come from one of the eleven source libraries; the test file is timsTOF only, carries 7 of the 121 adducts (all 7 exist in the train), and its precursors span 245–460 Da. The same library in the train spans 235–999 Da, carries 14 adducts, and its spectra are denser in the test: median 230 peaks per spectrum in the test, 138 in that library, 42 in the whole training table [M1, M3]. The visible split is a selected slice, not a miniature of the corpus.
+
+Consequence 3 — the 400 visible molecules are better sampled in the train than in the test. The same 400 structures have 2,536 spectra in train.parquet (2,482 of them in that library), against the 1,213 spectra that were put into the test file [M1]. The test keeps roughly half of the available spectra of those molecules.
+
+2.2 The two rulers, on one file
+One submission, one set of 400 candidate lists, two evaluations of the same file:
+
+ruler    value
+400 visible molecules, MRR@25 against the recovered truth    0.99875
+same submission, public leaderboard    0.408
+ratio    2.448×
+Sources: [M5] for the local measurement and [M5c] for the public score of the same submission, which is recorded there as complete. Rank-1 accuracy on the visible 400 was 0.9975 — 399 of 400 molecules had the truth in first place [M5].
+
+The two numbers are not two estimates of one quantity. A factor of 2.45 between them is the signature of two different populations, not of noise: the local ruler scores a file whose answers are in the training table; the public ruler scores a rerun of the same code on a set that is not shipped with the data.
+
+What this does not mean. It does not mean the hidden test is identical to the training table, and it does not mean the hidden molecules are disjoint from it. Both are not determinable from the shipped files. What is determined is narrower and sufficient: the visible file is inside the training table, so no score computed on it measures generalisation.
+
+The public figure above is used only as the second ruler of one artifact. It is not a statement about a method, and no other leaderboard number appears in this card.
+
+
+The shapes you will actually deal with
+3.1 Dimensions
+quantity    value   source
+spectra (rows)    2,539,608   [M1]
+structures (inchikey14)    275,810 [M1]
+distinct normalized SMILES    277,566 [M1]
+distinct molecular formulas    51,291  [M1]
+source libraries    11  [M1]
+adducts    121 [M1]
+ionization modes    2   [M1]
+instrument labels    82  [M1]
+spectra per structure    median 6, mean 9.21, max 1,468  [M1]
+peaks, total    401,806,233 [M1]
+peaks per spectrum    median 42, mean 158.2, max 73,318   [M1]
+spectra that repeat an earlier peak list exactly    69,113  [M1]
+The peak count is the number a data card most often gets wrong. The training table holds 401.8 million peaks. The 17.79 million figure that appears below is a derived object — a library that keeps one representative spectrum per structure — and it is 22.6× smaller than the table it is built from. Both numbers are correct; they answer different questions [M1, M2b].
+
+
+Two data-quality facts, measured and left as measured:
+
+precursor_mz has a maximum of 2,430,333 — an impossible mass. The table contains values that no molecule can have [M1]. How many rows carry implausible precursor values is not determinable without a physical model; the p99 is 976.3, which is plausible.
+base_peak_intensity is null in 1,163,138 rows (45.8%), and collision_energy_ev in 337,443 (13.3%) [M1]. Any feature built on them must handle absence, not zero.
+3.2 A spectral library built from the training table
+Measured by building one: one representative spectrum per structure, flat arrays in memory [M2b].
+
+quantity    value
+structures with a usable representative    269,846 (of 275,810)
+peaks kept in memory    17,789,607
+flat arrays (mz, intensity, offsets, masses)    288.95 MB
+build time, whole table in two streaming passes    79.3 s
+query time per molecule    1.20 s median (0.026 s per spectrum)
+query time per molecule, worst observed    5.47 s
+mass window scanned per query    238,850 structures (median)
+Read the ratio. The table is 401.8 M peaks; the library keeps 17.8 M — 4.4% of the peaks — and still returns the query's own structure with similarity 1.000 when that structure is in the library [M2b]. Collapsing spectra to one representative is the difference between a 289 MB object and a multi-gigabyte one.
+
+3.3 The cost that surprises people: rebuilding a feature matrix
+Features for a candidate list are not free, and they are not a one-off: every new hypothesis that changes the candidate set needs a new matrix.
+
+scope    cost
+measured feature cost per molecule    2.80 s
+fixed setup (load assets, warm up)    ~1.85 h
+matrix for 400 molecules (one pass)    2.2 h
+matrix for 5,000–8,000 molecules    5.7–8.1 h
+Sources: [M6]; the arithmetic is 2.80 s × n + 1.85 h, recomputed in [M7]. The 5.7–8.1 h figure is for a training-sized matrix, not for the 400-molecule object. Quoting it for 400 molecules would overstate the cost by a factor of 2.6–3.7×.
+
+
+The feature space, documented
+A model bundle that circulates with this competition carries a LightGBM ranker with 160 named features, four boosters of 500 trees each [M4]. Its manifest documents 66 of them. The other 94 exist only in the model file. The true feature list is in the model, not in the manifest — a manifest that lists 41% of the columns looks complete and is not.
+
+
+For each feature the audit asked one question: does the data this column needs exist on both sides of the visible/hidden boundary, and does it behave the same way?
+
+category    meaning n   share of the 160    share of total gain
+SIM    input exists on both sides; value computed the same way 77  48.1%   32.115%
+DIFERENTE    input exists on both sides, different regime    70  43.8%   25.231%
+NAO    input absent on the hidden side 13  8.1%    42.654%
+total        160 100%    100%
+Sources: [M4]; counts and gain shares recomputed from the audit table in [M7], which sums to 100.000%.
+
+By count the majority is SIM. By weight it is not. The 13 absent columns carry 42.7% of the decision. Add the regime-shifted ones and 67.9% of the model's gain sits on columns that do not reproduce on the hidden side. Only 32.1% of the gain is computed from data that is the same in both places [M4].
+
+4.1 The top of the table
+Fifteen columns, by measured gain (percentage of the ranker's total gain):
+
+feature category    gain %  measures
+
+1    model_views__fzABD_gap  NAO 40.696  f.z of a three-bank ensemble, gap form
+2    fz_softmax  SIM 12.279  softmax of f.z over the candidate list
+3    derivation__dg_rank_site    DIFERENTE   4.397   candidate-parent relation in a derivation grammar
+4    fz_gap  SIM 4.098   (f.z − max f.z)/100
+5    lib_max DIFERENTE   2.279   best spectral-library similarity of the same structure
+6    ap_rank DIFERENTE   2.163   rank of the analog-propagation score
+7    el_rank SIM 2.019   rank of the element-head L1 error
+8    mass_ppm_rank   SIM 1.966   rank of −|mass error|
+9    fp_ll_gap   SIM 1.819   fingerprint log-likelihood minus its max
+10    gen_rank_fz DIFERENTE   1.809   f.z rank among generated candidates
+11    best_tan    DIFERENTE   1.605   max Tanimoto against spectral analogs
+12    derivation__dg_rank_sup DIFERENTE   1.382   candidate-parent relation, support form
+13    fz_single_gap   SIM 1.345   per-spectrum f.z minus its max
+14    analog_struct__st_rank  DIFERENTE   1.214   structural relation to the 15 spectral analogs
+15    lib_nspec   DIFERENTE   1.013   log1p of library spectra matched
+Sources: [M4] and the recomputation in [M7]. The single most valuable column is in the absent category. Note what #1 and #5 have in common: neither is a property of the query spectrum alone.
+
+4.2 The dead weight, named
+Five columns account for 42.654% of the gain and all five need a third model bank, the one labelled D here. With bank D out of the path, the model still has the columns and the kernel forces them to zero [M4].
+
+feature    gain %
+model_views__fzABD_gap    40.696
+model_views__fzD_rank    0.789
+model_views__fzD_gap    0.512
+model_views__fzABD_rank    0.510
+model_views__fzD_z    0.147
+total    42.654
+Three of the five are the fzD_* family, worth 1.448%; the remaining 41.206% is the A+B+D ensemble gap and rank.
+
+4.3 Eight columns that never decide anything
+xs_max, xs_mean, xs_merged, xs_gap, xs_rank, xs_z, xs_top, xs_grp_gap — the cross-encoder family — never appear in a single split across the four boosters and carry 0.000% of the gain [M4]. They are inert, not absent: the kernel leaves them at zero because no cross-encoder weights are shipped. 152 of the 160 columns are used in at least one tree [M4].
+
+This is the cheapest audit available on any bundle of this kind: probe the model for the feature list, sum the gain by category, and count how many columns never split. It takes minutes and it reorders every subsequent decision.
+
+4.4 The 160 names, by category
+For mapping any other model onto this table.
+
+SIM (77): fz, fz_z, fz_rank, fz_gap, fz_norm, fz_top, fz_softmax, fz_grp_ent, fz_grp_gap, fz_single, fz_single_gap, fz_merged, fz_merged_gap, fp_cos, fp_tan, fp_ll, fp_ll_gap, el_c, el_n, el_o, el_sum, el_rank, fr_int, fr_int_mean, fr_cnt, fr_top10, fr_strict, fr_rank, fr_gap, fr_z, fr_n, sf_int, sf_cnt, sf_top10, sf_rank, sf_gap, formula_share, n_formula, formula_is_top, mass_ppm, mass_ppm_rank, n_heavy, fp_bits, n_cand, n_query, n_pos, n_neg, target_mass, q_npeaks, fr_x_fz, frag2__cov_grp_gap, frag2__cov_rank, frag2__cov_vs_lead, frag2__covw1, frag2__dl_sup_gap, frag2__excl_gain, frag2__excl_loss, frag2__grp_gap, frag2__grp_rank, frag2__llr_vs_lead, frag2__mix_grp_gap, frag2__mix_rank, frag2__mix_vs_lead, fragnet__fn_fc_rank, fragnet__fn_gap, fragnet__fn_grp_gap, fragnet__fn_grp_rank, fragnet__fn_pk_rank, fragnet__fn_rank, fragnet__fn_raw_gap, fragnet__fn_raw_grp_gap, fragnet__fn_raw_rank, fragnet__fn_raw_vs_lead, fragnet__fn_score, fragnet__fn_score_max, fragnet__fn_sp_rank, fragnet__fn_vs_lead
+
+DIFERENTE (70): lib_max, lib_mean, lib_top3, lib_nspec, lib_cos, lib_max_rank, lib_gap, lib_grp_max, lib_hit, lib_same_adduct, ap, a1, best_tan, top_tan, mean_tan, ap_rank, ap_gap, ap_grp_max, top_sim, ap_np, best_tan_np, top_sim_np, ap_np_gap, ap_sum, n_analog_hi, tan_zero_shift, lib_x_fz, ap_x_fz, agree_lib, agree_ap, is_gen, gen_parent_sim, gen_steps, gen_parent_tan, n_gen, gen_rank_fz, derivation__dg_min_steps, derivation__dg_n_combo, derivation__dg_n_sib, derivation__dg_rank_site, derivation__dg_rank_sup, derivation__dg_sib_rank, derivation__dg_site_logfr, derivation__dg_tf_logfr, derivation__dg_zd_only, derivation__dj_rank_sim, derivation__dj_rank_site_der, derivation__dp_best_sim, derivation__dp_best_sim_nz, derivation__dp_hit, derivation__dp_iso_n_hit, derivation__dp_iso_nz_gap, derivation__dp_rank_sim, derivation__dp_site_logfr, derivation__dp_zd_only, analog_struct__dr_ring_wabs, analog_struct__fd_wmean, analog_struct__fx_max, analog_struct__rs_jac_wmean, analog_struct__sc_gen_wsum, analog_struct__st_ap, analog_struct__st_fgap, analog_struct__st_gap, analog_struct__st_rank, analog_struct__sub_ac_max, analog_struct__sub_ca_max, analog_struct__subf_ac_max, analog_struct__subf_ca_max, model_views__rank_spread, model_views__rank_worst
+
+NAO (13): xs_max, xs_mean, xs_merged, xs_gap, xs_rank, xs_z, xs_top, xs_grp_gap, model_views__fzABD_gap, model_views__fzABD_rank, model_views__fzD_gap, model_views__fzD_rank, model_views__fzD_z
+
+
+What is derivable and what is not
+5.1 Computable from train.parquet with no model at all
+Structures: 275,810 skeletons, 277,566 normalized SMILES, 51,291 formulas [M1].
+Fingerprints, scaffolds, exact masses, heavy-atom counts — pure chemistry on those structures.
+A scaffold-disjoint split: 126,352 distinct Murcko scaffolds, 5 folds of 55,512–55,514 structures; exactly 1 scaffold appears in more than one fold, and it is the empty scaffold — 14,113 acyclic structures (5.08%) that no scaffold split can separate [M2d].
+Spectral neighbours and library similarities: 1.20 s per molecule over 269,846 structures [M2b].
+Candidate windows by mass and by formula, and duplicate detection: 2,470,495 distinct peak lists among 2,539,608 rows [M1].
+Metadata regimes: 11 source libraries, 121 adducts, 82 instrument labels, 2 ionization modes [M1].
+5.2 Requires a trained model
+The fz family (13 columns): fz, fz_z, fz_rank, fz_gap, fz_norm, fz_top, fz_softmax, fz_grp_ent, fz_grp_gap, fz_single, fz_single_gap, fz_merged, fz_merged_gap. All need a spectrum→fingerprint checkpoint to score a candidate [M4].
+fp_ll, fp_ll_gap, fp_cos, fp_tan and the five el_* columns: same checkpoint, plus its element head [M4].
+The eight xs_* columns: require cross-encoder weights that are not shipped [M4].
+Any ranking model: the 160-column ranker itself is a trained object, not data.
+5.3 Irrecoverable from the shipped data
+42.654% of the public ranker's gain — the five columns in §4.2. They need model bank D. What those columns would be worth if D were present is not determinable.
+The three fzD_* columns (1.448% together). No shipped asset produces them.
+Everything that depended on bank D inside the engine — the ensemble views that mix A, B and D collapse to A+B when D is absent, and the resulting value is a different quantity, not a missing one [M4].
+Whether any of this matters on the hidden set — not determinable: the hidden molecules and their distribution are not in the files.
+A note on regime, because it is the subtlest part of this card. lib_max measures the best spectral-library similarity of the candidate's own structure. On a 40-structure sample where the query's own structure is in the library, the value is a self-match: median 1.000 and 100% of queries at or above 0.9 [M4b]. With the query's structure removed from the library, the same feature has a median of 0.571, and only 12.5% of queries reach 0.9 [M4b]. Same column, same code, different regime — that is what DIFERENTE means, and it is why 25.2% of the gain cannot be read across the boundary.
+
+
+Derived artefacts we produced, and their limits
+Everything here exists because the competition ships no ETL, no split and no candidate table. The sizes are measured; the reach is the point.
+
+
+
+artefact    size    reach   limit
+candidate × feature matrix, 36,380 rows × 258 columns (249 features + 9 metadata)    21,694,783 B, sha256 1f6cf2ab…  250 molecules, 250 positives, median 120 candidates per molecule (min 3, max 554), 34,784 distinct candidate SMILES 0.091% of the 275,810 structures [M7]
+same matrix with the model-bank columns removed, 36,380 × 133 (125 features)    9,939,400 B, sha256 f0d8242c…   same 250 molecules  same [M7]
+per-stage JSON payloads of one run (8 files: base, ice, gl, frag, pc, pc_deep, eng, meta)    11,075–2,493,811 B each; 12,729,052 B total one run, one configuration  not a dataset; it is the run's cache [M7]
+one submission file    429,038 B; 400 rows × 25 candidates; 400 distinct molecules one submission  no truth column — the truth is recoverable from train.parquet [M2]
+replay of that run from its payloads    —   400 / 400 candidate lists reproduced exactly    one run only; a second replay of a different configuration agreed on 398/400 lists and 400/400 top-1, the 2 differences being tie-breaks [M7]
+The replay result is the strongest practical statement in this section: with 12.7 MB of stage payloads, a submission can be reproduced offline, candidate for candidate, without re-running the model. That is what makes an experiment falsifiable after the fact.
+
+6.1 What is still missing
+A split on disk. Nothing ships. The scaffold split exists only as a derived artifact (126,352 scaffolds measured), and it has a declared exception: the 14,113 acyclic structures that share the empty scaffold [M2d].
+A candidates ↔ truths ↔ features table for the whole corpus. Ours covers 250 of 275,810 structures — 0.091%. Every new hypothesis rebuilt a matrix for a few hundred molecules.
+A reproducible ETL. No extraction code ships, and 94 of the 160 features have no published definition, so an independent rebuild has to infer them from a model file [M4].
+A published metric implementation. The scorer is not shipped; local numbers are proxies [M5b].
+
+
+Practical notes for the next team
+Build the corpus-wide matrix before the first hypothesis. Four consecutive experiments in this project each paid a rebuild of the candidate-feature matrix before they could ask their question: 2.2 h per 400-molecule pass, 5.7–8.1 h at training scale [M6]. The matrix is the tax on every idea, and it is paid before the idea is tested. Build once, cache the features per candidate, then iterate in minutes.
+Measure the visible split against the truth before optimizing anything. The visible 400 have their answers in train.parquet [M2]. A local score on them is a lookup test, not a validation. Do it first: it takes one pass and it changes what every later number means.
+Deduplicate by exact spectrum hash before splitting. 69,113 rows repeat an earlier peak list exactly [M1]. A random row split leaks those duplicates across folds.
+Split by scaffold, and declare the exception. 126,352 scaffolds, 5 folds, one scaffold in two folds — the empty one, 14,113 acyclic structures [M2d]. Any claim of a "clean" split that does not mention the empty scaffold is overstating.
+Check num_peaks against the arrays on first contact. They agree on all 2,539,608 rows [M1]. It is a one-line integrity check that catches a truncated read.
+Trust the model, not the manifest. 160 features in the model, 66 in the manifest [M4]. The other 94 are the ones that will surprise you.
+Expect the visible and the hidden to differ in density, adduct mix and library hits. Median 230 peaks per spectrum in the visible file against 138 in its source library and 42 overall; 7 adducts against 121 [M1, M3]. Any feature that reads a library hit changes regime across that boundary — 100% of a visible sample at 0.9 or above, against 12.5% and a median of 0.571 with the query's own structure removed [M4b].
+Keep the stage payloads. 12.7 MB makes a run replayable at 400/400 lists [M7]. It is the cheapest insurance against an unexplainable result.
+Sources
+All measurements were made on the shipped files, or on artefacts derived from them, and are dated.
+
+
+[M1] 2026-11-03 — full-file scans of both Parquet files with PyArrow 25: schema from schema_arrow, per-column null and distinct counts, per-column compressed bytes, peak-array lengths, spectra-per-structure distribution, adduct/instrument/library vocabularies, and the presence/absence of structure columns. Recomputed in [M7].
+[M2] 2026-11-03 — exact-record containment of the test spectra in train.parquet (m/z rounded to 4 decimals, intensity to 6), with the reference key implementation run as a control on every match: 1,213/1,213 agree.
+[M2b] 2026-10-29 — the spectral-library build over the whole training table (one representative spectrum per structure) and a two-pass streaming cost measurement.
+[M2c] 2026-09/10 — two earlier containment passes with different instruments (a spectrum overlap scanner and an exact-key comparator), both reporting 1,213/1,213 spectra and 400/400 molecules.
+[M2d] 2026-10-29 — audit of a scaffold-disjoint split over the training structures: 126,352 Murcko scaffolds, 5 folds, 1 scaffold present in more than one fold (the empty scaffold, 14,113 acyclic structures).
+[M3] 2026-11-03 — profile of the source library the visible split belongs to (1,153,785 spectra) against the whole table and against the test file.
+[M4] 2026-10-29 — audit of the public 160-feature ranker bundle: feature list read from the model, gain summed per feature over 4 boosters × 500 trees, and each feature classified by whether its input exists and behaves identically on both sides of the visible/hidden boundary.
+[M4b] 2026-10-29 — lib_max in two regimes on the same 40-structure sample: query's own structure present in the library (median 1.000, 100% at or above 0.9) and removed from it (median 0.571, 12.5% at or above 0.9).
+[M5] 2026-10-24 — the local measurement of that submission against the recovered truth of the 400 visible molecules: MRR@25 0.99875, top-1 0.9975.
+[M5b] 2026-10-19 — competition sheet read from the platform API: evaluation metric declared as "CASMI: Mean Average Precision", kernels-only submissions.
+[M5c] 2026-10-21/24 — submission record for the run referenced in §2.2, read from the competition's submission list: status complete, public score 0.408.
+[M6] 2026-10-29 — measured feature-building cost: 1,120 s for 400 molecules (2.80 s/molecule) plus 459 s of setup and ~1.85 h of asset loading.
+[M7] 2026-11-03 — recomputation of every count, share and arithmetic expression quoted in this card directly from the artefacts above, plus the inventory of derived artefacts (matrix dimensions, payload sizes, submission shape, replay agreement).

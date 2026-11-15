@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "checks": {
+    "generation_production_source_and_gain_bound": true,
+    "generation_production_idempotent": true,
+    "generation_production_pending_no_gain": true,
+    "generation_noiso_control_source_and_gain_bound": true,
+    "generation_noiso_control_idempotent": true,
+    "generation_noiso_control_pending_no_gain": true,
+    "generation_budget_only_source_and_gain_bound": true,
+    "generation_budget_only_idempotent": true,
+    "generation_budget_only_pending_no_gain": true,
+    "spectral_network_explore_source_and_gain_bound": true,
+    "spectral_network_explore_idempotent": true,
+    "spectral_network_explore_pending_no_gain": true,
+    "head_mean_ab_source_and_gain_bound": true,
+    "head_mean_ab_idempotent": true,
+    "head_mean_ab_pending_no_gain": true,
+    "two_manifests_sequential_no_lost_gain": true,
+    "duplicate_lower_gain_not_readded": true,
+    "real_ledger_files_unchanged": true,
+    "old_writer_lock_gate_present": true,
+    "single_writer_exclusive_claim_present": true,
+    "manifest_pins_rechecked": true
+  },
+  "source_sha256": "1f90d8a5c2c5cdcef4b8e845e4f6e5cc8d3c38b1b5e2c694fcdcf4ab564bd387",
+  "no_network": true,
+  "real_ledger_writes": false
+}

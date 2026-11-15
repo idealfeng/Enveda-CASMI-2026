@@ -1,0 +1,66 @@
+{
+  "status": "completed_native_casmi_feature_distribution_comparison",
+  "native_msg_val": {
+    "rows": 19429,
+    "length_quantiles": [
+      1.0,
+      6.0,
+      11.0,
+      11.0,
+      11.0
+    ],
+    "fragment_intensity_quantiles": [
+      0.01233673095703125,
+      0.1923828125,
+      0.3662109375,
+      0.65380859375,
+      1.0
+    ],
+    "fragment_ion_differs_root": 0,
+    "fragment_count": 148688,
+    "fragment_not_elementwise_root_subset": 0,
+    "exactly_one_valid_cls": true,
+    "cls_is_last_valid_token": true,
+    "distinct_root_formulas": 2894,
+    "root_carbon_quantiles": [
+      6.0,
+      20.0,
+      26.0,
+      39.0,
+      56.0
+    ]
+  },
+  "casmi_conditional": {
+    "rows": 103,
+    "length_quantiles": [
+      2.0,
+      10.0,
+      11.0,
+      11.0,
+      11.0
+    ],
+    "fragment_intensity_quantiles": [
+      0.034370265901088715,
+      0.17935001477599144,
+      0.3213186264038086,
+      0.5633293986320496,
+      1.0
+    ],
+    "fragment_ion_differs_root": 0,
+    "fragment_count": 896,
+    "fragment_not_elementwise_root_subset": 0,
+    "exactly_one_valid_cls": true,
+    "cls_is_last_valid_token": true,
+    "distinct_root_formulas": 32,
+    "root_carbon_quantiles": [
+      8.0,
+      11.0,
+      17.0,
+      20.0,
+      52.0
+    ]
+  },
+  "model_forward_executed": false,
+  "ranking_labels_read": false,
+  "interpretation": "Domain/preprocessing descriptives only, not proof of a bug. Official-native constant-model finding independently rules out CASMI-only featurization as the sole cause."
+}

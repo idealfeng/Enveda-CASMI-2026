@@ -1,0 +1,27 @@
+{
+  "ref": "alexchilton/casmi26-lb-0-488-peaks-to-structures-network",
+  "title": "CASMI26 LB 0.488 | Peaks to Structures + Network",
+  "current_version_number": 14,
+  "last_run_time": "2026-11-11 14:07:31.072000",
+  "dataset_data_sources": [
+    "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "takumuhata/casmi26-extlib",
+    "sanpier/catalogue-experiment-saner",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [
+    "popwenman/casmi26-scorer-train-v80"
+  ],
+  "is_private": false,
+  "sha256": "9bc6431ef5062876e973b7b7bbcd106ccc4cfaadeea01e3924c42ead8a03d95f",
+  "bytes": 816835,
+  "status": "downloaded",
+  "read_only": true,
+  "no_execution": true
+}

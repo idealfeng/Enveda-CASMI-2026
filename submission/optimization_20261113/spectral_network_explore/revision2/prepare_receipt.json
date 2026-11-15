@@ -1,0 +1,10 @@
+{
+  "status": "prepared_pending_component_smoke",
+  "notebook_sha256": "389b5341a38cf3825f09450e2a99e604655e3fb25beb474131364c6dd0b1ad00",
+  "metadata_sha256": "0161124fc67b6e334796d8d94591ad3e2b09f16055368236c885a3e950dc2e2c",
+  "recipe_sha256": "f6bc296a0988f9b860e851d08e8540e060ac3cb7ffb8470b3b0c4a07c0a42e6b",
+  "module_sha256": "16f62e95a18608e66f95be0b5c279666cfd07f92d07c88c0a0d6a0153cf0018a",
+  "source_sha256": "8150955a1f0a617639253bd59cca9c186c6e881ebc7f15447682c0e3df7de768",
+  "parent_sha256": "2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7",
+  "no_cloud_write": true
+}

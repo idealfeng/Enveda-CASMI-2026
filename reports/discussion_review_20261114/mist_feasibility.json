@@ -1,0 +1,53 @@
+{
+  "status": "source_and_metadata_feasibility_review_only",
+  "checked_at_utc": "2026-11-14T14:14:36.154072+00:00",
+  "repository": "https://github.com/coleygroup/MIST",
+  "commit": "48e339be6535546c87ba4f6b81a0f787c2e4ac40",
+  "source_dir": "assets\\research\\mist_msg_20261114\\source",
+  "code_pins": {
+    "LICENSE.md": "b0b902c0847833aee26472ee9c7fe61b97a9e15532c434c87f27d592beaba54b",
+    "NOTICE.md": "0c257de43bd0f08ecf0bd664e6d5ddafa0aec3369156d61e48e9f6d87bcceee6",
+    "configs/noaug/msg.yaml": "53dce6fe74cb67cf24510a7a36b10d6a1c25c255aa684025ff55a32fda4eeed8",
+    "docs/data.md": "20dac4123b1ab4fbaf3550125c8c7bf8678eb50a8c2844050498ee61e6541bac",
+    "src/mist/utils/chem_utils.py": "124340b651533112c0275b0c79418e157f003163d81f79c611c86499bd808c6f",
+    "src/mist/data/featurizers.py": "f8e3b24f540bbe4d6d858dcada7b8d54f5fbb1a62001634f6a59186fdbe01bbc",
+    "src/mist/data/input_signal.py": "98266963fed7d4dacee6d81b2158aae96ccf49be1266fdafcfef8a8284ed1a35",
+    "src/mist/data/build_all_cache.py": "0a5771153cc98d992e00ddb9380704a76991b175a49a0726613125be930a1977",
+    "src/mist/artifacts.json": "d77f7cc02e238b05a8a86d1a22fc027ad092264026680b8d5f4acfeeda4bf134"
+  },
+  "source_bytes": 364746,
+  "additional_license_bytes": 1071,
+  "checkpoint": {
+    "filename": "mist_msg_noaug.ckpt",
+    "bytes": 289222619,
+    "expected_sha256": "6f8df582df36aa4a984f120efee14ee0a62f3a7723caa770b856a6e704236727",
+    "expected_md5": "md5:80594e4dfd82d15fb32a3b186e686b6b",
+    "downloaded": false,
+    "actual_sha256": null
+  },
+  "architecture": {
+    "parameters": 72296996,
+    "hidden_size": 1024,
+    "attention_layers": 4,
+    "heads": 16,
+    "iterative_layers": 4,
+    "fingerprint_bits": 4096,
+    "morgan_radius": 2,
+    "chirality": false
+  },
+  "critical_constraints": [
+    "Precursor formula required: candidate-formula conditional inference, never truth formula",
+    "Only positive-adduct vocabulary; negative-mode baseline fallback",
+    "Explicit NH4 and double-water-loss aliases",
+    "timsTOF absent from upstream instrument map",
+    "Fresh 4096-bit candidate fingerprint definition required",
+    "Native CLI is canonical MSG/CANOPUS only; honest CASMI adapter required",
+    "Pretrained MSG exposure exclusion required for efficacy claims"
+  ],
+  "new_training": false,
+  "model_executed": false,
+  "source_executed": false,
+  "pip_install_performed": false,
+  "public_score": null,
+  "independent_gain_verified": false
+}

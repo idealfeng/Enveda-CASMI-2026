@@ -1,0 +1,152 @@
+{
+  "status": "complete_evidence_summary_no_new_model",
+  "score_table_sha256": {
+    "A": "3e45ed0c0444ca34b9f60ff78b92778e1d7901d593828e3d7b85589fe80a59c5",
+    "B": "f3ad266af95792ffc947ad838467a132ad2b29bfeee47ca420d8cb377ed7050a",
+    "C": "ed25a2a1318c0a6416ab4bd37e19452d89e3eb39ac21611e1c66841205ef76e0"
+  },
+  "candidate_feature_rows": 1250,
+  "candidate_feature_sha256": "3d42710f105b486d23467f8b2ab3cf918de2fa5b0ce2a136101e6564deab2933",
+  "feature_columns": [
+    "scope",
+    "molecule_id",
+    "smiles",
+    "official_identity",
+    "original_rank",
+    "A_has_observed_score",
+    "A_max_cosine",
+    "A_best_matched_peaks",
+    "A_distinct_support_spectra",
+    "A_distinct_strong_references",
+    "B_has_observed_score",
+    "B_max_cosine",
+    "B_best_matched_peaks",
+    "B_distinct_support_spectra",
+    "B_distinct_strong_references",
+    "C_has_observed_score",
+    "C_max_cosine",
+    "C_best_matched_peaks",
+    "C_distinct_support_spectra",
+    "C_distinct_strong_references"
+  ],
+  "missing_score_policy": "NaN plus explicit has_observed_score; no imputed valid zero score",
+  "truth_labels_in_features": false,
+  "evaluation": {
+    "references_present": {
+      "C_above_threshold": 33,
+      "C_hit_identity_in_original_control": 33,
+      "C_truth_new_to_control": 0,
+      "C_wrong_identity_new_to_control": 0,
+      "guard_blocked": 22,
+      "changed_events": [
+        {
+          "molecule_id": "cross_YFJYOZDIJVHPAU",
+          "AB_rr": 0.3333333333333333,
+          "ABC_rr": 1.0,
+          "C_correct_identity": true,
+          "C_identity_already_in_control": true,
+          "C_wrong_same_formula": false,
+          "C_hit": {
+            "source": "C",
+            "row": 275438,
+            "spectrum_id": "train_row_001361953",
+            "smiles": "Cc1cc(C)cc(OP(=O)(Oc2ccc(C)cc2C)Oc2cccc(C)c2C)c1",
+            "identity": "YFJYOZDIJVHPAU",
+            "cosine": 0.993912039706487,
+            "matched_peaks": 49,
+            "query_adduct": "[M+H]+",
+            "reference_adduct": "[M+H]+"
+          }
+        }
+      ]
+    },
+    "all_truth_references_absent": {
+      "C_above_threshold": 10,
+      "C_hit_identity_in_original_control": 9,
+      "C_truth_new_to_control": 0,
+      "C_wrong_identity_new_to_control": 1,
+      "guard_blocked": 5,
+      "changed_events": [
+        {
+          "molecule_id": "cross_OTGQIQQTPXJQRG",
+          "AB_rr": 1.0,
+          "ABC_rr": 0.5,
+          "C_correct_identity": false,
+          "C_identity_already_in_control": true,
+          "C_wrong_same_formula": true,
+          "C_hit": {
+            "source": "C",
+            "row": 303908,
+            "spectrum_id": "train_row_001532158",
+            "smiles": "CCCCCCCCCCCCCCCCNCCCC(=O)O",
+            "identity": "LSXDXVBHNTVERK",
+            "cosine": 0.8302604601762001,
+            "matched_peaks": 4,
+            "query_adduct": "[M+H]+",
+            "reference_adduct": "[M+H]+"
+          }
+        },
+        {
+          "molecule_id": "np_DUXQKCCELUKXOE",
+          "AB_rr": 1.0,
+          "ABC_rr": 0.5,
+          "C_correct_identity": false,
+          "C_identity_already_in_control": true,
+          "C_wrong_same_formula": true,
+          "C_hit": {
+            "source": "C",
+            "row": 106344,
+            "spectrum_id": "train_row_002538621",
+            "smiles": "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O[C@@H]4O[C@@H](C)[C@H](O)[C@@H](O)[C@H]4O)cc3o2)cc1",
+            "identity": "QSFNHAFPXWQTGZ",
+            "cosine": 0.8398968655070326,
+            "matched_peaks": 20,
+            "query_adduct": "[M+H]+",
+            "reference_adduct": "[M+H]+"
+          }
+        },
+        {
+          "molecule_id": "np_FFGPTBGBLSHEPO",
+          "AB_rr": 1.0,
+          "ABC_rr": 0.5,
+          "C_correct_identity": false,
+          "C_identity_already_in_control": false,
+          "C_wrong_same_formula": false,
+          "C_hit": {
+            "source": "C",
+            "row": 439949,
+            "spectrum_id": "train_row_002538660",
+            "smiles": "NC(=O)N1c2ccccc2CC(O)c2ccccc21",
+            "identity": "BMPDWHIDQYTSHX",
+            "cosine": 0.84736251644785,
+            "matched_peaks": 17,
+            "query_adduct": "[M+H]+",
+            "reference_adduct": "[M-H2O+H]+"
+          }
+        },
+        {
+          "molecule_id": "np_HELXLJCILKEWJH",
+          "AB_rr": 1.0,
+          "ABC_rr": 0.5,
+          "C_correct_identity": false,
+          "C_identity_already_in_control": true,
+          "C_wrong_same_formula": true,
+          "C_hit": {
+            "source": "C",
+            "row": 41055,
+            "spectrum_id": "train_row_002538755",
+            "smiles": "C=C1CC23CCC4C(C)(C(=O)OC5OC(CO)C(O)C(O)C5OC5OC(CO)C(O)C(O)C5O)CCCC4(C)C2CCC1(OC1OC(CO)C(O)C(O)C1OC1OC(CO)C(O)C(O)C1O)C3",
+            "identity": "RLLCWNUIHGPAJY",
+            "cosine": 0.8675469517023477,
+            "matched_peaks": 7,
+            "query_adduct": "[M+H]+",
+            "reference_adduct": "[M+H]+"
+          }
+        }
+      ]
+    }
+  },
+  "pipeline_context_boundary": "The previous frozen pipeline library_max was retained in both arms. Truth removal affects all eligible AB/C reference hits, not prior model/engine caches; not a full-stack class2 ablation.",
+  "exact_champion_or_clean_CV": false,
+  "new_public_score": null
+}

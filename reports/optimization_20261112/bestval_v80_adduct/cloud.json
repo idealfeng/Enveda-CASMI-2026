@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-bestval-v80-adduct-1112",
+  "version": 1,
+  "branch_sha256": "a92c9f69399154165497b09f5eafe4e6440bbbfb9eb5aeb36d229d950d263f7d",
+  "notebook_sha256": "1280a429ae410fd282deec6f2f93dd4d035a6a7655443ac95bc21731f99346c1",
+  "metadata_sha256": "da426b735e9c9cd27096691c56866d547f9a61df702a9dbadd24622181fc74a2",
+  "requested_at_utc": "2026-11-12T11:19:22.436845+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-12T11:19:26.604459+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

@@ -1,0 +1,88 @@
+{
+  "checked_at_utc": "2026-11-12T14:29:51.904158+00:00",
+  "read_only": true,
+  "new_submission_performed": false,
+  "branches": [
+    {
+      "branch": "adduct_extlib",
+      "target": "stormseye/casmi26-adduct-extlib-1112",
+      "version": 1,
+      "branch_sha256": "84262dd9cd081da818f74c123321be64f9c49f2bbeab2ffbdcfcb5d9bd58eb7b",
+      "submission_ref": 58263553,
+      "actual_target": "stormseye/casmi26-adduct-extlib-1112",
+      "status": "COMPLETE",
+      "public_score": "0.488",
+      "public_score_available": true,
+      "error_description_present": false,
+      "checked_at_utc": "2026-11-12T14:29:41.311831+00:00",
+      "read_only": true,
+      "new_submission_performed": false
+    },
+    {
+      "branch": "bestval_v80_tri",
+      "target": "stormseye/casmi26-bestval-v80-tri-1112",
+      "version": 1,
+      "branch_sha256": "a40fc2e8baa1b47c498bb036db24bd26be5fe6843aa03c03b80e8d1e035faa50",
+      "submission_ref": 58270931,
+      "actual_target": "stormseye/casmi26-bestval-v80-tri-1112",
+      "status": "PENDING",
+      "public_score": null,
+      "public_score_available": false,
+      "error_description_present": false,
+      "checked_at_utc": "2026-11-12T14:29:42.309562+00:00",
+      "read_only": true,
+      "new_submission_performed": false
+    },
+    {
+      "branch": "bestval_saner_tri",
+      "target": "stormseye/casmi26-bestval-saner-tri-1112",
+      "version": 1,
+      "branch_sha256": "4bd5e8fce2150b052fd1aeeb92e22a5184fe4ab6a142c7f9f4ab1edc2bb84931",
+      "submission_ref": 58263831,
+      "actual_target": "stormseye/casmi26-bestval-saner-tri-1112",
+      "status": "COMPLETE",
+      "public_score": "0.478",
+      "public_score_available": true,
+      "error_description_present": false,
+      "checked_at_utc": "2026-11-12T14:29:44.211284+00:00",
+      "read_only": true,
+      "new_submission_performed": false
+    },
+    {
+      "branch": "generation_expand_r3",
+      "target": "stormseye/casmi26-generation-expand-r3-1112",
+      "version": 1,
+      "branch_sha256": "050d14b8de01b6f98b55265ca4d311f5d8dcf6ae78037fa2522b4d512284deb5",
+      "submission_ref": 58271324,
+      "actual_target": "stormseye/casmi26-generation-expand-r3-1112",
+      "status": "COMPLETE",
+      "public_score": null,
+      "public_score_available": false,
+      "error_description_present": true,
+      "checked_at_utc": "2026-11-12T14:29:45.465896+00:00",
+      "read_only": true,
+      "new_submission_performed": false,
+      "error_description": "Your notebook hit an unhandled error while rerunning your code. Note that the hidden dataset can be larger/smaller/different than the public dataset"
+    },
+    {
+      "branch": "bestval_v80_adduct",
+      "target": "stormseye/casmi26-bestval-v80-adduct-1112",
+      "version": 1,
+      "branch_sha256": "a92c9f69399154165497b09f5eafe4e6440bbbfb9eb5aeb36d229d950d263f7d",
+      "submission_ref": 58271026,
+      "actual_target": "stormseye/casmi26-bestval-v80-adduct-1112",
+      "status": "PENDING",
+      "public_score": null,
+      "public_score_available": false,
+      "error_description_present": false,
+      "checked_at_utc": "2026-11-12T14:29:49.859317+00:00",
+      "read_only": true,
+      "new_submission_performed": false
+    }
+  ],
+  "limits": {
+    "num_today": 5,
+    "num_total": 31,
+    "num_allowed_now": 0
+  }
+}

@@ -1,0 +1,5 @@
+{"stage": "metadata_complete", "summary": {"C_keys": 62782, "AB_keys": 167441, "C_keys_missing_AB": 49408, "C_keys_missing_train": 1397, "C_keys_missing_both": 115, "C_rows_missing_AB": 293584, "C_rows_missing_train": 6391}, "seconds": 33.336}
+{"stage": "AB_spectra_complete", "strict": 291, "quantized": 12710, "seconds": 67.28}
+{"stage": "train_spectra", "rows": 65536, "strict": 0, "quantized": 6, "seconds": 80.7}
+{"stage": "train_spectra", "rows": 131072, "strict": 0, "quantized": 6, "seconds": 93.54}
+{"stage": "train_spectra", "rows": 196608, "strict": 0, "quantized": 6, "seconds": 107.5}

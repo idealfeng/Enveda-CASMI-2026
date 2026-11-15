@@ -1,0 +1,96 @@
+{
+  "status": "passed_actual_evidence_changed_components",
+  "checks": {
+    "dual_evidence_agreement_actual_score_file_tamper_blocked": true,
+    "dual_evidence_agreement_actual_cell_and_source_bound": true,
+    "dual_evidence_agreement_same_candidate_and_formula_slots": true
+  },
+  "production_subset_queries": 2,
+  "rdkit_version": "2026.03.3",
+  "reports": {
+    "dual_evidence_agreement": {
+      "fast_static": {
+        "audit": {
+          "status": "passed",
+          "branch": "dual_evidence_agreement",
+          "recipe_sha256": "e523db977cfe19c487a55c0b1faf414f54f234ed97e4b5fec29f46a4d50adb92",
+          "mode": "fast_static",
+          "checks": {
+            "base_ab_passed": true,
+            "control_bound": true,
+            "final_bound": true,
+            "module_pin": true,
+            "configuration_exact": true,
+            "recipe_branch_bound": true,
+            "sample_ids_exact": true,
+            "csv_schema": true,
+            "candidate_multisets": true,
+            "official_identities": true,
+            "fast_no_evidence": true
+          },
+          "csv_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416",
+          "runtime_sha256": "f4636c27f5a4c05ad7aecf16ec157576213b3bdccc0d3e10297c94b3789257df",
+          "changed_queries": 0,
+          "changed_top1": 0,
+          "protected_queries": 0,
+          "eligible_queries": 0,
+          "no_new_model_or_gain_claim": true
+        },
+        "observed_queries": 0,
+        "protected_queries": 0,
+        "eligible_queries": 0,
+        "actual_evidence_executed": false
+      },
+      "hidden_full_components": {
+        "audit": {
+          "status": "passed",
+          "branch": "dual_evidence_agreement",
+          "recipe_sha256": "e523db977cfe19c487a55c0b1faf414f54f234ed97e4b5fec29f46a4d50adb92",
+          "mode": "hidden_full",
+          "checks": {
+            "base_ab_passed": true,
+            "control_bound": true,
+            "final_bound": true,
+            "module_pin": true,
+            "configuration_exact": true,
+            "recipe_branch_bound": true,
+            "sample_ids_exact": true,
+            "csv_schema": true,
+            "candidate_multisets": true,
+            "official_identities": true,
+            "actual_evidence_executed": true,
+            "actual_score_consumption": true,
+            "actual_protected_set": true,
+            "reference_rows_exact": true
+          },
+          "csv_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416",
+          "runtime_sha256": "db6ad1304750f41a933b987669ec0b6584208a8ec84c4babdb8b17e5e1cfea9f",
+          "changed_queries": 0,
+          "changed_top1": 0,
+          "protected_queries": 2,
+          "eligible_queries": 0,
+          "no_new_model_or_gain_claim": true
+        },
+        "observed_queries": 2,
+        "protected_queries": 2,
+        "eligible_queries": 0,
+        "actual_evidence_executed": true
+      }
+    }
+  },
+  "larger_component_delta": {
+    "dual_evidence_agreement": {
+      "queries": 48,
+      "changed_queries": 12,
+      "changed_top1": 12,
+      "eligible_queries": 42,
+      "scope": "Existing stage lists, actual aggregate scores, no AB/protection integration and no new metrics."
+    }
+  },
+  "module_sha256": "ef89002272e3264857de05e91668b89ce9d60eeb36c530a575670c5081a180ea",
+  "full_pipeline_executed": false,
+  "model_or_library_process_launched": false,
+  "truth_labels_read": false,
+  "truth_metrics_computed": false,
+  "limitation": "Actual appended cells on 2-query generated-variant final CSV, then pure ranking on existing old stage lists; not exact champion full inference or clean CV."
+}

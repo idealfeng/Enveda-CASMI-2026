@@ -1,0 +1,58 @@
+{
+  "status": "released_for_four_user_authorized_exploratory_submissions",
+  "checked_at_utc": "2026-11-13T13:37:24.510692+00:00",
+  "manifest_sha256": "a1bb2d829c8f945db4718fca1d9d5a893c68419f21b538d4a965b39d79f5ade8",
+  "branches": [
+    "generation_noiso_control",
+    "generation_budget_only",
+    "spectral_network_explore",
+    "head_mean_ab"
+  ],
+  "evidence": [
+    {
+      "path": "reports/optimization_20261113/exploration_static_independent_review.json",
+      "status": "passed_static_not_full_execution",
+      "sha256": "e4a5b149d07d2c5d5ceb419a820731f3ac06d4df010460e128c1b4ca84d598fc"
+    },
+    {
+      "path": "reports/optimization_20261113/generation_controls_checks.json",
+      "status": "passed",
+      "sha256": "093b5cabe214841ba83c1bac1a31dd332abf017a166bf58d5c7a5571c649173f"
+    },
+    {
+      "path": "reports/optimization_20261113/evidence_generation_controls_review.json",
+      "status": "both_arms_passed_source_only",
+      "sha256": "8fbccb4421d722d65d31dfe0662dcebe7584356a3c5ec20cc55f2d0bb6e32bcc"
+    },
+    {
+      "path": "reports/optimization_20261113/evidence_network_explore_smoke/verification.json",
+      "status": "passed_actual_appended_cell_component_only",
+      "sha256": "17b4efd69f602897b52afeb67de006261c81deaf7e2557b97c54d670ce832851"
+    },
+    {
+      "path": "reports/optimization_20261113/evidence_network_delta/verification.json",
+      "status": "passed_fixed_policy_real_graph_component",
+      "sha256": "dd62a75f4c50f009cee2c9f84cb14bf176c53bc6f9b8ff7c26baa06224a6c8c7"
+    },
+    {
+      "path": "reports/optimization_20261113/head_mean_ab_release.json",
+      "status": "released_for_exploratory_cloud_run",
+      "sha256": "853d3e550473dae0ac1794093045dbc2e9899545556799eea45c8ed8af453888"
+    },
+    {
+      "path": "runs/head_mean_ab_20261113_r3/verification.json",
+      "status": "passed_actual_changed_components_with_production_context",
+      "sha256": "b227662673febf523f4a36d39a4dd106de6a2b096b78e57d85a8bbe90364913f"
+    },
+    {
+      "path": "reports/optimization_20261113/all_today_watcher_review.json",
+      "status": "passed",
+      "sha256": "f9533703eb664b50b1efe11cb71cd4bbb30f31ccb875c5451801bc7b5a500028"
+    }
+  ],
+  "prior_formal_ref": 58309573,
+  "maximum_additional_formal_requests": 4,
+  "maximum_total_today": 5,
+  "user_authorization": "??????????????????",
+  "boundary": "Only changed components tested for these new arms; no new four-branch complete production inference or efficacy claim; cloud visible mode fast_static; hidden evaluation pending"
+}

@@ -1,0 +1,42 @@
+{
+  "C_rows": 490840,
+  "C_distinct_strict_signatures": 488311,
+  "C_distinct_quantized_signatures": 488164,
+  "C_rows_strict_in_AB": 291,
+  "C_rows_quantized_in_AB": 12710,
+  "C_rows_strict_in_train": 72942,
+  "C_rows_quantized_in_train": 178516,
+  "C_rows_strict_in_neither": 417677,
+  "C_rows_quantized_in_neither": 307122,
+  "official_train_spectra_scanned": 2539608,
+  "signature_definition": {
+    "strict": "Positive finite peaks sorted by mz; max-normalized intensity and mz cast float32; mode and float32 precursor; B uses its ACTUAL deployed synthesized H precursor.",
+    "quantized": "Top128 by normalized intensity, sorted mz; mz rounded1e-4Da/intensity1e-5; mode and precursor rounded1e-3Da. Equality is a possible transformed duplicate, not proof; inequality is not proof of independent acquisition."
+  },
+  "by_source": [
+    {
+      "source": "GNPS2",
+      "rows": 432221,
+      "strict_AB": 188,
+      "quantized_AB": 11726,
+      "strict_train": 47673,
+      "quantized_train": 142167
+    },
+    {
+      "source": "MSnLib",
+      "rows": 14139,
+      "strict_AB": 0,
+      "quantized_AB": 0,
+      "strict_train": 10,
+      "quantized_train": 8730
+    },
+    {
+      "source": "MassBank",
+      "rows": 44480,
+      "strict_AB": 103,
+      "quantized_AB": 984,
+      "strict_train": 25259,
+      "quantized_train": 27619
+    }
+  ]
+}

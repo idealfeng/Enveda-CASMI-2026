@@ -1,0 +1,47 @@
+How do you check your ideas locally before submitting?
+
+https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/758541
+
+Author: Md Mobashir Rahman
+
+Posted: 2026-11-12T14:46:01.343Z
+
+Hi everyone,
+
+Me being a noob in a code competition like this, and I'm a bit lost on validation, so I hope it's okay to ask.
+
+Since the real test set is hidden and the visible test file is only a small example, I've been trying to build some kind of local check. That way I could tell whether a change is actually better before I use a submission on it. I took some molecules from the training data, ran my notebook on them and computed MRR@25 the same way the metric does.
+
+My problem is that my local numbers don't really agree with the leaderboard. Sometimes a change looks better locally and then the public score goes down, and sometimes the other way round. I know the public part is only around 130 molecules, so maybe some of it is just luck. But I'm not sure if I'm doing something wrong.
+
+So I wanted to ask how you are doing this:
+
+
+Do you have a local validation set you trust? How did you choose the molecules? Did you try to make them look like the hidden test, for example the same mix of adducts, instruments or mass ranges?
+
+Do you remove molecules that are in your candidate library or reference spectra, so it isn't too easy?
+
+How big a difference do you need to see locally before you believe it?
+
+Or do you mostly just trust the leaderboard and submit?
+
+
+Any tips would really help me, even small ones. And if this has already been discussed somewhere, sorry, please point me to the thread 🙂
+
+
+Comment: Sophie
+
+A few data points from my own attempts, in case they help (fully reproducible pipeline, public LB 0.367).
+
+The visible test.parquet overlaps train. Every one of its 400 molecules had a library match with cosine >= 0.85 against train.parquet, so local runs on it only tell you that the code works.
+
+Add a "truth absent" control. Library matching looked great offline: +0.09 to +0.11 MRR on 234 NP-panel molecules that have references in other libraries. When I removed the true structure from the library (a class-2 proxy), the same bonus cost 0.07 to 0.30 MRR, because 35% of the NP queries have a wrong isomer with cosine >= 0.7. On the LB it netted to zero (0.360 -> 0.361). If you validate a library or lookup feature, test both cases.
+
+Three single-change LB results, one submission each on the 0.367 base: simulator weight 1 -> 2 gave 0.360; adding the library bonus gave 0.361; pool-first ordering (NP catalogue + train structures first, PubChem candidates at fixed slots) gave 0.345.
+
+With about 130 public molecules I treat anything within +/-0.02 as noise.
+
+
+Comment: Pi
+
+This discussion may be related: https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/748524

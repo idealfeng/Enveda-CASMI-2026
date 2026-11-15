@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-mean-prefix1-ab-1114",
+  "version": 1,
+  "notebook_sha256": "909972b476b706624d66cfa11f2bf1f32a45967d1f44fdd2231a136232d7fd5f",
+  "checks": {
+    "champion_pin": true,
+    "only_original_cells30_31_changed": true,
+    "original_AB_exact": true,
+    "original_models_and_payloads_retained": true,
+    "prefix_configuration_dynamic": true,
+    "actual_scored_order_reconstruction": true,
+    "head_or_mean_source_pins": true,
+    "original_dataset_versions": true,
+    "same_formula_slots_and_rank1_guard": true,
+    "compiles": true,
+    "private_offline_gpu": true
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "generation_noiso_control": {
+    "status": "passed_source_only",
+    "checks": {
+      "parent_pin": true,
+      "stage_pin": true,
+      "only_original_cell12_changed": true,
+      "all_original_head_AB_preserved": true,
+      "setup_only_append": true,
+      "one_new_audit": true,
+      "source_payload_exact": true,
+      "exact_declared_and_actual_configuration": true,
+      "real_post_frozen27_engine_pin": true,
+      "reused_same_runner": true,
+      "dynamic_parent_bound": true,
+      "dynamic_product_bound": true,
+      "dynamic_isomer_policy": true,
+      "final_audit_branch": true,
+      "final_audit_recipe": true,
+      "new_arm_not_mislabeled_full_run": true
+    },
+    "notebook_sha256": "794a4aeff3d71347db36b7da76beb23fae1a6eb754cb726432c5f8a29b351aaf",
+    "recipe_sha256": "ed9c2d5f4158c1d004b9fbd4d5d7eb3c9b5d93782964ac4da8dda6c9ad997278",
+    "module_sha256": "283c7f49a4a77d821f2f44d347c934c001a18ee65fd637706e4cbe7760bdb062",
+    "configuration": {
+      "gen_n_analog": 6,
+      "gen_max_total": 150,
+      "gen_max_per_parent": 60,
+      "max_steps": 2,
+      "allow_isomerisation": false
+    },
+    "limitation": "No new complete inference, library load or model execution. Source-template review is not new efficacy or full-pipeline proof."
+  },
+  "generation_budget_only": {
+    "status": "passed_source_only",
+    "checks": {
+      "parent_pin": true,
+      "stage_pin": true,
+      "only_original_cell12_changed": true,
+      "all_original_head_AB_preserved": true,
+      "setup_only_append": true,
+      "one_new_audit": true,
+      "source_payload_exact": true,
+      "exact_declared_and_actual_configuration": true,
+      "real_post_frozen27_engine_pin": true,
+      "reused_same_runner": true,
+      "dynamic_parent_bound": true,
+      "dynamic_product_bound": true,
+      "dynamic_isomer_policy": true,
+      "final_audit_branch": true,
+      "final_audit_recipe": true,
+      "new_arm_not_mislabeled_full_run": true
+    },
+    "notebook_sha256": "7f87816791ce5fb87b68d747286acebd6e803d7ab1752edcfb5f5ee951595272",
+    "recipe_sha256": "db45580e4d0b3e1dea6456afce1ff48722b8c78293d838c3f71cec02336ebb33",
+    "module_sha256": "b7e3366aeb19b03da7caa1eadfdbf7c3afc25025b8e013d154a0e5ccc5773b3f",
+    "configuration": {
+      "gen_n_analog": 6,
+      "gen_max_total": 300,
+      "gen_max_per_parent": 60,
+      "max_steps": 2,
+      "allow_isomerisation": true
+    },
+    "limitation": "No new complete inference, library load or model execution. Source-template review is not new efficacy or full-pipeline proof."
+  }
+}

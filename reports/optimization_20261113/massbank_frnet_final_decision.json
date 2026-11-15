@@ -1,0 +1,14 @@
+{
+  "status": "research_asset_only_terms_and_training_source_unresolved",
+  "license_name": "Other (specified in description)",
+  "description_empty": true,
+  "public_training_source_found": false,
+  "nist_absence_verified": false,
+  "actual_weight_sha256": "21f70d461564a1db09ce7e181a138538b8efcef2f05c67050f042c607560ff7e",
+  "actual_weight_bytes": 3100917,
+  "no_torch_import_or_model_execution": true,
+  "only_inert_pickle_metadata_inspection": true,
+  "cpu_scoring_run": false,
+  "score_deferred_reason": "Training source and actual license unresolved; concurrent real production WSL test has only0.5GB free",
+  "formal_submission_recommended": false
+}

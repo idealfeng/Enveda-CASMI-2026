@@ -1,0 +1,10 @@
+{
+  "status": "prepared_exploratory_reused_production_template",
+  "branch": "generation_budget_only",
+  "notebook_sha256": "7f87816791ce5fb87b68d747286acebd6e803d7ab1752edcfb5f5ee951595272",
+  "metadata_sha256": "8a333e50e54a25bffc530d7fdb16cff07f36c117e9964f20d2ed458afd2c46f8",
+  "recipe_sha256": "db45580e4d0b3e1dea6456afce1ff48722b8c78293d838c3f71cec02336ebb33",
+  "module_sha256": "b7e3366aeb19b03da7caa1eadfdbf7c3afc25025b8e013d154a0e5ccc5773b3f",
+  "runner_sha256": "153c85fb59025f3c2fa75cf9a64ffe7aa6cdb26b25113fee9fa46643c22f1182",
+  "notebook_bytes": 882601
+}

@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-generation-production-1113",
+  "version": 1,
+  "branch_sha256": "0765ec6b7824d38ddb8ea241ab8408071b17da5876fcff93cb59564c1bd4f271",
+  "submission_ref": 58309573,
+  "actual_target": "stormseye/casmi26-generation-production-1113",
+  "status": "COMPLETE",
+  "public_score": "0.473",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-14T06:34:51.888630+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

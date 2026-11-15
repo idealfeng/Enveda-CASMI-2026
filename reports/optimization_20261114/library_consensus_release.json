@@ -1,0 +1,12 @@
+{
+  "status": "released_for_exploratory_cloud_run",
+  "branch": "library_consensus_early",
+  "notebook_sha256": "1a6b341fe9b62f23d0a0db1a3513f624f29faa260f31f4b145e282f621ab689b",
+  "recipe_sha256": "3bc44dc8ce443dad75c5b73b601f6bdb9b9ac114558acef02c90aa767832bee0",
+  "stage_dir": "submission/optimization_20261114/library_consensus_early/revision3",
+  "evidence": "runs/library_consensus_early_20261114_r3_replay/verification.json",
+  "evidence_sha256": "3a950ee5be58ee0553d8371d897937ac1b40bc73df3833d226abc1c98810d737",
+  "cloud_write_performed": false,
+  "gain_claim": false,
+  "boundary": "Real pair evidence from r2 two-query production intermediates is reused without changing scores. r3 prefix0 is fixed-policy replay plus actual fast appended-cell execution, not a fresh hidden/full model run, not exact champion candidates, and no efficacy claim."
+}

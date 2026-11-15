@@ -1,0 +1,44 @@
+{
+  "branch": "bestval_v80_tri",
+  "method": "Independent best-validation checkpoint final-candidate neural mixture",
+  "baseline_ref": 58156482,
+  "baseline_public_score": 0.488,
+  "champion_notebook_sha256": "2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7",
+  "configuration": {
+    "kind": "popwenman_best",
+    "checkpoint": {
+      "marker": "casmi26-scorer-train-v80",
+      "subdirectory": "casmi_spectrum_model_ours_v80",
+      "filename": "best_validation_model.pt",
+      "bytes": 11873492,
+      "sha256": "f7e2383fe5fc0cc85e7333d308bc7201144574f2eef6b59000570d171e0758a7",
+      "weights": [
+        0.5,
+        0.25,
+        0.25
+      ]
+    },
+    "public_pins": {
+      "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+      "features.py": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+      "config.json": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+      "final_model.pt": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642"
+    },
+    "v2_sha256": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46",
+    "outsider_scorer": "original_v2",
+    "late_head": "original_frozen_v2_two_heads"
+  },
+  "module_sha256": "80a5c83b275cb7365a2b4dad4f9376e9ca874106a299a755686c4f913fef0f5b",
+  "changed_original_cells": [
+    14,
+    29
+  ],
+  "all_other_original_31_cells_exact": true,
+  "outsider_original_v2": true,
+  "late_head_original_v2": true,
+  "external_original_ab": true,
+  "new_training": false,
+  "checkpoint_provenance": "Pinned public popwenman kernel v1 best-validation epoch52",
+  "no_claim_of_original_ozertuu_complete_reproduction": true,
+  "validation_mode": "fast_static"
+}

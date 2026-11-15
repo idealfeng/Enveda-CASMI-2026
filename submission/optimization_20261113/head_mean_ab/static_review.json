@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-head-mean-ab-1113",
+  "version": 1,
+  "notebook_sha256": "d61a87c4edc67ddd078845e6aeff2d09209e2ab6c75192d20cb3cdcd1318d270",
+  "checks": {
+    "exact_champion_source": true,
+    "only_original_cells30_31_replaced": true,
+    "mean_cells_exact": true,
+    "original_AB_exact": true,
+    "original_datasets_versions": true,
+    "original_generation_and_mass_exact": true,
+    "mean_configuration_pinned": true,
+    "source_compiles": true,
+    "private_offline_gpu": true
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_beijing": "2026-11-10 20:11",
+  "updated_at_beijing": "2026-11-11 17:40",
   "metric": "Kaggle displayed public MRR@25",
   "current_best": 0.488,
   "records": [
@@ -280,8 +280,8 @@
     {
       "date_beijing": "2026-11-10",
       "route": "class3_generation_derive",
-      "status": "parked_as_independent_research",
-      "decision": "do not occupy today's 5 submission slots",
+      "status": "historical_diagnostic_decision_not_user_constraint",
+      "decision": "Prior handoff decision; user clarified produre experiments are completed diagnostics, not fixed submission directions",
       "evidence": {
         "generation_coverage_class3": 0.396,
         "recovered_top25_rate_160feat_ranker": 1.0,
@@ -294,7 +294,28 @@
           "produre2/artifacts/q4_light_fz.json",
           "produre2/artifacts/q5_real_paths.json"
         ]
-      }
+      },
+      "original_status": "parked_as_independent_research",
+      "original_decision": "do not occupy today's 5 submission slots",
+      "binding_user_constraint": false,
+      "clarification_evidence": "reports/ROUND_RESULT_2026-11-11.md"
+    },
+    {
+      "date_beijing": "2026-11-11",
+      "route": "produre1_produre2_completed_diagnostics",
+      "status": "completed_reference_only",
+      "decision": "Do not rerun; reuse infrastructure, excluded hypotheses and limited positive findings to narrow future ranking exploration",
+      "evidence": "reports/ROUND_RESULT_2026-11-11.md",
+      "next_plan": "reports/SUBMISSION_PLAN_2026-11-12.md"
+    }
+  ],
+  "batch_evaluations": [
+    {
+      "batch_id": "optimization_20261110",
+      "date_beijing": "2026-11-11",
+      "status": "complete_no_new_best",
+      "best_public": 0.488,
+      "evidence": "reports/optimization_20261110/result_analysis_20261111.json"
     }
   ]
 }

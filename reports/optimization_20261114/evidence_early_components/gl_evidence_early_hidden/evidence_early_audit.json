@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "branch": "gl_evidence_early",
+  "recipe_sha256": "ddcae1e322d8a0a6f1ebf416477b32aa98a3dd6a477ad3de9e53f65f63f01da9",
+  "mode": "hidden_full",
+  "checks": {
+    "base_ab_passed": true,
+    "control_bound": true,
+    "final_bound": true,
+    "module_pin": true,
+    "configuration_exact": true,
+    "recipe_branch_bound": true,
+    "sample_ids_exact": true,
+    "csv_schema": true,
+    "candidate_multisets": true,
+    "official_identities": true,
+    "actual_evidence_executed": true,
+    "actual_score_consumption": true,
+    "actual_protected_set": true,
+    "reference_rows_exact": true,
+    "original_top1_fixed": true
+  },
+  "csv_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416",
+  "runtime_sha256": "51b3bc7c7cd0a83cba0494074e3fc5ee014721c562c84206d7170e9bdb7b14cb",
+  "changed_queries": 0,
+  "changed_top1": 0,
+  "protected_queries": 2,
+  "eligible_queries": 0,
+  "no_new_model_or_gain_claim": true
+}

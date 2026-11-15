@@ -1,0 +1,18 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-spectral-network-1113",
+  "version": 1,
+  "branch_sha256": "afc4276b9dd06b88d338bb6488a899683f02f6bca9f09e9216323444ef42be7a",
+  "notebook_sha256": "389b5341a38cf3825f09450e2a99e604655e3fb25beb474131364c6dd0b1ad00",
+  "metadata_sha256": "0161124fc67b6e334796d8d94591ad3e2b09f16055368236c885a3e950dc2e2c",
+  "requested_at_utc": "2026-11-13T13:41:22.781907+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-13T13:41:28.719824+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false,
+  "actual_target": "stormseye/casmi26-spectral-network-explore-1113",
+  "reconciled_by_read_at": "2026-11-13T13:45:33.911831+00:00",
+  "reconciliation_server_source_sha256": "d6c324351515981373128a1251f7ebb31eeb51d8771b30f60ec54f631c0f1e3e"
+}

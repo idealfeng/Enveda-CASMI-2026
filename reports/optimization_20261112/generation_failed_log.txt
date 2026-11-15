@@ -1,0 +1,79 @@
+[{"stream_name":"stderr","time":7.196245639,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.196302593,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.196308692,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.196312704,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.807549857,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.807579159,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.807587155,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.807590144,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":10.727948587,"data":"974 public notebooks, 678 with a score, 279 of those below 0.4 not drawn\n"}
+,{"stream_name":"stdout","time":11.158645565,"data":"8 modules and the pinned pipeline source ready (0.37 MB)\n"}
+,{"stream_name":"stdout","time":11.278970432,"data":"Fragment source: eeacdcf0afb1\n"}
+,{"stream_name":"stdout","time":15.934523579,"data":"в–¶ Official RDKit wheel\n"}
+,{"stream_name":"stdout","time":18.488300586,"data":"Official-metric RDKit: 2026.03.3\n"}
+,{"stream_name":"stdout","time":18.505095175,"data":"  done in 3 s\n"}
+,{"stream_name":"stdout","time":18.690444148,"data":"OURS BUNDLE READY: ['config.json', 'config_used.json', 'features.py', 'final_model.pt', 'model.py'] from /kaggle/input/datasets/bgunshui/casmi26-scorer-v2-model\n"}
+,{"stream_name":"stdout","time":18.723055022,"data":"Fast commit: unique dummy SMILES written cleanly; scoring rerun runs full pipeline.\n"}
+,{"stream_name":"stdout","time":18.772956284,"data":"SUBMISSION READY: /kaggle/working/submission.csv rows 400 control sample (fast commit)\n"}
+,{"stream_name":"stdout","time":18.772980671,"data":"EXPERIMENT: {\"status\": \"skipped_fast_commit\"}\n"}
+,{"stream_name":"stdout","time":18.807960293,"data":"Public provenance-aware reranker: /kaggle/working/parallax_public_provenance.py\n"}
+,{"stream_name":"stdout","time":20.318085553,"data":"SUBMISSION READY: /kaggle/working/submission.csv molecules 400 provenance {'status': 'disabled in this experiment'}\n"}
+,{"stream_name":"stdout","time":20.379165576,"data":"V8 MASS | mass prior {\"status\": \"off: no pipeline answer in this run\"}\n"}
+,{"stream_name":"stdout","time":20.45782897,"data":"SUBMISSION READY: /kaggle/working/submission.csv molecules 400 MERGE {\"status\": \"skipped_fast_commit\"}\n"}
+,{"stream_name":"stdout","time":20.571657442,"data":"SUBMISSION READY: /kaggle/working/submission.csv molecules 400 | V8 MASS | mass lead {\"status\": \"off: no mass table\"} | RR {\"status\": \"off in this preset\"}\n"}
+,{"stream_name":"stdout","time":20.637589822,"data":"Fast commit: skipping layer audit plot.\n"}
+,{"stream_name":"stderr","time":37.818184763,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":37.818768452,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":37.818777408,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=32400)\n"}
+,{"stream_name":"stderr","time":37.818783401,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":37.818799524,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":37.818802509,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":37.818805071,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":37.818818644,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":37.818822939,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":37.818880621,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":37.818886924,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":37.818889372,"data":"Exception encountered at \"In [20]\":\n"}
+,{"stream_name":"stderr","time":37.818891766,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":37.81889408,"data":"FileNotFoundError                         Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":37.818896372,"data":"/tmp/ipykernel_23/2229763206.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":37.818898944,"data":"      5     _gen_spec=_gi.spec_from_file_location('_generation_final_observer',CODE/'generation_runtime_patch_20261112.py')\n"}
+,{"stream_name":"stderr","time":37.818901438,"data":"      6     _gen_module=_gi.module_from_spec(_gen_spec);_gen_spec.loader.exec_module(_gen_module)\n"}
+,{"stream_name":"stderr","time":37.818904296,"data":"----\u003e 7     GENERATION_VARIANT_AUDIT=_gen_module.audit(ROOT,EXTERNAL_OVERLAY_AUDIT,IS_RERUN,SAMPLE_IDS,'generation_expand','23725c232491802eda0721d800d8a26e87c915b1b0837dbd07ffa0fd73087459','32145802187bda9fe178048df49ec9ecfce6a0c7bab46c15550b5a479774eef9','153c85fb59025f3c2fa75cf9a64ffe7aa6cdb26b25113fee9fa46643c22f1182')\n"}
+,{"stream_name":"stderr","time":37.818907581,"data":"      8 except BaseException:\n"}
+,{"stream_name":"stderr","time":37.818934819,"data":"      9     (ROOT/'submission.csv').unlink(missing_ok=True)\n"}
+,{"stream_name":"stderr","time":37.818943907,"data":"\n"}
+,{"stream_name":"stderr","time":37.81894783,"data":"/kaggle/working/p2s_code/generation_runtime_patch_20261112.py in audit(root, base_audit, is_rerun, sample_ids, branch, recipe_sha256, module_pin, runner_pin)\n"}
+,{"stream_name":"stderr","time":37.818951497,"data":"    192     checks = dict(original_ab_audit=base_audit.get('status') == 'passed',\n"}
+,{"stream_name":"stderr","time":37.818955545,"data":"    193                   original_ab_output_bound=base_audit.get('csv_sha256') == csv_pin,\n"}
+,{"stream_name":"stderr","time":37.818976283,"data":"--\u003e 194                   installed_module_pin=sha(root/'code/generation_runtime_patch_20261112.py') == module_pin)\n"}
+,{"stream_name":"stderr","time":37.818980128,"data":"    195     report = dict(status='passed', branch=branch, recipe_sha256=recipe_sha256,\n"}
+,{"stream_name":"stderr","time":37.818983878,"data":"    196                   mode='hidden_full' if is_rerun else 'fast_static', checks=checks,\n"}
+,{"stream_name":"stderr","time":37.818987691,"data":"\n"}
+,{"stream_name":"stderr","time":37.818995355,"data":"/kaggle/working/p2s_code/generation_runtime_patch_20261112.py in sha(path)\n"}
+,{"stream_name":"stderr","time":37.818998108,"data":"     18 \n"}
+,{"stream_name":"stderr","time":37.819001042,"data":"     19 def sha(path):\n"}
+,{"stream_name":"stderr","time":37.819010625,"data":"---\u003e 20     with Path(path).open('rb') as handle:\n"}
+,{"stream_name":"stderr","time":37.819013467,"data":"     21         return hashlib.file_digest(handle, 'sha256').hexdigest()\n"}
+,{"stream_name":"stderr","time":37.819015912,"data":"     22 \n"}
+,{"stream_name":"stderr","time":37.81901819,"data":"\n"}
+,{"stream_name":"stderr","time":37.819020402,"data":"/usr/lib/python3.13/pathlib/_local.py in open(self, mode, buffering, encoding, errors, newline)\n"}
+,{"stream_name":"stderr","time":37.819023416,"data":"    535         if \"b\" not in mode:\n"}
+,{"stream_name":"stderr","time":37.819036966,"data":"    536             encoding = io.text_encoding(encoding)\n"}
+,{"stream_name":"stderr","time":37.819040956,"data":"--\u003e 537         return io.open(self, mode, buffering, encoding, errors, newline)\n"}
+,{"stream_name":"stderr","time":37.819044964,"data":"    538 \n"}
+,{"stream_name":"stderr","time":37.819049046,"data":"    539     def read_text(self, encoding=None, errors=None, newline=None):\n"}
+,{"stream_name":"stderr","time":37.819052848,"data":"\n"}
+,{"stream_name":"stderr","time":37.819056872,"data":"FileNotFoundError: [Errno 2] No such file or directory: '/kaggle/working/code/generation_runtime_patch_20261112.py'\n"}
+,{"stream_name":"stderr","time":37.819060948,"data":"\n"}
+,{"stream_name":"stderr","time":39.845094131,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":39.845135365,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":40.005564649,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":40.005591484,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":40.791175689,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":40.913055592,"data":"[NbConvertApp] Writing 1075190 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":43.421799763,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":44.477298499,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":44.477328763,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":44.47765948,"data":"[NbConvertApp] Writing 1751970 bytes to __results__.html\n"}
+]

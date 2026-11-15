@@ -1,0 +1,42 @@
+{
+  "checked_at_utc": "2026-11-14T14:08:46.792999+00:00",
+  "rows": [
+    {
+      "ref": 58341606,
+      "status": "PENDING",
+      "raw_public_score": "",
+      "description": "CASMI26 20261114 actual multi-spectrum library consensus early same-formula V1",
+      "error_description_present": false
+    },
+    {
+      "ref": 58341597,
+      "status": "PENDING",
+      "raw_public_score": "",
+      "description": "CASMI26 20261114 mean_prefix1_ab fixed same-formula ranks2-25 original AB V1",
+      "error_description_present": false
+    },
+    {
+      "ref": 58335047,
+      "status": "COMPLETE",
+      "raw_public_score": "0.449",
+      "description": "CASMI26 20261114 dual_evidence_agreement actual GL ICE scores after original 0488 V1",
+      "error_description_present": false
+    },
+    {
+      "ref": 58335002,
+      "status": "COMPLETE",
+      "raw_public_score": "0.481",
+      "description": "CASMI26 20261114 gl_evidence_early actual GL ICE scores after original 0488 V1",
+      "error_description_present": false
+    },
+    {
+      "ref": 58334939,
+      "status": "COMPLETE",
+      "raw_public_score": "0.470",
+      "description": "CASMI26 20261114 head_prefix1_ab fixed same-formula ranks2-25 original AB V1",
+      "error_description_present": false
+    }
+  ],
+  "read_only": true,
+  "scope": "Official list readback; no change to running score-writer receipts"
+}

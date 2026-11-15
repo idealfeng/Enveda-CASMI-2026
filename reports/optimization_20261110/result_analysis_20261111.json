@@ -1,0 +1,57 @@
+{
+  "checked_at_utc": "2026-11-11T09:40:47.063131+00:00",
+  "baseline_ref": 58156482,
+  "baseline_public_score": 0.488,
+  "pre_external_parent_ref": 58129661,
+  "pre_external_parent_public_score": 0.482,
+  "gain_record_added": false,
+  "branches": [
+    {
+      "branch": "extlib_b_only",
+      "ref": 58222403,
+      "score": 0.488,
+      "delta_vs_488": 0.0,
+      "notebook_sha256": "82952464750c163b64e15832bfb7266b45a63f6e1aeaa929c21d175afa27de7b",
+      "recipe_sha256": "82b9d585307964aa4be97cb73ccb461df4e6733a5839240e2f2418389fe92e66",
+      "evidence": "reports/optimization_20261110/extlib_b_only/score.json"
+    },
+    {
+      "branch": "extlib_a_only",
+      "ref": 58222369,
+      "score": 0.482,
+      "delta_vs_488": -0.006,
+      "notebook_sha256": "82459aad7d58ddf3187f17fba2bf6dfa66d7839982f91ee3e34e3fadca1bcc57",
+      "recipe_sha256": "f9d0169dc3ec56e8acee8ccce5c014d2f9e154e1fd1d69015779fd04006b9d2d",
+      "evidence": "reports/optimization_20261110/extlib_a_only/score.json"
+    },
+    {
+      "branch": "extlib_abe_gap_fill",
+      "ref": 58222443,
+      "score": 0.484,
+      "delta_vs_488": -0.004,
+      "notebook_sha256": "619a3258c2c29030841d63410413f95a0de0a8a211eede5c24a8008b7e238c1d",
+      "recipe_sha256": "da42785e84e27991a7c4bf551c0ceb84b566c493d463fc0f224d1d2ebee2cdd7",
+      "evidence": "reports/optimization_20261110/extlib_abe_gap_fill/score.json"
+    },
+    {
+      "branch": "extlib_abe_compete",
+      "ref": 58222478,
+      "score": 0.484,
+      "delta_vs_488": -0.004,
+      "notebook_sha256": "e41084bdd6fd77544784df7689ff647d915cf196b81829fd6898a6eaade9f6dd",
+      "recipe_sha256": "52b2fc81af7b540a86eae5cfdf379c60751f8bcc0244c2ffa20e91cb989a8787",
+      "evidence": "reports/optimization_20261110/extlib_abe_compete/score.json"
+    },
+    {
+      "branch": "extlib_ab_identity_alias",
+      "ref": 58222489,
+      "score": 0.488,
+      "delta_vs_488": 0.0,
+      "notebook_sha256": "27403704d35eaf044c5a9055d65c0cb051861f3572123df874f658e056b0327b",
+      "recipe_sha256": "e6a318ecc5284972d682618fccfdfbcfa1d82077a228451420c80ca5cd350504",
+      "evidence": "reports/optimization_20261110/extlib_ab_identity_alias/score.json"
+    }
+  ],
+  "produre_role": "Completed diagnostic foundation and hypothesis elimination, not a deployable optimization recipe",
+  "user_constraint": "Do not redo produre1/2; focus on Kaggle ranking"
+}

@@ -1,0 +1,34 @@
+{
+  "ref": "kingdamon/casmi26-wsp-dual-encoder-inference",
+  "title": "CASMI26 WSP Dual-Encoder Inference",
+  "current_version_number": 5,
+  "last_run_time": "2026-11-11 14:07:20.209000",
+  "dataset_data_sources": [
+    "prvsiyan/casmi26-ranker-features",
+    "prvsiyan/casmi26-fp-models-v2",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "megayak/casmi26-simulated-ranker-rows",
+    "ahmedberatozer/casmi26-fpnet-full1",
+    "ahmedberatozer/casmi26-glacier",
+    "ahmedberatozer/casmi26-iceberg",
+    "ahmedberatozer/casmi26-pubchem-tier",
+    "ahmedberatozer/casmi26-v2-pool",
+    "ahmedberatozer/casmi26-v3-models",
+    "ahmedberatozer/casmi26-v4b-models",
+    "prvsiyan/chebi-lipidmaps-casmi26",
+    "prvsiyan/coconut-casmi26-candidates",
+    "hengck23/hengck23-dreams-enveda-casmi26",
+    "metric/rdkit-2026-3-3-wheel",
+    "eveliaveldrine/rdkit-wheels"
+  ],
+  "kernel_data_sources": [
+    "",
+    ""
+  ],
+  "is_private": false,
+  "sha256": "ab77323e4ae1d2e705512533d531a6aab51c810174819acbf28c019c363f4a99",
+  "bytes": 168734,
+  "status": "downloaded",
+  "read_only": true,
+  "no_execution": true
+}

@@ -1,0 +1,251 @@
+{
+  "status": "completed_stage_replay_only",
+  "queries": 45,
+  "exact_controls": 45,
+  "eligible_queries": 10,
+  "changed_queries": 9,
+  "top1_fixed": true,
+  "candidate_set_fixed": true,
+  "weight": 0.1,
+  "control_mrr25": 0.8478835978835979,
+  "treatment_mrr25": 0.8478835978835979,
+  "paired_delta": 0.0,
+  "per_query_rank": [
+    {
+      "mid": "cross_MZNCWPOVMBLUSG",
+      "control": null,
+      "treatment": null
+    },
+    {
+      "mid": "cross_VJLSQJBXDSKTLG",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "cross_KAQOTUWFZPIKLZ",
+      "control": 2,
+      "treatment": 2
+    },
+    {
+      "mid": "np_HSMPDPBYAYSOBC",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "np_ACNHBCIZLNNLRS",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "np_FFGPTBGBLSHEPO",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "cross_WIOKWEJDRXNVSH",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "cross_GFZLFKCEWJJEFW",
+      "control": null,
+      "treatment": null
+    },
+    {
+      "mid": "np_DBEPLOCGEIEOCV",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "np_CEUORZQYGODEFX",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "cross_SRNDKRJFBMZBCK",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "cross_OTGQIQQTPXJQRG",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "np_FELGMEQIXOGIFQ",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "cross_WDRYRZXSPDWGEB",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "cross_UBEKXLWMTSODOC",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "cross_IYODIJVWGPRBGQ",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "np_RZGFUGXQKMEMOO",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "np_QCHFTSOMWOSFHM",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "cross_WGHBYQBNWQRUQU",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "np_DOFJNFPSMUCECH",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "np_MBRLOUHOWLUMFF",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "np_RXPRRQLKFXBCSJ",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "cross_HPXGRJSGVYZSBD",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "np_URFCJEUYXNAHFI",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "cross_CBIAKDAYHRWZCU",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "np_JYGXADMDTFJGBT",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "cross_NOFOAYPPHIUXJR",
+      "control": 14,
+      "treatment": 14
+    },
+    {
+      "mid": "cross_DWVXZQVYILJCJH",
+      "control": 4,
+      "treatment": 4
+    },
+    {
+      "mid": "cross_VXVNYCRICCVPTD",
+      "control": 2,
+      "treatment": 2
+    },
+    {
+      "mid": "np_HELXLJCILKEWJH",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "cross_DKZBBWMURDFHNE",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "np_CTRLABGOLIVAIY",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "cross_QNUNSPMEODRLBZ",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "np_DUXQKCCELUKXOE",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "cross_CDUVSQMTLOYKTR",
+      "control": 2,
+      "treatment": 2
+    },
+    {
+      "mid": "cross_XSOKPIZATJBJPO",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "cross_FWXUWWAXYNCZAY",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "np_XKLMZUWKNUAPSZ",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "cross_JIZXTXDQGNQBTA",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "np_SGEWCQFRYRRZDC",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "np_RFDAIACWWDREDC",
+      "control": 2,
+      "treatment": 2
+    },
+    {
+      "mid": "np_SHIBSTMRCDJXLN",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "cross_YFJYOZDIJVHPAU",
+      "control": 3,
+      "treatment": 3
+    },
+    {
+      "mid": "np_GZSOSUNBTXMUFQ",
+      "control": 1,
+      "treatment": 1
+    },
+    {
+      "mid": "cross_NQHGQOVKJGGLKE",
+      "control": 2,
+      "treatment": 2
+    }
+  ],
+  "selection_policy_frozen_before_label_read": true,
+  "no_gpu_or_model_run": true,
+  "no_produre_rerun": true,
+  "exact_488_full_pipeline": false,
+  "production_wrapper_prepared": false,
+  "limitations": [
+    "Old exposed panel, not clean CV or hidden test.",
+    "Fusion stage only; later physical/MASS/neural/head/AB not rerun.",
+    "Evidence missing from original GL input stays explicitly unobserved, not zero.",
+    "A source hash and nonconstant evidence do not prove final ranking gain."
+  ]
+}

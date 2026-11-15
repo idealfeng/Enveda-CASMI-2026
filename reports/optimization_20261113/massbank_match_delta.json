@@ -1,0 +1,94 @@
+{
+  "status": "completed_match_delta",
+  "source_core_sha256": "8c7b203f4fe90ccd95194f68cae5dd1afc7163119da84dd96c91e5f05df095e2",
+  "visible_public_query_spectra": 1213,
+  "visible_public_molecules": 400,
+  "corrected_reference_rows": 1281,
+  "public_mass_eligible_spectra": 35,
+  "public_mass_eligible_molecules": 13,
+  "match_identity_changes": [
+    {
+      "molecule_id": "trusted_self_864",
+      "old": {
+        "source": null,
+        "cosine": 0.0,
+        "matched_peaks": 0,
+        "smiles": null,
+        "above_threshold": false
+      },
+      "new": {
+        "source": "B",
+        "reference_ordinal": 823,
+        "adduct": "[M+Cl]-",
+        "original_precursor_mz": 519.2155039999999,
+        "measured_precursor_mz": 555.1919,
+        "precursor_corrected": true,
+        "cosine": 0.9999999999999969,
+        "matched_peaks": 11,
+        "smiles": "CCC(=O)OCC(=O)[C@@]1(OC(=O)CC)[C@@H](C)C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(Cl)[C@@H](O)C[C@@]21C",
+        "reference_precursor_mz": 555.1919,
+        "query_precursor_mz": 555.1919,
+        "query_adduct": "[M+Cl]-",
+        "mode": -1,
+        "above_threshold": true
+      },
+      "constructed_self": true
+    },
+    {
+      "molecule_id": "trusted_self_904",
+      "old": {
+        "source": null,
+        "cosine": 0.0,
+        "matched_peaks": 0,
+        "smiles": null,
+        "above_threshold": false
+      },
+      "new": {
+        "source": "B",
+        "reference_ordinal": 863,
+        "adduct": "[M+2H]2+",
+        "original_precursor_mz": 435.217746,
+        "measured_precursor_mz": 218.1099,
+        "precursor_corrected": true,
+        "cosine": 0.9968412530746784,
+        "matched_peaks": 38,
+        "smiles": "CC1(C)O[C@@H]2C[C@H]3[C@@H]4C[C@H](F)C5=CC(=O)C=C[C@]5(C)[C@H]4[C@@H](O)C[C@]3(C)[C@]2(C(=O)CO)O1",
+        "reference_precursor_mz": 218.1099,
+        "query_precursor_mz": 218.1099,
+        "query_adduct": "[M+2H]2+",
+        "mode": 1,
+        "above_threshold": true
+      },
+      "constructed_self": true
+    }
+  ],
+  "public_match_identity_changes": 0,
+  "constructed_self_match_identity_changes": 2,
+  "final_changes_on_constructed_control": [
+    "trusted_self_864",
+    "trusted_self_904"
+  ],
+  "public_final_changes_on_constructed_control": 0,
+  "peak_rss_kib": 1526456,
+  "no_truth_or_main_library_or_gpu": true,
+  "no_submission": true,
+  "limitation": "Real visible query spectra and full reference libraries, but candidate lists and library_max=0 controls are constructed. Not exact champion predictions, no efficacy/hidden coverage claim.",
+  "corrected_reference_adduct_counts": {
+    "[M+HCOO]-": 119,
+    "[M+Cl]-": 35,
+    "[M+2H]2+": 33,
+    "[M-2H]2-": 25,
+    "[M+Na]+": 620,
+    "[M+NH4]+": 248,
+    "[M+H-H2O]+": 16,
+    "[M+K]+": 17,
+    "[M-H2O+H]+": 125,
+    "[M+FA-H]-": 43
+  },
+  "public_mass_eligible_query_adduct_counts": {
+    "[M+H]+": 34,
+    "[M+Na]+": 1
+  },
+  "recommendation": "Do not allocate a submission slot to this unchanged visible-query matching variant based on current evidence; preserve as candidate for other data.",
+  "exact_champion_upstream_rerun": false
+}

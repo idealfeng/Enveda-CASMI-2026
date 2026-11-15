@@ -1,0 +1,13 @@
+{
+  "status": "superseded_not_submitted",
+  "old_stage": "submission/optimization_20261112/generation_expand",
+  "old_notebook_sha256": "53aa09c7530a74417930ae61fb7695beed5c5c3bc016c5a7d7f54a211a9480c2",
+  "actual_canary_path": "runs/generation_prod_canary_20261112_actual_final",
+  "control_generated_counts": [
+    150,
+    150
+  ],
+  "error": "Observer required total V1FE output width=160, but production rank_score selects its160 RK_FEATS from the larger feature matrix",
+  "repair": "revision2 binds names, selected positions and float32 projection hash consumed by original rank_score",
+  "no_kaggle_write": true
+}

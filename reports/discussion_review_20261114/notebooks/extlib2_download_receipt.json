@@ -1,0 +1,76 @@
+{
+  "status": "complete_version_size_and_sha_recorded",
+  "ref": "nakhun/casmi26-extlib2",
+  "version": 1,
+  "started_at_utc": "2026-11-14T14:15:22.410974+00:00",
+  "expected_files": {
+    "extlib2/build_log.txt": 1483,
+    "extlib2/ext2_in_flat.npy": 55406884,
+    "extlib2/ext2_meta.parquet": 14203359,
+    "extlib2/ext2_mz_flat.npy": 55406884,
+    "extlib2/ext2_offsets.npy": 3926856,
+    "extlib2/ext2_summary.json": 897,
+    "extlib2/offline_eval.json": 649
+  },
+  "expected_total_bytes": 128947012,
+  "license_name": "Other (specified in description)",
+  "description": "",
+  "permission_boundary": "Public read/acquisition only; downstream source licensing not established by this receipt.",
+  "model_or_array_loaded": false,
+  "asset_code_executed": false,
+  "signed_urls_persisted": false,
+  "files": [
+    {
+      "name": "extlib2/build_log.txt",
+      "bytes": 1483,
+      "sha256": "e7b71f15cc65bd56b64286156c24ba78d6800e245bf159c4084217414c03794f",
+      "path": "assets/kaggle/nakhun/casmi26-extlib2/v1/extlib2/build_log.txt"
+    },
+    {
+      "name": "extlib2/ext2_in_flat.npy",
+      "bytes": 55406884,
+      "sha256": "7f28b12469a15ed577b66537867153e78fbcf10c155e94332d758e26f95c1c0c",
+      "path": "assets/kaggle/nakhun/casmi26-extlib2/v1/extlib2/ext2_in_flat.npy"
+    },
+    {
+      "name": "extlib2/ext2_meta.parquet",
+      "bytes": 14203359,
+      "sha256": "85a20dc86673da64298656a04b6e0fcd651cba9752d0afade913caa428a75b26",
+      "path": "assets/kaggle/nakhun/casmi26-extlib2/v1/extlib2/ext2_meta.parquet"
+    },
+    {
+      "name": "extlib2/ext2_mz_flat.npy",
+      "bytes": 55406884,
+      "sha256": "0f1026d394c7973e81196f4223c0f29e79bbd3339c3cbd77f2fd8765fa402c9b",
+      "path": "assets/kaggle/nakhun/casmi26-extlib2/v1/extlib2/ext2_mz_flat.npy"
+    },
+    {
+      "name": "extlib2/ext2_offsets.npy",
+      "bytes": 3926856,
+      "sha256": "c71347dfb182e73e58bf0b782eee7b9cd49e6dc0e43a64b485699eac881e6e60",
+      "path": "assets/kaggle/nakhun/casmi26-extlib2/v1/extlib2/ext2_offsets.npy"
+    },
+    {
+      "name": "extlib2/ext2_summary.json",
+      "bytes": 897,
+      "sha256": "e6d91b42b14d1bad7ba600a2bd77ff3a8ba26bb70c1f2563a9b489e110b3d2df",
+      "path": "assets/kaggle/nakhun/casmi26-extlib2/v1/extlib2/ext2_summary.json"
+    },
+    {
+      "name": "extlib2/offline_eval.json",
+      "bytes": 649,
+      "sha256": "457fafc22532556717fbd00241021ec9ce8bd070545b38c81c3ab4859614e652",
+      "path": "assets/kaggle/nakhun/casmi26-extlib2/v1/extlib2/offline_eval.json"
+    }
+  ],
+  "archive_bytes": 85758662,
+  "archive_sha256": "4c250e691c06ed72bd22eadeec449279ebf89f933f82e67125d0ed96fe68401c",
+  "download_seconds": 152.422,
+  "finished_at_utc": "2026-11-14T14:17:59.117378+00:00",
+  "total_bytes": 128947012,
+  "archive_cache_path": ".cache/tmp/extlib2_v1_1794665722.zip.part",
+  "all_seven_members_verified": true,
+  "source_metadata_sha256": "4e41200501c1fa4fb8e5210d7eae0e32060db89e7c18b6975498ca64706ed1a9",
+  "content_overlap_not_measured": true,
+  "hidden_gain_not_measured": true
+}

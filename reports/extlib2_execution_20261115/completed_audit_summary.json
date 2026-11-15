@@ -1,0 +1,135 @@
+{
+  "status": "completed_corpus_and_fixed_matching_review",
+  "checked_at_utc": "2026-11-15T03:25:45.051694+00:00",
+  "checks": {
+    "full_train_spectrum_count": true,
+    "C_count": true,
+    "bounded_official_completed": true,
+    "real_matching_complete": true,
+    "old_candidate_features_complete": true,
+    "old_feature_fingerprint": true,
+    "matched_tables_bound": true
+  },
+  "raw_membership": {
+    "C_keys": 62782,
+    "AB_keys": 167441,
+    "C_keys_missing_AB": 49408,
+    "C_keys_missing_train": 1397,
+    "C_keys_missing_both": 115,
+    "C_rows_missing_AB": 293584,
+    "C_rows_missing_train": 6391
+  },
+  "bounded_official_new_identities": 115,
+  "bounded_official_new_spectra": 1365,
+  "bounded_official_scope": "This exactly resolves only publisher keys absent from AB and train (115 families), not every C identity. Safe heavy-atom composition prefilter; no complete-formula gate. Whole-corpus official novel count can be larger and is not asserted.",
+  "spectrum_hash_results": {
+    "C_rows": 490840,
+    "C_distinct_strict_signatures": 488311,
+    "C_distinct_quantized_signatures": 488164,
+    "C_rows_strict_in_AB": 291,
+    "C_rows_quantized_in_AB": 12710,
+    "C_rows_strict_in_train": 72942,
+    "C_rows_quantized_in_train": 178516,
+    "C_rows_strict_in_neither": 417677,
+    "C_rows_quantized_in_neither": 307122,
+    "official_train_spectra_scanned": 2539608,
+    "signature_definition": {
+      "strict": "Positive finite peaks sorted by mz; max-normalized intensity and mz cast float32; mode and float32 precursor; B uses its ACTUAL deployed synthesized H precursor.",
+      "quantized": "Top128 by normalized intensity, sorted mz; mz rounded1e-4Da/intensity1e-5; mode and precursor rounded1e-3Da. Equality is a possible transformed duplicate, not proof; inequality is not proof of independent acquisition."
+    },
+    "by_source": [
+      {
+        "source": "GNPS2",
+        "rows": 432221,
+        "strict_AB": 188,
+        "quantized_AB": 11726,
+        "strict_train": 47673,
+        "quantized_train": 142167
+      },
+      {
+        "source": "MSnLib",
+        "rows": 14139,
+        "strict_AB": 0,
+        "quantized_AB": 0,
+        "strict_train": 10,
+        "quantized_train": 8730
+      },
+      {
+        "source": "MassBank",
+        "rows": 44480,
+        "strict_AB": 103,
+        "quantized_AB": 984,
+        "strict_train": 25259,
+        "quantized_train": 27619
+      }
+    ]
+  },
+  "controlled_matching": {
+    "references_present": {
+      "queries": 48,
+      "AB_mrr25": 0.8871527777777778,
+      "ABC_mrr25": 0.9010416666666666,
+      "delta": 0.01388888888888884,
+      "C_changed_queries": 1,
+      "improved": 1,
+      "worsened": 0,
+      "C_high_cos_correct": 32,
+      "C_high_cos_wrong": 1,
+      "C_high_cos_wrong_same_formula": 1,
+      "AB_high_cos": 23,
+      "pipeline_protected": 2
+    },
+    "all_truth_references_absent": {
+      "queries": 48,
+      "AB_mrr25": 0.8330853174603176,
+      "ABC_mrr25": 0.7914186507936508,
+      "delta": -0.04166666666666674,
+      "C_changed_queries": 4,
+      "improved": 0,
+      "worsened": 4,
+      "C_high_cos_correct": 0,
+      "C_high_cos_wrong": 10,
+      "C_high_cos_wrong_same_formula": 9,
+      "AB_high_cos": 4,
+      "pipeline_protected": 2
+    }
+  },
+  "old_features": {
+    "rows": 1250,
+    "sha256": "3d42710f105b486d23467f8b2ab3cf918de2fa5b0ce2a136101e6564deab2933",
+    "truth_labels_in_features": false
+  },
+  "source_pins": {
+    "metadata": {
+      "path": "reports/extlib2_increment_20261114/metadata_audit.json",
+      "sha256": "74d2a0a67b415a36e1976ecedfefc9189a5e1b3f0474f7146ab6925fb7a8101c"
+    },
+    "spectra": {
+      "path": "reports/extlib2_increment_20261114/spectrum_overlap_complete.json",
+      "sha256": "db8fc497466fabef2091a6e936cdcc81e9f7e93f631ae48454fff006c5209c3c"
+    },
+    "bounded_official": {
+      "path": "reports/extlib2_increment_20261114/bounded_official_identity_audit.json",
+      "sha256": "e56e82b403702e280ba913023344e2fdb116c64936f6e745e95c96b120e410e5"
+    },
+    "matching": {
+      "path": "reports/extlib2_matching_20261114/verification.json",
+      "sha256": "db229b4a133887ca1be55dc8c76fb8107834cd897dc0349eb4a14ab73a2122bc"
+    },
+    "evidence": {
+      "path": "reports/extlib2_matching_20261114/evidence_summary.json",
+      "sha256": "6737b9b2a4acfead15a5e347bb0a3bbbe6458ab11a71fe867ee1ad04ee193ff5"
+    }
+  },
+  "new_public_score": null,
+  "new_model_training": false,
+  "old_experiments_rerun": false,
+  "recommendation": "Do not force C high-cosine winners to rank1. Preserve measured evidence for independently grouped gate learning; require truth-present and truth-absent behavior.",
+  "limitations": [
+    "115 is the exactly resolved raw-key-novel subset, not a full-corpus official novelty count.",
+    "Unmatched spectral hashes are not proof of independently acquired spectra.",
+    "Old48 fixed matching has known pretrained exposure and is not exact .488 CV; prior pipeline confidence is not rebuilt in reference-absence arm.",
+    "The two-query component has zero efficacy claim; real C matches were blocked by original pipeline confidence.",
+    "Public download and upstream source log are recorded, but this report does not grant a new license or prove a hidden-test gain."
+  ]
+}

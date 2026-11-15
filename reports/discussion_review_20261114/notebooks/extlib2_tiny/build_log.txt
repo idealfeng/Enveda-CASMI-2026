@@ -1,0 +1,26 @@
+rdkit 2026.03.3
+gnps library list failed HTTP Error 404: NOT FOUND
+downloaded ALL_GNPS_NO_PROPOGATED.mgf: 2227.0 MB in 575s
+GNPS2: seen 100,000 kept 25,872 unique smiles 18,157
+GNPS2: seen 200,000 kept 100,780 unique smiles 35,905
+GNPS2: seen 300,000 kept 187,054 unique smiles 49,687
+GNPS2: seen 400,000 kept 261,585 unique smiles 55,097
+GNPS2: seen 500,000 kept 326,853 unique smiles 57,305
+GNPS2: seen 600,000 kept 396,571 unique smiles 75,125
+GNPS2: seen 700,000 kept 427,470 unique smiles 77,546
+GNPS2: seen 800,000 kept 455,115 unique smiles 77,601
+GNPS2: seen 900,000 kept 507,764 unique smiles 87,483
+rows so far 528980
+MassBank release 2026.11 https://github.com/MassBank/MassBank-data/releases/download/2026.11/MassBank_NISTformat.msp
+downloaded MassBank_NISTformat.msp: 142.8 MB in 1s
+MassBank: seen 100,000 kept 72,416 unique smiles 92,283
+rows so far 612200
+MSnLib files selected: ['20241003_nihnp_neg_ms2.mgf', '20250828_targetmol_hts_np_neg_ms2.mgf', '20250828_targetmol_hts_np_pos_ms2.mgf', '20241003_mcebio_pos_ms2.mgf', '20241003_nihnp_pos_ms2.mgf', '20241003_mcebio_neg_ms2.mgf']
+downloaded 20241003_nihnp_neg_ms2.mgf: 35.3 MB in 25s
+downloaded 20250828_targetmol_hts_np_neg_ms2.mgf: 16.6 MB in 4s
+downloaded 20250828_targetmol_hts_np_pos_ms2.mgf: 17.8 MB in 14s
+downloaded 20241003_mcebio_pos_ms2.mgf: 115.8 MB in 43s
+downloaded 20241003_nihnp_pos_ms2.mgf: 45.1 MB in 10s
+downloaded 20241003_mcebio_neg_ms2.mgf: 63.1 MB in 20s
+rows so far 680491
+total kept 680491

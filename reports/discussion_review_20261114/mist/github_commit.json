@@ -1,0 +1,137 @@
+{
+  "sha": "48e339be6535546c87ba4f6b81a0f787c2e4ac40",
+  "node_id": "C_kwDOVEP3n9oAKDQ4ZTMzOWJlNjUzNTU0NmM4N2JhNGY2YjgxYTBmNzg3YzJlNGFjNDA",
+  "commit": {
+    "author": {
+      "name": "harrylaucngd",
+      "email": "harrylaucngd@gmail.com",
+      "date": "2026-10-21T14:34:34Z"
+    },
+    "committer": {
+      "name": "harrylaucngd",
+      "email": "harrylaucngd@gmail.com",
+      "date": "2026-10-21T14:34:34Z"
+    },
+    "message": "Publish Zenodo artifact downloads and checkpoint documentation",
+    "tree": {
+      "sha": "4a9301772aa97e27d94adb7484c6e947a9cb9f88",
+      "url": "https://api.github.com/repos/coleygroup/MIST/git/trees/4a9301772aa97e27d94adb7484c6e947a9cb9f88"
+    },
+    "url": "https://api.github.com/repos/coleygroup/MIST/git/commits/48e339be6535546c87ba4f6b81a0f787c2e4ac40",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/coleygroup/MIST/commits/48e339be6535546c87ba4f6b81a0f787c2e4ac40",
+  "html_url": "https://github.com/coleygroup/MIST/commit/48e339be6535546c87ba4f6b81a0f787c2e4ac40",
+  "comments_url": "https://api.github.com/repos/coleygroup/MIST/commits/48e339be6535546c87ba4f6b81a0f787c2e4ac40/comments",
+  "author": {
+    "login": "harrylaucngd",
+    "id": 93644724,
+    "node_id": "U_kgDOBZTntA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/93644724?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/harrylaucngd",
+    "html_url": "https://github.com/harrylaucngd",
+    "followers_url": "https://api.github.com/users/harrylaucngd/followers",
+    "following_url": "https://api.github.com/users/harrylaucngd/following{/other_user}",
+    "gists_url": "https://api.github.com/users/harrylaucngd/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/harrylaucngd/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/harrylaucngd/subscriptions",
+    "organizations_url": "https://api.github.com/users/harrylaucngd/orgs",
+    "repos_url": "https://api.github.com/users/harrylaucngd/repos",
+    "events_url": "https://api.github.com/users/harrylaucngd/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/harrylaucngd/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "harrylaucngd",
+    "id": 93644724,
+    "node_id": "U_kgDOBZTntA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/93644724?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/harrylaucngd",
+    "html_url": "https://github.com/harrylaucngd",
+    "followers_url": "https://api.github.com/users/harrylaucngd/followers",
+    "following_url": "https://api.github.com/users/harrylaucngd/following{/other_user}",
+    "gists_url": "https://api.github.com/users/harrylaucngd/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/harrylaucngd/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/harrylaucngd/subscriptions",
+    "organizations_url": "https://api.github.com/users/harrylaucngd/orgs",
+    "repos_url": "https://api.github.com/users/harrylaucngd/repos",
+    "events_url": "https://api.github.com/users/harrylaucngd/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/harrylaucngd/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "8c03c5db1b5f3f9ac965413d4739b958ea9f5c21",
+      "url": "https://api.github.com/repos/coleygroup/MIST/commits/8c03c5db1b5f3f9ac965413d4739b958ea9f5c21",
+      "html_url": "https://github.com/coleygroup/MIST/commit/8c03c5db1b5f3f9ac965413d4739b958ea9f5c21"
+    }
+  ],
+  "stats": {
+    "total": 103,
+    "additions": 50,
+    "deletions": 53
+  },
+  "files": [
+    {
+      "sha": "cceb14c4f95a18d505a75710b4b2ceff9c7009ed",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 5,
+      "changes": 11,
+      "blob_url": "https://github.com/coleygroup/MIST/blob/48e339be6535546c87ba4f6b81a0f787c2e4ac40/README.md",
+      "raw_url": "https://github.com/coleygroup/MIST/raw/48e339be6535546c87ba4f6b81a0f787c2e4ac40/README.md",
+      "contents_url": "https://api.github.com/repos/coleygroup/MIST/contents/README.md?ref=48e339be6535546c87ba4f6b81a0f787c2e4ac40",
+      "patch": "@@ -34,17 +34,18 @@ caches requires only the core MIST installation. See\n \n ## Data and pretrained models\n \n-**Zenodo uploads are pending.** The download catalog contains explicit\n-placeholders for URLs, DOIs, and checksums. Model weights and datasets are not\n-included in Git. `mist-download` reports an unavailable artifact clearly until\n-its upload has been filled in.\n+Processed datasets, compact features, synthetic features, and pretrained MIST\n+and GLACIER checkpoints are available on\n+[Zenodo](https://zenodo.org/records/23303289)\n+([DOI: 10.5281/zenodo.23303289](https://doi.org/10.5281/zenodo.23303289)).\n+`mist-download` downloads the selected artifact and verifies its SHA-256 checksum.\n \n | Dataset | Processed source data | Compact features | Synthetic features | MIST checkpoints | Generator |\n |---|---|---|---|---|---|\n | MassSpecGym (MSG) | `msg-source` | `msg-compact` | `msg-synthetic` (refined 4M molecules) | `msg-noaug`, `msg-aug` | `msg-glacier` |\n | CANOPUS (NPLIB1) | `canopus-source` | `canopus-compact` | `canopus-synthetic` (random 2M molecules) | `canopus-noaug`, `canopus-aug` | `canopus-glacier` |\n \n-After the uploads become available:\n+Download compact features and a MIST checkpoint:\n \n ```bash\n mist-download --list"
+    },
+    {
+      "sha": "971d588a92c30842e1c1bd55e5f29570082c813e",
+      "filename": "docs/data.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 9,
+      "changes": 13,
+      "blob_url": "https://github.com/coleygroup/MIST/blob/48e339be6535546c87ba4f6b81a0f787c2e4ac40/docs%2Fdata.md",
+      "raw_url": "https://github.com/coleygroup/MIST/raw/48e339be6535546c87ba4f6b81a0f787c2e4ac40/docs%2Fdata.md",
+      "contents_url": "https://api.github.com/repos/coleygroup/MIST/contents/docs%2Fdata.md?ref=48e339be6535546c87ba4f6b81a0f787c2e4ac40",
+      "patch": "@@ -2,8 +2,9 @@\n \n The prepared feature caches are the shortest path to training. Source spectra\n are also provided as compact HDF5 files for rebuilding features. Download\n-locations are listed in `src/mist/artifacts.json`; all URLs, SHA-256 values, and\n-Zenodo DOIs remain `null` until the corresponding artifact is uploaded.\n+all released artifacts from [Zenodo](https://zenodo.org/records/23303289).\n+The [download catalog](../src/mist/artifacts.json) records each file's HTTPS URL,\n+SHA-256 checksum, and DOI (`10.5281/zenodo.23303289`).\n \n ## Archive layout\n \n@@ -118,7 +119,7 @@ candidate molecules. For parallel conversion, give each process a distinct\n using the same command with `--finalize-only`. The single-process default\n finalizes automatically. This multiprocessing converter requires Linux.\n \n-## Preparing a Zenodo upload\n+## Exporting portable caches and checkpoints\n \n Local working caches may use indexed views or external part directories.\n Materialize them before packaging:\n@@ -135,9 +136,3 @@ each split separately and archive `data/compact/canopus/` from `staging/`.\n For a MIST weight file, use `scripts/export_scaled_release.py` to retain the EMA,\n model configuration, dataset, step, and source hash while removing local paths,\n optimizer state, and other training metadata.\n-\n-After uploading, replace the matching `null` fields in\n-`src/mist/artifacts.json` with the actual HTTPS URL, DOI, and lowercase SHA-256.\n-Keep these fields unset for any artifact that is still unavailable. Include\n-source data provenance, split definitions, and artifact-specific licenses in\n-the Zenodo record."
+    },
+    {
+      "sha": "aca882e6bf3c7c3378af07eb4feab9ec672ece79",
+      "filename": "docs/training.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 3,
+      "changes": 7,
+      "blob_url": "https://github.com/coleygroup/MIST/blob/48e339be6535546c87ba4f6b81a0f787c2e4ac40/docs%2Ftraining.md",
+      "raw_url": "https://github.com/coleygroup/MIST/raw/48e339be6535546c87ba4f6b81a0f787c2e4ac40/docs%2Ftraining.md",
+      "contents_url": "https://api.github.com/repos/coleygroup/MIST/contents/docs%2Ftraining.md?ref=48e339be6535546c87ba4f6b81a0f787c2e4ac40",
+      "patch": "@@ -21,9 +21,10 @@ The release launcher exports the checkpoint with the best validation score,\n which can occur before the final step.\n \n Configuration files specify the seed, optimizer, warmup, EMA decay, precision,\n-and validation cadence. They describe the training recipes; Zenodo records will\n-identify the exact weight files and selected steps. Editing the world size or\n-source batch sizes changes data exposure. For a customized run, record the\n+and validation cadence. They describe the training recipes. The released EMA\n+checkpoints are available on [Zenodo](https://zenodo.org/records/23303289);\n+each checkpoint includes its model configuration, dataset, and selected step.\n+Editing the world size or source batch sizes changes data exposure. For a customized run, record the\n modified configuration and recalibrate on its validation set.\n \n ## Distributed data loading"
+    },
+    {
+      "sha": "9c6ecf4dcddf18e91fc2771f4c0db35a02907218",
+      "filename": "src/mist/artifacts.json",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 36,
+      "changes": 72,
+      "blob_url": "https://github.com/coleygroup/MIST/blob/48e339be6535546c87ba4f6b81a0f787c2e4ac40/src%2Fmist%2Fartifacts.json",
+      "raw_url": "https://github.com/coleygroup/MIST/raw/48e339be6535546c87ba4f6b81a0f787c2e4ac40/src%2Fmist%2Fartifacts.json",
+      "contents_url": "https://api.github.com/repos/coleygroup/MIST/contents/src%2Fmist%2Fartifacts.json?ref=48e339be6535546c87ba4f6b81a0f787c2e4ac40",
+      "patch": "@@ -4,86 +4,86 @@\n     \"msg-source\": {\n       \"description\": \"MassSpecGym processed spectra, formula assignments, labels and splits\",\n       \"filename\": \"msg_all.tar.gz\",\n-      \"url\": null,\n-      \"sha256\": null,\n-      \"zenodo_doi\": null\n+      \"url\": \"https://zenodo.org/records/23303289/files/msg_all.tar.gz\",\n+      \"sha256\": \"f8665e6a3be019ddb6adaa5f87bc670634d4bb5965fdd3e583bd81918008463c\",\n+      \"zenodo_doi\": \"10.5281/zenodo.23303289\"\n     },\n     \"msg-compact\": {\n       \"description\": \"MassSpecGym portable training, validation and test feature caches\",\n       \"filename\": \"msg_compact.tar.gz\",\n-      \"url\": null,\n-      \"sha256\": null,\n-      \"zenodo_doi\": null\n+      \"url\": \"https://zenodo.org/records/23303289/files/msg_compact.tar.gz\",\n+      \"sha256\": \"a19e657a802cf5869d97b3486c7ce41021cba9c9a6279818e5d186307e3e7a35\",\n+      \"zenodo_doi\": \"10.5281/zenodo.23303289\"\n     },\n     \"msg-synthetic\": {\n       \"description\": \"MassSpecGym GLACIER synthetic training features (refined 4M molecules)\",\n       \"filename\": \"msg_synthetic.tar.gz\",\n-      \"url\": null,\n-      \"sha256\": null,\n-      \"zenodo_doi\": null\n+      \"url\": \"https://zenodo.org/records/23303289/files/msg_synthetic.tar.gz\",\n+      \"sha256\": \"24986a4964cd7f1eba93fc6f040de860dbd8e0dbae12fb795786874deb331acb\",\n+      \"zenodo_doi\": \"10.5281/zenodo.23303289\"\n     },\n     \"msg-noaug\": {\n       \"description\": \"MIST MassSpecGym real-only EMA checkpoint\",\n       \"filename\": \"mist_msg_noaug.ckpt\",\n-      \"url\": null,\n-      \"sha256\": null,\n-      \"zenodo_doi\": null\n+      \"url\": \"https://zenodo.org/records/23303289/files/mist_msg_noaug.ckpt\",\n+      \"sha256\": \"6f8df582df36aa4a984f120efee14ee0a62f3a7723caa770b856a6e704236727\",\n+      \"zenodo_doi\": \"10.5281/zenodo.23303289\"\n     },\n     \"msg-aug\": {\n       \"description\": \"MIST MassSpecGym synthetic-augmented EMA checkpoint\",\n       \"filename\": \"mist_msg_aug.ckpt\",\n-      \"url\": null,\n-      \"sha256\": null,\n-      \"zenodo_doi\": null\n+      \"url\": \"https://zenodo.org/records/23303289/files/mist_msg_aug.ckpt\",\n+      \"sha256\": \"9f251d772f68315ba6fe2dc75a3b2e1ec477d3f41ffbeaf5143749157b67b177\",\n+      \"zenodo_doi\": \"10.5281/zenodo.23303289\"\n     },\n     \"msg-glacier\": {\n       \"description\": \"GLACIER MassSpecGym checkpoint\",\n       \"filename\": \"glacier_msg.ckpt\",\n-      \"url\": null,\n-      \"sha256\": null,\n-      \"zenodo_doi\": null\n+      \"url\": \"https://zenodo.org/records/23303289/files/glacier_msg.ckpt\",\n+      \"sha256\": \"f43322c71802eafd1fe35886598df9b95649c9074a24d5fb5b84733159ea8fdb\",\n+      \"zenodo_doi\": \"10.5281/zenodo.23303289\"\n     },\n     \"canopus-source\": {\n       \"description\": \"CANOPUS processed spectra, formula assignments, labels and splits\",\n       \"filename\": \"canopus_all.tar.gz\",\n-      \"url\": null,\n-      \"sha256\": null,\n-      \"zenodo_doi\": null\n+      \"url\": \"https://zenodo.org/records/23303289/files/canopus_all.tar.gz\",\n+      \"sha256\": \"32bbe0206c80583feadea4f3b02db2115c74dc62fa030a8deba516b03d27d484\",\n+      \"zenodo_doi\": \"10.5281/zenodo.23303289\"\n     },\n     \"canopus-compact\": {\n       \"description\": \"CANOPUS portable training, validation and test feature caches\",\n       \"filename\": \"canopus_compact.tar.gz\",\n-      \"url\": null,\n-      \"sha256\": null,\n-      \"zenodo_doi\": null\n+      \"url\": \"https://zenodo.org/records/23303289/files/canopus_compact.tar.gz\",\n+      \"sha256\": \"a0f37bf096dccff22c706532c5ddbf841145f28a98173414fbf9f76b5d34dcb8\",\n+      \"zenodo_doi\": \"10.5281/zenodo.23303289\"\n     },\n     \"canopus-synthetic\": {\n       \"description\": \"CANOPUS GLACIER synthetic training features (random 2M molecules)\",\n       \"filename\": \"canopus_synthetic.tar.gz\",\n-      \"url\": null,\n-      \"sha256\": null,\n-      \"zenodo_doi\": null\n+      \"url\": \"https://zenodo.org/records/23303289/files/canopus_synthetic.tar.gz\",\n+      \"sha256\": \"6f9d795234cf7afd1c35f9542712617034c6338081fedc8c22a733106649980e\",\n+      \"zenodo_doi\": \"10.5281/zenodo.23303289\"\n     },\n     \"canopus-noaug\": {\n       \"description\": \"MIST CANOPUS real-only EMA checkpoint\",\n       \"filename\": \"mist_canopus_noaug.ckpt\",\n-      \"url\": null,\n-      \"sha256\": null,\n-      \"zenodo_doi\": null\n+      \"url\": \"https://zenodo.org/records/23303289/files/mist_canopus_noaug.ckpt\",\n+      \"sha256\": \"ff1f6897ca3b77eeed5ee17efc46ede61f80db0579bf028fffb85b86cb07752c\",\n+      \"zenodo_doi\": \"10.5281/zenodo.23303289\"\n     },\n     \"canopus-aug\": {\n       \"description\": \"MIST CANOPUS synthetic-augmented EMA checkpoint\",\n       \"filename\": \"mist_canopus_aug.ckpt\",\n-      \"url\": null,\n-      \"sha256\": null,\n-      \"zenodo_doi\": null\n+      \"url\": \"https://zenodo.org/records/23303289/files/mist_canopus_aug.ckpt\",\n+      \"sha256\": \"9fc6e6764938caff0033996ebc87b76b4e8e31d5a0368df42fa732c9f91f3195\",\n+      \"zenodo_doi\": \"10.5281/zenodo.23303289\"\n     },\n     \"canopus-glacier\": {\n       \"description\": \"GLACIER CANOPUS checkpoint\",\n       \"filename\": \"glacier_canopus.ckpt\",\n-      \"url\": null,\n-      \"sha256\": null,\n-      \"zenodo_doi\": null\n+      \"url\": \"https://zenodo.org/records/23303289/files/glacier_canopus.ckpt\",\n+      \"sha256\": \"0d6d9e13a40f29e12e13f7502ff6e8d9e02fb5039c82cb1663faa183532d623f\",\n+      \"zenodo_doi\": \"10.5281/zenodo.23303289\"\n     }\n   }\n }"
+    }
+  ]
+}

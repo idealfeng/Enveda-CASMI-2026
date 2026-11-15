@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-generation-expand-r3-1112",
+  "version": 1,
+  "actual_target": "stormseye/casmi26-generation-expand-r3-1112",
+  "branch_sha256": "050d14b8de01b6f98b55265ca4d311f5d8dcf6ae78037fa2522b4d512284deb5",
+  "notebook_sha256": "1f9a7119dd4fdb45e006c71bd89719646dd08723faf0737920e1b0fd658c73a9",
+  "checked_at_utc": "2026-11-12T11:32:44.663081+00:00",
+  "checks": {
+    "csv_schema_and_official_identities": true,
+    "version_source_private_offline": true,
+    "observer:batch_variant_audit.json": true,
+    "observer:guarded_tail_audit.json": true,
+    "observer:external_overlay_audit.json": true,
+    "observer:generation_variant_audit.json": true
+  },
+  "files": [
+    {
+      "name": "submission.csv",
+      "bytes": 153619,
+      "sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0"
+    },
+    {
+      "name": "batch_variant_audit.json",
+      "bytes": 1501,
+      "sha256": "2061f767b45750206a4e482971b383097810927e7a8a204eebf670a7890b0131"
+    },
+    {
+      "name": "guarded_tail_audit.json",
+      "bytes": 741,
+      "sha256": "9d10f93bc38eb6a4bb49415567ceb510ba9993c7f321ebbecff67fa84436f1bb"
+    },
+    {
+      "name": "external_overlay_audit.json",
+      "bytes": 863,
+      "sha256": "0baf0839f2e297d6d6d5e011a1e98aba5cab19e95e8e33ee44411d650c866d0b"
+    },
+    {
+      "name": "generation_variant_audit.json",
+      "bytes": 743,
+      "sha256": "87972a80375437af3bba356ca4ead51fcb9bb43f2e273225e4bbfab988c1cf30"
+    }
+  ],
+  "csv": {
+    "rows": 400,
+    "rdkit": "2026.03.3",
+    "duplicate_identity_rows": []
+  },
+  "submission_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "total_bytes": 157467,
+  "validation_mode": "fast_static",
+  "scope": "fast_static_no_visible_model_execution",
+  "signed_urls_persisted": false,
+  "read_only": true,
+  "competition_submission_performed": false
+}

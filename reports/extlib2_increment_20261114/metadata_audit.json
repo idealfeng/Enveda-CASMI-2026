@@ -1,0 +1,149 @@
+{
+  "status": "metadata_complete_canonical_pending",
+  "created_at_utc": "2026-11-14T14:31:12.342226+00:00",
+  "metric_rdkit": "2026.03.3",
+  "sources": {
+    "C_rows": 490840,
+    "A_production_rows": 200724,
+    "B_physical_rows": 139744,
+    "B_production_rows": 124160,
+    "official_train_rows": 2539608,
+    "train_raw_keys": 275810,
+    "train_raw_smiles": 277566,
+    "train_unique_pairs": 277566
+  },
+  "publisher_key_overlap": {
+    "C_keys": 62782,
+    "AB_keys": 167441,
+    "C_keys_missing_AB": 49408,
+    "C_keys_missing_train": 1397,
+    "C_keys_missing_both": 115,
+    "C_rows_missing_AB": 293584,
+    "C_rows_missing_train": 6391
+  },
+  "exact_smiles_overlap": {
+    "C_unique_smiles": 68872,
+    "AB_unique_smiles": 172418,
+    "C_smiles_missing_AB": 54770,
+    "C_smiles_missing_train": 21906
+  },
+  "by_source_raw_train_membership": [
+    {
+      "source": "GNPS2",
+      "membership": "raw_key_in_train",
+      "rows": 430351
+    },
+    {
+      "source": "GNPS2",
+      "membership": "raw_key_missing_train",
+      "rows": 1870
+    },
+    {
+      "source": "MSnLib",
+      "membership": "raw_key_in_train",
+      "rows": 14117
+    },
+    {
+      "source": "MSnLib",
+      "membership": "raw_key_missing_train",
+      "rows": 22
+    },
+    {
+      "source": "MassBank",
+      "membership": "raw_key_in_train",
+      "rows": 39981
+    },
+    {
+      "source": "MassBank",
+      "membership": "raw_key_missing_train",
+      "rows": 4499
+    }
+  ],
+  "by_adduct_raw_train_membership": [
+    {
+      "adduct": "[M+CH2O2-H]-",
+      "membership": "raw_key_in_train",
+      "rows": 944
+    },
+    {
+      "adduct": "[M+Cl]-",
+      "membership": "raw_key_in_train",
+      "rows": 3843
+    },
+    {
+      "adduct": "[M+Cl]-",
+      "membership": "raw_key_missing_train",
+      "rows": 1
+    },
+    {
+      "adduct": "[M+H]+",
+      "membership": "raw_key_in_train",
+      "rows": 347685
+    },
+    {
+      "adduct": "[M+H]+",
+      "membership": "raw_key_missing_train",
+      "rows": 4784
+    },
+    {
+      "adduct": "[M+K]+",
+      "membership": "raw_key_in_train",
+      "rows": 14
+    },
+    {
+      "adduct": "[M+NH4]+",
+      "membership": "raw_key_in_train",
+      "rows": 5219
+    },
+    {
+      "adduct": "[M+NH4]+",
+      "membership": "raw_key_missing_train",
+      "rows": 12
+    },
+    {
+      "adduct": "[M+Na]+",
+      "membership": "raw_key_in_train",
+      "rows": 1429
+    },
+    {
+      "adduct": "[M+Na]+",
+      "membership": "raw_key_missing_train",
+      "rows": 1
+    },
+    {
+      "adduct": "[M-2H2O+H]+",
+      "membership": "raw_key_in_train",
+      "rows": 530
+    },
+    {
+      "adduct": "[M-H2O+H]+",
+      "membership": "raw_key_in_train",
+      "rows": 2373
+    },
+    {
+      "adduct": "[M-H2O+H]+",
+      "membership": "raw_key_missing_train",
+      "rows": 8
+    },
+    {
+      "adduct": "[M-H2O-H]-",
+      "membership": "raw_key_in_train",
+      "rows": 2
+    },
+    {
+      "adduct": "[M-H]-",
+      "membership": "raw_key_in_train",
+      "rows": 122410
+    },
+    {
+      "adduct": "[M-H]-",
+      "membership": "raw_key_missing_train",
+      "rows": 1585
+    }
+  ],
+  "limitations": [
+    "Publisher InChIKey14/raw-SMILES absence is not official metric-identity absence.",
+    "No hidden-test query or truth loaded; counts are corpus increments, not recall or score."
+  ],
+  "seconds": 25.163
+}

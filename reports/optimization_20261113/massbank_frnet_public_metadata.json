@@ -1,0 +1,100 @@
+{
+  "ref": "agentili/casmi26-fr-reranker-blend",
+  "title": "casmi26-fr-reranker-blend",
+  "subtitle": "",
+  "total_bytes": 3156612,
+  "is_private": false,
+  "license_name": "Other (specified in description)",
+  "description": "",
+  "current_version_number": 2,
+  "last_updated": "2026-11-11 19:12:32.147000",
+  "files": [
+    {
+      "name": "domain_class_priors.py",
+      "bytes": 10439
+    },
+    {
+      "name": "fr_config.json",
+      "bytes": 258
+    },
+    {
+      "name": "fr_model.pt",
+      "bytes": 3100917
+    },
+    {
+      "name": "fr_selftest.json",
+      "bytes": 264
+    },
+    {
+      "name": "fragfeat.py",
+      "bytes": 12928
+    },
+    {
+      "name": "harmonized_fr_blend.py",
+      "bytes": 20196
+    },
+    {
+      "name": "model.py",
+      "bytes": 6830
+    },
+    {
+      "name": "test_domain_class_priors.py",
+      "bytes": 4780
+    }
+  ],
+  "read_at_utc": "2026-11-13T11:52:15.291096+00:00",
+  "downloaded_code": [
+    {
+      "name": "domain_class_priors.py",
+      "bytes": 10439,
+      "sha256": "7dda438c6e5403c95df98bb84ab92065ead5a57e6384bf1972c3e11fb78ef18f",
+      "state": "downloaded",
+      "path": "assets/kaggle/agentili/casmi26-fr-reranker-blend/v2/domain_class_priors.py"
+    },
+    {
+      "name": "fr_config.json",
+      "bytes": 258,
+      "sha256": "e39e93ec05f87f31ffbe4982efaa043cd9ccbf64c0aeff285bc83427a3260efe",
+      "state": "downloaded",
+      "path": "assets/kaggle/agentili/casmi26-fr-reranker-blend/v2/fr_config.json"
+    },
+    {
+      "name": "fr_selftest.json",
+      "bytes": 264,
+      "sha256": "001d6a14f420307c16e375bb1609661a82d5521e44861ebb39078ace80730f16",
+      "state": "downloaded",
+      "path": "assets/kaggle/agentili/casmi26-fr-reranker-blend/v2/fr_selftest.json"
+    },
+    {
+      "name": "fragfeat.py",
+      "bytes": 12928,
+      "sha256": "7b54023d89617fafebbd052e500dba30a7825d8e6893e8bf6567fe11ab7f8ecf",
+      "state": "downloaded",
+      "path": "assets/kaggle/agentili/casmi26-fr-reranker-blend/v2/fragfeat.py"
+    },
+    {
+      "name": "harmonized_fr_blend.py",
+      "bytes": 20196,
+      "sha256": "d2770a6962aa1b2d0c5d680742498245809a844eca0ab68f2e6fdd099c0a6474",
+      "state": "downloaded",
+      "path": "assets/kaggle/agentili/casmi26-fr-reranker-blend/v2/harmonized_fr_blend.py"
+    },
+    {
+      "name": "model.py",
+      "bytes": 6830,
+      "sha256": "b6276a285903181455df40bfe1215788f31f3ed6466066152efa68d2f21f596d",
+      "state": "downloaded",
+      "path": "assets/kaggle/agentili/casmi26-fr-reranker-blend/v2/model.py"
+    },
+    {
+      "name": "test_domain_class_priors.py",
+      "bytes": 4780,
+      "sha256": "8b5ae96886b4df4b7bef8f59f5bcb9a6346efc9771444af3cd18c0e6524980b8",
+      "state": "downloaded",
+      "path": "assets/kaggle/agentili/casmi26-fr-reranker-blend/v2/test_domain_class_priors.py"
+    }
+  ],
+  "weights_downloaded": false,
+  "code_executed": false,
+  "signed_urls_persisted": false
+}

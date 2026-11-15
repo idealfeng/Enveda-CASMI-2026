@@ -1,0 +1,24 @@
+{
+  "checked_at_utc": "2026-11-13T13:44:16.375893+00:00",
+  "complete": true,
+  "owned_count": 70,
+  "candidates": [
+    {
+      "ref": "stormseye/casmi26-mean-tail-with-ab-1113",
+      "title": "CASMI26 mean tail with AB 1113"
+    },
+    {
+      "ref": "stormseye/casmi26-spectral-network-explore-1113",
+      "title": "CASMI26 spectral network explore 1113"
+    },
+    {
+      "ref": "stormseye/casmi26-gen-budget-only-1113",
+      "title": "CASMI26 gen budget only 1113"
+    },
+    {
+      "ref": "stormseye/casmi26-gen-noiso-only-1113",
+      "title": "CASMI26 gen noiso only 1113"
+    }
+  ],
+  "read_only": true
+}

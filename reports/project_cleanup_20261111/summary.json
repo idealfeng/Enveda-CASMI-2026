@@ -1,0 +1,25 @@
+{
+  "completed_at_utc": "2026-11-11T03:34:28.845074+00:00",
+  "deleted_files": 446,
+  "deleted_bytes": 6339905785,
+  "deleted_gib": 5.904,
+  "protected_files_verified_unchanged": 325,
+  "model_files_indexed": 54,
+  "submission_refs_indexed": 26,
+  "disk_free_gib": 125.51,
+  "no_model_or_experiment_paths_moved": true,
+  "cache_scope": "pip-linux HTTP cache and tmp-linux/pip-* files older than24h",
+  "installer_checks": {
+    "windows_active": 0,
+    "wsl_active": 0
+  },
+  "verification": {
+    "model_index": "passed",
+    "protected_hashes": "passed",
+    "local_doc_links": "passed",
+    "windows_rdkit_sdk_import": "passed",
+    "submission_score_semantics": "passed"
+  },
+  "entrypoint": "PROJECT_INDEX.md",
+  "cache_sizes_are_logical_not_actual_disk_release": true
+}

@@ -1,0 +1,1329 @@
+{
+  "status": "completed_read_only_checkpoint_tensor_audit",
+  "checkpoint_sha256": "6f8df582df36aa4a984f120efee14ee0a62f3a7723caa770b856a6e704236727",
+  "checkpoint_step": 30000,
+  "checkpoint_kind": "mist_ema_release",
+  "source_checkpoint_sha256": "e18787dc131ff9cc8dfcfae46a4c37844c55983ac4ad42df7a4e529c7bc2886c",
+  "tensors": 85,
+  "all_zero_tensors": [],
+  "tensor_stats": [
+    {
+      "name": "encoder.instrument_embedder",
+      "shape": [
+        6,
+        6
+      ],
+      "elements": 36,
+      "finite": true,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.1666666716337204,
+      "std": 0.3726779818534851,
+      "l2": 2.4494898319244385,
+      "all_zero": false,
+      "zeros": 30
+    },
+    {
+      "name": "encoder.form_embedder_mod._extra_embeddings",
+      "shape": [
+        1,
+        9
+      ],
+      "elements": 9,
+      "finite": true,
+      "min": -1.3817981481552124,
+      "max": 1.7131385803222656,
+      "mean": 0.026500053703784943,
+      "std": 0.8828193545341492,
+      "l2": 2.649651288986206,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.form_embedder_mod.int_to_feat_matrix",
+      "shape": [
+        255,
+        9
+      ],
+      "elements": 2295,
+      "finite": true,
+      "min": 0.0,
+      "max": 2.0,
+      "mean": 1.001135230064392,
+      "std": 0.7446817755699158,
+      "l2": 59.773807525634766,
+      "all_zero": false,
+      "zeros": 256
+    },
+    {
+      "name": "encoder.intermediate_layer.input_layer.weight",
+      "shape": [
+        1024,
+        343
+      ],
+      "elements": 351232,
+      "finite": true,
+      "min": -0.0588795468211174,
+      "max": 0.06092352792620659,
+      "mean": 6.285130803007632e-05,
+      "std": 0.031199956312775612,
+      "l2": 18.4905948638916,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.intermediate_layer.input_layer.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.05421440675854683,
+      "max": 0.05436241254210472,
+      "mean": 0.00047821892076171935,
+      "std": 0.03119424544274807,
+      "l2": 0.9983331561088562,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.intermediate_layer.layers.0.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "elements": 1048576,
+      "finite": true,
+      "min": -0.03756879270076752,
+      "max": 0.03792411461472511,
+      "mean": 1.1094968613178935e-05,
+      "std": 0.01804705522954464,
+      "l2": 18.480026245117188,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.intermediate_layer.layers.0.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.03175811842083931,
+      "max": 0.03180054575204849,
+      "mean": 0.0008401023806072772,
+      "std": 0.018256807699799538,
+      "l2": 0.5848360061645508,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.pairwise_featurizer.input_layer.weight",
+      "shape": [
+        1024,
+        162
+      ],
+      "elements": 165888,
+      "finite": true,
+      "min": -0.09953929483890533,
+      "max": 0.10380084067583084,
+      "mean": -0.00020009868603665382,
+      "std": 0.04533151909708977,
+      "l2": 18.463417053222656,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.pairwise_featurizer.input_layer.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.08741192519664764,
+      "max": 0.08886813372373581,
+      "mean": -0.0015104357153177261,
+      "std": 0.04558528587222099,
+      "l2": 1.4595296382904053,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.pairwise_featurizer.layers.0.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "elements": 1048576,
+      "finite": true,
+      "min": -0.05254751443862915,
+      "max": 0.056802570819854736,
+      "mean": -8.188403444364667e-05,
+      "std": 0.018239358440041542,
+      "l2": 18.677120208740234,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.pairwise_featurizer.layers.0.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.04535640403628349,
+      "max": 0.04554513841867447,
+      "mean": -0.0009722030954435468,
+      "std": 0.01879747398197651,
+      "l2": 0.6023231744766235,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.0.self_attn.bias_u",
+      "shape": [
+        16,
+        64
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.0017777865286916494,
+      "max": 0.002260718261823058,
+      "mean": -4.206610810797429e-06,
+      "std": 0.0005413489998318255,
+      "l2": 0.01732369139790535,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.0.self_attn.bias_v",
+      "shape": [
+        16,
+        64
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.0012920624576508999,
+      "max": 0.002135327784344554,
+      "mean": 0.00021395071235019714,
+      "std": 0.0004644225409720093,
+      "l2": 0.016362709924578667,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.0.self_attn.in_proj_weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "elements": 3145728,
+      "finite": true,
+      "min": -0.04960201308131218,
+      "max": 0.04737190529704094,
+      "mean": -1.9505780528561445e-06,
+      "std": 0.0220924224704504,
+      "l2": 39.18182373046875,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.0.self_attn.in_proj_bias",
+      "shape": [
+        3072
+      ],
+      "elements": 3072,
+      "finite": true,
+      "min": -0.00174904300365597,
+      "max": 0.0016233922215178609,
+      "mean": 4.8254809371428564e-05,
+      "std": 0.00037424167385324836,
+      "l2": 0.020914295688271523,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.0.self_attn.out_proj.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "elements": 1048576,
+      "finite": true,
+      "min": -0.03458882123231888,
+      "max": 0.03452889621257782,
+      "mean": -1.8876391550293192e-05,
+      "std": 0.018045471981167793,
+      "l2": 18.478435516357422,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.0.self_attn.out_proj.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.0017610128270462155,
+      "max": 0.0013726287288591266,
+      "mean": -6.117718839959707e-06,
+      "std": 0.00049092888366431,
+      "l2": 0.015710944309830666,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.0.linear1.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "elements": 4194304,
+      "finite": true,
+      "min": -0.04098080098628998,
+      "max": 0.041477493941783905,
+      "mean": -1.727806193230208e-05,
+      "std": 0.01805652678012848,
+      "l2": 36.97701644897461,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.0.linear1.bias",
+      "shape": [
+        4096
+      ],
+      "elements": 4096,
+      "finite": true,
+      "min": -0.03178520128130913,
+      "max": 0.033384088426828384,
+      "mean": 0.00035928143188357353,
+      "std": 0.018208637833595276,
+      "l2": 1.1655796766281128,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.0.linear2.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "elements": 4194304,
+      "finite": true,
+      "min": -0.03330693021416664,
+      "max": 0.03495697304606438,
+      "mean": 4.17559112975141e-06,
+      "std": 0.009044196456670761,
+      "l2": 18.52117347717285,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.0.linear2.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.016283243894577026,
+      "max": 0.016737503930926323,
+      "mean": 0.0006383836735039949,
+      "std": 0.009046199731528759,
+      "l2": 0.29019829630851746,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.0.norm1.weight",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": 0.9978013634681702,
+      "max": 1.004549264907837,
+      "mean": 0.9999728202819824,
+      "std": 0.0005965241580270231,
+      "l2": 31.999134063720703,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.0.norm1.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.002258153399452567,
+      "max": 0.0015693161403760314,
+      "mean": -3.970371381001314e-06,
+      "std": 0.0005613116081804037,
+      "l2": 0.017962422221899033,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.0.norm2.weight",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": 0.9977982640266418,
+      "max": 1.0053880214691162,
+      "mean": 0.9999699592590332,
+      "std": 0.0007778591243550181,
+      "l2": 31.999046325683594,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.0.norm2.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.0028233067132532597,
+      "max": 0.0018545209895819426,
+      "mean": -3.4951374345837394e-06,
+      "std": 0.0006701473030261695,
+      "l2": 0.021445007994771004,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.1.self_attn.bias_u",
+      "shape": [
+        16,
+        64
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.0011958280811086297,
+      "max": 0.0011618207208812237,
+      "mean": -1.6843327102833427e-05,
+      "std": 0.0004040527273900807,
+      "l2": 0.012940917164087296,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.1.self_attn.bias_v",
+      "shape": [
+        16,
+        64
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.002992597408592701,
+      "max": 0.0018039458664134145,
+      "mean": 0.00012080298620276153,
+      "std": 0.000422808836447075,
+      "l2": 0.014071295037865639,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.1.self_attn.in_proj_weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "elements": 3145728,
+      "finite": true,
+      "min": -0.04517510533332825,
+      "max": 0.04316280782222748,
+      "mean": -1.2660110769502353e-05,
+      "std": 0.02209591120481491,
+      "l2": 39.1878662109375,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.1.self_attn.in_proj_bias",
+      "shape": [
+        3072
+      ],
+      "elements": 3072,
+      "finite": true,
+      "min": -0.002619040198624134,
+      "max": 0.002220899099484086,
+      "mean": -4.018445451947628e-06,
+      "std": 0.0004477038455661386,
+      "l2": 0.024815265089273453,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.1.self_attn.out_proj.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "elements": 1048576,
+      "finite": true,
+      "min": -0.03755390644073486,
+      "max": 0.03682449460029602,
+      "mean": -1.911239633045625e-05,
+      "std": 0.018062619492411613,
+      "l2": 18.495956420898438,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.1.self_attn.out_proj.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.0027410469483584166,
+      "max": 0.0020159361883997917,
+      "mean": -5.3541912166110706e-06,
+      "std": 0.0006889679934829473,
+      "l2": 0.02204764075577259,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.1.linear1.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "elements": 4194304,
+      "finite": true,
+      "min": -0.0446552112698555,
+      "max": 0.044263821095228195,
+      "mean": -1.4184465726430062e-05,
+      "std": 0.018094439059495926,
+      "l2": 37.054683685302734,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.1.linear1.bias",
+      "shape": [
+        4096
+      ],
+      "elements": 4096,
+      "finite": true,
+      "min": -0.033350154757499695,
+      "max": 0.03988594189286232,
+      "mean": 0.0004219592083245516,
+      "std": 0.018244843930006027,
+      "l2": 1.1679821014404297,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.1.linear2.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "elements": 4194304,
+      "finite": true,
+      "min": -0.046571966260671616,
+      "max": 0.049600280821323395,
+      "mean": 6.631313226534985e-06,
+      "std": 0.009172603487968445,
+      "l2": 18.784109115600586,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.1.linear2.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.01760150119662285,
+      "max": 0.017388097941875458,
+      "mean": 0.0006354403449222445,
+      "std": 0.009091374464333057,
+      "l2": 0.2916337549686432,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.1.norm1.weight",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": 0.9972402453422546,
+      "max": 1.007794976234436,
+      "mean": 1.0000083446502686,
+      "std": 0.001091547659598291,
+      "l2": 32.00028991699219,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.1.norm1.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.0034576174803078175,
+      "max": 0.0027591113466769457,
+      "mean": -8.327254363393877e-06,
+      "std": 0.000887758971657604,
+      "l2": 0.028409535065293312,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.1.norm2.weight",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": 0.9932031035423279,
+      "max": 1.010650396347046,
+      "mean": 0.9999454617500305,
+      "std": 0.001874188077636063,
+      "l2": 31.998310089111328,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.1.norm2.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.005296984687447548,
+      "max": 0.0046149492263793945,
+      "mean": -3.61404636350926e-05,
+      "std": 0.0015077301068231463,
+      "l2": 0.04826122522354126,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.2.self_attn.bias_u",
+      "shape": [
+        16,
+        64
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.001080056419596076,
+      "max": 0.0011008998844772577,
+      "mean": -1.564448029967025e-05,
+      "std": 0.00039118871791288257,
+      "l2": 0.01252804510295391,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.2.self_attn.bias_v",
+      "shape": [
+        16,
+        64
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.004763786215335131,
+      "max": 0.0019172069150954485,
+      "mean": 7.654864020878449e-05,
+      "std": 0.0005608913488686085,
+      "l2": 0.018114903941750526,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.2.self_attn.in_proj_weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "elements": 3145728,
+      "finite": true,
+      "min": -0.05251067131757736,
+      "max": 0.05141062289476395,
+      "mean": -1.3039772056799848e-05,
+      "std": 0.02211432158946991,
+      "l2": 39.220584869384766,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.2.self_attn.in_proj_bias",
+      "shape": [
+        3072
+      ],
+      "elements": 3072,
+      "finite": true,
+      "min": -0.005731974262744188,
+      "max": 0.00466204434633255,
+      "mean": -1.8168257156503387e-05,
+      "std": 0.0008910443284548819,
+      "l2": 0.049396954476833344,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.2.self_attn.out_proj.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "elements": 1048576,
+      "finite": true,
+      "min": -0.05138363316655159,
+      "max": 0.04873272776603699,
+      "mean": -1.923593481478747e-05,
+      "std": 0.018234478309750557,
+      "l2": 18.67193031311035,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.2.self_attn.out_proj.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.005999831482768059,
+      "max": 0.005309124477207661,
+      "mean": 5.575639079324901e-07,
+      "std": 0.0015152995474636555,
+      "l2": 0.048489589244127274,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.2.linear1.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "elements": 4194304,
+      "finite": true,
+      "min": -0.06878089904785156,
+      "max": 0.06759973615407944,
+      "mean": -1.4288820239016786e-05,
+      "std": 0.01829143613576889,
+      "l2": 37.45806884765625,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.2.linear1.bias",
+      "shape": [
+        4096
+      ],
+      "elements": 4096,
+      "finite": true,
+      "min": -0.03546695038676262,
+      "max": 0.052447229623794556,
+      "mean": 8.455505303572863e-05,
+      "std": 0.01842973381280899,
+      "l2": 1.1795153617858887,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.2.linear2.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "elements": 4194304,
+      "finite": true,
+      "min": -0.07210187613964081,
+      "max": 0.06406541168689728,
+      "mean": -5.3872754506301135e-06,
+      "std": 0.010817568749189377,
+      "l2": 22.1528377532959,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.2.linear2.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.025055814534425735,
+      "max": 0.026892388239502907,
+      "mean": 0.0006456246483139694,
+      "std": 0.009905729442834854,
+      "l2": 0.31765592098236084,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.2.norm1.weight",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": 0.9822304248809814,
+      "max": 1.0244972705841064,
+      "mean": 1.0000947713851929,
+      "std": 0.004355203825980425,
+      "l2": 32.00333786010742,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.2.norm1.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.011950830928981304,
+      "max": 0.012091916054487228,
+      "mean": 3.487639332888648e-06,
+      "std": 0.00333911064080894,
+      "l2": 0.10685160011053085,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.2.norm2.weight",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": 0.9420866966247559,
+      "max": 1.0683281421661377,
+      "mean": 1.0020374059677124,
+      "std": 0.02404564432799816,
+      "l2": 32.07442855834961,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.2.norm2.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.04873666912317276,
+      "max": 0.04894128814339638,
+      "mean": -0.00028748580371029675,
+      "std": 0.022116655483841896,
+      "l2": 0.7077927589416504,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.3.self_attn.bias_u",
+      "shape": [
+        16,
+        64
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.03235338628292084,
+      "max": 0.03222544491291046,
+      "mean": -9.721423703012988e-05,
+      "std": 0.00900464877486229,
+      "l2": 0.28816553950309753,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.3.self_attn.bias_v",
+      "shape": [
+        16,
+        64
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.020609192550182343,
+      "max": 0.02563447318971157,
+      "mean": 0.00043098197784274817,
+      "std": 0.004483180586248636,
+      "l2": 0.1441231518983841,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.3.self_attn.in_proj_weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "elements": 3145728,
+      "finite": true,
+      "min": -0.09822572767734528,
+      "max": 0.1024494469165802,
+      "mean": -1.345221244264394e-05,
+      "std": 0.025040682405233383,
+      "l2": 44.41107940673828,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.3.self_attn.in_proj_bias",
+      "shape": [
+        3072
+      ],
+      "elements": 3072,
+      "finite": true,
+      "min": -0.04858069494366646,
+      "max": 0.04566267505288124,
+      "mean": -0.0001059144560713321,
+      "std": 0.013390184380114079,
+      "l2": 0.7421826124191284,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.3.self_attn.out_proj.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "elements": 1048576,
+      "finite": true,
+      "min": -0.1255706250667572,
+      "max": 0.13331599533557892,
+      "mean": -2.5667532099760137e-05,
+      "std": 0.037915490567684174,
+      "l2": 38.8250732421875,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.3.self_attn.out_proj.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.02143263630568981,
+      "max": 0.021770216524600983,
+      "mean": 8.616771083325148e-06,
+      "std": 0.012913132086396217,
+      "l2": 0.4132203161716461,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.3.linear1.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "elements": 4194304,
+      "finite": true,
+      "min": -0.616806149482727,
+      "max": 0.6113100647926331,
+      "mean": -5.842438986292109e-05,
+      "std": 0.05619991198182106,
+      "l2": 115.07402038574219,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.3.linear1.bias",
+      "shape": [
+        4096
+      ],
+      "elements": 4096,
+      "finite": true,
+      "min": -0.0583186112344265,
+      "max": 0.5350326895713806,
+      "mean": 0.012072060257196426,
+      "std": 0.06107865646481514,
+      "l2": 3.9846549034118652,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.3.linear2.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "elements": 4194304,
+      "finite": true,
+      "min": -1.739690899848938,
+      "max": 1.809934377670288,
+      "mean": -9.529537055641413e-05,
+      "std": 0.06381643563508987,
+      "l2": 130.64959716796875,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.3.linear2.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.471143901348114,
+      "max": 0.4810732305049896,
+      "mean": 0.0005200564628466964,
+      "std": 0.055037133395671844,
+      "l2": 1.761266827583313,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.3.norm1.weight",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": 0.85956209897995,
+      "max": 1.1566895246505737,
+      "mean": 1.0169947147369385,
+      "std": 0.05833110958337784,
+      "l2": 32.597312927246094,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.3.norm1.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.12769460678100586,
+      "max": 0.11724118888378143,
+      "mean": -0.0009105687495321035,
+      "std": 0.056662704795598984,
+      "l2": 1.8134407997131348,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.3.norm2.weight",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.015023297630250454,
+      "max": 0.6399250626564026,
+      "mean": 0.21152037382125854,
+      "std": 0.19187574088573456,
+      "l2": 9.138628959655762,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "encoder.peak_attn_layers.3.norm2.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.5618605017662048,
+      "max": 0.5447198748588562,
+      "mean": -0.0017341990023851395,
+      "std": 0.09834498912096024,
+      "l2": 3.147528886795044,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "decoder.initial_predict.0.weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "elements": 262144,
+      "finite": true,
+      "min": -0.3609362840652466,
+      "max": 0.3349790871143341,
+      "mean": 0.0004226088640280068,
+      "std": 0.03241364657878876,
+      "l2": 16.59717559814453,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "decoder.initial_predict.0.bias",
+      "shape": [
+        256
+      ],
+      "elements": 256,
+      "finite": true,
+      "min": -0.2162233591079712,
+      "max": 0.29946428537368774,
+      "mean": -0.11045601963996887,
+      "std": 0.06579960137605667,
+      "l2": 2.057112216949463,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "decoder.predict_bricks.0.0.weight",
+      "shape": [
+        512,
+        256
+      ],
+      "elements": 131072,
+      "finite": true,
+      "min": -0.34823310375213623,
+      "max": 0.3310534656047821,
+      "mean": -0.04468144476413727,
+      "std": 0.07843935489654541,
+      "l2": 32.68220138549805,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "decoder.predict_bricks.0.0.bias",
+      "shape": [
+        512
+      ],
+      "elements": 512,
+      "finite": true,
+      "min": -0.24881324172019958,
+      "max": 0.23205970227718353,
+      "mean": -0.0783381462097168,
+      "std": 0.05533958598971367,
+      "l2": 2.170267105102539,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "decoder.predict_bricks.1.0.weight",
+      "shape": [
+        1024,
+        512
+      ],
+      "elements": 524288,
+      "finite": true,
+      "min": -0.47475287318229675,
+      "max": 0.47898003458976746,
+      "mean": -0.01657857373356819,
+      "std": 0.0843609869480133,
+      "l2": 62.25187683105469,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "decoder.predict_bricks.1.0.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.22592023015022278,
+      "max": 0.3544580936431885,
+      "mean": -0.11601351201534271,
+      "std": 0.06623931974172592,
+      "l2": 4.274939060211182,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "decoder.predict_bricks.2.0.weight",
+      "shape": [
+        2048,
+        1024
+      ],
+      "elements": 2097152,
+      "finite": true,
+      "min": -0.45196589827537537,
+      "max": 0.41556286811828613,
+      "mean": -0.08043020963668823,
+      "std": 0.06232868880033493,
+      "l2": 147.353271484375,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "decoder.predict_bricks.2.0.bias",
+      "shape": [
+        2048
+      ],
+      "elements": 2048,
+      "finite": true,
+      "min": -0.28631922602653503,
+      "max": 0.32528072595596313,
+      "mean": -0.14261141419410706,
+      "std": 0.05355307459831238,
+      "l2": 6.893894195556641,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "decoder.predict_bricks.3.0.weight",
+      "shape": [
+        4096,
+        2048
+      ],
+      "elements": 8388608,
+      "finite": true,
+      "min": -0.7326050400733948,
+      "max": 0.598409116268158,
+      "mean": -0.020055105909705162,
+      "std": 0.037288762629032135,
+      "l2": 122.5754165649414,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "decoder.predict_bricks.3.0.bias",
+      "shape": [
+        4096
+      ],
+      "elements": 4096,
+      "finite": true,
+      "min": -0.3033010959625244,
+      "max": 0.3931593596935272,
+      "mean": -0.1737571358680725,
+      "std": 0.06076940894126892,
+      "l2": 11.7809476852417,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "decoder.gate_bricks.0.0.weight",
+      "shape": [
+        512,
+        1024
+      ],
+      "elements": 524288,
+      "finite": true,
+      "min": -0.31734755635261536,
+      "max": 0.3179975152015686,
+      "mean": -0.0002203183830715716,
+      "std": 0.048812929540872574,
+      "l2": 35.34455490112305,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "decoder.gate_bricks.0.0.bias",
+      "shape": [
+        512
+      ],
+      "elements": 512,
+      "finite": true,
+      "min": -0.09641407430171967,
+      "max": 0.2892161011695862,
+      "mean": 0.08558131754398346,
+      "std": 0.09169509261846542,
+      "l2": 2.838108777999878,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "decoder.gate_bricks.1.0.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "elements": 1048576,
+      "finite": true,
+      "min": -0.36194726824760437,
+      "max": 0.382086843252182,
+      "mean": 0.0002216318534919992,
+      "std": 0.0472201444208622,
+      "l2": 48.35332489013672,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "decoder.gate_bricks.1.0.bias",
+      "shape": [
+        1024
+      ],
+      "elements": 1024,
+      "finite": true,
+      "min": -0.17764459550380707,
+      "max": 0.37335875630378723,
+      "mean": -0.016137748956680298,
+      "std": 0.10060157626867294,
+      "l2": 3.260406494140625,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "decoder.gate_bricks.2.0.weight",
+      "shape": [
+        2048,
+        1024
+      ],
+      "elements": 2097152,
+      "finite": true,
+      "min": -0.3398255705833435,
+      "max": 0.3400401473045349,
+      "mean": -0.00031592074083164334,
+      "std": 0.04961036518216133,
+      "l2": 71.8419418334961,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "decoder.gate_bricks.2.0.bias",
+      "shape": [
+        2048
+      ],
+      "elements": 2048,
+      "finite": true,
+      "min": -0.3006555140018463,
+      "max": 0.28289759159088135,
+      "mean": -0.08835522085428238,
+      "std": 0.11272173374891281,
+      "l2": 6.481534004211426,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "decoder.gate_bricks.3.0.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "elements": 4194304,
+      "finite": true,
+      "min": -0.6116174459457397,
+      "max": 0.7155615091323853,
+      "mean": 0.00015877262922003865,
+      "std": 0.05529389902949333,
+      "l2": 113.22325134277344,
+      "all_zero": false,
+      "zeros": 0
+    },
+    {
+      "name": "decoder.gate_bricks.3.0.bias",
+      "shape": [
+        4096
+      ],
+      "elements": 4096,
+      "finite": true,
+      "min": -0.3236779570579529,
+      "max": 0.34790700674057007,
+      "mean": -0.1769198179244995,
+      "std": 0.09706825762987137,
+      "l2": 12.915142059326172,
+      "all_zero": false,
+      "zeros": 0
+    }
+  ],
+  "seconds": 3.754653883000003,
+  "model_forward_executed": false,
+  "new_training": false
+}

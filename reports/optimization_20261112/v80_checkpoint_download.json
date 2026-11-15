@@ -1,0 +1,38 @@
+{
+  "read_only": true,
+  "total_new_bytes": 0,
+  "files": [
+    {
+      "file": "casmi_spectrum_model_ours_v80/best_validation_model.pt",
+      "status": "already_present",
+      "bytes": 11873492,
+      "sha256": "f7e2383fe5fc0cc85e7333d308bc7201144574f2eef6b59000570d171e0758a7"
+    },
+    {
+      "file": "casmi_spectrum_model_ours_v80/last_validation_model.pt",
+      "status": "already_present",
+      "bytes": 11873492,
+      "sha256": "2ff863e7e8d1d17155e4bde38737b1d839299714dc18d5ccd233deb5ba9bca0b"
+    },
+    {
+      "file": "casmi_spectrum_model_ours_v80/model.py",
+      "status": "already_present",
+      "bytes": 1577,
+      "sha256": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39"
+    },
+    {
+      "file": "casmi_spectrum_model_ours_v80/features.py",
+      "status": "already_present",
+      "bytes": 2356,
+      "sha256": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455"
+    }
+  ],
+  "author_third_checkpoint": {
+    "ref": "ozertuu/casmi26-our-scorer-v80-model",
+    "status": "unavailable",
+    "error_type": "HTTPError",
+    "http_status": 403
+  },
+  "no_model_executed": true,
+  "no_cloud_write": true
+}

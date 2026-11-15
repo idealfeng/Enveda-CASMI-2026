@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-bestval-v80-tri-1112",
+  "version": 1,
+  "branch_sha256": "a40fc2e8baa1b47c498bb036db24bd26be5fe6843aa03c03b80e8d1e035faa50",
+  "notebook_sha256": "e1d732f2a4e1aab9a5ecda2d849176039636f4fb58c743f2eeee7e1a5e224681",
+  "metadata_sha256": "926c618320042f5a7dbe31780540ba4a678a895d7fe8ce1d26c96e3c90e86e5f",
+  "requested_at_utc": "2026-11-12T06:30:09.245362+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-12T06:30:16.056693+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

@@ -1,0 +1,102 @@
+{
+  "status": "applied",
+  "mode": "hidden_full",
+  "control_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416",
+  "base_audit_csv_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416",
+  "original_function_sha256": "9ceaa95ddda0fb304758c9acd7dd1f256c528fcb4a8304c0152f8b6d8e3e3e76",
+  "library_matching_performed": true,
+  "algorithm": "Alex V12 original TAU=.80, four matched peaks, existing library>=.90 protected; official identity validity guard",
+  "libraries": {
+    "ext_meta.parquet": {
+      "path": "/kaggle/input/casmi26-extlib/ext_meta.parquet",
+      "bytes": 7120766,
+      "sha256": "9b0c2d675612580a4aedbdd3c8891d046fdf864b0805aaef852acc6653f7d37f",
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2
+    },
+    "ext_mass.parquet": {
+      "path": "/kaggle/input/casmi26-extlib/ext_mass.parquet",
+      "bytes": 7979821,
+      "sha256": "e82a878f3e9f4d19067199d1376231b1663a83d08c512ba8e03d6ae88b7af12e",
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2
+    },
+    "ext_mz.npy": {
+      "path": "/kaggle/input/casmi26-extlib/ext_mz.npy",
+      "bytes": 102770816,
+      "sha256": "a14f750d46bfca4176110d1a83cc3562944a3ca1e3f1344c94141f6d8d85fad5",
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2
+    },
+    "ext_in.npy": {
+      "path": "/kaggle/input/casmi26-extlib/ext_in.npy",
+      "bytes": 102770816,
+      "sha256": "e47b359f27d0aacda22f7ef47f8f60f7912136027d70d2bc915890a8d51be841",
+      "ref": "takumuhata/casmi26-extlib",
+      "version": 2
+    },
+    "spectra.parquet": {
+      "path": "/kaggle/input/casmi-2026-spectral-library-massbankharmonized/spectra.parquet",
+      "bytes": 43941912,
+      "sha256": "6ebb46b32ddd344d988c3bdb90e7160d4ce46e6d0b900a1217607aa2234c9477",
+      "ref": "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+      "version": 1
+    }
+  },
+  "rows": 2,
+  "reference_counts": {
+    "A": 200724,
+    "B": 124160
+  },
+  "reference_peak_counts": {
+    "A": 9517816,
+    "B": 4471283
+  },
+  "observation_sites": {
+    "reference_sites": 2,
+    "match_sites": 1
+  },
+  "original_report": {
+    "molecules": 2,
+    "hits": 0,
+    "promoted": 0,
+    "elapsed_s": 16.4
+  },
+  "actual_matches": [],
+  "changed_queries": 0,
+  "changed_top1": 0,
+  "invalid_proposals_preserved": 0,
+  "output_sha256": "e58cde08da50a70a28b35484ef34e62917b56bd3ad648c3a54a594b6aa519416",
+  "queries_sha256": "c501d8f33a36d52f344300f587510bad97400cf99405db72b4b48699f4ea0068",
+  "details": [
+    {
+      "molecule_id": "cross_VXVNYCRICCVPTD",
+      "proposed_changed": false,
+      "accepted_changed": false,
+      "proposed_top1_changed": false,
+      "accepted_top1_changed": false,
+      "validity_guard_preserved_control": false,
+      "official_identities_valid": true
+    },
+    {
+      "molecule_id": "np_DUXQKCCELUKXOE",
+      "proposed_changed": false,
+      "accepted_changed": false,
+      "proposed_top1_changed": false,
+      "accepted_top1_changed": false,
+      "validity_guard_preserved_control": false,
+      "official_identities_valid": true
+    }
+  ],
+  "checks": {
+    "control_bound": true,
+    "original_function_pin": true,
+    "original_consumed_control": true,
+    "all_library_pins": true,
+    "both_reference_sources_loaded": true,
+    "exact_ids_order": true,
+    "official_identities_valid": true,
+    "actual_hit_count_bound": true,
+    "actual_promotion_count_bound": true
+  }
+}

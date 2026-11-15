@@ -1,0 +1,12 @@
+{
+  "status": "prepared_actual_canary_passed",
+  "branch": "generation_expand",
+  "notebook_sha256": "7ed40ac01c64448490cf9cfd85ad21210e34163e81affdb2e1a1dcbac7514753",
+  "metadata_sha256": "59598f7953b58f04901f536aa98a4b191219c0554449a6400abf9030d554a313",
+  "recipe_sha256": "23725c232491802eda0721d800d8a26e87c915b1b0837dbd07ffa0fd73087459",
+  "module_sha256": "32145802187bda9fe178048df49ec9ecfce6a0c7bab46c15550b5a479774eef9",
+  "runner_sha256": "153c85fb59025f3c2fa75cf9a64ffe7aa6cdb26b25113fee9fa46643c22f1182",
+  "notebook_bytes": 882416,
+  "actual_canary": "runs/generation_prod_canary_20261112_actual_revision2/verification.json",
+  "stage_entry_canary": "runs/generation_prod_canary_20261112_route_revision2/verification.json"
+}

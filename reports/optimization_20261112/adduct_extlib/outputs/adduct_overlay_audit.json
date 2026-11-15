@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "branch": "adduct_extlib",
+  "recipe_sha256": "b700e845e2eb850674c2d461498d6a991d6165e18bc66aab3e3d75e9c67a123f",
+  "mode": "fast_static",
+  "checks": {
+    "base_audit_passed": true,
+    "control_bound": true,
+    "final_bound": true,
+    "source_function_pin": true,
+    "module_pin": true,
+    "official_guard_pin": true,
+    "exact_ids_schema": true,
+    "official_identities_valid": true,
+    "library_file_pins": true,
+    "runtime_checks": true,
+    "fast_no_matching": true,
+    "installed_payload_pins": true
+  },
+  "csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "control_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "runtime_report_sha256": "6b4fb983b5a7278343f3f8afdc6ff137b7a8b9319f6bcb2c983b11f6d3aebb9b",
+  "reference_counts": {},
+  "changed_top1": 0,
+  "installed_payload_pins": {
+    "adduct_external_overlay_20261112.py": "8712dc0b9de851e4042019e1f036f043566412584bd4d4e6361a9f48b40c4895",
+    "external_library_overlay_20261109.py": "a31c55a2958139cbeea948ea4d11fa32eb40e3d3d7b0bac157f6d0fdc51025db",
+    "ozertuu_v18_adduct_function.py": "8e1439c05d7721946ab21e08fec18b4d54d890d3188bf7ec111b32712c545624"
+  }
+}

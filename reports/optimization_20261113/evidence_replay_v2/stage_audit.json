@@ -1,0 +1,3888 @@
+[
+  {
+    "mid": "cross_MZNCWPOVMBLUSG",
+    "actual_control_reconstructed": true,
+    "candidate_count": 26,
+    "original_formula_count": 2,
+    "common_observation_missing_pairs": 14,
+    "movable_slots": 1,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 14,
+    "feature_groups": [
+      {
+        "mid": "cross_MZNCWPOVMBLUSG",
+        "formula": "C33H47N7O16",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 2,
+        "unique_official_identities": 2,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_MZNCWPOVMBLUSG",
+        "formula": "C34H51N7O11S2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_MZNCWPOVMBLUSG",
+        "formula": "C31H53N5O15P2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_MZNCWPOVMBLUSG",
+        "formula": "C28H48N9O16P",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 2,
+        "unique_official_identities": 2,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "C1[CH]([CH]([CH]([CH]([CH]1N)O[CH]2[CH]([CH]([CH]([CH](O2)CN)OP(=O)(O)OC[CH]3[CH](C[CH](O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)O[CH]6[CH]([CH]([CH]([CH](O6)CO)O)N)O)N"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_MZNCWPOVMBLUSG",
+        "formula": "C31H51N5O17S",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 2,
+        "unique_official_identities": 2,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC(C)(CC(C)(C)C(=O)O)C(=O)NC(CS(=O)(=O)O)C(=O)NC(CCC(=O)NCCOCCOCC(=O)NC(CCCCNC(=O)C=O)C(=O)O)C(=O)O"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_MZNCWPOVMBLUSG",
+        "formula": "C46H43N3O10",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_MZNCWPOVMBLUSG",
+        "formula": "C33H51NO21",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 6,
+        "unique_official_identities": 6,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC(=O)NC1[CH]([CH](C(O[CH]1O[CH]2[CH](C(O[CH](C2O)O[CH]3[CH](C([CH](OC3CO)OCC4=CC=CC=C4)O)O)CO)O)CO)O[CH]5C([CH]([CH](C(O5)CO)O)O)O)O"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_MZNCWPOVMBLUSG",
+        "formula": "C40H46ClF2N5O8",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_MZNCWPOVMBLUSG",
+        "formula": "C29H51N9O13S2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_MZNCWPOVMBLUSG",
+        "formula": "C32H47N9O13S",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_MZNCWPOVMBLUSG",
+        "formula": "C31H47N11O10S2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_MZNCWPOVMBLUSG",
+        "formula": "C36H51N3O15S",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_MZNCWPOVMBLUSG",
+        "formula": "C45H43N5O9",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 2,
+        "unique_official_identities": 2,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "C1C[CH](N(C1)C(=O)[C](CC(=O)O)(C2=CC=CC=C2)C(=O)N)C3=CC=C(C=C3)C4=CN=C(O4)C5=CC=C(C=C5)[CH]6CCCN6C(=O)[C](CC(=O)O)(C7=CC=CC=C7)C(=O)N"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_MZNCWPOVMBLUSG",
+        "formula": "C36H48FN3O16",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_MZNCWPOVMBLUSG",
+        "formula": "C35H43N9O13",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_MZNCWPOVMBLUSG",
+        "formula": "C44H48ClN3O9",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_MZNCWPOVMBLUSG",
+        "formula": "C41H51NO13S",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_VJLSQJBXDSKTLG",
+    "actual_control_reconstructed": true,
+    "candidate_count": 26,
+    "original_formula_count": 9,
+    "common_observation_missing_pairs": 4,
+    "movable_slots": 8,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 29,
+    "feature_groups": [
+      {
+        "mid": "cross_VJLSQJBXDSKTLG",
+        "formula": "C38H49NO4",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 9,
+        "unique_official_identities": 9,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 2
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC(=CC=CC1(C)CCCC2(C)C1CCC1Cc3c([nH]c4cc5c(cc34)C3=C(C5O)C(C)(C)OC(C)(C)C3)C12C)C(=O)O"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_VJLSQJBXDSKTLG",
+        "formula": "C33H49N3O6",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 16,
+        "unique_official_identities": 16,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 2
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "C[C]12CC[C](C[CH]1C3=CC(=O)[CH]4[C]5(CC[CH](C([CH]5CC[C]4([C]3(CC2)C)C)(C)C)OC6=NOC(=O)N6)C)(C)C(=O)N(C)O"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_VJLSQJBXDSKTLG",
+        "formula": "C35H50FNO5",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_KAQOTUWFZPIKLZ",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 24,
+    "common_observation_missing_pairs": 0,
+    "movable_slots": 16,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 115,
+    "feature_groups": [
+      {
+        "mid": "cross_KAQOTUWFZPIKLZ",
+        "formula": "C19H26O5",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 24,
+        "unique_official_identities": 24,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CCCC(=O)C1=C(C(=C(C(=C1O)CC=C(C)C)O)C(=O)CCC)O"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_KAQOTUWFZPIKLZ",
+        "formula": "C20H22N4O",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 15,
+        "unique_official_identities": 15,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC(C)(C)n1nccc1NC(=O)c1nc2ccccc2cc1C1CC1",
+          "CC(C)Cn1ncc(C(=O)Nc2ccc3ncccc3c2)c1C1CC1",
+          "CC(C)Cn1ncc(C(=O)Nc2cccc3ncccc23)c1C1CC1",
+          "CC(C)Cn1ncc(C(=O)Nc2cnc3ccccc3c2)c1C1CC1",
+          "CCC(C)n1ncc(C(=O)Nc2cccc3ncccc23)c1C1CC1",
+          "CCc1c(C(=O)N(C)c2ccc(C)cc2C)cnn1-c1ccccn1",
+          "CNC(=O)c1ccccc1NCc1ccc(-n2nc(C)cc2C)cc1",
+          "Cc1c(C(=O)Nc2cnn(C3CCCC3)c2C)cnc2ccccc12",
+          "Cc1cc(C)n(Cc2cccc(NC(C(N)=O)c3ccccc3)c2)n1",
+          "Cc1cccc(C(=O)N2CCN(Cc3nc4ccccc4[nH]3)CC2)c1",
+          "Cc1ccccc1C1CCN(C(=O)c2cnc3c(c2)c(C)nn3C)C1",
+          "Cc1cccnc1CCNC(=O)c1ccn(CCc2ccccc2)n1",
+          "Cc1nn(C)cc1CNc1cccc(C(=O)N(C)c2ccccc2)c1",
+          "O=C(Nc1cccc2cn[nH]c12)c1ccc(CN2CCCCC2)cc1",
+          "O=C(c1ccc(Cc2ccccc2)[nH]1)N1CCCCC1c1cc[nH]n1"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_KAQOTUWFZPIKLZ",
+        "formula": "C20H30S2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CCCCCCC1=CSC(=C1)C2=CC(=CS2)CCCCCC"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "np_HSMPDPBYAYSOBC",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 40,
+    "common_observation_missing_pairs": 16,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 92,
+    "feature_groups": [
+      {
+        "mid": "np_HSMPDPBYAYSOBC",
+        "formula": "C14H12O5",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 40,
+        "unique_official_identities": 40,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "incomplete_common_observation": 4
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC1=CC(=O)C2=C(C3=C(C=CO3)C(=C2O1)OC)OC"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "np_ACNHBCIZLNNLRS",
+    "actual_control_reconstructed": true,
+    "candidate_count": 39,
+    "original_formula_count": 31,
+    "common_observation_missing_pairs": 25,
+    "movable_slots": 20,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 59,
+    "feature_groups": [
+      {
+        "mid": "np_ACNHBCIZLNNLRS",
+        "formula": "C27H33NO4",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 31,
+        "unique_official_identities": 31,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "incomplete_common_observation": 5
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC(C)(O)C1OC2CCC3(C)C(O)(CCC4Cc5c([nH]c6ccccc56)C43C)C2=CC1=O"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_ACNHBCIZLNNLRS",
+        "formula": "C22H33N3O6",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 4,
+        "unique_official_identities": 4,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "incomplete_common_observation": 5
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "COCC(=O)Nc1ccc2c(c1)OC[C@@H](C)N(C(C)=O)C[C@H](C)[C@@H](OC)CN(C)C2=O"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_ACNHBCIZLNNLRS",
+        "formula": "C23H29N7O2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 3,
+        "unique_official_identities": 3,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "QTOF",
+          [
+            "raw",
+            "eV"
+          ]
+        ],
+        "ce_groups": 4,
+        "selected_ce_buckets": [
+          20.0,
+          40.0,
+          60.0,
+          80.0
+        ],
+        "selected_unique_observations": 5,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "Cc1ncc(-c2ccnc(Nc3ccc(N4CCN(C(=O)CO)CC4)cc3)n2)n1C(C)C"
+        ],
+        "ce_balanced_mean_winners": [
+          "Cc1ncc(-c2ccnc(Nc3ccc(N4CCN(C(=O)CO)CC4)cc3)n2)n1C(C)C"
+        ],
+        "support_winners": [
+          "Cc1ncc(-c2ccnc(Nc3ccc(N4CCN(C(=O)CO)CC4)cc3)n2)n1C(C)C"
+        ]
+      },
+      {
+        "mid": "np_ACNHBCIZLNNLRS",
+        "formula": "C24H37NO4S",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "np_FFGPTBGBLSHEPO",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 38,
+    "common_observation_missing_pairs": 1,
+    "movable_slots": 23,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 70,
+    "feature_groups": [
+      {
+        "mid": "np_FFGPTBGBLSHEPO",
+        "formula": "C15H12N2O",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 38,
+        "unique_official_identities": 38,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "NC(=O)N1c2ccccc2C=Cc2ccccc21"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_FFGPTBGBLSHEPO",
+        "formula": "C12H13FN2O2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "C1CC(=O)N(C1C(=O)N)CC2=CC=C(C=C2)F"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_FFGPTBGBLSHEPO",
+        "formula": "C14H17ClO",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_WIOKWEJDRXNVSH",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 40,
+    "common_observation_missing_pairs": 4,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 99,
+    "feature_groups": [
+      {
+        "mid": "cross_WIOKWEJDRXNVSH",
+        "formula": "C16H18O5",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 40,
+        "unique_official_identities": 40,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "COc1cc(C)c(Oc2cc(C)cc(OC)c2O)c(O)c1"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_GFZLFKCEWJJEFW",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 40,
+    "common_observation_missing_pairs": 5,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 96,
+    "feature_groups": [
+      {
+        "mid": "cross_GFZLFKCEWJJEFW",
+        "formula": "C21H28O3",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 40,
+        "unique_official_identities": 40,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "C=C1CCCC2C1(C)CCC1(C)c3c(OC)cc(=O)oc3CC21C"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "np_DBEPLOCGEIEOCV",
+    "actual_control_reconstructed": true,
+    "candidate_count": 39,
+    "original_formula_count": 28,
+    "common_observation_missing_pairs": 3,
+    "movable_slots": 19,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 48,
+    "feature_groups": [
+      {
+        "mid": "np_DBEPLOCGEIEOCV",
+        "formula": "C23H36N2O2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 28,
+        "unique_official_identities": 28,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC(C)CNC(=O)C1CC[CH]2[C]1(CC[CH]3[CH]2CN=C4[C]3(CCC(=O)C4)C)C"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_DBEPLOCGEIEOCV",
+        "formula": "C28H36",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 6,
+        "unique_official_identities": 6,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC1C2C3C4CCC4C3C2C5C1C6C5C7C6C(C8C7C9C8C1C9C2C1CC2)C"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_DBEPLOCGEIEOCV",
+        "formula": "C22H41ClO2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 2,
+        "unique_official_identities": 2,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC(C)CCCCCCCCCCCCCC(Cl)C=CCCC(=O)O"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_DBEPLOCGEIEOCV",
+        "formula": "C20H38NO5+",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_DBEPLOCGEIEOCV",
+        "formula": "C23H36N2O2+2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_DBEPLOCGEIEOCV",
+        "formula": "C17H37N6OP",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "np_CEUORZQYGODEFX",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 6,
+    "common_observation_missing_pairs": 7,
+    "movable_slots": 4,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 61,
+    "feature_groups": [
+      {
+        "mid": "np_CEUORZQYGODEFX",
+        "formula": "C23H27Cl2N3O2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 6,
+        "unique_official_identities": 6,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "incomplete_common_observation": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "C1CC(=O)NC2=C1C=CC(=C2)OCCCCN3CCN(CC3)C4=C(C=C(C=C4)Cl)Cl"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_CEUORZQYGODEFX",
+        "formula": "C21H25N3O6S",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 15,
+        "unique_official_identities": 15,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CCN(CCCS(=O)(=O)[O-])c1ccc2nc3ccc(=[N+](C)CCC(=O)O)cc-3oc2c1"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_CEUORZQYGODEFX",
+        "formula": "C29H21NO4",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 6,
+        "unique_official_identities": 6,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "O=c1cc(-c2ccccc2)c2ccc3c(c2o1)CN(c1ccc(Oc2ccccc2)cc1)CO3"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_CEUORZQYGODEFX",
+        "formula": "C24H22ClN5O2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 3,
+        "unique_official_identities": 3,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "COc1ccc(-c2cc(N3CCC(C(=O)Nc4cc(Cl)ccc4C#N)CC3)ncn2)cc1"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_CEUORZQYGODEFX",
+        "formula": "C21H26ClN5O2S",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 3,
+        "unique_official_identities": 3,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "O=C(Cn1nc(Cl)ccc1=O)Nc1ccc(SCC2CCCN3CCCCC23)nc1"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_CEUORZQYGODEFX",
+        "formula": "C26H25NO4S",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "Cc1oc2c(C)c(OC(=O)CCC3CCCC3)ccc2c(=O)c1-c1nc2ccccc2s1"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_CEUORZQYGODEFX",
+        "formula": "C22H21N7O2S",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_CEUORZQYGODEFX",
+        "formula": "C26H23ClFN3O",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_CEUORZQYGODEFX",
+        "formula": "C27H18FN5O",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_CEUORZQYGODEFX",
+        "formula": "C21H22FN3O7",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_CEUORZQYGODEFX",
+        "formula": "C22H29N3OS3",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_CEUORZQYGODEFX",
+        "formula": "C21H20F3N5O3",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_SRNDKRJFBMZBCK",
+    "actual_control_reconstructed": true,
+    "candidate_count": 34,
+    "original_formula_count": 34,
+    "common_observation_missing_pairs": 0,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 91,
+    "feature_groups": [
+      {
+        "mid": "cross_SRNDKRJFBMZBCK",
+        "formula": "C45H82NO7P",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 34,
+        "unique_official_identities": 34,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CCCCCC/C=C\\CCCCCCCC/C=C\\OC[C@H](COP(=O)(O)OCCN)OC(=O)CCCCC/C=C\\C/C=C\\C/C=C\\CCCCCCCC"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_OTGQIQQTPXJQRG",
+    "actual_control_reconstructed": true,
+    "candidate_count": 35,
+    "original_formula_count": 35,
+    "common_observation_missing_pairs": 2,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 61,
+    "feature_groups": [
+      {
+        "mid": "cross_OTGQIQQTPXJQRG",
+        "formula": "C20H41NO2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 35,
+        "unique_official_identities": 35,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 2
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC(C)CCCCCCCCCCCCCCC(=O)NCCO"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "np_FELGMEQIXOGIFQ",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 34,
+    "common_observation_missing_pairs": 4,
+    "movable_slots": 21,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 100,
+    "feature_groups": [
+      {
+        "mid": "np_FELGMEQIXOGIFQ",
+        "formula": "C18H19N3O",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 34,
+        "unique_official_identities": 34,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "incomplete_common_observation": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "Cc1nccn1CC1CCc2c(c3ccccc3n2C)C1=O"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_FELGMEQIXOGIFQ",
+        "formula": "C15H20FN3O2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 4,
+        "unique_official_identities": 4,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "Cc1cnn(CCNCC(O)COc2ccc(F)cc2)c1"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_FELGMEQIXOGIFQ",
+        "formula": "C15H23N3OS",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "COc1ccc2[nH]cc(CCNCCNCCS)c2c1"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_FELGMEQIXOGIFQ",
+        "formula": "C18H19N3O+2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_WDRYRZXSPDWGEB",
+    "actual_control_reconstructed": true,
+    "candidate_count": 37,
+    "original_formula_count": 25,
+    "common_observation_missing_pairs": 3,
+    "movable_slots": 16,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 43,
+    "feature_groups": [
+      {
+        "mid": "cross_WDRYRZXSPDWGEB",
+        "formula": "C15H10Cl2N2O2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 25,
+        "unique_official_identities": 25,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "C1=CC=C2C(=C1)C(=NN2CC3=C(C(=CC=C3)Cl)Cl)C(=O)O"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_WDRYRZXSPDWGEB",
+        "formula": "C15H9ClO6",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 6,
+        "unique_official_identities": 6,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "Cc1cc(O)c2c(c1)C(=O)c1c(O)c(O)c(Cl)c(O)c1C2=O"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_WDRYRZXSPDWGEB",
+        "formula": "C11H10F2N2O3S2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_WDRYRZXSPDWGEB",
+        "formula": "C14H9FN2O2S2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_WDRYRZXSPDWGEB",
+        "formula": "C13H9Cl2F3N2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "C1=CC(=C(C=C1Cl)Cl)CC(CCC(F)(F)F)(C#N)C#N"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_WDRYRZXSPDWGEB",
+        "formula": "C12H12BrF3N2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_WDRYRZXSPDWGEB",
+        "formula": "C8H5F9O3",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 2,
+        "unique_official_identities": 2,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "COC(=O)CC(=O)C(C(C(C(F)(F)F)(F)F)(F)F)(F)F"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_UBEKXLWMTSODOC",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 28,
+    "common_observation_missing_pairs": 16,
+    "movable_slots": 21,
+    "eligible": true,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 48,
+    "feature_groups": [
+      {
+        "mid": "cross_UBEKXLWMTSODOC",
+        "formula": "C10H6F3N3O2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 28,
+        "unique_official_identities": 28,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "Orbitrap",
+          [
+            "raw",
+            "NCE"
+          ]
+        ],
+        "ce_groups": 5,
+        "selected_ce_buckets": [
+          15.0,
+          20.0,
+          30.0,
+          35.0,
+          60.0
+        ],
+        "selected_unique_observations": 8,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "O=C(O)c1cn(-c2cccc(C(F)(F)F)c2)nn1"
+        ],
+        "ce_balanced_mean_winners": [
+          "O=C(O)c1cn(-c2cccc(C(F)(F)F)c2)nn1"
+        ],
+        "support_winners": [
+          "O=C(O)c1cn(-c2cccc(C(F)(F)F)c2)nn1"
+        ]
+      },
+      {
+        "mid": "cross_UBEKXLWMTSODOC",
+        "formula": "C11H16BrNO",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 6,
+        "unique_official_identities": 6,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "Orbitrap",
+          [
+            "raw",
+            "NCE"
+          ]
+        ],
+        "ce_groups": 5,
+        "selected_ce_buckets": [
+          15.0,
+          20.0,
+          30.0,
+          35.0,
+          60.0
+        ],
+        "selected_unique_observations": 8,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "Cc1cc(CBr)c(O)c(C(C)(C)C)n1"
+        ],
+        "ce_balanced_mean_winners": [
+          "Cc1cc(CBr)c(O)c(C(C)(C)C)n1"
+        ],
+        "support_winners": [
+          "Cc1cc(CBr)c(O)c(C(C)(C)C)n1"
+        ]
+      },
+      {
+        "mid": "cross_UBEKXLWMTSODOC",
+        "formula": "C12H7N3O4",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 4,
+        "unique_official_identities": 4,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "Orbitrap",
+          [
+            "raw",
+            "NCE"
+          ]
+        ],
+        "ce_groups": 5,
+        "selected_ce_buckets": [
+          15.0,
+          20.0,
+          30.0,
+          35.0,
+          60.0
+        ],
+        "selected_unique_observations": 8,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "C1=CC2=C(C=C1[N+](=O)[O-])NC(=N2)C3=CC=C(O3)C=O"
+        ],
+        "ce_balanced_mean_winners": [
+          "C1=CC2=C(C=C1[N+](=O)[O-])NC(=N2)C3=CC=C(O3)C=O"
+        ],
+        "support_winners": [
+          "C1=CC2=C(C=C1[N+](=O)[O-])C3=C(N2)C=CC(=C3)[N+](=O)[O-]"
+        ]
+      },
+      {
+        "mid": "cross_UBEKXLWMTSODOC",
+        "formula": "C15H9ClFN",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_UBEKXLWMTSODOC",
+        "formula": "C10H9F2N3OS",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_IYODIJVWGPRBGQ",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 34,
+    "common_observation_missing_pairs": 8,
+    "movable_slots": 24,
+    "eligible": true,
+    "zero_recovers_control": true,
+    "changed": true,
+    "changed_top1": false,
+    "original_gl_candidates": 58,
+    "feature_groups": [
+      {
+        "mid": "cross_IYODIJVWGPRBGQ",
+        "formula": "C11H8N2S",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 34,
+        "unique_official_identities": 34,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "QTOF",
+          [
+            "raw",
+            "eV"
+          ]
+        ],
+        "ce_groups": 4,
+        "selected_ce_buckets": [
+          25.0,
+          35.0,
+          40.0,
+          55.0
+        ],
+        "selected_unique_observations": 4,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "c1ccc2c(-c3nccs3)c[nH]c2c1"
+        ],
+        "ce_balanced_mean_winners": [
+          "c1ccc2c(-c3nccs3)c[nH]c2c1"
+        ],
+        "support_winners": [
+          "c1ccc2c(-c3nccs3)c[nH]c2c1"
+        ]
+      },
+      {
+        "mid": "cross_IYODIJVWGPRBGQ",
+        "formula": "C10H13ClS",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_IYODIJVWGPRBGQ",
+        "formula": "C13H9Cl",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_IYODIJVWGPRBGQ",
+        "formula": "C8H9FN2OS",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 2,
+        "unique_official_identities": 2,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "QTOF",
+          [
+            "raw",
+            "eV"
+          ]
+        ],
+        "ce_groups": 4,
+        "selected_ce_buckets": [
+          25.0,
+          35.0,
+          40.0,
+          55.0
+        ],
+        "selected_unique_observations": 4,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "COC1=C(C=C(C=C1)NC(=S)N)F"
+        ],
+        "ce_balanced_mean_winners": [
+          "COC1=C(C=C(C=C1)NC(=S)N)F"
+        ],
+        "support_winners": [
+          "COC1=C(C=C(C=C1)NC(=S)N)F",
+          "COC1=C(C=CC=C1F)NC(=S)N"
+        ]
+      },
+      {
+        "mid": "cross_IYODIJVWGPRBGQ",
+        "formula": "C8H10BClO3",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "B(C1=C(C=C(C=C1)Cl)OCC)(O)O"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_IYODIJVWGPRBGQ",
+        "formula": "C9H13ClOSi",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CO[Si](C)(C)C1=CC=C(C=C1)Cl"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "np_RZGFUGXQKMEMOO",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 40,
+    "common_observation_missing_pairs": 9,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 94,
+    "feature_groups": [
+      {
+        "mid": "np_RZGFUGXQKMEMOO",
+        "formula": "C12H18O4",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 40,
+        "unique_official_identities": 40,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "incomplete_common_observation": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "O=C(O)CCCCCCCC1C=CC(=O)O1"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "np_QCHFTSOMWOSFHM",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 40,
+    "common_observation_missing_pairs": 0,
+    "movable_slots": 24,
+    "eligible": true,
+    "zero_recovers_control": true,
+    "changed": true,
+    "changed_top1": false,
+    "original_gl_candidates": 81,
+    "feature_groups": [
+      {
+        "mid": "np_QCHFTSOMWOSFHM",
+        "formula": "C11H16N2O2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 40,
+        "unique_official_identities": 40,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "QTOF",
+          [
+            "raw",
+            "eV"
+          ]
+        ],
+        "ce_groups": 3,
+        "selected_ce_buckets": [
+          35.0,
+          40.0,
+          60.0
+        ],
+        "selected_unique_observations": 4,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CCC1C(=O)OCC1Cc1cncn1C"
+        ],
+        "ce_balanced_mean_winners": [
+          "CCC1C(=O)OCC1Cc1cncn1C"
+        ],
+        "support_winners": [
+          "CCC1C(=O)OCC1Cc1cncn1C"
+        ]
+      }
+    ]
+  },
+  {
+    "mid": "cross_WGHBYQBNWQRUQU",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 39,
+    "common_observation_missing_pairs": 6,
+    "movable_slots": 23,
+    "eligible": true,
+    "zero_recovers_control": true,
+    "changed": true,
+    "changed_top1": false,
+    "original_gl_candidates": 110,
+    "feature_groups": [
+      {
+        "mid": "cross_WGHBYQBNWQRUQU",
+        "formula": "C17H26N2O2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 39,
+        "unique_official_identities": 39,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "Orbitrap",
+          [
+            "raw",
+            "NCE"
+          ]
+        ],
+        "ce_groups": 5,
+        "selected_ce_buckets": [
+          15.0,
+          20.0,
+          30.0,
+          35.0,
+          60.0
+        ],
+        "selected_unique_observations": 6,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC(C)(C)OC(=O)NCC1(CCNCC1)C2=CC=CC=C2"
+        ],
+        "ce_balanced_mean_winners": [
+          "CC(C)(C)OC(=O)NCC1(CCNCC1)C2=CC=CC=C2"
+        ],
+        "support_winners": [
+          "CC(C)(C)OC(=O)NCC1(CCNCC1)C2=CC=CC=C2"
+        ]
+      },
+      {
+        "mid": "cross_WGHBYQBNWQRUQU",
+        "formula": "C16H31ClO2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "np_DOFJNFPSMUCECH",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 40,
+    "common_observation_missing_pairs": 0,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 90,
+    "feature_groups": [
+      {
+        "mid": "np_DOFJNFPSMUCECH",
+        "formula": "C20H20O8",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 40,
+        "unique_official_identities": 40,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC)c(OC)c3o2)cc1OC"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "np_MBRLOUHOWLUMFF",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 40,
+    "common_observation_missing_pairs": 25,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 97,
+    "feature_groups": [
+      {
+        "mid": "np_MBRLOUHOWLUMFF",
+        "formula": "C15H16O3",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 40,
+        "unique_official_identities": 40,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "incomplete_common_observation": 5
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "COc1ccc2ccc(=O)oc2c1CC=C(C)C"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "np_RXPRRQLKFXBCSJ",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 40,
+    "common_observation_missing_pairs": 28,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 96,
+    "feature_groups": [
+      {
+        "mid": "np_RXPRRQLKFXBCSJ",
+        "formula": "C21H26N2O3",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 40,
+        "unique_official_identities": 40,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "incomplete_common_observation": 4
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CCC12CCCN3CCc4c(n(c5ccccc45)C(O)(C(=O)OC)C1)C32"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_HPXGRJSGVYZSBD",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 36,
+    "common_observation_missing_pairs": 16,
+    "movable_slots": 24,
+    "eligible": true,
+    "zero_recovers_control": true,
+    "changed": true,
+    "changed_top1": false,
+    "original_gl_candidates": 95,
+    "feature_groups": [
+      {
+        "mid": "cross_HPXGRJSGVYZSBD",
+        "formula": "C17H17N3OS",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 36,
+        "unique_official_identities": 36,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "Orbitrap",
+          [
+            "raw",
+            "NCE"
+          ]
+        ],
+        "ce_groups": 5,
+        "selected_ce_buckets": [
+          20.0,
+          30.0,
+          35.0,
+          40.0,
+          60.0
+        ],
+        "selected_unique_observations": 8,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "Cc1sc(NC(=O)CN2CCc3ccccc32)c(C#N)c1C"
+        ],
+        "ce_balanced_mean_winners": [
+          "Cc1sc(NC(=O)CN2CCc3ccccc32)c(C#N)c1C"
+        ],
+        "support_winners": [
+          "Cc1sc(NC(=O)CN2CCc3ccccc32)c(C#N)c1C"
+        ]
+      },
+      {
+        "mid": "cross_HPXGRJSGVYZSBD",
+        "formula": "C19H18ClNO",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_HPXGRJSGVYZSBD",
+        "formula": "C17H14FN3O2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 2,
+        "unique_official_identities": 2,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "Orbitrap",
+          [
+            "raw",
+            "NCE"
+          ]
+        ],
+        "ce_groups": 5,
+        "selected_ce_buckets": [
+          20.0,
+          30.0,
+          35.0,
+          40.0,
+          60.0
+        ],
+        "selected_unique_observations": 8,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "N#Cc1c(F)cccc1NCc1cccc(N2CCOC2=O)c1"
+        ],
+        "ce_balanced_mean_winners": [
+          "N#Cc1c(F)cccc1NCc1cccc(N2CCOC2=O)c1"
+        ],
+        "support_winners": [
+          "N#Cc1c(F)cccc1NCc1cccc(N2CCOC2=O)c1"
+        ]
+      },
+      {
+        "mid": "cross_HPXGRJSGVYZSBD",
+        "formula": "C19H15F2NO",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "np_URFCJEUYXNAHFI",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 40,
+    "common_observation_missing_pairs": 10,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 92,
+    "feature_groups": [
+      {
+        "mid": "np_URFCJEUYXNAHFI",
+        "formula": "C15H12O4",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 40,
+        "unique_official_identities": 40,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "incomplete_common_observation": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "O=C1CC(c2ccccc2)Oc2cc(O)cc(O)c21"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_CBIAKDAYHRWZCU",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 34,
+    "common_observation_missing_pairs": 10,
+    "movable_slots": 23,
+    "eligible": true,
+    "zero_recovers_control": true,
+    "changed": true,
+    "changed_top1": false,
+    "original_gl_candidates": 62,
+    "feature_groups": [
+      {
+        "mid": "cross_CBIAKDAYHRWZCU",
+        "formula": "C16H14BrN3O3",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 34,
+        "unique_official_identities": 34,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "Orbitrap",
+          [
+            "raw",
+            "NCE"
+          ]
+        ],
+        "ce_groups": 3,
+        "selected_ce_buckets": [
+          20.0,
+          40.0,
+          60.0
+        ],
+        "selected_unique_observations": 5,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "COc1cc2ncnc(Nc3ccc(OC)c(Br)c3)c2cc1O"
+        ],
+        "ce_balanced_mean_winners": [
+          "COc1cc2ncnc(Nc3ccc(OC)c(Br)c3)c2cc1O"
+        ],
+        "support_winners": [
+          "COc1cc2ncnc(Nc3ccc(OC)c(Br)c3)c2cc1O"
+        ]
+      },
+      {
+        "mid": "cross_CBIAKDAYHRWZCU",
+        "formula": "C13H18BrN3O3S",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 2,
+        "unique_official_identities": 2,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "Orbitrap",
+          [
+            "raw",
+            "NCE"
+          ]
+        ],
+        "ce_groups": 3,
+        "selected_ce_buckets": [
+          20.0,
+          40.0,
+          60.0
+        ],
+        "selected_unique_observations": 5,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "Cc1c(C(=O)N2CCC(CN)C2)cc(Br)cc1S(N)(=O)=O"
+        ],
+        "ce_balanced_mean_winners": [
+          "Cc1c(C(=O)N2CCC(CN)C2)cc(Br)cc1S(N)(=O)=O"
+        ],
+        "support_winners": [
+          "Cc1c(C(=O)N2CCC(CN)C2)cc(Br)cc1S(N)(=O)=O"
+        ]
+      },
+      {
+        "mid": "cross_CBIAKDAYHRWZCU",
+        "formula": "C13H15FIN3O",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_CBIAKDAYHRWZCU",
+        "formula": "C15H10ClN5O3S",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 2,
+        "unique_official_identities": 2,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "Orbitrap",
+          [
+            "raw",
+            "NCE"
+          ]
+        ],
+        "ce_groups": 3,
+        "selected_ce_buckets": [
+          20.0,
+          40.0,
+          60.0
+        ],
+        "selected_unique_observations": 5,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "C1=CC(=CC(=C1)[N+](=O)[O-])/C=N/NC(=O)C2=NNC(=C2)C3=CC=C(S3)Cl"
+        ],
+        "ce_balanced_mean_winners": [
+          "C1=CC(=CC(=C1)[N+](=O)[O-])/C=N/NC(=O)C2=NNC(=C2)C3=CC=C(S3)Cl"
+        ],
+        "support_winners": [
+          "C1=CC(=CC(=C1)[N+](=O)[O-])/C=N/NC(=O)C2=NNC(=C2)C3=CC=C(S3)Cl"
+        ]
+      },
+      {
+        "mid": "cross_CBIAKDAYHRWZCU",
+        "formula": "C11H14IN5O2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "np_JYGXADMDTFJGBT",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 40,
+    "common_observation_missing_pairs": 1,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 111,
+    "feature_groups": [
+      {
+        "mid": "np_JYGXADMDTFJGBT",
+        "formula": "C21H30O5",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 40,
+        "unique_official_identities": 40,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "incomplete_common_observation": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC12CCC(=O)C=C1CCC1C2C(O)CC2(C)C1CCC2(O)C(=O)CO"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_NOFOAYPPHIUXJR",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 40,
+    "common_observation_missing_pairs": 9,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 108,
+    "feature_groups": [
+      {
+        "mid": "cross_NOFOAYPPHIUXJR",
+        "formula": "C20H34O4",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 40,
+        "unique_official_identities": 40,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 3
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CCCCCCCC[C@@H](/C=C/C=C\\C/C=C\\CCCC(=O)O)OO"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_DWVXZQVYILJCJH",
+    "actual_control_reconstructed": true,
+    "candidate_count": 27,
+    "original_formula_count": 25,
+    "common_observation_missing_pairs": 0,
+    "movable_slots": 22,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 87,
+    "feature_groups": [
+      {
+        "mid": "cross_DWVXZQVYILJCJH",
+        "formula": "C45H77NO8",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 25,
+        "unique_official_identities": 25,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC=CCCC=CCC=CCC=CCC=CCC(=O)OC(COC(=O)CCCCCCCCCCCCCCCC)COC(OCC[N+](C)(C)C)C(=O)[O-]"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_DWVXZQVYILJCJH",
+        "formula": "C52H73NO3",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 2,
+        "unique_official_identities": 2,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CCCCCc1cccc2cc3ccc(CC[C@H]4CC[C@]5(C4)C[C@@]4(C)[C@H](C[C@H]5O)[C@@H](O)C[C@H]5[C@@H]6CC[C@H]7[C@@H](CN8C[C@@H](C)CC[C@H]8[C@@]7(C)O)[C@H]6C[C@@H]54)cc3cc12"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_VXVNYCRICCVPTD",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 28,
+    "common_observation_missing_pairs": 10,
+    "movable_slots": 22,
+    "eligible": true,
+    "zero_recovers_control": true,
+    "changed": true,
+    "changed_top1": false,
+    "original_gl_candidates": 114,
+    "feature_groups": [
+      {
+        "mid": "cross_VXVNYCRICCVPTD",
+        "formula": "C22H24N2O8",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 28,
+        "unique_official_identities": 28,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "Orbitrap",
+          [
+            "raw",
+            "NCE"
+          ]
+        ],
+        "ce_groups": 4,
+        "selected_ce_buckets": [
+          15.0,
+          30.0,
+          60.0,
+          75.0
+        ],
+        "selected_unique_observations": 4,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC1c2cccc(O)c2C(=O)C2=C(O)C3(O)C(=O)C(C(N)=O)=C(O)C(N(C)C)C3C(O)C21"
+        ],
+        "ce_balanced_mean_winners": [
+          "CC1c2cccc(O)c2C(=O)C2=C(O)C3(O)C(=O)C(C(N)=O)=C(O)C(N(C)C)C3C(O)C21"
+        ],
+        "support_winners": [
+          "CC1c2cccc(O)c2C(=O)C2=C(O)C3(O)C(=O)C(C(N)=O)=C(O)C(N(C)C)C3C(O)C21"
+        ]
+      },
+      {
+        "mid": "cross_VXVNYCRICCVPTD",
+        "formula": "C22H25ClN4O4",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 5,
+        "unique_official_identities": 5,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "Orbitrap",
+          [
+            "raw",
+            "NCE"
+          ]
+        ],
+        "ce_groups": 4,
+        "selected_ce_buckets": [
+          15.0,
+          30.0,
+          60.0,
+          75.0
+        ],
+        "selected_unique_observations": 4,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "COc1cc2ncnc(Nc3ccc(O)c(Cl)c3)c2cc1OCCCN1CCOCC1"
+        ],
+        "ce_balanced_mean_winners": [
+          "COc1cc2ncnc(Nc3ccc(O)c(Cl)c3)c2cc1OCCCN1CCOCC1"
+        ],
+        "support_winners": [
+          "COc1cc2ncnc(Nc3ccc(O)c(Cl)c3)c2cc1OCCCN1CCOCC1"
+        ]
+      },
+      {
+        "mid": "cross_VXVNYCRICCVPTD",
+        "formula": "C21H29ClO8",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_VXVNYCRICCVPTD",
+        "formula": "C27H24O6",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 5,
+        "unique_official_identities": 5,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "Orbitrap",
+          [
+            "raw",
+            "NCE"
+          ]
+        ],
+        "ce_groups": 4,
+        "selected_ce_buckets": [
+          15.0,
+          30.0,
+          60.0,
+          75.0
+        ],
+        "selected_unique_observations": 4,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "COc1ccc(C(=O)COc2ccc(-c3cc(OC)c4c(C)oc(C)c4c(=O)c3)cc2)cc1"
+        ],
+        "ce_balanced_mean_winners": [
+          "COc1ccc(C(=O)COc2ccc(-c3cc(OC)c4c(C)oc(C)c4c(=O)c3)cc2)cc1"
+        ],
+        "support_winners": [
+          "COc1ccc(C(=O)COc2ccc(-c3cc(OC)c4c(C)oc(C)c4c(=O)c3)cc2)cc1"
+        ]
+      },
+      {
+        "mid": "cross_VXVNYCRICCVPTD",
+        "formula": "C21H33IO2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "np_HELXLJCILKEWJH",
+    "actual_control_reconstructed": true,
+    "candidate_count": 33,
+    "original_formula_count": 25,
+    "common_observation_missing_pairs": 12,
+    "movable_slots": 18,
+    "eligible": true,
+    "zero_recovers_control": true,
+    "changed": true,
+    "changed_top1": false,
+    "original_gl_candidates": 90,
+    "feature_groups": [
+      {
+        "mid": "np_HELXLJCILKEWJH",
+        "formula": "C44H70O23",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 25,
+        "unique_official_identities": 25,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "QTOF",
+          [
+            "raw",
+            "eV"
+          ]
+        ],
+        "ce_groups": 4,
+        "selected_ce_buckets": [
+          20.0,
+          40.0,
+          50.0,
+          60.0
+        ],
+        "selected_unique_observations": 4,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "C=C1CC23CCC4C(C)(C(=O)OC5OC(CO)C(O)C(O)C5O)CCCC4(C)C2CCC1(OC1OC(CO)C(O)C(OC2OC(CO)C(OC4OC(CO)C(O)C(O)C4O)C(O)C2O)C1O)C3"
+        ],
+        "ce_balanced_mean_winners": [
+          "C=C1CC23CCC4C(C)(C(=O)OC5OC(CO)C(O)C(O)C5O)CCCC4(C)C2CCC1(OC1OC(CO)C(O)C(OC2OC(CO)C(OC4OC(CO)C(O)C(O)C4O)C(O)C2O)C1O)C3"
+        ],
+        "support_winners": [
+          "C=C1CC23CCC4C(C)(C(=O)OC5OC(CO)C(O)C(O)C5O)CCCC4(C)C2CCC1(OC1OC(CO)C(O)C(OC2OC(CO)C(O)C(O)C2OC2OC(CO)C(O)C(O)C2O)C1O)C3"
+        ]
+      },
+      {
+        "mid": "np_HELXLJCILKEWJH",
+        "formula": "C41H77O19P3",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 3,
+        "unique_official_identities": 3,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "QTOF",
+          [
+            "raw",
+            "eV"
+          ]
+        ],
+        "ce_groups": 4,
+        "selected_ce_buckets": [
+          20.0,
+          40.0,
+          50.0,
+          60.0
+        ],
+        "selected_unique_observations": 4,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CCCCCC/C=C\\CCCCCCCC(=O)OCC(COP(=O)(O)OC1C(O)C(O)C(OP(=O)(O)O)C(OP(=O)(O)O)C1O)OC(=O)CCCCCCC/C=C\\CCCCCC"
+        ],
+        "ce_balanced_mean_winners": [
+          "CCCCCC/C=C\\CCCCCCCC(=O)OCC(COP(=O)(O)OC1C(O)C(O)C(OP(=O)(O)O)C(OP(=O)(O)O)C1O)OC(=O)CCCCCCC/C=C\\CCCCCC"
+        ],
+        "support_winners": [
+          "CCCCCC/C=C\\CCCCCCCC(=O)OCC(COP(=O)(O)OC1C(O)C(O)C(OP(=O)(O)O)C(OP(=O)(O)O)C1O)OC(=O)CCCCCCC/C=C\\CCCCCC"
+        ]
+      },
+      {
+        "mid": "np_HELXLJCILKEWJH",
+        "formula": "C39H66N8O20",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 2,
+        "unique_official_identities": 2,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "QTOF",
+          [
+            "raw",
+            "eV"
+          ]
+        ],
+        "ce_groups": 4,
+        "selected_ce_buckets": [
+          20.0,
+          40.0,
+          50.0,
+          60.0
+        ],
+        "selected_unique_observations": 4,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC(=O)N[C@H]1[C@H](O[C@H]2[C@H](O[C@H](C)C(=O)N[C@@H](C)C(=O)N[C@H](CCC(=O)N[C@@H](CCCCN)C(=O)N[C@H](C)C(=O)N[C@H](C)C(=O)O)C(=O)O)[C@@H](NC(C)=O)C(O)O[C@@H]2CO)O[C@H](CO)[C@@H](O)[C@@H]1O"
+        ],
+        "ce_balanced_mean_winners": [
+          "CC(=O)N[C@H]1[C@H](O[C@H]2[C@H](O[C@H](C)C(=O)N[C@@H](C)C(=O)N[C@H](CCC(=O)N[C@@H](CCCCN)C(=O)N[C@H](C)C(=O)N[C@H](C)C(=O)O)C(=O)O)[C@@H](NC(C)=O)C(O)O[C@@H]2CO)O[C@H](CO)[C@@H](O)[C@@H]1O"
+        ],
+        "support_winners": [
+          "CC(=O)N[C@H]1[C@H](O[C@H]2[C@H](O[C@H](C)C(=O)N[C@@H](C)C(=O)N[C@H](CCC(=O)N[C@@H](CCCCN)C(=O)N[C@H](C)C(=O)N[C@H](C)C(=O)O)C(=O)O)[C@@H](NC(C)=O)C(O)O[C@@H]2CO)O[C@H](CO)[C@@H](O)[C@@H]1O"
+        ]
+      },
+      {
+        "mid": "np_HELXLJCILKEWJH",
+        "formula": "C62H62O10",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_HELXLJCILKEWJH",
+        "formula": "C52H63ClN6O10",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_HELXLJCILKEWJH",
+        "formula": "C48H59ClN12O8",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_DKZBBWMURDFHNE",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 40,
+    "common_observation_missing_pairs": 36,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 94,
+    "feature_groups": [
+      {
+        "mid": "cross_DKZBBWMURDFHNE",
+        "formula": "C10H10O3",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 40,
+        "unique_official_identities": 40,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "incomplete_common_observation": 12
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC(=O)C=Cc1ccc(O)c(O)c1"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "np_CTRLABGOLIVAIY",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 40,
+    "common_observation_missing_pairs": 0,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 97,
+    "feature_groups": [
+      {
+        "mid": "np_CTRLABGOLIVAIY",
+        "formula": "C15H12N2O2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 40,
+        "unique_official_identities": 40,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "NC(=O)N1c2ccccc2CC(=O)c2ccccc21"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_QNUNSPMEODRLBZ",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 39,
+    "common_observation_missing_pairs": 10,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 99,
+    "feature_groups": [
+      {
+        "mid": "cross_QNUNSPMEODRLBZ",
+        "formula": "C18H18N2O4",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 39,
+        "unique_official_identities": 39,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "incomplete_common_observation": 5
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "COc1cc(=O)n2c(c1C(=O)Nc1ccc(C(C)=O)cc1)CCC2"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_QNUNSPMEODRLBZ",
+        "formula": "C16H17F3N2O2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "Cn1cccc1C(O)CCNC(=O)c1cccc(C(F)(F)F)c1"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "np_DUXQKCCELUKXOE",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 39,
+    "common_observation_missing_pairs": 30,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 99,
+    "feature_groups": [
+      {
+        "mid": "np_DUXQKCCELUKXOE",
+        "formula": "C29H34O15",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 39,
+        "unique_official_identities": 39,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "incomplete_common_observation": 5
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC4OC(COC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)cc3o2)cc1"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_DUXQKCCELUKXOE",
+        "formula": "C22H38O20",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_CDUVSQMTLOYKTR",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 40,
+    "common_observation_missing_pairs": 0,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 115,
+    "feature_groups": [
+      {
+        "mid": "cross_CDUVSQMTLOYKTR",
+        "formula": "C20H34O5",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 40,
+        "unique_official_identities": 40,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CCCC/C=C\\C[C@H]1[C@H](C[C@H]([C@@H]1/C=C/[C@H](CCCCC(=O)O)O)O)O"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_XSOKPIZATJBJPO",
+    "actual_control_reconstructed": true,
+    "candidate_count": 28,
+    "original_formula_count": 22,
+    "common_observation_missing_pairs": 4,
+    "movable_slots": 18,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 32,
+    "feature_groups": [
+      {
+        "mid": "cross_XSOKPIZATJBJPO",
+        "formula": "C28H48N2O4",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 22,
+        "unique_official_identities": 22,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 2
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC(CCC(=O)NCCCC(N)=O)C1CCC2C3C(O)CC4CC(O)CCC4(C)C3CCC12C"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_XSOKPIZATJBJPO",
+        "formula": "C33H48O2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 3,
+        "unique_official_identities": 3,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 2
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC1(C)C=C2C3(C)CCC4C(C)(CCC5C(C)(C)C(O)CCC45C)C3=CCC2(c2ccoc2)CC1"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_XSOKPIZATJBJPO",
+        "formula": "C33H49P",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_XSOKPIZATJBJPO",
+        "formula": "C26H53O5P",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "C(CCCCCCCCCCCCC(=O)O)CCCCCCCCCCCCP(=O)(O)O"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_XSOKPIZATJBJPO",
+        "formula": "C25H52N2O4S",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_FWXUWWAXYNCZAY",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 35,
+    "common_observation_missing_pairs": 4,
+    "movable_slots": 22,
+    "eligible": true,
+    "zero_recovers_control": true,
+    "changed": true,
+    "changed_top1": false,
+    "original_gl_candidates": 92,
+    "feature_groups": [
+      {
+        "mid": "cross_FWXUWWAXYNCZAY",
+        "formula": "C15H24N6O",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 35,
+        "unique_official_identities": 35,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "QTOF",
+          [
+            "raw",
+            "eV"
+          ]
+        ],
+        "ce_groups": 2,
+        "selected_ce_buckets": [
+          40.0,
+          60.0
+        ],
+        "selected_unique_observations": 2,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CCN1CCN(C1=O)C2CCN(CC2)C3=NC=NC(=C3)NC"
+        ],
+        "ce_balanced_mean_winners": [
+          "CCN1CCN(C1=O)C2CCN(CC2)C3=NC=NC(=C3)NC"
+        ],
+        "support_winners": [
+          "CCN1CCN(C1=O)C2CCN(CC2)C3=NC=NC(=C3)NC"
+        ]
+      },
+      {
+        "mid": "cross_FWXUWWAXYNCZAY",
+        "formula": "C14H28N2O5",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_FWXUWWAXYNCZAY",
+        "formula": "C19H28O3",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 3,
+        "unique_official_identities": 3,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "QTOF",
+          [
+            "raw",
+            "eV"
+          ]
+        ],
+        "ce_groups": 2,
+        "selected_ce_buckets": [
+          40.0,
+          60.0
+        ],
+        "selected_unique_observations": 2,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC12CCC(=O)C=C1CCC1C2CCC2(C)C(O)C(O)CC12"
+        ],
+        "ce_balanced_mean_winners": [
+          "CC12CCC(=O)C=C1CCC1C2CCC2(C)C(O)C(O)CC12"
+        ],
+        "support_winners": [
+          "CC12CCC(=O)C=C1CCC1C2CCC2(C)C(O)C(O)CC12"
+        ]
+      },
+      {
+        "mid": "cross_FWXUWWAXYNCZAY",
+        "formula": "C15H32N2S2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "np_XKLMZUWKNUAPSZ",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 33,
+    "common_observation_missing_pairs": 7,
+    "movable_slots": 23,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 64,
+    "feature_groups": [
+      {
+        "mid": "np_XKLMZUWKNUAPSZ",
+        "formula": "C24H33N3O4",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 33,
+        "unique_official_identities": 33,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "incomplete_common_observation": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC1=C(C(=CC=C1)C)NC(=O)CN2CCN(CC2)CC(COC3=CC=C(C=C3)OC)O"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_XKLMZUWKNUAPSZ",
+        "formula": "C22H32F3N3O2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 2,
+        "unique_official_identities": 2,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CCN1CCC(N2CCC(C(=O)NCCc3ccc(OC(F)(F)F)cc3)CC2)CC1"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_XKLMZUWKNUAPSZ",
+        "formula": "C29H33NO2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 3,
+        "unique_official_identities": 3,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "C1CC2CC(CC1N2CCCC(C3=CC=CC=C3)(C4=CC=CC=C4)O)(C5=CC=CC=C5)O"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_XKLMZUWKNUAPSZ",
+        "formula": "C22H38NO5P",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "np_XKLMZUWKNUAPSZ",
+        "formula": "C20H37N5OS2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_JIZXTXDQGNQBTA",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 40,
+    "common_observation_missing_pairs": 8,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 93,
+    "feature_groups": [
+      {
+        "mid": "cross_JIZXTXDQGNQBTA",
+        "formula": "C8H15NO3",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 40,
+        "unique_official_identities": 40,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 2
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC(CO)N1CCCC1C(=O)O"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "np_SGEWCQFRYRRZDC",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 40,
+    "common_observation_missing_pairs": 28,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 105,
+    "feature_groups": [
+      {
+        "mid": "np_SGEWCQFRYRRZDC",
+        "formula": "C21H20O10",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 40,
+        "unique_official_identities": 40,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "incomplete_common_observation": 4
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "O=c1cc(-c2ccc(O)cc2)oc2c(C3OC(CO)C(O)C(O)C3O)c(O)cc(O)c12"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "np_RFDAIACWWDREDC",
+    "actual_control_reconstructed": true,
+    "candidate_count": 25,
+    "original_formula_count": 23,
+    "common_observation_missing_pairs": 0,
+    "movable_slots": 22,
+    "eligible": true,
+    "zero_recovers_control": true,
+    "changed": true,
+    "changed_top1": false,
+    "original_gl_candidates": 41,
+    "feature_groups": [
+      {
+        "mid": "np_RFDAIACWWDREDC",
+        "formula": "C26H43NO6",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 23,
+        "unique_official_identities": 23,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "QTOF",
+          [
+            "raw",
+            "eV"
+          ]
+        ],
+        "ce_groups": 4,
+        "selected_ce_buckets": [
+          20.0,
+          35.0,
+          40.0,
+          60.0
+        ],
+        "selected_unique_observations": 5,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC(CCC(=O)NCC(=O)O)C1CCC2C3C(O)C(O)C4CC(O)CCC4(C)C3CCC12C"
+        ],
+        "ce_balanced_mean_winners": [
+          "CC(CCC(=O)NCC(=O)O)C1CCC2C3C(O)C(O)C4CC(O)CCC4(C)C3CCC12C"
+        ],
+        "support_winners": [
+          "CC(CCC(=O)NCC(=O)O)C1CCC2C3C(O)C(O)C4CC(O)CCC4(C)C3CCC12C"
+        ]
+      },
+      {
+        "mid": "np_RFDAIACWWDREDC",
+        "formula": "C27H39N5O2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 2,
+        "unique_official_identities": 2,
+        "eligible": true,
+        "ineligible_reason": null,
+        "selected_stratum": [
+          "[M+H]+",
+          "QTOF",
+          [
+            "raw",
+            "eV"
+          ]
+        ],
+        "ce_groups": 4,
+        "selected_ce_buckets": [
+          20.0,
+          35.0,
+          40.0,
+          60.0
+        ],
+        "selected_unique_observations": 5,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "O=C(CC1CCNCC1Cc1cc(CN2CCN(c3ccccc3)CC2)on1)N1CCCCC1"
+        ],
+        "ce_balanced_mean_winners": [
+          "O=C(CC1CCNCC1Cc1cc(CN2CCN(c3ccccc3)CC2)on1)N1CCCCC1"
+        ],
+        "support_winners": [
+          "O=C(CC1CCNCC1Cc1cc(CN2CCN(c3ccccc3)CC2)on1)N1CCCCC1"
+        ]
+      }
+    ]
+  },
+  {
+    "mid": "np_SHIBSTMRCDJXLN",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 40,
+    "common_observation_missing_pairs": 28,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 111,
+    "feature_groups": [
+      {
+        "mid": "np_SHIBSTMRCDJXLN",
+        "formula": "C23H34O5",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 40,
+        "unique_official_identities": 40,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "incomplete_common_observation": 7
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "C[C]12CC[CH](CC1=CC[CH]3[CH]2CC[C]4([CH]3CC[C]4(C(=O)CCC(=O)O)O)C)O"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_YFJYOZDIJVHPAU",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 21,
+    "common_observation_missing_pairs": 3,
+    "movable_slots": 13,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 87,
+    "feature_groups": [
+      {
+        "mid": "cross_YFJYOZDIJVHPAU",
+        "formula": "C24H27O4P",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 21,
+        "unique_official_identities": 21,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CC1=C(C(=CC=C1)C)OP(=O)(OC2=C(C=CC=C2C)C)OC3=C(C=CC=C3C)C"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_YFJYOZDIJVHPAU",
+        "formula": "C17H31ClN2O5S",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 3,
+        "unique_official_identities": 3,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CCC1CCNC(C(=O)NC(C(C)Cl)C2OC(SC)C(O)C(O)C2O)C1"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_YFJYOZDIJVHPAU",
+        "formula": "C22H28ClFO4",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_YFJYOZDIJVHPAU",
+        "formula": "C26H22N2O3",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 10,
+        "unique_official_identities": 10,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "CCc1cc2c(=O)c(-c3nc4ccccc4n3C)c(-c3ccc(C)cc3)oc2cc1O"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_YFJYOZDIJVHPAU",
+        "formula": "C23H26N2O3S",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 3,
+        "unique_official_identities": 3,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "merged_or_unknown_ce": 1
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "C1CN(CCC12N(C(=O)CS2)CC3=CC=CC=C3)CC4COC5=CC=CC=C5O4"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_YFJYOZDIJVHPAU",
+        "formula": "C18H21F3N6O2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      },
+      {
+        "mid": "cross_YFJYOZDIJVHPAU",
+        "formula": "C18H26N4O5S",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 1,
+        "unique_official_identities": 1,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_unique_identities",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {},
+        "other_eligible_strata": 0,
+        "original_mean_winners": [],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "np_GZSOSUNBTXMUFQ",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 40,
+    "common_observation_missing_pairs": 45,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 68,
+    "feature_groups": [
+      {
+        "mid": "np_GZSOSUNBTXMUFQ",
+        "formula": "C28H32O15",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 40,
+        "unique_official_identities": 40,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "incomplete_common_observation": 5
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "COc1cc(-c2cc(=O)c3c(O)cc(OC4OC(COC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)cc3o2)ccc1O"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  },
+  {
+    "mid": "cross_NQHGQOVKJGGLKE",
+    "actual_control_reconstructed": true,
+    "candidate_count": 40,
+    "original_formula_count": 40,
+    "common_observation_missing_pairs": 24,
+    "movable_slots": 24,
+    "eligible": false,
+    "zero_recovers_control": true,
+    "changed": false,
+    "changed_top1": false,
+    "original_gl_candidates": 71,
+    "feature_groups": [
+      {
+        "mid": "cross_NQHGQOVKJGGLKE",
+        "formula": "C9H8N2O2",
+        "formula_source": "candidate_rdkit_formula",
+        "candidates": 40,
+        "unique_official_identities": 40,
+        "eligible": false,
+        "ineligible_reason": "fewer_than_two_common_finite_ce_groups",
+        "selected_stratum": null,
+        "ce_groups": 0,
+        "selected_ce_buckets": [],
+        "selected_unique_observations": 0,
+        "excluded_spectrum_clusters": {
+          "incomplete_common_observation": 8
+        },
+        "other_eligible_strata": 0,
+        "original_mean_winners": [
+          "O=C(O)Cc1c[nH]c2ncccc12"
+        ],
+        "ce_balanced_mean_winners": [],
+        "support_winners": []
+      }
+    ]
+  }
+]

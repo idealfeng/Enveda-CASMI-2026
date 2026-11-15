@@ -1,0 +1,14 @@
+{
+  "status": "prepared_path_repair_verified_inference_unchanged",
+  "branch": "generation_expand_r3",
+  "notebook_sha256": "1f9a7119dd4fdb45e006c71bd89719646dd08723faf0737920e1b0fd658c73a9",
+  "metadata_sha256": "ae26b5a2de8d19c9eb2ae8b814957a4150b81b124e8803fca558869bcfc7bb82",
+  "recipe_sha256": "bdb7929fa593228d6b6bbe2cd5983e69a0238c11b32059facfd0500dca927ef4",
+  "module_sha256": "0a9a19291ab2f4867331b6f4c81c535c30246ad2d0df873e11dd8ce04d3c8590",
+  "runner_sha256": "153c85fb59025f3c2fa75cf9a64ffe7aa6cdb26b25113fee9fa46643c22f1182",
+  "notebook_bytes": 882463,
+  "path_repair_verification": "runs/generation_recovery_r3_20261112/verification.json",
+  "reused_actual_inference": "runs/generation_prod_canary_20261112_actual_revision2/verification.json",
+  "model_rerun_performed": false,
+  "report": "reports/optimization_20261112/generation_r3_recovery.md"
+}

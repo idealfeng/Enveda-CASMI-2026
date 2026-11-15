@@ -1,0 +1,33 @@
+{
+  "branch": "generation_production",
+  "target": "stormseye/casmi26-generation-production-1113",
+  "baseline_ref": 58156482,
+  "baseline_public_score": 0.488,
+  "champion_notebook_sha256": "2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7",
+  "method": "Expanded spectral parents and bounded product budget without neutral-delta isomer enumeration",
+  "configuration": {
+    "gen_n_analog": 12,
+    "gen_max_total": 300,
+    "gen_max_per_parent": 60,
+    "max_steps": 2,
+    "allow_isomerisation": false
+  },
+  "original_runner_sha256": "86b74f3b4cd5767a2cbe1d291735c292b66b4fbf286a705c6cb777a1865883db",
+  "runner_sha256": "153c85fb59025f3c2fa75cf9a64ffe7aa6cdb26b25113fee9fa46643c22f1182",
+  "module_sha256": "d25564341cb9c9ed32e780ce660a853c03aa421a7a63869799376fd3eb1db42c",
+  "recovery_scope": "Bind exact engine source after original FROZEN determinism patch; generation algorithm and runner unchanged",
+  "previous_unsubmitted_failed_target": "stormseye/casmi26-generation-expand-1112",
+  "local_module_source": "scripts/generation_runtime_patch_20261113.py",
+  "installed_module_basename": "generation_runtime_patch_20261112.py",
+  "only_original_cell_changed": 12,
+  "all_other_original_32_cell_objects_unchanged": true,
+  "frozen_pipeline_bytes_unchanged": true,
+  "actual_production_hook": "After frozen cell37, before first V1FE query",
+  "original_neural_heads_mass_ab_unchanged": true,
+  "validation_mode": "fast_static",
+  "new_training": false,
+  "produre_rerun": false,
+  "source_attribution": "Existing production Engine + recording hooks, bounded generation budget motivated by completed diagnostics; not a claimed validated gain",
+  "runtime_guard": "Original per-parent derive budget800, products60 and original 2-step semantics; total300 and parents12 explicit",
+  "final_generated_count": "Raw-SMILES intersection conservative diagnostic, not truth recall"
+}

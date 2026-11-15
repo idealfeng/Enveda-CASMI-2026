@@ -1,0 +1,18 @@
+{
+  "id": 758596,
+  "read_only": true,
+  "checked_at_utc": "2026-11-14T14:07:44.589249+00:00",
+  "topic": {
+    "id": 758596,
+    "title": "How Can I Tell Whether My Score Is Good or Bad?",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/758596",
+    "postDate": "2026-11-12T16:24:48.107Z",
+    "authorName": "樊dong",
+    "authorUrl": "https://www.kaggle.com/vand17",
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>I've recently built a clean baseline from scratch, but its score seems to have plateaued at a certain level, still falling far short of the scores achieved by existing forks.</p>\n<p>This leaves me wondering: how can I tell whether my current score is actually good or bad? More importantly, how do I decide whether it's worth investing more time in improving this approach, or whether I should consider a different direction?</p>\n<p>I'd appreciate any advice or insights from people with experience in Kaggle competitions.</p>"
+  },
+  "comments": [],
+  "comments_truncated": false
+}

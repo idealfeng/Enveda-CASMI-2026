@@ -1,0 +1,9 @@
+{
+  "status": "monitoring",
+  "pid": 82896,
+  "started_at_utc": "2026-11-14T06:50:55.396891+00:00",
+  "manifest_sha256": "8a4897ca2cb8f21c0eb12807c4f256991b3e1fec344511c7d79528ed330eb719",
+  "read_only_network": true,
+  "new_submission_performed": false,
+  "single_ledger_writer": true
+}

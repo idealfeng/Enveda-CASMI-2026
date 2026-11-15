@@ -1,0 +1,97 @@
+{
+  "status": "passed",
+  "arms": [
+    {
+      "branch": "generation_noiso_control",
+      "status": "passed_static_and_real_derive_component",
+      "checks": {
+        "rdkit_official": true,
+        "notebook_bound": true,
+        "metadata_bound": true,
+        "module_bound": true,
+        "embedded_module_exact": true,
+        "embedded_runner_exact": true,
+        "configuration_exact": true,
+        "generalized_source_exact": true,
+        "only_original_cell12_changed": true,
+        "only_one_final_audit_added": true,
+        "hooks_pin": true,
+        "derivation_pin": true,
+        "exact_post_frozen_engine_pin": true,
+        "zero_delta_toggle": true,
+        "nonzero_two_step_preserved": true,
+        "actual_wrapper_observed_both_calls": true,
+        "bad_steps_fail_closed": true,
+        "no_new_complete_run_claim": true,
+        "all_code_compiles": true
+      },
+      "configuration": {
+        "gen_n_analog": 6,
+        "gen_max_total": 150,
+        "gen_max_per_parent": 60,
+        "max_steps": 2,
+        "allow_isomerisation": false
+      },
+      "notebook_sha256": "794a4aeff3d71347db36b7da76beb23fae1a6eb754cb726432c5f8a29b351aaf",
+      "recipe_sha256": "ed9c2d5f4158c1d004b9fbd4d5d7eb3c9b5d93782964ac4da8dda6c9ad997278",
+      "module_sha256": "283c7f49a4a77d821f2f44d347c934c001a18ee65fd637706e4cbe7760bdb062",
+      "runner_sha256": "153c85fb59025f3c2fa75cf9a64ffe7aa6cdb26b25113fee9fa46643c22f1182",
+      "rdkit": "2026.03.3",
+      "actual_derivation": {
+        "parent_smiles": "COc1ccccc1O",
+        "zero_delta_products": 0,
+        "original_zero_delta_products": 6,
+        "nonzero_delta_products": 7,
+        "nonzero_delta_da": 15.994915
+      },
+      "validation_boundary": "Only static binding and exact actual derive wrapper component against real pinned hooks/RDKit. No Engine library, neural models, GPU inference, ranker or complete production initialized for this new arm. Full prior E2E used another CONFIG, disclosed separately.",
+      "exploration_authorization": "User explicitly requested the remaining four exploratory submissions even without demonstrated local improvement."
+    },
+    {
+      "branch": "generation_budget_only",
+      "status": "passed_static_and_real_derive_component",
+      "checks": {
+        "rdkit_official": true,
+        "notebook_bound": true,
+        "metadata_bound": true,
+        "module_bound": true,
+        "embedded_module_exact": true,
+        "embedded_runner_exact": true,
+        "configuration_exact": true,
+        "generalized_source_exact": true,
+        "only_original_cell12_changed": true,
+        "only_one_final_audit_added": true,
+        "hooks_pin": true,
+        "derivation_pin": true,
+        "exact_post_frozen_engine_pin": true,
+        "zero_delta_toggle": true,
+        "nonzero_two_step_preserved": true,
+        "actual_wrapper_observed_both_calls": true,
+        "bad_steps_fail_closed": true,
+        "no_new_complete_run_claim": true,
+        "all_code_compiles": true
+      },
+      "configuration": {
+        "gen_n_analog": 6,
+        "gen_max_total": 300,
+        "gen_max_per_parent": 60,
+        "max_steps": 2,
+        "allow_isomerisation": true
+      },
+      "notebook_sha256": "7f87816791ce5fb87b68d747286acebd6e803d7ab1752edcfb5f5ee951595272",
+      "recipe_sha256": "db45580e4d0b3e1dea6456afce1ff48722b8c78293d838c3f71cec02336ebb33",
+      "module_sha256": "b7e3366aeb19b03da7caa1eadfdbf7c3afc25025b8e013d154a0e5ccc5773b3f",
+      "runner_sha256": "153c85fb59025f3c2fa75cf9a64ffe7aa6cdb26b25113fee9fa46643c22f1182",
+      "rdkit": "2026.03.3",
+      "actual_derivation": {
+        "parent_smiles": "COc1ccccc1O",
+        "zero_delta_products": 6,
+        "original_zero_delta_products": 6,
+        "nonzero_delta_products": 7,
+        "nonzero_delta_da": 15.994915
+      },
+      "validation_boundary": "Only static binding and exact actual derive wrapper component against real pinned hooks/RDKit. No Engine library, neural models, GPU inference, ranker or complete production initialized for this new arm. Full prior E2E used another CONFIG, disclosed separately.",
+      "exploration_authorization": "User explicitly requested the remaining four exploratory submissions even without demonstrated local improvement."
+    }
+  ]
+}

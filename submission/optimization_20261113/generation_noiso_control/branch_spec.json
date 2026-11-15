@@ -1,0 +1,90 @@
+{
+  "name": "generation_noiso_control",
+  "target": "stormseye/casmi26-gen-noiso-only-1113",
+  "version": 1,
+  "stage_dir": "submission/optimization_20261113/generation_noiso_control",
+  "notebook_sha256": "794a4aeff3d71347db36b7da76beb23fae1a6eb754cb726432c5f8a29b351aaf",
+  "metadata_sha256": "daf2db067e48e0e1ed31d7c1042fb2d26472028a6f354106eeb74a64c2e49351",
+  "description": "CASMI26 20261113 exploratory iso-off only parents6 products150 V1",
+  "validation_mode": "fast_static",
+  "static_review_path": "submission/optimization_20261113/generation_noiso_control/static_review.json",
+  "required_runtime_audits": [
+    {
+      "name": "batch_variant_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "mode": "fast_static",
+        "branch": "public_mass_repro",
+        "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+      },
+      "required_true_checks": [
+        "mass_recipe",
+        "original_public_priors",
+        "official_rdkit",
+        "public_model_pins",
+        "ours_model_pins",
+        "two_distinct_models",
+        "lotus_pin",
+        "csv_schema_ids",
+        "csv_counts",
+        "fast_no_model"
+      ]
+    },
+    {
+      "name": "guarded_tail_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "mass_guarded_head_tail_1108",
+        "mode": "fast_static",
+        "recipe_sha256": "ba7ee5d3545fd6bc32159bbeed785e904dbf99beae0347984a8b7d5c8809e5d8"
+      },
+      "required_true_checks": [
+        "original_base_audit",
+        "late_module_pin",
+        "head_payload_pins",
+        "original_scorer_pin",
+        "audited_control_bound",
+        "final_csv_bound",
+        "exact_ids_order",
+        "exact_prefix7",
+        "exact_candidate_multisets",
+        "fast_no_model"
+      ]
+    },
+    {
+      "name": "external_overlay_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "mass_guarded_extlib",
+        "recipe_sha256": "5fc1c8cb1e27bd9e555090fcf437d0c9bfe02a0f8371811da286d2f3a4d4efd1",
+        "mode": "fast_static"
+      },
+      "required_true_checks": [
+        "base_audit_passed",
+        "control_bound",
+        "final_bound",
+        "source_function_pin",
+        "exact_ids_schema",
+        "official_identities_valid",
+        "library_file_pins",
+        "runtime_checks",
+        "fast_no_matching"
+      ]
+    },
+    {
+      "name": "generation_variant_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "generation_noiso_control",
+        "mode": "fast_static",
+        "recipe_sha256": "ed9c2d5f4158c1d004b9fbd4d5d7eb3c9b5d93782964ac4da8dda6c9ad997278"
+      },
+      "required_true_checks": [
+        "original_ab_audit",
+        "original_ab_output_bound",
+        "installed_module_pin",
+        "fast_no_generation"
+      ]
+    }
+  ]
+}

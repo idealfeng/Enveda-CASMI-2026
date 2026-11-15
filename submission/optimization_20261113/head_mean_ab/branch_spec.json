@@ -1,0 +1,99 @@
+{
+  "name": "head_mean_ab",
+  "target": "stormseye/casmi26-head-mean-ab-1113",
+  "version": 1,
+  "stage_dir": "submission/optimization_20261113/head_mean_ab",
+  "notebook_sha256": "d61a87c4edc67ddd078845e6aeff2d09209e2ab6c75192d20cb3cdcd1318d270",
+  "metadata_sha256": "acabf6ec07e8fa2192fe752c934e2a8eb0eb7cc3d15f89947fdc0e51d01c79b4",
+  "description": "CASMI26 20261113 mean-tail ablation with original AB exploratory V1",
+  "validation_mode": "fast_static",
+  "static_review_path": "submission/optimization_20261113/head_mean_ab/static_review.json",
+  "required_runtime_audits": [
+    {
+      "name": "batch_variant_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "mode": "fast_static",
+        "branch": "public_mass_repro",
+        "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+      },
+      "required_true_checks": [
+        "mass_recipe",
+        "original_public_priors",
+        "official_rdkit",
+        "public_model_pins",
+        "ours_model_pins",
+        "two_distinct_models",
+        "lotus_pin",
+        "csv_schema_ids",
+        "csv_counts",
+        "fast_no_model"
+      ]
+    },
+    {
+      "name": "guarded_tail_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "mass_guarded_v2mean_p7",
+        "mode": "fast_static",
+        "recipe_sha256": "8ab9e20bc3025870c15948767c7ac038f999c2f97cb4b19dd4ca43a7920de733",
+        "protected_prefix": 7,
+        "score_mode": "frozen_v2_mean"
+      },
+      "required_true_checks": [
+        "original_base_audit",
+        "late_module_pin",
+        "scorer_payload_pins",
+        "original_scorer_pin",
+        "configuration_binding",
+        "audited_control_bound",
+        "final_csv_bound",
+        "exact_ids_order",
+        "exact_protected_prefix",
+        "exact_candidate_multisets",
+        "fast_no_model"
+      ]
+    },
+    {
+      "name": "external_overlay_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "mass_guarded_extlib",
+        "recipe_sha256": "5fc1c8cb1e27bd9e555090fcf437d0c9bfe02a0f8371811da286d2f3a4d4efd1",
+        "mode": "fast_static"
+      },
+      "required_true_checks": [
+        "base_audit_passed",
+        "control_bound",
+        "final_bound",
+        "source_function_pin",
+        "exact_ids_schema",
+        "official_identities_valid",
+        "library_file_pins",
+        "runtime_checks",
+        "fast_no_matching"
+      ]
+    },
+    {
+      "name": "head_mean_ab_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "head_mean_ab",
+        "mode": "fast_static",
+        "recipe_sha256": "cbb3916beddd216750f9b05384180f35700c8a98c6feb330a8c77ff9f79919a2"
+      },
+      "required_true_checks": [
+        "original_mass_passed",
+        "actual_mean_tail_passed",
+        "mean_recipe_bound",
+        "original_AB_passed",
+        "mass_to_mean_control_bound",
+        "mean_to_AB_control_bound",
+        "actual_final_csv_bound",
+        "mean_source_pin",
+        "dynamic_final_ids",
+        "fast_no_model"
+      ]
+    }
+  ]
+}

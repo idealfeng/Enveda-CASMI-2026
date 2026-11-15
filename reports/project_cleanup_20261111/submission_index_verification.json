@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "formal_refs": 26,
+  "valid_scores": 20,
+  "pending": 5,
+  "errored": 1,
+  "champion_score": 0.488,
+  "api_string_and_numeric_formats_supported": true,
+  "complete_with_error_not_scored": true
+}

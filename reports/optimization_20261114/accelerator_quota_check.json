@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-11-14T07:03:12.452168+00:00",
+  "quota_refresh_time": "2026-11-21 00:00:00",
+  "gpu_quota": {
+    "remaining_seconds": null,
+    "used_seconds": null,
+    "limit_seconds": null,
+    "max_seconds": null,
+    "remaining_gpu_quota": null,
+    "quota_remaining": null,
+    "quota_used": null,
+    "quota_limit": null,
+    "guaranteed_quota": null
+  },
+  "read_only": true,
+  "gpu_fields": {
+    "_time_used": "0:02:22.787000",
+    "_time_reserved": "0:00:00",
+    "_total_time_allowed": "1 day, 6:00:00",
+    "_minimum_time_allowed": "1 day, 6:00:00",
+    "_is_pay_to_scale_enabled": "False",
+    "_has_ever_run": "True",
+    "_is_frozen": "True"
+  }
+}

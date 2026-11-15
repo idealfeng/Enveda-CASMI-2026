@@ -1,0 +1,102 @@
+[
+  {
+    "path": "assets/kaggle/nakhun/casmi26-extlib2/v1/extlib2/ext2_meta.parquet",
+    "rows": 490840,
+    "schema": "source: string\nprecursor_mz: double\nadduct: string\nionization_mode: string\nnormalized_smiles: string\ninchikey14: string\nexact_mass: double\ninstrument: string\nname: string\nn_peaks: int64\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1286",
+    "sample": {
+      "source": "GNPS2:GNPS-LIBRARY",
+      "precursor_mz": "981.54",
+      "adduct": "[M+H]+",
+      "ionization_mode": "positive",
+      "normalized_smiles": "C=C1C(=O)NC(C)C(=O)NC(CC(C)C)C(=O)NC(C(=O)O)C(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(/C=C/C(C)=C/C(C)C(O)Cc2ccccc2)C(C)C(=O)NC(C(=O)O)CCC(=O)N1C",
+      "inchikey14": "IYDKWWDUBYWQGF",
+      "exact_mass": "980.5331177440003",
+      "instrument": "LC-ESI-qTof",
+      "name": "3-Des-Microcystein_LR M+H",
+      "n_peaks": "205"
+    }
+  },
+  {
+    "path": "enveda-CASMI26-molecule-id-mass-spectra/train.parquet",
+    "rows": 2539608,
+    "schema": "ingest_lib: string\nnormalized_smiles: string\ninchikey: string\ninchikey14: string\nmolecular_formula: string\nionization_mode: string\ninstrument_type: string\nadduct: string\nadduct_orig: string\nprecursor_mz: double\nprecursor_error_ppm: double\nms2_mzs: list<element: double>\n  child 0, element: double\nms2_normalized_intensities: list<element: double>\n  child 0, element: double\nnum_peaks: int64\nbase_peak_intensity: double\ncollision_energy_ev: list<element: double>\n  child 0, element: double\ncollision_energy_orig: string\ncollision_energy_orig_units: string",
+    "sample": {
+      "ingest_lib": "drug_plus",
+      "normalized_smiles": "O=C1NC(=O)c2cc(Nc3ccccc3)c(Nc3ccccc3)cc21",
+      "inchikey": "AAALVYBICLMAMA-UHFFFAOYSA-N",
+      "inchikey14": "AAALVYBICLMAMA",
+      "molecular_formula": "C20H15N3O2",
+      "ionization_mode": "positive",
+      "instrument_type": "None",
+      "adduct": "[M+H]+",
+      "adduct_orig": "[M+H]+",
+      "precursor_mz": "330.1237",
+      "precursor_error_ppm": "1.6713980548160006",
+      "ms2_mzs": "[92.0495, 93.0573, 94.0607, 116.107, 123.1168, 124.1203, 133.0761, 142.0777, 142.1226, 166.0655, 167.0734, 168.0808, 169.0838, 169.0886, 170.092, 176.0457, 181.076, 184.0758, 185.0",
+      "ms2_normalized_intensities": "[0.0171037726229424, 0.328091214993177, 0.0107218611515595, 0.0260808387356118, 0.00689810236918518, 0.000731897656782594, 0.00296068467031701, 0.00198119486676545, 0.0007147635638",
+      "num_peaks": "52",
+      "base_peak_intensity": "None",
+      "collision_energy_ev": "None",
+      "collision_energy_orig": "None",
+      "collision_energy_orig_units": "unknown"
+    }
+  },
+  {
+    "path": "runs/validation_pilot_v2_20261104/structure_identity_audit.parquet",
+    "rows": 277566,
+    "schema": "raw_inchikey14: string\nsmiles: string\nheavy_composition: string\nofficial_identity: string\ncanonical_checked: bool\nreference_blocked: bool",
+    "sample": {
+      "raw_inchikey14": "AAALVYBICLMAMA",
+      "smiles": "O=C1NC(=O)c2cc(Nc3ccccc3)c(Nc3ccccc3)cc21",
+      "heavy_composition": "[[\"C\", 20], [\"N\", 3], [\"O\", 2]]",
+      "official_identity": "None",
+      "canonical_checked": "False",
+      "reference_blocked": "False"
+    }
+  },
+  {
+    "path": "assets/kaggle/takumuhata/casmi26-extlib/v2/ext_meta.parquet",
+    "rows": 200724,
+    "schema": "inchikey14: string\nnormalized_smiles: string\nadduct: string\nionization_mode: string\ninstrument_type: string\nprecursor_mz: double\nformula: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 1147",
+    "sample": {
+      "inchikey14": "PUMXWMGECQIOGB",
+      "normalized_smiles": "CC1=C[C@H]2O[C@@H]3[C@H](O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)C[C@](C)([C@@]2(CO)[C@H](O)C1=O)[C@]31CO1",
+      "adduct": "[M+HCOO]-",
+      "ionization_mode": "negative",
+      "instrument_type": "LC-APCI-ITFT",
+      "precursor_mz": "503.177",
+      "formula": "C21H30O11"
+    }
+  },
+  {
+    "path": "assets/kaggle/samartalwar/casmi-2026-spectral-library-massbankharmonized/v1/spectra.parquet",
+    "rows": 139744,
+    "schema": "spectrum_id: large_string\nsource: large_string\nsource_institution: large_string\nname: large_string\nsmiles: large_string\ninchikey: large_string\nformula: large_string\nexact_mass: double\nprecursor_mz: double\nadduct: large_string\nion_mode: large_string\nms_type: large_string\ninstrument_type: large_string\ncollision_energy: large_string\nresolution: large_string\nretention_time_min: double\nnum_peaks: int64\nmzs: list<element: double>\n  child 0, element: double\nintensities: list<element: double>\n  child 0, element: double\nlicense: large_string\nauthors: large_string\npublication: large_string\ncopyright: large_string\nis_casmi_subset: bool\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2900",
+    "sample": {
+      "spectrum_id": "MSBNK-Eawag_Additional_Specs-ET160004",
+      "source": "MassBank",
+      "source_institution": "Eawag_Additional_Specs",
+      "name": "PRI_260.1759_12.9",
+      "smiles": "COc1cc(NC(C)CCCN)c2ncccc2c1",
+      "inchikey": "INDBQLZJXZLFIT-UHFFFAOYSA-N",
+      "formula": "C15H21N3O",
+      "exact_mass": "259.1685",
+      "precursor_mz": "260.1757",
+      "adduct": "[M+H]+",
+      "ion_mode": "POSITIVE",
+      "ms_type": "MS2",
+      "instrument_type": "LC-ESI-QFT",
+      "collision_energy": "15, 30, 45, 60, 70 or 90 (nominal)",
+      "resolution": "17500",
+      "retention_time_min": "13.2",
+      "num_peaks": "16",
+      "mzs": "[67.0544, 69.07, 86.0963, 131.0603, 132.068, 144.0678, 145.0757, 160.063, 174.0786, 175.0863, 186.0785, 187.0863, 201.1017, 227.1174, 241.1332, 243.1489]",
+      "intensities": "[28588.5, 1282582.6, 5084400.0, 5838.8, 44852.6, 18762.1, 5660.5, 64677.3, 187545.2, 3178622.0, 13182.1, 593762.8, 28186.2, 15296.0, 826533.4, 1428369.4]",
+      "license": "CC BY",
+      "authors": "R. Gulde, E. Schymanski, K. Fenner, Department of Environmental Chemistry, Eawag",
+      "publication": "Gulde, R.; Meier, U.; Schymanski, E. L.; Kohler, H.-P. E.; Helbling, D. E.; Derrer, S.; Rentsch, D.; Fenner, K. Systematic Exploration of Biotransformation Reactions of Amine-Conta",
+      "copyright": "Copyright (C) 2016 Eawag, Duebendorf, Switzerland",
+      "is_casmi_subset": "False"
+    }
+  }
+]

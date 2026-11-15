@@ -1,0 +1,9 @@
+{
+  "weight": 0.1,
+  "scope": "Fixed top1; only original ranks2-25 with control leader formula; same candidate set",
+  "original_full_formula_T0": true,
+  "no_truth_used_for_policy": true,
+  "claimed_full_488": false,
+  "gl_glue_sha256": "ea390f5f29705c015f39c509cc2b86e6a360d0bb90db61c87c507068f38ae58e",
+  "feature_design_sha256": "b52d04525cec36038398991d75d7a56fa876d6c6461c9cdfa1fbbd3f5214a5ae"
+}

@@ -1,3 +1,23 @@
+## 2026-11-12晚间：异常核实与无提升复盘
+
+- 用户截图指出生成版失败，官方API确认58271324隐藏重跑异常、无有效分，已占本日名额。新匹配58263553=.488，Saner best集成58263831=.478，另两条仍待评分。此前“五条提交成功”只代表请求被接受和可见fast检查通过，不代表隐藏完整推理成功；已在状态和索引更正。
+- 生成补丁另有确定生产缺陷：FROZEN cell27先对engine做determinism源码patch，cell36/37导入patched engine，但r3仍校验原始SHA。原两题小试直接从assets导入，未走生产初始化；最小复现已触发相同sourceguard错误。只修实际patched SHA的候选另存，未改冻结stage、未新提交。官方无hidden traceback，不能唯一认定服务端实际终止位置，也不把单项修复说成整管线成功。
+- 近期选题集中在来源诊断、同系checkpoint混合和局部规则，没有足够证据支持能纠正冠军实际错误；SHA不同和finite输出只证明独立与可运行。停止用完五次为目标，暂停当前Sanerbest配方、更多同系checkpoint/门槛扫描及未胜出组件组合。主线转完整冠军错误驱动的候选证据融合；可复用已有逐谱数据但不能冒称已在完整.488候选上验证有效。produre1/2不重做。[结果与取舍](reports/ROUND_REVIEW_2026-11-12.md)。
+
+## 2026-11-12：独立checkpoint、新匹配与生成五版已接受
+
+- 今日额度已全部用于五条正式code submission：新匹配58263553、popwenman best-validation58270931、Saner best-validation58263831、生成revision3 58271324、checkpoint＋匹配组合58271026。五份可见产物核验均通过，官方确认今日5次已用、剩0次；当前待隐藏评分，冠军仍58156482/.488，不预报增益。
+- 执行前发现原V80 final与现用v2同SHA，原计划两个重复配方取消且未提交；实际换成两份独立验证阶段checkpoint。原outsider和晚接入head保留；没有新训练，也没有重做produre1/2。
+- 生成r2可见运行因audit硬编码code而真实目录为p2s_code失败，未消耗正式额度。新revision3仅改路径校验，以实际module文件和同目录runner绑定；推理逻辑及runner不变，补12项真实目录路径检查，保留失败原件。以前的38项读审未覆盖生产布局，已明确修正，不再当覆盖证明。
+- 活动完整manifest为 `submission/optimization_20261112/manifest_recovered.json`（SHA08f87e64...1355d24）。只读查分/提升来源记录已按恢复清单重启；新高分须COMPLETE无error、固定源码/配方和正式编号一致才记账。所有正式接受后关机不影响Kaggle评分，仅暂停本地监控。[本批执行](reports/OPTIMIZATION_BATCH_2026-11-12.md)、[最新状态](reports/optimization_20261112/latest_status.json)、[交接状态](docs/CURRENT_STATUS.md)。
+
+## 2026-11-11：五版收尾与produre诊断定位
+
+- 官方API再次确认B-only .488、A-only .482、Enveda补缺/竞争各.484、AB身份别名修复.488，五条全部COMPLETE且无错误。无新高分，冠军仍58156482/.488。结果、配方指纹和编号已写入[本轮结果](reports/ROUND_RESULT_2026-11-11.md)及机器记录，提交索引已刷新。
+- 用户明确produre1/2已经完成，不重做；定位为打地基、排雷、贡献诊断与收缩探索空间，而不是直接优化方案。复用基础设施与已证伪假设，不按任务书重跑。19/48等为现有生成诊断能力，不是今天的新增榜分贡献；今天未改变生产原有6母体生成。
+- 保留范围：同分异构化+1/48是缺乏强收益证据，不能直接推定隐藏测试有害；母体数是可调杠杆而非唯一已证瓶颈；质量容差扫描无增量、Class2生成冗余和代理不可靠均按原实验范围记录。旧“不占名额”仅是当时研究判断，不是用户长期限制，提升账本中的旧research decision已加澄清。
+- 下一轮候选改为新V80集成/替换、新外库质量匹配、可能的生成预算扩展及按实分组合，不再给生成固定两槽，不继续今天负向接法的阈值扫描。[11/12计划](reports/SUBMISSION_PLAN_2026-11-12.md)、[简短交接状态](docs/CURRENT_STATUS.md)。此轮未启动新训练或新正式提交。
+
 ## 2026-11-11：ozertuu 最新 V18 源码与集成比较
 
 - 按用户新给的精确URL重新拉取 `ozertuu/casmi26-dual-neural-physical-isomer`，得到最新V18（813,013字节，SHA `54ad16b546964a1044f07aa5229cd7ee81145882d73a83fda061923e9254adcd`），已保存在D盘。旧 `0-500-` slug目前404，不再沿用V13配置。

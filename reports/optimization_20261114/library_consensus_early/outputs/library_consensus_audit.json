@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "branch": "library_consensus_early",
+  "recipe_sha256": "3bc44dc8ce443dad75c5b73b601f6bdb9b9ac114558acef02c90aa767832bee0",
+  "mode": "fast_static",
+  "checks": {
+    "parent_AB_passed": true,
+    "control_bound": true,
+    "final_bound": true,
+    "source_pin": true,
+    "module_pin": true,
+    "recipe_branch_bound": true,
+    "actual_configuration": true,
+    "exact_ids_schema": true,
+    "original_candidate_multisets": true,
+    "official_identity_validity": true,
+    "configured_prefix_preserved": true,
+    "fast_no_pair_matching": true
+  },
+  "csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "runtime_report_sha256": "1d350846014475fc87f66aac0a3782ac74ffc4ba4777faf0c7a43cc1b831afaf",
+  "changed_queries": 0,
+  "changed_top1": 0
+}

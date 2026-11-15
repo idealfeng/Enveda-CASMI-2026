@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-dual-evidence-agreement-1114",
+  "version": 1,
+  "notebook_sha256": "928da39f189adba270f21ec9c75c1260e4820aa46596c8b56cbbf372eb789d4f",
+  "checks": {
+    "exact_parent_pin": true,
+    "all_original_cells_unchanged": true,
+    "original_head_AB_retained": true,
+    "only_one_appended_cell": true,
+    "original_dataset_pins_retained": true,
+    "private_offline_gpu": true,
+    "module_payload_pinned": true,
+    "source_compiles": true,
+    "errors_fail_closed": true
+  },
+  "boundary": "Static stage binding only; real changed components separately checked, not new full production inference or efficacy."
+}

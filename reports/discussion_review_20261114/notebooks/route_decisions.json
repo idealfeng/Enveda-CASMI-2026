@@ -1,0 +1,73 @@
+{
+  "scope": "Bounded public notebook source review, not forum thread review or measured Kaggle gain",
+  "verified_new_public_best": false,
+  "score_fields_available": false,
+  "no_source_execution": true,
+  "priorities": [
+    {
+      "route": "extlib2_measured_spectra",
+      "priority": 1,
+      "ref": "nakhun/casmi26-extlib2",
+      "version": 1,
+      "source_notebook": "zz3t3rn41/casmi26-peaks-to-structures-v2",
+      "source_version": 55,
+      "actual_new_information": "New measured reference collection GNPS2 + MassBank + MSnLib; overlap vs champion not measured",
+      "download_bytes": 128947012,
+      "next_action": "Resolve upstream license attribution, deduplicate vs AB, measure additional legal actual hits on fixed champion inputs before a controlled Source C submission",
+      "limits": [
+        "Kaggle license Other with empty description",
+        "offline_eval is author proxy, not actual MRR or competition score",
+        "NISTformat filename is MassBank format, not proof of proprietary NIST data"
+      ],
+      "asset_acquired": true,
+      "asset_root": "assets/kaggle/nakhun/casmi26-extlib2/v1",
+      "download_receipt": "reports/discussion_review_20261114/notebooks/extlib2_download_receipt.json",
+      "arrays_loaded": false,
+      "overlap_measured": false
+    },
+    {
+      "route": "helios_fr_chemical_generator",
+      "priority": 2,
+      "ref": "heliosli/casmi26-0-489",
+      "version": 2,
+      "actual_new_information": "FRIGID-base + E1 predicted fingerprint candidates and independent rr3 fragment reranker",
+      "next_action": "Find complete public model/deployment packages first; no partial reproduction scored as equivalent",
+      "limits": [
+        "Two blank dataset source references",
+        "Missing package silently skips rr3 or FRIGID",
+        "0.489 is Notebook title, not an API-confirmed score"
+      ]
+    },
+    {
+      "route": "kingdamon_wsp_dual_encoder",
+      "priority": 3,
+      "ref": "kingdamon/casmi26-wsp-dual-encoder-inference",
+      "version": 5,
+      "actual_new_information": "Different Conv1D/ECFP dual encoder architecture",
+      "next_action": "Obtain model/data provenance and fix submission schema and multi-spectrum handling before any runtime",
+      "limits": [
+        "Trainer request HTTP403",
+        "Public model search no returned items",
+        "Wrong candidate_smiles column/space delimiter",
+        "No model checkpoint silently preserves baseline"
+      ]
+    }
+  ],
+  "deprioritized": [
+    {
+      "ref": "ozertuu/0-500-casmi26-dual-neural-physical-isomer",
+      "version": 45,
+      "reason": "Source explicitly target .500+ verified baseline .487; same physical/frozen lineage, existing V80 source, old RR8 enabled; no verified independent new model"
+    },
+    {
+      "ref": "alexchilton/casmi26-lb-0-488-peaks-to-structures-network",
+      "version": 14,
+      "reason": "Existing N1c lineage before AB; no new base or data"
+    },
+    {
+      "ref": "prvsiyan/what-the-library-has-not-heard",
+      "version": 2,
+      "reason": "Useful full-pipeline validation lesson and timing harness, not ready new improvement component; no need to redo completed produre studies"
+    }
+  ]
+}

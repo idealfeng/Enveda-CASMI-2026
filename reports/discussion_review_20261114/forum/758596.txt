@@ -1,0 +1,13 @@
+How Can I Tell Whether My Score Is Good or Bad?
+
+https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/758596
+
+Author: 樊dong
+
+Posted: 2026-11-12T16:24:48.107Z
+
+I've recently built a clean baseline from scratch, but its score seems to have plateaued at a certain level, still falling far short of the scores achieved by existing forks.
+
+This leaves me wondering: how can I tell whether my current score is actually good or bad? More importantly, how do I decide whether it's worth investing more time in improving this approach, or whether I should consider a different direction?
+
+I'd appreciate any advice or insights from people with experience in Kaggle competitions.

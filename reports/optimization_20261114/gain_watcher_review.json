@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "checks": {
+    "head_prefix1_ab_bound": true,
+    "head_prefix1_ab_idempotent": true,
+    "head_prefix1_ab_pending_ignored": true,
+    "mean_prefix1_ab_bound": true,
+    "mean_prefix1_ab_idempotent": true,
+    "mean_prefix1_ab_pending_ignored": true,
+    "gl_evidence_early_bound": true,
+    "gl_evidence_early_idempotent": true,
+    "gl_evidence_early_pending_ignored": true,
+    "dual_evidence_agreement_bound": true,
+    "dual_evidence_agreement_idempotent": true,
+    "dual_evidence_agreement_pending_ignored": true,
+    "library_consensus_early_bound": true,
+    "library_consensus_early_idempotent": true,
+    "library_consensus_early_pending_ignored": true,
+    "actual_ledgers_untouched": true
+  },
+  "source_sha256": "57935988ef4891f7ec5e9795c842b4339738c31fa391f768de4bfc7d31fd9b76",
+  "no_network": true,
+  "real_ledger_writes": false
+}

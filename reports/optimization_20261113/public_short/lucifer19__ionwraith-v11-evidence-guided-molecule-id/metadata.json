@@ -1,0 +1,24 @@
+{
+  "ref": "lucifer19/ionwraith-v11-evidence-guided-molecule-id",
+  "title": "🐈‍⬛🧪 IONWRAITH v11 | Evidence-Guided Molecule ID",
+  "current_version_number": 18,
+  "last_run_time": "2026-11-10 11:41:50.956000",
+  "dataset_data_sources": [
+    "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "takumuhata/casmi26-extlib",
+    "sanpier/catalogue-experiment-saner",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [
+    "popwenman/casmi26-scorer-train-v80"
+  ],
+  "is_private": false,
+  "sha256": "8e575a7589b99b8e74022887370f85ef573b8cc165d0be72c972419d848b9f79",
+  "bytes": 825842
+}

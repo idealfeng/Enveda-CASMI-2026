@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "notebook_sha256": "1280a429ae410fd282deec6f2f93dd4d035a6a7655443ac95bc21731f99346c1",
+  "recipe_sha256": "2c66a0e6017f5df1c46afb6d944ba9fbe16a1d421a7843032f913a0386d0ba3b",
+  "checks": {
+    "frozen_source_pin": true,
+    "unchanged_other30_original_cells": true,
+    "exact_adduct_cell32": true,
+    "explicit_branch_in_prepare": true,
+    "prepare_recipe_bound": true,
+    "base_recipe_bound": true,
+    "final_recipe_bound": true,
+    "fixed_pop_bestval_configuration": true,
+    "actual_adduct_fast_audit": true,
+    "adduct_and_bestval_same_final_csv": true,
+    "all_bestval_final_checks": true,
+    "no_model_scoring_on_fast": true,
+    "bad_adduct_status_rejected": true,
+    "bad_adduct_status_removed_final_preserved_control": true,
+    "bad_adduct_output_binding_rejected": true,
+    "bad_adduct_output_binding_removed_final_preserved_control": true,
+    "changed_final_csv_rejected": true,
+    "changed_final_csv_removed_final_preserved_control": true,
+    "restored_good_entry_passed": true,
+    "frozen_source_unchanged": true,
+    "memory_under_400mib": true
+  },
+  "checks_total": 21,
+  "peak_rss_kib": 185056,
+  "changed_frozen_cells_executed": [
+    14,
+    29,
+    32,
+    33
+  ],
+  "actual_adduct_fast_path": true,
+  "no_new_model_scoring": true,
+  "no_new_full_library_matching": true,
+  "original30_cells_not_rerun": true,
+  "quality_gain_claim": false
+}

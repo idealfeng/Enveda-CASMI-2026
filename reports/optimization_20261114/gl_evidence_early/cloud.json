@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-gl-evidence-early-1114",
+  "version": 1,
+  "branch_sha256": "b07b93bd2c08ee17a6c97f071f02322b06120fab0f9e5b94d39ab6d8852160a7",
+  "notebook_sha256": "de6b09110573232fcb33e3ff40b4a01428ec1a376edc2a839131bcea3726cc8d",
+  "metadata_sha256": "77cb5d001ed6da500aea6ffb1be3ed76c33827a14fd4c708dfebae6ef95144b9",
+  "requested_at_utc": "2026-11-14T06:53:05.642445+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-14T06:53:11.549880+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

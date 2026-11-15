@@ -1,0 +1,92 @@
+{
+  "status": "saved_trace_mechanism_description_not_efficacy",
+  "evidence": {
+    "runtime": "runs\\generation_production_20261113_r2\\kaggle\\working\\generation_runtime.json",
+    "runtime_sha256": "4b0b62a9d2bb6606b970198acee1dc7aa22c7227db13c22ea824be5cef6ee8df",
+    "verification_sha256": "958e7f60a5209b760aa231f1655dc579da454175aa3019c16dd6f8c79f3e57e1",
+    "independent_review_sha256": "1678bd6edbe4751043210a4886d9f6258765856141bbe0662bfcc06c0c737ee1"
+  },
+  "configuration": {
+    "gen_n_analog": 12,
+    "gen_max_total": 300,
+    "gen_max_per_parent": 60,
+    "max_steps": 2,
+    "allow_isomerisation": false
+  },
+  "rows": [
+    {
+      "molecule_id": "cross_VXVNYCRICCVPTD",
+      "eligible_parents": 12,
+      "actual_parent_calls": 12,
+      "first6_raw_products": 0,
+      "parent7_12_raw_products": 18,
+      "accepted_generated": 8,
+      "accepted_from_parent7_12_lower_bound": 8,
+      "accepted_from_parent7_12_exact": 8,
+      "accepted_counts_by_parent_sid": {
+        "209912": 3,
+        "1181": 5
+      },
+      "hit_total_cap": false,
+      "generation_seconds": 2.537264,
+      "actual_feature_columns": 252,
+      "ranker_selected_columns": 160,
+      "engine_top25_generated_raw_smiles": 8
+    },
+    {
+      "molecule_id": "np_DUXQKCCELUKXOE",
+      "eligible_parents": 12,
+      "actual_parent_calls": 12,
+      "first6_raw_products": 97,
+      "parent7_12_raw_products": 275,
+      "accepted_generated": 300,
+      "accepted_from_parent7_12_lower_bound": 203,
+      "accepted_from_parent7_12_exact": null,
+      "accepted_counts_by_parent_sid": {
+        "209468": 36,
+        "246128": 57,
+        "199894": 20,
+        "254844": 57,
+        "217459": 60,
+        "214023": 59,
+        "208715": 11
+      },
+      "hit_total_cap": true,
+      "generation_seconds": 6.340811,
+      "actual_feature_columns": 252,
+      "ranker_selected_columns": 160,
+      "engine_top25_generated_raw_smiles": 7
+    }
+  ],
+  "summary": {
+    "actual_parent_calls": 24,
+    "actual_parent7_12_calls": 12,
+    "accepted_generated": 308,
+    "accepted_from_parent7_12_lower_bound": 211,
+    "total_cap_queries": 1,
+    "actual_ranker_selected_columns": 160,
+    "pipeline_seconds": 2327.0263951220004
+  },
+  "causal_limits": [
+    "Champion already generates: 6 parents, total 150, per-parent 60, two steps, isomerisation enabled.",
+    "Current candidate changes parents 6->12, total cap 150->300, and isomerisation True->False simultaneously.",
+    "No same-run unchanged-champion control exists; generated totals and raw-SMILES final intersections are not incremental recall or score gain.",
+    "Parent trace records call rank and output parent sid separately, without explicit rank-to-sid binding. Late-parent accepted counts are conservatively lower bounded, not guessed.",
+    "Disabling isomerisation specifically suppresses near-zero mass-delta derivation; nonzero-delta two-step transforms remain enabled.",
+    "Two diagnostic queries contain unused truth metadata and cannot select a new algorithm or establish Class-3 efficacy."
+  ],
+  "additional_arm_recommendation": {
+    "build": false,
+    "submit": false,
+    "decision": "Wait for the current repaired candidate actual hidden score; no distinct extra arm has sufficient evidence today.",
+    "reason": "12/150/no-isomer is a budget control, while 12/150/default-isomer may reproduce capped original generation. Neither has independent positive ranking evidence; avoid spending a second slot on a blind cap or threshold change.",
+    "if_later_needed_exact_control": {
+      "gen_n_analog": 6,
+      "gen_max_total": 150,
+      "gen_max_per_parent": 60,
+      "max_steps": 2,
+      "allow_isomerisation": false
+    },
+    "control_purpose": "Only after a genuine gain, this fixed original-budget no-isomer control isolates isomerisation removal against unchanged champion. It is a proposed attribution control, not a recommended submission now."
+  }
+}

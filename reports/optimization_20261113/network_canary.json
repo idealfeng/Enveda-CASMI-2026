@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "checks": {
+    "fast_exact": true,
+    "real_scores_consumed": true,
+    "real_spectra_used": true,
+    "edges_observed": true,
+    "output_has_real_changes": true,
+    "candidate_multisets": true,
+    "actual_reference_hit_protected": true,
+    "tampered_score_order_rejected": true
+  },
+  "source_sha256": "8150955a1f0a617639253bd59cca9c186c6e881ebc7f15447682c0e3df7de768",
+  "module_sha256": "a5cea64955f6b2a6e8dd235a25172b4240694b61965e0a6b7492604c2765c10e",
+  "actual_panel_queries": 48,
+  "spectra_molecules": 47,
+  "edges": 8,
+  "changed_queries": 13,
+  "changed_top1": 0,
+  "no_truth_read": true,
+  "scope": "Existing old Flex48 predictions and real query spectra; constructed AB control receipt. Not an exact .488 efficacy comparison or complete pipeline run."
+}

@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "competition": "enveda-CASMI26-molecule-id-mass-spectra",
+  "batch_id": "optimization_20261112",
+  "max_submissions": 5,
+  "baseline_public_score": 0.488,
+  "state_root": "reports/optimization_20261112",
+  "branches": [
+    {
+      "name": "adduct_extlib",
+      "target": "stormseye/casmi26-adduct-extlib-1112",
+      "version": 1,
+      "stage_dir": "submission/optimization_20261112/adduct_extlib",
+      "notebook_sha256": "da79811ad20e32ed6c68082d488785ff893793f6d5a5ec36f71dc5ebc74871af",
+      "metadata_sha256": "297b379c80d2b591c0faac7d1cc97b8c71ee0eda7ffae74bdb3ed6a6010a2dd6",
+      "description": "CASMI26 20261112 public V18 neutral mass adduct external matching audited V1",
+      "validation_mode": "fast_static",
+      "static_review_path": "submission/optimization_20261112/adduct_extlib/static_review.json",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "public_mass_repro",
+            "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+          },
+          "required_true_checks": [
+            "mass_recipe",
+            "original_public_priors",
+            "official_rdkit",
+            "public_model_pins",
+            "ours_model_pins",
+            "two_distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "guarded_tail_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_head_tail_1108",
+            "mode": "fast_static",
+            "recipe_sha256": "ba7ee5d3545fd6bc32159bbeed785e904dbf99beae0347984a8b7d5c8809e5d8"
+          },
+          "required_true_checks": [
+            "original_base_audit",
+            "late_module_pin",
+            "head_payload_pins",
+            "original_scorer_pin",
+            "audited_control_bound",
+            "final_csv_bound",
+            "exact_ids_order",
+            "exact_prefix7",
+            "exact_candidate_multisets",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "adduct_overlay_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "adduct_extlib",
+            "recipe_sha256": "b700e845e2eb850674c2d461498d6a991d6165e18bc66aab3e3d75e9c67a123f",
+            "mode": "fast_static"
+          },
+          "required_true_checks": [
+            "base_audit_passed",
+            "control_bound",
+            "final_bound",
+            "source_function_pin",
+            "module_pin",
+            "official_guard_pin",
+            "exact_ids_schema",
+            "official_identities_valid",
+            "library_file_pins",
+            "runtime_checks",
+            "fast_no_matching",
+            "installed_payload_pins"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bestval_v80_tri",
+      "target": "stormseye/casmi26-bestval-v80-tri-1112",
+      "version": 1,
+      "stage_dir": "submission/optimization_20261112/bestval_v80_tri",
+      "notebook_sha256": "e1d732f2a4e1aab9a5ecda2d849176039636f4fb58c743f2eeee7e1a5e224681",
+      "metadata_sha256": "926c618320042f5a7dbe31780540ba4a678a895d7fe8ce1d26c96e3c90e86e5f",
+      "description": "CASMI26 20261112 bestval_v80_tri independent checkpoint audited V1",
+      "validation_mode": "fast_static",
+      "static_review_path": "submission/optimization_20261112/bestval_v80_tri/static_review.json",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "bestval_v80_tri",
+            "recipe_sha256": "fb452ba78d35aa840e35bc81dc727a66bacc7dee30705a63b1e504483322335c"
+          },
+          "required_true_checks": [
+            "mass_recipe",
+            "original_public_priors",
+            "official_rdkit",
+            "public_model_pins",
+            "ours_model_pins",
+            "two_distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "guarded_tail_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_head_tail_1108",
+            "mode": "fast_static",
+            "recipe_sha256": "ba7ee5d3545fd6bc32159bbeed785e904dbf99beae0347984a8b7d5c8809e5d8"
+          },
+          "required_true_checks": [
+            "original_base_audit",
+            "late_module_pin",
+            "head_payload_pins",
+            "original_scorer_pin",
+            "audited_control_bound",
+            "final_csv_bound",
+            "exact_ids_order",
+            "exact_prefix7",
+            "exact_candidate_multisets",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "external_overlay_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_extlib",
+            "recipe_sha256": "5fc1c8cb1e27bd9e555090fcf437d0c9bfe02a0f8371811da286d2f3a4d4efd1",
+            "mode": "fast_static"
+          },
+          "required_true_checks": [
+            "base_audit_passed",
+            "control_bound",
+            "final_bound",
+            "source_function_pin",
+            "exact_ids_schema",
+            "official_identities_valid",
+            "library_file_pins",
+            "runtime_checks",
+            "fast_no_matching"
+          ]
+        },
+        {
+          "name": "bestval_ensemble_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "bestval_v80_tri",
+            "recipe_sha256": "fb452ba78d35aa840e35bc81dc727a66bacc7dee30705a63b1e504483322335c",
+            "mode": "fast_static"
+          },
+          "required_true_checks": [
+            "configuration_exact",
+            "installed_models_exact",
+            "three_distinct_checkpoints",
+            "outsider_v2_unchanged",
+            "late_head_unchanged",
+            "fast_no_model",
+            "module_pin",
+            "branch_recipe_bound",
+            "original_ab_passed",
+            "final_ab_output_bound",
+            "exact_ids_schema"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bestval_saner_tri",
+      "target": "stormseye/casmi26-bestval-saner-tri-1112",
+      "version": 1,
+      "stage_dir": "submission/optimization_20261112/bestval_saner_tri",
+      "notebook_sha256": "363bcfcf402d58d4bac16375323b97924abd40125d8f1adcb54806935eb740af",
+      "metadata_sha256": "01551350fbd2fbd5cb06c07869d1db39fc10a1668c004ebb0d54b9b639ee4f21",
+      "description": "CASMI26 20261112 bestval_saner_tri independent checkpoint audited V1",
+      "validation_mode": "fast_static",
+      "static_review_path": "submission/optimization_20261112/bestval_saner_tri/static_review.json",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "bestval_saner_tri",
+            "recipe_sha256": "051a199209a8f9cae8c6192e0811b4218ba00dcff9eb8d678f436a19273f095b"
+          },
+          "required_true_checks": [
+            "mass_recipe",
+            "original_public_priors",
+            "official_rdkit",
+            "public_model_pins",
+            "ours_model_pins",
+            "two_distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "guarded_tail_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_head_tail_1108",
+            "mode": "fast_static",
+            "recipe_sha256": "ba7ee5d3545fd6bc32159bbeed785e904dbf99beae0347984a8b7d5c8809e5d8"
+          },
+          "required_true_checks": [
+            "original_base_audit",
+            "late_module_pin",
+            "head_payload_pins",
+            "original_scorer_pin",
+            "audited_control_bound",
+            "final_csv_bound",
+            "exact_ids_order",
+            "exact_prefix7",
+            "exact_candidate_multisets",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "external_overlay_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_extlib",
+            "recipe_sha256": "5fc1c8cb1e27bd9e555090fcf437d0c9bfe02a0f8371811da286d2f3a4d4efd1",
+            "mode": "fast_static"
+          },
+          "required_true_checks": [
+            "base_audit_passed",
+            "control_bound",
+            "final_bound",
+            "source_function_pin",
+            "exact_ids_schema",
+            "official_identities_valid",
+            "library_file_pins",
+            "runtime_checks",
+            "fast_no_matching"
+          ]
+        },
+        {
+          "name": "bestval_ensemble_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "bestval_saner_tri",
+            "recipe_sha256": "051a199209a8f9cae8c6192e0811b4218ba00dcff9eb8d678f436a19273f095b",
+            "mode": "fast_static"
+          },
+          "required_true_checks": [
+            "configuration_exact",
+            "installed_models_exact",
+            "three_distinct_checkpoints",
+            "outsider_v2_unchanged",
+            "late_head_unchanged",
+            "fast_no_model",
+            "module_pin",
+            "branch_recipe_bound",
+            "original_ab_passed",
+            "final_ab_output_bound",
+            "exact_ids_schema"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "generation_expand",
+      "target": "stormseye/casmi26-generation-expand-1112",
+      "version": 1,
+      "stage_dir": "submission/optimization_20261112/generation_expand/revision2",
+      "notebook_sha256": "7ed40ac01c64448490cf9cfd85ad21210e34163e81affdb2e1a1dcbac7514753",
+      "metadata_sha256": "59598f7953b58f04901f536aa98a4b191219c0554449a6400abf9030d554a313",
+      "description": "CASMI26 20261112 generation parents12 products300 no-isomer audited V1",
+      "validation_mode": "fast_static",
+      "static_review_path": "submission/optimization_20261112/generation_expand/revision2/static_review.json",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "public_mass_repro",
+            "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+          },
+          "required_true_checks": [
+            "mass_recipe",
+            "original_public_priors",
+            "official_rdkit",
+            "public_model_pins",
+            "ours_model_pins",
+            "two_distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "guarded_tail_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_head_tail_1108",
+            "mode": "fast_static",
+            "recipe_sha256": "ba7ee5d3545fd6bc32159bbeed785e904dbf99beae0347984a8b7d5c8809e5d8"
+          },
+          "required_true_checks": [
+            "original_base_audit",
+            "late_module_pin",
+            "head_payload_pins",
+            "original_scorer_pin",
+            "audited_control_bound",
+            "final_csv_bound",
+            "exact_ids_order",
+            "exact_prefix7",
+            "exact_candidate_multisets",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "external_overlay_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_extlib",
+            "recipe_sha256": "5fc1c8cb1e27bd9e555090fcf437d0c9bfe02a0f8371811da286d2f3a4d4efd1",
+            "mode": "fast_static"
+          },
+          "required_true_checks": [
+            "base_audit_passed",
+            "control_bound",
+            "final_bound",
+            "source_function_pin",
+            "exact_ids_schema",
+            "official_identities_valid",
+            "library_file_pins",
+            "runtime_checks",
+            "fast_no_matching"
+          ]
+        },
+        {
+          "name": "generation_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "generation_expand",
+            "mode": "fast_static",
+            "recipe_sha256": "23725c232491802eda0721d800d8a26e87c915b1b0837dbd07ffa0fd73087459"
+          },
+          "required_true_checks": [
+            "original_ab_audit",
+            "original_ab_output_bound",
+            "installed_module_pin",
+            "fast_no_generation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bestval_v80_adduct",
+      "target": "stormseye/casmi26-bestval-v80-adduct-1112",
+      "version": 1,
+      "stage_dir": "submission/optimization_20261112/bestval_v80_adduct",
+      "notebook_sha256": "1280a429ae410fd282deec6f2f93dd4d035a6a7655443ac95bc21731f99346c1",
+      "metadata_sha256": "da426b735e9c9cd27096691c56866d547f9a61df702a9dbadd24622181fc74a2",
+      "description": "CASMI26 20261112 bestval_v80_adduct combined independent scorer neutral mass audited V1",
+      "validation_mode": "fast_static",
+      "static_review_path": "submission/optimization_20261112/bestval_v80_adduct/static_review.json",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "bestval_v80_adduct",
+            "recipe_sha256": "2c66a0e6017f5df1c46afb6d944ba9fbe16a1d421a7843032f913a0386d0ba3b"
+          },
+          "required_true_checks": [
+            "mass_recipe",
+            "original_public_priors",
+            "official_rdkit",
+            "public_model_pins",
+            "ours_model_pins",
+            "two_distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "guarded_tail_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_head_tail_1108",
+            "mode": "fast_static",
+            "recipe_sha256": "ba7ee5d3545fd6bc32159bbeed785e904dbf99beae0347984a8b7d5c8809e5d8"
+          },
+          "required_true_checks": [
+            "original_base_audit",
+            "late_module_pin",
+            "head_payload_pins",
+            "original_scorer_pin",
+            "audited_control_bound",
+            "final_csv_bound",
+            "exact_ids_order",
+            "exact_prefix7",
+            "exact_candidate_multisets",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "bestval_ensemble_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "bestval_v80_adduct",
+            "recipe_sha256": "2c66a0e6017f5df1c46afb6d944ba9fbe16a1d421a7843032f913a0386d0ba3b",
+            "mode": "fast_static"
+          },
+          "required_true_checks": [
+            "configuration_exact",
+            "installed_models_exact",
+            "three_distinct_checkpoints",
+            "outsider_v2_unchanged",
+            "late_head_unchanged",
+            "fast_no_model",
+            "module_pin",
+            "branch_recipe_bound",
+            "original_ab_passed",
+            "final_ab_output_bound",
+            "exact_ids_schema"
+          ]
+        },
+        {
+          "name": "adduct_overlay_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "adduct_extlib",
+            "recipe_sha256": "b700e845e2eb850674c2d461498d6a991d6165e18bc66aab3e3d75e9c67a123f",
+            "mode": "fast_static"
+          },
+          "required_true_checks": [
+            "base_audit_passed",
+            "control_bound",
+            "final_bound",
+            "source_function_pin",
+            "module_pin",
+            "official_guard_pin",
+            "exact_ids_schema",
+            "official_identities_valid",
+            "library_file_pins",
+            "runtime_checks",
+            "fast_no_matching",
+            "installed_payload_pins"
+          ]
+        }
+      ]
+    }
+  ]
+}

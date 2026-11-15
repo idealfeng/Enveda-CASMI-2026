@@ -1,0 +1,53 @@
+{
+  "status": "passed_read_only_source_review",
+  "branches": [
+    {
+      "branch": "gl_evidence_early",
+      "stage": "submission/optimization_20261114/gl_evidence_early",
+      "notebook_sha256": "de6b09110573232fcb33e3ff40b4a01428ec1a376edc2a839131bcea3726cc8d",
+      "recipe_sha256": "ddcae1e322d8a0a6f1ebf416477b32aa98a3dd6a477ad3de9e53f65f63f01da9",
+      "checks": {
+        "local_preflight": true,
+        "original_champion33cells_exact": true,
+        "one_actual_module_payload_exact": true,
+        "actual_module_pin": true,
+        "own_recipe_final_audit_exact": true,
+        "final_call_uses_recipe": true,
+        "final_call_uses_branch": true
+      }
+    },
+    {
+      "branch": "dual_evidence_agreement",
+      "stage": "submission/optimization_20261114/dual_evidence_agreement/revision2",
+      "notebook_sha256": "928da39f189adba270f21ec9c75c1260e4820aa46596c8b56cbbf372eb789d4f",
+      "recipe_sha256": "e523db977cfe19c487a55c0b1faf414f54f234ed97e4b5fec29f46a4d50adb92",
+      "checks": {
+        "local_preflight": true,
+        "original_champion33cells_exact": true,
+        "one_actual_module_payload_exact": true,
+        "actual_module_pin": true,
+        "own_recipe_final_audit_exact": true,
+        "final_call_uses_recipe": true,
+        "final_call_uses_branch": true
+      }
+    },
+    {
+      "branch": "library_consensus_early",
+      "stage": "submission/optimization_20261114/library_consensus_early/revision2",
+      "notebook_sha256": "67f982603abafdefe59fe2317fe4f641e062a306fd55621b6640a5c1f8673f8d",
+      "recipe_sha256": "614b6440a1f31be01e6236bf950c4ecacf32fab7d822e42fa2619aa7b3180f81",
+      "checks": {
+        "local_preflight": true,
+        "original_champion33cells_exact": true,
+        "one_actual_module_payload_exact": true,
+        "actual_module_pin": true,
+        "own_recipe_final_audit_exact": true,
+        "final_call_uses_recipe": true,
+        "final_call_uses_branch": true
+      }
+    }
+  ],
+  "fatal_issues_found": [],
+  "new_runs": false,
+  "scope": "Deployment path/payload/binding/score-semantics read review, not efficacy. Library second pass disables .90 skip, only accepted AB rows protected; GL/dual protect .90 and AB but allow otherwise."
+}

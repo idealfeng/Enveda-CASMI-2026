@@ -1,0 +1,17 @@
+﻿{
+    "at":  "2026-11-14T14:50:55.0767127+08:00",
+    "prior_lock":  {
+                       "status":  "monitoring",
+                       "pid":  64288,
+                       "started_at_utc":  "2026-11-13T13:37:57.570132+00:00",
+                       "manifest_sha256":  [
+                                               "3c65dd2759ee93a21f52c7fc4f726b44c55b5985f3f571d97de101adfb38d4d3",
+                                               "a1bb2d829c8f945db4718fca1d9d5a893c68419f21b538d4a965b39d79f5ade8"
+                                           ],
+                       "read_only_network":  true,
+                       "new_run_or_submission_performed":  false,
+                       "single_ledger_writer":  true
+                   },
+    "prior_process_stopped":  false,
+    "disposition":  "prior_process_absent"
+}

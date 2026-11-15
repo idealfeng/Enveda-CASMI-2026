@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-library-consensus-early-1114",
+  "version": 1,
+  "notebook_sha256": "67f982603abafdefe59fe2317fe4f641e062a306fd55621b6640a5c1f8673f8d",
+  "checks": {
+    "parent_pin": true,
+    "all_original_33_cells_exact": true,
+    "one_appended_cell": true,
+    "original_models_head_AB_retained": true,
+    "datasets_unchanged": true,
+    "private_offline_gpu": true,
+    "module_payload_pin": true,
+    "branch_recipe_bound": true,
+    "source_compiles": true,
+    "errors_fail_closed": true
+  },
+  "boundary": "Static source review only; actual new component smoke is separate, no complete new pipeline claim"
+}

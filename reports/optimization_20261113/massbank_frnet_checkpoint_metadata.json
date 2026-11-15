@@ -1,0 +1,367 @@
+{
+  "scope": "Static pickle opcode inspection only; no unpickle/model/Torch/GPU",
+  "metadata_bytes": 12166,
+  "args_excerpt": [
+    {
+      "op": "BINUNICODE",
+      "arg": "args",
+      "position": 11984
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 907,
+      "position": 11993
+    },
+    {
+      "op": "EMPTY_DICT",
+      "arg": null,
+      "position": 11998
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 908,
+      "position": 11999
+    },
+    {
+      "op": "MARK",
+      "arg": null,
+      "position": 12004
+    },
+    {
+      "op": "BINUNICODE",
+      "arg": "gpu",
+      "position": 12005
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 909,
+      "position": 12013
+    },
+    {
+      "op": "BININT1",
+      "arg": 0,
+      "position": 12018
+    },
+    {
+      "op": "BINUNICODE",
+      "arg": "tag",
+      "position": 12020
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 910,
+      "position": 12028
+    },
+    {
+      "op": "BINUNICODE",
+      "arg": "full",
+      "position": 12033
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 911,
+      "position": 12042
+    },
+    {
+      "op": "BINUNICODE",
+      "arg": "no_frag",
+      "position": 12047
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 912,
+      "position": 12059
+    },
+    {
+      "op": "NEWFALSE",
+      "arg": null,
+      "position": 12064
+    },
+    {
+      "op": "BINUNICODE",
+      "arg": "epochs",
+      "position": 12065
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 913,
+      "position": 12076
+    },
+    {
+      "op": "BININT1",
+      "arg": 12,
+      "position": 12081
+    },
+    {
+      "op": "BINUNICODE",
+      "arg": "d",
+      "position": 12083
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 914,
+      "position": 12089
+    },
+    {
+      "op": "BININT1",
+      "arg": 128,
+      "position": 12094
+    },
+    {
+      "op": "BINUNICODE",
+      "arg": "layers",
+      "position": 12096
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 915,
+      "position": 12107
+    },
+    {
+      "op": "BININT1",
+      "arg": 5,
+      "position": 12112
+    },
+    {
+      "op": "BINUNICODE",
+      "arg": "bq",
+      "position": 12114
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 916,
+      "position": 12121
+    },
+    {
+      "op": "BININT1",
+      "arg": 64,
+      "position": 12126
+    },
+    {
+      "op": "BINUNICODE",
+      "arg": "lr",
+      "position": 12128
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 917,
+      "position": 12135
+    },
+    {
+      "op": "BINFLOAT",
+      "arg": 0.0005,
+      "position": 12140
+    },
+    {
+      "op": "SETITEMS",
+      "arg": null,
+      "position": 12149
+    },
+    {
+      "op": "BINUNICODE",
+      "arg": "ep",
+      "position": 12150
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 918,
+      "position": 12157
+    },
+    {
+      "op": "BININT1",
+      "arg": 9,
+      "position": 12162
+    },
+    {
+      "op": "SETITEMS",
+      "arg": null,
+      "position": 12164
+    },
+    {
+      "op": "STOP",
+      "arg": null,
+      "position": 12165
+    }
+  ],
+  "provenance_strings": [
+    "_metadata",
+    "epochs"
+  ],
+  "keys_tail": [
+    {
+      "op": "LONG_BINPUT",
+      "arg": 907,
+      "position": 11993
+    },
+    {
+      "op": "EMPTY_DICT",
+      "arg": null,
+      "position": 11998
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 908,
+      "position": 11999
+    },
+    {
+      "op": "MARK",
+      "arg": null,
+      "position": 12004
+    },
+    {
+      "op": "BINUNICODE",
+      "arg": "gpu",
+      "position": 12005
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 909,
+      "position": 12013
+    },
+    {
+      "op": "BININT1",
+      "arg": 0,
+      "position": 12018
+    },
+    {
+      "op": "BINUNICODE",
+      "arg": "tag",
+      "position": 12020
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 910,
+      "position": 12028
+    },
+    {
+      "op": "BINUNICODE",
+      "arg": "full",
+      "position": 12033
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 911,
+      "position": 12042
+    },
+    {
+      "op": "BINUNICODE",
+      "arg": "no_frag",
+      "position": 12047
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 912,
+      "position": 12059
+    },
+    {
+      "op": "NEWFALSE",
+      "arg": null,
+      "position": 12064
+    },
+    {
+      "op": "BINUNICODE",
+      "arg": "epochs",
+      "position": 12065
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 913,
+      "position": 12076
+    },
+    {
+      "op": "BININT1",
+      "arg": 12,
+      "position": 12081
+    },
+    {
+      "op": "BINUNICODE",
+      "arg": "d",
+      "position": 12083
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 914,
+      "position": 12089
+    },
+    {
+      "op": "BININT1",
+      "arg": 128,
+      "position": 12094
+    },
+    {
+      "op": "BINUNICODE",
+      "arg": "layers",
+      "position": 12096
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 915,
+      "position": 12107
+    },
+    {
+      "op": "BININT1",
+      "arg": 5,
+      "position": 12112
+    },
+    {
+      "op": "BINUNICODE",
+      "arg": "bq",
+      "position": 12114
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 916,
+      "position": 12121
+    },
+    {
+      "op": "BININT1",
+      "arg": 64,
+      "position": 12126
+    },
+    {
+      "op": "BINUNICODE",
+      "arg": "lr",
+      "position": 12128
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 917,
+      "position": 12135
+    },
+    {
+      "op": "BINFLOAT",
+      "arg": 0.0005,
+      "position": 12140
+    },
+    {
+      "op": "SETITEMS",
+      "arg": null,
+      "position": 12149
+    },
+    {
+      "op": "BINUNICODE",
+      "arg": "ep",
+      "position": 12150
+    },
+    {
+      "op": "LONG_BINPUT",
+      "arg": 918,
+      "position": 12157
+    },
+    {
+      "op": "BININT1",
+      "arg": 9,
+      "position": 12162
+    },
+    {
+      "op": "SETITEMS",
+      "arg": null,
+      "position": 12164
+    },
+    {
+      "op": "STOP",
+      "arg": null,
+      "position": 12165
+    }
+  ]
+}

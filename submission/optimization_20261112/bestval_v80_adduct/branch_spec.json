@@ -1,0 +1,100 @@
+{
+  "name": "bestval_v80_adduct",
+  "target": "stormseye/casmi26-bestval-v80-adduct-1112",
+  "version": 1,
+  "stage_dir": "submission/optimization_20261112/bestval_v80_adduct",
+  "notebook_sha256": "1280a429ae410fd282deec6f2f93dd4d035a6a7655443ac95bc21731f99346c1",
+  "metadata_sha256": "da426b735e9c9cd27096691c56866d547f9a61df702a9dbadd24622181fc74a2",
+  "description": "CASMI26 20261112 bestval_v80_adduct combined independent scorer neutral mass audited V1",
+  "validation_mode": "fast_static",
+  "static_review_path": "submission/optimization_20261112/bestval_v80_adduct/static_review.json",
+  "required_runtime_audits": [
+    {
+      "name": "batch_variant_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "mode": "fast_static",
+        "branch": "bestval_v80_adduct",
+        "recipe_sha256": "2c66a0e6017f5df1c46afb6d944ba9fbe16a1d421a7843032f913a0386d0ba3b"
+      },
+      "required_true_checks": [
+        "mass_recipe",
+        "original_public_priors",
+        "official_rdkit",
+        "public_model_pins",
+        "ours_model_pins",
+        "two_distinct_models",
+        "lotus_pin",
+        "csv_schema_ids",
+        "csv_counts",
+        "fast_no_model"
+      ]
+    },
+    {
+      "name": "guarded_tail_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "mass_guarded_head_tail_1108",
+        "mode": "fast_static",
+        "recipe_sha256": "ba7ee5d3545fd6bc32159bbeed785e904dbf99beae0347984a8b7d5c8809e5d8"
+      },
+      "required_true_checks": [
+        "original_base_audit",
+        "late_module_pin",
+        "head_payload_pins",
+        "original_scorer_pin",
+        "audited_control_bound",
+        "final_csv_bound",
+        "exact_ids_order",
+        "exact_prefix7",
+        "exact_candidate_multisets",
+        "fast_no_model"
+      ]
+    },
+    {
+      "name": "bestval_ensemble_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "bestval_v80_adduct",
+        "recipe_sha256": "2c66a0e6017f5df1c46afb6d944ba9fbe16a1d421a7843032f913a0386d0ba3b",
+        "mode": "fast_static"
+      },
+      "required_true_checks": [
+        "configuration_exact",
+        "installed_models_exact",
+        "three_distinct_checkpoints",
+        "outsider_v2_unchanged",
+        "late_head_unchanged",
+        "fast_no_model",
+        "module_pin",
+        "branch_recipe_bound",
+        "original_ab_passed",
+        "final_ab_output_bound",
+        "exact_ids_schema"
+      ]
+    },
+    {
+      "name": "adduct_overlay_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "adduct_extlib",
+        "recipe_sha256": "b700e845e2eb850674c2d461498d6a991d6165e18bc66aab3e3d75e9c67a123f",
+        "mode": "fast_static"
+      },
+      "required_true_checks": [
+        "base_audit_passed",
+        "control_bound",
+        "final_bound",
+        "source_function_pin",
+        "module_pin",
+        "official_guard_pin",
+        "exact_ids_schema",
+        "official_identities_valid",
+        "library_file_pins",
+        "runtime_checks",
+        "fast_no_matching",
+        "installed_payload_pins"
+      ]
+    }
+  ]
+}

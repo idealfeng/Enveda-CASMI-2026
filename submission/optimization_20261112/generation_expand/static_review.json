@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-generation-expand-1112",
+  "version": 1,
+  "notebook_sha256": "53aa09c7530a74417930ae61fb7695beed5c5c3bc016c5a7d7f54a211a9480c2",
+  "checks": {
+    "champion_pin": true,
+    "only_stage_machinery_changed": true,
+    "all_other_32_original_cells_exact": true,
+    "original_frozen_unmodified": true,
+    "explicit_actual_runner_replacement": true,
+    "runtime_module_and_runner_pinned": true,
+    "source_compiles": true,
+    "all_original_neural_heads_ab_retained": true,
+    "no_new_data_or_training": true,
+    "private_offline_gpu": true,
+    "errors_fail_closed": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+ "rows": 490840,
+ "structures": 62782,
+ "rdkit": "2026.03.3",
+ "by_source": {
+  "GNPS2": 432221,
+  "MassBank": 44480,
+  "MSnLib": 14139
+ },
+ "by_adduct": {
+  "[M+H]+": 352469,
+  "[M-H]-": 123995,
+  "[M+NH4]+": 5231,
+  "[M+Cl]-": 3844,
+  "[M-H2O+H]+": 2381,
+  "[M+Na]+": 1430,
+  "[M+CH2O2-H]-": 944,
+  "[M-2H2O+H]+": 530,
+  "[M+K]+": 14,
+  "[M-H2O-H]-": 2
+ },
+ "stats": {
+  "GNPS2": {
+   "seen": 953293,
+   "kept": 528980,
+   "no_struct": 96086,
+   "bad_adduct": 0,
+   "bad_mass": 276961,
+   "few_peaks": 51266,
+   "msn": 0
+  },
+  "MassBank": {
+   "seen": 116340,
+   "kept": 83220,
+   "no_struct": 960,
+   "bad_adduct": 4463,
+   "bad_mass": 14167,
+   "few_peaks": 13530,
+   "msn": 0
+  },
+  "MSnLib": {
+   "seen": 82851,
+   "kept": 68291,
+   "no_struct": 0,
+   "bad_adduct": 11708,
+   "bad_mass": 0,
+   "few_peaks": 2852,
+   "msn": 0
+  }
+ },
+ "built_utc": "2026-11-12 19:25:42",
+ "seconds": 1009
+}

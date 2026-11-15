@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "branch": "head_mean_ab",
+  "mode": "fast_static",
+  "recipe_sha256": "cbb3916beddd216750f9b05384180f35700c8a98c6feb330a8c77ff9f79919a2",
+  "checks": {
+    "original_mass_passed": true,
+    "actual_mean_tail_passed": true,
+    "mean_recipe_bound": true,
+    "original_AB_passed": true,
+    "mass_to_mean_control_bound": true,
+    "mean_to_AB_control_bound": true,
+    "actual_final_csv_bound": true,
+    "mean_source_pin": true,
+    "dynamic_final_ids": true,
+    "fast_no_model": true
+  },
+  "csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "mean_tail_csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "trained_tail_heads_applied": false,
+  "mean_scorer_executed": false
+}

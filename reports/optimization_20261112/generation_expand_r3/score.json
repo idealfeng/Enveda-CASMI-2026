@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-generation-expand-r3-1112",
+  "version": 1,
+  "branch_sha256": "050d14b8de01b6f98b55265ca4d311f5d8dcf6ae78037fa2522b4d512284deb5",
+  "submission_ref": 58271324,
+  "actual_target": "stormseye/casmi26-generation-expand-r3-1112",
+  "status": "COMPLETE",
+  "public_score": null,
+  "public_score_available": false,
+  "error_description_present": true,
+  "checked_at_utc": "2026-11-13T11:39:31.128187+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

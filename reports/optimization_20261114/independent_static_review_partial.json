@@ -1,0 +1,67 @@
+{
+  "status": "passed_static_four_pending_dual_revision",
+  "branches": [
+    {
+      "branch": "head_prefix1_ab",
+      "notebook_sha256": "6c08b5287e42969ab0e67b50975ac46bae2c35f6dad76f8a32b94bc4ae022670",
+      "recipe_sha256": "a6e2710a099fd00e9972e18126202dd70ebcdf6b43081d4a3a860f24b98bab64",
+      "changed_cells": [
+        30,
+        31
+      ],
+      "checks": {
+        "local_preflight": true,
+        "changed_parent_cells_exact": true,
+        "one_final_audit_added": true,
+        "same_dataset_versions": true,
+        "title_matches_slug": true,
+        "own_recipe_pin": true
+      }
+    },
+    {
+      "branch": "mean_prefix1_ab",
+      "notebook_sha256": "909972b476b706624d66cfa11f2bf1f32a45967d1f44fdd2231a136232d7fd5f",
+      "recipe_sha256": "a0623e5314185582e93ce5c832e474ba9c938d262487ae347046f44cc207eaf1",
+      "changed_cells": [
+        30,
+        31
+      ],
+      "checks": {
+        "local_preflight": true,
+        "changed_parent_cells_exact": true,
+        "one_final_audit_added": true,
+        "same_dataset_versions": true,
+        "title_matches_slug": true,
+        "own_recipe_pin": true
+      }
+    },
+    {
+      "branch": "gl_evidence_early",
+      "notebook_sha256": "de6b09110573232fcb33e3ff40b4a01428ec1a376edc2a839131bcea3726cc8d",
+      "recipe_sha256": "ddcae1e322d8a0a6f1ebf416477b32aa98a3dd6a477ad3de9e53f65f63f01da9",
+      "changed_cells": [],
+      "checks": {
+        "local_preflight": true,
+        "changed_parent_cells_exact": true,
+        "one_final_audit_added": true,
+        "same_dataset_versions": true,
+        "title_matches_slug": true,
+        "own_recipe_pin": true
+      }
+    },
+    {
+      "branch": "library_consensus_early",
+      "notebook_sha256": "67f982603abafdefe59fe2317fe4f641e062a306fd55621b6640a5c1f8673f8d",
+      "recipe_sha256": "614b6440a1f31be01e6236bf950c4ecacf32fab7d822e42fa2619aa7b3180f81",
+      "changed_cells": [],
+      "checks": {
+        "local_preflight": true,
+        "changed_parent_cells_exact": true,
+        "one_final_audit_added": true,
+        "same_dataset_versions": true,
+        "title_matches_slug": true,
+        "own_recipe_pin": true
+      }
+    }
+  ]
+}

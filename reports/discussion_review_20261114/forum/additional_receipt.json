@@ -1,0 +1,116 @@
+{
+  "results": [
+    {
+      "id": 759109,
+      "read_only": true,
+      "checked_at_utc": "2026-11-14T14:07:44.589249+00:00",
+      "status": "saved",
+      "title": "CASMI26 data card: what the parquets contain, what is derivable, and what is not determinable",
+      "comments": 0,
+      "comments_truncated": false,
+      "text_sha256": "b87d11b21fecc645aba784a0237889cbbc35d86baa3ed258e1955b27b8f25d55"
+    },
+    {
+      "id": 758596,
+      "read_only": true,
+      "checked_at_utc": "2026-11-14T14:07:44.589249+00:00",
+      "status": "saved",
+      "title": "How Can I Tell Whether My Score Is Good or Bad?",
+      "comments": 0,
+      "comments_truncated": false,
+      "text_sha256": "7197cbcd00b82986d0d3798a4b40e33ae86547b907bccfe288ab9c2646af2199"
+    },
+    {
+      "id": 758541,
+      "read_only": true,
+      "checked_at_utc": "2026-11-14T14:07:44.589249+00:00",
+      "status": "saved",
+      "title": "How do you check your ideas locally before submitting?",
+      "comments": 2,
+      "comments_truncated": false,
+      "text_sha256": "6b4abcf76b22cb45045edc7d7cc61daa666e95acb1285bdfd3f31331d49e64e0"
+    },
+    {
+      "id": 758233,
+      "read_only": true,
+      "checked_at_utc": "2026-11-14T14:07:46.494515+00:00",
+      "status": "saved",
+      "title": "Clarification request: Reproducibility of small fixed index lists shipped inside public datasets",
+      "comments": 0,
+      "comments_truncated": false,
+      "text_sha256": "fc5bf80e7dcb1f3759adc6b85644af935104135ceb62dc4dc0ea494e7cfe2455"
+    },
+    {
+      "id": 757309,
+      "read_only": true,
+      "checked_at_utc": "2026-11-14T14:07:47.486606+00:00",
+      "status": "saved",
+      "title": "Clarification on PubChem/COCONUT candidate-index redistribution",
+      "comments": 2,
+      "comments_truncated": false,
+      "text_sha256": "f7249ca789b3a01a684f7fa361f2ec2aebcbb1aeba8d286e4a4ee20b194dd534"
+    },
+    {
+      "id": 757307,
+      "read_only": true,
+      "checked_at_utc": "2026-11-14T14:07:48.728457+00:00",
+      "status": "saved",
+      "title": "Is MassSpecGym (and MIST weights trained only on it) allowed? NIST was used only for data cleaning",
+      "comments": 3,
+      "comments_truncated": false,
+      "text_sha256": "d199efa6794f96b41af8fb96af522b4c905bb81543076afefd13b0fd82d6dfc8"
+    },
+    {
+      "id": 756893,
+      "read_only": true,
+      "checked_at_utc": "2026-11-14T14:07:49.197001+00:00",
+      "status": "saved",
+      "title": "Are shipped ranker tables without a public generator reproducible?",
+      "comments": 2,
+      "comments_truncated": false,
+      "text_sha256": "a2c52910c729bb825d1133eb8d048e0e0871a4e5c62ef51d262b1a7f7a8ee774"
+    },
+    {
+      "id": 756504,
+      "read_only": true,
+      "checked_at_utc": "2026-11-14T14:07:49.218009+00:00",
+      "status": "saved",
+      "title": "Open-source pipeline: identity search + analog propagation + LightGBM ranker (with notes on validation)",
+      "comments": 2,
+      "comments_truncated": false,
+      "text_sha256": "d91dab034f829b9715a59b433e2aa0522411250ecd7dd15255a3caa4d0c80bdd"
+    },
+    {
+      "id": 755319,
+      "read_only": true,
+      "checked_at_utc": "2026-11-14T14:07:51.527219+00:00",
+      "status": "saved",
+      "title": "So tired of fork..",
+      "comments": 8,
+      "comments_truncated": false,
+      "text_sha256": "0235e0a4f989e4b4f5878459868f5f3e148efb20b0220a1763b7d2bce97ab4ea"
+    },
+    {
+      "id": 755089,
+      "read_only": true,
+      "checked_at_utc": "2026-11-14T14:07:51.821766+00:00",
+      "status": "saved",
+      "title": "Class 3 graph generation: MC isomers are different from Natural Product not because they are unstable (GFN2-xTB)",
+      "comments": 1,
+      "comments_truncated": false,
+      "text_sha256": "a915c48bf02f4593f177ba50384578a1fea9e7afcf70f93951764c44485435da"
+    },
+    {
+      "id": 754610,
+      "read_only": true,
+      "checked_at_utc": "2026-11-14T14:07:51.944011+00:00",
+      "status": "saved",
+      "title": "Clarification on permitted external resources for final submissions",
+      "comments": 1,
+      "comments_truncated": false,
+      "text_sha256": "b0aaacdd1af3ad838bd0c2bcba113bd13a391d89ed5677bf6f18e6d9b55918a9"
+    }
+  ],
+  "read_only": true,
+  "external_messages_sent": false
+}

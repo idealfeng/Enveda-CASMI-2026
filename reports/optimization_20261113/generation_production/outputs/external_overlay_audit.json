@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "branch": "mass_guarded_extlib",
+  "recipe_sha256": "5fc1c8cb1e27bd9e555090fcf437d0c9bfe02a0f8371811da286d2f3a4d4efd1",
+  "mode": "fast_static",
+  "checks": {
+    "base_audit_passed": true,
+    "control_bound": true,
+    "final_bound": true,
+    "source_function_pin": true,
+    "exact_ids_schema": true,
+    "official_identities_valid": true,
+    "library_file_pins": true,
+    "runtime_checks": true,
+    "fast_no_matching": true
+  },
+  "csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "control_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "runtime_report_sha256": "000fed9c473a6f07da193e4f38a1806007f034b4e3d23b3a810f98fda2866115",
+  "reference_counts": {},
+  "hits": 0,
+  "changed_top1": 0,
+  "invalid_proposals_preserved": 0,
+  "visible_models_executed": false
+}

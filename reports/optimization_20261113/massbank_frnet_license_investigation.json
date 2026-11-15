@@ -1,0 +1,42 @@
+{
+  "checked_at_utc": "2026-11-13T11:56:38.313043+00:00",
+  "api_fields": [
+    "id",
+    "ref",
+    "subtitle",
+    "creatorName",
+    "totalBytes",
+    "lastUpdated",
+    "downloadCount",
+    "licenseName",
+    "description",
+    "ownerName",
+    "ownerRef",
+    "kernelCount",
+    "title",
+    "viewCount",
+    "voteCount",
+    "currentVersionNumber",
+    "usabilityRating",
+    "tags",
+    "versions",
+    "thumbnailImageUrl"
+  ],
+  "license_name": "Other (specified in description)",
+  "description": "",
+  "weight": {
+    "ref": "agentili/casmi26-fr-reranker-blend",
+    "version": 2,
+    "file": "fr_model.pt",
+    "bytes": 3100917,
+    "sha256": "21f70d461564a1db09ce7e181a138538b8efcef2f05c67050f042c607560ff7e",
+    "model_executed": false,
+    "downloaded_at_utc": "2026-11-13T11:56:38.312040+00:00",
+    "signed_urls_persisted": false
+  },
+  "public_page": {
+    "status": "unavailable",
+    "error_type": "HTTPError"
+  },
+  "public_author_notebooks": []
+}

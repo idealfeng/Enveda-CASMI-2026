@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-gen-noiso-only-1113",
+  "version": 1,
+  "branch_sha256": "b7011207526d74f1b8766fdbef491d2a9d0bb13cb030787651c757f433169f2e",
+  "submission_ref": 58310788,
+  "actual_target": "stormseye/casmi26-gen-noiso-only-1113",
+  "status": "COMPLETE",
+  "public_score": "0.488",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-14T06:34:54.156518+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

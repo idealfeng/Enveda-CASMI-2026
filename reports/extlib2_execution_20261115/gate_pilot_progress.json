@@ -1,0 +1,10 @@
+{
+  "queries_processed": 500,
+  "queries_total": 500,
+  "seconds": 90.55,
+  "counters": {
+    "actual_cosine_pairs": 104256,
+    "observed_four_peak_matches": 58735
+  },
+  "peak_rss_mib": 1012.93359375
+}

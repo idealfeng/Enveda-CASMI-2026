@@ -1,0 +1,82 @@
+{
+  "status": "passed_static_not_full_execution",
+  "branches": [
+    {
+      "branch": "head_prefix1_ab",
+      "notebook_sha256": "6c08b5287e42969ab0e67b50975ac46bae2c35f6dad76f8a32b94bc4ae022670",
+      "recipe_sha256": "a6e2710a099fd00e9972e18126202dd70ebcdf6b43081d4a3a860f24b98bab64",
+      "changed_cells": [
+        30,
+        31
+      ],
+      "checks": {
+        "local_preflight": true,
+        "changed_parent_cells_exact": true,
+        "one_final_audit_added": true,
+        "same_dataset_versions": true,
+        "title_matches_slug": true,
+        "own_recipe_pin": true
+      }
+    },
+    {
+      "branch": "mean_prefix1_ab",
+      "notebook_sha256": "909972b476b706624d66cfa11f2bf1f32a45967d1f44fdd2231a136232d7fd5f",
+      "recipe_sha256": "a0623e5314185582e93ce5c832e474ba9c938d262487ae347046f44cc207eaf1",
+      "changed_cells": [
+        30,
+        31
+      ],
+      "checks": {
+        "local_preflight": true,
+        "changed_parent_cells_exact": true,
+        "one_final_audit_added": true,
+        "same_dataset_versions": true,
+        "title_matches_slug": true,
+        "own_recipe_pin": true
+      }
+    },
+    {
+      "branch": "gl_evidence_early",
+      "notebook_sha256": "de6b09110573232fcb33e3ff40b4a01428ec1a376edc2a839131bcea3726cc8d",
+      "recipe_sha256": "ddcae1e322d8a0a6f1ebf416477b32aa98a3dd6a477ad3de9e53f65f63f01da9",
+      "changed_cells": [],
+      "checks": {
+        "local_preflight": true,
+        "changed_parent_cells_exact": true,
+        "one_final_audit_added": true,
+        "same_dataset_versions": true,
+        "title_matches_slug": true,
+        "own_recipe_pin": true
+      }
+    },
+    {
+      "branch": "dual_evidence_agreement",
+      "notebook_sha256": "928da39f189adba270f21ec9c75c1260e4820aa46596c8b56cbbf372eb789d4f",
+      "recipe_sha256": "e523db977cfe19c487a55c0b1faf414f54f234ed97e4b5fec29f46a4d50adb92",
+      "changed_cells": [],
+      "checks": {
+        "local_preflight": true,
+        "changed_parent_cells_exact": true,
+        "one_final_audit_added": true,
+        "same_dataset_versions": true,
+        "title_matches_slug": true,
+        "own_recipe_pin": true
+      }
+    },
+    {
+      "branch": "library_consensus_early",
+      "notebook_sha256": "1a6b341fe9b62f23d0a0db1a3513f624f29faa260f31f4b145e282f621ab689b",
+      "recipe_sha256": "3bc44dc8ce443dad75c5b73b601f6bdb9b9ac114558acef02c90aa767832bee0",
+      "changed_cells": [],
+      "checks": {
+        "local_preflight": true,
+        "changed_parent_cells_exact": true,
+        "one_final_audit_added": true,
+        "same_dataset_versions": true,
+        "title_matches_slug": true,
+        "own_recipe_pin": true
+      }
+    }
+  ],
+  "manifest_sha256": "8a4897ca2cb8f21c0eb12807c4f256991b3e1fec344511c7d79528ed330eb719"
+}

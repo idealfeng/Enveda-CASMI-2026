@@ -1,0 +1,16 @@
+{
+  "status": "safe_heavy_composition_scope_complete",
+  "target_publisher_keys": 115,
+  "target_rows": 1365,
+  "target_unique_smiles": 125,
+  "target_heavy_compositions": 109,
+  "train_rows": 2539608,
+  "train_unique_pairs": 277566,
+  "train_catalog_exact_match": true,
+  "all_AB_unique_smiles": 172418,
+  "AB_invalid_composition_smiles": 0,
+  "same_composition_train_smiles": 8977,
+  "same_composition_AB_smiles": 1378,
+  "canonical_needed": 10351,
+  "seconds": 46.63
+}

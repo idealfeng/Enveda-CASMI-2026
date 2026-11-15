@@ -1,0 +1,8 @@
+{
+  "status": "prepared_pending_actual_component",
+  "branch": "library_consensus_early",
+  "notebook_sha256": "1a6b341fe9b62f23d0a0db1a3513f624f29faa260f31f4b145e282f621ab689b",
+  "recipe_sha256": "3bc44dc8ce443dad75c5b73b601f6bdb9b9ac114558acef02c90aa767832bee0",
+  "module_sha256": "4a530491bc101579bb4f0430d9fa0ac89208784971d44b871f23fbc5b0dc4ce1",
+  "no_cloud_write": true
+}

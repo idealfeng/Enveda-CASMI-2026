@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-library-consensus-early-1114",
+  "version": 1,
+  "branch_sha256": "3b15091f78aefc8be566c20af3696ba6ab9ef9a94a7f84830e911441eb01d9b6",
+  "submission_ref": 58341606,
+  "actual_target": "stormseye/casmi26-library-consensus-early-1114",
+  "status": "COMPLETE",
+  "public_score": "0.488",
+  "public_score_available": true,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-15T03:20:16.939762+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

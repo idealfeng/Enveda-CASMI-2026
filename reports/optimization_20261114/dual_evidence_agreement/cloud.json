@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-dual-evidence-agreement-1114",
+  "version": 1,
+  "branch_sha256": "0286d6a40b3ce9c6115c2c41fa9fe7c573671618544a4881ded3124349c75148",
+  "notebook_sha256": "928da39f189adba270f21ec9c75c1260e4820aa46596c8b56cbbf372eb789d4f",
+  "metadata_sha256": "88d6bad826661f5a1767fd16f5848f5bf596bbcfe5d8dabb0a01767dbd8ee9d1",
+  "requested_at_utc": "2026-11-14T06:55:48.640170+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-14T06:55:54.699730+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

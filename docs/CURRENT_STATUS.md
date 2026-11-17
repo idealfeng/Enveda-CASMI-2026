@@ -1,19 +1,20 @@
-# 当前交接状态
+﻿# 当前交接状态
 
-更新：2026-11-14执行中。简短交接；完整历史按链接查，不需要全项目扫描。
+更新：2026-11-17。先读此页，再按链接继续；旧可行性计划不能覆盖实际结果。
 
-- **冠军仍0.488 / 58156482**：[固定Notebook](../submission/optimization_20261109/mass_guarded_extlib/notebook.ipynb)。[提升账本](../reports/improvement_ledger.json)是唯一最佳分来源。
-- **11/11五版已全部出分**：B-only .488、A-only .482、Enveda补缺/竞争各.484、别名修复.488，均无新高分。[结果和解释](../reports/ROUND_RESULT_2026-11-11.md)。后台watcher已正常结束；旧文档PENDING仅是历史快照。
-- **11/12最终结果**：外库58263553=.488，Saner best58263831=.478，popwenman best58270931=.481，组合58271026=.481；生成58271324隐藏异常，无有效分且已占额度，无新高分。[昨日最终读回](../reports/optimization_20261113/prior_batch_reverified.json)。
-- **11/13五版最终**：生成大扩展58309573=.473；noiso-only 58310788、budget-only 58310627、谱网络58310918、mean＋AB 58310818均.488，全部COMPLETE无error，无新高。API原始分值也只有三位，无法确认更细小数提升。[最终结果](../reports/ROUND_RESULT_2026-11-13.md)、[官方原值与SHA](../reports/optimization_20261114/prior_batch_final.json)。旧五版汇总中的PENDING是后台断续运行历史，不能覆盖今日读回。
-- **11/14五版均已正式接受**：head `58334939`、mean `58341597`、GL `58335002`、dual `58335047`、library `58341606`。22:08北京时间官方读回head=.470、GL=.481、dual=.449，mean/library尚PENDING。没有新高；此前15:06的两版QUEUED已被后续接受结果覆盖。[最新本轮读回](../reports/optimization_20261114/latest_status.json)、[独立官方清单快照](../reports/discussion_review_20261114/latest_our_scores.json)、[五次接受汇总](../reports/optimization_20261114/formal_acceptance_summary.json)。
-- **当前固定清单及读回**：`submission/optimization_20261114/manifest.json`。正式接受数量看[调度回执](../reports/optimization_20261114/batch_dispatcher_status.json)、[官方评分](../reports/optimization_20261114/latest_status.json)，不把后台启动或可见fast_static说成正式接受/隐藏全链成功。旧11/13汇总writer进程已不存在，旧锁及状态已记录后接管，今天只有一个新高记账进程。
-- **后台维护**：五版正式接受已齐，自动索引汇总已完成；已接受版本隐藏推理由Kaggle执行，不再有待发送的今日正式提交。唯一查分/提升记账watcher继续读回剩余分数，关闭电脑会中断本地监控，不影响已接受的云端评测。索引本轮刷新并`--check`通过（41次历史提交）。
-- **最新讨论与转向**：160话题清单、16相关帖评论及6份最新源码已核查。尚未验证有可完整复现且超过.488的新整版；ozertuu V45的.500+是目标、源码基线.487。优先检查extlib2实测覆盖，再接MIST MSG real-only指纹基座，以同式困难负例学习证据适用性。新库v1已完整取得7文件约129MB到D，大小/SHA齐，尚未去重、推理或正式采用；MIST源码已固定到D，289MB权重未下载/运行。[下一轮依据及资产](../reports/discussion_review_20261114/RECOMMENDATIONS.md)、[MIST输入边界](../reports/discussion_review_20261114/mist_feasibility.md)。
-- **路线调整**：按用户最新明确要求，本轮允许预筛无增益或负向的固定策略继续探索提交，不扫参数、不过度预报收益；此前“只提交一版、保留四次”已被覆盖。无需重做produre研究或继续质量容差扫描。FRNet许可/来源未明确，仅保留资产，不在本轮部署。
-- **用户最新约束**：produre1/2已经完成，不重做；定位为打地基、排雷、缩小探索空间，不是现成优化方案。不再照着两组任务书重复跑实验。
-- **生成结果边界**：生产已有6母体生成；19/48是现有诊断能力，19/19是恢复子集排序，非新增榜分。扩母体/双步/同分异构化取舍只是候选线索。
-- **瓶颈定位**：模拟Class3主要损失是真结构未生成（29/48）；旧Class2面板主要是已召回同式候选排错（9条）。两者不是精确.488隐藏任务的分类指标，目前缺完整冠军统一的召回/截断/排序/后处理错误分层，不能只断言全局瓶颈是Class3或排序。[分层解释](../reports/BOTTLENECK_ASSESSMENT_2026-11-12.md)。
-- **权重纠错**：公开V80 final与现用v2完全相同。11/12两份不同SHA的best-validation checkpoint实榜均负向，停止当前混合路线；作者第三权重未取得，不能称完整V18复现。
-- **生产子集边界**：本次测试输入误留诊断标签元数据，源码审查未发现预测路径消费，不是无标签CV；只证明两题完整部署路径，非400题预算、召回率或增益。原verification里的unlabelled措辞以[独审披露](../reports/optimization_20261113/evidence_generation_review.json)为准。
-- **工作入口**：[经验/失败](LESSONS.md)、[模型](MODELS.md)、[正式提交](SUBMISSIONS.md)。所有下载/缓存在D；不移动冻结路径。
+- **冠军仍0.488 / 58156482**：[固定Notebook](../submission/optimization_20261109/mass_guarded_extlib/notebook.ipynb)，SHA `2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7`。[提升账本](../reports/improvement_ledger.json)无新高。
+- **FIORA正式结果58435031=.285**：11/17官方COMPLETE、无错误，有效低分，相对.488降低.203。停止当前AB后同式全slots接法，保留全部模型和失败证据，不凭榜分单独认定哪个子条件是根因。[结果及处置](../reports/optimization_20261116_fiora/ROUND_RESULT_20261117.md)、[官方原值](../reports/optimization_20261116_fiora/fiora_tims500_fullslots/score.json)。无新高，ledger保持。
+- **公开.492复现+优化已正式接受**：Rogers原版58455482、冠军head后/AB前网络.35版58455510，均V1/PENDING无分无错。可见均COMPLETE、网络与输出审计通过，隐藏完整流程/真实效果待官方分数。复现版保公开priors.12、无晚head/rawAB；优化版保冠军priors.10、晚head和ABguard，不能单归某一组件。实际接受/score都在`reports/public_network_20261117/`，禁止重提。[本轮完整说明](../reports/public_network_20261117/EXPERIMENT.md)、[冻结清单](../submission/public_network_20261117/manifest.json)。Helios.494/.495仍demo不复现；新anchored V2仅候补未提交。不重跑produre1/2、不开始新训练。
+- **11/16完整100验证已结束，未确认稳定收益**：[结果及取舍](../reports/new_paradigm_20261116/RESULTS_AND_NEXT.md)、[逐题官方身份组件评价](../reports/new_paradigm_20261116/candidate_validation100/evaluation/evaluation.json)。9402候选双模型全部有限、0错误/缺分；主92 MRR .697335→.707332、95%区间[−.028883,+.049772]，top1 57→58、Top25 80→79，9改善13下降70不变。全100 .688215→.703180，top1 61→63，Top25 86不变；原8指标复现。全部查询含2无碎片监督者保分母，cap128失8条是组件预算不是冠军召回。当前不直接替换冠军、不据8题盲加步数/算力，下一步检验真实错排的碎片覆盖与判别目标。
+- **原8题为发现小试**：MRR .583333→.655435、top1 4/8→5/8，已经在完整100中复现；主92效应更小且区间含0，不再单摘8题声称稳定或榜分。[原组件评价](../reports/new_paradigm_20261115/candidate_pilot_evaluation/evaluation.json)。
+- **11/14五次最终COMPLETE**：trained/mean prefix1各.470，GL early .481，dual pairwise .449，旧AB共识.488。[绑定读回](../reports/execution_20261115/prior_batch_bound_reverification.json)。11/13生成扩展.473、其余四版.488；更早按[提交索引](SUBMISSIONS.md)查。官方分值字符串仅三位。
+- **11/15新信号执行已完成**：[主报告](../reports/execution_20261115/PROGRESS.md)。Extlib2与MIST不再是仅下载或未推理，勿重复准备。
+- **Extlib2**：490840谱，确认至少115个官方身份/1365谱不在AB+train，是有界子集下界；完整谱重叠已查。未匹配内容不等于独立新采集。固定C升首在参考存在改善1题，无真参考损害4题，暂停直接部署。[审计和匹配](../reports/execution_20261115/PROGRESS.md)。
+- **MIST当前release暂停**：289MB权重已下载，2题及17题实际推理完成。17题MRR .656162→.095962。425FP定义一致、103输入与官方张量一致；原生MSG验证也近常量，差异在encoder末两层收缩到1e-9。不是bit顺序或负离子问题，不扫融合系数。不扩大为所有MIST无效。[层审计](../reports/mist_contract_audit_20261115/verification.json)、[FP审计](../reports/mist_fingerprint_audit_20261115/verification.json)。
+- **C正确性门控已训练500步**：500独立timsTOF结构400/100，CPU更新1.459秒；14数值特征+缺失标志，p≥.9和last-step预先固定。开发错误4→2、正确81→74，是取舍而非榜分。[训练结果](../reports/extlib_gate_train_20261115/verification.json)。
+- **门控48题留出已评价**：训练/留出身份不交叉，C限3谱与训练一致、AB全谱；预测保存后才读标签。参考存在 .887153→.901042；无真参考 .833085→.812252，优于固定C .791419但仍低于AB。暂不部署，不再在旧48挑阈值。是组件诊断，非精确冠军或干净CV。[逐例结果](../reports/extlib_gate_holdout48_20261115/verification.json)。
+- **FIORA 500步真实训练资产保留**：[执行证据](../runs/fiora_tims_model_20261115/pilot500/verification.json)。13,448,861参数、67tensor、500次有限非零更新；开发KL1.47966→.99918、原100分母去前体谱cos .484084→.504283、区间[+.00779,+.03265]，是谱拟合信号，不代替已完成100题排名确认。稳定每步.142秒，训练/两次评价156.7秒（不含导入），GPU分配587MiB/保留2064MiB。checkpoint SHA`9c899faa1c45d9a0c25588f99186f34112b25eafe3f6d955a3da34c267996252`；不继续同数据加步数找dev最优。
+- **P0首轮OOM，r2中断未完成**：[新runner](../scripts/run_champion_diagnostics_20261115.py)，1题8谱。首轮E2同期OOM，已停止留证；r2单worker/释放无用缓冲并failfast，恢复时日志为Hangup且无任务进程，原因未知，不能另算OOM或成功。[中断记录](../runs/champion_error_decomposition_20261115/canary_class2_r2/interruption_readback.json)、[首轮故障](../reports/champion_error_decomposition_20261115/canary_class2_oom_diagnosis.md)。FIORA真实500步与100题组件排名已完成，见本页上方；P0未恢复，不与新训练同时重建大索引。Class1/3未真实运行、当前无完整冠军分层指标；原生成6/150、MASS/head/AB配置保持。
+- **FIORA原生与迁移区别**：原OS权重仅HCD/指定离子，旧48无明确HCD，不能重命名仪器；后续显式19维tims迁移及500步已完成，使用新state及params，不能继续按原HCD限制误报新模型未训。[真实训练结果](../reports/new_paradigm_20261115/TIMSTOF_500_RESULTS.md)。DiffMS图生成仍只可行性核查，未大下载/推理。
+- **不可重做项**：produre1/2已完成，复用框架、已证伪假设及有限正向结论，不重跑两组任务。旧19/48、19/19是模拟组件结果，不是冠军最终或隐藏类别成绩；hidden真值/比例未知，锁定final面板不碰。
+- **维护约束**：所有下载、缓存、临时文件在D；不移动冻结路径。新权重先SHA去重（V80 final等于现用v2），运行成功、云端接受、隐藏完成、真实新高分别报告。[模型](MODELS.md)、[错路](LESSONS.md)、[正式提交](SUBMISSIONS.md)。新模型后刷新索引并检查，提升账本只记真实新高。

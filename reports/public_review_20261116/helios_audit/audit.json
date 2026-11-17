@@ -1,0 +1,352 @@
+{
+  "checked_at_utc": "2026-11-16T15:21:58.835351+00:00",
+  "external_read_only": true,
+  "model_bytes_downloaded": 0,
+  "source_executed": false,
+  "source_path": "reports\\public_review_20261116\\notebooks\\heliosli__casmi26-0-494-public-demo\\source.ipynb",
+  "source_sha256": "5f09d769677e2d50caf3806f4e64d45fcc82b6785ed228d40e53648a45e36b0d",
+  "metadata_sha256": "f564221cda6596318b427b9ccd23bc9da0923ba3edd603f45746a24c83d73b0b",
+  "version": 4,
+  "public_title_claim": ".494",
+  "title_score_is_not_official_submission_readback": true,
+  "dataset_refs": [
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "heliosli/casmi26-rr-v3",
+    "heliosli/casmi26-denovo-v3",
+    "heliosli/casmi26-frigid-e1",
+    "heliosli/casmi26-joint-ranker",
+    "heliosli/casmi26-pxv2-deploy",
+    "heliosli/casmi26-rt-np",
+    "sanpier/catalogue-experiment-saner"
+  ],
+  "source_cells_compile": true,
+  "static_findings": {
+    "all_runtime_new_models_optional_skip": true,
+    "M5_required_dataset_not_in_metadata": true,
+    "M5_package_manifest_required": true,
+    "M5_current_mode": "swap",
+    "M5_probe_mode_active": false,
+    "rr3_cfg_required": "rr3_config.json",
+    "frigid_requires_second_gpu": true,
+    "frigid_hidden_deadline_hours": 8.2,
+    "visible_default": "smoke12",
+    "CV_joint_final_rank1_swaps_or_rank2_insert": true,
+    "new_RT_and_PX_checkpoint_assets_required": true,
+    "parent_documented_result": ".477 / submission57722897 read2026-10-29",
+    "no_documented_494_submission_ref_in_markdown": true,
+    "raw_inchikey_gates_not_official_tautomer_normalized": true
+  },
+  "existing_dependency_api_evidence": [
+    {
+      "ref": "heliosli/casmi26-rr-v3",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 404,
+      "evidence_path": "reports\\public_review_20261116\\notebooks\\dependency_inventory\\heliosli__casmi26-rr-v3.json",
+      "evidence_sha256": "b78270f6e64ed6a37ca6278fafc886fc1dfc639ebef62137407f8bec1410954d"
+    },
+    {
+      "ref": "heliosli/casmi26-denovo-v3",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 404,
+      "evidence_path": "reports\\public_review_20261116\\notebooks\\dependency_inventory\\heliosli__casmi26-denovo-v3.json",
+      "evidence_sha256": "b25f2fcf4596f5912a99841deaf0dffdcf0c27c9894b809af235493dc8d278e6"
+    },
+    {
+      "ref": "heliosli/casmi26-frigid-e1",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 404,
+      "evidence_path": "reports\\public_review_20261116\\notebooks\\dependency_inventory\\heliosli__casmi26-frigid-e1.json",
+      "evidence_sha256": "0589a98ce234d16f97cf0baf064d2e3d2277cc0e508617be908339429fced709"
+    },
+    {
+      "ref": "heliosli/casmi26-joint-ranker",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 404,
+      "evidence_path": "reports\\public_review_20261116\\notebooks\\dependency_inventory\\heliosli__casmi26-joint-ranker.json",
+      "evidence_sha256": "5ec141bdd80a84f2bbf0d80482c3ef4aa4aba217bb339fb86df54d48e4cd9034"
+    },
+    {
+      "ref": "heliosli/casmi26-pxv2-deploy",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 404,
+      "evidence_path": "reports\\public_review_20261116\\notebooks\\dependency_inventory\\heliosli__casmi26-pxv2-deploy.json",
+      "evidence_sha256": "778ef46743c9a555a00ecc33942bec9aa5656665edea27ca0f3580a5f47ba3a2"
+    },
+    {
+      "ref": "heliosli/casmi26-rt-np",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 404,
+      "evidence_path": "reports\\public_review_20261116\\notebooks\\dependency_inventory\\heliosli__casmi26-rt-np.json",
+      "evidence_sha256": "6234a1a6ae500900c585533cc4d75287f1d96ab20a37da4ab4ed661cc5f0db3a"
+    }
+  ],
+  "public_author_inventory": {
+    "status": "read",
+    "rows": [
+      {
+        "ref": "heliosli/qcc-circuits-live",
+        "title": "QCC circuits live",
+        "bytes": 21148536,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/rsna-knee-compact-r7cnxfsss",
+        "title": "RSNA Knee Compact R7 CNX FS SS",
+        "bytes": 823095598,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/rsna-knee-r6-frozen-fe055406-w1",
+        "title": "RSNA Knee R6 Frozen fe055406 w1",
+        "bytes": 823098827,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/rsna-orthofoundation-fold0-epoch7-20261004",
+        "title": "RSNA OrthoFoundation Fold0 Epoch7 Private Weights",
+        "bytes": 1343091054,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/rsna-knee-r6-frozen-fe055406",
+        "title": "RSNA Knee R6 Frozen fe055406",
+        "bytes": 823095598,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/rsna-knee-compact-r6cnxfsss",
+        "title": "RSNA Knee Compact r6cnxfsss",
+        "bytes": 823081993,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/rsna-knee-compact-v1",
+        "title": "RSNA Knee Compact v1",
+        "bytes": 823082549,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/casmi26-rr-v3",
+        "title": "casmi26 rr v3",
+        "bytes": 200053136,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/casmi26-frigid-e1",
+        "title": "casmi26-frigid-e1",
+        "bytes": 1635114573,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/casmi26-rt-np",
+        "title": "casmi26-rt-np",
+        "bytes": 49354200,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/casmi26-joint-ranker",
+        "title": "casmi26-joint-ranker",
+        "bytes": 7918,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/casmi26-pxv2-deploy",
+        "title": "casmi26-pxv2-deploy",
+        "bytes": 34653914,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/casmi26-denovo-v3",
+        "title": "casmi26-denovo-v3",
+        "bytes": 149143970,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/rsna-knee-compact-r12cs1-1018",
+        "title": "RSNA Knee Compact r12cs1-1018 (private)",
+        "bytes": 823065161,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/casmi26-m5-v2d",
+        "title": "casmi26-m5-v2d",
+        "bytes": 84920929,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/casmi26-j2-judge",
+        "title": "casmi26-j2-judge",
+        "bytes": 8137785,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/casmi26-analyticon-megx",
+        "title": "casmi26-analyticon-megx",
+        "bytes": 63913,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/qcc-verified-circuits",
+        "title": "QCC verified circuits",
+        "bytes": 16972515,
+        "is_private": false
+      }
+    ],
+    "pages": 1,
+    "bounded_page_cap": 5
+  },
+  "missing_M5_direct_file_inventory": {
+    "status": "failed",
+    "error_type": "HTTPError",
+    "http_status": 403
+  },
+  "conclusion": "Publicdemo source and interfaces are downloadable, but this is expressly not a0.494 reproduction package. Do not downloadGB demo checkpoints or spend a formal slot claiming .494 reproduction.",
+  "finalized_at_utc": "2026-11-16T15:25:12.370521+00:00",
+  "availability_evidence_corrections": [
+    "Initial GetDatasetStatus404 did not establish missing/private assets; corrected by public-author inventory and actual view/file-list requests.",
+    "Public downloadable does not establish score reproducibility: current v2 descriptions explicitly exclude historical original weights and replace them with initialized demos."
+  ],
+  "initial_hypothesis_evidence": "reports/public_review_20261116/helios_audit/initial_hypothesis_superseded.json",
+  "current_asset_evidence": [
+    {
+      "ref": "heliosli/casmi26-denovo-v3",
+      "version": 1,
+      "is_private": false,
+      "bytes": 161517657,
+      "declares_original_weights_excluded": false,
+      "declares_demo_initialized_weights": false,
+      "description": "",
+      "evidence_path": "reports\\public_review_20261116\\notebooks\\dependency_inventory_v2\\heliosli__casmi26-denovo-v3.json",
+      "sha256": "1d18e09ed59f41ae389fc0e5d0cbcf526d9b07987ad0dfea5c1e4c9b94dcf682"
+    },
+    {
+      "ref": "heliosli/casmi26-frigid-e1",
+      "version": 2,
+      "is_private": false,
+      "bytes": 1763756610,
+      "declares_original_weights_excluded": true,
+      "declares_demo_initialized_weights": true,
+      "description": "# Public demonstration artifacts: casmi26-frigid-e1\n\nThis version is an interface and execution demonstration. The original competition-trained weights are not included. It is not a reproduction package for the 0.494 leaderboard result and has no claimed leaderboard score.\n\nModel loaders, file names, tensor dimensions, candidate tables and upstream public assets are retained for compatibility. Private learned parameters are replaced with initialized demo weights (the joint ranker uses a synthetic fit). Self-tests validate this demo version only.\n\nPX reference scores embedded in notebooks must correspond to this demonstration version; updated fixtures are included in this dataset.\n\nOriginal license and upstream source notices continue to apply to the corresponding files.\n",
+      "evidence_path": "reports\\public_review_20261116\\notebooks\\dependency_inventory_v2\\heliosli__casmi26-frigid-e1.json",
+      "sha256": "3a2a5ccf170e178565dc6129a91a1693dd166686ee45f3e28a61577a82f58f59"
+    },
+    {
+      "ref": "heliosli/casmi26-joint-ranker",
+      "version": 2,
+      "is_private": false,
+      "bytes": 17809,
+      "declares_original_weights_excluded": true,
+      "declares_demo_initialized_weights": true,
+      "description": "# Public demonstration artifacts: casmi26-joint-ranker\n\nThis version is an interface and execution demonstration. The original competition-trained weights are not included. It is not a reproduction package for the 0.494 leaderboard result and has no claimed leaderboard score.\n\nModel loaders, file names, tensor dimensions, candidate tables and upstream public assets are retained for compatibility. Private learned parameters are replaced with initialized demo weights (the joint ranker uses a synthetic fit). Self-tests validate this demo version only.\n\nPX reference scores embedded in notebooks must correspond to this demonstration version; updated fixtures are included in this dataset.\n\nOriginal license and upstream source notices continue to apply to the corresponding files.\n",
+      "evidence_path": "reports\\public_review_20261116\\notebooks\\dependency_inventory_v2\\heliosli__casmi26-joint-ranker.json",
+      "sha256": "53d8351dc02eac9ee55f3176007c6ad4db5913f6c763f476564a5553ff20a3d9"
+    },
+    {
+      "ref": "heliosli/casmi26-m5",
+      "version": null,
+      "is_private": null,
+      "bytes": null,
+      "declares_original_weights_excluded": false,
+      "declares_demo_initialized_weights": false,
+      "description": "",
+      "evidence_path": "reports\\public_review_20261116\\notebooks\\dependency_inventory_v2\\heliosli__casmi26-m5.json",
+      "sha256": "5053074f0b553fb348ab4f13522dbc6b0bbeead50bb3cc64fa33d870d0502edf"
+    },
+    {
+      "ref": "heliosli/casmi26-pxv2-deploy",
+      "version": 2,
+      "is_private": false,
+      "bytes": 37619346,
+      "declares_original_weights_excluded": true,
+      "declares_demo_initialized_weights": true,
+      "description": "# Public demonstration artifacts: casmi26-pxv2-deploy\n\nThis version is an interface and execution demonstration. The original competition-trained weights are not included. It is not a reproduction package for the 0.494 leaderboard result and has no claimed leaderboard score.\n\nModel loaders, file names, tensor dimensions, candidate tables and upstream public assets are retained for compatibility. Private learned parameters are replaced with initialized demo weights (the joint ranker uses a synthetic fit). Self-tests validate this demo version only.\n\nPX reference scores embedded in notebooks must correspond to this demonstration version; updated fixtures are included in this dataset.\n\nOriginal license and upstream source notices continue to apply to the corresponding files.\n",
+      "evidence_path": "reports\\public_review_20261116\\notebooks\\dependency_inventory_v2\\heliosli__casmi26-pxv2-deploy.json",
+      "sha256": "c345955cc6bf39da5f66052168da027d6b5bb7412a99846e84cb3ea5dcee4dfc"
+    },
+    {
+      "ref": "heliosli/casmi26-rr-v3",
+      "version": 2,
+      "is_private": false,
+      "bytes": 215790052,
+      "declares_original_weights_excluded": true,
+      "declares_demo_initialized_weights": true,
+      "description": "# Public demonstration artifacts: casmi26-rr-v3\n\nThis version is an interface and execution demonstration. The original competition-trained weights are not included. It is not a reproduction package for the 0.494 leaderboard result and has no claimed leaderboard score.\n\nModel loaders, file names, tensor dimensions, candidate tables and upstream public assets are retained for compatibility. Private learned parameters are replaced with initialized demo weights (the joint ranker uses a synthetic fit). Self-tests validate this demo version only.\n\nPX reference scores embedded in notebooks must correspond to this demonstration version; updated fixtures are included in this dataset.\n\nOriginal license and upstream source notices continue to apply to the corresponding files.\n",
+      "evidence_path": "reports\\public_review_20261116\\notebooks\\dependency_inventory_v2\\heliosli__casmi26-rr-v3.json",
+      "sha256": "729e8b17cee485a22957979698e13752b2dd533f13d81ce7c5a21505fd2e4fd9"
+    },
+    {
+      "ref": "heliosli/casmi26-rt-np",
+      "version": 2,
+      "is_private": false,
+      "bytes": 56520478,
+      "declares_original_weights_excluded": true,
+      "declares_demo_initialized_weights": true,
+      "description": "# Public demonstration artifacts: casmi26-rt-np\n\nThis version is an interface and execution demonstration. The original competition-trained weights are not included. It is not a reproduction package for the 0.494 leaderboard result and has no claimed leaderboard score.\n\nModel loaders, file names, tensor dimensions, candidate tables and upstream public assets are retained for compatibility. Private learned parameters are replaced with initialized demo weights (the joint ranker uses a synthetic fit). Self-tests validate this demo version only.\n\nPX reference scores embedded in notebooks must correspond to this demonstration version; updated fixtures are included in this dataset.\n\nOriginal license and upstream source notices continue to apply to the corresponding files.\n",
+      "evidence_path": "reports\\public_review_20261116\\notebooks\\dependency_inventory_v2\\heliosli__casmi26-rt-np.json",
+      "sha256": "2ee06b340debca28c2ce2081f43ca7f334acc2c012ce661d36c9cdc128ebe894"
+    },
+    {
+      "ref": "heliosli/casmi26-m5-v2d",
+      "version": 2,
+      "bytes": 90414371,
+      "declares_original_weights_excluded": true,
+      "declares_demo_initialized_weights": true,
+      "description": "# Public demonstration artifacts: casmi26-m5-v2d\n\nThis version is an interface and execution demonstration. The original competition-trained weights are not included. It is not a reproduction package for the 0.494 leaderboard result and has no claimed leaderboard score.\n\nModel loaders, file names, tensor dimensions, candidate tables and upstream public assets are retained for compatibility. Private learned parameters are replaced with initialized demo weights (the joint ranker uses a synthetic fit). Self-tests validate this demo version only.\n\nPX reference scores embedded in notebooks must correspond to this demonstration version; updated fixtures are included in this dataset.\n\nOriginal license and upstream source notices continue to apply to the corresponding files.\n",
+      "evidence_path": "reports\\public_review_20261116\\helios_audit\\heliosli__casmi26-m5-v2d.json",
+      "sha256": "9818326ab83b19936702080ec3d985d628810e43a128454beee98165a51406ce"
+    },
+    {
+      "ref": "heliosli/casmi26-j2-judge",
+      "version": 4,
+      "bytes": 12629385,
+      "declares_original_weights_excluded": true,
+      "declares_demo_initialized_weights": true,
+      "description": "# Public demonstration artifacts: casmi26-j2-judge\n\nThis version is an interface and execution demonstration. The original competition-trained weights are not included. It is not a reproduction package for the 0.494 leaderboard result and has no claimed leaderboard score.\n\nModel loaders, file names, tensor dimensions, candidate tables and upstream public assets are retained for compatibility. Private learned parameters are replaced with initialized demo weights (the joint ranker uses a synthetic fit). Self-tests validate this demo version only.\n\nPX reference scores embedded in notebooks must correspond to this demonstration version; updated fixtures are included in this dataset.\n\nOriginal license and upstream source notices continue to apply to the corresponding files.\n",
+      "evidence_path": "reports\\public_review_20261116\\helios_audit\\heliosli__casmi26-j2-judge.json",
+      "sha256": "4ddd6e2be5b69b6c0e79f676614e08788d2348d6ab010705f9dd495347d82a59"
+    },
+    {
+      "ref": "heliosli/casmi26-analyticon-megx",
+      "version": 2,
+      "bytes": 78611,
+      "declares_original_weights_excluded": false,
+      "declares_demo_initialized_weights": false,
+      "description": "# casmi26-analyticon-megx: public demonstration version\n\nThis version contains 3,683 generated molecular examples for testing the notebook interface. It does not contain the original AnalytiCon/COCONUT catalogue membership and is not a reproduction package for the historical competition result. No leaderboard score is claimed for it.\n\nThe six original column names and Arrow data types are retained. Every SMILES parses, its `key14` is computed from that structure, and its `formula` is computed from the same molecule. No structure key overlaps the original private membership table.\n\n`coconut_id` contains clearly labelled DEMO identifiers; these are not COCONUT accession numbers. `in_train` and `in_panel` are false fixture values and make no statement about actual competition membership.\n\nThe accompanying demo notebook keeps the MEGx beta=5 ranking rule and all inference stages, and uses the previously prepared demo versions of the other private model datasets. This table is intended to exercise data loading and membership lookups.\n",
+      "evidence_path": "reports\\public_review_20261116\\helios_audit\\heliosli__casmi26-analyticon-megx.json",
+      "sha256": "0635f47dadad104e50dc3c8cf64b6b830cdc322b274ceb76af56bf30dbd9d381"
+    }
+  ],
+  "original_weight_demo_disclaimers": 7,
+  "no_large_models_downloaded": true,
+  "full_reproduction_ready": false,
+  "reproduction_blocking_reason": "At least7 currently public learned-model packages expressly replace original competition-trained parameters with demonstration initializations; joint ranker is synthetic fit. New MEGx table is generated fixture rather than original catalogue membership."
+}

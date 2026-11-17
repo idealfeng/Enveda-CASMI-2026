@@ -1,0 +1,75 @@
+{
+  "ref": "heliosli/casmi26-denovo-v3",
+  "read_only": true,
+  "files_only": true,
+  "model_bytes_downloaded": 0,
+  "status": "files_read",
+  "file_count": 4,
+  "files": [
+    {
+      "name": "README.md",
+      "creationDate": "2026-11-03T00:43:21.659Z",
+      "totalBytes": 1036
+    },
+    {
+      "name": "denovo_model.py",
+      "creationDate": "2026-11-03T00:43:21.668Z",
+      "totalBytes": 4420
+    },
+    {
+      "name": "denovo_v3.pt",
+      "creationDate": "2026-11-03T00:43:24.836Z",
+      "totalBytes": 161429899
+    },
+    {
+      "name": "denovo_zstats.npz",
+      "creationDate": "2026-11-03T00:43:21.849Z",
+      "totalBytes": 82302
+    }
+  ],
+  "next_page_token_present": false,
+  "dataset_view": {
+    "id": 13048476,
+    "ref": "heliosli/casmi26-denovo-v3",
+    "subtitle": "",
+    "creatorName": "Heliosli",
+    "totalBytes": 161517657,
+    "lastUpdated": "2026-11-03T00:43:20.177Z",
+    "downloadCount": 78,
+    "licenseName": "Other (specified in description)",
+    "description": "",
+    "ownerName": "Heliosli",
+    "ownerRef": "heliosli",
+    "kernelCount": 5,
+    "title": "casmi26-denovo-v3",
+    "viewCount": 9,
+    "voteCount": 1,
+    "currentVersionNumber": 1,
+    "usabilityRating": 0.4375,
+    "tags": [
+      {
+        "ref": "pre-trained model",
+        "name": "pre-trained model",
+        "description": "",
+        "fullPath": "admin > pre-trained model",
+        "competitionCount": 2,
+        "datasetCount": 655450,
+        "scriptCount": 301,
+        "totalCount": 655753
+      }
+    ],
+    "versions": [
+      {
+        "versionNumber": 1,
+        "creationDate": "2026-11-03T00:43:20.177Z",
+        "creatorName": "Heliosli",
+        "creatorRef": "casmi26-denovo-v3",
+        "versionNotes": "Initial release",
+        "status": "Ready"
+      }
+    ],
+    "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-4.png-31141478/dataset-thumbnail.png"
+  },
+  "current_version_number": 1,
+  "is_private": false
+}

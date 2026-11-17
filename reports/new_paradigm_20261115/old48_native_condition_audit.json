@@ -1,0 +1,48 @@
+{
+  "source": "/mnt/d/Paper/casmi/runs/validation_pilot_v2_20261104/queries.parquet",
+  "source_sha256": "de8818acf93035c937f896ee93fa5aecfb1352af9727faf79eaa1af33bf9b5fc",
+  "rows": 240,
+  "query_ids": 48,
+  "read_columns": [
+    "molecule_id",
+    "spectrum_id",
+    "instrument_type",
+    "adduct",
+    "collision_energy_ev"
+  ],
+  "truth_or_structures_or_peaks_read": false,
+  "instrument_field": "instrument_type",
+  "energy_field": "collision_energy_ev",
+  "instrument_counts": {
+    "Orbitrap": 62,
+    "ESI-TOF": 2,
+    "LC-ESI-ITFT": 10,
+    "LC-ESI-QTOF": 5,
+    "LC-ESI-QQ": 1,
+    "qtof": 4,
+    "timsTOF": 129,
+    "qTof": 4,
+    "QIT": 2,
+    "<missing>": 3,
+    "ESI-QFT": 8,
+    "LC-ESI-QFT": 6,
+    "orbitrap": 4
+  },
+  "adduct_counts": {
+    "[M+Cl]-": 4,
+    "[M+H]+": 146,
+    "[M-H]-": 44,
+    "[M+Na]+": 17,
+    "[M+CH2O2-H]-": 15,
+    "[M+K]+": 5,
+    "[M+NH4]+": 7,
+    "[M-H2O+H]+": 2
+  },
+  "known_ce_rows": 207,
+  "hcd_rows": 0,
+  "eligible_hcd_supported_adduct_known_ce_rows": 0,
+  "eligible_query_ids": 0,
+  "deterministic_selection": [],
+  "selection_rule": "sort molecule_id then spectrum_id, first max2 unique IDs; raw HCD only; no instrument remapping",
+  "interpretation": "No native-condition query selected; missing instrument metadata must not be relabeled HCD"
+}

@@ -1,0 +1,64 @@
+{
+  "target": "D:\\Paper\\casmi\\assets\\research\\fiora_os_20261115\\dependencies-linux",
+  "existing_environment_changed": false,
+  "installed_distributions": [
+    {
+      "name": "aiohappyeyeballs",
+      "version": "2.6.1"
+    },
+    {
+      "name": "aiohttp",
+      "version": "3.12.15"
+    },
+    {
+      "name": "aiosignal",
+      "version": "1.4.0"
+    },
+    {
+      "name": "attrs",
+      "version": "25.3.0"
+    },
+    {
+      "name": "dill",
+      "version": "0.4.0"
+    },
+    {
+      "name": "frozenlist",
+      "version": "1.7.0"
+    },
+    {
+      "name": "multidict",
+      "version": "6.6.4"
+    },
+    {
+      "name": "propcache",
+      "version": "0.3.2"
+    },
+    {
+      "name": "regex",
+      "version": "2025.9.18"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0"
+    },
+    {
+      "name": "torch-geometric",
+      "version": "2.6.1"
+    },
+    {
+      "name": "treelib",
+      "version": "1.8.0"
+    },
+    {
+      "name": "xxhash",
+      "version": "3.6.0"
+    },
+    {
+      "name": "yarl",
+      "version": "1.20.1"
+    }
+  ],
+  "compiled_torch_extensions_installed": false,
+  "torch_geometric_source_constraint": ">=2.6,<2.7"
+}

@@ -1,0 +1,102 @@
+{
+  "status": "MIGRATED_STRICT_HCD_PARITY_PASSED",
+  "device": "cpu",
+  "training_performed": false,
+  "optimizer_steps": 0,
+  "environment_modified": false,
+  "source_commit": "e19ef82c9a6cb9dbac92bce23e914008f1aeb44e",
+  "dependency_target": "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/dependencies-linux",
+  "original_sources_or_weights_modified": false,
+  "hidden_data_used": false,
+  "labels_used": false,
+  "source_script_sha256": "6e37b95523fcb01d192f96f47cf7f0e8bae4e2b3614bc3d96c706cefb63f57cf",
+  "parity_absolute_tolerance": 1e-06,
+  "import_seconds": 108.71236809,
+  "migration_seconds": 0.46414522400000635,
+  "parent_graph_seconds": 0.5768823760000004,
+  "migrated_graph_seconds": 0.0557791120000104,
+  "parent_state_sha256": "83221e187991f116a8aed1bf272dd656cf31721a177dcbb0239f414c8df31a0e",
+  "parent_params_sha256": "c214195f945b1273b7b350cfe4bd964b9a410316433966e74c0a8bf9acdb86c5",
+  "state_keys": 67,
+  "parent_parameters": 13447861,
+  "migrated_parameters": 13448861,
+  "parameter_delta": 1000,
+  "strict_missing_keys": [],
+  "strict_unexpected_keys": [],
+  "changed_keys": [
+    "edge_module.dense_layers.0.weight",
+    "precursor_module.dense_layers.0.weight"
+  ],
+  "all_65_other_tensors_byte_identical": true,
+  "HCD_parity": [
+    {
+      "name": "caffeic_acid_ce35",
+      "shape": [
+        262
+      ],
+      "max_abs_delta": 2.9802322387695312e-08,
+      "seconds": 0.023127587999994148
+    },
+    {
+      "name": "caffeic_acid_ce65",
+      "shape": [
+        262
+      ],
+      "max_abs_delta": 4.6566128730773926e-09,
+      "seconds": 0.020151416000004474
+    },
+    {
+      "name": "24_dihydroxycinnamic_acid_ce35",
+      "shape": [
+        262
+      ],
+      "max_abs_delta": 5.587935447692871e-09,
+      "seconds": 0.01904946399999119
+    },
+    {
+      "name": "24_dihydroxycinnamic_acid_ce65",
+      "shape": [
+        262
+      ],
+      "max_abs_delta": 1.1641532182693481e-09,
+      "seconds": 0.020972298000003775
+    }
+  ],
+  "HCD_max_abs_delta": 2.9802322387695312e-08,
+  "parent_forward_seconds": [
+    0.4834185590000004,
+    0.02041210999999521,
+    0.019373596999997744,
+    0.01883185299999468
+  ],
+  "instrument_encoding": {
+    "HCD": 6,
+    "timsTOF": 7,
+    "OTHER": 8,
+    "distinct": true
+  },
+  "static_feature_dimension": 19,
+  "static_rt_feature_dimension": 18,
+  "migrated_state_sha256": "38d3208f4c78a4db935b8d4b58cae643def77b050488d5d7191cf845af114048",
+  "migrated_params_sha256": "1f189efe9fb64f43406bce409b825870655f8b83765c5ee77d3e208e2cbc2418",
+  "source_pins": {
+    "fiora/GNN/CovariateFeatureEncoder.py": "3f3d5fcda2ad18496263d77cd83ddea0f655e5fb2939d58e93cdabefaa5d3e50",
+    "fiora/GNN/FioraModel.py": "2f98fb549bb9d06acd93cc8cfc19ea94120a228a5d05995fb6b850628377a230",
+    "fiora/GNN/EdgePropertyPredictor.py": "fc43e25f7c4152500567abe6baa4f86b4caa2d0b43b9bb644e1e556b07c783c8",
+    "fiora/GNN/GraphPropertyPredictor.py": "6b5d00da0d609bb43cbbaa7cc7ae2338fe1566856654109aef1788bacd226b47",
+    "fiora/cli/predict.py": "6ba9740d84240106ef533bcce6455e24e89ff785c0e0cad1e982c8ea3485936a",
+    "fiora/MOL/Metabolite.py": "6b2a1fdefab5ecc2e4607c7d708add3e6308b5692a21b2b3252b7ca58d76656f",
+    "fiora/MS/SimulationFramework.py": "7367beb1d1789fa1157f361abb4763af1bd1f64829f632818507675823dd6ef6"
+  },
+  "dependency_versions": {
+    "torch": "2.9.1+cu126",
+    "torch-geometric": "2.6.1",
+    "treelib": "1.8.0",
+    "dill": "0.4.0"
+  },
+  "parent_condition_semantics_retained": true,
+  "native_instrument_path_used": true,
+  "scope": "Architecture/weight migration and native HCD parity only; zero timsTOF training and no timsTOF accuracy or ranking claim.",
+  "total_seconds": 114.31969652299999,
+  "peak_rss_mib": 1001.77734375
+}

@@ -1,0 +1,278 @@
+{
+  "ref": "sanpier/catalogue-experiment-saner",
+  "read_only": true,
+  "files_only": true,
+  "model_bytes_downloaded": 0,
+  "status": "files_read",
+  "file_count": 47,
+  "files": [
+    {
+      "name": "catalogue_experiment/calibration_grid.csv",
+      "creationDate": "2026-10-24T13:17:42.205Z",
+      "totalBytes": 440
+    },
+    {
+      "name": "catalogue_experiment/catalogue_audit.json",
+      "creationDate": "2026-10-24T13:17:42.205Z",
+      "totalBytes": 592
+    },
+    {
+      "name": "catalogue_experiment/combiner_all.pkl",
+      "creationDate": "2026-10-24T13:17:42.292Z",
+      "totalBytes": 121163
+    },
+    {
+      "name": "catalogue_experiment/combiner_no_neural.pkl",
+      "creationDate": "2026-10-24T13:17:42.260Z",
+      "totalBytes": 109017
+    },
+    {
+      "name": "catalogue_experiment/engine2_coverage_audit.csv",
+      "creationDate": "2026-10-24T13:17:42.266Z",
+      "totalBytes": 88
+    },
+    {
+      "name": "catalogue_experiment/feature_schema.json",
+      "creationDate": "2026-10-24T13:17:42.194Z",
+      "totalBytes": 987
+    },
+    {
+      "name": "catalogue_experiment/labelled_candidate_scores.parquet",
+      "creationDate": "2026-10-24T13:17:42.307Z",
+      "totalBytes": 347698
+    },
+    {
+      "name": "catalogue_experiment/learned.py",
+      "creationDate": "2026-10-24T13:17:42.292Z",
+      "totalBytes": 6037
+    },
+    {
+      "name": "catalogue_experiment/paired_comparisons.csv",
+      "creationDate": "2026-10-24T13:17:42.242Z",
+      "totalBytes": 915
+    },
+    {
+      "name": "catalogue_experiment/panel_audit.json",
+      "creationDate": "2026-10-24T13:17:42.276Z",
+      "totalBytes": 701
+    },
+    {
+      "name": "catalogue_experiment/per_query_results.csv",
+      "creationDate": "2026-10-24T13:17:42.276Z",
+      "totalBytes": 28354
+    },
+    {
+      "name": "catalogue_experiment/ranking.py",
+      "creationDate": "2026-10-24T13:17:42.271Z",
+      "totalBytes": 4133
+    },
+    {
+      "name": "catalogue_experiment/ranking_summary.csv",
+      "creationDate": "2026-10-24T13:17:42.211Z",
+      "totalBytes": 1119
+    },
+    {
+      "name": "catalogue_experiment/replay_contract.json",
+      "creationDate": "2026-10-24T13:17:42.242Z",
+      "totalBytes": 1994
+    },
+    {
+      "name": "catalogue_experiment/report.json",
+      "creationDate": "2026-10-24T13:17:42.242Z",
+      "totalBytes": 870
+    },
+    {
+      "name": "catalogue_experiment/source_coverage.csv",
+      "creationDate": "2026-10-24T13:17:42.211Z",
+      "totalBytes": 1449
+    },
+    {
+      "name": "catalogue_replay_checkpoint/all_features.parquet",
+      "creationDate": "2026-10-24T13:17:42.394Z",
+      "totalBytes": 255450
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/DONE.json",
+      "creationDate": "2026-10-24T13:17:42.376Z",
+      "totalBytes": 2829
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/REPLAY.json",
+      "creationDate": "2026-10-24T13:17:42.381Z",
+      "totalBytes": 2546
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/catalogue_audit.json",
+      "creationDate": "2026-10-24T13:17:42.376Z",
+      "totalBytes": 273
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/effective_query_spectra.parquet",
+      "creationDate": "2026-10-24T13:17:42.406Z",
+      "totalBytes": 1337151
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/engine2_coverage.json",
+      "creationDate": "2026-10-24T13:17:42.399Z",
+      "totalBytes": 102
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/engine2_coverage_audit.csv",
+      "creationDate": "2026-10-24T13:17:42.429Z",
+      "totalBytes": 88
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/execution_receipt.json",
+      "creationDate": "2026-10-24T13:17:42.381Z",
+      "totalBytes": 543
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/features.parquet",
+      "creationDate": "2026-10-24T13:17:42.394Z",
+      "totalBytes": 131437
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/features.parquet.errors.json",
+      "creationDate": "2026-10-24T13:17:42.441Z",
+      "totalBytes": 2
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/frozen_candidate_evidence.parquet",
+      "creationDate": "2026-10-24T13:17:42.400Z",
+      "totalBytes": 95944
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_000/pubchem_promotion_audit.csv",
+      "creationDate": "2026-10-24T13:17:42.406Z",
+      "totalBytes": 10380
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/DONE.json",
+      "creationDate": "2026-10-24T13:17:42.400Z",
+      "totalBytes": 2829
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/REPLAY.json",
+      "creationDate": "2026-10-24T13:17:42.394Z",
+      "totalBytes": 2546
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/catalogue_audit.json",
+      "creationDate": "2026-10-24T13:17:42.411Z",
+      "totalBytes": 273
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/effective_query_spectra.parquet",
+      "creationDate": "2026-10-24T13:17:42.472Z",
+      "totalBytes": 1406407
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/engine2_coverage.json",
+      "creationDate": "2026-10-24T13:17:42.406Z",
+      "totalBytes": 102
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/engine2_coverage_audit.csv",
+      "creationDate": "2026-10-24T13:17:42.447Z",
+      "totalBytes": 88
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/execution_receipt.json",
+      "creationDate": "2026-10-24T13:17:42.394Z",
+      "totalBytes": 543
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/features.parquet",
+      "creationDate": "2026-10-24T13:17:42.429Z",
+      "totalBytes": 134658
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/features.parquet.errors.json",
+      "creationDate": "2026-10-24T13:17:42.441Z",
+      "totalBytes": 2
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/frozen_candidate_evidence.parquet",
+      "creationDate": "2026-10-24T13:17:42.472Z",
+      "totalBytes": 98657
+    },
+    {
+      "name": "catalogue_replay_checkpoint/batch_001/pubchem_promotion_audit.csv",
+      "creationDate": "2026-10-24T13:17:42.459Z",
+      "totalBytes": 10705
+    },
+    {
+      "name": "catalogue_replay_checkpoint/contract.json",
+      "creationDate": "2026-10-24T13:17:42.435Z",
+      "totalBytes": 1994
+    },
+    {
+      "name": "catalogue_replay_checkpoint/panel/READY.json",
+      "creationDate": "2026-10-24T13:17:42.479Z",
+      "totalBytes": 479
+    },
+    {
+      "name": "catalogue_replay_checkpoint/panel/identity_map.json",
+      "creationDate": "2026-10-24T13:17:43.331Z",
+      "totalBytes": 18702350
+    },
+    {
+      "name": "catalogue_replay_checkpoint/panel/labels.parquet",
+      "creationDate": "2026-10-24T13:17:42.585Z",
+      "totalBytes": 6508
+    },
+    {
+      "name": "catalogue_replay_checkpoint/panel/panel_audit.json",
+      "creationDate": "2026-10-24T13:17:42.531Z",
+      "totalBytes": 701
+    },
+    {
+      "name": "catalogue_replay_checkpoint/panel/sample_submission.csv",
+      "creationDate": "2026-10-24T13:17:42.536Z",
+      "totalBytes": 3259
+    },
+    {
+      "name": "catalogue_replay_checkpoint/panel/test.parquet",
+      "creationDate": "2026-10-24T13:17:42.873Z",
+      "totalBytes": 2741202
+    },
+    {
+      "name": "catalogue_replay_checkpoint/run_status.json",
+      "creationDate": "2026-10-24T13:17:42.611Z",
+      "totalBytes": 186
+    }
+  ],
+  "next_page_token_present": false,
+  "dataset_view": {
+    "id": 12823240,
+    "ref": "sanpier/catalogue-experiment-saner",
+    "subtitle": "",
+    "creatorName": "Saner Turhaner",
+    "totalBytes": 25575791,
+    "lastUpdated": "2026-10-24T13:17:40.933Z",
+    "downloadCount": 9794,
+    "licenseName": "Unknown",
+    "description": "",
+    "ownerName": "Saner Turhaner",
+    "ownerRef": "sanpier",
+    "kernelCount": 716,
+    "title": "catalogue_experiment_saner",
+    "viewCount": 222,
+    "voteCount": 3,
+    "currentVersionNumber": 1,
+    "usabilityRating": 0.1764706,
+    "versions": [
+      {
+        "versionNumber": 1,
+        "creationDate": "2026-10-24T13:17:40.933Z",
+        "creatorName": "Saner Turhaner",
+        "creatorRef": "catalogue-experiment-saner",
+        "versionNotes": "Initial release",
+        "status": "Ready"
+      }
+    ],
+    "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-57.png-2856349/dataset-thumbnail.png"
+  },
+  "current_version_number": 1,
+  "is_private": false
+}

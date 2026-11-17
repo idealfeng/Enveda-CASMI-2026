@@ -1,0 +1,657 @@
+{
+  "status": "exported_raw_state_all67_tensors_equal_to_parent",
+  "parent_checkpoint_sha256": "9c899faa1c45d9a0c25588f99186f34112b25eafe3f6d955a3da34c267996252",
+  "raw_state_sha256": "c449c98ad0cf42e71561b8de97073986a447019c7430c82111a7eb29466c54f9",
+  "params_sha256": "1f189efe9fb64f43406bce409b825870655f8b83765c5ee77d3e208e2cbc2418",
+  "asset_manifest_sha256": "0fbbb13ea73f6704f5ba48b47ce7442db0315b516b6e908f6f68c677442a1853",
+  "tensor_checks": [
+    {
+      "key": "node_embedding.embeddings.0.weight",
+      "shape": [
+        10,
+        100
+      ],
+      "dtype": "torch.float32",
+      "sha256": "c2da0a70d091cf139388993c9aa96403195d2664e1c39d7068b70ee31303b75f",
+      "equal_to_parent": true
+    },
+    {
+      "key": "node_embedding.embeddings.1.weight",
+      "shape": [
+        5,
+        100
+      ],
+      "dtype": "torch.float32",
+      "sha256": "38d28c36bbf4824ae6805660e834ef422639ca7ab2d897737cde2c9eb7bad67e",
+      "equal_to_parent": true
+    },
+    {
+      "key": "node_embedding.embeddings.2.weight",
+      "shape": [
+        5,
+        100
+      ],
+      "dtype": "torch.float32",
+      "sha256": "e25918ddc0edc2511107b180f1328c3d4df8f882f89ae2cb44f0bf42aa8a0889",
+      "equal_to_parent": true
+    },
+    {
+      "key": "edge_embedding.embeddings.0.weight",
+      "shape": [
+        4,
+        150
+      ],
+      "dtype": "torch.float32",
+      "sha256": "49ec544af758584862251cea8ca9b45ce1ba5bbbe2ab12b64f01c847ca5ad87b",
+      "equal_to_parent": true
+    },
+    {
+      "key": "edge_embedding.embeddings.1.weight",
+      "shape": [
+        5,
+        150
+      ],
+      "dtype": "torch.float32",
+      "sha256": "c26b6770bae178f802aaa424f3b882965c5231cb775ea34f5e0d0052ce49d7a4",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.layer_norms.0.weight",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "4e7acc2c3fbf8fb5e5f65e8bc200467d07fd3ce68650383fb1db6e1ed7f35055",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.layer_norms.0.bias",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "709fb352d4f86369e5eae78b7d15cf9d1925e496ca86bc9da6e9564bb87be72d",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.layer_norms.1.weight",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "c27ac8083f26ec2d9deb1888835e88261e731835a2a763cfe58df3415e71dfc9",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.layer_norms.1.bias",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "5b92374e5e541a3aee1ae8037820a6b2199968212037b9ceb4a1778c014df724",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.layer_norms.2.weight",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "ff5775448264d5381fac3b8500d096bb2e7ba0a15995429b465aa011befd8ebd",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.layer_norms.2.bias",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "fad026fc9a2e4bde23000ff9bcf0e193f1110e63a4d28dbecb27a00eaf75e833",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.layer_norms.3.weight",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "6c53586da2868b5efc783a8b57ba5ec1a72754cc83450a1872840144effac565",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.layer_norms.3.bias",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "6e2b88f6a1c24b4d94e34e0eb78ebcb601f67f59d398741743c07b78a52bda5a",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.layer_norms.4.weight",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "b877d84a5f9012bd62fb02ec1bfefea0b1aa4c22124213b2b2d6884bf542d851",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.layer_norms.4.bias",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "3e780bc86ce57d53e31f13b98fea85247c40edc38456dcaea2f8873e1ee740d0",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.layer_norms.5.weight",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "e347b872ce020713e6b6955d4f29e264ea88000e0ed9ca8c2d8cf74668422687",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.layer_norms.5.bias",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "24c194afa5fe146cac41165d77640e5de0f150a25623119103e6239b3bf14674",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.layer_norms.6.weight",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "a1fb2c2f405f6b2169cfc911c0fbd5e010d27d6a20c97eb7069d9516392c51ea",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.layer_norms.6.bias",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "08d75ec5303742b41b021a03af5e34755ce1fe12d8a0497cd8ba019f4cfd23f2",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.layer_norms.7.weight",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "c3378e4b54591f57e9b0cd9b9c6b5a9f48c0f12a3c8f44018139d0904fc7cc2f",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.layer_norms.7.bias",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "8e274656887444e514a758dea6feeefe4a40ab7ef01bc76bfa6b67f25814d87f",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.layer_norms.8.weight",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "54db23f01c81fd1957bb6d69f46f206306fd520b66ab4435904672187671228a",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.layer_norms.8.bias",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "620e20d464f1e1741d4e18968ba2798b0a144fe018fd47f59176b7877273f517",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.layer_norms.9.weight",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "f4c655d4ad6434da65165380510fb8aad265a37a637884cf0a22ba0d8a2e9d22",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.layer_norms.9.bias",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "7ee527fa36fe45a9a7c822f3b84ecd645c9479a8dff77b01ac93d00140dcc809",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.0.weight",
+      "shape": [
+        4,
+        300,
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "3813839c804023e7c5365f1ec485529e7b3888eac2f0cb376e50c7c50c5afc09",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.0.root",
+      "shape": [
+        300,
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "24b626fcdf1905c3dc6ba6787272b39cf43c096f5588f4cedb2698ada58c3b14",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.0.bias",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "7e2b2f112cc190c133a6369253465cc5af3c743afbb023a0727cfd38a1758cdb",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.1.weight",
+      "shape": [
+        4,
+        300,
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "afb518387ad5164dd0a938f49dd4c9153c9a9e4bad5ed9233cd4eb3c6825d724",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.1.root",
+      "shape": [
+        300,
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "53b10dc54e0408a2864b913135fac0b68d84806082137c77e96471444dbb4878",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.1.bias",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "e1fcd5ffe5c4a9cfb1d194b025ecd9052c79007d231d037a9fdd570591e54373",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.2.weight",
+      "shape": [
+        4,
+        300,
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "a6c398e9d7e9005efce35849e539bdeda74fac8cd6073864900e2731e16241ad",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.2.root",
+      "shape": [
+        300,
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "e1c35fd7fd0b45e5c57153cf8160c2df09abe9cc4c8b10fd3edbe1a77046a723",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.2.bias",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "ffce16e8b2bed145983f61a8505aa9f473ff302d5594ccd48e7085c941858d7b",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.3.weight",
+      "shape": [
+        4,
+        300,
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "8b948b6492f10de93fe71cc3b13924f218bbd52217eed58615a22c74025716f1",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.3.root",
+      "shape": [
+        300,
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "1fda119fd62b6fc81d1c1ea472b22bc92e90a9eb8325d0c394823a6a92c4365d",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.3.bias",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "7c4b4b1d4fcbe1667300d1ceb4c1098a294fcc2c121e74e2d674f954d826e0fb",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.4.weight",
+      "shape": [
+        4,
+        300,
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "b2e2401784d2b7e545bcac9b731e12a16ee12e85a64d3e98de529f042d640edc",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.4.root",
+      "shape": [
+        300,
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "c56c3769c3aabb5b1f35e43412154038482d9d3824794586008e51b4132090fe",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.4.bias",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "abd95d345c1ab4b52b02a4c997309acf612c5ec342d2608eac8ab126447bda15",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.5.weight",
+      "shape": [
+        4,
+        300,
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "338c4d69ebbbc23e6a4914d10031d3f9deaf6bafd285e3530812600d75b27900",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.5.root",
+      "shape": [
+        300,
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "597a8807705e85df8963bfb3aee92b201aada64b05da56b8a5ddbbf060dcb56e",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.5.bias",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "ff94379ee66bbb63506ffb4a2c4928591813cc4ddcd18e83a666a29bba612e54",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.6.weight",
+      "shape": [
+        4,
+        300,
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "536dec33565ed654ad8fced24b1a80846bf59fbb527cb30facef960e3dad70eb",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.6.root",
+      "shape": [
+        300,
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "34ceb6aaa9bac4066a1c3f2af304a1b9871155fad2f5aa44082dcf6f8382991c",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.6.bias",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "4041265364d26665faa9a973e8242faafa14c77e36346f7460771d70515ca82f",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.7.weight",
+      "shape": [
+        4,
+        300,
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "a548e26ae4af0dcc0ad9147d922bc76797e9c72c23a8d03f5467d055ebe5bd03",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.7.root",
+      "shape": [
+        300,
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "d65eda07cef074f86ebb6961533ff76caefea08a2854648591c833a51cd0e9ed",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.7.bias",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "7ac640e2f772eaa1b8e9ce2aef02dd6812806dd2b4973c74dadde71d067fa3a5",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.8.weight",
+      "shape": [
+        4,
+        300,
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "e7622db784b5794d3aec2944957757941601262b92874ada70a2ef4a0dec5e5e",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.8.root",
+      "shape": [
+        300,
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "5651f1a5ea65cda16aa39eb8e9f717fcb83076cfdd745806310ece81699fea69",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.8.bias",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "8d1dfd91fe378e13ceb55448cd05fdbaa42ee206eae3be4853e6e30eeeab551b",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.9.weight",
+      "shape": [
+        4,
+        300,
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "87b31a839bfa7928b0a5d9d0ccaf14cdcd388fab0618be77c004b5bcd5c2fec3",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.9.root",
+      "shape": [
+        300,
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "d9685ddf56206b2af9b34c2db7cb2bd5da29bd47f0455a22d1ec74bc687aec98",
+      "equal_to_parent": true
+    },
+    {
+      "key": "GNN_module.graph_layers.9.bias",
+      "shape": [
+        300
+      ],
+      "dtype": "torch.float32",
+      "sha256": "ed723ab87864b546ca85bd4f015b95e36a441ed5c776c900576c60550b9efa3f",
+      "equal_to_parent": true
+    },
+    {
+      "key": "edge_module.dense_layers.0.weight",
+      "shape": [
+        500,
+        13539
+      ],
+      "dtype": "torch.float32",
+      "sha256": "9702dbc0c1bf91875cc79a6340be17eb44b5a5c8a0bd36918c50568a43a22ec7",
+      "equal_to_parent": true
+    },
+    {
+      "key": "edge_module.dense_layers.0.bias",
+      "shape": [
+        500
+      ],
+      "dtype": "torch.float32",
+      "sha256": "252217844939a570d934461c7ff7295e08cffb73e4fb53b8636f86136d2bf0ec",
+      "equal_to_parent": true
+    },
+    {
+      "key": "edge_module.dense_layers.1.weight",
+      "shape": [
+        500,
+        500
+      ],
+      "dtype": "torch.float32",
+      "sha256": "402dc1fa8deef722dcb71526afc4aaa485897b96a1167c0a3f5b94840ac56f5e",
+      "equal_to_parent": true
+    },
+    {
+      "key": "edge_module.dense_layers.1.bias",
+      "shape": [
+        500
+      ],
+      "dtype": "torch.float32",
+      "sha256": "f4bbcc5dd32891254aa78a74f5c3c911b43fdf65e668362fa2c48771a56e5f98",
+      "equal_to_parent": true
+    },
+    {
+      "key": "edge_module.output_layer.weight",
+      "shape": [
+        10,
+        500
+      ],
+      "dtype": "torch.float32",
+      "sha256": "8fccc814cc75bcbc81a7eb1bdb71294a2229f91a380954122001414a12bb507a",
+      "equal_to_parent": true
+    },
+    {
+      "key": "edge_module.output_layer.bias",
+      "shape": [
+        10
+      ],
+      "dtype": "torch.float32",
+      "sha256": "5c6104c7e5210b58da84a9a140f71e9b60316c13137da16c2a61acc24fd68208",
+      "equal_to_parent": true
+    },
+    {
+      "key": "precursor_module.dense_layers.0.weight",
+      "shape": [
+        500,
+        3319
+      ],
+      "dtype": "torch.float32",
+      "sha256": "4f0a47765812df852807e1ffbd10d0393728d99cc3db15f82cf11ae3343a7c97",
+      "equal_to_parent": true
+    },
+    {
+      "key": "precursor_module.dense_layers.0.bias",
+      "shape": [
+        500
+      ],
+      "dtype": "torch.float32",
+      "sha256": "6dedb2359d73bb459b3e421fd636896079953a2fac4b7f3826a7f770dc9a22da",
+      "equal_to_parent": true
+    },
+    {
+      "key": "precursor_module.dense_layers.1.weight",
+      "shape": [
+        500,
+        500
+      ],
+      "dtype": "torch.float32",
+      "sha256": "6d1420a1639d1153bd8d81aa547aab5879b499a3c8c9a2de4b0fb60d47087cba",
+      "equal_to_parent": true
+    },
+    {
+      "key": "precursor_module.dense_layers.1.bias",
+      "shape": [
+        500
+      ],
+      "dtype": "torch.float32",
+      "sha256": "2837f651248c89739de2f378924cc2d52e29ed8169900151df4314b371a87dbb",
+      "equal_to_parent": true
+    },
+    {
+      "key": "precursor_module.output_layer.weight",
+      "shape": [
+        1,
+        500
+      ],
+      "dtype": "torch.float32",
+      "sha256": "dcc03fb7b4a1cb713901b74da9971103ef142a61b3040a580bf8eaa0305dc907",
+      "equal_to_parent": true
+    },
+    {
+      "key": "precursor_module.output_layer.bias",
+      "shape": [
+        1
+      ],
+      "dtype": "torch.float32",
+      "sha256": "d83afcf5d02d13837a08483b8fc100f376937fab20be51d4c10b35a79bf72901",
+      "equal_to_parent": true
+    }
+  ],
+  "payload_files": 759,
+  "payload_bytes": 58525342,
+  "new_model_training": false,
+  "new_public_score": null
+}

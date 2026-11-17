@@ -20,12 +20,24 @@
 | 生成实际生产路径修复复核 | 11/13锁定FROZEN修改后的engine，20个外层代码cell到最终CSV真实两题2327秒通过；原排序/head/AB全保留 | 足以支持一次正式评测，不证明隐藏全集预算或榜分。输入误留标签元数据，源码审查未发现消费，不能称无标签验证；308个候选/14入最终名单不是增量召回 | [独立放行与边界](../reports/optimization_20261113/evidence_generation_release.md) |
 | 11/13生成扩展与单因素 | 11/14官方最终：12/300/noiso .473；仅noiso .488、仅budget300 .488 | 停止当前整体扩展，不将下降单归某开关；小面板候选多不等于Public收益 | [五次最终结果](../reports/ROUND_RESULT_2026-11-13.md) |
 | 11/13尾部评分/谱网络 | mean＋AB .488、固定N1c .488，无确认新高 | 保留前7的改动可能只影响低权重名次，不能据同分证明预测一致；下一轮直接检验早位规则，不重复同配方 | [官方原值](../reports/optimization_20261114/prior_batch_final.json) |
-| 11/14早位固定分数干预 | 当前已出分：trained prefix1 .470、GL early .481、dual pairwise .449，均低于.488；另外两版尚待分 | 停止当前三配方及直接扫同权重；应引入新实测参考/独立表征后训练证据适用性，不能据此说全部GL或排序学习无用 | [当前官方读回](../reports/discussion_review_20261114/latest_our_scores.json)、[讨论及路线调整](../reports/discussion_review_20261114/RECOMMENDATIONS.md) |
+| 11/14早位固定分数干预 | 最终全部COMPLETE：trained/mean prefix1各.470、GL early .481、dual .449、旧AB共识.488，无新高 | 停止当前配方及扫同权重；转向新信息/新能力，不能据此说全部GL或排序学习无用 | [最终读回](../reports/execution_20261115/prior_batch_bound_reverification.json) |
+| 新库规模与内容未重叠 | C49万谱中存在已知重叠；115官方新身份为已核子集下界 | 不把记录数当独立采集谱，raw键新增须核官方tautomer身份 | [结构与谱审计](../reports/execution_20261115/PROGRESS.md) |
+| C固定强升首 | 旧48参考存在+.013889，无真参考-.041667；错命中多为同式 | 暂停直接升首，不单摘正臂当收益；先证明可靠拒绝与冠军增益 | [真实匹配](../reports/extlib2_matching_20261114/verification.json) |
+| C学习可信度pilot | 500步开发错误4→2，正确81→74；留出无参考 .833085→.812252仍负向 | 已减少危害但未获生产准入；不在旧48挑阈值，分类精度不是候选MRR | [固定留出](../reports/extlib_gate_holdout48_20261115/verification.json) |
+| MIST冻结release输入无关 | CASMI和原生MSG均近恒定FP；张量/425FP核验通过，末两层差异约1e-9 | 暂停此权重＋源码接入；准入增加输入敏感性，finite和forward不证明有用，不扩大为所有MIST无效 | [层审计](../reports/mist_contract_audit_20261115/verification.json)、[FP审计](../reports/mist_fingerprint_audit_20261115/verification.json) |
+| 精确冠军本地canary静默降级 | E2未产出eng_lists，原代码catch后继续；同期内核OOM/swap耗尽，FileNotFound是后果 | 不报告全链成功；停止首轮保留现场。r2单worker/释放空闲分配器，保存原stdout/stderr/真实returncode，失败即停 | [实际OOM诊断](../reports/champion_error_decomposition_20261115/canary_class2_oom_diagnosis.md) |
+| FIORA-OS原生前向与域限制 | 67/67严格加载、同式异构体输出不同；旧48无明确HCD条件 | 仅组件准入，不能当CASMI收益；同仪器迁移需显式新类别，勿把tims/Orbitrap改名成HCD，先查真实碎片标签覆盖 | [小试与边界](../reports/new_paradigm_20261115/README.md) |
+| FIORA tims500真实迁移 | 100谱cos+.0202；8题候选MRR+.0721，但主92仅+.0100、CI[−.0289,+.0498]、9改善13下降 | 谱拟合改善不等于稳定识别收益；不单摘8题、不盲加步数、不直接替冠军。先区分碎片表示覆盖与判别目标，再固定新实验。首选纠错不自动沿用旧head的prefix7 | [完整100结果](../reports/new_paradigm_20261116/RESULTS_AND_NEXT.md) |
+| FIORA退化与coverage归因 | 主92的5个正确掉首全是同式，coverage中位.6637；13个RR退化整体中位约.0615 | 不能用整体低覆盖解释全部早位损害；困难负例判别与碎片表示缺失分开检验，不能从事后相关性选择oracle gate或把验证错误回灌训练 | [下一轮契约](../reports/new_paradigm_20261116/NEXT_EXPERIMENT.md) |
+| FIORA离线导出与真实部署证明 | 67tensor与父checkpoint完全相等；同模型连续CUDA前向也有约6e-8 raw微差，本地50候选谱分差<8.6e-9且重排一致。目标镜像50次真实forward通过，58435031已接受PENDING | 跨CUDA进程不以raw输出SHA相等作为数值等价标准；权重/源码必须严格SHA，前向另查张量容差、谱分差与实际排序。可见组件成功不等于父版完整推理、隐藏成功或新高；本次是用户明确授权的探索，不是已证稳定提升 | [包验证](../reports/optimization_20261116/fiora_payload/VERIFICATION.md)、[正式探索](../reports/new_paradigm_20261116/SUBMISSION_PLAN.md) |
+| FIORA AB后全位置同式排序 | 58435031正式COMPLETE=.285，无error，低于父版.488；本地谱拟合/小候选排序与生产后接法收益明显不一致 | 停止当前接法，不扩大同数据步数或扫权重。不把整版−.203单归某子条件，不扩大成所有正向谱模型无效；重启需新目标/表示或精确冠军候选上的修复损害证据 | [官方结果与边界](../reports/optimization_20261116_fiora/ROUND_RESULT_20261117.md) |
 | 新公开0.500+标题 | 11/14源码V45实际写Target0.500+，VerifiedBaseline=.487；旧slug404且新slug已找到 | 目标标题不算已达榜分；源代码、实际资产、正式分数分别核对，不再据标题直接认定更强 | [六份源码复核](../reports/discussion_review_20261114/notebooks/NOVELTY_REVIEW.md) |
 | 同分更细小数的猜测 | 11/14读回public_score原始字符串也仅0.488或0.473 | 未暴露更多精度，不能说小数位提高，也不能推测Private；记账按官方可验证分值 | [精度与结果](../reports/ROUND_RESULT_2026-11-13.md) |
 | Saner best-validation集成 | 11/12实际.478，低于冠军.488 | 暂停当前配方；不同SHA/finite分数不是互补收益证据，不继续同系checkpoint混合扫参 | [官方读回](../reports/optimization_20261112/review_live_results.json) |
 | popwenman best及其匹配组合 | 11/12最终各.481，低于.488 | 暂停这份验证阶段checkpoint配方及组合，保留最终full-refit原v2 | [最终读回](../reports/optimization_20261113/prior_batch_reverified.json) |
 | 谱网络固定配方 | 11/13旧48诊断 .838914→.836136，未在精确.488评估；后按用户明确要求正式探索58310918 | 预筛负向边界保留，固定策略未扫阈值，隐藏及榜分待官方结果；有新名单变化不等于收益 | [固定策略结果](../reports/optimization_20261113/network_fixed_policy_diagnostic.json)、[探索回执](../reports/optimization_20261113/formal_acceptance_summary.json) |
+| 旧网络无提升被过度推广 | 原11/13实验为AB后.25且保护高置信/AB命中；公开.492为AB前.35，两者没检验同一完整流程 | 撤回据旧实验断言公开网络收益已吃完的推论；先对齐原版，再明确父版/顺序/保护差异。本轮原版58455482、移植58455510均PENDING，不预报收益 | [本轮对照及来源](../reports/public_network_20261117/EXPERIMENT.md) |
+| 新高分标题与公开演示权重 | Helios.494/.495包可下载但明确原训练参数不包含，多个学习包initialized demo、MEGx合成fixture | 不据标题、可列文件或较早榜分认当前包可复现；也不据单个status403/404认全包不可访问。分开核真实推理版本、资产用途、参数来源与作者正式成绩 | [Helios逐包证据](../reports/public_review_20261116/helios_audit/REPORT.md) |
 | GL跨CE支持率 protected-top1臂 | 11/13真实融合回放45/45对照重现，9行尾部变，MRR零增量 | 当前保护范围中合格难例少，不能推断所有跨谱信息无用；不以接口通过安排正式名额 | [回放报告](../reports/optimization_20261113/evidence_review.md) |
 | Na分路GL | 正式重跑出现异常，无有效分 | 本地单query可运行不代表整管线已修复；未知CE NaN、部分有效输出兼容需继续查 | [故障与限制](../reports/OPTIMIZATION_BATCH_2026-11-08.md) |
 | produre1来源归因 | 旧Flex基座且缺官方身份guard，若干提议有重复身份 | 不能据原表断言B库是.488主增益；必须在精确父版本重做 | [独立复核](../reports/produre_review_20261110/PRODURE1_REVIEW.md) |

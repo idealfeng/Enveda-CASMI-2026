@@ -1,0 +1,1330 @@
+{
+  "checked_at_utc": "2026-11-16T15:21:37.881640+00:00",
+  "metadata": [],
+  "assets": [
+    {
+      "ref": "heliosli/casmi26-rr-v3",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "files_read",
+      "file_count": 12,
+      "files": [
+        {
+          "name": "README_PUBLIC_DEMO.md",
+          "creationDate": "2026-11-16T06:16:44.138Z",
+          "totalBytes": 777
+        },
+        {
+          "name": "fs0_lean_plain.pt",
+          "creationDate": "2026-11-16T06:16:46.785Z",
+          "totalBytes": 198786034
+        },
+        {
+          "name": "public_demo_manifest.json",
+          "creationDate": "2026-11-16T06:16:44.201Z",
+          "totalBytes": 668
+        },
+        {
+          "name": "rr3_config.json",
+          "creationDate": "2026-11-16T06:16:44.073Z",
+          "totalBytes": 396
+        },
+        {
+          "name": "rr3_selftest.json",
+          "creationDate": "2026-11-16T06:16:44.094Z",
+          "totalBytes": 19467
+        },
+        {
+          "name": "rr_data.py",
+          "creationDate": "2026-11-16T06:16:44.016Z",
+          "totalBytes": 10303
+        },
+        {
+          "name": "rr_deploy.py",
+          "creationDate": "2026-11-16T06:16:44.093Z",
+          "totalBytes": 5756
+        },
+        {
+          "name": "rr_frag.py",
+          "creationDate": "2026-11-16T06:16:43.968Z",
+          "totalBytes": 8204
+        },
+        {
+          "name": "rr_graph_cache.py",
+          "creationDate": "2026-11-16T06:16:44.041Z",
+          "totalBytes": 4538
+        },
+        {
+          "name": "rr_model.py",
+          "creationDate": "2026-11-16T06:16:43.979Z",
+          "totalBytes": 7507
+        },
+        {
+          "name": "rr_reranker.pt",
+          "creationDate": "2026-11-16T06:16:44.401Z",
+          "totalBytes": 16943841
+        },
+        {
+          "name": "rr_v3.py",
+          "creationDate": "2026-11-16T06:16:44.257Z",
+          "totalBytes": 2561
+        }
+      ],
+      "next_page_token_present": false,
+      "dataset_view": {
+        "id": 12788512,
+        "ref": "heliosli/casmi26-rr-v3",
+        "subtitle": "Runnable public demo artifacts; original competition weights excluded",
+        "creatorName": "Heliosli",
+        "totalBytes": 215790052,
+        "lastUpdated": "2026-11-16T06:16:41.560Z",
+        "downloadCount": 307,
+        "licenseName": "CC BY-NC-SA 4.0",
+        "description": "# Public demonstration artifacts: casmi26-rr-v3\n\nThis version is an interface and execution demonstration. The original competition-trained weights are not included. It is not a reproduction package for the 0.494 leaderboard result and has no claimed leaderboard score.\n\nModel loaders, file names, tensor dimensions, candidate tables and upstream public assets are retained for compatibility. Private learned parameters are replaced with initialized demo weights (the joint ranker uses a synthetic fit). Self-tests validate this demo version only.\n\nPX reference scores embedded in notebooks must correspond to this demonstration version; updated fixtures are included in this dataset.\n\nOriginal license and upstream source notices continue to apply to the corresponding files.\n",
+        "ownerName": "Heliosli",
+        "ownerRef": "heliosli",
+        "kernelCount": 7,
+        "title": "casmi26 rr v3",
+        "viewCount": 20,
+        "voteCount": 1,
+        "currentVersionNumber": 2,
+        "usabilityRating": 0.6875,
+        "tags": [
+          {
+            "ref": "pre-trained model",
+            "name": "pre-trained model",
+            "description": "",
+            "fullPath": "admin > pre-trained model",
+            "competitionCount": 2,
+            "datasetCount": 654887,
+            "scriptCount": 301,
+            "totalCount": 655190
+          }
+        ],
+        "versions": [
+          {
+            "versionNumber": 2,
+            "creationDate": "2026-11-16T06:16:41.560Z",
+            "creatorName": "Heliosli",
+            "creatorRef": "casmi26-rr-v3",
+            "versionNotes": "PUBLIC-DEMO-1116-R1: Runnable demonstration artifacts; original competition weights excluded. Not a reproduction of 0.494.",
+            "status": "Ready"
+          }
+        ],
+        "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-16.png-31141478/dataset-thumbnail.png"
+      },
+      "current_version_number": 2,
+      "is_private": false
+    },
+    {
+      "ref": "heliosli/casmi26-denovo-v3",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "files_read",
+      "file_count": 4,
+      "files": [
+        {
+          "name": "README.md",
+          "creationDate": "2026-11-03T00:43:21.659Z",
+          "totalBytes": 1036
+        },
+        {
+          "name": "denovo_model.py",
+          "creationDate": "2026-11-03T00:43:21.668Z",
+          "totalBytes": 4420
+        },
+        {
+          "name": "denovo_v3.pt",
+          "creationDate": "2026-11-03T00:43:24.836Z",
+          "totalBytes": 161429899
+        },
+        {
+          "name": "denovo_zstats.npz",
+          "creationDate": "2026-11-03T00:43:21.849Z",
+          "totalBytes": 82302
+        }
+      ],
+      "next_page_token_present": false,
+      "dataset_view": {
+        "id": 13048476,
+        "ref": "heliosli/casmi26-denovo-v3",
+        "subtitle": "",
+        "creatorName": "Heliosli",
+        "totalBytes": 161517657,
+        "lastUpdated": "2026-11-03T00:43:20.177Z",
+        "downloadCount": 78,
+        "licenseName": "Other (specified in description)",
+        "description": "",
+        "ownerName": "Heliosli",
+        "ownerRef": "heliosli",
+        "kernelCount": 5,
+        "title": "casmi26-denovo-v3",
+        "viewCount": 9,
+        "voteCount": 1,
+        "currentVersionNumber": 1,
+        "usabilityRating": 0.4375,
+        "tags": [
+          {
+            "ref": "pre-trained model",
+            "name": "pre-trained model",
+            "description": "",
+            "fullPath": "admin > pre-trained model",
+            "competitionCount": 2,
+            "datasetCount": 655450,
+            "scriptCount": 301,
+            "totalCount": 655753
+          }
+        ],
+        "versions": [
+          {
+            "versionNumber": 1,
+            "creationDate": "2026-11-03T00:43:20.177Z",
+            "creatorName": "Heliosli",
+            "creatorRef": "casmi26-denovo-v3",
+            "versionNotes": "Initial release",
+            "status": "Ready"
+          }
+        ],
+        "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-4.png-31141478/dataset-thumbnail.png"
+      },
+      "current_version_number": 1,
+      "is_private": false
+    },
+    {
+      "ref": "heliosli/casmi26-frigid-e1",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "files_read",
+      "file_count": 100,
+      "files": [
+        {
+          "name": "DLM.ckpt",
+          "creationDate": "2026-11-16T06:36:57.344Z",
+          "totalBytes": 1311051109
+        },
+        {
+          "name": "README_PUBLIC_DEMO.md",
+          "creationDate": "2026-11-16T06:36:35.128Z",
+          "totalBytes": 781
+        },
+        {
+          "name": "e1.ckpt",
+          "creationDate": "2026-11-16T06:36:39.016Z",
+          "totalBytes": 289220132
+        },
+        {
+          "name": "frigid_runner.py",
+          "creationDate": "2026-11-16T06:36:35.043Z",
+          "totalBytes": 9135
+        },
+        {
+          "name": "frigid_src/dlm/__init__.py",
+          "creationDate": "2026-11-16T06:36:35.254Z",
+          "totalBytes": 1371
+        },
+        {
+          "name": "frigid_src/dlm/bert_with_cross_attention.py",
+          "creationDate": "2026-11-16T06:36:35.258Z",
+          "totalBytes": 21483
+        },
+        {
+          "name": "frigid_src/dlm/iceberg_sampler.py",
+          "creationDate": "2026-11-16T06:36:35.259Z",
+          "totalBytes": 47443
+        },
+        {
+          "name": "frigid_src/dlm/model.py",
+          "creationDate": "2026-11-16T06:36:35.273Z",
+          "totalBytes": 46453
+        },
+        {
+          "name": "frigid_src/dlm/model_components.py",
+          "creationDate": "2026-11-16T06:36:35.260Z",
+          "totalBytes": 36467
+        },
+        {
+          "name": "frigid_src/dlm/sampler.py",
+          "creationDate": "2026-11-16T06:36:35.254Z",
+          "totalBytes": 30398
+        },
+        {
+          "name": "frigid_src/dlm/spec2mol_model.py",
+          "creationDate": "2026-11-16T06:36:35.437Z",
+          "totalBytes": 47200
+        },
+        {
+          "name": "frigid_src/dlm/utils/__init__.py",
+          "creationDate": "2026-11-16T06:36:35.398Z",
+          "totalBytes": 3099
+        },
+        {
+          "name": "frigid_src/dlm/utils/benchmark_utils.py",
+          "creationDate": "2026-11-16T06:36:35.273Z",
+          "totalBytes": 25151
+        },
+        {
+          "name": "frigid_src/dlm/utils/bracket_safe_converter.py",
+          "creationDate": "2026-11-16T06:36:35.264Z",
+          "totalBytes": 6009
+        },
+        {
+          "name": "frigid_src/dlm/utils/checkpoint.py",
+          "creationDate": "2026-11-16T06:36:35.309Z",
+          "totalBytes": 7250
+        },
+        {
+          "name": "frigid_src/dlm/utils/ema.py",
+          "creationDate": "2026-11-16T06:36:35.261Z",
+          "totalBytes": 4213
+        },
+        {
+          "name": "frigid_src/dlm/utils/formula_encoder.py",
+          "creationDate": "2026-11-16T06:36:35.274Z",
+          "totalBytes": 10470
+        },
+        {
+          "name": "frigid_src/dlm/utils/masking_utils.py",
+          "creationDate": "2026-11-16T06:36:35.324Z",
+          "totalBytes": 68665
+        },
+        {
+          "name": "frigid_src/dlm/utils/spec2mol.py",
+          "creationDate": "2026-11-16T06:36:35.287Z",
+          "totalBytes": 19068
+        },
+        {
+          "name": "frigid_src/dlm/utils/utils_chem.py",
+          "creationDate": "2026-11-16T06:36:35.267Z",
+          "totalBytes": 4217
+        },
+        {
+          "name": "frigid_src/dlm/utils/utils_data.py",
+          "creationDate": "2026-11-16T06:36:35.316Z",
+          "totalBytes": 12364
+        },
+        {
+          "name": "frigid_src/dlm/utils/utils_moco.py",
+          "creationDate": "2026-11-16T06:36:35.272Z",
+          "totalBytes": 3617
+        },
+        {
+          "name": "frigid_src/dlm/utils/utils_save.py",
+          "creationDate": "2026-11-16T06:36:35.322Z",
+          "totalBytes": 3618
+        },
+        {
+          "name": "frigid_src/dlm/utils/validation_callback.py",
+          "creationDate": "2026-11-16T06:36:35.318Z",
+          "totalBytes": 32309
+        },
+        {
+          "name": "frigid_src/mist/__init__.py",
+          "creationDate": "2026-11-16T06:36:35.318Z",
+          "totalBytes": 1209
+        },
+        {
+          "name": "frigid_src/mist/data/__init__.py",
+          "creationDate": "2026-11-16T06:36:35.345Z",
+          "totalBytes": 1890
+        },
+        {
+          "name": "frigid_src/mist/data/data.py",
+          "creationDate": "2026-11-16T06:36:35.330Z",
+          "totalBytes": 6589
+        },
+        {
+          "name": "frigid_src/mist/data/datasets.py",
+          "creationDate": "2026-11-16T06:36:35.336Z",
+          "totalBytes": 16987
+        },
+        {
+          "name": "frigid_src/mist/data/featurizers.py",
+          "creationDate": "2026-11-16T06:36:35.316Z",
+          "totalBytes": 19572
+        },
+        {
+          "name": "frigid_src/mist/data/hdf5_dataset.py",
+          "creationDate": "2026-11-16T06:36:35.318Z",
+          "totalBytes": 24210
+        },
+        {
+          "name": "frigid_src/mist/data/iceberg_dataset.py",
+          "creationDate": "2026-11-16T06:36:35.324Z",
+          "totalBytes": 10971
+        },
+        {
+          "name": "frigid_src/mist/data/spec2mol_dataset.py",
+          "creationDate": "2026-11-16T06:36:35.325Z",
+          "totalBytes": 12016
+        },
+        {
+          "name": "frigid_src/mist/data/splitter.py",
+          "creationDate": "2026-11-16T06:36:35.344Z",
+          "totalBytes": 3645
+        },
+        {
+          "name": "frigid_src/mist/models/__init__.py",
+          "creationDate": "2026-11-16T06:36:35.374Z",
+          "totalBytes": 999
+        },
+        {
+          "name": "frigid_src/mist/models/checkpoint.py",
+          "creationDate": "2026-11-16T06:36:35.337Z",
+          "totalBytes": 1940
+        },
+        {
+          "name": "frigid_src/mist/models/form_embedders.py",
+          "creationDate": "2026-11-16T06:36:35.344Z",
+          "totalBytes": 9231
+        },
+        {
+          "name": "frigid_src/mist/models/modules.py",
+          "creationDate": "2026-11-16T06:36:35.385Z",
+          "totalBytes": 14303
+        },
+        {
+          "name": "frigid_src/mist/models/scaled/LICENSE",
+          "creationDate": "2026-11-16T06:36:35.375Z",
+          "totalBytes": 1071
+        },
+        {
+          "name": "frigid_src/mist/models/scaled/__init__.py",
+          "creationDate": "2026-11-16T06:36:35.380Z",
+          "totalBytes": 218
+        },
+        {
+          "name": "frigid_src/mist/models/scaled/chemistry.py",
+          "creationDate": "2026-11-16T06:36:35.350Z",
+          "totalBytes": 301
+        },
+        {
+          "name": "frigid_src/mist/models/scaled/form_embedders.py",
+          "creationDate": "2026-11-16T06:36:35.375Z",
+          "totalBytes": 12269
+        },
+        {
+          "name": "frigid_src/mist/models/scaled/modules.py",
+          "creationDate": "2026-11-16T06:36:35.380Z",
+          "totalBytes": 13440
+        },
+        {
+          "name": "frigid_src/mist/models/scaled/scaled_mist.py",
+          "creationDate": "2026-11-16T06:36:35.380Z",
+          "totalBytes": 2711
+        },
+        {
+          "name": "frigid_src/mist/models/scaled/transformer_layer.py",
+          "creationDate": "2026-11-16T06:36:35.372Z",
+          "totalBytes": 28072
+        },
+        {
+          "name": "frigid_src/mist/models/spectra_encoder.py",
+          "creationDate": "2026-11-16T06:36:35.392Z",
+          "totalBytes": 7114
+        },
+        {
+          "name": "frigid_src/mist/models/transformer_layer.py",
+          "creationDate": "2026-11-16T06:36:35.399Z",
+          "totalBytes": 18839
+        },
+        {
+          "name": "frigid_src/mist/utils/__init__.py",
+          "creationDate": "2026-11-16T06:36:35.387Z",
+          "totalBytes": 831
+        },
+        {
+          "name": "frigid_src/mist/utils/chem_utils.py",
+          "creationDate": "2026-11-16T06:36:35.382Z",
+          "totalBytes": 15279
+        },
+        {
+          "name": "frigid_src/mist/utils/misc_utils.py",
+          "creationDate": "2026-11-16T06:36:35.400Z",
+          "totalBytes": 3645
+        },
+        {
+          "name": "frigid_src/mist/utils/parse_utils.py",
+          "creationDate": "2026-11-16T06:36:35.404Z",
+          "totalBytes": 8803
+        },
+        {
+          "name": "frigid_src/mist/utils/spectra_utils.py",
+          "creationDate": "2026-11-16T06:36:35.385Z",
+          "totalBytes": 10987
+        },
+        {
+          "name": "frigid_src/spec2mol_benchmark_msg.yaml",
+          "creationDate": "2026-11-16T06:36:35.409Z",
+          "totalBytes": 1339
+        },
+        {
+          "name": "patches/safe__init__.py",
+          "creationDate": "2026-11-16T06:36:35.247Z",
+          "totalBytes": 363
+        },
+        {
+          "name": "public_demo_manifest.json",
+          "creationDate": "2026-11-16T06:36:34.974Z",
+          "totalBytes": 285
+        },
+        {
+          "name": "safes/.locks/models--datamol-io--safe-gpt/5ddeb0c57ef8aefeeb6891293106c1ab0849113e.lock",
+          "creationDate": "2026-11-16T06:36:35.400Z"
+        },
+        {
+          "name": "safes/.locks/models--datamol-io--safe-gpt/a7e35ca3822494f507c15f135dbaaf9f4be2a386.lock",
+          "creationDate": "2026-11-16T06:36:35.420Z"
+        },
+        {
+          "name": "safes/.locks/models--datamol-io--safe-gpt/de09b1521f1d2e98b57d8c1e1fa9f2587aaf5ef5.lock",
+          "creationDate": "2026-11-16T06:36:35.404Z"
+        },
+        {
+          "name": "safes/models--datamol-io--safe-gpt/blobs/5ddeb0c57ef8aefeeb6891293106c1ab0849113e",
+          "creationDate": "2026-11-16T06:36:35.414Z",
+          "totalBytes": 951
+        },
+        {
+          "name": "safes/models--datamol-io--safe-gpt/blobs/a7e35ca3822494f507c15f135dbaaf9f4be2a386",
+          "creationDate": "2026-11-16T06:36:35.416Z",
+          "totalBytes": 46319
+        },
+        {
+          "name": "safes/models--datamol-io--safe-gpt/blobs/de09b1521f1d2e98b57d8c1e1fa9f2587aaf5ef5",
+          "creationDate": "2026-11-16T06:36:35.432Z",
+          "totalBytes": 132
+        },
+        {
+          "name": "safes/models--datamol-io--safe-gpt/refs/main",
+          "creationDate": "2026-11-16T06:36:35.436Z",
+          "totalBytes": 40
+        },
+        {
+          "name": "safes/models--datamol-io--safe-gpt/snapshots/3d5fa0988383e898d5ac5db7cd52bf715bc37061/config.json",
+          "creationDate": "2026-11-16T06:36:35.437Z"
+        },
+        {
+          "name": "safes/models--datamol-io--safe-gpt/snapshots/3d5fa0988383e898d5ac5db7cd52bf715bc37061/generation_config.json",
+          "creationDate": "2026-11-16T06:36:35.442Z"
+        },
+        {
+          "name": "safes/models--datamol-io--safe-gpt/snapshots/3d5fa0988383e898d5ac5db7cd52bf715bc37061/tokenizer.json",
+          "creationDate": "2026-11-16T06:36:35.429Z"
+        },
+        {
+          "name": "token_frozen.joblib",
+          "creationDate": "2026-11-16T06:36:35.353Z",
+          "totalBytes": 6218588
+        },
+        {
+          "name": "wheels313/accelerate-1.15.0-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.273Z",
+          "totalBytes": 394295
+        },
+        {
+          "name": "wheels313/aiohappyeyeballs-2.7.1-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.273Z",
+          "totalBytes": 15038
+        },
+        {
+          "name": "wheels313/aiohttp-3.14.5-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+          "creationDate": "2026-11-16T06:36:36.317Z",
+          "totalBytes": 1911038
+        },
+        {
+          "name": "wheels313/aiosignal-1.4.0-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.267Z",
+          "totalBytes": 7490
+        },
+        {
+          "name": "wheels313/annotated_doc-0.0.5-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.276Z",
+          "totalBytes": 5302
+        },
+        {
+          "name": "wheels313/annotated_types-0.8.0-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.263Z",
+          "totalBytes": 13427
+        },
+        {
+          "name": "wheels313/antlr4_python3_runtime-4.9.3-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.277Z",
+          "totalBytes": 144590
+        },
+        {
+          "name": "wheels313/anyio-4.15.1-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.270Z",
+          "totalBytes": 132079
+        },
+        {
+          "name": "wheels313/attrs-26.1.0-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.278Z",
+          "totalBytes": 67548
+        },
+        {
+          "name": "wheels313/autograd-1.9.1-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.268Z",
+          "totalBytes": 54387
+        },
+        {
+          "name": "wheels313/autograd_gamma-0.5.0-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.268Z",
+          "totalBytes": 4118
+        },
+        {
+          "name": "wheels313/bionemo_moco-0.0.2.1-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.270Z",
+          "totalBytes": 102025
+        },
+        {
+          "name": "wheels313/certifi-2026.10.23-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.290Z",
+          "totalBytes": 135082
+        },
+        {
+          "name": "wheels313/charset_normalizer-3.5.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+          "creationDate": "2026-11-16T06:36:36.288Z",
+          "totalBytes": 254660
+        },
+        {
+          "name": "wheels313/click-8.5.0-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.274Z",
+          "totalBytes": 125251
+        },
+        {
+          "name": "wheels313/contourpy-1.3.3-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+          "creationDate": "2026-11-16T06:36:36.278Z",
+          "totalBytes": 362859
+        },
+        {
+          "name": "wheels313/cwevals-0.0.1b1-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.278Z",
+          "totalBytes": 176544
+        },
+        {
+          "name": "wheels313/cycler-0.12.1-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.288Z",
+          "totalBytes": 8321
+        },
+        {
+          "name": "wheels313/datamol-0.12.5-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.298Z",
+          "totalBytes": 495391
+        },
+        {
+          "name": "wheels313/datasets-2.18.0-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.312Z",
+          "totalBytes": 510519
+        },
+        {
+          "name": "wheels313/dill-0.3.8-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.266Z",
+          "totalBytes": 116252
+        },
+        {
+          "name": "wheels313/distro-1.9.0-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.273Z",
+          "totalBytes": 20277
+        },
+        {
+          "name": "wheels313/einops-0.7.0-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.281Z",
+          "totalBytes": 44599
+        },
+        {
+          "name": "wheels313/evaluate-0.4.6-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.288Z",
+          "totalBytes": 84069
+        },
+        {
+          "name": "wheels313/fonttools-4.68.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+          "creationDate": "2026-11-16T06:36:36.394Z",
+          "totalBytes": 5418193
+        },
+        {
+          "name": "wheels313/formulaic-1.2.2-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.299Z",
+          "totalBytes": 118939
+        },
+        {
+          "name": "wheels313/frozenlist-1.8.0-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+          "creationDate": "2026-11-16T06:36:36.310Z",
+          "totalBytes": 234391
+        },
+        {
+          "name": "wheels313/fsspec-2024.2.0-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.290Z",
+          "totalBytes": 170949
+        },
+        {
+          "name": "wheels313/googleapis_common_protos-1.76.0-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.296Z",
+          "totalBytes": 307707
+        },
+        {
+          "name": "wheels313/h11-0.16.0-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.285Z",
+          "totalBytes": 37515
+        },
+        {
+          "name": "wheels313/hf_xet-1.8.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+          "creationDate": "2026-11-16T06:36:36.405Z",
+          "totalBytes": 4292483
+        },
+        {
+          "name": "wheels313/httpcore-1.0.9-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.288Z",
+          "totalBytes": 78784
+        },
+        {
+          "name": "wheels313/httpx-0.28.1-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.285Z",
+          "totalBytes": 73517
+        },
+        {
+          "name": "wheels313/huggingface_hub-0.36.2-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.292Z",
+          "totalBytes": 566395
+        },
+        {
+          "name": "wheels313/hydra_core-1.3.2-py3-none-any.whl",
+          "creationDate": "2026-11-16T06:36:36.289Z",
+          "totalBytes": 154547
+        }
+      ],
+      "next_page_token_present": true,
+      "dataset_view": {
+        "id": 12999471,
+        "ref": "heliosli/casmi26-frigid-e1",
+        "subtitle": "Runnable public demo artifacts; original competition weights excluded",
+        "creatorName": "Heliosli",
+        "totalBytes": 1763756610,
+        "lastUpdated": "2026-11-16T06:36:32.820Z",
+        "downloadCount": 495,
+        "licenseName": "Other (specified in description)",
+        "description": "# Public demonstration artifacts: casmi26-frigid-e1\n\nThis version is an interface and execution demonstration. The original competition-trained weights are not included. It is not a reproduction package for the 0.494 leaderboard result and has no claimed leaderboard score.\n\nModel loaders, file names, tensor dimensions, candidate tables and upstream public assets are retained for compatibility. Private learned parameters are replaced with initialized demo weights (the joint ranker uses a synthetic fit). Self-tests validate this demo version only.\n\nPX reference scores embedded in notebooks must correspond to this demonstration version; updated fixtures are included in this dataset.\n\nOriginal license and upstream source notices continue to apply to the corresponding files.\n",
+        "ownerName": "Heliosli",
+        "ownerRef": "heliosli",
+        "kernelCount": 6,
+        "title": "casmi26-frigid-e1",
+        "viewCount": 16,
+        "voteCount": 1,
+        "currentVersionNumber": 2,
+        "usabilityRating": 0.5625,
+        "versions": [
+          {
+            "versionNumber": 2,
+            "creationDate": "2026-11-16T06:36:32.820Z",
+            "creatorName": "Heliosli",
+            "creatorRef": "casmi26-frigid-e1",
+            "versionNotes": "PUBLIC-DEMO-1116-R1: Runnable demonstration artifacts; original competition weights excluded. Not a reproduction of 0.494.",
+            "status": "Ready"
+          }
+        ],
+        "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-5.png-31141478/dataset-thumbnail.png"
+      },
+      "current_version_number": 2,
+      "is_private": false
+    },
+    {
+      "ref": "heliosli/casmi26-joint-ranker",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "files_read",
+      "file_count": 5,
+      "files": [
+        {
+          "name": "README.md",
+          "creationDate": "2026-11-16T06:26:39.689Z",
+          "totalBytes": 1474
+        },
+        {
+          "name": "README_PUBLIC_DEMO.md",
+          "creationDate": "2026-11-16T06:26:39.528Z",
+          "totalBytes": 784
+        },
+        {
+          "name": "joint_scn.json",
+          "creationDate": "2026-11-16T06:26:39.687Z",
+          "totalBytes": 468
+        },
+        {
+          "name": "joint_scn.txt",
+          "creationDate": "2026-11-16T06:26:39.552Z",
+          "totalBytes": 14702
+        },
+        {
+          "name": "public_demo_manifest.json",
+          "creationDate": "2026-11-16T06:26:39.748Z",
+          "totalBytes": 381
+        }
+      ],
+      "next_page_token_present": false,
+      "dataset_view": {
+        "id": 13036129,
+        "ref": "heliosli/casmi26-joint-ranker",
+        "subtitle": "Runnable public demo artifacts; original competition weights excluded",
+        "creatorName": "Heliosli",
+        "totalBytes": 17809,
+        "lastUpdated": "2026-11-16T06:26:38.090Z",
+        "downloadCount": 244,
+        "licenseName": "Other (specified in description)",
+        "description": "# Public demonstration artifacts: casmi26-joint-ranker\n\nThis version is an interface and execution demonstration. The original competition-trained weights are not included. It is not a reproduction package for the 0.494 leaderboard result and has no claimed leaderboard score.\n\nModel loaders, file names, tensor dimensions, candidate tables and upstream public assets are retained for compatibility. Private learned parameters are replaced with initialized demo weights (the joint ranker uses a synthetic fit). Self-tests validate this demo version only.\n\nPX reference scores embedded in notebooks must correspond to this demonstration version; updated fixtures are included in this dataset.\n\nOriginal license and upstream source notices continue to apply to the corresponding files.\n",
+        "ownerName": "Heliosli",
+        "ownerRef": "heliosli",
+        "kernelCount": 5,
+        "title": "casmi26-joint-ranker",
+        "viewCount": 14,
+        "voteCount": 1,
+        "currentVersionNumber": 2,
+        "usabilityRating": 0.5625,
+        "versions": [
+          {
+            "versionNumber": 2,
+            "creationDate": "2026-11-16T06:26:38.090Z",
+            "creatorName": "Heliosli",
+            "creatorRef": "casmi26-joint-ranker",
+            "versionNotes": "PUBLIC-DEMO-1116-R1: Runnable demonstration artifacts; original competition weights excluded. Not a reproduction of 0.494.",
+            "status": "Ready"
+          }
+        ],
+        "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-38.png-31141478/dataset-thumbnail.png"
+      },
+      "current_version_number": 2,
+      "is_private": false
+    },
+    {
+      "ref": "heliosli/casmi26-pxv2-deploy",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "files_read",
+      "file_count": 7,
+      "files": [
+        {
+          "name": "README_PUBLIC_DEMO.md",
+          "creationDate": "2026-11-16T06:23:24.214Z",
+          "totalBytes": 783
+        },
+        {
+          "name": "public_demo_manifest.json",
+          "creationDate": "2026-11-16T06:23:24.221Z",
+          "totalBytes": 438
+        },
+        {
+          "name": "px_data.py",
+          "creationDate": "2026-11-16T06:23:24.164Z",
+          "totalBytes": 7855
+        },
+        {
+          "name": "px_demo_selftest.json",
+          "creationDate": "2026-11-16T06:23:24.186Z",
+          "totalBytes": 22699
+        },
+        {
+          "name": "px_deploy.py",
+          "creationDate": "2026-11-16T06:23:24.163Z",
+          "totalBytes": 6818
+        },
+        {
+          "name": "px_model.py",
+          "creationDate": "2026-11-16T06:23:24.215Z",
+          "totalBytes": 8914
+        },
+        {
+          "name": "pxv2_30000.pt",
+          "creationDate": "2026-11-16T06:23:24.895Z",
+          "totalBytes": 37571839
+        }
+      ],
+      "next_page_token_present": false,
+      "dataset_view": {
+        "id": 13012484,
+        "ref": "heliosli/casmi26-pxv2-deploy",
+        "subtitle": "Runnable public demo artifacts; original competition weights excluded",
+        "creatorName": "Heliosli",
+        "totalBytes": 37619346,
+        "lastUpdated": "2026-11-16T06:23:22.543Z",
+        "downloadCount": 151,
+        "licenseName": "CC0: Public Domain",
+        "description": "# Public demonstration artifacts: casmi26-pxv2-deploy\n\nThis version is an interface and execution demonstration. The original competition-trained weights are not included. It is not a reproduction package for the 0.494 leaderboard result and has no claimed leaderboard score.\n\nModel loaders, file names, tensor dimensions, candidate tables and upstream public assets are retained for compatibility. Private learned parameters are replaced with initialized demo weights (the joint ranker uses a synthetic fit). Self-tests validate this demo version only.\n\nPX reference scores embedded in notebooks must correspond to this demonstration version; updated fixtures are included in this dataset.\n\nOriginal license and upstream source notices continue to apply to the corresponding files.\n",
+        "ownerName": "Heliosli",
+        "ownerRef": "heliosli",
+        "kernelCount": 5,
+        "title": "casmi26-pxv2-deploy",
+        "viewCount": 6,
+        "voteCount": 1,
+        "currentVersionNumber": 2,
+        "usabilityRating": 0.6875,
+        "tags": [
+          {
+            "ref": "pre-trained model",
+            "name": "pre-trained model",
+            "description": "",
+            "fullPath": "admin > pre-trained model",
+            "competitionCount": 2,
+            "datasetCount": 655451,
+            "scriptCount": 301,
+            "totalCount": 655754
+          }
+        ],
+        "versions": [
+          {
+            "versionNumber": 2,
+            "creationDate": "2026-11-16T06:23:22.543Z",
+            "creatorName": "Heliosli",
+            "creatorRef": "casmi26-pxv2-deploy",
+            "versionNotes": "PUBLIC-DEMO-1116-R1: Runnable demonstration artifacts; original competition weights excluded. Not a reproduction of 0.494.",
+            "status": "Ready"
+          }
+        ],
+        "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-7.png-31141478/dataset-thumbnail.png"
+      },
+      "current_version_number": 2,
+      "is_private": false
+    },
+    {
+      "ref": "heliosli/casmi26-rt-np",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "files_read",
+      "file_count": 6,
+      "files": [
+        {
+          "name": "README.md",
+          "creationDate": "2026-11-16T06:24:00.646Z",
+          "totalBytes": 1134
+        },
+        {
+          "name": "README_PUBLIC_DEMO.md",
+          "creationDate": "2026-11-16T06:24:00.753Z",
+          "totalBytes": 777
+        },
+        {
+          "name": "npdb_np.parquet",
+          "creationDate": "2026-11-16T06:24:01.588Z",
+          "totalBytes": 32147842
+        },
+        {
+          "name": "public_demo_manifest.json",
+          "creationDate": "2026-11-16T06:24:00.761Z",
+          "totalBytes": 288
+        },
+        {
+          "name": "rt_adducts.json",
+          "creationDate": "2026-11-16T06:24:00.746Z",
+          "totalBytes": 208
+        },
+        {
+          "name": "rt_best.pt",
+          "creationDate": "2026-11-16T06:24:01.158Z",
+          "totalBytes": 24370229
+        }
+      ],
+      "next_page_token_present": false,
+      "dataset_view": {
+        "id": 13025146,
+        "ref": "heliosli/casmi26-rt-np",
+        "subtitle": "Runnable public demo artifacts; original competition weights excluded",
+        "creatorName": "Heliosli",
+        "totalBytes": 56520478,
+        "lastUpdated": "2026-11-16T06:23:59.197Z",
+        "downloadCount": 182,
+        "licenseName": "Other (specified in description)",
+        "description": "# Public demonstration artifacts: casmi26-rt-np\n\nThis version is an interface and execution demonstration. The original competition-trained weights are not included. It is not a reproduction package for the 0.494 leaderboard result and has no claimed leaderboard score.\n\nModel loaders, file names, tensor dimensions, candidate tables and upstream public assets are retained for compatibility. Private learned parameters are replaced with initialized demo weights (the joint ranker uses a synthetic fit). Self-tests validate this demo version only.\n\nPX reference scores embedded in notebooks must correspond to this demonstration version; updated fixtures are included in this dataset.\n\nOriginal license and upstream source notices continue to apply to the corresponding files.\n",
+        "ownerName": "Heliosli",
+        "ownerRef": "heliosli",
+        "kernelCount": 5,
+        "title": "casmi26-rt-np",
+        "viewCount": 7,
+        "voteCount": 1,
+        "currentVersionNumber": 2,
+        "usabilityRating": 0.64705884,
+        "tags": [
+          {
+            "ref": "pre-trained model",
+            "name": "pre-trained model",
+            "description": "",
+            "fullPath": "admin > pre-trained model",
+            "competitionCount": 2,
+            "datasetCount": 655451,
+            "scriptCount": 301,
+            "totalCount": 655754
+          }
+        ],
+        "versions": [
+          {
+            "versionNumber": 2,
+            "creationDate": "2026-11-16T06:23:59.197Z",
+            "creatorName": "Heliosli",
+            "creatorRef": "casmi26-rt-np",
+            "versionNotes": "PUBLIC-DEMO-1116-R1: Runnable demonstration artifacts; original competition weights excluded. Not a reproduction of 0.494.",
+            "status": "Ready"
+          }
+        ],
+        "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-75.png-31141478/dataset-thumbnail.png"
+      },
+      "current_version_number": 2,
+      "is_private": false
+    },
+    {
+      "ref": "sanpier/catalogue-experiment-saner",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "files_read",
+      "file_count": 47,
+      "files": [
+        {
+          "name": "catalogue_experiment/calibration_grid.csv",
+          "creationDate": "2026-10-24T13:17:42.205Z",
+          "totalBytes": 440
+        },
+        {
+          "name": "catalogue_experiment/catalogue_audit.json",
+          "creationDate": "2026-10-24T13:17:42.205Z",
+          "totalBytes": 592
+        },
+        {
+          "name": "catalogue_experiment/combiner_all.pkl",
+          "creationDate": "2026-10-24T13:17:42.292Z",
+          "totalBytes": 121163
+        },
+        {
+          "name": "catalogue_experiment/combiner_no_neural.pkl",
+          "creationDate": "2026-10-24T13:17:42.260Z",
+          "totalBytes": 109017
+        },
+        {
+          "name": "catalogue_experiment/engine2_coverage_audit.csv",
+          "creationDate": "2026-10-24T13:17:42.266Z",
+          "totalBytes": 88
+        },
+        {
+          "name": "catalogue_experiment/feature_schema.json",
+          "creationDate": "2026-10-24T13:17:42.194Z",
+          "totalBytes": 987
+        },
+        {
+          "name": "catalogue_experiment/labelled_candidate_scores.parquet",
+          "creationDate": "2026-10-24T13:17:42.307Z",
+          "totalBytes": 347698
+        },
+        {
+          "name": "catalogue_experiment/learned.py",
+          "creationDate": "2026-10-24T13:17:42.292Z",
+          "totalBytes": 6037
+        },
+        {
+          "name": "catalogue_experiment/paired_comparisons.csv",
+          "creationDate": "2026-10-24T13:17:42.242Z",
+          "totalBytes": 915
+        },
+        {
+          "name": "catalogue_experiment/panel_audit.json",
+          "creationDate": "2026-10-24T13:17:42.276Z",
+          "totalBytes": 701
+        },
+        {
+          "name": "catalogue_experiment/per_query_results.csv",
+          "creationDate": "2026-10-24T13:17:42.276Z",
+          "totalBytes": 28354
+        },
+        {
+          "name": "catalogue_experiment/ranking.py",
+          "creationDate": "2026-10-24T13:17:42.271Z",
+          "totalBytes": 4133
+        },
+        {
+          "name": "catalogue_experiment/ranking_summary.csv",
+          "creationDate": "2026-10-24T13:17:42.211Z",
+          "totalBytes": 1119
+        },
+        {
+          "name": "catalogue_experiment/replay_contract.json",
+          "creationDate": "2026-10-24T13:17:42.242Z",
+          "totalBytes": 1994
+        },
+        {
+          "name": "catalogue_experiment/report.json",
+          "creationDate": "2026-10-24T13:17:42.242Z",
+          "totalBytes": 870
+        },
+        {
+          "name": "catalogue_experiment/source_coverage.csv",
+          "creationDate": "2026-10-24T13:17:42.211Z",
+          "totalBytes": 1449
+        },
+        {
+          "name": "catalogue_replay_checkpoint/all_features.parquet",
+          "creationDate": "2026-10-24T13:17:42.394Z",
+          "totalBytes": 255450
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_000/DONE.json",
+          "creationDate": "2026-10-24T13:17:42.376Z",
+          "totalBytes": 2829
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_000/REPLAY.json",
+          "creationDate": "2026-10-24T13:17:42.381Z",
+          "totalBytes": 2546
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_000/catalogue_audit.json",
+          "creationDate": "2026-10-24T13:17:42.376Z",
+          "totalBytes": 273
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_000/effective_query_spectra.parquet",
+          "creationDate": "2026-10-24T13:17:42.406Z",
+          "totalBytes": 1337151
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_000/engine2_coverage.json",
+          "creationDate": "2026-10-24T13:17:42.399Z",
+          "totalBytes": 102
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_000/engine2_coverage_audit.csv",
+          "creationDate": "2026-10-24T13:17:42.429Z",
+          "totalBytes": 88
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_000/execution_receipt.json",
+          "creationDate": "2026-10-24T13:17:42.381Z",
+          "totalBytes": 543
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_000/features.parquet",
+          "creationDate": "2026-10-24T13:17:42.394Z",
+          "totalBytes": 131437
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_000/features.parquet.errors.json",
+          "creationDate": "2026-10-24T13:17:42.441Z",
+          "totalBytes": 2
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_000/frozen_candidate_evidence.parquet",
+          "creationDate": "2026-10-24T13:17:42.400Z",
+          "totalBytes": 95944
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_000/pubchem_promotion_audit.csv",
+          "creationDate": "2026-10-24T13:17:42.406Z",
+          "totalBytes": 10380
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_001/DONE.json",
+          "creationDate": "2026-10-24T13:17:42.400Z",
+          "totalBytes": 2829
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_001/REPLAY.json",
+          "creationDate": "2026-10-24T13:17:42.394Z",
+          "totalBytes": 2546
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_001/catalogue_audit.json",
+          "creationDate": "2026-10-24T13:17:42.411Z",
+          "totalBytes": 273
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_001/effective_query_spectra.parquet",
+          "creationDate": "2026-10-24T13:17:42.472Z",
+          "totalBytes": 1406407
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_001/engine2_coverage.json",
+          "creationDate": "2026-10-24T13:17:42.406Z",
+          "totalBytes": 102
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_001/engine2_coverage_audit.csv",
+          "creationDate": "2026-10-24T13:17:42.447Z",
+          "totalBytes": 88
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_001/execution_receipt.json",
+          "creationDate": "2026-10-24T13:17:42.394Z",
+          "totalBytes": 543
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_001/features.parquet",
+          "creationDate": "2026-10-24T13:17:42.429Z",
+          "totalBytes": 134658
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_001/features.parquet.errors.json",
+          "creationDate": "2026-10-24T13:17:42.441Z",
+          "totalBytes": 2
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_001/frozen_candidate_evidence.parquet",
+          "creationDate": "2026-10-24T13:17:42.472Z",
+          "totalBytes": 98657
+        },
+        {
+          "name": "catalogue_replay_checkpoint/batch_001/pubchem_promotion_audit.csv",
+          "creationDate": "2026-10-24T13:17:42.459Z",
+          "totalBytes": 10705
+        },
+        {
+          "name": "catalogue_replay_checkpoint/contract.json",
+          "creationDate": "2026-10-24T13:17:42.435Z",
+          "totalBytes": 1994
+        },
+        {
+          "name": "catalogue_replay_checkpoint/panel/READY.json",
+          "creationDate": "2026-10-24T13:17:42.479Z",
+          "totalBytes": 479
+        },
+        {
+          "name": "catalogue_replay_checkpoint/panel/identity_map.json",
+          "creationDate": "2026-10-24T13:17:43.331Z",
+          "totalBytes": 18702350
+        },
+        {
+          "name": "catalogue_replay_checkpoint/panel/labels.parquet",
+          "creationDate": "2026-10-24T13:17:42.585Z",
+          "totalBytes": 6508
+        },
+        {
+          "name": "catalogue_replay_checkpoint/panel/panel_audit.json",
+          "creationDate": "2026-10-24T13:17:42.531Z",
+          "totalBytes": 701
+        },
+        {
+          "name": "catalogue_replay_checkpoint/panel/sample_submission.csv",
+          "creationDate": "2026-10-24T13:17:42.536Z",
+          "totalBytes": 3259
+        },
+        {
+          "name": "catalogue_replay_checkpoint/panel/test.parquet",
+          "creationDate": "2026-10-24T13:17:42.873Z",
+          "totalBytes": 2741202
+        },
+        {
+          "name": "catalogue_replay_checkpoint/run_status.json",
+          "creationDate": "2026-10-24T13:17:42.611Z",
+          "totalBytes": 186
+        }
+      ],
+      "next_page_token_present": false,
+      "dataset_view": {
+        "id": 12823240,
+        "ref": "sanpier/catalogue-experiment-saner",
+        "subtitle": "",
+        "creatorName": "Saner Turhaner",
+        "totalBytes": 25575791,
+        "lastUpdated": "2026-10-24T13:17:40.933Z",
+        "downloadCount": 9794,
+        "licenseName": "Unknown",
+        "description": "",
+        "ownerName": "Saner Turhaner",
+        "ownerRef": "sanpier",
+        "kernelCount": 716,
+        "title": "catalogue_experiment_saner",
+        "viewCount": 222,
+        "voteCount": 3,
+        "currentVersionNumber": 1,
+        "usabilityRating": 0.1764706,
+        "versions": [
+          {
+            "versionNumber": 1,
+            "creationDate": "2026-10-24T13:17:40.933Z",
+            "creatorName": "Saner Turhaner",
+            "creatorRef": "catalogue-experiment-saner",
+            "versionNotes": "Initial release",
+            "status": "Ready"
+          }
+        ],
+        "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-57.png-2856349/dataset-thumbnail.png"
+      },
+      "current_version_number": 1,
+      "is_private": false
+    },
+    {
+      "ref": "metric/rdkit-2026-3-3-wheel",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "files_read",
+      "file_count": 4,
+      "files": [
+        {
+          "name": "rdkit-2026.3.3-cp310-cp310-manylinux_2_28_x86_64.whl",
+          "creationDate": "2026-09-08T22:23:25.421Z",
+          "totalBytes": 37258660
+        },
+        {
+          "name": "rdkit-2026.3.3-cp311-cp311-manylinux_2_28_x86_64.whl",
+          "creationDate": "2026-09-08T22:23:25.238Z",
+          "totalBytes": 37257559
+        },
+        {
+          "name": "rdkit-2026.3.3-cp312-cp312-manylinux_2_28_x86_64.whl",
+          "creationDate": "2026-09-08T22:23:25.144Z",
+          "totalBytes": 37188323
+        },
+        {
+          "name": "rdkit-2026.3.3-cp313-cp313-manylinux_2_28_x86_64.whl",
+          "creationDate": "2026-09-08T22:23:25.240Z",
+          "totalBytes": 37187145
+        }
+      ],
+      "next_page_token_present": false,
+      "dataset_view": {
+        "id": 11951175,
+        "ref": "metric/rdkit-2026-3-3-wheel",
+        "subtitle": "",
+        "creatorName": "Kaggle Competition Metrics",
+        "totalBytes": 148891687,
+        "lastUpdated": "2026-09-08T22:23:23.197Z",
+        "downloadCount": 3713,
+        "licenseName": "Unknown",
+        "description": "",
+        "ownerName": "Kaggle Competition Metrics",
+        "ownerRef": "metric",
+        "kernelCount": 1030,
+        "title": "rdkit 2026.3.3 wheel",
+        "viewCount": 676,
+        "voteCount": 4,
+        "currentVersionNumber": 1,
+        "usabilityRating": 0.1875,
+        "versions": [
+          {
+            "versionNumber": 1,
+            "creationDate": "2026-09-08T22:23:23.197Z",
+            "creatorName": "Kaggle Competition Metrics",
+            "creatorRef": "rdkit-2026-3-3-wheel",
+            "versionNotes": "Initial release",
+            "status": "Ready"
+          }
+        ],
+        "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-4.png-13166197/dataset-thumbnail.png"
+      },
+      "current_version_number": 1,
+      "is_private": false
+    },
+    {
+      "ref": "heliosli/casmi26-m5",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 403,
+      "dataset_view_error": {
+        "error_type": "HTTPError",
+        "http_status": 403
+      }
+    }
+  ]
+}

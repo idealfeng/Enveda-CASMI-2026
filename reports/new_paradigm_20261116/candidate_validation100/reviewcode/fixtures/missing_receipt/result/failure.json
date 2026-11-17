@@ -1,0 +1,8 @@
+{
+  "status": "refused_or_failed_candidate_evaluation",
+  "truth_metadata_opened": false,
+  "error_type": "ValueError",
+  "error": "Inference verification missing; evaluation truth remains unopened",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\Paper\\casmi\\scripts\\evaluate_fiora_candidate_validation_20261116.py\", line 341, in evaluate\n    freeze,proof,queries,candidates,windows,scores,pool_path,pins,plan=_bind_inference_success(data,inference,out)\n                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Paper\\casmi\\scripts\\evaluate_fiora_candidate_validation_20261116.py\", line 140, in _bind_inference_success\n    require(proof_path.is_file(),'Inference verification missing; evaluation truth remains unopened')\n  File \"D:\\Paper\\casmi\\scripts\\evaluate_fiora_candidate_validation_20261116.py\", line 67, in require\n    if not condition:raise ValueError(message)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Inference verification missing; evaluation truth remains unopened\n",
+  "source_script_sha256": "34579540d9ea47dde0e07b9cfe40da29064cc9bf8757c6ba6aea6c3733a3ebef"
+}

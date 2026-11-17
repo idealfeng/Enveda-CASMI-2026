@@ -1,0 +1,39 @@
+{
+  "id": 756893,
+  "read_only": true,
+  "checked_at_utc": "2026-11-16T15:18:20.706300+00:00",
+  "topic": {
+    "id": 756893,
+    "title": "Are shipped ranker tables without a public generator reproducible?",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/756893",
+    "postDate": "2026-11-08T03:14:21.978Z",
+    "authorName": "Shishir Adhikari",
+    "authorUrl": "https://www.kaggle.com/shishiradhikari11",
+    "votes": -3,
+    "commentCount": 3,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>Hi David, Marie, a concrete reproducibility question about two public Kaggle datasets that several public notebooks use as ranker inputs: prvsiyan/casmi26-ranker-features (rank_train.npz) and megayak/casmi26-simulated-ranker-rows (sim_rank_rows_nofp.npz). Thanks for the earlier clarification that intermediates must be reproducible and that you may remove non-compliant solutions.</p>\n<p>We checked both. The authors' notebooks only load these tables; no public notebook or code generates them. The author README for the second dataset describes its design (query set sizes, mask definitions) but not the query list or random seed. We rebuilt both tables from public code and data following the published designs, and the rebuilds are statistically close but not identical to the originals.</p>\n<p>The question: is a solution that loads one of these tables as shipped, with its generator not public, considered \"reproducible\" under the rules? And is a solution that instead uses a table we rebuilt from public code and data, following the author's published design, acceptable even though it will not be byte-identical?</p>\n<p>We ask now so that teams can choose their final submissions before the deadline with the rule in mind. Thanks!</p>"
+  },
+  "comments": [
+    {
+      "id": 3555495,
+      "authorName": "David Healey",
+      "postDate": "2026-11-16T00:52:38.937Z",
+      "content": "<p>Hi Aditya, same principle as for intermediates: public weights are fine to load only if the code and permitted data that produced them are available, so the weights can be regenerated. A statement that they were trained on train.parquet isn't enough without the training code available.</p>"
+    },
+    {
+      "id": 3554889,
+      "authorName": "Aditya",
+      "postDate": "2026-11-14T03:10:52.117Z",
+      "content": "<p>Thank you for the clarification on intermediate artifacts in this thread. A follow-up so we can make our final selection reproducible:</p>\n<ol>\n<li><p>Many public notebooks run the shared two-engine pipeline. Its main engine loads model weights from public datasets (for example ahmedberatozer/casmi26-v3-models, casmi26-v4b-models and casmi26-fpnet-full1: FPNet fingerprint models, LightGBM rankers, feature models). The inference code is public, and the authors state the models were trained on the competition training data, but we could not find the training code. Are such weights acceptable in a final submission, or do they fall under \"intermediate data artifacts without being able to reproduce those artifacts\"?</p></li>\n<li><p>The same question for prvsiyan/casmi26-fp-models-v2 (second-engine fingerprint models).</p></li>\n<li><p>For our own model: we generate a ranker training table from train.parquet with a public notebook (coderhqxg50/casmi26-t1-class2-sim-table), attach that notebook's output to the submission notebook, and train the ranker at run time. Is that sufficient, or must the table be generated inside the submission notebook itself?</p></li>\n</ol>\n<p>Thank you.</p>"
+    },
+    {
+      "id": 3553098,
+      "authorName": "David Healey",
+      "postDate": "2026-11-11T00:16:58.207Z",
+      "content": "<p>Solutions that load intermediate data artifacts without being able to reproduce those artifacts are not reproducible.</p>"
+    }
+  ],
+  "comments_truncated": false
+}

@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-15T03:29:44.644142+00:00",
+  "updated_at_utc": "2026-11-17T04:15:56.346842+00:00",
   "local_read_only_inventory": true,
   "models": [
     {
@@ -72,7 +72,7 @@
       "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
       "role": "E006基座组件；生成/特征/ranker体系",
       "related_metadata": [],
-      "hardlink_count": 3
+      "hardlink_count": 5
     },
     {
       "path": "assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/fe_B.pt",
@@ -88,7 +88,7 @@
       "sha256": "8ae5bee2c978f4f01ea7cfe29b514cd3e9112006ab51aa8b13f20e26e9365362",
       "role": "E006基座组件；生成/特征/ranker体系",
       "related_metadata": [],
-      "hardlink_count": 3
+      "hardlink_count": 5
     },
     {
       "path": "assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/fpnet_0.pt",
@@ -116,7 +116,7 @@
         "assets/kaggle/bgunshui/casmi26-scorer-v2-model/v1/config_used.json",
         "assets/kaggle/bgunshui/casmi26-scorer-v2-model/v1/training_result.json"
       ],
-      "hardlink_count": 3
+      "hardlink_count": 5
     },
     {
       "path": "assets/kaggle/bgunshui/casmi26-scorer-v4-model/v1/final_model.pt",
@@ -136,7 +136,7 @@
       "sha256": "261529c823825cbe2028684bbf7214a95a7e631ca9f656336d577c507cce8294",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-fp-models-v2/fp_single_s2.pt",
@@ -144,7 +144,7 @@
       "sha256": "c19aa29016ed4d7a67bac38105b8fa5076c696c29eb66a504558c9b2e52b614a",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-fpnet-full1/fpnet_full1.pt",
@@ -152,7 +152,7 @@
       "sha256": "d13a3611e499d7783c4a6fce5b04363eb297dcf70f2d7d00bb66f9ff1f547123",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-glacier/ckpt/glacier.pt",
@@ -160,7 +160,7 @@
       "sha256": "9192e4c2eeafe83317d5a2c2641e1fc4d68934488757a4faafeb66f2ab397a12",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-iceberg/ckpt/gen.pt",
@@ -168,7 +168,7 @@
       "sha256": "deef0451c1870d2125653bb212c9d95c5b5d9bf80156dfa9b22fedda7db49bea",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-iceberg/ckpt/inten.pt",
@@ -176,7 +176,7 @@
       "sha256": "c49e330e049d3a8b0095026ed694fcf70045c24305354853732aaa5f89d55068",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-spec2mol/spec2mol.pt",
@@ -184,7 +184,7 @@
       "sha256": "9d74116acee29e34c762fab928615b763cf7d2803a0736b257fb1d784ef4abbe",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-spec2mol-r/spec2mol_r.pt",
@@ -192,7 +192,7 @@
       "sha256": "b78ec5949fec91678dc5b8c8c4b4dca00b38adf9454c36b2cfe7d81500a53cdf",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v3-models/fpnet_0.pt",
@@ -200,7 +200,7 @@
       "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v3-models/fpnet_1.pt",
@@ -208,7 +208,7 @@
       "sha256": "6f60a22b3c3b21aa48d47328bb9523bdf07cc004bfb72966e0f9713507c24f2e",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v3-models/ranker_0.pkl",
@@ -216,7 +216,7 @@
       "sha256": "b7d5e5bf7a70b35526a78a999def236c795ae1f114e4e360728f1cea068e8e68",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v4b-models/fe_A.pt",
@@ -224,7 +224,7 @@
       "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
       "role": "E006基座组件；生成/特征/ranker体系",
       "related_metadata": [],
-      "hardlink_count": 3
+      "hardlink_count": 5
     },
     {
       "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v4b-models/fe_B.pt",
@@ -232,7 +232,7 @@
       "sha256": "6f60a22b3c3b21aa48d47328bb9523bdf07cc004bfb72966e0f9713507c24f2e",
       "role": "E006基座组件；生成/特征/ranker体系",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v4b-models/fe_D.pt",
@@ -240,7 +240,7 @@
       "sha256": "8ae5bee2c978f4f01ea7cfe29b514cd3e9112006ab51aa8b13f20e26e9365362",
       "role": "E006基座组件；生成/特征/ranker体系",
       "related_metadata": [],
-      "hardlink_count": 3
+      "hardlink_count": 5
     },
     {
       "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v4b-models/fpnet_0.pt",
@@ -248,7 +248,7 @@
       "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
       "role": "E006基座组件；生成/特征/ranker体系",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v4b-models/ranker_v4b.pkl",
@@ -256,7 +256,7 @@
       "sha256": "6172e926fb2de244f0b9189ed54e1ed8a15e76d166592b724129a4d6a34931da",
       "role": "E006基座组件；生成/特征/ranker体系",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "assets/kaggle/dmitriigluzdov/casmi26-fold-safe-fpnet/v5/fpnet_fold0.pt",
@@ -264,7 +264,7 @@
       "sha256": "ddf6eaaa8e541a16e3f0357ed30f0346e529054f75d5619aedb6024dcb1bd7f0",
       "role": "fold0指纹模型；验证隔离仍需检查预训练曝光",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "assets/kaggle/popwenman/casmi26-scorer-train-v80/v1/casmi_spectrum_model_ours_v80/best_validation_model.pt",
@@ -334,7 +334,7 @@
         "assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/config.json",
         "assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/training_result.json"
       ],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/final_model.pt",
@@ -345,7 +345,15 @@
         "assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/config.json",
         "assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/training_result.json"
       ],
-      "hardlink_count": 2
+      "hardlink_count": 4
+    },
+    {
+      "path": "assets/research/fiora_os_20261115/source_checkout/fiora/resources/models/fiora_OS_v1.0.0_state.pt",
+      "bytes": 53814639,
+      "sha256": "83221e187991f116a8aed1bf272dd656cf31721a177dcbb0239f414c8df31a0e",
+      "role": "FIORA-OS v1独立正向谱模型；固定MSnLib v7开放训练权重，仅HCD/支持离子，2分子准入小试不等于候选排名收益",
+      "related_metadata": [],
+      "hardlink_count": 1
     },
     {
       "path": "assets/research/mist_msg_20261114/checkpoints/mist_msg_noaug.ckpt",
@@ -379,7 +387,7 @@
       "sha256": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46",
       "role": "冠军使用的v2神经评分器",
       "related_metadata": [],
-      "hardlink_count": 3
+      "hardlink_count": 5
     },
     {
       "path": "runs/bestval_adduct_combo_canary_20261112/ours_bundle/final_model.pt",
@@ -652,6 +660,402 @@
       "hardlink_count": 1
     },
     {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/best_validation_model.pt",
+      "bytes": 11873492,
+      "sha256": "969d13443fcf168eae1e00e56a8e0ae87dcb16f337cb6dbac959e7cd218f089c",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/config.json",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/training_result.json"
+      ],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/final_model.pt",
+      "bytes": 11872818,
+      "sha256": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/config.json",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/training_result.json"
+      ],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-fp-models-v2/fp_merged_m1.pt",
+      "bytes": 144110255,
+      "sha256": "261529c823825cbe2028684bbf7214a95a7e631ca9f656336d577c507cce8294",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-fp-models-v2/fp_single_s2.pt",
+      "bytes": 144110255,
+      "sha256": "c19aa29016ed4d7a67bac38105b8fa5076c696c29eb66a504558c9b2e52b614a",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-fpnet-full1/fpnet_full1.pt",
+      "bytes": 198791233,
+      "sha256": "d13a3611e499d7783c4a6fce5b04363eb297dcf70f2d7d00bb66f9ff1f547123",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-glacier/ckpt/glacier.pt",
+      "bytes": 60531887,
+      "sha256": "9192e4c2eeafe83317d5a2c2641e1fc4d68934488757a4faafeb66f2ab397a12",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-iceberg/ckpt/gen.pt",
+      "bytes": 14561244,
+      "sha256": "deef0451c1870d2125653bb212c9d95c5b5d9bf80156dfa9b22fedda7db49bea",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-iceberg/ckpt/inten.pt",
+      "bytes": 13793037,
+      "sha256": "c49e330e049d3a8b0095026ed694fcf70045c24305354853732aaa5f89d55068",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-spec2mol/spec2mol.pt",
+      "bytes": 66731290,
+      "sha256": "9d74116acee29e34c762fab928615b763cf7d2803a0736b257fb1d784ef4abbe",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-spec2mol-r/spec2mol_r.pt",
+      "bytes": 11893127,
+      "sha256": "b78ec5949fec91678dc5b8c8c4b4dca00b38adf9454c36b2cfe7d81500a53cdf",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v3-models/fpnet_0.pt",
+      "bytes": 198790165,
+      "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v3-models/fpnet_1.pt",
+      "bytes": 198790165,
+      "sha256": "6f60a22b3c3b21aa48d47328bb9523bdf07cc004bfb72966e0f9713507c24f2e",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v3-models/ranker_0.pkl",
+      "bytes": 14162986,
+      "sha256": "b7d5e5bf7a70b35526a78a999def236c795ae1f114e4e360728f1cea068e8e68",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fe_A.pt",
+      "bytes": 198790165,
+      "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+      "role": "E006基座组件；生成/特征/ranker体系",
+      "related_metadata": [],
+      "hardlink_count": 5
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fe_B.pt",
+      "bytes": 198790165,
+      "sha256": "6f60a22b3c3b21aa48d47328bb9523bdf07cc004bfb72966e0f9713507c24f2e",
+      "role": "E006基座组件；生成/特征/ranker体系",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fe_D.pt",
+      "bytes": 486278727,
+      "sha256": "8ae5bee2c978f4f01ea7cfe29b514cd3e9112006ab51aa8b13f20e26e9365362",
+      "role": "E006基座组件；生成/特征/ranker体系",
+      "related_metadata": [],
+      "hardlink_count": 5
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fpnet_0.pt",
+      "bytes": 198790165,
+      "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+      "role": "E006基座组件；生成/特征/ranker体系",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/ranker_v4b.pkl",
+      "bytes": 14301548,
+      "sha256": "6172e926fb2de244f0b9189ed54e1ed8a15e76d166592b724129a4d6a34931da",
+      "role": "E006基座组件；生成/特征/ranker体系",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-fold-safe-fpnet/fpnet_fold0.pt",
+      "bytes": 198789484,
+      "sha256": "ddf6eaaa8e541a16e3f0357ed30f0346e529054f75d5619aedb6024dcb1bd7f0",
+      "role": "fold0指纹模型；验证隔离仍需检查预训练曝光",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-scorer-v2-model/final_model.pt",
+      "bytes": 11872818,
+      "sha256": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46",
+      "role": "冠军使用的v2神经评分器",
+      "related_metadata": [
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-scorer-v2-model/config.json",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-scorer-v2-model/config_used.json",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-scorer-v2-model/training_result.json"
+      ],
+      "hardlink_count": 5
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2/kaggle/working/ours_bundle/final_model.pt",
+      "bytes": 11872818,
+      "sha256": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/working/ours_bundle/config.json",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/working/ours_bundle/config_used.json"
+      ],
+      "hardlink_count": 1
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/best_validation_model.pt",
+      "bytes": 11873492,
+      "sha256": "969d13443fcf168eae1e00e56a8e0ae87dcb16f337cb6dbac959e7cd218f089c",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/config.json",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/training_result.json"
+      ],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/final_model.pt",
+      "bytes": 11872818,
+      "sha256": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/config.json",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/training_result.json"
+      ],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-fp-models-v2/fp_merged_m1.pt",
+      "bytes": 144110255,
+      "sha256": "261529c823825cbe2028684bbf7214a95a7e631ca9f656336d577c507cce8294",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-fp-models-v2/fp_single_s2.pt",
+      "bytes": 144110255,
+      "sha256": "c19aa29016ed4d7a67bac38105b8fa5076c696c29eb66a504558c9b2e52b614a",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-fpnet-full1/fpnet_full1.pt",
+      "bytes": 198791233,
+      "sha256": "d13a3611e499d7783c4a6fce5b04363eb297dcf70f2d7d00bb66f9ff1f547123",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-glacier/ckpt/glacier.pt",
+      "bytes": 60531887,
+      "sha256": "9192e4c2eeafe83317d5a2c2641e1fc4d68934488757a4faafeb66f2ab397a12",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-iceberg/ckpt/gen.pt",
+      "bytes": 14561244,
+      "sha256": "deef0451c1870d2125653bb212c9d95c5b5d9bf80156dfa9b22fedda7db49bea",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-iceberg/ckpt/inten.pt",
+      "bytes": 13793037,
+      "sha256": "c49e330e049d3a8b0095026ed694fcf70045c24305354853732aaa5f89d55068",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-spec2mol/spec2mol.pt",
+      "bytes": 66731290,
+      "sha256": "9d74116acee29e34c762fab928615b763cf7d2803a0736b257fb1d784ef4abbe",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-spec2mol-r/spec2mol_r.pt",
+      "bytes": 11893127,
+      "sha256": "b78ec5949fec91678dc5b8c8c4b4dca00b38adf9454c36b2cfe7d81500a53cdf",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v3-models/fpnet_0.pt",
+      "bytes": 198790165,
+      "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v3-models/fpnet_1.pt",
+      "bytes": 198790165,
+      "sha256": "6f60a22b3c3b21aa48d47328bb9523bdf07cc004bfb72966e0f9713507c24f2e",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v3-models/ranker_0.pkl",
+      "bytes": 14162986,
+      "sha256": "b7d5e5bf7a70b35526a78a999def236c795ae1f114e4e360728f1cea068e8e68",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fe_A.pt",
+      "bytes": 198790165,
+      "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+      "role": "E006基座组件；生成/特征/ranker体系",
+      "related_metadata": [],
+      "hardlink_count": 5
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fe_B.pt",
+      "bytes": 198790165,
+      "sha256": "6f60a22b3c3b21aa48d47328bb9523bdf07cc004bfb72966e0f9713507c24f2e",
+      "role": "E006基座组件；生成/特征/ranker体系",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fe_D.pt",
+      "bytes": 486278727,
+      "sha256": "8ae5bee2c978f4f01ea7cfe29b514cd3e9112006ab51aa8b13f20e26e9365362",
+      "role": "E006基座组件；生成/特征/ranker体系",
+      "related_metadata": [],
+      "hardlink_count": 5
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fpnet_0.pt",
+      "bytes": 198790165,
+      "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
+      "role": "E006基座组件；生成/特征/ranker体系",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/ranker_v4b.pkl",
+      "bytes": 14301548,
+      "sha256": "6172e926fb2de244f0b9189ed54e1ed8a15e76d166592b724129a4d6a34931da",
+      "role": "E006基座组件；生成/特征/ranker体系",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-fold-safe-fpnet/fpnet_fold0.pt",
+      "bytes": 198789484,
+      "sha256": "ddf6eaaa8e541a16e3f0357ed30f0346e529054f75d5619aedb6024dcb1bd7f0",
+      "role": "fold0指纹模型；验证隔离仍需检查预训练曝光",
+      "related_metadata": [],
+      "hardlink_count": 4
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-scorer-v2-model/final_model.pt",
+      "bytes": 11872818,
+      "sha256": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46",
+      "role": "冠军使用的v2神经评分器",
+      "related_metadata": [
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-scorer-v2-model/config.json",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-scorer-v2-model/config_used.json",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-scorer-v2-model/training_result.json"
+      ],
+      "hardlink_count": 5
+    },
+    {
+      "path": "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/working/ours_bundle/final_model.pt",
+      "bytes": 11872818,
+      "sha256": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46",
+      "role": "公开基座/历史复现组件；用途须结合配方核对",
+      "related_metadata": [
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/working/ours_bundle/config.json",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/working/ours_bundle/config_used.json"
+      ],
+      "hardlink_count": 1
+    },
+    {
+      "path": "runs/extlib_gate_train_20261115/last_step_500.pt",
+      "bytes": 6361,
+      "sha256": "a9ecb106c26ac2ad61751697211e36def439ea05a4fea0bc5c6203f45e752a2b",
+      "role": "自训练C库最高匹配正确性门控；500步CPU pilot，400结构训练/100开发，p>=.9预先固定；未证实隐藏榜分",
+      "related_metadata": [
+        "runs/extlib_gate_train_20261115/configuration.json",
+        "runs/extlib_gate_train_20261115/verification.json"
+      ],
+      "hardlink_count": 1
+    },
+    {
+      "path": "runs/fiora_tims_model_20261115/fiora_OS_tims_migrated_state.pt",
+      "bytes": 53818519,
+      "sha256": "38d3208f4c78a4db935b8d4b58cae643def77b050488d5d7191cf845af114048",
+      "role": "FIORA-OS显式HCD/timsTOF 19维未训练迁移；HCD前向误差2.98e-8，新增1000参数，不能当微调完成",
+      "related_metadata": [
+        "runs/fiora_tims_model_20261115/fiora_OS_tims_migrated_params.json",
+        "runs/fiora_tims_model_20261115/migration_receipt.json",
+        "runs/fiora_tims_model_20261115/migration_verification.json"
+      ],
+      "hardlink_count": 1
+    },
+    {
+      "path": "runs/fiora_tims_model_20261115/pilot500/last_checkpoint.pt",
+      "bytes": 161470333,
+      "sha256": "9c899faa1c45d9a0c25588f99186f34112b25eafe3f6d955a3da34c267996252",
+      "role": "FIORA timsTOF真实碎片强度迁移pilot；步数/是否成功以同目录verification为准，非Kaggle排名增益",
+      "related_metadata": [
+        "runs/fiora_tims_model_20261115/pilot500/configuration.json",
+        "runs/fiora_tims_model_20261115/pilot500/verification.json"
+      ],
+      "hardlink_count": 1
+    },
+    {
       "path": "runs/generation_production_20261113_r2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/best_validation_model.pt",
       "bytes": 11873492,
       "sha256": "969d13443fcf168eae1e00e56a8e0ae87dcb16f337cb6dbac959e7cd218f089c",
@@ -660,7 +1064,7 @@
         "runs/generation_production_20261113_r2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/config.json",
         "runs/generation_production_20261113_r2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/training_result.json"
       ],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "runs/generation_production_20261113_r2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/final_model.pt",
@@ -671,7 +1075,7 @@
         "runs/generation_production_20261113_r2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/config.json",
         "runs/generation_production_20261113_r2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/training_result.json"
       ],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-fp-models-v2/fp_merged_m1.pt",
@@ -679,7 +1083,7 @@
       "sha256": "261529c823825cbe2028684bbf7214a95a7e631ca9f656336d577c507cce8294",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-fp-models-v2/fp_single_s2.pt",
@@ -687,7 +1091,7 @@
       "sha256": "c19aa29016ed4d7a67bac38105b8fa5076c696c29eb66a504558c9b2e52b614a",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-fpnet-full1/fpnet_full1.pt",
@@ -695,7 +1099,7 @@
       "sha256": "d13a3611e499d7783c4a6fce5b04363eb297dcf70f2d7d00bb66f9ff1f547123",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-glacier/ckpt/glacier.pt",
@@ -703,7 +1107,7 @@
       "sha256": "9192e4c2eeafe83317d5a2c2641e1fc4d68934488757a4faafeb66f2ab397a12",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-iceberg/ckpt/gen.pt",
@@ -711,7 +1115,7 @@
       "sha256": "deef0451c1870d2125653bb212c9d95c5b5d9bf80156dfa9b22fedda7db49bea",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-iceberg/ckpt/inten.pt",
@@ -719,7 +1123,7 @@
       "sha256": "c49e330e049d3a8b0095026ed694fcf70045c24305354853732aaa5f89d55068",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-spec2mol/spec2mol.pt",
@@ -727,7 +1131,7 @@
       "sha256": "9d74116acee29e34c762fab928615b763cf7d2803a0736b257fb1d784ef4abbe",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-spec2mol-r/spec2mol_r.pt",
@@ -735,7 +1139,7 @@
       "sha256": "b78ec5949fec91678dc5b8c8c4b4dca00b38adf9454c36b2cfe7d81500a53cdf",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v3-models/fpnet_0.pt",
@@ -743,7 +1147,7 @@
       "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v3-models/fpnet_1.pt",
@@ -751,7 +1155,7 @@
       "sha256": "6f60a22b3c3b21aa48d47328bb9523bdf07cc004bfb72966e0f9713507c24f2e",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v3-models/ranker_0.pkl",
@@ -759,7 +1163,7 @@
       "sha256": "b7d5e5bf7a70b35526a78a999def236c795ae1f114e4e360728f1cea068e8e68",
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fe_A.pt",
@@ -767,7 +1171,7 @@
       "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
       "role": "E006基座组件；生成/特征/ranker体系",
       "related_metadata": [],
-      "hardlink_count": 3
+      "hardlink_count": 5
     },
     {
       "path": "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fe_B.pt",
@@ -775,7 +1179,7 @@
       "sha256": "6f60a22b3c3b21aa48d47328bb9523bdf07cc004bfb72966e0f9713507c24f2e",
       "role": "E006基座组件；生成/特征/ranker体系",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fe_D.pt",
@@ -783,7 +1187,7 @@
       "sha256": "8ae5bee2c978f4f01ea7cfe29b514cd3e9112006ab51aa8b13f20e26e9365362",
       "role": "E006基座组件；生成/特征/ranker体系",
       "related_metadata": [],
-      "hardlink_count": 3
+      "hardlink_count": 5
     },
     {
       "path": "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fpnet_0.pt",
@@ -791,7 +1195,7 @@
       "sha256": "edccf479a2a2e53461a06bc5e1aee4341b22abb32302c4f6d2c45281000d742a",
       "role": "E006基座组件；生成/特征/ranker体系",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/ranker_v4b.pkl",
@@ -799,7 +1203,7 @@
       "sha256": "6172e926fb2de244f0b9189ed54e1ed8a15e76d166592b724129a4d6a34931da",
       "role": "E006基座组件；生成/特征/ranker体系",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "runs/generation_production_20261113_r2/kaggle/input/casmi26-fold-safe-fpnet/fpnet_fold0.pt",
@@ -807,7 +1211,7 @@
       "sha256": "ddf6eaaa8e541a16e3f0357ed30f0346e529054f75d5619aedb6024dcb1bd7f0",
       "role": "fold0指纹模型；验证隔离仍需检查预训练曝光",
       "related_metadata": [],
-      "hardlink_count": 2
+      "hardlink_count": 4
     },
     {
       "path": "runs/generation_production_20261113_r2/kaggle/input/casmi26-scorer-v2-model/final_model.pt",
@@ -819,7 +1223,7 @@
         "runs/generation_production_20261113_r2/kaggle/input/casmi26-scorer-v2-model/config_used.json",
         "runs/generation_production_20261113_r2/kaggle/input/casmi26-scorer-v2-model/training_result.json"
       ],
-      "hardlink_count": 3
+      "hardlink_count": 5
     },
     {
       "path": "runs/generation_production_20261113_r2/kaggle/working/ours_bundle/final_model.pt",
@@ -977,6 +1381,17 @@
       "role": "公开基座/历史复现组件；用途须结合配方核对",
       "related_metadata": [],
       "hardlink_count": 1
+    },
+    {
+      "path": "submission/optimization_20261116/fiora_payload/state.pt",
+      "bytes": 53813192,
+      "sha256": "c449c98ad0cf42e71561b8de97073986a447019c7430c82111a7eb29466c54f9",
+      "role": "FIORA tims500部署纯state导出；67tensor与原last_checkpoint逐项相等，序列化SHA不同不代表独立新模型，见同目录manifest及导出回执",
+      "related_metadata": [
+        "submission/optimization_20261116/fiora_payload/params.json",
+        "submission/optimization_20261116/fiora_payload/asset_manifest.json"
+      ],
+      "hardlink_count": 1
     }
   ],
   "identical_weight_groups": [
@@ -985,6 +1400,8 @@
       "paths": [
         "assets/kaggle/ahmedberatozer/casmi26-fpnet-full1/v1/fpnet_full1.pt",
         "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-fpnet-full1/fpnet_full1.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-fpnet-full1/fpnet_full1.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-fpnet-full1/fpnet_full1.pt",
         "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-fpnet-full1/fpnet_full1.pt"
       ]
     },
@@ -993,6 +1410,8 @@
       "paths": [
         "assets/kaggle/ahmedberatozer/casmi26-glacier/v1/ckpt/glacier.pt",
         "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-glacier/ckpt/glacier.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-glacier/ckpt/glacier.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-glacier/ckpt/glacier.pt",
         "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-glacier/ckpt/glacier.pt"
       ]
     },
@@ -1001,6 +1420,8 @@
       "paths": [
         "assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/ckpt/gen.pt",
         "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-iceberg/ckpt/gen.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-iceberg/ckpt/gen.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-iceberg/ckpt/gen.pt",
         "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-iceberg/ckpt/gen.pt"
       ]
     },
@@ -1009,6 +1430,8 @@
       "paths": [
         "assets/kaggle/ahmedberatozer/casmi26-iceberg/v1/ckpt/inten.pt",
         "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-iceberg/ckpt/inten.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-iceberg/ckpt/inten.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-iceberg/ckpt/inten.pt",
         "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-iceberg/ckpt/inten.pt"
       ]
     },
@@ -1021,6 +1444,12 @@
         "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v3-models/fpnet_0.pt",
         "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v4b-models/fe_A.pt",
         "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v4b-models/fpnet_0.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v3-models/fpnet_0.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fe_A.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fpnet_0.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v3-models/fpnet_0.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fe_A.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fpnet_0.pt",
         "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v3-models/fpnet_0.pt",
         "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fe_A.pt",
         "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fpnet_0.pt"
@@ -1033,6 +1462,10 @@
         "assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/fe_B.pt",
         "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v3-models/fpnet_1.pt",
         "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v4b-models/fe_B.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v3-models/fpnet_1.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fe_B.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v3-models/fpnet_1.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fe_B.pt",
         "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v3-models/fpnet_1.pt",
         "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fe_B.pt"
       ]
@@ -1042,6 +1475,8 @@
       "paths": [
         "assets/kaggle/ahmedberatozer/casmi26-v3-models/v4/ranker_0.pkl",
         "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v3-models/ranker_0.pkl",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v3-models/ranker_0.pkl",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v3-models/ranker_0.pkl",
         "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v3-models/ranker_0.pkl"
       ]
     },
@@ -1050,6 +1485,8 @@
       "paths": [
         "assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/fe_D.pt",
         "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v4b-models/fe_D.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fe_D.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fe_D.pt",
         "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/fe_D.pt"
       ]
     },
@@ -1058,6 +1495,8 @@
       "paths": [
         "assets/kaggle/ahmedberatozer/casmi26-v4b-models/v4/ranker_v4b.pkl",
         "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-v4b-models/ranker_v4b.pkl",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/ranker_v4b.pkl",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/ranker_v4b.pkl",
         "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-v4b-models/ranker_v4b.pkl"
       ]
     },
@@ -1078,6 +1517,10 @@
         "runs/bestval_module_canary_20261112_final1/bestval_saner_tri_hidden/ours_bundle/final_model.pt",
         "runs/bestval_module_canary_20261112_final1/bestval_v80_tri_fast/ours_bundle/final_model.pt",
         "runs/bestval_module_canary_20261112_final1/bestval_v80_tri_hidden/ours_bundle/final_model.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-scorer-v2-model/final_model.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/working/ours_bundle/final_model.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-scorer-v2-model/final_model.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/working/ours_bundle/final_model.pt",
         "runs/generation_production_20261113_r2/kaggle/input/casmi26-scorer-v2-model/final_model.pt",
         "runs/generation_production_20261113_r2/kaggle/working/ours_bundle/final_model.pt",
         "runs/guarded_tail_actual_canary_20261108/bundle/final_model.pt"
@@ -1088,6 +1531,8 @@
       "paths": [
         "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-fp-models-v2/fp_merged_m1.pt",
         "assets/kaggle/prvsiyan/casmi26-fp-models-v2/v1/fp_merged_m1.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-fp-models-v2/fp_merged_m1.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-fp-models-v2/fp_merged_m1.pt",
         "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-fp-models-v2/fp_merged_m1.pt"
       ]
     },
@@ -1096,6 +1541,8 @@
       "paths": [
         "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-fp-models-v2/fp_single_s2.pt",
         "assets/kaggle/prvsiyan/casmi26-fp-models-v2/v1/fp_single_s2.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-fp-models-v2/fp_single_s2.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-fp-models-v2/fp_single_s2.pt",
         "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-fp-models-v2/fp_single_s2.pt"
       ]
     },
@@ -1103,6 +1550,8 @@
       "sha256": "9d74116acee29e34c762fab928615b763cf7d2803a0736b257fb1d784ef4abbe",
       "paths": [
         "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-spec2mol/spec2mol.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-spec2mol/spec2mol.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-spec2mol/spec2mol.pt",
         "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-spec2mol/spec2mol.pt"
       ]
     },
@@ -1110,6 +1559,8 @@
       "sha256": "b78ec5949fec91678dc5b8c8c4b4dca00b38adf9454c36b2cfe7d81500a53cdf",
       "paths": [
         "assets/kaggle/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets/v9/casmi26-spec2mol-r/spec2mol_r.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-spec2mol-r/spec2mol_r.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-spec2mol-r/spec2mol_r.pt",
         "runs/generation_production_20261113_r2/kaggle/input/casmi26-attributed-v4g-reproduction-assets/casmi26-spec2mol-r/spec2mol_r.pt"
       ]
     },
@@ -1117,6 +1568,8 @@
       "sha256": "ddf6eaaa8e541a16e3f0357ed30f0346e529054f75d5619aedb6024dcb1bd7f0",
       "paths": [
         "assets/kaggle/dmitriigluzdov/casmi26-fold-safe-fpnet/v5/fpnet_fold0.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi26-fold-safe-fpnet/fpnet_fold0.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi26-fold-safe-fpnet/fpnet_fold0.pt",
         "runs/generation_production_20261113_r2/kaggle/input/casmi26-fold-safe-fpnet/fpnet_fold0.pt"
       ]
     },
@@ -1140,6 +1593,8 @@
         "assets/kaggle/popwenman/casmi26-scorer-train-v80/v1/kit_staged/final_model.pt",
         "assets/kaggle/sanpier/casmi-spectrum-model-v1/v1/casmi_spectrum_model_v1/final_model.pt",
         "runs/bestval_models_canary_20261112/public_final/final_model.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/final_model.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/final_model.pt",
         "runs/generation_production_20261113_r2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/final_model.pt"
       ]
     },
@@ -1152,6 +1607,8 @@
         "runs/bestval_models_canary_20261112/saner_best/final_model.pt",
         "runs/bestval_module_canary_20261112_final1/bestval_saner_tri_fast/independent_bestval_bundle/final_model.pt",
         "runs/bestval_module_canary_20261112_final1/bestval_saner_tri_hidden/independent_bestval_bundle/final_model.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/best_validation_model.pt",
+        "runs/champion_error_decomposition_20261115/canary_class2_r2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/best_validation_model.pt",
         "runs/generation_production_20261113_r2/kaggle/input/casmi-spectrum-model-v1/casmi_spectrum_model_v1/best_validation_model.pt"
       ]
     },

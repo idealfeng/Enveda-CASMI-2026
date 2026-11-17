@@ -1,0 +1,31 @@
+{
+  "id": 759222,
+  "read_only": true,
+  "checked_at_utc": "2026-11-16T15:18:17.838839+00:00",
+  "topic": {
+    "id": 759222,
+    "title": "Eligibility question: participant under 18",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/759222",
+    "postDate": "2026-11-14T11:39:35.699Z",
+    "authorName": "Mohammed Reda Medjadj",
+    "authorUrl": "https://www.kaggle.com/mohammedredamedjadj",
+    "commentCount": 2,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>Hello David and the Enveda / Kaggle team,</p>\n<p>I am under 18 and currently participating in this competition as part of a team. I could not find an explicit age requirement in the competition-specific rules, so I would like to confirm before the team merger deadline:</p>\n<ol>\n<li>Am I allowed to participate and stay on a team as a minor?</li>\n<li>If yes, is anything required from me (for example parental or guardian consent)?</li>\n<li>If my team finished in a prize position, would my age affect the team's eligibility?</li>\n</ol>\n<p>I want to make sure I do not put my teammates at risk. Thank you for your help.</p>"
+  },
+  "comments": [
+    {
+      "id": 3555358,
+      "authorName": "OverfitOracle",
+      "postDate": "2026-11-15T14:21:47.597Z",
+      "content": "<p>Look here:</p>",
+      "votes": 1
+    },
+    {
+      "id": 3555251,
+      "postDate": "2026-11-15T07:18:45.610Z"
+    }
+  ],
+  "comments_truncated": false
+}

@@ -1,0 +1,814 @@
+{
+  "status": "completed_paired_forward_spectrum_development_analysis",
+  "optimizer_steps": 500,
+  "checkpoint_sha256": "9c899faa1c45d9a0c25588f99186f34112b25eafe3f6d955a3da34c267996252",
+  "step0_prediction_sha256": "3e5db84f707b90bb73ff77ca7099c9676d8741191ccd3697971c313c4a80ffab",
+  "step500_prediction_sha256": "e5cf9266476c191f63c561b1a3ebf3c9d4361bed597de2544d24dd9b8e4836a4",
+  "original_development_identities": 100,
+  "evaluated_identities": 98,
+  "zero_fragment_unusable_identities": 2,
+  "metric": "actual reconstructed m/z sqrt spectral cosine without precursor; native adjacent-bin chaining, 0.01Da; unscored two queries count zero in both arms",
+  "before": 0.4840841830441676,
+  "after": 0.5042826088091631,
+  "delta": 0.020198425764995368,
+  "paired_bootstrap95": [
+    0.007789671698989861,
+    0.03264681065562261
+  ],
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 20261115,
+  "improved": 63,
+  "worsened": 34,
+  "unchanged_usable": 1,
+  "median_usable_delta": 0.008490888243845716,
+  "rows": [
+    {
+      "official_identity": "QNURDABFJOTVCY",
+      "before": 0.4213764049983761,
+      "after": 0.5794474709320284,
+      "delta": 0.15807106593365233,
+      "kl_before": 2.653167486190796,
+      "kl_after": 1.2606252431869507
+    },
+    {
+      "official_identity": "DGAUDVRFERORAD",
+      "before": 0.05620453314592751,
+      "after": 0.06484051703643337,
+      "delta": 0.008635983890505863,
+      "kl_before": 3.4072751998901367,
+      "kl_after": 2.322892189025879
+    },
+    {
+      "official_identity": "XSLKXXROAPGVFG",
+      "before": 0.7402153622709434,
+      "after": 0.7411388933354288,
+      "delta": 0.0009235310644853945,
+      "kl_before": 0.5402984619140625,
+      "kl_after": 0.2391507774591446
+    },
+    {
+      "official_identity": "LHOLYUWEFQQLHN",
+      "before": 0.5403688445424865,
+      "after": 0.5094511432959983,
+      "delta": -0.030917701246488183,
+      "kl_before": 0.3330715000629425,
+      "kl_after": 0.43945568799972534
+    },
+    {
+      "official_identity": "VFUADJNRZYXCHH",
+      "before": 0.8061747628845453,
+      "after": 0.7957797548792077,
+      "delta": -0.010395008005337547,
+      "kl_before": 0.5724272727966309,
+      "kl_after": 0.21510368585586548
+    },
+    {
+      "official_identity": "WJPMWSDVZIWUKR",
+      "before": 0.34292316705307757,
+      "after": 0.4025454620541617,
+      "delta": 0.059622295001084125,
+      "kl_before": 1.5833910703659058,
+      "kl_after": 1.1308116912841797
+    },
+    {
+      "official_identity": "UDVOYSNSHUXURC",
+      "before": 0.8964062715280608,
+      "after": 0.8962026758116607,
+      "delta": -0.00020359571640016227,
+      "kl_before": 2.0545902252197266,
+      "kl_after": 1.675092101097107
+    },
+    {
+      "official_identity": "HSMBGWVZMPZNSB",
+      "before": 0.18725450615452738,
+      "after": 0.19560029875171295,
+      "delta": 0.00834579259718557,
+      "kl_before": 1.7063963413238525,
+      "kl_after": 1.2884669303894043
+    },
+    {
+      "official_identity": "AEOVRVRCXAIHBZ",
+      "before": 0.1274760909387927,
+      "after": 0.1304351434296732,
+      "delta": 0.0029590524908804927,
+      "kl_before": 2.5901689529418945,
+      "kl_after": 1.928724765777588
+    },
+    {
+      "official_identity": "UKXJYBMFYVAFFH",
+      "before": 0.3027371677633876,
+      "after": 0.3545470255469078,
+      "delta": 0.05180985778352021,
+      "kl_before": 3.281334400177002,
+      "kl_after": 2.491302728652954
+    },
+    {
+      "official_identity": "NDPVTOZMBWGXAY",
+      "before": 0.1338284431139236,
+      "after": 0.12493548144600276,
+      "delta": -0.008892961667920848,
+      "kl_before": 0.9572972655296326,
+      "kl_after": 0.9956620931625366
+    },
+    {
+      "official_identity": "JEHLGDYGAYDQHE",
+      "before": 0.7952974529002561,
+      "after": 0.8357048981435231,
+      "delta": 0.040407445243267004,
+      "kl_before": 0.716274082660675,
+      "kl_after": 0.23195284605026245
+    },
+    {
+      "official_identity": "OBWQOOCQVQSINX",
+      "before": 0.6665871909945381,
+      "after": 0.6999463880821337,
+      "delta": 0.033359197087595605,
+      "kl_before": 0.9236119985580444,
+      "kl_after": 0.6675258874893188
+    },
+    {
+      "official_identity": "IZNRHMSJVRKFDO",
+      "before": 0.5454650799434313,
+      "after": 0.5373880345975385,
+      "delta": -0.00807704534589282,
+      "kl_before": 1.2393125295639038,
+      "kl_after": 0.9820435047149658
+    },
+    {
+      "official_identity": "CMSNQECBOHQNOR",
+      "before": 0.9209276198733007,
+      "after": 0.8951836489193852,
+      "delta": -0.025743970953915563,
+      "kl_before": 0.564789354801178,
+      "kl_after": 0.2361028492450714
+    },
+    {
+      "official_identity": "VLGMEACJQZSUNA",
+      "before": 0.8590024733876918,
+      "after": 0.8658852844926856,
+      "delta": 0.006882811104993891,
+      "kl_before": 0.2671848237514496,
+      "kl_after": 0.11836861073970795
+    },
+    {
+      "official_identity": "BOMPQQRXVNJNMT",
+      "before": 0.8526122609937888,
+      "after": 0.8532850477301156,
+      "delta": 0.0006727867363267581,
+      "kl_before": 0.7575359344482422,
+      "kl_after": 0.13210999965667725
+    },
+    {
+      "official_identity": "XLEKPBZVRZXBJJ",
+      "before": 0.6614478336348876,
+      "after": 0.6756831500665014,
+      "delta": 0.014235316431613798,
+      "kl_before": 1.1194207668304443,
+      "kl_after": 0.7746750712394714
+    },
+    {
+      "official_identity": "QYLAFJYCNWRUFM",
+      "before": 0.5905323843648596,
+      "after": 0.6367081976658683,
+      "delta": 0.04617581330100873,
+      "kl_before": 2.371314525604248,
+      "kl_after": 1.462096929550171
+    },
+    {
+      "official_identity": "UVEMWXXEHAJMHM",
+      "before": 0.5494798164203896,
+      "after": 0.5467157644383493,
+      "delta": -0.0027640519820402165,
+      "kl_before": 0.4537047743797302,
+      "kl_after": 0.2048618197441101
+    },
+    {
+      "official_identity": "UVABOILYWICYMF",
+      "before": 0.6474380396665979,
+      "after": 0.7095573912721952,
+      "delta": 0.06211935160559734,
+      "kl_before": 1.976289987564087,
+      "kl_after": 1.3709840774536133
+    },
+    {
+      "official_identity": "ACWKSQDCSGCCOC",
+      "before": 0.8161089664753551,
+      "after": 0.830507242196165,
+      "delta": 0.014398275720809872,
+      "kl_before": 0.3798830807209015,
+      "kl_after": 0.17203791439533234
+    },
+    {
+      "official_identity": "AMCBMADIVZTKOA",
+      "before": 0.8740408063366546,
+      "after": 0.7619602337531345,
+      "delta": -0.11208057258352011,
+      "kl_before": 0.33986324071884155,
+      "kl_after": 0.5582590103149414
+    },
+    {
+      "official_identity": "NXIITASDHYNYKV",
+      "before": 0.47586269993451147,
+      "after": 0.5773091396595109,
+      "delta": 0.10144643972499945,
+      "kl_before": 1.2960206270217896,
+      "kl_after": 0.7362147569656372
+    },
+    {
+      "official_identity": "PIOCUOORCXGAGR",
+      "before": 0.06565896779414161,
+      "after": 0.06992440011659874,
+      "delta": 0.00426543232245713,
+      "kl_before": 1.1339914798736572,
+      "kl_after": 0.8793283700942993
+    },
+    {
+      "official_identity": "QQZKECIIOQBGBD",
+      "before": 0.6470469857231649,
+      "after": 0.6945758787017485,
+      "delta": 0.04752889297858365,
+      "kl_before": 1.0538558959960938,
+      "kl_after": 0.7057100534439087
+    },
+    {
+      "official_identity": "GUBCGISMJXSEBQ",
+      "before": 0.5091961406824094,
+      "after": 0.5186487473420264,
+      "delta": 0.009452606659617002,
+      "kl_before": 0.815161943435669,
+      "kl_after": 0.4270528554916382
+    },
+    {
+      "official_identity": "MXSVVAATWINXNV",
+      "before": 0.5128563567395895,
+      "after": 0.4732326345240659,
+      "delta": -0.03962372221552363,
+      "kl_before": 0.6933814287185669,
+      "kl_after": 0.7423614263534546
+    },
+    {
+      "official_identity": "ROYDSJNZBVGRBR",
+      "before": 0.6254353096599623,
+      "after": 0.6461268729286519,
+      "delta": 0.020691563268689595,
+      "kl_before": 0.5964834094047546,
+      "kl_after": 0.4458049237728119
+    },
+    {
+      "official_identity": "TYDYPFWGYUQNAT",
+      "before": 0.5614161947070551,
+      "after": 0.5096513742980199,
+      "delta": -0.051764820409035184,
+      "kl_before": 2.56619930267334,
+      "kl_after": 1.7606546878814697
+    },
+    {
+      "official_identity": "SPVWWPFXBSTMCS",
+      "before": 0.3049511493071793,
+      "after": 0.2935550669885901,
+      "delta": -0.01139608231858924,
+      "kl_before": 4.773467063903809,
+      "kl_after": 4.446628570556641
+    },
+    {
+      "official_identity": "QDNRGLSVAQTLSG",
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0,
+      "kl_before": 2.8613240718841553,
+      "kl_after": 1.3685222864151
+    },
+    {
+      "official_identity": "DNQNTXZRSXXULF",
+      "before": 0.6049212385333929,
+      "after": 0.6340674498169112,
+      "delta": 0.029146211283518353,
+      "kl_before": 1.4692466259002686,
+      "kl_after": 0.8700032830238342
+    },
+    {
+      "official_identity": "VIQRYDMWOKJANX",
+      "before": 0.4668414973450753,
+      "after": 0.4332379223837904,
+      "delta": -0.03360357496128491,
+      "kl_before": 2.9430227279663086,
+      "kl_after": 1.9299073219299316
+    },
+    {
+      "official_identity": "IXWLFZXOVBHRQL",
+      "before": 0.3784762844013595,
+      "after": 0.578413312345087,
+      "delta": 0.19993702794372747,
+      "kl_before": 1.27741277217865,
+      "kl_after": 0.49119338393211365
+    },
+    {
+      "official_identity": "LEQPWDFBSCYEBX",
+      "before": 0.6739242120859481,
+      "after": 0.698067423673438,
+      "delta": 0.024143211587489888,
+      "kl_before": 0.9577399492263794,
+      "kl_after": 0.721493661403656
+    },
+    {
+      "official_identity": "JGHXQQRYHISPTL",
+      "before": 0.6010615197126051,
+      "after": 0.5469285614990755,
+      "delta": -0.05413295821352959,
+      "kl_before": 0.34913724660873413,
+      "kl_after": 0.48064184188842773
+    },
+    {
+      "official_identity": "BNXGQRGKWWHGTD",
+      "before": 0.24905405210795753,
+      "after": 0.29108557517383715,
+      "delta": 0.04203152306587962,
+      "kl_before": 1.5354092121124268,
+      "kl_after": 0.7117130756378174
+    },
+    {
+      "official_identity": "RDEOIJSGRHMOTG",
+      "before": 0.6498630062317892,
+      "after": 0.6693350439990506,
+      "delta": 0.019472037767261474,
+      "kl_before": 0.5295536518096924,
+      "kl_after": 0.29693228006362915
+    },
+    {
+      "official_identity": "IIKKWYKEXOQXDR",
+      "before": 0.08412541605888652,
+      "after": 0.08672836253552706,
+      "delta": 0.0026029464766405414,
+      "kl_before": 0.7186169624328613,
+      "kl_after": 0.4755350649356842
+    },
+    {
+      "official_identity": "QDZANWJTNZEVCU",
+      "before": 0.47684890752882997,
+      "after": 0.3552650887926906,
+      "delta": -0.12158381873613938,
+      "kl_before": 1.2363946437835693,
+      "kl_after": 2.063432216644287
+    },
+    {
+      "official_identity": "SORQKDQXBHMUIF",
+      "before": 0.7738902758769247,
+      "after": 0.7759608503830349,
+      "delta": 0.0020705745061101455,
+      "kl_before": 0.4352344572544098,
+      "kl_after": 0.522077202796936
+    },
+    {
+      "official_identity": "SIEQRLPSXHJWPM",
+      "before": 0.06686485915037742,
+      "after": 0.051511747806778495,
+      "delta": -0.015353111343598923,
+      "kl_before": 0.9381864070892334,
+      "kl_after": 0.43366098403930664
+    },
+    {
+      "official_identity": "WEMAPBCYEYPGDU",
+      "before": 0.4139680508708271,
+      "after": 0.4366276212955076,
+      "delta": 0.022659570424680475,
+      "kl_before": 1.7247518301010132,
+      "kl_after": 1.4417901039123535
+    },
+    {
+      "official_identity": "LGBDICKQSLXVKM",
+      "before": 0.532619463850727,
+      "after": 0.5394825456223691,
+      "delta": 0.006863081771642077,
+      "kl_before": 1.1422384977340698,
+      "kl_after": 0.8026111721992493
+    },
+    {
+      "official_identity": "VLBIWWFYKCLBJF",
+      "before": 0.8591316057086555,
+      "after": 0.8966257720404811,
+      "delta": 0.03749416633182556,
+      "kl_before": 0.4089353084564209,
+      "kl_after": 0.20408940315246582
+    },
+    {
+      "official_identity": "GETYMGODZROHAQ",
+      "before": 0.7693131428184854,
+      "after": 0.6405497513951889,
+      "delta": -0.1287633914232965,
+      "kl_before": 0.8448631763458252,
+      "kl_after": 1.161731243133545
+    },
+    {
+      "official_identity": "HOQVHGFZSLTIFB",
+      "before": 0.7565500444540253,
+      "after": 0.746203559614482,
+      "delta": -0.010346484839543257,
+      "kl_before": 0.46370357275009155,
+      "kl_after": 0.46318015456199646
+    },
+    {
+      "official_identity": "ZPKQTAHCSAOIFE",
+      "before": 0.4088952428983227,
+      "after": 0.5318301232100405,
+      "delta": 0.12293488031171784,
+      "kl_before": 1.644012212753296,
+      "kl_after": 0.791143000125885
+    },
+    {
+      "official_identity": "FBBJMTYMYWAZSI",
+      "before": 0.6705630113893374,
+      "after": 0.7034662740836463,
+      "delta": 0.03290326269430888,
+      "kl_before": 0.7812895774841309,
+      "kl_after": 0.8163955211639404
+    },
+    {
+      "official_identity": "AZUUAAWBZCRQRE",
+      "before": 0.43122865680719175,
+      "after": 0.4679537538695953,
+      "delta": 0.03672509706240357,
+      "kl_before": 0.9258167743682861,
+      "kl_after": 0.724586009979248
+    },
+    {
+      "official_identity": "BBCRGMIZKUTFHJ",
+      "before": 0.6390357957014584,
+      "after": 0.7317050684916655,
+      "delta": 0.09266927279020709,
+      "kl_before": 1.6880582571029663,
+      "kl_after": 0.7663732171058655
+    },
+    {
+      "official_identity": "KPDATAXWEFSHOU",
+      "before": 0.25667606296692197,
+      "after": 0.24977888061373385,
+      "delta": -0.006897182353188119,
+      "kl_before": 0.9933750033378601,
+      "kl_after": 1.267533540725708
+    },
+    {
+      "official_identity": "UCFOYBQNJITIKI",
+      "before": 0.5915711861698564,
+      "after": 0.6032021932585462,
+      "delta": 0.011631007088689804,
+      "kl_before": 2.0183568000793457,
+      "kl_after": 1.8017377853393555
+    },
+    {
+      "official_identity": "ANYTWNPTVLBXEP",
+      "before": 0.6273362481060961,
+      "after": 0.6507457602360057,
+      "delta": 0.023409512129909604,
+      "kl_before": 1.046001672744751,
+      "kl_after": 0.7699880599975586
+    },
+    {
+      "official_identity": "IQNVTKCRBKBZAV",
+      "before": 0.11875638105092753,
+      "after": 0.30961773702717577,
+      "delta": 0.19086135597624823,
+      "kl_before": 3.8295912742614746,
+      "kl_after": 1.0156922340393066
+    },
+    {
+      "official_identity": "XMZASYIWBHXZKO",
+      "before": 0.22263089037044356,
+      "after": 0.2660628874443766,
+      "delta": 0.043431997073933054,
+      "kl_before": 1.2291229963302612,
+      "kl_after": 0.5760242938995361
+    },
+    {
+      "official_identity": "LMFPAVNIBQGZEC",
+      "before": 0.5704034118717666,
+      "after": 0.570657866773814,
+      "delta": 0.0002544549020474518,
+      "kl_before": 1.0445913076400757,
+      "kl_after": 1.0110692977905273
+    },
+    {
+      "official_identity": "ZJPJKIJVVCVABG",
+      "before": 0.6020804236670922,
+      "after": 0.591834670030821,
+      "delta": -0.010245753636271226,
+      "kl_before": 0.7846357822418213,
+      "kl_after": 0.5695555210113525
+    },
+    {
+      "official_identity": "OEFKJKAIGLCNPK",
+      "before": 0.47706456108807493,
+      "after": 0.6242082561297181,
+      "delta": 0.14714369504164315,
+      "kl_before": 1.9421617984771729,
+      "kl_after": 0.9363592267036438
+    },
+    {
+      "official_identity": "GVMIXMOGUSRWDC",
+      "before": 0.5888965845000587,
+      "after": 0.5645302516337454,
+      "delta": -0.02436633286631329,
+      "kl_before": 0.6626826524734497,
+      "kl_after": 0.6232882142066956
+    },
+    {
+      "official_identity": "VKDMAHVQGIADKP",
+      "before": 0.3452321977636154,
+      "after": 0.4001813220233854,
+      "delta": 0.05494912425977,
+      "kl_before": 1.2690701484680176,
+      "kl_after": 0.4428287148475647
+    },
+    {
+      "official_identity": "GCMBKDQARMVWFN",
+      "before": 0.524399323580065,
+      "after": 0.584516230664115,
+      "delta": 0.06011690708404993,
+      "kl_before": 1.1775556802749634,
+      "kl_after": 0.5721319317817688
+    },
+    {
+      "official_identity": "LJSPNZBOVFIZFN",
+      "before": 0.46338067220343476,
+      "after": 0.49107776198516784,
+      "delta": 0.027697089781733075,
+      "kl_before": 1.0533334016799927,
+      "kl_after": 0.7133922576904297
+    },
+    {
+      "official_identity": "XBYAXDLWDVFSCQ",
+      "before": 0.47867780520742126,
+      "after": 0.5887737227709159,
+      "delta": 0.11009591756349463,
+      "kl_before": 1.0954663753509521,
+      "kl_after": 0.30189359188079834
+    },
+    {
+      "official_identity": "DGHNOWPHFZQUFE",
+      "before": 0.6693281106667488,
+      "after": 0.6684250399013512,
+      "delta": -0.00090307076539764,
+      "kl_before": 0.4412693977355957,
+      "kl_after": 0.3317643105983734
+    },
+    {
+      "official_identity": "AUVKUOLQULWYKB",
+      "before": 0.0,
+      "after": 0.0028628617415306086,
+      "delta": 0.0028628617415306086,
+      "kl_before": 9.665621757507324,
+      "kl_after": 6.35410213470459
+    },
+    {
+      "official_identity": "JHJZFSHNGNBNSA",
+      "before": 0.7365390165432095,
+      "after": 0.7356177659030303,
+      "delta": -0.0009212506401792275,
+      "kl_before": 0.5009918212890625,
+      "kl_after": 0.37621933221817017
+    },
+    {
+      "official_identity": "KDWOFYQEZZORFY",
+      "before": 0.31114729620644976,
+      "after": 0.33469046653052353,
+      "delta": 0.02354317032407377,
+      "kl_before": 4.868135452270508,
+      "kl_after": 4.340048789978027
+    },
+    {
+      "official_identity": "CWLMLYXXJYHYJM",
+      "before": 0.6699763979386384,
+      "after": 0.6610166439122388,
+      "delta": -0.008959754026399591,
+      "kl_before": 0.8825922012329102,
+      "kl_after": 0.694762647151947
+    },
+    {
+      "official_identity": "VMNAPPYSDLKBHC",
+      "before": 0.6434932135210001,
+      "after": 0.6487571705692781,
+      "delta": 0.0052639570482779785,
+      "kl_before": 0.4489843547344208,
+      "kl_after": 0.41300034523010254
+    },
+    {
+      "official_identity": "BCJWTSJTCHCKSC",
+      "before": 0.67945848924808,
+      "after": 0.6407523734963212,
+      "delta": -0.03870611575175886,
+      "kl_before": 0.21846510469913483,
+      "kl_after": 0.3216005861759186
+    },
+    {
+      "official_identity": "GLWCNCMCKOPGFL",
+      "before": 0.05380940501860572,
+      "after": 0.07932933734697382,
+      "delta": 0.025519932328368106,
+      "kl_before": 2.8918538093566895,
+      "kl_after": 2.0938916206359863
+    },
+    {
+      "official_identity": "VBEOZYUPHQYBGQ",
+      "before": 0.6467059516458555,
+      "after": 0.805298923367105,
+      "delta": 0.15859297172124942,
+      "kl_before": 1.6642861366271973,
+      "kl_after": 0.5067495107650757
+    },
+    {
+      "official_identity": "JGYVDJWDTPLLEA",
+      "before": 0.7572123460953415,
+      "after": 0.6846376575391604,
+      "delta": -0.0725746885561811,
+      "kl_before": 1.0033217668533325,
+      "kl_after": 0.7602269649505615
+    },
+    {
+      "official_identity": "WUVLGUMRQXRMBO",
+      "before": 0.4343163493368829,
+      "after": 0.46003902409161535,
+      "delta": 0.025722674754732444,
+      "kl_before": 0.7529946565628052,
+      "kl_after": 0.40416768193244934
+    },
+    {
+      "official_identity": "YFVITJNKPMMCBB",
+      "before": 0.9018662149382077,
+      "after": 0.8740545579305928,
+      "delta": -0.0278116570076149,
+      "kl_before": 0.22743470966815948,
+      "kl_after": 0.18830899894237518
+    },
+    {
+      "official_identity": "UNIJUVZWDRBBKV",
+      "before": 0.5289155406248268,
+      "after": 0.5329182122567999,
+      "delta": 0.004002671631973098,
+      "kl_before": 0.6597025394439697,
+      "kl_after": 0.4619557857513428
+    },
+    {
+      "official_identity": "ILEWUBCVCBXZQX",
+      "before": 0.44073974435074653,
+      "after": 0.5087879041446177,
+      "delta": 0.06804815979387119,
+      "kl_before": 1.466742992401123,
+      "kl_after": 0.937201976776123
+    },
+    {
+      "official_identity": "NHELABWDSXFANK",
+      "before": 0.028864572919023578,
+      "after": 0.03935608442500576,
+      "delta": 0.010491511505982182,
+      "kl_before": 3.1225547790527344,
+      "kl_after": 2.18501877784729
+    },
+    {
+      "official_identity": "JIFIHUVKNRCKHI",
+      "before": 0.11316049680638701,
+      "after": 0.0832562312779516,
+      "delta": -0.029904265528435406,
+      "kl_before": 0.4585699439048767,
+      "kl_after": 0.8477528095245361
+    },
+    {
+      "official_identity": "YKZMKPYNOUTBBP",
+      "before": 0.17726798971291136,
+      "after": 0.23168200589828836,
+      "delta": 0.054414016185377,
+      "kl_before": 2.1799192428588867,
+      "kl_after": 1.0207209587097168
+    },
+    {
+      "official_identity": "YFWCAGTZNQFYEG",
+      "before": 0.12806348473908832,
+      "after": 0.22121137791452458,
+      "delta": 0.09314789317543626,
+      "kl_before": 2.7370352745056152,
+      "kl_after": 1.3938652276992798
+    },
+    {
+      "official_identity": "DBGSKJZLDYWFRK",
+      "before": 0.19793428872001181,
+      "after": 0.1317760921091203,
+      "delta": -0.0661581966108915,
+      "kl_before": 1.3150486946105957,
+      "kl_after": 2.296717882156372
+    },
+    {
+      "official_identity": "IJGVEHWXKQXPPF",
+      "before": 0.35111387037677033,
+      "after": 0.4256528436741669,
+      "delta": 0.07453897329739656,
+      "kl_before": 2.9756648540496826,
+      "kl_after": 1.727637529373169
+    },
+    {
+      "official_identity": "FNWCBLOXKFPAPP",
+      "before": 0.6736978407224387,
+      "after": 0.635072167022567,
+      "delta": -0.03862567369987169,
+      "kl_before": 0.412058562040329,
+      "kl_after": 0.2877088189125061
+    },
+    {
+      "official_identity": "WUKGHVUWTUHMGY",
+      "before": 0.7603761023240563,
+      "after": 0.6251984008615407,
+      "delta": -0.13517770146251562,
+      "kl_before": 0.5791458487510681,
+      "kl_after": 1.0116736888885498
+    },
+    {
+      "official_identity": "CTHRVAAVCQSMJI",
+      "before": 0.6467837919539828,
+      "after": 0.6388301320644733,
+      "delta": -0.007953659889509579,
+      "kl_before": 0.6339909434318542,
+      "kl_after": 0.5745765566825867
+    },
+    {
+      "official_identity": "QQNFJUXJFAWURL",
+      "before": 0.38986650250927596,
+      "after": 0.5019834535430028,
+      "delta": 0.11211695103372682,
+      "kl_before": 1.7330102920532227,
+      "kl_after": 0.7429748177528381
+    },
+    {
+      "official_identity": "LODSTGSKOGWKDL",
+      "before": 0.7694410896096726,
+      "after": 0.7608094505732892,
+      "delta": -0.00863163903638342,
+      "kl_before": 0.8364990949630737,
+      "kl_after": 0.3553251624107361
+    },
+    {
+      "official_identity": "ZFQUMONGAHSIBO",
+      "before": 0.8518284596256296,
+      "after": 0.8419895776805287,
+      "delta": -0.009838881945100852,
+      "kl_before": 0.5383291840553284,
+      "kl_after": 0.15637482702732086
+    },
+    {
+      "official_identity": "ONZQFCBQHWQANY",
+      "before": 0.15911100004897075,
+      "after": 0.1818007455066153,
+      "delta": 0.022689745457644545,
+      "kl_before": 2.067967176437378,
+      "kl_after": 1.4384796619415283
+    },
+    {
+      "official_identity": "JOJORWDXBMTYPI",
+      "before": 0.9145798760561402,
+      "after": 0.917001441413636,
+      "delta": 0.002421565357495825,
+      "kl_before": 0.5652963519096375,
+      "kl_after": 0.18912045657634735
+    },
+    {
+      "official_identity": "HLBCKVVBPNCZMH",
+      "before": 0.6263273080571465,
+      "after": 0.7322568372575173,
+      "delta": 0.1059295292003708,
+      "kl_before": 1.2635871171951294,
+      "kl_after": 0.332462340593338
+    },
+    {
+      "official_identity": "RQMWILVLUZGCOF",
+      "before": 0.1827194141880763,
+      "after": 0.17487672025422762,
+      "delta": -0.007842693933848677,
+      "kl_before": 0.5184414386749268,
+      "kl_after": 0.3446812331676483
+    },
+    {
+      "official_identity": "BAAHKDVWADTJCS",
+      "before": 0.05653265213255445,
+      "after": 0.13136015223662856,
+      "delta": 0.0748275001040741,
+      "kl_before": 5.05707311630249,
+      "kl_after": 2.0134997367858887
+    },
+    {
+      "official_identity": "JYMWORNDVLPQNB",
+      "before": 0.4471127462106948,
+      "after": 0.701846646070211,
+      "delta": 0.25473389985951617,
+      "kl_before": 1.411543607711792,
+      "kl_after": 0.468445360660553
+    },
+    {
+      "official_identity": "WKFMPYHXMRTHAE",
+      "before": 0.049517425557576336,
+      "after": 0.0784059713421273,
+      "delta": 0.028888545784550967,
+      "kl_before": 4.170403003692627,
+      "kl_after": 3.167675495147705
+    }
+  ],
+  "new_public_score": null,
+  "candidate_ranking_mrr": null,
+  "clean_pretraining_holdout": false,
+  "decision_boundary": "Paired spectrum fidelity on a fixed small-molecule single-CE tims panel, not candidate rank improvement or Kaggle efficacy. No threshold, checkpoint or hyperparameter selected by this analysis."
+}

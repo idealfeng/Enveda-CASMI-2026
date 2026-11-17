@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "competition": "enveda-CASMI26-molecule-id-mass-spectra",
+  "batch_id": "public_network_20261117",
+  "max_submissions": 2,
+  "baseline_public_score": 0.488,
+  "state_root": "reports/public_network_20261117",
+  "branches": [
+    {
+      "name": "rogers_repro",
+      "target": "stormseye/casmi26-rogers0492-repro-1117",
+      "version": 1,
+      "stage_dir": "submission/public_network_20261117/rogers_repro",
+      "notebook_sha256": "5921fe5b86cc995e779df4eac49ea0a84942bedc8e8bcaf15c6b1b6e99aca135",
+      "metadata_sha256": "8c1b9ba3edc405a8077116942676cfd9263c82b68b7e0bf66673d40a11411a6f",
+      "description": "CASMI26 20261117 Rogers public0492 recipe reproduction LAM035 rawAB V1",
+      "validation_mode": "fast_static",
+      "static_review_path": "submission/public_network_20261117/rogers_repro/static_review.json",
+      "required_runtime_audits": [
+        {
+          "name": "rogers_repro_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "rogers_repro",
+            "version": 1,
+            "mode": "fast_static",
+            "recipe_sha256": "b8c7b3394eaebf074cf39566f53703bd2eccfe6283bf89aa751f5d98b6246634"
+          },
+          "required_true_checks": [
+            "configuration_exact",
+            "official_rdkit",
+            "frozen_source_pin",
+            "public_model_pins",
+            "actual_v80_final_is_fixed_v2",
+            "two_distinct_models",
+            "all_external_library_pins",
+            "original_function_files_pinned",
+            "actual_network_completed",
+            "actual_network_parameters",
+            "actual_AB_completed",
+            "network_to_AB_control_bound",
+            "final_AB_csv_bound",
+            "both_AB_libraries_loaded",
+            "sample_ids_and_schema_exact",
+            "network_candidate_multisets_exact",
+            "CSV_candidate_counts_valid",
+            "network_identity_multisets_exact",
+            "final_candidates_parse_as_official_identities",
+            "visible_parent_fast_explicit"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "champion_network",
+      "target": "stormseye/casmi26-champion-network-before-ab-1117",
+      "version": 1,
+      "stage_dir": "submission/public_network_20261117/champion_network",
+      "notebook_sha256": "e8f5e733961da9d0030b0961712e67ff8953470f3ef52414431eb6432e79206a",
+      "metadata_sha256": "2c528a1daf2694a89c79e4140de9259041daf0fb06de2c2a36a04c1da83c6b6a",
+      "description": "CASMI26 20261117 champion0488 plus Rogers035 network before guarded AB V1",
+      "validation_mode": "fast_static",
+      "static_review_path": "submission/public_network_20261117/champion_network/static_review.json",
+      "required_runtime_audits": [
+        {
+          "name": "batch_variant_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "mode": "fast_static",
+            "branch": "public_mass_repro",
+            "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+          },
+          "required_true_checks": [
+            "mass_recipe",
+            "original_public_priors",
+            "official_rdkit",
+            "public_model_pins",
+            "ours_model_pins",
+            "two_distinct_models",
+            "lotus_pin",
+            "csv_schema_ids",
+            "csv_counts",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "guarded_tail_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_head_tail_1108",
+            "mode": "fast_static",
+            "recipe_sha256": "ba7ee5d3545fd6bc32159bbeed785e904dbf99beae0347984a8b7d5c8809e5d8"
+          },
+          "required_true_checks": [
+            "original_base_audit",
+            "late_module_pin",
+            "head_payload_pins",
+            "original_scorer_pin",
+            "audited_control_bound",
+            "final_csv_bound",
+            "exact_ids_order",
+            "exact_prefix7",
+            "exact_candidate_multisets",
+            "fast_no_model"
+          ]
+        },
+        {
+          "name": "network_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "champion_network",
+            "mode": "fast_static",
+            "recipe_sha256": "4b1729fe7282cc195243f6bb64401463942ba82b9e4c3c144661cb6883f59156"
+          },
+          "required_true_checks": [
+            "parent_audit_passed",
+            "control_bound",
+            "final_bound",
+            "exact_ids_order",
+            "candidate_multisets",
+            "official_identity_multisets",
+            "function_pin",
+            "network_parameters",
+            "labels_not_read",
+            "actual_network_execution"
+          ]
+        },
+        {
+          "name": "external_overlay_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "mass_guarded_extlib",
+            "recipe_sha256": "5fc1c8cb1e27bd9e555090fcf437d0c9bfe02a0f8371811da286d2f3a4d4efd1",
+            "mode": "fast_static"
+          },
+          "required_true_checks": [
+            "base_audit_passed",
+            "control_bound",
+            "final_bound",
+            "source_function_pin",
+            "exact_ids_schema",
+            "official_identities_valid",
+            "library_file_pins",
+            "runtime_checks",
+            "fast_no_matching"
+          ]
+        },
+        {
+          "name": "champion_network_audit.json",
+          "expected_fields": {
+            "status": "passed",
+            "branch": "champion_network",
+            "mode": "fast_static",
+            "recipe_sha256": "4b1729fe7282cc195243f6bb64401463942ba82b9e4c3c144661cb6883f59156"
+          },
+          "required_true_checks": [
+            "original_mass_passed",
+            "original_head_passed",
+            "new_network_passed",
+            "original_AB_passed",
+            "network_module_pin",
+            "recipe_branch_bound",
+            "head_to_network_bound",
+            "network_to_AB_bound",
+            "actual_final_csv_bound",
+            "original_head_receipt_unchanged",
+            "original_AB_algorithm_pin",
+            "fixed_public_network_parameters",
+            "sample_ids_exact",
+            "official_output_valid",
+            "visible_parent_fast_network_real"
+          ]
+        }
+      ]
+    }
+  ]
+}

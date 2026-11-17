@@ -1,0 +1,11 @@
+{
+  "status": "failed",
+  "input_csv_sha256": "315b210b16c871ff9c8dea549a67469cedb2481211fe6e8d37cf575c69734de6",
+  "function_source_sha256": "33153de76fccebe4ed2325bea7649573219e4cfb964483cd5c335ac7dc7e93b8",
+  "parameters": {
+    "LAM": 0.35,
+    "TAU": 0.6
+  },
+  "real_function_called": true,
+  "error_type": "ValueError"
+}

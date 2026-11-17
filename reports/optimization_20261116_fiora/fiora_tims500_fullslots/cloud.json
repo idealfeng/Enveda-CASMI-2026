@@ -1,0 +1,15 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-fiora-tims500-isomers-1116",
+  "version": 1,
+  "branch_sha256": "4625c61c4ab058a874c26e1119a7bf270054e70fd3903e9fc564aa8a684413bb",
+  "notebook_sha256": "550980d58100fce62830f089848bc303e102ec0f912ffadb14e9fd2ad53d11b4",
+  "metadata_sha256": "aa5d646d68dce6e187e3de2c32624e4a8a5fd967feed8a01f33f0398cf309b6c",
+  "requested_at_utc": "2026-11-16T15:07:41.410049+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-16T15:07:48.222368+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false
+}

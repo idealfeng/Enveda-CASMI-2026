@@ -1,0 +1,233 @@
+{
+  "checked_at_utc": "2026-11-16T15:21:58.835351+00:00",
+  "external_read_only": true,
+  "model_bytes_downloaded": 0,
+  "source_executed": false,
+  "source_path": "reports\\public_review_20261116\\notebooks\\heliosli__casmi26-0-494-public-demo\\source.ipynb",
+  "source_sha256": "5f09d769677e2d50caf3806f4e64d45fcc82b6785ed228d40e53648a45e36b0d",
+  "metadata_sha256": "f564221cda6596318b427b9ccd23bc9da0923ba3edd603f45746a24c83d73b0b",
+  "version": 4,
+  "public_title_claim": ".494",
+  "title_score_is_not_official_submission_readback": true,
+  "dataset_refs": [
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "heliosli/casmi26-rr-v3",
+    "heliosli/casmi26-denovo-v3",
+    "heliosli/casmi26-frigid-e1",
+    "heliosli/casmi26-joint-ranker",
+    "heliosli/casmi26-pxv2-deploy",
+    "heliosli/casmi26-rt-np",
+    "sanpier/catalogue-experiment-saner"
+  ],
+  "source_cells_compile": true,
+  "static_findings": {
+    "all_runtime_new_models_optional_skip": true,
+    "M5_required_dataset_not_in_metadata": true,
+    "M5_package_manifest_required": true,
+    "M5_current_mode": "swap",
+    "M5_probe_mode_active": false,
+    "rr3_cfg_required": "rr3_config.json",
+    "frigid_requires_second_gpu": true,
+    "frigid_hidden_deadline_hours": 8.2,
+    "visible_default": "smoke12",
+    "CV_joint_final_rank1_swaps_or_rank2_insert": true,
+    "new_RT_and_PX_checkpoint_assets_required": true,
+    "parent_documented_result": ".477 / submission57722897 read2026-10-29",
+    "no_documented_494_submission_ref_in_markdown": true,
+    "raw_inchikey_gates_not_official_tautomer_normalized": true
+  },
+  "existing_dependency_api_evidence": [
+    {
+      "ref": "heliosli/casmi26-rr-v3",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 404,
+      "evidence_path": "reports\\public_review_20261116\\notebooks\\dependency_inventory\\heliosli__casmi26-rr-v3.json",
+      "evidence_sha256": "b78270f6e64ed6a37ca6278fafc886fc1dfc639ebef62137407f8bec1410954d"
+    },
+    {
+      "ref": "heliosli/casmi26-denovo-v3",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 404,
+      "evidence_path": "reports\\public_review_20261116\\notebooks\\dependency_inventory\\heliosli__casmi26-denovo-v3.json",
+      "evidence_sha256": "b25f2fcf4596f5912a99841deaf0dffdcf0c27c9894b809af235493dc8d278e6"
+    },
+    {
+      "ref": "heliosli/casmi26-frigid-e1",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 404,
+      "evidence_path": "reports\\public_review_20261116\\notebooks\\dependency_inventory\\heliosli__casmi26-frigid-e1.json",
+      "evidence_sha256": "0589a98ce234d16f97cf0baf064d2e3d2277cc0e508617be908339429fced709"
+    },
+    {
+      "ref": "heliosli/casmi26-joint-ranker",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 404,
+      "evidence_path": "reports\\public_review_20261116\\notebooks\\dependency_inventory\\heliosli__casmi26-joint-ranker.json",
+      "evidence_sha256": "5ec141bdd80a84f2bbf0d80482c3ef4aa4aba217bb339fb86df54d48e4cd9034"
+    },
+    {
+      "ref": "heliosli/casmi26-pxv2-deploy",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 404,
+      "evidence_path": "reports\\public_review_20261116\\notebooks\\dependency_inventory\\heliosli__casmi26-pxv2-deploy.json",
+      "evidence_sha256": "778ef46743c9a555a00ecc33942bec9aa5656665edea27ca0f3580a5f47ba3a2"
+    },
+    {
+      "ref": "heliosli/casmi26-rt-np",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 404,
+      "evidence_path": "reports\\public_review_20261116\\notebooks\\dependency_inventory\\heliosli__casmi26-rt-np.json",
+      "evidence_sha256": "6234a1a6ae500900c585533cc4d75287f1d96ab20a37da4ab4ed661cc5f0db3a"
+    }
+  ],
+  "public_author_inventory": {
+    "status": "read",
+    "rows": [
+      {
+        "ref": "heliosli/qcc-circuits-live",
+        "title": "QCC circuits live",
+        "bytes": 21148536,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/rsna-knee-compact-r7cnxfsss",
+        "title": "RSNA Knee Compact R7 CNX FS SS",
+        "bytes": 823095598,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/rsna-knee-r6-frozen-fe055406-w1",
+        "title": "RSNA Knee R6 Frozen fe055406 w1",
+        "bytes": 823098827,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/rsna-orthofoundation-fold0-epoch7-20261004",
+        "title": "RSNA OrthoFoundation Fold0 Epoch7 Private Weights",
+        "bytes": 1343091054,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/rsna-knee-r6-frozen-fe055406",
+        "title": "RSNA Knee R6 Frozen fe055406",
+        "bytes": 823095598,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/rsna-knee-compact-r6cnxfsss",
+        "title": "RSNA Knee Compact r6cnxfsss",
+        "bytes": 823081993,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/rsna-knee-compact-v1",
+        "title": "RSNA Knee Compact v1",
+        "bytes": 823082549,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/casmi26-rr-v3",
+        "title": "casmi26 rr v3",
+        "bytes": 200053136,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/casmi26-frigid-e1",
+        "title": "casmi26-frigid-e1",
+        "bytes": 1635114573,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/casmi26-rt-np",
+        "title": "casmi26-rt-np",
+        "bytes": 49354200,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/casmi26-joint-ranker",
+        "title": "casmi26-joint-ranker",
+        "bytes": 7918,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/casmi26-pxv2-deploy",
+        "title": "casmi26-pxv2-deploy",
+        "bytes": 34653914,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/casmi26-denovo-v3",
+        "title": "casmi26-denovo-v3",
+        "bytes": 149143970,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/rsna-knee-compact-r12cs1-1018",
+        "title": "RSNA Knee Compact r12cs1-1018 (private)",
+        "bytes": 823065161,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/casmi26-m5-v2d",
+        "title": "casmi26-m5-v2d",
+        "bytes": 84920929,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/casmi26-j2-judge",
+        "title": "casmi26-j2-judge",
+        "bytes": 8137785,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/casmi26-analyticon-megx",
+        "title": "casmi26-analyticon-megx",
+        "bytes": 63913,
+        "is_private": false
+      },
+      {
+        "ref": "heliosli/qcc-verified-circuits",
+        "title": "QCC verified circuits",
+        "bytes": 16972515,
+        "is_private": false
+      }
+    ],
+    "pages": 1,
+    "bounded_page_cap": 5
+  },
+  "missing_M5_direct_file_inventory": {
+    "status": "failed",
+    "error_type": "HTTPError",
+    "http_status": 403
+  },
+  "conclusion": "Public source alone cannot reproduce the .494-title full model composition; missing/unavailable model packages must not be silently counted as full reproduction."
+}

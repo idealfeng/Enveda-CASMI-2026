@@ -1,0 +1,103 @@
+{
+  "name": "fiora_tims500_fullslots",
+  "target": "stormseye/casmi26-fiora-tims500-isomers-1116",
+  "version": 1,
+  "stage_dir": "submission/optimization_20261116/fiora_tims500_fullslots",
+  "notebook_sha256": "550980d58100fce62830f089848bc303e102ec0f912ffadb14e9fd2ad53d11b4",
+  "metadata_sha256": "aa5d646d68dce6e187e3de2c32624e4a8a5fd967feed8a01f33f0398cf309b6c",
+  "description": "CASMI26 20261116 FIORA tims500 same-formula fullslots after champion0488 V1",
+  "validation_mode": "fast_static",
+  "static_review_path": "submission/optimization_20261116/fiora_tims500_fullslots/static_review.json",
+  "required_runtime_audits": [
+    {
+      "name": "batch_variant_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "mode": "fast_static",
+        "branch": "public_mass_repro",
+        "recipe_sha256": "6e888687eb7d901c3cb2899a9b37cd10c4bd6c2de423670ced5ee31dec923149"
+      },
+      "required_true_checks": [
+        "mass_recipe",
+        "original_public_priors",
+        "official_rdkit",
+        "public_model_pins",
+        "ours_model_pins",
+        "two_distinct_models",
+        "lotus_pin",
+        "csv_schema_ids",
+        "csv_counts",
+        "fast_no_model"
+      ]
+    },
+    {
+      "name": "guarded_tail_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "mass_guarded_head_tail_1108",
+        "mode": "fast_static",
+        "recipe_sha256": "ba7ee5d3545fd6bc32159bbeed785e904dbf99beae0347984a8b7d5c8809e5d8"
+      },
+      "required_true_checks": [
+        "original_base_audit",
+        "late_module_pin",
+        "head_payload_pins",
+        "original_scorer_pin",
+        "audited_control_bound",
+        "final_csv_bound",
+        "exact_ids_order",
+        "exact_prefix7",
+        "exact_candidate_multisets",
+        "fast_no_model"
+      ]
+    },
+    {
+      "name": "external_overlay_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "mass_guarded_extlib",
+        "recipe_sha256": "5fc1c8cb1e27bd9e555090fcf437d0c9bfe02a0f8371811da286d2f3a4d4efd1",
+        "mode": "fast_static"
+      },
+      "required_true_checks": [
+        "base_audit_passed",
+        "control_bound",
+        "final_bound",
+        "source_function_pin",
+        "exact_ids_schema",
+        "official_identities_valid",
+        "library_file_pins",
+        "runtime_checks",
+        "fast_no_matching"
+      ]
+    },
+    {
+      "name": "fiora_submission_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "fiora_tims500_fullslots",
+        "mode": "fast_static",
+        "recipe_sha256": "7dc47ef562744ee9486e52067508ff0ed03f6e5cfa84f6cf863f17d4f1594544"
+      },
+      "required_true_checks": [
+        "original_mass_passed",
+        "original_head_passed",
+        "original_AB_passed",
+        "champion_control_bound",
+        "module_pin",
+        "asset_manifest_pin",
+        "all_asset_files_pinned",
+        "trained_checkpoint_binding",
+        "visible_actual_canary_forward",
+        "runtime_input_is_champion_output",
+        "runtime_mode_exact",
+        "actual_runtime_checks",
+        "runtime_output_bound",
+        "sample_ids_exact",
+        "candidate_multisets_exact",
+        "visible_champion_fast_only",
+        "final_csv_bound"
+      ]
+    }
+  ]
+}

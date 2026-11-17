@@ -1,0 +1,106 @@
+{
+  "checked_at_utc": "2026-11-16T15:18:14.103364+00:00",
+  "old_count": 160,
+  "new_count": 163,
+  "new_topics": [
+    {
+      "id": 759398,
+      "title": "Notebooks getting queued. Although GPU is available",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/759398",
+      "votes": 1,
+      "postDate": "2026-11-15T10:53:51.762Z",
+      "lastCommentPostDate": "2026-11-15T10:53:51.763Z"
+    },
+    {
+      "id": 759394,
+      "title": "Submission Queued for 6 days ",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/759394",
+      "commentCount": 1,
+      "votes": 1,
+      "postDate": "2026-11-15T10:22:44.102Z",
+      "lastCommentPostDate": "2026-11-15T17:18:05.020Z"
+    },
+    {
+      "id": 759307,
+      "title": " SpectralHybridEncoder (Div/Mul Chains + Metadata Tails): Public LB 0.057 → 0.089",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/759307",
+      "postDate": "2026-11-14T20:49:27.758Z",
+      "lastCommentPostDate": "2026-11-14T20:49:27.760Z"
+    }
+  ],
+  "changed_topics": [
+    {
+      "id": 750330,
+      "title": "Clarification regarding permitted external data sources",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/750330",
+      "commentCount": 2,
+      "votes": 30,
+      "postDate": "2026-10-17T19:42:56.995Z",
+      "lastCommentPostDate": "2026-11-15T09:23:26.440Z",
+      "isSticky": true
+    },
+    {
+      "id": 759222,
+      "title": "Eligibility question: participant under 18",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/759222",
+      "commentCount": 2,
+      "postDate": "2026-11-14T11:39:35.699Z",
+      "lastCommentPostDate": "2026-11-15T14:21:47.596Z"
+    },
+    {
+      "id": 757307,
+      "title": "Is MassSpecGym (and MIST weights trained only on it) allowed? NIST was used only for data cleaning",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/757307",
+      "commentCount": 4,
+      "votes": -1,
+      "postDate": "2026-11-09T14:09:22.019Z",
+      "lastCommentPostDate": "2026-11-16T00:53:23.296Z"
+    },
+    {
+      "id": 756893,
+      "title": "Are shipped ranker tables without a public generator reproducible?",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/756893",
+      "commentCount": 3,
+      "votes": -3,
+      "postDate": "2026-11-08T03:14:21.978Z",
+      "lastCommentPostDate": "2026-11-16T00:52:38.936Z"
+    },
+    {
+      "id": 755319,
+      "title": "So tired of fork..",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/755319",
+      "commentCount": 11,
+      "votes": 30,
+      "postDate": "2026-11-03T08:08:26.209Z",
+      "lastCommentPostDate": "2026-11-16T08:56:54.106Z"
+    },
+    {
+      "id": 755039,
+      "title": "A meta-level reading of the private test set",
+      "topicUrl": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/755039",
+      "commentCount": 2,
+      "votes": 10,
+      "postDate": "2026-11-02T17:21:15.410Z",
+      "lastCommentPostDate": "2026-11-16T05:28:41.100Z"
+    }
+  ],
+  "removed_ids": [],
+  "selected_topic_ids": [
+    759398,
+    759394,
+    759307,
+    750330,
+    759222,
+    757307,
+    756893,
+    755319,
+    755039,
+    743254,
+    748524,
+    756504,
+    755089,
+    758541,
+    749217
+  ],
+  "scope": "Inventory comparison with20261114; no external messages or writes"
+}

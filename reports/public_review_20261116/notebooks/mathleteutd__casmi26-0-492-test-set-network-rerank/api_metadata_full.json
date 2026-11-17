@@ -1,0 +1,39 @@
+{
+  "id": 144633124,
+  "ref": "mathleteutd/casmi26-0-492-test-set-network-rerank",
+  "title": "CASMI26 0.492 | Test-Set Network Rerank",
+  "author": "Rohan",
+  "slug": "casmi26-0-492-test-set-network-rerank",
+  "lastRunTime": "2026-11-13T15:20:23.638Z",
+  "language": "python",
+  "kernelType": "notebook",
+  "isPrivate": false,
+  "enableGpu": true,
+  "enableInternet": false,
+  "categoryIds": [
+    "chemistry"
+  ],
+  "datasetDataSources": [
+    "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "takumuhata/casmi26-extlib",
+    "sanpier/catalogue-experiment-saner",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernelDataSources": [
+    "popwenman/casmi26-scorer-train-v80"
+  ],
+  "competitionDataSources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "totalVotes": 72,
+  "enableTpu": false,
+  "currentVersionNumber": 7,
+  "dockerImage": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+  "machineShape": "NvidiaTeslaT4"
+}

@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-15T03:29:44.644142+00:00",
+  "updated_at_utc": "2026-11-17T04:15:56.346842+00:00",
   "submissions": [
     {
       "submission_ref": 58021256,
@@ -492,6 +492,42 @@
       "evidence": "reports/optimization_20261114/library_consensus_early/score.json",
       "reported_public_score": "0.488",
       "valid_scored_result": true
+    },
+    {
+      "submission_ref": 58435031,
+      "target": "stormseye/casmi26-fiora-tims500-isomers-1116",
+      "branch": null,
+      "status": "COMPLETE",
+      "public_score": 0.285,
+      "error_description_present": false,
+      "checked_at_utc": "2026-11-17T03:57:01.309169+00:00",
+      "evidence": "reports/optimization_20261116_fiora/fiora_tims500_fullslots/score.json",
+      "reported_public_score": "0.285",
+      "valid_scored_result": true
+    },
+    {
+      "submission_ref": 58455482,
+      "target": "stormseye/casmi26-rogers0492-reproduction-1117",
+      "branch": null,
+      "status": "PENDING",
+      "public_score": null,
+      "error_description_present": false,
+      "checked_at_utc": "2026-11-17T04:13:46.459898+00:00",
+      "evidence": "reports/public_network_20261117/rogers_repro/score.json",
+      "reported_public_score": null,
+      "valid_scored_result": false
+    },
+    {
+      "submission_ref": 58455510,
+      "target": "stormseye/casmi26-champion-network-before-ab-1117",
+      "branch": null,
+      "status": "PENDING",
+      "public_score": null,
+      "error_description_present": false,
+      "checked_at_utc": "2026-11-17T04:13:48.043628+00:00",
+      "evidence": "reports/public_network_20261117/champion_network/score.json",
+      "reported_public_score": null,
+      "valid_scored_result": false
     }
   ]
 }

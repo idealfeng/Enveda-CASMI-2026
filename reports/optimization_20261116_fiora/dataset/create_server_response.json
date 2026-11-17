@@ -1,0 +1,22 @@
+{
+  "status": "server_response_requires_review_no_retry",
+  "target": "stormseye/casmi26-fiora-tims500-1116",
+  "private": true,
+  "requested_at_utc": "2026-11-16T15:01:26.281532+00:00",
+  "archive_sha256": "fcbc50007c6054046ec96cb1ec42809fea8fe7ced253d33c26daa74672528284",
+  "asset_manifest_sha256": "113c1f1af933e1f01bcdce6cf6a0a02cd618f7594b561e3928c80ae70d0c0622",
+  "automatic_retry_allowed": false,
+  "absence_evidence": {
+    "method": "absent_from_complete_authenticated_owner_inventory",
+    "status_endpoint_http": 403,
+    "inventory_pages": 1,
+    "owned_dataset_refs": [
+      "stormseye/santa1"
+    ]
+  },
+  "responded_at_utc": "2026-11-16T15:06:25.670432+00:00",
+  "observed_ref": "/datasets/stormseye/casmi26-fiora-tims500-1116",
+  "observed_status": "Ok",
+  "error_present": false,
+  "invalid_tags_present": false
+}

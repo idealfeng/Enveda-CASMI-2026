@@ -1,0 +1,20 @@
+{
+  "status": "corrected_prior_direction_inference",
+  "boundary": "Earlier inherited textual summary inverted the diff direction; current source directly confirms Rogers warnings vs champion asserts. No source/pipeline files modified.",
+  "evidence": {
+    "rogers": {
+      "source_path": "reports/public_review_20261116/notebooks/rogersjohnson__casmi26-l4-lam035/source.ipynb",
+      "source_sha256": "51c32f200c265fff08bfa4a9841cb6345d1f56515dcd72e254df8da53e07ae99",
+      "cell_index": 21,
+      "exact_source_context": "    if diag.get('control_sha256'):\n        if diag['control_sha256'] != rep['input_sha256']['v2']:\n            print('WARNING: control_sha256 mismatch, proceeding safely with current v2')\n    if diag.get('submission_sha256'):\n        if diag['submission_sha256'] != rep['input_sha256']['physical_v2']:\n            print('WARNING: submission_sha256 mismatch, proceeding safely with current physical_v2')\n",
+      "behavior": "warnings_continue"
+    },
+    "champion": {
+      "source_path": "submission/optimization_20261109/mass_guarded_extlib/notebook.ipynb",
+      "source_sha256": "2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7",
+      "cell_index": 20,
+      "exact_source_context": "    if diag.get('control_sha256'):\n        assert diag['control_sha256'] == rep['input_sha256']['v2'], 'the fragment check did not read the V2 file'\n    if diag.get('submission_sha256'):\n        assert diag['submission_sha256'] == rep['input_sha256']['physical_v2'], \\\n            'submission.csv is not the file the fragment check wrote'\n",
+      "behavior": "assert_mismatch"
+    }
+  }
+}

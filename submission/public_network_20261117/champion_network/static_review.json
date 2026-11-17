@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-champion-network-before-ab-1117",
+  "version": 1,
+  "notebook_sha256": "e8f5e733961da9d0030b0961712e67ff8953470f3ef52414431eb6432e79206a",
+  "checks": {
+    "exact_parent_source_pin": true,
+    "original_first32_cells_exact": true,
+    "original_AB_single_audit_argument_change": true,
+    "original_head_receipt_preserved": true,
+    "network_comes_before_AB": true,
+    "module_source_embedded_and_pinned": true,
+    "all_source_compiles": true,
+    "original_data_model_versions_retained": true,
+    "private_offline_gpu": true,
+    "no_new_model_or_training": true,
+    "visible_scope_explicit": true
+  },
+  "boundary": "Static source binding; runtime network and AB consumption must pass separately; no efficacy claim"
+}

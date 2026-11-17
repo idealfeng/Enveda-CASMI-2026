@@ -1,0 +1,32 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "executable": "/mnt/d/Paper/casmi/.venv-linux/bin/python",
+  "modules": {
+    "torch": true,
+    "torch_geometric": false,
+    "torch_scatter": false,
+    "torch_sparse": false,
+    "rdkit": true,
+    "pandas": true,
+    "numpy": true,
+    "scipy": true,
+    "sklearn": true,
+    "yaml": true,
+    "tqdm": true,
+    "dill": false,
+    "treelib": false,
+    "IPython": true,
+    "matplotlib": true,
+    "networkx": true,
+    "aiohttp": false,
+    "fsspec": true,
+    "jinja2": true,
+    "psutil": true,
+    "requests": true,
+    "pyparsing": true,
+    "xxhash": false,
+    "regex": false,
+    "seaborn": true
+  },
+  "packages_installed": false
+}

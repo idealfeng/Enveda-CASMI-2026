@@ -1,0 +1,293 @@
+{
+  "checked_at_utc": "2026-11-17T04:01:40.087039+00:00",
+  "read_only": true,
+  "allowance": {
+    "allowed_now": 5,
+    "num_today": 0,
+    "num_total": 42
+  },
+  "scoreDescending": [
+    {
+      "ref": "heliosli/casmi26-0-495",
+      "title": "casmi26-0.495",
+      "last_run_time": "2026-11-13 09:52:05.407000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "flexonafft/casmi26-anchored-spectral-network",
+      "title": "CASMI26: Anchored Spectral Network",
+      "last_run_time": "2026-11-16 18:18:19.463000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "heetp0/notebook0b6a5a21c6",
+      "title": "notebook0b6a5a21c6",
+      "last_run_time": "2026-11-17 03:51:54.790000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "zz3t3rn41/casmi26-peaks-to-structures-v2",
+      "title": "casmi26-peaks-to-structures-v2",
+      "last_run_time": "2026-11-16 15:25:33.227000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "evgendvorkin/spectra-to-structures-deep-eda-molecular-clues",
+      "title": "🧬Spectra to Structures Deep EDA & Molecular Clues",
+      "last_run_time": "2026-11-16 16:30:49.797000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "ozertuu/casmi26-starter-notebook",
+      "title": "CASMI26 - STARTER NOTEBOOK",
+      "last_run_time": "2026-11-15 22:15:53.607000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "mathleteutd/casmi26-0-492-test-set-network-rerank",
+      "title": "CASMI26 0.492 | Test-Set Network Rerank",
+      "last_run_time": "2026-11-16 04:32:00.090000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "rogersjohnson/casmi26-l4-lam035",
+      "title": "casmi26-l4-lam035",
+      "last_run_time": "2026-11-15 01:32:51.990000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "alexchilton/casmi26-0-492-what-moved-the-board-59-arms",
+      "title": "CASMI26 0.492 | What Moved the Board: 59 Arms",
+      "last_run_time": "2026-11-15 16:03:07.800000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "adityaraj0612/casmi26-exp308-network-lam035-apex",
+      "title": "casmi26 exp308 network lam035 apex",
+      "last_run_time": "2026-11-15 17:42:21.100000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "rogersjohnson/casmi26-p5-placebo",
+      "title": "casmi26-p5-placebo",
+      "last_run_time": "2026-11-16 00:17:10.677000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "huangkx666/enveda-p2s-lam035",
+      "title": "enveda p2s lam035",
+      "last_run_time": "2026-11-16 00:21:22.377000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "adityaraj0612/casmi26-exp309-groundtruth-network-apex",
+      "title": "casmi26 exp309 groundtruth network apex",
+      "last_run_time": "2026-11-16 02:45:42",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "sachchidanandadaki/casmi26",
+      "title": "Casmi26",
+      "last_run_time": "2026-11-16 19:13:51.387000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "ccuuuuy/casmi26-0-492-test-set-network-rerank",
+      "title": "CASMI26 0.492 | Test-Set Network Rerank",
+      "last_run_time": "2026-11-17 01:26:04.950000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "nursrijan/casmi26-e018-test-set-network-rerank-sota-0-492",
+      "title": "CASMI26 E018 Test-Set Network Rerank SOTA 0.492",
+      "last_run_time": "2026-11-16 06:55:34.167000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "bill123987/n1clam35",
+      "title": "n1clam35",
+      "last_run_time": "2026-11-16 12:58:36.733000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "adityaraj0612/casmi26-exp311-skeletal-topk3-network-apex",
+      "title": "casmi26 exp311 skeletal topk3 network apex",
+      "last_run_time": "2026-11-16 15:28:21.653000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "rogersjohnson/casmi26-p2-lam040",
+      "title": "casmi26-p2-lam040",
+      "last_run_time": "2026-11-16 00:17:10.863000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "rogersjohnson/casmi26-p1-lam038",
+      "title": "casmi26-p1-lam038",
+      "last_run_time": "2026-11-16 00:20:15.680000",
+      "public_score": null,
+      "best_score": null
+    }
+  ],
+  "dateRun": [
+    {
+      "ref": "heetp0/notebook0b6a5a21c6",
+      "title": "notebook0b6a5a21c6",
+      "last_run_time": "2026-11-17 03:51:54.790000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "liuzewen123/casmi26-h495",
+      "title": "casmi26-h495",
+      "last_run_time": "2026-11-17 03:06:44.443000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "adityaraj0612/casmi26-exp313-tri-pillar-dual-band-sync-apex",
+      "title": "casmi26 exp313 tri pillar dual band sync apex",
+      "last_run_time": "2026-11-17 02:40:44.750000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "amethyst/casmi26-lb-0-488-fork-verbatim",
+      "title": "CASMI26 LB 0.488 Fork Verbatim",
+      "last_run_time": "2026-11-17 01:32:04.280000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "ccuuuuy/casmi26-0-492-test-set-network-rerank",
+      "title": "CASMI26 0.492 | Test-Set Network Rerank",
+      "last_run_time": "2026-11-17 01:26:04.950000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "riochiang/casmi26-silver-own1",
+      "title": "casmi26 silver own1",
+      "last_run_time": "2026-11-17 01:23:31.370000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "riochiang/casmi26-silver-0494-helios",
+      "title": "casmi26 silver 0494 helios",
+      "last_run_time": "2026-11-17 00:21:16.893000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "riochiang/casmi26-silver-0492-frigid-consensus",
+      "title": "casmi26 silver 0492 frigid consensus",
+      "last_run_time": "2026-11-17 00:05:58.647000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "rogersjohnson/casmi26-q1-nbr10",
+      "title": "casmi26-q1-nbr10",
+      "last_run_time": "2026-11-17 00:03:10.193000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "rogersjohnson/casmi26-q5-placebo",
+      "title": "casmi26-q5-placebo",
+      "last_run_time": "2026-11-17 00:00:04.583000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "rogersjohnson/casmi26-q2-nbr25",
+      "title": "casmi26-q2-nbr25",
+      "last_run_time": "2026-11-17 00:00:03.970000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "rogersjohnson/casmi26-q3-wexp2",
+      "title": "casmi26-q3-wexp2",
+      "last_run_time": "2026-11-16 23:56:58.677000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "rogersjohnson/casmi26-q4-posflat",
+      "title": "casmi26-q4-posflat",
+      "last_run_time": "2026-11-16 23:56:58.417000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "lbjyang/casmi26-v2-492-net",
+      "title": "casmi26-v2-492-net",
+      "last_run_time": "2026-11-16 23:33:35.503000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "rushikeshpundkar/notebook9ef1cf0c62",
+      "title": "notebook9ef1cf0c62",
+      "last_run_time": "2026-11-16 23:28:45.817000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "kingdamon/casmi26-wsp-cycle-5-dual-encoder-inference",
+      "title": "CASMI26 WSP Cycle 5 Dual-Encoder Inference",
+      "last_run_time": "2026-11-16 21:01:48.033000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "aiokajima/enveda-mathlete-0492-reproduction-public",
+      "title": "Enveda Mathlete 0492 Reproduction (Public)",
+      "last_run_time": "2026-11-16 20:59:50.917000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "adityaraj0612/casmi26-exp312-hel494-sovereign-apex",
+      "title": "casmi26 exp312 hel494 sovereign apex",
+      "last_run_time": "2026-11-16 20:50:50.737000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "dariushafshar/casmi26-the-public-chain-version-by-version",
+      "title": "CASMI26: The Public Chain, Version by Version",
+      "last_run_time": "2026-11-16 20:26:47.137000",
+      "public_score": null,
+      "best_score": null
+    },
+    {
+      "ref": "sachchidanandadaki/casmi26",
+      "title": "Casmi26",
+      "last_run_time": "2026-11-16 19:13:51.387000",
+      "public_score": null,
+      "best_score": null
+    }
+  ]
+}

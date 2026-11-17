@@ -1,0 +1,30 @@
+{
+  "status": "passed_read_only_training_contract_review",
+  "checks": {
+    "exact_declared_features": true,
+    "all_dataset_artifacts_bound": true,
+    "executed_source_bound": true,
+    "executed_data_root_r2": true,
+    "proof_bound": true,
+    "seed_steps_threshold_prespecified": true,
+    "last_step_only": true,
+    "completed_groups_400_100": true
+  },
+  "source_checks": {
+    "imputation_train_only": true,
+    "standardization_train_only": true,
+    "split_groups_explicit": true,
+    "model_features_only_names": true,
+    "dev_after_training": true
+  },
+  "source_sha256": "7cf7a041cf06432d7bec6a535ab90d6c2cec3b847951b5d0d802a7cede34aa9c",
+  "proof_sha256": "c6b97f958d5e36afda2bb18c5a8ca4098e9ea56074a50e6822ca3143a9123789",
+  "new_training_or_evaluation_performed": false,
+  "critical_issues_found": [],
+  "scope": "Source/schema/artifact/proof/actual training receipt review. Existing independent dataset review provides group and peak-content disjoint checks.",
+  "limitations": [
+    "Balanced controlled reference-presence/absence conditions are not an estimate of hidden class prevalence.",
+    "This classifier is C top-reference correctness, not a full candidate ranker or hidden MRR.",
+    "Unknown MSG tautomer-family aliases remain a documented exclusion limit."
+  ]
+}

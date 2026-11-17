@@ -1,0 +1,2257 @@
+{
+  "status": "completed_frozen_gate_component_holdout",
+  "threshold": 0.9,
+  "query_spectra_cap": 3,
+  "evaluations": {
+    "references_present": {
+      "queries": 48,
+      "AB_mrr25": 0.8871527777777778,
+      "C_cap3_fixed080_mrr25": 0.9010416666666666,
+      "C_cap3_gate090_mrr25": 0.9010416666666666,
+      "learned_delta_vs_AB": 0.01388888888888884,
+      "learned_delta_vs_fixed": 0.0,
+      "accepted": {
+        "fixed_accepted": 11,
+        "fixed_correct": 11,
+        "learned_accepted": 7,
+        "learned_correct": 7
+      },
+      "gate_improved_vs_AB": 1,
+      "gate_worsened_vs_AB": 0
+    },
+    "all_true_identity_references_absent": {
+      "queries": 48,
+      "AB_mrr25": 0.8330853174603176,
+      "C_cap3_fixed080_mrr25": 0.7914186507936508,
+      "C_cap3_gate090_mrr25": 0.8122519841269842,
+      "learned_delta_vs_AB": -0.02083333333333337,
+      "learned_delta_vs_fixed": 0.02083333333333337,
+      "accepted": {
+        "fixed_accepted": 5,
+        "fixed_incorrect": 5,
+        "learned_accepted": 4,
+        "learned_incorrect": 4
+      },
+      "gate_improved_vs_AB": 0,
+      "gate_worsened_vs_AB": 2
+    }
+  },
+  "rows": [
+    {
+      "molecule_id": "cross_CBIAKDAYHRWZCU",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.9932835102081299,
+      "best_cosine": 0.9999999999987612,
+      "proposal_identity": "CBIAKDAYHRWZCU",
+      "fixed_accept": true,
+      "learned_accept": true,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_CDUVSQMTLOYKTR",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.27821072936058044,
+      "best_cosine": 0.6145707943555023,
+      "proposal_identity": "VOCJFEUCJDTXSA",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_DKZBBWMURDFHNE",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.9880822896957397,
+      "best_cosine": 0.9999999999986515,
+      "proposal_identity": "DKZBBWMURDFHNE",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_DWVXZQVYILJCJH",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": false,
+      "probability": 0.004773629829287529,
+      "best_cosine": null,
+      "proposal_identity": null,
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        4,
+        4,
+        4
+      ],
+      "rr": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_FWXUWWAXYNCZAY",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.051487911492586136,
+      "best_cosine": 0.28999205060890854,
+      "proposal_identity": "SEQAOMSLKBMOIU",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_GFZLFKCEWJJEFW",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.0038203871808946133,
+      "best_cosine": 0.2608440062072617,
+      "proposal_identity": "KOATXBNOVXBDJE",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        null,
+        null,
+        null
+      ],
+      "rr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_HPXGRJSGVYZSBD",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.007380330003798008,
+      "best_cosine": 0.2144240162064475,
+      "proposal_identity": "GSMBWWARFWBSNN",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_IYODIJVWGPRBGQ",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.9849586486816406,
+      "best_cosine": 0.9999990794178382,
+      "proposal_identity": "IYODIJVWGPRBGQ",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_JIZXTXDQGNQBTA",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.8494942784309387,
+      "best_cosine": 0.994855440251915,
+      "proposal_identity": "JIZXTXDQGNQBTA",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        2,
+        2,
+        2
+      ],
+      "rr": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_KAQOTUWFZPIKLZ",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": false,
+      "probability": 0.00313584809191525,
+      "best_cosine": null,
+      "proposal_identity": null,
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        2,
+        2,
+        2
+      ],
+      "rr": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_MZNCWPOVMBLUSG",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": false,
+      "probability": 0.004613260272890329,
+      "best_cosine": null,
+      "proposal_identity": null,
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        null,
+        null,
+        null
+      ],
+      "rr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_NOFOAYPPHIUXJR",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.0045519438572227955,
+      "best_cosine": 0.37018275545276647,
+      "proposal_identity": "RAKDWPCGCPYIRC",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_NQHGQOVKJGGLKE",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.9244312644004822,
+      "best_cosine": 0.988746866391013,
+      "proposal_identity": "NQHGQOVKJGGLKE",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        2,
+        2,
+        2
+      ],
+      "rr": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_OTGQIQQTPXJQRG",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.8475308418273926,
+      "best_cosine": 0.9711804338523959,
+      "proposal_identity": "OTGQIQQTPXJQRG",
+      "fixed_accept": true,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_QNUNSPMEODRLBZ",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.0067085446789860725,
+      "best_cosine": 0.44581774999532137,
+      "proposal_identity": "QZUDBNBUXVUHMW",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_SRNDKRJFBMZBCK",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": false,
+      "probability": 0.00457195658236742,
+      "best_cosine": null,
+      "proposal_identity": null,
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.9955937266349792,
+      "best_cosine": 0.9999999999990515,
+      "proposal_identity": "UBEKXLWMTSODOC",
+      "fixed_accept": true,
+      "learned_accept": true,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_VJLSQJBXDSKTLG",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": false,
+      "probability": 0.0029721935279667377,
+      "best_cosine": null,
+      "proposal_identity": null,
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_VXVNYCRICCVPTD",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.9984135627746582,
+      "best_cosine": 0.9999999999987997,
+      "proposal_identity": "VXVNYCRICCVPTD",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_WDRYRZXSPDWGEB",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.8498733043670654,
+      "best_cosine": 0.919574471504249,
+      "proposal_identity": "WDRYRZXSPDWGEB",
+      "fixed_accept": true,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.009005053900182247,
+      "best_cosine": 0.20071487379625086,
+      "proposal_identity": "NZJTXGJZNIFUHO",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_WIOKWEJDRXNVSH",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.9633947014808655,
+      "best_cosine": 0.9876249890689961,
+      "proposal_identity": "WIOKWEJDRXNVSH",
+      "fixed_accept": true,
+      "learned_accept": true,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_XSOKPIZATJBJPO",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.14649289846420288,
+      "best_cosine": 0.29421465040903944,
+      "proposal_identity": "IYQSIFQHHYOWIZ",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_YFJYOZDIJVHPAU",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.9202984571456909,
+      "best_cosine": 0.993912039706487,
+      "proposal_identity": "YFJYOZDIJVHPAU",
+      "fixed_accept": true,
+      "learned_accept": true,
+      "ranks": [
+        3,
+        1,
+        1
+      ],
+      "rr": [
+        0.3333333333333333,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.6666666666666667,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_AAWZDTNXLSGCEK",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.9828161597251892,
+      "best_cosine": 0.912007851817359,
+      "proposal_identity": "AAWZDTNXLSGCEK",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_ACNHBCIZLNNLRS",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.8526354432106018,
+      "best_cosine": 0.7500857865184017,
+      "proposal_identity": "ACNHBCIZLNNLRS",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_CEUORZQYGODEFX",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.9686095118522644,
+      "best_cosine": 0.9125401948378139,
+      "proposal_identity": "CEUORZQYGODEFX",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_CTRLABGOLIVAIY",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.9094237089157104,
+      "best_cosine": 0.8893098396655658,
+      "proposal_identity": "CTRLABGOLIVAIY",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_DBEPLOCGEIEOCV",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.9833182096481323,
+      "best_cosine": 0.8639987620746086,
+      "proposal_identity": "DBEPLOCGEIEOCV",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_DOFJNFPSMUCECH",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.7490161657333374,
+      "best_cosine": 0.8581769732802931,
+      "proposal_identity": "DOFJNFPSMUCECH",
+      "fixed_accept": true,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_DOUMFZQKYFQNTF",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.9996053576469421,
+      "best_cosine": 0.9462994526130938,
+      "proposal_identity": "DOUMFZQKYFQNTF",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_DUXQKCCELUKXOE",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.5314009189605713,
+      "best_cosine": 0.8502995927510151,
+      "proposal_identity": "DUXQKCCELUKXOE",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_FELGMEQIXOGIFQ",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.9452379941940308,
+      "best_cosine": 0.8790939255620152,
+      "proposal_identity": "FELGMEQIXOGIFQ",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_FFGPTBGBLSHEPO",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.9479328989982605,
+      "best_cosine": 0.9119556618353466,
+      "proposal_identity": "FFGPTBGBLSHEPO",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_GZSOSUNBTXMUFQ",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.6566691398620605,
+      "best_cosine": 0.9643747219825485,
+      "proposal_identity": "OFKKUHQXUNAUKP",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_HELXLJCILKEWJH",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.5809285044670105,
+      "best_cosine": 0.8722327035051523,
+      "proposal_identity": "HELXLJCILKEWJH",
+      "fixed_accept": true,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_HSMPDPBYAYSOBC",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.998038113117218,
+      "best_cosine": 0.9408346167036127,
+      "proposal_identity": "HSMPDPBYAYSOBC",
+      "fixed_accept": true,
+      "learned_accept": true,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_HUSISCNTLUEZCN",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.9736647605895996,
+      "best_cosine": 0.8248985042933417,
+      "proposal_identity": "HUSISCNTLUEZCN",
+      "fixed_accept": true,
+      "learned_accept": true,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_JYGXADMDTFJGBT",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": false,
+      "probability": 0.0022488979157060385,
+      "best_cosine": null,
+      "proposal_identity": null,
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_MBRLOUHOWLUMFF",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.9804491400718689,
+      "best_cosine": 0.8605953820341085,
+      "proposal_identity": "MBRLOUHOWLUMFF",
+      "fixed_accept": true,
+      "learned_accept": true,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_QCHFTSOMWOSFHM",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.9996554851531982,
+      "best_cosine": 0.9367367709920732,
+      "proposal_identity": "QCHFTSOMWOSFHM",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_RFDAIACWWDREDC",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.9986007809638977,
+      "best_cosine": 0.9030147437142425,
+      "proposal_identity": "RFDAIACWWDREDC",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        2,
+        2,
+        2
+      ],
+      "rr": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_RXPRRQLKFXBCSJ",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.9999945163726807,
+      "best_cosine": 0.9080814849438297,
+      "proposal_identity": "RXPRRQLKFXBCSJ",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_RZGFUGXQKMEMOO",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.7472630739212036,
+      "best_cosine": 0.7160310598859372,
+      "proposal_identity": "RZGFUGXQKMEMOO",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_SGEWCQFRYRRZDC",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.978361189365387,
+      "best_cosine": 0.8661356482852053,
+      "proposal_identity": "SGEWCQFRYRRZDC",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_SHIBSTMRCDJXLN",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.9939284324645996,
+      "best_cosine": 0.8821789061978843,
+      "proposal_identity": "SHIBSTMRCDJXLN",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_URFCJEUYXNAHFI",
+      "arm": "references_present",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.6638035774230957,
+      "best_cosine": 0.7242632681218851,
+      "proposal_identity": "URFCJEUYXNAHFI",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_XKLMZUWKNUAPSZ",
+      "arm": "references_present",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.9391016364097595,
+      "best_cosine": 0.9015041243532689,
+      "proposal_identity": "XKLMZUWKNUAPSZ",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_CBIAKDAYHRWZCU",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": false,
+      "probability": 0.00212845834903419,
+      "best_cosine": null,
+      "proposal_identity": null,
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_CDUVSQMTLOYKTR",
+      "arm": "all_true_identity_references_absent",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.27821072936058044,
+      "best_cosine": 0.6145707943555023,
+      "proposal_identity": "VOCJFEUCJDTXSA",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        3,
+        3,
+        3
+      ],
+      "rr": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_DKZBBWMURDFHNE",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.1500273495912552,
+      "best_cosine": 0.6212120178859587,
+      "proposal_identity": "KWILGNNWGSNMPA",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_DWVXZQVYILJCJH",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": false,
+      "probability": 0.004773629829287529,
+      "best_cosine": null,
+      "proposal_identity": null,
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        4,
+        4,
+        4
+      ],
+      "rr": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_FWXUWWAXYNCZAY",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.051487911492586136,
+      "best_cosine": 0.28999205060890854,
+      "proposal_identity": "SEQAOMSLKBMOIU",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_GFZLFKCEWJJEFW",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.0038203871808946133,
+      "best_cosine": 0.2608440062072617,
+      "proposal_identity": "KOATXBNOVXBDJE",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        null,
+        null,
+        null
+      ],
+      "rr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_HPXGRJSGVYZSBD",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.007380330003798008,
+      "best_cosine": 0.2144240162064475,
+      "proposal_identity": "GSMBWWARFWBSNN",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_IYODIJVWGPRBGQ",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.5168547034263611,
+      "best_cosine": 0.7227054115512116,
+      "proposal_identity": "FECQXVPRUCCUIL",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_JIZXTXDQGNQBTA",
+      "arm": "all_true_identity_references_absent",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.7823413610458374,
+      "best_cosine": 0.9363088334112528,
+      "proposal_identity": "JUVGXBPTGCFNHG",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        2,
+        2,
+        2
+      ],
+      "rr": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_KAQOTUWFZPIKLZ",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": false,
+      "probability": 0.00313584809191525,
+      "best_cosine": null,
+      "proposal_identity": null,
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        2,
+        2,
+        2
+      ],
+      "rr": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_MZNCWPOVMBLUSG",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": false,
+      "probability": 0.004613260272890329,
+      "best_cosine": null,
+      "proposal_identity": null,
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        null,
+        null,
+        null
+      ],
+      "rr": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_NOFOAYPPHIUXJR",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.0045519438572227955,
+      "best_cosine": 0.37018275545276647,
+      "proposal_identity": "RAKDWPCGCPYIRC",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        14,
+        14,
+        14
+      ],
+      "rr": [
+        0.07142857142857142,
+        0.07142857142857142,
+        0.07142857142857142
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_NQHGQOVKJGGLKE",
+      "arm": "all_true_identity_references_absent",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.9076773524284363,
+      "best_cosine": 0.9703084543781931,
+      "proposal_identity": "KGMCJQLLJVFPSK",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        2,
+        2,
+        2
+      ],
+      "rr": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_OTGQIQQTPXJQRG",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.7282582521438599,
+      "best_cosine": 0.8302604601762001,
+      "proposal_identity": "LSXDXVBHNTVERK",
+      "fixed_accept": true,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        2,
+        1
+      ],
+      "rr": [
+        1.0,
+        0.5,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.5
+    },
+    {
+      "molecule_id": "cross_QNUNSPMEODRLBZ",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.0067085446789860725,
+      "best_cosine": 0.44581774999532137,
+      "proposal_identity": "QZUDBNBUXVUHMW",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_SRNDKRJFBMZBCK",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": false,
+      "probability": 0.00457195658236742,
+      "best_cosine": null,
+      "proposal_identity": null,
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_UBEKXLWMTSODOC",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.7115657925605774,
+      "best_cosine": 0.580475178080618,
+      "proposal_identity": "BWGYSLOUFDNBHC",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_VJLSQJBXDSKTLG",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": false,
+      "probability": 0.0029721935279667377,
+      "best_cosine": null,
+      "proposal_identity": null,
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_VXVNYCRICCVPTD",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.9104973673820496,
+      "best_cosine": 0.6273269554170817,
+      "proposal_identity": "MUHBBHLZPHKTTR",
+      "fixed_accept": false,
+      "learned_accept": true,
+      "ranks": [
+        2,
+        2,
+        2
+      ],
+      "rr": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_WDRYRZXSPDWGEB",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.5819334983825684,
+      "best_cosine": 0.4634955227614537,
+      "proposal_identity": "KEGIXQQRZWCAMW",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_WGHBYQBNWQRUQU",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.009005053900182247,
+      "best_cosine": 0.20071487379625086,
+      "proposal_identity": "NZJTXGJZNIFUHO",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_WIOKWEJDRXNVSH",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.0035738255828619003,
+      "best_cosine": 0.1477945999240324,
+      "proposal_identity": "ZWRCIODUEDCNMZ",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_XSOKPIZATJBJPO",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.14649289846420288,
+      "best_cosine": 0.29421465040903944,
+      "proposal_identity": "IYQSIFQHHYOWIZ",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "cross_YFJYOZDIJVHPAU",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.9482744932174683,
+      "best_cosine": 0.8844587954306462,
+      "proposal_identity": "LLPMAOBOEQFPRE",
+      "fixed_accept": true,
+      "learned_accept": true,
+      "ranks": [
+        3,
+        3,
+        3
+      ],
+      "rr": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_AAWZDTNXLSGCEK",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": false,
+      "probability": 0.00550416111946106,
+      "best_cosine": null,
+      "proposal_identity": null,
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_ACNHBCIZLNNLRS",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.0008713025599718094,
+      "best_cosine": 0.25664958972989804,
+      "proposal_identity": "BMWMKGNVAMXXCH",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_CEUORZQYGODEFX",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.021899737417697906,
+      "best_cosine": 0.3713973627860222,
+      "proposal_identity": "NZTORXFOUGCOQV",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_CTRLABGOLIVAIY",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.30703121423721313,
+      "best_cosine": 0.7671463010828302,
+      "proposal_identity": "ZRWWEEVEIOGMMT",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_DBEPLOCGEIEOCV",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.015345421619713306,
+      "best_cosine": 0.4985070718508851,
+      "proposal_identity": "GKGFYMQXQIDKQB",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_DOFJNFPSMUCECH",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.5969383120536804,
+      "best_cosine": 0.7857730128056306,
+      "proposal_identity": "XFYYZBJXMSDKCV",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_DOUMFZQKYFQNTF",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.001700779888778925,
+      "best_cosine": 0.1441778706794464,
+      "proposal_identity": "BZXULYMZYPRZOG",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_DUXQKCCELUKXOE",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.9678346514701843,
+      "best_cosine": 0.8398968655070326,
+      "proposal_identity": "QSFNHAFPXWQTGZ",
+      "fixed_accept": true,
+      "learned_accept": true,
+      "ranks": [
+        1,
+        2,
+        2
+      ],
+      "rr": [
+        1.0,
+        0.5,
+        0.5
+      ],
+      "learned_delta_vs_AB": -0.5,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_FELGMEQIXOGIFQ",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.19187919795513153,
+      "best_cosine": 0.5433717312003762,
+      "proposal_identity": "FTKAFGUBOKLYIW",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_FFGPTBGBLSHEPO",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.45720574259757996,
+      "best_cosine": 0.84736251644785,
+      "proposal_identity": "BMPDWHIDQYTSHX",
+      "fixed_accept": true,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        2,
+        1
+      ],
+      "rr": [
+        1.0,
+        0.5,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.5
+    },
+    {
+      "molecule_id": "np_GZSOSUNBTXMUFQ",
+      "arm": "all_true_identity_references_absent",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.6759878396987915,
+      "best_cosine": 0.9643747219825485,
+      "proposal_identity": "OFKKUHQXUNAUKP",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_HELXLJCILKEWJH",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.9480844736099243,
+      "best_cosine": 0.8675469517023477,
+      "proposal_identity": "RLLCWNUIHGPAJY",
+      "fixed_accept": true,
+      "learned_accept": true,
+      "ranks": [
+        1,
+        2,
+        2
+      ],
+      "rr": [
+        1.0,
+        0.5,
+        0.5
+      ],
+      "learned_delta_vs_AB": -0.5,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_HSMPDPBYAYSOBC",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.00042770031723193824,
+      "best_cosine": 0.08263056022788859,
+      "proposal_identity": "ZGQYFLKBHBCCLG",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_HUSISCNTLUEZCN",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": false,
+      "probability": 0.004246859345585108,
+      "best_cosine": null,
+      "proposal_identity": null,
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_JYGXADMDTFJGBT",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": false,
+      "probability": 0.0022488979157060385,
+      "best_cosine": null,
+      "proposal_identity": null,
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_MBRLOUHOWLUMFF",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.23986311256885529,
+      "best_cosine": 0.6019733450395027,
+      "proposal_identity": "RSZDAYHEZSRVHS",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_QCHFTSOMWOSFHM",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.13383178412914276,
+      "best_cosine": 0.6536706406821927,
+      "proposal_identity": "MJAHJHYFXIFVHK",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_RFDAIACWWDREDC",
+      "arm": "all_true_identity_references_absent",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.9879284501075745,
+      "best_cosine": 0.826046550564383,
+      "proposal_identity": "ZQYUKJFJPJDMMR",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        2,
+        2,
+        2
+      ],
+      "rr": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_RXPRRQLKFXBCSJ",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.7153674960136414,
+      "best_cosine": 0.6972185310139369,
+      "proposal_identity": "BLGXFZZNTVWLAY",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_RZGFUGXQKMEMOO",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.0005599254509434104,
+      "best_cosine": 0.3422241460014055,
+      "proposal_identity": "VJCNEDVMYQCMBK",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_SGEWCQFRYRRZDC",
+      "arm": "all_true_identity_references_absent",
+      "protected": true,
+      "has_match": true,
+      "probability": 0.8575396537780762,
+      "best_cosine": 0.808809746551256,
+      "proposal_identity": "HIWJJOYYZFELEZ",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        2,
+        2,
+        2
+      ],
+      "rr": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_SHIBSTMRCDJXLN",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.5252209901809692,
+      "best_cosine": 0.6685515720888118,
+      "proposal_identity": "AJLFOPYRIVGYMJ",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_URFCJEUYXNAHFI",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.4934159517288208,
+      "best_cosine": 0.6238122126728665,
+      "proposal_identity": "LOYXTWZXLWHMBX",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    },
+    {
+      "molecule_id": "np_XKLMZUWKNUAPSZ",
+      "arm": "all_true_identity_references_absent",
+      "protected": false,
+      "has_match": true,
+      "probability": 0.29373568296432495,
+      "best_cosine": 0.6939533389254059,
+      "proposal_identity": "LYWPEGJTHVKGJZ",
+      "fixed_accept": false,
+      "learned_accept": false,
+      "ranks": [
+        1,
+        1,
+        1
+      ],
+      "rr": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "learned_delta_vs_AB": 0.0,
+      "learned_delta_vs_fixed": 0.0
+    }
+  ],
+  "model_sha256": "a9ecb106c26ac2ad61751697211e36def439ea05a4fea0bc5c6203f45e752a2b",
+  "prediction_sha256": "9e3095c997815a55c622e9d06eef9063bb84eb567634b9725ff1b649c17a7ac8",
+  "data_feature_sha256": "ce53f71cfe9d56da53874fded681164de720e6393169a0e08e710e054fb20715",
+  "no_training_on_holdout": true,
+  "no_parameter_or_threshold_selection": true,
+  "public_score": null,
+  "exact_champion_full_pipeline": false,
+  "boundary": "C-component holdout on old48 candidate/AB controls, legacy model pretraining exposure remains. Gate fit uses 500 disjoint query structures. C alone uses fixed max3 spectra to stay inside training count support; original AB pipeline retains all spectra. Artificial reference presence/absence conditions do not reveal hidden class shares."
+}

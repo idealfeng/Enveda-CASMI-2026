@@ -1,0 +1,20 @@
+--- mathlete21
++++ rogers24
+@@ -1,5 +1,5 @@
+ # ===== N-1c (Fable EK-18): test içi moleküler ağ yeniden sıralaması (λ 0.25, τ 0.6); overlay'den önce; hata -> aynen =====
+-def _n1c(work='/kaggle/working', inp='/kaggle/input', LAM=0.35, TAU=0.6):   # ours: LAM 0.25 -> 0.35 (public 0.492)
++def _n1c(work='/kaggle/working', inp='/kaggle/input', LAM=0.25, TAU=0.6):
+     import glob, os, shutil, time, numpy as np, pandas as pd
+     t0 = time.time(); sp = os.path.join(work, 'submission.csv')
+     if not os.path.exists(sp): print('[n1c] no submission.csv'); return
+@@ -60,8 +60,8 @@
+             out.append(';'.join(nl))
+         else: out.append(s)
+     sub['smiles'] = out; sub.to_csv(sp, index=False)
+-    print(f'[n1c] molecules {len(L)}, with spectra {len(K)}, with neighbors {len(E)}, edges {sum(len(v) for v in E.values()) // 2}, changed lists {nch}, top1 changed {nt1}, {time.time() - t0:.0f}s', flush=True)
++    print(f'[n1c] LAM={LAM} TAU={TAU} molecules {len(L)}, with spectra {len(K)}, with neighbors {len(E)}, edges {sum(len(v) for v in E.values()) // 2}, changed lists {nch}, top1 changed {nt1}, {time.time() - t0:.0f}s', flush=True)
+ try:
+-    _n1c()
++    _n1c(LAM=0.35, TAU=0.6)
+ except Exception:
+     import traceback; traceback.print_exc(); print('[n1c] FAILED -> submission unchanged', flush=True)

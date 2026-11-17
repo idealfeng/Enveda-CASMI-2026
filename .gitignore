@@ -1,16 +1,73 @@
+# ===== 环境 / 虚拟环境 =====
 .venv/
 .venv-linux/
 .cache/
-assets/
-runs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ===== Python 缓存 / 构建 =====
 __pycache__/
 *.pyc
-*.part
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+
+# ===== 大资产 / 运行产物（放 D 盘，不入库） =====
+assets/
+runs/
 enveda-CASMI26-molecule-id-mass-spectra/
 .kaggle/
+
+# ===== 模型权重 / 大二进制（SHA 见 docs/MODELS.md，不入库） =====
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+*.bin
+*.pkl
+*.pickle
+*.joblib
+
+# ===== 压缩包 / 大数据格式 =====
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.parquet
+*.npy
+*.npz
+
+# ===== 日志 / 运行时临时（结论已固化在对应 .md，不传日志） =====
+*.log
+*.part
+*.tmp
+*.temp
+*.lock
+*.swp
+
+# ===== 第三方依赖（vendor，可再装） =====
+**/dependencies/
+**/site-packages/
+**/node_modules/
+third_party/prvsiyan_analog/cache_equivalence_rg20/linked_linux/
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
 .txt
 
-# Kaggle /kaggle/input mount views (junction/symlink scaffolds) created by reproduction scripts
+# ===== Kaggle /kaggle/input 挂载 scaffold（复现脚本创建的 junction/symlink） =====
 **/attached_input/
 **/input_view/
-third_party/prvsiyan_analog/cache_equivalence_rg20/linked_linux/

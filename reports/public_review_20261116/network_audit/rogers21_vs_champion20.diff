@@ -1,0 +1,17 @@
+--- rogers21
++++ champion20
+@@ -102,11 +102,10 @@
+     rep['overlay'] = {k: diag[k] for k in ('status', 'error', 'control_sha256', 'submission_sha256', 'changed_rows',
+                                            'top1_changed', 'tail_changed', 'adjacent_swaps') if k in diag}
+     if diag.get('control_sha256'):
+-        if diag['control_sha256'] != rep['input_sha256']['v2']:
+-            print('WARNING: control_sha256 mismatch, proceeding safely with current v2')
++        assert diag['control_sha256'] == rep['input_sha256']['v2'], 'the fragment check did not read the V2 file'
+     if diag.get('submission_sha256'):
+-        if diag['submission_sha256'] != rep['input_sha256']['physical_v2']:
+-            print('WARNING: submission_sha256 mismatch, proceeding safely with current physical_v2')
++        assert diag['submission_sha256'] == rep['input_sha256']['physical_v2'], \
++            'submission.csv is not the file the fragment check wrote'
+     frames = [pd.read_csv(p, dtype=str, keep_default_na=False) for p in (sub_path, v_path, c_path)]
+     for f in frames:
+         assert list(f.columns) == ['molecule_id', 'smiles'] and f.molecule_id.tolist() == SAMPLE_IDS, \

@@ -1,0 +1,132 @@
+{
+  "status": "COMPONENT_FORWARD_PASSED",
+  "device": "cpu",
+  "labels_used": false,
+  "hidden_data_used": false,
+  "environment_modified": false,
+  "source_commit": "e19ef82c9a6cb9dbac92bce23e914008f1aeb44e",
+  "model": "FIORA OS v1.0.0",
+  "dependency_target": "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/dependencies-linux",
+  "scope": "component forward only; no ranking or timsTOF domain claim",
+  "script_sha256": "73ed6372f2642a7fe59fedef33ac6b94d6bcd4b2bf69dfd5eb487f53a423d73a",
+  "import_seconds": 100.716678667,
+  "torch_version": "2.9.1+cu126",
+  "torch_geometric_version": "2.6.1",
+  "dependency_versions": {
+    "torch-geometric": "2.6.1",
+    "treelib": "1.8.0",
+    "dill": "0.4.0",
+    "aiohttp": "3.12.15",
+    "xxhash": "3.6.0",
+    "regex": "2025.9.18",
+    "six": "1.17.0"
+  },
+  "state_sha256": "83221e187991f116a8aed1bf272dd656cf31721a177dcbb0239f414c8df31a0e",
+  "model_conditions": {
+    "instrument": [
+      "HCD"
+    ],
+    "precursor_mode": [
+      "[M+H]+",
+      "[M-H]-",
+      "[M]+",
+      "[M]-"
+    ]
+  },
+  "state_load": {
+    "strict": true,
+    "state_keys": 67,
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "parameters": 13447861,
+    "seconds": 1.7648745360000362
+  },
+  "graph_prepare_seconds": 1.1376893769999583,
+  "queries": [
+    {
+      "name": "canary_caffeic_acid",
+      "smiles": "O=C(O)/C=C/c1ccc(O)c(O)c1",
+      "canonical_smiles": "O=C(O)/C=C/c1ccc(O)c(O)c1",
+      "formula": "C9H8O4",
+      "raw_shape": [
+        262
+      ],
+      "raw_std": 0.07873105257749557,
+      "raw_min": 4.76204470821473e-13,
+      "raw_max": 0.9380249381065369,
+      "peaks": 11,
+      "mz": [
+        179.03498228391,
+        162.031694052,
+        161.02332044009,
+        161.02332044009,
+        161.02332044009,
+        135.04405588409,
+        134.036779432,
+        133.02840582009,
+        121.02840582009,
+        109.02840582009,
+        108.021129368
+      ],
+      "intensity": [
+        0.032086171209812164,
+        0.0011477263178676367,
+        0.012265716679394245,
+        0.003840002929791808,
+        0.0015963348560035229,
+        0.9380249381065369,
+        0.013207006268203259,
+        0.010249122977256775,
+        0.001031898777000606,
+        0.006881093140691519,
+        0.0012755452189594507
+      ],
+      "forward_and_peak_seconds": 0.5936671270000033
+    },
+    {
+      "name": "canary_24_dihydroxycinnamic_acid",
+      "smiles": "O=C(O)/C=C/c1ccc(O)cc1O",
+      "canonical_smiles": "O=C(O)/C=C/c1ccc(O)cc1O",
+      "formula": "C9H8O4",
+      "raw_shape": [
+        262
+      ],
+      "raw_std": 0.06844474375247955,
+      "raw_min": 8.993478704810709e-13,
+      "raw_max": 0.8161464929580688,
+      "peaks": 11,
+      "mz": [
+        179.03498228391,
+        161.02332044009,
+        161.02332044009,
+        161.02332044009,
+        135.04405588409,
+        134.036779432,
+        133.02840582009,
+        123.04405588409,
+        121.02840582009,
+        109.02840582009,
+        107.01275575609
+      ],
+      "intensity": [
+        0.010195683687925339,
+        0.04884260520339012,
+        0.004836741369217634,
+        0.00719883106648922,
+        0.8161464929580688,
+        0.007625959813594818,
+        0.06459777802228928,
+        0.002035283949226141,
+        0.007440387737005949,
+        0.04088103026151657,
+        0.0012921984307467937
+      ],
+      "forward_and_peak_seconds": 0.01363637800000106
+    }
+  ],
+  "same_formula": "C9H8O4",
+  "raw_shapes_equal": true,
+  "max_abs_raw_delta": 0.12562501430511475,
+  "spectra_equal": false,
+  "total_seconds": 105.40058591100001
+}

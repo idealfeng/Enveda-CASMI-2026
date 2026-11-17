@@ -1,0 +1,15 @@
+{
+  "status": "completed_fixed_payload_read_only_verification",
+  "files": {
+    "scripts/build_fiora_submission_payload_20261116.py": "dda7c77159a3676fb4e9be2434377fa43767bad5f8feb5879eae39c7d1d5e1fc",
+    "scripts/run_fiora_payload_20261116.sh": "2a7c54a5ee2b0737a113bc167b20401d8302df950dd9807103aa3e7cc2883675",
+    "reports/optimization_20261116/fiora_payload/isolated_forward_verification.json": "475ce6c51c7413a05517a0da4bfb0c90b35255ba6f77f46994f8130eaf9419fa",
+    "reports/optimization_20261116/fiora_payload/isolated_forward_first_mismatch.json": "39b162f517dd348949c605c20c5b71d7ed20b9c569093a2aa810146f99597d95",
+    "reports/optimization_20261116/fiora_payload/VERIFICATION.md": "3c912e452609b4a11ece899effe163289616eb733e6ca8643f97f435d4205e10",
+    "submission/optimization_20261116/fiora_payload/asset_manifest.json": "113c1f1af933e1f01bcdce6cf6a0a02cd618f7594b561e3928c80ae70d0c0622",
+    "submission/optimization_20261116/fiora_payload/state.pt": "c449c98ad0cf42e71561b8de97073986a447019c7430c82111a7eb29466c54f9",
+    "runs/fiora_tims_model_20261115/pilot500/last_checkpoint.pt": "9c899faa1c45d9a0c25588f99186f34112b25eafe3f6d955a3da34c267996252"
+  },
+  "markdown_links_checked": true,
+  "no_model_or_algorithm_or_frozen_payload_changes": true
+}

@@ -1,0 +1,18 @@
+{
+  "status": "accepted",
+  "pid": 64696,
+  "target": "stormseye/casmi26-fiora-tims500-isomers-1116",
+  "branch": "fiora_tims500_fullslots",
+  "manifest_sha256": "1e6294cc3136b53656ccf91522efb642530f2beffa9901a54a377dd32958af50",
+  "branch_sha256": "4625c61c4ab058a874c26e1119a7bf270054e70fd3903e9fc564aa8a684413bb",
+  "started_at_utc": "2026-11-16T15:08:34.160753+00:00",
+  "maximum_seconds": 7200.0,
+  "interval_seconds": 45,
+  "submission_retries_allowed": false,
+  "notebook_push_performed": false,
+  "cloud_status": "COMPLETE",
+  "checked_at_utc": "2026-11-16T15:12:59.560518+00:00",
+  "cloud_failure_message_present": false,
+  "submission_ref": 58435031,
+  "finished_at_utc": "2026-11-16T15:12:59.560518+00:00"
+}

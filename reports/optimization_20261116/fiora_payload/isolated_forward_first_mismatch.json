@@ -1,0 +1,17 @@
+{
+  "status": "failed_strict_byte_parity_check",
+  "score": 0.0023397624482988074,
+  "expected_score": 0.002339762284911956,
+  "raw_sha256": "af8f9ea3b8907c761b28d23bafab695f6130a7a5981bb01e6c742746b848e351",
+  "expected_raw_sha256": "dc978e87fada10ed7a10d6967d05b57eb3800e040bd0c58786468698d794f631",
+  "rdkit_version": "2026.03.3",
+  "torch_version": "2.9.1+cu126",
+  "pyg_version": "2.6.1",
+  "graph_edges": 54,
+  "reference_graph_edges": 54,
+  "compiled_elements": 542,
+  "reference_compiled_elements": 542,
+  "candidate_index": 0,
+  "molecule_id": "fiora_QNURDABFJOTVCY",
+  "asset_manifest_sha256": "113c1f1af933e1f01bcdce6cf6a0a02cd618f7594b561e3928c80ae70d0c0622"
+}

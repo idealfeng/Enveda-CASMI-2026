@@ -1,0 +1,6 @@
+{
+  "before_sha256": "35b5e8cc4bd05dfd46d21762bbecf717eddc86ba7f23de135cdb19a2f47dc9a2",
+  "after_sha256": "66779e92f59b636fb74f677cb5122aa69a9d7151271fd82af3c6a813a728e2a8",
+  "change": "Install local reference mask and candidate recorder; original E2 pool and rankers retained.",
+  "v43_resource_policy": null
+}

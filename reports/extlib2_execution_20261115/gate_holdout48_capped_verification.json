@@ -1,0 +1,60 @@
+{
+  "status": "completed_capped_frozen_old48_gate_features",
+  "checks": {
+    "no_train_holdout_identity_overlap": true,
+    "same_feature_implementation": true,
+    "feature_columns_exact": true,
+    "labels_and_reference_condition_not_features": true,
+    "each_query_two_arms": true,
+    "source_matches_unchanged": true,
+    "query_spectrum_cap_matches_training": true,
+    "all_used_events_from_selected_spectra": true,
+    "selection_shared_across_reference_conditions": true
+  },
+  "queries": 48,
+  "rows": 96,
+  "matching_rerun": false,
+  "training_performed": false,
+  "holdout_label_metrics_computed": false,
+  "source_script_sha256": "eec30e1c54ea1b951f4ee5abc48b342ca2659d2fa70936c53f4d5321dd038b3a",
+  "exporter_script_sha256": "086501bd37cfc79946d4a96559e41f329bd093cdb5a5db3c54a33f6a7b971e3f",
+  "query_file_sha256": "de8818acf93035c937f896ee93fa5aecfb1352af9727faf79eaa1af33bf9b5fc",
+  "source_C_match_sha256": "ed25a2a1318c0a6416ab4bd37e19452d89e3eb39ac21611e1c66841205ef76e0",
+  "truth_control_metadata_sha256": "b47e21297d5b3b528430a9fd2286574589026b4d3f2228c3ac2b6d98f260fb7f",
+  "train_pilot_selection_sha256": "674c5ef17bda33069d18185d87b3104fbe44d4ae8f5eb3453c28d5fe4b88d57a",
+  "feature_columns": [
+    "has_match",
+    "best_cosine",
+    "second_identity_cosine",
+    "identity_margin",
+    "best_matched_peaks",
+    "support_spectra",
+    "support_fraction",
+    "distinct_references",
+    "same_adduct_fraction",
+    "ppm_error_min",
+    "query_spectra",
+    "query_peak_count_mean",
+    "reference_peak_count",
+    "positive_query_fraction"
+  ],
+  "counters": {
+    "query_spectra_source_row_available": 240,
+    "query_spectra_source_row_unavailable": 0,
+    "original_query_spectra": 240,
+    "selected_query_spectra": 111,
+    "dropped_query_spectra": 129,
+    "cached_input_events": 12344,
+    "dropped_events_for_unselected_query_spectra": 6239,
+    "selected_events": 6105
+  },
+  "artifact_pins": {
+    "features.parquet": "ce53f71cfe9d56da53874fded681164de720e6393169a0e08e710e054fb20715",
+    "labels.parquet": "cbd6b7afbbe90d5d01937fd27e82dac98b109bc09f7cae2d59cb2cb2dbc028bb",
+    "row_metadata.parquet": "cdd1ce7290e11e5febd9fe36ad5e2c08343df9808d111ffe6738e91208d55dfe",
+    "feature_schema.json": "ea5f5a0500cb6953e079d7d2f3719cd9b3fffdf4b895bc68453ab4bdcfd74bd6",
+    "query_selection.json": "2189c11da3110d857a09e8c8b827f07a6eb7b3d013749bb8f0b63719eee47f95"
+  },
+  "new_public_score": null,
+  "boundary": "Prospectively frozen C query cap3 aligned with training runtime. Use capped C winner for BOTH learned p=.9 and fixed cos=.8 comparator. The original AB/pipeline library_max context still uses all original query spectra. Old48 labels construct reference absence and separate evaluation targets only; not fit or selection. Known legacy-model pretraining exposure persists; component holdout, not exact .488 or clean CV. Uncapped r2 preserved as diagnostic only."
+}

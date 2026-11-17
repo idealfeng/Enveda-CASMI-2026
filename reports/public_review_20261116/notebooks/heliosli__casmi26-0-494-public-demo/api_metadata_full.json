@@ -1,0 +1,39 @@
+{
+  "id": 142585077,
+  "ref": "heliosli/casmi26-0-494-public-demo",
+  "title": "casmi26-0.494-public demo",
+  "author": "Heliosli",
+  "slug": "casmi26-0-494-public-demo",
+  "lastRunTime": "2026-11-13T15:20:23.816Z",
+  "language": "python",
+  "kernelType": "notebook",
+  "isPrivate": false,
+  "enableGpu": true,
+  "enableInternet": false,
+  "categoryIds": [
+    "gpu"
+  ],
+  "datasetDataSources": [
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "heliosli/casmi26-rr-v3",
+    "heliosli/casmi26-denovo-v3",
+    "heliosli/casmi26-frigid-e1",
+    "heliosli/casmi26-joint-ranker",
+    "heliosli/casmi26-pxv2-deploy",
+    "heliosli/casmi26-rt-np",
+    "sanpier/catalogue-experiment-saner"
+  ],
+  "competitionDataSources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "totalVotes": 130,
+  "enableTpu": false,
+  "currentVersionNumber": 4,
+  "dockerImage": "gcr.io/kaggle-private-byod/python@sha256:9a6bcfda6d03b2cd9aa347ee8c1bae62043328ed0f4afe9bda014e4f8bbf9435",
+  "machineShape": "NvidiaTeslaT4"
+}

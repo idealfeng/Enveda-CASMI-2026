@@ -1,0 +1,18 @@
+{
+  "status": "run_requested",
+  "target": "stormseye/casmi26-rogers0492-repro-1117",
+  "version": 1,
+  "branch_sha256": "aee777af55942122c587f570411a27e3372746370953fbf31771cf8c517b4d75",
+  "notebook_sha256": "5921fe5b86cc995e779df4eac49ea0a84942bedc8e8bcaf15c6b1b6e99aca135",
+  "metadata_sha256": "8c1b9ba3edc405a8077116942676cfd9263c82b68b7e0bf66673d40a11411a6f",
+  "requested_at_utc": "2026-11-17T04:04:29.708129+00:00",
+  "automatic_retry_allowed": false,
+  "competition_submission_performed": false,
+  "responded_at_utc": "2026-11-17T04:04:35.008527+00:00",
+  "observed_version": 1,
+  "response_error_present": false,
+  "invalid_sources_present": false,
+  "actual_target": "stormseye/casmi26-rogers0492-reproduction-1117",
+  "reconciled_by_read_at": "2026-11-17T04:05:59.914181+00:00",
+  "reconciliation_server_source_sha256": "dbc00b3ae94d9493e14153a805cf9d851059da096293268e36815052b38d21e8"
+}

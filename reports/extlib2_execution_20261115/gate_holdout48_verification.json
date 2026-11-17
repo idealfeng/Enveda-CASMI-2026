@@ -1,0 +1,49 @@
+{
+  "status": "completed_frozen_old48_gate_features",
+  "checks": {
+    "no_train_holdout_identity_overlap": true,
+    "same_feature_implementation": true,
+    "feature_columns_exact": true,
+    "labels_and_reference_condition_not_features": true,
+    "each_query_two_arms": true,
+    "source_matches_unchanged": true,
+    "best_identity_replays_original": true
+  },
+  "queries": 48,
+  "rows": 96,
+  "matching_rerun": false,
+  "training_performed": false,
+  "source_script_sha256": "eec30e1c54ea1b951f4ee5abc48b342ca2659d2fa70936c53f4d5321dd038b3a",
+  "query_file_sha256": "de8818acf93035c937f896ee93fa5aecfb1352af9727faf79eaa1af33bf9b5fc",
+  "source_C_match_sha256": "ed25a2a1318c0a6416ab4bd37e19452d89e3eb39ac21611e1c66841205ef76e0",
+  "truth_control_metadata_sha256": "b47e21297d5b3b528430a9fd2286574589026b4d3f2228c3ac2b6d98f260fb7f",
+  "train_pilot_selection_sha256": "674c5ef17bda33069d18185d87b3104fbe44d4ae8f5eb3453c28d5fe4b88d57a",
+  "feature_columns": [
+    "has_match",
+    "best_cosine",
+    "second_identity_cosine",
+    "identity_margin",
+    "best_matched_peaks",
+    "support_spectra",
+    "support_fraction",
+    "distinct_references",
+    "same_adduct_fraction",
+    "ppm_error_min",
+    "query_spectra",
+    "query_peak_count_mean",
+    "reference_peak_count",
+    "positive_query_fraction"
+  ],
+  "counters": {
+    "best_reference_identity_equal_to_frozen_old_matcher": 96,
+    "rows": 96
+  },
+  "artifact_pins": {
+    "features.parquet": "93734d508aa28e48fe7f4c731a2621835207a2ea05fb5bdd7a9d2591782c6054",
+    "labels.parquet": "cac4938e3a0bf1c92369f79b3dec13f8199c223c4806de36838a9cf8ee1cf29b",
+    "row_metadata.parquet": "0c5f89dd46e73d4ca0045e9961b42143797d5956b0d54823f8e7d774c02c36a8",
+    "feature_schema.json": "b35a9aeae0f3031ff44fc17125610013ce89249fff1f176045409d16199d5602"
+  },
+  "new_public_score": null,
+  "boundary": "Old48 labels are isolated from model input and fit. They construct the predefined reference-absence condition and evaluation targets only. Prior pipeline library_max/context remains unchanged; this is a component holdout with known legacy-model pretraining exposure, not exact .488 clean CV."
+}

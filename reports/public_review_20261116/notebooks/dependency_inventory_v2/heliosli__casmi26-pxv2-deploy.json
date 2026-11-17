@@ -1,0 +1,90 @@
+{
+  "ref": "heliosli/casmi26-pxv2-deploy",
+  "read_only": true,
+  "files_only": true,
+  "model_bytes_downloaded": 0,
+  "status": "files_read",
+  "file_count": 7,
+  "files": [
+    {
+      "name": "README_PUBLIC_DEMO.md",
+      "creationDate": "2026-11-16T06:23:24.214Z",
+      "totalBytes": 783
+    },
+    {
+      "name": "public_demo_manifest.json",
+      "creationDate": "2026-11-16T06:23:24.221Z",
+      "totalBytes": 438
+    },
+    {
+      "name": "px_data.py",
+      "creationDate": "2026-11-16T06:23:24.164Z",
+      "totalBytes": 7855
+    },
+    {
+      "name": "px_demo_selftest.json",
+      "creationDate": "2026-11-16T06:23:24.186Z",
+      "totalBytes": 22699
+    },
+    {
+      "name": "px_deploy.py",
+      "creationDate": "2026-11-16T06:23:24.163Z",
+      "totalBytes": 6818
+    },
+    {
+      "name": "px_model.py",
+      "creationDate": "2026-11-16T06:23:24.215Z",
+      "totalBytes": 8914
+    },
+    {
+      "name": "pxv2_30000.pt",
+      "creationDate": "2026-11-16T06:23:24.895Z",
+      "totalBytes": 37571839
+    }
+  ],
+  "next_page_token_present": false,
+  "dataset_view": {
+    "id": 13012484,
+    "ref": "heliosli/casmi26-pxv2-deploy",
+    "subtitle": "Runnable public demo artifacts; original competition weights excluded",
+    "creatorName": "Heliosli",
+    "totalBytes": 37619346,
+    "lastUpdated": "2026-11-16T06:23:22.543Z",
+    "downloadCount": 151,
+    "licenseName": "CC0: Public Domain",
+    "description": "# Public demonstration artifacts: casmi26-pxv2-deploy\n\nThis version is an interface and execution demonstration. The original competition-trained weights are not included. It is not a reproduction package for the 0.494 leaderboard result and has no claimed leaderboard score.\n\nModel loaders, file names, tensor dimensions, candidate tables and upstream public assets are retained for compatibility. Private learned parameters are replaced with initialized demo weights (the joint ranker uses a synthetic fit). Self-tests validate this demo version only.\n\nPX reference scores embedded in notebooks must correspond to this demonstration version; updated fixtures are included in this dataset.\n\nOriginal license and upstream source notices continue to apply to the corresponding files.\n",
+    "ownerName": "Heliosli",
+    "ownerRef": "heliosli",
+    "kernelCount": 5,
+    "title": "casmi26-pxv2-deploy",
+    "viewCount": 6,
+    "voteCount": 1,
+    "currentVersionNumber": 2,
+    "usabilityRating": 0.6875,
+    "tags": [
+      {
+        "ref": "pre-trained model",
+        "name": "pre-trained model",
+        "description": "",
+        "fullPath": "admin > pre-trained model",
+        "competitionCount": 2,
+        "datasetCount": 655451,
+        "scriptCount": 301,
+        "totalCount": 655754
+      }
+    ],
+    "versions": [
+      {
+        "versionNumber": 2,
+        "creationDate": "2026-11-16T06:23:22.543Z",
+        "creatorName": "Heliosli",
+        "creatorRef": "casmi26-pxv2-deploy",
+        "versionNotes": "PUBLIC-DEMO-1116-R1: Runnable demonstration artifacts; original competition weights excluded. Not a reproduction of 0.494.",
+        "status": "Ready"
+      }
+    ],
+    "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-7.png-31141478/dataset-thumbnail.png"
+  },
+  "current_version_number": 2,
+  "is_private": false
+}

@@ -1,0 +1,89 @@
+{
+  "status": "passed",
+  "scope": "Independent final byte/source/archive binding review; no new model or cloud execution",
+  "checks": {
+    "parent_notebook_source_pin": true,
+    "all_33_original_cells_unchanged": true,
+    "runtime_embedded_bytes_exact": true,
+    "runtime_pin_exact": true,
+    "recipe_pin_exact": true,
+    "branch_notebook_pin": true,
+    "branch_metadata_pin": true,
+    "manifest_branch_exact": true,
+    "old_dataset_versions_unchanged": true,
+    "new_dataset_version_exact": true,
+    "private_offline_gpu": true,
+    "frozen_manifest_pin": true,
+    "frozen_archive_pin": true,
+    "fast_static_scope_explicit": true,
+    "visible_real_canary_guard": true,
+    "hidden_parent_full_guard": true,
+    "failure_removes_new_final": true,
+    "all_cells_compile": true
+  },
+  "expected": {
+    "branch": "fiora_tims500_fullslots",
+    "recipe_sha256": "7dc47ef562744ee9486e52067508ff0ed03f6e5cfa84f6cf863f17d4f1594544",
+    "dataset_slug": "casmi26-fiora-tims500-1116",
+    "module_sha256": "1f7dece2a4a817c54c1915dbc45ad64ebaa6e084d4646acc3f6cd7972d80e817",
+    "asset_manifest_sha256": "113c1f1af933e1f01bcdce6cf6a0a02cd618f7594b561e3928c80ae70d0c0622",
+    "archive_sha256": "fcbc50007c6054046ec96cb1ec42809fea8fe7ced253d33c26daa74672528284",
+    "parent_checkpoint_sha256": "9c899faa1c45d9a0c25588f99186f34112b25eafe3f6d955a3da34c267996252",
+    "state_sha256": "c449c98ad0cf42e71561b8de97073986a447019c7430c82111a7eb29466c54f9"
+  },
+  "notebook_sha256": "550980d58100fce62830f089848bc303e102ec0f912ffadb14e9fd2ad53d11b4",
+  "metadata_sha256": "aa5d646d68dce6e187e3de2c32624e4a8a5fd967feed8a01f33f0398cf309b6c",
+  "component_receipt": {
+    "status": "passed_real_component_runtime_to_csv",
+    "script_sha256": "1f7dece2a4a817c54c1915dbc45ad64ebaa6e084d4646acc3f6cd7972d80e817",
+    "asset_manifest_sha256": "113c1f1af933e1f01bcdce6cf6a0a02cd618f7594b561e3928c80ae70d0c0622",
+    "contracts": {
+      "spectral_score_ast_identical": true,
+      "mass_map_ast_identical": true
+    },
+    "cases": {
+      "label_free_dev2": {
+        "rows": 2,
+        "supported_queries": 2,
+        "scored_queries": 2,
+        "scored_candidate_rows": 50,
+        "actual_forward_calls": 50,
+        "candidate_failure_queries": 0,
+        "changed_queries": 2,
+        "changed_top1": 0,
+        "reason_counts": {
+          "scored_same_formula": 2
+        },
+        "elapsed_seconds": 122.39294565700001,
+        "host_peak_mib": 1393.69921875,
+        "gpu_peak_allocated_mib": 71.7451171875,
+        "audit_sha256": "45b3e236a19f71852368a859807f2042294144317fd3443fe472584fb6b03d67"
+      },
+      "existing_production2": {
+        "rows": 2,
+        "supported_queries": 1,
+        "scored_queries": 1,
+        "scored_candidate_rows": 25,
+        "actual_forward_calls": 25,
+        "candidate_failure_queries": 0,
+        "changed_queries": 1,
+        "changed_top1": 1,
+        "reason_counts": {
+          "no_supported_spectrum": 1,
+          "scored_same_formula": 1
+        },
+        "elapsed_seconds": 53.431878388,
+        "host_peak_mib": 1500.26171875,
+        "gpu_peak_allocated_mib": 135.02197265625,
+        "audit_sha256": "af1911c4f668747018140a8cdac4ac2a215f4df3f0350095955631eeb8dd423f"
+      }
+    },
+    "static_model_not_invoked": true,
+    "static_original_bytes_exact": true,
+    "labels_read": false,
+    "full_champion_initialization_rerun": false,
+    "kaggle_hidden_success": false,
+    "public_score": null,
+    "boundary": "Actual model/runtime/CSV checks on fixed dev2 plus existing production2 outputs; not new full champion initialization or efficacy proof"
+  }
+}

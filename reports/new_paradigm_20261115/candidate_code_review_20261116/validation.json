@@ -1,0 +1,43 @@
+{
+  "scripts/score_fiora_candidate_pilot_20261115.py": {
+    "syntax": "pass",
+    "sha256": "a87b089cad27507161a6f4fe592e0e17c1f618ed44f27b1a65678cda6a93eae7"
+  },
+  "scripts/evaluate_fiora_candidate_pilot_20261115.py": {
+    "syntax": "pass",
+    "sha256": "79c409cd568fc7ae1571bb4d856cee831d48e5b38f65c83f92ea9576606ca261"
+  },
+  "gate_refusal_cases": [
+    {
+      "case": "missing_receipt",
+      "pass": true,
+      "error": "Inference verification missing; evaluation truth remains unopened",
+      "truth_metadata_opened": false,
+      "zero_score_imputed": false
+    },
+    {
+      "case": "incomplete_receipt",
+      "pass": true,
+      "error": "Inference not complete; evaluation truth remains unopened",
+      "truth_metadata_opened": false,
+      "zero_score_imputed": false
+    },
+    {
+      "case": "nonfinite_receipt",
+      "pass": true,
+      "error": "Incomplete/nonfinite predictions; evaluation truth remains unopened",
+      "truth_metadata_opened": false,
+      "zero_score_imputed": false
+    }
+  ],
+  "fixture_json_reads": [
+    "reports\\new_paradigm_20261115\\candidate_code_review_20261116\\fixtures\\incomplete_receipt\\inference\\verification.json",
+    "reports\\new_paradigm_20261115\\candidate_code_review_20261116\\fixtures\\nonfinite_receipt\\inference\\verification.json"
+  ],
+  "real_truth_or_prediction_rows_opened": false,
+  "real_models_loaded": false,
+  "before_repair_evaluator": {
+    "sha256": "2cca287bf0d2c3a5f9bef5af5a8036407b9a570fb67e31ec7c571023df7b923f",
+    "syntax": "SyntaxError: keyword argument repeated: top25 at line172"
+  }
+}

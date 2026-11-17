@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-champion-network-before-ab-1117",
+  "version": 1,
+  "actual_target": "stormseye/casmi26-champion-network-before-ab-1117",
+  "branch_sha256": "dad7e01d8a61502ffa3b8c4f3ebbd6dbe2d5cfba060b54f77f30b614805d061b",
+  "notebook_sha256": "e8f5e733961da9d0030b0961712e67ff8953470f3ef52414431eb6432e79206a",
+  "checked_at_utc": "2026-11-17T04:12:32.730666+00:00",
+  "checks": {
+    "csv_schema_and_official_identities": true,
+    "version_source_private_offline": true,
+    "observer:batch_variant_audit.json": true,
+    "observer:guarded_tail_audit.json": true,
+    "observer:network_audit.json": true,
+    "observer:external_overlay_audit.json": true,
+    "observer:champion_network_audit.json": true
+  },
+  "files": [
+    {
+      "name": "submission.csv",
+      "bytes": 153619,
+      "sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0"
+    },
+    {
+      "name": "batch_variant_audit.json",
+      "bytes": 1501,
+      "sha256": "2061f767b45750206a4e482971b383097810927e7a8a204eebf670a7890b0131"
+    },
+    {
+      "name": "guarded_tail_audit.json",
+      "bytes": 741,
+      "sha256": "9d10f93bc38eb6a4bb49415567ceb510ba9993c7f321ebbecff67fa84436f1bb"
+    },
+    {
+      "name": "network_audit.json",
+      "bytes": 54186,
+      "sha256": "05b4a0276cf58feb74876561041b0ac5509a0e6bc2aa301d5386b64c318dcdfa"
+    },
+    {
+      "name": "external_overlay_audit.json",
+      "bytes": 863,
+      "sha256": "0baf0839f2e297d6d6d5e011a1e98aba5cab19e95e8e33ee44411d650c866d0b"
+    },
+    {
+      "name": "champion_network_audit.json",
+      "bytes": 1270,
+      "sha256": "ad519379539ba9b6a81f243a7f3cdd8ae113de3de9a2a820f25a1a671bbf0607"
+    }
+  ],
+  "csv": {
+    "rows": 400,
+    "rdkit": "2026.03.3",
+    "duplicate_identity_rows": []
+  },
+  "submission_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "total_bytes": 212180,
+  "validation_mode": "fast_static",
+  "scope": "fast_static_no_visible_model_execution",
+  "signed_urls_persisted": false,
+  "read_only": true,
+  "competition_submission_performed": false
+}

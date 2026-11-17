@@ -1,0 +1,65 @@
+{
+  "status": "passed_pure_structure_native_mass_map_contract",
+  "model_loaded": false,
+  "development_predictions_read": false,
+  "label_cache_results_read": false,
+  "fixtures": [
+    {
+      "name": "ethanol",
+      "directed_edges": 4,
+      "compiled_elements": 42,
+      "forward_mass_channels": 21,
+      "native_unique_mass_count": 21,
+      "native_vs_sidecar_max_abs_aggregated_intensity_delta": 0.0,
+      "native_ring_skip_and_direction_mass_map_equal": true
+    },
+    {
+      "name": "caffeic",
+      "directed_edges": 26,
+      "compiled_elements": 262,
+      "forward_mass_channels": 71,
+      "native_unique_mass_count": 43,
+      "native_vs_sidecar_max_abs_aggregated_intensity_delta": 0.0,
+      "native_ring_skip_and_direction_mass_map_equal": true
+    },
+    {
+      "name": "phenol",
+      "directed_edges": 14,
+      "compiled_elements": 142,
+      "forward_mass_channels": 11,
+      "native_unique_mass_count": 11,
+      "native_vs_sidecar_max_abs_aggregated_intensity_delta": 0.0,
+      "native_ring_skip_and_direction_mass_map_equal": true
+    },
+    {
+      "name": "symmetric",
+      "directed_edges": 8,
+      "compiled_elements": 82,
+      "forward_mass_channels": 41,
+      "native_unique_mass_count": 21,
+      "native_vs_sidecar_max_abs_aggregated_intensity_delta": 0.0,
+      "native_ring_skip_and_direction_mass_map_equal": true
+    },
+    {
+      "name": "charged",
+      "directed_edges": 12,
+      "compiled_elements": 122,
+      "forward_mass_channels": 61,
+      "native_unique_mass_count": 41,
+      "native_vs_sidecar_max_abs_aggregated_intensity_delta": 0.0,
+      "native_ring_skip_and_direction_mass_map_equal": true
+    }
+  ],
+  "seconds": 88.85943749499995,
+  "preparer_sha256": "e5dddf8ab9339ed22472e5560406d266addb5417af50694f96932accb1900418",
+  "native_simulation_sha256": "7367beb1d1789fa1157f361abb4763af1bd1f64829f632818507675823dd6ef6",
+  "native_modes": [
+    "[M+H]+",
+    "[M]+",
+    "[M-H]+",
+    "[M-2H]+",
+    "[M-3H]+"
+  ],
+  "source_script_sha256": "b827b1a579e9ea9b26c3b5c9882887ae52bbc410113c968379cb728cc852ee74",
+  "boundary": "Five connected synthetic graph fixtures with distinct sentinel channel intensities; separate disconnected fixture rejected by native fragmentation before mapping. No trained model, real spectrum labels, dev score, fitting, or training."
+}

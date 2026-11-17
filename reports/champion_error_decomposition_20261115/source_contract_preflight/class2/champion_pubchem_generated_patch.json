@@ -1,0 +1,8 @@
+{
+  "status": "patched_generated_copy",
+  "before_sha256": "4b4b8ca36ab9cc868bfe263895b490aa35c95ff90d83ba652577edd0aec9f53d",
+  "after_sha256": "792f7bfeb7f5b6cdb0d11e558ec0102a534256fa734da6d8d4542d783dbd034d",
+  "reference_mode": "class2",
+  "best_pool_fz_window_filtered": false,
+  "no_model_execution": true
+}

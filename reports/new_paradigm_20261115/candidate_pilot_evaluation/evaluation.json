@@ -1,0 +1,3453 @@
+{
+  "status": "completed_fixed_eight_query_component_candidate_evaluation",
+  "evaluated_at_utc": "2026-11-16T13:56:23.920892+00:00",
+  "first_truth_read_after_complete_prediction_gate": true,
+  "official_rdkit_version": "2026.03.3",
+  "metric_source_sha256": "bf8535f01bf73268a52819b38e7f6b205e37ec127c268e48081b780a10b609dd",
+  "ranking_policy": {
+    "score_direction": "descending",
+    "tie_break": "ascending original candidate_index",
+    "identity": "RDKit2026.03.3 remove stereo then canonical tautomer then InChIKey14",
+    "duplicate_identity_rule": "keep first after stable descending score ordering",
+    "invalid_identity_rule": "exclude before constructing submitted list; report excluded row indices",
+    "maximum_submitted_candidates": 25,
+    "missing_or_outside_top25_reciprocal_rank": 0.0,
+    "missing_prediction_rule": "refuse entire evaluation before opening truth; never impute zero or drop a query",
+    "candidate_cap_changed": false,
+    "threshold_or_fusion_selection": false
+  },
+  "query_denominator": 8,
+  "source_development_denominator": 100,
+  "queries_selected_from98_graph_ready": true,
+  "full_window_candidate_recall": 1.0,
+  "capped_candidate_recall": 0.875,
+  "cap_removed_all_truth_queries": 1,
+  "unavailable_candidates_not_labeled_ranking_errors": true,
+  "missing_scores_total": 0,
+  "checkpoint_metrics": {
+    "step0": {
+      "queries": 8,
+      "MRR_at_25": 0.5833333333333334,
+      "top1_accuracy": 0.5,
+      "top25_recall": 0.75
+    },
+    "step500": {
+      "queries": 8,
+      "MRR_at_25": 0.6554347826086957,
+      "top1_accuracy": 0.625,
+      "top25_recall": 0.875
+    }
+  },
+  "delta_MRR_at_25": 0.07210144927536233,
+  "paired_outcomes": {
+    "improved": 2,
+    "unchanged": 5,
+    "worsened": 1
+  },
+  "queries": [
+    {
+      "molecule_id": "fiora_AUVKUOLQULWYKB",
+      "spectrum_id": "official_000041682",
+      "truth_official_identity": "AUVKUOLQULWYKB",
+      "uncapped_candidates": 111,
+      "capped_candidates": 111,
+      "full_window_true_identity_present": true,
+      "capped_true_identity_present": true,
+      "cap_removed_all_truth": false,
+      "candidate_availability": "truth_available_for_ranking",
+      "missing_score_count_step0": 0,
+      "missing_score_count_step500": 0,
+      "same_raw_candidate_set_and_order": true,
+      "step0": {
+        "mrr25_contribution": 0.0,
+        "top1": false,
+        "top25_hit": false,
+        "truth_rank_full_unique_candidates": 41,
+        "truth_rank25": null,
+        "unique_scored_identity_count": 111,
+        "duplicate_identities_removed": 0,
+        "invalid_official_identity_candidate_indices": [],
+        "top25": [
+          {
+            "candidate_index": 70,
+            "pid": 258050,
+            "smiles": "CC(C)COc1ccc(NC(=O)Cn2cccnc2=O)cc1Cl",
+            "official_identity": "YZSZPRQRCWONET",
+            "score": 0.26100655509716963
+          },
+          {
+            "candidate_index": 5,
+            "pid": 257985,
+            "smiles": "Cc1ccc(N2C(=O)C3NN=C(C(=O)c4cnccn4)C3C2=O)cc1",
+            "official_identity": "FMZQRVREMXMXRQ",
+            "score": 0.09286181396487878
+          },
+          {
+            "candidate_index": 52,
+            "pid": 258032,
+            "smiles": "Cc1noc(C)c1NC(=O)N1CCOC(c2ccccc2Cl)C1",
+            "official_identity": "QLOSPSOFNKITBH",
+            "score": 0.04867313047552883
+          },
+          {
+            "candidate_index": 44,
+            "pid": 258024,
+            "smiles": "COC1(C(=O)NCc2c(Cl)cccc2-n2ccnc2)CCOC1",
+            "official_identity": "NZHCXOQRGAUWFL",
+            "score": 0.045915484374324106
+          },
+          {
+            "candidate_index": 83,
+            "pid": 258063,
+            "smiles": "O=C(Nc1ccccc1Cl)N1CC2(CC(=O)N(CC3CC3)O2)C1",
+            "official_identity": "XIVQFXZNGGXZFO",
+            "score": 0.04473868137548487
+          },
+          {
+            "candidate_index": 80,
+            "pid": 258060,
+            "smiles": "O=C(Nc1ccc(Cl)cc1)N1CC2(CC(=O)N(CC3CC3)O2)C1",
+            "official_identity": "XOXAWSYSWJMQAP",
+            "score": 0.03309107606214316
+          },
+          {
+            "candidate_index": 65,
+            "pid": 258045,
+            "smiles": "CC(=O)N1CC(NC(=O)C2CCN(c3cccc(Cl)c3)C2=O)C1",
+            "official_identity": "XHDPOBFLXNYBNB",
+            "score": 0.013147201975395479
+          },
+          {
+            "candidate_index": 79,
+            "pid": 258059,
+            "smiles": "O=C(C1CN(c2nc3cc(Cl)ccc3o2)CCO1)N1CCCC1",
+            "official_identity": "VCAWFJIVYBFNAI",
+            "score": 0.013131812495984904
+          },
+          {
+            "candidate_index": 74,
+            "pid": 258054,
+            "smiles": "O=C(Nc1cc(-c2cccc(Cl)c2)on1)NC1CCC(O)CC1",
+            "official_identity": "OTVJQSFHEXOMRT",
+            "score": 0.011952243033067888
+          },
+          {
+            "candidate_index": 100,
+            "pid": 258080,
+            "smiles": "Cc1cccc(S(=O)(=O)Nc2[nH]nnc2C(=O)N2CCCC2)c1",
+            "official_identity": "RRRZKSDIHZHNGP",
+            "score": 0.010536480989294411
+          },
+          {
+            "candidate_index": 93,
+            "pid": 258073,
+            "smiles": "COC(=O)C(O)C(C(=O)SCC(NC(C)=O)C(=O)O)C(C)C",
+            "official_identity": "WSFRAWUTQCKTIT",
+            "score": 0.00794529154982088
+          },
+          {
+            "candidate_index": 90,
+            "pid": 258070,
+            "smiles": "CC(=O)OC(C)(C)C(=O)NCc1c(Cl)cccc1-n1ccnc1",
+            "official_identity": "JFWODYLPYFJKMQ",
+            "score": 0.005442849780963766
+          },
+          {
+            "candidate_index": 24,
+            "pid": 258004,
+            "smiles": "O=C(CNC(=O)C1CC1)Nc1ccc(C(=O)NC2CC2)c(Cl)c1",
+            "official_identity": "GWCWMKQYLKADAV",
+            "score": 0.003965363485271974
+          },
+          {
+            "candidate_index": 32,
+            "pid": 258012,
+            "smiles": "COc1cccc(C2CC(O)CN2c2nc(OC)ncc2Cl)c1",
+            "official_identity": "KBHYWPOJEJQPDM",
+            "score": 0.0033218646429163507
+          },
+          {
+            "candidate_index": 77,
+            "pid": 258057,
+            "smiles": "COc1ccc(Cl)cc1-c1cc(NC(=O)CC2CCOC2)n[nH]1",
+            "official_identity": "NWKQZMJGJYILBE",
+            "score": 0.003093864822144113
+          },
+          {
+            "candidate_index": 95,
+            "pid": 258075,
+            "smiles": "CCc1n[nH]c(C2CN(C(=O)c3cc(C(N)=O)cs3)CCO2)n1",
+            "official_identity": "NGUKYKKCDLJXHT",
+            "score": 0.002856489994613328
+          },
+          {
+            "candidate_index": 94,
+            "pid": 258074,
+            "smiles": "CCn1cnnc1SCCC(=O)Nc1cccc([N+](=O)[O-])c1C",
+            "official_identity": "BFYOJQSGQSBWQD",
+            "score": 0.0028172009358429268
+          },
+          {
+            "candidate_index": 48,
+            "pid": 258028,
+            "smiles": "Cc1cc(C(=O)NCc2nnc(C3CCCOC3)o2)ccc1Cl",
+            "official_identity": "OZWXRIHKQLFVTN",
+            "score": 0.00156836262115068
+          },
+          {
+            "candidate_index": 42,
+            "pid": 258022,
+            "smiles": "Cc1noc(C)c1N(C)C(=O)c1cnc(OCC2CC2)c(Cl)c1",
+            "official_identity": "MUEMRUPAEQHZTM",
+            "score": 0.00146242985871812
+          },
+          {
+            "candidate_index": 59,
+            "pid": 258039,
+            "smiles": "Cn1nccc1C1OCCC1NC(=O)COc1ccc(Cl)cc1",
+            "official_identity": "UZXSSBVZJLDZTO",
+            "score": 0.0008199451233272585
+          },
+          {
+            "candidate_index": 22,
+            "pid": 258002,
+            "smiles": "Cn1nccc1C1OCCC1NC(=O)COc1ccccc1Cl",
+            "official_identity": "GGERBVORXCHMCW",
+            "score": 0.0007986846444148102
+          },
+          {
+            "candidate_index": 16,
+            "pid": 257996,
+            "smiles": "Cn1nccc1C1OCCC1NC(=O)COc1cccc(Cl)c1",
+            "official_identity": "CIPGBAGOKIHOKA",
+            "score": 0.0007626573108586744
+          },
+          {
+            "candidate_index": 68,
+            "pid": 258048,
+            "smiles": "COc1cccc(Cl)c1CC(=O)NC1(c2ncc[nH]2)CCOC1",
+            "official_identity": "YHDSJZQSSXMZEF",
+            "score": 0.0005983678574666514
+          },
+          {
+            "candidate_index": 64,
+            "pid": 258044,
+            "smiles": "Cc1noc(C2CCN(C(=O)COc3ccc(Cl)cc3C)C2)n1",
+            "official_identity": "XCQBVSNSGYCBHB",
+            "score": 0.0005913953809417729
+          },
+          {
+            "candidate_index": 45,
+            "pid": 258025,
+            "smiles": "Cc1noc(C2CCN(C(=O)COc3ccc(Cl)c(C)c3)C2)n1",
+            "official_identity": "OBEPLPRIMGLXSH",
+            "score": 0.0004952016823616008
+          }
+        ],
+        "missing_scores": 0,
+        "official_metric_verified_on_submitted_top25": true,
+        "score_rule": {
+          "score_direction": "descending",
+          "tie_break": "ascending original candidate_index",
+          "identity": "RDKit2026.03.3 remove stereo then canonical tautomer then InChIKey14",
+          "duplicate_identity_rule": "keep first after stable descending score ordering",
+          "invalid_identity_rule": "exclude before constructing submitted list; report excluded row indices",
+          "maximum_submitted_candidates": 25,
+          "missing_or_outside_top25_reciprocal_rank": 0.0,
+          "missing_prediction_rule": "refuse entire evaluation before opening truth; never impute zero or drop a query",
+          "candidate_cap_changed": false,
+          "threshold_or_fusion_selection": false
+        }
+      },
+      "step500": {
+        "mrr25_contribution": 0.043478260869565216,
+        "top1": false,
+        "top25_hit": true,
+        "truth_rank_full_unique_candidates": 23,
+        "truth_rank25": 23,
+        "unique_scored_identity_count": 111,
+        "duplicate_identities_removed": 0,
+        "invalid_official_identity_candidate_indices": [],
+        "top25": [
+          {
+            "candidate_index": 70,
+            "pid": 258050,
+            "smiles": "CC(C)COc1ccc(NC(=O)Cn2cccnc2=O)cc1Cl",
+            "official_identity": "YZSZPRQRCWONET",
+            "score": 0.4330422428609887
+          },
+          {
+            "candidate_index": 52,
+            "pid": 258032,
+            "smiles": "Cc1noc(C)c1NC(=O)N1CCOC(c2ccccc2Cl)C1",
+            "official_identity": "QLOSPSOFNKITBH",
+            "score": 0.08820582108032159
+          },
+          {
+            "candidate_index": 5,
+            "pid": 257985,
+            "smiles": "Cc1ccc(N2C(=O)C3NN=C(C(=O)c4cnccn4)C3C2=O)cc1",
+            "official_identity": "FMZQRVREMXMXRQ",
+            "score": 0.08070724963128771
+          },
+          {
+            "candidate_index": 83,
+            "pid": 258063,
+            "smiles": "O=C(Nc1ccccc1Cl)N1CC2(CC(=O)N(CC3CC3)O2)C1",
+            "official_identity": "XIVQFXZNGGXZFO",
+            "score": 0.05630999028622883
+          },
+          {
+            "candidate_index": 44,
+            "pid": 258024,
+            "smiles": "COC1(C(=O)NCc2c(Cl)cccc2-n2ccnc2)CCOC1",
+            "official_identity": "NZHCXOQRGAUWFL",
+            "score": 0.04574143105990771
+          },
+          {
+            "candidate_index": 79,
+            "pid": 258059,
+            "smiles": "O=C(C1CN(c2nc3cc(Cl)ccc3o2)CCO1)N1CCCC1",
+            "official_identity": "VCAWFJIVYBFNAI",
+            "score": 0.0451069089300114
+          },
+          {
+            "candidate_index": 80,
+            "pid": 258060,
+            "smiles": "O=C(Nc1ccc(Cl)cc1)N1CC2(CC(=O)N(CC3CC3)O2)C1",
+            "official_identity": "XOXAWSYSWJMQAP",
+            "score": 0.04164461450990913
+          },
+          {
+            "candidate_index": 100,
+            "pid": 258080,
+            "smiles": "Cc1cccc(S(=O)(=O)Nc2[nH]nnc2C(=O)N2CCCC2)c1",
+            "official_identity": "RRRZKSDIHZHNGP",
+            "score": 0.028539628779658387
+          },
+          {
+            "candidate_index": 74,
+            "pid": 258054,
+            "smiles": "O=C(Nc1cc(-c2cccc(Cl)c2)on1)NC1CCC(O)CC1",
+            "official_identity": "OTVJQSFHEXOMRT",
+            "score": 0.015506725049556202
+          },
+          {
+            "candidate_index": 93,
+            "pid": 258073,
+            "smiles": "COC(=O)C(O)C(C(=O)SCC(NC(C)=O)C(=O)O)C(C)C",
+            "official_identity": "WSFRAWUTQCKTIT",
+            "score": 0.01299633719942288
+          },
+          {
+            "candidate_index": 65,
+            "pid": 258045,
+            "smiles": "CC(=O)N1CC(NC(=O)C2CCN(c3cccc(Cl)c3)C2=O)C1",
+            "official_identity": "XHDPOBFLXNYBNB",
+            "score": 0.0075097211258172295
+          },
+          {
+            "candidate_index": 23,
+            "pid": 258003,
+            "smiles": "CC1CN(C(=O)COCc2ccnn2C)c2cccc(Cl)c2O1",
+            "official_identity": "GNMSAJDBBGAILM",
+            "score": 0.00734685633153955
+          },
+          {
+            "candidate_index": 90,
+            "pid": 258070,
+            "smiles": "CC(=O)OC(C)(C)C(=O)NCc1c(Cl)cccc1-n1ccnc1",
+            "official_identity": "JFWODYLPYFJKMQ",
+            "score": 0.007096517911661901
+          },
+          {
+            "candidate_index": 43,
+            "pid": 258023,
+            "smiles": "CCc1noc(COCC(=O)N2CCCc3cccc(Cl)c32)n1",
+            "official_identity": "NFXPUBBIXNDOIK",
+            "score": 0.006438195327936919
+          },
+          {
+            "candidate_index": 36,
+            "pid": 258016,
+            "smiles": "Cc1c(C(=O)NC2(CO)CCOC2)cnn1-c1cccc(Cl)c1",
+            "official_identity": "LZIZOJWNSOZJQK",
+            "score": 0.006427030315663668
+          },
+          {
+            "candidate_index": 24,
+            "pid": 258004,
+            "smiles": "O=C(CNC(=O)C1CC1)Nc1ccc(C(=O)NC2CC2)c(Cl)c1",
+            "official_identity": "GWCWMKQYLKADAV",
+            "score": 0.005388617023285571
+          },
+          {
+            "candidate_index": 32,
+            "pid": 258012,
+            "smiles": "COc1cccc(C2CC(O)CN2c2nc(OC)ncc2Cl)c1",
+            "official_identity": "KBHYWPOJEJQPDM",
+            "score": 0.004914625823769538
+          },
+          {
+            "candidate_index": 95,
+            "pid": 258075,
+            "smiles": "CCc1n[nH]c(C2CN(C(=O)c3cc(C(N)=O)cs3)CCO2)n1",
+            "official_identity": "NGUKYKKCDLJXHT",
+            "score": 0.004724635172184259
+          },
+          {
+            "candidate_index": 77,
+            "pid": 258057,
+            "smiles": "COc1ccc(Cl)cc1-c1cc(NC(=O)CC2CCOC2)n[nH]1",
+            "official_identity": "NWKQZMJGJYILBE",
+            "score": 0.004475014751677653
+          },
+          {
+            "candidate_index": 94,
+            "pid": 258074,
+            "smiles": "CCn1cnnc1SCCC(=O)Nc1cccc([N+](=O)[O-])c1C",
+            "official_identity": "BFYOJQSGQSBWQD",
+            "score": 0.00429128798043325
+          },
+          {
+            "candidate_index": 30,
+            "pid": 258010,
+            "smiles": "Cc1cc(C(=O)Nc2ccc(C(=O)O)c(Cl)c2)nn1C(C)(C)C",
+            "official_identity": "JXLBDGLYBRGBJP",
+            "score": 0.0035152905281821364
+          },
+          {
+            "candidate_index": 42,
+            "pid": 258022,
+            "smiles": "Cc1noc(C)c1N(C)C(=O)c1cnc(OCC2CC2)c(Cl)c1",
+            "official_identity": "MUEMRUPAEQHZTM",
+            "score": 0.003277626190757451
+          },
+          {
+            "candidate_index": 14,
+            "pid": 257994,
+            "smiles": "Cc1c(C(=O)Nc2ccc(Cl)c(C(=O)O)c2)cnn1C(C)(C)C",
+            "official_identity": "AUVKUOLQULWYKB",
+            "score": 0.0029140780860784743
+          },
+          {
+            "candidate_index": 48,
+            "pid": 258028,
+            "smiles": "Cc1cc(C(=O)NCc2nnc(C3CCCOC3)o2)ccc1Cl",
+            "official_identity": "OZWXRIHKQLFVTN",
+            "score": 0.0022840982168683063
+          },
+          {
+            "candidate_index": 46,
+            "pid": 258026,
+            "smiles": "COC(=O)C1CCn2c(nnc2C(C)Oc2cccc(Cl)c2)C1",
+            "official_identity": "OWQLZWNAURLVQG",
+            "score": 0.0020868937547612607
+          }
+        ],
+        "missing_scores": 0,
+        "official_metric_verified_on_submitted_top25": true,
+        "score_rule": {
+          "score_direction": "descending",
+          "tie_break": "ascending original candidate_index",
+          "identity": "RDKit2026.03.3 remove stereo then canonical tautomer then InChIKey14",
+          "duplicate_identity_rule": "keep first after stable descending score ordering",
+          "invalid_identity_rule": "exclude before constructing submitted list; report excluded row indices",
+          "maximum_submitted_candidates": 25,
+          "missing_or_outside_top25_reciprocal_rank": 0.0,
+          "missing_prediction_rule": "refuse entire evaluation before opening truth; never impute zero or drop a query",
+          "candidate_cap_changed": false,
+          "threshold_or_fusion_selection": false
+        }
+      },
+      "delta_rr25": 0.043478260869565216,
+      "outcome": "improved"
+    },
+    {
+      "molecule_id": "fiora_YFVITJNKPMMCBB",
+      "spectrum_id": "official_001073371",
+      "truth_official_identity": "YFVITJNKPMMCBB",
+      "uncapped_candidates": 92,
+      "capped_candidates": 92,
+      "full_window_true_identity_present": true,
+      "capped_true_identity_present": true,
+      "cap_removed_all_truth": false,
+      "candidate_availability": "truth_available_for_ranking",
+      "missing_score_count_step0": 0,
+      "missing_score_count_step500": 0,
+      "same_raw_candidate_set_and_order": true,
+      "step0": {
+        "mrr25_contribution": 1.0,
+        "top1": true,
+        "top25_hit": true,
+        "truth_rank_full_unique_candidates": 1,
+        "truth_rank25": 1,
+        "unique_scored_identity_count": 92,
+        "duplicate_identities_removed": 0,
+        "invalid_official_identity_candidate_indices": [],
+        "top25": [
+          {
+            "candidate_index": 26,
+            "pid": 334021,
+            "smiles": "Cc1nn(-c2ccccc2)cc1CNCC1CCC2(CCOCC2)C1O",
+            "official_identity": "YFVITJNKPMMCBB",
+            "score": 0.9018662012797685
+          },
+          {
+            "candidate_index": 86,
+            "pid": 334081,
+            "smiles": "CC(C)CNC1CC(O)C(CO)C1Cc1ccnc(-c2ccccc2)n1",
+            "official_identity": "HLJKCLMZEHNAQC",
+            "score": 0.6357175233793029
+          },
+          {
+            "candidate_index": 63,
+            "pid": 334058,
+            "smiles": "Cc1nc2ccccc2c(C)c1CC(=O)N1CCC(OCCCN)CC1",
+            "official_identity": "GCLVAUPORVGMMP",
+            "score": 0.21458638691562834
+          },
+          {
+            "candidate_index": 66,
+            "pid": 334061,
+            "smiles": "CC1CN(C2CCOCC2)CCN1C(=O)CCc1ccc2[nH]ccc2c1",
+            "official_identity": "LVKKKPNGCPKXII",
+            "score": 0.13651059801145599
+          },
+          {
+            "candidate_index": 14,
+            "pid": 334009,
+            "smiles": "O=C(Cc1c[nH]c2ccccc12)NCC1(N2CCOCC2)CCCCC1",
+            "official_identity": "LSXAALLSSQFYPW",
+            "score": 0.11504148969839334
+          },
+          {
+            "candidate_index": 36,
+            "pid": 334031,
+            "smiles": "CC(C)CC(=O)N1CCN(C(=O)CCCc2c[nH]c3ccccc23)CC1",
+            "official_identity": "QBLGTDZPHVTFRQ",
+            "score": 0.09289093841855774
+          },
+          {
+            "candidate_index": 13,
+            "pid": 334008,
+            "smiles": "O=C(NCCc1cccc2[nH]ccc12)NC1CCC2(CCOCC2)CC1",
+            "official_identity": "LNASLWBFBKDAIJ",
+            "score": 0.0802319215071259
+          },
+          {
+            "candidate_index": 90,
+            "pid": 334085,
+            "smiles": "CC(C)CCC(=O)NCC(=O)NCC1(N2CCSCC2)CCCC1",
+            "official_identity": "NYJQAIVMFLMEPH",
+            "score": 0.07947668423643228
+          },
+          {
+            "candidate_index": 6,
+            "pid": 334001,
+            "smiles": "Cc1ccc2[nH]cc(CCC(=O)N3CCC(CN4CCOCC4)C3)c2c1",
+            "official_identity": "DTSUCTWKIHEKNJ",
+            "score": 0.05261400273268446
+          },
+          {
+            "candidate_index": 20,
+            "pid": 334015,
+            "smiles": "CC(C)(CNC(=O)c1cccn1CCc1ccccc1)N1CCOCC1",
+            "official_identity": "SKUAJFRXVWUTQV",
+            "score": 0.038454764763574435
+          },
+          {
+            "candidate_index": 84,
+            "pid": 334079,
+            "smiles": "O=C(O)CC1CCN(C2CCCCC2)CC1Cc1nc2ccccc2[nH]1",
+            "official_identity": "TWPNGPZIWWUXSA",
+            "score": 0.03532029224212912
+          },
+          {
+            "candidate_index": 75,
+            "pid": 334070,
+            "smiles": "c1ccc(-n2ccc(CN3CCC(OCC4CCCCO4)CC3)n2)cc1",
+            "official_identity": "WWLCYIRXKYQYKG",
+            "score": 0.03162202110710539
+          },
+          {
+            "candidate_index": 25,
+            "pid": 334020,
+            "smiles": "CCn1cc(C(=O)NC2CCN(CC3CCOC3)CC2)c2ccccc21",
+            "official_identity": "YFPBNBBTPXHYHD",
+            "score": 0.02293306184594172
+          },
+          {
+            "candidate_index": 32,
+            "pid": 334027,
+            "smiles": "CCCCCCC(=Cc1ccccc1)CNC(Cc1cnc[nH]1)C(=O)O",
+            "official_identity": "MVJDRLRLSFKERN",
+            "score": 0.02170903183411713
+          },
+          {
+            "candidate_index": 88,
+            "pid": 334083,
+            "smiles": "CC(=O)C(CC(C)C)[N-]C(=O)C=CC=CC=CC=Cc1cn(C)c[n+]1C",
+            "official_identity": "IJGNGQQFTLOVNN",
+            "score": 0.01832462691246373
+          },
+          {
+            "candidate_index": 59,
+            "pid": 334054,
+            "smiles": "CN(CC1CCCN2CCCCC12)C(=O)CN1Cc2ccccc2C1=O",
+            "official_identity": "YDTPMMLDERXFRH",
+            "score": 0.011981997213149775
+          },
+          {
+            "candidate_index": 23,
+            "pid": 334018,
+            "smiles": "O=C(NCc1ccc(C2CC2)cc1)N1CCC(N2CCCCC2=O)CC1",
+            "official_identity": "VPHQMLZNJJKBBX",
+            "score": 0.00988214670731477
+          },
+          {
+            "candidate_index": 65,
+            "pid": 334060,
+            "smiles": "CN(Cc1ccccc1N1CCCCC1)C(=O)C1CC(=O)N(C2CC2)C1",
+            "official_identity": "KGXGOHCJCAZTKZ",
+            "score": 0.009693254540321956
+          },
+          {
+            "candidate_index": 30,
+            "pid": 334025,
+            "smiles": "O=C(NCc1cc2ccccc2o1)NC1CCN(C2CCCCC2)CC1",
+            "official_identity": "ZYAADXCNYVNNDY",
+            "score": 0.00845686722891427
+          },
+          {
+            "candidate_index": 68,
+            "pid": 334063,
+            "smiles": "Cc1ccc(CC(CO)CNC(=O)NCc2cccc(N(C)C)c2)cc1",
+            "official_identity": "NVXITYIRVYSUHF",
+            "score": 0.007168717875015812
+          },
+          {
+            "candidate_index": 81,
+            "pid": 334076,
+            "smiles": "O=C(CCN1Cc2ccccc2C1=O)NCC1CCCN2CCCCC12",
+            "official_identity": "HJNYMOMIINEGJR",
+            "score": 0.007104021319065031
+          },
+          {
+            "candidate_index": 49,
+            "pid": 334044,
+            "smiles": "COc1cccc2[nH]c(C(=O)N(C)CC3CCCN4CCCCC34)cc12",
+            "official_identity": "QGKRGOGPCQHFMI",
+            "score": 0.005442561365110163
+          },
+          {
+            "candidate_index": 24,
+            "pid": 334019,
+            "smiles": "CN(C)CCN1CC(C(=O)N2Cc3ccccc3C3(CCC3)C2)CC1=O",
+            "official_identity": "WPRMDUNPPMOLAP",
+            "score": 0.00505463777186462
+          },
+          {
+            "candidate_index": 61,
+            "pid": 334056,
+            "smiles": "Cn1ccc2c(OCC(=O)NCC3CCCN4CCCCC34)cccc21",
+            "official_identity": "KGWIDHNJFKXTQL",
+            "score": 0.004923442341615384
+          },
+          {
+            "candidate_index": 35,
+            "pid": 334030,
+            "smiles": "O=C(c1ccccc1)N1CC2COCCN2C2(C1)CN(C1CCCC1)C2",
+            "official_identity": "BWJOEACSVKSDLK",
+            "score": 0.004789937060944466
+          }
+        ],
+        "missing_scores": 0,
+        "official_metric_verified_on_submitted_top25": true,
+        "score_rule": {
+          "score_direction": "descending",
+          "tie_break": "ascending original candidate_index",
+          "identity": "RDKit2026.03.3 remove stereo then canonical tautomer then InChIKey14",
+          "duplicate_identity_rule": "keep first after stable descending score ordering",
+          "invalid_identity_rule": "exclude before constructing submitted list; report excluded row indices",
+          "maximum_submitted_candidates": 25,
+          "missing_or_outside_top25_reciprocal_rank": 0.0,
+          "missing_prediction_rule": "refuse entire evaluation before opening truth; never impute zero or drop a query",
+          "candidate_cap_changed": false,
+          "threshold_or_fusion_selection": false
+        }
+      },
+      "step500": {
+        "mrr25_contribution": 1.0,
+        "top1": true,
+        "top25_hit": true,
+        "truth_rank_full_unique_candidates": 1,
+        "truth_rank25": 1,
+        "unique_scored_identity_count": 92,
+        "duplicate_identities_removed": 0,
+        "invalid_official_identity_candidate_indices": [],
+        "top25": [
+          {
+            "candidate_index": 26,
+            "pid": 334021,
+            "smiles": "Cc1nn(-c2ccccc2)cc1CNCC1CCC2(CCOCC2)C1O",
+            "official_identity": "YFVITJNKPMMCBB",
+            "score": 0.8740546277258345
+          },
+          {
+            "candidate_index": 86,
+            "pid": 334081,
+            "smiles": "CC(C)CNC1CC(O)C(CO)C1Cc1ccnc(-c2ccccc2)n1",
+            "official_identity": "HLJKCLMZEHNAQC",
+            "score": 0.6156278787888372
+          },
+          {
+            "candidate_index": 63,
+            "pid": 334058,
+            "smiles": "Cc1nc2ccccc2c(C)c1CC(=O)N1CCC(OCCCN)CC1",
+            "official_identity": "GCLVAUPORVGMMP",
+            "score": 0.4220819846634671
+          },
+          {
+            "candidate_index": 66,
+            "pid": 334061,
+            "smiles": "CC1CN(C2CCOCC2)CCN1C(=O)CCc1ccc2[nH]ccc2c1",
+            "official_identity": "LVKKKPNGCPKXII",
+            "score": 0.1849837204528716
+          },
+          {
+            "candidate_index": 14,
+            "pid": 334009,
+            "smiles": "O=C(Cc1c[nH]c2ccccc12)NCC1(N2CCOCC2)CCCCC1",
+            "official_identity": "LSXAALLSSQFYPW",
+            "score": 0.14632077742305497
+          },
+          {
+            "candidate_index": 36,
+            "pid": 334031,
+            "smiles": "CC(C)CC(=O)N1CCN(C(=O)CCCc2c[nH]c3ccccc23)CC1",
+            "official_identity": "QBLGTDZPHVTFRQ",
+            "score": 0.14592122239913066
+          },
+          {
+            "candidate_index": 90,
+            "pid": 334085,
+            "smiles": "CC(C)CCC(=O)NCC(=O)NCC1(N2CCSCC2)CCCC1",
+            "official_identity": "NYJQAIVMFLMEPH",
+            "score": 0.13305987469266548
+          },
+          {
+            "candidate_index": 20,
+            "pid": 334015,
+            "smiles": "CC(C)(CNC(=O)c1cccn1CCc1ccccc1)N1CCOCC1",
+            "official_identity": "SKUAJFRXVWUTQV",
+            "score": 0.11587320795597035
+          },
+          {
+            "candidate_index": 13,
+            "pid": 334008,
+            "smiles": "O=C(NCCc1cccc2[nH]ccc12)NC1CCC2(CCOCC2)CC1",
+            "official_identity": "LNASLWBFBKDAIJ",
+            "score": 0.11194312710032567
+          },
+          {
+            "candidate_index": 24,
+            "pid": 334019,
+            "smiles": "CN(C)CCN1CC(C(=O)N2Cc3ccccc3C3(CCC3)C2)CC1=O",
+            "official_identity": "WPRMDUNPPMOLAP",
+            "score": 0.06557246870149536
+          },
+          {
+            "candidate_index": 6,
+            "pid": 334001,
+            "smiles": "Cc1ccc2[nH]cc(CCC(=O)N3CCC(CN4CCOCC4)C3)c2c1",
+            "official_identity": "DTSUCTWKIHEKNJ",
+            "score": 0.05776279623728442
+          },
+          {
+            "candidate_index": 84,
+            "pid": 334079,
+            "smiles": "O=C(O)CC1CCN(C2CCCCC2)CC1Cc1nc2ccccc2[nH]1",
+            "official_identity": "TWPNGPZIWWUXSA",
+            "score": 0.052953779568812163
+          },
+          {
+            "candidate_index": 75,
+            "pid": 334070,
+            "smiles": "c1ccc(-n2ccc(CN3CCC(OCC4CCCCO4)CC3)n2)cc1",
+            "official_identity": "WWLCYIRXKYQYKG",
+            "score": 0.04621563665974684
+          },
+          {
+            "candidate_index": 25,
+            "pid": 334020,
+            "smiles": "CCn1cc(C(=O)NC2CCN(CC3CCOC3)CC2)c2ccccc21",
+            "official_identity": "YFPBNBBTPXHYHD",
+            "score": 0.03585620450419922
+          },
+          {
+            "candidate_index": 32,
+            "pid": 334027,
+            "smiles": "CCCCCCC(=Cc1ccccc1)CNC(Cc1cnc[nH]1)C(=O)O",
+            "official_identity": "MVJDRLRLSFKERN",
+            "score": 0.03276644242333393
+          },
+          {
+            "candidate_index": 61,
+            "pid": 334056,
+            "smiles": "Cn1ccc2c(OCC(=O)NCC3CCCN4CCCCC34)cccc21",
+            "official_identity": "KGWIDHNJFKXTQL",
+            "score": 0.026425758781156782
+          },
+          {
+            "candidate_index": 88,
+            "pid": 334083,
+            "smiles": "CC(=O)C(CC(C)C)[N-]C(=O)C=CC=CC=CC=Cc1cn(C)c[n+]1C",
+            "official_identity": "IJGNGQQFTLOVNN",
+            "score": 0.022176915226960935
+          },
+          {
+            "candidate_index": 35,
+            "pid": 334030,
+            "smiles": "O=C(c1ccccc1)N1CC2COCCN2C2(C1)CN(C1CCCC1)C2",
+            "official_identity": "BWJOEACSVKSDLK",
+            "score": 0.018661551976141517
+          },
+          {
+            "candidate_index": 23,
+            "pid": 334018,
+            "smiles": "O=C(NCc1ccc(C2CC2)cc1)N1CCC(N2CCCCC2=O)CC1",
+            "official_identity": "VPHQMLZNJJKBBX",
+            "score": 0.017635983479620847
+          },
+          {
+            "candidate_index": 68,
+            "pid": 334063,
+            "smiles": "Cc1ccc(CC(CO)CNC(=O)NCc2cccc(N(C)C)c2)cc1",
+            "official_identity": "NVXITYIRVYSUHF",
+            "score": 0.016155179703772612
+          },
+          {
+            "candidate_index": 37,
+            "pid": 334032,
+            "smiles": "CCCCc1cc(CC2CNCCC2CC(=O)Nc2ccccc2)no1",
+            "official_identity": "KLQWSYYTMDJNQT",
+            "score": 0.015819929426094396
+          },
+          {
+            "candidate_index": 51,
+            "pid": 334046,
+            "smiles": "CC(C)(C)c1cc(CC2CNCCC2CC(=O)Nc2ccccc2)no1",
+            "official_identity": "TVZQQJWWXOFVCR",
+            "score": 0.015012631742250614
+          },
+          {
+            "candidate_index": 30,
+            "pid": 334025,
+            "smiles": "O=C(NCc1cc2ccccc2o1)NC1CCN(C2CCCCC2)CC1",
+            "official_identity": "ZYAADXCNYVNNDY",
+            "score": 0.01474930502930906
+          },
+          {
+            "candidate_index": 65,
+            "pid": 334060,
+            "smiles": "CN(Cc1ccccc1N1CCCCC1)C(=O)C1CC(=O)N(C2CC2)C1",
+            "official_identity": "KGXGOHCJCAZTKZ",
+            "score": 0.014247462601531152
+          },
+          {
+            "candidate_index": 4,
+            "pid": 333999,
+            "smiles": "CCCC(=O)NCC1CCCN(c2c(C)cnc3c(OC)cccc23)C1",
+            "official_identity": "BRNLUERZKNUHOS",
+            "score": 0.01299394785502584
+          }
+        ],
+        "missing_scores": 0,
+        "official_metric_verified_on_submitted_top25": true,
+        "score_rule": {
+          "score_direction": "descending",
+          "tie_break": "ascending original candidate_index",
+          "identity": "RDKit2026.03.3 remove stereo then canonical tautomer then InChIKey14",
+          "duplicate_identity_rule": "keep first after stable descending score ordering",
+          "invalid_identity_rule": "exclude before constructing submitted list; report excluded row indices",
+          "maximum_submitted_candidates": 25,
+          "missing_or_outside_top25_reciprocal_rank": 0.0,
+          "missing_prediction_rule": "refuse entire evaluation before opening truth; never impute zero or drop a query",
+          "candidate_cap_changed": false,
+          "threshold_or_fusion_selection": false
+        }
+      },
+      "delta_rr25": 0.0,
+      "outcome": "unchanged"
+    },
+    {
+      "molecule_id": "fiora_IJGVEHWXKQXPPF",
+      "spectrum_id": "official_000355091",
+      "truth_official_identity": "IJGVEHWXKQXPPF",
+      "uncapped_candidates": 146,
+      "capped_candidates": 128,
+      "full_window_true_identity_present": true,
+      "capped_true_identity_present": true,
+      "cap_removed_all_truth": false,
+      "candidate_availability": "truth_available_for_ranking",
+      "missing_score_count_step0": 0,
+      "missing_score_count_step500": 0,
+      "same_raw_candidate_set_and_order": true,
+      "step0": {
+        "mrr25_contribution": 1.0,
+        "top1": true,
+        "top25_hit": true,
+        "truth_rank_full_unique_candidates": 1,
+        "truth_rank25": 1,
+        "unique_scored_identity_count": 128,
+        "duplicate_identities_removed": 0,
+        "invalid_official_identity_candidate_indices": [],
+        "top25": [
+          {
+            "candidate_index": 35,
+            "pid": 223557,
+            "smiles": "CSCCC(N)C(=O)N1CCC(Oc2ccc(F)cc2)CC1",
+            "official_identity": "IJGVEHWXKQXPPF",
+            "score": 0.35111401387694813
+          },
+          {
+            "candidate_index": 37,
+            "pid": 223559,
+            "smiles": "O=S(=O)(Cc1ccc(F)cc1)N1CCCC1CN1CCCC1",
+            "official_identity": "NQKGZUNTDDGZOY",
+            "score": 0.3217022108613981
+          },
+          {
+            "candidate_index": 40,
+            "pid": 223562,
+            "smiles": "CSCCC(N)C(=O)N1CC(C)OC(c2ccc(F)cc2)C1",
+            "official_identity": "RTYGXORWLUUXBG",
+            "score": 0.30811921649716545
+          },
+          {
+            "candidate_index": 26,
+            "pid": 223548,
+            "smiles": "CSc1nc2c(c(=O)n1C)C1(CCCCC1)Cc1ccccc1-2",
+            "official_identity": "JZDBDFMEORJGSU",
+            "score": 0.24335587117700416
+          },
+          {
+            "candidate_index": 27,
+            "pid": 223549,
+            "smiles": "CCn1c(SC)nc2c(c1=O)C1(CCCC1)Cc1ccccc1-2",
+            "official_identity": "ZKENJIDWQACMEP",
+            "score": 0.23004931999117265
+          },
+          {
+            "candidate_index": 87,
+            "pid": 223609,
+            "smiles": "CCCn1c(NN=Cc2ccccc2)nc2c1c(=O)[nH]c(=O)n2C",
+            "official_identity": "ONHBMDWKGQWUDY",
+            "score": 0.1315634372139767
+          },
+          {
+            "candidate_index": 15,
+            "pid": 223537,
+            "smiles": "Cc1ccc(C(=O)Nc2ccccc2CN2CCSCC2)cc1",
+            "official_identity": "UBUFUIUJXPIPLH",
+            "score": 0.10242888515645844
+          },
+          {
+            "candidate_index": 107,
+            "pid": 223629,
+            "smiles": "Cc1cc(C)n2ncc(-c3noc(C4CCCC(=O)N4C)n3)c2n1",
+            "official_identity": "PCTBDXINLCJYIG",
+            "score": 0.09157619135128259
+          },
+          {
+            "candidate_index": 39,
+            "pid": 223561,
+            "smiles": "COC1CCC(NC(=O)NCc2ccc(F)cc2CSC)C1",
+            "official_identity": "OUNVLSGZOQOFIT",
+            "score": 0.08022619928857966
+          },
+          {
+            "candidate_index": 32,
+            "pid": 223554,
+            "smiles": "CSCc1cc(F)ccc1CNC(=O)NCC1CCC(O)C1",
+            "official_identity": "KDDRLIYDWIFGLQ",
+            "score": 0.07343751293665009
+          },
+          {
+            "candidate_index": 41,
+            "pid": 223563,
+            "smiles": "CSCc1cc(C(=O)N(C)CCN2CCOCC2)ccc1F",
+            "official_identity": "SOWJSCWTVOUKES",
+            "score": 0.07138447317769887
+          },
+          {
+            "candidate_index": 17,
+            "pid": 223539,
+            "smiles": "CC(=O)c1ccc2c(c1)N(CC(C)N(C)C)c1ccccc1S2",
+            "official_identity": "XLOQNFNTQIRSOX",
+            "score": 0.06358119381175222
+          },
+          {
+            "candidate_index": 75,
+            "pid": 223597,
+            "smiles": "Cn1nccc1C1OCCC1NC(=O)Cn1nnc2ccccc21",
+            "official_identity": "QDHPPBHGNNMPRJ",
+            "score": 0.057433534884196995
+          },
+          {
+            "candidate_index": 102,
+            "pid": 223624,
+            "smiles": "CCc1cc(Nc2ccc(CNC(=O)OC)cc2)n2ncnc2n1",
+            "official_identity": "KIQJUNQZZXVGKE",
+            "score": 0.05682790310600607
+          },
+          {
+            "candidate_index": 117,
+            "pid": 223639,
+            "smiles": "COc1ncccc1CNC(=O)Nc1cnc2c(c1)c(C)nn2C",
+            "official_identity": "BNYNZCZTDNJXBZ",
+            "score": 0.05397826603349807
+          },
+          {
+            "candidate_index": 1,
+            "pid": 223517,
+            "smiles": "CC1(NCC(=O)O)CCN(C(=O)CCc2cc(F)ccc2F)C1",
+            "official_identity": "AIAGSDRRLCZMPF",
+            "score": 0.05007034504944676
+          },
+          {
+            "candidate_index": 5,
+            "pid": 223521,
+            "smiles": "C=C1CCN(C(=O)NCc2cc(OC)ccc2OC(F)F)CC1",
+            "official_identity": "FNNRNBHDBIXRDM",
+            "score": 0.04768560558517535
+          },
+          {
+            "candidate_index": 52,
+            "pid": 223574,
+            "smiles": "COCCOC(=O)Nc1ccc(C)c(NC(=O)OCCOC)c1",
+            "official_identity": "KRAWNIRAZIFPLS",
+            "score": 0.04768013587151806
+          },
+          {
+            "candidate_index": 54,
+            "pid": 223576,
+            "smiles": "CCCCC1ON(C(=O)CCC2=CCOC2=O)N=C(C)OC1O",
+            "official_identity": "UJHUXJYJBBLUDC",
+            "score": 0.041222463112826305
+          },
+          {
+            "candidate_index": 114,
+            "pid": 223636,
+            "smiles": "CN(Cc1cnn(C)c1)C(=O)CCc1nc(-c2ccccn2)no1",
+            "official_identity": "XFLFHZFXENBZBW",
+            "score": 0.03987359320088856
+          },
+          {
+            "candidate_index": 89,
+            "pid": 223611,
+            "smiles": "CC(=O)N1CCCC1c1noc(Cn2ncc3cc(C)cnc32)n1",
+            "official_identity": "AAMUEEMCWSENMD",
+            "score": 0.036881854131794234
+          },
+          {
+            "candidate_index": 8,
+            "pid": 223524,
+            "smiles": "O=C(Nc1cnc2c(c1)COCC2)C1CCC(OC(F)F)CC1",
+            "official_identity": "KAFSWVDQDVMWSO",
+            "score": 0.03659668900384666
+          },
+          {
+            "candidate_index": 22,
+            "pid": 223544,
+            "smiles": "S=C(NCC1(c2ccccc2)CCOCC1)Nc1ccccc1",
+            "official_identity": "YMPFUCJIMOOZDS",
+            "score": 0.035639599447719425
+          },
+          {
+            "candidate_index": 73,
+            "pid": 223595,
+            "smiles": "CN(C)c1ncccc1C(=O)NCCc1nnc(-c2ccco2)[nH]1",
+            "official_identity": "NJMGTRPXKJXTBW",
+            "score": 0.03169114704704318
+          },
+          {
+            "candidate_index": 77,
+            "pid": 223599,
+            "smiles": "CCCc1noc2ncc(C(=O)N3CCn4c(C)nnc4C3)cc12",
+            "official_identity": "RVMCBNIWOYBESK",
+            "score": 0.030265761843653993
+          }
+        ],
+        "missing_scores": 0,
+        "official_metric_verified_on_submitted_top25": true,
+        "score_rule": {
+          "score_direction": "descending",
+          "tie_break": "ascending original candidate_index",
+          "identity": "RDKit2026.03.3 remove stereo then canonical tautomer then InChIKey14",
+          "duplicate_identity_rule": "keep first after stable descending score ordering",
+          "invalid_identity_rule": "exclude before constructing submitted list; report excluded row indices",
+          "maximum_submitted_candidates": 25,
+          "missing_or_outside_top25_reciprocal_rank": 0.0,
+          "missing_prediction_rule": "refuse entire evaluation before opening truth; never impute zero or drop a query",
+          "candidate_cap_changed": false,
+          "threshold_or_fusion_selection": false
+        }
+      },
+      "step500": {
+        "mrr25_contribution": 1.0,
+        "top1": true,
+        "top25_hit": true,
+        "truth_rank_full_unique_candidates": 1,
+        "truth_rank25": 1,
+        "unique_scored_identity_count": 128,
+        "duplicate_identities_removed": 0,
+        "invalid_official_identity_candidate_indices": [],
+        "top25": [
+          {
+            "candidate_index": 35,
+            "pid": 223557,
+            "smiles": "CSCCC(N)C(=O)N1CCC(Oc2ccc(F)cc2)CC1",
+            "official_identity": "IJGVEHWXKQXPPF",
+            "score": 0.42565289363768494
+          },
+          {
+            "candidate_index": 40,
+            "pid": 223562,
+            "smiles": "CSCCC(N)C(=O)N1CC(C)OC(c2ccc(F)cc2)C1",
+            "official_identity": "RTYGXORWLUUXBG",
+            "score": 0.4236603143886653
+          },
+          {
+            "candidate_index": 37,
+            "pid": 223559,
+            "smiles": "O=S(=O)(Cc1ccc(F)cc1)N1CCCC1CN1CCCC1",
+            "official_identity": "NQKGZUNTDDGZOY",
+            "score": 0.3620044753962999
+          },
+          {
+            "candidate_index": 26,
+            "pid": 223548,
+            "smiles": "CSc1nc2c(c(=O)n1C)C1(CCCCC1)Cc1ccccc1-2",
+            "official_identity": "JZDBDFMEORJGSU",
+            "score": 0.2398597723479564
+          },
+          {
+            "candidate_index": 27,
+            "pid": 223549,
+            "smiles": "CCn1c(SC)nc2c(c1=O)C1(CCCC1)Cc1ccccc1-2",
+            "official_identity": "ZKENJIDWQACMEP",
+            "score": 0.2103606273610507
+          },
+          {
+            "candidate_index": 87,
+            "pid": 223609,
+            "smiles": "CCCn1c(NN=Cc2ccccc2)nc2c1c(=O)[nH]c(=O)n2C",
+            "official_identity": "ONHBMDWKGQWUDY",
+            "score": 0.16382522663709126
+          },
+          {
+            "candidate_index": 17,
+            "pid": 223539,
+            "smiles": "CC(=O)c1ccc2c(c1)N(CC(C)N(C)C)c1ccccc1S2",
+            "official_identity": "XLOQNFNTQIRSOX",
+            "score": 0.09898213432379573
+          },
+          {
+            "candidate_index": 41,
+            "pid": 223563,
+            "smiles": "CSCc1cc(C(=O)N(C)CCN2CCOCC2)ccc1F",
+            "official_identity": "SOWJSCWTVOUKES",
+            "score": 0.09422593117844946
+          },
+          {
+            "candidate_index": 39,
+            "pid": 223561,
+            "smiles": "COC1CCC(NC(=O)NCc2ccc(F)cc2CSC)C1",
+            "official_identity": "OUNVLSGZOQOFIT",
+            "score": 0.09285189494783394
+          },
+          {
+            "candidate_index": 107,
+            "pid": 223629,
+            "smiles": "Cc1cc(C)n2ncc(-c3noc(C4CCCC(=O)N4C)n3)c2n1",
+            "official_identity": "PCTBDXINLCJYIG",
+            "score": 0.08856154263961455
+          },
+          {
+            "candidate_index": 32,
+            "pid": 223554,
+            "smiles": "CSCc1cc(F)ccc1CNC(=O)NCC1CCC(O)C1",
+            "official_identity": "KDDRLIYDWIFGLQ",
+            "score": 0.08263089293503227
+          },
+          {
+            "candidate_index": 15,
+            "pid": 223537,
+            "smiles": "Cc1ccc(C(=O)Nc2ccccc2CN2CCSCC2)cc1",
+            "official_identity": "UBUFUIUJXPIPLH",
+            "score": 0.08031575913453022
+          },
+          {
+            "candidate_index": 14,
+            "pid": 223536,
+            "smiles": "CC(=O)c1ccc2c(c1)N(CCCN(C)C)c1ccccc1S2",
+            "official_identity": "NOSIYYJFMPDDSA",
+            "score": 0.07176691288245575
+          },
+          {
+            "candidate_index": 5,
+            "pid": 223521,
+            "smiles": "C=C1CCN(C(=O)NCc2cc(OC)ccc2OC(F)F)CC1",
+            "official_identity": "FNNRNBHDBIXRDM",
+            "score": 0.07110575408778964
+          },
+          {
+            "candidate_index": 75,
+            "pid": 223597,
+            "smiles": "Cn1nccc1C1OCCC1NC(=O)Cn1nnc2ccccc21",
+            "official_identity": "QDHPPBHGNNMPRJ",
+            "score": 0.06294407475474964
+          },
+          {
+            "candidate_index": 52,
+            "pid": 223574,
+            "smiles": "COCCOC(=O)Nc1ccc(C)c(NC(=O)OCCOC)c1",
+            "official_identity": "KRAWNIRAZIFPLS",
+            "score": 0.06224301222798274
+          },
+          {
+            "candidate_index": 102,
+            "pid": 223624,
+            "smiles": "CCc1cc(Nc2ccc(CNC(=O)OC)cc2)n2ncnc2n1",
+            "official_identity": "KIQJUNQZZXVGKE",
+            "score": 0.059484991303552316
+          },
+          {
+            "candidate_index": 6,
+            "pid": 223522,
+            "smiles": "Cc1cc(C2(C(=O)NC3CC4C(C3)C4(F)F)CCOCC2)on1",
+            "official_identity": "JXODDWHESHKSQO",
+            "score": 0.05131232620206994
+          },
+          {
+            "candidate_index": 117,
+            "pid": 223639,
+            "smiles": "COc1ncccc1CNC(=O)Nc1cnc2c(c1)c(C)nn2C",
+            "official_identity": "BNYNZCZTDNJXBZ",
+            "score": 0.05118808577337428
+          },
+          {
+            "candidate_index": 89,
+            "pid": 223611,
+            "smiles": "CC(=O)N1CCCC1c1noc(Cn2ncc3cc(C)cnc32)n1",
+            "official_identity": "AAMUEEMCWSENMD",
+            "score": 0.04619109349331433
+          },
+          {
+            "candidate_index": 122,
+            "pid": 223644,
+            "smiles": "Cc1noc(C2CC(NC(=O)Nc3cccc(C#N)c3)CN2C)n1",
+            "official_identity": "XIQWWAYAAUZSSZ",
+            "score": 0.045955808945588164
+          },
+          {
+            "candidate_index": 34,
+            "pid": 223556,
+            "smiles": "O=S(=O)(N1CCCCCC1)N1CCCC1c1ccc(F)cc1",
+            "official_identity": "FDOBJEVRXFMAND",
+            "score": 0.04378675092317798
+          },
+          {
+            "candidate_index": 54,
+            "pid": 223576,
+            "smiles": "CCCCC1ON(C(=O)CCC2=CCOC2=O)N=C(C)OC1O",
+            "official_identity": "UJHUXJYJBBLUDC",
+            "score": 0.04274062594866617
+          },
+          {
+            "candidate_index": 1,
+            "pid": 223517,
+            "smiles": "CC1(NCC(=O)O)CCN(C(=O)CCc2cc(F)ccc2F)C1",
+            "official_identity": "AIAGSDRRLCZMPF",
+            "score": 0.041513150398529264
+          },
+          {
+            "candidate_index": 114,
+            "pid": 223636,
+            "smiles": "CN(Cc1cnn(C)c1)C(=O)CCc1nc(-c2ccccn2)no1",
+            "official_identity": "XFLFHZFXENBZBW",
+            "score": 0.04058743270531345
+          }
+        ],
+        "missing_scores": 0,
+        "official_metric_verified_on_submitted_top25": true,
+        "score_rule": {
+          "score_direction": "descending",
+          "tie_break": "ascending original candidate_index",
+          "identity": "RDKit2026.03.3 remove stereo then canonical tautomer then InChIKey14",
+          "duplicate_identity_rule": "keep first after stable descending score ordering",
+          "invalid_identity_rule": "exclude before constructing submitted list; report excluded row indices",
+          "maximum_submitted_candidates": 25,
+          "missing_or_outside_top25_reciprocal_rank": 0.0,
+          "missing_prediction_rule": "refuse entire evaluation before opening truth; never impute zero or drop a query",
+          "candidate_cap_changed": false,
+          "threshold_or_fusion_selection": false
+        }
+      },
+      "delta_rr25": 0.0,
+      "outcome": "unchanged"
+    },
+    {
+      "molecule_id": "fiora_YFWCAGTZNQFYEG",
+      "spectrum_id": "official_001073428",
+      "truth_official_identity": "YFWCAGTZNQFYEG",
+      "uncapped_candidates": 54,
+      "capped_candidates": 54,
+      "full_window_true_identity_present": true,
+      "capped_true_identity_present": true,
+      "cap_removed_all_truth": false,
+      "candidate_availability": "truth_available_for_ranking",
+      "missing_score_count_step0": 0,
+      "missing_score_count_step500": 0,
+      "same_raw_candidate_set_and_order": true,
+      "step0": {
+        "mrr25_contribution": 0.3333333333333333,
+        "top1": false,
+        "top25_hit": true,
+        "truth_rank_full_unique_candidates": 3,
+        "truth_rank25": 3,
+        "unique_scored_identity_count": 54,
+        "duplicate_identities_removed": 0,
+        "invalid_official_identity_candidate_indices": [],
+        "top25": [
+          {
+            "candidate_index": 36,
+            "pid": 70657,
+            "smiles": "CC(NS(=O)(=O)c1ccccc1)c1cccnc1",
+            "official_identity": "ZBUVCHAUKDOTMD",
+            "score": 0.135093260691662
+          },
+          {
+            "candidate_index": 43,
+            "pid": 70664,
+            "smiles": "O=S(=O)(c1ccc2ccccc2n1)N1CCCC1",
+            "official_identity": "SYJWMSHQULKGRM",
+            "score": 0.11898683024437685
+          },
+          {
+            "candidate_index": 35,
+            "pid": 70656,
+            "smiles": "NCc1ccccc1NS(=O)(=O)c1ccccc1",
+            "official_identity": "YFWCAGTZNQFYEG",
+            "score": 0.11446060123476454
+          },
+          {
+            "candidate_index": 22,
+            "pid": 70643,
+            "smiles": "O=S(=O)(c1cccc2ncccc12)N1CCCC1",
+            "official_identity": "MEOFYRSPSQUIPP",
+            "score": 0.1045133117663807
+          },
+          {
+            "candidate_index": 39,
+            "pid": 70660,
+            "smiles": "O=S(=O)(NCC1CC1)c1ccc2ncccc2c1",
+            "official_identity": "RTLLVBYCIPIRMW",
+            "score": 0.1025033517167477
+          },
+          {
+            "candidate_index": 18,
+            "pid": 70639,
+            "smiles": "O=S1(=O)CCN(c2ccnc3ccccc23)CC1",
+            "official_identity": "LIYGBFXLAKKIAE",
+            "score": 0.09878837081838308
+          },
+          {
+            "candidate_index": 45,
+            "pid": 70666,
+            "smiles": "COC(=O)C1=C(C)NC(=S)NC1c1ccccc1",
+            "official_identity": "KDUCJDPLLLQTHX",
+            "score": 0.09729031077824477
+          },
+          {
+            "candidate_index": 4,
+            "pid": 70625,
+            "smiles": "c1c(-c2nc(C3CCOC3)no2)sc2c1CCC2",
+            "official_identity": "AQYHAAFDDXAJOX",
+            "score": 0.09315437292338444
+          },
+          {
+            "candidate_index": 0,
+            "pid": 70621,
+            "smiles": "CCOP(=O)(c1ccccc1)c1ccccc1O",
+            "official_identity": "UYLFKUBRDJHVAO",
+            "score": 0.0771540586432919
+          },
+          {
+            "candidate_index": 37,
+            "pid": 70658,
+            "smiles": "NS(=O)(=O)c1ccc(NCc2ccccc2)cc1",
+            "official_identity": "HLIBJQGJVDHCNB",
+            "score": 0.06944553872871043
+          },
+          {
+            "candidate_index": 6,
+            "pid": 70627,
+            "smiles": "CC(=O)Nc1ccc(OCc2cnc(C)s2)cc1",
+            "official_identity": "BWXSVBRCHJFEBI",
+            "score": 0.05320943822591172
+          },
+          {
+            "candidate_index": 24,
+            "pid": 70645,
+            "smiles": "O=S(=O)(Cc1ccccc1)NCc1cccnc1",
+            "official_identity": "NHIJVYDDVYIZMT",
+            "score": 0.04842719855833376
+          },
+          {
+            "candidate_index": 19,
+            "pid": 70640,
+            "smiles": "COCC(=O)Nc1cccnc1-c1csc(C)c1",
+            "official_identity": "LKVPNOUSQAGNCT",
+            "score": 0.04665300994653127
+          },
+          {
+            "candidate_index": 2,
+            "pid": 70623,
+            "smiles": "COc1cc(CCl)ccc1OCc1ccccc1",
+            "official_identity": "RWYQBTIHSCUXJR",
+            "score": 0.0430901590890665
+          },
+          {
+            "candidate_index": 53,
+            "pid": 70674,
+            "smiles": "NC(CCC(=O)NC(CC(=O)O)C(=O)O)C(=O)O",
+            "official_identity": "JTJZAUVWVBUZAU",
+            "score": 0.042043356014860624
+          },
+          {
+            "candidate_index": 44,
+            "pid": 70665,
+            "smiles": "O=C1C2CSCN2C(=O)CN1Cc1ccccc1",
+            "official_identity": "NUEYRYTVWQWFAU",
+            "score": 0.041591557722788525
+          },
+          {
+            "candidate_index": 52,
+            "pid": 70673,
+            "smiles": "NC(CC(=O)NC(CCC(=O)O)C(=O)O)C(=O)O",
+            "official_identity": "DBMVITQDGVMXEY",
+            "score": 0.04098063830570972
+          },
+          {
+            "candidate_index": 5,
+            "pid": 70626,
+            "smiles": "Cc1cccc(NS(=O)(=O)Cc2ccccc2)n1",
+            "official_identity": "AZZXASAEYAGPMJ",
+            "score": 0.04000152923845101
+          },
+          {
+            "candidate_index": 1,
+            "pid": 70622,
+            "smiles": "COc1ccc(CCl)cc1OCc1ccccc1",
+            "official_identity": "WVWFKLUFYXQFHO",
+            "score": 0.03948938531420213
+          },
+          {
+            "candidate_index": 7,
+            "pid": 70628,
+            "smiles": "Cc1ccc2nc(NC(=O)C3CCCO3)sc2c1",
+            "official_identity": "CWIXEQQMHAVSJF",
+            "score": 0.03923488853732075
+          },
+          {
+            "candidate_index": 33,
+            "pid": 70654,
+            "smiles": "Cc1ccccc1S(=O)(=O)NCc1cccnc1",
+            "official_identity": "VOEPZRJQAQFRPF",
+            "score": 0.03732978973497891
+          },
+          {
+            "candidate_index": 3,
+            "pid": 70624,
+            "smiles": "Cc1ncsc1CNCc1cccc2c1OCO2",
+            "official_identity": "ABHTVVZKOLCZCZ",
+            "score": 0.03409149223910868
+          },
+          {
+            "candidate_index": 50,
+            "pid": 70671,
+            "smiles": "NC(CCC(=O)O)C(=O)NC(CC(=O)O)C(=O)O",
+            "official_identity": "FYYSIASRLDJUNP",
+            "score": 0.03407047600367516
+          },
+          {
+            "candidate_index": 49,
+            "pid": 70670,
+            "smiles": "NC(CC(=O)O)C(O)=NC(CCC(=O)O)C(=O)O",
+            "official_identity": "CKAJHWFHHFSCDT",
+            "score": 0.03192661442053157
+          },
+          {
+            "candidate_index": 32,
+            "pid": 70653,
+            "smiles": "Cc1ccc(O)c(C(=O)NCc2nc(C)cs2)c1",
+            "official_identity": "UNXGVZIZZCYSHE",
+            "score": 0.03164624236998402
+          }
+        ],
+        "missing_scores": 0,
+        "official_metric_verified_on_submitted_top25": true,
+        "score_rule": {
+          "score_direction": "descending",
+          "tie_break": "ascending original candidate_index",
+          "identity": "RDKit2026.03.3 remove stereo then canonical tautomer then InChIKey14",
+          "duplicate_identity_rule": "keep first after stable descending score ordering",
+          "invalid_identity_rule": "exclude before constructing submitted list; report excluded row indices",
+          "maximum_submitted_candidates": 25,
+          "missing_or_outside_top25_reciprocal_rank": 0.0,
+          "missing_prediction_rule": "refuse entire evaluation before opening truth; never impute zero or drop a query",
+          "candidate_cap_changed": false,
+          "threshold_or_fusion_selection": false
+        }
+      },
+      "step500": {
+        "mrr25_contribution": 1.0,
+        "top1": true,
+        "top25_hit": true,
+        "truth_rank_full_unique_candidates": 1,
+        "truth_rank25": 1,
+        "unique_scored_identity_count": 54,
+        "duplicate_identities_removed": 0,
+        "invalid_official_identity_candidate_indices": [],
+        "top25": [
+          {
+            "candidate_index": 35,
+            "pid": 70656,
+            "smiles": "NCc1ccccc1NS(=O)(=O)c1ccccc1",
+            "official_identity": "YFWCAGTZNQFYEG",
+            "score": 0.21085481234047904
+          },
+          {
+            "candidate_index": 36,
+            "pid": 70657,
+            "smiles": "CC(NS(=O)(=O)c1ccccc1)c1cccnc1",
+            "official_identity": "ZBUVCHAUKDOTMD",
+            "score": 0.17647355807410492
+          },
+          {
+            "candidate_index": 0,
+            "pid": 70621,
+            "smiles": "CCOP(=O)(c1ccccc1)c1ccccc1O",
+            "official_identity": "UYLFKUBRDJHVAO",
+            "score": 0.16921317954296336
+          },
+          {
+            "candidate_index": 45,
+            "pid": 70666,
+            "smiles": "COC(=O)C1=C(C)NC(=S)NC1c1ccccc1",
+            "official_identity": "KDUCJDPLLLQTHX",
+            "score": 0.15676396926205213
+          },
+          {
+            "candidate_index": 18,
+            "pid": 70639,
+            "smiles": "O=S1(=O)CCN(c2ccnc3ccccc23)CC1",
+            "official_identity": "LIYGBFXLAKKIAE",
+            "score": 0.12705989221557915
+          },
+          {
+            "candidate_index": 43,
+            "pid": 70664,
+            "smiles": "O=S(=O)(c1ccc2ccccc2n1)N1CCCC1",
+            "official_identity": "SYJWMSHQULKGRM",
+            "score": 0.12332923105286295
+          },
+          {
+            "candidate_index": 37,
+            "pid": 70658,
+            "smiles": "NS(=O)(=O)c1ccc(NCc2ccccc2)cc1",
+            "official_identity": "HLIBJQGJVDHCNB",
+            "score": 0.12189965058435638
+          },
+          {
+            "candidate_index": 20,
+            "pid": 70641,
+            "smiles": "CCOCC(=O)Nc1cc(-c2ccccc2)ns1",
+            "official_identity": "LSBSBZMMGQXSLN",
+            "score": 0.11791852108955687
+          },
+          {
+            "candidate_index": 39,
+            "pid": 70660,
+            "smiles": "O=S(=O)(NCC1CC1)c1ccc2ncccc2c1",
+            "official_identity": "RTLLVBYCIPIRMW",
+            "score": 0.11775044652593486
+          },
+          {
+            "candidate_index": 22,
+            "pid": 70643,
+            "smiles": "O=S(=O)(c1cccc2ncccc12)N1CCCC1",
+            "official_identity": "MEOFYRSPSQUIPP",
+            "score": 0.11363583548331496
+          },
+          {
+            "candidate_index": 9,
+            "pid": 70630,
+            "smiles": "CSCCC(=O)Nc1nc(-c2ccccc2)co1",
+            "official_identity": "FLOSPLQOEFWIHJ",
+            "score": 0.10065458110341152
+          },
+          {
+            "candidate_index": 2,
+            "pid": 70623,
+            "smiles": "COc1cc(CCl)ccc1OCc1ccccc1",
+            "official_identity": "RWYQBTIHSCUXJR",
+            "score": 0.0848764830823526
+          },
+          {
+            "candidate_index": 4,
+            "pid": 70625,
+            "smiles": "c1c(-c2nc(C3CCOC3)no2)sc2c1CCC2",
+            "official_identity": "AQYHAAFDDXAJOX",
+            "score": 0.08249682767034713
+          },
+          {
+            "candidate_index": 19,
+            "pid": 70640,
+            "smiles": "COCC(=O)Nc1cccnc1-c1csc(C)c1",
+            "official_identity": "LKVPNOUSQAGNCT",
+            "score": 0.08194133773099374
+          },
+          {
+            "candidate_index": 1,
+            "pid": 70622,
+            "smiles": "COc1ccc(CCl)cc1OCc1ccccc1",
+            "official_identity": "WVWFKLUFYXQFHO",
+            "score": 0.07784873158104649
+          },
+          {
+            "candidate_index": 24,
+            "pid": 70645,
+            "smiles": "O=S(=O)(Cc1ccccc1)NCc1cccnc1",
+            "official_identity": "NHIJVYDDVYIZMT",
+            "score": 0.07559739443305623
+          },
+          {
+            "candidate_index": 5,
+            "pid": 70626,
+            "smiles": "Cc1cccc(NS(=O)(=O)Cc2ccccc2)n1",
+            "official_identity": "AZZXASAEYAGPMJ",
+            "score": 0.07380888813380863
+          },
+          {
+            "candidate_index": 44,
+            "pid": 70665,
+            "smiles": "O=C1C2CSCN2C(=O)CN1Cc1ccccc1",
+            "official_identity": "NUEYRYTVWQWFAU",
+            "score": 0.07054981473532382
+          },
+          {
+            "candidate_index": 6,
+            "pid": 70627,
+            "smiles": "CC(=O)Nc1ccc(OCc2cnc(C)s2)cc1",
+            "official_identity": "BWXSVBRCHJFEBI",
+            "score": 0.06948566336505031
+          },
+          {
+            "candidate_index": 53,
+            "pid": 70674,
+            "smiles": "NC(CCC(=O)NC(CC(=O)O)C(=O)O)C(=O)O",
+            "official_identity": "JTJZAUVWVBUZAU",
+            "score": 0.057403151878634304
+          },
+          {
+            "candidate_index": 32,
+            "pid": 70653,
+            "smiles": "Cc1ccc(O)c(C(=O)NCc2nc(C)cs2)c1",
+            "official_identity": "UNXGVZIZZCYSHE",
+            "score": 0.05351287148798871
+          },
+          {
+            "candidate_index": 7,
+            "pid": 70628,
+            "smiles": "Cc1ccc2nc(NC(=O)C3CCCO3)sc2c1",
+            "official_identity": "CWIXEQQMHAVSJF",
+            "score": 0.05271237291569261
+          },
+          {
+            "candidate_index": 33,
+            "pid": 70654,
+            "smiles": "Cc1ccccc1S(=O)(=O)NCc1cccnc1",
+            "official_identity": "VOEPZRJQAQFRPF",
+            "score": 0.051003830118610885
+          },
+          {
+            "candidate_index": 23,
+            "pid": 70644,
+            "smiles": "COC(C(=O)Nc1nc(C)cs1)c1ccccc1",
+            "official_identity": "NELUIOSLUZGFAR",
+            "score": 0.0491602230130973
+          },
+          {
+            "candidate_index": 16,
+            "pid": 70637,
+            "smiles": "Cc1ccncc1NS(=O)(=O)Cc1ccccc1",
+            "official_identity": "JVQATAAFFIMBHA",
+            "score": 0.04840958451103749
+          }
+        ],
+        "missing_scores": 0,
+        "official_metric_verified_on_submitted_top25": true,
+        "score_rule": {
+          "score_direction": "descending",
+          "tie_break": "ascending original candidate_index",
+          "identity": "RDKit2026.03.3 remove stereo then canonical tautomer then InChIKey14",
+          "duplicate_identity_rule": "keep first after stable descending score ordering",
+          "invalid_identity_rule": "exclude before constructing submitted list; report excluded row indices",
+          "maximum_submitted_candidates": 25,
+          "missing_or_outside_top25_reciprocal_rank": 0.0,
+          "missing_prediction_rule": "refuse entire evaluation before opening truth; never impute zero or drop a query",
+          "candidate_cap_changed": false,
+          "threshold_or_fusion_selection": false
+        }
+      },
+      "delta_rr25": 0.6666666666666667,
+      "outcome": "improved"
+    },
+    {
+      "molecule_id": "fiora_XMZASYIWBHXZKO",
+      "spectrum_id": "official_001040485",
+      "truth_official_identity": "XMZASYIWBHXZKO",
+      "uncapped_candidates": 83,
+      "capped_candidates": 83,
+      "full_window_true_identity_present": true,
+      "capped_true_identity_present": true,
+      "cap_removed_all_truth": false,
+      "candidate_availability": "truth_available_for_ranking",
+      "missing_score_count_step0": 0,
+      "missing_score_count_step500": 0,
+      "same_raw_candidate_set_and_order": true,
+      "step0": {
+        "mrr25_contribution": 1.0,
+        "top1": true,
+        "top25_hit": true,
+        "truth_rank_full_unique_candidates": 1,
+        "truth_rank25": 1,
+        "unique_scored_identity_count": 83,
+        "duplicate_identities_removed": 0,
+        "invalid_official_identity_candidate_indices": [],
+        "top25": [
+          {
+            "candidate_index": 60,
+            "pid": 343695,
+            "smiles": "CC(=O)NC1(c2nc(C)cs2)CCN(CCOc2cccc(C)c2)C1",
+            "official_identity": "XMZASYIWBHXZKO",
+            "score": 0.22263090698713128
+          },
+          {
+            "candidate_index": 58,
+            "pid": 343693,
+            "smiles": "COc1ccc(C2CCCN2C(=O)CNC(C)(C)c2nccs2)cc1",
+            "official_identity": "UBUJFBDBNJZJDQ",
+            "score": 0.2209648023525456
+          },
+          {
+            "candidate_index": 38,
+            "pid": 343673,
+            "smiles": "CCOc1ccccc1CN1CCC(NC(C)=O)(c2nc(C)cs2)C1",
+            "official_identity": "BPZJKWRPKPXORI",
+            "score": 0.1233099086622557
+          },
+          {
+            "candidate_index": 59,
+            "pid": 343694,
+            "smiles": "CCOc1cccc(CN2CCC(NC(C)=O)(c3nc(C)cs3)C2)c1",
+            "official_identity": "UZNIJKONWHVZLT",
+            "score": 0.1191641589435895
+          },
+          {
+            "candidate_index": 73,
+            "pid": 343708,
+            "smiles": "CC(C)c1ccc(S(=O)(=O)N2CCN(Cc3ccccn3)CC2)cc1",
+            "official_identity": "YUHHRNXKLALANU",
+            "score": 0.11454223359109214
+          },
+          {
+            "candidate_index": 66,
+            "pid": 343701,
+            "smiles": "CCOc1ccc(CC(=O)N2CCN(Cc3nc(C)cs3)CC2)cc1",
+            "official_identity": "TXLLYYKZLNOXHY",
+            "score": 0.11342308702289669
+          },
+          {
+            "candidate_index": 31,
+            "pid": 343666,
+            "smiles": "O=C(O)CN(CCCC(=O)c1ccc(F)cc1)CCNc1ccccn1",
+            "official_identity": "WIHXTXCNEKXYIE",
+            "score": 0.11138785279915579
+          },
+          {
+            "candidate_index": 80,
+            "pid": 343715,
+            "smiles": "CC(C)n1nccc1NC(=O)CCn1cnc2c1c(=O)n(C)c(=O)n2C",
+            "official_identity": "NCCODVCONUVKID",
+            "score": 0.1111971489614699
+          },
+          {
+            "candidate_index": 81,
+            "pid": 343716,
+            "smiles": "Cc1nn(C)c(NC(=O)CCn2cnc3c2c(=O)n(C)c(=O)n3C)c1C",
+            "official_identity": "YYRSISFBVAWPJT",
+            "score": 0.1080355389806379
+          },
+          {
+            "candidate_index": 61,
+            "pid": 343696,
+            "smiles": "CCOCC1CCCN(C(=O)Nc2ncc(Cc3ccccc3)s2)C1",
+            "official_identity": "YOBXXFSGFFCRRM",
+            "score": 0.10429186318754662
+          },
+          {
+            "candidate_index": 55,
+            "pid": 343690,
+            "smiles": "Cc1cncc(CN2CCN(S(=O)(=O)c3cc(C)ccc3C)CC2)c1",
+            "official_identity": "RVJILKSXDYPIPC",
+            "score": 0.10175573765522813
+          },
+          {
+            "candidate_index": 77,
+            "pid": 343712,
+            "smiles": "O=C(c1cccc2ccccc12)c1cn(CCCCCF)c2ccccc12",
+            "official_identity": "ALQFAGFPQCBPED",
+            "score": 0.08564868521169307
+          },
+          {
+            "candidate_index": 45,
+            "pid": 343680,
+            "smiles": "Cc1ccccc1C(C)Nc1ncccc1S(=O)(=O)N1CCCCC1",
+            "official_identity": "HRRLKFCFRXIQAW",
+            "score": 0.08476261814026578
+          },
+          {
+            "candidate_index": 67,
+            "pid": 343702,
+            "smiles": "O=C(CCCCC1SCC2NC(=O)NC21)NC1Cc2ccccc2C1",
+            "official_identity": "DMDQVSZFMMAFKL",
+            "score": 0.07658224724176424
+          },
+          {
+            "candidate_index": 65,
+            "pid": 343700,
+            "smiles": "CC(C)(C)c1nc(CCNC(=O)NC2c3ccccc3CC2O)cs1",
+            "official_identity": "AHJFZJXTJWVPMU",
+            "score": 0.06808267894374039
+          },
+          {
+            "candidate_index": 43,
+            "pid": 343678,
+            "smiles": "Cc1ccc(OCc2nc(CC(=O)NCCC3CCNC3)cs2)cc1",
+            "official_identity": "HIOKIWYOEOOJSO",
+            "score": 0.06431012145514751
+          },
+          {
+            "candidate_index": 22,
+            "pid": 343657,
+            "smiles": "CC(NC(=O)c1ncccc1O)c1cc(F)ccc1N1CCC(O)CC1",
+            "official_identity": "YGERJPZRKPEGDH",
+            "score": 0.05841759423321151
+          },
+          {
+            "candidate_index": 46,
+            "pid": 343681,
+            "smiles": "Cc1nn(CC2CCCC2)c(C)c1S(=O)(=O)N1CCc2ccccc21",
+            "official_identity": "IRUXQQIRWVPRLM",
+            "score": 0.05723324166904168
+          },
+          {
+            "candidate_index": 30,
+            "pid": 343665,
+            "smiles": "CC(C)COc1ccc(C(=O)N(C)CC(=O)Nc2ccc(F)cc2)cn1",
+            "official_identity": "WCDCZAKPYXHVFH",
+            "score": 0.05316411073591885
+          },
+          {
+            "candidate_index": 52,
+            "pid": 343687,
+            "smiles": "CC(NC(=O)c1ccc(CSc2nccn2C)o1)C1CC2CCC1C2",
+            "official_identity": "OXGCRCCHPNTPME",
+            "score": 0.05075555823884812
+          },
+          {
+            "candidate_index": 42,
+            "pid": 343677,
+            "smiles": "COC(C)(C(=O)N1CCN(Cc2nc3ccccc3s2)CC1)C1CC1",
+            "official_identity": "GQBPOZWGNJHMEY",
+            "score": 0.04950389948619985
+          },
+          {
+            "candidate_index": 20,
+            "pid": 343655,
+            "smiles": "NC(=O)C1CCC(C2CCN(C(=O)c3cc4c(F)cccc4[nH]3)CC2)O1",
+            "official_identity": "WPMOWRAHMYJKGP",
+            "score": 0.04432439013008591
+          },
+          {
+            "candidate_index": 14,
+            "pid": 343649,
+            "smiles": "NC(=O)C1CCC(C2CCN(C(=O)c3cc4cc(F)ccc4[nH]3)CC2)O1",
+            "official_identity": "PLAALBYGTTVROR",
+            "score": 0.04345353400681471
+          },
+          {
+            "candidate_index": 32,
+            "pid": 343667,
+            "smiles": "O=P(NC1CCCCCCC1)(Oc1ccccc1)Oc1ccccc1",
+            "official_identity": "BWATZXOKZTWXTQ",
+            "score": 0.04079224098651321
+          },
+          {
+            "candidate_index": 72,
+            "pid": 343707,
+            "smiles": "CCC(C)c1ccc(S(=O)(=O)N2CCN(c3ccccn3)CC2)cc1",
+            "official_identity": "XWTDQNWNFPCEGC",
+            "score": 0.03891970730310456
+          }
+        ],
+        "missing_scores": 0,
+        "official_metric_verified_on_submitted_top25": true,
+        "score_rule": {
+          "score_direction": "descending",
+          "tie_break": "ascending original candidate_index",
+          "identity": "RDKit2026.03.3 remove stereo then canonical tautomer then InChIKey14",
+          "duplicate_identity_rule": "keep first after stable descending score ordering",
+          "invalid_identity_rule": "exclude before constructing submitted list; report excluded row indices",
+          "maximum_submitted_candidates": 25,
+          "missing_or_outside_top25_reciprocal_rank": 0.0,
+          "missing_prediction_rule": "refuse entire evaluation before opening truth; never impute zero or drop a query",
+          "candidate_cap_changed": false,
+          "threshold_or_fusion_selection": false
+        }
+      },
+      "step500": {
+        "mrr25_contribution": 1.0,
+        "top1": true,
+        "top25_hit": true,
+        "truth_rank_full_unique_candidates": 1,
+        "truth_rank25": 1,
+        "unique_scored_identity_count": 83,
+        "duplicate_identities_removed": 0,
+        "invalid_official_identity_candidate_indices": [],
+        "top25": [
+          {
+            "candidate_index": 60,
+            "pid": 343695,
+            "smiles": "CC(=O)NC1(c2nc(C)cs2)CCN(CCOc2cccc(C)c2)C1",
+            "official_identity": "XMZASYIWBHXZKO",
+            "score": 0.2660628504662827
+          },
+          {
+            "candidate_index": 58,
+            "pid": 343693,
+            "smiles": "COc1ccc(C2CCCN2C(=O)CNC(C)(C)c2nccs2)cc1",
+            "official_identity": "UBUJFBDBNJZJDQ",
+            "score": 0.21913676370067187
+          },
+          {
+            "candidate_index": 66,
+            "pid": 343701,
+            "smiles": "CCOc1ccc(CC(=O)N2CCN(Cc3nc(C)cs3)CC2)cc1",
+            "official_identity": "TXLLYYKZLNOXHY",
+            "score": 0.18796873231122693
+          },
+          {
+            "candidate_index": 31,
+            "pid": 343666,
+            "smiles": "O=C(O)CN(CCCC(=O)c1ccc(F)cc1)CCNc1ccccn1",
+            "official_identity": "WIHXTXCNEKXYIE",
+            "score": 0.15910699826919045
+          },
+          {
+            "candidate_index": 38,
+            "pid": 343673,
+            "smiles": "CCOc1ccccc1CN1CCC(NC(C)=O)(c2nc(C)cs2)C1",
+            "official_identity": "BPZJKWRPKPXORI",
+            "score": 0.14984894643490715
+          },
+          {
+            "candidate_index": 61,
+            "pid": 343696,
+            "smiles": "CCOCC1CCCN(C(=O)Nc2ncc(Cc3ccccc3)s2)C1",
+            "official_identity": "YOBXXFSGFFCRRM",
+            "score": 0.14494556606548287
+          },
+          {
+            "candidate_index": 73,
+            "pid": 343708,
+            "smiles": "CC(C)c1ccc(S(=O)(=O)N2CCN(Cc3ccccn3)CC2)cc1",
+            "official_identity": "YUHHRNXKLALANU",
+            "score": 0.14046748320947022
+          },
+          {
+            "candidate_index": 59,
+            "pid": 343694,
+            "smiles": "CCOc1cccc(CN2CCC(NC(C)=O)(c3nc(C)cs3)C2)c1",
+            "official_identity": "UZNIJKONWHVZLT",
+            "score": 0.1356594431991479
+          },
+          {
+            "candidate_index": 55,
+            "pid": 343690,
+            "smiles": "Cc1cncc(CN2CCN(S(=O)(=O)c3cc(C)ccc3C)CC2)c1",
+            "official_identity": "RVJILKSXDYPIPC",
+            "score": 0.1320641451474075
+          },
+          {
+            "candidate_index": 80,
+            "pid": 343715,
+            "smiles": "CC(C)n1nccc1NC(=O)CCn1cnc2c1c(=O)n(C)c(=O)n2C",
+            "official_identity": "NCCODVCONUVKID",
+            "score": 0.1213018851922231
+          },
+          {
+            "candidate_index": 45,
+            "pid": 343680,
+            "smiles": "Cc1ccccc1C(C)Nc1ncccc1S(=O)(=O)N1CCCCC1",
+            "official_identity": "HRRLKFCFRXIQAW",
+            "score": 0.12105554726938088
+          },
+          {
+            "candidate_index": 65,
+            "pid": 343700,
+            "smiles": "CC(C)(C)c1nc(CCNC(=O)NC2c3ccccc3CC2O)cs1",
+            "official_identity": "AHJFZJXTJWVPMU",
+            "score": 0.11913110523633817
+          },
+          {
+            "candidate_index": 43,
+            "pid": 343678,
+            "smiles": "Cc1ccc(OCc2nc(CC(=O)NCCC3CCNC3)cs2)cc1",
+            "official_identity": "HIOKIWYOEOOJSO",
+            "score": 0.11725473564218084
+          },
+          {
+            "candidate_index": 81,
+            "pid": 343716,
+            "smiles": "Cc1nn(C)c(NC(=O)CCn2cnc3c2c(=O)n(C)c(=O)n3C)c1C",
+            "official_identity": "YYRSISFBVAWPJT",
+            "score": 0.10729376499965285
+          },
+          {
+            "candidate_index": 77,
+            "pid": 343712,
+            "smiles": "O=C(c1cccc2ccccc12)c1cn(CCCCCF)c2ccccc12",
+            "official_identity": "ALQFAGFPQCBPED",
+            "score": 0.10177593073890467
+          },
+          {
+            "candidate_index": 30,
+            "pid": 343665,
+            "smiles": "CC(C)COc1ccc(C(=O)N(C)CC(=O)Nc2ccc(F)cc2)cn1",
+            "official_identity": "WCDCZAKPYXHVFH",
+            "score": 0.09534163250634844
+          },
+          {
+            "candidate_index": 6,
+            "pid": 343641,
+            "smiles": "O=C(NC1CCOC1c1cnn(CC2CC2)c1)c1ccc(CO)c(F)c1",
+            "official_identity": "RABQJDOYKZOHRS",
+            "score": 0.09053322979771902
+          },
+          {
+            "candidate_index": 67,
+            "pid": 343702,
+            "smiles": "O=C(CCCCC1SCC2NC(=O)NC21)NC1Cc2ccccc2C1",
+            "official_identity": "DMDQVSZFMMAFKL",
+            "score": 0.08935487483852943
+          },
+          {
+            "candidate_index": 72,
+            "pid": 343707,
+            "smiles": "CCC(C)c1ccc(S(=O)(=O)N2CCN(c3ccccn3)CC2)cc1",
+            "official_identity": "XWTDQNWNFPCEGC",
+            "score": 0.07845310591978763
+          },
+          {
+            "candidate_index": 23,
+            "pid": 343658,
+            "smiles": "Cn1nc(C(=O)O)cc1C(=O)N(CCc1ccc(F)cc1)C1CCCC1",
+            "official_identity": "YPTSWTWOCWVFAR",
+            "score": 0.07137061908301653
+          },
+          {
+            "candidate_index": 42,
+            "pid": 343677,
+            "smiles": "COC(C)(C(=O)N1CCN(Cc2nc3ccccc3s2)CC1)C1CC1",
+            "official_identity": "GQBPOZWGNJHMEY",
+            "score": 0.06918334916680736
+          },
+          {
+            "candidate_index": 14,
+            "pid": 343649,
+            "smiles": "NC(=O)C1CCC(C2CCN(C(=O)c3cc4cc(F)ccc4[nH]3)CC2)O1",
+            "official_identity": "PLAALBYGTTVROR",
+            "score": 0.0656455852185677
+          },
+          {
+            "candidate_index": 20,
+            "pid": 343655,
+            "smiles": "NC(=O)C1CCC(C2CCN(C(=O)c3cc4c(F)cccc4[nH]3)CC2)O1",
+            "official_identity": "WPMOWRAHMYJKGP",
+            "score": 0.06556305884490461
+          },
+          {
+            "candidate_index": 22,
+            "pid": 343657,
+            "smiles": "CC(NC(=O)c1ncccc1O)c1cc(F)ccc1N1CCC(O)CC1",
+            "official_identity": "YGERJPZRKPEGDH",
+            "score": 0.0620411039417854
+          },
+          {
+            "candidate_index": 32,
+            "pid": 343667,
+            "smiles": "O=P(NC1CCCCCCC1)(Oc1ccccc1)Oc1ccccc1",
+            "official_identity": "BWATZXOKZTWXTQ",
+            "score": 0.061771379583645904
+          }
+        ],
+        "missing_scores": 0,
+        "official_metric_verified_on_submitted_top25": true,
+        "score_rule": {
+          "score_direction": "descending",
+          "tie_break": "ascending original candidate_index",
+          "identity": "RDKit2026.03.3 remove stereo then canonical tautomer then InChIKey14",
+          "duplicate_identity_rule": "keep first after stable descending score ordering",
+          "invalid_identity_rule": "exclude before constructing submitted list; report excluded row indices",
+          "maximum_submitted_candidates": 25,
+          "missing_or_outside_top25_reciprocal_rank": 0.0,
+          "missing_prediction_rule": "refuse entire evaluation before opening truth; never impute zero or drop a query",
+          "candidate_cap_changed": false,
+          "threshold_or_fusion_selection": false
+        }
+      },
+      "delta_rr25": 0.0,
+      "outcome": "unchanged"
+    },
+    {
+      "molecule_id": "fiora_DBGSKJZLDYWFRK",
+      "spectrum_id": "official_000148003",
+      "truth_official_identity": "DBGSKJZLDYWFRK",
+      "uncapped_candidates": 123,
+      "capped_candidates": 123,
+      "full_window_true_identity_present": true,
+      "capped_true_identity_present": true,
+      "cap_removed_all_truth": false,
+      "candidate_availability": "truth_available_for_ranking",
+      "missing_score_count_step0": 0,
+      "missing_score_count_step500": 0,
+      "same_raw_candidate_set_and_order": true,
+      "step0": {
+        "mrr25_contribution": 0.3333333333333333,
+        "top1": false,
+        "top25_hit": true,
+        "truth_rank_full_unique_candidates": 3,
+        "truth_rank25": 3,
+        "unique_scored_identity_count": 123,
+        "duplicate_identities_removed": 0,
+        "invalid_official_identity_candidate_indices": [],
+        "top25": [
+          {
+            "candidate_index": 122,
+            "pid": 316182,
+            "smiles": "CN1CC(NC(=O)c2ccc(OCC(F)(F)C(F)F)nc2)CC1=O",
+            "official_identity": "WBFRNMLONZQFNB",
+            "score": 0.2703233691632011
+          },
+          {
+            "candidate_index": 71,
+            "pid": 316131,
+            "smiles": "CN1CC(NC(=O)Nc2nnc(Cc3cccc(F)c3)s2)CC1=O",
+            "official_identity": "JWNOUTGZDQZINI",
+            "score": 0.23695666385641673
+          },
+          {
+            "candidate_index": 73,
+            "pid": 316133,
+            "smiles": "CN1CCN(S(=O)(=O)c2ccc(F)cc2C#N)CC1c1ncc[nH]1",
+            "official_identity": "DBGSKJZLDYWFRK",
+            "score": 0.21757098011207013
+          },
+          {
+            "candidate_index": 92,
+            "pid": 316152,
+            "smiles": "Cc1nc(-c2ccccc2Cl)sc1C(=O)NC1CCN(C)CC1",
+            "official_identity": "XHRZAZPSCNYBDW",
+            "score": 0.1573996914221613
+          },
+          {
+            "candidate_index": 114,
+            "pid": 316174,
+            "smiles": "Cn1nccc1-c1ccc(CNC(=O)c2ccccc2C(F)(F)F)o1",
+            "official_identity": "NFQOAERMYKLSNS",
+            "score": 0.12827139708190916
+          },
+          {
+            "candidate_index": 100,
+            "pid": 316160,
+            "smiles": "O=C(CCCCC1CCSS1)Nc1ccc(-n2cnnn2)cc1",
+            "official_identity": "SKNGASZTBZDQBM",
+            "score": 0.12389151593917054
+          },
+          {
+            "candidate_index": 58,
+            "pid": 316118,
+            "smiles": "Cc1sc(NC(=O)c2ccc3nncn3c2)nc1Cc1ccccc1",
+            "official_identity": "DWFAOYKQPQJKDH",
+            "score": 0.11945144734896856
+          },
+          {
+            "candidate_index": 101,
+            "pid": 316161,
+            "smiles": "O=C(CCCCC1CCSS1)Nc1cccc(-n2cnnn2)c1",
+            "official_identity": "YBCDMAYJOWNURR",
+            "score": 0.11616028792258058
+          },
+          {
+            "candidate_index": 109,
+            "pid": 316169,
+            "smiles": "COc1ccc(C(NC(=O)c2ccc3nccn3c2)C(F)(F)F)cc1",
+            "official_identity": "WKVSNNDZDBKOEN",
+            "score": 0.11525446268944806
+          },
+          {
+            "candidate_index": 47,
+            "pid": 316107,
+            "smiles": "CC(C)(C(=O)NCC(=O)Nc1cccnc1)c1ccc(Cl)cc1F",
+            "official_identity": "RJAAVBBNQGPFEB",
+            "score": 0.11307455132705667
+          },
+          {
+            "candidate_index": 39,
+            "pid": 316099,
+            "smiles": "O=C(NCc1cccnc1)N1CCOC(c2ccc(F)c(Cl)c2)C1",
+            "official_identity": "AOHATNACFHUHEH",
+            "score": 0.10068633149608584
+          },
+          {
+            "candidate_index": 102,
+            "pid": 316162,
+            "smiles": "O=c1c2ccncc2ncn1CC(O)Cc1ccccc1C(F)(F)F",
+            "official_identity": "MKGJBLPJFNLFJA",
+            "score": 0.09731380683636774
+          },
+          {
+            "candidate_index": 44,
+            "pid": 316104,
+            "smiles": "O=C(NCc1ccccn1)N1CCOC(c2ccc(F)c(Cl)c2)C1",
+            "official_identity": "VBBGZKTVHNSZNZ",
+            "score": 0.09504985006891549
+          },
+          {
+            "candidate_index": 105,
+            "pid": 316165,
+            "smiles": "O=c1c2ccncc2ncn1CC(O)Cc1ccc(C(F)(F)F)cc1",
+            "official_identity": "NDESRONWHBLINA",
+            "score": 0.09284415237373916
+          },
+          {
+            "candidate_index": 6,
+            "pid": 316066,
+            "smiles": "COc1cccc(CN(C)S(=O)(=O)c2ccc3c(c2)OCCO3)c1",
+            "official_identity": "AZTDZXVXUQVZAB",
+            "score": 0.08847948500930285
+          },
+          {
+            "candidate_index": 30,
+            "pid": 316090,
+            "smiles": "CCN(c1ccccc1C(=O)OC)S(=O)(=O)c1ccccc1OC",
+            "official_identity": "UEPVVTNLSAGTDO",
+            "score": 0.08642538875123
+          },
+          {
+            "candidate_index": 4,
+            "pid": 316064,
+            "smiles": "COc1ccc(C)cc1S(=O)(=O)NCc1ccccc1CC(=O)O",
+            "official_identity": "AAIYPMLPQBBPKR",
+            "score": 0.0793976186216182
+          },
+          {
+            "candidate_index": 118,
+            "pid": 316178,
+            "smiles": "Cn1ccc2c(OCC(=O)Nc3ccc(C(F)(F)F)cn3)cccc21",
+            "official_identity": "GRHZISFLYLLZJD",
+            "score": 0.07712201804374336
+          },
+          {
+            "candidate_index": 14,
+            "pid": 316074,
+            "smiles": "COCCc1ccc(S(=O)(=O)Nc2cccc(C)c2C(=O)O)cc1",
+            "official_identity": "MFENTTKVLAQHSY",
+            "score": 0.07397710680325902
+          },
+          {
+            "candidate_index": 120,
+            "pid": 316180,
+            "smiles": "Cn1ccc2c(OCC(=O)Nc3ccc(C(F)(F)F)nc3)cccc21",
+            "official_identity": "RPDSMKLASOPRHC",
+            "score": 0.07278179351107691
+          },
+          {
+            "candidate_index": 83,
+            "pid": 316143,
+            "smiles": "Cc1nc(-c2ccc(Cl)cc2)sc1C(C)NC(=O)C1CCNC1",
+            "official_identity": "HLAQTGXCTIMJCD",
+            "score": 0.07167100156136301
+          },
+          {
+            "candidate_index": 112,
+            "pid": 316172,
+            "smiles": "Cc1cc(C)n(CC(=O)Nc2ccccc2C(F)(F)F)c(=O)c1C#N",
+            "official_identity": "BQEDTBCZNDMOHY",
+            "score": 0.0670050807070037
+          },
+          {
+            "candidate_index": 106,
+            "pid": 316166,
+            "smiles": "N#Cc1c[nH]c(C(=O)N2CC(O)CC2c2ccccc2C(F)(F)F)c1",
+            "official_identity": "OMXUIYKWLAXDAD",
+            "score": 0.06372353670194958
+          },
+          {
+            "candidate_index": 74,
+            "pid": 316134,
+            "smiles": "Cc1nnc2ccc(NC(C)c3ccc(S(C)(=O)=O)c(F)c3)nn12",
+            "official_identity": "HNQLPECYWSJMPZ",
+            "score": 0.06196648830015064
+          },
+          {
+            "candidate_index": 116,
+            "pid": 316176,
+            "smiles": "O=C(Cc1cc(F)c(F)cc1F)NCCn1c(=O)[nH]c2ccccc21",
+            "official_identity": "KENRPJHMVJASGT",
+            "score": 0.059354993110346296
+          }
+        ],
+        "missing_scores": 0,
+        "official_metric_verified_on_submitted_top25": true,
+        "score_rule": {
+          "score_direction": "descending",
+          "tie_break": "ascending original candidate_index",
+          "identity": "RDKit2026.03.3 remove stereo then canonical tautomer then InChIKey14",
+          "duplicate_identity_rule": "keep first after stable descending score ordering",
+          "invalid_identity_rule": "exclude before constructing submitted list; report excluded row indices",
+          "maximum_submitted_candidates": 25,
+          "missing_or_outside_top25_reciprocal_rank": 0.0,
+          "missing_prediction_rule": "refuse entire evaluation before opening truth; never impute zero or drop a query",
+          "candidate_cap_changed": false,
+          "threshold_or_fusion_selection": false
+        }
+      },
+      "step500": {
+        "mrr25_contribution": 0.2,
+        "top1": false,
+        "top25_hit": true,
+        "truth_rank_full_unique_candidates": 5,
+        "truth_rank25": 5,
+        "unique_scored_identity_count": 123,
+        "duplicate_identities_removed": 0,
+        "invalid_official_identity_candidate_indices": [],
+        "top25": [
+          {
+            "candidate_index": 122,
+            "pid": 316182,
+            "smiles": "CN1CC(NC(=O)c2ccc(OCC(F)(F)C(F)F)nc2)CC1=O",
+            "official_identity": "WBFRNMLONZQFNB",
+            "score": 0.24142736208245882
+          },
+          {
+            "candidate_index": 71,
+            "pid": 316131,
+            "smiles": "CN1CC(NC(=O)Nc2nnc(Cc3cccc(F)c3)s2)CC1=O",
+            "official_identity": "JWNOUTGZDQZINI",
+            "score": 0.21902691137316932
+          },
+          {
+            "candidate_index": 114,
+            "pid": 316174,
+            "smiles": "Cn1nccc1-c1ccc(CNC(=O)c2ccccc2C(F)(F)F)o1",
+            "official_identity": "NFQOAERMYKLSNS",
+            "score": 0.17679951025043913
+          },
+          {
+            "candidate_index": 92,
+            "pid": 316152,
+            "smiles": "Cc1nc(-c2ccccc2Cl)sc1C(=O)NC1CCN(C)CC1",
+            "official_identity": "XHRZAZPSCNYBDW",
+            "score": 0.16217187059699226
+          },
+          {
+            "candidate_index": 73,
+            "pid": 316133,
+            "smiles": "CN1CCN(S(=O)(=O)c2ccc(F)cc2C#N)CC1c1ncc[nH]1",
+            "official_identity": "DBGSKJZLDYWFRK",
+            "score": 0.15889333436746345
+          },
+          {
+            "candidate_index": 100,
+            "pid": 316160,
+            "smiles": "O=C(CCCCC1CCSS1)Nc1ccc(-n2cnnn2)cc1",
+            "official_identity": "SKNGASZTBZDQBM",
+            "score": 0.1521432206404783
+          },
+          {
+            "candidate_index": 6,
+            "pid": 316066,
+            "smiles": "COc1cccc(CN(C)S(=O)(=O)c2ccc3c(c2)OCCO3)c1",
+            "official_identity": "AZTDZXVXUQVZAB",
+            "score": 0.13870124093167013
+          },
+          {
+            "candidate_index": 47,
+            "pid": 316107,
+            "smiles": "CC(C)(C(=O)NCC(=O)Nc1cccnc1)c1ccc(Cl)cc1F",
+            "official_identity": "RJAAVBBNQGPFEB",
+            "score": 0.13767372118615834
+          },
+          {
+            "candidate_index": 101,
+            "pid": 316161,
+            "smiles": "O=C(CCCCC1CCSS1)Nc1cccc(-n2cnnn2)c1",
+            "official_identity": "YBCDMAYJOWNURR",
+            "score": 0.13707556340584148
+          },
+          {
+            "candidate_index": 30,
+            "pid": 316090,
+            "smiles": "CCN(c1ccccc1C(=O)OC)S(=O)(=O)c1ccccc1OC",
+            "official_identity": "UEPVVTNLSAGTDO",
+            "score": 0.12592341442172772
+          },
+          {
+            "candidate_index": 109,
+            "pid": 316169,
+            "smiles": "COc1ccc(C(NC(=O)c2ccc3nccn3c2)C(F)(F)F)cc1",
+            "official_identity": "WKVSNNDZDBKOEN",
+            "score": 0.12510885441093628
+          },
+          {
+            "candidate_index": 58,
+            "pid": 316118,
+            "smiles": "Cc1sc(NC(=O)c2ccc3nncn3c2)nc1Cc1ccccc1",
+            "official_identity": "DWFAOYKQPQJKDH",
+            "score": 0.12483963868411417
+          },
+          {
+            "candidate_index": 39,
+            "pid": 316099,
+            "smiles": "O=C(NCc1cccnc1)N1CCOC(c2ccc(F)c(Cl)c2)C1",
+            "official_identity": "AOHATNACFHUHEH",
+            "score": 0.12071118436462724
+          },
+          {
+            "candidate_index": 112,
+            "pid": 316172,
+            "smiles": "Cc1cc(C)n(CC(=O)Nc2ccccc2C(F)(F)F)c(=O)c1C#N",
+            "official_identity": "BQEDTBCZNDMOHY",
+            "score": 0.11804261586264177
+          },
+          {
+            "candidate_index": 102,
+            "pid": 316162,
+            "smiles": "O=c1c2ccncc2ncn1CC(O)Cc1ccccc1C(F)(F)F",
+            "official_identity": "MKGJBLPJFNLFJA",
+            "score": 0.11610980502988213
+          },
+          {
+            "candidate_index": 105,
+            "pid": 316165,
+            "smiles": "O=c1c2ccncc2ncn1CC(O)Cc1ccc(C(F)(F)F)cc1",
+            "official_identity": "NDESRONWHBLINA",
+            "score": 0.1137942776439608
+          },
+          {
+            "candidate_index": 4,
+            "pid": 316064,
+            "smiles": "COc1ccc(C)cc1S(=O)(=O)NCc1ccccc1CC(=O)O",
+            "official_identity": "AAIYPMLPQBBPKR",
+            "score": 0.10909802964955963
+          },
+          {
+            "candidate_index": 44,
+            "pid": 316104,
+            "smiles": "O=C(NCc1ccccn1)N1CCOC(c2ccc(F)c(Cl)c2)C1",
+            "official_identity": "VBBGZKTVHNSZNZ",
+            "score": 0.10419434383643263
+          },
+          {
+            "candidate_index": 9,
+            "pid": 316069,
+            "smiles": "COc1ccc(S(=O)(=O)NCCc2ccccc2C(=O)O)cc1C",
+            "official_identity": "FTKVIIBOXCFFPM",
+            "score": 0.10130696585670748
+          },
+          {
+            "candidate_index": 14,
+            "pid": 316074,
+            "smiles": "COCCc1ccc(S(=O)(=O)Nc2cccc(C)c2C(=O)O)cc1",
+            "official_identity": "MFENTTKVLAQHSY",
+            "score": 0.09828759976243392
+          },
+          {
+            "candidate_index": 74,
+            "pid": 316134,
+            "smiles": "Cc1nnc2ccc(NC(C)c3ccc(S(C)(=O)=O)c(F)c3)nn12",
+            "official_identity": "HNQLPECYWSJMPZ",
+            "score": 0.08956893397502873
+          },
+          {
+            "candidate_index": 118,
+            "pid": 316178,
+            "smiles": "Cn1ccc2c(OCC(=O)Nc3ccc(C(F)(F)F)cn3)cccc21",
+            "official_identity": "GRHZISFLYLLZJD",
+            "score": 0.08857346130582705
+          },
+          {
+            "candidate_index": 116,
+            "pid": 316176,
+            "smiles": "O=C(Cc1cc(F)c(F)cc1F)NCCn1c(=O)[nH]c2ccccc21",
+            "official_identity": "KENRPJHMVJASGT",
+            "score": 0.08340842891447317
+          },
+          {
+            "candidate_index": 17,
+            "pid": 316077,
+            "smiles": "COc1cccc(S(=O)(=O)Nc2ccc(CC(C)C(=O)O)cc2)c1",
+            "official_identity": "SVVIYFJACQMOEF",
+            "score": 0.08230741635379417
+          },
+          {
+            "candidate_index": 120,
+            "pid": 316180,
+            "smiles": "Cn1ccc2c(OCC(=O)Nc3ccc(C(F)(F)F)nc3)cccc21",
+            "official_identity": "RPDSMKLASOPRHC",
+            "score": 0.08154423658014043
+          }
+        ],
+        "missing_scores": 0,
+        "official_metric_verified_on_submitted_top25": true,
+        "score_rule": {
+          "score_direction": "descending",
+          "tie_break": "ascending original candidate_index",
+          "identity": "RDKit2026.03.3 remove stereo then canonical tautomer then InChIKey14",
+          "duplicate_identity_rule": "keep first after stable descending score ordering",
+          "invalid_identity_rule": "exclude before constructing submitted list; report excluded row indices",
+          "maximum_submitted_candidates": 25,
+          "missing_or_outside_top25_reciprocal_rank": 0.0,
+          "missing_prediction_rule": "refuse entire evaluation before opening truth; never impute zero or drop a query",
+          "candidate_cap_changed": false,
+          "threshold_or_fusion_selection": false
+        }
+      },
+      "delta_rr25": -0.1333333333333333,
+      "outcome": "worsened"
+    },
+    {
+      "molecule_id": "fiora_SORQKDQXBHMUIF",
+      "spectrum_id": "official_000841303",
+      "truth_official_identity": "SORQKDQXBHMUIF",
+      "uncapped_candidates": 66,
+      "capped_candidates": 66,
+      "full_window_true_identity_present": true,
+      "capped_true_identity_present": true,
+      "cap_removed_all_truth": false,
+      "candidate_availability": "truth_available_for_ranking",
+      "missing_score_count_step0": 0,
+      "missing_score_count_step500": 0,
+      "same_raw_candidate_set_and_order": true,
+      "step0": {
+        "mrr25_contribution": 1.0,
+        "top1": true,
+        "top25_hit": true,
+        "truth_rank_full_unique_candidates": 1,
+        "truth_rank25": 1,
+        "unique_scored_identity_count": 66,
+        "duplicate_identities_removed": 0,
+        "invalid_official_identity_candidate_indices": [],
+        "top25": [
+          {
+            "candidate_index": 16,
+            "pid": 387042,
+            "smiles": "CC(c1cccs1)N(C)CC(=O)N1CCc2cc(S(N)(=O)=O)ccc21",
+            "official_identity": "SORQKDQXBHMUIF",
+            "score": 0.8198151333917273
+          },
+          {
+            "candidate_index": 18,
+            "pid": 387044,
+            "smiles": "CC(C)(C)NS(=O)(=O)c1ccc(NC(=O)CSc2ccccc2)nc1",
+            "official_identity": "UZXOTHPOPPJLPX",
+            "score": 0.18424491494664658
+          },
+          {
+            "candidate_index": 48,
+            "pid": 387074,
+            "smiles": "O=C1CCC(C2(c3ccc(O)cc3)C(=O)C=C(c3ccc(O)c(O)c3)C2=O)N1",
+            "official_identity": "AUZZXHUFPWTABN",
+            "score": 0.03869584739215159
+          },
+          {
+            "candidate_index": 62,
+            "pid": 387088,
+            "smiles": "CCNC(=O)OC1COC2C1OCC2n1nnnc1Sc1ncccn1",
+            "official_identity": "PSBVYGXVVYMRON",
+            "score": 0.03441412591393207
+          },
+          {
+            "candidate_index": 21,
+            "pid": 387047,
+            "smiles": "CS(=O)(=O)NCC1CCCN(C(=O)c2ncsc2-c2ccccc2)C1",
+            "official_identity": "WYNTZWIMCNDCNS",
+            "score": 0.014041889775575836
+          },
+          {
+            "candidate_index": 27,
+            "pid": 387053,
+            "smiles": "CN(C(=O)C1CC12CCN(S(=O)(=O)c1ccc(C#N)s1)CC2)C1CC1",
+            "official_identity": "HWCSHILDEJXPCF",
+            "score": 0.007787309260924726
+          },
+          {
+            "candidate_index": 34,
+            "pid": 387060,
+            "smiles": "CC(O)C(=O)SCC(NC(=O)CCC(N)C(=O)O)C(=O)NCC(=O)O",
+            "official_identity": "VDYDCVUWILIYQF",
+            "score": 0.004353711052965912
+          },
+          {
+            "candidate_index": 6,
+            "pid": 387032,
+            "smiles": "N#Cc1cc(Cl)ccc1-n1ccc(NC(=O)N2CCCC(F)(F)CC2)n1",
+            "official_identity": "ZQADFCIRZJNTEF",
+            "score": 0.003150706529697647
+          },
+          {
+            "candidate_index": 61,
+            "pid": 387087,
+            "smiles": "Fc1cnc(N2CCC(c3nc(-c4ccccc4)no3)(C(F)(F)F)C2)cn1",
+            "official_identity": "UMLQLQXDICEFFB",
+            "score": 0.0011539662505119976
+          },
+          {
+            "candidate_index": 33,
+            "pid": 387059,
+            "smiles": "CC(NC(CCC(=O)NC(CS)C(=O)NCC(=O)O)C(=O)O)C(=O)O",
+            "official_identity": "SRPOSBMIGVZVBT",
+            "score": 0.0005529834105701441
+          },
+          {
+            "candidate_index": 0,
+            "pid": 387026,
+            "smiles": "CCN(CC)S(=O)(=O)c1ccc(=O)n(Cc2nc3cc(F)ccc3o2)c1",
+            "official_identity": "LQHBCMCPAWKNHW",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 1,
+            "pid": 387027,
+            "smiles": "CN(Cc1n[nH]c(C(C)(C)C)n1)C(C(N)=O)c1cccc(Br)c1",
+            "official_identity": "PBTSCMYOECYMDA",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 2,
+            "pid": 387028,
+            "smiles": "CCC(C)(C)NC(=O)C(C)n1cc(-c2cncc(Br)c2C)nn1",
+            "official_identity": "PEPCJJXUTYJBDR",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 3,
+            "pid": 387029,
+            "smiles": "CCCCn1nnnc1CN1CCOC(c2ccc(Br)cc2)C1",
+            "official_identity": "SMXLIVBZOVEBGL",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 4,
+            "pid": 387030,
+            "smiles": "N=C(N)NCCCCC1NCCc2c1n(O)c1cc(Br)ccc21",
+            "official_identity": "ZRUIDVXVEXXEOP",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 5,
+            "pid": 387031,
+            "smiles": "Cc1cccc(C(C)C)c1NC(=O)CS(=O)(=O)Cc1cccc(Cl)c1",
+            "official_identity": "WFZCLSWTCHVKRP",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 7,
+            "pid": 387033,
+            "smiles": "Cc1nc2cc(C(=O)N3CCSCC3)ccc2n1C1CCS(=O)(=O)C1",
+            "official_identity": "BLOGVSGIACBQPZ",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 8,
+            "pid": 387034,
+            "smiles": "Cc1cnccc1CC(=O)NC1CCCN(S(=O)(=O)c2cccs2)C1",
+            "official_identity": "BRXKMYMRIRIXKL",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 9,
+            "pid": 387035,
+            "smiles": "CCCc1cc(C(=O)NN=C(C)c2ccc(NS(C)(=O)=O)cc2)cs1",
+            "official_identity": "FLZNKNKILURUFI",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 10,
+            "pid": 387036,
+            "smiles": "CSC1(Cc2c[nH]c3ccccc23)N=C(O)C(CO)(SC)N(C)C1=O",
+            "official_identity": "CCPHAMSKHBDMDS",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 11,
+            "pid": 387037,
+            "smiles": "O=C(CS(=O)(=O)Cc1nnc(-c2ccccc2)s1)NC1CCCCC1",
+            "official_identity": "BJJWRJCMRYQKOW",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 12,
+            "pid": 387038,
+            "smiles": "CCc1cccc(NC(=O)c2cc(S(=O)(=O)N3CCSCC3)c[nH]2)c1",
+            "official_identity": "JPHGPCJQFOSOJR",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 13,
+            "pid": 387039,
+            "smiles": "CC1C(=O)NCCCN1Cc1csc(-c2ccc(S(C)(=O)=O)cc2)n1",
+            "official_identity": "LSXJCDRCGOXPAK",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 14,
+            "pid": 387040,
+            "smiles": "Cc1ccc(NC(=O)c2cc(S(=O)(=O)N3CCSCC3)c[nH]2)cc1C",
+            "official_identity": "OPDAZPDSLJGPGC",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 15,
+            "pid": 387041,
+            "smiles": "O=C(NCCN1CCS(=O)(=O)CC1)c1csc(Cc2ccccc2)n1",
+            "official_identity": "PDCBAQVKBMRVBH",
+            "score": 0.0
+          }
+        ],
+        "missing_scores": 0,
+        "official_metric_verified_on_submitted_top25": true,
+        "score_rule": {
+          "score_direction": "descending",
+          "tie_break": "ascending original candidate_index",
+          "identity": "RDKit2026.03.3 remove stereo then canonical tautomer then InChIKey14",
+          "duplicate_identity_rule": "keep first after stable descending score ordering",
+          "invalid_identity_rule": "exclude before constructing submitted list; report excluded row indices",
+          "maximum_submitted_candidates": 25,
+          "missing_or_outside_top25_reciprocal_rank": 0.0,
+          "missing_prediction_rule": "refuse entire evaluation before opening truth; never impute zero or drop a query",
+          "candidate_cap_changed": false,
+          "threshold_or_fusion_selection": false
+        }
+      },
+      "step500": {
+        "mrr25_contribution": 1.0,
+        "top1": true,
+        "top25_hit": true,
+        "truth_rank_full_unique_candidates": 1,
+        "truth_rank25": 1,
+        "unique_scored_identity_count": 66,
+        "duplicate_identities_removed": 0,
+        "invalid_official_identity_candidate_indices": [],
+        "top25": [
+          {
+            "candidate_index": 16,
+            "pid": 387042,
+            "smiles": "CC(c1cccs1)N(C)CC(=O)N1CCc2cc(S(N)(=O)=O)ccc21",
+            "official_identity": "SORQKDQXBHMUIF",
+            "score": 0.8290927289845638
+          },
+          {
+            "candidate_index": 18,
+            "pid": 387044,
+            "smiles": "CC(C)(C)NS(=O)(=O)c1ccc(NC(=O)CSc2ccccc2)nc1",
+            "official_identity": "UZXOTHPOPPJLPX",
+            "score": 0.2436965617976329
+          },
+          {
+            "candidate_index": 48,
+            "pid": 387074,
+            "smiles": "O=C1CCC(C2(c3ccc(O)cc3)C(=O)C=C(c3ccc(O)c(O)c3)C2=O)N1",
+            "official_identity": "AUZZXHUFPWTABN",
+            "score": 0.07885657554758412
+          },
+          {
+            "candidate_index": 62,
+            "pid": 387088,
+            "smiles": "CCNC(=O)OC1COC2C1OCC2n1nnnc1Sc1ncccn1",
+            "official_identity": "PSBVYGXVVYMRON",
+            "score": 0.049234845390562894
+          },
+          {
+            "candidate_index": 21,
+            "pid": 387047,
+            "smiles": "CS(=O)(=O)NCC1CCCN(C(=O)c2ncsc2-c2ccccc2)C1",
+            "official_identity": "WYNTZWIMCNDCNS",
+            "score": 0.013246367727968613
+          },
+          {
+            "candidate_index": 5,
+            "pid": 387031,
+            "smiles": "Cc1cccc(C(C)C)c1NC(=O)CS(=O)(=O)Cc1cccc(Cl)c1",
+            "official_identity": "WFZCLSWTCHVKRP",
+            "score": 0.010923833096392577
+          },
+          {
+            "candidate_index": 27,
+            "pid": 387053,
+            "smiles": "CN(C(=O)C1CC12CCN(S(=O)(=O)c1ccc(C#N)s1)CC2)C1CC1",
+            "official_identity": "HWCSHILDEJXPCF",
+            "score": 0.007788902810473975
+          },
+          {
+            "candidate_index": 61,
+            "pid": 387087,
+            "smiles": "Fc1cnc(N2CCC(c3nc(-c4ccccc4)no3)(C(F)(F)F)C2)cn1",
+            "official_identity": "UMLQLQXDICEFFB",
+            "score": 0.005341361475035098
+          },
+          {
+            "candidate_index": 34,
+            "pid": 387060,
+            "smiles": "CC(O)C(=O)SCC(NC(=O)CCC(N)C(=O)O)C(=O)NCC(=O)O",
+            "official_identity": "VDYDCVUWILIYQF",
+            "score": 0.00526079189455269
+          },
+          {
+            "candidate_index": 59,
+            "pid": 387085,
+            "smiles": "CCOC(=O)c1c[nH]c(=O)c2c1OC(=O)CC2c1ccc(-c2ccccc2)o1",
+            "official_identity": "BCGPRSWVQZURJJ",
+            "score": 0.0036750922876378754
+          },
+          {
+            "candidate_index": 6,
+            "pid": 387032,
+            "smiles": "N#Cc1cc(Cl)ccc1-n1ccc(NC(=O)N2CCCC(F)(F)CC2)n1",
+            "official_identity": "ZQADFCIRZJNTEF",
+            "score": 0.0032291522043825455
+          },
+          {
+            "candidate_index": 11,
+            "pid": 387037,
+            "smiles": "O=C(CS(=O)(=O)Cc1nnc(-c2ccccc2)s1)NC1CCCCC1",
+            "official_identity": "BJJWRJCMRYQKOW",
+            "score": 0.003172634147952743
+          },
+          {
+            "candidate_index": 33,
+            "pid": 387059,
+            "smiles": "CC(NC(CCC(=O)NC(CS)C(=O)NCC(=O)O)C(=O)O)C(=O)O",
+            "official_identity": "SRPOSBMIGVZVBT",
+            "score": 0.0012794725658522963
+          },
+          {
+            "candidate_index": 63,
+            "pid": 387089,
+            "smiles": "COC(=O)CCc1ccc(S(=O)(=O)N2CCCC(C(F)(F)F)C2)cc1",
+            "official_identity": "HLFGKRSSWVJVEI",
+            "score": 0.0006234813144711639
+          },
+          {
+            "candidate_index": 0,
+            "pid": 387026,
+            "smiles": "CCN(CC)S(=O)(=O)c1ccc(=O)n(Cc2nc3cc(F)ccc3o2)c1",
+            "official_identity": "LQHBCMCPAWKNHW",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 1,
+            "pid": 387027,
+            "smiles": "CN(Cc1n[nH]c(C(C)(C)C)n1)C(C(N)=O)c1cccc(Br)c1",
+            "official_identity": "PBTSCMYOECYMDA",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 2,
+            "pid": 387028,
+            "smiles": "CCC(C)(C)NC(=O)C(C)n1cc(-c2cncc(Br)c2C)nn1",
+            "official_identity": "PEPCJJXUTYJBDR",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 3,
+            "pid": 387029,
+            "smiles": "CCCCn1nnnc1CN1CCOC(c2ccc(Br)cc2)C1",
+            "official_identity": "SMXLIVBZOVEBGL",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 4,
+            "pid": 387030,
+            "smiles": "N=C(N)NCCCCC1NCCc2c1n(O)c1cc(Br)ccc21",
+            "official_identity": "ZRUIDVXVEXXEOP",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 7,
+            "pid": 387033,
+            "smiles": "Cc1nc2cc(C(=O)N3CCSCC3)ccc2n1C1CCS(=O)(=O)C1",
+            "official_identity": "BLOGVSGIACBQPZ",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 8,
+            "pid": 387034,
+            "smiles": "Cc1cnccc1CC(=O)NC1CCCN(S(=O)(=O)c2cccs2)C1",
+            "official_identity": "BRXKMYMRIRIXKL",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 9,
+            "pid": 387035,
+            "smiles": "CCCc1cc(C(=O)NN=C(C)c2ccc(NS(C)(=O)=O)cc2)cs1",
+            "official_identity": "FLZNKNKILURUFI",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 10,
+            "pid": 387036,
+            "smiles": "CSC1(Cc2c[nH]c3ccccc23)N=C(O)C(CO)(SC)N(C)C1=O",
+            "official_identity": "CCPHAMSKHBDMDS",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 12,
+            "pid": 387038,
+            "smiles": "CCc1cccc(NC(=O)c2cc(S(=O)(=O)N3CCSCC3)c[nH]2)c1",
+            "official_identity": "JPHGPCJQFOSOJR",
+            "score": 0.0
+          },
+          {
+            "candidate_index": 13,
+            "pid": 387039,
+            "smiles": "CC1C(=O)NCCCN1Cc1csc(-c2ccc(S(C)(=O)=O)cc2)n1",
+            "official_identity": "LSXJCDRCGOXPAK",
+            "score": 0.0
+          }
+        ],
+        "missing_scores": 0,
+        "official_metric_verified_on_submitted_top25": true,
+        "score_rule": {
+          "score_direction": "descending",
+          "tie_break": "ascending original candidate_index",
+          "identity": "RDKit2026.03.3 remove stereo then canonical tautomer then InChIKey14",
+          "duplicate_identity_rule": "keep first after stable descending score ordering",
+          "invalid_identity_rule": "exclude before constructing submitted list; report excluded row indices",
+          "maximum_submitted_candidates": 25,
+          "missing_or_outside_top25_reciprocal_rank": 0.0,
+          "missing_prediction_rule": "refuse entire evaluation before opening truth; never impute zero or drop a query",
+          "candidate_cap_changed": false,
+          "threshold_or_fusion_selection": false
+        }
+      },
+      "delta_rr25": 0.0,
+      "outcome": "unchanged"
+    },
+    {
+      "molecule_id": "fiora_BOMPQQRXVNJNMT",
+      "spectrum_id": "official_000076948",
+      "truth_official_identity": "BOMPQQRXVNJNMT",
+      "uncapped_candidates": 304,
+      "capped_candidates": 128,
+      "full_window_true_identity_present": true,
+      "capped_true_identity_present": false,
+      "cap_removed_all_truth": true,
+      "candidate_availability": "truth_removed_by_predeclared_mass_cap",
+      "missing_score_count_step0": 0,
+      "missing_score_count_step500": 0,
+      "same_raw_candidate_set_and_order": true,
+      "step0": {
+        "mrr25_contribution": 0.0,
+        "top1": false,
+        "top25_hit": false,
+        "truth_rank_full_unique_candidates": null,
+        "truth_rank25": null,
+        "unique_scored_identity_count": 128,
+        "duplicate_identities_removed": 0,
+        "invalid_official_identity_candidate_indices": [],
+        "top25": [
+          {
+            "candidate_index": 40,
+            "pid": 143386,
+            "smiles": "CCCN(CC(=O)O)C(=O)c1nn(-c2ccccc2)cc1C",
+            "official_identity": "CFJKOSANFQKIJU",
+            "score": 0.5580312326175385
+          },
+          {
+            "candidate_index": 30,
+            "pid": 143376,
+            "smiles": "CC(C)C1N=C(O)C2CC3(O)c4ccccc4NC3N2C1=O",
+            "official_identity": "MBNQDQBVJHFMFV",
+            "score": 0.2516110934040633
+          },
+          {
+            "candidate_index": 9,
+            "pid": 143355,
+            "smiles": "CCCc1nn(C2CCCN(c3ccccc3)C2=O)c(=O)o1",
+            "official_identity": "NSLCIWJPJQGXBP",
+            "score": 0.23282566886748757
+          },
+          {
+            "candidate_index": 25,
+            "pid": 143371,
+            "smiles": "O=c1c2ccccc2ncn1CC1(O)CC2NCCCC2O1",
+            "official_identity": "YLYLCQRQSRDSQR",
+            "score": 0.23115152551970486
+          },
+          {
+            "candidate_index": 31,
+            "pid": 143377,
+            "smiles": "O=C(CC1CNCCC1O)Cn1cnc2ccccc2c1=O",
+            "official_identity": "UIHLDYLKWIWXAH",
+            "score": 0.2274265101698035
+          },
+          {
+            "candidate_index": 126,
+            "pid": 143472,
+            "smiles": "Cc1cc(NC(=O)c2cc(C)nc(C)n2)cc(OCCO)c1",
+            "official_identity": "REKHDVKTGKOCBF",
+            "score": 0.2247375011320655
+          },
+          {
+            "candidate_index": 52,
+            "pid": 143398,
+            "smiles": "CC(C)(CC(=O)O)CC(=O)Nc1cnn(-c2ccccc2)c1",
+            "official_identity": "GPKUQBMPXFUVPK",
+            "score": 0.20730084879958224
+          },
+          {
+            "candidate_index": 66,
+            "pid": 143412,
+            "smiles": "O=C(NCC1(O)CCCCC1)c1nc2ccccc2c(=O)[nH]1",
+            "official_identity": "ITMDQZUJIDAWAL",
+            "score": 0.19558032881667178
+          },
+          {
+            "candidate_index": 6,
+            "pid": 143352,
+            "smiles": "Cc1ccc(NC(=O)c2cc(C(C)C)nn2C)cc1C(=O)O",
+            "official_identity": "LHIYCHQRRVKXLJ",
+            "score": 0.1923033504476719
+          },
+          {
+            "candidate_index": 105,
+            "pid": 143451,
+            "smiles": "COc1ccc2nc(N3CC(C)C(C(=O)O)C3)c(C)nc2c1",
+            "official_identity": "OOEQQBLVIRMDLZ",
+            "score": 0.1921727935243938
+          },
+          {
+            "candidate_index": 12,
+            "pid": 143358,
+            "smiles": "CCCc1nn(C2CCN(c3ccc(C)cc3)C2=O)c(=O)o1",
+            "official_identity": "UQCFTMVYHFDTBV",
+            "score": 0.1902572779189767
+          },
+          {
+            "candidate_index": 124,
+            "pid": 143470,
+            "smiles": "O=C(CC1(O)CCCC1)Nc1cccc(-n2cc[nH]c2=O)c1",
+            "official_identity": "RCLOINZBKYKDQQ",
+            "score": 0.1901032331439739
+          },
+          {
+            "candidate_index": 21,
+            "pid": 143367,
+            "smiles": "O=C(CC1NCCCC1O)Cn1cnc2ccccc2c1=O",
+            "official_identity": "FWVHWDSCPKXMDB",
+            "score": 0.17609789880145532
+          },
+          {
+            "candidate_index": 0,
+            "pid": 143346,
+            "smiles": "CC(C)(CC(=O)Nc1cccc(Cn2cccn2)c1)C(=O)O",
+            "official_identity": "BXPPIHZGNYXGCA",
+            "score": 0.17435328544324433
+          },
+          {
+            "candidate_index": 50,
+            "pid": 143396,
+            "smiles": "O=C(Cc1noc(CC2(O)CCCC2)n1)Nc1ccccc1",
+            "official_identity": "FQXFKVIPNNFLNL",
+            "score": 0.16730376835443156
+          },
+          {
+            "candidate_index": 95,
+            "pid": 143441,
+            "smiles": "O=C(Cc1noc(CC2CCOCC2)n1)Nc1ccccc1",
+            "official_identity": "NROUAIFBZHLIMX",
+            "score": 0.16255784941163784
+          },
+          {
+            "candidate_index": 67,
+            "pid": 143413,
+            "smiles": "NC(=O)C1(O)CCCN(c2nc3ccccc3cc2CO)C1",
+            "official_identity": "IYFOXFLMAJQTFK",
+            "score": 0.1475928365398398
+          },
+          {
+            "candidate_index": 27,
+            "pid": 143373,
+            "smiles": "CC12CN3CC(C)(CN(C1)C3c1ccccc1[N+](=O)[O-])C2=O",
+            "official_identity": "AOAQXZDUTGIUII",
+            "score": 0.14503186490054695
+          },
+          {
+            "candidate_index": 101,
+            "pid": 143447,
+            "smiles": "O=C(NCCO)C1CCOC1c1nccn1-c1ccccc1",
+            "official_identity": "OASSRCJNQBJBSU",
+            "score": 0.14405055501983768
+          },
+          {
+            "candidate_index": 2,
+            "pid": 143348,
+            "smiles": "O=C(Nc1ccc(N2CCCC2=O)cn1)C1CC2CCC1O2",
+            "official_identity": "FHFWBUTWRYTMPM",
+            "score": 0.13704455924530096
+          },
+          {
+            "candidate_index": 85,
+            "pid": 143431,
+            "smiles": "Cc1cccc(CC(CNC(=O)Cn2cccn2)C(=O)O)c1",
+            "official_identity": "LRHUDJTXFARHQO",
+            "score": 0.13329758138854805
+          },
+          {
+            "candidate_index": 59,
+            "pid": 143405,
+            "smiles": "Cc1ccc2[nH]nc(C(=O)NC3CCC(C(=O)O)CC3)c2c1",
+            "official_identity": "IEFBRCZGVVYACS",
+            "score": 0.1225159156761499
+          },
+          {
+            "candidate_index": 28,
+            "pid": 143374,
+            "smiles": "CC12CN3CC(C)(CN(C1)C3c1ccc([N+](=O)[O-])cc1)C2=O",
+            "official_identity": "HVIXHOGZVXKQKA",
+            "score": 0.12022354213272024
+          },
+          {
+            "candidate_index": 42,
+            "pid": 143388,
+            "smiles": "CC(C)CNC(=O)COc1cccc(Oc2ncccn2)c1",
+            "official_identity": "DBWHPHVWKOHQMS",
+            "score": 0.10889555620086422
+          },
+          {
+            "candidate_index": 80,
+            "pid": 143426,
+            "smiles": "CC1C(C(=O)O)CCCN1C(=O)Cn1ncc2ccccc21",
+            "official_identity": "LERPJVQDYUDCGI",
+            "score": 0.10796055143496497
+          }
+        ],
+        "missing_scores": 0,
+        "official_metric_verified_on_submitted_top25": true,
+        "score_rule": {
+          "score_direction": "descending",
+          "tie_break": "ascending original candidate_index",
+          "identity": "RDKit2026.03.3 remove stereo then canonical tautomer then InChIKey14",
+          "duplicate_identity_rule": "keep first after stable descending score ordering",
+          "invalid_identity_rule": "exclude before constructing submitted list; report excluded row indices",
+          "maximum_submitted_candidates": 25,
+          "missing_or_outside_top25_reciprocal_rank": 0.0,
+          "missing_prediction_rule": "refuse entire evaluation before opening truth; never impute zero or drop a query",
+          "candidate_cap_changed": false,
+          "threshold_or_fusion_selection": false
+        }
+      },
+      "step500": {
+        "mrr25_contribution": 0.0,
+        "top1": false,
+        "top25_hit": false,
+        "truth_rank_full_unique_candidates": null,
+        "truth_rank25": null,
+        "unique_scored_identity_count": 128,
+        "duplicate_identities_removed": 0,
+        "invalid_official_identity_candidate_indices": [],
+        "top25": [
+          {
+            "candidate_index": 40,
+            "pid": 143386,
+            "smiles": "CCCN(CC(=O)O)C(=O)c1nn(-c2ccccc2)cc1C",
+            "official_identity": "CFJKOSANFQKIJU",
+            "score": 0.712816259957725
+          },
+          {
+            "candidate_index": 30,
+            "pid": 143376,
+            "smiles": "CC(C)C1N=C(O)C2CC3(O)c4ccccc4NC3N2C1=O",
+            "official_identity": "MBNQDQBVJHFMFV",
+            "score": 0.24416835003591594
+          },
+          {
+            "candidate_index": 52,
+            "pid": 143398,
+            "smiles": "CC(C)(CC(=O)O)CC(=O)Nc1cnn(-c2ccccc2)c1",
+            "official_identity": "GPKUQBMPXFUVPK",
+            "score": 0.21850155552288164
+          },
+          {
+            "candidate_index": 31,
+            "pid": 143377,
+            "smiles": "O=C(CC1CNCCC1O)Cn1cnc2ccccc2c1=O",
+            "official_identity": "UIHLDYLKWIWXAH",
+            "score": 0.2168408874838423
+          },
+          {
+            "candidate_index": 25,
+            "pid": 143371,
+            "smiles": "O=c1c2ccccc2ncn1CC1(O)CC2NCCCC2O1",
+            "official_identity": "YLYLCQRQSRDSQR",
+            "score": 0.2128476916486763
+          },
+          {
+            "candidate_index": 9,
+            "pid": 143355,
+            "smiles": "CCCc1nn(C2CCCN(c3ccccc3)C2=O)c(=O)o1",
+            "official_identity": "NSLCIWJPJQGXBP",
+            "score": 0.20711155346516674
+          },
+          {
+            "candidate_index": 21,
+            "pid": 143367,
+            "smiles": "O=C(CC1NCCCC1O)Cn1cnc2ccccc2c1=O",
+            "official_identity": "FWVHWDSCPKXMDB",
+            "score": 0.19430734446056613
+          },
+          {
+            "candidate_index": 126,
+            "pid": 143472,
+            "smiles": "Cc1cc(NC(=O)c2cc(C)nc(C)n2)cc(OCCO)c1",
+            "official_identity": "REKHDVKTGKOCBF",
+            "score": 0.18560993492264846
+          },
+          {
+            "candidate_index": 66,
+            "pid": 143412,
+            "smiles": "O=C(NCC1(O)CCCCC1)c1nc2ccccc2c(=O)[nH]1",
+            "official_identity": "ITMDQZUJIDAWAL",
+            "score": 0.18184238821389087
+          },
+          {
+            "candidate_index": 6,
+            "pid": 143352,
+            "smiles": "Cc1ccc(NC(=O)c2cc(C(C)C)nn2C)cc1C(=O)O",
+            "official_identity": "LHIYCHQRRVKXLJ",
+            "score": 0.16743247756694143
+          },
+          {
+            "candidate_index": 124,
+            "pid": 143470,
+            "smiles": "O=C(CC1(O)CCCC1)Nc1cccc(-n2cc[nH]c2=O)c1",
+            "official_identity": "RCLOINZBKYKDQQ",
+            "score": 0.1666093411533036
+          },
+          {
+            "candidate_index": 67,
+            "pid": 143413,
+            "smiles": "NC(=O)C1(O)CCCN(c2nc3ccccc3cc2CO)C1",
+            "official_identity": "IYFOXFLMAJQTFK",
+            "score": 0.16207401394727006
+          },
+          {
+            "candidate_index": 0,
+            "pid": 143346,
+            "smiles": "CC(C)(CC(=O)Nc1cccc(Cn2cccn2)c1)C(=O)O",
+            "official_identity": "BXPPIHZGNYXGCA",
+            "score": 0.16016556929300826
+          },
+          {
+            "candidate_index": 2,
+            "pid": 143348,
+            "smiles": "O=C(Nc1ccc(N2CCCC2=O)cn1)C1CC2CCC1O2",
+            "official_identity": "FHFWBUTWRYTMPM",
+            "score": 0.14372729296924017
+          },
+          {
+            "candidate_index": 101,
+            "pid": 143447,
+            "smiles": "O=C(NCCO)C1CCOC1c1nccn1-c1ccccc1",
+            "official_identity": "OASSRCJNQBJBSU",
+            "score": 0.13394618017677387
+          },
+          {
+            "candidate_index": 95,
+            "pid": 143441,
+            "smiles": "O=C(Cc1noc(CC2CCOCC2)n1)Nc1ccccc1",
+            "official_identity": "NROUAIFBZHLIMX",
+            "score": 0.13175657507443295
+          },
+          {
+            "candidate_index": 50,
+            "pid": 143396,
+            "smiles": "O=C(Cc1noc(CC2(O)CCCC2)n1)Nc1ccccc1",
+            "official_identity": "FQXFKVIPNNFLNL",
+            "score": 0.13105219407801055
+          },
+          {
+            "candidate_index": 105,
+            "pid": 143451,
+            "smiles": "COc1ccc2nc(N3CC(C)C(C(=O)O)C3)c(C)nc2c1",
+            "official_identity": "OOEQQBLVIRMDLZ",
+            "score": 0.12546826092708405
+          },
+          {
+            "candidate_index": 69,
+            "pid": 143415,
+            "smiles": "O=C(NCc1ncc(-c2ccccc2)o1)C1(O)CCCNC1",
+            "official_identity": "JBCNCPODXKJPBA",
+            "score": 0.11590783039898427
+          },
+          {
+            "candidate_index": 12,
+            "pid": 143358,
+            "smiles": "CCCc1nn(C2CCN(c3ccc(C)cc3)C2=O)c(=O)o1",
+            "official_identity": "UQCFTMVYHFDTBV",
+            "score": 0.11259207000822095
+          },
+          {
+            "candidate_index": 85,
+            "pid": 143431,
+            "smiles": "Cc1cccc(CC(CNC(=O)Cn2cccn2)C(=O)O)c1",
+            "official_identity": "LRHUDJTXFARHQO",
+            "score": 0.10152439449376538
+          },
+          {
+            "candidate_index": 42,
+            "pid": 143388,
+            "smiles": "CC(C)CNC(=O)COc1cccc(Oc2ncccn2)c1",
+            "official_identity": "DBWHPHVWKOHQMS",
+            "score": 0.09641770902354295
+          },
+          {
+            "candidate_index": 46,
+            "pid": 143392,
+            "smiles": "Cc1c(C(=O)Nc2cccc(C(=O)O)c2)cnn1CC(C)C",
+            "official_identity": "DYGJESFXRINFAH",
+            "score": 0.09620055665221837
+          },
+          {
+            "candidate_index": 59,
+            "pid": 143405,
+            "smiles": "Cc1ccc2[nH]nc(C(=O)NC3CCC(C(=O)O)CC3)c2c1",
+            "official_identity": "IEFBRCZGVVYACS",
+            "score": 0.093225998414758
+          },
+          {
+            "candidate_index": 27,
+            "pid": 143373,
+            "smiles": "CC12CN3CC(C)(CN(C1)C3c1ccccc1[N+](=O)[O-])C2=O",
+            "official_identity": "AOAQXZDUTGIUII",
+            "score": 0.09304087620291641
+          }
+        ],
+        "missing_scores": 0,
+        "official_metric_verified_on_submitted_top25": true,
+        "score_rule": {
+          "score_direction": "descending",
+          "tie_break": "ascending original candidate_index",
+          "identity": "RDKit2026.03.3 remove stereo then canonical tautomer then InChIKey14",
+          "duplicate_identity_rule": "keep first after stable descending score ordering",
+          "invalid_identity_rule": "exclude before constructing submitted list; report excluded row indices",
+          "maximum_submitted_candidates": 25,
+          "missing_or_outside_top25_reciprocal_rank": 0.0,
+          "missing_prediction_rule": "refuse entire evaluation before opening truth; never impute zero or drop a query",
+          "candidate_cap_changed": false,
+          "threshold_or_fusion_selection": false
+        }
+      },
+      "delta_rr25": 0.0,
+      "outcome": "unchanged"
+    }
+  ],
+  "candidate_sets_exactly_identical": true,
+  "all_predictions_frozen_and_complete": true,
+  "source_script_sha256": "79c409cd568fc7ae1571bb4d856cee831d48e5b38f65c83f92ea9576606ca261",
+  "input_bindings": {
+    "/mnt/d/Paper/casmi/runs/fiora_candidate_pilot_20261115/candidate_freeze.json": "01527e9b20814d35a29e78b27f247c3adce5280da878c290e3c6ca36a13362b3",
+    "/mnt/d/Paper/casmi/runs/fiora_candidate_pilot_20261115/inference/verification.json": "93f3fee347a19af5a669fb75acea6585e3553975315dc9174a10992aa3459d21",
+    "/mnt/d/Paper/casmi/scripts/score_fiora_candidate_pilot_20261115.py": "a87b089cad27507161a6f4fe592e0e17c1f618ed44f27b1a65678cda6a93eae7",
+    "/mnt/d/Paper/casmi/scripts/evaluate_fiora_candidate_pilot_20261115.py": "79c409cd568fc7ae1571bb4d856cee831d48e5b38f65c83f92ea9576606ca261",
+    "/mnt/d/Paper/casmi/runs/fiora_candidate_pilot_20261115/queries.json": "d4a7a4de2d7cec6e84d70e963fdced73b76e7a67a0d2f33393e4aeb7e1e84098",
+    "/mnt/d/Paper/casmi/runs/fiora_candidate_pilot_20261115/candidates.json": "93540d0db51afae4350a6fb2622dacea5ba443dfbbbb17ed1c177fd7dbcd72d9",
+    "/mnt/d/Paper/casmi/runs/fiora_candidate_pilot_20261115/candidate_windows.json": "3556aa1f8e2cdfa70fa82b7ab67706352c8e6ed13c39bd1c8e8a28da64c36d1c",
+    "/mnt/d/Paper/casmi/scripts/prepare_fiora_candidate_pilot_20261115.py": "aaeba8ed2738f6935b01702c7af55721205b6aa4d77b514cb0af6a75f359a811",
+    "/mnt/d/Paper/casmi/assets/kaggle/ahmedberatozer/casmi26-v2-pool/v1/pool_meta.parquet": "82b8c40315611289b9a4004b3af18d6d3402b3cd5baa4ee5723da07b7e2f6bb0",
+    "/mnt/d/Paper/casmi/runs/fiora_candidate_pilot_20261115/inference/configuration.json": "bfe8b181b07df7173e0e63e1b8f0ca5e475423b756414d9997d762365fbba926",
+    "/mnt/d/Paper/casmi/runs/fiora_candidate_pilot_20261115/inference/source_bindings_before_predictions.json": "ea8064e715a43f78c671b1373752554335116b74aee2a2c2832026700c435f1a",
+    "/mnt/d/Paper/casmi/scripts/prepare_fiora_tims_pilot_20261115.py": "e5dddf8ab9339ed22472e5560406d266addb5417af50694f96932accb1900418",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/MS/SimulationFramework.py": "7367beb1d1789fa1157f361abb4763af1bd1f64829f632818507675823dd6ef6",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/MS/spectral_scores.py": "7c06f7aaf8939baa9826476af33d63f11e9945c1c2443740c78e89735cf59e09",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/GNN/AtomFeatureEncoder.py": "27fce1f128b57f3ce60ed2699b4d2a97b89bfb968b6d7d438cf442454207b4bf",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/GNN/BondFeatureEncoder.py": "b9aeef292dd28d3b74668b6673b6b01d07a182127209efbbf3e25f5be6ed62df",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/GNN/CovariateFeatureEncoder.py": "3f3d5fcda2ad18496263d77cd83ddea0f655e5fb2939d58e93cdabefaa5d3e50",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/GNN/Datasets.py": "ba35206f71474e4a2e72e42368031f835ae99ebe9ad4da70e90a87842e801558",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/GNN/EdgePropertyPredictor.py": "fc43e25f7c4152500567abe6baa4f86b4caa2d0b43b9bb644e1e556b07c783c8",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/GNN/fabric_training.py": "1780ad7a7c7f3167ced59d012b66dbf3c2f58cb885bae39765721aef18e66a1f",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/GNN/FeatureEmbedding.py": "893f61f9b7774a4df900e63fd951b00aaf54c406c2fd4496e7853b03e0132987",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/GNN/FioraModel.py": "2f98fb549bb9d06acd93cc8cfc19ea94120a228a5d05995fb6b850628377a230",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/GNN/GNN.py": "8de5112a37e27f4d58383c6de6a91a6a5a8f82cae89a6156867bd6a5c113e878",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/GNN/GNNCustomLayers.py": "18885332634366b61bfbcfcccdbeca875a09f6a12334835933811a4d1153de2f",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/GNN/GraphPropertyPredictor.py": "6b5d00da0d609bb43cbbaa7cc7ae2338fe1566856654109aef1788bacd226b47",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/GNN/Losses.py": "bab6dd122cd00f9287af444eed89b899a7a738e59eb2ca50b116714255173a71",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/GNN/MLP.py": "5f13f752537a764b40283ad2adff6820a752e3d627673fad5a9d9d613a9e3678",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/GNN/MLPEdgeClassifier.py": "abed58e843e805a2f5bdcb90267b90cb280832ce72c5ea10c88d4ef2b6ac371b",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/GNN/Trainer.py": "41d0bc62df658cb619671754ff009a1d0a96473d1b4c6c9b38307dec08322c92",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/GNN/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/MOL/collision_energy.py": "953da336e54eedb95767ed47957fd5a8ea798c554500a57ec0ad78650d8966d7",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/MOL/constants.py": "65532c2d070621686a13ddf77601b348fff459ce48441263e1d19aacb26c2ff7",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/MOL/FragmentationTree.py": "83521b5e0d2ea3c7d61226074384ef81be651595972e676e3c4be61bb777e73c",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/MOL/Metabolite.py": "6b2a1fdefab5ecc2e4607c7d708add3e6308b5692a21b2b3252b7ca58d76656f",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/MOL/MetaboliteDatasetStatistics.py": "7528ceaf33015c53185195075f50449c59c1abe000c379485452592e90221ee0",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/MOL/MetaboliteIndex.py": "44288c11a5865577459ec7021ea328db9ef32f745dcfd984000f7a4a5fcca2f6",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/MOL/mol_graph.py": "252165146c1f31324b94a23c626dc6f4adc7957354900f8b5d785db4743bbe06",
+    "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/MOL/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/mnt/d/Paper/casmi/runs/fiora_tims_model_20261115/fiora_OS_tims_migrated_params.json": "1f189efe9fb64f43406bce409b825870655f8b83765c5ee77d3e208e2cbc2418",
+    "/mnt/d/Paper/casmi/runs/fiora_tims_model_20261115/fiora_OS_tims_migrated_state.pt": "38d3208f4c78a4db935b8d4b58cae643def77b050488d5d7191cf845af114048",
+    "/mnt/d/Paper/casmi/runs/fiora_tims_model_20261115/pilot500/last_checkpoint.pt": "9c899faa1c45d9a0c25588f99186f34112b25eafe3f6d955a3da34c267996252",
+    "/mnt/d/Paper/casmi/runs/fiora_tims_model_20261115/pilot500/verification.json": "8240a21ce6be6ee89cb985f51394e519e9f3a297d5fd256cc8f4add25a921199",
+    "/mnt/d/Paper/casmi/runs/fiora_tims_model_20261115/migration_receipt.json": "7feb07bb54c7bc94da2464394a439a92efe597adb213981620660498b70a3f5c",
+    "/mnt/d/Paper/casmi/runs/fiora_candidate_pilot_20261115/inference/executed_score_script.py": "a87b089cad27507161a6f4fe592e0e17c1f618ed44f27b1a65678cda6a93eae7",
+    "/mnt/d/Paper/casmi/runs/fiora_candidate_pilot_20261115/inference/candidate_scores.jsonl": "639b9609934afc1a296c4c5d6e747a08daa05a0e4b124a4d85d9fd8966c4f5f2",
+    "/mnt/d/Paper/casmi/runs/fiora_candidate_pilot_20261115/evaluation_metadata_receipt.json": "6a1b6301cb032365ccabf905bea37734e532cdbdb10e97d95aad201775937dd2",
+    "/mnt/d/Paper/casmi/runs/fiora_candidate_pilot_20261115/evaluation_truth_metadata.json": "d3837a5c114ee25ded74476a9fc2b78dfc356bb62e5422151c0acb1756b4cdd7",
+    "/mnt/d/Paper/casmi/runs/fiora_candidate_pilot_20261115/coverage_evaluation_only.json": "e2ebfa9a58698b2cfa26dcc7911933117bd1a70dc705bdc98e1086760607d9d6",
+    "/mnt/d/Paper/casmi/validation/metric.py": "e8e9dea166c6053af186fadf69f2de0d6982b6b00ee66d8072afeba7af4587e5"
+  },
+  "total_seconds": 18.14372295199999,
+  "new_public_score": null,
+  "champion_full_pipeline_executed": false,
+  "independent_clean_cv": false,
+  "threshold_fusion_checkpoint_or_candidate_tuning": false,
+  "boundary": "Eight-query component development probe from the already used development100 (only98 graph-ready eligible). Mass-only fixed pool/cap candidates, not champion final candidate set/full pipeline. Unknown MSnLib exposure. No hidden-class proportions, independent generalization or Kaggle gain inferred."
+}

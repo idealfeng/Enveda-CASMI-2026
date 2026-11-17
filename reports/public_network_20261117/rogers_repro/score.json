@@ -1,0 +1,14 @@
+{
+  "target": "stormseye/casmi26-rogers0492-repro-1117",
+  "version": 1,
+  "branch_sha256": "aee777af55942122c587f570411a27e3372746370953fbf31771cf8c517b4d75",
+  "submission_ref": 58455482,
+  "actual_target": "stormseye/casmi26-rogers0492-reproduction-1117",
+  "status": "PENDING",
+  "public_score": null,
+  "public_score_available": false,
+  "error_description_present": false,
+  "checked_at_utc": "2026-11-17T04:13:46.459898+00:00",
+  "read_only": true,
+  "new_submission_performed": false
+}

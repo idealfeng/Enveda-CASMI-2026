@@ -1,0 +1,54 @@
+{
+  "ref": "heliosli/casmi26-analyticon-megx",
+  "read_only": true,
+  "model_bytes_downloaded": 0,
+  "checked_at_utc": "2026-11-16T15:23:14.481304+00:00",
+  "dataset_view": {
+    "id": 13097157,
+    "ref": "heliosli/casmi26-analyticon-megx",
+    "subtitle": "Synthetic molecular catalogue for a runnable notebook demonstration",
+    "creatorName": "Heliosli",
+    "totalBytes": 78611,
+    "lastUpdated": "2026-11-16T14:35:27.647Z",
+    "downloadCount": 6,
+    "licenseName": "Other (specified in description)",
+    "description": "# casmi26-analyticon-megx: public demonstration version\n\nThis version contains 3,683 generated molecular examples for testing the notebook interface. It does not contain the original AnalytiCon/COCONUT catalogue membership and is not a reproduction package for the historical competition result. No leaderboard score is claimed for it.\n\nThe six original column names and Arrow data types are retained. Every SMILES parses, its `key14` is computed from that structure, and its `formula` is computed from the same molecule. No structure key overlaps the original private membership table.\n\n`coconut_id` contains clearly labelled DEMO identifiers; these are not COCONUT accession numbers. `in_train` and `in_panel` are false fixture values and make no statement about actual competition membership.\n\nThe accompanying demo notebook keeps the MEGx beta=5 ranking rule and all inference stages, and uses the previously prepared demo versions of the other private model datasets. This table is intended to exercise data loading and membership lookups.\n",
+    "ownerName": "Heliosli",
+    "ownerRef": "heliosli",
+    "title": "casmi26-analyticon-megx",
+    "viewCount": 3,
+    "currentVersionNumber": 2,
+    "usabilityRating": 0.47058824,
+    "versions": [
+      {
+        "versionNumber": 2,
+        "creationDate": "2026-11-16T14:35:27.647Z",
+        "creatorName": "Heliosli",
+        "creatorRef": "casmi26-analyticon-megx",
+        "versionNotes": "MEGX-PUBLIC-DEMO-1116-R1: Synthetic molecular catalogue; original catalogue membership excluded. Schema-compatible demo for source scriptVersionId 369107566.",
+        "status": "Ready"
+      }
+    ],
+    "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-20.png-31141478/dataset-thumbnail.png"
+  },
+  "file_inventory": {
+    "datasetFiles": [
+      {
+        "name": "README.md",
+        "creationDate": "2026-11-16T14:35:29.055Z",
+        "totalBytes": 1054
+      },
+      {
+        "name": "analyticon_megx.parquet",
+        "creationDate": "2026-11-16T14:35:29.163Z",
+        "totalBytes": 76909
+      },
+      {
+        "name": "public_demo_manifest.json",
+        "creationDate": "2026-11-16T14:35:28.956Z",
+        "totalBytes": 648
+      }
+    ]
+  },
+  "status": "read"
+}

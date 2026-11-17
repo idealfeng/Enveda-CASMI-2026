@@ -1,0 +1,8 @@
+{
+  "status": "refused_or_failed_candidate_evaluation",
+  "truth_metadata_opened": false,
+  "error_type": "ValueError",
+  "error": "Inference not complete; evaluation truth remains unopened",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\Paper\\casmi\\scripts\\evaluate_fiora_candidate_pilot_20261115.py\", line 243, in evaluate\n    freeze,proof,queries,candidates,windows,scores,pool_path,pins=_bind_inference_success(data,inference,out)\n                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Paper\\casmi\\scripts\\evaluate_fiora_candidate_pilot_20261115.py\", line 73, in _bind_inference_success\n    require(proof.get('status')==EXPECTED_INFERENCE_STATUS,'Inference not complete; evaluation truth remains unopened')\n  File \"D:\\Paper\\casmi\\scripts\\evaluate_fiora_candidate_pilot_20261115.py\", line 58, in require\n    if not condition:raise ValueError(message)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Inference not complete; evaluation truth remains unopened\n",
+  "source_script_sha256": "79c409cd568fc7ae1571bb4d856cee831d48e5b38f65c83f92ea9576606ca261"
+}

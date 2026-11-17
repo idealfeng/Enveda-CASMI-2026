@@ -1,0 +1,9 @@
+{
+  "ref": "heliosli/casmi26-joint-ranker",
+  "current_version_number": 2,
+  "is_private": false,
+  "description": "# Public demonstration artifacts: casmi26-joint-ranker\n\nThis version is an interface and execution demonstration. The original competition-trained weights are not included. It is not a reproduction package for the 0.494 leaderboard result and has no claimed leaderboard score.\n\nModel loaders, file names, tensor dimensions, candidate tables and upstream public assets are retained for compatibility. Private learned parameters are replaced with initialized demo weights (the joint ranker uses a synthetic fit). Self-tests validate this demo version only.\n\nPX reference scores embedded in notebooks must correspond to this demonstration version; updated fixtures are included in this dataset.\n\nOriginal license and upstream source notices continue to apply to the corresponding files.\n",
+  "total_bytes": 17809,
+  "checked_at_utc": "2026-11-17T04:05:25.031300+00:00",
+  "status": "read_only_view"
+}

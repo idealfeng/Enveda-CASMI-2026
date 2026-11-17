@@ -1,0 +1,15 @@
+{
+  "status": "FAILED",
+  "device": "cpu",
+  "labels_used": false,
+  "hidden_data_used": false,
+  "environment_modified": false,
+  "source_commit": "e19ef82c9a6cb9dbac92bce23e914008f1aeb44e",
+  "model": "FIORA OS v1.0.0",
+  "dependency_target": "/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/dependencies-linux",
+  "scope": "component forward only; no ranking or timsTOF domain claim",
+  "error_type": "ModuleNotFoundError",
+  "error": "No module named 'six'",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/d/Paper/casmi/scripts/run_fiora_os_canary_20261115.py\", line 34, in main\n    from fiora.cli.predict import build_metabolites\n  File \"/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/cli/predict.py\", line 17, in <module>\n    from fiora.MOL.Metabolite import Metabolite\n  File \"/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/MOL/Metabolite.py\", line 25, in <module>\n    from fiora.MOL.FragmentationTree import FragmentationTree\n  File \"/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/source_checkout/fiora/MOL/FragmentationTree.py\", line 3, in <module>\n    from treelib import Tree\n  File \"/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/dependencies-linux/treelib/__init__.py\", line 72, in <module>\n    from .tree import Tree  # noqa: F401\n    ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/d/Paper/casmi/assets/research/fiora_os_20261115/dependencies-linux/treelib/tree.py\", line 43, in <module>\n    from six import iteritems, python_2_unicode_compatible\nModuleNotFoundError: No module named 'six'\n",
+  "total_seconds": 112.65305605399999
+}

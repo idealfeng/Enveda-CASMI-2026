@@ -1,0 +1,16 @@
+{
+  "status": "passed_learning_data_binding",
+  "checks": {
+    "no_within_query_duplicate_content": true,
+    "no_train_dev_peak_hash_overlap": true,
+    "all_row_keys_align": true,
+    "unique_row_keys": true,
+    "no_target_or_arm_feature": true,
+    "official_query_groups_disjoint": true
+  },
+  "within_query_duplicate_rows": [],
+  "train_dev_overlap_signatures": 0,
+  "source_script_sha256": "eec30e1c54ea1b951f4ee5abc48b342ca2659d2fa70936c53f4d5321dd038b3a",
+  "training_performed": false,
+  "reference_ID_dedup_available": false
+}

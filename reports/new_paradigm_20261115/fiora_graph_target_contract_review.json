@@ -1,0 +1,21 @@
+{
+  "status": "passed_independent_native_supervision_contract",
+  "counts": {
+    "train_ready": 400,
+    "validated_graphs": 498,
+    "development_ready": 98
+  },
+  "issues": [],
+  "original_selected_denominator": 500,
+  "zero_nonprecursor_targets": 0,
+  "all_ready_examined": true,
+  "native_graphwise_kl_value_gradient_exact": true,
+  "selection_sha256": "2b4ecd92fbf0f175b8533c1678bf693831e9ef1f75bb48084cf32f0169c2213d",
+  "index_sha256": "622f87ad8098ac98318d326eddb5288cc2bd3ea6a1c69f37de5abc477ff6a8a5",
+  "preparer_source_sha256": "e5dddf8ab9339ed22472e5560406d266addb5417af50694f96932accb1900418",
+  "trainer_source_sha256": "0fea8fed747fef37c72a85b3b2d5965d388ee2366814d017eb40e6cad7d4dcc2",
+  "model_loaded": false,
+  "development_model_scores_read": false,
+  "training_performed": false,
+  "seconds": 47.367916519000005
+}

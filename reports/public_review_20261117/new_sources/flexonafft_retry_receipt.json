@@ -1,0 +1,16 @@
+{
+  "ref": "flexonafft/casmi26-anchored-spectral-network",
+  "status": "downloaded_no_execution",
+  "version": 3,
+  "source_sha256": "32331126ed7f600d75cd1f30fd1f2671614ecd933bd901e58813a4862b56f534",
+  "source_bytes": 34903,
+  "dataset_sources": [
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_sources": [],
+  "checked_at_utc": "2026-11-17T04:03:51.113175+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "branch": "rogers_repro",
+  "target": "stormseye/casmi26-rogers0492-repro-1117",
+  "upstream": "rogersjohnson/casmi26-l4-lam035",
+  "upstream_version": 1,
+  "upstream_source_sha256": "51c32f200c265fff08bfa4a9841cb6345d1f56515dcd72e254df8da53e07ae99",
+  "method": "Original public Rogers recipe, network LAM=.35 before original raw AB",
+  "author_reported_public_score": 0.492,
+  "independently_reported_reproduction_ref": 58380172,
+  "own_public_score": null,
+  "baseline_for_comparison_ref": 58156482,
+  "baseline_for_comparison_public_score": 0.488,
+  "configuration": {
+    "POP_W": 0.12,
+    "SPEC_W": 0.12,
+    "NP_W": 0.12,
+    "V8": "MASS",
+    "LAM": 0.35,
+    "TAU": 0.6,
+    "learned_late_head": false
+  },
+  "original_functions_unchanged": true,
+  "original_merge_warning_policy_retained": true,
+  "original_raw_AB_no_added_identity_guard": true,
+  "runtime_adaptations": [
+    "Select exactly one V80 final with intended SHA instead of arbitrary first recursive hit",
+    "Wrap original network/AB calls with observers; require normal completion and both AB libraries loaded",
+    "Append source/config/model/CSV/real-hidden-pipeline observers; no score mathematics changed",
+    "Freeze numeric dataset/current kernel versions; preserve upstream docker and accelerator"
+  ],
+  "parent_visible_mode": "fast",
+  "visible_network_and_AB_real": true,
+  "new_full_pipeline_local_validation": false,
+  "validation_mode": "fast_static",
+  "no_new_model_training": true,
+  "public_model_pins": {
+    "features": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+    "model": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+    "config": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+    "final_model": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642"
+  },
+  "v2_sha256": "c08d2101154d057890de088be63834eb622468892a3b842512fdc5a65e02ff46",
+  "function_pins": {
+    "network": "33153de76fccebe4ed2325bea7649573219e4cfb964483cd5c335ac7dc7e93b8",
+    "ab": "9ceaa95ddda0fb304758c9acd7dd1f256c528fcb4a8304c0152f8b6d8e3e3e76"
+  },
+  "numeric_dataset_versions_are_current_readback_not_proven_upstream_session": true,
+  "full_hidden_inference_success": false,
+  "gain_claim": false,
+  "user_authorized_submission": true
+}

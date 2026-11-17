@@ -1,0 +1,159 @@
+{
+  "checked_at_utc": "2026-11-16T15:18:14.103364+00:00",
+  "inventory_count": 163,
+  "results": [
+    {
+      "id": 759398,
+      "read_only": true,
+      "checked_at_utc": "2026-11-16T15:18:14.105487+00:00",
+      "status": "saved",
+      "title": "Notebooks getting queued. Although GPU is available",
+      "comments": 0,
+      "comments_truncated": false,
+      "text_sha256": "6322f20072a0ff9e94c8c70a9ef0853995b8b580ea586c2ba34a6543cc9b65b6"
+    },
+    {
+      "id": 759394,
+      "read_only": true,
+      "checked_at_utc": "2026-11-16T15:18:14.106487+00:00",
+      "status": "saved",
+      "title": "Submission Queued for 6 days ",
+      "comments": 1,
+      "comments_truncated": false,
+      "text_sha256": "858bfe73113253c05e00b5eddeb0bf864fae97ba7aebce5ffcafd09c6546d5a5"
+    },
+    {
+      "id": 759307,
+      "read_only": true,
+      "checked_at_utc": "2026-11-16T15:18:14.106487+00:00",
+      "status": "saved",
+      "title": " SpectralHybridEncoder (Div/Mul Chains + Metadata Tails): Public LB 0.057 → 0.089",
+      "comments": 0,
+      "comments_truncated": false,
+      "text_sha256": "7d0fa29b6e52cc74954fb0def0ad2d64b6a436bde45e22c89744804c5c8eeba2"
+    },
+    {
+      "id": 750330,
+      "read_only": true,
+      "checked_at_utc": "2026-11-16T15:18:17.040590+00:00",
+      "status": "saved",
+      "title": "Clarification regarding permitted external data sources",
+      "comments": 1,
+      "comments_truncated": false,
+      "text_sha256": "97b719655ba9109c45e81f9afbcb96ccb6a61bba57271d9fb7c32ed897e3dbc6"
+    },
+    {
+      "id": 759222,
+      "read_only": true,
+      "checked_at_utc": "2026-11-16T15:18:17.838839+00:00",
+      "status": "saved",
+      "title": "Eligibility question: participant under 18",
+      "comments": 2,
+      "comments_truncated": false,
+      "text_sha256": "b9870e74b3c911660e1ebe34b92f118798e0f9c6d6e943920ced9dad29f5d465"
+    },
+    {
+      "id": 757307,
+      "read_only": true,
+      "checked_at_utc": "2026-11-16T15:18:20.320896+00:00",
+      "status": "saved",
+      "title": "Is MassSpecGym (and MIST weights trained only on it) allowed? NIST was used only for data cleaning",
+      "comments": 4,
+      "comments_truncated": false,
+      "text_sha256": "5f2e2885223a3024bdd5fc2f697448eb96c6511caf3d39578317d23ea43315e8"
+    },
+    {
+      "id": 756893,
+      "read_only": true,
+      "checked_at_utc": "2026-11-16T15:18:20.706300+00:00",
+      "status": "saved",
+      "title": "Are shipped ranker tables without a public generator reproducible?",
+      "comments": 3,
+      "comments_truncated": false,
+      "text_sha256": "0767a1a26533400fc708a2b0f7bf84fdf7ff25053acb2b3b324c52dca705ab9e"
+    },
+    {
+      "id": 755319,
+      "read_only": true,
+      "checked_at_utc": "2026-11-16T15:18:21.893218+00:00",
+      "status": "saved",
+      "title": "So tired of fork..",
+      "comments": 9,
+      "comments_truncated": false,
+      "text_sha256": "8cb8bdea96d7996338c26f32867d040cbf622434a7d4a076b2e64ece9804a42d"
+    },
+    {
+      "id": 755039,
+      "read_only": true,
+      "checked_at_utc": "2026-11-16T15:18:23.591557+00:00",
+      "status": "saved",
+      "title": "A meta-level reading of the private test set",
+      "comments": 2,
+      "comments_truncated": false,
+      "text_sha256": "d349b85020b8b57394b5c3e2c10002cc76bb4259bb5212a1c35f503bc71eb68e"
+    },
+    {
+      "id": 743254,
+      "read_only": true,
+      "checked_at_utc": "2026-11-16T15:18:24.150378+00:00",
+      "status": "saved",
+      "title": " Lessons from ~30 submissions: where the MRR actually goes",
+      "comments": 1,
+      "comments_truncated": false,
+      "text_sha256": "f01fc3e7282d7de155c084519ba7ea4abd2c5d12e8b6f69027fe0766c0eb3844"
+    },
+    {
+      "id": 748524,
+      "read_only": true,
+      "checked_at_utc": "2026-11-16T15:18:24.942708+00:00",
+      "status": "saved",
+      "title": "Validation stragegy",
+      "comments": 2,
+      "comments_truncated": false,
+      "text_sha256": "d764a0fecfbb2e5606cf6135e1f011e02c0f710ca48fbded6ac3267017eb7058"
+    },
+    {
+      "id": 756504,
+      "read_only": true,
+      "checked_at_utc": "2026-11-16T15:18:28.725864+00:00",
+      "status": "saved",
+      "title": "Open-source pipeline: identity search + analog propagation + LightGBM ranker (with notes on validation)",
+      "comments": 2,
+      "comments_truncated": false,
+      "text_sha256": "d91dab034f829b9715a59b433e2aa0522411250ecd7dd15255a3caa4d0c80bdd"
+    },
+    {
+      "id": 755089,
+      "read_only": true,
+      "checked_at_utc": "2026-11-16T15:18:29.081089+00:00",
+      "status": "saved",
+      "title": "Class 3 graph generation: MC isomers are different from Natural Product not because they are unstable (GFN2-xTB)",
+      "comments": 1,
+      "comments_truncated": false,
+      "text_sha256": "a915c48bf02f4593f177ba50384578a1fea9e7afcf70f93951764c44485435da"
+    },
+    {
+      "id": 758541,
+      "read_only": true,
+      "checked_at_utc": "2026-11-16T15:18:29.327786+00:00",
+      "status": "saved",
+      "title": "How do you check your ideas locally before submitting?",
+      "comments": 2,
+      "comments_truncated": false,
+      "text_sha256": "6b4abcf76b22cb45045edc7d7cc61daa666e95acb1285bdfd3f31331d49e64e0"
+    },
+    {
+      "id": 749217,
+      "read_only": true,
+      "checked_at_utc": "2026-11-16T15:18:32.614863+00:00",
+      "status": "saved",
+      "title": "Compliance: is the approved-dataset list exhaustive, and does \"trained on NIST\" reach models whose training corpus CONTAINS NIST-derived data?",
+      "comments": 4,
+      "comments_truncated": false,
+      "text_sha256": "90809a0eeed1e66813eb6ed4a49c158d1f172c38458860a11bc921713a625828"
+    }
+  ],
+  "read_only": true,
+  "external_messages_sent": false,
+  "cloud_runs_started": false
+}

@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "scope": "Independent cheap source/identity/function-parity review; no model inference or cloud writes",
+  "checks": {
+    "runtime_compiles": true,
+    "builder_compiles": true,
+    "spectral_score_ast_exact": true,
+    "compiled_mass_map_ast_exact": true,
+    "official_identity_examples_match": true,
+    "single_ce_policy_examples": true
+  },
+  "identity_examples": [
+    {
+      "smiles": "CCO",
+      "runtime": "LFQSCWFLJHTTHZ",
+      "official": "LFQSCWFLJHTTHZ",
+      "equal": true
+    },
+    {
+      "smiles": "OCC",
+      "runtime": "LFQSCWFLJHTTHZ",
+      "official": "LFQSCWFLJHTTHZ",
+      "equal": true
+    },
+    {
+      "smiles": "CC=O",
+      "runtime": "IKHGUXGNUITLKF",
+      "official": "IKHGUXGNUITLKF",
+      "equal": true
+    },
+    {
+      "smiles": "C=CO",
+      "runtime": "IKHGUXGNUITLKF",
+      "official": "IKHGUXGNUITLKF",
+      "equal": true
+    },
+    {
+      "smiles": "C[C@H](O)C(=O)O",
+      "runtime": "JVTAAEKCZFNVCJ",
+      "official": "JVTAAEKCZFNVCJ",
+      "equal": true
+    },
+    {
+      "smiles": "C[C@@H](O)C(=O)O",
+      "runtime": "JVTAAEKCZFNVCJ",
+      "official": "JVTAAEKCZFNVCJ",
+      "equal": true
+    },
+    {
+      "smiles": "CC(=O)[O-].[Na+]",
+      "runtime": "VMHLLURERBWHNL",
+      "official": "VMHLLURERBWHNL",
+      "equal": true
+    },
+    {
+      "smiles": "c1ccccc1",
+      "runtime": "UHOVQNZJYSORNB",
+      "official": "UHOVQNZJYSORNB",
+      "equal": true
+    },
+    {
+      "smiles": "C1=CC=CC=C1",
+      "runtime": "UHOVQNZJYSORNB",
+      "official": "UHOVQNZJYSORNB",
+      "equal": true
+    },
+    {
+      "smiles": "N#N",
+      "runtime": "IJGRMHOSHXDMSA",
+      "official": "IJGRMHOSHXDMSA",
+      "equal": true
+    },
+    {
+      "smiles": "invalid",
+      "runtime": null,
+      "official": null,
+      "equal": true
+    },
+    {
+      "smiles": "",
+      "runtime": null,
+      "official": null,
+      "equal": true
+    }
+  ],
+  "files": {
+    "scripts\\fiora_submission_runtime_20261116.py": "f0372e31b27530230b14515be4482c41afda94af805f5422b35b96c7d86181cb",
+    "scripts\\build_fiora_submission_20261116.py": "87aedc02031b01ed3e366f895df75708f09946958357e85374de26faf99c3c8c",
+    "scripts\\score_fiora_candidate_pilot_20261115.py": "a87b089cad27507161a6f4fe592e0e17c1f618ed44f27b1a65678cda6a93eae7",
+    "scripts\\prepare_fiora_tims_pilot_20261115.py": "e5dddf8ab9339ed22472e5560406d266addb5417af50694f96932accb1900418"
+  }
+}

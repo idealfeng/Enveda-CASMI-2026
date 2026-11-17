@@ -1,0 +1,48 @@
+{
+  "files": [
+    {
+      "path": "fiora_params.json",
+      "url": "https://raw.githubusercontent.com/BAMeScience/fiora/main/fiora/resources/models/fiora_OS_v1.0.0_params.json",
+      "bytes": 1323,
+      "sha256": "c214195f945b1273b7b350cfe4bd964b9a410316433966e74c0a8bf9acdb86c5",
+      "status": "saved"
+    },
+    {
+      "path": "fiora_README.md",
+      "url": "https://raw.githubusercontent.com/BAMeScience/fiora/main/README.md",
+      "bytes": 6855,
+      "sha256": "42090a30f2a246618feabe8d60574c19055c22fe55975fec05e3c28bfdefee60",
+      "status": "saved"
+    },
+    {
+      "path": "diffms_README.md",
+      "url": "https://raw.githubusercontent.com/coleygroup/DiffMS/master/README.md",
+      "bytes": 3479,
+      "sha256": "e2ddb0eeb703b8dba38049167b77f7fcf48778ce400ecb6aa8dd095f792854dc",
+      "status": "saved"
+    },
+    {
+      "path": "diffms_msg.yaml",
+      "url": "https://raw.githubusercontent.com/coleygroup/DiffMS/master/configs/dataset/msg.yaml",
+      "bytes": 734,
+      "sha256": "96fadf995cc84eaf63864f12202926f09a0fc40e9116f9768bbfb9f0b8d0fea0",
+      "status": "saved"
+    },
+    {
+      "path": "diffms_general.yaml",
+      "url": "https://raw.githubusercontent.com/coleygroup/DiffMS/master/configs/general/general_default.yaml",
+      "bytes": 929,
+      "sha256": "112461485849d45c39bcfa3d0224e36f0c976c59da833caa6bf76b3dbf8ec227",
+      "status": "saved"
+    },
+    {
+      "path": "diffms_pyproject.toml",
+      "url": "https://raw.githubusercontent.com/coleygroup/DiffMS/master/pyproject.toml",
+      "bytes": 993,
+      "sha256": "bc8fe6f89f9b320e2822b9d7ca2caecb287eb5395092a56364416ccf34e46b71",
+      "status": "saved"
+    }
+  ],
+  "source_executed": false,
+  "weights_downloaded": false
+}

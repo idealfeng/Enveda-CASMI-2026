@@ -1,0 +1,85 @@
+{
+  "ref": "heliosli/casmi26-rt-np",
+  "read_only": true,
+  "files_only": true,
+  "model_bytes_downloaded": 0,
+  "status": "files_read",
+  "file_count": 6,
+  "files": [
+    {
+      "name": "README.md",
+      "creationDate": "2026-11-16T06:24:00.646Z",
+      "totalBytes": 1134
+    },
+    {
+      "name": "README_PUBLIC_DEMO.md",
+      "creationDate": "2026-11-16T06:24:00.753Z",
+      "totalBytes": 777
+    },
+    {
+      "name": "npdb_np.parquet",
+      "creationDate": "2026-11-16T06:24:01.588Z",
+      "totalBytes": 32147842
+    },
+    {
+      "name": "public_demo_manifest.json",
+      "creationDate": "2026-11-16T06:24:00.761Z",
+      "totalBytes": 288
+    },
+    {
+      "name": "rt_adducts.json",
+      "creationDate": "2026-11-16T06:24:00.746Z",
+      "totalBytes": 208
+    },
+    {
+      "name": "rt_best.pt",
+      "creationDate": "2026-11-16T06:24:01.158Z",
+      "totalBytes": 24370229
+    }
+  ],
+  "next_page_token_present": false,
+  "dataset_view": {
+    "id": 13025146,
+    "ref": "heliosli/casmi26-rt-np",
+    "subtitle": "Runnable public demo artifacts; original competition weights excluded",
+    "creatorName": "Heliosli",
+    "totalBytes": 56520478,
+    "lastUpdated": "2026-11-16T06:23:59.197Z",
+    "downloadCount": 182,
+    "licenseName": "Other (specified in description)",
+    "description": "# Public demonstration artifacts: casmi26-rt-np\n\nThis version is an interface and execution demonstration. The original competition-trained weights are not included. It is not a reproduction package for the 0.494 leaderboard result and has no claimed leaderboard score.\n\nModel loaders, file names, tensor dimensions, candidate tables and upstream public assets are retained for compatibility. Private learned parameters are replaced with initialized demo weights (the joint ranker uses a synthetic fit). Self-tests validate this demo version only.\n\nPX reference scores embedded in notebooks must correspond to this demonstration version; updated fixtures are included in this dataset.\n\nOriginal license and upstream source notices continue to apply to the corresponding files.\n",
+    "ownerName": "Heliosli",
+    "ownerRef": "heliosli",
+    "kernelCount": 5,
+    "title": "casmi26-rt-np",
+    "viewCount": 7,
+    "voteCount": 1,
+    "currentVersionNumber": 2,
+    "usabilityRating": 0.64705884,
+    "tags": [
+      {
+        "ref": "pre-trained model",
+        "name": "pre-trained model",
+        "description": "",
+        "fullPath": "admin > pre-trained model",
+        "competitionCount": 2,
+        "datasetCount": 655451,
+        "scriptCount": 301,
+        "totalCount": 655754
+      }
+    ],
+    "versions": [
+      {
+        "versionNumber": 2,
+        "creationDate": "2026-11-16T06:23:59.197Z",
+        "creatorName": "Heliosli",
+        "creatorRef": "casmi26-rt-np",
+        "versionNotes": "PUBLIC-DEMO-1116-R1: Runnable demonstration artifacts; original competition weights excluded. Not a reproduction of 0.494.",
+        "status": "Ready"
+      }
+    ],
+    "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-75.png-31141478/dataset-thumbnail.png"
+  },
+  "current_version_number": 2,
+  "is_private": false
+}

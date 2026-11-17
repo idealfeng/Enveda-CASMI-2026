@@ -1,0 +1,23 @@
+{
+  "status": "source_binding_gap_reported_before_holdout_metrics",
+  "reviewed_source_sha256": "74833e69daa72c94e63eee32d35b249173cb1cb741a0cb33fa1e53882775b863",
+  "holdout_labels_opened": false,
+  "holdout_metrics_executed": false,
+  "code_or_artifacts_modified": false,
+  "confirmed_logic": [
+    "Fixed and learned policies consume the same capped row_metadata proposal and features from the selected data root.",
+    "Original uncapped C_hit is not used as the fixed comparator.",
+    "Both policies share original all-spectrum AB and pipeline/AB protection conditions.",
+    "Promotion uses the official tautomer identity and retains a native candidate alias when already present.",
+    "MRR calls the project official metric after saved model probability proof, without fitting.",
+    "No label, reference condition or identity is supplied to model inference by this evaluator."
+  ],
+  "issue": {
+    "severity": "integrity_binding",
+    "summary": "Scored features and probabilities are bound, but proposal/condition metadata and legacy AB/context are not independently SHA-checked here.",
+    "risk": "r2 and r3 share row_id values. Accidentally mixing uncapped metadata with capped scores could preserve joins but use a different proposed identity.",
+    "requested_fix": "Before reading truth, validate every r3 capped exporter artifact pin including row_metadata, feature_schema and query_selection, and validate old AB/context artifacts against their frozen matching evidence.",
+    "observed_actual_corruption": false
+  },
+  "scope": "Read-only source/schema review only; no r3 holdout labels or metrics inspected."
+}

@@ -1,0 +1,37 @@
+{
+  "id": 143492514,
+  "ref": "ozertuu/casmi26-apex-gold-486",
+  "title": "casmi26-apex-gold-486",
+  "current_version_number": 2,
+  "last_run_time": "2026-11-13 15:19:05.854000",
+  "total_votes": 9,
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_data_sources": [
+    "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "takumuhata/casmi26-extlib",
+    "sanpier/catalogue-experiment-saner",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [
+    "popwenman/casmi26-scorer-train-v80"
+  ],
+  "competition_data_sources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "model_data_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:de153e6d303881930c51286216393d56f56b26458d0661350305a1e8144eea01",
+  "machine_shape": "NvidiaTeslaT4",
+  "status": "downloaded",
+  "source_sha256": "de709060dbdded5c61c3580f99529c1ddc6071914a0096e070563605c15bcc75",
+  "source_bytes": 724354,
+  "source_path": "reports/public_review_20261116/notebooks/ozertuu__casmi26-apex-gold-486/source.ipynb",
+  "execution_performed": false
+}

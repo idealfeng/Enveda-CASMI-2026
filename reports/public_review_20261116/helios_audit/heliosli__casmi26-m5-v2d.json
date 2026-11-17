@@ -1,0 +1,550 @@
+{
+  "ref": "heliosli/casmi26-m5-v2d",
+  "read_only": true,
+  "model_bytes_downloaded": 0,
+  "checked_at_utc": "2026-11-16T15:23:06.280759+00:00",
+  "dataset_view": {
+    "id": 13204911,
+    "ref": "heliosli/casmi26-m5-v2d",
+    "subtitle": "Runnable public demo artifacts; original competition weights excluded",
+    "creatorName": "Heliosli",
+    "totalBytes": 90414371,
+    "lastUpdated": "2026-11-16T06:27:54.510Z",
+    "downloadCount": 98,
+    "licenseName": "CC0: Public Domain",
+    "description": "# Public demonstration artifacts: casmi26-m5-v2d\n\nThis version is an interface and execution demonstration. The original competition-trained weights are not included. It is not a reproduction package for the 0.494 leaderboard result and has no claimed leaderboard score.\n\nModel loaders, file names, tensor dimensions, candidate tables and upstream public assets are retained for compatibility. Private learned parameters are replaced with initialized demo weights (the joint ranker uses a synthetic fit). Self-tests validate this demo version only.\n\nPX reference scores embedded in notebooks must correspond to this demonstration version; updated fixtures are included in this dataset.\n\nOriginal license and upstream source notices continue to apply to the corresponding files.\n",
+    "ownerName": "Heliosli",
+    "ownerRef": "heliosli",
+    "title": "casmi26-m5-v2d",
+    "viewCount": 5,
+    "currentVersionNumber": 2,
+    "usabilityRating": 0.625,
+    "tags": [
+      {
+        "ref": "pre-trained model",
+        "name": "pre-trained model",
+        "description": "",
+        "fullPath": "admin > pre-trained model",
+        "competitionCount": 2,
+        "datasetCount": 655037,
+        "scriptCount": 301,
+        "totalCount": 655340
+      }
+    ],
+    "versions": [
+      {
+        "versionNumber": 2,
+        "creationDate": "2026-11-16T06:27:54.510Z",
+        "creatorName": "Heliosli",
+        "creatorRef": "casmi26-m5-v2d",
+        "versionNotes": "PUBLIC-DEMO-1116-R1: Runnable demonstration artifacts; original competition weights excluded. Not a reproduction of 0.494.",
+        "status": "Ready"
+      }
+    ],
+    "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-72.png-31141478/dataset-thumbnail.png"
+  },
+  "file_inventory": {
+    "datasetFiles": [
+      {
+        "name": "README_PUBLIC_DEMO.md",
+        "creationDate": "2026-11-16T06:27:57.251Z",
+        "totalBytes": 778
+      },
+      {
+        "name": "d5_noise.json",
+        "creationDate": "2026-11-16T06:27:57.217Z",
+        "totalBytes": 3707
+      },
+      {
+        "name": "fullT/fullT/ckpt/gen.pt",
+        "creationDate": "2026-11-16T06:27:58.259Z",
+        "totalBytes": 14563228
+      },
+      {
+        "name": "fullT/fullT/ckpt/inten.pt",
+        "creationDate": "2026-11-16T06:27:58.475Z",
+        "totalBytes": 13793997
+      },
+      {
+        "name": "fullT/fullT/shim/dgl/__init__.py",
+        "creationDate": "2026-11-16T06:27:58.073Z",
+        "totalBytes": 10029
+      },
+      {
+        "name": "fullT/fullT/shim/dgl/backend/__init__.py",
+        "creationDate": "2026-11-16T06:27:58.078Z",
+        "totalBytes": 36
+      },
+      {
+        "name": "fullT/fullT/shim/dgl/backend/pytorch.py",
+        "creationDate": "2026-11-16T06:27:58.072Z",
+        "totalBytes": 964
+      },
+      {
+        "name": "fullT/fullT/shim/dgl/function.py",
+        "creationDate": "2026-11-16T06:27:58.059Z",
+        "totalBytes": 1803
+      },
+      {
+        "name": "fullT/fullT/shim/dgl/nn/__init__.py",
+        "creationDate": "2026-11-16T06:27:58.069Z",
+        "totalBytes": 1958
+      },
+      {
+        "name": "fullT/fullT/shim/torch_scatter/__init__.py",
+        "creationDate": "2026-11-16T06:27:58.070Z",
+        "totalBytes": 3120
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/__init__.py",
+        "creationDate": "2026-11-16T06:27:58.070Z",
+        "totalBytes": 255
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/__main__.py",
+        "creationDate": "2026-11-16T06:27:58.070Z",
+        "totalBytes": 538
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/autoregr_gen/README.md",
+        "creationDate": "2026-11-16T06:27:58.079Z",
+        "totalBytes": 115
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/autoregr_gen/autoregr_data.py",
+        "creationDate": "2026-11-16T06:27:58.080Z",
+        "totalBytes": 12295
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/autoregr_gen/autoregr_model.py",
+        "creationDate": "2026-11-16T06:27:58.073Z",
+        "totalBytes": 13810
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/autoregr_gen/hyperopt.py",
+        "creationDate": "2026-11-16T06:27:58.103Z",
+        "totalBytes": 7179
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/autoregr_gen/predict.py",
+        "creationDate": "2026-11-16T06:27:58.092Z",
+        "totalBytes": 6648
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/autoregr_gen/train.py",
+        "creationDate": "2026-11-16T06:27:58.087Z",
+        "totalBytes": 10359
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/common/__init__.py",
+        "creationDate": "2026-11-16T06:27:58.075Z",
+        "totalBytes": 369
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/common/bootstrap_utils.py",
+        "creationDate": "2026-11-16T06:27:58.114Z",
+        "totalBytes": 4146
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/common/chem_utils.py",
+        "creationDate": "2026-11-16T06:27:58.087Z",
+        "totalBytes": 26115
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/common/denoising_utils.py",
+        "creationDate": "2026-11-16T06:27:58.134Z",
+        "totalBytes": 3390
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/common/fingerprint.py",
+        "creationDate": "2026-11-16T06:27:58.127Z",
+        "totalBytes": 1607
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/common/icet_hooks.py",
+        "creationDate": "2026-11-16T06:27:58.139Z",
+        "totalBytes": 1880
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/common/mces_utils.py",
+        "creationDate": "2026-11-16T06:27:58.128Z",
+        "totalBytes": 6148
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/common/misc_utils.py",
+        "creationDate": "2026-11-16T06:27:58.146Z",
+        "totalBytes": 97051
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/common/parallel_utils.py",
+        "creationDate": "2026-11-16T06:27:58.147Z",
+        "totalBytes": 13231
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/common/plot_utils.py",
+        "creationDate": "2026-11-16T06:27:58.149Z",
+        "totalBytes": 16167
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/common/splitter.py",
+        "creationDate": "2026-11-16T06:27:58.138Z",
+        "totalBytes": 2582
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/ffn_pred/ffn_data.py",
+        "creationDate": "2026-11-16T06:27:58.132Z",
+        "totalBytes": 7270
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/ffn_pred/ffn_hyperopt.py",
+        "creationDate": "2026-11-16T06:27:58.141Z",
+        "totalBytes": 6031
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/ffn_pred/ffn_model.py",
+        "creationDate": "2026-11-16T06:27:58.142Z",
+        "totalBytes": 6879
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/ffn_pred/predict.py",
+        "creationDate": "2026-11-16T06:27:58.148Z",
+        "totalBytes": 6352
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/ffn_pred/train.py",
+        "creationDate": "2026-11-16T06:27:58.144Z",
+        "totalBytes": 7697
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/glacier/dataset.py",
+        "creationDate": "2026-11-16T06:27:58.158Z",
+        "totalBytes": 45338
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/glacier/joint_model.py",
+        "creationDate": "2026-11-16T06:27:58.170Z",
+        "totalBytes": 74684
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/glacier/predict_inten_joint.py",
+        "creationDate": "2026-11-16T06:27:58.157Z",
+        "totalBytes": 9225
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/glacier/predict_smis_joint.py",
+        "creationDate": "2026-11-16T06:27:58.131Z",
+        "totalBytes": 24052
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/glacier/train_contr_joint.py",
+        "creationDate": "2026-11-16T06:27:58.160Z",
+        "totalBytes": 16132
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/glacier/train_joint.py",
+        "creationDate": "2026-11-16T06:27:58.196Z",
+        "totalBytes": 12421
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/gnn_pred/gnn_data.py",
+        "creationDate": "2026-11-16T06:27:58.178Z",
+        "totalBytes": 8562
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/gnn_pred/gnn_hyperopt.py",
+        "creationDate": "2026-11-16T06:27:58.172Z",
+        "totalBytes": 7005
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/gnn_pred/gnn_model.py",
+        "creationDate": "2026-11-16T06:27:58.190Z",
+        "totalBytes": 9692
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/gnn_pred/predict.py",
+        "creationDate": "2026-11-16T06:27:58.199Z",
+        "totalBytes": 5834
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/gnn_pred/train.py",
+        "creationDate": "2026-11-16T06:27:58.189Z",
+        "totalBytes": 8511
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/graff_ms/graff_ms_data.py",
+        "creationDate": "2026-11-16T06:27:58.197Z",
+        "totalBytes": 12312
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/graff_ms/graff_ms_hyperopt.py",
+        "creationDate": "2026-11-16T06:27:58.201Z",
+        "totalBytes": 7818
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/graff_ms/graff_ms_model.py",
+        "creationDate": "2026-11-16T06:27:58.202Z",
+        "totalBytes": 13011
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/graff_ms/predict.py",
+        "creationDate": "2026-11-16T06:27:58.215Z",
+        "totalBytes": 5905
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/graff_ms/prepare_form_dataset.py",
+        "creationDate": "2026-11-16T06:27:58.204Z",
+        "totalBytes": 4299
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/graff_ms/train.py",
+        "creationDate": "2026-11-16T06:27:58.204Z",
+        "totalBytes": 9517
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/graphormer/__init__.py",
+        "creationDate": "2026-11-16T06:27:58.205Z",
+        "totalBytes": 345
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/graphormer/graphormer_graph_encoder.py",
+        "creationDate": "2026-11-16T06:27:58.208Z",
+        "totalBytes": 6713
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/graphormer/graphormer_graph_encoder_layer.py",
+        "creationDate": "2026-11-16T06:27:58.202Z",
+        "totalBytes": 3481
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/graphormer/graphormer_layers.py",
+        "creationDate": "2026-11-16T06:27:58.220Z",
+        "totalBytes": 5776
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/graphormer/multihead_attention.py",
+        "creationDate": "2026-11-16T06:27:58.216Z",
+        "totalBytes": 2324
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/iceberg/dag_data.py",
+        "creationDate": "2026-11-16T06:27:58.212Z",
+        "totalBytes": 35358
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/iceberg/fast_dag.py",
+        "creationDate": "2026-11-16T06:27:58.223Z",
+        "totalBytes": 15503
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/iceberg/gen_hyperopt.py",
+        "creationDate": "2026-11-16T06:27:58.242Z",
+        "totalBytes": 6982
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/iceberg/gen_model.py",
+        "creationDate": "2026-11-16T06:27:58.219Z",
+        "totalBytes": 34130
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/iceberg/graph_mutate.py",
+        "creationDate": "2026-11-16T06:27:58.247Z",
+        "totalBytes": 9042
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/iceberg/iceberg_elucidation.py",
+        "creationDate": "2026-11-16T06:27:58.233Z",
+        "totalBytes": 47584
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/iceberg/iceberg_extract_fragments.py",
+        "creationDate": "2026-11-16T06:27:58.286Z",
+        "totalBytes": 7979
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/iceberg/inten_hyperopt.py",
+        "creationDate": "2026-11-16T06:27:58.251Z",
+        "totalBytes": 7548
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/iceberg/inten_model.py",
+        "creationDate": "2026-11-16T06:27:58.259Z",
+        "totalBytes": 33766
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/iceberg/joint_model.py",
+        "creationDate": "2026-11-16T06:27:58.318Z",
+        "totalBytes": 7769
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/iceberg/predict_gen.py",
+        "creationDate": "2026-11-16T06:27:58.328Z",
+        "totalBytes": 12445
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/iceberg/predict_inten.py",
+        "creationDate": "2026-11-16T06:27:58.325Z",
+        "totalBytes": 11257
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/iceberg/predict_smis.py",
+        "creationDate": "2026-11-16T06:27:58.328Z",
+        "totalBytes": 12867
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/iceberg/train_contr_inten.py",
+        "creationDate": "2026-11-16T06:27:58.323Z",
+        "totalBytes": 15035
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/iceberg/train_gen.py",
+        "creationDate": "2026-11-16T06:27:58.317Z",
+        "totalBytes": 13288
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/iceberg/train_inten.py",
+        "creationDate": "2026-11-16T06:27:58.331Z",
+        "totalBytes": 13565
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/magma/fragmentation.py",
+        "creationDate": "2026-11-16T06:27:58.324Z",
+        "totalBytes": 29288
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/magma/run_magma.py",
+        "creationDate": "2026-11-16T06:27:58.366Z",
+        "totalBytes": 23197
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/marason/dag_data.py",
+        "creationDate": "2026-11-16T06:27:58.331Z",
+        "totalBytes": 45642
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/marason/gen_hyperopt.py",
+        "creationDate": "2026-11-16T06:27:58.358Z",
+        "totalBytes": 7362
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/marason/gen_model.py",
+        "creationDate": "2026-11-16T06:27:58.332Z",
+        "totalBytes": 34130
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/marason/inten_hyperopt.py",
+        "creationDate": "2026-11-16T06:27:58.341Z",
+        "totalBytes": 7924
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/marason/inten_model.py",
+        "creationDate": "2026-11-16T06:27:58.344Z",
+        "totalBytes": 63623
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/marason/joint_model.py",
+        "creationDate": "2026-11-16T06:27:58.347Z",
+        "totalBytes": 15359
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/marason/predict_gen.py",
+        "creationDate": "2026-11-16T06:27:58.338Z",
+        "totalBytes": 12048
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/marason/predict_inten.py",
+        "creationDate": "2026-11-16T06:27:58.343Z",
+        "totalBytes": 15004
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/marason/predict_smis.py",
+        "creationDate": "2026-11-16T06:27:58.346Z",
+        "totalBytes": 19303
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/marason/test_inten.py",
+        "creationDate": "2026-11-16T06:27:58.344Z",
+        "totalBytes": 19285
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/marason/train_gen.py",
+        "creationDate": "2026-11-16T06:27:58.345Z",
+        "totalBytes": 10652
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/marason/train_inten.py",
+        "creationDate": "2026-11-16T06:27:58.336Z",
+        "totalBytes": 29573
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/massformer_pred/__init__.py",
+        "creationDate": "2026-11-16T06:27:58.337Z"
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/massformer_pred/_massformer_graph_featurizer.py",
+        "creationDate": "2026-11-16T06:27:58.349Z",
+        "totalBytes": 979
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/massformer_pred/massformer_code/__init__.py",
+        "creationDate": "2026-11-16T06:27:58.373Z"
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/massformer_pred/massformer_code/algos2.pyx",
+        "creationDate": "2026-11-16T06:27:58.582Z",
+        "totalBytes": 2370
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/massformer_pred/massformer_code/gf_data_utils.py",
+        "creationDate": "2026-11-16T06:27:58.388Z",
+        "totalBytes": 13459
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/massformer_pred/massformer_code/gf_model.py",
+        "creationDate": "2026-11-16T06:27:58.390Z",
+        "totalBytes": 44365
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/massformer_pred/massformer_code/model_extract.py",
+        "creationDate": "2026-11-16T06:27:58.380Z",
+        "totalBytes": 1360
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/massformer_pred/massformer_data.py",
+        "creationDate": "2026-11-16T06:27:58.369Z",
+        "totalBytes": 9054
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/massformer_pred/massformer_hyperopt.py",
+        "creationDate": "2026-11-16T06:27:58.336Z",
+        "totalBytes": 7356
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/massformer_pred/massformer_model.py",
+        "creationDate": "2026-11-16T06:27:58.381Z",
+        "totalBytes": 9712
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/massformer_pred/predict.py",
+        "creationDate": "2026-11-16T06:27:58.356Z",
+        "totalBytes": 5734
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/massformer_pred/test.py",
+        "creationDate": "2026-11-16T06:27:58.354Z",
+        "totalBytes": 6221
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/massformer_pred/train.py",
+        "creationDate": "2026-11-16T06:27:58.361Z",
+        "totalBytes": 8640
+      },
+      {
+        "name": "fullT/fullT/src/ms_pred/model_registry.py",
+        "creationDate": "2026-11-16T06:27:58.080Z",
+        "totalBytes": 618
+      }
+    ],
+    "nextPageToken": "CfDJ8CXkJvnxKG5Ktgac76JjV5Exy5jDV5w4Kz4FztUqaRRvYWKVWP9HmjR3rX4-WH6ckgU7QtIcXjgS9RLhffE94JpeaNTxWsR2jrBoROrfQ_SLpuoLS00Qq4PxO1S1eDnd38JCdz75OnBIeiC_xyXUoa8v2h9iWRJh5IM0IJm-kxqrGL-ezVUZM9nOHg"
+  },
+  "status": "read"
+}

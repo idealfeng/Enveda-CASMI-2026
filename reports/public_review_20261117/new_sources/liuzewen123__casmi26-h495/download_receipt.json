@@ -1,0 +1,26 @@
+{
+  "ref": "liuzewen123/casmi26-h495",
+  "status": "downloaded_no_execution",
+  "version": 1,
+  "source_bytes": 771620,
+  "source_sha256": "2ed436fa43c7eb9635de8a04524de668d452595847ae6e025e1e5815d2ff89b9",
+  "downloaded_at_utc": "2026-11-17T04:02:54.885698+00:00",
+  "dataset_sources": [
+    "sanpier/casmi-spectrum-model-v1",
+    "dmitriigluzdov/casmi26-fold-safe-fpnet",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "heliosli/casmi26-rr-v3",
+    "heliosli/casmi26-analyticon-megx",
+    "heliosli/casmi26-frigid-e1",
+    "heliosli/casmi26-joint-ranker",
+    "heliosli/casmi26-m5-v2d",
+    "heliosli/casmi26-pxv2-deploy",
+    "heliosli/casmi26-rt-np",
+    "sanpier/catalogue-experiment-saner"
+  ],
+  "kernel_sources": [],
+  "full_metadata_preserved": true
+}

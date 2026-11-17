@@ -1,0 +1,9 @@
+Notebooks getting queued. Although GPU is available
+
+https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/759398
+
+Author: JamshaidSohail
+
+Posted: 2026-11-15T10:53:51.762Z
+
+Hi. My notebooks are getting queued, although I have the GPU available. Is anyone else also facing the same issue?

@@ -1,0 +1,63 @@
+{
+  "ref": "metric/rdkit-2026-3-3-wheel",
+  "read_only": true,
+  "files_only": true,
+  "model_bytes_downloaded": 0,
+  "status": "files_read",
+  "file_count": 4,
+  "files": [
+    {
+      "name": "rdkit-2026.3.3-cp310-cp310-manylinux_2_28_x86_64.whl",
+      "creationDate": "2026-09-08T22:23:25.421Z",
+      "totalBytes": 37258660
+    },
+    {
+      "name": "rdkit-2026.3.3-cp311-cp311-manylinux_2_28_x86_64.whl",
+      "creationDate": "2026-09-08T22:23:25.238Z",
+      "totalBytes": 37257559
+    },
+    {
+      "name": "rdkit-2026.3.3-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "creationDate": "2026-09-08T22:23:25.144Z",
+      "totalBytes": 37188323
+    },
+    {
+      "name": "rdkit-2026.3.3-cp313-cp313-manylinux_2_28_x86_64.whl",
+      "creationDate": "2026-09-08T22:23:25.240Z",
+      "totalBytes": 37187145
+    }
+  ],
+  "next_page_token_present": false,
+  "dataset_view": {
+    "id": 11951175,
+    "ref": "metric/rdkit-2026-3-3-wheel",
+    "subtitle": "",
+    "creatorName": "Kaggle Competition Metrics",
+    "totalBytes": 148891687,
+    "lastUpdated": "2026-09-08T22:23:23.197Z",
+    "downloadCount": 3713,
+    "licenseName": "Unknown",
+    "description": "",
+    "ownerName": "Kaggle Competition Metrics",
+    "ownerRef": "metric",
+    "kernelCount": 1030,
+    "title": "rdkit 2026.3.3 wheel",
+    "viewCount": 676,
+    "voteCount": 4,
+    "currentVersionNumber": 1,
+    "usabilityRating": 0.1875,
+    "versions": [
+      {
+        "versionNumber": 1,
+        "creationDate": "2026-09-08T22:23:23.197Z",
+        "creatorName": "Kaggle Competition Metrics",
+        "creatorRef": "rdkit-2026-3-3-wheel",
+        "versionNotes": "Initial release",
+        "status": "Ready"
+      }
+    ],
+    "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-4.png-13166197/dataset-thumbnail.png"
+  },
+  "current_version_number": 1,
+  "is_private": false
+}

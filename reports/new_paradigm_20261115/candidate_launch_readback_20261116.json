@@ -1,0 +1,11 @@
+{
+  "status": "detached_launch_did_not_reach_inference",
+  "observed_utc": "2026-11-16T13:52:01Z",
+  "windows_pid": 40736,
+  "windows_process_present": false,
+  "configuration_or_worker_claim_present": false,
+  "console_bytes": 0,
+  "linux_task_processes_observed": false,
+  "cause": "unknown",
+  "decision": "Preserve immutable launch receipts; adopt this unused output directory in the directly monitored WSL run. No model/candidate change and no duplicate live worker."
+}

@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "scope": "source audit plus read-only observer implementation; no model/pipeline run and no holdout labels read",
+  "champion": {
+    "path": "submission/optimization_20261109/mass_guarded_extlib/notebook.ipynb",
+    "sha256": "2bb94c91b176f95dfdff52f08781443ffee004c20d06aeb30efb14d0c0112fc7",
+    "formal_submission_ref": 58156482,
+    "public_score": 0.488,
+    "nested_sha256": "d1e757c2b71b46e6e8a5777f14302a4737d0fdbcd56d8365093c039b93c5fd88",
+    "nested_materialized_source_locator": "runs/generation_production_20261113_r2/kaggle/working/p2s_code/frozen_0465.ipynb",
+    "materialized_locator_note": "Byte-exact nested-source locator only; outputs/configuration of generation_production_r2 are NOT champion evidence."
+  },
+  "pins": {
+    "MODULE_SHA256": {
+      "runner.py": "86b74f3b4cd5767a2cbe1d291735c292b66b4fbf286a705c6cb777a1865883db",
+      "export_evidence.py": "d4ec36a9f6216d2607fff4f481bc465dbc8fbc616ec4b24f12932e4c5e546e19",
+      "neural_scores.py": "cb9e4d6732992e3310e951533fd0c644d3b515134ad03768c35e5a86551267d2",
+      "submission.py": "d0027a893b1bfefe8066ede4f625c584fe0d4fa16bfe4bee32265ef34a7f007c",
+      "ranking.py": "6f909cd7e41e88387c23109b93dd590885d2283509804279a58c624a758987d7",
+      "bundle.py": "8595ef16ead9c9e6ac34a3398bff4b748f5668cdc517c396be18100a5b745cea",
+      "consensus.py": "9e67ab49a852404587e62ca84e0fc551d70ce68ec8f7a47739aada6ca08d3989",
+      "outsiders.py": "4dcf6c2b9c9b7be3ac8f7a616683495430fcb4e0c25b449684d132daaa8e7b5c"
+    },
+    "MODEL_PINS": {
+      "features.py": "a97ad9b3ab3711517864d56e497e1672cb29bb05683c72b52db9f9b0a17b1455",
+      "model.py": "2547418857386d1c2513fd1ab6c70961e6a96e73d9d495bbfe3052197e69dc39",
+      "config.json": "563fb2a2a81ca48ea094f9ab78c157a48a6e9a5503e85e6ce8f0fb3615c1cc03",
+      "final_model.pt": "44436b2daec64373e66f9120dd2389c24fc83dd9430ebeeac18e3cb49dcb9642"
+    },
+    "FROZEN_SHA256": "d1e757c2b71b46e6e8a5777f14302a4737d0fdbcd56d8365093c039b93c5fd88"
+  },
+  "source_pins": {
+    "patched_engine": "e4943fb26a8141f47ea95e744910c2d0f4746e36e72ef43e3263e7f327cfc0b5",
+    "hooks_v1": "d0cb1e37566a54bbb3082ccd29579ac47fc2526c5d64ef073dc0e628ee5657e8",
+    "guarded_head_tail": "ab01de6ba2ace14e736a69a93e7e2d86616871e45e424e2f26054791e3de7031",
+    "ab_overlay": "a31c55a2958139cbeea948ea4d11fa32eb40e3d3d7b0bac157f6d0fdc51025db",
+    "ab_original_function": "9ceaa95ddda0fb304758c9acd7dd1f256c528fcb4a8304c0152f8b6d8e3e3e76"
+  },
+  "observer": {
+    "path": "scripts/champion_stage_observer_20261115.py",
+    "sha256": "78d21e2a8bdc754ab9466a409aca044cc3e0d6e9c590ad0cb21bf8de4e19d4f5",
+    "entrypoint_lines": {
+      "install": 114,
+      "before_cell": 243,
+      "after_cell": 249,
+      "after_outer_cell": 257,
+      "install_engine2": 262,
+      "finish": 301
+    },
+    "install_point": "inner after_cell37, after original determinism patch, external reference initialization and V1FE recording hooks",
+    "runner_contract": [
+      "before_cell(scope,i,root) immediately before original exec",
+      "after_cell(scope,i,root) immediately after original exec",
+      "finish(scope,root,\"inner\") after original export",
+      "after_outer_cell(scope,i,root) after each original outer cell; finish(...,\"outer\") at end",
+      "optional E2 child install_engine2(E,root), after original config assignment and before original E.main"
+    ],
+    "validation": {
+      "ast_syntax": true,
+      "in_memory_stub_original_return_identity": true,
+      "in_memory_stub_cfg_6_150_unchanged": true,
+      "actual_models_run": false
+    }
+  },
+  "stages": [
+    {
+      "stage": "00_recipe_materialisation",
+      "source_location": "outer cell12:64-73; cell14:1; MODULES runner.py:13-20",
+      "behavior": "Write pinned modules/frozen notebook; execute original inner code cells in order.",
+      "save": "Notebook/module/model/asset hashes; exact input/query order; runtime source paths; original cfg; no fast_static allowed.",
+      "visibility_limit": null
+    },
+    {
+      "stage": "01_engine2_returned_and_prerank",
+      "source_location": "inner cell32:10-17; eng/eng_runner.py:18-34; casmi_engine.py:347-381",
+      "behavior": "E2 independent child, mass-window candidate channels and two-ranker blend; final top80 scan and identity dedup cap40.",
+      "save": "Original E.main returned recs[mid].cand with pool smiles, original pv/ours scores and actual blend_scores output; ENG final40; exception/fallback flags.",
+      "visibility_limit": "Internal E2 capture requires install_engine2 after E import/config assignments and before E.main. After-cell32 alone only sees final40. No per-filter reasons inside compute_channels."
+    },
+    {
+      "stage": "02_pubchem_returned",
+      "source_location": "inner cell34:8-19",
+      "behavior": "Separate PubChem child returns PC proposals/popularity/promotion evidence.",
+      "save": "PC raw returned dictionary, candidate-specific promotion evidence, fz/pop scores and failure/empty coverage.",
+      "visibility_limit": "PC is post-search output: this observer cannot distinguish PubChem pre-search catalog absence from internal filtering. It does not replace this child with a proxy."
+    },
+    {
+      "stage": "03_engine_initialisation",
+      "source_location": "inner cell27:43-45; cell36:172-190; cell37:13-31",
+      "behavior": "Determinism patch, frozen external reference cache, original EngineCfg(generate=True), V1FE and 160-feature ranker.",
+      "save": "Actual E.cfg, patched engine SHA, external reference state/pins, pool/library sizes, ranker features/model fingerprints.",
+      "visibility_limit": "Exact champion uses original generator budget 6/150; generation r3/r4 12/300 is not this control. Reference cache fallbacks must be reported."
+    },
+    {
+      "stage": "04_analog_retrieval",
+      "source_location": "casmi/engine.py:127-171; hooks_v1.py:49-56",
+      "behavior": "Observed original analog search result after mass/mode/exclusion gates and top-n selection.",
+      "save": "Actual returned analog SID, smiles, mass, sim, shift, NP flag; target mass and spectrum count.",
+      "visibility_limit": "This result is after analog retrieval filters; it does not expose all library entries before filtering."
+    },
+    {
+      "stage": "05_raw_generation",
+      "source_location": "hooks_v1.py:14-46,58-97; actual hooks_v1.derive_rec calls",
+      "behavior": "Observe real transformation products before standardisation/key/mass/fingerprint acceptance, without changing parameters.",
+      "save": "Each actual parent/delta/explicit kwargs and raw returned product SMILES; original derivation exceptions.",
+      "visibility_limit": "Returned raw products already reflect original transform/budget caps; no unexecuted transforms or counterfactual generation are inferred."
+    },
+    {
+      "stage": "06_generation_accepted",
+      "source_location": "hooks_v1.py:58-99; casmi/engine.py:173-208",
+      "behavior": "Original generation acceptance with standardisation, duplicate, mass and fingerprint gates.",
+      "save": "Accepted product smiles/key/formula/mass/parent/raw/combo, and original E._derlog duplicate rejections.",
+      "visibility_limit": "Existing rejection log gives duplicate reasons only. Non-duplicate raw-to-accepted losses remain unclassified until offline inspection; never label all missing as a mass failure."
+    },
+    {
+      "stage": "07_pool_mass_window_and_candidates",
+      "source_location": "casmi/engine.py:210-233; run:243-255",
+      "behavior": "Pool window10ppm, fallback30ppm only if empty; optional drop_pid; concatenate accepted generated structures.",
+      "save": "C.pid/key/smiles/formula/mass/is_gen/gen_sim/gen_steps/gen_tan in original row order; target/drop_pid.",
+      "visibility_limit": "For catalog recall, separately join the immutable full pool offline. C alone cannot distinguish catalog absence from mass-window loss."
+    },
+    {
+      "stage": "08_actual_160_feature_rank",
+      "source_location": "fe_v4/v1engine.py:144-158; inner cell37:26-31; cell39:26-36",
+      "behavior": "Real V.run candidates/features; stable rank_score ordering, key dedup, TOPN=60 cut.",
+      "save": "Candidate row binding, X/F shape/dtype/content SHA, feature names, original rank scores, full candidate rank indices/SMILES, BASE after cell39.",
+      "visibility_limit": "Record full ranked candidate list before top60; baseline frozen final25 evidence alone cannot measure ranker recall."
+    },
+    {
+      "stage": "09_pool_popularity",
+      "source_location": "inner cell39:39-56",
+      "behavior": "Within top60, z-score+0.15 pool popularity; generated slots fixed.",
+      "save": "BASE final order/score/formula slots and pre-popularity actual ranker order.",
+      "visibility_limit": "Cell-level transition includes both top60 key dedup and popularity; candidate array plus raw rank scores distinguishes losses."
+    },
+    {
+      "stage": "10_forward_model_scores",
+      "source_location": "inner cell41:65-128",
+      "behavior": "ICE/GL score union including BASE, E2 and PC candidates.",
+      "save": "Actual ICE_SCORES/GL_SCORES, scored identities, missing/fallback/model-health status, source score files.",
+      "visibility_limit": "Dictionary absence is missing model coverage, not a zero score; no proxy/oracle substitution."
+    },
+    {
+      "stage": "11_pubchem_gate_merge",
+      "source_location": "inner cell43:48-89,91-100",
+      "behavior": "Library-hit guard .9; gentle/aggressive slots; candidate-bound promotion S/pop/relative fz; cap25.",
+      "save": "Pre/post CSV; BASE and PC; pubchem_promotion_audit including leader identity, old/new gate and candidate S/pop/rel.",
+      "visibility_limit": null
+    },
+    {
+      "stage": "12_fusion_and_append",
+      "source_location": "inner cell45:15-55; cell48:8-77; cell49:23-53",
+      "behavior": "First fusion, identity-safe tail recovery, metric fusion and GL reordering.",
+      "save": "CSV before/after each cell; PREFUSION_LISTS/FUSION_OVERFLOW/BASE_TAIL_CANDIDATES; candidate_audit and experiment_audit.",
+      "visibility_limit": null
+    },
+    {
+      "stage": "13_frag_factorial_rank2",
+      "source_location": "inner cell51:1-37; cell52:27-173,208; cell53:4-41",
+      "behavior": "Fragment gap handling; factorial GL/frag/ICE fallback rerank; E2 rank-2 insertion cap25.",
+      "save": "CSV after51/52/53, factorial audit, E2 leader and rank2 control CSV.",
+      "visibility_limit": "Existing e004 postflight cell50 precedes these rules and is not even the nested final, much less full .488."
+    },
+    {
+      "stage": "14_nested_final_export",
+      "source_location": "MODULES export_evidence.py:7-43; inner runner.py:16-20",
+      "behavior": "Only after all inner cells, export nested final25 and effective query spectra.",
+      "save": "submission_baseline0465.csv, frozen_candidate_evidence.parquet, effective_query_spectra.parquet, frozen_run_info.json.",
+      "visibility_limit": "This final25 is a restricted view, not all candidates, and still precedes dual-neural/MASS/head/AB."
+    },
+    {
+      "stage": "15_dual_neural_consensus",
+      "source_location": "outer cell14:56-85; cell12:117-127,166-238",
+      "behavior": "Public and private scorers on nested final25; .5*z(public)+.5*z(ours), consensus and CUSTOM/V2 outputs.",
+      "save": "Actual neural_public/ours/combined parquet, model bundle hashes, outside-candidate scores/coverage, variants and current CSV.",
+      "visibility_limit": "The private bundle is selected at runtime. Verify actual weights; filenames/author names cannot prove distinct models."
+    },
+    {
+      "stage": "16_physical_leader",
+      "source_location": "outer cell15:7-20",
+      "behavior": "Parallax physical fragment overlay or explicit fallback to V2.",
+      "save": "After14 and after15 CSV plus spectral_parallax_report and original control.",
+      "visibility_limit": "PROVENANCE is disabled in this recipe; after17 status verifies it rather than assuming another reranker is active."
+    },
+    {
+      "stage": "17_mass_and_docprior_dedup_backfill",
+      "source_location": "outer cell19:5-41; cell20:27-80,151-194,196-282",
+      "behavior": "MASS ppm penalties plus variant-M physical leader/RRF/pop/spec/NP prior; in-pool identity dedup and outsider/LOTUS vacant-slot fill.",
+      "save": "Before/after CSV; MASS_PEN/MASS_PPM/LIB_MAX; MERGE_REPORT; neural/prior inputs and outsider/LOTUS source fingerprints.",
+      "visibility_limit": "Cell20 bundles several changes. Cell-level delta cannot attribute gain to MASS alone; use frozen candidate score components/call-site observation for a later isolated attribution."
+    },
+    {
+      "stage": "18_mass_leader_rule",
+      "source_location": "outer cell22:33-59; cell29:15-54",
+      "behavior": "Possible low-library mass leader move; learned RR8 disabled in MASS preset; audit dual-neural pins.",
+      "save": "After20/22 CSV; MASS_LEAD_REPORT, RR8_REPORT, batch_variant_audit.json; actual preset/MASS settings.",
+      "visibility_limit": null
+    },
+    {
+      "stage": "19_guarded_trained_head",
+      "source_location": "outer cell30:17-26; cell31:15-49; guarded_head_tail.py:42-75,98-161",
+      "behavior": "Two frozen trained candidate heads rerank only original same-formula tail slots8-25; prefix7 and candidate identities invariant.",
+      "save": "submission_guarded_tail_control.csv; tail evidence/scores/model audit; guarded_tail_runtime/audit; after30 CSV.",
+      "visibility_limit": "Head-only output is not champion final. No new candidate recall can be credited to this identity-preserving step."
+    },
+    {
+      "stage": "20_ab_measured_library_overlay_FINAL",
+      "source_location": "outer cell32:5-16; external_library_overlay_20261109.py:105-164,170-206",
+      "behavior": "Original AB measured-library matching, TAU .80, >=4 peaks, existing lib>=.90 protected, official-identity validity guard.",
+      "save": "submission_external_control.csv/proposed.csv/final.csv, actual match records, protected/skipped reasons, runtime/audit and source library pins.",
+      "visibility_limit": "Only after this stage is prediction the exact champion pipeline. AB candidate may be absent from every earlier pool; retain native identity alias and guard behavior."
+    }
+  ],
+  "offline_join": {
+    "identity": "Use pinned official scoring canonicalisation: remove stereo BEFORE tautomer canonicalisation, then IK14. Use same metric_identity/compatible heavy atom guard on truth and candidates; do not substitute raw SMILES, chem.score_key, plain IK14, or full-formula equality.",
+    "truth_isolation": "Production observer never opens truth/labels. Freeze predictions/trace/source+input SHA before separate offline join.",
+    "row_binding": [
+      "official group/molecule_id",
+      "query spectrum IDs and order",
+      "stage/channel",
+      "raw candidate SMILES and original row index",
+      "official identity computed offline",
+      "rank/score and source PID",
+      "generated/pool/external provenance",
+      "asset/model/cfg/source SHA"
+    ],
+    "metrics": [
+      "candidate recall by all channels and union",
+      "ranker recall@25 and rank distribution conditional on candidate presence",
+      "postprocessing loss/rescue at each transition",
+      "official MRR@25 and top1 at exact full-final output",
+      "coverage/fallback/error counts; group-balanced bootstrap only after frozen evaluation"
+    ],
+    "error_bins": [
+      "catalog absent / not generated",
+      "catalog present but not retrieved or mass-window rejected",
+      "raw generated but not accepted (only assign explicit rejection reasons if observed)",
+      "candidate present but rank below retained cap",
+      "retained candidate lost or demoted at postprocess",
+      "model unavailable/fallback/unsupported query",
+      "exact final correct"
+    ],
+    "attribution_boundary": "Channels can add candidates late and stages can rescue prior losses. Save all transitions, first loss and final responsible transition; do not force a monotone one-stage decomposition."
+  },
+  "acceptance": [
+    "Original champion source/model/asset/config pins verified",
+    "Observer writes only separate evidence paths; no cfg/threshold/model/parameter changes",
+    "Check exact final CSV bytes between observer-on and corresponding observer-off run on same fixed inputs before treating trace as behavioral parity",
+    "Actual full production initialization to final AB CSV must finish; smoke/fast_static/components are not full-pipeline success",
+    "For panel replay report local official metrics only, never infer a Kaggle score or hidden Class3 prevalence"
+  ]
+}

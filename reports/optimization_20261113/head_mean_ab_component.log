@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/mnt/d/Paper/casmi/scripts/check_head_mean_ab_20261113.py", line 59, in <module>
-    try:main()
-        ^^^^^^
-  File "/mnt/d/Paper/casmi/scripts/check_head_mean_ab_20261113.py", line 29, in main
-    assert rdkit.__version__=='2026.03.3'
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

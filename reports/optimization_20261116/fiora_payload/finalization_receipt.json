@@ -1,0 +1,24 @@
+{
+  "status": "finalized_payload_with_label_free_canary_and_licenses",
+  "created_utc": "2026-11-16T14:53:11.960335+00:00",
+  "initial_manifest_sha256": "0fbbb13ea73f6704f5ba48b47ce7442db0315b516b6e908f6f68c677442a1853",
+  "final_manifest_sha256": "113c1f1af933e1f01bcdce6cf6a0a02cd618f7594b561e3928c80ae70d0c0622",
+  "state_sha256": "c449c98ad0cf42e71561b8de97073986a447019c7430c82111a7eb29466c54f9",
+  "params_sha256": "1f189efe9fb64f43406bce409b825870655f8b83765c5ee77d3e208e2cbc2418",
+  "parent_checkpoint_sha256": "9c899faa1c45d9a0c25588f99186f34112b25eafe3f6d955a3da34c267996252",
+  "files": 762,
+  "bytes": 58539433,
+  "canary_files": {
+    "canary_queries.parquet": {
+      "source": "runs\\fiora_submission_canary_20261116\\inputs\\canary_queries.parquet",
+      "sha256": "59bd5afcc9ebf672b4384f60fddd6b18c7a319f95309ecce58e1a6b2c91f9e7f"
+    },
+    "canary_submission.csv": {
+      "source": "runs\\fiora_submission_canary_20261116\\inputs\\canary_submission.csv",
+      "sha256": "620b3bd24f4412be288dfafb9f14e46f68f6b3d3dc2cb509b4ed76a84aea4ed4"
+    }
+  },
+  "payload_root": "submission\\optimization_20261116\\fiora_payload",
+  "no_native_binary_dependencies": true,
+  "all_prior_files_unchanged": true
+}

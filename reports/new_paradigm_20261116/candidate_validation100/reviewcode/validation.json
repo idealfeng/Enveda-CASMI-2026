@@ -1,0 +1,73 @@
+{
+  "scripts/prepare_fiora_candidate_validation_20261116.py": {
+    "syntax": "pass",
+    "sha256": "f1db3f6bba57c8ff414da332e3d412629811a577820a01a2688e9bde3bac5274"
+  },
+  "scripts/score_fiora_candidate_validation_20261116.py": {
+    "syntax": "pass",
+    "sha256": "312c86fc40f2a71fa9c231438e1f747023efe7923adf0bce2946c28ae3bc4853"
+  },
+  "scripts/evaluate_fiora_candidate_validation_20261116.py": {
+    "syntax": "pass",
+    "sha256": "25e6abd25c81e5d8f1e09e6b1936af6066c9acea4263ff68e87dfff08f3839b9"
+  },
+  "group_plan_fixture": {
+    "pass": true,
+    "primary_group": "remaining92_not_in_pilot8",
+    "group_denominators": {
+      "all_original100": 100,
+      "pilot8_reproduction_only": 8,
+      "remaining92_not_in_pilot8": 92
+    },
+    "source_pilot_queries_sha256": "d4a7a4de2d7cec6e84d70e963fdced73b76e7a67a0d2f33393e4aeb7e1e84098",
+    "fixture_new_query_ids_synthetic": true
+  },
+  "gate_refusal_cases": [
+    {
+      "case": "missing_receipt",
+      "pass": true,
+      "error": "Inference verification missing; evaluation truth remains unopened",
+      "truth_metadata_opened": false,
+      "zero_score_imputed": false
+    },
+    {
+      "case": "incomplete_receipt",
+      "pass": true,
+      "error": "Inference not complete; evaluation truth remains unopened",
+      "truth_metadata_opened": false,
+      "zero_score_imputed": false
+    },
+    {
+      "case": "nonfinite_receipt",
+      "pass": true,
+      "error": "Incomplete/nonfinite predictions; evaluation truth remains unopened",
+      "truth_metadata_opened": false,
+      "zero_score_imputed": false
+    },
+    {
+      "case": "original_query_filter",
+      "pass": true,
+      "error": "Inference filtered original development queries",
+      "truth_metadata_opened": false,
+      "zero_score_imputed": false
+    }
+  ],
+  "json_reads": [
+    "reports\\new_paradigm_20261116\\candidate_validation100\\reviewcode\\fixtures\\incomplete_receipt\\inference\\verification.json",
+    "reports\\new_paradigm_20261116\\candidate_validation100\\reviewcode\\fixtures\\nonfinite_receipt\\inference\\verification.json",
+    "reports\\new_paradigm_20261116\\candidate_validation100\\reviewcode\\fixtures\\original_query_filter\\inference\\verification.json",
+    "runs\\fiora_candidate_pilot_20261115\\queries.json",
+    "runs\\fiora_candidate_pilot_20261115\\queries.json"
+  ],
+  "bootstrap_predeclared": {
+    "seed": 20261116,
+    "resamples": 10000,
+    "paired": true,
+    "computed_in_review": false
+  },
+  "actual_new_truth_or_prediction_rows_opened": false,
+  "actual_models_loaded": false,
+  "actual_metrics_computed": false,
+  "old8_inputs_or_results_modified": false,
+  "final_report_table_change_syntax_rechecked": true
+}

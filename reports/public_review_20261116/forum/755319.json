@@ -1,0 +1,97 @@
+{
+  "id": 755319,
+  "read_only": true,
+  "checked_at_utc": "2026-11-16T15:18:21.893218+00:00",
+  "topic": {
+    "id": 755319,
+    "title": "So tired of fork..",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/755319",
+    "postDate": "2026-11-03T08:08:26.209Z",
+    "authorName": "อธิคม หวังเจริญวงศ์",
+    "authorUrl": "https://www.kaggle.com/newwang12",
+    "votes": 30,
+    "commentCount": 11,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>If a \"forked\" notebook can reach a score that lands close in the gold medal zone, what’s the point of even aiming for silver or bronze? I’ve been competing for a year—about 10 competitions so far—and I’ve noticed a strange shift. The number of participants used to range from 1,000 to 2,500; now, it consistently exceeds 4,000. And, frankly, these \"forked\" notebooks are achieving incredibly high scores. To be blunt: I’m just a university student. I’m here to earn an entry-level medal and gain some valuable experience—not to compete against a swarm of \"forks.\" What do you all think about this? Does anyone else feel the same way I do?</p>"
+  },
+  "comments": [
+    {
+      "id": 3553866,
+      "authorName": "Raymond Yuen",
+      "postDate": "2026-11-12T10:20:35.087Z",
+      "content": "<p>The code section is seriously a mess now. I just joined this competition and am looking for some guidance on how to structure my pipeline. But as I scroll through the notebooks section, I see tons of forks of high-scoring public notebooks (that makes no sense), whereas what I'm looking for is something closer to what I have now.</p>",
+      "votes": 1,
+      "replies": [
+        {
+          "id": 3553868,
+          "authorName": "Raymond Yuen",
+          "postDate": "2026-11-12T10:22:38.463Z",
+          "content": "<p>It also makes getting a medal much harder. To secure one, you need to outperform the highest-scoring public notebook, which is already quite a bit above the silver line</p>"
+        }
+      ]
+    },
+    {
+      "id": 3553142,
+      "authorName": "MengYe",
+      "postDate": "2026-11-11T04:31:06.987Z",
+      "content": "<p><img src=\"https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1113072%2F5367d4d337d1884ae6f9ed67de03c1d6%2F81tr0r.jpg?generation=1794371485953078&amp;alt=media\" alt=\"era\"></p>",
+      "votes": 1
+    },
+    {
+      "id": 3551511,
+      "authorName": "Tom",
+      "postDate": "2026-11-07T14:19:32.257Z",
+      "content": "<p>Those people use claude keeping forking and modifying notebooks then release it. <a href=\"/cody11null\" target=\"_blank\">@cody11null</a> Mentioned <a href=\"https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/discussion/748181\" target=\"_blank\">here</a>.  It's sad there's no good way to prevent this which discourages participant who wants to learn and work on the competition. All I can say it's to trust your cv and beg for shakeup, those forked notebooks overfit lb.</p>",
+      "votes": 8,
+      "replies": [
+        {
+          "id": 3551516,
+          "authorName": "Cody_Null",
+          "postDate": "2026-11-07T14:37:46.697Z",
+          "content": "<p>I honestly feel doing anything would be better than what we are doing now. And I don’t know how the community could make any more noise than it already has. My post in RSNA had nearly double the upvotes than any other discussion during the entire competition. We finally got a response there that basically says they werent sure about the best way to handle it. At this point it’s completely out of control in every competition.</p>\n<p>*remove the notebooks tier just like the discussions tier</p>\n<p>*remove the automatic upvote upon fork</p>\n<p>*add downvotes to code and let the community handle it ourselves.</p>\n<p>If they posted a discussion thread themselves and asked the community for ideas I am certain they would get hundreds of ideas! </p>",
+          "votes": 7
+        }
+      ]
+    },
+    {
+      "id": 3549289,
+      "authorName": "dauriel",
+      "postDate": "2026-11-03T10:04:07.157Z",
+      "content": "<p>I get the frustration, but I'd push back a little on \"what's the point.\" A fork's public score isn't a medal yet, and in this\n    competition the gap between the two is bigger than usual.</p>\n<p>Two things people forking at .479 may not have checked:</p>\n<ol>\n<li><p>The rules on external assets are strict here. The host has said pretrained weights are only allowed when the original training code and the training data are both permitted, and that NIST-derived content is banned outright. Several of the popular forks chain together checkpoints and spectral libraries whose provenance nobody downstream has verified. If one of those pieces fails the host's check, every team that forked it is exposed to the same disqualification, not just the original author.</p></li>\n<li><p>Forks rise and fall together on the private board. A few hundred teams sit on the exact same public score because they are    the same submission. Whatever the private split does to that notebook, it does to all of them at once. The public     leaderboard makes it look like a wall of medals; the private one will treat them as a single entry with a few hundred copies.</p></li>\n</ol>",
+      "votes": 2
+    },
+    {
+      "id": 3549242,
+      "authorName": "อธิคม หวังเจริญวงศ์",
+      "postDate": "2026-11-03T08:19:42.707Z",
+      "content": "<p>I’m fine with sharing, and I even use it myself from time to time. However, at this point, I think there should be some limits—for instance, regarding forks that are blended to artificially inflate scores, or the practice of using the comments section on a fork to recruit people into groups for the purpose of sharing work. I really wish Kaggle would do something about this.</p>",
+      "votes": 2
+    },
+    {
+      "id": 3555592,
+      "authorName": "You WeiLin",
+      "postDate": "2026-11-16T08:56:54.107Z",
+      "content": "<p>I'm a university student too, and I feel exactly the same way. Getting a decent score is far harder now than it was two years ago, as the scores have really started to cluster at the top. I'm not against sharing public notebooks — they're a great way to learn — but I will say this: early on, these notebooks were genuinely interesting; as the competition goes on, though, more and more of them are just forks, and they've become dull, uniform, and purely utilitarian. Where did our creativity go?</p>"
+    },
+    {
+      "id": 3553972,
+      "authorName": "alekh",
+      "postDate": "2026-11-12T13:30:44.880Z",
+      "content": "<p>It's always been this way. </p>"
+    },
+    {
+      "id": 3551969,
+      "authorName": "Pand",
+      "postDate": "2026-11-08T19:30:15.403Z",
+      "content": "<p>Fork authors just farm discussion medals the same way forkers try to farm competition medals. \nAt some point, sensible free ideas run out and they begin to simply adjust the parameters to the public leaderboard, giving out fake score micro-gains, so you look better at the public leaderboard. \nBut don't worry, they will all fall on private, as always.</p>"
+    },
+    {
+      "id": 3551237,
+      "authorName": "OpPrime",
+      "postDate": "2026-11-06T20:30:57.387Z",
+      "content": "<p>I think this competition has been particularly hard. \nClasses 2 and 3 are elusive. quite a bit of gain is achieved on class 1, but then when each effort fails to materialise for the other two class, I become curious about how others do it and copy-edit and submit to see if it actually does what it says on the tin. the point below by <a href=\"/dauriel\" target=\"_blank\">@dauriel</a> is very true.</p>"
+    }
+  ],
+  "comments_truncated": false
+}

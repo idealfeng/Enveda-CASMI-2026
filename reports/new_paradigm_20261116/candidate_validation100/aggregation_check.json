@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": {
+    "step0_weighted_mrr": true,
+    "step0_top1_counts": true,
+    "step0_top25_counts": true,
+    "step500_weighted_mrr": true,
+    "step500_top1_counts": true,
+    "step500_top25_counts": true,
+    "main_ci_contains_zero": true
+  },
+  "zero_score_imputed_for_inference_failures": false
+}

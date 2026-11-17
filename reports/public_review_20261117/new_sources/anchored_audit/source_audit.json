@@ -1,0 +1,107 @@
+{
+  "status": "source_available_anchor_mechanism_no_additional_model",
+  "source_version": 2,
+  "source_sha256": "d70ea36c7bbc3049f526d85eac6e56e07cb1d7f824acd5049cecb86cca1cbae6",
+  "normalized_utf8_function_sha256": "63b208cc192b292c76a841e2e48eee2983be70766b312a375f6ee5c1a783732b",
+  "function_ast_sha256": "6751e94531dc1c28a134b491a5c987b8f604487afe6bd190a51251a476abf83a",
+  "core_code_cells_compared": 17,
+  "same_ast_cells": 16,
+  "cell_mapping": [
+    {
+      "new_cell": 6,
+      "rogers_cell": 5,
+      "ast_equal": true
+    },
+    {
+      "new_cell": 7,
+      "rogers_cell": 6,
+      "ast_equal": true
+    },
+    {
+      "new_cell": 9,
+      "rogers_cell": 8,
+      "ast_equal": true
+    },
+    {
+      "new_cell": 10,
+      "rogers_cell": 9,
+      "ast_equal": true
+    },
+    {
+      "new_cell": 13,
+      "rogers_cell": 12,
+      "ast_equal": true
+    },
+    {
+      "new_cell": 14,
+      "rogers_cell": 13,
+      "ast_equal": true
+    },
+    {
+      "new_cell": 15,
+      "rogers_cell": 14,
+      "ast_equal": true
+    },
+    {
+      "new_cell": 16,
+      "rogers_cell": 15,
+      "ast_equal": true
+    },
+    {
+      "new_cell": 17,
+      "rogers_cell": 16,
+      "ast_equal": true
+    },
+    {
+      "new_cell": 18,
+      "rogers_cell": 17,
+      "ast_equal": true
+    },
+    {
+      "new_cell": 19,
+      "rogers_cell": 18,
+      "ast_equal": true
+    },
+    {
+      "new_cell": 21,
+      "rogers_cell": 20,
+      "ast_equal": true
+    },
+    {
+      "new_cell": 22,
+      "rogers_cell": 21,
+      "ast_equal": true
+    },
+    {
+      "new_cell": 24,
+      "rogers_cell": 23,
+      "ast_equal": true
+    },
+    {
+      "new_cell": 25,
+      "rogers_cell": 24,
+      "ast_equal": false
+    },
+    {
+      "new_cell": 26,
+      "rogers_cell": 25,
+      "ast_equal": true
+    },
+    {
+      "new_cell": 28,
+      "rogers_cell": 27,
+      "ast_equal": true
+    }
+  ],
+  "changed_algorithm": "Library anchors >=.9 vote only rank1, edge weight*2; ownlibrary>=.9 keepsleader; LAM.35TAU.6 unchanged",
+  "additional_models": false,
+  "own_public_score_claim_found": false,
+  "parent_declared_public_score": 0.492,
+  "current_default_source_is_train_not_inference": true,
+  "metadata_mounts_incomplete_for_inference_v2": true,
+  "current_metadata_enable_internet": true,
+  "recommended_assets": "Use independently verified Rogers V1 pinned datasets and V80 kernel; source-v2 actual algorithm needs no new external asset",
+  "source_execution_performed": false,
+  "model_downloads_performed": false,
+  "first_read_timeout_safely_retried": true
+}

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "scope": "Read-only archive and new source contract review, no inference or cloud writes",
+  "checks": {
+    "zip_expected_names_exact": true,
+    "zip_no_duplicate_members": true,
+    "zip_no_native_extensions": true,
+    "zip_no_absolute_or_parent_paths": true,
+    "zip_no_symlinks": true,
+    "zip_member_hashes_match_manifest": true,
+    "zip_manifest_exact": true,
+    "three_scripts_compile": true
+  },
+  "details": {
+    "zip_bytes": 51684471,
+    "zip_members": 762,
+    "zip_sha256": "fcbc50007c6054046ec96cb1ec42809fea8fe7ced253d33c26daa74672528284"
+  },
+  "source_sha256": {
+    "scripts/fiora_submission_runtime_20261116.py": "1f7dece2a4a817c54c1915dbc45ad64ebaa6e084d4646acc3f6cd7972d80e817",
+    "scripts/build_fiora_submission_20261116.py": "87aedc02031b01ed3e366f895df75708f09946958357e85374de26faf99c3c8c",
+    "scripts/upload_fiora_payload_20261116.py": "33b5013baadee73362d3b71c7dbae1afb4321a70945c01a6d8c82e04655bbd64"
+  }
+}

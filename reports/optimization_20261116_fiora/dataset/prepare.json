@@ -1,0 +1,13 @@
+{
+  "status": "prepared",
+  "created_at_utc": "2026-11-16T14:55:56.150814+00:00",
+  "target": "stormseye/casmi26-fiora-tims500-1116",
+  "private": true,
+  "asset_manifest_sha256": "113c1f1af933e1f01bcdce6cf6a0a02cd618f7594b561e3928c80ae70d0c0622",
+  "archive_sha256": "fcbc50007c6054046ec96cb1ec42809fea8fe7ced253d33c26daa74672528284",
+  "archive_bytes": 51684471,
+  "metadata_sha256": "04ac15bc294d33d7018d6f816cd1b8f6b7d6ad8d65da9a0ce21e8f83ef644fc9",
+  "files": 762,
+  "upload_dir": "submission/optimization_20261116/fiora_dataset_upload",
+  "network_write_performed": false
+}

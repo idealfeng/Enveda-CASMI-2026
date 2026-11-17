@@ -1,0 +1,11 @@
+--- rogers5
++++ champion4
+@@ -30,7 +30,7 @@
+ # Documentation-prior weights on ranks 2-25 (MID: 0.10 / 0.05 / 0.02), spectral-library bonus only for molecules whose
+ # best library match reaches LIB_HIT_GATE, the pipeline's leader pinned at rank 2 after a fragment-check leader move,
+ # metric-exact deduplication (the scorer's own key) and empty slots filled with scored outside candidates.
+-POP_W, SPEC_W, NP_W = 0.12, 0.12, 0.12
++POP_W, SPEC_W, NP_W = 0.10, 0.10, 0.12
+ LIB_HIT_GATE = 0.78
+ PIN_OLD_LEADER = True
+ OUTSIDER_FILL = True

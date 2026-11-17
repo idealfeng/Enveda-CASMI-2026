@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-fiora-tims500-isomers-1116",
+  "version": 1,
+  "notebook_sha256": "550980d58100fce62830f089848bc303e102ec0f912ffadb14e9fd2ad53d11b4",
+  "checks": {
+    "parent_source_pin": true,
+    "all_original_cells_exact": true,
+    "only_one_appended_cell": true,
+    "actual_trained_500_state": true,
+    "all_payload_files_match": true,
+    "runtime_source_pin": true,
+    "source_compiles": true,
+    "original_dataset_pins_retained": true,
+    "new_dataset_version_pinned": true,
+    "private_offline_gpu": true,
+    "visible_canary_not_full_champion_claim": true,
+    "failure_removes_final_csv": true
+  },
+  "scope": "Source binding only; visible actual FIORA canary must pass before competition request; hidden full execution pending"
+}

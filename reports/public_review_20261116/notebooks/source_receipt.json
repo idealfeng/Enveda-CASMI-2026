@@ -1,0 +1,263 @@
+{
+  "checked_at_utc": "2026-11-16T15:19:09.818754+00:00",
+  "sources": [
+    {
+      "id": 142585077,
+      "ref": "heliosli/casmi26-0-494-public-demo",
+      "title": "casmi26-0.494-public demo",
+      "current_version_number": 4,
+      "last_run_time": "2026-11-13 15:18:55.185000",
+      "total_votes": 130,
+      "is_private": false,
+      "enable_gpu": true,
+      "enable_internet": false,
+      "dataset_data_sources": [
+        "sanpier/casmi-spectrum-model-v1",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "heliosli/casmi26-rr-v3",
+        "heliosli/casmi26-denovo-v3",
+        "heliosli/casmi26-frigid-e1",
+        "heliosli/casmi26-joint-ranker",
+        "heliosli/casmi26-pxv2-deploy",
+        "heliosli/casmi26-rt-np",
+        "sanpier/catalogue-experiment-saner"
+      ],
+      "kernel_data_sources": [],
+      "competition_data_sources": [
+        "enveda-CASMI26-molecule-id-mass-spectra"
+      ],
+      "model_data_sources": [],
+      "docker_image": "gcr.io/kaggle-private-byod/python@sha256:9a6bcfda6d03b2cd9aa347ee8c1bae62043328ed0f4afe9bda014e4f8bbf9435",
+      "machine_shape": "NvidiaTeslaT4",
+      "status": "downloaded",
+      "source_sha256": "5f09d769677e2d50caf3806f4e64d45fcc82b6785ed228d40e53648a45e36b0d",
+      "source_bytes": 775152,
+      "source_path": "reports/public_review_20261116/notebooks/heliosli__casmi26-0-494-public-demo/source.ipynb",
+      "execution_performed": false
+    },
+    {
+      "id": 144633124,
+      "ref": "mathleteutd/casmi26-0-492-test-set-network-rerank",
+      "title": "CASMI26 0.492 | Test-Set Network Rerank",
+      "current_version_number": 7,
+      "last_run_time": "2026-11-13 15:18:55.433000",
+      "total_votes": 72,
+      "is_private": false,
+      "enable_gpu": true,
+      "enable_internet": false,
+      "dataset_data_sources": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "takumuhata/casmi26-extlib",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_data_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
+      "competition_data_sources": [
+        "enveda-CASMI26-molecule-id-mass-spectra"
+      ],
+      "model_data_sources": [],
+      "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+      "machine_shape": "NvidiaTeslaT4",
+      "status": "downloaded",
+      "source_sha256": "75fdf3f700b65d880952292755d713035f04d65a4431f98b022fb6bef652671e",
+      "source_bytes": 794592,
+      "source_path": "reports/public_review_20261116/notebooks/mathleteutd__casmi26-0-492-test-set-network-rerank/source.ipynb",
+      "execution_performed": false
+    },
+    {
+      "id": 145130671,
+      "ref": "alexchilton/casmi26-0-492-what-moved-the-board-59-arms",
+      "title": "CASMI26 0.492 | What Moved the Board: 59 Arms",
+      "current_version_number": 2,
+      "last_run_time": "2026-11-13 15:18:56.847000",
+      "total_votes": 6,
+      "is_private": false,
+      "enable_gpu": true,
+      "enable_internet": false,
+      "dataset_data_sources": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "takumuhata/casmi26-extlib",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_data_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
+      "competition_data_sources": [
+        "enveda-CASMI26-molecule-id-mass-spectra"
+      ],
+      "model_data_sources": [],
+      "docker_image": "gcr.io/kaggle-private-byod/python@sha256:de153e6d303881930c51286216393d56f56b26458d0661350305a1e8144eea01",
+      "machine_shape": "NvidiaTeslaT4",
+      "status": "downloaded",
+      "source_sha256": "fac7dca7b3bab658b92113e27dcd914140c5f00219a5be607adb1306aa78c9e9",
+      "source_bytes": 782279,
+      "source_path": "reports/public_review_20261116/notebooks/alexchilton__casmi26-0-492-what-moved-the-board-59-arms/source.ipynb",
+      "execution_performed": false
+    },
+    {
+      "id": 145104664,
+      "ref": "rogersjohnson/casmi26-l4-lam035",
+      "title": "casmi26-l4-lam035",
+      "current_version_number": 1,
+      "last_run_time": "2026-11-13 15:19:01.469000",
+      "total_votes": 53,
+      "is_private": false,
+      "enable_gpu": true,
+      "enable_internet": false,
+      "dataset_data_sources": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "takumuhata/casmi26-extlib",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_data_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
+      "competition_data_sources": [
+        "enveda-CASMI26-molecule-id-mass-spectra"
+      ],
+      "model_data_sources": [],
+      "docker_image": "gcr.io/kaggle-private-byod/python@sha256:de153e6d303881930c51286216393d56f56b26458d0661350305a1e8144eea01",
+      "machine_shape": "NvidiaTeslaT4",
+      "status": "downloaded",
+      "source_sha256": "51c32f200c265fff08bfa4a9841cb6345d1f56515dcd72e254df8da53e07ae99",
+      "source_bytes": 816872,
+      "source_path": "reports/public_review_20261116/notebooks/rogersjohnson__casmi26-l4-lam035/source.ipynb",
+      "execution_performed": false
+    },
+    {
+      "id": 141340016,
+      "ref": "zz3t3rn41/casmi26-peaks-to-structures-v2",
+      "title": "casmi26-peaks-to-structures-v2",
+      "current_version_number": 60,
+      "last_run_time": "2026-11-13 15:19:04.376000",
+      "total_votes": 127,
+      "is_private": false,
+      "enable_gpu": true,
+      "enable_internet": false,
+      "dataset_data_sources": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "bgunshui/casmi26-scorer-v2-model",
+        "takumuhata/casmi26-extlib",
+        "sanpier/catalogue-experiment-saner",
+        "qwertykeypadapple/casmi26-lotus-candidates",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_data_sources": [],
+      "competition_data_sources": [
+        "enveda-CASMI26-molecule-id-mass-spectra"
+      ],
+      "model_data_sources": [],
+      "docker_image": "gcr.io/kaggle-private-byod/python@sha256:9a6bcfda6d03b2cd9aa347ee8c1bae62043328ed0f4afe9bda014e4f8bbf9435",
+      "machine_shape": "NvidiaTeslaT4",
+      "status": "downloaded",
+      "source_sha256": "d7cdbf2eca1e68f199cf6c4022ac948f3e8ee4b122a547909e4892ecbcdd1145",
+      "source_bytes": 792988,
+      "source_path": "reports/public_review_20261116/notebooks/zz3t3rn41__casmi26-peaks-to-structures-v2/source.ipynb",
+      "execution_performed": false
+    },
+    {
+      "id": 143492514,
+      "ref": "ozertuu/casmi26-apex-gold-486",
+      "title": "casmi26-apex-gold-486",
+      "current_version_number": 2,
+      "last_run_time": "2026-11-13 15:19:05.854000",
+      "total_votes": 9,
+      "is_private": false,
+      "enable_gpu": true,
+      "enable_internet": false,
+      "dataset_data_sources": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "takumuhata/casmi26-extlib",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_data_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
+      "competition_data_sources": [
+        "enveda-CASMI26-molecule-id-mass-spectra"
+      ],
+      "model_data_sources": [],
+      "docker_image": "gcr.io/kaggle-private-byod/python@sha256:de153e6d303881930c51286216393d56f56b26458d0661350305a1e8144eea01",
+      "machine_shape": "NvidiaTeslaT4",
+      "status": "downloaded",
+      "source_sha256": "de709060dbdded5c61c3580f99529c1ddc6071914a0096e070563605c15bcc75",
+      "source_bytes": 724354,
+      "source_path": "reports/public_review_20261116/notebooks/ozertuu__casmi26-apex-gold-486/source.ipynb",
+      "execution_performed": false
+    },
+    {
+      "id": 138665890,
+      "ref": "aryanawasthiteykik/casmi26-gpu-fingerprint-fragmentation-ranker",
+      "title": "CASMI26: GPU Fingerprint + Fragmentation Ranker",
+      "current_version_number": 1,
+      "last_run_time": "2026-11-13 15:19:06.794000",
+      "total_votes": 3,
+      "is_private": false,
+      "enable_gpu": false,
+      "enable_internet": false,
+      "dataset_data_sources": [
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "aryanawasthiteykik/casmi26-spectrum-to-fingerprint-mlp",
+        "ahmedberatozer/casmi26-pubchem-tier",
+        "prvsiyan/coconut-casmi26-candidates",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_data_sources": [
+        "aryanawasthiteykik/casmi26-gpu-training-fingerprint-v3-ranker"
+      ],
+      "competition_data_sources": [
+        "enveda-CASMI26-molecule-id-mass-spectra"
+      ],
+      "model_data_sources": [],
+      "docker_image": "gcr.io/kaggle-images/python@sha256:81b1e7c4b4f0f2a7e0a33943c95754b1b7af6b30d65221633a284b6b601cd84a",
+      "machine_shape": "None",
+      "status": "downloaded",
+      "source_sha256": "117a1a4e0c551b753f00ca823fa959bf2d351ba020591a0cd5925e5f33fcdbc1",
+      "source_bytes": 11611,
+      "source_path": "reports/public_review_20261116/notebooks/aryanawasthiteykik__casmi26-gpu-fingerprint-fragmentation-ranker/source.ipynb",
+      "execution_performed": false
+    }
+  ],
+  "read_only": true,
+  "no_source_execution": true,
+  "no_model_downloads": true
+}

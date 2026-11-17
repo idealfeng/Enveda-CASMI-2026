@@ -1,0 +1,425 @@
+{
+  "status": "passed_cross_process_score_and_rank_tolerance",
+  "runtime_sha256": "1f7dece2a4a817c54c1915dbc45ad64ebaa6e084d4646acc3f6cd7972d80e817",
+  "compared_candidates": 50,
+  "maximum_absolute_score_difference": 8.590228611771167e-09,
+  "required_score_tolerance": 1e-07,
+  "all_scores_within_tolerance": true,
+  "raw_hash_exact_count": 0,
+  "raw_bytes_equality_not_required_across_cuda_processes": true,
+  "same_final_reorder_with_old_scores": true,
+  "query_checks": [
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "old_frozen_scores_same_reordered_output": true
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "old_frozen_scores_same_reordered_output": true
+    }
+  ],
+  "rows": [
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 1,
+      "new_score": 0.001581128679396599,
+      "old_score": 0.0015811286554017524,
+      "absolute_difference": 2.399484669117491e-11,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 2,
+      "new_score": 0.0006368724295656542,
+      "old_score": 0.0006368724039725388,
+      "absolute_difference": 2.5593115409068556e-11,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 3,
+      "new_score": 0.0,
+      "old_score": 0.0,
+      "absolute_difference": 0.0,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 4,
+      "new_score": 0.000634474230344544,
+      "old_score": 0.0006344742124301908,
+      "absolute_difference": 1.7914353160619623e-11,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 5,
+      "new_score": 0.0,
+      "old_score": 0.0,
+      "absolute_difference": 0.0,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 6,
+      "new_score": 0.0,
+      "old_score": 0.0,
+      "absolute_difference": 0.0,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 7,
+      "new_score": 0.0,
+      "old_score": 0.0,
+      "absolute_difference": 0.0,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 8,
+      "new_score": 0.0,
+      "old_score": 0.0,
+      "absolute_difference": 0.0,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 9,
+      "new_score": 0.07606310898325316,
+      "old_score": 0.07606311091852293,
+      "absolute_difference": 1.9352697638863603e-09,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 10,
+      "new_score": 0.0,
+      "old_score": 0.0,
+      "absolute_difference": 0.0,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 11,
+      "new_score": 0.000627799630072428,
+      "old_score": 0.000627799610153968,
+      "absolute_difference": 1.9918460002037175e-11,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 12,
+      "new_score": 0.0017514451238699053,
+      "old_score": 0.0017514448436518023,
+      "absolute_difference": 2.8021810306172457e-10,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 13,
+      "new_score": 0.09556884147517693,
+      "old_score": 0.0955688422084022,
+      "absolute_difference": 7.332252721647947e-10,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 14,
+      "new_score": 0.0,
+      "old_score": 0.0,
+      "absolute_difference": 0.0,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 15,
+      "new_score": 0.009752419368067108,
+      "old_score": 0.009752417056402793,
+      "absolute_difference": 2.3116643148302085e-09,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 16,
+      "new_score": 0.0,
+      "old_score": 0.0,
+      "absolute_difference": 0.0,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 17,
+      "new_score": 0.0,
+      "old_score": 0.0,
+      "absolute_difference": 0.0,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 18,
+      "new_score": 0.0016111405611771471,
+      "old_score": 0.00161114046828484,
+      "absolute_difference": 9.289230712763996e-11,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 19,
+      "new_score": 0.0011414429798582925,
+      "old_score": 0.0011414429712077057,
+      "absolute_difference": 8.650586757336098e-12,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 20,
+      "new_score": 0.007984079904294117,
+      "old_score": 0.007984080090660123,
+      "absolute_difference": 1.863660059608918e-10,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 21,
+      "new_score": 0.09399466705691832,
+      "old_score": 0.0939946699345611,
+      "absolute_difference": 2.8776427768439916e-09,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 22,
+      "new_score": 0.006595514201434887,
+      "old_score": 0.006595515752496317,
+      "absolute_difference": 1.5510614294680924e-09,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 23,
+      "new_score": 0.009075315572305015,
+      "old_score": 0.009075315378342084,
+      "absolute_difference": 1.9396293078621785e-10,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 24,
+      "new_score": 0.0006021851074856054,
+      "old_score": 0.0006021851223193185,
+      "absolute_difference": 1.4833713142363425e-11,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_ACWKSQDCSGCCOC",
+      "baseline_rank": 25,
+      "new_score": 0.0,
+      "old_score": 0.0,
+      "absolute_difference": 0.0,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 1,
+      "new_score": 0.027044937117167298,
+      "old_score": 0.02704493819150874,
+      "absolute_difference": 1.074341442197646e-09,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 2,
+      "new_score": 0.0,
+      "old_score": 0.0,
+      "absolute_difference": 0.0,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 3,
+      "new_score": 0.0,
+      "old_score": 0.0,
+      "absolute_difference": 0.0,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 4,
+      "new_score": 0.024688729418818604,
+      "old_score": 0.024688731445553922,
+      "absolute_difference": 2.026735317767203e-09,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 5,
+      "new_score": 0.011770917294061484,
+      "old_score": 0.011770916917883763,
+      "absolute_difference": 3.7617772091769197e-10,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 6,
+      "new_score": 0.0,
+      "old_score": 0.0,
+      "absolute_difference": 0.0,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 7,
+      "new_score": 0.023786242008149088,
+      "old_score": 0.02378624043834936,
+      "absolute_difference": 1.5697997277075437e-09,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 8,
+      "new_score": 0.0774206248487436,
+      "old_score": 0.07742062291860499,
+      "absolute_difference": 1.9301386045000868e-09,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 9,
+      "new_score": 0.13043514663736072,
+      "old_score": 0.13043514662950426,
+      "absolute_difference": 7.856465478184305e-12,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 10,
+      "new_score": 0.0158463882551648,
+      "old_score": 0.015846388319767677,
+      "absolute_difference": 6.46028786022157e-11,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 11,
+      "new_score": 0.05653162222593221,
+      "old_score": 0.05653162290887427,
+      "absolute_difference": 6.829420640119821e-10,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 12,
+      "new_score": 0.0869642344390695,
+      "old_score": 0.08696423858155428,
+      "absolute_difference": 4.1424847718740665e-09,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 13,
+      "new_score": 0.06965350737217724,
+      "old_score": 0.06965350014492602,
+      "absolute_difference": 7.227251214159125e-09,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 14,
+      "new_score": 0.007534237783932172,
+      "old_score": 0.007534235426051874,
+      "absolute_difference": 2.3578802981275016e-09,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 15,
+      "new_score": 0.0,
+      "old_score": 0.0,
+      "absolute_difference": 0.0,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 16,
+      "new_score": 0.02279812415348015,
+      "old_score": 0.022798125607697534,
+      "absolute_difference": 1.4542173819298565e-09,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 17,
+      "new_score": 0.15089741225155057,
+      "old_score": 0.15089741038520446,
+      "absolute_difference": 1.8663461054391206e-09,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 18,
+      "new_score": 0.011569323169197798,
+      "old_score": 0.011569321436630062,
+      "absolute_difference": 1.7325677351132107e-09,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 19,
+      "new_score": 0.0,
+      "old_score": 0.0,
+      "absolute_difference": 0.0,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 20,
+      "new_score": 0.001314194666701025,
+      "old_score": 0.0013141944751556703,
+      "absolute_difference": 1.9154535466428535e-10,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 21,
+      "new_score": 0.14896072041008973,
+      "old_score": 0.14896072900031834,
+      "absolute_difference": 8.590228611771167e-09,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 22,
+      "new_score": 0.014692529514699588,
+      "old_score": 0.014692530365987921,
+      "absolute_difference": 8.512883332284504e-10,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 23,
+      "new_score": 0.06285857661886748,
+      "old_score": 0.06285857915701694,
+      "absolute_difference": 2.5381494545007044e-09,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 24,
+      "new_score": 0.006818540635923238,
+      "old_score": 0.006818540984305315,
+      "absolute_difference": 3.4838207665921495e-10,
+      "raw_hash_exact": false
+    },
+    {
+      "molecule_id": "fiora_AEOVRVRCXAIHBZ",
+      "baseline_rank": 25,
+      "new_score": 0.0,
+      "old_score": 0.0,
+      "absolute_difference": 0.0,
+      "raw_hash_exact": false
+    }
+  ],
+  "labels_read": false,
+  "new_public_score": null
+}

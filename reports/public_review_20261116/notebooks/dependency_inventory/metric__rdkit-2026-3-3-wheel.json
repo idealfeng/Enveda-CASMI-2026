@@ -1,0 +1,9 @@
+{
+  "ref": "metric/rdkit-2026-3-3-wheel",
+  "read_only": true,
+  "files_only": true,
+  "model_bytes_downloaded": 0,
+  "status": "failed",
+  "error_type": "HTTPError",
+  "http_status": 404
+}

@@ -1,0 +1,45 @@
+{
+  "name": "rogers_repro",
+  "target": "stormseye/casmi26-rogers0492-repro-1117",
+  "version": 1,
+  "stage_dir": "submission/public_network_20261117/rogers_repro",
+  "notebook_sha256": "5921fe5b86cc995e779df4eac49ea0a84942bedc8e8bcaf15c6b1b6e99aca135",
+  "metadata_sha256": "8c1b9ba3edc405a8077116942676cfd9263c82b68b7e0bf66673d40a11411a6f",
+  "description": "CASMI26 20261117 Rogers public0492 recipe reproduction LAM035 rawAB V1",
+  "validation_mode": "fast_static",
+  "static_review_path": "submission/public_network_20261117/rogers_repro/static_review.json",
+  "required_runtime_audits": [
+    {
+      "name": "rogers_repro_audit.json",
+      "expected_fields": {
+        "status": "passed",
+        "branch": "rogers_repro",
+        "version": 1,
+        "mode": "fast_static",
+        "recipe_sha256": "b8c7b3394eaebf074cf39566f53703bd2eccfe6283bf89aa751f5d98b6246634"
+      },
+      "required_true_checks": [
+        "configuration_exact",
+        "official_rdkit",
+        "frozen_source_pin",
+        "public_model_pins",
+        "actual_v80_final_is_fixed_v2",
+        "two_distinct_models",
+        "all_external_library_pins",
+        "original_function_files_pinned",
+        "actual_network_completed",
+        "actual_network_parameters",
+        "actual_AB_completed",
+        "network_to_AB_control_bound",
+        "final_AB_csv_bound",
+        "both_AB_libraries_loaded",
+        "sample_ids_and_schema_exact",
+        "network_candidate_multisets_exact",
+        "CSV_candidate_counts_valid",
+        "network_identity_multisets_exact",
+        "final_candidates_parse_as_official_identities",
+        "visible_parent_fast_explicit"
+      ]
+    }
+  ]
+}

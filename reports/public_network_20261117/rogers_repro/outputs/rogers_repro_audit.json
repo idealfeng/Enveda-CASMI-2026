@@ -1,0 +1,107 @@
+{
+  "status": "passed",
+  "branch": "rogers_repro",
+  "version": 1,
+  "recipe_sha256": "b8c7b3394eaebf074cf39566f53703bd2eccfe6283bf89aa751f5d98b6246634",
+  "mode": "fast_static",
+  "checks": {
+    "configuration_exact": true,
+    "official_rdkit": true,
+    "frozen_source_pin": true,
+    "public_model_pins": true,
+    "actual_v80_final_is_fixed_v2": true,
+    "two_distinct_models": true,
+    "library_selector:ext_meta.parquet": true,
+    "library_pin:ext_meta.parquet": true,
+    "library_selector:ext_mass.parquet": true,
+    "library_pin:ext_mass.parquet": true,
+    "library_selector:ext_mz.npy": true,
+    "library_pin:ext_mz.npy": true,
+    "library_selector:ext_in.npy": true,
+    "library_pin:ext_in.npy": true,
+    "library_selector:spectra.parquet": true,
+    "library_pin:spectra.parquet": true,
+    "all_external_library_pins": true,
+    "original_function_files_pinned": true,
+    "actual_network_completed": true,
+    "actual_network_parameters": true,
+    "actual_AB_completed": true,
+    "network_to_AB_control_bound": true,
+    "final_AB_csv_bound": true,
+    "both_AB_libraries_loaded": true,
+    "sample_ids_and_schema_exact": true,
+    "network_candidate_multisets_exact": true,
+    "CSV_candidate_counts_valid": true,
+    "network_identity_multisets_exact": true,
+    "final_candidates_parse_as_official_identities": true,
+    "visible_parent_fast_explicit": true
+  },
+  "csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "network": {
+    "status": "passed",
+    "input_csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+    "function_source_sha256": "33153de76fccebe4ed2325bea7649573219e4cfb964483cd5c335ac7dc7e93b8",
+    "parameters": {
+      "LAM": 0.35,
+      "TAU": 0.6
+    },
+    "real_function_called": true,
+    "neighbor_queries": 114,
+    "edges": 109,
+    "changed_queries": 0,
+    "changed_top1": 0,
+    "output_csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+    "original_control_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0"
+  },
+  "external_AB": {
+    "status": "passed",
+    "input_csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+    "function_source_sha256": "9ceaa95ddda0fb304758c9acd7dd1f256c528fcb4a8304c0152f8b6d8e3e3e76",
+    "parameters": {},
+    "real_function_called": true,
+    "source_a_references": 200724,
+    "source_b_references": 124160,
+    "original_report": {
+      "molecules": 400,
+      "hits": 0,
+      "promoted": 0,
+      "elapsed_s": 39.9
+    },
+    "output_csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+    "original_control_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0"
+  },
+  "upstream_source_sha256": "51c32f200c265fff08bfa4a9841cb6345d1f56515dcd72e254df8da53e07ae99",
+  "visible_parent_model_inference_executed": false,
+  "network_executed": true,
+  "external_matching_executed": true,
+  "duplicate_identity_rows": [],
+  "selected_libraries": {
+    "ext_meta.parquet": {
+      "path": "/kaggle/input/datasets/takumuhata/casmi26-extlib/ext_meta.parquet",
+      "sha256": "9b0c2d675612580a4aedbdd3c8891d046fdf864b0805aaef852acc6653f7d37f",
+      "bytes": 7120766
+    },
+    "ext_mass.parquet": {
+      "path": "/kaggle/input/datasets/takumuhata/casmi26-extlib/ext_mass.parquet",
+      "sha256": "e82a878f3e9f4d19067199d1376231b1663a83d08c512ba8e03d6ae88b7af12e",
+      "bytes": 7979821
+    },
+    "ext_mz.npy": {
+      "path": "/kaggle/input/datasets/takumuhata/casmi26-extlib/ext_mz.npy",
+      "sha256": "a14f750d46bfca4176110d1a83cc3562944a3ca1e3f1344c94141f6d8d85fad5",
+      "bytes": 102770816
+    },
+    "ext_in.npy": {
+      "path": "/kaggle/input/datasets/takumuhata/casmi26-extlib/ext_in.npy",
+      "sha256": "e47b359f27d0aacda22f7ef47f8f60f7912136027d70d2bc915890a8d51be841",
+      "bytes": 102770816
+    },
+    "spectra.parquet": {
+      "path": "/kaggle/input/datasets/samartalwar/casmi-2026-spectral-library-massbankharmonized/spectra.parquet",
+      "sha256": "6ebb46b32ddd344d988c3bdb90e7160d4ce46e6d0b900a1217607aa2234c9477",
+      "bytes": 43941912
+    }
+  },
+  "official_score_claim": false,
+  "locally_reproduced_score": null
+}

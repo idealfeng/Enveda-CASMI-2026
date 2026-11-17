@@ -33,8 +33,18 @@ def link(path, title=None):
 
 def role(path):
     s = path.as_posix()
+    if '/optimization_20261116/fiora_payload/' in s and path.name == 'state.pt':
+        return 'FIORA tims500部署纯state导出；67tensor与原last_checkpoint逐项相等，序列化SHA不同不代表独立新模型，见同目录manifest及导出回执'
+    if 'fiora_os_20261115' in s and path.name == 'fiora_OS_v1.0.0_state.pt':
+        return 'FIORA-OS v1独立正向谱模型；固定MSnLib v7开放训练权重，仅HCD/支持离子，2分子准入小试不等于候选排名收益'
+    if 'fiora_tims_model_20261115' in s and path.name == 'fiora_OS_tims_migrated_state.pt':
+        return 'FIORA-OS显式HCD/timsTOF 19维未训练迁移；HCD前向误差2.98e-8，新增1000参数，不能当微调完成'
+    if 'fiora_tims_model_20261115' in s and path.name == 'last_checkpoint.pt':
+        return 'FIORA timsTOF真实碎片强度迁移pilot；步数/是否成功以同目录verification为准，非Kaggle排名增益'
     if 'mist_msg_20261114' in s and path.name == 'mist_msg_noaug.ckpt':
         return 'MIST MSG real-only公开权重；实际加载后出现近恒定指纹，原生MSG/CASMI均复现，暂不部署，见20261115审计'
+    if 'extlib_gate_train_20261115' in s and path.name == 'last_step_500.pt':
+        return '自训练C库最高匹配正确性门控；500步CPU pilot，400结构训练/100开发，p>=.9预先固定；未证实隐藏榜分'
     if path.name.startswith('head_seed') and '/code/' in s:
         return 'head部署/实际canary副本；按SHA追溯原始训练权重'
     if '/isomer_head_' in s:
@@ -66,7 +76,7 @@ def role(path):
 
 
 def model_paths():
-    for base in ('assets', 'runs'):
+    for base in ('assets', 'runs', 'submission/optimization_20261116/fiora_payload'):
         for folder, dirs, files in os.walk(ROOT / base, followlinks=False):
             dirs[:] = sorted(d for d in dirs if d not in ('ice_site', '__pycache__', 'attached_input', 'input_view')
                              and not (Path(folder) / d).is_symlink())
@@ -74,6 +84,8 @@ def model_paths():
                 p = Path(folder) / name
                 if p.is_symlink() or name == 'head_features.pt':
                     continue
+                if '/fiora_tims_pilot_' in p.as_posix() and 'graphs' in p.parts:
+                    continue  # PyG tensor feature/target caches are data, not models.
                 suffix = p.suffix.lower()
                 is_weight = suffix in ('.pt', '.pth', '.ckpt', '.joblib')
                 is_ranker = suffix in ('.pkl', '.txt') and any(x in name.lower() for x in ('ranker', 'booster', 'model'))
@@ -89,7 +101,7 @@ def models():
         identity = (stat.st_dev, stat.st_ino, stat.st_size, stat.st_mtime_ns)
         if identity not in inode_hash:
             inode_hash[identity] = sha(p)
-        nearby = [rel(p.parent / n) for n in ('config.json', 'config_used.json', 'training_result.json', 'summary.json')
+        nearby = [rel(p.parent / n) for n in ('config.json', 'config_used.json', 'training_result.json', 'summary.json', 'configuration.json', 'verification.json', 'fiora_OS_tims_migrated_params.json', 'migration_receipt.json', 'migration_verification.json', 'params.json', 'asset_manifest.json')
                   if (p.parent / n).is_file()]
         rows.append(dict(path=rel(p), bytes=stat.st_size, sha256=inode_hash[identity],
                          role=role(p), related_metadata=nearby, hardlink_count=stat.st_nlink))

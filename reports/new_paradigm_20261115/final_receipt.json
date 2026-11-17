@@ -1,0 +1,42 @@
+{
+  "reports/new_paradigm_20261115/FEASIBILITY.md": {
+    "sha256": "9c10f8a9cfac1ec42588c6f57a36bed4d4b539ff9566b290111d5b3b6c1280c2",
+    "bytes": 8177
+  },
+  "reports/new_paradigm_20261115/README.md": {
+    "sha256": "ad33a1292d5968e66c99079cd32a8d2a2a3c589b39677916d0ec486f5f5fa53f",
+    "bytes": 4850
+  },
+  "reports/new_paradigm_20261115/fiora_dependency_receipt.json": {
+    "sha256": "43db5e60f15941036a53c7a736a2332e6683b52d1c851064a056129f263296a8",
+    "bytes": 1235
+  },
+  "reports/new_paradigm_20261115/fiora_canary_attempt1_missing_six.json": {
+    "sha256": "8498747fc7270b05e7c74ef3b791db4ff6cb05956fba3b9975f974793856e682",
+    "bytes": 1653
+  },
+  "reports/new_paradigm_20261115/fiora_canary_attempt2.json": {
+    "sha256": "f6bbe796e6257425d98a10d7643f9c65ae0aa7a1e9df782fc69a0bd211dd129d",
+    "bytes": 3583
+  },
+  "reports/new_paradigm_20261115/old48_native_condition_audit.json": {
+    "sha256": "0d83172630fca5088b6f6e3df276c0dcd964f39c1deeb317c4e5f82286977a57",
+    "bytes": 1301
+  },
+  "assets/research/fiora_os_20261115/acquisition_receipt.json": {
+    "sha256": "1ed9c256400c9b75366107b54a28f6d096982028972bb4f2b5174575bc272f74",
+    "bytes": 14773
+  },
+  "scripts/acquire_fiora_os_20261115.py": {
+    "sha256": "abb9055f7b3812df06254590b6ba4cd45a04045764fd06affa810420e9b452f2",
+    "bytes": 3404
+  },
+  "scripts/run_fiora_os_canary_20261115.py": {
+    "sha256": "73ed6372f2642a7fe59fedef33ac6b94d6bcd4b2bf69dfd5eb487f53a423d73a",
+    "bytes": 8036
+  },
+  "scripts/inspect_fiora_native_queries_20261115.py": {
+    "sha256": "95df87f0af375e248d450e8edf6dbd1cd0b11f5ebccc9dd9a55bc0bdfaf67658",
+    "bytes": 3377
+  }
+}

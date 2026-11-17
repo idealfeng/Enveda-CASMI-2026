@@ -1,0 +1,7 @@
+{
+  "status": "patched_generated_copy",
+  "before_sha256": "35b5e8cc4bd05dfd46d21762bbecf717eddc86ba7f23de135cdb19a2f47dc9a2",
+  "after_sha256": "f0a6304af4ac56c34667dc3a22ee672d380af31608aa2baf8df6ed24f6600941",
+  "reference_mode": "class2",
+  "no_model_execution": true
+}

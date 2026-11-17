@@ -1,0 +1,32 @@
+{
+  "status": "passed_target_image_actual_fiora_canary_and_competition_request_accepted",
+  "recorded_at_utc": "2026-11-16T15:13:59.119916+00:00",
+  "submission_ref": 58435031,
+  "target": "stormseye/casmi26-fiora-tims500-isomers-1116",
+  "notebook_sha256": "550980d58100fce62830f089848bc303e102ec0f912ffadb14e9fd2ad53d11b4",
+  "parent_ref": 58156482,
+  "parent_public_score": 0.488,
+  "official_score_status": "PENDING",
+  "public_score": null,
+  "new_best_claim": false,
+  "target_canary": {
+    "actual_forward_calls": 50,
+    "successful_candidate_inferences": 50,
+    "scored_queries": 2,
+    "candidate_failure_queries": 0,
+    "elapsed_seconds": 56.102781410000034,
+    "checks_all_passed": true
+  },
+  "parent_visible_mode": "fast_static",
+  "visible_parent_complete_inference": false,
+  "visible_final_csv_kept_original": true,
+  "competition_submission_is_cloud_code_rerun": true,
+  "competition_hidden_complete_inference_success": false,
+  "scope_note": "The generic batch output_audit.scope describes the parent fast path. The separately bound FIORA observer proves50 actual target-image forwards. Neither establishes completed hidden inference or score gain.",
+  "evidence_sha256": {
+    "submission.json": "418d6f5a5be725134ec37a09940236a25cc9bcf0e8426cfe7341cef2cbfc4aa0",
+    "score.json": "4ace0f37c44f4800bee04afe6cac932befd13ed3706870753d560a816c099508",
+    "outputs/fiora_submission_audit.json": "e1ef9f567f2938fa17627aaf72f614c679f7abafb26919c8ab055fe53eed5b69",
+    "output_audit.json": "158cda1edbcd576172eba4e6ce0c538cea0247bef6f0e003edd0f1fee2e2f1aa"
+  }
+}

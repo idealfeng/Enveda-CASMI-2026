@@ -1,0 +1,46 @@
+{
+  "status": "completed_read_only_forum_review",
+  "inventory_total": 163,
+  "topics_read": 15,
+  "all_selected_topics_saved": true,
+  "any_comments_truncated": false,
+  "new_topic_ids": [
+    759398,
+    759394,
+    759307
+  ],
+  "changed_topic_ids": [
+    750330,
+    759222,
+    757307,
+    756893,
+    755319,
+    755039
+  ],
+  "higher_than_0488_reproducible_solution_found_in_selected_discussions": false,
+  "new_architecture_topic": {
+    "id": 759307,
+    "self_reported_public_score": 0.089,
+    "code_url": "https://www.kaggle.com/code/arsenii228/notebook4e97b36fc1?scriptVersionId=369654565",
+    "source_or_weights_downloaded_by_this_review": false
+  },
+  "new_host_replies": [
+    {
+      "topic": 756893,
+      "comment_id": 3555495,
+      "posted_utc": "2026-11-16T00:52:38.937Z",
+      "meaning": "Weights need available training code and permitted data; no specific asset verdict"
+    },
+    {
+      "topic": 757307,
+      "comment_id": 3555496,
+      "posted_utc": "2026-11-16T00:53:23.297Z",
+      "meaning": "GNPS-NIST14-MATCHES in GNPS allowed; reply text ends incompletely"
+    }
+  ],
+  "policy_750330_new_comment_content_available": false,
+  "no_cloud_runs_or_messages_or_submissions": true,
+  "scope": "Entire forum inventory,15 selected changed/new/technical-anchor topics; not an all-site Notebook conclusion",
+  "script_sha256": "17b8d78f75e7f0302465f6911956ce720824b1a5b65c328e61275da33b893571",
+  "report_sha256": "786da3dc8b76c48173fcf92a49448c9d36aacc8548d9afbdc005a88a136277f3"
+}

@@ -1,0 +1,9 @@
+{
+  "ref": "heliosli/casmi26-rt-np",
+  "read_only": true,
+  "files_only": true,
+  "model_bytes_downloaded": 0,
+  "status": "failed",
+  "error_type": "HTTPError",
+  "http_status": 404
+}

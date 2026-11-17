@@ -1,0 +1,1 @@
+{"status": "completed_dual_checkpoint_candidate_spectrum_scoring", "all_candidates_scored": true, "all_scores_finite": true, "labels_read": false, "training_performed": false, "ranking_computed": false, "same_candidate_set_for_both_models": true, "candidate_rows_preserved": true, "all_original_dev_queries_preserved": false}

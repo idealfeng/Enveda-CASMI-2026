@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "scope": "Observer refusal/normal-completion fixtures only; no model or real network efficacy claim",
+  "builder_sha256": "b315cc2fe20b57bb8a02a95e21824f8aa8e326132166f45e4c95bc51d22c0323",
+  "cases": {
+    "valid_completion": {
+      "expected_status": "passed",
+      "actual_status": "passed"
+    },
+    "exception": {
+      "expected_status": "failed",
+      "actual_status": "failed"
+    },
+    "missing_completion_marker": {
+      "expected_status": "failed",
+      "actual_status": "failed"
+    },
+    "wrong_control": {
+      "expected_status": "failed",
+      "actual_status": "failed"
+    }
+  }
+}

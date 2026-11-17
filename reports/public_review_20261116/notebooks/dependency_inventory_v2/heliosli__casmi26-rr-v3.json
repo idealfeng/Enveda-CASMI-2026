@@ -1,0 +1,115 @@
+{
+  "ref": "heliosli/casmi26-rr-v3",
+  "read_only": true,
+  "files_only": true,
+  "model_bytes_downloaded": 0,
+  "status": "files_read",
+  "file_count": 12,
+  "files": [
+    {
+      "name": "README_PUBLIC_DEMO.md",
+      "creationDate": "2026-11-16T06:16:44.138Z",
+      "totalBytes": 777
+    },
+    {
+      "name": "fs0_lean_plain.pt",
+      "creationDate": "2026-11-16T06:16:46.785Z",
+      "totalBytes": 198786034
+    },
+    {
+      "name": "public_demo_manifest.json",
+      "creationDate": "2026-11-16T06:16:44.201Z",
+      "totalBytes": 668
+    },
+    {
+      "name": "rr3_config.json",
+      "creationDate": "2026-11-16T06:16:44.073Z",
+      "totalBytes": 396
+    },
+    {
+      "name": "rr3_selftest.json",
+      "creationDate": "2026-11-16T06:16:44.094Z",
+      "totalBytes": 19467
+    },
+    {
+      "name": "rr_data.py",
+      "creationDate": "2026-11-16T06:16:44.016Z",
+      "totalBytes": 10303
+    },
+    {
+      "name": "rr_deploy.py",
+      "creationDate": "2026-11-16T06:16:44.093Z",
+      "totalBytes": 5756
+    },
+    {
+      "name": "rr_frag.py",
+      "creationDate": "2026-11-16T06:16:43.968Z",
+      "totalBytes": 8204
+    },
+    {
+      "name": "rr_graph_cache.py",
+      "creationDate": "2026-11-16T06:16:44.041Z",
+      "totalBytes": 4538
+    },
+    {
+      "name": "rr_model.py",
+      "creationDate": "2026-11-16T06:16:43.979Z",
+      "totalBytes": 7507
+    },
+    {
+      "name": "rr_reranker.pt",
+      "creationDate": "2026-11-16T06:16:44.401Z",
+      "totalBytes": 16943841
+    },
+    {
+      "name": "rr_v3.py",
+      "creationDate": "2026-11-16T06:16:44.257Z",
+      "totalBytes": 2561
+    }
+  ],
+  "next_page_token_present": false,
+  "dataset_view": {
+    "id": 12788512,
+    "ref": "heliosli/casmi26-rr-v3",
+    "subtitle": "Runnable public demo artifacts; original competition weights excluded",
+    "creatorName": "Heliosli",
+    "totalBytes": 215790052,
+    "lastUpdated": "2026-11-16T06:16:41.560Z",
+    "downloadCount": 307,
+    "licenseName": "CC BY-NC-SA 4.0",
+    "description": "# Public demonstration artifacts: casmi26-rr-v3\n\nThis version is an interface and execution demonstration. The original competition-trained weights are not included. It is not a reproduction package for the 0.494 leaderboard result and has no claimed leaderboard score.\n\nModel loaders, file names, tensor dimensions, candidate tables and upstream public assets are retained for compatibility. Private learned parameters are replaced with initialized demo weights (the joint ranker uses a synthetic fit). Self-tests validate this demo version only.\n\nPX reference scores embedded in notebooks must correspond to this demonstration version; updated fixtures are included in this dataset.\n\nOriginal license and upstream source notices continue to apply to the corresponding files.\n",
+    "ownerName": "Heliosli",
+    "ownerRef": "heliosli",
+    "kernelCount": 7,
+    "title": "casmi26 rr v3",
+    "viewCount": 20,
+    "voteCount": 1,
+    "currentVersionNumber": 2,
+    "usabilityRating": 0.6875,
+    "tags": [
+      {
+        "ref": "pre-trained model",
+        "name": "pre-trained model",
+        "description": "",
+        "fullPath": "admin > pre-trained model",
+        "competitionCount": 2,
+        "datasetCount": 654887,
+        "scriptCount": 301,
+        "totalCount": 655190
+      }
+    ],
+    "versions": [
+      {
+        "versionNumber": 2,
+        "creationDate": "2026-11-16T06:16:41.560Z",
+        "creatorName": "Heliosli",
+        "creatorRef": "casmi26-rr-v3",
+        "versionNotes": "PUBLIC-DEMO-1116-R1: Runnable demonstration artifacts; original competition weights excluded. Not a reproduction of 0.494.",
+        "status": "Ready"
+      }
+    ],
+    "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-16.png-31141478/dataset-thumbnail.png"
+  },
+  "current_version_number": 2,
+  "is_private": false
+}

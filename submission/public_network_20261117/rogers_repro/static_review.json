@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "target": "stormseye/casmi26-rogers0492-repro-1117",
+  "version": 1,
+  "notebook_sha256": "5921fe5b86cc995e779df4eac49ea0a84942bedc8e8bcaf15c6b1b6e99aca135",
+  "checks": {
+    "upstream_source_pin": true,
+    "original_configuration_exact": true,
+    "original_merge_warning_policy_exact": true,
+    "original_algorithm_cells_retained": true,
+    "original_network_function_bytes": true,
+    "original_AB_function_bytes": true,
+    "intended_scorer_final_pinned": true,
+    "no_champion_head_or_identity_guard_added": true,
+    "source_compiles": true,
+    "private_offline_gpu": true,
+    "dataset_and_kernel_numeric_versions_pinned": true,
+    "visible_fast_not_claimed_full": true
+  },
+  "scope": "Static source/config/asset binding only; visible network/AB and hidden complete inference await actual runs"
+}

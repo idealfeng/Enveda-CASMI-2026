@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "scope": "Independent source/AST/identity/summary checks; no spectrum matching, model inference, hidden run or efficacy claim",
+  "runtime_sha256": "0028315c39325dc4362e3fa075bee8a2395dd0e1f3487d796ba8c89550620202",
+  "normalized_function_sha256": "33153de76fccebe4ed2325bea7649573219e4cfb964483cd5c335ac7dc7e93b8",
+  "checks": {
+    "compile": true,
+    "normalized_function_exact": true,
+    "normalized_function_pin": true,
+    "original_function_AST_exact": true,
+    "identity_examples_match": true,
+    "summary_parse_named_fields": true
+  },
+  "identity_examples": [
+    {
+      "smiles": "CCO",
+      "runtime": "LFQSCWFLJHTTHZ",
+      "official": "LFQSCWFLJHTTHZ"
+    },
+    {
+      "smiles": "OCC",
+      "runtime": "LFQSCWFLJHTTHZ",
+      "official": "LFQSCWFLJHTTHZ"
+    },
+    {
+      "smiles": "CC=O",
+      "runtime": "IKHGUXGNUITLKF",
+      "official": "IKHGUXGNUITLKF"
+    },
+    {
+      "smiles": "C=CO",
+      "runtime": "IKHGUXGNUITLKF",
+      "official": "IKHGUXGNUITLKF"
+    },
+    {
+      "smiles": "C[C@H](O)C(=O)O",
+      "runtime": "JVTAAEKCZFNVCJ",
+      "official": "JVTAAEKCZFNVCJ"
+    },
+    {
+      "smiles": "C[C@@H](O)C(=O)O",
+      "runtime": "JVTAAEKCZFNVCJ",
+      "official": "JVTAAEKCZFNVCJ"
+    },
+    {
+      "smiles": "CC(=O)[O-].[Na+]",
+      "runtime": "VMHLLURERBWHNL",
+      "official": "VMHLLURERBWHNL"
+    },
+    {
+      "smiles": "c1ccccc1",
+      "runtime": "UHOVQNZJYSORNB",
+      "official": "UHOVQNZJYSORNB"
+    },
+    {
+      "smiles": "C1=CC=CC=C1",
+      "runtime": "UHOVQNZJYSORNB",
+      "official": "UHOVQNZJYSORNB"
+    },
+    {
+      "smiles": "N#N",
+      "runtime": "IJGRMHOSHXDMSA",
+      "official": "IJGRMHOSHXDMSA"
+    },
+    {
+      "smiles": "invalid",
+      "runtime": null,
+      "official": null
+    },
+    {
+      "smiles": "",
+      "runtime": null,
+      "official": null
+    }
+  ],
+  "summary_fixture": {
+    "LAM": 0.35,
+    "TAU": 0.6,
+    "molecules": 2,
+    "with_spectra": 2,
+    "with_neighbors": 2,
+    "edges": 1,
+    "changed_lists": 1,
+    "top1_changed": 1,
+    "reported_seconds": 0
+  }
+}

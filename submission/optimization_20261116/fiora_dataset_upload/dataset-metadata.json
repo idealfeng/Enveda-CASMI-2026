@@ -1,0 +1,10 @@
+{
+  "id": "stormseye/casmi26-fiora-tims500-1116",
+  "title": "CASMI26 FIORA tims500 private experiment",
+  "licenses": [
+    {
+      "name": "other"
+    }
+  ],
+  "description": "Private experimental inference bundle. FIORA OS MSnLib-v7-only parent, explicit timsTOF migration and fixed500 updates. Original source/dependency licenses and provenance retained. No competition hidden labels. The two public-development inference canaries have no target structures or outcome labels attached to their queries. Not a claimed leaderboard improvement."
+}

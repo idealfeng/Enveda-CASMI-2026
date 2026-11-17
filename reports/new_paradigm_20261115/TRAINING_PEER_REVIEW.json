@@ -1,0 +1,37 @@
+{
+  "status": "PEER_REVIEW_PASSED_FOR_FIXED500_PILOT",
+  "blocking_issues": [],
+  "read_only_preparer_and_trainer": true,
+  "model_loaded_during_review": false,
+  "training_performed": false,
+  "development_model_scores_read": false,
+  "preparer_source_sha256": "e5dddf8ab9339ed22472e5560406d266addb5417af50694f96932accb1900418",
+  "trainer_source_sha256": "0fea8fed747fef37c72a85b3b2d5965d388ee2366814d017eb40e6cad7d4dcc2",
+  "selection_sha256": "2b4ecd92fbf0f175b8533c1678bf693831e9ef1f75bb48084cf32f0169c2213d",
+  "index_sha256": "622f87ad8098ac98318d326eddb5288cc2bd3ea6a1c69f37de5abc477ff6a8a5",
+  "checks": {
+    "all498_ready_graph_targets_verified": true,
+    "no_precursor_only_targets": true,
+    "native_loss_value_gradient_exact": true,
+    "five_native_mass_map_fixtures_exact": true,
+    "precursor_exclusion_contract_fixed": true,
+    "metadata500_group_split400_100_frozen": true,
+    "physical_mz_and_query_sidecars_not_features": true,
+    "strict_migrated67key_model_bound": true,
+    "exact500_optimizer_steps_last_checkpoint_only": true
+  },
+  "resolved_issue": "Initial fixed.01 precursor removal differed from sidecar100ppm-or.01 definition; trainer now uses saved query mask, drops duplicate precursor channels and applies same removal window.",
+  "boundaries": [
+    "Native spectral cosine uses chained adjacent mass bins, not one-to-one peak matching.",
+    "MSnLib pretraining exposure unknown.",
+    "GraphwiseKL sees matched fragments only; real unmatched intensity coverage is a separate measure.",
+    "Two dev spectra have no real fragment supervision; retain selected dev denominator100.",
+    "Disconnected native fragmentation can fail and is retained as error, never backfilled.",
+    "Only fixed training/speed pilot approved; no ranking or hidden-score gain inferred."
+  ],
+  "evidence": {
+    "TRAINING_PEER_REVIEW.md": "99a96ee4cb02fd83edc6153a817784b4526dc4208eca1cacff104c51197deb34",
+    "fiora_graph_target_contract_review.json": "c3ed205d8b12cf737bec7a795b5c7fa37ac0a20e0a5c52f85f178b2db330d351",
+    "fiora_channel_contract_review.json": "73775dcff1d3d2cb19f4c550c6d12bdb4931fa9bf0613993dac337a2964e1501"
+  }
+}

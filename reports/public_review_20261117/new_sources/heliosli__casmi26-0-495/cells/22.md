@@ -1,0 +1,39 @@
+## 8. Credits
+
+The answer lists come from other people's code, run with the patches listed in section 6:
+
+- **Roman Tamrazov**, [Spectral Parallax](https://www.kaggle.com/code/romantamrazov/casmi-2026-spectral-parallax), version 22: the notebook this one runs, including the
+  fragment check and the provenance reranker. His notebook thanks Kozykorpesh's
+  [LB [0.468] balanced acquisition evidence](https://www.kaggle.com/code/kozykappa/lb-0-468-balanced-acquisition-evidence) first, for the reproducible V2 consensus pipeline, the
+  neural spectrum-structure ranking, the candidate-evidence exports and the evidence-guided candidate recovery, and
+  credits Heliosli's [training-structure protection](https://www.kaggle.com/code/heliosli/happy-to-make-the-dataset-public-if-it-helps) for the provenance idea.
+- **Roman Rozen**, [From Peaks to Structures](https://www.kaggle.com/code/romanrozen/0-468-casmi-from-peaks-to-structures): the leader-safe consensus (`consensus.py`) and the
+  outside-candidate collection (`outsiders.py`).
+- **alex chilton**, [Leader-Safe, Ranks 2-25 at 0.75](https://www.kaggle.com/code/alexchilton/casmi26-lb-0-472-leader-safe-ranks-2-25-at-0-75): the 0.75 weight on ranks 2-25.
+- **Saner Turhaner**, [PubChem + Neural025](https://www.kaggle.com/code/sanpier/pubchem-neural025-lb-0-466): the spectrum-candidate model, the reciprocal-rank
+  fusion and the six helper modules.
+- **Dmitrii Gluzdov**, [The Data Behind Spectra to Structures](https://www.kaggle.com/code/dmitriigluzdov/casmi-26-the-data-behind-spectra-to-structures): the data notebook that assembles
+  and documents the shared 0.465 pipeline, and the datasets that carry it.
+- **Huseyin Emre Aksoy** ([profile](https://www.kaggle.com/huseyinemreaksoy)): `frag_rescore.py`, the untrained
+  MetFrag-lite fragment scorer that both the fragment check and the pipeline's fragment-gap score run (Apache-2.0,
+  reached through Ahmed Berat Özer's v7c notebook).
+- **Ahmed Berat Özer**, [the long-schedule spectrum model](https://www.kaggle.com/datasets/ahmedberatozer/casmi26-spectrum-model-long): Saner Turhaner's model trained 40 x 2,000 steps instead of 16 x 500, same code; runs e3-e5 use it.
+
+The embedded 0.465 pipeline keeps its own full credits and licence table (its section 6), unchanged. Its main
+components: canqiang's E006 (the complete inference base); Ahmed Berat Özer's main engine, rankers, fingerprint
+weights, candidate pool and the Kaggle packages of ICEBERG and GLACIER (the ms-pred models of the Coley group);
+prvsiyan, megayak and seyitkaangunes (second engine, analogue propagation, engine fusion); flexonafft (the N1
+challenger); hengck23's DreaMS resource; and the further authors and public spectral libraries listed there.
+
+| dataset | author | used for | licence |
+|---|---|---|---|
+| [dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets](https://www.kaggle.com/datasets/dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets) | Dmitrii Gluzdov (a collection of other authors' public files, each folder with its own notices) | models, candidate sets and engine code of the pipeline | CC BY-NC-SA 4.0; each folder keeps its source licence (`ATTRIBUTION.md`) |
+| [dmitriigluzdov/casmi26-pubchem-popularity-prior](https://www.kaggle.com/datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior) | Dmitrii Gluzdov | PubChem popularity prior | Other: PubChem courtesy of the U.S. NLM; LOTUS CC0; NPAtlas CC BY-NC 4.0 |
+| [dmitriigluzdov/casmi26-natural-product-panel-benchmark](https://www.kaggle.com/datasets/dmitriigluzdov/casmi26-natural-product-panel-benchmark) | Dmitrii Gluzdov | natural-product panel | Other: competition data terms |
+| [dmitriigluzdov/casmi26-fold-safe-fpnet](https://www.kaggle.com/datasets/dmitriigluzdov/casmi26-fold-safe-fpnet) | Dmitrii Gluzdov | fold-safe FPNet checkpoints | Other: checkpoint under competition data terms; scripts Apache 2.0 |
+| [dmitriigluzdov/casmi26-natural-product-knowledge-table](https://www.kaggle.com/datasets/dmitriigluzdov/casmi26-natural-product-knowledge-table) | Dmitrii Gluzdov | natural-product knowledge table | Other: LOTUS CC BY 4.0, NPAtlas CC BY-NC 4.0, PubChem counts |
+| [sanpier/casmi-spectrum-model-v1](https://www.kaggle.com/datasets/sanpier/casmi-spectrum-model-v1) | Saner Turhaner | the spectrum-candidate model | trained on competition data (CC BY-NC 4.0) |
+| [sanpier/catalogue-experiment-saner](https://www.kaggle.com/datasets/sanpier/catalogue-experiment-saner) | Saner Turhaner | attached as in Spectral Parallax; this run does not read it | as on its page |
+
+The competition data is CC BY-NC 4.0, and the models above are trained on it: use them non-commercially, with
+attribution. We wrote the field record, the figure and the audit cells.

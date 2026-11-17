@@ -1,0 +1,499 @@
+{
+  "checked_at_utc": "2026-11-16T15:23:08.216199+00:00",
+  "read_only": true,
+  "boundary": "Current dataset view versions, not proof of versions mounted by upstream historical notebook session",
+  "datasets": [
+    {
+      "ref": "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+      "status": "read",
+      "current_version_number": 1,
+      "is_private": false,
+      "total_bytes": 47886892,
+      "license_name": "CC BY-NC-SA 4.0",
+      "versions": [
+        {
+          "versionNumber": 1,
+          "creationDate": "2026-09-17T21:16:16.477Z",
+          "creatorName": "Samar Talwar",
+          "creatorRef": "casmi-2026-spectral-library-massbankharmonized",
+          "versionNotes": "Initial release",
+          "status": "Ready"
+        }
+      ]
+    },
+    {
+      "ref": "sanpier/casmi-spectrum-model-v1",
+      "status": "read",
+      "current_version_number": 1,
+      "is_private": false,
+      "total_bytes": 55917850,
+      "license_name": "Apache 2.0",
+      "versions": [
+        {
+          "versionNumber": 1,
+          "creationDate": "2026-10-23T17:40:23.580Z",
+          "creatorName": "Saner Turhaner",
+          "creatorRef": "casmi-spectrum-model-v1",
+          "versionNotes": "Initial release",
+          "status": "Ready"
+        }
+      ]
+    },
+    {
+      "ref": "dmitriigluzdov/casmi26-fold-safe-fpnet",
+      "status": "read",
+      "current_version_number": 5,
+      "is_private": false,
+      "total_bytes": 1071751236,
+      "license_name": "Other (specified in description)",
+      "versions": [
+        {
+          "versionNumber": 5,
+          "creationDate": "2026-10-21T14:41:29.677Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-fold-safe-fpnet",
+          "versionNotes": "Five fold-safe FPNet models: folds 1-4 added (each trained without one identity fold and the 250 panel molecules), with learning curves, input checks and per-fold evaluations; card updated",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 4,
+          "creationDate": "2026-10-20T16:19:47.853Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-fold-safe-fpnet",
+          "versionNotes": "Card: what the held-out checkpoint shows and how to use it, new figure; README.md matches the card; data unchanged",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 3,
+          "creationDate": "2026-10-20T15:32:36.243Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-fold-safe-fpnet",
+          "versionNotes": "README.md now matches the dataset card; all data files unchanged",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 2,
+          "creationDate": "2026-10-19T10:01:20.157Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-fold-safe-fpnet",
+          "versionNotes": "Public panel logits and scores with audited exclusions and fingerprint-bit contract",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 1,
+          "creationDate": "2026-09-30T16:14:23.977Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-fold-safe-fpnet",
+          "versionNotes": "Initial release",
+          "status": "Ready"
+        }
+      ]
+    },
+    {
+      "ref": "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+      "status": "read",
+      "current_version_number": 10,
+      "is_private": false,
+      "total_bytes": 136005626,
+      "license_name": "Other (specified in description)",
+      "versions": [
+        {
+          "versionNumber": 10,
+          "creationDate": "2026-10-23T18:06:50.593Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-natural-product-knowledge-table",
+          "versionNotes": "spectra_chemistry/: measured example spectra, fragmentation tree, element and neutral-loss tables, physical-rule measurements",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 9,
+          "creationDate": "2026-10-22T09:27:53.113Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-natural-product-knowledge-table",
+          "versionNotes": "Added spectra_chemistry/: element census, spectrum formula annotation, neutral losses and fragment ions, fragment catalogue coverage, a fragmentation graph and physical checks",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 8,
+          "creationDate": "2026-10-20T18:50:28.557Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-natural-product-knowledge-table",
+          "versionNotes": "LOTUS 2026-04-13 refresh (153,964 structures; 25 scorer keys corrected); sugar and acyl unit counts and observed losses; licence CC BY 4.0",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 7,
+          "creationDate": "2026-10-20T15:53:47.330Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-natural-product-knowledge-table",
+          "versionNotes": "Card: class coverage of the training file in About, LOTUS licence corrected to CC BY 4.0; README.md matches the card; data unchanged",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 6,
+          "creationDate": "2026-10-20T15:42:33.063Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-natural-product-knowledge-table",
+          "versionNotes": "Card: what the table adds to PubChem and how to use it; README.md matches the card; data unchanged",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 5,
+          "creationDate": "2026-10-20T11:42:41.360Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-natural-product-knowledge-table",
+          "versionNotes": "Public MassBank/MoNA/GNPS reference spectra not in the competition training file (1,384 spectra, 782 structures); 99.4% of eligible public records are already in training",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 4,
+          "creationDate": "2026-10-19T18:08:21.440Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-natural-product-knowledge-table",
+          "versionNotes": "Molecular descriptors, NP-likeness, scaffolds and formula isomer counts; CSV views and build script restored; simpler card with technical notes",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 3,
+          "creationDate": "2026-10-19T09:56:12.010Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-natural-product-knowledge-table",
+          "versionNotes": "Explicit public-pool, tier and PubChemLite joins; NPAtlas terms corrected to CC BY-NC 4.0",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 2,
+          "creationDate": "2026-10-04T12:38:40.247Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-natural-product-knowledge-table",
+          "versionNotes": "Add CSV copies of both tables for preview and spreadsheets, and an at-a-glance README section; Parquet files unchanged.",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 1,
+          "creationDate": "2026-09-30T08:17:53.730Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-natural-product-knowledge-table",
+          "versionNotes": "Initial release",
+          "status": "Ready"
+        }
+      ]
+    },
+    {
+      "ref": "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+      "status": "read",
+      "current_version_number": 10,
+      "is_private": false,
+      "total_bytes": 233058969,
+      "license_name": "Other (specified in description)",
+      "versions": [
+        {
+          "versionNumber": 10,
+          "creationDate": "2026-10-20T18:45:09.140Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-natural-product-panel-benchmark",
+          "versionNotes": "LOTUS 2026-04-13 refresh of the natural-product flags, LOTUS references and classes; replays rerun (changes of at most one molecule); LOTUS licence CC BY 4.0",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 9,
+          "creationDate": "2026-10-20T17:17:25.780Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-natural-product-panel-benchmark",
+          "versionNotes": "Card rewritten in plain words; README.md matches the card; data unchanged",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 8,
+          "creationDate": "2026-10-20T17:12:09.773Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-natural-product-panel-benchmark",
+          "versionNotes": "Card: what the panel shows and how to use it, new figure, LOTUS licence corrected; README.md matches the card; data unchanged",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 7,
+          "creationDate": "2026-10-20T15:30:47.943Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-natural-product-panel-benchmark",
+          "versionNotes": "README.md now matches the dataset card; all data files unchanged",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 6,
+          "creationDate": "2026-10-19T18:12:53.663Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-natural-product-panel-benchmark",
+          "versionNotes": "Per-molecule difficulty labels and refreshed fold copy; simpler card with technical notes",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 5,
+          "creationDate": "2026-10-19T09:59:25.157Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-natural-product-panel-benchmark",
+          "versionNotes": "Self-contained public prior and fold-safe panel score replays",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 4,
+          "creationDate": "2026-10-13T02:59:17.950Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-natural-product-panel-benchmark",
+          "versionNotes": "Adds the identity-disjoint validation folds (folder casmi26-identity-disjoint-validation-folds) so the notebook needs one dataset; existing files unchanged.",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 3,
+          "creationDate": "2026-09-30T11:12:26.460Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-natural-product-panel-benchmark",
+          "versionNotes": "Add fingerprint-model seen/unseen comparison (FPNet A, A+B, full1)",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 2,
+          "creationDate": "2026-09-30T10:08:06.750Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-natural-product-panel-benchmark",
+          "versionNotes": "Final promotion rule with documentation condition; clarified card",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 1,
+          "creationDate": "2026-09-30T09:38:23.270Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-natural-product-panel-benchmark",
+          "versionNotes": "Initial release",
+          "status": "Ready"
+        }
+      ]
+    },
+    {
+      "ref": "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+      "status": "read",
+      "current_version_number": 13,
+      "is_private": false,
+      "total_bytes": 80416140333,
+      "license_name": "Other (specified in description)",
+      "versions": [
+        {
+          "versionNumber": 13,
+          "creationDate": "2026-10-27T17:07:06.607Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-pubchem-popularity-prior",
+          "versionNotes": "Add RDKit fingerprints of all 105.9M tier structures with a NumPy loader; build scripts moved to scripts/; all data files unchanged",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 10,
+          "creationDate": "2026-10-20T18:37:28.643Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-pubchem-popularity-prior",
+          "versionNotes": "LOTUS 2026-04-13 refresh of the natural-product bits and reference counts; fact-check corrections (LOTUS licence CC BY 4.0, wording of the 11,177 added structures); complete file index; new card",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 9,
+          "creationDate": "2026-10-20T11:59:24.020Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-pubchem-popularity-prior",
+          "versionNotes": "11,177 newer PubChem structures passing the tier rules (PubChem 2026-10-19) and the missing synonym, natural-product and LOTUS arrays of the earlier delta",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 8,
+          "creationDate": "2026-10-19T18:47:00.293Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-pubchem-popularity-prior",
+          "versionNotes": "PubChem synonym, parent and formula-isomer annotations; simpler card with technical notes",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 7,
+          "creationDate": "2026-10-19T10:15:02.843Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-pubchem-popularity-prior",
+          "versionNotes": "Aligned LOTUS reference counts and PubChemLite documentation annotations",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 6,
+          "creationDate": "2026-10-16T10:35:44.207Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-pubchem-popularity-prior",
+          "versionNotes": "Version 5: PubChem depositor-source groups (SID-Map), distinct depositor and vendor counts, MeSH-term counts, compound names in the CSV views, fixed-weight measurements on the natural-product panel; existing files unchanged.",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 5,
+          "creationDate": "2026-10-13T03:10:13.967Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-pubchem-popularity-prior",
+          "versionNotes": "Adds the mass-sorted PubChem structure tier (folder casmi26-pubchem-tier, attributed copy of ahmedberatozer/casmi26-pubchem-tier) used by the PubChem channel; existing files unchanged.",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 4,
+          "creationDate": "2026-10-05T02:40:35.677Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-pubchem-popularity-prior",
+          "versionNotes": "Version 4: PubChem tier delta of 2026-09-27 - 36,303 structures missing from casmi26-pubchem-tier that pass its filters in 157-1,159 Da (delta_* files, MANIFEST_DELTA.json, build scripts). Earlier files unchanged.",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 3,
+          "creationDate": "2026-10-02T14:47:43.120Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-pubchem-popularity-prior",
+          "versionNotes": "Version 3: readable CSV views (pool_popularity.csv with all 710,701 pool rows, pubchem_tier_sample.csv with 10,000 tier rows) and a What is inside section; the .npy arrays and MANIFEST.json are unchanged",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 2,
+          "creationDate": "2026-09-30T10:25:39.027Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-pubchem-popularity-prior",
+          "versionNotes": "v2: PubChem CIDs, InChIKey14, patent counts and natural-product flags; v1 arrays and MANIFEST.json unchanged",
+          "status": "Ready"
+        }
+      ]
+    },
+    {
+      "ref": "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+      "status": "read",
+      "current_version_number": 9,
+      "is_private": false,
+      "total_bytes": 20082868365,
+      "license_name": "CC BY-NC-SA 4.0",
+      "versions": [
+        {
+          "versionNumber": 9,
+          "creationDate": "2026-10-28T06:09:19.363Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-attributed-v4g-reproduction-assets",
+          "versionNotes": "Added a second spectrum-structure model trained with the recipe of sanpier/casmi-spectrum-model-v1 (casmi26-spec2mol-r/)",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 8,
+          "creationDate": "2026-10-28T05:07:30.780Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-attributed-v4g-reproduction-assets",
+          "versionNotes": "Added the training code of the spectrum-structure model: prep.py, train.py, command, held-out molecules, history (casmi26-spec2mol/TRAINING.md)",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 7,
+          "creationDate": "2026-10-27T16:56:48.063Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-attributed-v4g-reproduction-assets",
+          "versionNotes": "Added casmi26-spec2mol/: our spectrum-structure model (weights, architecture, spectrum features)",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 6,
+          "creationDate": "2026-10-20T17:24:35.210Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-attributed-v4g-reproduction-assets",
+          "versionNotes": "Removed 131 top-level files that duplicated the source folders byte for byte (3.8 GB); MANIFEST.json points to the folder copies; README.md matches the card",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 5,
+          "creationDate": "2026-10-20T16:10:42.540Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-attributed-v4g-reproduction-assets",
+          "versionNotes": "README.md now matches the dataset card; all data files unchanged",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 4,
+          "creationDate": "2026-10-18T16:19:18.100Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-attributed-v4g-reproduction-assets",
+          "versionNotes": "Adds an attributed copy of franciscoangulo/casmi26-pubchemlite-cc0-candidate-fingerprints (PubChemLite CC0 candidates with fingerprints) in folder casmi26-pubchemlite-cc0-candidate-fingerprints; existing files unchanged.",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 3,
+          "creationDate": "2026-10-16T11:57:16.127Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-attributed-v4g-reproduction-assets",
+          "versionNotes": "Adds an attributed copy of sergiomalv/casmi-chebi-lmsd-structures (ChEBI + LIPID MAPS structures with fingerprints, CC BY 4.0) in folder casmi-chebi-lmsd-structures; existing files unchanged.",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 2,
+          "creationDate": "2026-10-13T03:44:34.103Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-attributed-v4g-reproduction-assets",
+          "versionNotes": "Adds attributed copies of the public inference assets of the E006 pipeline in folders named after their source datasets (ahmedberatozer, prvsiyan, megayak, hengck23, RDKit wheels); existing files unchanged. Source licences in ATTRIBUTION.md.",
+          "status": "Ready"
+        },
+        {
+          "versionNumber": 1,
+          "creationDate": "2026-09-28T10:03:43.340Z",
+          "creatorName": "Dmitrii Gluzdov",
+          "creatorRef": "casmi26-attributed-v4g-reproduction-assets",
+          "versionNotes": "Initial release",
+          "status": "Ready"
+        }
+      ]
+    },
+    {
+      "ref": "takumuhata/casmi26-extlib",
+      "status": "read",
+      "current_version_number": 2,
+      "is_private": false,
+      "total_bytes": 264695042,
+      "license_name": "CC0: Public Domain",
+      "versions": [
+        {
+          "versionNumber": 2,
+          "creationDate": "2026-10-03T16:02:58.440Z",
+          "creatorName": "Takumu Hata",
+          "creatorRef": "casmi26-extlib",
+          "versionNotes": "update 2026-10-03 16:02",
+          "status": "Ready"
+        }
+      ]
+    },
+    {
+      "ref": "sanpier/catalogue-experiment-saner",
+      "status": "read",
+      "current_version_number": 1,
+      "is_private": false,
+      "total_bytes": 25575791,
+      "license_name": "Unknown",
+      "versions": [
+        {
+          "versionNumber": 1,
+          "creationDate": "2026-10-24T13:17:40.933Z",
+          "creatorName": "Saner Turhaner",
+          "creatorRef": "catalogue-experiment-saner",
+          "versionNotes": "Initial release",
+          "status": "Ready"
+        }
+      ]
+    },
+    {
+      "ref": "metric/rdkit-2026-3-3-wheel",
+      "status": "read",
+      "current_version_number": 1,
+      "is_private": false,
+      "total_bytes": 148891687,
+      "license_name": "Unknown",
+      "versions": [
+        {
+          "versionNumber": 1,
+          "creationDate": "2026-09-08T22:23:23.197Z",
+          "creatorName": "Kaggle Competition Metrics",
+          "creatorRef": "rdkit-2026-3-3-wheel",
+          "versionNotes": "Initial release",
+          "status": "Ready"
+        }
+      ]
+    }
+  ]
+}

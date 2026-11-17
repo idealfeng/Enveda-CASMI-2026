@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "branch": "champion_network",
+  "recipe_sha256": "4b1729fe7282cc195243f6bb64401463942ba82b9e4c3c144661cb6883f59156",
+  "mode": "fast_static",
+  "checks": {
+    "original_mass_passed": true,
+    "original_head_passed": true,
+    "new_network_passed": true,
+    "original_AB_passed": true,
+    "network_module_pin": true,
+    "recipe_branch_bound": true,
+    "head_to_network_bound": true,
+    "network_to_AB_bound": true,
+    "actual_final_csv_bound": true,
+    "original_head_receipt_unchanged": true,
+    "original_AB_algorithm_pin": true,
+    "fixed_public_network_parameters": true,
+    "sample_ids_exact": true,
+    "official_output_valid": true,
+    "visible_parent_fast_network_real": true
+  },
+  "original_parent_ref": 58156482,
+  "original_parent_public_score": 0.488,
+  "original_head_csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "network_csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "csv_sha256": "e00a3a7c7f98b7f7de75cad47d454b26571f50ebe2dc9e03f34ad88c8d34d8f0",
+  "network_audit_sha256": "05b4a0276cf58feb74876561041b0ac5509a0e6bc2aa301d5386b64c318dcdfa",
+  "public_score": null,
+  "gain_claim": false,
+  "scope": "parent_fast_plus_actual_network_only"
+}

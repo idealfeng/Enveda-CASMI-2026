@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "scope": "Independent final frozen Rogers source/algorithm/config/metadata/invocation observer review; no new full production or efficacy proof",
+  "branch": "rogers_repro",
+  "notebook_sha256": "5921fe5b86cc995e779df4eac49ea0a84942bedc8e8bcaf15c6b1b6e99aca135",
+  "metadata_sha256": "8c1b9ba3edc405a8077116942676cfd9263c82b68b7e0bf66673d40a11411a6f",
+  "recipe_sha256": "b8c7b3394eaebf074cf39566f53703bd2eccfe6283bf89aa751f5d98b6246634",
+  "upstream_source_sha256": "51c32f200c265fff08bfa4a9841cb6345d1f56515dcd72e254df8da53e07ae99",
+  "checks": {
+    "upstream_exact_pin": true,
+    "frozen_notebook_metadata_pins": true,
+    "original_unmodified_cell_mapping": true,
+    "network_function_exact": true,
+    "raw_AB_function_exact": true,
+    "original_merge_warning_policy_exact": true,
+    "original_priors_012": true,
+    "intended_model_selection_SHA": true,
+    "no_new_weight_or_head_claim": true,
+    "raw_AB_duplicate_behavior_preserved": true,
+    "private_offline_gpu": true,
+    "ten_datasets_with_numeric_versions": true,
+    "kernel_V80_is_version1": true,
+    "upstream_docker_machine_exact": true,
+    "all_cells_compile": true,
+    "recipe_pin_in_runtime_observer": true,
+    "normalized_network_function_pin": true,
+    "normalized_AB_function_pin": true
+  }
+}

@@ -1,0 +1,537 @@
+{
+  "ref": "heliosli/casmi26-frigid-e1",
+  "read_only": true,
+  "files_only": true,
+  "model_bytes_downloaded": 0,
+  "status": "files_read",
+  "file_count": 100,
+  "files": [
+    {
+      "name": "DLM.ckpt",
+      "creationDate": "2026-11-16T06:36:57.344Z",
+      "totalBytes": 1311051109
+    },
+    {
+      "name": "README_PUBLIC_DEMO.md",
+      "creationDate": "2026-11-16T06:36:35.128Z",
+      "totalBytes": 781
+    },
+    {
+      "name": "e1.ckpt",
+      "creationDate": "2026-11-16T06:36:39.016Z",
+      "totalBytes": 289220132
+    },
+    {
+      "name": "frigid_runner.py",
+      "creationDate": "2026-11-16T06:36:35.043Z",
+      "totalBytes": 9135
+    },
+    {
+      "name": "frigid_src/dlm/__init__.py",
+      "creationDate": "2026-11-16T06:36:35.254Z",
+      "totalBytes": 1371
+    },
+    {
+      "name": "frigid_src/dlm/bert_with_cross_attention.py",
+      "creationDate": "2026-11-16T06:36:35.258Z",
+      "totalBytes": 21483
+    },
+    {
+      "name": "frigid_src/dlm/iceberg_sampler.py",
+      "creationDate": "2026-11-16T06:36:35.259Z",
+      "totalBytes": 47443
+    },
+    {
+      "name": "frigid_src/dlm/model.py",
+      "creationDate": "2026-11-16T06:36:35.273Z",
+      "totalBytes": 46453
+    },
+    {
+      "name": "frigid_src/dlm/model_components.py",
+      "creationDate": "2026-11-16T06:36:35.260Z",
+      "totalBytes": 36467
+    },
+    {
+      "name": "frigid_src/dlm/sampler.py",
+      "creationDate": "2026-11-16T06:36:35.254Z",
+      "totalBytes": 30398
+    },
+    {
+      "name": "frigid_src/dlm/spec2mol_model.py",
+      "creationDate": "2026-11-16T06:36:35.437Z",
+      "totalBytes": 47200
+    },
+    {
+      "name": "frigid_src/dlm/utils/__init__.py",
+      "creationDate": "2026-11-16T06:36:35.398Z",
+      "totalBytes": 3099
+    },
+    {
+      "name": "frigid_src/dlm/utils/benchmark_utils.py",
+      "creationDate": "2026-11-16T06:36:35.273Z",
+      "totalBytes": 25151
+    },
+    {
+      "name": "frigid_src/dlm/utils/bracket_safe_converter.py",
+      "creationDate": "2026-11-16T06:36:35.264Z",
+      "totalBytes": 6009
+    },
+    {
+      "name": "frigid_src/dlm/utils/checkpoint.py",
+      "creationDate": "2026-11-16T06:36:35.309Z",
+      "totalBytes": 7250
+    },
+    {
+      "name": "frigid_src/dlm/utils/ema.py",
+      "creationDate": "2026-11-16T06:36:35.261Z",
+      "totalBytes": 4213
+    },
+    {
+      "name": "frigid_src/dlm/utils/formula_encoder.py",
+      "creationDate": "2026-11-16T06:36:35.274Z",
+      "totalBytes": 10470
+    },
+    {
+      "name": "frigid_src/dlm/utils/masking_utils.py",
+      "creationDate": "2026-11-16T06:36:35.324Z",
+      "totalBytes": 68665
+    },
+    {
+      "name": "frigid_src/dlm/utils/spec2mol.py",
+      "creationDate": "2026-11-16T06:36:35.287Z",
+      "totalBytes": 19068
+    },
+    {
+      "name": "frigid_src/dlm/utils/utils_chem.py",
+      "creationDate": "2026-11-16T06:36:35.267Z",
+      "totalBytes": 4217
+    },
+    {
+      "name": "frigid_src/dlm/utils/utils_data.py",
+      "creationDate": "2026-11-16T06:36:35.316Z",
+      "totalBytes": 12364
+    },
+    {
+      "name": "frigid_src/dlm/utils/utils_moco.py",
+      "creationDate": "2026-11-16T06:36:35.272Z",
+      "totalBytes": 3617
+    },
+    {
+      "name": "frigid_src/dlm/utils/utils_save.py",
+      "creationDate": "2026-11-16T06:36:35.322Z",
+      "totalBytes": 3618
+    },
+    {
+      "name": "frigid_src/dlm/utils/validation_callback.py",
+      "creationDate": "2026-11-16T06:36:35.318Z",
+      "totalBytes": 32309
+    },
+    {
+      "name": "frigid_src/mist/__init__.py",
+      "creationDate": "2026-11-16T06:36:35.318Z",
+      "totalBytes": 1209
+    },
+    {
+      "name": "frigid_src/mist/data/__init__.py",
+      "creationDate": "2026-11-16T06:36:35.345Z",
+      "totalBytes": 1890
+    },
+    {
+      "name": "frigid_src/mist/data/data.py",
+      "creationDate": "2026-11-16T06:36:35.330Z",
+      "totalBytes": 6589
+    },
+    {
+      "name": "frigid_src/mist/data/datasets.py",
+      "creationDate": "2026-11-16T06:36:35.336Z",
+      "totalBytes": 16987
+    },
+    {
+      "name": "frigid_src/mist/data/featurizers.py",
+      "creationDate": "2026-11-16T06:36:35.316Z",
+      "totalBytes": 19572
+    },
+    {
+      "name": "frigid_src/mist/data/hdf5_dataset.py",
+      "creationDate": "2026-11-16T06:36:35.318Z",
+      "totalBytes": 24210
+    },
+    {
+      "name": "frigid_src/mist/data/iceberg_dataset.py",
+      "creationDate": "2026-11-16T06:36:35.324Z",
+      "totalBytes": 10971
+    },
+    {
+      "name": "frigid_src/mist/data/spec2mol_dataset.py",
+      "creationDate": "2026-11-16T06:36:35.325Z",
+      "totalBytes": 12016
+    },
+    {
+      "name": "frigid_src/mist/data/splitter.py",
+      "creationDate": "2026-11-16T06:36:35.344Z",
+      "totalBytes": 3645
+    },
+    {
+      "name": "frigid_src/mist/models/__init__.py",
+      "creationDate": "2026-11-16T06:36:35.374Z",
+      "totalBytes": 999
+    },
+    {
+      "name": "frigid_src/mist/models/checkpoint.py",
+      "creationDate": "2026-11-16T06:36:35.337Z",
+      "totalBytes": 1940
+    },
+    {
+      "name": "frigid_src/mist/models/form_embedders.py",
+      "creationDate": "2026-11-16T06:36:35.344Z",
+      "totalBytes": 9231
+    },
+    {
+      "name": "frigid_src/mist/models/modules.py",
+      "creationDate": "2026-11-16T06:36:35.385Z",
+      "totalBytes": 14303
+    },
+    {
+      "name": "frigid_src/mist/models/scaled/LICENSE",
+      "creationDate": "2026-11-16T06:36:35.375Z",
+      "totalBytes": 1071
+    },
+    {
+      "name": "frigid_src/mist/models/scaled/__init__.py",
+      "creationDate": "2026-11-16T06:36:35.380Z",
+      "totalBytes": 218
+    },
+    {
+      "name": "frigid_src/mist/models/scaled/chemistry.py",
+      "creationDate": "2026-11-16T06:36:35.350Z",
+      "totalBytes": 301
+    },
+    {
+      "name": "frigid_src/mist/models/scaled/form_embedders.py",
+      "creationDate": "2026-11-16T06:36:35.375Z",
+      "totalBytes": 12269
+    },
+    {
+      "name": "frigid_src/mist/models/scaled/modules.py",
+      "creationDate": "2026-11-16T06:36:35.380Z",
+      "totalBytes": 13440
+    },
+    {
+      "name": "frigid_src/mist/models/scaled/scaled_mist.py",
+      "creationDate": "2026-11-16T06:36:35.380Z",
+      "totalBytes": 2711
+    },
+    {
+      "name": "frigid_src/mist/models/scaled/transformer_layer.py",
+      "creationDate": "2026-11-16T06:36:35.372Z",
+      "totalBytes": 28072
+    },
+    {
+      "name": "frigid_src/mist/models/spectra_encoder.py",
+      "creationDate": "2026-11-16T06:36:35.392Z",
+      "totalBytes": 7114
+    },
+    {
+      "name": "frigid_src/mist/models/transformer_layer.py",
+      "creationDate": "2026-11-16T06:36:35.399Z",
+      "totalBytes": 18839
+    },
+    {
+      "name": "frigid_src/mist/utils/__init__.py",
+      "creationDate": "2026-11-16T06:36:35.387Z",
+      "totalBytes": 831
+    },
+    {
+      "name": "frigid_src/mist/utils/chem_utils.py",
+      "creationDate": "2026-11-16T06:36:35.382Z",
+      "totalBytes": 15279
+    },
+    {
+      "name": "frigid_src/mist/utils/misc_utils.py",
+      "creationDate": "2026-11-16T06:36:35.400Z",
+      "totalBytes": 3645
+    },
+    {
+      "name": "frigid_src/mist/utils/parse_utils.py",
+      "creationDate": "2026-11-16T06:36:35.404Z",
+      "totalBytes": 8803
+    },
+    {
+      "name": "frigid_src/mist/utils/spectra_utils.py",
+      "creationDate": "2026-11-16T06:36:35.385Z",
+      "totalBytes": 10987
+    },
+    {
+      "name": "frigid_src/spec2mol_benchmark_msg.yaml",
+      "creationDate": "2026-11-16T06:36:35.409Z",
+      "totalBytes": 1339
+    },
+    {
+      "name": "patches/safe__init__.py",
+      "creationDate": "2026-11-16T06:36:35.247Z",
+      "totalBytes": 363
+    },
+    {
+      "name": "public_demo_manifest.json",
+      "creationDate": "2026-11-16T06:36:34.974Z",
+      "totalBytes": 285
+    },
+    {
+      "name": "safes/.locks/models--datamol-io--safe-gpt/5ddeb0c57ef8aefeeb6891293106c1ab0849113e.lock",
+      "creationDate": "2026-11-16T06:36:35.400Z"
+    },
+    {
+      "name": "safes/.locks/models--datamol-io--safe-gpt/a7e35ca3822494f507c15f135dbaaf9f4be2a386.lock",
+      "creationDate": "2026-11-16T06:36:35.420Z"
+    },
+    {
+      "name": "safes/.locks/models--datamol-io--safe-gpt/de09b1521f1d2e98b57d8c1e1fa9f2587aaf5ef5.lock",
+      "creationDate": "2026-11-16T06:36:35.404Z"
+    },
+    {
+      "name": "safes/models--datamol-io--safe-gpt/blobs/5ddeb0c57ef8aefeeb6891293106c1ab0849113e",
+      "creationDate": "2026-11-16T06:36:35.414Z",
+      "totalBytes": 951
+    },
+    {
+      "name": "safes/models--datamol-io--safe-gpt/blobs/a7e35ca3822494f507c15f135dbaaf9f4be2a386",
+      "creationDate": "2026-11-16T06:36:35.416Z",
+      "totalBytes": 46319
+    },
+    {
+      "name": "safes/models--datamol-io--safe-gpt/blobs/de09b1521f1d2e98b57d8c1e1fa9f2587aaf5ef5",
+      "creationDate": "2026-11-16T06:36:35.432Z",
+      "totalBytes": 132
+    },
+    {
+      "name": "safes/models--datamol-io--safe-gpt/refs/main",
+      "creationDate": "2026-11-16T06:36:35.436Z",
+      "totalBytes": 40
+    },
+    {
+      "name": "safes/models--datamol-io--safe-gpt/snapshots/3d5fa0988383e898d5ac5db7cd52bf715bc37061/config.json",
+      "creationDate": "2026-11-16T06:36:35.437Z"
+    },
+    {
+      "name": "safes/models--datamol-io--safe-gpt/snapshots/3d5fa0988383e898d5ac5db7cd52bf715bc37061/generation_config.json",
+      "creationDate": "2026-11-16T06:36:35.442Z"
+    },
+    {
+      "name": "safes/models--datamol-io--safe-gpt/snapshots/3d5fa0988383e898d5ac5db7cd52bf715bc37061/tokenizer.json",
+      "creationDate": "2026-11-16T06:36:35.429Z"
+    },
+    {
+      "name": "token_frozen.joblib",
+      "creationDate": "2026-11-16T06:36:35.353Z",
+      "totalBytes": 6218588
+    },
+    {
+      "name": "wheels313/accelerate-1.15.0-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.273Z",
+      "totalBytes": 394295
+    },
+    {
+      "name": "wheels313/aiohappyeyeballs-2.7.1-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.273Z",
+      "totalBytes": 15038
+    },
+    {
+      "name": "wheels313/aiohttp-3.14.5-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "creationDate": "2026-11-16T06:36:36.317Z",
+      "totalBytes": 1911038
+    },
+    {
+      "name": "wheels313/aiosignal-1.4.0-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.267Z",
+      "totalBytes": 7490
+    },
+    {
+      "name": "wheels313/annotated_doc-0.0.5-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.276Z",
+      "totalBytes": 5302
+    },
+    {
+      "name": "wheels313/annotated_types-0.8.0-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.263Z",
+      "totalBytes": 13427
+    },
+    {
+      "name": "wheels313/antlr4_python3_runtime-4.9.3-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.277Z",
+      "totalBytes": 144590
+    },
+    {
+      "name": "wheels313/anyio-4.15.1-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.270Z",
+      "totalBytes": 132079
+    },
+    {
+      "name": "wheels313/attrs-26.1.0-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.278Z",
+      "totalBytes": 67548
+    },
+    {
+      "name": "wheels313/autograd-1.9.1-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.268Z",
+      "totalBytes": 54387
+    },
+    {
+      "name": "wheels313/autograd_gamma-0.5.0-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.268Z",
+      "totalBytes": 4118
+    },
+    {
+      "name": "wheels313/bionemo_moco-0.0.2.1-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.270Z",
+      "totalBytes": 102025
+    },
+    {
+      "name": "wheels313/certifi-2026.10.23-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.290Z",
+      "totalBytes": 135082
+    },
+    {
+      "name": "wheels313/charset_normalizer-3.5.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "creationDate": "2026-11-16T06:36:36.288Z",
+      "totalBytes": 254660
+    },
+    {
+      "name": "wheels313/click-8.5.0-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.274Z",
+      "totalBytes": 125251
+    },
+    {
+      "name": "wheels313/contourpy-1.3.3-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "creationDate": "2026-11-16T06:36:36.278Z",
+      "totalBytes": 362859
+    },
+    {
+      "name": "wheels313/cwevals-0.0.1b1-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.278Z",
+      "totalBytes": 176544
+    },
+    {
+      "name": "wheels313/cycler-0.12.1-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.288Z",
+      "totalBytes": 8321
+    },
+    {
+      "name": "wheels313/datamol-0.12.5-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.298Z",
+      "totalBytes": 495391
+    },
+    {
+      "name": "wheels313/datasets-2.18.0-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.312Z",
+      "totalBytes": 510519
+    },
+    {
+      "name": "wheels313/dill-0.3.8-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.266Z",
+      "totalBytes": 116252
+    },
+    {
+      "name": "wheels313/distro-1.9.0-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.273Z",
+      "totalBytes": 20277
+    },
+    {
+      "name": "wheels313/einops-0.7.0-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.281Z",
+      "totalBytes": 44599
+    },
+    {
+      "name": "wheels313/evaluate-0.4.6-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.288Z",
+      "totalBytes": 84069
+    },
+    {
+      "name": "wheels313/fonttools-4.68.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "creationDate": "2026-11-16T06:36:36.394Z",
+      "totalBytes": 5418193
+    },
+    {
+      "name": "wheels313/formulaic-1.2.2-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.299Z",
+      "totalBytes": 118939
+    },
+    {
+      "name": "wheels313/frozenlist-1.8.0-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "creationDate": "2026-11-16T06:36:36.310Z",
+      "totalBytes": 234391
+    },
+    {
+      "name": "wheels313/fsspec-2024.2.0-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.290Z",
+      "totalBytes": 170949
+    },
+    {
+      "name": "wheels313/googleapis_common_protos-1.76.0-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.296Z",
+      "totalBytes": 307707
+    },
+    {
+      "name": "wheels313/h11-0.16.0-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.285Z",
+      "totalBytes": 37515
+    },
+    {
+      "name": "wheels313/hf_xet-1.8.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "creationDate": "2026-11-16T06:36:36.405Z",
+      "totalBytes": 4292483
+    },
+    {
+      "name": "wheels313/httpcore-1.0.9-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.288Z",
+      "totalBytes": 78784
+    },
+    {
+      "name": "wheels313/httpx-0.28.1-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.285Z",
+      "totalBytes": 73517
+    },
+    {
+      "name": "wheels313/huggingface_hub-0.36.2-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.292Z",
+      "totalBytes": 566395
+    },
+    {
+      "name": "wheels313/hydra_core-1.3.2-py3-none-any.whl",
+      "creationDate": "2026-11-16T06:36:36.289Z",
+      "totalBytes": 154547
+    }
+  ],
+  "next_page_token_present": true,
+  "dataset_view": {
+    "id": 12999471,
+    "ref": "heliosli/casmi26-frigid-e1",
+    "subtitle": "Runnable public demo artifacts; original competition weights excluded",
+    "creatorName": "Heliosli",
+    "totalBytes": 1763756610,
+    "lastUpdated": "2026-11-16T06:36:32.820Z",
+    "downloadCount": 495,
+    "licenseName": "Other (specified in description)",
+    "description": "# Public demonstration artifacts: casmi26-frigid-e1\n\nThis version is an interface and execution demonstration. The original competition-trained weights are not included. It is not a reproduction package for the 0.494 leaderboard result and has no claimed leaderboard score.\n\nModel loaders, file names, tensor dimensions, candidate tables and upstream public assets are retained for compatibility. Private learned parameters are replaced with initialized demo weights (the joint ranker uses a synthetic fit). Self-tests validate this demo version only.\n\nPX reference scores embedded in notebooks must correspond to this demonstration version; updated fixtures are included in this dataset.\n\nOriginal license and upstream source notices continue to apply to the corresponding files.\n",
+    "ownerName": "Heliosli",
+    "ownerRef": "heliosli",
+    "kernelCount": 6,
+    "title": "casmi26-frigid-e1",
+    "viewCount": 16,
+    "voteCount": 1,
+    "currentVersionNumber": 2,
+    "usabilityRating": 0.5625,
+    "versions": [
+      {
+        "versionNumber": 2,
+        "creationDate": "2026-11-16T06:36:32.820Z",
+        "creatorName": "Heliosli",
+        "creatorRef": "casmi26-frigid-e1",
+        "versionNotes": "PUBLIC-DEMO-1116-R1: Runnable demonstration artifacts; original competition weights excluded. Not a reproduction of 0.494.",
+        "status": "Ready"
+      }
+    ],
+    "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-5.png-31141478/dataset-thumbnail.png"
+  },
+  "current_version_number": 2,
+  "is_private": false
+}

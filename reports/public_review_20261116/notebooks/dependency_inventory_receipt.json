@@ -1,0 +1,95 @@
+{
+  "checked_at_utc": "2026-11-16T15:20:41.771943+00:00",
+  "metadata": [
+    {
+      "ref": "heliosli/casmi26-0-494-public-demo",
+      "status": "saved_full_metadata"
+    },
+    {
+      "ref": "mathleteutd/casmi26-0-492-test-set-network-rerank",
+      "status": "saved_full_metadata"
+    },
+    {
+      "ref": "alexchilton/casmi26-0-492-what-moved-the-board-59-arms",
+      "status": "saved_full_metadata"
+    },
+    {
+      "ref": "rogersjohnson/casmi26-l4-lam035",
+      "status": "saved_full_metadata"
+    }
+  ],
+  "assets": [
+    {
+      "ref": "heliosli/casmi26-rr-v3",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 404
+    },
+    {
+      "ref": "heliosli/casmi26-denovo-v3",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 404
+    },
+    {
+      "ref": "heliosli/casmi26-frigid-e1",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 404
+    },
+    {
+      "ref": "heliosli/casmi26-joint-ranker",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 404
+    },
+    {
+      "ref": "heliosli/casmi26-pxv2-deploy",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 404
+    },
+    {
+      "ref": "heliosli/casmi26-rt-np",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 404
+    },
+    {
+      "ref": "sanpier/catalogue-experiment-saner",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 404
+    },
+    {
+      "ref": "metric/rdkit-2026-3-3-wheel",
+      "read_only": true,
+      "files_only": true,
+      "model_bytes_downloaded": 0,
+      "status": "failed",
+      "error_type": "HTTPError",
+      "http_status": 404
+    }
+  ]
+}

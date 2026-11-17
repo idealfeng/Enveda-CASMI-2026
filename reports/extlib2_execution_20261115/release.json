@@ -1,0 +1,19 @@
+{
+  "status": "released_disjoint_gate_pilot_and_frozen_holdout_inputs",
+  "training_data_root": "runs/extlib_gate_pilot_20261115_r2",
+  "holdout_data_root": "runs/extlib_gate_holdout48_20261115_r3",
+  "diagnostic_uncapped_holdout_data_root": "runs/extlib_gate_holdout48_20261115_r2",
+  "holdout_spectrum_cap": 3,
+  "holdout_gate_comparator_contract": "Both fixed cosine .8 and trained probability .9 use the same deterministic capped C winner; original AB context remains all spectra.",
+  "training_queries": 400,
+  "development_queries": 100,
+  "heldout_queries": 48,
+  "new_training_performed_by_this_agent": false,
+  "cloud_writes": false,
+  "evidence": {
+    "gate_pilot_verification.json": "c6b97f958d5e36afda2bb18c5a8ca4098e9ea56074a50e6822ca3143a9123789",
+    "gate_pilot_learning_data_review.json": "8ac1959b7e3b38970d614df3b45f7ec43d6a0b8894a52ce6c388eb26cc5903a3",
+    "gate_holdout48_verification.json": "3d4e91edf63ceec396b33330c1ab41ba57e5ddc8c9b2f48be2e3b0ed4ad039e6",
+    "gate_holdout48_capped_verification.json": "628298d22c53360110176443d0cca82179d329f895dfe3116e0fe0aa70dba990"
+  }
+}

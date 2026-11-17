@@ -1,0 +1,53 @@
+{
+  "status": "source_contract_review_completed_evaluator_syntax_blocker_repaired",
+  "date": "2026-11-16",
+  "review_scope": "source review and rejection fixtures only; no actual inference/evaluation",
+  "original_evaluator_sha256": "2cca287bf0d2c3a5f9bef5af5a8036407b9a570fb67e31ec7c571023df7b923f",
+  "final_evaluator_sha256": "79c409cd568fc7ae1571bb4d856cee831d48e5b38f65c83f92ea9576606ca261",
+  "unmodified_scorer_sha256": "a87b089cad27507161a6f4fe592e0e17c1f618ed44f27b1a65678cda6a93eae7",
+  "findings": [
+    {
+      "id": "EVAL-001",
+      "severity": "blocking",
+      "status": "fixed",
+      "problem": "Repeated top25 keyword made original evaluator syntactically invalid; boolean/list name collision also affected recall aggregation.",
+      "resolution": "Separate top25_hit from output list top25; update summary; validate actual submitted list with official first_correct_rank and reciprocal_rank."
+    },
+    {
+      "id": "EVAL-002",
+      "severity": "contract_hardening",
+      "status": "implemented",
+      "problem": "Original evaluator did not explicitly anchor immutable freeze/model/scorer hashes, config/source receipt file hashes, or fixed785 count.",
+      "resolution": "Pin declared model/scorer/freeze hashes and count; bind archived scorer/configuration/pre-inference source receipts; check complete common candidate rows before truth."
+    },
+    {
+      "id": "SCORE-001",
+      "severity": "reporting_constraint",
+      "status": "documented_no_scorer_edit",
+      "problem": "Traversal with null predictions may exit0 with completed_candidate_traversal_with_missing_predictions; exit0 does not prove complete inference.",
+      "resolution": "Evaluator refuses any incomplete status or missing/nonfinite score before opening truth; no zero imputation or query removal."
+    }
+  ],
+  "remaining_source_blockers": [],
+  "expected_queries": 8,
+  "expected_candidate_rows": 785,
+  "truth_or_actual_prediction_rows_opened_by_reviewer": false,
+  "models_executed_or_weights_opened_by_reviewer": false,
+  "actual_metric_computed_by_reviewer": false,
+  "fixed_candidate_set_preserved": true,
+  "missing_prediction_policy": "refuse entire evaluation before truth; no metric or zero imputation",
+  "official_metric_rdkit_version": "2026.03.3",
+  "official_metric_archive_sha256": "bf8535f01bf73268a52819b38e7f6b205e37ec127c268e48081b780a10b609dd",
+  "ranking_policy": "descending score, ascending original candidate_index ties; construct list with first valid official identity occurrence; cap25; verify rank/RR of actual output using official helper",
+  "native_spectral_rule": "forward fragment channels, raw>.001, both precursor channels removed, common observed precursor removal max(.01Da,100ppm), native adjacent-bin chaining .01Da, sqrt cosine",
+  "evidence": ["REVIEW.md", "validation.json"],
+  "operational_success_verified": false,
+  "new_public_score": null,
+  "champion_score_unchanged": 0.488,
+  "limitations": [
+    "Actual complete inference and real evaluator gate remain root-owned execution tasks.",
+    "No model, score, truth or actual ranking result inspected.",
+    "Third-party runtime binary fingerprints not independently verified.",
+    "Eight-query component development panel is not an independent holdout or champion full pipeline; MSnLib exposure unknown."
+  ]
+}

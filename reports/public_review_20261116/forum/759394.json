@@ -1,0 +1,27 @@
+{
+  "id": 759394,
+  "read_only": true,
+  "checked_at_utc": "2026-11-16T15:18:14.106487+00:00",
+  "topic": {
+    "id": 759394,
+    "title": "Submission Queued for 6 days ",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/759394",
+    "postDate": "2026-11-15T10:22:44.102Z",
+    "authorName": "OverfitOracle",
+    "authorUrl": "https://www.kaggle.com/alisalmanrana",
+    "votes": 1,
+    "commentCount": 1,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>Submission Queued for 6 days:</p>"
+  },
+  "comments": [
+    {
+      "id": 3555398,
+      "authorName": "Ángel Jacinto Sánchez Ruiz",
+      "postDate": "2026-11-15T17:18:05.020Z",
+      "content": "<p>That day they awarned about execution issues. Those submissions were automatically discarted from your daily quota. You could dismiss it since then.</p>"
+    }
+  ],
+  "comments_truncated": false
+}

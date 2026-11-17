@@ -5,6 +5,12 @@
 | 想找什么 | 去哪里 |
 | --- | --- |
 | 换窗口后快速接手，当前做到哪一步 | [当前交接状态](docs/CURRENT_STATUS.md) |
+| 11/17公开.492复现+优化 | [本轮说明](reports/public_network_20261117/EXPERIMENT.md)、[冻结清单](submission/public_network_20261117/manifest.json)；正式58455482/58455510均PENDING，官方原始状态在`reports/public_network_20261117/` |
+| 11/16 FIORA单版正式探索 | [本轮计划](reports/new_paradigm_20261116/SUBMISSION_PLAN.md)、[冻结清单](submission/optimization_20261116/manifest.json)、[组件实际执行](reports/new_paradigm_20261116/runtime_canary/REPORT.md)；云端原始状态见 `reports/optimization_20261116_fiora/` |
+| 11/16新基座排名：100题最终与下一步 | [完整结果与取舍](reports/new_paradigm_20261116/RESULTS_AND_NEXT.md)、[逐题评价](reports/new_paradigm_20261116/candidate_validation100/evaluation/REPORT.md)、[错误分解](reports/new_paradigm_20261116/ERROR_ANALYSIS.md)、[100/主92预声明](reports/new_paradigm_20261116/CANDIDATE100_EXPERIMENT.md) |
+| 11/15新信号实际执行 | [C审计/MIST失效/500步门控与留出](reports/execution_20261115/PROGRESS.md) |
+| 精确.488生产错误分解 | [三类隔离契约](reports/champion_error_decomposition_20261115/panel_contract_review.md)、[runner](scripts/run_champion_diagnostics_20261115.py)；未完成前不当分层指标 |
+| 跳出旧调参：独立新模型/直接结构生成 | [FIORA真实500步结果](reports/new_paradigm_20261115/TIMSTOF_500_RESULTS.md)、[研发决策](reports/new_paradigm_20261115/DECISION.md)、[源码级迁移依据](reports/new_paradigm_20261115/TIMSTOF_TRANSFER.md) |
 | 当前最高分、每次提升来自哪里 | [唯一提升账本](reports/improvement_ledger.json)、[易读版本](reports/IMPROVEMENT_LEDGER.md) |
 | 所有已提交方案，包括降分和错误 | [正式提交结果索引](docs/SUBMISSIONS.md) |
 | 走过哪些错路、哪些结论后来被推翻 | [经验与失败路线](docs/LESSONS.md) |

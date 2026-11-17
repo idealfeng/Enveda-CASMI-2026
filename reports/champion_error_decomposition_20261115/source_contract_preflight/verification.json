@@ -1,0 +1,57 @@
+{
+  "status": "passed_model_free_source_contracts",
+  "checks": {
+    "class1_generated_source_parses": true,
+    "class1_c3_static_semantics": true,
+    "class1_unrelated_static_kept": true,
+    "class1_AB_target_identity_mask": true,
+    "class1_AB_query_content_mask": true,
+    "class2_generated_source_parses": true,
+    "class2_c3_static_semantics": true,
+    "class2_unrelated_static_kept": true,
+    "class2_AB_target_identity_mask": true,
+    "class2_AB_query_content_mask": true,
+    "class3_generated_source_parses": true,
+    "class3_c3_static_semantics": true,
+    "class3_unrelated_static_kept": true,
+    "class3_AB_target_identity_mask": true,
+    "class3_AB_query_content_mask": true
+  },
+  "modes": [
+    {
+      "mode": "class1",
+      "sites": {
+        "reference_sites": 2,
+        "match_sites": 1
+      },
+      "patched_e2_sha256": "4c7ae5ce58be7b507ab39c9801913c99366940efdf4f608eb368b5dff0f2a84e",
+      "patched_pc_sha256": "b35ca76d33f1e41a6763038fbbdce4ca3758dc7f4341f9995c327a79b5799257",
+      "patched_outer20_sha256": "49532cd5e6a990dadd6126353eccb4dc90b675cb32a55c68520fc2f80ff73f18"
+    },
+    {
+      "mode": "class2",
+      "sites": {
+        "reference_sites": 2,
+        "match_sites": 1
+      },
+      "patched_e2_sha256": "f0a6304af4ac56c34667dc3a22ee672d380af31608aa2baf8df6ed24f6600941",
+      "patched_pc_sha256": "792f7bfeb7f5b6cdb0d11e558ec0102a534256fa734da6d8d4542d783dbd034d",
+      "patched_outer20_sha256": "49532cd5e6a990dadd6126353eccb4dc90b675cb32a55c68520fc2f80ff73f18"
+    },
+    {
+      "mode": "class3",
+      "sites": {
+        "reference_sites": 2,
+        "match_sites": 1
+      },
+      "patched_e2_sha256": "78c6d3bc273efd4a90bc1cb73e00431b0f53e9bb057f68bd009c3d8c3726c5b4",
+      "patched_pc_sha256": "60b22f2cefc67891c04542a8800e399250a6a82f4d9a73e12383faf8dcf1e2a6",
+      "patched_outer20_sha256": "f9007c6806dce9a19ca044a3cde692358131216d6e52e28a7111768d2ce28955"
+    }
+  ],
+  "source_script_sha256": "366c423f7888036223aeaa84214c748ee1b9b9858bbd572ed41fb4af0d3bf221",
+  "model_execution": false,
+  "actual_library_initialization": false,
+  "full_production_execution": false,
+  "boundary": "Generated real-source marker/AST checks and reference predicate checks only. No model or full Library/index initialization; runtime completion must be checked by canary."
+}

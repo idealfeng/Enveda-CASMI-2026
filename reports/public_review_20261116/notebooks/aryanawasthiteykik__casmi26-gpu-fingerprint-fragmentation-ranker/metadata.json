@@ -1,0 +1,32 @@
+{
+  "id": 138665890,
+  "ref": "aryanawasthiteykik/casmi26-gpu-fingerprint-fragmentation-ranker",
+  "title": "CASMI26: GPU Fingerprint + Fragmentation Ranker",
+  "current_version_number": 1,
+  "last_run_time": "2026-11-13 15:19:06.794000",
+  "total_votes": 3,
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_data_sources": [
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "aryanawasthiteykik/casmi26-spectrum-to-fingerprint-mlp",
+    "ahmedberatozer/casmi26-pubchem-tier",
+    "prvsiyan/coconut-casmi26-candidates",
+    "metric/rdkit-2026-3-3-wheel"
+  ],
+  "kernel_data_sources": [
+    "aryanawasthiteykik/casmi26-gpu-training-fingerprint-v3-ranker"
+  ],
+  "competition_data_sources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "model_data_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:81b1e7c4b4f0f2a7e0a33943c95754b1b7af6b30d65221633a284b6b601cd84a",
+  "machine_shape": "None",
+  "status": "downloaded",
+  "source_sha256": "117a1a4e0c551b753f00ca823fa959bf2d351ba020591a0cd5925e5f33fcdbc1",
+  "source_bytes": 11611,
+  "source_path": "reports/public_review_20261116/notebooks/aryanawasthiteykik__casmi26-gpu-fingerprint-fragmentation-ranker/source.ipynb",
+  "execution_performed": false
+}

@@ -1,0 +1,8 @@
+{
+  "status": "prepared_no_network_writes",
+  "target": "stormseye/casmi26-rogers0492-repro-1117",
+  "notebook_sha256": "5921fe5b86cc995e779df4eac49ea0a84942bedc8e8bcaf15c6b1b6e99aca135",
+  "recipe_sha256": "b8c7b3394eaebf074cf39566f53703bd2eccfe6283bf89aa751f5d98b6246634",
+  "upstream_source_sha256": "51c32f200c265fff08bfa4a9841cb6345d1f56515dcd72e254df8da53e07ae99",
+  "full_pipeline_local_validation": false
+}

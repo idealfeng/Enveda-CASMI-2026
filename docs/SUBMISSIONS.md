@@ -1,6 +1,6 @@
 # 正式提交结果索引
 
-生成时间（UTC）：2026-11-15T03:29:44.644142+00:00。数据来自已保存的官方读回快照；此脚本不联网，PENDING不是零分，ERROR不是有效分。
+生成时间（UTC）：2026-11-17T04:15:56.346842+00:00。数据来自已保存的官方读回快照；此脚本不联网，PENDING不是零分，ERROR不是有效分。
 
 本表包含已确认提交编号，不包含只创建Notebook但未正式提交的草稿。来源与参数解释见 [失败与经验](LESSONS.md) 和 [实验路线](EXPERIMENTS.md)。
 
@@ -47,5 +47,8 @@
 | 58335047 | stormseye/casmi26-dual-evidence-agreement-1114 | COMPLETE | 0.449 | 2026-11-15T03:20:16.042054+00:00 | [快照](../reports/optimization_20261114/dual_evidence_agreement/score.json) |
 | 58341597 | stormseye/casmi26-mean-prefix1-ab-1114 | COMPLETE | 0.470 | 2026-11-15T03:20:12.367336+00:00 | [快照](../reports/optimization_20261114/mean_prefix1_ab/score.json) |
 | 58341606 | stormseye/casmi26-library-consensus-early-1114 | COMPLETE | 0.488 | 2026-11-15T03:20:16.939762+00:00 | [快照](../reports/optimization_20261114/library_consensus_early/score.json) |
+| 58435031 | stormseye/casmi26-fiora-tims500-isomers-1116 | COMPLETE | 0.285 | 2026-11-17T03:57:01.309169+00:00 | [快照](../reports/optimization_20261116_fiora/fiora_tims500_fullslots/score.json) |
+| 58455482 | stormseye/casmi26-rogers0492-reproduction-1117 | PENDING | — | 2026-11-17T04:13:46.459898+00:00 | [快照](../reports/public_network_20261117/rogers_repro/score.json) |
+| 58455510 | stormseye/casmi26-champion-network-before-ab-1117 | PENDING | — | 2026-11-17T04:13:48.043628+00:00 | [快照](../reports/public_network_20261117/champion_network/score.json) |
 
 唯一提升账本：[improvement_ledger.json](../reports/improvement_ledger.json)；本索引不会修改它或推断Private收益。

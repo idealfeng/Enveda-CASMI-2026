@@ -1,0 +1,19 @@
+{
+  "id": 759398,
+  "read_only": true,
+  "checked_at_utc": "2026-11-16T15:18:14.105487+00:00",
+  "topic": {
+    "id": 759398,
+    "title": "Notebooks getting queued. Although GPU is available",
+    "url": "/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/759398",
+    "postDate": "2026-11-15T10:53:51.762Z",
+    "authorName": "JamshaidSohail",
+    "authorUrl": "https://www.kaggle.com/jamshaidsohail5",
+    "votes": 1,
+    "forumName": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "forumId": 11293906,
+    "content": "<p>Hi. My notebooks are getting queued, although I have the GPU available. Is anyone else also facing the same issue?</p>"
+  },
+  "comments": [],
+  "comments_truncated": false
+}

@@ -1,0 +1,122 @@
+{
+  "ref": "popwenman/casmi26-scorer-train-v80",
+  "current_version_number": 1,
+  "checked_at_utc": "2026-11-16T15:24:25.546802+00:00",
+  "files": [
+    {
+      "file_name": "casmi_spectrum_model_ours_v80/best_validation_model.pt"
+    },
+    {
+      "file_name": "casmi_spectrum_model_ours_v80/config_used.json"
+    },
+    {
+      "file_name": "casmi_spectrum_model_ours_v80/data_audit.json"
+    },
+    {
+      "file_name": "casmi_spectrum_model_ours_v80/features.py"
+    },
+    {
+      "file_name": "casmi_spectrum_model_ours_v80/final_model.pt"
+    },
+    {
+      "file_name": "casmi_spectrum_model_ours_v80/last_validation_model.pt"
+    },
+    {
+      "file_name": "casmi_spectrum_model_ours_v80/model.py"
+    },
+    {
+      "file_name": "casmi_spectrum_model_ours_v80/refit_history.json"
+    },
+    {
+      "file_name": "casmi_spectrum_model_ours_v80/training_history.json"
+    },
+    {
+      "file_name": "casmi_spectrum_model_ours_v80/training_result.json"
+    },
+    {
+      "file_name": "casmi_spectrum_model_ours_v80/validation_candidates.npz"
+    },
+    {
+      "file_name": "casmi_spectrum_model_ours_v80/validation_predictions.csv"
+    },
+    {
+      "file_name": "kit_staged/README.txt"
+    },
+    {
+      "file_name": "kit_staged/__pycache__/features.cpython-313.pyc"
+    },
+    {
+      "file_name": "kit_staged/__pycache__/model.cpython-313.pyc"
+    },
+    {
+      "file_name": "kit_staged/__pycache__/prepare.cpython-313.pyc"
+    },
+    {
+      "file_name": "kit_staged/__pycache__/train.cpython-313.pyc"
+    },
+    {
+      "file_name": "kit_staged/best_validation_model.pt"
+    },
+    {
+      "file_name": "kit_staged/config.json"
+    },
+    {
+      "file_name": "kit_staged/data_audit.json"
+    },
+    {
+      "file_name": "kit_staged/environment.json"
+    },
+    {
+      "file_name": "kit_staged/features.py"
+    },
+    {
+      "file_name": "kit_staged/final_model.pt"
+    },
+    {
+      "file_name": "kit_staged/inference.py"
+    },
+    {
+      "file_name": "kit_staged/last_validation_model.pt"
+    },
+    {
+      "file_name": "kit_staged/model.py"
+    },
+    {
+      "file_name": "kit_staged/molecules.parquet"
+    },
+    {
+      "file_name": "kit_staged/prepare.py"
+    },
+    {
+      "file_name": "kit_staged/refit_history.json"
+    },
+    {
+      "file_name": "kit_staged/runtime_test.py"
+    },
+    {
+      "file_name": "kit_staged/sha256.json"
+    },
+    {
+      "file_name": "kit_staged/spectrum_split_manifest.parquet"
+    },
+    {
+      "file_name": "kit_staged/train.py"
+    },
+    {
+      "file_name": "kit_staged/training_history.json"
+    },
+    {
+      "file_name": "kit_staged/training_result.json"
+    },
+    {
+      "file_name": "kit_staged/validation_candidates.npz"
+    },
+    {
+      "file_name": "kit_staged/validation_predictions.csv"
+    }
+  ],
+  "complete": true,
+  "signed_urls_persisted": false,
+  "weights_downloaded": false,
+  "read_only": true
+}

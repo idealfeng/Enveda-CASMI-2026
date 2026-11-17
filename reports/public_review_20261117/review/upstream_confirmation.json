@@ -1,0 +1,43 @@
+{
+  "status": "passed_source_parameter_confirmation",
+  "external_network_requests": false,
+  "source_execution_performed": false,
+  "sources": {
+    "rogers": {
+      "source_sha256": "51c32f200c265fff08bfa4a9841cb6345d1f56515dcd72e254df8da53e07ae99",
+      "network_cell": 24,
+      "cell_sha256": "07b58a85e39322c25c221c1213fbf099ef11a102de25b8269307e32eda59bc22",
+      "effective_LAM": 0.35,
+      "effective_TAU": 0.6,
+      "model_swap_cells": [
+        15
+      ],
+      "source_compiles": true
+    },
+    "mathlete": {
+      "source_sha256": "75fdf3f700b65d880952292755d713035f04d65a4431f98b022fb6bef652671e",
+      "network_cell": 21,
+      "cell_sha256": "5b005eb4592a0404230da07c6df0348d7e5b5d55508f4231a70ef501a40893bc",
+      "effective_LAM": 0.35,
+      "effective_TAU": 0.6,
+      "model_swap_cells": [
+        12
+      ],
+      "source_compiles": true
+    },
+    "alex": {
+      "source_sha256": "fac7dca7b3bab658b92113e27dcd914140c5f00219a5be607adb1306aa78c9e9",
+      "network_cell": 18,
+      "cell_sha256": "07b58a85e39322c25c221c1213fbf099ef11a102de25b8269307e32eda59bc22",
+      "effective_LAM": 0.35,
+      "effective_TAU": 0.6,
+      "model_swap_cells": [
+        9
+      ],
+      "source_compiles": true
+    }
+  },
+  "canonical_function_normalized_utf8_sha256": "33153de76fccebe4ed2325bea7649573219e4cfb964483cd5c335ac7dc7e93b8",
+  "canonical_function_raw_CRLF_sha256": "da55c84b46a3a26fcccd9a292ed4892a62d3f50a3f07ce38bc072978a0e57822",
+  "function_hash_boundary": "The extracted source file is CRLF on disk. Python read_text normalizes to LF; the declared33153 pin binds normalized UTF8 source, not raw disk bytes."
+}

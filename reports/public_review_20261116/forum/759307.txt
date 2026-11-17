@@ -1,0 +1,50 @@
+ SpectralHybridEncoder (Div/Mul Chains + Metadata Tails): Public LB 0.057 → 0.089
+
+https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/759307
+
+Author: Arsenii Shabrov Nikolaevich
+
+Posted: 2026-11-14T20:49:27.758Z
+
+Hi everyone!
+
+I wanted to share a lightweight, custom PyTorch architecture I've been experimenting with for MS2 spectral retrieval, along with a fast baseline notebook that runs end-to-end in ~2 minutes on GPU without internet access.
+
+💡 Core Architectural Ideas
+
+Instead of standard additive MLP layers or heavy transformers, SpectralHybridEncoder combines two custom inductive biases tailored to mass spectrometry:
+
+
+Parallel Division-Multiplication Chains (ParallelDivMulChainLayer):
+Fragment $m/z$ ratios, neutral losses, and precursor_mz relationships carry strong physical structure. Rather than mixing all features into a single dot product, this layer routes features through 16 isolated parallel paths, each computing a rational interaction:
+$$y_k = \tanh\left(\tanh\left(\frac{u_{k,1}}{\text{safe}(u_{k,2})}\right) \cdot u_{k,3} + b_k\right)$$
+paired with a residual skip-connection from the raw spectral features.
+
+
+Topological Metadata Tails & Shared "Non-Neuron" (SharedNonNeuron):
+MS2 spectra vary heavily in peak density (num_peaks from a few peaks to 100+). Every sample carries a dynamic metadata tail tracking exact num_peaks, precursor_mz, and total intensity. A single shared Non-Neuron micro-network reads both layer statistics (mean, max, min) and the log-scaled tail to modulate fragment embeddings based on spectral richness.
+
+
+
+📈 Iterative Progress on Public LB
+
+
+v1 (0.057): 16 peaks, 20k training pairs, broad mass window (±0.05 Da), no adduct filtering.
+
+v2 (0.089): 32 peaks + pairwise top-fragment mass differences, 120k paired inchikey14 spectra (CLIP-style symmetric contrastive loss), tight mass window (±0.015 Da), exact adduct matching, and multi-spectrum score aggregation per molecule_id.
+
+
+🔗 Links & Further Exploration
+
+
+Competition Notebook: [https://www.kaggle.com/code/arsenii228/notebook4e97b36fc1?scriptVersionId=369654565]
+
+Other Experimental Architectures: If you enjoy exploring unconventional neural blocks (such as game-theoretic reputation layers, local predictive echo neurons, or dynamic metadata tails), feel free to browse the other public notebooks on my profile: [https://www.kaggle.com/arsenii228]
+
+
+❓ Questions for the Community
+
+
+Since pure library retrieval from train.parquet hits a natural ceiling on unseen de novo test structures, what is the cleanest way to pair a lightweight spectral encoder like this with a Morgan Fingerprint / Tanimoto predictor or external formula/structure candidate set?
+
+Any feedback, critiques, or ideas on improving rational mass-ratio layers for MS2 data are very welcome!
